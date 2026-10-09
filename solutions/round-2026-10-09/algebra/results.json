@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-09",
+  "base_commit": "8967f4f70776856b3dfc0b2494ed73167b15ee0c",
+  "results": [
+    {
+      "question": "Q3236",
+      "statement_id": "b29f1dd8dbc4d8a86935",
+      "status": "proposed-full-proof",
+      "result": "The actual infimum sum quasinorm of two rearrangement-invariant Fatou quasi-Banach function spaces is rearrangement invariant and has the exact Fatou property.",
+      "scope": "Sigma-finite resonant measure spaces, including nonatomic spaces and completely atomic spaces with equal atom masses.",
+      "proof_file": "Q3236-proof.md",
+      "verification": "Complete analytical argument plus exact checks of an auxiliary non-attainment example.",
+      "remaining_gap": "No gap identified by the separate internal AI review. External mathematical review and historical-priority assessment remain outstanding.",
+      "primary_source": "https://arxiv.org/html/2508.10825v2",
+      "primary_location": "Definition 1.1 and Section 1.2",
+      "literature_checked": [
+        "https://arxiv.org/abs/2508.10825",
+        "https://arxiv.org/abs/2606.25419",
+        "https://arxiv.org/pdf/2608.05907"
+      ],
+      "prior_repo_result": "No exact Q3236 solution found at the base commit."
+    },
+    {
+      "question": "Q3454",
+      "statement_id": "ab204f67430d9a4b855d",
+      "status": "partial-theorem",
+      "result": "If the corresponding source projections commute and the corresponding range projections commute, then M||a-b||<1 forces equality of supports and ||b^dagger-a^dagger||<=||b^dagger||||a^dagger||||a-b||.",
+      "scope": "Any complex unital Banach algebra with norm-one unit, subject to the stated two pairwise commutation relations; M=max(||a^dagger||,||b^dagger||).",
+      "proof_file": "Q3454-proof.md",
+      "verification": "Direct normed-algebra proof; six exact rational matrix examples and one sharp-threshold scalar example.",
+      "remaining_gap": "The unrestricted noncommuting-support conjecture remains unresolved; strict separation of global algebra classes is not asserted.",
+      "primary_source": "https://arxiv.org/html/2506.09563v1",
+      "primary_location": "Conjecture 2.22, Theorem 2.23, Remark 2.24, Theorem 2.25",
+      "literature_checked": [
+        "https://arxiv.org/abs/2506.09563"
+      ],
+      "prior_repo_result": "No exact Q3454 solution found at the base commit."
+    }
+  ],
+  "supplementary_checker": "verify_results.py",
+  "supplementary_output": "verification.json",
+  "all_computational_checks_passed": true,
+  "novelty_certified": false,
+  "integration_manifest": "../RESULTS.json"
+}

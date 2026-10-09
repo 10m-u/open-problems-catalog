@@ -1,6 +1,6 @@
 # Noncooperative Games & Equilibrium Theory
 
-4 problems: 4 open.
+4 problems: 3 open, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -9,7 +9,7 @@
 | [Q219](noncooperative-games-equilibrium-theory.md#q219) | Over an algebraically closed field \$K\$ of characteristic zero, let \$H_{d,n}\$ sen… | Open |
 | [Q220](noncooperative-games-equilibrium-theory.md#q220) | For a graph consisting of two disjoint edges and any number of isolated vertices… | Open |
 | [Q221](noncooperative-games-equilibrium-theory.md#q221) | Determine the Euclidean distance degree of V(X,G), for generic binary-game payof… | Open |
-| [Q291](noncooperative-games-equilibrium-theory.md#q291) | For each integer m ≥ 2, consider this symmetric m-player three-action game. Rock… | Open |
+| [Q291](noncooperative-games-equilibrium-theory.md#q291) | For each integer m ≥ 2, consider this symmetric m-player three-action game. Rock… | Solved here: proved |
 
 <a id="q219"></a>
 
@@ -60,7 +60,7 @@ Determine the Euclidean distance degree of V(X,G), for generic binary-game payof
 
 ## Q291. For each integer m ≥ 2, consider this symmetric m-player three-action game. Rock…
 
-**Status:** Open · **Kind:** conjecture (Conjecture 5.7.6) · **Collection** 3
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 5.7.6) · **Collection** 3
 
 For each integer m ≥ 2, consider this symmetric m-player three-action game. Rock wins whenever rock and scissors are both present; otherwise paper wins when both paper and rock are present, and scissors wins when both scissors and paper are present. If everyone chooses the same action, that action wins. With k players choosing the winning action, each receives m/k − 1 and everyone else receives −1. Must every mixed-strategy Nash equilibrium have at least two players assigning positive probability to scissors?
 
@@ -70,3 +70,6 @@ For each integer m ≥ 2, consider this symmetric m-player three-action game. Ro
 
 **Further links.** [1](https://arxiv.org/abs/2511.13736) · [2](https://arxiv.org/pdf/2511.13736)
 
+**Result (2026-10-09).** Every mixed Nash equilibrium of the source three-action imbalanced rock-paper-scissors game has at least two players assigning positive probability to scissors, for every integer m>=2. Exact three-action game; no claim for the source's larger blown-up action spaces.
+
+[Proof](../../solutions/round-2026-10-09/games/Q0291.md) · [Internal review](../../solutions/round-2026-10-09/discrete/review-Q291.md) · [Exact computational controls](../../solutions/round-2026-10-09/games/q0291-checks.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.

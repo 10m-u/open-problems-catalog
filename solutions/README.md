@@ -19,3 +19,4 @@ Each folder holds one round of work: the original report or proof, its statement
 | [b9-2026-10-08](b9-2026-10-08/README.md) | B9: games with exact strategy and balance targets | 12 | 4 |
 | [packet-2026-10-05](packet-2026-10-05/README.md) | Packet results on evidence, decision and inference questions (Collections 5-11) | 15 | 7 |
 | [catalog-research](catalog-research/README.md) | Proofs, counterexamples and checks on thesis statements | 20 | 7 |
+| [round-2026-10-09](round-2026-10-09/README.md) | Ten problems: five affirmative proofs, two counterexamples, two hardness results and one partial theorem | 10 | 7 |

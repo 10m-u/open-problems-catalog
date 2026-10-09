@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-09",
+  "arithmetic": "Python fractions.Fraction only",
+  "scope": "Supplementary exact examples; general theorems proved analytically.",
+  "Q3236": {
+    "tested_n": [
+      1,
+      128
+    ],
+    "cases_checked": 128,
+    "formula": "N(a_n)=1; N(b_n)=1+1/(2n)",
+    "sample_cases": [
+      {
+        "n": 1,
+        "N_a_n": "1",
+        "N_b_n": "3/2",
+        "total_cost": "5/2"
+      },
+      {
+        "n": 2,
+        "N_a_n": "1",
+        "N_b_n": "5/4",
+        "total_cost": "9/4"
+      },
+      {
+        "n": 4,
+        "N_a_n": "1",
+        "N_b_n": "9/8",
+        "total_cost": "17/8"
+      },
+      {
+        "n": 8,
+        "N_a_n": "1",
+        "N_b_n": "17/16",
+        "total_cost": "33/16"
+      },
+      {
+        "n": 16,
+        "N_a_n": "1",
+        "N_b_n": "33/32",
+        "total_cost": "65/32"
+      },
+      {
+        "n": 32,
+        "N_a_n": "1",
+        "N_b_n": "65/64",
+        "total_cost": "129/64"
+      },
+      {
+        "n": 64,
+        "N_a_n": "1",
+        "N_b_n": "129/128",
+        "total_cost": "257/128"
+      },
+      {
+        "n": 128,
+        "N_a_n": "1",
+        "N_b_n": "257/256",
+        "total_cost": "513/256"
+      }
+    ],
+    "integral_lower_bound": "(5/2)/(5/4)=2",
+    "attainment": "Disproved by the analytic distribution argument in Q3236-proof.md"
+  },
+  "Q3454": {
+    "same_support_matrix_cases": [
+      {
+        "perturbation": "1/4",
+        "M_epsilon": "3/4",
+        "inverse_difference_norm": "35/29",
+        "proved_bound": "39/29"
+      },
+      {
+        "perturbation": "1/5",
+        "M_epsilon": "3/5",
+        "inverse_difference_norm": "43/41",
+        "proved_bound": "48/41"
+      },
+      {
+        "perturbation": "1/10",
+        "M_epsilon": "3/10",
+        "inverse_difference_norm": "83/131",
+        "proved_bound": "93/131"
+      },
+      {
+        "perturbation": "1/20",
+        "M_epsilon": "3/20",
+        "inverse_difference_norm": "163/461",
+        "proved_bound": "183/461"
+      },
+      {
+        "perturbation": "1/100",
+        "M_epsilon": "3/100",
+        "inverse_difference_norm": "803/10301",
+        "proved_bound": "903/10301"
+      },
+      {
+        "perturbation": "1/1000",
+        "M_epsilon": "3/1000",
+        "inverse_difference_norm": "8003/1003001",
+        "proved_bound": "9003/1003001"
+      }
+    ],
+    "sharp_threshold_scalar": {
+      "a": "0",
+      "b": "3/7",
+      "M_epsilon": "1",
+      "source_and_range_supports_differ": true
+    }
+  },
+  "all_checks_passed": true
+}

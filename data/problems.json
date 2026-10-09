@@ -2339,7 +2339,7 @@
  {
   "number": 56,
   "title": "Let C=R+S∈(ℝ^(n))^(⊗k), where R has fixed CP rank and is given in factored form,…",
-  "status": "open",
+  "status": "partial",
   "kind": "open-problem",
   "label": null,
   "collection": 1,
@@ -2373,8 +2373,35 @@
    "1e7fa1256a0d787a7ffe"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: hardness theorem; conditional algorithmic consequence",
+    "scope": "NP-hardness already at CP rank at most two, mode size two, zero sparse term and positive bounded rational factors. A deterministic algorithm with the requested logarithmic precision dependence would imply P=NP in the binary rational-input model. The same construction gives a uniform-marginal MOT hardness corollary. Limits: The hardness theorem is unconditional. The negative algorithmic conclusion is conditional on P != NP; no complexity-class separation is proved.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/optimization/Q0056.md",
+    "review": "solutions/round-2026-10-09/algebra/review-Q0056.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q56",
+    "status": "partial",
+    "scope": "hardness",
+    "title": "High-precision low-rank tensor optimization",
+    "note": "NP-hardness already at CP rank at most two, mode size two, zero sparse term and positive bounded rational factors. A deterministic algorithm with the requested logarithmic precision dependence would imply P=NP in the binary rational-input model. The same construction gives a uniform-marginal MOT hardness corollary. Limits: The hardness theorem is unconditional. The negative algorithmic conclusion is conditional on P != NP; no complexity-class separation is proved. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/optimization/Q0056.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/algebra/review-Q0056.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -8081,7 +8108,7 @@
  {
   "number": 192,
   "title": "For independent standard Brownian motions B¹, B² starting at zero, condition on …",
-  "status": "open",
+  "status": "proved",
   "kind": "conjecture",
   "label": "Conjecture 4.2.3",
   "collection": 2,
@@ -8117,8 +8144,35 @@
   "duplicate_of": [
    "11a52318057a76bc65a4"
   ],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: proposed full proof",
+    "scope": "Under the canonical density disintegration, the Brownian path conditioned on one power integral being zero converges to the zero path in the uniform topology. Every fixed-radius escape probability decays faster than any prescribed exponential in the power. Limits: Exact single-integral question only; the full-signature and comparison questions Q191 and Q193 remain unresolved.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/probability/Q192-brownian-power-conditioning.md",
+    "review": "solutions/round-2026-10-09/discrete/review-Q192.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q192",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Brownian power-integral conditioning",
+    "note": "Under the canonical density disintegration, the Brownian path conditioned on one power integral being zero converges to the zero path in the uniform topology. Every fixed-radius escape probability decays faster than any prescribed exponential in the power. Limits: Exact single-integral question only; the full-signature and comparison questions Q191 and Q193 remain unresolved. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/probability/Q192-brownian-power-conditioning.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/discrete/review-Q192.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -11372,7 +11426,7 @@
  {
   "number": 270,
   "title": "Take two copies of $T_n$, the tournament on $\\{1,\\ldots,n\\}$ with arc $i\\to j$ e…",
-  "status": "open",
+  "status": "proved",
   "kind": "conjecture",
   "label": "Conjecture 6.6.4",
   "collection": 3,
@@ -11407,8 +11461,35 @@
    "f39ca60cf2a1ab109d22"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: proposed full proof",
+    "scope": "The independent-edge, bidirectional-vertical bunkbed inequality holds for every transitive tournament. The proof allows any common horizontal retention probability and independent vertex-dependent vertical probabilities; at probability one half the gap for u<v is at least 2^(-(v-u+2)). Limits: Transitive tournaments and the stated independent-edge model. Arbitrary acyclic graphs and conditioned paired-edge models are outside the result.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/probability/Q270-transitive-tournament-bunkbed.md",
+    "review": "solutions/round-2026-10-09/discrete/review-Q270.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q270",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Bunkbed inequality for transitive tournaments",
+    "note": "The independent-edge, bidirectional-vertical bunkbed inequality holds for every transitive tournament. The proof allows any common horizontal retention probability and independent vertex-dependent vertical probabilities; at probability one half the gap for u<v is at least 2^(-(v-u+2)). Limits: Transitive tournaments and the stated independent-edge model. Arbitrary acyclic graphs and conditioned paired-edge models are outside the result. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/probability/Q270-transitive-tournament-bunkbed.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/discrete/review-Q270.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -12254,7 +12335,7 @@
  {
   "number": 291,
   "title": "For each integer m ≥ 2, consider this symmetric m-player three-action game. Rock…",
-  "status": "open",
+  "status": "proved",
   "kind": "conjecture",
   "label": "Conjecture 5.7.6",
   "collection": 3,
@@ -12288,8 +12369,35 @@
    "29c5132bba37de7c10bb"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: proposed full proof",
+    "scope": "Every mixed Nash equilibrium of the source three-action imbalanced rock-paper-scissors game has at least two players assigning positive probability to scissors, for every integer m>=2. Limits: Exact three-action game; no claim for the source's larger blown-up action spaces.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/games/Q0291.md",
+    "review": "solutions/round-2026-10-09/discrete/review-Q291.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q291",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Scissors support in multiplayer equilibrium",
+    "note": "Every mixed Nash equilibrium of the source three-action imbalanced rock-paper-scissors game has at least two players assigning positive probability to scissors, for every integer m>=2. Limits: Exact three-action game; no claim for the source's larger blown-up action spaces. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/games/Q0291.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/discrete/review-Q291.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -45199,7 +45307,7 @@
  {
   "number": 1060,
   "title": "Negative-correlation minimizers under uncertain participation",
-  "status": "open",
+  "status": "disproved",
   "kind": "open-problem",
   "label": null,
   "collection": 11,
@@ -45232,8 +45340,35 @@
    "4d82658a1e2ba1de0bf1"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "disproved",
+    "label": "2026-10-09: proposed counterexample",
+    "scope": "Four explicit bounded, centered, two-point marginals have unrestricted minimum 16 and minimum 920/57 under pairwise nonpositive covariances. Every unrestricted minimizer has Cov(X2,X3)>=1/2. Nondegenerate counterexamples extend to every n>=4. Limits: The quadratic objective is the maximum over all subsets with the exact heterogeneous marginals in the report. Both optima have rational certificates.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/probability/Q1060-negative-covariance-counterexample.md",
+    "review": "solutions/round-2026-10-09/algebra/review-Q1060.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q1060",
+    "status": "disproved",
+    "scope": "statement",
+    "title": "Negative-covariance minimizers",
+    "note": "Four explicit bounded, centered, two-point marginals have unrestricted minimum 16 and minimum 920/57 under pairwise nonpositive covariances. Every unrestricted minimizer has Cov(X2,X3)>=1/2. Nondegenerate counterexamples extend to every n>=4. Limits: The quadratic objective is the maximum over all subsets with the exact heterogeneous marginals in the report. Both optima have rational certificates. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/probability/Q1060-negative-covariance-counterexample.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/algebra/review-Q1060.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -70718,7 +70853,7 @@
  {
   "number": 1653,
   "title": "Realize unbounded factorial-language complexity",
-  "status": "open",
+  "status": "disproved",
   "kind": "conjecture",
   "label": "Conjecture 6.36",
   "collection": 17,
@@ -70753,8 +70888,35 @@
    "0de54e16abbc1cf624a1"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "disproved",
+    "label": "2026-10-09: proposed counterexample",
+    "scope": "The factor-closed language 0*1* union {10} has complexity 2,4,4,5,6,... . A plateau in recurrent-factor complexity must persist, so no infinite binary word has this complexity at every length. Limits: Disproves the exact all-length equality in Conjecture 6.36; no claim about eventual equality or separate permutation-class growth-rate conjectures.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/discrete/Q1653-recurrent-complexity-counterexample.md",
+    "review": "solutions/round-2026-10-09/reviews/root-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q1653",
+    "status": "disproved",
+    "scope": "statement",
+    "title": "Realizing factorial-language complexity",
+    "note": "The factor-closed language 0*1* union {10} has complexity 2,4,4,5,6,... . A plateau in recurrent-factor complexity must persist, so no infinite binary word has this complexity at every length. Limits: Disproves the exact all-length equality in Conjecture 6.36; no claim about eventual equality or separate permutation-class growth-rate conjectures. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/discrete/Q1653-recurrent-complexity-counterexample.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/reviews/root-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -138358,7 +138520,7 @@
  {
   "number": 3236,
   "title": "Exact invariance and Fatou properties of sum quasinorms",
-  "status": "open",
+  "status": "proved",
   "kind": "open-problem",
   "label": null,
   "collection": 33,
@@ -138393,8 +138555,35 @@
    "b29f1dd8dbc4d8a86935"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: proposed full proof",
+    "scope": "The actual infimum sum quasinorm of the source rearrangement-invariant Fatou quasi-Banach function spaces is exactly rearrangement invariant and has the exact Fatou property on every sigma-finite resonant measure space. Limits: Full source scope, including infinite measure and equal-mass atomic spaces. Attainment is not needed; an auxiliary example shows it can fail on a nonatomic space.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/algebra/Q3236-proof.md",
+    "review": "solutions/round-2026-10-09/reviews/root-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q3236",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Exact Fatou and invariance of sum quasinorms",
+    "note": "The actual infimum sum quasinorm of the source rearrangement-invariant Fatou quasi-Banach function spaces is exactly rearrangement invariant and has the exact Fatou property on every sigma-finite resonant measure space. Limits: Full source scope, including infinite measure and equal-mass atomic spaces. Attainment is not needed; an auxiliary example shows it can fail on a nonatomic space. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/algebra/Q3236-proof.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/reviews/root-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -147427,7 +147616,7 @@
  {
   "number": 3454,
   "title": "Norm continuity of Moore–Penrose inversion",
-  "status": "open",
+  "status": "partial",
   "kind": "conjecture",
   "label": "Conjecture 2.22",
   "collection": 35,
@@ -147460,8 +147649,35 @@
    "ab204f67430d9a4b855d"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "partial",
+    "label": "2026-10-09: partial theorem",
+    "scope": "When corresponding initial support idempotents commute and corresponding final support idempotents commute, M||a-b||<1 forces equal supports and ||b^dagger-a^dagger|| <= ||b^dagger||||a^dagger||||a-b||, where M=max(||a^dagger||,||b^dagger||). Limits: The unrestricted noncommuting-support conjecture remains open. The result removes the ultrahermitian assumption in the specified commuting setting; strict separation of algebra classes is not claimed.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/algebra/Q3454-proof.md",
+    "review": "solutions/round-2026-10-09/reviews/root-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q3454",
+    "status": "partial",
+    "scope": "partial",
+    "title": "Continuity of Moore-Penrose inversion",
+    "note": "When corresponding initial support idempotents commute and corresponding final support idempotents commute, M||a-b||<1 forces equal supports and ||b^dagger-a^dagger|| <= ||b^dagger||||a^dagger||||a-b||, where M=max(||a^dagger||,||b^dagger||). Limits: The unrestricted noncommuting-support conjecture remains open. The result removes the ultrahermitian assumption in the specified commuting setting; strict separation of algebra classes is not claimed. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/algebra/Q3454-proof.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/reviews/root-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -148830,7 +149046,7 @@
  {
   "number": 3489,
   "title": "Exact connected-set evaluation at minus two",
-  "status": "open",
+  "status": "partial",
   "kind": "open-problem",
   "label": null,
   "collection": 35,
@@ -148863,8 +149079,35 @@
    "bbdc8a78b735599386c5"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: hardness theorem; conditional algorithmic consequence",
+    "scope": "Exact C_G(-2) evaluation is #P-hard by an explicit polynomial-size single-call reduction and belongs to GapP; it is polynomial-time computable if and only if FP=#P. Rooted attachments also classify every nonzero fixed algebraic evaluation point as #P-hard. Limits: The signed function is not called #P-complete. No separation FP != #P is proved; exact algebraic outputs use a fixed-number-field bit model.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/discrete/Q3489-connected-set-evaluation.md",
+    "review": "solutions/round-2026-10-09/reviews/root-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q3489",
+    "status": "partial",
+    "scope": "hardness",
+    "title": "Connected-set evaluation at minus two",
+    "note": "Exact C_G(-2) evaluation is #P-hard by an explicit polynomial-size single-call reduction and belongs to GapP; it is polynomial-time computable if and only if FP=#P. Rooted attachments also classify every nonzero fixed algebraic evaluation point as #P-hard. Limits: The signed function is not called #P-complete. No separation FP != #P is proved; exact algebraic outputs use a fixed-number-field bit model. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/discrete/Q3489-connected-set-evaluation.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/reviews/root-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -152118,7 +152361,7 @@
  {
   "number": 3569,
   "title": "Periodic zero-extension",
-  "status": "open",
+  "status": "proved",
   "kind": "conjecture",
   "label": "Conjecture 9.1",
   "collection": 36,
@@ -152152,8 +152395,35 @@
    "21315160062f6ae0a35a"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: proposed full proof",
+    "scope": "For every p>=1, validity is preserved and reflected by appending p zeroes exactly when maximal greedy words are nested along residue classes modulo p. Their unique infinite limits satisfy every stated cross-residue lexicographic shift inequality. Limits: Full Conjecture 9.1 for positional U-systems; the separate alternate-base and noncanonical-shift conjectures are not resolved.",
+    "folder": "round-2026-10-09",
+    "proof": "solutions/round-2026-10-09/discrete/Q3569-periodic-zero-extension.md",
+    "review": "solutions/round-2026-10-09/algebra/review-Q3569.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "round-2026-10-09-q3569",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Periodic zero-extension in numeration",
+    "note": "For every p>=1, validity is preserved and reflected by appending p zeroes exactly when maximal greedy words are nested along residue classes modulo p. Their unique infinite limits satisfy every stated cross-residue lexicographic shift inequality. Limits: Full Conjecture 9.1 for positional U-systems; the separate alternate-base and noncanonical-shift conjectures are not resolved. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/round-2026-10-09/discrete/Q3569-periodic-zero-extension.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/round-2026-10-09/algebra/review-Q3569.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {

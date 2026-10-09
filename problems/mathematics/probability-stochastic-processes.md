@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-449 problems: 417 open, 18 open, partial results, 9 solved here: proved, 5 solved here: disproved.
+449 problems: 415 open, 18 open, partial results, 11 solved here: proved, 5 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -19,7 +19,7 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | [Q45](probability-stochastic-processes-part-1.md#q45) | Let G_(L) be G(n,p) conditioned on N_(H)≤η𝔼[N_(H)], where N_(H) counts H-copies.… | Open |
 | [Q46](probability-stochastic-processes-part-1.md#q46) | For G_(L) distributed as G(n,p) conditioned on having at most η times the expect… | Open |
 | [Q191](probability-stochastic-processes-part-1.md#q191) | For d ≥ 2, let P_(N)⁰ be the canonical law of d-dimensional Brownian motion on [… | Open |
-| [Q192](probability-stochastic-processes-part-1.md#q192) | For independent standard Brownian motions B¹, B² starting at zero, condition on … | Open |
+| [Q192](probability-stochastic-processes-part-1.md#q192) | For independent standard Brownian motions B¹, B² starting at zero, condition on … | Solved here: proved |
 | [Q193](probability-stochastic-processes-part-1.md#q193) | Let P_(N)^(x) denote the canonical law of Brownian motion in ℝ^(d), d ≥ 2, condi… | Open |
 | [Q196](probability-stochastic-processes-part-1.md#q196) | Fix 0 < Q < 2 and a whole-plane GFF h normalized by h₁(0) = 0. For a dyadic squa… | Open |
 | [Q197](probability-stochastic-processes-part-1.md#q197) | For the DLA tree X_m after m edges, does lim_(m→∞) log(diam_(X_m)(X_m))/log m ex… | Open |
@@ -28,7 +28,7 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | [Q267](probability-stochastic-processes-part-1.md#q267) | For which uncountable cardinals κ does every vacillating poset P of size κ, with… | Open |
 | [Q268](probability-stochastic-processes-part-1.md#q268) | Let \$X\$ range over all finite sums \$\sum_i a_i\varepsilon_i\$, where the \$\vareps… | Open |
 | [Q269](probability-stochastic-processes-part-1.md#q269) | For every integer \$d\ge3\$ and every finite sequence of unit vectors \$v_1,\ldots,… | Open |
-| [Q270](probability-stochastic-processes-part-1.md#q270) | Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\to j\$ e… | Open |
+| [Q270](probability-stochastic-processes-part-1.md#q270) | Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\to j\$ e… | Solved here: proved |
 | [Q275](probability-stochastic-processes-part-1.md#q275) | On \$\mathbb Z^d\$, \$d\ge2\$, is there \$0<\alpha_c(d)<\infty\$ separating almost-sur… | Open |
 | [Q276](probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Open |
 | [Q277](probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Open |

@@ -3006,7 +3006,7 @@ For every fixed 0&lt;c<1/2 and integer sequence 2≤k=k(n)≤(1/2−c)n, is log�
 
 ## Q1653. Realize unbounded factorial-language complexity
 
-**Status:** Open · **Kind:** conjecture (Conjecture 6.36) · **Collection** 17
+**Status:** Solved here: disproved · **Kind:** conjecture (Conjecture 6.36) · **Collection** 17
 
 Let F⊆{0,1}\* be closed under taking contiguous factors, with unbounded sequence q_F(n)=|F∩{0,1}^n|. Must there be an infinite binary sequence b such that, for every n, exactly q_F(n) distinct length-n words occur infinitely often as contiguous factors of b?
 
@@ -3017,6 +3017,11 @@ Let F⊆{0,1}\* be closed under taking contiguous factors, with unbounded sequen
 **Literature check.** Status for question 1653, checked 6 October 2026: The August 2025 thesis explicitly leaves Conjecture 6.36 open. Inspected Pin Classes I v3 (29 September 2026) and Pin Classes II (April 2026); they establish growth-rate results, not this factorial-language realization statement. Exact-phrase and author/topic searches found no resolution through 6 October 2026.
 
 **Further links.** [1](https://arxiv.org/pdf/2412.04143v3) · [2](https://dmtcs.episciences.org/18082/pdf)
+
+**Result (2026-10-09).** The factor-closed language 0*1* union {10} has complexity 2,4,4,5,6,... . A plateau in recurrent-factor complexity must persist, so no infinite binary word has this complexity at every length. Disproves the exact all-length equality in Conjecture 6.36; no claim about eventual equality or separate permutation-class growth-rate conjectures.
+
+[Proof](../../solutions/round-2026-10-09/discrete/Q1653-recurrent-complexity-counterexample.md) · [Internal review](../../solutions/round-2026-10-09/reviews/root-review.md) · [Exact computational controls](../../solutions/round-2026-10-09/discrete/recurrent-complexity-checks.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q1656"></a>

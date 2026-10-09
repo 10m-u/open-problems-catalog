@@ -4393,7 +4393,7 @@ Does every width-two finite poset P have Ω\_P(t) with nonnegative coefficients 
 
 ## Q3569. Periodic zero-extension
 
-**Status:** Open · **Kind:** conjecture (Conjecture 9.1) · **Collection** 36
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 9.1) · **Collection** 36
 
 For p≥1, is [w∈L_U iff w0^p∈L_U for every w∈A\*] equivalent to having infinite words a_0,…,a_{p−1} with rep_U(U_{np+i}−1)=Pref_{np+i}(a_i) for all n≥0 and 0≤i&lt;p, necessarily satisfying σ^j(a_i)≤lex a_{i−j mod p} for every j≥0? Here σ deletes the first letter.
 
@@ -4404,6 +4404,11 @@ For p≥1, is [w∈L_U iff w0^p∈L_U for every w∈A\*] equivalent to having in
 **Literature check.** Status: No resolution located by 2026-10-09.
 
 **Further links.** [1](https://orbi.uliege.be/bitstream/2268/345086/1/Kreczman_PhD_Thesis_JuryRemarks.pdf)
+
+**Result (2026-10-09).** For every p>=1, validity is preserved and reflected by appending p zeroes exactly when maximal greedy words are nested along residue classes modulo p. Their unique infinite limits satisfy every stated cross-residue lexicographic shift inequality. Full Conjecture 9.1 for positional U-systems; the separate alternate-base and noncanonical-shift conjectures are not resolved.
+
+[Proof](../../solutions/round-2026-10-09/discrete/Q3569-periodic-zero-extension.md) · [Internal review](../../solutions/round-2026-10-09/algebra/review-Q3569.md) · [Exact computational controls](../../solutions/round-2026-10-09/discrete/periodic-zero-checks.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q3570"></a>

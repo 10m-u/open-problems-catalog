@@ -1,0 +1,42 @@
+{
+  "problem": "Q56",
+  "arithmetic": "exact rational/integer",
+  "domain": "all nondecreasing lists of length 1..6 over 1..8",
+  "checks": {
+    "instances": 3002,
+    "tensor_entries": 141568,
+    "square_products": 427,
+    "yes_instances": 311,
+    "square_no_instances": 116,
+    "nonsquare_no_instances": 2575
+  },
+  "examples": {
+    "(2, 3, 6)": {
+      "square_product": true,
+      "partition_exists": true,
+      "minimum": "1/6"
+    },
+    "(2, 2, 9)": {
+      "square_product": true,
+      "partition_exists": false,
+      "minimum": "13/72"
+    },
+    "(1,)": {
+      "square_product": true,
+      "partition_exists": true,
+      "minimum": "1"
+    },
+    "(2,)": {
+      "square_product": false,
+      "partition_exists": false,
+      "minimum": "3/4"
+    },
+    "(4,)": {
+      "square_product": true,
+      "partition_exists": false,
+      "minimum": "5/8"
+    }
+  },
+  "result": "all assertions passed",
+  "scope": "finite controls for the written general reduction"
+}

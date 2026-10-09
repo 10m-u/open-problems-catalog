@@ -1,6 +1,6 @@
 # Theory of Computation & Algorithms
 
-294 problems: 288 open, 5 open, partial results, 1 solved here: proved.
+294 problems: 287 open, 6 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -295,7 +295,7 @@ Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computat
 | [Q3388](theory-of-computation-algorithms-part-2.md#q3388) | Explicit local-source dispersers below square-root entropy | Open |
 | [Q3433](theory-of-computation-algorithms-part-2.md#q3433) | Deterministic mean-payoff decomposition | Open |
 | [Q3434](theory-of-computation-algorithms-part-2.md#q3434) | Exact complexity with many successors | Open |
-| [Q3489](theory-of-computation-algorithms-part-2.md#q3489) | Exact connected-set evaluation at minus two | Open |
+| [Q3489](theory-of-computation-algorithms-part-2.md#q3489) | Exact connected-set evaluation at minus two | Open, partial results |
 | [Q3490](theory-of-computation-algorithms-part-2.md#q3490) | Unrestricted orbit-finite linear feasibility | Open |
 | [Q3559](theory-of-computation-algorithms-part-2.md#q3559) | Are GKAT guarded-string languages closed under intersection? | Open |
 | [Q3560](theory-of-computation-algorithms-part-2.md#q3560) | For syntax-tree GKAT expressions over a fixed finite nonempty test alphabet and a fixed nonempty… | Open |

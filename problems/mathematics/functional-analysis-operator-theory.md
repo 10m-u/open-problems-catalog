@@ -1,6 +1,6 @@
 # Functional Analysis & Operator Theory
 
-225 problems: 225 open.
+225 problems: 223 open, 1 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -195,7 +195,7 @@
 | [Q3151](functional-analysis-operator-theory.md#q3151) | Second-order Nikolskii asymptotics | Open |
 | [Q3234](functional-analysis-operator-theory.md#q3234) | Little Hankel boundedness below the target Banach threshold | Open |
 | [Q3235](functional-analysis-operator-theory.md#q3235) | Compactness of endpoint little Hankel operators | Open |
-| [Q3236](functional-analysis-operator-theory.md#q3236) | Exact invariance and Fatou properties of sum quasinorms | Open |
+| [Q3236](functional-analysis-operator-theory.md#q3236) | Exact invariance and Fatou properties of sum quasinorms | Solved here: proved |
 | [Q3238](functional-analysis-operator-theory.md#q3238) | Isometric semi-greediness versus almost-greediness | Open |
 | [Q3239](functional-analysis-operator-theory.md#q3239) | Do bounded greedy de la Vallée-Poussin means force quasi-greediness? | Open |
 | [Q3240](functional-analysis-operator-theory.md#q3240) | Invariant subspaces for arbitrary free self-map linearizations | Open |
@@ -220,7 +220,7 @@
 | [Q3451](functional-analysis-operator-theory.md#q3451) | An ℓ₁-sum of c₀ inside the Sierpiński space | Open |
 | [Q3452](functional-analysis-operator-theory.md#q3452) | Exponent independence of groupoid K-theory | Open |
 | [Q3453](functional-analysis-operator-theory.md#q3453) | Existence of intermediate groupoid C\*-norms | Open |
-| [Q3454](functional-analysis-operator-theory.md#q3454) | Norm continuity of Moore–Penrose inversion | Open |
+| [Q3454](functional-analysis-operator-theory.md#q3454) | Norm continuity of Moore–Penrose inversion | Open, partial results |
 | [Q3534](functional-analysis-operator-theory.md#q3534) | Weighted rotations without supercyclic vectors | Open |
 | [Q3535](functional-analysis-operator-theory.md#q3535) | Bergman Collatz spectral radius | Open |
 | [Q3536](functional-analysis-operator-theory.md#q3536) | Frequent recurrence under inversion | Open |
@@ -3377,7 +3377,7 @@ Characterize the symbols b for which h_b:A_α^1(E)→A_α^1(F) is compact.
 
 ## Q3236. Exact invariance and Fatou properties of sum quasinorms
 
-**Status:** Open · **Kind:** open problem · **Collection** 33
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 33
 
 Does the displayed sum quasinorm always depend only on the decreasing rearrangement and satisfy ||f_j||\_{A+B}↑||f||\_{A+B} whenever 0≤f_j↑f?
 
@@ -3388,6 +3388,11 @@ Does the displayed sum quasinorm always depend only on the decreasing rearrangem
 **Literature check.** Status for question 3236, checked 8 October 2026: No exact later resolution located; checked 8 October 2026.
 
 **Further links.** [1](https://arxiv.org/abs/2606.25419) · [2](https://dspace.cuni.cz/handle/20.500.11956/188935)
+
+**Result (2026-10-09).** The actual infimum sum quasinorm of the source rearrangement-invariant Fatou quasi-Banach function spaces is exactly rearrangement invariant and has the exact Fatou property on every sigma-finite resonant measure space. Full source scope, including infinite measure and equal-mass atomic spaces. Attainment is not needed; an auxiliary example shows it can fail on a nonatomic space.
+
+[Proof](../../solutions/round-2026-10-09/algebra/Q3236-proof.md) · [Internal review](../../solutions/round-2026-10-09/reviews/root-review.md) · [Exact computational controls](../../solutions/round-2026-10-09/algebra/verification.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q3238"></a>
@@ -3804,7 +3809,7 @@ If ‖·‖max≠‖·‖r, must a C\*-norm N on Cc(G) exist with ‖f‖r≤N(f
 
 ## Q3454. Norm continuity of Moore–Penrose inversion
 
-**Status:** Open · **Kind:** conjecture (Conjecture 2.22) · **Collection** 35
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 2.22) · **Collection** 35
 
 If Moore–Penrose invertible elements aₙ converge in norm to a Moore–Penrose invertible a and supₙ‖aₙ†‖<∞, must ‖aₙ†−a†‖→0?
 
@@ -3815,6 +3820,11 @@ If Moore–Penrose invertible elements aₙ converge in norm to a Moore–Penros
 **Literature check.** Status checked 9 October 2026: The current preprint proves the claim for Lp-operator algebras and further specified classes, while retaining the general conjecture. No general resolution or later revision located through 2026-10-09.
 
 **Notes.** Origin: Rakočević’s 1988 conjecture, restated in the joint paper and thesis Conjecture E.2.14; not a newly originated doctoral claim.
+
+**Result (2026-10-09).** When corresponding initial support idempotents commute and corresponding final support idempotents commute, M||a-b||<1 forces equal supports and ||b^dagger-a^dagger|| <= ||b^dagger||||a^dagger||||a-b||, where M=max(||a^dagger||,||b^dagger||). The unrestricted noncommuting-support conjecture remains open. The result removes the ultrahermitian assumption in the specified commuting setting; strict separation of algebra classes is not claimed.
+
+[Proof](../../solutions/round-2026-10-09/algebra/Q3454-proof.md) · [Internal review](../../solutions/round-2026-10-09/reviews/root-review.md) · [Exact computational controls](../../solutions/round-2026-10-09/algebra/verification.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q3534"></a>
