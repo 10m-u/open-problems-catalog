@@ -159,7 +159,7 @@ If a profinite group has fewer than 2^{ℵ₀} conjugacy classes of infinite-ord
 
 ## Q3101. Odd girths for completely regular semigroups
 
-**Status:** Open · **Kind:** open problem (Problem 7.3) · **Collection** 32
+**Status:** Open, partial results · **Kind:** open problem (Problem 7.3) · **Collection** 32
 
 For every odd integer n≥3, does some finite noncommutative completely regular semigroup S satisfy girth(Γ(S))=n?
 
@@ -171,12 +171,16 @@ For every odd integer n≥3, does some finite noncommutative completely regular 
 
 **Further links.** [1](https://arxiv.org/abs/2511.10612) · [2](https://www.dm.fct.unl.pt/teses-doutoramento-2025) · [3](https://run.unl.pt/entities/publication/4f3cfb38-a679-419c-8de9-f7b2f8b3a5f2) · [4](https://arxiv.org/html/2511.10612v1)
 
+**Result (2026-10-09).** Every triangle-free commuting graph of a finite band is bipartite. In any finite completely regular semigroup with triangle-free commuting graph, the noncentral idempotents induce a bipartite graph, and every odd cycle contains at least two nonidempotent involutions whose subgroup identities are central. Odd girths at least five for general finite completely regular semigroups remain unresolved.
+
+[Proof](../../solutions/seven-problems-2026-10-09/algebra/Q3101-odd-girth-obstructions.md) · [Internal review](../../solutions/seven-problems-2026-10-09/analysis/review-Q3101.md) · [Computational controls](../../solutions/seven-problems-2026-10-09/algebra/verification.json). This research proposal has a separate internal AI review; it is not externally peer reviewed.
+
 
 <a id="q3102"></a>
 
 ## Q3102. Knit degree three for completely regular semigroups
 
-**Status:** Open · **Kind:** open problem (Problem 7.4) · **Collection** 32
+**Status:** Solved here: disproved · **Kind:** open problem (Problem 7.4) · **Collection** 32
 
 Does some finite noncommutative completely regular semigroup S satisfy kd(S)=3?
 
@@ -187,6 +191,10 @@ Does some finite noncommutative completely regular semigroup S satisfy kd(S)=3?
 **Literature check.** Status for questions 3101, 3102, checked 8 October 2026: Current November 2025 v1 retains these questions; no later resolution located.
 
 **Further links.** [1](https://arxiv.org/abs/2511.10612) · [2](https://www.dm.fct.unl.pt/teses-doutoramento-2025) · [3](https://run.unl.pt/entities/publication/4f3cfb38-a679-419c-8de9-f7b2f8b3a5f2) · [4](https://arxiv.org/html/2511.10612v1)
+
+**Result (2026-10-09).** Every length-three left path in a finite completely regular semigroup constructively yields a length-two left path. Consequently no finite completely regular semigroup has knit degree three. No mathematical gap identified in the written proof and separate internal review. This is a nonexistence theorem, not a counterexample construction; it does not apply to arbitrary semigroups.
+
+[Proof](../../solutions/seven-problems-2026-10-09/algebra/Q3102-no-knit-degree-three.md) · [Internal review](../../solutions/seven-problems-2026-10-09/combinatorics/review-Q3102.md) · [Computational controls](../../solutions/seven-problems-2026-10-09/algebra/verification.json). This research proposal has a separate internal AI review; it is not externally peer reviewed.
 
 
 <a id="q3103"></a>

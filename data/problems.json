@@ -5547,7 +5547,7 @@
  {
   "number": 132,
   "title": "Start all individual allocations at zero. Each turn, one agent (re)distributes h…",
-  "status": "open",
+  "status": "partial",
   "kind": "open-problem",
   "label": "Problem 5",
   "collection": 2,
@@ -5581,8 +5581,35 @@
    "65d84af967ac9fc1cfb4"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: Two proved partial convergence theorems",
+    "scope": "For arbitrary positive Leontief weights, convergence holds whenever the consecutive complete-interval lengths L_k satisfy sum_k 1/L_k = infinity. For support weights v_ix = a_i w_x, every fair schedule has finite total variation and converges; this includes every incidence forest. Limits: Arbitrary fair schedules with unrestricted positive weights on incidence cycles remain unresolved.",
+    "folder": "seven-problems-2026-10-09",
+    "proof": "solutions/seven-problems-2026-10-09/dynamics/Q0132.md",
+    "review": "solutions/seven-problems-2026-10-09/analysis/review-Q0132.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-09-q132",
+    "status": "partial",
+    "scope": "partial",
+    "title": "Leontief donation dynamics beyond bounded waiting",
+    "note": "For arbitrary positive Leontief weights, convergence holds whenever the consecutive complete-interval lengths L_k satisfy sum_k 1/L_k = infinity. For support weights v_ix = a_i w_x, every fair schedule has finite total variation and converges; this includes every incidence forest. Limits: Arbitrary fair schedules with unrestricted positive weights on incidence cycles remain unresolved. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/seven-problems-2026-10-09/dynamics/Q0132.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/seven-problems-2026-10-09/analysis/review-Q0132.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -10851,7 +10878,7 @@
  {
   "number": 256,
   "title": "Characterize the caterpillars admitting a proper total dominating set. A caterpi…",
-  "status": "open",
+  "status": "proved",
   "kind": "open-problem",
   "label": "Problem 4.3.8",
   "collection": 3,
@@ -10885,14 +10912,41 @@
    "a165cebdc63b6ce55c75"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: Proposed complete affirmative characterization",
+    "scope": "A 16-state weighted automaton characterizes exactly the caterpillars admitting a proper total dominating set and computes a minimum witness. At most three selected leaves per spine vertex and four selected neighbors per spine vertex suffice; both bounds are sharp. The minimum-witness algorithm uses O(k) arithmetic operations for a k-vertex spine; input bit costs are separate. Limits: No mathematical gap identified at the stated algorithmic characterization scope; external peer review and historical priority are not certified.",
+    "folder": "seven-problems-2026-10-09",
+    "proof": "solutions/seven-problems-2026-10-09/combinatorics/Q0256-caterpillars.md",
+    "review": "solutions/seven-problems-2026-10-09/reviews/combinatorics-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-09-q256",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Exact characterization of proper-total-dominating caterpillars",
+    "note": "A 16-state weighted automaton characterizes exactly the caterpillars admitting a proper total dominating set and computes a minimum witness. At most three selected leaves per spine vertex and four selected neighbors per spine vertex suffice; both bounds are sharp. The minimum-witness algorithm uses O(k) arithmetic operations for a k-vertex spine; input bit costs are separate. Limits: No mathematical gap identified at the stated algorithmic characterization scope; external peer review and historical priority are not certified. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/seven-problems-2026-10-09/combinatorics/Q0256-caterpillars.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/seven-problems-2026-10-09/reviews/combinatorics-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
   "number": 257,
   "title": "Which integer pairs $2\\le a\\le b$ occur as the minimum size $a$ of a total domin…",
-  "status": "open",
+  "status": "partial",
   "kind": "open-problem",
   "label": "Problem 4.3.10",
   "collection": 3,
@@ -10925,8 +10979,35 @@
    "5f35c74c6786254ba720"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: Proved bounds, finite reduction, and two complete slices",
+    "scope": "Every realizable tree pair (a,b) = (gamma_t,gamma_pt) satisfies a+1 <= b <= 6a-4 and has a representative on at most 6a-4 vertices. The complete a=2 slice is b in {3,5}; the complete a=3 slice is b in {6,7}. Limits: A general characterization of the realizable pairs for a >= 4 remains unresolved; no sharpness claim is made for the upper bound.",
+    "folder": "seven-problems-2026-10-09",
+    "proof": "solutions/seven-problems-2026-10-09/combinatorics/Q0257-tree-pairs.md",
+    "review": "solutions/seven-problems-2026-10-09/reviews/combinatorics-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-09-q257",
+    "status": "partial",
+    "scope": "partial",
+    "title": "Bounds and finite representatives for tree domination pairs",
+    "note": "Every realizable tree pair (a,b) = (gamma_t,gamma_pt) satisfies a+1 <= b <= 6a-4 and has a representative on at most 6a-4 vertices. The complete a=2 slice is b in {3,5}; the complete a=3 slice is b in {6,7}. Limits: A general characterization of the realizable pairs for a >= 4 remains unresolved; no sharpness claim is made for the upper bound. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/seven-problems-2026-10-09/combinatorics/Q0257-tree-pairs.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/seven-problems-2026-10-09/reviews/combinatorics-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -132856,7 +132937,7 @@
  {
   "number": 3101,
   "title": "Odd girths for completely regular semigroups",
-  "status": "open",
+  "status": "partial",
   "kind": "open-problem",
   "label": "Problem 7.3",
   "collection": 32,
@@ -132893,14 +132974,41 @@
    "c70e8d3a2fbecae7293d"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: Proved subclass exclusion and necessary conditions",
+    "scope": "Every triangle-free commuting graph of a finite band is bipartite. In any finite completely regular semigroup with triangle-free commuting graph, the noncentral idempotents induce a bipartite graph, and every odd cycle contains at least two nonidempotent involutions whose subgroup identities are central. Limits: Odd girths at least five for general finite completely regular semigroups remain unresolved.",
+    "folder": "seven-problems-2026-10-09",
+    "proof": "solutions/seven-problems-2026-10-09/algebra/Q3101-odd-girth-obstructions.md",
+    "review": "solutions/seven-problems-2026-10-09/analysis/review-Q3101.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-09-q3101",
+    "status": "partial",
+    "scope": "partial",
+    "title": "Odd-cycle obstructions for completely regular semigroups",
+    "note": "Every triangle-free commuting graph of a finite band is bipartite. In any finite completely regular semigroup with triangle-free commuting graph, the noncentral idempotents induce a bipartite graph, and every odd cycle contains at least two nonidempotent involutions whose subgroup identities are central. Limits: Odd girths at least five for general finite completely regular semigroups remain unresolved. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/seven-problems-2026-10-09/algebra/Q3101-odd-girth-obstructions.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/seven-problems-2026-10-09/analysis/review-Q3101.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
   "number": 3102,
   "title": "Knit degree three for completely regular semigroups",
-  "status": "open",
+  "status": "disproved",
   "kind": "open-problem",
   "label": "Problem 7.4",
   "collection": 32,
@@ -132937,8 +133045,35 @@
    "0e397ee2bdb8fdd8862d"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "disproved",
+    "label": "2026-10-09: Proposed complete negative existence answer by nonexistence theorem",
+    "scope": "Every length-three left path in a finite completely regular semigroup constructively yields a length-two left path. Consequently no finite completely regular semigroup has knit degree three. Limits: No mathematical gap identified in the written proof and separate internal review. This is a nonexistence theorem, not a counterexample construction; it does not apply to arbitrary semigroups.",
+    "folder": "seven-problems-2026-10-09",
+    "proof": "solutions/seven-problems-2026-10-09/algebra/Q3102-no-knit-degree-three.md",
+    "review": "solutions/seven-problems-2026-10-09/combinatorics/review-Q3102.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-09-q3102",
+    "status": "disproved",
+    "scope": "statement",
+    "title": "No knit degree three in finite completely regular semigroups",
+    "note": "Every length-three left path in a finite completely regular semigroup constructively yields a length-two left path. Consequently no finite completely regular semigroup has knit degree three. Limits: No mathematical gap identified in the written proof and separate internal review. This is a nonexistence theorem, not a counterexample construction; it does not apply to arbitrary semigroups. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/seven-problems-2026-10-09/algebra/Q3102-no-knit-degree-three.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/seven-problems-2026-10-09/combinatorics/review-Q3102.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -140670,7 +140805,7 @@
  {
   "number": 3286,
   "title": "Large-parameter record-count dispersion",
-  "status": "open",
+  "status": "proved",
   "kind": "open-problem",
   "label": null,
   "collection": 33,
@@ -140704,14 +140839,41 @@
    "e5afd4a66b1480cf2ae8"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: Proposed complete affirmative answer with an integral formula",
+    "scope": "For every fixed integer d >= 2, B_d(a) has a finite limit C_d > 1 as a tends to infinity. A convergent positive double-integral formula gives C_2 = 1 + pi^2/3 and C_3 = 1 + 12 zeta(3). The n-to-infinity limit defining B_d is taken first. Limits: No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed.",
+    "folder": "seven-problems-2026-10-09",
+    "proof": "solutions/seven-problems-2026-10-09/analysis/REPORT.md",
+    "review": "solutions/seven-problems-2026-10-09/reviews/analysis-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-09-q3286",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Finite large-parameter Pareto-record dispersion limit",
+    "note": "For every fixed integer d >= 2, B_d(a) has a finite limit C_d > 1 as a tends to infinity. A convergent positive double-integral formula gives C_2 = 1 + pi^2/3 and C_3 = 1 + 12 zeta(3). The n-to-infinity limit defining B_d is taken first. Limits: No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/seven-problems-2026-10-09/analysis/REPORT.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/seven-problems-2026-10-09/reviews/analysis-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
   "number": 3287,
   "title": "Small-parameter record-count dispersion",
-  "status": "open",
+  "status": "proved",
   "kind": "open-problem",
   "label": null,
   "collection": 33,
@@ -140745,8 +140907,35 @@
    "2d6fe65cb4343d7b5a46"
   ],
   "duplicate_of": [],
-  "results": [],
-  "ledger": [],
+  "results": [
+   {
+    "status": "proved",
+    "label": "2026-10-09: Proposed complete affirmative answer with a first-order expansion",
+    "scope": "For every fixed integer d >= 2, B_d(a) = 1 - 2a/(d-1) + O_d(a^2) as a decreases to zero. In particular its limit is one, with underdispersion for all sufficiently small positive a. The n-to-infinity limit defining B_d is taken first. Limits: No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed.",
+    "folder": "seven-problems-2026-10-09",
+    "proof": "solutions/seven-problems-2026-10-09/analysis/REPORT.md",
+    "review": "solutions/seven-problems-2026-10-09/reviews/analysis-review.md"
+   }
+  ],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-09-q3287",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Small-parameter Pareto-record dispersion limit and first correction",
+    "note": "For every fixed integer d >= 2, B_d(a) = 1 - 2a/(d-1) + O_d(a^2) as a decreases to zero. In particular its limit is one, with underdispersion for all sufficiently small positive a. The n-to-infinity limit defining B_d is taken first. Limits: No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed. Separate internal AI review accepted the argument; not external peer review or a novelty certification.",
+    "sources": [
+     {
+      "title": "Proof and precise scope",
+      "url": "solutions/seven-problems-2026-10-09/analysis/REPORT.md"
+     },
+     {
+      "title": "Independent internal review",
+      "url": "solutions/seven-problems-2026-10-09/reviews/analysis-review.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {

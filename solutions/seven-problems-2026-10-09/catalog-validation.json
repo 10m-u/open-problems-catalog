@@ -1,0 +1,105 @@
+{
+  "base_commit": "368ce0d95a90c073be730b27c724133ce31666f0",
+  "catalog_size": 3588,
+  "catalog_status_counts": {
+    "disproved": 13,
+    "open": 3449,
+    "partial": 93,
+    "proved": 33
+  },
+  "changed_fields": {
+    "132": [
+      "ledger",
+      "results",
+      "status"
+    ],
+    "256": [
+      "ledger",
+      "results",
+      "status"
+    ],
+    "257": [
+      "ledger",
+      "results",
+      "status"
+    ],
+    "3101": [
+      "ledger",
+      "results",
+      "status"
+    ],
+    "3102": [
+      "ledger",
+      "results",
+      "status"
+    ],
+    "3286": [
+      "ledger",
+      "results",
+      "status"
+    ],
+    "3287": [
+      "ledger",
+      "results",
+      "status"
+    ]
+  },
+  "checks_passed": [
+    "Exactly seven JSON records changed; only status/results/ledger changed.",
+    "All JSON/CSV numbers and statuses match; only seven CSV status cells changed.",
+    "Seven manifest records preserve source metadata and resolve all evidence, result, and ledger links.",
+    "All subject summary tables and root README counts agree with the catalog.",
+    "Selected subject/index rows, problem statuses, anchors, and proof/review/control links agree."
+  ],
+  "csv_columns": 12,
+  "index_pages_scanned": 8,
+  "passed": true,
+  "scope": "Catalog integration and local evidence links; no mathematical proof certification.",
+  "selected_numbers": [
+    132,
+    256,
+    257,
+    3101,
+    3102,
+    3286,
+    3287
+  ],
+  "selected_statuses": {
+    "132": "partial",
+    "256": "proved",
+    "257": "partial",
+    "3101": "partial",
+    "3102": "disproved",
+    "3286": "proved",
+    "3287": "proved"
+  },
+  "sha256": {
+    "data/problems.csv": "c104a8f8c4ac78116f94cb0612a39759de46c7576bf2a513b2e6c93a19ddca37",
+    "data/problems.json": "40a3b35930e666ca7b84f4d7f6101a618f4de14fc27dc30a827e0a6012a14cc9",
+    "solutions/seven-problems-2026-10-09/RESULTS.json": "b6a44b0818ed323b30f5e9253166f553d4e85cd5609aa53c94244ccc8a2007fb",
+    "solutions/seven-problems-2026-10-09/algebra/Q3101-odd-girth-obstructions.md": "125e0447226701bd0a6ce6d779ad42a8a99aeecb32373bf30079b68c593f183f",
+    "solutions/seven-problems-2026-10-09/algebra/Q3102-no-knit-degree-three.md": "9d506c052f73dd4ef743db9d5b7137ffbc49c424ef33bb3b23cbb15ef850741d",
+    "solutions/seven-problems-2026-10-09/algebra/SOURCES.md": "3af81c482863d01ebd968c89ad6c3f239a9902cb8b50f7c150c2dbd5b74ccc7f",
+    "solutions/seven-problems-2026-10-09/algebra/verification.json": "965cc477f0c0af207bb9400b814c471fde60b1daecfdc3c68a69d4e4da59f7cb",
+    "solutions/seven-problems-2026-10-09/algebra/verify_semigroups.py": "e8512bf23c530e9485ef5f0e567b98c858a8900b180bdc62cff57bc77fc37918",
+    "solutions/seven-problems-2026-10-09/analysis/REPORT.md": "5a73b967a0a042563299130a7378b7fdc59dbfa4f28e877a2de3d687d071f8a9",
+    "solutions/seven-problems-2026-10-09/analysis/SEARCH_LOG.md": "8847b7cac649e7da871d09c3b24af491955f76ba0fadf3af11619c25636e8f37",
+    "solutions/seven-problems-2026-10-09/analysis/checks.json": "556fea90fe6861f79027bbdbf4c1ceee2d725380ca4df8220fc5979cf02c2397",
+    "solutions/seven-problems-2026-10-09/analysis/checks.py": "ec695bd877301e6aed2c3f660b250c3e1496bd20775eef63b1a803d2fef1de6d",
+    "solutions/seven-problems-2026-10-09/analysis/review-Q0132.md": "92244e66dda1508bedd47314a3f7a360544114e13160b7f70ce3c9141951914e",
+    "solutions/seven-problems-2026-10-09/analysis/review-Q3101.md": "7782e1715a7812c7a47b7151ec479da7cea841ae1d58a0c7b2251357d2facd26",
+    "solutions/seven-problems-2026-10-09/combinatorics/Q0256-caterpillars.md": "7498f885c7a3f54c8032db258f6ab483dcbcad1855da2cc74e1c0f9d62712967",
+    "solutions/seven-problems-2026-10-09/combinatorics/Q0257-tree-pairs.md": "74639f0c16fec1bae0ddedd04fdd25a67af4280c518730b4975d57b89436dad8",
+    "solutions/seven-problems-2026-10-09/combinatorics/SEARCH-LOG.md": "de61a3995f22465d2b7f11e9c2e28d7a281fc149891d42d80a5800233e24783d",
+    "solutions/seven-problems-2026-10-09/combinatorics/review-Q3102.md": "662948b61df08b15c3d5afbf459abc74e8ded15cb8c274c05f7cee790f013d14",
+    "solutions/seven-problems-2026-10-09/combinatorics/verification.json": "130d97f6d5853e0634c9d4135a47f34206140c6c33c749d475cd423397e549c0",
+    "solutions/seven-problems-2026-10-09/combinatorics/verify.py": "1dc7e6daefefbffd6aab053578792d8e57dfce097c154f446d816958304a0974",
+    "solutions/seven-problems-2026-10-09/dynamics/Q0132.md": "4f47aef0251038a77d6cfa19162c7d6309872fc098263b59304d161cef9d2473",
+    "solutions/seven-problems-2026-10-09/dynamics/q0132-checks.json": "3fbd851c40f3e34b655aaee112aa18a512e40b80581522aa8d16be351f9b23d7",
+    "solutions/seven-problems-2026-10-09/dynamics/verify_q0132.py": "4c10a5ae2d93a5f08db470c780d5d6b4679dde7de946b6e2e9e520dc17bd949e",
+    "solutions/seven-problems-2026-10-09/reviews/analysis-review.md": "d2f26a08a2a3979622a94027f45b01423ba4094ad6cb62679475bf5431f8a5a8",
+    "solutions/seven-problems-2026-10-09/reviews/combinatorics-review.md": "882b5169d9e9035a7c702294692a3ef149e3a317dcfce60b2436190d49e7fa1e"
+  },
+  "subjects_checked": 34,
+  "unique_evidence_files": 22
+}

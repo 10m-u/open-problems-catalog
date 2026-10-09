@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-09",
+  "base_commit": "368ce0d95a90c073be730b27c724133ce31666f0",
+  "results": [
+    {
+      "question": "Q3101",
+      "number": 3101,
+      "statement_id": "c70e8d3a2fbecae7293d",
+      "status": "partial-theorems",
+      "recommended_catalog_status": "partial",
+      "result": "Triangle-free commuting graphs of finite bands are bipartite. In a finite completely regular semigroup with triangle-free commuting graph, noncentral idempotents induce a bipartite graph, and every odd cycle contains at least two nonidempotent involutions whose subgroup identities are central.",
+      "scope": "All finite bands, plus the stated necessary conditions in the full finite completely regular class.",
+      "proof_file": "Q3101-odd-girth-obstructions.md",
+      "checker": "verify_semigroups.py",
+      "verification": "verification.json",
+      "primary_source": "https://arxiv.org/pdf/2511.10612",
+      "primary_location": "Problem 7.3 p.28; definitions pp.3-5; even-girth Theorem 3.5 pp.16-20.",
+      "prior_repo_result": "No earlier result linked from Q3101 at round start.",
+      "remaining_gap": "Odd girths at least five for general finite completely regular semigroups remain unresolved.",
+      "independent_review": "../analysis/review-Q3101.md"
+    },
+    {
+      "question": "Q3102",
+      "number": 3102,
+      "statement_id": "0e397ee2bdb8fdd8862d",
+      "status": "proposed-complete-negative-answer",
+      "recommended_catalog_status": "disproved",
+      "result": "Every length-three left path in a finite completely regular semigroup yields a length-two left path. Thus no finite completely regular semigroup has knit degree three.",
+      "scope": "The exact finite completely regular existence question; a nonexistence theorem, not a counterexample construction.",
+      "proof_file": "Q3102-no-knit-degree-three.md",
+      "checker": "verify_semigroups.py",
+      "verification": "verification.json",
+      "primary_source": "https://arxiv.org/pdf/2511.10612",
+      "primary_location": "Problem 7.4 p.28; left-path definition p.4; Theorem 6.3 p.27.",
+      "prior_repo_result": "No earlier result linked from Q3102 at round start.",
+      "remaining_gap": "No mathematical gap identified in the written proof or separate internal review; historical priority is not certified.",
+      "independent_review": "../combinatorics/review-Q3102.md"
+    }
+  ],
+  "all_computational_checks_passed": true,
+  "novelty_certified": false,
+  "source_log": "SOURCES.md",
+  "evidence": "Self-contained proofs, separate internal reviews, and standard-library exact finite controls; no external peer review or formal proof certification."
+}

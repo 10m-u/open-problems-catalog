@@ -1,6 +1,6 @@
 # Algebra & Representation Theory
 
-330 problems: 321 open, 9 open, partial results.
+330 problems: 319 open, 10 open, partial results, 1 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -284,8 +284,8 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | [Q3013](algebra-representation-theory-part-2.md#q3013) | Asymptotic maximum p-length | Open |
 | [Q3014](algebra-representation-theory-part-2.md#q3014) | Character degrees detect trivial solvable radical | Open |
 | [Q3015](algebra-representation-theory-part-2.md#q3015) | Few infinite-order conjugacy classes | Open |
-| [Q3101](algebra-representation-theory-part-2.md#q3101) | Odd girths for completely regular semigroups | Open |
-| [Q3102](algebra-representation-theory-part-2.md#q3102) | Knit degree three for completely regular semigroups | Open |
+| [Q3101](algebra-representation-theory-part-2.md#q3101) | Odd girths for completely regular semigroups | Open, partial results |
+| [Q3102](algebra-representation-theory-part-2.md#q3102) | Knit degree three for completely regular semigroups | Solved here: disproved |
 | [Q3103](algebra-representation-theory-part-2.md#q3103) | Largest commutative transformation semigroups | Open |
 | [Q3104](algebra-representation-theory-part-2.md#q3104) | Henselian parahoric torsor injectivity | Open |
 | [Q3105](algebra-representation-theory-part-2.md#q3105) | Local equality in the mixed-multiplicity bound | Open |

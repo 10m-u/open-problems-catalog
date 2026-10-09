@@ -12,13 +12,13 @@
 | Game theory | [Matching & Market Design](game_theory/matching-market-design.md) | 1 | 1 | 0 | 0 |
 | Game theory | [Mechanism Design, Implementation & Auctions](game_theory/mechanism-design-implementation-auctions.md) | 7 | 7 | 0 | 0 |
 | Game theory | [Noncooperative Games & Equilibrium Theory](game_theory/noncooperative-games-equilibrium-theory.md) | 4 | 3 | 0 | 1 |
-| Game theory | [Social Choice & Voting Theory](game_theory/social-choice-voting-theory.md) | 13 | 13 | 0 | 0 |
+| Game theory | [Social Choice & Voting Theory](game_theory/social-choice-voting-theory.md) | 13 | 12 | 1 | 0 |
 | Information systems & engineering | [Information Theory & Coding](information_systems_engineering/information-theory-coding.md) | 31 | 29 | 2 | 0 |
 | Linguistics | [Computational & Corpus Linguistics](linguistics/computational-corpus-linguistics.md) | 8 | 8 | 0 | 0 |
-| Mathematics | [Algebra & Representation Theory](mathematics/algebra-representation-theory.md) | 330 | 321 | 9 | 0 |
+| Mathematics | [Algebra & Representation Theory](mathematics/algebra-representation-theory.md) | 330 | 319 | 10 | 1 |
 | Mathematics | [Algebraic Geometry](mathematics/algebraic-geometry.md) | 12 | 12 | 0 | 0 |
 | Mathematics | [Analysis](mathematics/analysis.md) | 88 | 85 | 3 | 0 |
-| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 516 | 494 | 12 | 10 |
+| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 516 | 492 | 13 | 11 |
 | Mathematics | [Computational Statistics: Resampling, EM, Mixtures & MCMC](mathematics/computational-statistics-resampling-em-mixtures-mcmc.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Control, Estimation & Filtering](mathematics/control-estimation-filtering.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Differential Equations & Dynamical Systems](mathematics/differential-equations-dynamical-systems.md) | 102 | 99 | 2 | 1 |
@@ -31,7 +31,7 @@
 | Mathematics | [Number Theory](mathematics/number-theory.md) | 122 | 113 | 9 | 0 |
 | Mathematics | [Numerical Analysis & Scientific Computing](mathematics/numerical-analysis-scientific-computing.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Optimization & Operations Research](mathematics/optimization-operations-research.md) | 110 | 103 | 4 | 3 |
-| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 449 | 415 | 18 | 16 |
+| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 449 | 413 | 18 | 18 |
 | Mathematics | [Queueing, Scheduling & Simulation](mathematics/queueing-scheduling-simulation.md) | 2 | 2 | 0 | 0 |
 | Mathematics | [Topology](mathematics/topology.md) | 221 | 221 | 0 | 0 |
 | Operations research | [Queueing, Scheduling & Simulation](operations_research/queueing-scheduling-simulation.md) | 5 | 5 | 0 | 0 |

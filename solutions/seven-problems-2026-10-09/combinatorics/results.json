@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09",
+  "base_commit": "368ce0d95a90c073be730b27c724133ce31666f0",
+  "results": [
+    {
+      "question": "Q256",
+      "number": 256,
+      "statement_id": "a165cebdc63b6ce55c75",
+      "status": "proposed-full-characterization",
+      "recommended_catalog_status": "proved",
+      "result": "A fixed 16-state acceptance criterion characterizes exactly the caterpillars admitting proper total domination and computes minimum witnesses in linear time from spine leaf counts. Multiplicities above three do not change feasibility or the minimum.",
+      "scope": "Finite simple caterpillars; open neighborhoods; K1 and K2 excluded as infeasible. Complete algorithmic characterization, not a minimal forbidden-subtree characterization.",
+      "proof_file": "Q0256-caterpillars.md",
+      "checker": "verify.py",
+      "verification": "verification.json",
+      "primary_source": "https://www.mdpi.com/2073-8994/17/9/1429",
+      "primary_location": "Question 1, section 5; definitions and caterpillars in sections 1 and 4; matching thesis Problem 4.3.8.",
+      "prior_repo_result": "No earlier result linked from Q256 at round start.",
+      "remaining_gap": "No mathematical gap identified by the separate internal AI review. Historical priority is not certified; external peer review remains outstanding.",
+      "review_file": "../reviews/combinatorics-review.md",
+      "internal_review": "Accepted by a separate internal AI mathematical review; not external peer review or formal verification."
+    },
+    {
+      "question": "Q257",
+      "number": 257,
+      "statement_id": "5f35c74c6786254ba720",
+      "status": "partial-theorems",
+      "recommended_catalog_status": "partial",
+      "result": "Every realizable tree pair (a,b) obeys a+1<=b<=6a-4 and has a tree representative of order at most 6a-4 preserving both parameters. Exactly b in {3,5} for a=2 and b in {6,7} for a=3.",
+      "scope": "Finite trees possessing a proper total dominating set. The full pair classification for a>=4 remains open.",
+      "proof_file": "Q0257-tree-pairs.md",
+      "checker": "verify.py",
+      "verification": "verification.json",
+      "primary_source": "https://www.mdpi.com/2073-8994/17/9/1429",
+      "primary_location": "Question 3, section 5; corresponding thesis label Problem 4.3.10 retained from catalog.",
+      "prior_repo_result": "No earlier result linked from Q257 at round start.",
+      "remaining_gap": "Exact realizability for a>=4 is not determined. The 6a-4 bound is not claimed sharp; small constructions overlap known published families.",
+      "review_file": "../reviews/combinatorics-review.md",
+      "internal_review": "Accepted by a separate internal AI mathematical review; not external peer review or formal verification."
+    }
+  ],
+  "all_computational_checks_passed": true,
+  "novelty_certified": false,
+  "source_log": "SEARCH-LOG.md",
+  "evidence": "Self-contained arguments accepted by a separate internal AI mathematical review, plus independent exact subset controls; not externally peer reviewed or formally verified."
+}
