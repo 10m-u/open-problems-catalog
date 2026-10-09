@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-09",
+  "base_commit": "368ce0d95a90c073be730b27c724133ce31666f0",
+  "selection": "Seven previously open, nonprovisional catalog entries without prior linked repository results; paired questions share source definitions and reusable proof work.",
+  "selected_numbers": [
+    132,
+    256,
+    257,
+    3101,
+    3102,
+    3286,
+    3287
+  ],
+  "catalog_status_counts": {
+    "partial": 3,
+    "proved": 3,
+    "disproved": 1
+  },
+  "evidence": "Written proofs with separate internal AI reviews, exact finite computational controls, and supplementary high-precision numerical checks. No external peer review, formal proof certification, or exhaustive novelty claim.",
+  "results": [
+    {
+      "number": 132,
+      "title": "Leontief donation dynamics beyond bounded waiting",
+      "catalog_status": "partial",
+      "resolution": "Two proved partial convergence theorems",
+      "theorem": "For arbitrary positive Leontief weights, convergence holds whenever the consecutive complete-interval lengths L_k satisfy sum_k 1/L_k = infinity. For support weights v_ix = a_i w_x, every fair schedule has finite total variation and converges; this includes every incidence forest.",
+      "remaining_gap": "Arbitrary fair schedules with unrestricted positive weights on incidence cycles remain unresolved.",
+      "proof": "dynamics/Q0132.md",
+      "review": "analysis/review-Q0132.md",
+      "checker": "dynamics/verify_q0132.py",
+      "certificate": "dynamics/q0132-checks.json",
+      "source_log": "dynamics/Q0132.md",
+      "source_access": "Original thesis and revised paper read; bounded 2026 literature comparison recorded in the proof note.",
+      "problem_page": "problems/game_theory/social-choice-voting-theory.md#q132",
+      "statement_ids": [
+        "65d84af967ac9fc1cfb4"
+      ],
+      "primary_source": "https://mediatum.ub.tum.de/doc/1759811/document.pdf",
+      "source_location": "Open Problem 5, p. 99 (PDF p. 115); redistribution dynamics and Theorem 5.24, pp. 65–67. Status evidence, checked 5 October 2026: The October 2025 revision of Coordinating Charitable Donations with Leontief Preferences still imposes the bounded-waiting K assumption in Theorem 3. The following discussion removes it only for binary Leontief utilities. Searches through the check date found no general resolution.",
+      "independent_review": "accepted; separate internal AI review"
+    },
+    {
+      "number": 256,
+      "title": "Exact characterization of proper-total-dominating caterpillars",
+      "catalog_status": "proved",
+      "resolution": "Proposed complete affirmative characterization",
+      "theorem": "A 16-state weighted automaton characterizes exactly the caterpillars admitting a proper total dominating set and computes a minimum witness. At most three selected leaves per spine vertex and four selected neighbors per spine vertex suffice; both bounds are sharp. The minimum-witness algorithm uses O(k) arithmetic operations for a k-vertex spine; input bit costs are separate.",
+      "remaining_gap": "No mathematical gap identified at the stated algorithmic characterization scope; external peer review and historical priority are not certified.",
+      "proof": "combinatorics/Q0256-caterpillars.md",
+      "review": "reviews/combinatorics-review.md",
+      "checker": "combinatorics/verify.py",
+      "certificate": "combinatorics/verification.json",
+      "source_log": "combinatorics/SEARCH-LOG.md",
+      "source_access": "Thesis full text blocked. Author-written publisher-indexed question text and the author conference abstract were checked; access limits and the related 2026 general-graph paper are recorded.",
+      "problem_page": "problems/mathematics/combinatorics-graph-theory-part-1.md#q256",
+      "statement_ids": [
+        "a165cebdc63b6ce55c75"
+      ],
+      "primary_source": "https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=5284&context=dissertations",
+      "source_location": "Problem 4.3.8, printed p.75.",
+      "independent_review": "accepted; separate internal AI review"
+    },
+    {
+      "number": 257,
+      "title": "Bounds and finite representatives for tree domination pairs",
+      "catalog_status": "partial",
+      "resolution": "Proved bounds, finite reduction, and two complete slices",
+      "theorem": "Every realizable tree pair (a,b) = (gamma_t,gamma_pt) satisfies a+1 <= b <= 6a-4 and has a representative on at most 6a-4 vertices. The complete a=2 slice is b in {3,5}; the complete a=3 slice is b in {6,7}.",
+      "remaining_gap": "A general characterization of the realizable pairs for a >= 4 remains unresolved; no sharpness claim is made for the upper bound.",
+      "proof": "combinatorics/Q0257-tree-pairs.md",
+      "review": "reviews/combinatorics-review.md",
+      "checker": "combinatorics/verify.py",
+      "certificate": "combinatorics/verification.json",
+      "source_log": "combinatorics/SEARCH-LOG.md",
+      "source_access": "Thesis full text blocked. Publisher-indexed primary question text, author abstract, and related general-graph results were checked; known small constructions are distinguished from this proof.",
+      "problem_page": "problems/mathematics/combinatorics-graph-theory-part-1.md#q257",
+      "statement_ids": [
+        "5f35c74c6786254ba720"
+      ],
+      "primary_source": "https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=5284&context=dissertations",
+      "source_location": "Problem 4.3.10, printed p.76.",
+      "independent_review": "accepted; separate internal AI review"
+    },
+    {
+      "number": 3101,
+      "title": "Odd-cycle obstructions for completely regular semigroups",
+      "catalog_status": "partial",
+      "resolution": "Proved subclass exclusion and necessary conditions",
+      "theorem": "Every triangle-free commuting graph of a finite band is bipartite. In any finite completely regular semigroup with triangle-free commuting graph, the noncentral idempotents induce a bipartite graph, and every odd cycle contains at least two nonidempotent involutions whose subgroup identities are central.",
+      "remaining_gap": "Odd girths at least five for general finite completely regular semigroups remain unresolved.",
+      "proof": "algebra/Q3101-odd-girth-obstructions.md",
+      "review": "analysis/review-Q3101.md",
+      "checker": "algebra/verify_semigroups.py",
+      "certificate": "algebra/verification.json",
+      "source_log": "algebra/SOURCES.md",
+      "source_access": "Full original paper, exact Problem 7.3, definitions, structural results, and relevant earlier constructions checked.",
+      "problem_page": "problems/mathematics/algebra-representation-theory-part-2.md#q3101",
+      "statement_ids": [
+        "c70e8d3a2fbecae7293d"
+      ],
+      "primary_source": "https://arxiv.org/abs/2511.10612v1",
+      "source_location": "Problem 7.3, p. 28.",
+      "independent_review": "accepted; separate internal AI review"
+    },
+    {
+      "number": 3102,
+      "title": "No knit degree three in finite completely regular semigroups",
+      "catalog_status": "disproved",
+      "resolution": "Proposed complete negative existence answer by nonexistence theorem",
+      "theorem": "Every length-three left path in a finite completely regular semigroup constructively yields a length-two left path. Consequently no finite completely regular semigroup has knit degree three.",
+      "remaining_gap": "No mathematical gap identified in the written proof and separate internal review. This is a nonexistence theorem, not a counterexample construction; it does not apply to arbitrary semigroups.",
+      "proof": "algebra/Q3102-no-knit-degree-three.md",
+      "review": "combinatorics/review-Q3102.md",
+      "checker": "algebra/verify_semigroups.py",
+      "certificate": "algebra/verification.json",
+      "source_log": "algebra/SOURCES.md",
+      "source_access": "Full original paper, exact Problem 7.4, endpoint conditions, and relevant earlier left-path results checked.",
+      "problem_page": "problems/mathematics/algebra-representation-theory-part-2.md#q3102",
+      "statement_ids": [
+        "0e397ee2bdb8fdd8862d"
+      ],
+      "primary_source": "https://arxiv.org/abs/2511.10612v1",
+      "source_location": "Problem 7.4, p. 28.",
+      "independent_review": "accepted; separate internal AI review"
+    },
+    {
+      "number": 3286,
+      "title": "Finite large-parameter Pareto-record dispersion limit",
+      "catalog_status": "proved",
+      "resolution": "Proposed complete affirmative answer with an integral formula",
+      "theorem": "For every fixed integer d >= 2, B_d(a) has a finite limit C_d > 1 as a tends to infinity. A convergent positive double-integral formula gives C_2 = 1 + pi^2/3 and C_3 = 1 + 12 zeta(3). The n-to-infinity limit defining B_d is taken first.",
+      "remaining_gap": "No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed.",
+      "proof": "analysis/REPORT.md",
+      "review": "reviews/analysis-review.md",
+      "checker": "analysis/checks.py",
+      "certificate": "analysis/checks.json",
+      "source_log": "analysis/SEARCH_LOG.md",
+      "source_access": "Original dissertation downloaded and read; printed pp.72-73 and 263 independently inspected, including visual verification of the rising-factorial normalization.",
+      "problem_page": "problems/mathematics/probability-stochastic-processes-part-2.md#q3286",
+      "statement_ids": [
+        "e5afd4a66b1480cf2ae8"
+      ],
+      "primary_source": "https://jscholarship.library.jhu.edu/server/api/core/bitstreams/7ca48c8a-5406-49b2-979f-adf49c725f4d/content",
+      "source_location": "Remark D.6, p. 263.",
+      "independent_review": "accepted; separate internal AI review"
+    },
+    {
+      "number": 3287,
+      "title": "Small-parameter Pareto-record dispersion limit and first correction",
+      "catalog_status": "proved",
+      "resolution": "Proposed complete affirmative answer with a first-order expansion",
+      "theorem": "For every fixed integer d >= 2, B_d(a) = 1 - 2a/(d-1) + O_d(a^2) as a decreases to zero. In particular its limit is one, with underdispersion for all sufficiently small positive a. The n-to-infinity limit defining B_d is taken first.",
+      "remaining_gap": "No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed.",
+      "proof": "analysis/REPORT.md",
+      "review": "reviews/analysis-review.md",
+      "checker": "analysis/checks.py",
+      "certificate": "analysis/checks.json",
+      "source_log": "analysis/SEARCH_LOG.md",
+      "source_access": "Original dissertation downloaded and read; printed pp.72-73 and 263 independently inspected, including visual verification of the rising-factorial normalization.",
+      "problem_page": "problems/mathematics/probability-stochastic-processes-part-2.md#q3287",
+      "statement_ids": [
+        "2d6fe65cb4343d7b5a46"
+      ],
+      "primary_source": "https://jscholarship.library.jhu.edu/server/api/core/bitstreams/7ca48c8a-5406-49b2-979f-adf49c725f4d/content",
+      "source_location": "Remark D.6, p. 263.",
+      "independent_review": "accepted; separate internal AI review"
+    }
+  ]
+}

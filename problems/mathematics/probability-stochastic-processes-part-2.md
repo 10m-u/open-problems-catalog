@@ -2658,7 +2658,7 @@ Is A_d(1)<1 for every d≥2?
 
 ## Q3286. Large-parameter record-count dispersion
 
-**Status:** Open · **Kind:** open problem · **Collection** 33
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 33
 
 Does B_d(a) have a finite limit as a→∞ for every d≥2?
 
@@ -2670,12 +2670,16 @@ Does B_d(a) have a finite limit as a→∞ for every d≥2?
 
 **Further links.** [1](https://jscholarship.library.jhu.edu/items/3c4d15c0-ee1d-43c7-94ef-dfb997ae860f)
 
+**Result (2026-10-09).** For every fixed integer d >= 2, B_d(a) has a finite limit C_d > 1 as a tends to infinity. A convergent positive double-integral formula gives C_2 = 1 + pi^2/3 and C_3 = 1 + 12 zeta(3). The n-to-infinity limit defining B_d is taken first. No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed.
+
+[Proof](../../solutions/seven-problems-2026-10-09/analysis/REPORT.md) · [Internal review](../../solutions/seven-problems-2026-10-09/reviews/analysis-review.md) · [Computational controls](../../solutions/seven-problems-2026-10-09/analysis/checks.json). This research proposal has a separate internal AI review; it is not externally peer reviewed.
+
 
 <a id="q3287"></a>
 
 ## Q3287. Small-parameter record-count dispersion
 
-**Status:** Open · **Kind:** open problem · **Collection** 33
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 33
 
 Is lim_{a↓0}B_d(a)=1 for every d≥2?
 
@@ -2686,6 +2690,10 @@ Is lim_{a↓0}B_d(a)=1 for every d≥2?
 **Literature check.** Status for questions 3284, 3285, 3286, 3287, checked 8 October 2026: Checked 8 October 2026; no later resolution located.
 
 **Further links.** [1](https://jscholarship.library.jhu.edu/items/3c4d15c0-ee1d-43c7-94ef-dfb997ae860f)
+
+**Result (2026-10-09).** For every fixed integer d >= 2, B_d(a) = 1 - 2a/(d-1) + O_d(a^2) as a decreases to zero. In particular its limit is one, with underdispersion for all sufficiently small positive a. The n-to-infinity limit defining B_d is taken first. No mathematical gap identified relative to the fixed-parameter formula in Sun, Theorem 4.8 and Remark 4.10. The proof concerns record arrivals R_n, not remaining records r_n; external peer review is still needed.
+
+[Proof](../../solutions/seven-problems-2026-10-09/analysis/REPORT.md) · [Internal review](../../solutions/seven-problems-2026-10-09/reviews/analysis-review.md) · [Computational controls](../../solutions/seven-problems-2026-10-09/analysis/checks.json). This research proposal has a separate internal AI review; it is not externally peer reviewed.
 
 
 <a id="q3288"></a>

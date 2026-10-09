@@ -1,0 +1,15 @@
+{
+  "problem": 132,
+  "arithmetic": "exact rational (fractions.Fraction)",
+  "passed": true,
+  "counts": {
+    "best_response_active_set_comparisons": 1380,
+    "nonexpansiveness_comparisons": 13080,
+    "residual_step_comparisons": 9688,
+    "complete_interval_mass_bounds": 960,
+    "weighted_transfer_bounds": 8640,
+    "weighted_best_response_bounds": 3945,
+    "weighted_cumulative_variation_bounds": 3945
+  },
+  "scope": "Finite controls for best-response formulas, total-variation nonexpansiveness, residual bounds, and weighted potential inequalities. Infinite convergence is established analytically in Q0132.md."
+}

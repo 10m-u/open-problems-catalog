@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-09",
+  "scope": "Exploratory exact-order finite-model queries, not used as proofs of universal results.",
+  "proof_artifact_emitted": false,
+  "runs": [
+    {
+      "question": "Q3102",
+      "order": 6,
+      "variety": "band",
+      "result": "unsat",
+      "build_seconds": 0.216,
+      "solve_seconds": 0.031,
+      "z3_version": "5.1.0"
+    },
+    {
+      "question": "Q3102",
+      "order": 12,
+      "variety": "band",
+      "result": "unsat",
+      "build_seconds": 2.589,
+      "solve_seconds": 3.806,
+      "z3_version": "5.1.0"
+    },
+    {
+      "question": "Q3102",
+      "order": 8,
+      "variety": "completely-regular",
+      "result": "unsat",
+      "build_seconds": 0.574,
+      "solve_seconds": 1.24,
+      "z3_version": "5.1.0"
+    },
+    {
+      "question": "Q3101",
+      "order": 8,
+      "variety": "band",
+      "result": "unsat",
+      "build_seconds": 0.887,
+      "solve_seconds": 0.534,
+      "z3_version": "5.1.0"
+    }
+  ]
+}

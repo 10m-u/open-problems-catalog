@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-449 problems: 415 open, 18 open, partial results, 11 solved here: proved, 5 solved here: disproved.
+449 problems: 413 open, 18 open, partial results, 13 solved here: proved, 5 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -413,8 +413,8 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | [Q3200](probability-stochastic-processes-part-2.md#q3200) | Continuity of the complex BBM martingale limit on phase boundaries | Open |
 | [Q3284](probability-stochastic-processes-part-2.md#q3284) | Unimodality of remaining-record dispersion | Open |
 | [Q3285](probability-stochastic-processes-part-2.md#q3285) | Simplex-record underdispersion | Open |
-| [Q3286](probability-stochastic-processes-part-2.md#q3286) | Large-parameter record-count dispersion | Open |
-| [Q3287](probability-stochastic-processes-part-2.md#q3287) | Small-parameter record-count dispersion | Open |
+| [Q3286](probability-stochastic-processes-part-2.md#q3286) | Large-parameter record-count dispersion | Solved here: proved |
+| [Q3287](probability-stochastic-processes-part-2.md#q3287) | Small-parameter record-count dispersion | Solved here: proved |
 | [Q3288](probability-stochastic-processes-part-2.md#q3288) | Finite-space distribution-map convergence | Open |
 | [Q3289](probability-stochastic-processes-part-2.md#q3289) | Planar nearest-of-two collapse | Open |
 | [Q3290](probability-stochastic-processes-part-2.md#q3290) | Interval full-support iteration limits | Open |

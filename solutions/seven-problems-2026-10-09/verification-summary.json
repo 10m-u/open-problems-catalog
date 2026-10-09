@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-09",
+  "dependencies": {
+    "mpmath": {
+      "installed": "1.3.0",
+      "required": "1.3.0"
+    }
+  },
+  "evidence_scope": "These reproducible checks supplement the written proofs and separate internal reviews. Exact arithmetic and non-certified numerical diagnostics are distinguished per suite.",
+  "optional_z3_exploration_run": false,
+  "requirements": {
+    "bytes": 14,
+    "path": "requirements.txt",
+    "sha256": "a699f46ed76bd216f1081b6b2330e4fb45d7c8c5a5354b208694d6590a5a8645"
+  },
+  "runner": {
+    "bytes": 5463,
+    "path": "run_all.py",
+    "sha256": "47e6bec08adade74d2cd210ab78b17a7de379163686cda4e737a819e8547455e"
+  },
+  "status": "passed",
+  "suites": [
+    {
+      "arithmetic": "exact",
+      "certificates": [
+        {
+          "bytes": 625,
+          "path": "dynamics/q0132-checks.json",
+          "sha256": "3fbd851c40f3e34b655aaee112aa18a512e40b80581522aa8d16be351f9b23d7"
+        }
+      ],
+      "exit_code": 0,
+      "name": "dynamics",
+      "questions": [
+        "Q132"
+      ],
+      "scope": "Exact rational finite controls for best responses, nonexpansiveness, interval bounds, and weighted variation; not a machine proof of infinite convergence.",
+      "scripts": [
+        {
+          "bytes": 9730,
+          "path": "dynamics/verify_q0132.py",
+          "sha256": "4c10a5ae2d93a5f08db470c780d5d6b4679dde7de946b6e2e9e520dc17bd949e"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "arithmetic": "exact",
+      "certificates": [
+        {
+          "bytes": 17679,
+          "path": "combinatorics/verification.json",
+          "sha256": "130d97f6d5853e0634c9d4135a47f34206140c6c33c749d475cd423397e549c0"
+        }
+      ],
+      "exit_code": 0,
+      "name": "combinatorics",
+      "questions": [
+        "Q256",
+        "Q257"
+      ],
+      "scope": "Exact subset enumeration of unlabeled trees through order 13, caterpillar witnesses, and finite reductions; not a proof at unbounded order.",
+      "scripts": [
+        {
+          "bytes": 7093,
+          "path": "combinatorics/verify.py",
+          "sha256": "1dc7e6daefefbffd6aab053578792d8e57dfce097c154f446d816958304a0974"
+        },
+        {
+          "bytes": 4146,
+          "path": "combinatorics/caterpillar.py",
+          "sha256": "143cd0f103ab8289b0b08de901466bc746a230e4ca8811861576509edd14828c"
+        },
+        {
+          "bytes": 3983,
+          "path": "combinatorics/tree_enumeration.py",
+          "sha256": "77d164993cd345ec63055380a04a94652f04b2b9b7d56a16a7869ce32e565776"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "arithmetic": "exact",
+      "certificates": [
+        {
+          "bytes": 10582,
+          "path": "algebra/verification.json",
+          "sha256": "965cc477f0c0af207bb9400b814c471fde60b1daecfdc3c68a69d4e4da59f7cb"
+        },
+        {
+          "bytes": 43939,
+          "path": "algebra/finite-examples.json",
+          "sha256": "7f35cdd819e53617b6293cc566b84c472dd4cb17eaa7e9e40f0462b5d003f91c"
+        }
+      ],
+      "exit_code": 0,
+      "name": "algebra",
+      "questions": [
+        "Q3101",
+        "Q3102"
+      ],
+      "scope": "Exact finite multiplication-table, graph, and constructive left-path controls on 13 explicit examples; not an exhaustive classification of finite semigroups.",
+      "scripts": [
+        {
+          "bytes": 13460,
+          "path": "algebra/verify_semigroups.py",
+          "sha256": "e8512bf23c530e9485ef5f0e567b98c858a8900b180bdc62cff57bc77fc37918"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "arithmetic": "mixed: exact rational and numerical",
+      "certificates": [
+        {
+          "bytes": 9078,
+          "path": "analysis/checks.json",
+          "sha256": "556fea90fe6861f79027bbdbf4c1ceee2d725380ca4df8220fc5979cf02c2397"
+        }
+      ],
+      "exit_code": 0,
+      "name": "analysis",
+      "questions": [
+        "Q3286",
+        "Q3287"
+      ],
+      "scope": "Exact rational small-parameter bound evaluations plus mpmath quadrature/identity diagnostics at 60 decimal digits and absolute tolerance 1e-45; numerical values are not interval-certified.",
+      "scripts": [
+        {
+          "bytes": 6556,
+          "path": "analysis/checks.py",
+          "sha256": "ec695bd877301e6aed2c3f660b250c3e1496bd20775eef63b1a803d2fef1de6d"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "suites_passed": 4,
+  "suites_total": 4
+}

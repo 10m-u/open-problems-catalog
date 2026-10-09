@@ -784,7 +784,7 @@ Determine \$\operatorname{wsat}(K_n,Q_d)\$ for fixed \$d\ge3\$ and \$n\ge2^d\$. 
 
 ## Q256. Characterize the caterpillars admitting a proper total dominating set. A caterpi…
 
-**Status:** Open · **Kind:** open problem (Problem 4.3.8) · **Collection** 3
+**Status:** Solved here: proved · **Kind:** open problem (Problem 4.3.8) · **Collection** 3
 
 Characterize the caterpillars admitting a proper total dominating set. A caterpillar is a tree whose non-leaf vertices induce a path.
 
@@ -794,12 +794,16 @@ Characterize the caterpillars admitting a proper total dominating set. A caterpi
 
 **Further links.** [1](https://www.mdpi.com/2073-8994/17/9/1429) · [2](https://www.math.fau.edu/combinatorics/abstracts/osborn-57.pdf)
 
+**Result (2026-10-09).** A 16-state weighted automaton characterizes exactly the caterpillars admitting a proper total dominating set and computes a minimum witness. At most three selected leaves per spine vertex and four selected neighbors per spine vertex suffice; both bounds are sharp. The minimum-witness algorithm uses O(k) arithmetic operations for a k-vertex spine; input bit costs are separate. No mathematical gap identified at the stated algorithmic characterization scope; external peer review and historical priority are not certified.
+
+[Proof](../../solutions/seven-problems-2026-10-09/combinatorics/Q0256-caterpillars.md) · [Internal review](../../solutions/seven-problems-2026-10-09/reviews/combinatorics-review.md) · [Computational controls](../../solutions/seven-problems-2026-10-09/combinatorics/verification.json). This research proposal has a separate internal AI review; it is not externally peer reviewed.
+
 
 <a id="q257"></a>
 
 ## Q257. Which integer pairs \$2\le a\le b\$ occur as the minimum size \$a\$ of a total domin…
 
-**Status:** Open · **Kind:** open problem (Problem 4.3.10) · **Collection** 3
+**Status:** Open, partial results · **Kind:** open problem (Problem 4.3.10) · **Collection** 3
 
 Which integer pairs \$2\le a\le b\$ occur as the minimum size \$a\$ of a total dominating set and the minimum size \$b\$ of a proper total dominating set in one tree?
 
@@ -808,6 +812,10 @@ Which integer pairs \$2\le a\le b\$ occur as the minimum size \$a\$ of a total d
 **Source.** Sawyer Isaac Osborn. *From Total Domination to Graph Coloring*. Western Michigan University, 2026. Advisor(s): Ping Zhang. [primary source](https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=5284&context=dissertations) · [record](https://scholarworks.wmich.edu/dissertations/4275/) Location: Problem 4.3.10, printed p.76.
 
 **Further links.** [1](https://www.mdpi.com/2073-8994/17/9/1429)
+
+**Result (2026-10-09).** Every realizable tree pair (a,b) = (gamma_t,gamma_pt) satisfies a+1 <= b <= 6a-4 and has a representative on at most 6a-4 vertices. The complete a=2 slice is b in {3,5}; the complete a=3 slice is b in {6,7}. A general characterization of the realizable pairs for a >= 4 remains unresolved; no sharpness claim is made for the upper bound.
+
+[Proof](../../solutions/seven-problems-2026-10-09/combinatorics/Q0257-tree-pairs.md) · [Internal review](../../solutions/seven-problems-2026-10-09/reviews/combinatorics-review.md) · [Computational controls](../../solutions/seven-problems-2026-10-09/combinatorics/verification.json). This research proposal has a separate internal AI review; it is not externally peer reviewed.
 
 
 <a id="q258"></a>

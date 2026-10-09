@@ -1,6 +1,6 @@
 # Combinatorics & Graph Theory
 
-516 problems: 494 open, 12 open, partial results, 9 solved here: proved, 1 solved here: disproved.
+516 problems: 492 open, 13 open, partial results, 10 solved here: proved, 1 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -56,8 +56,8 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q253](combinatorics-graph-theory-part-1.md#q253) | Fix \$m\ge2\$ and \$n\ge r\ge2\$. Must \$\operatorname{sat}(P_n^d,P_r^m)\$ and its axi… | Open |
 | [Q254](combinatorics-graph-theory-part-1.md#q254) | Let \$s(k)\$ be the eventual minimum size of a maximal family of subsets of \$[n]\$ … | Open |
 | [Q255](combinatorics-graph-theory-part-1.md#q255) | Determine \$\operatorname{wsat}(K_n,Q_d)\$ for fixed \$d\ge3\$ and \$n\ge2^d\$. This i… | Open |
-| [Q256](combinatorics-graph-theory-part-1.md#q256) | Characterize the caterpillars admitting a proper total dominating set. A caterpi… | Open |
-| [Q257](combinatorics-graph-theory-part-1.md#q257) | Which integer pairs \$2\le a\le b\$ occur as the minimum size \$a\$ of a total domin… | Open |
+| [Q256](combinatorics-graph-theory-part-1.md#q256) | Characterize the caterpillars admitting a proper total dominating set. A caterpi… | Solved here: proved |
+| [Q257](combinatorics-graph-theory-part-1.md#q257) | Which integer pairs \$2\le a\le b\$ occur as the minimum size \$a\$ of a total domin… | Open, partial results |
 | [Q258](combinatorics-graph-theory-part-1.md#q258) | Let \$\chi_{pt}(G)\$ minimize the number of distinct \$\sigma\$-values over proper t… | Open |
 | [Q259](combinatorics-graph-theory-part-1.md#q259) | For k ≥ 2, is the maximum size of an intersecting temperate family on {1,…,2k} e… | Open |
 | [Q260](combinatorics-graph-theory-part-1.md#q260) | For every \$k\ge1\$, assign distinct permutations \$\pi_D\$ of \$\mathbb Z/(2k+1)\mat… | Open |

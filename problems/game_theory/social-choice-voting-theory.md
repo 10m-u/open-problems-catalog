@@ -1,13 +1,13 @@
 # Social Choice & Voting Theory
 
-13 problems: 13 open.
+13 problems: 12 open, 1 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
 | Q | Title | Status |
 |---|---|---|
 | [Q131](social-choice-voting-theory.md#q131) | Must every individually strategyproof, U-continuous mechanism selecting core all… | Open |
-| [Q132](social-choice-voting-theory.md#q132) | Start all individual allocations at zero. Each turn, one agent (re)distributes h… | Open |
+| [Q132](social-choice-voting-theory.md#q132) | Start all individual allocations at zero. Each turn, one agent (re)distributes h… | Open, partial results |
 | [Q133](social-choice-voting-theory.md#q133) | For m≥4 alternatives and arbitrary finite electorates with strict rankings, is 3… | Open |
 | [Q134](social-choice-voting-theory.md#q134) | For finite project sets and arbitrary finite sets of donors with nonempty approv… | Open |
 | [Q135](social-choice-voting-theory.md#q135) | Fix m candidates, scoring vector α∈R^m, and t&lt;m such that all t-subset queries d… | Open |
@@ -39,7 +39,7 @@ Must every individually strategyproof, U-continuous mechanism selecting core all
 
 ## Q132. Start all individual allocations at zero. Each turn, one agent (re)distributes h…
 
-**Status:** Open · **Kind:** open problem (Problem 5) · **Collection** 2
+**Status:** Open, partial results · **Kind:** open problem (Problem 5) · **Collection** 2
 
 Start all individual allocations at zero. Each turn, one agent (re)distributes her entire Cᵢ as a best response to current others. If every agent is selected infinitely often, must aggregate allocations converge to NASH, without a uniform finite bound on waiting times?
 
@@ -48,6 +48,10 @@ Start all individual allocations at zero. Each turn, one agent (re)distributes h
 **Source.** Matthias S. Greger. *Collective Choice from the Probability Simplex with Application to Donor Coordination*. Technical University of Munich, 2025. Advisor(s): Felix Brandt. [primary source](https://mediatum.ub.tum.de/doc/1759811/document.pdf) · [record](https://pub.dss.in.tum.de/brandt/cv_english.pdf) Location: Open Problem 5, p. 99 (PDF p. 115); redistribution dynamics and Theorem 5.24, pp. 65–67. Status evidence, checked 5 October 2026: The October 2025 revision of Coordinating Charitable Donations with Leontief Preferences still imposes the bounded-waiting K assumption in Theorem 3. The following discussion removes it only for binary Leontief utilities. Searches through the check date found no general resolution.
 
 **Further links.** [1](https://arxiv.org/html/2305.10286v3) · [2](https://arxiv.org/abs/2305.10286)
+
+**Result (2026-10-09).** For arbitrary positive Leontief weights, convergence holds whenever the consecutive complete-interval lengths L_k satisfy sum_k 1/L_k = infinity. For support weights v_ix = a_i w_x, every fair schedule has finite total variation and converges; this includes every incidence forest. Arbitrary fair schedules with unrestricted positive weights on incidence cycles remain unresolved.
+
+[Proof](../../solutions/seven-problems-2026-10-09/dynamics/Q0132.md) · [Internal review](../../solutions/seven-problems-2026-10-09/analysis/review-Q0132.md) · [Computational controls](../../solutions/seven-problems-2026-10-09/dynamics/q0132-checks.json). This research proposal has a separate internal AI review; it is not externally peer reviewed.
 
 
 <a id="q133"></a>
