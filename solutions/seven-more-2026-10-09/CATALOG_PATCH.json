@@ -1,0 +1,88 @@
+{
+  "format_version": 1,
+  "base_commit": "b75acbb7671a16ac38e8f41656b92f211dce5f4a",
+  "patch": "catalog-update.patch",
+  "patch_sha256": "ebcc70881737de811531ebec5cd535bd0e11ec4355f744fd32c655c7d0681da2",
+  "files": [
+    {
+      "path": "README.md",
+      "before_sha256": "3e70335cd02a9cbc4aab3ea88afd9bc35657de0175557d98231ce9ed5e7ccd51",
+      "after_sha256": "640b15cb748b3a9a33d57b0c55ead35fd26494426a1c401b68a069660974dd25"
+    },
+    {
+      "path": "data/problems.csv",
+      "before_sha256": "c104a8f8c4ac78116f94cb0612a39759de46c7576bf2a513b2e6c93a19ddca37",
+      "after_sha256": "dc214d86a229a3b14e77ea5625095314f7d4be4bb0203bf1553c6f90788d9f36"
+    },
+    {
+      "path": "data/problems.json",
+      "before_sha256": "40a3b35930e666ca7b84f4d7f6101a618f4de14fc27dc30a827e0a6012a14cc9",
+      "after_sha256": "a8c2e9b485555f369efdad78f68207c6408e9c3aba79d3d27168a14c97a2c75d"
+    },
+    {
+      "path": "problems/README.md",
+      "before_sha256": "0318391ffcb2549d177f81f983a7726ca530c192a17c23ff13e7ef0e439ce5b7",
+      "after_sha256": "41adb5bb199eb12e94692a71a71a6162c79ea2f128ad34442942732df3f5a1b6"
+    },
+    {
+      "path": "problems/index/Q0001-Q0500.md",
+      "before_sha256": "c7d1ece3151565e40c41508757cc1c0296ac512d26cb245f8950794ba5d98da4",
+      "after_sha256": "4719e5850cc16b12a5942102c824ee968c42e605741e0f695edac6fd8345f1bf"
+    },
+    {
+      "path": "problems/index/Q0501-Q1001.md",
+      "before_sha256": "3f9a90ff9a7236c63471ac0c261d18a28fcbbec20f20e3079a5b6ab5606cf2b8",
+      "after_sha256": "8b9459383013698d046bf695ee1695d427cfe4152954c126d12ee57dd5885261"
+    },
+    {
+      "path": "problems/index/Q1505-Q2006.md",
+      "before_sha256": "189fd1787f1c3796f2b7fdf7bf804252ffb5ff7ad488c9df6fcad94d08ef97b9",
+      "after_sha256": "17b821781e0a11406f503775fb3abbc85f5c723f811422170fe8b203610c59ae"
+    },
+    {
+      "path": "problems/index/Q2007-Q2512.md",
+      "before_sha256": "4f6c15f0766abab1d5ebc9a24d9b955f7c79226ae2fd48846c1b85838e967400",
+      "after_sha256": "e4c5b32d4451bad0883d4d953a31b632c3a6088b9e012f95c06ff4c9e6e60425"
+    },
+    {
+      "path": "problems/index/Q3013-Q3512.md",
+      "before_sha256": "5c7ded1cb4de7355bdabb42c166723baf6718b19792553ce2640b94b104e5716",
+      "after_sha256": "9c8eec1b08f8223eda08655d6e8e8dfbab1eceb65192c6a2a6e96dccb7fbce64"
+    },
+    {
+      "path": "problems/mathematics/algebra-representation-theory-part-1.md",
+      "before_sha256": "6f79da94bd3056dc29932f82af7f7794029b7a4b02a2c34bc38e0b65020f78ac",
+      "after_sha256": "c661246b27a2c4f0fe044bdf189cfe084eaf6a864f97b96731edf8511f9f7d47"
+    },
+    {
+      "path": "problems/mathematics/algebra-representation-theory.md",
+      "before_sha256": "68b4481e39cbe3fa78c6281ccb4e9865b2ed702653a47bae1420e004aa3c7129",
+      "after_sha256": "f2bd9333b1f792ab61a9b3b1f39d4879eeba2df8bc7bb9c227b0e972d4283205"
+    },
+    {
+      "path": "problems/mathematics/combinatorics-graph-theory-part-2.md",
+      "before_sha256": "a019328a912e2e9670373b3cf42fed5cb31a2fe075320c9655e570d829a7212d",
+      "after_sha256": "056830aeadde4b358fa32092c9ea12ce2d84c74ff3e3146d5e6eaf8a11d5005a"
+    },
+    {
+      "path": "problems/mathematics/combinatorics-graph-theory.md",
+      "before_sha256": "af0379552ec232fd49cfe5c2309aa4b10ad4dd043891b2a0b0e3b232d5db1033",
+      "after_sha256": "5eb851f3f806b783c08426d9decc1cd55783d265c28a3ca112afa3d2c65ebc42"
+    },
+    {
+      "path": "problems/mathematics/optimization-operations-research.md",
+      "before_sha256": "eb6d3722b36e9222bbe58504ca62f6f12faad8f6805d946d99a7f4db1eaa465b",
+      "after_sha256": "8efa1e8cb2d5b430e1be37a6d90d9a4c0a3d9388a28c98ca8c66736d0663009f"
+    },
+    {
+      "path": "problems/mathematics/probability-stochastic-processes-part-1.md",
+      "before_sha256": "2684c5be02e6504b2ba9036fabe58b591a93d19ab455e4ebf005b0048e314fda",
+      "after_sha256": "196db1d825ca25430190e25ebfac34b7cb5fe0f96b905f8c4fe5caba7bfb58a0"
+    },
+    {
+      "path": "problems/mathematics/probability-stochastic-processes.md",
+      "before_sha256": "0eaf0d0da236a80e0d13921a45101b5514b7a107051d6a68a37f2ed8111865a3",
+      "after_sha256": "f2d938d378b81ca15ed94f02081ae03ac1990d8acd8dfc45a27fbc834673ceb3"
+    }
+  ]
+}

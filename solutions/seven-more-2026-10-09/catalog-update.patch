@@ -1,0 +1,520 @@
+diff --git a/README.md b/README.md
+index d9751a853794849163b4caa8e273a831157e8699..9096145d5fd714f0307c4b40f0349c122456fcfa 100644
+--- a/README.md
++++ b/README.md
+@@ -10,3 +10,3 @@ obtained on it. Problems already solved elsewhere are left out.
+-| Open | 3449 |
+-| Open, with partial results here | 93 |
+-| Solved here | 46 (33 proved, 13 disproved) |
++| Open | 3442 |
++| Open, with partial results here | 96 |
++| Solved here | 50 (35 proved, 15 disproved) |
+@@ -50,0 +51 @@ level. None of it is peer reviewed. Much of the work was done with AI research a
++- `seven-more-2026-10-09` contains two proposed affirmative resolutions, two exact counterexamples and three partial results, each with a separate internal AI review and reproducible exact controls. The general freezing-process and unrestricted Cayley-word questions remain unresolved.
+diff --git a/data/problems.csv b/data/problems.csv
+index ea3456132c99a6c60f2efa7ee2feac3606dc0cdb..0619330546c43f36a7996d4421fbdd381e044bcb 100644
+--- a/data/problems.csv
++++ b/data/problems.csv
+@@ -277,2 +277,2 @@ number,status,kind,collection,subject,title,author,source_title,year,primary_sou
+-276,open,open-problem,3,Probability & Stochastic Processes,"For every finite graph $G$, $0<\alpha<\beta$, and increasing event $A$, is $\mu_…",Edward John Mottram,The geometry of non-Markovian interacting systems,2015,https://www.repository.cam.ac.uk/bitstreams/72e98faf-8e12-4374-9a2e-c0c8ad6840e1/download,"Section 3.1.4, equation (3.1.1), printed p. 43 (PDF p. 53).","For every finite graph $G$, $0<\alpha<\beta$, and increasing event $A$, is $\mu_{G,\beta}(A)\le\mu_{G,\alpha}(A)$?"
+-277,open,open-problem,3,Probability & Stochastic Processes,"For every finite graph $G$ and $\alpha>0$, does $\mu=\mu_{G,\alpha}$ satisfy $\m…",Edward John Mottram,The geometry of non-Markovian interacting systems,2015,https://www.repository.cam.ac.uk/bitstreams/72e98faf-8e12-4374-9a2e-c0c8ad6840e1/download,"Section 3.1.4 and Example 3.1.5, printed pp. 43–44 (PDF pp. 53–54).","For every finite graph $G$ and $\alpha>0$, does $\mu=\mu_{G,\alpha}$ satisfy $\mu(A\cap B)\ge\mu(A)\mu(B)$ for all increasing events $A,B$?"
++276,partial,open-problem,3,Probability & Stochastic Processes,"For every finite graph $G$, $0<\alpha<\beta$, and increasing event $A$, is $\mu_…",Edward John Mottram,The geometry of non-Markovian interacting systems,2015,https://www.repository.cam.ac.uk/bitstreams/72e98faf-8e12-4374-9a2e-c0c8ad6840e1/download,"Section 3.1.4, equation (3.1.1), printed p. 43 (PDF p. 53).","For every finite graph $G$, $0<\alpha<\beta$, and increasing event $A$, is $\mu_{G,\beta}(A)\le\mu_{G,\alpha}(A)$?"
++277,partial,open-problem,3,Probability & Stochastic Processes,"For every finite graph $G$ and $\alpha>0$, does $\mu=\mu_{G,\alpha}$ satisfy $\m…",Edward John Mottram,The geometry of non-Markovian interacting systems,2015,https://www.repository.cam.ac.uk/bitstreams/72e98faf-8e12-4374-9a2e-c0c8ad6840e1/download,"Section 3.1.4 and Example 3.1.5, printed pp. 43–44 (PDF pp. 53–54).","For every finite graph $G$ and $\alpha>0$, does $\mu=\mu_{G,\alpha}$ satisfy $\mu(A\cap B)\ge\mu(A)\mu(B)$ for all increasing events $A,B$?"
+@@ -964 +964 @@ number,status,kind,collection,subject,title,author,source_title,year,primary_sou
+-964,open,open-problem,10,Optimization & Operations Research,Learning when response memory spans the whole horizon,Khashayar Khosravi; Renato Paes Leme; Chara Podimata; Apostolis Tsorvantzis,Preferences Evolve And So Should Your Bandits: Bandits with Evolving States for Online Platforms,2024,https://arxiv.org/abs/2307.11655v5,§7 first question; §2; §4.,"For known λ=c/T, fixed c>0, K, can worst-case expected regret against the parameter-informed best length-T sequence be o(T), without discounting benchmark reward?"
++964,proved,open-problem,10,Optimization & Operations Research,Learning when response memory spans the whole horizon,Khashayar Khosravi; Renato Paes Leme; Chara Podimata; Apostolis Tsorvantzis,Preferences Evolve And So Should Your Bandits: Bandits with Evolving States for Online Platforms,2024,https://arxiv.org/abs/2307.11655v5,§7 first question; §2; §4.,"For known λ=c/T, fixed c>0, K, can worst-case expected regret against the parameter-informed best length-T sequence be o(T), without discounting benchmark reward?"
+@@ -1712 +1712 @@ number,status,kind,collection,subject,title,author,source_title,year,primary_sou
+-1715,open,open-problem,18,Algebra & Representation Theory,Characterize property-F Lie algebras,"Dietrich Burde, Karel Dekimpe, Wolfgang Alexander Moens",Commutative post-Lie algebra structures and linear equations for nilpotent Lie algebras,2019,https://homepage.univie.ac.at/dietrich.burde/papers/burde_57_cpa.pdf,"§5, final Open problem, p. 13.","For nilpotent g with dim(g/[g,g])=2, suppose every generating pair x,y and every u,v,w∈[g,g] satisfying [x,u]+[y,v]=[x,v]+[y,w]=0 has u,v,w∈Z(g). Is this equivalent to g≅F_{2,c} for some c≥1?"
++1715,disproved,open-problem,18,Algebra & Representation Theory,Characterize property-F Lie algebras,"Dietrich Burde, Karel Dekimpe, Wolfgang Alexander Moens",Commutative post-Lie algebra structures and linear equations for nilpotent Lie algebras,2019,https://homepage.univie.ac.at/dietrich.burde/papers/burde_57_cpa.pdf,"§5, final Open problem, p. 13.","For nilpotent g with dim(g/[g,g])=2, suppose every generating pair x,y and every u,v,w∈[g,g] satisfying [x,u]+[y,v]=[x,v]+[y,w]=0 has u,v,w∈Z(g). Is this equivalent to g≅F_{2,c} for some c≥1?"
+@@ -2298 +2298 @@ number,status,kind,collection,subject,title,author,source_title,year,primary_sou
+-2305,open,open-problem,24,Algebra & Representation Theory,Partial inner automorphisms of matrix monoids,"João Araújo, Wolfram Bentz, Michael Kinyon, Janusz Konieczny, António Malheiro, Valentin Mercier",The Inverse Monoid of Partial Inner Automorphisms of a Semigroup,2026,https://arxiv.org/html/2605.00041v1,Problem 7.9.,"For every field F and finite-dimensional F-vector space V, characterize Inn(End_F(V)) up to isomorphism."
++2305,proved,open-problem,24,Algebra & Representation Theory,Partial inner automorphisms of matrix monoids,"João Araújo, Wolfram Bentz, Michael Kinyon, Janusz Konieczny, António Malheiro, Valentin Mercier",The Inverse Monoid of Partial Inner Automorphisms of a Semigroup,2026,https://arxiv.org/html/2605.00041v1,Problem 7.9.,"For every field F and finite-dimensional F-vector space V, characterize Inn(End_F(V)) up to isomorphism."
+@@ -3469 +3469 @@ number,status,kind,collection,subject,title,author,source_title,year,primary_sou
+-3480,open,open-problem,35,Combinatorics & Graph Theory,Two-pass hare-sortable Cayley words,Giulio Cerbai,Sorting Cayley permutations with pattern-avoiding machines,2021,https://ajc.maths.uq.edu.au/pdf/80/ajc_v80_p322.pdf,"Open Problem 1, p. 330.","Determine, for each integer n≥1, the number of length-n Cayley words w for which h(h(w)) is weakly increasing."
++3480,partial,open-problem,35,Combinatorics & Graph Theory,Two-pass hare-sortable Cayley words,Giulio Cerbai,Sorting Cayley permutations with pattern-avoiding machines,2021,https://ajc.maths.uq.edu.au/pdf/80/ajc_v80_p322.pdf,"Open Problem 1, p. 330.","Determine, for each integer n≥1, the number of length-n Cayley words w for which h(h(w)) is weakly increasing."
+@@ -3488 +3488 @@ number,status,kind,collection,subject,title,author,source_title,year,primary_sou
+-3499,open,open-problem,35,Combinatorics & Graph Theory,Polygon-face Ehrhart positivity,"Teemu Lundström, Leonardo Saud Maia Leite",Order polytopes of crown posets,2026,https://arxiv.org/pdf/2504.05123v5,"Question 6.5, p. 33.","Does E_{L(Pₙ)}(m), expanded in powers of m, have nonnegative coefficients for every n≥3?"
++3499,disproved,open-problem,35,Combinatorics & Graph Theory,Polygon-face Ehrhart positivity,"Teemu Lundström, Leonardo Saud Maia Leite",Order polytopes of crown posets,2026,https://arxiv.org/pdf/2504.05123v5,"Question 6.5, p. 33.","Does E_{L(Pₙ)}(m), expanded in powers of m, have nonnegative coefficients for every n≥3?"
+diff --git a/data/problems.json b/data/problems.json
+index b4f40ba312823825fc6b63240878d0d2c1ef601a..f3dada16cdb58fbeec99f4e35e57d30403641b8a 100644
+--- a/data/problems.json
++++ b/data/problems.json
+@@ -11786 +11786 @@
+-  "status": "open",
++  "status": "partial",
+@@ -11820,2 +11820,37 @@
+-  "results": [],
+-  "ledger": [],
++  "results": [
++   {
++    "status": "proved",
++    "label": "2026-10-09: proposed partial theorem",
++    "scope": "Stochastic decrease in the freezing rate holds for every finite simple graph whose connected components each have at most five edges, for all positive rates. Exact polynomial certificates cover all 91,881 increasing events on the 22 connected graph classes. Limits: The unrestricted finite-graph question remains unresolved. Larger connected graphs, multigraphs and infinite-volume processes are outside this result.",
++    "folder": "seven-more-2026-10-09",
++    "proof": "solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md",
++    "review": "solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md"
++   }
++  ],
++  "ledger": [
++   {
++    "topic": "seven-more-2026-10-09-q276",
++    "status": "partial",
++    "scope": "restricted theorem",
++    "title": "Monotonicity of percolation with constant freezing",
++    "note": "Stochastic decrease in the freezing rate holds for every finite simple graph whose connected components each have at most five edges, for all positive rates. Exact polynomial certificates cover all 91,881 increasing events on the 22 connected graph classes. Limits: The unrestricted finite-graph question remains unresolved. Larger connected graphs, multigraphs and infinite-volume processes are outside this result. Separate internal AI review found no blocking defect; not external peer review or a novelty certification.",
++    "sources": [
++     {
++      "title": "Proof and precise scope",
++      "url": "solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md"
++     },
++     {
++      "title": "Independent internal review",
++      "url": "solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md"
++     },
++     {
++      "title": "Exact computational controls",
++      "url": "solutions/seven-more-2026-10-09/probability/constant_freezing_verification.json"
++     },
++     {
++      "title": "Dated source check",
++      "url": "solutions/seven-more-2026-10-09/probability/source-log.md"
++     }
++    ]
++   }
++  ],
+@@ -11827 +11862 @@
+-  "status": "open",
++  "status": "partial",
+@@ -11861,2 +11896,37 @@
+-  "results": [],
+-  "ledger": [],
++  "results": [
++   {
++    "status": "proved",
++    "label": "2026-10-09: proposed partial theorem",
++    "scope": "Positive association holds for every finite simple graph whose connected components each have at most four edges, for every positive freezing rate. All 71,637 unordered increasing-event-pair covariances have exact nonnegative polynomial certificates. Limits: The unrestricted finite-graph question remains unresolved. The stronger FKG lattice condition is not asserted; a four-vertex path fails that condition by exactly -1/525 at rate one.",
++    "folder": "seven-more-2026-10-09",
++    "proof": "solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md",
++    "review": "solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md"
++   }
++  ],
++  "ledger": [
++   {
++    "topic": "seven-more-2026-10-09-q277",
++    "status": "partial",
++    "scope": "restricted theorem",
++    "title": "Positive association for percolation with constant freezing",
++    "note": "Positive association holds for every finite simple graph whose connected components each have at most four edges, for every positive freezing rate. All 71,637 unordered increasing-event-pair covariances have exact nonnegative polynomial certificates. Limits: The unrestricted finite-graph question remains unresolved. The stronger FKG lattice condition is not asserted; a four-vertex path fails that condition by exactly -1/525 at rate one. Separate internal AI review found no blocking defect; not external peer review or a novelty certification.",
++    "sources": [
++     {
++      "title": "Proof and precise scope",
++      "url": "solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md"
++     },
++     {
++      "title": "Independent internal review",
++      "url": "solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md"
++     },
++     {
++      "title": "Exact computational controls",
++      "url": "solutions/seven-more-2026-10-09/probability/constant_freezing_verification.json"
++     },
++     {
++      "title": "Dated source check",
++      "url": "solutions/seven-more-2026-10-09/probability/source-log.md"
++     }
++    ]
++   }
++  ],
+@@ -41436 +41506 @@
+-  "status": "open",
++  "status": "proved",
+@@ -41471,2 +41541,37 @@
+-  "results": [],
+-  "ledger": [],
++  "results": [
++   {
++    "status": "proved",
++    "label": "2026-10-09: proposed full proof",
++    "scope": "An explicit policy attains worst-case expected regret O_{K,c}(T^(4/5)(log T)^(1/5)) for known lambda=c/T and fixed K,c>0, uniformly over all reward/end-state parameters in [0,1]^(2K). Transient reference-arm probes and a polynomial-time grid planner compare with the full informed length-T sequence optimum. Limits: No state observations, replenishing arm, positive reward lower bound or benchmark discount are assumed. The exponent is not claimed optimal; unknown lambda and growing K remain outside the theorem.",
++    "folder": "seven-more-2026-10-09",
++    "proof": "solutions/seven-more-2026-10-09/learning/Q964-proof.md",
++    "review": "solutions/seven-more-2026-10-09/learning/review-Q964.md"
++   }
++  ],
++  "ledger": [
++   {
++    "topic": "seven-more-2026-10-09-q964",
++    "status": "proved",
++    "scope": "statement",
++    "title": "Sublinear regret when response memory spans the horizon",
++    "note": "An explicit policy attains worst-case expected regret O_{K,c}(T^(4/5)(log T)^(1/5)) for known lambda=c/T and fixed K,c>0, uniformly over all reward/end-state parameters in [0,1]^(2K). Transient reference-arm probes and a polynomial-time grid planner compare with the full informed length-T sequence optimum. Limits: No state observations, replenishing arm, positive reward lower bound or benchmark discount are assumed. The exponent is not claimed optimal; unknown lambda and growing K remain outside the theorem. Separate internal AI review found no blocking defect; not external peer review or a novelty certification.",
++    "sources": [
++     {
++      "title": "Proof and precise scope",
++      "url": "solutions/seven-more-2026-10-09/learning/Q964-proof.md"
++     },
++     {
++      "title": "Independent internal review",
++      "url": "solutions/seven-more-2026-10-09/learning/review-Q964.md"
++     },
++     {
++      "title": "Exact computational controls",
++      "url": "solutions/seven-more-2026-10-09/learning/q964-checks.json"
++     },
++     {
++      "title": "Dated source check",
++      "url": "solutions/seven-more-2026-10-09/learning/SOURCES.md"
++     }
++    ]
++   }
++  ],
+@@ -73631 +73736 @@
+-  "status": "open",
++  "status": "disproved",
+@@ -73666,2 +73771,37 @@
+-  "results": [],
+-  "ledger": [],
++  "results": [
++   {
++    "status": "disproved",
++    "label": "2026-10-09: proposed counterexample",
++    "scope": "An explicit 13-dimensional two-generated nilpotent Lie algebra of class five has property F for every generating pair over every characteristic-zero field, but is not free nilpotent. Its graded dimensions are 2,1,2,3,5 and its center has dimension five. Limits: Disproves the proposed equivalence. The universal generating-pair assertion follows from a symmetric-matrix change-of-generators argument and graded injectivity, not from a finite search. No smallest-dimension or full classification claim is made.",
++    "folder": "seven-more-2026-10-09",
++    "proof": "solutions/seven-more-2026-10-09/algebra/Q1715.md",
++    "review": "solutions/seven-more-2026-10-09/discrete/review-Q1715.md"
++   }
++  ],
++  "ledger": [
++   {
++    "topic": "seven-more-2026-10-09-q1715",
++    "status": "disproved",
++    "scope": "statement",
++    "title": "A nonfree nilpotent Lie algebra with property F",
++    "note": "An explicit 13-dimensional two-generated nilpotent Lie algebra of class five has property F for every generating pair over every characteristic-zero field, but is not free nilpotent. Its graded dimensions are 2,1,2,3,5 and its center has dimension five. Limits: Disproves the proposed equivalence. The universal generating-pair assertion follows from a symmetric-matrix change-of-generators argument and graded injectivity, not from a finite search. No smallest-dimension or full classification claim is made. Separate internal AI review found no blocking defect; not external peer review or a novelty certification.",
++    "sources": [
++     {
++      "title": "Proof and precise scope",
++      "url": "solutions/seven-more-2026-10-09/algebra/Q1715.md"
++     },
++     {
++      "title": "Independent internal review",
++      "url": "solutions/seven-more-2026-10-09/discrete/review-Q1715.md"
++     },
++     {
++      "title": "Exact computational controls",
++      "url": "solutions/seven-more-2026-10-09/algebra/q1715-certificate.json"
++     },
++     {
++      "title": "Dated source check",
++      "url": "solutions/seven-more-2026-10-09/algebra/sources.md"
++     }
++    ]
++   }
++  ],
+@@ -99226 +99366 @@
+-  "status": "open",
++  "status": "proved",
+@@ -99260,2 +99400,37 @@
+-  "results": [],
+-  "ledger": [],
++  "results": [
++   {
++    "status": "proved",
++    "label": "2026-10-09: proposed full proof",
++    "scope": "For every field F and finite-dimensional V, Inn(End_F(V)) consists exactly of restrictions of invertible conjugations to the full domain, the zero-matrix singleton, and D(U,W)={a:im(a) is contained in U, W is contained in ker(a)} with U,W both proper nonzero subspaces. Explicit equality, multiplication and inversion formulas give an isomorphism description. Limits: The zero is the identity on the singleton {0}, not an empty partial map. All dimensions, nonsemisimple products and arbitrary fields are covered; the separate residual-finiteness question Q2304 is not addressed.",
++    "folder": "seven-more-2026-10-09",
++    "proof": "solutions/seven-more-2026-10-09/algebra/Q2305.md",
++    "review": "solutions/seven-more-2026-10-09/discrete/review-Q2305.md"
++   }
++  ],
++  "ledger": [
++   {
++    "topic": "seven-more-2026-10-09-q2305",
++    "status": "proved",
++    "scope": "statement",
++    "title": "Partial inner automorphisms of matrix monoids",
++    "note": "For every field F and finite-dimensional V, Inn(End_F(V)) consists exactly of restrictions of invertible conjugations to the full domain, the zero-matrix singleton, and D(U,W)={a:im(a) is contained in U, W is contained in ker(a)} with U,W both proper nonzero subspaces. Explicit equality, multiplication and inversion formulas give an isomorphism description. Limits: The zero is the identity on the singleton {0}, not an empty partial map. All dimensions, nonsemisimple products and arbitrary fields are covered; the separate residual-finiteness question Q2304 is not addressed. Separate internal AI review found no blocking defect; not external peer review or a novelty certification.",
++    "sources": [
++     {
++      "title": "Proof and precise scope",
++      "url": "solutions/seven-more-2026-10-09/algebra/Q2305.md"
++     },
++     {
++      "title": "Independent internal review",
++      "url": "solutions/seven-more-2026-10-09/discrete/review-Q2305.md"
++     },
++     {
++      "title": "Exact computational controls",
++      "url": "solutions/seven-more-2026-10-09/algebra/q2305-certificate.json"
++     },
++     {
++      "title": "Dated source check",
++      "url": "solutions/seven-more-2026-10-09/algebra/sources.md"
++     }
++    ]
++   }
++  ],
+@@ -148877 +149052 @@
+-  "status": "open",
++  "status": "partial",
+@@ -148910,2 +149085,37 @@
+-  "results": [],
+-  "ledger": [],
++  "results": [
++   {
++    "status": "proved",
++    "label": "2026-10-09: proposed partial theorem",
++    "scope": "A finite automaton gives exact counts for each fixed alphabet and a matrix/inclusion-exclusion formula for every length. For Cayley words using exactly four symbols, the generating function is z^4(22-119z+162z^2)/((1-z)(1-2z)(1-3z)^4), with asymptotic n^3*3^n/324. Limits: The explicit rational closed formula concerns the four-symbol slice. A closed generating function and useful uniform asymptotics for the unrestricted sum over alphabet sizes remain unresolved; the exponential-size general automaton is not presented as a complete resolution.",
++    "folder": "seven-more-2026-10-09",
++    "proof": "solutions/seven-more-2026-10-09/discrete/Q3480-proof.md",
++    "review": "solutions/seven-more-2026-10-09/algebra/review-Q3480.md"
++   }
++  ],
++  "ledger": [
++   {
++    "topic": "seven-more-2026-10-09-q3480",
++    "status": "partial",
++    "scope": "restricted theorem",
++    "title": "Two-pass hare sorting over fixed alphabets",
++    "note": "A finite automaton gives exact counts for each fixed alphabet and a matrix/inclusion-exclusion formula for every length. For Cayley words using exactly four symbols, the generating function is z^4(22-119z+162z^2)/((1-z)(1-2z)(1-3z)^4), with asymptotic n^3*3^n/324. Limits: The explicit rational closed formula concerns the four-symbol slice. A closed generating function and useful uniform asymptotics for the unrestricted sum over alphabet sizes remain unresolved; the exponential-size general automaton is not presented as a complete resolution. Separate internal AI review found no blocking defect; not external peer review or a novelty certification.",
++    "sources": [
++     {
++      "title": "Proof and precise scope",
++      "url": "solutions/seven-more-2026-10-09/discrete/Q3480-proof.md"
++     },
++     {
++      "title": "Independent internal review",
++      "url": "solutions/seven-more-2026-10-09/algebra/review-Q3480.md"
++     },
++     {
++      "title": "Exact computational controls",
++      "url": "solutions/seven-more-2026-10-09/discrete/q3480_certificate.json"
++     },
++     {
++      "title": "Dated source check",
++      "url": "solutions/seven-more-2026-10-09/discrete/SOURCES.md"
++     }
++    ]
++   }
++  ],
+@@ -149689 +149899 @@
+-  "status": "open",
++  "status": "disproved",
+@@ -149725,2 +149935,37 @@
+-  "results": [],
+-  "ledger": [],
++  "results": [
++   {
++    "status": "disproved",
++    "label": "2026-10-09: proposed counterexample",
++    "scope": "The full face lattice of a convex 13-gon, including the empty and full faces, has Ehrhart linear coefficient -298495711/35302608. This is the only negative coefficient of its degree-28 Ehrhart polynomial; every coefficient is positive for polygon sizes 3 through 12. Limits: This disproves the Ehrhart coefficient question, distinct from the source's earlier negative order-polynomial coefficient for a 7-gon. Two separate exact arithmetic derivations verify the counterexample; no claim about other poset families is made.",
++    "folder": "seven-more-2026-10-09",
++    "proof": "solutions/seven-more-2026-10-09/discrete/Q3499-proof.md",
++    "review": "solutions/seven-more-2026-10-09/algebra/review-Q3499.md"
++   }
++  ],
++  "ledger": [
++   {
++    "topic": "seven-more-2026-10-09-q3499",
++    "status": "disproved",
++    "scope": "statement",
++    "title": "A polygon-face Ehrhart counterexample",
++    "note": "The full face lattice of a convex 13-gon, including the empty and full faces, has Ehrhart linear coefficient -298495711/35302608. This is the only negative coefficient of its degree-28 Ehrhart polynomial; every coefficient is positive for polygon sizes 3 through 12. Limits: This disproves the Ehrhart coefficient question, distinct from the source's earlier negative order-polynomial coefficient for a 7-gon. Two separate exact arithmetic derivations verify the counterexample; no claim about other poset families is made. Separate internal AI review found no blocking defect; not external peer review or a novelty certification.",
++    "sources": [
++     {
++      "title": "Proof and precise scope",
++      "url": "solutions/seven-more-2026-10-09/discrete/Q3499-proof.md"
++     },
++     {
++      "title": "Independent internal review",
++      "url": "solutions/seven-more-2026-10-09/algebra/review-Q3499.md"
++     },
++     {
++      "title": "Exact computational controls",
++      "url": "solutions/seven-more-2026-10-09/discrete/q3499_certificate.json"
++     },
++     {
++      "title": "Dated source check",
++      "url": "solutions/seven-more-2026-10-09/discrete/SOURCES.md"
++     }
++    ]
++   }
++  ],
+diff --git a/problems/README.md b/problems/README.md
+index caf704d82f6825b0d184de00b5aacb98469e08a1..89611d5d3af041ae81d9ca87ba0c65633ab0ba12 100644
+--- a/problems/README.md
++++ b/problems/README.md
+@@ -18 +18 @@
+-| Mathematics | [Algebra & Representation Theory](mathematics/algebra-representation-theory.md) | 330 | 319 | 10 | 1 |
++| Mathematics | [Algebra & Representation Theory](mathematics/algebra-representation-theory.md) | 330 | 317 | 10 | 3 |
+@@ -21 +21 @@
+-| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 516 | 492 | 13 | 11 |
++| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 516 | 490 | 14 | 12 |
+@@ -33,2 +33,2 @@
+-| Mathematics | [Optimization & Operations Research](mathematics/optimization-operations-research.md) | 110 | 103 | 4 | 3 |
+-| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 449 | 413 | 18 | 18 |
++| Mathematics | [Optimization & Operations Research](mathematics/optimization-operations-research.md) | 110 | 102 | 4 | 4 |
++| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 449 | 411 | 20 | 18 |
+diff --git a/problems/index/Q0001-Q0500.md b/problems/index/Q0001-Q0500.md
+index 6133aa0963073ed1145d8ebdc3bae8262555ca4f..2b1e36effabda4baa1b7ec87d2d9fa871eed082c 100644
+--- a/problems/index/Q0001-Q0500.md
++++ b/problems/index/Q0001-Q0500.md
+@@ -282,2 +282,2 @@
+-| [Q276](../mathematics/probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Probability & Stochastic Processes | Open |
+-| [Q277](../mathematics/probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Probability & Stochastic Processes | Open |
++| [Q276](../mathematics/probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Probability & Stochastic Processes | Open, partial results |
++| [Q277](../mathematics/probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Probability & Stochastic Processes | Open, partial results |
+diff --git a/problems/index/Q0501-Q1001.md b/problems/index/Q0501-Q1001.md
+index c1cd9fb0fc586959ea5f2d43efebf9aa02e19871..a5686b1902eb8b15c16e06ec73fdc2bc3b1e0420 100644
+--- a/problems/index/Q0501-Q1001.md
++++ b/problems/index/Q0501-Q1001.md
+@@ -469 +469 @@
+-| [Q964](../mathematics/optimization-operations-research.md#q964) | Learning when response memory spans the whole horizon | Optimization & Operations Research | Open |
++| [Q964](../mathematics/optimization-operations-research.md#q964) | Learning when response memory spans the whole horizon | Optimization & Operations Research | Solved here: proved |
+diff --git a/problems/index/Q1505-Q2006.md b/problems/index/Q1505-Q2006.md
+index 14db73a01bae04056878354ab1b46c278d107dfa..54eedff500be966c37bd1c9a6032584024916948 100644
+--- a/problems/index/Q1505-Q2006.md
++++ b/problems/index/Q1505-Q2006.md
+@@ -217 +217 @@
+-| [Q1715](../mathematics/algebra-representation-theory-part-1.md#q1715) | Characterize property-F Lie algebras | Algebra & Representation Theory | Open |
++| [Q1715](../mathematics/algebra-representation-theory-part-1.md#q1715) | Characterize property-F Lie algebras | Algebra & Representation Theory | Solved here: disproved |
+diff --git a/problems/index/Q2007-Q2512.md b/problems/index/Q2007-Q2512.md
+index 55e63ffe548daa6293b8093a946614931462839c..0218ddbd79f7fcc16ef70ff308796c5dbab4d02d 100644
+--- a/problems/index/Q2007-Q2512.md
++++ b/problems/index/Q2007-Q2512.md
+@@ -303 +303 @@
+-| [Q2305](../mathematics/algebra-representation-theory-part-1.md#q2305) | Partial inner automorphisms of matrix monoids | Algebra & Representation Theory | Open |
++| [Q2305](../mathematics/algebra-representation-theory-part-1.md#q2305) | Partial inner automorphisms of matrix monoids | Algebra & Representation Theory | Solved here: proved |
+diff --git a/problems/index/Q3013-Q3512.md b/problems/index/Q3013-Q3512.md
+index e6e622970a7ac966aefa5add20d038b4b28d5e31..7d048764aae44225efe3871a70280dd329d9d7cf 100644
+--- a/problems/index/Q3013-Q3512.md
++++ b/problems/index/Q3013-Q3512.md
+@@ -474 +474 @@
+-| [Q3480](../mathematics/combinatorics-graph-theory-part-2.md#q3480) | Two-pass hare-sortable Cayley words | Combinatorics & Graph Theory | Open |
++| [Q3480](../mathematics/combinatorics-graph-theory-part-2.md#q3480) | Two-pass hare-sortable Cayley words | Combinatorics & Graph Theory | Open, partial results |
+@@ -493 +493 @@
+-| [Q3499](../mathematics/combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Combinatorics & Graph Theory | Open |
++| [Q3499](../mathematics/combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Combinatorics & Graph Theory | Solved here: disproved |
+diff --git a/problems/mathematics/algebra-representation-theory-part-1.md b/problems/mathematics/algebra-representation-theory-part-1.md
+index 9a3e47469dd2b975b2afee2c65d960c58d24d872..74e9b9d26bd8c60ab7c8d37fe7f88f8bc44a6aaf 100644
+--- a/problems/mathematics/algebra-representation-theory-part-1.md
++++ b/problems/mathematics/algebra-representation-theory-part-1.md
+@@ -1740 +1740 @@ Does some almost simple finite group G with exceptional Lie-type socle have a su
+-**Status:** Open · **Kind:** open problem · **Collection** 18
++**Status:** Solved here: disproved · **Kind:** open problem · **Collection** 18
+@@ -1752,0 +1753,5 @@ For nilpotent g with dim(g/[g,g])=2, suppose every generating pair x,y and every
++**Result (2026-10-09).** An explicit 13-dimensional two-generated nilpotent Lie algebra of class five has property F for every generating pair over every characteristic-zero field, but is not free nilpotent. Its graded dimensions are 2,1,2,3,5 and its center has dimension five. Disproves the proposed equivalence. The universal generating-pair assertion follows from a symmetric-matrix change-of-generators argument and graded injectivity, not from a finite search. No smallest-dimension or full classification claim is made.
++
++[Proof](../../solutions/seven-more-2026-10-09/algebra/Q1715.md) · [Internal review](../../solutions/seven-more-2026-10-09/discrete/review-Q1715.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/algebra/q1715-certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/algebra/sources.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
++
++
+@@ -2904 +2909 @@ If S is finitely generated and residually finite, must Inn(S) be residually fini
+-**Status:** Open · **Kind:** open problem (Problem 7.9) · **Collection** 24
++**Status:** Solved here: proved · **Kind:** open problem (Problem 7.9) · **Collection** 24
+@@ -2916,0 +2922,5 @@ For every field F and finite-dimensional F-vector space V, characterize Inn(End_
++**Result (2026-10-09).** For every field F and finite-dimensional V, Inn(End_F(V)) consists exactly of restrictions of invertible conjugations to the full domain, the zero-matrix singleton, and D(U,W)={a:im(a) is contained in U, W is contained in ker(a)} with U,W both proper nonzero subspaces. Explicit equality, multiplication and inversion formulas give an isomorphism description. The zero is the identity on the singleton {0}, not an empty partial map. All dimensions, nonsemisimple products and arbitrary fields are covered; the separate residual-finiteness question Q2304 is not addressed.
++
++[Proof](../../solutions/seven-more-2026-10-09/algebra/Q2305.md) · [Internal review](../../solutions/seven-more-2026-10-09/discrete/review-Q2305.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/algebra/q2305-certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/algebra/sources.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
++
++
+diff --git a/problems/mathematics/algebra-representation-theory.md b/problems/mathematics/algebra-representation-theory.md
+index 7e08da49122df3bd440297fea23a4f7482514c1f..fbc177013fcd0f1040ed4f9e8d5cdcec66865733 100644
+--- a/problems/mathematics/algebra-representation-theory.md
++++ b/problems/mathematics/algebra-representation-theory.md
+@@ -3 +3 @@
+-330 problems: 319 open, 10 open, partial results, 1 solved here: disproved.
++330 problems: 317 open, 10 open, partial results, 1 solved here: proved, 2 solved here: disproved.
+@@ -114 +114 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
+-| [Q1715](algebra-representation-theory-part-1.md#q1715) | Characterize property-F Lie algebras | Open |
++| [Q1715](algebra-representation-theory-part-1.md#q1715) | Characterize property-F Lie algebras | Solved here: disproved |
+@@ -180 +180 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
+-| [Q2305](algebra-representation-theory-part-1.md#q2305) | Partial inner automorphisms of matrix monoids | Open |
++| [Q2305](algebra-representation-theory-part-1.md#q2305) | Partial inner automorphisms of matrix monoids | Solved here: proved |
+diff --git a/problems/mathematics/combinatorics-graph-theory-part-2.md b/problems/mathematics/combinatorics-graph-theory-part-2.md
+index becaba72e10371f702aa8c0dc4f002443290af81..18f012084c31c116df24a3355d9e6d914a740123 100644
+--- a/problems/mathematics/combinatorics-graph-theory-part-2.md
++++ b/problems/mathematics/combinatorics-graph-theory-part-2.md
+@@ -4181 +4181 @@ For every fixed ε∈(0,1) and p=p(n)∈[n^(−1/2+ε),1], does Walker have, wit
+-**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 35
++**Status:** Open, partial results · **Kind:** open problem (Problem 1) · **Collection** 35
+@@ -4191,0 +4192,5 @@ Determine, for each integer n≥1, the number of length-n Cayley words w for whi
++**Result (2026-10-09).** A finite automaton gives exact counts for each fixed alphabet and a matrix/inclusion-exclusion formula for every length. For Cayley words using exactly four symbols, the generating function is z^4(22-119z+162z^2)/((1-z)(1-2z)(1-3z)^4), with asymptotic n^3*3^n/324. The explicit rational closed formula concerns the four-symbol slice. A closed generating function and useful uniform asymptotics for the unrestricted sum over alphabet sizes remain unresolved; the exponential-size general automaton is not presented as a complete resolution.
++
++[Proof](../../solutions/seven-more-2026-10-09/discrete/Q3480-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/algebra/review-Q3480.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/discrete/q3480_certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/discrete/SOURCES.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
++
++
+@@ -4341 +4346 @@ Does h\*\_{C₂ₙ}(t) have only real roots for every n≥2?
+-**Status:** Open · **Kind:** open problem (Question 6.5) · **Collection** 35
++**Status:** Solved here: disproved · **Kind:** open problem (Question 6.5) · **Collection** 35
+@@ -4355,0 +4361,5 @@ Does E_{L(Pₙ)}(m), expanded in powers of m, have nonnegative coefficients for
++**Result (2026-10-09).** The full face lattice of a convex 13-gon, including the empty and full faces, has Ehrhart linear coefficient -298495711/35302608. This is the only negative coefficient of its degree-28 Ehrhart polynomial; every coefficient is positive for polygon sizes 3 through 12. This disproves the Ehrhart coefficient question, distinct from the source's earlier negative order-polynomial coefficient for a 7-gon. Two separate exact arithmetic derivations verify the counterexample; no claim about other poset families is made.
++
++[Proof](../../solutions/seven-more-2026-10-09/discrete/Q3499-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/algebra/review-Q3499.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/discrete/q3499_certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/discrete/SOURCES.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
++
++
+diff --git a/problems/mathematics/combinatorics-graph-theory.md b/problems/mathematics/combinatorics-graph-theory.md
+index a1fce754540ff297e50f4cc55d66db7396e9d653..7dff801b8271b8b9fe865ab3961ceab1d1a1810d 100644
+--- a/problems/mathematics/combinatorics-graph-theory.md
++++ b/problems/mathematics/combinatorics-graph-theory.md
+@@ -3 +3 @@
+-516 problems: 492 open, 13 open, partial results, 10 solved here: proved, 1 solved here: disproved.
++516 problems: 490 open, 14 open, partial results, 10 solved here: proved, 2 solved here: disproved.
+@@ -501 +501 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
+-| [Q3480](combinatorics-graph-theory-part-2.md#q3480) | Two-pass hare-sortable Cayley words | Open |
++| [Q3480](combinatorics-graph-theory-part-2.md#q3480) | Two-pass hare-sortable Cayley words | Open, partial results |
+@@ -511 +511 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
+-| [Q3499](combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Open |
++| [Q3499](combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Solved here: disproved |
+diff --git a/problems/mathematics/optimization-operations-research.md b/problems/mathematics/optimization-operations-research.md
+index 894572285c76eb7b8dd09ff9a7058f0c1cceec65..070f956c49b006bcf2d93a96b5a84ebf6b1974d7 100644
+--- a/problems/mathematics/optimization-operations-research.md
++++ b/problems/mathematics/optimization-operations-research.md
+@@ -3 +3 @@
+-110 problems: 103 open, 4 open, partial results, 1 solved here: proved, 2 solved here: disproved.
++110 problems: 102 open, 4 open, partial results, 2 solved here: proved, 2 solved here: disproved.
+@@ -87 +87 @@
+-| [Q964](optimization-operations-research.md#q964) | Learning when response memory spans the whole horizon | Open |
++| [Q964](optimization-operations-research.md#q964) | Learning when response memory spans the whole horizon | Solved here: proved |
+@@ -1425 +1425 @@ Can corruption-agnostic learning attain Σ|y_t−v_t|=O(C₁+d), removing log T
+-**Status:** Open · **Kind:** open problem · **Collection** 10
++**Status:** Solved here: proved · **Kind:** open problem · **Collection** 10
+@@ -1437,0 +1438,5 @@ For known λ=c/T, fixed c>0, K, can worst-case expected regret against the param
++**Result (2026-10-09).** An explicit policy attains worst-case expected regret O_{K,c}(T^(4/5)(log T)^(1/5)) for known lambda=c/T and fixed K,c>0, uniformly over all reward/end-state parameters in [0,1]^(2K). Transient reference-arm probes and a polynomial-time grid planner compare with the full informed length-T sequence optimum. No state observations, replenishing arm, positive reward lower bound or benchmark discount are assumed. The exponent is not claimed optimal; unknown lambda and growing K remain outside the theorem.
++
++[Proof](../../solutions/seven-more-2026-10-09/learning/Q964-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/learning/review-Q964.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/learning/q964-checks.json) · [Source check](../../solutions/seven-more-2026-10-09/learning/SOURCES.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
++
++
+diff --git a/problems/mathematics/probability-stochastic-processes-part-1.md b/problems/mathematics/probability-stochastic-processes-part-1.md
+index cc1ef5ed5530d9a75553bdcb0bd86e1ca56682aa..25b9743f2fa9c8e02ffec92d47590956e34196e0 100644
+--- a/problems/mathematics/probability-stochastic-processes-part-1.md
++++ b/problems/mathematics/probability-stochastic-processes-part-1.md
+@@ -372 +372 @@ On \$\mathbb Z^d\$, \$d\ge2\$, is there \$0<\alpha_c(d)<\infty\$ separating almo
+-**Status:** Open · **Kind:** open problem · **Collection** 3
++**Status:** Open, partial results · **Kind:** open problem · **Collection** 3
+@@ -382,0 +383,5 @@ For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is
++**Result (2026-10-09).** Stochastic decrease in the freezing rate holds for every finite simple graph whose connected components each have at most five edges, for all positive rates. Exact polynomial certificates cover all 91,881 increasing events on the 22 connected graph classes. The unrestricted finite-graph question remains unresolved. Larger connected graphs, multigraphs and infinite-volume processes are outside this result.
++
++[Proof](../../solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/probability/constant_freezing_verification.json) · [Source check](../../solutions/seven-more-2026-10-09/probability/source-log.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
++
++
+@@ -387 +392 @@ For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is
+-**Status:** Open · **Kind:** open problem · **Collection** 3
++**Status:** Open, partial results · **Kind:** open problem · **Collection** 3
+@@ -397,0 +403,5 @@ For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satis
++**Result (2026-10-09).** Positive association holds for every finite simple graph whose connected components each have at most four edges, for every positive freezing rate. All 71,637 unordered increasing-event-pair covariances have exact nonnegative polynomial certificates. The unrestricted finite-graph question remains unresolved. The stronger FKG lattice condition is not asserted; a four-vertex path fails that condition by exactly -1/525 at rate one.
++
++[Proof](../../solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/probability/constant_freezing_verification.json) · [Source check](../../solutions/seven-more-2026-10-09/probability/source-log.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
++
++
+diff --git a/problems/mathematics/probability-stochastic-processes.md b/problems/mathematics/probability-stochastic-processes.md
+index 7bbbebc21d2045cf61b19e817856a5a8d92b8d62..f90cddd0e1316fd276ff54ce848a336a57f624c1 100644
+--- a/problems/mathematics/probability-stochastic-processes.md
++++ b/problems/mathematics/probability-stochastic-processes.md
+@@ -3 +3 @@
+-449 problems: 413 open, 18 open, partial results, 13 solved here: proved, 5 solved here: disproved.
++449 problems: 411 open, 20 open, partial results, 13 solved here: proved, 5 solved here: disproved.
+@@ -33,2 +33,2 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
+-| [Q276](probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Open |
+-| [Q277](probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Open |
++| [Q276](probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Open, partial results |
++| [Q277](probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Open, partial results |

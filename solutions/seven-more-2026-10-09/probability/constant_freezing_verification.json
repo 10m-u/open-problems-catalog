@@ -1,0 +1,753 @@
+{
+  "checked_date": "2026-10-09",
+  "arithmetic": "exact integers and fractions",
+  "controls": {
+    "single_edge_formula": "P(open)=1/(1+2*alpha)",
+    "path_4_alpha_1_law_mask_order": [
+      "34/105",
+      "1/7",
+      "13/105",
+      "8/105",
+      "1/7",
+      "2/35",
+      "8/105",
+      "2/35"
+    ],
+    "path_4_FKG_lattice_difference_masks_1_4": "-1/525",
+    "independent_and_anticorrelated_controls": "passed"
+  },
+  "rational_crosscheck_parameters": [
+    "1/7",
+    "1",
+    "11/3"
+  ],
+  "graphs": [
+    {
+      "vertices": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "edge_count": 1,
+      "symbolic_states": 4,
+      "increasing_events": 3,
+      "denominator_degree": 2,
+      "law_sha256": "693a2d89a20a9e14bcd1819c80c04ea697fb77644dee195cc4fd0fd26fa675d5",
+      "monotonicity_certificates": 3,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "1048492c8b192c3642f10d92d3ea7f5e144e8d8c9cc417e5c809a0e8d340dd68",
+      "association_certificates": 6,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 5,
+      "association_certificate_sha256": "cf135ee73d56dff8b527acf7e04af7fda01880ed6beec98efd15a0fb626c53d6"
+    },
+    {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "edge_count": 2,
+      "symbolic_states": 14,
+      "increasing_events": 6,
+      "denominator_degree": 5,
+      "law_sha256": "69a9c3856372d5caf010ebabacbcaf9bcff6a6d6fed818ae305cb8a608b1f764",
+      "monotonicity_certificates": 6,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "0fe0b8e0f859f9fbe02fe23a110ea993cead562fc6863be358f799ae63c2cb91",
+      "association_certificates": 21,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 11,
+      "association_certificate_sha256": "6bf9d378ec02e52821288c5775ac4843f8ecabb28a3848e69d795d613927c38e"
+    },
+    {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "edge_count": 3,
+      "symbolic_states": 23,
+      "increasing_events": 20,
+      "denominator_degree": 8,
+      "law_sha256": "eedc0ac2a97ece1c8397b33110ff3453313922b43a497dc9d88797172c06b845",
+      "monotonicity_certificates": 20,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "55a3651b7c72aeda3cde4a26e16c4c4769302cb3368727acc0977cb744a2ea8c",
+      "association_certificates": 210,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 39,
+      "association_certificate_sha256": "d3602cdc8ad4f11f4b2a9e4cf84800e0d3fafa2f31c02371ce5f69f48ce9837e"
+    },
+    {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "edge_count": 3,
+      "symbolic_states": 46,
+      "increasing_events": 20,
+      "denominator_degree": 10,
+      "law_sha256": "2e4f75e84caeca5546ea42d62f5429ac4af7a1111d406e53905ae163d249a938",
+      "monotonicity_certificates": 20,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "9b71a9448d4679b17fb65ba0d151dbfb5cd36b638e97d73e2fdbe8785b831ddf",
+      "association_certificates": 210,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 39,
+      "association_certificate_sha256": "04032a20c3ed6b65208e28765721175f1642cb323b578ad1ff987c6861bd3709"
+    },
+    {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "edge_count": 3,
+      "symbolic_states": 46,
+      "increasing_events": 20,
+      "denominator_degree": 10,
+      "law_sha256": "f812df3b64b08aee4c96f7e8951c1cdd4e83cfd6cde1b40cd0d2c1664d843d7f",
+      "monotonicity_certificates": 20,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "df5fa87e4da9af2e6770f31f75da5dd11f11a4a3566afff8fba3938eba6e4177",
+      "association_certificates": 210,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 39,
+      "association_certificate_sha256": "fc3c8c3d8945730d064969f1e29e0d2ccb4e4393378abcebb73dc4c0dfd5ac1b"
+    },
+    {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "edge_count": 4,
+      "symbolic_states": 70,
+      "increasing_events": 168,
+      "denominator_degree": 14,
+      "law_sha256": "d930ecd43bf6d72a4b965a749e6e564e0a860110af4d4326efbb00c76111bfe5",
+      "monotonicity_certificates": 168,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "664bfe8ccfa8a8a02fae7c2ff6588d56e7780a4af96823c4ef44c5a5c5c1d65f",
+      "association_certificates": 14196,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 335,
+      "association_certificate_sha256": "54995333c6b98580f786524c6f16de84d93b9656c40f5d90a80fd0023e59ea51"
+    },
+    {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "edge_count": 4,
+      "symbolic_states": 74,
+      "increasing_events": 168,
+      "denominator_degree": 14,
+      "law_sha256": "6396347b4b9d86da42e274e380ac2d2da11876aa7c3d1dff48cb5b14e099eef6",
+      "monotonicity_certificates": 168,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "8e8ff679d58cef03b1aaf30823d6cef59b0e8b49b1231675f893a6b92d3b8514",
+      "association_certificates": 14196,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 335,
+      "association_certificate_sha256": "dd3cd740933d48258b2a1ed8b39e4c22f1bfefe5b512dffae7c0f96883f95fd3"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 4,
+      "symbolic_states": 146,
+      "increasing_events": 168,
+      "denominator_degree": 16,
+      "law_sha256": "c3d86d602a220965ff120eb02cf18d560c3c7303930d07f9bf23906d7b43ff39",
+      "monotonicity_certificates": 168,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "6b907c3cc7cd7b975f4eb39f9cc8d97e79c8cd2971b8c7c99b192f04dba3b1e1",
+      "association_certificates": 14196,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 335,
+      "association_certificate_sha256": "f4ba7f09b4e6a673fb9ac1dbda54f3525d81b195d52deb272487db35f560f6c0"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 4,
+      "symbolic_states": 146,
+      "increasing_events": 168,
+      "denominator_degree": 16,
+      "law_sha256": "4f4fe9e456cb16c4c443dedd151b6eaf7556b0a6a38d485886ec5aa3f03dbcfa",
+      "monotonicity_certificates": 168,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "0919bb819b23babce012cf3a2627f083f4bcf876dd5cceb1818302663533d556",
+      "association_certificates": 14196,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 335,
+      "association_certificate_sha256": "d6e00ddb10bbfbbe61f94591cc3becd9ec66a820647b49d017b9024ff4e8e6d9"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 4,
+      "symbolic_states": 146,
+      "increasing_events": 168,
+      "denominator_degree": 16,
+      "law_sha256": "aa0ffdee27d854e616aa7091d73b1504b5bb2f95f4dbab8e6d77512c895c65b4",
+      "monotonicity_certificates": 168,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "99590859ccb19a52fb0c2792c4a65928c9718a9c4b7ad96ed764a12a9e1cda2c",
+      "association_certificates": 14196,
+      "association_coefficient_failures": [],
+      "association_zero_certificates": 335,
+      "association_certificate_sha256": "4def787d56be1eeb221ee27a48c46d21afd2552b6478fc17418649adf82b7131"
+    },
+    {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 119,
+      "increasing_events": 7581,
+      "denominator_degree": 18,
+      "law_sha256": "af9f1ae09687a0612bde9325e6b73ce92484a423db83fa67a93a4351a2ac5dd8",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "01f3853447b4a17793eae6fee43e42edc9066f167cd8c0c300721b833fd66335"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 217,
+      "increasing_events": 7581,
+      "denominator_degree": 21,
+      "law_sha256": "247854762b9ef8b80e6b5e77f6d3024ff665a6fa125b5a902064fcffd814b412",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "ba3b751b749e68b043441d74bdaf1240b4af8080f5addd62778d47eca6cac7e5"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 232,
+      "increasing_events": 7581,
+      "denominator_degree": 21,
+      "law_sha256": "11778a7bb6da08f07986747253e9fdadb80d783517c890bd8ef5d7051477819c",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "c998a630021616cb660827345ac261c3d47bb0f9ddd00dc2743dc85c75233b72"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 232,
+      "increasing_events": 7581,
+      "denominator_degree": 21,
+      "law_sha256": "4efb8964e144700da74941879e9a57422ba805fa65b68b481162c73432b058fa",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "a17b91f2c9bc2ed2d9ca948b48095132892be848d2c31edcc4af5d1565b95a88"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 222,
+      "increasing_events": 7581,
+      "denominator_degree": 21,
+      "law_sha256": "a28edfc2664a197f8857a06ddbbdde01997f9d57e7f490524a1075b21e2a6a3a",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "97ae8ee9b8113525c3a22f7ad59b39985beec8aa5386b6246bea7f5b632e2c48"
+    },
+    {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 232,
+      "increasing_events": 7581,
+      "denominator_degree": 21,
+      "law_sha256": "159126755c60a1fa1c7d3483ff950a68576e735f0f9c70de65b61c7db4b6036e",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "a2d1d35f7cddecd2df9ab453ef0b55a3546d19f5531293b8ba657fa72510e921"
+    },
+    {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 454,
+      "increasing_events": 7581,
+      "denominator_degree": 24,
+      "law_sha256": "b62dd043ef73f0b77cfc176f2cd362e4a3576a9ebc45ea50ae5f9baa171bd5c8",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "de84d297c90713acf6ca6e921a86f2d70b93a46a5391d4a4d05f2fcaa9742dac"
+    },
+    {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 454,
+      "increasing_events": 7581,
+      "denominator_degree": 24,
+      "law_sha256": "9dee0daaab191cf47e6fc289a5d8b891380f88cbfe49d1f4430915331d385d47",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "4380cff75ab308e1190b45fcc52defc4b5aefa1b5038e59db87aacdb30e2c4d1"
+    },
+    {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 454,
+      "increasing_events": 7581,
+      "denominator_degree": 24,
+      "law_sha256": "222adf0ddfe40c1abe343c6276d67670ea74d58dfdebcb8eff412781811d44e9",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "293eea7b20a527e3d0fdcd7e2d587ec87c0ee71c7bc94ecb1f574e3fe44a3a5e"
+    },
+    {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 454,
+      "increasing_events": 7581,
+      "denominator_degree": 24,
+      "law_sha256": "32058c1ebbc9322c352484e108bee2ebb7617f2c8fda5b61b407486871d50795",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "35a22547bfc2146ea5d7d4cbbeb40f2bc89eaec17d0efd79d2d28f77e6e4f907"
+    },
+    {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 454,
+      "increasing_events": 7581,
+      "denominator_degree": 24,
+      "law_sha256": "4883963a7dd6a9f4d54b1d844808625b1241ed862952c19111147987dadc18ce",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "72210f908aad59ad474ffac278cb23d85382d368c0ccac99597e3fcd3b1e8996"
+    },
+    {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "edge_count": 5,
+      "symbolic_states": 454,
+      "increasing_events": 7581,
+      "denominator_degree": 24,
+      "law_sha256": "67bb0295fac7869940dba75d0df841e90250cf95dd1ad15bac7f44f46ba3c9b8",
+      "monotonicity_certificates": 7581,
+      "monotonicity_coefficient_failures": [],
+      "monotonicity_zero_certificates": 2,
+      "monotonicity_certificate_sha256": "3ad84069ce4edf83d1a208541dde6ad015a4e736fc5b9c677e847e8fdbe34a3b"
+    }
+  ],
+  "scope": {
+    "monotonicity_max_component_edges": 5,
+    "association_max_component_edges": 4
+  },
+  "totals": {
+    "connected_graphs": 22,
+    "monotonicity_certificates": 91881,
+    "association_certificates": 71637,
+    "rational_crosschecks": 66,
+    "all_certificates_passed": true
+  }
+}

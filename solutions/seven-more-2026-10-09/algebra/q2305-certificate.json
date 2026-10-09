@@ -1,0 +1,41 @@
+{
+  "problem": "Q2305",
+  "arithmetic": "exact finite fields; Python standard library",
+  "dimension_two": [
+    {
+      "field_order": 2,
+      "matrix_count": 16,
+      "generator_pairs": 256,
+      "distinct_generator_maps": 52,
+      "generated_inverse_monoid_size": 52,
+      "rectangular_model_size": 52,
+      "predicted_cardinality": 52,
+      "domain_count": 11,
+      "all_model_compositions_checked": 2704,
+      "explicit_quotient_checks": 54
+    },
+    {
+      "field_order": 3,
+      "matrix_count": 81,
+      "generator_pairs": 6561,
+      "distinct_generator_maps": 201,
+      "generated_inverse_monoid_size": 201,
+      "rectangular_model_size": 201,
+      "predicted_cardinality": 201,
+      "domain_count": 18,
+      "all_model_compositions_checked": 40401,
+      "explicit_quotient_checks": 768
+    }
+  ],
+  "dimension_three_domain_semilattice": {
+    "field_order": 2,
+    "dimension": 3,
+    "matrices": 512,
+    "all_subspace_count": 16,
+    "initial_generator_domain_count": 100,
+    "intersection_closure_domain_count": 198,
+    "rectangular_domain_count": 198,
+    "nonsemisimple_singular_generator_control": "PASS"
+  },
+  "result": "PASS"
+}

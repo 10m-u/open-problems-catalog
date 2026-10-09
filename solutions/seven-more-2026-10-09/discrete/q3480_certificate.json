@@ -1,0 +1,1728 @@
+{
+  "problem": "Q3480",
+  "date": "2026-10-09",
+  "scope": "Finite-alphabet rational enumeration; unrestricted question remains open",
+  "largest_length_general_table": 8,
+  "counts_F_k_n_rows_k_columns_n": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    [
+      1,
+      3,
+      9,
+      27,
+      81,
+      243,
+      729,
+      2187,
+      6561
+    ],
+    [
+      1,
+      4,
+      16,
+      64,
+      254,
+      995,
+      3839,
+      14585,
+      54599
+    ],
+    [
+      1,
+      5,
+      25,
+      125,
+      615,
+      2951,
+      13773,
+      62555,
+      276977
+    ],
+    [
+      1,
+      6,
+      36,
+      216,
+      1266,
+      7167,
+      39087,
+      205623,
+      1046205
+    ],
+    [
+      1,
+      7,
+      49,
+      343,
+      2331,
+      15183,
+      94563,
+      564255,
+      3236481
+    ],
+    [
+      1,
+      8,
+      64,
+      512,
+      3956,
+      29114,
+      203666,
+      1357622,
+      8656760
+    ]
+  ],
+  "reachable_compressed_state_counts": [
+    1,
+    2,
+    6,
+    30,
+    174,
+    974,
+    5134,
+    25742,
+    124302
+  ],
+  "counts_by_exact_maximum_rows_n_columns_k": [
+    [
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      6,
+      6
+    ],
+    [
+      0,
+      1,
+      14,
+      36,
+      22
+    ],
+    [
+      0,
+      1,
+      30,
+      150,
+      211,
+      91
+    ],
+    [
+      0,
+      1,
+      62,
+      540,
+      1303,
+      1233,
+      408
+    ],
+    [
+      0,
+      1,
+      126,
+      1806,
+      6601,
+      10225,
+      7242,
+      1938
+    ],
+    [
+      0,
+      1,
+      254,
+      5796,
+      29887,
+      67037,
+      75942,
+      42864,
+      9614
+    ]
+  ],
+  "cayley_totals_n_1_onward": [
+    1,
+    3,
+    13,
+    73,
+    483,
+    3547,
+    27939,
+    231395
+  ],
+  "four_letter_transition_table_columns_1_2_3_4": [
+    [
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      3,
+      1
+    ],
+    [
+      2,
+      3,
+      2,
+      0
+    ],
+    [
+      3,
+      3,
+      3,
+      4
+    ],
+    [
+      5,
+      4,
+      4,
+      4
+    ],
+    [
+      5,
+      5,
+      5,
+      5
+    ]
+  ],
+  "four_letter_quotient_map": [
+    {
+      "compressed_state": [
+        0,
+        0,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        1,
+        0,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        2,
+        0,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        4,
+        0,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        8,
+        0,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        2,
+        1,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        4,
+        1,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        8,
+        1,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        3,
+        0,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        4,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        2,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        5,
+        0,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        6,
+        0,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        4,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        9,
+        0,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        10,
+        0,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        0,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        3,
+        1,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        4,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        2,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        5,
+        1,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        6,
+        1,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        4,
+        0
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        9,
+        1,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        10,
+        1,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        1,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        5,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        6,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        4,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        9,
+        2,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        10,
+        2,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        7,
+        0,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        4,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        10,
+        4,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        4,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        11,
+        0,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        0,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        14,
+        0,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        5,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        6,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        2,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        10,
+        2,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        7,
+        1,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        4,
+        0
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        10,
+        4,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        4,
+        0
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        11,
+        1,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        1,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        14,
+        1,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        6,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        4,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        7,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        4,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        10,
+        4,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        12,
+        4,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        10,
+        3,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        3,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        11,
+        2,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        10,
+        5,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        5,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        8,
+        5,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        11,
+        4,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        6,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        6,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        4,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        14,
+        4,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        15,
+        0,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        6,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        4,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        7,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        10,
+        3,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        3,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        11,
+        2,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        10,
+        5,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        5,
+        0
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        8,
+        5,
+        0
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        11,
+        4,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        12,
+        6,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        8,
+        6,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        4,
+        0
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        14,
+        4,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        15,
+        1,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        7,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        5,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        10,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        12,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        8,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        11,
+        4,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        12,
+        6,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        8,
+        6,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        13,
+        4,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        14,
+        4,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        11,
+        3,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        3,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        2,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        11,
+        5,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        5,
+        -1
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        14,
+        5,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        5,
+        -1
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        13,
+        6,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        6,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        6,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        10,
+        6,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        4,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        7,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        5,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        11,
+        3,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        3,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        2,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        11,
+        5,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        13,
+        5,
+        0
+      ],
+      "four_letter_state": 2
+    },
+    {
+      "compressed_state": [
+        14,
+        5,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        5,
+        0
+      ],
+      "four_letter_state": 0
+    },
+    {
+      "compressed_state": [
+        13,
+        6,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        6,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        9,
+        6,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        10,
+        6,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        4,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        11,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": null,
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        13,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        14,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        9,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        13,
+        6,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        14,
+        6,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        9,
+        6,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        10,
+        6,
+        1
+      ],
+      "four_letter_state": 4
+    },
+    {
+      "compressed_state": [
+        15,
+        4,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        15,
+        3,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        15,
+        5,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        7,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        12,
+        7,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        15,
+        6,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        10,
+        7,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        8,
+        7,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        11,
+        6,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        3,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        15,
+        5,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        14,
+        7,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        12,
+        7,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        15,
+        6,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        10,
+        7,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        8,
+        7,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        11,
+        6,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        5,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        14,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        12,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        15,
+        6,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        10,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        8,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        11,
+        6,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        15,
+        7,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        13,
+        7,
+        -1
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        11,
+        7,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        9,
+        7,
+        -1
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        7,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        13,
+        7,
+        0
+      ],
+      "four_letter_state": 3
+    },
+    {
+      "compressed_state": [
+        11,
+        7,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        9,
+        7,
+        0
+      ],
+      "four_letter_state": 1
+    },
+    {
+      "compressed_state": [
+        15,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        13,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        11,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    },
+    {
+      "compressed_state": [
+        9,
+        7,
+        1
+      ],
+      "four_letter_state": 5
+    }
+  ],
+  "four_letter_counts_n_0_through_30": [
+    1,
+    4,
+    16,
+    64,
+    254,
+    995,
+    3839,
+    14585,
+    54599,
+    201614,
+    735242,
+    2651054,
+    9461372,
+    33454949,
+    117304529,
+    408179903,
+    1410477629,
+    4843055048,
+    16532631284,
+    56135614604,
+    189666543146,
+    637912048919,
+    2136454500371,
+    7127205239669,
+    23689431144419,
+    78470300868530,
+    259099679977934,
+    852954852018650,
+    2800024076518664,
+    9167397976482809,
+    29939525525587397
+  ],
+  "exactly_four_symbol_counts_n_0_through_30": [
+    0,
+    0,
+    0,
+    0,
+    22,
+    211,
+    1303,
+    6601,
+    29887,
+    125950,
+    505186,
+    1954750,
+    7360180,
+    27126805,
+    98270953,
+    350980879,
+    1238683957,
+    4327280824,
+    14984522188,
+    51489714460,
+    175725696994,
+    596083219015,
+    2010955427755,
+    6750682856005,
+    22559813661787,
+    75081347757346,
+    248932619317798,
+    822453267385066,
+    2708518517311552,
+    8892879688248745,
+    29115967439659741
+  ],
+  "F4_numerator_ascending": [
+    1,
+    -9,
+    30,
+    -42,
+    19
+  ],
+  "F4_denominator_ascending": [
+    1,
+    -13,
+    66,
+    -162,
+    189,
+    -81
+  ],
+  "exactly_four_numerator_ascending": [
+    0,
+    0,
+    0,
+    0,
+    22,
+    -119,
+    162
+  ],
+  "exactly_four_denominator_ascending": [
+    1,
+    -15,
+    92,
+    -294,
+    513,
+    -459,
+    162
+  ]
+}

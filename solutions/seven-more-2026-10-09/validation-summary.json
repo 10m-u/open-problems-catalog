@@ -1,0 +1,92 @@
+{
+  "all_passed": true,
+  "base_commit": "b75acbb7671a16ac38e8f41656b92f211dce5f4a",
+  "catalog_counts": {
+    "disproved": 15,
+    "open": 3442,
+    "partial": 96,
+    "proved": 35
+  },
+  "catalog_entries": 3588,
+  "changed_problem_statuses": {
+    "1715": "disproved",
+    "2305": "proved",
+    "276": "partial",
+    "277": "partial",
+    "3480": "partial",
+    "3499": "disproved",
+    "964": "proved"
+  },
+  "checks_completed": 94662,
+  "date": "2026-10-09",
+  "evidence_sha256": {
+    "problems/mathematics/algebra-representation-theory-part-1.md": "c661246b27a2c4f0fe044bdf189cfe084eaf6a864f97b96731edf8511f9f7d47",
+    "problems/mathematics/combinatorics-graph-theory-part-2.md": "056830aeadde4b358fa32092c9ea12ce2d84c74ff3e3146d5e6eaf8a11d5005a",
+    "problems/mathematics/optimization-operations-research.md": "8efa1e8cb2d5b430e1be37a6d90d9a4c0a3d9388a28c98ca8c66736d0663009f",
+    "problems/mathematics/probability-stochastic-processes-part-1.md": "196db1d825ca25430190e25ebfac34b7cb5fe0f96b905f8c4fe5caba7bfb58a0",
+    "solutions/seven-more-2026-10-09/algebra/Q1715.md": "7fb159f45b40200deb5e56a20f6eb0950d6f2b8b3b38f31865a2742736574fd5",
+    "solutions/seven-more-2026-10-09/algebra/Q2305.md": "a09b462a3082a60064f0622d6185cf1fd324a8d5ecc5df90659856009d15aff6",
+    "solutions/seven-more-2026-10-09/algebra/check_q1715.py": "f4153a40519c3c3091f30599437fdd281e4a1eb6b9938da1ac7000fb31947dbe",
+    "solutions/seven-more-2026-10-09/algebra/check_q2305.py": "907d4a86b8b0d86f2f5544f0c3fdc38456be4a3c6ef652a34aa70f3f334ff794",
+    "solutions/seven-more-2026-10-09/algebra/q1715-certificate.json": "1a80a2c854a265fa94405a85f9888dd4d290200d389e7d5e57b8703e680be6e0",
+    "solutions/seven-more-2026-10-09/algebra/q2305-certificate.json": "f9a9a786058f6d188d600a7753505c8cb1007978da6db0c41d979fd645010c88",
+    "solutions/seven-more-2026-10-09/algebra/review-Q3480.md": "0d8c8b1b52015651db80219ec7eeb28e5b148ddbe26da937e2f3e2e6fce3477a",
+    "solutions/seven-more-2026-10-09/algebra/review-Q3499.md": "c94c4767d16794b29c99eb4a60b5955579ee9e46ab5fcbd22c5f37db05129188",
+    "solutions/seven-more-2026-10-09/algebra/sources.md": "974147b1ad3ad81d2c274c553b7804e33c4d2b1a3f06b8500c36cf5103414f7c",
+    "solutions/seven-more-2026-10-09/discrete/Q3480-proof.md": "a2a8a903780b05e714a0264b57946dd9872ef87cba2ba72655fb4c4f6d560490",
+    "solutions/seven-more-2026-10-09/discrete/Q3499-proof.md": "fe6985608a41a0fb95fd4cb6029cdbd3e071560752563a0d3c19eb95f797a7e9",
+    "solutions/seven-more-2026-10-09/discrete/SOURCES.md": "f179da1062119a17cb3a218c16808a24a90d7e2cc825113eb370d0002cd8fe58",
+    "solutions/seven-more-2026-10-09/discrete/q3480_certificate.json": "7c776e6d4b52e99a314c9b8f1c9d6b4f2177ff21b25c28fb5f71349537bb1fc9",
+    "solutions/seven-more-2026-10-09/discrete/q3480_enumerate.py": "7901332fca48e39d2de909665f0a0250fff78c63e270c594213d36a49c42d446",
+    "solutions/seven-more-2026-10-09/discrete/q3499_certificate.json": "afa879b615d73b6b2847e711dcf046fc15f934ab9d69d4709aa3b706fd7e098e",
+    "solutions/seven-more-2026-10-09/discrete/q3499_generate.py": "9d02988466ede7d7a1fd8a4e2197e83a7706769665e7eb8b22d0b2f3bfb0f985",
+    "solutions/seven-more-2026-10-09/discrete/review-Q1715.md": "b96039717782e0ede7063dc20856fe1dc15063bf1b7bbb815f39a417bab44051",
+    "solutions/seven-more-2026-10-09/discrete/review-Q2305.md": "3f8820b05b843225de38cb71eae0ffae560d3ea2d50852cd89d81798d8dbaea4",
+    "solutions/seven-more-2026-10-09/learning/Q964-proof.md": "9aa6077b66eb3debfa8ff32c6b8603190bce6d2c229e238d39128b6e1467b1c6",
+    "solutions/seven-more-2026-10-09/learning/SOURCES.md": "fc5cf3f934f2168287ad06c1bc91d748512594d2a36484a4f41f846602aec2a0",
+    "solutions/seven-more-2026-10-09/learning/check_q964.py": "fee506b22b0e7522f204458b0518550fc6793b353247d4d4bf978d846461bde5",
+    "solutions/seven-more-2026-10-09/learning/q964-checks.json": "0f15de4425e0cdd03a8644f98f8d6ae8b08fe19ffd67922a2356c88e4de603d7",
+    "solutions/seven-more-2026-10-09/learning/review-Q964.md": "434b878fd3ee72b93196027c799e892e31efe618a81862cae1bd56a6c0816686",
+    "solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md": "c37568248b60962b2b92b33dad7ef421c98e13b725e6274a99f6add33ba8e0d4",
+    "solutions/seven-more-2026-10-09/probability/constant_freezing_verification.json": "834cfb6ba87faa9a00208317b3a74a63955741a6d7c17980d3e16e1084b1d7ae",
+    "solutions/seven-more-2026-10-09/probability/source-log.md": "2fdbd5d8380e2eb6f4b424466f907fac3f742e4ad90f10e7198ad72311674d16",
+    "solutions/seven-more-2026-10-09/probability/verify_constant_freezing.py": "a8a413a5ad817ed264954ab5326f383a24358fcf29c6cc62b5b303d55cd9c19b",
+    "solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md": "8fc50a27f3166fab5ec18375bf9463f4429199d552cab438bfd20e5ed64eb71b"
+  },
+  "manifest_entries": 7,
+  "markdown": {
+    "detailed_entries": 3588,
+    "numeric_index_rows": 3588,
+    "selected_detail_pages": [
+      "problems/mathematics/algebra-representation-theory-part-1.md",
+      "problems/mathematics/combinatorics-graph-theory-part-2.md",
+      "problems/mathematics/optimization-operations-research.md",
+      "problems/mathematics/probability-stochastic-processes-part-1.md"
+    ],
+    "subject_overviews": 34,
+    "subject_table_rows": 3588
+  },
+  "patch_application": {
+    "application": {
+      "files": 16,
+      "state": "applied"
+    },
+    "dry_run": {
+      "files": 16,
+      "state": "ready"
+    },
+    "edited_target_rejected_without_writes": true,
+    "idempotence": {
+      "files": 16,
+      "state": "already_applied"
+    },
+    "target_hashes_verified": true
+  },
+  "protected_data_files": [
+    "data/excluded.json",
+    "data/sources.json",
+    "data/statements.jsonl.gz"
+  ],
+  "publication_layout": "Catalog patch validated in a disposable worktree; the published catalog is unchanged until the patch is applied.",
+  "validation_scope": "Catalog integration and evidence linkage; does not establish mathematical correctness or novelty"
+}
