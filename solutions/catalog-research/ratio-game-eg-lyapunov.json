@@ -1,0 +1,17 @@
+{
+ "games": 300,
+ "equilibria_with_Vprime_ne_Wprime": 0,
+ "grid_points_checked": 6390753,
+ "grid_points_with_H_not_decreasing": 0,
+ "eta": 0.002,
+ "steps": 4000000,
+ "initial_distance_median": 0.15704419616941206,
+ "max_distance_at_quarter_checkpoints": [
+  0.052332959476973105,
+  0.025772582319595536,
+  0.012701152828455969,
+  0.006267139972588872
+ ],
+ "final_distance_max": 0.006267139972588872,
+ "converged_within_1e-4": 298
+}

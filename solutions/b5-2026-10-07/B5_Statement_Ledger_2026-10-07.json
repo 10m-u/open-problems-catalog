@@ -1,0 +1,1577 @@
+{
+  "schema_version": "1.0",
+  "programme": "B5",
+  "research_date": "2026-10-07",
+  "input": {
+    "filename": "B5 Walks and Covering - Agent Handoff 2026-10-07.md",
+    "sha256": "f0c7c1a7bc3ec774f441f40b48828570a343be834ba1fadc6b339ad776acb772",
+    "role": "authoritative supplied question wording, setup, and historical snapshot"
+  },
+  "status_counts": {
+    "disproved": 3,
+    "unresolved": 33,
+    "partial": 2
+  },
+  "status_policy": "Statuses describe what this investigation establishes at exact retained scope. Unresolved does not assert that no resolution exists anywhere. Partial includes a restricted theorem or a constructive answer whose intended registry closure remains uncertain.",
+  "evidence_policy": {
+    "written_argument": "Proof or audit text as specified per entry.",
+    "primary_source_comparison": "Scope/provenance comparison, not proof validation by itself.",
+    "finite_computation": "Only declared bounded calculations; exact arithmetic distinguished from displays.",
+    "compiled_formal_theorem": "No formal theorem was compiled or kernel-checked in this work."
+  },
+  "prior_authority_files_modified": false,
+  "historical_priority_claimed": false,
+  "questions": [
+    {
+      "programme": "B5",
+      "question_number": 946,
+      "question_label": "Q946",
+      "stable_statement_id": "0c62464d2a79195bced5",
+      "provisional_number": false,
+      "title": "A sharp repeated-coverage bound without reversibility",
+      "exact_retained_statement": "For every finite irreducible Markov chain and k≥1, let t_cov^(k) be the worst-start expected time to visit every state k times, t_cov=t_cov^(1), and π*=min_iπ_i. Does t_cov^(k)≤C(t_cov+k/π*) hold with a universal C? Reversible chains are settled; the general bound loses log n. Periodic chains are included.",
+      "supplied_setup": null,
+      "source_number": 1,
+      "primary_source": "https://proceedings.mlr.press/v132/chan21a.html",
+      "retained_source_location": "Definition 4; §5; §6.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Definition 4; §5; §6.\n\nSystem connection (conditional): With observed finite Markov states, repeated coverage supplies rowwise validation samples. Resolving this would determine whether nonreversible evidence streams require logarithmic extra collection time. Anchors: R §3.5 lines 153–157; S lines 26, 53–56, 65–70.\n\nStatus for question 946, checked 5 October 2026: No resolution located in bounded current searches.\n\nStatus source: https://proceedings.mlr.press/v132/chan21a/chan21a.pdf\nStatus source: https://www.cse.cuhk.edu.hk/upcoming-events/complexity-of-testing-and-learning-of-markov-chains/\n\n**Supplied system connection:** With observed finite Markov states, repeated coverage supplies rowwise validation samples. Resolving this would determine whether nonreversible evidence streams require logarithmic extra collection time. Anchors: R §3.5 lines 153–157; S lines 26, 53–56, 65–70.",
+      "status": "disproved",
+      "conclusion": "Lazy directed cycles with n=m^m and k=m have t_cov=1+(n-1)m, pi_min=1/n, and t_cov^(m)~nm^2; the proposed ratio is asymptotic to m/2.",
+      "changed_assumptions": [],
+      "scope_details": "Uses the source's X_1,...,X_t counts, including holds. The examples are irreducible, aperiodic, at least half-lazy, uniform-stationary, and nonreversible.",
+      "evidence": {
+        "written_argument": "complete_counterexample_family_proof",
+        "primary_source_comparison": "exact_model_and_counting_convention_checked",
+        "finite_computation": "analytic_bounds_displayed; no_simulation",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/kcover/Q946_counterexample_proof.md",
+        "b5_work/rwre/Q946_independent_review.md"
+      ],
+      "verification_files": [
+        "b5_work/kcover/q946_bound_table.py",
+        "b5_work/kcover/q946_bounds.csv"
+      ],
+      "remaining": "The optimal universal dimensional loss between the necessary order log(n)/loglog(n) and the published logarithmic upper bound is not determined.",
+      "source_locations": [
+        {
+          "url": "https://proceedings.mlr.press/v132/chan21a/chan21a.pdf",
+          "location": "Section 2.2, PDF p.5; Definition 4, PDF p.6; Section 5, PDF p.17; Theorem 22, PDF p.18",
+          "version": "ALT 2021 proceedings"
+        }
+      ]
+    },
+    {
+      "programme": "B5",
+      "question_number": 1185,
+      "question_label": "Q1185",
+      "stable_statement_id": "80f9b93340290f8ce5da",
+      "provisional_number": false,
+      "title": "Openness of random transient directions",
+      "exact_retained_statement": "For an iid random environment on Z^d, d≥2, with uniformly bounded jump range and almost surely irreducible quenched walk X starting at 0, is {ℓ∈S^{d−1}:X_n·ℓ→+∞} almost surely open in S^{d−1} under the annealed law?",
+      "supplied_setup": null,
+      "source_number": 2,
+      "primary_source": "https://danielslonim.github.io/SlonimThesis.pdf",
+      "retained_source_location": "Conjecture 3.4.1, pp.68–69; assumptions (C1)–(C3), p.14.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 3.4.1, pp.68–69; assumptions (C1)–(C3), p.14.\n\nStatus for question 1185, checked 6 October 2026: Directional conjecture reaffirmed in ALEA 2024, Conjecture 3.9; no subsequent resolution located.\n\nFurther source and status links:\nhttps://alea.impa.br/articles/v21/21-27.pdf\nhttps://arxiv.org/abs/2104.14950",
+      "status": "unresolved",
+      "conclusion": "A restricted planar corollary is proved conditionally on the unverified ballisticity theorem: under iid uniform ellipticity, nearest-neighbor jumps, and an existing deterministic transient direction, the pathwise transient set is an open hemisphere.",
+      "changed_assumptions": [
+        "Restrict to dimension two and uniformly elliptic nearest-neighbor environments.",
+        "Assume positive-probability escape in some deterministic direction.",
+        "Assume validity of the pinned, unverified Q1789 candidate theorem."
+      ],
+      "scope_details": "Fixed-direction null events do not directly imply a simultaneous statement over an uncountable sphere. The planar equator contains only two deterministic directions.",
+      "evidence": {
+        "written_argument": "conditional_restricted_corollary_only",
+        "primary_source_comparison": "candidate_scope_nonmatch_with_full_question",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/rwre/RWRE_audit.md"
+      ],
+      "verification_files": [],
+      "remaining": "The full bounded-jump, pathwise random-set openness statement remains unresolved."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1186,
+      "question_label": "Q1186",
+      "stable_statement_id": "6db619f632f33288eec5",
+      "provisional_number": false,
+      "title": "Sharp transience on doubled trees",
+      "exact_retained_statement": "If b>1+δ−δ/(3+2δ), must the walk have positive probability never to return to the root after its first step?",
+      "supplied_setup": "Double every edge of an infinite locally finite rooted tree T. A walk starts at the root and chooses incident edges proportionally to weights: initially 1, then 1+δ after first traversal, δ>0. Put b=sup{s>0:inf_π Σ_{v∈π}|v|^{−s}>0}, where π runs over vertex cutsets meeting every infinite root-ray and |v| is root-distance.",
+      "source_number": 3,
+      "primary_source": "https://purehost.bath.ac.uk/ws/portalfiles/portal/344232966/Pawel_Rudnicki_-_Thesis.pdf",
+      "retained_source_location": "Chapter 4, Conjecture 2.4, p.149; definitions pp.145–148.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Chapter 4, Conjecture 2.4, p.149; definitions pp.145–148.\n\nStatus for question 1186, checked 6 October 2026: Checked 6 October 2026; no matching resolution found in the searches recorded.\n\nFurther source and status links:\nhttps://researchportal.bath.ac.uk/en/studentTheses/random-walks-with-reinforcement/",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1187,
+      "question_label": "Q1187",
+      "stable_statement_id": "4d8ce788167e3a7856ee",
+      "provisional_number": false,
+      "title": "Slow exceptional branching minima",
+      "exact_retained_statement": "On the rooted binary tree, independently put Bernoulli(1/2) labels on edges and refresh each at rate 1. Let M_n(t) be the minimum label-sum over root-to-level-n paths. For every γ>2, do exceptional times t≥0 almost surely exist with liminf_n log(γ)M_n(t)/loglog n≤1?",
+      "supplied_setup": null,
+      "source_number": 4,
+      "primary_source": "https://purehost.bath.ac.uk/ws/portalfiles/portal/221647004/MPrigent_UoB_Thesis_Final.pdf",
+      "retained_source_location": "Conjecture 4.1, pp.140–142.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 4.1, pp.140–142.\n\nStatus for questions 1187, 1188, checked 6 October 2026: Checked 6 October 2026; no matching resolution found in the searches recorded.\n\nFurther source and status links:\nhttps://researchportal.bath.ac.uk/en/studentTheses/noise-sensitivity-and-exceptional-times/\nhttps://arxiv.org/abs/1908.08606",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1188,
+      "question_label": "Q1188",
+      "stable_statement_id": "59fb44c4695a865ff813",
+      "provisional_number": false,
+      "title": "Planar switch transience",
+      "exact_retained_statement": "Let X_j(t) be independent uniform {1,i,−1,−i} variables, each refreshed at rate 1, and Z_n(t)=Σ_{k≤n}∏_{j≤k}X_j(t). Does {t≥0:Z_n(t)=0 for only finitely many n} almost surely have Hausdorff dimension 1?",
+      "supplied_setup": null,
+      "source_number": 4,
+      "primary_source": "https://purehost.bath.ac.uk/ws/portalfiles/portal/221647004/MPrigent_UoB_Thesis_Final.pdf",
+      "retained_source_location": "Conjecture 5.3, pp.180–181.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 5.3, pp.180–181.\n\nStatus for questions 1187, 1188, checked 6 October 2026: Checked 6 October 2026; no matching resolution found in the searches recorded.\n\nFurther source and status links:\nhttps://researchportal.bath.ac.uk/en/studentTheses/noise-sensitivity-and-exceptional-times/\nhttps://arxiv.org/abs/1908.08606",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1189,
+      "question_label": "Q1189",
+      "stable_statement_id": "822b7cee623f61895eed",
+      "provisional_number": false,
+      "title": "Critical escape scale for switch walks",
+      "exact_retained_statement": "Is {t∈[0,1]:liminf_n Z_n(t)/√n>0} almost surely empty?",
+      "supplied_setup": "Independent stationary Rademacher coordinates X_j(t) refresh at rate 1. Put Z_n(t)=Σ_{k≤n}∏_{j≤k}X_j(t).",
+      "source_number": 5,
+      "primary_source": "https://link.springer.com/article/10.1007/s00440-020-00978-7",
+      "retained_source_location": "§1, immediately after Theorem 1.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §1, immediately after Theorem 1.\n\nStatus for question 1189, checked 6 October 2026: Checked 6 October 2026; no matching resolution found in the searches recorded.\n\nFurther source and status links:\nhttps://arxiv.org/abs/1908.08606\nhttps://researchportal.bath.ac.uk/en/studentTheses/noise-sensitivity-and-exceptional-times/",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1384,
+      "question_label": "Q1384",
+      "stable_statement_id": "2238464a0bd21ac55452",
+      "provisional_number": false,
+      "title": "A monotone recurrence boundary for lattice frogs",
+      "exact_retained_statement": "For every d≥2, is there a nonincreasing f_d:[0,1]→[0,1] such that the model is recurrent when w<f_d(α) and transient when w>f_d(α)?",
+      "supplied_setup": "On Z^d, start one active frog at 0 and one sleeping frog elsewhere. Activated frogs independently make discrete-time nearest-neighbor walks, waking sleeping frogs they visit. For w,α∈[0,1], jumps ±e₁ have probabilities w(1±α)/2 and each ±e_j, j≥2, has probability (1−w)/(2(d−1)). Recurrence means infinitely many visits to 0 almost surely.",
+      "source_number": 6,
+      "primary_source": "https://arxiv.org/abs/1709.00038",
+      "retained_source_location": "Paper Conjecture 4.1, pp.20–21; thesis Conjecture 1.18, p. 14.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Paper Conjecture 4.1, pp.20–21; thesis Conjecture 1.18, p. 14.\n\nStatus for question 1384, checked 6 October 2026: Checked 6 October 2026: v2 and subsequent searches leave this boundary unresolved.\n\nFurther source and status links:\nhttps://mediatum.ub.tum.de/doc/1415644/1415644.pdf\nhttps://mediatum.ub.tum.de/node?id=1415644",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1385,
+      "question_label": "Q1385",
+      "stable_statement_id": "228ba1e208c05c2a7a54",
+      "provisional_number": false,
+      "title": "Concavity of the fastest-frog speed",
+      "exact_retained_statement": "Is v(p) concave on [1/2,1]?",
+      "supplied_setup": "On Z place one active frog at 0 and one sleeper at every other integer. After activation, frogs independently jump right with probability p∈[1/2,1] and left with probability 1−p each discrete step, waking visited sleepers. Let M_n be the rightmost active position and v(p)=lim_n M_n/n, the deterministic maximum speed.",
+      "source_number": 7,
+      "primary_source": "https://arxiv.org/abs/1505.05006",
+      "retained_source_location": "Paper Conjecture 3.1; thesis Conjecture 1.24, p. 18.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Paper Conjecture 3.1; thesis Conjecture 1.24, p. 18.\n\nStatus for question 1385, checked 6 October 2026: Checked 6 October 2026: current v2 retains the conjecture; no matching resolution located.\n\nFurther source and status links:\nhttps://mediatum.ub.tum.de/doc/1415644/1415644.pdf\nhttps://mediatum.ub.tum.de/node?id=1415644",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1386,
+      "question_label": "Q1386",
+      "stable_statement_id": "124e758489f92975df9b",
+      "provisional_number": false,
+      "title": "The two unresolved tree degrees",
+      "exact_retained_statement": "Is the model almost surely recurrent on T_3 and almost surely transient on T_4, where recurrence means infinitely many root visits?",
+      "supplied_setup": "T_d is the infinite rooted d-ary tree. Initially the root has one active frog and every other vertex one sleeping frog. Active frogs make independent discrete-time simple random walks forever and activate sleepers they visit.",
+      "source_number": 8,
+      "primary_source": "https://arxiv.org/abs/1404.6238",
+      "retained_source_location": "Conjecture 2, p. 3; reaffirmation: Ahmed–Junge 2025, p. 1.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 2, p. 3; reaffirmation: Ahmed–Junge 2025, p. 1.\n\nStatus for question 1386, checked 6 October 2026: Ahmed–Junge 2025 explicitly reaffirms both degrees as open; no later resolution found by 6 October 2026.\n\nFurther source and status links:\nhttps://arxiv.org/abs/2510.18792",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1387,
+      "question_label": "Q1387",
+      "stable_statement_id": "12e6c894ec1fc4ac77a7",
+      "provisional_number": false,
+      "title": "Monotonicity without frog deaths",
+      "exact_retained_statement": "For each d≥2, is the recurrence probability nondecreasing in p on 0<p<1/2?",
+      "supplied_setup": "On the infinite rooted d-ary tree, d≥2, start one active frog at the root and one sleeper elsewhere. Active frogs independently walk forever, waking visited sleepers. Away from the root they move to the parent with probability p and to each child with probability (1−p)/d. At the root they always choose a uniform child. Recurrence means infinitely many total root visits.",
+      "source_number": 9,
+      "primary_source": "https://arxiv.org/abs/1808.03283",
+      "retained_source_location": "Introduction, pp.2–3; model definition, p. 1.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Introduction, pp.2–3; model definition, p. 1.\n\nStatus for question 1387, checked 6 October 2026: Checked 6 October 2026: Ahmed–Junge 2025 reaffirms the no-death question; subsequent searches found no resolution.\n\nFurther source and status links:\nhttps://arxiv.org/abs/2510.18792\nhttps://arxiv.org/abs/2303.15517\nhttps://arxiv.org/abs/2309.14443",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1388,
+      "question_label": "Q1388",
+      "stable_statement_id": "de84ddb8c965600c60ca",
+      "provisional_number": false,
+      "title": "A single rotor bias threshold",
+      "exact_retained_statement": "If each initial arrow points west with probability p and each other direction with probability (1−p)/3, is there a single p_c separating almost-sure recurrence for p<p_c from transience for p>p_c?",
+      "supplied_setup": "A rotor walk starts at 0; each step advances the current vertex’s arrow in a fixed cyclic order and follows it. Initial arrows are independent. On Z² the order is clockwise; with uniform arrows the visited set R_t, scaled by t^(−1/3), has deterministic convex limit B.",
+      "source_number": 10,
+      "primary_source": "https://arxiv.org/abs/2608.23545",
+      "retained_source_location": "§7, Problem 2, pp.25–26.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §7, Problem 2, pp.25–26.\n\nStatus for questions 1388, 1389, 1390, checked 6 October 2026: Checked 6 October 2026: 24 August 2026 v1; targeted searches found no resolution.",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1389,
+      "question_label": "Q1389",
+      "stable_statement_id": "8ad91c20025f42868a26",
+      "provisional_number": false,
+      "title": "Roundness of the rotor-walk limit",
+      "exact_retained_statement": "For uniform initial arrows on the clockwise square lattice, is B a Euclidean disk?",
+      "supplied_setup": "A rotor walk starts at 0; each step advances the current vertex’s arrow in a fixed cyclic order and follows it. Initial arrows are independent. On Z² the order is clockwise; with uniform arrows the visited set R_t, scaled by t^(−1/3), has deterministic convex limit B.",
+      "source_number": 10,
+      "primary_source": "https://arxiv.org/abs/2608.23545",
+      "retained_source_location": "§7, Problem 3, p. 26.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §7, Problem 3, p. 26.\n\nStatus for questions 1388, 1389, 1390, checked 6 October 2026: Checked 6 October 2026: 24 August 2026 v1; targeted searches found no resolution.",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1390,
+      "question_label": "Q1390",
+      "stable_statement_id": "bd4e13709dd3a1869380",
+      "provisional_number": false,
+      "title": "Diffusive limits above dimension two",
+      "exact_retained_statement": "On Z^d, d>2, for every fixed translation-invariant cyclic rotor mechanism and independent uniform initial arrows, does the diffusively rescaled walk converge in law to Brownian motion?",
+      "supplied_setup": "A rotor walk starts at 0; each step advances the current vertex’s arrow in a fixed cyclic order and follows it. Initial arrows are independent. On Z² the order is clockwise; with uniform arrows the visited set R_t, scaled by t^(−1/3), has deterministic convex limit B.",
+      "source_number": 10,
+      "primary_source": "https://arxiv.org/abs/2608.23545",
+      "retained_source_location": "§7, Problem 4, p. 26.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §7, Problem 4, p. 26.\n\nStatus for questions 1388, 1389, 1390, checked 6 October 2026: Checked 6 October 2026: 24 August 2026 v1; targeted searches found no resolution.",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1784,
+      "question_label": "Q1784",
+      "stable_statement_id": "e9f34afc617ca1d72d44",
+      "provisional_number": false,
+      "title": "The unbiased critical-state limit",
+      "exact_retained_statement": "For every λ>0, does π_DD(λ,1/2) exist, with π_DD(λ,θ) converging locally to it as θ→1/2?",
+      "supplied_setup": "ARW particles jump at rate one, right with probability θ; lone particles sleep at rate λ>0 and awaken on contact. Write ρ_c(λ,θ) for the infinite-line critical density and π_DD(λ,θ) for the local limit of finite-interval driven-dissipative stationary laws (exits killed). This limit exists for θ≠1/2.",
+      "source_number": 11,
+      "primary_source": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=7992&context=gc_etds",
+      "retained_source_location": "§1.3, p. 10.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §1.3, p. 10.\n\nStatus for questions 1784, 1785, checked 6 October 2026: September thesis leaves these open; its biased-line theorem does not settle them.\n\nFurther source and status links:\nhttps://academicworks.cuny.edu/gc_etds/6881/\nhttps://arxiv.org/abs/2605.00207",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1785,
+      "question_label": "Q1785",
+      "stable_statement_id": "81349e2d00ff067d348e",
+      "provisional_number": false,
+      "title": "Critical cycle states in biased ARW",
+      "exact_retained_statement": "Fix λ>0 and θ∈(0,1)\\{1/2}. Stabilize ⌊ρ_c n⌋ particles placed independently uniformly on the n-cycle. Do the resulting laws, viewed near zero, converge locally to π_DD(λ,θ) as n→∞?",
+      "supplied_setup": "ARW particles jump at rate one, right with probability θ; lone particles sleep at rate λ>0 and awaken on contact. Write ρ_c(λ,θ) for the infinite-line critical density and π_DD(λ,θ) for the local limit of finite-interval driven-dissipative stationary laws (exits killed). This limit exists for θ≠1/2.",
+      "source_number": 11,
+      "primary_source": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=7992&context=gc_etds",
+      "retained_source_location": "Conjecture 3, p. 10; §1.2.4.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 3, p. 10; §1.2.4.\n\nStatus for questions 1784, 1785, checked 6 October 2026: September thesis leaves these open; its biased-line theorem does not settle them.\n\nFurther source and status links:\nhttps://academicworks.cuny.edu/gc_etds/6881/\nhttps://arxiv.org/abs/2605.00207",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1786,
+      "question_label": "Q1786",
+      "stable_statement_id": "0fd6f66812be3281c66d",
+      "provisional_number": false,
+      "title": "Spherical activated-walk aggregate",
+      "exact_retained_statement": "For n particles initially at zero, is there ρ_a>0 such that, for every ε∈(0,1), the visited set lies between the centered lattice balls of Euclidean volumes (1−ε)n/ρ_a and (1+ε)n/ρ_a with probability tending to one?",
+      "supplied_setup": "Fix d≥2 and λ>0. In ARW on Z^d, active particles make rate-one simple random walks, sleep at rate λ when alone, and awaken on contact. Let S denote stabilization and ρ_c the infinite-volume fixation threshold.",
+      "source_number": 12,
+      "primary_source": "https://arxiv.org/abs/2306.01698",
+      "retained_source_location": "Conjecture 1.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 1.\n\nStatus for questions 1786, 1787, 1788, checked 6 October 2026: general d≥2 cases remain open; one-dimensional and small-λ results are partial.\n\nFurther source and status links:\nhttps://lionellevine.github.io/universality-conjectures-ARW.pdf\nhttps://arxiv.org/abs/2605.00207\nhttps://arxiv.org/abs/2501.17938",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1787,
+      "question_label": "Q1787",
+      "stable_statement_id": "059ed0777612eb63205f",
+      "provisional_number": false,
+      "title": "Higher-dimensional critical-time cutoff",
+      "exact_retained_statement": "On V_L=Z^d∩B(0,L), add a particle uniformly and stabilize each step, killing exits. Writing N_L for the stationary particle count, does some ρ_s>0 satisfy N_L/|V_L|→ρ_s in probability and t_mix(ε)/|V_L|→ρ_s for every ε∈(0,1), with worst-case total-variation mixing?",
+      "supplied_setup": "Fix d≥2 and λ>0. In ARW on Z^d, active particles make rate-one simple random walks, sleep at rate λ when alone, and awaken on contact. Let S denote stabilization and ρ_c the infinite-volume fixation threshold.",
+      "source_number": 12,
+      "primary_source": "https://arxiv.org/abs/2306.01698",
+      "retained_source_location": "Conjectures 11 and 19.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjectures 11 and 19.\n\nStatus for questions 1786, 1787, 1788, checked 6 October 2026: general d≥2 cases remain open; one-dimensional and small-λ results are partial.\n\nFurther source and status links:\nhttps://lionellevine.github.io/universality-conjectures-ARW.pdf\nhttps://arxiv.org/abs/2605.00207\nhttps://arxiv.org/abs/2501.17938",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1788,
+      "question_label": "Q1788",
+      "stable_statement_id": "a015b029d2e14d9a01f6",
+      "provisional_number": false,
+      "title": "Forgetting dense initial configurations",
+      "exact_retained_statement": "For every ζ∈(ρ_c,1), does sup d_TV(Law(Sη),Law(Sη̃))→0 on (Z/LZ)^d, where the supremum is over active configurations with equal particle count in [ζL^d,L^d]?",
+      "supplied_setup": "Fix d≥2 and λ>0. In ARW on Z^d, active particles make rate-one simple random walks, sleep at rate λ when alone, and awaken on contact. Let S denote stabilization and ρ_c the infinite-volume fixation threshold.",
+      "source_number": 12,
+      "primary_source": "https://arxiv.org/abs/2306.01698",
+      "retained_source_location": "Conjecture 24.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 24.\n\nStatus for questions 1786, 1787, 1788, checked 6 October 2026: general d≥2 cases remain open; one-dimensional and small-λ results are partial.\n\nFurther source and status links:\nhttps://lionellevine.github.io/universality-conjectures-ARW.pdf\nhttps://arxiv.org/abs/2605.00207\nhttps://arxiv.org/abs/2501.17938",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 1789,
+      "question_label": "Q1789",
+      "stable_statement_id": "8bae191e2b95d4bb0733",
+      "provisional_number": false,
+      "title": "Directional transience forces positive speed",
+      "exact_retained_statement": "For every unit vector ℓ, does P_0(X_n·ℓ→+∞)=1 imply liminf_{n→∞} X_n·ℓ/n>0 almost surely?",
+      "supplied_setup": "Let X start at zero in Z^d, d≥2, and jump to nearest neighbors using iid sitewise transition vectors ω(x,·), with a deterministic κ>0 satisfying ω(x,e)≥κ almost surely for every e∈{±e₁,…,±e_d}. P_0 averages over both environment and walk.",
+      "source_number": 13,
+      "primary_source": "https://arxiv.org/abs/1005.0376",
+      "retained_source_location": "Conjecture 1.1, p. 2.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 1.1, p. 2.\n\nStatus for question 1789, checked 6 October 2026: no resolution found in the bounded search.\n\nFurther source and status links:\nhttps://arxiv.org/abs/1809.02011\nhttps://arxiv.org/abs/2006.00570",
+      "status": "unresolved",
+      "conclusion": "Pinned candidate theorem matches the retained target. Actual solution modules and complete local dependency closure were obtained; bounded analytic and source-level audits were performed.",
+      "changed_assumptions": [],
+      "scope_details": "Uniformly elliptic iid nearest-neighbor RWRE, d>=2; candidate asserts a stronger deterministic vector law of large numbers.",
+      "evidence": {
+        "written_argument": "bounded_manual_audit_only",
+        "primary_source_comparison": "exact_model_and_theorem_match",
+        "finite_computation": "source_hash_and_import_closure_checks_only",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/rwre/RWRE_audit.md"
+      ],
+      "verification_files": [
+        "b5_work/rwre/all_dependency_closures.json",
+        "b5_work/rwre/comparator_model_prefix_check.json",
+        "b5_work/rwre/directional_static_scan.json",
+        "b5_work/rwre/ballisticity_static_scan.json"
+      ],
+      "remaining": "Full independent analytic verification and a build/kernel check with the pinned dependencies remain outstanding.",
+      "candidate_route": {
+        "status": "exact_scope_match_not_independently_verified",
+        "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "main_module": "OAI.Probability.Ballisticity.Main",
+        "lean_toolchain": "leanprover/lean4:v4.34.1",
+        "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+        "compiled_here": false,
+        "kernel_check_run": false,
+        "challenge_placeholders_are_solution": false
+      },
+      "source_locations": [
+        {
+          "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Directional-transience-implies-ballisticity-September-23-2026/paper.pdf",
+          "location": "Theorem 1.1, PDF p.3",
+          "version": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+        },
+        {
+          "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Probability/Ballisticity/Main.lean",
+          "location": "Actual solution module, not the challenge comparator",
+          "version": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+        }
+      ]
+    },
+    {
+      "programme": "B5",
+      "question_number": 1790,
+      "question_label": "Q1790",
+      "stable_statement_id": "dcf3adbfb27d291659db",
+      "provisional_number": false,
+      "title": "Higher-dimensional directional zero-one law",
+      "exact_retained_statement": "For every nonzero ℓ∈R^d, must P_0(lim_{n→∞}X_n·ℓ=+∞) belong to {0,1}?",
+      "supplied_setup": "Consider nearest-neighbor RWRE X on Z^d, d≥3, started at zero. Sitewise transition vectors are iid and elliptic: each of the 2d nearest-neighbor jumps has strictly positive probability almost surely. P_0 is the annealed law.",
+      "source_number": 14,
+      "primary_source": "https://arxiv.org/abs/0706.0745",
+      "retained_source_location": "Introduction, p. 327.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Introduction, p. 327.\n\nStatus for question 1790, checked 6 October 2026: no resolution found in the bounded search.\n\nFurther source and status links:\nhttps://www.kurims.kyoto-u.ac.jp/EMIS/journals/EJP-ECP/article/download/1314/1314-4356-1-PB.pdf\nhttps://www.mat.uc.cl/~aramirez/rwre-lecturepasi2012.pdf\nhttps://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf",
+      "status": "unresolved",
+      "conclusion": "Pinned candidate theorem matches the retained target. Actual solution modules and complete local dependency closure were obtained; bounded analytic and source-level audits were performed.",
+      "changed_assumptions": [],
+      "scope_details": "Strictly elliptic iid nearest-neighbor RWRE, d>=3; every fixed nonzero real direction.",
+      "evidence": {
+        "written_argument": "bounded_manual_audit_only",
+        "primary_source_comparison": "exact_model_and_theorem_match",
+        "finite_computation": "source_hash_and_import_closure_checks_only",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/rwre/RWRE_audit.md"
+      ],
+      "verification_files": [
+        "b5_work/rwre/all_dependency_closures.json",
+        "b5_work/rwre/comparator_model_prefix_check.json",
+        "b5_work/rwre/directional_static_scan.json",
+        "b5_work/rwre/ballisticity_static_scan.json"
+      ],
+      "remaining": "Full independent analytic verification and a build/kernel check with the pinned dependencies remain outstanding.",
+      "candidate_route": {
+        "status": "exact_scope_match_not_independently_verified",
+        "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "main_module": "OAI.Probability.DirectionalWalk.Main",
+        "lean_toolchain": "leanprover/lean4:v4.34.1",
+        "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+        "compiled_here": false,
+        "kernel_check_run": false,
+        "challenge_placeholders_are_solution": false
+      },
+      "source_locations": [
+        {
+          "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-directional-zero-one-law-under-strict-ellipticity-September-23-2026/paper.pdf",
+          "location": "Theorem 1.1, PDF p.2",
+          "version": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+        },
+        {
+          "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Probability/DirectionalWalk/Main.lean",
+          "location": "Actual solution module, not the challenge comparator",
+          "version": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+        }
+      ]
+    },
+    {
+      "programme": "B5",
+      "question_number": 1791,
+      "question_label": "Q1791",
+      "stable_statement_id": "1e520a66d369dc85d7bc",
+      "provisional_number": false,
+      "title": "Recurrence of the planar balanced excited walk",
+      "exact_retained_statement": "Does Z visit every vertex infinitely often almost surely?",
+      "supplied_setup": "Start Z_0=0 in Z². On first departure from any vertex take a vertical ±1 step; on later departures take a horizontal ±1 step. Signs are independent fair choices. Let R_n=|{Z_0,…,Z_n}|.",
+      "source_number": 15,
+      "primary_source": "https://arxiv.org/abs/2110.15889",
+      "retained_source_location": "Introduction, after Theorem 1.1.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Introduction, after Theorem 1.1.\n\nStatus for questions 1791, 1792, checked 6 October 2026: Qin’s September result solves M(2,1,2), not this non-overlapping model.\n\nFurther source and status links:\nhttps://researchers.ms.unimelb.edu.au/~mholmes1%40unimelb/BERW_main.pdf\nhttps://arxiv.org/abs/2609.30045\nhttps://comptes-rendus.academie-sciences.fr/mathematique/item/10.1016/j.crma.2011.02.018.pdf",
+      "status": "unresolved",
+      "conclusion": "The linked later planar balanced-walk paper was checked as a possible route and concerns a different model.",
+      "changed_assumptions": [],
+      "scope_details": "The retained model has vertical first departures and horizontal later departures. The compared M(2,1,2) result has full planar later departures.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "scope_nonmatch_established",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/rwre/RWRE_audit.md"
+      ],
+      "verification_files": [],
+      "remaining": "Neither the retained recurrence question nor its range-exponent question is resolved.",
+      "candidate_route": {
+        "status": "scope-nonmatch",
+        "source": "https://arxiv.org/pdf/2609.30045"
+      }
+    },
+    {
+      "programme": "B5",
+      "question_number": 1792,
+      "question_label": "Q1792",
+      "stable_statement_id": "8b6e6c22412067afaae6",
+      "provisional_number": false,
+      "title": "Existence of a balanced-walk range exponent",
+      "exact_retained_statement": "Is there a deterministic α∈[1/2,1] such that log R_n/log n→α in probability?",
+      "supplied_setup": "Start Z_0=0 in Z². On first departure from any vertex take a vertical ±1 step; on later departures take a horizontal ±1 step. Signs are independent fair choices. Let R_n=|{Z_0,…,Z_n}|.",
+      "source_number": 15,
+      "primary_source": "https://arxiv.org/abs/2110.15889",
+      "retained_source_location": "Open Problem 1.3.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Open Problem 1.3.\n\nStatus for questions 1791, 1792, checked 6 October 2026: Qin’s September result solves M(2,1,2), not this non-overlapping model.\n\nFurther source and status links:\nhttps://researchers.ms.unimelb.edu.au/~mholmes1%40unimelb/BERW_main.pdf\nhttps://arxiv.org/abs/2609.30045\nhttps://comptes-rendus.academie-sciences.fr/mathematique/item/10.1016/j.crma.2011.02.018.pdf",
+      "status": "unresolved",
+      "conclusion": "The linked later planar balanced-walk paper was checked as a possible route and concerns a different model.",
+      "changed_assumptions": [],
+      "scope_details": "The retained model has vertical first departures and horizontal later departures. The compared M(2,1,2) result has full planar later departures.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "scope_nonmatch_established",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/rwre/RWRE_audit.md"
+      ],
+      "verification_files": [],
+      "remaining": "Neither the retained recurrence question nor its range-exponent question is resolved.",
+      "candidate_route": {
+        "status": "scope-nonmatch",
+        "source": "https://arxiv.org/pdf/2609.30045"
+      }
+    },
+    {
+      "programme": "B5",
+      "question_number": 2087,
+      "question_label": "Q2087",
+      "stable_statement_id": "496e9bf6a22ffef49b95",
+      "provisional_number": false,
+      "title": "Small reinforcement in dimensions three to five",
+      "exact_retained_statement": "For every d∈{3,4,5}, is there a_d>0 such that this walk on Z^d is almost surely transient whenever 0<a<a_d?",
+      "supplied_setup": "A walk starts at 0. Each undirected edge initially has weight 1, permanently changed to 1+a after its first crossing, a>0. At every discrete step it selects an incident edge proportionally to its current weight. Recurrence means infinitely many returns to 0.",
+      "source_number": 16,
+      "primary_source": "https://arxiv.org/abs/2601.17972",
+      "retained_source_location": "Introduction and §1.1, pp. 1–2.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Introduction and §1.1, pp. 1–2.\n\nStatus for questions 2087, 2088, 2089, checked 6 October 2026: September range paper still records the lattice gap; no strip resolution found.\n\nFurther source and status links:\nhttps://arxiv.org/abs/2610.00090\nhttps://arxiv.org/abs/1807.07167\nhttps://doi.org/10.1214/21-AIHP1151",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2088,
+      "question_label": "Q2088",
+      "stable_statement_id": "0786dc65fb2e5fa1f4f3",
+      "provisional_number": false,
+      "title": "Large-reinforcement lattice recurrence",
+      "exact_retained_statement": "For every d≥3, is there A_d<∞ such that this walk on Z^d is almost surely recurrent whenever a>A_d?",
+      "supplied_setup": "A walk starts at 0. Each undirected edge initially has weight 1, permanently changed to 1+a after its first crossing, a>0. At every discrete step it selects an incident edge proportionally to its current weight. Recurrence means infinitely many returns to 0.",
+      "source_number": 16,
+      "primary_source": "https://arxiv.org/abs/2601.17972",
+      "retained_source_location": "§1.1, pp. 1–2.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §1.1, pp. 1–2.\n\nStatus for questions 2087, 2088, 2089, checked 6 October 2026: September range paper still records the lattice gap; no strip resolution found.\n\nFurther source and status links:\nhttps://arxiv.org/abs/2610.00090\nhttps://arxiv.org/abs/1807.07167\nhttps://doi.org/10.1214/21-AIHP1151",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2089,
+      "question_label": "Q2089",
+      "stable_statement_id": "3eebebdd3e5714daaac5",
+      "provisional_number": false,
+      "title": "Recurrence across strip reinforcements",
+      "exact_retained_statement": "On Z×{1,…,m} with nearest-neighbor edges, is the walk recurrent for every m≥3 and every a>0?",
+      "supplied_setup": "A walk starts at 0. Each undirected edge initially has weight 1, permanently changed to 1+a after its first crossing, a>0. At every discrete step it selects an incident edge proportionally to its current weight. Recurrence means infinitely many returns to 0.",
+      "source_number": 16,
+      "primary_source": "https://arxiv.org/abs/2601.17972",
+      "retained_source_location": "§1.2, p. 2.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §1.2, p. 2.\n\nStatus for questions 2087, 2088, 2089, checked 6 October 2026: September range paper still records the lattice gap; no strip resolution found.\n\nFurther source and status links:\nhttps://arxiv.org/abs/2610.00090\nhttps://arxiv.org/abs/1807.07167\nhttps://doi.org/10.1214/21-AIHP1151",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2090,
+      "question_label": "Q2090",
+      "stable_statement_id": "2682e0f19c510a2c0a1b",
+      "provisional_number": false,
+      "title": "Upper range bound for strong reinforcement",
+      "exact_retained_statement": "For every d≥2, does some β₀(d)<∞ satisfy Eβ|R_n|=O_{d,β}(n^{d/(d+1)}) for every fixed β≥β₀(d), as n→∞?",
+      "supplied_setup": "On Z^d, start at 0; untraversed edges have weight 1 and traversed edges weight β≥1. Choose the next edge proportionally to weight. Set R_n={X₀,…,X_n}.",
+      "source_number": 17,
+      "primary_source": "https://arxiv.org/abs/2610.00090",
+      "retained_source_location": "Introduction, pp. 1–2, predicted order preceding Theorem 1.1.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Introduction, pp. 1–2, predicted order preceding Theorem 1.1.\n\nStatus for question 2090, checked 6 October 2026: September paper proves only the matching lower bound.\n\nFurther source and status links:\nhttps://nitromannitol.github.io/",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2298,
+      "question_label": "Q2298",
+      "stable_statement_id": "348fcb55ace5031ea7ed",
+      "provisional_number": false,
+      "title": "Stochastic advantage of collaborating walks",
+      "exact_retained_statement": "For every k≥2, positive integer lifespans t_i, and y>0, is P(|⋃_{i=1}^kR_i(t_i)|≥y)≥P(|R(Σ_it_i)|≥y)?",
+      "supplied_setup": "Let X,X₁,…,X_k be independent copies of the same finite irreducible aperiodic reversible discrete-time Markov chain, all starting independently in its stationary law π. Put R_i(t)={X_i(s):0≤s≤t} and R(t)={X(s):0≤s≤t}.",
+      "source_number": 18,
+      "primary_source": "https://arxiv.org/abs/2302.14241",
+      "retained_source_location": "Question 3.6, p. 11; AssumptionI, pp. 2–3.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Question 3.6, p. 11; AssumptionI, pp. 2–3.\n\nStatus for question 2298, checked 6 October 2026: targeted searches found no subsequent resolution.",
+      "status": "disproved",
+      "conclusion": "A seven-state half-lazy reversible birth-death chain with bias ratio r=20 gives P(two stationary three-step ranges cover)/P(one stationary six-step range covers)=87400/160401<1. The ratio tends to zero as r grows.",
+      "changed_assumptions": [],
+      "scope_details": "Independent stationary starts; time-zero visits included; threshold seven (or strict threshold 6.5); total lifespan six.",
+      "evidence": {
+        "written_argument": "complete_symbolic_path_enumeration_proof",
+        "primary_source_comparison": "exact_assumptions_checked",
+        "finite_computation": "exact_rational_DP_and_separate_complete_path_enumeration_ran",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/kcover/Q2298_counterexample_proof.md",
+        "b5_work/entropy/Q2298_peer_review.md"
+      ],
+      "verification_files": [
+        "b5_work/kcover/collaboration_counterexample.py",
+        "b5_work/kcover/collaboration_counterexample.json",
+        "b5_work/core/independent_counterexample_check.py",
+        "b5_work/core/independent_counterexample_check.json",
+        "b5_work/entropy/review_q2298.py"
+      ],
+      "remaining": "No stochastic dominance is claimed from the separate expected-range theorem. Transitive or narrower model classes were not resolved.",
+      "source_locations": [
+        {
+          "url": "https://arxiv.org/pdf/2302.14241",
+          "location": "Assumption I, PDF pp.2-3; Question 3.6, PDF p.11",
+          "version": "retrieved PDF of arXiv:2302.14241"
+        }
+      ]
+    },
+    {
+      "programme": "B5",
+      "question_number": 2300,
+      "question_label": "Q2300",
+      "stable_statement_id": "c33d47de12875247669d",
+      "provisional_number": false,
+      "title": "Bounded-degree hitting-time anticoncentration",
+      "exact_retained_statement": "For every fixed integer D≥2, does C_D<∞ exist such that P_x(τ_y=t)≤C_D√(log n)/t for every such G with maximum degree≤D, every x≠y and every integer t≥1?",
+      "supplied_setup": "Let G be a finite connected simple graph with n≥2 vertices, X its nonlazy simple random walk started at x, and τ_y=inf{t≥0:X_t=y}.",
+      "source_number": 19,
+      "primary_source": "https://arxiv.org/abs/2605.17513",
+      "retained_source_location": "Introduction after Proposition 1.4, p. 2; Remark7.2.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Introduction after Proposition 1.4, p. 2; Remark7.2.\n\nStatus for question 2300, checked 6 October 2026: current May 2026 v1 explicitly retains the bounded-degree question.",
+      "status": "unresolved",
+      "conclusion": "The exact source model was checked; no proof or counterexample was obtained.",
+      "changed_assumptions": [],
+      "scope_details": "Nonlazy simple random walk on a finite connected simple graph, as supplied.",
+      "evidence": {
+        "written_argument": "no_result",
+        "primary_source_comparison": "bounded_source_check",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The retained hitting-time anticoncentration question remains unresolved."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2393,
+      "question_label": "Q2393",
+      "stable_statement_id": "9d7cf007609c71b6670d",
+      "provisional_number": false,
+      "title": "Limit constant for common planar orders",
+      "exact_retained_statement": "Independently sample two lists of n iid uniform points in [0,1]², labeled [n], inducing coordinatewise partial orders. Let C_n be the largest label subset on which the two orders agree. Is E C_n∼c n^(1/3) for some c∈(0,∞)?",
+      "supplied_setup": null,
+      "source_number": 20,
+      "primary_source": "https://www.stat.berkeley.edu/~aldous/Research/OP/problems_old.pdf",
+      "retained_source_location": "§2 Example 4, pp. 5–6.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §2 Example 4, pp. 5–6.\n\nStatus for questions 2392, 2393, checked 6 October 2026: author problem pages and targeted searches found no matching resolution.\n\nFurther source and status links:\nhttps://www.stat.berkeley.edu/~aldous/Research/OP/clad-mix.html\nhttps://www.stat.berkeley.edu/~aldous/Research/OP/substructures.html",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2394,
+      "question_label": "Q2394",
+      "stable_statement_id": "68e22605cbc1c800dc5b",
+      "provisional_number": false,
+      "title": "Asymptotic optimal online tree cost",
+      "exact_retained_statement": "Does c_n converge as n→∞, and what is its limit?",
+      "supplied_setup": "Edges of K_n, with iid Uniform[0,1] costs, arrive in independent uniformly random order. On seeing each edge and cost, an online policy irrevocably accepts or rejects it, ultimately selecting a spanning tree. Let c_n be the infimum expected total cost over all such policies.",
+      "source_number": 21,
+      "primary_source": "https://www.stat.berkeley.edu/~aldous/Research/OP/Beres2008.pdf",
+      "retained_source_location": "Introduction, pp. 1–2; author problem page.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Introduction, pp. 1–2; author problem page.\n\nStatus for question 2394, checked 6 October 2026: author page retains the question; later offline MST limits do not answer it.\n\nFurther source and status links:\nhttps://www.stat.berkeley.edu/~aldous/Research/OP/online_zeta3.html",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2395,
+      "question_label": "Q2395",
+      "stable_statement_id": "c7b23369c6f031f11c93",
+      "provisional_number": false,
+      "title": "Stationary law of the drift-jump system",
+      "exact_retained_statement": "Give an explicit description of the unique stationary distribution of this infinite particle system.",
+      "supplied_setup": "For each k, particles 0<X₁<⋯<X_k obey dX_i/dt=X_i. At every point (x,t) of a unit-intensity Poisson process on (0,∞)², move the nearest particle strictly right of x to x, if one exists. The k-particle laws form a consistent infinite system.",
+      "source_number": 22,
+      "primary_source": "https://www.stat.berkeley.edu/~aldous/Research/OP/left_Hamm.html",
+      "retained_source_location": "Problem paragraph and preceding two paragraphs.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Problem paragraph and preceding two paragraphs.\n\nStatus for question 2395, checked 6 October 2026: no later explicit stationary-law solution found.",
+      "status": "partial",
+      "conclusion": "A complete constructive finite-dimensional stationary law is given by Poissonized Plancherel growth and an explicit nonnegative skew-tableau sum, with a Poisson-tail error bound at computable thresholds.",
+      "changed_assumptions": [],
+      "scope_details": "The derived construction uses the uniqueness stipulated in the retained source. It answers a literal computable-law request, but the prior source already has a related permutation-pile representation; intended stronger explicitness and historical closure have not been established.",
+      "evidence": {
+        "written_argument": "complete_construction_and_joint_probability_derivation",
+        "primary_source_comparison": "author_problem_page_and_1993_and_1999_sources_compared",
+        "finite_computation": "exact_tableau_calculator_and_all_5914_permutations_through_n7_ran",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/entropy/README.md",
+        "b5_work/reviews/final_independent_reviews.md"
+      ],
+      "verification_files": [
+        "b5_work/entropy/plancherel_stationary_check.py",
+        "b5_work/entropy/plancherel_stationary_input.json",
+        "b5_work/entropy/plancherel_stationary_output.json"
+      ],
+      "remaining": "A compact all-particle joint density, general gap factorization, or finite multipoint determinant has not been established. Registry status is deliberately conservative.",
+      "source_locations": [
+        {
+          "url": "https://www.stat.berkeley.edu/~aldous/Research/OP/left_Hamm.html",
+          "location": "Exact open-problem statement",
+          "version": "retrieved 7 October 2026"
+        },
+        {
+          "url": "https://www.stat.berkeley.edu/~aldous/Research/OP/patience.pdf",
+          "location": "Sections 4.1-4.2; equations (42), (46)-(48)",
+          "version": "unfinished 1993 notes"
+        },
+        {
+          "url": "https://www.stat.berkeley.edu/~aldous/Papers/me86.pdf",
+          "location": "Section 2.1; Proposition 7; Section 5.2",
+          "version": "Aldous-Diaconis 1999"
+        }
+      ]
+    },
+    {
+      "programme": "B5",
+      "question_number": 2396,
+      "question_label": "Q2396",
+      "stable_statement_id": "adf6fb6ae4ba18aaf563",
+      "provisional_number": false,
+      "title": "Concavity under recursive overlap",
+      "exact_retained_statement": "Is H_n concave on [0,1] for every such sequence and every n≥1?",
+      "supplied_setup": "For integers 2=a₁<a₂<⋯, put P₁(p)=(p,1−p), P_{n+1}(p)=p(P_n(p),0,…,0)+(1−p)(0,…,0,P_n(p)) in R^{a_{n+1}}. Set H_n(p)=−Σ_jP_{n,j}(p)log P_{n,j}(p), with 0log0=0.",
+      "source_number": 23,
+      "primary_source": "https://arxiv.org/abs/2609.05546",
+      "retained_source_location": "Conjecture 3.1, p. 3.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Conjecture 3.1, p. 3.\n\nStatus for question 2396, checked 6 October 2026: September 22 v2 retains common-p concavity; the September 15 counterexample uses unequal Bernoulli parameters.\n\nFurther source and status links:\nhttps://mathoverflow.net/questions/514729/a-recursive-overlap-construction-of-finite-bernoulli-sum-laws-and-an-entropy-con/515134",
+      "status": "partial",
+      "conclusion": "Strict entropy concavity is proved for every four positive real weights by an exhaustive exact computer-assisted proof; one to three weights have elementary proofs. Arbitrarily large separated blocks of at most four also satisfy concavity.",
+      "changed_assumptions": [
+        "The universal-n target is restricted to n<=4, or to a specified injectively encoded separated-block class.",
+        "Within the n=4 theorem the weight domain is enlarged from positive integers with w_1=1 to arbitrary positive real weights."
+      ],
+      "scope_details": "The common Bernoulli parameter is essential. A heterogeneous-parameter counterexample does not disprove the retained common-parameter statement.",
+      "evidence": {
+        "written_argument": "complete_reduction_and_certificate_verifier_logic",
+        "primary_source_comparison": "retained_statement_and_author_discussion_checked",
+        "finite_computation": "exact_hyperplane_classification_and_outward_rational_interval_verification_ran",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/entropy/README.md",
+        "b5_work/reviews/final_independent_reviews.md"
+      ],
+      "verification_files": [
+        "b5_work/entropy/classify4.py",
+        "b5_work/entropy/certify4.py",
+        "b5_work/entropy/patterns4.json",
+        "b5_work/entropy/classification4.json",
+        "b5_work/entropy/certificate4.json"
+      ],
+      "remaining": "General interior concavity for n>=5 remains unresolved. The certificate is not a kernel-checked formal proof.",
+      "source_locations": [
+        {
+          "url": "https://mathoverflow.net/questions/514729/a-recursive-overlap-construction-of-finite-bernoulli-sum-laws-and-an-entropy-con/515134",
+          "location": "Original question and Amir answer: 23 four-variable patterns, source numerical checks",
+          "version": "retrieved 7 October 2026; arXiv full text was unavailable"
+        }
+      ]
+    },
+    {
+      "programme": "B5",
+      "question_number": 2397,
+      "question_label": "Q2397",
+      "stable_statement_id": "c01e8789e7f81d3f949c",
+      "provisional_number": false,
+      "title": "Uniform dependence on greedy-walk start",
+      "exact_retained_statement": "Is sup_G max_v L(G,v)/min_v L(G,v)<∞, over all such graphs with at least two vertices?",
+      "supplied_setup": "For a finite connected positively weighted graph, use shortest-path distance d. Assume unique choices. Starting at v, repeatedly go to the nearest unvisited vertex; L(G,v) is total distance until all vertices are visited, without returning. Random models below start uniformly over vertices.",
+      "source_number": 24,
+      "primary_source": "https://arxiv.org/abs/1912.13175",
+      "retained_source_location": "Problem 4, p. 8.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Problem 4, p. 8.\n\nStatus for questions 2397, 2398, checked 6 October 2026: targeted searches found no resolution.\n\nFurther source and status links:\nhttps://doi.org/10.1017/S0269964821000115",
+      "status": "disproved",
+      "conclusion": "Explicit positive weighted trees of degree at most three have a start ratio growing as h/4 with n=2^(h+1)-1. An explicit rational perturbation makes all pair distances distinct. A general harmonic upper bound proves worst-case order Theta(log N).",
+      "changed_assumptions": [],
+      "scope_details": "Undirected connected weighted graph; unique nearest choices and shortest paths; no return to the initial vertex required. The designated good start is not asserted to be globally optimal.",
+      "evidence": {
+        "written_argument": "complete_recursive_family_proof_and_general_upper_bound",
+        "primary_source_comparison": "exact_model_checked_and_Fritsch_skeleton_credited",
+        "finite_computation": "two_independent_exact_implementations_ran_for_heights_1_to_8",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/kcover/Q2397_counterexample_proof.md",
+        "b5_work/rwre/Q2397_independent_review.md"
+      ],
+      "verification_files": [
+        "b5_work/kcover/q2397_spiked_path.py",
+        "b5_work/kcover/q2397_spiked_path.json",
+        "b5_work/core/independent_greedy_check.py",
+        "b5_work/core/independent_greedy_check.json"
+      ],
+      "remaining": "No sharp leading constant for the maximum start ratio is claimed; no historical-priority claim is made.",
+      "source_locations": [
+        {
+          "url": "https://arxiv.org/pdf/1912.13175",
+          "location": "Section 1; Section 2.4, Open Problem 4",
+          "version": "retrieved arXiv PDF"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2004.06690",
+          "location": "Section 2, Lemma 2.1 and Theorem 2.2",
+          "version": "v2, 3 January 2021"
+        }
+      ]
+    },
+    {
+      "programme": "B5",
+      "question_number": 2398,
+      "question_label": "Q2398",
+      "stable_statement_id": "eceb66c01f9008e57d1f",
+      "provisional_number": false,
+      "title": "Planar-grid greedy-walk law of large numbers",
+      "exact_retained_statement": "For G_m the m×m nearest-neighbor grid with iid Exponential(1) edge lengths, does m^(−2)L(G_m,V) converge in probability to a deterministic constant?",
+      "supplied_setup": "For a finite connected positively weighted graph, use shortest-path distance d. Assume unique choices. Starting at v, repeatedly go to the nearest unvisited vertex; L(G,v) is total distance until all vertices are visited, without returning. Random models below start uniformly over vertices.",
+      "source_number": 24,
+      "primary_source": "https://arxiv.org/abs/1912.13175",
+      "retained_source_location": "§4.1, after Corollary 6, p. 11.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §4.1, after Corollary 6, p. 11.\n\nStatus for questions 2397, 2398, checked 6 October 2026: targeted searches found no resolution.\n\nFurther source and status links:\nhttps://doi.org/10.1017/S0269964821000115",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2489,
+      "question_label": "Q2489",
+      "stable_statement_id": "744730a8db774c763294",
+      "provisional_number": true,
+      "title": "Gaussian fluctuations of Euclidean greedy length",
+      "exact_retained_statement": "For n iid uniform points in [0,1]² with Euclidean distances, does L_n−E L_n converge in distribution to N(0,σ²) for some σ>0?",
+      "supplied_setup": "From a uniformly chosen point among n iid uniform points in [0,1]², repeatedly move to the nearest unvisited point in Euclidean distance. Let L_n be total length until all points are visited, without returning.",
+      "source_number": 25,
+      "primary_source": "https://arxiv.org/abs/1912.13175",
+      "retained_source_location": "§3, after equation4, pp. 9–10.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §3, after equation4, pp. 9–10.\n\nStatus for question 2489, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.\n\nFurther source and status links:\nhttps://doi.org/10.1017/S0269964821000115",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2492,
+      "question_label": "Q2492",
+      "stable_statement_id": "d52b689e2ce17ee9a73f",
+      "provisional_number": true,
+      "title": "Critical branching minimum escape",
+      "exact_retained_statement": "For 0<λ<d and m=(d+λ)/(2√(λd)), determine the sublinear asymptotic escape rate of L_n.",
+      "supplied_setup": "Let T be a Galton–Watson tree with offspring law p, p₀=0, finite mean>1 and d=min{k:p_k>0}≥2. Independently, each particle has offspring law μ with μ₀=0 and finite mean m>1. Start one particle at the root; each child moves to its parent with probability λ/(λ+k), or to each of k children with probability 1/(λ+k); at the root choose a child uniformly. Let L_n be the minimum root-distance in generation n.",
+      "source_number": 26,
+      "primary_source": "https://arxiv.org/abs/2502.07363",
+      "retained_source_location": "§2.9(v), p. 27; Theorem 1.3.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: §2.9(v), p. 27; Theorem 1.3.\n\nStatus for question 2492, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.",
+      "status": "unresolved",
+      "conclusion": "No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation.",
+      "changed_assumptions": [],
+      "scope_details": "Retained wording and supplied setup preserved; no comprehensive fresh literature review is claimed.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "not_independently_reviewed",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [],
+      "verification_files": [],
+      "remaining": "The exact retained statement remains unresolved in this investigation."
+    },
+    {
+      "programme": "B5",
+      "question_number": 2498,
+      "question_label": "Q2498",
+      "stable_statement_id": "34cba2e1eafff79891a2",
+      "provisional_number": true,
+      "title": "Directional zero-one law for bounded cookies",
+      "exact_retained_statement": "If some deterministic M makes ω(x,e,i)=1/(2d) for all i>M, must P_0(X_n·ℓ→+∞)∈{0,1} for every nonzero ℓ?",
+      "supplied_setup": "On Z^d, d≥2, iid stacks (ω(x,e,i))_{e,i} specify the nearest-neighbor jump distribution on the ith visit to x. Assume a deterministic κ>0 bounds every ω(x,e,i) below. The walk starts at zero; P_0 is annealed.",
+      "source_number": 27,
+      "primary_source": "https://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf",
+      "retained_source_location": "Problem 3.20, p. 16 preprint / p. 127 journal.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Problem 3.20, p. 16 preprint / p. 127 journal.\n\nStatus for questions 2498, 2499, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.\n\nFurther source and status links:\nhttps://www.math.sinica.edu.tw/bulletins/20131/2013106.pdf\nhttps://arxiv.org/abs/1304.7287\nhttps://arxiv.org/abs/2609.30045",
+      "status": "unresolved",
+      "conclusion": "The ordinary fixed-environment RWRE candidate theorems do not apply to visit-indexed cookie stacks.",
+      "changed_assumptions": [],
+      "scope_details": "Source model and dimension checked. A one-dimensional cookie result and a different planar balanced model do not settle this retained question.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "scope_nonmatch_established",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/rwre/RWRE_audit.md"
+      ],
+      "verification_files": [],
+      "remaining": "The original cookie question remains unresolved in this investigation.",
+      "candidate_route": {
+        "status": "scope-nonmatch",
+        "reason": "Fixed transition rows versus visit-indexed cookie stacks; retained dimensions and quantifiers differ from neighboring results."
+      }
+    },
+    {
+      "programme": "B5",
+      "question_number": 2499,
+      "question_label": "Q2499",
+      "stable_statement_id": "3a9c8d8a68e36d9511bf",
+      "provisional_number": true,
+      "title": "Recurrence–transience dichotomy for cookie walks",
+      "exact_retained_statement": "Without bounding the number of cookies, must either every vertex be visited infinitely often almost surely, or every vertex be visited only finitely often almost surely?",
+      "supplied_setup": "On Z^d, d≥2, iid stacks (ω(x,e,i))_{e,i} specify the nearest-neighbor jump distribution on the ith visit to x. Assume a deterministic κ>0 bounds every ω(x,e,i) below. The walk starts at zero; P_0 is annealed.",
+      "source_number": 27,
+      "primary_source": "https://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf",
+      "retained_source_location": "Problem 3.21; Definition 3.1.",
+      "prior_ledger_status": "open_at_exact_statement_scope_in_handoff",
+      "collector_notes_historical_only": "Source location: Problem 3.21; Definition 3.1.\n\nStatus for questions 2498, 2499, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.\n\nFurther source and status links:\nhttps://www.math.sinica.edu.tw/bulletins/20131/2013106.pdf\nhttps://arxiv.org/abs/1304.7287\nhttps://arxiv.org/abs/2609.30045",
+      "status": "unresolved",
+      "conclusion": "The ordinary fixed-environment RWRE candidate theorems do not apply to visit-indexed cookie stacks.",
+      "changed_assumptions": [],
+      "scope_details": "Source model and dimension checked. A one-dimensional cookie result and a different planar balanced model do not settle this retained question.",
+      "evidence": {
+        "written_argument": "not_attempted",
+        "primary_source_comparison": "scope_nonmatch_established",
+        "finite_computation": "not_applicable",
+        "compiled_formal_theorem": "not_run"
+      },
+      "proof_files": [
+        "b5_work/rwre/RWRE_audit.md"
+      ],
+      "verification_files": [],
+      "remaining": "The original cookie question remains unresolved in this investigation.",
+      "candidate_route": {
+        "status": "scope-nonmatch",
+        "reason": "Fixed transition rows versus visit-indexed cookie stacks; retained dimensions and quantifiers differ from neighboring results."
+      }
+    }
+  ],
+  "programme_results_without_catalog_ids": [
+    {
+      "local_result_id": "B5-S1",
+      "question_number": null,
+      "canonical_stable_statement_id": null,
+      "status": "proved",
+      "statement": "For M=max D>=2, support(e_0 A_D^t)=C(t) for every t>=0, full coverage persists, and T(D)=exp(A_D) is finite exactly when gcd(D)=1.",
+      "assumptions": "Structural Boolean union recurrence; positive integer lags; companion matrix defined explicitly in report.",
+      "evidence": {
+        "written_argument": "complete_proof",
+        "primary_source_comparison": "companion_matrix_literature_compared",
+        "finite_computation": "4094_lag_sets_exhaustively_checked",
+        "compiled_formal_theorem": "not_run"
+      },
+      "files": [
+        "b5_work/core/structural_and_grouped_results.md",
+        "b5_work/core/dependency_cover.py",
+        "b5_work/core/dependency_cover.json"
+      ]
+    },
+    {
+      "local_result_id": "B5-S2",
+      "question_number": null,
+      "canonical_stable_statement_id": null,
+      "status": "proved",
+      "statement": "T({a,M})=M+a(M-2) for gcd(a,M)=1; M<=T(D)<=(M-1)^2+1; T(D)=1-M+max E_x(rho); M+F+1<=T(D)<=M+F+G.",
+      "assumptions": "M>=2, primitive lag set; F is Frobenius number with F(N_0)=-1; G is maximum consecutive lag gap.",
+      "evidence": {
+        "written_argument": "complete_proofs_except_explicitly_cited_classical_Wielandt_bound",
+        "primary_source_comparison": "Nej_Reddy_theorems_3.2_3.3_compared",
+        "finite_computation": "exhaustive_integer_checks_ran",
+        "compiled_formal_theorem": "not_run"
+      },
+      "files": [
+        "b5_work/core/structural_and_grouped_results.md",
+        "b5_work/core/dependency_cover.py",
+        "b5_work/core/dependency_cover.json"
+      ]
+    },
+    {
+      "local_result_id": "B5-S3",
+      "question_number": null,
+      "canonical_stable_statement_id": null,
+      "status": "proved",
+      "statement": "For 2<=s<=M, the minimum structural cover time among s lags in {1,...,M} containing M is M-1+ceil((M-1)/(s-1)), attained by 1+floor(j(M-1)/(s-1)).",
+      "assumptions": "Lag 1 is permitted. No claim for additional lag exclusions.",
+      "evidence": {
+        "written_argument": "complete_proof_and_independent_review",
+        "primary_source_comparison": "historical_novelty_not_claimed",
+        "finite_computation": "all_M_up_to_12_and_selected_M16_cases_ran",
+        "compiled_formal_theorem": "not_run"
+      },
+      "files": [
+        "b5_work/core/structural_and_grouped_results.md",
+        "b5_work/kcover/companion_independent_review.md",
+        "b5_work/core/dependency_cover.json"
+      ]
+    },
+    {
+      "local_result_id": "B5-S4",
+      "question_number": null,
+      "canonical_stable_statement_id": null,
+      "status": "proved",
+      "statement": "The natural companion-chain stationary law is pi_j=sum_{d>=M-j}p_d/sum_d d p_d. Structural support-cover time has no constant-factor comparison in either direction with trajectory cover for this encoding.",
+      "assumptions": "Positive exit probabilities at last vertex; deterministic shifts elsewhere. Specified rotor orders for rotor examples.",
+      "evidence": {
+        "written_argument": "complete_stationary_law_and_separation_proofs",
+        "primary_source_comparison": "rotor_comparison_scope_checked",
+        "finite_computation": "functional_graph_example_exactly_enumerated",
+        "compiled_formal_theorem": "not_run"
+      },
+      "files": [
+        "b5_work/core/structural_and_grouped_results.md",
+        "b5_work/core/dependency_cover.json"
+      ]
+    },
+    {
+      "local_result_id": "B5-G1",
+      "question_number": null,
+      "canonical_stable_statement_id": null,
+      "status": "proved",
+      "statement": "For iid random target sets of mean size mu=m+theta, (m+1-(1-theta)^K)/N<=C_K<=1-(1-mu/N)^K, sharply. For K>=2 upper equality holds exactly for uniform per-target hit probabilities. At K=2 the loss is Var(q).",
+      "assumptions": "Fixed finite target set; independent identically distributed groups; K>=1.",
+      "evidence": {
+        "written_argument": "complete_concavity_and_variance_proofs",
+        "primary_source_comparison": "handoff_exact_formula_used",
+        "finite_computation": "exact_rational_examples_and_exhaustive_group_sequences_ran",
+        "compiled_formal_theorem": "not_run"
+      },
+      "files": [
+        "b5_work/core/structural_and_grouped_results.md",
+        "b5_work/core/grouped_coverage.py",
+        "b5_work/core/grouped_coverage.json"
+      ]
+    },
+    {
+      "local_result_id": "B5-G2",
+      "question_number": null,
+      "canonical_stable_statement_id": null,
+      "status": "proved",
+      "statement": "Equal-size groups chosen uniformly and independently, with a fixed map injective on every group, have q_y=b p_y and at least the expected coverage of bK iid uniform input samples at K groups.",
+      "assumptions": "Partition into equal-size groups; input comparison samples with replacement; expectation only.",
+      "evidence": {
+        "written_argument": "complete_proof_and_independent_review",
+        "primary_source_comparison": "not_a_stochastic_dominance_assertion",
+        "finite_computation": "exact_same_budget_control_ran",
+        "compiled_formal_theorem": "not_run"
+      },
+      "files": [
+        "b5_work/core/structural_and_grouped_results.md",
+        "b5_work/core/grouped_coverage.py",
+        "b5_work/core/grouped_coverage.json"
+      ]
+    }
+  ],
+  "supplied_sources": [
+    {
+      "source_number": 1,
+      "title": "Siu On Chan; Qinghua Ding; Sing Hei Li: Learning and Testing Irreducible Markov Chains via the k-Cover Time",
+      "primary_url": "https://proceedings.mlr.press/v132/chan21a.html",
+      "supplied_setup": null,
+      "provided_source_block_markdown": "### Siu On Chan; Qinghua Ding; Sing Hei Li: Learning and Testing Irreducible Markov Chains via the k-Cover Time\n\nMembers in this file: Q946.\n\nKind: paper; year: 2021; field: Markov-chain statistics; dependent data acquisition.\n\n[Primary source](https://proceedings.mlr.press/v132/chan21a.html)\n\nField: Markov-chain statistics; dependent data acquisition.\n\nPrimary source: https://proceedings.mlr.press/v132/chan21a.html\n\nAttribution: Original ALT 2021 conjecture.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `28399aa8f60f0ed0` (research-paper) | available | [Source](http://proceedings.mlr.press/v132/chan21a/chan21a.pdf) |\n| `4e59a266828dec99` (research-paper) | available | [Source](https://proceedings.mlr.press/v132/chan21a/chan21a.pdf) |"
+    },
+    {
+      "source_number": 2,
+      "title": "Daniel Slonim: Random Walks in Dirichlet Environments with Bounded Jumps",
+      "primary_url": "https://danielslonim.github.io/SlonimThesis.pdf",
+      "supplied_setup": null,
+      "provided_source_block_markdown": "### Daniel Slonim: Random Walks in Dirichlet Environments with Bounded Jumps\n\nMembers in this file: Q1185.\n\nKind: dissertation; year: 2022; field: probability.\n\n[Primary source](https://danielslonim.github.io/SlonimThesis.pdf)\n\nPrimary source: https://danielslonim.github.io/SlonimThesis.pdf\n\nOrigin for question 1185: Doctoral-research questions, also developed in the author’s papers.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `828a0758e95d337c` (dissertation) | available | [Source](https://danielslonim.github.io/SlonimThesis.pdf) |\n| `6ea4ede1d530038c` (research-paper) | available | [Source](https://alea.impa.br/articles/v21/21-27.pdf) |\n| `aaaf5622302208a9` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2104.14950) |"
+    },
+    {
+      "source_number": 3,
+      "title": "Pawel Rudnicki: Random walks with reinforcement",
+      "primary_url": "https://purehost.bath.ac.uk/ws/portalfiles/portal/344232966/Pawel_Rudnicki_-_Thesis.pdf",
+      "supplied_setup": "Double every edge of an infinite locally finite rooted tree T. A walk starts at the root and chooses incident edges proportionally to weights: initially 1, then 1+δ after first traversal, δ>0. Put b=sup{s>0:inf_π Σ_{v∈π}|v|^{−s}>0}, where π runs over vertex cutsets meeting every infinite root-ray and |v| is root-distance.",
+      "provided_source_block_markdown": "### Pawel Rudnicki: Random walks with reinforcement\n\nMembers in this file: Q1186.\n\nKind: dissertation; year: 2024; field: reinforced random walks.\n\n[Primary source](https://purehost.bath.ac.uk/ws/portalfiles/portal/344232966/Pawel_Rudnicki_-_Thesis.pdf)\n\nPrimary source: https://purehost.bath.ac.uk/ws/portalfiles/portal/344232966/Pawel_Rudnicki_-_Thesis.pdf\n\nOrigin for question 1186: Thesis-origin conjecture.\n\nSetup for question 1186: Double every edge of an infinite locally finite rooted tree T. A walk starts at the root and chooses incident edges proportionally to weights: initially 1, then 1+δ after first traversal, δ>0. Put b=sup{s>0:inf_π Σ_{v∈π}|v|^{−s}>0}, where π runs over vertex cutsets meeting every infinite root-ray and |v| is root-distance.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `d5fb71a7a297575c` (dissertation) | available | [Source](https://purehost.bath.ac.uk/ws/portalfiles/portal/344232966/Pawel_Rudnicki_-_Thesis.pdf) |"
+    },
+    {
+      "source_number": 4,
+      "title": "Martin Prigent: Noise Sensitivity And Exceptional Times",
+      "primary_url": "https://purehost.bath.ac.uk/ws/portalfiles/portal/221647004/MPrigent_UoB_Thesis_Final.pdf",
+      "supplied_setup": null,
+      "provided_source_block_markdown": "### Martin Prigent: Noise Sensitivity And Exceptional Times\n\nMembers in this file: Q1187, Q1188.\n\nKind: dissertation; year: 2021; field: dynamical probability.\n\n[Primary source](https://purehost.bath.ac.uk/ws/portalfiles/portal/221647004/MPrigent_UoB_Thesis_Final.pdf)\n\nPrimary source: https://purehost.bath.ac.uk/ws/portalfiles/portal/221647004/MPrigent_UoB_Thesis_Final.pdf\n\nOrigin for questions 1187, 1188: Thesis-origin conjectures.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `6c86862007ac1cb2` (dissertation) | available | [Source](https://purehost.bath.ac.uk/ws/portalfiles/portal/221647004/MPrigent_UoB_Thesis_Final.pdf) |\n| `8b550bf53ea520c2` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1908.08606) |"
+    },
+    {
+      "source_number": 5,
+      "title": "Martin Prigent; Matthew I. Roberts: Noise sensitivity and exceptional times of transience for a simple symmetric random walk in one dimension",
+      "primary_url": "https://link.springer.com/article/10.1007/s00440-020-00978-7",
+      "supplied_setup": "Independent stationary Rademacher coordinates X_j(t) refresh at rate 1. Put Z_n(t)=Σ_{k≤n}∏_{j≤k}X_j(t).",
+      "provided_source_block_markdown": "### Martin Prigent; Matthew I. Roberts: Noise sensitivity and exceptional times of transience for a simple symmetric random walk in one dimension\n\nMembers in this file: Q1189.\n\nKind: paper; year: 2020; field: Probability / noise sensitivity.\n\n[Primary source](https://link.springer.com/article/10.1007/s00440-020-00978-7)\n\nField: Probability / noise sensitivity.\n\nPrimary source: https://link.springer.com/article/10.1007/s00440-020-00978-7\n\nDoctoral context for question 1189: see question 1187.\n\nOrigin for question 1189: Paper-origin question, restated in Prigent’s thesis §5.1.1.\n\nSetup for question 1189: Independent stationary Rademacher coordinates X_j(t) refresh at rate 1. Put Z_n(t)=Σ_{k≤n}∏_{j≤k}X_j(t).\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `c8e601904964ffe8` (research-paper) | available | [Source](https://link.springer.com/content/pdf/10.1007/s00440-020-00978-7.pdf) |\n| `8b550bf53ea520c2` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1908.08606) |"
+    },
+    {
+      "source_number": 6,
+      "title": "Christian Döbler, Nina Gantert, Thomas Höfelsauer, Serguei Popov, Felizitas Weidner: Recurrence and Transience of Frogs with Drift on Z^d",
+      "primary_url": "https://arxiv.org/abs/1709.00038",
+      "supplied_setup": "On Z^d, start one active frog at 0 and one sleeping frog elsewhere. Activated frogs independently make discrete-time nearest-neighbor walks, waking sleeping frogs they visit. For w,α∈[0,1], jumps ±e₁ have probabilities w(1±α)/2 and each ±e_j, j≥2, has probability (1−w)/(2(d−1)). Recurrence means infinitely many visits to 0 almost surely.",
+      "provided_source_block_markdown": "### Christian Döbler, Nina Gantert, Thomas Höfelsauer, Serguei Popov, Felizitas Weidner: Recurrence and Transience of Frogs with Drift on Z^d\n\nMembers in this file: Q1384.\n\nKind: paper; year: 2018; field: Probability / interacting random walks.\n\n[Primary source](https://arxiv.org/abs/1709.00038)\n\nField: Probability / interacting random walks.\n\nPrimary source: https://arxiv.org/abs/1709.00038\n\nOrigin for question 1384: Joint doctoral research; thesis Conjecture 1.18 restates the paper.\n\nSetup for question 1384: On Z^d, start one active frog at 0 and one sleeping frog elsewhere. Activated frogs independently make discrete-time nearest-neighbor walks, waking sleeping frogs they visit. For w,α∈[0,1], jumps ±e₁ have probabilities w(1±α)/2 and each ±e_j, j≥2, has probability (1−w)/(2(d−1)). Recurrence means infinitely many visits to 0 almost surely.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `97e6791cdcfbc18c` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1709.00038) |\n| `a8c3bbf08cb75d22` (research-paper) | available | [Source](https://mediatum.ub.tum.de/doc/1415644/1415644.pdf) |"
+    },
+    {
+      "source_number": 7,
+      "title": "Thomas Höfelsauer; Felizitas Weidner: The speed of frogs with drift on Z. Markov Processes and Related Fields 22",
+      "primary_url": "https://arxiv.org/abs/1505.05006",
+      "supplied_setup": "On Z place one active frog at 0 and one sleeper at every other integer. After activation, frogs independently jump right with probability p∈[1/2,1] and left with probability 1−p each discrete step, waking visited sleepers. Let M_n be the rightmost active position and v(p)=lim_n M_n/n, the deterministic maximum speed.",
+      "provided_source_block_markdown": "### Thomas Höfelsauer; Felizitas Weidner: The speed of frogs with drift on Z. Markov Processes and Related Fields 22\n\nMembers in this file: Q1385.\n\nKind: paper; year: 2016; field: Probability / random growth.\n\n[Primary source](https://arxiv.org/abs/1505.05006)\n\nField: Probability / random growth.\n\nPrimary source: https://arxiv.org/abs/1505.05006\n\nDoctoral context for question 1385: see question 1384.\n\nOrigin for question 1385: Joint doctoral-research conjecture, restated as thesis Conjecture 1.24 with α=2p−1.\n\nSetup for question 1385: On Z place one active frog at 0 and one sleeper at every other integer. After activation, frogs independently jump right with probability p∈[1/2,1] and left with probability 1−p each discrete step, waking visited sleepers. Let M_n be the rightmost active position and v(p)=lim_n M_n/n, the deterministic maximum speed.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `6ec46cd70d38546c` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1505.05006) |\n| `a8c3bbf08cb75d22` (research-paper) | available | [Source](https://mediatum.ub.tum.de/doc/1415644/1415644.pdf) |"
+    },
+    {
+      "source_number": 8,
+      "title": "Christopher Hoffman, Tobias Johnson, Matthew Junge: Recurrence and transience for the frog model on trees",
+      "primary_url": "https://arxiv.org/abs/1404.6238",
+      "supplied_setup": "T_d is the infinite rooted d-ary tree. Initially the root has one active frog and every other vertex one sleeping frog. Active frogs make independent discrete-time simple random walks forever and activate sleepers they visit.",
+      "provided_source_block_markdown": "### Christopher Hoffman, Tobias Johnson, Matthew Junge: Recurrence and transience for the frog model on trees\n\nMembers in this file: Q1386.\n\nKind: paper; year: 2017; field: Probability / interacting random walks.\n\n[Primary source](https://arxiv.org/abs/1404.6238)\n\nField: Probability / interacting random walks.\n\nPrimary source: https://arxiv.org/abs/1404.6238\n\nOrigin for question 1386: Paper conjecture, also restated in Weidner’s 2018 dissertation.\n\nSetup for question 1386: T_d is the infinite rooted d-ary tree. Initially the root has one active frog and every other vertex one sleeping frog. Active frogs make independent discrete-time simple random walks forever and activate sleepers they visit.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `1fbff0c62fd1b92e` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1404.6238) |\n| `5d66834c642aba7a` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2510.18792) |"
+    },
+    {
+      "source_number": 9,
+      "title": "Erin Beckman, Natalie Frank, Yufeng Jiang, Matthew Junge, Si Tang: The frog model on trees with drift",
+      "primary_url": "https://arxiv.org/abs/1808.03283",
+      "supplied_setup": "On the infinite rooted d-ary tree, d≥2, start one active frog at the root and one sleeper elsewhere. Active frogs independently walk forever, waking visited sleepers. Away from the root they move to the parent with probability p and to each child with probability (1−p)/d. At the root they always choose a uniform child. Recurrence means infinitely many total root visits.",
+      "provided_source_block_markdown": "### Erin Beckman, Natalie Frank, Yufeng Jiang, Matthew Junge, Si Tang: The frog model on trees with drift\n\nMembers in this file: Q1387.\n\nKind: paper; year: 2019; field: Probability / interacting random walks.\n\n[Primary source](https://arxiv.org/abs/1808.03283)\n\nField: Probability / interacting random walks.\n\nPrimary source: https://arxiv.org/abs/1808.03283\n\nOrigin for question 1387: Original paper question; p≥1/2 is already recurrent by the initial frog alone.\n\nSetup for question 1387: On the infinite rooted d-ary tree, d≥2, start one active frog at the root and one sleeper elsewhere. Active frogs independently walk forever, waking visited sleepers. Away from the root they move to the parent with probability p and to each child with probability (1−p)/d. At the root they always choose a uniform child. Recurrence means infinitely many total root visits.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `a0928d25afb77f5f` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1808.03283) |\n| `5d66834c642aba7a` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2510.18792) |\n| `0ca12e9d227cadb5` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2303.15517) |\n| `850fa894783afbd9` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2309.14443) |"
+    },
+    {
+      "source_number": 10,
+      "title": "Ahmed Bou-Rabee; Yuval Peres: Eulerian walkers on Z^2 have range exponent 2/3",
+      "primary_url": "https://arxiv.org/abs/2608.23545",
+      "supplied_setup": "A rotor walk starts at 0; each step advances the current vertex’s arrow in a fixed cyclic order and follows it. Initial arrows are independent. On Z² the order is clockwise; with uniform arrows the visited set R_t, scaled by t^(−1/3), has deterministic convex limit B.",
+      "provided_source_block_markdown": "### Ahmed Bou-Rabee; Yuval Peres: Eulerian walkers on Z^2 have range exponent 2/3\n\nMembers in this file: Q1388, Q1389, Q1390.\n\nKind: paper; year: 2026; field: Probability / deterministic walks in random environments.\n\n[Primary source](https://arxiv.org/abs/2608.23545)\n\nField: Probability / deterministic walks in random environments.\n\nPrimary source: https://arxiv.org/abs/2608.23545\n\nOrigin for questions 1388, 1389, 1390: Paper §7; the disk prediction is attributed to Kapri–Dhar 2009.\n\nSetup for questions 1388, 1389, 1390: A rotor walk starts at 0; each step advances the current vertex’s arrow in a fixed cyclic order and follows it. Initial arrows are independent. On Z² the order is clockwise; with uniform arrows the visited set R_t, scaled by t^(−1/3), has deterministic convex limit B.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `7cb97cfa11dbf4e5` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2608.23545) |"
+    },
+    {
+      "source_number": 11,
+      "title": "Joshua Meisel: Self-organized criticality in biased activated random walk",
+      "primary_url": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=7992&context=gc_etds",
+      "supplied_setup": "ARW particles jump at rate one, right with probability θ; lone particles sleep at rate λ>0 and awaken on contact. Write ρ_c(λ,θ) for the infinite-line critical density and π_DD(λ,θ) for the local limit of finite-interval driven-dissipative stationary laws (exits killed). This limit exists for θ≠1/2.",
+      "provided_source_block_markdown": "### Joshua Meisel: Self-organized criticality in biased activated random walk\n\nMembers in this file: Q1784, Q1785.\n\nKind: dissertation; year: 2026; field: Probability / interacting particle systems.\n\n[Primary source](https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=7992&context=gc_etds)\n\nField: Probability / interacting particle systems.\n\nPrimary source: https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=7992&context=gc_etds\n\nOrigin for questions 1784, 1785: Symmetric limit: Levine–Silvestri (2024), refined here. Cycle: thesis Conjecture 3.\n\nSetup for questions 1784, 1785: ARW particles jump at rate one, right with probability θ; lone particles sleep at rate λ>0 and awaken on contact. Write ρ_c(λ,θ) for the infinite-line critical density and π_DD(λ,θ) for the local limit of finite-interval driven-dissipative stationary laws (exits killed). This limit exists for θ≠1/2.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `17fd7cc383d6926c` (dissertation) | unavailable | [Source](https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=7992&context=gc_etds) |\n| `f9866b4cf2762bfb` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2605.00207) |"
+    },
+    {
+      "source_number": 12,
+      "title": "Lionel Levine and Vittoria Silvestri: Universality conjectures for activated random walk",
+      "primary_url": "https://arxiv.org/abs/2306.01698",
+      "supplied_setup": "Fix d≥2 and λ>0. In ARW on Z^d, active particles make rate-one simple random walks, sleep at rate λ when alone, and awaken on contact. Let S denote stabilization and ρ_c the infinite-volume fixation threshold.",
+      "provided_source_block_markdown": "### Lionel Levine and Vittoria Silvestri: Universality conjectures for activated random walk\n\nMembers in this file: Q1786, Q1787, Q1788.\n\nKind: paper; year: 2024; field: Probability / interacting particle systems.\n\n[Primary source](https://arxiv.org/abs/2306.01698)\n\nField: Probability / interacting particle systems.\n\nPrimary source: https://arxiv.org/abs/2306.01698\n\nOrigin for questions 1786, 1787, 1788: Conjectures 1, 11, 19 (from Levine–Liang), 24.\n\nSetup for questions 1786, 1787, 1788: Fix d≥2 and λ>0. In ARW on Z^d, active particles make rate-one simple random walks, sleep at rate λ when alone, and awaken on contact. Let S denote stabilization and ρ_c the infinite-volume fixation threshold.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `3ff4ccff41872333` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2306.01698) |\n| `f9866b4cf2762bfb` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2605.00207) |\n| `e83dc73364febf06` (research-paper) | available | [Source](https://lionellevine.github.io/universality-conjectures-ARW.pdf) |\n| `6b58788756e4bedc` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2501.17938) |"
+    },
+    {
+      "source_number": 13,
+      "title": "Alexander Drewitz and Alejandro F. Ramírez: Quenched exit estimates and ballisticity conditions for higher-dimensional random walk in random environment",
+      "primary_url": "https://arxiv.org/abs/1005.0376",
+      "supplied_setup": "Let X start at zero in Z^d, d≥2, and jump to nearest neighbors using iid sitewise transition vectors ω(x,·), with a deterministic κ>0 satisfying ω(x,e)≥κ almost surely for every e∈{±e₁,…,±e_d}. P_0 averages over both environment and walk.",
+      "provided_source_block_markdown": "### Alexander Drewitz and Alejandro F. Ramírez: Quenched exit estimates and ballisticity conditions for higher-dimensional random walk in random environment\n\nMembers in this file: Q1789.\n\nKind: paper; year: 2012; field: Probability / random environments.\n\n[Primary source](https://arxiv.org/abs/1005.0376)\n\nField: Probability / random environments.\n\nPrimary source: https://arxiv.org/abs/1005.0376\n\nOrigin for question 1789: Classical transience–ballisticity conjecture; source Conjecture 1.1.\n\nSetup for question 1789: Let X start at zero in Z^d, d≥2, and jump to nearest neighbors using iid sitewise transition vectors ω(x,·), with a deterministic κ>0 satisfying ω(x,e)≥κ almost surely for every e∈{±e₁,…,±e_d}. P_0 averages over both environment and walk.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `ca9992128815683e` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1005.0376) |\n| `21ccf58fa4ef10f5` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1809.02011) |\n| `e92edabbb49f771b` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2006.00570) |"
+    },
+    {
+      "source_number": 14,
+      "title": "Martin P. W. Zerner: The zero-one law for planar random walks in i.i.d",
+      "primary_url": "https://arxiv.org/abs/0706.0745",
+      "supplied_setup": "Consider nearest-neighbor RWRE X on Z^d, d≥3, started at zero. Sitewise transition vectors are iid and elliptic: each of the 2d nearest-neighbor jumps has strictly positive probability almost surely. P_0 is the annealed law.",
+      "provided_source_block_markdown": "### Martin P. W. Zerner: The zero-one law for planar random walks in i.i.d\n\nMembers in this file: Q1790.\n\nKind: paper; year: 2007; field: Probability / random environments.\n\n[Primary source](https://arxiv.org/abs/0706.0745)\n\nField: Probability / random environments.\n\nPrimary source: https://arxiv.org/abs/0706.0745\n\nOrigin for question 1790: Directional zero-one problem originating with Kalikow (1981); the planar case was settled by Zerner–Merkl (2001).\n\nSetup for question 1790: Consider nearest-neighbor RWRE X on Z^d, d≥3, started at zero. Sitewise transition vectors are iid and elliptic: each of the 2d nearest-neighbor jumps has strictly positive probability almost surely. P_0 is the annealed law.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `25f551f2b461e545` (research-paper) | available | [Source](https://export.arxiv.org/pdf/0706.0745) |\n| `47bb4d52e51bdb44` (research-paper) | available | [Source](https://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf) |\n| `dc11f3f9180853a4` (research-paper) | unavailable | [Source](https://www.kurims.kyoto-u.ac.jp/EMIS/journals/EJP-ECP/article/download/1314/1314-4356-1-PB.pdf) |\n| `c9ba990a80bae093` (research-paper) | unavailable | [Source](https://www.mat.uc.cl/~aramirez/rwre-lecturepasi2012.pdf) |"
+    },
+    {
+      "source_number": 15,
+      "title": "Omer Angel, Mark Holmes, Alejandro Ramírez: Balanced excited random walk in two dimensions",
+      "primary_url": "https://arxiv.org/abs/2110.15889",
+      "supplied_setup": "Start Z_0=0 in Z². On first departure from any vertex take a vertical ±1 step; on later departures take a horizontal ±1 step. Signs are independent fair choices. Let R_n=|{Z_0,…,Z_n}|.",
+      "provided_source_block_markdown": "### Omer Angel, Mark Holmes, Alejandro Ramírez: Balanced excited random walk in two dimensions\n\nMembers in this file: Q1791, Q1792.\n\nKind: paper; year: 2023; field: Probability / self-interacting walks.\n\n[Primary source](https://arxiv.org/abs/2110.15889)\n\nField: Probability / self-interacting walks.\n\nPrimary source: https://arxiv.org/abs/2110.15889\n\nOrigin for questions 1791, 1792: Model and recurrence conjecture: Benjamini–Kozma–Schapira (2011). Range-exponent formulation: Open Problem 1.3 here.\n\nSetup for questions 1791, 1792: Start Z_0=0 in Z². On first departure from any vertex take a vertical ±1 step; on later departures take a horizontal ±1 step. Signs are independent fair choices. Let R_n=|{Z_0,…,Z_n}|.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `f348d76fed834e59` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2110.15889) |\n| `ce90e3dfc0f7de1a` (research-paper) | available | [Source](https://researchers.ms.unimelb.edu.au/~mholmes1%40unimelb/BERW_main.pdf) |\n| `b33bd958d3d3be36` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2609.30045) |\n| `a3756f2cf598697b` (research-paper) | available | [Source](https://comptes-rendus.academie-sciences.fr/mathematique/item/10.1016/j.crma.2011.02.018.pdf) |"
+    },
+    {
+      "source_number": 16,
+      "title": "Dor Elboim and Gady Kozma: Once-reinforced random walk in high dimensions, 2026",
+      "primary_url": "https://arxiv.org/abs/2601.17972",
+      "supplied_setup": "A walk starts at 0. Each undirected edge initially has weight 1, permanently changed to 1+a after its first crossing, a>0. At every discrete step it selects an incident edge proportionally to its current weight. Recurrence means infinitely many returns to 0.",
+      "provided_source_block_markdown": "### Dor Elboim and Gady Kozma: Once-reinforced random walk in high dimensions, 2026\n\nMembers in this file: Q2087, Q2088, Q2089.\n\nKind: paper; year: 2026; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/2601.17972)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/2601.17972\n\nOrigin for questions 2087, 2088, 2089: Lattice phase conjecture: Vladas Sidoravicius, circa 2010; first printed in Beffara’s 2011 habilitation.\n\nSetup for questions 2087, 2088, 2089: A walk starts at 0. Each undirected edge initially has weight 1, permanently changed to 1+a after its first crossing, a>0. At every discrete step it selects an incident edge proportionally to its current weight. Recurrence means infinitely many returns to 0.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `4a7d61691c908356` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2601.17972) |\n| `21e44e889fb3c656` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2610.00090) |\n| `0eb75d04dcc6aba3` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1807.07167) |\n| `734a955694009d70` (research-paper) | available | [Source](https://projecteuclid.org/journals/annales-de-linstitut-henri-poincare-probabilites-et-statistiques/volume-57/issue-4/Once-reinforced-random-walk-on-Z%CE%93/10.1214/21-AIHP1151.pdf) |"
+    },
+    {
+      "source_number": 17,
+      "title": "Ahmed Bou-Rabee and Yuval Peres: Once-reinforced random walk on Z^d has range exponent at least d/(d+1), 2026",
+      "primary_url": "https://arxiv.org/abs/2610.00090",
+      "supplied_setup": "On Z^d, start at 0; untraversed edges have weight 1 and traversed edges weight β≥1. Choose the next edge proportionally to weight. Set R_n={X₀,…,X_n}.",
+      "provided_source_block_markdown": "### Ahmed Bou-Rabee and Yuval Peres: Once-reinforced random walk on Z^d has range exponent at least d/(d+1), 2026\n\nMembers in this file: Q2090.\n\nKind: paper; year: 2026; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/2610.00090)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/2610.00090\n\nOrigin for question 2090: Ordemann–Berkolaiko–Havlin–Bunde (2000), site version; Foster–Grassberger–Paczuski (2009), edge version; Beffara (2011).\n\nSetup for question 2090: On Z^d, start at 0; untraversed edges have weight 1 and traversed edges weight β≥1. Choose the next edge proportionally to weight. Set R_n={X₀,…,X_n}.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `21e44e889fb3c656` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2610.00090) |"
+    },
+    {
+      "source_number": 18,
+      "title": "Partha S. Dey: Daesung Kim and Grigory Terlov, Collaboration of Random Walks on Graphs, arXiv 2023; Proc.AMS153",
+      "primary_url": "https://arxiv.org/abs/2302.14241",
+      "supplied_setup": "Let X,X₁,…,X_k be independent copies of the same finite irreducible aperiodic reversible discrete-time Markov chain, all starting independently in its stationary law π. Put R_i(t)={X_i(s):0≤s≤t} and R(t)={X(s):0≤s≤t}.",
+      "provided_source_block_markdown": "### Partha S. Dey: Daesung Kim and Grigory Terlov, Collaboration of Random Walks on Graphs, arXiv 2023; Proc.AMS153\n\nMembers in this file: Q2298.\n\nKind: paper; year: 2023; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/2302.14241)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/2302.14241\n\nOrigin for question 2298: Authors’ Question 3.6; stronger than their expectation comparison.\n\nSetup for question 2298: Let X,X₁,…,X_k be independent copies of the same finite irreducible aperiodic reversible discrete-time Markov chain, all starting independently in its stationary law π. Put R_i(t)={X_i(s):0≤s≤t} and R(t)={X(s):0≤s≤t}.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `2e8714bcf8997ae6` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2302.14241) |"
+    },
+    {
+      "source_number": 19,
+      "title": "Rafael Chiclana: Nonconcentration of hitting times for random walks on graphs",
+      "primary_url": "https://arxiv.org/abs/2605.17513",
+      "supplied_setup": "Let G be a finite connected simple graph with n≥2 vertices, X its nonlazy simple random walk started at x, and τ_y=inf{t≥0:X_t=y}.",
+      "provided_source_block_markdown": "### Rafael Chiclana: Nonconcentration of hitting times for random walks on graphs\n\nMembers in this file: Q2300.\n\nKind: paper; year: 2026; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/2605.17513)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/2605.17513\n\nOrigin for question 2300: Bounded-degree remnant of Norris–Peres–Zhai’s 2014/2017 Conjecture 6.1.\n\nSetup for question 2300: Let G be a finite connected simple graph with n≥2 vertices, X its nonlazy simple random walk started at x, and τ_y=inf{t≥0:X_t=y}.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `8cef8ef1ae925d43` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2605.17513) |"
+    },
+    {
+      "source_number": 20,
+      "title": "David Aldous: Some Open Problems",
+      "primary_url": "https://www.stat.berkeley.edu/~aldous/Research/OP/problems_old.pdf",
+      "supplied_setup": null,
+      "provided_source_block_markdown": "### David Aldous: Some Open Problems\n\nMembers in this file: Q2393.\n\nKind: paper; year: 2003; field: Probability / applied mathematics.\n\n[Primary source](https://www.stat.berkeley.edu/~aldous/Research/OP/problems_old.pdf)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://www.stat.berkeley.edu/~aldous/Research/OP/problems_old.pdf\n\nOrigin for questions 2392, 2393: Branch rotations: circa 2000; partial orders: discussions with Graham Brightwell, 2001.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `129515a43a91f7b0` (research-paper) | available | [Source](https://www.stat.berkeley.edu/~aldous/Research/OP/problems_old.pdf) |"
+    },
+    {
+      "source_number": 21,
+      "title": "David Aldous: Omer Angel and Nathanaël Berestycki, Online Random Weight Minimal Spanning Trees and a Stochastic Coalescent",
+      "primary_url": "https://www.stat.berkeley.edu/~aldous/Research/OP/Beres2008.pdf",
+      "supplied_setup": "Edges of K_n, with iid Uniform[0,1] costs, arrive in independent uniformly random order. On seeing each edge and cost, an online policy irrevocably accepts or rejects it, ultimately selecting a spanning tree. Let c_n be the infimum expected total cost over all such policies.",
+      "provided_source_block_markdown": "### David Aldous: Omer Angel and Nathanaël Berestycki, Online Random Weight Minimal Spanning Trees and a Stochastic Coalescent\n\nMembers in this file: Q2394.\n\nKind: paper; year: 2008; field: Probability / applied mathematics.\n\n[Primary source](https://www.stat.berkeley.edu/~aldous/Research/OP/Beres2008.pdf)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://www.stat.berkeley.edu/~aldous/Research/OP/Beres2008.pdf\n\nOrigin for question 2394: Authors’2008 problem, reposted 2018.\n\nSetup for question 2394: Edges of K_n, with iid Uniform[0,1] costs, arrive in independent uniformly random order. On seeing each edge and cost, an online policy irrevocably accepts or rejects it, ultimately selecting a spanning tree. Let c_n be the infimum expected total cost over all such policies.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `dfc6a70cccebbe38` (research-paper) | available | [Source](https://www.stat.berkeley.edu/~aldous/Research/OP/Beres2008.pdf) |"
+    },
+    {
+      "source_number": 22,
+      "title": "David Aldous: A one-dimensional drift-jump particle process",
+      "primary_url": "https://www.stat.berkeley.edu/~aldous/Research/OP/left_Hamm.html",
+      "supplied_setup": "For each k, particles 0<X₁<⋯<X_k obey dX_i/dt=X_i. At every point (x,t) of a unit-intensity Poisson process on (0,∞)², move the nearest particle strictly right of x to x, if one exists. The k-particle laws form a consistent infinite system.",
+      "provided_source_block_markdown": "### David Aldous: A one-dimensional drift-jump particle process\n\nMembers in this file: Q2395.\n\nKind: paper; year: 2018; field: Probability / applied mathematics.\n\n[Primary source](https://www.stat.berkeley.edu/~aldous/Research/OP/left_Hamm.html)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://www.stat.berkeley.edu/~aldous/Research/OP/left_Hamm.html\n\nOrigin for question 2395: Unpublished 1993 notes; Aldous–Diaconis 1999, §5.2.\n\nSetup for question 2395: For each k, particles 0<X₁<⋯<X_k obey dX_i/dt=X_i. At every point (x,t) of a unit-intensity Poisson process on (0,∞)², move the nearest particle strictly right of x to x, if one exists. The k-particle laws form a consistent infinite system.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `7e31c49cad6575f9` (research-paper) | available | [Source](https://www.stat.berkeley.edu/~aldous/Papers/me71.pdf) |"
+    },
+    {
+      "source_number": 23,
+      "title": "Jörg Neunhäuserer: Recursive overlap Bernoulli distributions and an entropy concavity conjecture, v2",
+      "primary_url": "https://arxiv.org/abs/2609.05546",
+      "supplied_setup": "For integers 2=a₁<a₂<⋯, put P₁(p)=(p,1−p), P_{n+1}(p)=p(P_n(p),0,…,0)+(1−p)(0,…,0,P_n(p)) in R^{a_{n+1}}. Set H_n(p)=−Σ_jP_{n,j}(p)log P_{n,j}(p), with 0log0=0.",
+      "provided_source_block_markdown": "### Jörg Neunhäuserer: Recursive overlap Bernoulli distributions and an entropy concavity conjecture, v2\n\nMembers in this file: Q2396.\n\nKind: paper; year: 2026; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/2609.05546)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/2609.05546\n\nOrigin for question 2396: Author’s Conjecture 3.1.\n\nSetup for question 2396: For integers 2=a₁<a₂<⋯, put P₁(p)=(p,1−p), P_{n+1}(p)=p(P_n(p),0,…,0)+(1−p)(0,…,0,P_n(p)) in R^{a_{n+1}}. Set H_n(p)=−Σ_jP_{n,j}(p)log P_{n,j}(p), with 0log0=0.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `d9d1669fe812905e` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2609.05546) |"
+    },
+    {
+      "source_number": 24,
+      "title": "David Aldous: The Nearest Unvisited Vertex Walk on Random Graphs, v2",
+      "primary_url": "https://arxiv.org/abs/1912.13175",
+      "supplied_setup": "For a finite connected positively weighted graph, use shortest-path distance d. Assume unique choices. Starting at v, repeatedly go to the nearest unvisited vertex; L(G,v) is total distance until all vertices are visited, without returning. Random models below start uniformly over vertices.",
+      "provided_source_block_markdown": "### David Aldous: The Nearest Unvisited Vertex Walk on Random Graphs, v2\n\nMembers in this file: Q2397, Q2398.\n\nKind: paper; year: 2021; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/1912.13175)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/1912.13175\n\nOrigin for questions 2397, 2398: Author’s Problem 4 and §§3–4.1 conjectures.\n\nSetup for questions 2397, 2398: For a finite connected positively weighted graph, use shortest-path distance d. Assume unique choices. Starting at v, repeatedly go to the nearest unvisited vertex; L(G,v) is total distance until all vertices are visited, without returning. Random models below start uniformly over vertices.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `368f591ebadc3f57` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1912.13175) |\n| `282a825e15a8d4bd` (research-paper) | available | [Source](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9FE0E4C052DB835CB1F7E382059484B8/S0269964821000115a.pdf/div-class-title-the-nearest-unvisited-vertex-walk-on-random-graphs-div.pdf) |"
+    },
+    {
+      "source_number": 25,
+      "title": "David Aldous: The Nearest Unvisited Vertex Walk on Random Graphs",
+      "primary_url": "https://arxiv.org/abs/1912.13175",
+      "supplied_setup": "From a uniformly chosen point among n iid uniform points in [0,1]², repeatedly move to the nearest unvisited point in Euclidean distance. Let L_n be total length until all points are visited, without returning.",
+      "provided_source_block_markdown": "### David Aldous: The Nearest Unvisited Vertex Walk on Random Graphs\n\nMembers in this file: Q2489.\n\nKind: paper; year: 2021; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/1912.13175)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/1912.13175\n\nOrigin for question 2489: Aldous’s §3 conjecture.\n\nSetup for question 2489: From a uniformly chosen point among n iid uniform points in [0,1]², repeatedly move to the nearest unvisited point in Euclidean distance. Let L_n be total length until all points are visited, without returning.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `368f591ebadc3f57` (research-paper) | available | [Source](https://export.arxiv.org/pdf/1912.13175) |\n| `282a825e15a8d4bd` (research-paper) | available | [Source](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9FE0E4C052DB835CB1F7E382059484B8/S0269964821000115a.pdf/div-class-title-the-nearest-unvisited-vertex-walk-on-random-graphs-div.pdf) |"
+    },
+    {
+      "source_number": 26,
+      "title": "Julien Berestycki; Nina Gantert; David Geldbach; Quan Shi: Biased branching random walks on Bienaymé–Galton–Watson trees",
+      "primary_url": "https://arxiv.org/abs/2502.07363",
+      "supplied_setup": "Let T be a Galton–Watson tree with offspring law p, p₀=0, finite mean>1 and d=min{k:p_k>0}≥2. Independently, each particle has offspring law μ with μ₀=0 and finite mean m>1. Start one particle at the root; each child moves to its parent with probability λ/(λ+k), or to each of k children with probability 1/(λ+k); at the root choose a child uniformly. Let L_n be the minimum root-distance in generation n.",
+      "provided_source_block_markdown": "### Julien Berestycki; Nina Gantert; David Geldbach; Quan Shi: Biased branching random walks on Bienaymé–Galton–Watson trees\n\nMembers in this file: Q2492.\n\nKind: paper; year: 2026; field: Probability / applied mathematics.\n\n[Primary source](https://arxiv.org/abs/2502.07363)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://arxiv.org/abs/2502.07363\n\nDoctoral context for question 2492: David Geldbach. Inhomogeneous spatial branching processes. PhD, University of Oxford, 2025. Advisors: Julien Berestycki; Matthias Winkel.\n\nOrigin for question 2492: Authors’ stated residual question.\n\nSetup for question 2492: Let T be a Galton–Watson tree with offspring law p, p₀=0, finite mean>1 and d=min{k:p_k>0}≥2. Independently, each particle has offspring law μ with μ₀=0 and finite mean m>1. Start one particle at the root; each child moves to its parent with probability λ/(λ+k), or to each of k children with probability 1/(λ+k); at the root choose a child uniformly. Let L_n be the minimum root-distance in generation n.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `9e690fa3ba8222c6` (research-paper) | pending | [Source](https://arxiv.org/abs/2502.07363) |"
+    },
+    {
+      "source_number": 27,
+      "title": "Elena Kosygina; Martin P. W. Zerner: Excited random walks: results, methods, open problems",
+      "primary_url": "https://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf",
+      "supplied_setup": "On Z^d, d≥2, iid stacks (ω(x,e,i))_{e,i} specify the nearest-neighbor jump distribution on the ith visit to x. Assume a deterministic κ>0 bounds every ω(x,e,i) below. The walk starts at zero; P_0 is annealed.",
+      "provided_source_block_markdown": "### Elena Kosygina; Martin P. W. Zerner: Excited random walks: results, methods, open problems\n\nMembers in this file: Q2498, Q2499.\n\nKind: paper; year: 2013; field: Probability / applied mathematics.\n\n[Primary source](https://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf)\n\nField: Probability / applied mathematics.\n\nPrimary source: https://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf\n\nOrigin for questions 2498, 2499: Authors’ numbered problem/conjecture.\n\nSetup for questions 2498, 2499: On Z^d, d≥2, iid stacks (ω(x,e,i))_{e,i} specify the nearest-neighbor jump distribution on the ith visit to x. Assume a deterministic κ>0 bounds every ω(x,e,i) below. The walk starts at zero; P_0 is annealed.\n\n**Cited-document acquisition snapshot in the catalog** (availability here does not bundle a PDF with this handoff):\n\n| Document | Stored disposition | Public citation |\n|---|---|---|\n| `47bb4d52e51bdb44` (research-paper) | available | [Source](https://www.math.uni-tuebingen.de/user/zerner/pub/KosyginaZerner.pdf) |\n| `b33bd958d3d3be36` (research-paper) | available | [Source](https://export.arxiv.org/pdf/2609.30045) |\n| `cb69706d74c89d22` (research-paper) | pending | [Source](https://www.math.sinica.edu.tw/bulletins/20131/2013106.pdf) |\n| `65279d87c4d2b453` (research-paper) | pending | [Source](https://arxiv.org/abs/1304.7287) |\n\n<a id=\"recorded-results-and-source-leads\"></a>"
+    }
+  ],
+  "artifact_execution_record": "See verification_run.json and verification_manifest.json in B5_Verification_Archive_2026-10-07.zip."
+}

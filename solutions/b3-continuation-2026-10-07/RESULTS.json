@@ -1,0 +1,276 @@
+{
+  "schema": "b3-continuation-results-v1",
+  "date": "2026-10-07",
+  "policy": "New proved scopes, computer-assisted proofs and counterexamples are separate; no whole retained question closed by this continuation.",
+  "results": [
+    {
+      "result_id": "B3C-01",
+      "kind": "computer-assisted-theorem",
+      "title": "Weighted interval ULC through nine variables",
+      "statement": "For every integer 0<=m<=9, every binary family on m positions defined by arbitrary integer lower/upper bounds on sums over linear intervals, and all nonnegative real position weights, its weighted rank sequence is ultra-log-concave of order m.",
+      "targets": [
+        {
+          "q": 164,
+          "stable_statement_id": "03789661191001d42523"
+        },
+        {
+          "q": 166,
+          "stable_statement_id": "40a313afdba7f5f6fca3"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/compositions/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/compositions/checks.json",
+        "solutions/b3-continuation-2026-10-07/audit/independent_checks.json"
+      ],
+      "limits": "All dimensions and cycle domination remain open; numerical ULC is not coefficientwise ULC.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-02",
+      "kind": "computer-assisted-theorem-with-published-reduction",
+      "title": "All-dimensional endpoint inequalities",
+      "statement": "For every such linear interval family in every integer dimension m>=0 and every nonnegative weight vector, k(m-k)f_k^2 >= (k+1)(m-k+1)f_(k-1)f_(k+1) at k in {1,2,3,4,m-4,m-3,m-2,m-1} intersect {1,...,m-1}.",
+      "targets": [
+        {
+          "q": 164,
+          "stable_statement_id": "03789661191001d42523"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/compositions/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/compositions/checks.json",
+        "solutions/b3-continuation-2026-10-07/audit/independent_checks.json"
+      ],
+      "limits": "Middle inequalities in dimensions >=10 are not established. Uses Kahn-Neiman Theorem 9.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-03",
+      "kind": "theorem-from-published-closure",
+      "title": "Laminar interval ULC",
+      "statement": "For every integer m>=0, every laminar family of integer-bounded linear intervals on m binary positions, and all nonnegative position weights, the weighted feasible-word ranks are ULC of order m.",
+      "targets": [
+        {
+          "q": 164,
+          "stable_statement_id": "03789661191001d42523"
+        },
+        {
+          "q": 166,
+          "stable_statement_id": "40a313afdba7f5f6fca3"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/compositions/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/audit/PROOF-REVIEW.md"
+      ],
+      "limits": "Typical overlapping path neighborhoods are not laminar. Convolution closure is published, not claimed new.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-04",
+      "kind": "theorem",
+      "title": "Leading cycle Hankel block",
+      "statement": "For every integer r>=2, all nonempty minors of (c_(r,i+j)(x))_(i,j=0)^2 are coefficientwise nonnegative, with positive coefficients throughout each stated nonzero support. The 3x3 determinant has support exactly degrees 2 through 6.",
+      "targets": [
+        {
+          "q": 1160,
+          "stable_statement_id": "0aded4f0c2d209554604"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/stirling/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/stirling/checks.json",
+        "solutions/b3-continuation-2026-10-07/audit/independent_checks.json"
+      ],
+      "limits": "Only row and column indices 0,1,2. Universal Hankel TN2 for either family and arbitrary cycle order-three minors remain unproved here.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-05",
+      "kind": "computer-assisted-theorem",
+      "title": "Uniform interpolation disk through degree five",
+      "statement": "For every integer 1<=n<=5 and every real parameter tuple (a_1,...,a_n) in [0,1]^n, all zeros of P(z)=sum_(j=0)^n e_(n-j)(a) binom(z,j) satisfy |z+1/2|<=n-1/2. Boundary zeros occur only at the all-zero and all-one parameter polynomials. Thus R_n=n for 1<=n<=5.",
+      "targets": [
+        {
+          "q": 1442,
+          "stable_statement_id": "137dfefda1eae06911d7"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/interpolation/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/interpolation/checks.json",
+        "solutions/b3-continuation-2026-10-07/interpolation/degree-5-certificate.json",
+        "solutions/b3-continuation-2026-10-07/audit/independent_checks.json"
+      ],
+      "limits": "Exact certificate proof uniformly covers parameters, but only degrees through five. Reported degrees six to eight are not recovered.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-06",
+      "kind": "theorem",
+      "title": "All-degree equal-parameter interpolation disk",
+      "statement": "For every integer n>=1 and every real a in [0,1], all zeros of the polynomial with L(P)(u)=(u+a)^n satisfy |z+1/2|<=n-1/2, strictly for 0<a<1. For n>=2, |z+1/2|^2 <= (n-1/2)^2-8a(1-a)(n-1).",
+      "targets": [
+        {
+          "q": 1442,
+          "stable_statement_id": "137dfefda1eae06911d7"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/interpolation/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/interpolation/checks.json",
+        "solutions/b3-continuation-2026-10-07/audit/PROOF-REVIEW.md"
+      ],
+      "limits": "One-parameter family; arbitrary independent parameters in higher degrees remain open.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-07",
+      "kind": "theorem",
+      "title": "Degree-dependent s-Eulerian representation bound",
+      "statement": "Every nonconstant s-Eulerian polynomial of integer degree d>=1 has a representing positive integer vector of length at most 2d-1.",
+      "targets": [
+        {
+          "q": 1262,
+          "stable_statement_id": "b1ba78271e207b25e0d3"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/audit/eulerian-report.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/audit/eulerian_checks.json",
+        "solutions/b3-continuation-2026-10-07/audit/eulerian-independent-review.md"
+      ],
+      "limits": "Existential bound after deleting units and contracting all-two blocks; all-degree sharpness for (1+ux)^d is not recovered.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-08",
+      "kind": "theorem",
+      "title": "Connected quadratic s-Eulerian inequality",
+      "statement": "For every positive integer vector s with all entries >=2, if E_s(x)=1+h_1 x+h_2 x^2 has degree exactly two, then h_1>h_2>0.",
+      "targets": [
+        {
+          "q": 1262,
+          "stable_statement_id": "b1ba78271e207b25e0d3"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/audit/eulerian-report.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/audit/eulerian_checks.json",
+        "solutions/b3-continuation-2026-10-07/audit/eulerian-independent-review.md"
+      ],
+      "limits": "Degree-two blocks only; does not establish simple roots for every nonunit block. Exceptional (2,6,3) coefficients corrected to (1,19,16).",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-09",
+      "kind": "theorem",
+      "title": "Exact uncoloured multiplicity (2,b) classification",
+      "statement": "For every positive integer b, A_(2,b)(x)=1+2b x+binom(b,2)x^2 is s-Eulerian for some positive integer vector of arbitrary length iff b=2 or b(b+1)/2 is an integer square.",
+      "targets": [
+        {
+          "q": 1262,
+          "stable_statement_id": "b1ba78271e207b25e0d3"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/audit/eulerian-report.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/audit/eulerian_checks.json",
+        "solutions/b3-continuation-2026-10-07/audit/eulerian-independent-review.md"
+      ],
+      "limits": "Exact subfamily of general coloured multiset question Q1262; not full classification.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-10",
+      "kind": "counterexample",
+      "title": "One-bit inclusion matching fails",
+      "statement": "In dimension six, equations x1+x2=x2+x3=x4+x5=x5+x6=1 give rank counts (0,0,1,2,1,0,0). The unique rank-two word 010010 has no feasible rank-three superset.",
+      "targets": [
+        {
+          "q": 164,
+          "stable_statement_id": "03789661191001d42523"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/compositions/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/compositions/checks.json"
+      ],
+      "limits": "Refutes the stated stronger matching route, not APP or ULC. The stalled agent matching definition was not supplied.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-11",
+      "kind": "counterexample",
+      "title": "Coefficientwise ULC fails",
+      "statement": "The unrestricted two-variable family has central normalized ULC defect w1^2-2*w1*w2+w2^2, whose mixed coefficient is -2.",
+      "targets": [
+        {
+          "q": 164,
+          "stable_statement_id": "03789661191001d42523"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/compositions/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/compositions/checks.json"
+      ],
+      "limits": "Numerical nonnegativity survives, since the defect is (w1-w2)^2.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    },
+    {
+      "result_id": "B3C-12",
+      "kind": "counterexample-to-enlarged-class",
+      "title": "Arbitrary interpolation shift mixtures violate the disk",
+      "statement": "For n=4, P(z)=binom(z,4)+binom(z+4,4) has a root with |z+1/2|>7/2; 24P(w-1/2)=2w^4+43w^2+105/8.",
+      "targets": [
+        {
+          "q": 1442,
+          "stable_statement_id": "137dfefda1eae06911d7"
+        }
+      ],
+      "proof_file": "solutions/b3-continuation-2026-10-07/interpolation/REPORT.md",
+      "evidence_files": [
+        "solutions/b3-continuation-2026-10-07/interpolation/checks.json"
+      ],
+      "limits": "Outside the TP class: sampled numerator 1+t^4 is not real-rooted. Does not refute Q1442.",
+      "review_status": "written argument and exact controls reviewed; not proof-assistant verified",
+      "exact_question_closed": false,
+      "catalog_policy": "research result only; canonical resolution ledger unchanged",
+      "novelty_claim": false
+    }
+  ]
+}

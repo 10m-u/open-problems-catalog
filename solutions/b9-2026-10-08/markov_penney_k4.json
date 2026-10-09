@@ -1,0 +1,39 @@
+{
+ "k": 4,
+ "states": 24,
+ "Q3259": {
+  "E_T_increasing": "3943/140",
+  "max_E_T": "3943/140",
+  "argmax": [
+   "1234",
+   "4321"
+  ],
+  "violations": []
+ },
+ "Q3260": {
+  "pairs": 82,
+  "violations": 0,
+  "examples": [],
+  "min_prob": "1/2",
+  "min_pair": [
+   "1234",
+   "1243"
+  ]
+ },
+ "Q3261": {
+  "pairs": 44,
+  "violations": 0,
+  "examples": [],
+  "max_prob": "1/2",
+  "max_pair": [
+   "1234",
+   "1243"
+  ]
+ },
+ "checks": {
+  "hitting_targets_checked": 24,
+  "hitting_mismatches": 0,
+  "race_pairs_checked": 80,
+  "race_mismatches": 0
+ }
+}

@@ -1,0 +1,271 @@
+{
+  "program": "B3: Positivity certificates for counting sequences",
+  "date": "2026-10-06",
+  "source_attachment": "B3 Positivity Certificates - Agent Handoff.md",
+  "scope": "Results obtained from the attached snapshot. No original catalog or external ledger was modified.",
+  "status_policy": {
+    "proved": "A complete proof of the exact handoff statement is supplied and independently audited; not an assertion of publication priority.",
+    "partial": "A structural theorem settles a stated subcase or weaker property; full target remains unresolved.",
+    "unresolved": "Only scoped diagnostics, calibrations, instances, or reductions; no complete proof or counterexample to the exact target."
+  },
+  "exact_questions_proved": [
+    165,
+    166,
+    325
+  ],
+  "exact_questions_refuted": [],
+  "question_count": 20,
+  "questions": [
+    {
+      "question": "Q164",
+      "statement_id": "03789661191001d42523",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "For every power of a path, domination counts are log-concave, including arbitrary nonnegative multiplicative vertex weights; more generally for interval-neighborhood graphs.",
+      "limitations": "Binomial-normalized ultra-log-concavity and the full cycle assertion remain unresolved.",
+      "artifacts": [
+        "research/compositions/q166-proof.md"
+      ]
+    },
+    {
+      "question": "Q165",
+      "statement_id": "7589f26cc11f055d7f38",
+      "status": "proved",
+      "strongest_verdict": "structural-certificate",
+      "established": "For every n>=1 both parity polynomials have only real nonpositive roots. Stronger: D_Pn(x)/x^ceil(n/3) is strictly Hurwitz stable. An all-length positive generating-function recurrence proves coefficientwise nonnegativity of Re(D_n(iy)D_(n-1)(-iy)) as a polynomial in y^2.",
+      "limitations": "The zero polynomial component at n=1 is interpreted in the standard degenerate convention. Publication priority is unclaimed.",
+      "artifacts": [
+        "research/compositions/q165-complete-proof.md",
+        "research/compositions/verify_q165_certificate.py",
+        "research/compositions/q165-certificate-verification.json",
+        "research/interpolation/q165_independent_audit.py",
+        "research/interpolation/q165-independent-audit.json"
+      ]
+    },
+    {
+      "question": "Q166",
+      "statement_id": "40a313afdba7f5f6fca3",
+      "status": "proved",
+      "strongest_verdict": "structural-certificate",
+      "established": "For every n>0 and ell>=2, compositions avoiding ell consecutive unit parts have log-concave counts by number of parts. The proof covers any interval-sum constraints on binary words and all fixed nonnegative position weights.",
+      "limitations": "Weighted conclusion is numerical for each weight choice, not coefficientwise log-concavity. Publication priority is unclaimed.",
+      "artifacts": [
+        "research/compositions/q166-proof.md",
+        "research/compositions/verify_q166.py",
+        "research/compositions/q166-controls.json"
+      ]
+    },
+    {
+      "question": "Q167",
+      "statement_id": "7afbebef21fca209eac3",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "Complete all-integer classification, including every ordering compatible with ties, for n=1,2,3,4. Counts are 2,3,6,8; all orders have exact witnesses and exhaustiveness proofs.",
+      "limitations": "General degree n remains unresolved.",
+      "artifacts": [
+        "research/compositions/q167-small-degrees.md",
+        "research/compositions/verify_q167.py",
+        "research/compositions/q167-controls.json"
+      ]
+    },
+    {
+      "question": "Q183",
+      "statement_id": "d82e9ba586cec149bb0f",
+      "status": "unresolved",
+      "strongest_verdict": "structural-certificate",
+      "established": "Every board with at most two rows or at most two columns has a real-rooted non-nesting rook polynomial, by a quadratic discriminant bound.",
+      "limitations": "Only an elementary control subclass. The entire forbidden-board avoidance class is unresolved.",
+      "artifacts": [
+        "research/root/REPORT.md"
+      ]
+    },
+    {
+      "question": "Q325",
+      "statement_id": "4dda0904c7526b4a8b45",
+      "status": "proved",
+      "strongest_verdict": "structural-certificate",
+      "established": "All roots of every degree-d Stanley-nonnegative polynomial satisfy |Im z|<=B_d. For d>=2 equality forces real part -1/2 and a positive scalar multiple of M_d. Also a complete description of the attainable nonreal root locus by an explicit phase-span inequality.",
+      "limitations": "No canonical-line hypothesis. Publication priority is unclaimed.",
+      "artifacts": [
+        "research/interpolation/Q325-proof.md"
+      ]
+    },
+    {
+      "question": "Q1158",
+      "statement_id": "9956ab4a985ffbd2fdb0",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "Every cycle-triangle minor of order at most two is nonnegative for every r>=1. Exact Neville factors certify all minors of the 25x25 blocks for r=2,3,11,12,16,32.",
+      "limitations": "Infinite minors of order at least three remain unresolved. Source already reports larger finite blocks for r<=10.",
+      "artifacts": [
+        "research/stirling/REPORT.md",
+        "research/stirling/stirling_research.py",
+        "research/stirling/neville-certificates.json"
+      ]
+    },
+    {
+      "question": "Q1159",
+      "statement_id": "046b83f433f0f897bebf",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "Every subset-triangle minor of order at most two is nonnegative for every r>=1. Exact Neville factors certify all minors of the 25x25 blocks for r=2,3,11,12,16,32.",
+      "limitations": "Infinite minors of order at least three remain unresolved. Source already reports larger finite blocks for r<=10.",
+      "artifacts": [
+        "research/stirling/REPORT.md",
+        "research/stirling/stirling_research.py",
+        "research/stirling/neville-certificates.json"
+      ]
+    },
+    {
+      "question": "Q1160",
+      "statement_id": "0aded4f0c2d209554604",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "For every r>=2 and every cycle Hankel minor on increasing nonnegative index sets I,J, the degree is sum(I)+sum(J), the vanishing order is |I|-1_{0 in I and 0 in J}, and both extreme coefficients are strictly positive.",
+      "limitations": "Interior coefficient positivity remains unresolved. A negative coefficient in a related subset Hankel minor is not a counterexample to this cycle question.",
+      "artifacts": [
+        "research/stirling/REPORT.md",
+        "research/stirling/results.json"
+      ]
+    },
+    {
+      "question": "Q1161",
+      "statement_id": "abb14a59ea452c80cc77",
+      "status": "unresolved",
+      "strongest_verdict": "certified-instance",
+      "established": "Both third-order row families, for each n=1,...,80, have a simple zero at 0 and all other roots strictly in the left half-plane, certified by exact rational Routh pivots.",
+      "limitations": "No all-n stability proof. Failure of generic differential-operator stability preservation does not refute stability of the actual rows.",
+      "artifacts": [
+        "research/stirling/REPORT.md",
+        "research/stirling/results.json",
+        "research/stirling/stirling_research.py"
+      ]
+    },
+    {
+      "question": "Q1249",
+      "statement_id": "a07435dae46e9241cc2a",
+      "status": "unresolved",
+      "strongest_verdict": "finite-support",
+      "established": "An exact degree-seven candidate passes 300 genuine PF-input tests, covering 293 distinct generating functions. An explicit example shows that replacing PF inputs by merely log-concave inputs invalidates a tempting stronger claim.",
+      "limitations": "The all-input, all-remainder preservation conjecture remains unresolved. The stronger-claim failure is not a counterexample to Q1249.",
+      "artifacts": [
+        "research/interpolation/interpolation-report.md",
+        "research/interpolation/Q1249-bounded-search.json"
+      ]
+    },
+    {
+      "question": "Q1262",
+      "statement_id": "b1ba78271e207b25e0d3",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "Finite recognition for arbitrary allowed vector length: enumerate ordered factorizations of N=p(1) with optional unit separators; length at most 2*Omega(N)-1 suffices. Complete exclusion for multiplicities (2,3). Infinite Pell family: A_(2,b)=E_(b-t+1,1,b+t+1) whenever b(b+1)/2=t^2. Exactly decided 28 bounded-volume uncolored two-symbol cases.",
+      "limitations": "A general structural classification of colored multiplicity pairs remains unresolved. The source already uses unit-removal and volume factorization in Proposition 25.",
+      "artifacts": [
+        "research/root/REPORT.md",
+        "research/root/eulerian_recognition.py",
+        "research/root/eulerian_results.json"
+      ]
+    },
+    {
+      "question": "Q1263",
+      "statement_id": "bc41aa82edde5fa04288",
+      "status": "unresolved",
+      "strongest_verdict": "certified-instance",
+      "established": "Exact symmetric decomposition and gamma conversion implemented. Closed gamma formulas for two singleton symbols with color counts u,v>=2.",
+      "limitations": "No general combinatorial interpretation of both gamma vectors.",
+      "artifacts": [
+        "research/root/REPORT.md",
+        "research/root/eulerian_recognition.py",
+        "research/toolkit/positivity.py"
+      ]
+    },
+    {
+      "question": "Q1366",
+      "statement_id": "1019289850b68fa9a39d",
+      "status": "unresolved",
+      "strongest_verdict": "finite-support",
+      "established": "All 200523 classical-pattern intervals with nonempty bottom and top length<=7 are unimodal; 206436 if the empty bottom is included. Literal subset enumeration independently checks downsets through length5.",
+      "limitations": "The infinite interval conjecture remains unresolved. The rank vector (1,2,5,5,1) is a log-concavity failure, not a unimodality failure.",
+      "artifacts": [
+        "research/root/REPORT.md",
+        "research/root/pattern_intervals.py",
+        "research/root/pattern_interval_results.json"
+      ]
+    },
+    {
+      "question": "Q1441",
+      "statement_id": "60c1fcde2d3a853de2a4",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "r_2=(1+sqrt(2))/2. The bounds r_n>=5/4 for every even n>=6 and r_n>=51/40 for every even n>=16 follow from exact Sturm-certified bases and product closure.",
+      "limitations": "No upper bound independent of n is proved; the uniform-boundedness question remains unresolved.",
+      "artifacts": [
+        "research/interpolation/interpolation-report.md",
+        "research/interpolation/shifted-power-family-certificates.json",
+        "research/root/interpolation_independent_audit.json"
+      ]
+    },
+    {
+      "question": "Q1442",
+      "statement_id": "137dfefda1eae06911d7",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "R_2=2 and R_3=3. Complete degree-two root locus. All fixed-degree interpolation extrema are attained after normalization; their imaginary extent is strictly below the corresponding SNN bound for degrees>=2.",
+      "limitations": "R_n=n for n>=4 remains unresolved.",
+      "artifacts": [
+        "research/interpolation/interpolation-report.md",
+        "research/root/interpolation_independent_audit.json"
+      ]
+    },
+    {
+      "question": "Q1443",
+      "statement_id": "6c25aadb176292f25ffa",
+      "status": "partial",
+      "strongest_verdict": "certified-instance",
+      "established": "The polynomial (5z^2+5z-2)^12 belongs to U_24 by exact Sturm certification and has consecutive distinct real-root gap sqrt(13/5). Thus any universal gap bound is at least sqrt(13/5).",
+      "limitations": "Does not disprove or prove existence of a bound below 2.",
+      "artifacts": [
+        "research/interpolation/interpolation-report.md",
+        "research/interpolation/additional-certificate-results.json",
+        "research/root/interpolation_independent_audit.json"
+      ]
+    },
+    {
+      "question": "Q1454",
+      "statement_id": "6ef0a2abf8519bc3a655",
+      "status": "unresolved",
+      "strongest_verdict": "structural-certificate",
+      "established": "Known Catalan and finite-atomic moment cases supply explicit nonnegative measures and exact PSD/rank controls for the toolkit.",
+      "limitations": "No general principal-pattern avoidance moment theorem. These are calibration cases, not claimed new family results.",
+      "artifacts": [
+        "research/root/REPORT.md",
+        "research/toolkit/verification_results.json"
+      ]
+    },
+    {
+      "question": "Q2212",
+      "statement_id": "5c6116ffa807a6eec932",
+      "status": "unresolved",
+      "strongest_verdict": "finite-support",
+      "established": "Exhaustive over every numerical monoid for every cutoff ell=0,...,22: all atom-count rows are unimodal and in fact log-concave. At ell=22 there are 7257 possible truncations. Independent literal-set verification through ell=8.",
+      "limitations": "No conclusion for ell>=23. Clarified that the cited almost-unimodality result concerns most positions within a row, not almost every cutoff.",
+      "artifacts": [
+        "research/root/REPORT.md",
+        "research/root/atom_screen.cpp",
+        "research/root/atom_results_all.json",
+        "research/root/verify_atoms.py"
+      ]
+    },
+    {
+      "question": "Q2400",
+      "statement_id": "87d450a8d0f34344d141",
+      "status": "partial",
+      "strongest_verdict": "structural-certificate",
+      "established": "For fixed d>0 and n>=max(2,d), simultaneously x_k^2>=x_(k-1)x_(k+1) for 1<=k<=min(n-1,floor(((n-1)/(2d))^(1/3))) with probability at least 1-exp(-d(n-1)/6). Also an exact positive expectation formula for every defect.",
+      "limitations": "The full coefficient row with high probability remains unresolved. Positive expectation alone does not imply a high-probability sign.",
+      "artifacts": [
+        "research/root/REPORT.md"
+      ]
+    }
+  ]
+}

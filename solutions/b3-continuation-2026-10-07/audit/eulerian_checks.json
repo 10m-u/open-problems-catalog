@@ -1,0 +1,572 @@
+{
+  "status": "PASS",
+  "literal_vs_refined_vectors": 780,
+  "all_two_contractions": [
+    {
+      "degree": 1,
+      "old": [
+        2,
+        2
+      ],
+      "new": [
+        4
+      ]
+    },
+    {
+      "degree": 2,
+      "old": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 3,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 4,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 5,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 6,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 7,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 8,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 9,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 10,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 11,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "degree": 12,
+      "old": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "new": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    }
+  ],
+  "triple_degree_controls": 1331,
+  "infinite_family_formula_controls": 198,
+  "literal_multiset_controls": 12,
+  "exceptional_triple_coefficients": {
+    "(2, 3, 3)": [
+      1,
+      10,
+      7
+    ],
+    "(2, 4, 3)": [
+      1,
+      12,
+      11
+    ],
+    "(2, 4, 4)": [
+      1,
+      18,
+      13
+    ],
+    "(2, 6, 3)": [
+      1,
+      19,
+      16
+    ],
+    "(3, 3, 3)": [
+      1,
+      16,
+      10
+    ]
+  },
+  "arbitrary_length_volume_recognition_b1_to20": [
+    {
+      "b": 1,
+      "volume": 3,
+      "canonical_candidate_count": 1,
+      "s_eulerian": true,
+      "witness": [
+        3
+      ]
+    },
+    {
+      "b": 2,
+      "volume": 6,
+      "canonical_candidate_count": 5,
+      "s_eulerian": true,
+      "witness": [
+        2,
+        3
+      ]
+    },
+    {
+      "b": 3,
+      "volume": 10,
+      "canonical_candidate_count": 5,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 4,
+      "volume": 15,
+      "canonical_candidate_count": 5,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 5,
+      "volume": 21,
+      "canonical_candidate_count": 5,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 6,
+      "volume": 28,
+      "canonical_candidate_count": 21,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 7,
+      "volume": 36,
+      "canonical_candidate_count": 111,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 8,
+      "volume": 45,
+      "canonical_candidate_count": 21,
+      "s_eulerian": true,
+      "witness": [
+        3,
+        1,
+        15
+      ]
+    },
+    {
+      "b": 9,
+      "volume": 55,
+      "canonical_candidate_count": 5,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 10,
+      "volume": 66,
+      "canonical_candidate_count": 37,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 11,
+      "volume": 78,
+      "canonical_candidate_count": 37,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 12,
+      "volume": 91,
+      "canonical_candidate_count": 5,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 13,
+      "volume": 105,
+      "canonical_candidate_count": 37,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 14,
+      "volume": 120,
+      "canonical_candidate_count": 945,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 15,
+      "volume": 136,
+      "canonical_candidate_count": 81,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 16,
+      "volume": 153,
+      "canonical_candidate_count": 21,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 17,
+      "volume": 171,
+      "canonical_candidate_count": 21,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 18,
+      "volume": 190,
+      "canonical_candidate_count": 37,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 19,
+      "volume": 210,
+      "canonical_candidate_count": 365,
+      "s_eulerian": false,
+      "witness": null
+    },
+    {
+      "b": 20,
+      "volume": 231,
+      "canonical_candidate_count": 37,
+      "s_eulerian": false,
+      "witness": null
+    }
+  ],
+  "scope": "Finite controls for independently written E1/E2/E3 proofs; no full coloured Q1262 classification."
+}

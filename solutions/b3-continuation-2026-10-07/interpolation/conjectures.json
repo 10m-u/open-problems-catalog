@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07",
+  "program": "B3 interpolation",
+  "entries": [
+    {
+      "id": "B3-I-C01",
+      "status": "conjecture",
+      "question_numbers": [1442],
+      "statement": "For every integer n >= 2 and every 1 <= r < n, Delta_r(x)=det[b_(2*j-i+1)]_(i,j=0)^(r-1), where F_n(t;x)=sum_(k=0)^n e_k(x) product_(j=0)^(n-1)((n+k-j-1)+(n-k+j)t)=sum_(i=0)^n b_i t^(n-i), has a strictly positive coefficient for every monomial product_i x_i^d_i with 0 <= d_i <= r, and has no other monomials.",
+      "evidence": "Exact coefficient certificates for every n=2,3,4,5 and r<n; 4,816 positive integer coefficients in total. These certify the theorem uniformly in all real admissible parameters for those degrees.",
+      "implication": "For every n and all a_i in [0,1], every root of P(z)=sum_j e_(n-j)(a) binom(z,j) lies in |z+1/2| <= n-1/2; boundary only at the all-zero and all-one parameter polynomials. Hence R_n=n.",
+      "boundary": "The general coefficient conjecture is sufficient for the root bound; necessity is not claimed. No Schur-basis positivity assertion is made.",
+      "artifacts": ["checks.py", "checks.json", "degree-2-certificate.json", "degree-3-certificate.json", "degree-4-certificate.json", "degree-5-certificate.json"]
+    },
+    {
+      "id": "B3-I-O01",
+      "status": "proved_counterexample_to_relaxation",
+      "statement": "The centered disk bound fails when the independent Bernoulli shift sum is replaced by an arbitrary distribution on {0,...,n}.",
+      "witness": "n=4, P(z)=binom(z,4)+binom(z+4,4). In w=z+1/2, 24P(w-1/2)=2w^4+43w^2+105/8, giving roots w=+/-i sqrt(43/4+sqrt(109)) with modulus >7/2.",
+      "scope": "This is not a counterexample to Q1442: its sampled-value numerator 1+t^4 has nonreal roots, so P is outside U_4.",
+      "artifacts": ["REPORT.md", "checks.py"]
+    },
+    {
+      "id": "B3-I-U01",
+      "status": "intermediate_claim_not_reconstructed",
+      "statement": "The interrupted agent reported the independent-parameter disk and endpoint boundary theorem uniformly through degree eight.",
+      "evidence": "User-provided intermediate transcript; original degree-six, degree-seven, and degree-eight certificates absent.",
+      "remaining": "Recover those certificates, reconstruct exact uniform certificates, or replace the cutoff by a structural all-degree proof. Degree five and the all-degree equal-parameter family have now been independently reconstructed."
+    }
+  ]
+}

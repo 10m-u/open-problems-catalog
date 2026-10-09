@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-30",
+  "status": "all assertions passed",
+  "independent_weighted_polygon_cases": 189,
+  "generated_exact_primal_cases": 168,
+  "shared_separator_residual_cases": 625,
+  "seed": 20260930,
+  "shared_separator_obstruction": {
+    "A": [
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "variances": [
+      1,
+      4,
+      4,
+      4
+    ],
+    "separate_constraints_feasible": true,
+    "joint_constraints_feasible": false,
+    "dual_y": [
+      1,
+      0,
+      0,
+      -1
+    ],
+    "restricted_dual_form": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "dual_dot_variances": -3,
+    "optimal_residual": "1/2",
+    "optimal_factor": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-3/4",
+        "sqrt(55)/4"
+      ],
+      [
+        "-3/4",
+        "-sqrt(55)/4"
+      ],
+      [
+        "2",
+        "0"
+      ]
+    ]
+  },
+  "boundary_example": {
+    "status": "feasible",
+    "nullity": 2,
+    "covariance": [
+      [
+        "1",
+        "1",
+        "-2"
+      ],
+      [
+        "1",
+        "1",
+        "-2"
+      ],
+      [
+        "-2",
+        "-2",
+        "4"
+      ]
+    ],
+    "factor": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ]
+    ]
+  },
+  "limits": "Exact certificate audits, not sampling estimates or general SDP implementation."
+}

@@ -1,0 +1,1 @@
+{"task": "regular", "args": ["4", "9", "diversity", "3"], "state_cap": 120000, "seconds": 19.8, "instances": 160, "summary": {"diversity|e=3": {"instances": 160, "irc": 0, "no_sink": 0, "not_weakly_acyclic": 0, "skipped_over_cap": 0, "irc_spider": 0}}, "flagged": []}

@@ -1,0 +1,979 @@
+{
+  "schema_version": "1.0",
+  "programme": "B8",
+  "research_date": "2026-10-07",
+  "input": {
+    "uploaded_name": "B8 Unseen Vocabulary - Agent Handoff 2026-10-07.md",
+    "library_file_id": "libfile_50405dcfb0048191a37c6a05784defa1",
+    "sha256": "0e7e47c6daf2be71be621231c1cfd0ccdd234959687585a293bedd839d9a523f"
+  },
+  "status_counts": {
+    "proved": 2,
+    "partial": 4,
+    "unresolved": 2,
+    "disproved_full_statement": 0
+  },
+  "status_semantics": {
+    "proved": "complete written argument with independent internal review; not a compiled formal theorem or external publication",
+    "partial": "rigorous narrower result or improved bound; full retained target remains unsettled",
+    "unresolved": "no written argument here settles or materially improves the exact rate target",
+    "disproved": "applied only to an explicitly isolated subclaim when the full member has other open parts"
+  },
+  "questions": [
+    {
+      "programme": "B8",
+      "question": "Q851",
+      "title": "The remaining accuracy cost of support-size diagnosis",
+      "stable_statement_id": "c72db31c0497eb836a83",
+      "exact_retained_statement": "Close the minimax gap Ω(n/(ε log n)) versus O((n/(ε log n))min{log(1/ε), log n}) for distinguishing d_n(p)=0 from d_n(p)>ε.",
+      "original_assumptions": [
+        "iid sampling",
+        "unrestricted countable alphabet",
+        "n is target support size",
+        "success probability at least 3/4"
+      ],
+      "status": "unresolved",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [],
+      "remaining": "Close the epsilon-dependent logarithmic gap in the non-tolerant sample complexity.",
+      "evidence": {
+        "written_argument": false,
+        "primary_source_comparison": true,
+        "finite_computation": false,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S1"
+      ],
+      "external_literature_closure_claim": false
+    },
+    {
+      "programme": "B8",
+      "question": "Q852",
+      "title": "Tolerant support diagnosis without a support-size promise",
+      "stable_statement_id": "f9edd65b797563064576",
+      "exact_retained_statement": "For 0≤ε′<ε<1, can d_n(p)≤ε′ versus d_n(p)>ε be tested with (n/log n)·Õ((ε−ε′)⁻²) samples, without a bound on the true support?",
+      "original_assumptions": [
+        "iid sampling",
+        "unrestricted countable alphabet",
+        "n is target support size",
+        "0<=epsilon_prime<epsilon<1",
+        "success probability at least 3/4"
+      ],
+      "status": "proved",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [
+        "B8-Q852-T1",
+        "B8-Q852-L1"
+      ],
+      "remaining": "Exact assigned sample-rate existence question answered by written proof. Practical constants, stable implementation and further lower bounds are separate unfinished work.",
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": false,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S1",
+        "S10"
+      ],
+      "external_literature_closure_claim": false
+    },
+    {
+      "programme": "B8",
+      "question": "Q853",
+      "title": "Removing the log cost of dependent missing-mass estimation",
+      "stable_statement_id": "07232484a765905b847d",
+      "exact_retained_statement": "Is minimax MSE for M₀ O(T/n) when n≳T log n, removing the known log(n/T) factor?",
+      "original_assumptions": [
+        "stationary finite ergodic Markov chain",
+        "unrestricted alphabet size",
+        "T bounds worst-start TV mixing time at 1/4",
+        "realized stationary missing mass",
+        "mean squared error"
+      ],
+      "status": "unresolved",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [],
+      "remaining": "A general O(T/n) estimator or a lower bound ruling it out remains absent.",
+      "evidence": {
+        "written_argument": false,
+        "primary_source_comparison": true,
+        "finite_computation": false,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S2",
+        "S6"
+      ],
+      "external_literature_closure_claim": false
+    },
+    {
+      "programme": "B8",
+      "question": "Q854",
+      "title": "Linear mixing-time variance of unseen stationary mass",
+      "stable_statement_id": "ad6c67395090a5839dec",
+      "exact_retained_statement": "Does Var(M₀)≤C min{T log(1+n/T)/n, 1} hold universally, replacing T² in Theorem 2?",
+      "original_assumptions": [
+        "stationary finite ergodic Markov chain",
+        "unrestricted alphabet size",
+        "T bounds worst-start TV mixing time at 1/4",
+        "variance of realized stationary missing mass"
+      ],
+      "status": "partial",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [
+        "B8-Q854-T1",
+        "B8-Q854-T2"
+      ],
+      "remaining": "Remove the refresh-kernel restriction; the universal conjecture is not established.",
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": true,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S2",
+        "S6"
+      ],
+      "external_literature_closure_claim": false
+    },
+    {
+      "programme": "B8",
+      "question": "Q855",
+      "title": "The rare-count mass estimation frontier",
+      "stable_statement_id": "eeea824c340739a51a8d",
+      "exact_retained_statement": "For 1≤ζ=o(n), determine minimax MSE for M_ζ jointly in n,ζ, T. Are O(min{(ζ+1)T log(1+n/T)/n, 1}) and iid O(min{(ζ+1)/n, 1}) sharp?",
+      "original_assumptions": [
+        "stationary finite ergodic Markov chain or explicitly identified iid submodel",
+        "unrestricted alphabet size",
+        "T bounds worst-start TV mixing time at 1/4",
+        "cumulative count threshold zeta",
+        "sample-specific stationary rare mass"
+      ],
+      "status": "partial",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [
+        "B8-Q855-T1",
+        "B8-Q855-T2",
+        "B8-Q855-D1"
+      ],
+      "remaining": "Find matching lower bounds for the improved iid envelope and determine the full joint Markov frontier.",
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": true,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S2",
+        "S6"
+      ],
+      "external_literature_closure_claim": false
+    },
+    {
+      "programme": "B8",
+      "question": "Q856",
+      "title": "The exact minimax constant for unseen probability mass",
+      "stable_statement_id": "eee2f3c01977fe365b97",
+      "exact_retained_statement": "For iid X₁: n∼p on an unrestricted countable alphabet, let M₀=Σ_xp_x1{N_x=0} and R_n*=inf_Mhat sup_p E_p[(Mhat−M₀)²]. Does lim_n nR_n* exist, and is it c_u=max_{x∈(0, 1]} x e^(−x)(1−e^(−x))²/[1−e^(−x)−x e^(−x)]≈0.570077, the uniform-family constant?",
+      "original_assumptions": [
+        "iid sampling",
+        "unrestricted countable alphabet",
+        "sample-specific missing mass",
+        "infimum over all estimators in the original target"
+      ],
+      "status": "partial",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [
+        "B8-Q856-T1",
+        "B8-Q856-T2"
+      ],
+      "remaining": "Prove existence/value of the unrestricted minimax limit; the fixed finite linear class cannot settle it.",
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": true,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S3",
+        "S9"
+      ],
+      "external_literature_closure_claim": false
+    },
+    {
+      "programme": "B8",
+      "question": "Q858",
+      "title": "Gaussian uncertainty for distinct entities observed in pairs",
+      "stable_statement_id": "0c3cb5efa6b7fd0651a8",
+      "exact_retained_statement": "For iid unordered pairs E_i of distinct natural numbers with arbitrary fixed law μ, set V_n=∪_{i≤n}E_i. Does Var(|V_n|)→∞ imply (|V_n|−E|V_n|)/sqrt(Var(|V_n|))⇒N(0, 1), without eventual connectedness? This is the loopless countable-support model, without dust.",
+      "original_assumptions": [
+        "iid unordered pairs of distinct natural numbers",
+        "one fixed arbitrary countable law",
+        "no loops",
+        "no dust",
+        "no connectedness assumption",
+        "fixed sample count n",
+        "variance tends to infinity"
+      ],
+      "status": "proved",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [
+        "B8-Q858-T1"
+      ],
+      "remaining": "Exact assigned CLT answered by written proof. Variance estimation, finite-sample inference and broader hyperedge models remain separate.",
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": true,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S4",
+        "S7",
+        "S8",
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "external_literature_closure_claim": false
+    },
+    {
+      "programme": "B8",
+      "question": "Q859",
+      "title": "Linear rarity cost for next-event exposure estimation",
+      "stable_statement_id": "11f05c2567c0a33574c8",
+      "exact_retained_statement": "For a stationary finite-state ergodic Markov trajectory X₁: n+1, let S_ζ=Pr{N_{X_{n+1}}(X₁: n)≤ζ}, an unconditional probability. Determine minimax MSE’s optimal ζ-dependence from X₁: n. Can the leading O((ζ+1)²T/n) bound become O((ζ+1)T/n), where T is a worst-start TV mixing-time bound? Retain Corollary 2’s finite-n bias terms, or state a valid growing-parameter regime. The ζ=0 case is settled.",
+      "original_assumptions": [
+        "stationary finite ergodic Markov trajectory",
+        "T bounds worst-start TV mixing time at 1/4",
+        "unconditional next-token probability",
+        "zeta=0 already settled",
+        "finite-n bias terms retained or growing regime stated"
+      ],
+      "status": "partial",
+      "changed_assumptions_at_full_statement_scope": [],
+      "results": [
+        "B8-Q859-T1",
+        "B8-Q859-L1",
+        "B8-Q859-L2"
+      ],
+      "remaining": "Establish optimal joint rarity/mixing dependence for general Markov chains; iid rate and finite-bias specialization alone do not close it.",
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": false,
+        "compiled_formal_theorem": false
+      },
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "external_literature_closure_claim": false
+    }
+  ],
+  "results": [
+    {
+      "result_id": "B8-Q852-T1",
+      "programme": "B8",
+      "question": "Q852",
+      "status": "proved",
+      "statement": "For every n>=1 and 0<delta<1, C*n*log(e/delta)^2/(delta^2*log(e*n)) iid samples suffice to estimate d_n(p) within delta/4 with probability at least 3/4, uniformly over every countable distribution. Thresholding gives the assigned tolerant test.",
+      "changed_assumptions": [],
+      "proof_location": "Appendix A, Sections 1–7",
+      "dependencies": [
+        "horizontal hinge sandwich",
+        "positive polynomial kernels",
+        "localized factorial-moment estimators",
+        "mass-weighted countable summability",
+        "Poisson cap and empirical fallback"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "f9edd65b797563064576",
+      "exact_retained_statement": "For 0≤ε′<ε<1, can d_n(p)≤ε′ versus d_n(p)>ε be tested with (n/log n)·Õ((ε−ε′)⁻²) samples, without a bound on the true support?"
+    },
+    {
+      "result_id": "B8-Q852-L1",
+      "programme": "B8",
+      "question": "Q852",
+      "status": "proved",
+      "statement": "For the truncated relative earthmover metric, |d_n(p)-d_n(q)| <= R_tau(p,q)+n*tau; coefficient 1 of n*tau is sharp.",
+      "changed_assumptions": [
+        "auxiliary metric statement, not itself the statistical target"
+      ],
+      "proof_location": "Appendix A, Section 8",
+      "dependencies": [
+        "top-n mass variational identity"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "f9edd65b797563064576",
+      "exact_retained_statement": "For 0≤ε′<ε<1, can d_n(p)≤ε′ versus d_n(p)>ε be tested with (n/log n)·Õ((ε−ε′)⁻²) samples, without a bound on the true support?"
+    },
+    {
+      "result_id": "B8-Q854-T1",
+      "programme": "B8",
+      "question": "Q854",
+      "status": "proved",
+      "statement": "For stationary refresh chains P=(1-a)I+a*1*pi^T, Var(M0)<=min(1/4,1/(a*n))<=min(1/4,2*T/n).",
+      "changed_assumptions": [
+        "kernel restricted to refresh chains"
+      ],
+      "proof_location": "Appendix C, Theorem M3",
+      "dependencies": [
+        "explicit avoidance probabilities",
+        "pairwise nonpositive missing-indicator covariance"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "ad6c67395090a5839dec",
+      "exact_retained_statement": "Does Var(M₀)≤C min{T log(1+n/T)/n, 1} hold universally, replacing T² in Theorem 2?"
+    },
+    {
+      "result_id": "B8-Q854-T2",
+      "programme": "B8",
+      "question": "Q854",
+      "status": "proved",
+      "statement": "For a_n->0, n*a_n->infinity and uniform K_n=floor(n*a_n) states, n*a_n*Var(M0)->exp(-1)*(1-exp(-1)) and a_n*T_n->log(4).",
+      "changed_assumptions": [
+        "kernel restricted to uniform refresh chains"
+      ],
+      "proof_location": "Appendix C, Equation M12 and following limit",
+      "dependencies": [
+        "exact variance formula"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "ad6c67395090a5839dec",
+      "exact_retained_statement": "Does Var(M₀)≤C min{T log(1+n/T)/n, 1} hold universally, replacing T² in Theorem 2?"
+    },
+    {
+      "result_id": "B8-Q855-T1",
+      "programme": "B8",
+      "question": "Q855",
+      "status": "proved",
+      "statement": "For iid data on any countable alphabet and integer 0<=zeta<=n/2, cumulative Good–Turing has MSE <= min(1,22*sqrt(zeta+1)/n).",
+      "changed_assumptions": [
+        "iid submodel; threshold at most n/2, eventually automatic if zeta=o(n)"
+      ],
+      "proof_location": "Appendix C, Theorem M1",
+      "dependencies": [
+        "exact fixed-n diagonal/off-diagonal identities",
+        "binomial point-mass bound"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [
+          "markov_work/cumulative_gt_exact_checks.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "eeea824c340739a51a8d",
+      "exact_retained_statement": "For 1≤ζ=o(n), determine minimax MSE for M_ζ jointly in n,ζ, T. Are O(min{(ζ+1)T log(1+n/T)/n, 1}) and iid O(min{(ζ+1)/n, 1}) sharp?"
+    },
+    {
+      "result_id": "B8-Q855-T2",
+      "programme": "B8",
+      "question": "Q855",
+      "status": "proved",
+      "statement": "Complementary plug-in has iid MSE <=min(1,1/(zeta+1)) and stationary Markov MSE <=min(1,4*T/(zeta+1)); target is exact for zeta>=n.",
+      "changed_assumptions": [],
+      "proof_location": "Appendix C, Theorem M2",
+      "dependencies": [
+        "pointwise Cauchy–Schwarz bound",
+        "empirical L2 variance and TV contraction"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [
+          "markov_work/cumulative_gt_exact_checks.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "eeea824c340739a51a8d",
+      "exact_retained_statement": "For 1≤ζ=o(n), determine minimax MSE for M_ζ jointly in n,ζ, T. Are O(min{(ζ+1)T log(1+n/T)/n, 1}) and iid O(min{(ζ+1)/n, 1}) sharp?"
+    },
+    {
+      "result_id": "B8-Q855-D1",
+      "programme": "B8",
+      "question": "Q855",
+      "status": "disproved",
+      "statement": "There is a universal c>0 such that iid rare-mass minimax risk is at least c*(zeta_n+1)/n eventually for every sequence zeta_n->infinity with zeta_n=o(n).",
+      "changed_assumptions": [
+        "sharpness subclaim interpreted jointly in a growing threshold"
+      ],
+      "proof_location": "Appendix C, consequence of Theorem M1",
+      "dependencies": [
+        "B8-Q855-T1"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "eeea824c340739a51a8d",
+      "exact_retained_statement": "For 1≤ζ=o(n), determine minimax MSE for M_ζ jointly in n,ζ, T. Are O(min{(ζ+1)T log(1+n/T)/n, 1}) and iid O(min{(ζ+1)/n, 1}) sharp?",
+      "counterstatement": "For every such growing-threshold sequence, the ratio of iid minimax risk to (zeta_n+1)/n is at most 22/sqrt(zeta_n+1), which tends to zero."
+    },
+    {
+      "result_id": "B8-Q856-T1",
+      "programme": "B8",
+      "question": "Q856",
+      "status": "proved",
+      "statement": "For each fixed R>=1, the asymptotic minimax constant among unclipped deterministic linear estimators sum_{r=1}^R beta_{r,n} Phi_r is c_GT=0.608036786522882... .",
+      "changed_assumptions": [
+        "fixed R",
+        "deterministic coefficients",
+        "unclipped linear estimator class"
+      ],
+      "proof_location": "Appendix D, fixed finite linear-class theorem",
+      "dependencies": [
+        "uniform-profile Vandermonde identifiability",
+        "Efron–Stein",
+        "source S3 sharp global Good–Turing upper bound"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [
+          "minimax_work/minimax_analysis_output.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "eee2f3c01977fe365b97",
+      "exact_retained_statement": "For iid X₁: n∼p on an unrestricted countable alphabet, let M₀=Σ_xp_x1{N_x=0} and R_n*=inf_Mhat sup_p E_p[(Mhat−M₀)²]. Does lim_n nR_n* exist, and is it c_u=max_{x∈(0, 1]} x e^(−x)(1−e^(−x))²/[1−e^(−x)−x e^(−x)]≈0.570077, the uniform-family constant?"
+    },
+    {
+      "result_id": "B8-Q856-T2",
+      "programme": "B8",
+      "question": "Q856",
+      "status": "proved",
+      "statement": "The specific unrestricted-alphabet estimator in Painsky supplement Eq.G73 differs uniformly from GT by <=2.08*n^(-0.7), so its worst-case risk has the same leading constant c_GT.",
+      "changed_assumptions": [
+        "specific published estimator, not all procedures in that article"
+      ],
+      "proof_location": "Appendix D, JASA estimator comparison",
+      "dependencies": [
+        "source S9 Eq.G73",
+        "uniform perturbation inequality"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [
+          "minimax_work/minimax_analysis_output.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "eee2f3c01977fe365b97",
+      "exact_retained_statement": "For iid X₁: n∼p on an unrestricted countable alphabet, let M₀=Σ_xp_x1{N_x=0} and R_n*=inf_Mhat sup_p E_p[(Mhat−M₀)²]. Does lim_n nR_n* exist, and is it c_u=max_{x∈(0, 1]} x e^(−x)(1−e^(−x))²/[1−e^(−x)−x e^(−x)]≈0.570077, the uniform-family constant?"
+    },
+    {
+      "result_id": "B8-Q858-T1",
+      "programme": "B8",
+      "question": "Q858",
+      "status": "proved",
+      "statement": "For every fixed law on unordered pairs of distinct natural numbers, Var(|V_n|)->infinity implies the exact centered variance-normalized vertex count converges in distribution to N(0,1), with no connectedness assumption.",
+      "changed_assumptions": [],
+      "proof_location": "Appendix B, Sections 2–7",
+      "dependencies": [
+        "read-two inequality",
+        "unit-disc contraction",
+        "coverage zero-free region",
+        "variance-scale cumulants",
+        "countable extension",
+        "fixed-law variance comparison and de-Poissonization"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [
+          "pair_work/finite_check_inputs_outputs.json",
+          "pair_work/finite_check_summary.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "0c3cb5efa6b7fd0651a8",
+      "exact_retained_statement": "For iid unordered pairs E_i of distinct natural numbers with arbitrary fixed law μ, set V_n=∪_{i≤n}E_i. Does Var(|V_n|)→∞ imply (|V_n|−E|V_n|)/sqrt(Var(|V_n|))⇒N(0, 1), without eventual connectedness? This is the loopless countable-support model, without dust."
+    },
+    {
+      "result_id": "B8-Q859-T1",
+      "programme": "B8",
+      "question": "Q859",
+      "status": "proved",
+      "statement": "In the iid submodel, for every sequence zeta_n->infinity with zeta_n=o(n), the minimax MSE of unconditional next-token rare exposure is Theta(zeta_n/n).",
+      "changed_assumptions": [
+        "iid submodel",
+        "growing-threshold regime"
+      ],
+      "proof_location": "Appendix C, Theorem M4",
+      "dependencies": [
+        "B8-Q855-T1",
+        "multinomial negative covariance",
+        "two-group Le Cam family",
+        "uniform binomial local Stirling bound"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "11f05c2567c0a33574c8",
+      "exact_retained_statement": "For a stationary finite-state ergodic Markov trajectory X₁: n+1, let S_ζ=Pr{N_{X_{n+1}}(X₁: n)≤ζ}, an unconditional probability. Determine minimax MSE’s optimal ζ-dependence from X₁: n. Can the leading O((ζ+1)²T/n) bound become O((ζ+1)T/n), where T is a worst-start TV mixing-time bound? Retain Corollary 2’s finite-n bias terms, or state a valid growing-parameter regime. The ζ=0 case is settled."
+    },
+    {
+      "result_id": "B8-Q859-L1",
+      "programme": "B8",
+      "question": "Q859",
+      "status": "proved",
+      "statement": "For r=n/T>=4, L=ceil(log2(r)), tau=T*L, the source estimator has MSE <=min(1,64*(1+L)^2/r^2+4*(zeta+1)^2*L^2/r^2+18*(2*zeta+5)^2/r).",
+      "changed_assumptions": [],
+      "proof_location": "Appendix C, Equation M19",
+      "dependencies": [
+        "source S5 Corollary 2",
+        "TV mixing contraction"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "11f05c2567c0a33574c8",
+      "exact_retained_statement": "For a stationary finite-state ergodic Markov trajectory X₁: n+1, let S_ζ=Pr{N_{X_{n+1}}(X₁: n)≤ζ}, an unconditional probability. Determine minimax MSE’s optimal ζ-dependence from X₁: n. Can the leading O((ζ+1)²T/n) bound become O((ζ+1)T/n), where T is a worst-start TV mixing-time bound? Retain Corollary 2’s finite-n bias terms, or state a valid growing-parameter regime. The ζ=0 case is settled."
+    },
+    {
+      "result_id": "B8-Q859-L2",
+      "programme": "B8",
+      "question": "Q859",
+      "status": "proved",
+      "statement": "For integer 0<=zeta<=n-2, the one-coordinate worst-case Lipschitz constant of cumulative GT is at least (zeta+2)/n; a purely worst-case bounded-differences argument cannot replace its quadratic rarity factor with a linear one.",
+      "changed_assumptions": [
+        "integer 0<=zeta<=n-2",
+        "method limitation, not minimax impossibility"
+      ],
+      "proof_location": "Appendix C, final argument in Section 5",
+      "dependencies": [
+        "explicit count-vector replacement"
+      ],
+      "evidence": {
+        "written_argument": true,
+        "primary_source_comparison": true,
+        "finite_computation": [],
+        "compiled_formal_theorem": false
+      },
+      "formal_verification": {
+        "attempted": false,
+        "compiled": false
+      },
+      "external_peer_review": false,
+      "publication_or_priority_claim": false,
+      "stable_statement_id": "11f05c2567c0a33574c8",
+      "exact_retained_statement": "For a stationary finite-state ergodic Markov trajectory X₁: n+1, let S_ζ=Pr{N_{X_{n+1}}(X₁: n)≤ζ}, an unconditional probability. Determine minimax MSE’s optimal ζ-dependence from X₁: n. Can the leading O((ζ+1)²T/n) bound become O((ζ+1)T/n), where T is a worst-start TV mixing-time bound? Retain Corollary 2’s finite-n bias terms, or state a valid growing-parameter regime. The ζ=0 case is settled."
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "S1",
+      "authors": "Renato Ferreira Pinto Jr.; Nathaniel Harms",
+      "title": "Testing Support Size More Efficiently Than Learning Histograms",
+      "version": "TheoretiCS 5, Article 10, published 21 May 2026; arXiv v4 dated 20 May 2026",
+      "url": "https://theoretics.episciences.org/18250/pdf",
+      "locations": [
+        "Theorem 1.3, p.3",
+        "Section 1.4, p.7",
+        "Appendix C.2, pp.41–42"
+      ],
+      "questions": [
+        "Q851",
+        "Q852"
+      ],
+      "read": "primary full text"
+    },
+    {
+      "id": "S2",
+      "authors": "Ashwin Pananjady; Vidya Muthukumar; Andrew Thangaraj",
+      "title": "Just Wing It: Near-Optimal Estimation of Missing Mass in a Markovian Sequence",
+      "version": "JMLR 25, 2024, 43 pages",
+      "url": "https://jmlr.org/papers/volume25/24-0511/24-0511.pdf",
+      "locations": [
+        "Theorem 1 and Eq.18, pp.10–11",
+        "Theorem 2 and Eq.20, pp.11–12",
+        "Theorem 3 and Eqs.25–27, pp.12–14"
+      ],
+      "questions": [
+        "Q853",
+        "Q854",
+        "Q855"
+      ],
+      "read": "primary full text"
+    },
+    {
+      "id": "S3",
+      "authors": "Jayadev Acharya; Yelun Bao; Yuheng Kang; Ziteng Sun",
+      "title": "Mean Squared Error of Missing Mass Estimation",
+      "version": "author working manuscript, 15 December 2017; associated ISIT 2018 proceedings",
+      "url": "https://people.ece.cornell.edu/acharya/papers/missing-mass-mse.pdf",
+      "locations": [
+        "Section 3, pp.4–6",
+        "Theorems 4–6"
+      ],
+      "questions": [
+        "Q856"
+      ],
+      "read": "primary full text"
+    },
+    {
+      "id": "S4",
+      "authors": "Svante Janson",
+      "title": "On Edge Exchangeable Random Graphs",
+      "version": "Journal of Statistical Physics 173 (2018), 448–484; online 2017",
+      "url": "https://uu.diva-portal.org/smash/get/diva2:1273609/FULLTEXT01.pdf",
+      "locations": [
+        "Problem 6.9, journal p.464 / PDF p.17"
+      ],
+      "questions": [
+        "Q858"
+      ],
+      "read": "primary full text"
+    },
+    {
+      "id": "S5",
+      "authors": "Milind Nakul; Vidya Muthukumar; Ashwin Pananjady",
+      "title": "Next-token functional estimation",
+      "version": "arXiv:2609.19529v1, 17 September 2026",
+      "url": "https://arxiv.org/html/2609.19529v1",
+      "locations": [
+        "Section 4.2 and Corollary 2",
+        "Appendix A.3, Lemma 5"
+      ],
+      "questions": [
+        "Q859"
+      ],
+      "read": "primary full text"
+    },
+    {
+      "id": "S6",
+      "authors": "Milind Nakul; Vidya Muthukumar; Ashwin Pananjady",
+      "title": "Estimating stationary mass, frequency by frequency",
+      "version": "arXiv:2503.12808 / COLT 2025",
+      "url": "https://arxiv.org/abs/2503.12808",
+      "locations": [
+        "problem formulation and main vector-risk theorem"
+      ],
+      "questions": [
+        "Q853",
+        "Q854",
+        "Q855",
+        "Q859"
+      ],
+      "read": "primary setup and principal statements; scope comparison"
+    },
+    {
+      "id": "S7",
+      "authors": "Edward Eriksson",
+      "title": "Edge Exchangeable Graphs: Connectedness, Gaussianity and Completeness",
+      "version": "arXiv:2501.09511v2, revised 6 May 2026",
+      "url": "https://arxiv.org/html/2501.09511v2",
+      "locations": [
+        "Section 4",
+        "Theorem 14",
+        "Proposition 16",
+        "Corollary 18"
+      ],
+      "questions": [
+        "Q858"
+      ],
+      "read": "primary full text"
+    },
+    {
+      "id": "S8",
+      "authors": "Edward Eriksson",
+      "title": "The Unseen Species Problem Revisited",
+      "version": "arXiv:2602.08769v4, revised 9 September 2026",
+      "url": "https://arxiv.org/html/2602.08769v4",
+      "locations": [
+        "footnote 3 and generalized-sampling setup"
+      ],
+      "questions": [
+        "Q858"
+      ],
+      "read": "primary exact scope/status passages"
+    },
+    {
+      "id": "S9",
+      "authors": "Amichai Painsky",
+      "title": "Generalized Good-Turing Improves Missing Mass Estimation: official supplement and implementation",
+      "version": "JASA 118(543), 2023; online 31 January 2022; official Figshare materials",
+      "url": "https://tandf.figshare.com/articles/dataset/Generalized_Good-Turing_Improves_Missing_Mass_Estimation/17308517",
+      "supplement_url": "https://ndownloader.figshare.com/files/31966763",
+      "locations": [
+        "Supplement Appendix G, Eq.G73, p.32",
+        "Eq.G94, pp.38–41"
+      ],
+      "questions": [
+        "Q856"
+      ],
+      "read": "official supplement and implementation; main article paywalled",
+      "license": "CC BY 4.0, verified from official Figshare metadata"
+    },
+    {
+      "id": "S10",
+      "authors": "Gregory Valiant; Paul Valiant",
+      "title": "Instance Optimal Learning",
+      "version": "author manuscript, 10 December 2015",
+      "url": "https://theory.stanford.edu/~valiant/papers/optlearning_arxiv.pdf",
+      "locations": [
+        "Definition 3, pp.6–7",
+        "Theorem 2, p.8"
+      ],
+      "questions": [
+        "Q852"
+      ],
+      "read": "primary definitions and theorem"
+    },
+    {
+      "id": "S11",
+      "authors": "T. D. Lee; C. N. Yang",
+      "title": "Statistical Theory of Equations of State and Phase Transitions. II. Lattice Gas and Ising Model",
+      "version": "Physical Review 87 (1952), 410–419",
+      "url": "https://doi.org/10.1103/PhysRev.87.410",
+      "questions": [
+        "Q858"
+      ],
+      "read": "bibliographic attribution; required special case reproved in Appendix B"
+    },
+    {
+      "id": "S12",
+      "authors": "David Ruelle",
+      "title": "Extension of the Lee–Yang Circle Theorem",
+      "version": "Physical Review Letters 26 (1971), 303–304",
+      "url": "https://doi.org/10.1103/PhysRevLett.26.303",
+      "questions": [
+        "Q858"
+      ],
+      "read": "bibliographic attribution; unit-disc contraction reproved in Appendix B"
+    },
+    {
+      "id": "S13",
+      "authors": "D. Gavinsky; S. Lovett; M. Saks; S. Srinivasan",
+      "title": "A Tail Bound for Read-k Families of Functions",
+      "version": "Random Structures & Algorithms 47 (2015)",
+      "url": "https://www.cs.toronto.edu/tss/files/papers/1205.1478.pdf",
+      "questions": [
+        "Q858"
+      ],
+      "read": "read-k/Finner attribution; read-two lemma reproved in Appendix B"
+    },
+    {
+      "id": "S14",
+      "authors": "Alon Orlitsky; Ananda Theertha Suresh; Yihong Wu",
+      "title": "Optimal prediction of the number of unseen species",
+      "version": "PNAS 113(47), 13283–13288 (2016)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5127330/",
+      "locations": [
+        "Smoothed Good–Toulmin Estimator section"
+      ],
+      "questions": [],
+      "read": "primary estimator definition"
+    },
+    {
+      "id": "S15",
+      "authors": "Lewis Carroll",
+      "title": "Alice's Adventures in Wonderland",
+      "version": "Project Gutenberg ebook 11, downloaded 7 October 2026",
+      "url": "https://www.gutenberg.org/ebooks/11",
+      "text_url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+      "questions": [],
+      "read": "exact raw text and metadata",
+      "license": "Public domain in the USA; full wrapper retained"
+    },
+    {
+      "id": "S16",
+      "authors": "Jane Austen",
+      "title": "Pride and Prejudice",
+      "version": "Project Gutenberg ebook 1342, edition updated 29 September 2026, downloaded 7 October 2026",
+      "url": "https://www.gutenberg.org/ebooks/1342",
+      "text_url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+      "questions": [],
+      "read": "exact raw text and metadata",
+      "license": "Public domain in the USA; full wrapper retained"
+    }
+  ],
+  "reviews": [
+    "root_review.md",
+    "support_audit.md",
+    "pair_independent_audit.md",
+    "support_work/audit_markov.md"
+  ],
+  "formal_verification": {
+    "attempted": false,
+    "compiled": false,
+    "scope": "none"
+  },
+  "experiments": [
+    {
+      "id": "E1",
+      "kind": "exact rational enumeration",
+      "script": "markov_work/check_cumulative_gt.py",
+      "executed": true,
+      "cases": 235,
+      "count_vectors": 2893,
+      "output": "markov_work/cumulative_gt_exact_checks.json"
+    },
+    {
+      "id": "E2",
+      "kind": "controlled stationary simulation",
+      "script": "markov_work/run_controls.py",
+      "executed": true,
+      "seed": 20261007,
+      "trajectories": 4800,
+      "tokens": 16800000,
+      "replicates_per_configuration": 400,
+      "output": "markov_work/controls_summary.json",
+      "full_inputs": "markov_work/inputs_*.npz"
+    },
+    {
+      "id": "E3",
+      "kind": "exact occupancy checks and bounded numerical exploration",
+      "script": "minimax_work/minimax_analysis.py",
+      "executed": true,
+      "exact_cases": 70,
+      "count_vector_visits": 9940,
+      "output": "minimax_work/minimax_analysis_output.json",
+      "optimization_is_certificate": false
+    },
+    {
+      "id": "E4",
+      "kind": "finite pair-graph algebra and numerical roots",
+      "script": "pair_work/verify_pair_clt.py",
+      "executed": true,
+      "graph_models": 829,
+      "fixed_sample_checks": 625,
+      "output": "pair_work/finite_check_inputs_outputs.json",
+      "roots_are_formal_certificate": false
+    },
+    {
+      "id": "E5",
+      "kind": "deterministic chronological prose pilot",
+      "script": "prose_work/prose_pilot.py",
+      "executed": true,
+      "corpora": 2,
+      "tokens": 148782,
+      "training_windows": 18,
+      "evaluations": 54,
+      "output": "prose_work/chronological_results.json",
+      "statistical_independence_claim": false
+    },
+    {
+      "id": "E6",
+      "kind": "independent observed-diversity implementation",
+      "script": "prose_work/diversity_measures.py",
+      "executed": true,
+      "training_windows": 18,
+      "output": "prose_work/observed_diversity.json",
+      "original_prosescan_parity_claim": false
+    }
+  ],
+  "not_executed": [
+    "formal proof compilation",
+    "Q852 polynomial tester implementation",
+    "original unavailable prosescan code",
+    "official Painsky MATLAB optimizer"
+  ]
+}

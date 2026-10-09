@@ -1,0 +1,96 @@
+{
+  "schema": "b3-stirling-continuation-register-v1",
+  "date": "2026-10-07",
+  "evidence_policy": "Complete written proofs, conjectures, adjacent counterexamples, and finite-only evidence are separate. No catalog resolution ledger is changed.",
+  "source_files": [
+    "solutions/b3-2026-10-06/report-extracted.txt",
+    "solutions/b3-2026-10-06/B3_statement_ledger.json",
+    "solutions/b3-continuation-2026-10-07/stirling/REPORT.md",
+    "solutions/b3-continuation-2026-10-07/stirling/checks.py",
+    "solutions/b3-continuation-2026-10-07/stirling/checks.json"
+  ],
+  "definitions": {
+    "C": "C_r(0,0)=1, C_r(n,k)=0 outside 0<=k<=n; C_r(n,k)=(n+(r-1)k-1)_(r-1) C_r(n-1,k-1)+(n+(r-1)k-1) C_r(n-1,k). Falling factorial.",
+    "S": "S_r(0,0)=1, S_r(n,k)=0 outside 0<=k<=n; S_r(n,k)=binom(n+(r-1)k-1,r-1) S_r(n-1,k-1)+k S_r(n-1,k).",
+    "row_polynomials": "c_r,n(x)=sum_k C_r(n,k)x^k; s_r,n(x)=sum_k S_r(n,k)x^k; c_r,0=s_r,0=1.",
+    "hankel_minor": "det(f_(i_a+j_b)(x)) with finite strictly increasing lists I,J of nonnegative integers, equal cardinality.",
+    "coefficientwise_positive_on_support": "Every nonzero coefficient is strictly positive; no missing degree within the specified support interval."
+  },
+  "proved_results": [
+    {
+      "id": "B3-ST-T001",
+      "name": "First principal cycle Hankel determinant",
+      "statement": "For every integer r>=2, det(c_r,i+j(x))_(i,j=0)^2 has support exactly {2,3,4,5,6} and strictly positive coefficients at each of those degrees.",
+      "proof": "REPORT.md: normalization, explicit coefficient expansion and factorial-ratio inequalities; highest coefficient is a positive gamma-product Gram determinant.",
+      "related_question": 1160,
+      "statement_id": "0aded4f0c2d209554604",
+      "catalog_disposition": "partial only",
+      "recovery": "Independently reconstructed from a user-reported lead; stalled continuation artifacts unavailable.",
+      "limitations": "One principal minor; does not prove arbitrary 3x3 or larger Hankel positivity. Publication priority unclaimed. Parent mathematical review and independent symbolic/exact checks completed; see ../audit/PROOF-REVIEW.md."
+    },
+    {
+      "id": "B3-ST-T002",
+      "name": "Leading 3x3 cycle block",
+      "statement": "For every integer r>=2, every nonempty minor of the leading block (c_r,i+j(x))_(i,j=0)^2 is coefficientwise nonnegative and strictly positive throughout its specified nonzero support.",
+      "proof": "REPORT.md corollary gives every distinct 2x2 polynomial explicitly, using the same factorial-ratio inequalities and gamma-product moment minors; 1x1 and 3x3 cases are supplied.",
+      "related_question": 1160,
+      "statement_id": "0aded4f0c2d209554604",
+      "catalog_disposition": "partial only",
+      "limitations": "Leading indices 0,1,2 only; no arbitrary index-set conclusion. Parent mathematical review and independent symbolic/exact checks completed; see ../audit/PROOF-REVIEW.md."
+    }
+  ],
+  "conjectures_and_recovery_targets": [
+    {
+      "id": "B3-ST-C001",
+      "name": "Universal Hankel TN2, both families",
+      "statement": "For every integer r>=1, every 2x2 minor det(f_(i_a+j_b)(x)) with 0<=i_1<i_2 and 0<=j_1<j_2 has nonnegative coefficients, for f=c_r or f=s_r.",
+      "evidence": "User's interrupted agent asserted a proof; those files are unavailable. Reconstructed finite checks cover 23328 minors for r in {1,2,3,4,5,6,8,11,16}, I,J subset {0,...,8}; all passed. Cycle leading 3x3 block is proved separately.",
+      "status": "unverified lead; not recovered as a proof",
+      "novelty": "Cycle part is an order-two subproblem of existing Q1160. The all-r subset version is a separately tracked adjacent question, compatible with the known order-three failures.",
+      "exact_equivalent_form": "It suffices to prove f_m(x) f_(n+1)(x)-f_(m+1)(x) f_n(x) >=_coeff 0 for every 0<=m<n. Any larger-gap 2x2 determinant is a telescoping sum of such expressions at fixed total index; this equivalence does not divide polynomials.",
+      "next_step": "Recover or derive a two-object injection or coefficientwise telescoping recurrence. Triangle TN2 concerns C_r/S_r entries and does not establish this Hankel statement."
+    },
+    {
+      "id": "B3-ST-C002",
+      "name": "Arbitrary cycle Hankel minors of order three",
+      "statement": "For every integer r>=3 and every pair of increasing nonnegative triples I,J, det(c_r,i_a+j_b(x)) has nonnegative coefficients.",
+      "evidence": "Exact first principal minor and entire leading 3x3 block now have an all-r proof; the initial report gives positive extreme coefficients for every cycle Hankel minor.",
+      "status": "open subproblem of Q1160",
+      "novelty": "Research direction within the existing question, not a new independent catalog statement.",
+      "next_step": "Start with I=J=(1,2,3), then unequal index gaps; derive formulas in rising factorials rather than infer a theorem by increasing a cutoff."
+    }
+  ],
+  "counterexamples_and_obstructions": [
+    {
+      "id": "B3-ST-O001",
+      "status": "existing theorem, exact instance recovered",
+      "statement": "The subset minor I=(1,2,3), J=(0,1,2) has negative x^5 coefficient for every integer r>=3, as proved in the initial packet. At r=3 its polynomial is -16x^5+19110x^6+938700x^7+15309000x^8+79380000x^9.",
+      "scope": "Subset Hankel positivity of order three; does not refute cycle Q1160 or Hankel TN2 conjecture C001."
+    },
+    {
+      "id": "B3-ST-O002",
+      "status": "existing obstruction, not recomputed in this continuation",
+      "statement": "Both shifted triangles have negative entries in their ordinary production matrices for every r>=2. Positive column rescaling preserves those signs.",
+      "scope": "Obstructs an unchanged-state ordinary positive-production-matrix proof, not total nonnegativity of the triangles or a larger-state path representation."
+    },
+    {
+      "id": "B3-ST-O003",
+      "status": "not recovered",
+      "statement": "The user's intermediate summary mentions counterexamples to two stronger Schur-positivity claims. Their exact statements, coefficients and artifacts were not supplied, so no such counterexample is asserted here."
+    }
+  ],
+  "finite_only_observations": [
+    {
+      "id": "B3-ST-F001",
+      "statement": "23328 exact 2x2 Hankel minors passed coefficientwise nonnegativity for both families, r in {1,2,3,4,5,6,8,11,16}, and row/column index pairs from {0,...,8}.",
+      "artifact": "checks.json: universal_2x2_lead_finite_controls",
+      "limitation": "Does not recover the user's universal proof claim or settle any exact question."
+    }
+  ],
+  "exact_question_status": {
+    "Q1158": "partial from initial triangle TN2 theorem; no higher-order infinite theorem recovered here",
+    "Q1159": "partial from initial triangle TN2 theorem; no higher-order infinite theorem recovered here",
+    "Q1160": "partial: first complete leading 3x3 cycle block now proved for all integer r>=2; arbitrary minors remain open",
+    "Q1161": "unresolved infinite target; initial finite stability claims not extended or reproduced here"
+  }
+}

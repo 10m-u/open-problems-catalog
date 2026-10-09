@@ -1,0 +1,90 @@
+{
+ "foundation": {
+  "closed_form_vs_quadrature_max_rel": 1.1814651124007392e-14,
+  "eG_minus_K_vs_closed_form_max_rel": 6.336257736352665e-15
+ },
+ "real_r_uniform_split": {
+  "sum_of_squares_identity_max_rel": 6.682547554089174e-13
+ },
+ "signed_pair_equal_data_max_rel": {
+  "p": [
+   1.0,
+   2.0,
+   -1.0
+  ],
+  "p_prime": [
+   -1.0,
+   2.0,
+   1.0
+  ],
+  "air uniform": 8.23916449663245e-16,
+  "ideal mirror uniform": 3.6759397912903985e-15,
+  "mercury uniform (complex r)": 0.006883107658839428,
+  "air with decay": 0.017509924974609813
+ },
+ "reversal_obstruction": {
+  "identity_max_rel": 1.804334998369872e-15,
+  "cases": 200,
+  "min_integral_over_(1-rho)^2_sum_p": 0.14857355377742212
+ },
+ "visible_band_searches": {
+  "air r=0.2, uniform": {
+   "exact_fits": 47,
+   "exact_fits_away_from_truth": 0,
+   "jacobian_condition_min": 34.901495055830445,
+   "jacobian_condition_max": 4.811298180433666e+16
+  },
+  "ideal mirror r=-1, uniform": {
+   "exact_fits": 103,
+   "exact_fits_away_from_truth": 0,
+   "jacobian_condition_min": 30.139213258485224,
+   "jacobian_condition_max": 1.3036951764911336e+17
+  },
+  "mercury r=0.71e^{-148deg}, uniform": {
+   "exact_fits": 119,
+   "exact_fits_away_from_truth": 0,
+   "jacobian_condition_min": 24.028227900680072,
+   "jacobian_condition_max": 517.330727679808
+  },
+  "air, decay tau=2": {
+   "exact_fits": 138,
+   "exact_fits_away_from_truth": 0,
+   "jacobian_condition_min": 15.116915685782914,
+   "jacobian_condition_max": 481.80094743943215
+  },
+  "mercury, decay tau=2": {
+   "exact_fits": 121,
+   "exact_fits_away_from_truth": 0,
+   "jacobian_condition_min": 16.22869399319384,
+   "jacobian_condition_max": 406.79931606905456
+  },
+  "r=0.5e^{60deg}, decay tau=1": {
+   "exact_fits": 111,
+   "exact_fits_away_from_truth": 0,
+   "jacobian_condition_min": 20.20295661312608,
+   "jacobian_condition_max": 480.9044849585982
+  }
+ },
+ "adversarial_pair_min_objective": {
+  "[3, 4] air r=0.2, uniform": 0.001650802859611064,
+  "[3, 4] mercury r=0.71e^{-148deg}, uniform": 0.007844282853100126,
+  "[3, 4] mercury, decay tau=2": 0.0052874104387722,
+  "[3, 4] r=0.5e^{60deg}, decay tau=1": 0.002822452146154049,
+  "[3, 4, 5] air r=0.2, uniform": 3.343985038367872e-05,
+  "[3, 4, 5] mercury r=0.71e^{-148deg}, uniform": 0.004406153903598072,
+  "[3, 4, 5] mercury, decay tau=2": 0.003982952605490856,
+  "[3, 4, 5] r=0.5e^{60deg}, decay tau=1": 0.0006323326623358067,
+  "[4, 5, 6, 7] air r=0.2, uniform": 7.374804344474786e-06,
+  "[4, 5, 6, 7] mercury r=0.71e^{-148deg}, uniform": 0.0007199260360953668,
+  "[4, 5, 6, 7] mercury, decay tau=2": 0.001286152229747235,
+  "[4, 5, 6, 7] r=0.5e^{60deg}, decay tau=1": 0.0001971968004084584,
+  "[2, 4] air r=0.2, uniform": 0.004157398897302214,
+  "[2, 4] mercury r=0.71e^{-148deg}, uniform": 0.02137472978876996,
+  "[2, 4] mercury, decay tau=2": 0.010952492108852659,
+  "[2, 4] r=0.5e^{60deg}, decay tau=1": 0.008561775940441276,
+  "[2, 4, 6] air r=0.2, uniform": 0.0010456762416488365,
+  "[2, 4, 6] mercury r=0.71e^{-148deg}, uniform": 0.0017836949105074342,
+  "[2, 4, 6] mercury, decay tau=2": 0.0030201967999029236,
+  "[2, 4, 6] r=0.5e^{60deg}, decay tau=1": 0.0023398679551266915
+ }
+}

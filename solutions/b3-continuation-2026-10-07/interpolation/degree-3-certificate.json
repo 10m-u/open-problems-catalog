@@ -1,0 +1,137 @@
+{
+  "n": 3,
+  "definition": "Delta_r = det[b_(2*j-i+1)] for F_n(t;x)",
+  "all_coefficients_strictly_positive": true,
+  "determinants": [
+    {
+      "r": 1,
+      "monomial_count": 8,
+      "expected_full_box_count": 8,
+      "minimum_coefficient": "10",
+      "maximum_coefficient": "58",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "55"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "58"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": "37"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": "10"
+        }
+      ]
+    },
+    {
+      "r": 2,
+      "monomial_count": 27,
+      "expected_full_box_count": 27,
+      "minimum_coefficient": "550",
+      "maximum_coefficient": "11888",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "550"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "2255"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": "2002"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": "6124"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": "4121"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": "2002"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": "11888"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": "6124"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": "2255"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": "550"
+        }
+      ]
+    }
+  ]
+}

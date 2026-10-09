@@ -1,0 +1,2494 @@
+===== PAGE 1 =====
+B3: Positivity Certificates for Counting Sequences
+Three complete proofs, structural partial results, and exact reproducible
+diagnostics
+Research prepared for the attached B3 program
+6 October 2026
+Contents
+Findings and scope
+2
+Question register
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+How to read the certificates
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contents of the accompanying package
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+A sharp imaginary-part bound for Stanley-nonnegative polynomials
+5
+Result and exact scope
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+A centered interval lemma
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Proof of the theorem
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Stronger result: the complete nonreal root locus . . . . . . . . . . . . . . . . . . . . . . .
+7
+Low-degree controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Literature verification and novelty qualification . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Q165: an all-length coefficient certificate and a Hurwitz-stability proof
+9
+Statement and the key positive polynomial
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+An exact rational generating function
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Change variables to expose a positive recurrence . . . . . . . . . . . . . . . . . . . . . . .
+10
+The four initial series and positivity
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+From the coefficient certificate to Hurwitz stability . . . . . . . . . . . . . . . . . . . . . .
+12
+Resolution of Q165
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Exact verification and sources
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Q166: A four-functions proof of log-concavity
+14
+General interval-constraint theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Application to forbidden runs of one-parts . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Application to Q164: ordinary log-concavity for path powers . . . . . . . . . . . . . . . . .
+16
+Sources and verification
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Higher-order Stirling positivity: structural results and exact certificates
+18
+Results and scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Every higher-order Stirling triangle is TN of order two . . . . . . . . . . . . . . . . . . . .
+19
+Extreme coefficients of every cycle Hankel minor are positive . . . . . . . . . . . . . . . .
+21
+An all-parameter subset Hankel countercertificate
+. . . . . . . . . . . . . . . . . . . . . .
+23
+Why the direct production-matrix route fails
+. . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Exact computations and reusable certificates . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Next proof targets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Interpolated totally positive sequences and multiplier tests
+27
+A compact exact parameter space for the interpolation questions . . . . . . . . . . . . . .
+27
+1
+
+
+===== PAGE 2 =====
+B3: Positivity certificates
+6 October 2026
+Complete degree-two analysis
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+A proof that R_3=3
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Infinite families giving stronger lower bounds for r_n . . . . . . . . . . . . . . . . . . . . .
+30
+Exact real-root gap witnesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Q1249: a rigorous obstruction to a tempting weakening . . . . . . . . . . . . . . . . . . .
+32
+Reproduction and limitations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Q167: Complete classification in degrees at most four
+34
+Classification and explicit witnesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Preliminary inequalities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Exhaustiveness for n=1,2,3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+The degree-four obstruction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+General obstruction available in every degree . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Sources
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Eulerian recognition, atoms, pattern intervals, and random graphs
+37
+Q1262: a finite recognition theorem for every possible length . . . . . . . . . . . . . . . .
+37
+Q1263: exact symmetric decompositions
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Q2212: exhaustive finite coverage of every numerical monoid . . . . . . . . . . . . . . . .
+39
+Q1366: exact classical-pattern interval controls . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Q2400: a rigorous growing prefix with high probability
+. . . . . . . . . . . . . . . . . . .
+40
+Q183 and Q1454: structural calibrations and remaining gaps
+. . . . . . . . . . . . . . . .
+41
+Sources
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+Exact positivity diagnostic and verification
+43
+Supported inputs
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+Boundary-safe exact methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+Independent verification
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Most useful remaining proof targets
+44
+Findings and scope
+Three of the twenty exact questions have complete proofs: Q165, Q166 and Q325. The
+proofs include stronger statements: strict left-half-plane location of all nonzero path-domination
+roots; weighted log-concavity for binary words under arbitrary interval-sum constraints; and equal-
+ity cases plus the full attainable root locus for Stanley-nonnegative polynomials.
+The remaining work gives several all-parameter partial theorems, complete small-degree classifi-
+cations, exact recognition procedures, and finite certificates. The main additional results are total
+nonnegativity of order two for both higher-order Stirling triangles for every order parameter; positiv-
+ity of both extreme coefficients of every cycle Hankel minor; exact interpolation extrema in degrees
+two and three; an infinite Pell family of s-Eulerian representations; and a growing log-concave prefix
+for sparse random-graph independence counts with an explicit probability bound.
+These are research derivations from the user’s 6 October 2026 handoff. The central proofs were
+independently checked within this research run. Source statements and relevant prior results were
+checked against primary sources. No assertion of publication priority or exhaustive literature cov-
+erage is made. Complete proofs, rather than finite computational agreement, support the three
+completed statements.
+Question register
+2
+
+
+===== PAGE 3 =====
+B3: Positivity certificates
+6 October 2026
+Question
+Strongest result established
+Full target
+Q164
+Weighted ordinary
+log-concavity for every path
+power
+ULC and full cycle case remain
+Q165
+Both parity polynomials
+real-rooted; stronger strict
+Hurwitz theorem after
+removing zero
+Proved
+Q166
+Weighted interval-constraint
+theorem proves every
+forbidden-run composition
+case
+Proved
+Q167
+Complete integer-factor
+coefficient orders through
+degree four
+General degree remains
+Q183
+Real-rootedness for boards
+with at most two rows or
+columns
+General avoidance class
+remains
+Q325
+Sharp imaginary bound,
+equality, and attainable root
+locus
+Proved
+Q1158
+All minors of order at most two,
+every 𝑟≥1
+Orders at least three remain
+Q1159
+All minors of order at most two,
+every 𝑟≥1
+Orders at least three remain
+Q1160
+Highest and lowest nonzero
+coefficient of every Hankel
+minor positive
+Interior coefficients remain
+Q1161
+Exact strict Hurwitz
+certificates after removing
+zero, 1 ≤𝑛≤80
+All lengths remain
+Q1249
+Exact bounded tests and a
+precise obstruction to
+weakening the input class
+Preserver characterization
+remains
+Q1262
+All-length recognition, exact
+exclusions, infinite Pell family
+General structural
+classification remains
+Q1263
+Exact decomposition and
+degree-two gamma formulas
+General interpretation remains
+Q1366
+Every interval with top length
+at most seven passes
+All intervals remain
+Q1441
+𝑟2 = (1 +
+√
+2)/2; lower bounds
+5/4 and 51/40 in infinite
+degree families
+Uniform upper bound remains
+Q1442
+𝑅2 = 2, 𝑅3 = 3; full
+degree-two root locus
+Degrees at least four remain
+Q1443
+Exact example forces every
+universal gap bound to be at
+least √13/5
+Bound below two remains
+Q1454
+Explicit measures and exact
+checks for known calibration
+cases
+General pattern class remains
+Q2212
+Exhaustive over every
+numerical monoid for all
+cutoffs through 22
+Larger cutoffs remain
+3
+
+
+===== PAGE 4 =====
+B3: Positivity certificates
+6 October 2026
+Question
+Strongest result established
+Full target
+Q2400
+Simultaneous prefix of order
+𝑛1/3 with exponentially high
+probability
+Complete row remains
+The machine-readable ledger preserves all twenty original statement IDs and records each scope
+and limitation separately. None of the twenty exact questions was refuted.
+A uniform negative
+coefficient theorem for the related subset Hankel family is included as an adjacent result; Q1160
+concerns the cycle family.
+How to read the certificates
+An all-parameter theorem settles its displayed quantifiers.
+An exact polynomial root certificate
+settles that complete polynomial.
+A factorization of a finite matrix into nonnegative bidiagonal
+matrices settles every minor of that finite matrix. A passed range of unrelated instances remains
+finite evidence for the family.
+This distinction matters especially for Q2400: positive expectations or favorable samples do not
+prove its high-probability limit. The partial random-graph theorem below supplies its own explicit
+probability bound. Likewise, the exact diagnostic never turns missing prefix terms into zeros and
+never uses leading principal minors alone as a semidefinite-matrix criterion.
+Contents of the accompanying package
+The consolidated report contains the mathematical arguments. The archive also contains the indi-
+vidual proof notes, a standalone Python diagnostic, exact certificate data, independent controls, and
+reconstruction scripts. Most scripts use only Python’s standard library. The two additional symbol-
+ic audits use SymPy; the exhaustive atom screen uses C++20. The report’s numerical root-locus
+illustration visualizes an analytic theorem and is not used as its proof.
+4
+
+
+===== PAGE 5 =====
+B3: Positivity certificates
+6 October 2026
+A sharp imaginary-part bound for Stanley-nonnegative polyno-
+mials
+Research derivation, 6 October 2026. Statement Q325, ID 4dda0904c7526b4a8b45.
+Result and exact scope
+For an integer d >= 1, let
+𝑏𝑗(𝑧) = (𝑧+ 𝑑−𝑗
+𝑑
+),
+0 ≤𝑗≤𝑑,
+and let S_d consist of the nonzero polynomials
+𝑓(𝑧) =
+𝑑
+∑
+𝑗=0
+𝑎𝑗𝑏𝑗(𝑧),
+𝑎𝑗≥0.
+Set M_d=b_0+b_d and let B_d be the largest absolute imaginary part of a zero of M_d.
+Theorem. Every zero z of every polynomial in S_d satisfies
+| Im 𝑧| ≤𝐵𝑑.
+For d >= 2, equality holds for at least one zero of f if and only if f is a positive scalar multiple of
+M_d. Every zero attaining equality has real part -1/2.
+This is the exact general bound asked by Braun–Develin’s Conjecture 2.4 and by Q325; it assumes
+no canonical-line condition on the other zeros.
+A centered interval lemma
+Fix y>0 and h>0. Define
+𝐽𝑦,ℎ(𝑐) = ∫
+𝑐+ℎ
+𝑐−ℎ
+𝑦
+𝑡2 + 𝑦2 𝑑𝑡.
+Then J_{y,h} is even and strictly decreases as c increases from zero. Indeed,
+𝐽′
+𝑦,ℎ(𝑐) =
+𝑦
+(𝑐+ ℎ)2 + 𝑦2 −
+𝑦
+(𝑐−ℎ)2 + 𝑦2,
+which is negative for c>0, because (c+h)^2-(c-h)^2=4ch>0. Consequently
+𝐽𝑦,ℎ(𝑐) ≤𝐽𝑦,ℎ(0) = 2 arctan(ℎ/𝑦),
+with equality precisely when c=0.
+Proof of the theorem
+When d=1, f(z)=(a_0+a_1)z+a_0 has a real zero, and M_1(z)=2z+1, so the result is immediate. As-
+sume d>=2.
+For z=x+iy, y>0, define arg(z+r) to be the argument in (0,pi). None of the factors vanish. Define
+real-valued lifted phases
+5
+
+
+===== PAGE 6 =====
+B3: Positivity certificates
+6 October 2026
+Φ𝑗(𝑧) =
+𝑑
+∑
+𝑘=1
+arg(𝑧+ 𝑘−𝑗),
+0 ≤𝑗≤𝑑.
+These are arguments of b_j(z) modulo 2*pi; no reduction modulo 2*pi is made when comparing
+them. Cancellation of the common factors yields
+Φ𝑗+1(𝑧) −Φ𝑗(𝑧) = arg(𝑧−𝑗) −arg(𝑧+ 𝑑−𝑗) > 0.
+(1)
+The strict inequality follows because arg(t+iy) strictly decreases as t increases. Thus all the lifted
+phases lie in the interval [Phi_0,Phi_d].
+Write Theta_d(x,y)=Phi_d-Phi_0. Reordering the terms in the two endpoint sums, without changing
+any individual argument, gives
+Θ𝑑(𝑥, 𝑦) =
+𝑑
+∑
+𝑘=1
+[arg(𝑥+ 1 −𝑘+ 𝑖𝑦) −arg(𝑥+ 𝑘+ 𝑖𝑦)]
+=
+𝑑
+∑
+𝑘=1
+∫
+𝑥+𝑘
+𝑥+1−𝑘
+𝑦
+𝑡2 + 𝑦2 𝑑𝑡.
+(2)
+Every integral in (2) has center x+1/2; the kth has half-width k-1/2. The centered interval lemma
+therefore proves
+Θ𝑑(𝑥, 𝑦) ≤𝐹𝑑(𝑦) ∶= 2
+𝑑
+∑
+𝑘=1
+arctan(𝑘−1/2
+𝑦
+) ,
+(3)
+with strict inequality unless x=-1/2.
+The function F_d(y) is continuous and strictly decreasing on (0,infinity), with limits d*pi as y
+tends to zero and 0 as y tends to infinity. Hence there is a unique beta_d>0 satisfying
+𝐹𝑑(𝛽𝑑) = 𝜋.
+(4)
+If y>beta_d, equations (1)–(4) show that all the lifted phases lie in an interval of length strictly less
+than pi. Multiplication by exp(-i(Phi_0+Phi_d)/2) therefore sends every nonzero complex number
+b_j(z) into the open right half-plane. A nonzero nonnegative linear combination of these numbers
+has strictly positive real part after the same rotation, so it cannot vanish. Thus every f in S_d has
+no zeros with imaginary part greater than beta_d.
+At z_*=-1/2+i beta_d, equation (4) says that the endpoint phases differ by exactly pi. Also
+|𝑏0(𝑧∗)| = |𝑏𝑑(𝑧∗)|,
+because the magnitudes of their factors are, in opposite orders,
+√(𝑘−1/2)2 + 𝛽2
+𝑑,
+1 ≤𝑘≤𝑑.
+Consequently b_0(z_*)+b_d(z_*)=0, so M_d(z_*)=0. We have already proved that no member of S_d,
+including M_d, has a zero with imaginary part greater than beta_d. Since all coefficients are real,
+conjugation handles the lower half-plane as well. It follows that B_d=beta_d, proving the desired
+bound.
+6
+
+
+===== PAGE 7 =====
+B3: Positivity certificates
+6 October 2026
+For equality, suppose f(x+iB_d)=0. If x != -1/2, the strict part of (3) still puts all terms in an open
+half-plane, which is impossible. Thus x=-1/2. Equations (1) and (4) put the phases of all interior
+terms, 1<=j<=d-1, strictly between the two endpoint phases. After rotation, the endpoint terms have
+real part zero and all interior terms have strictly positive real part. Therefore a_j=0 for all interior
+indices. The equal endpoint magnitudes and opposite endpoint directions then force a_0=a_d>0. The
+converse follows from M_d(z_*)=0. This proves the equality assertion.
+Stronger result: the complete nonreal root locus
+For y>0, let Theta_d(x,y) be as in (2). Then
+𝑥+ 𝑖𝑦is a root of some 𝑓∈𝑆𝑑
+⟺
+Θ𝑑(𝑥, 𝑦) ≥𝜋.
+(5)
+The forward direction is already proved by the open-half-plane argument. For the converse, suppose
+Theta_d>=pi. Every successive phase increment in (1) is strictly between 0 and pi. Let m be the
+smallest index such that Phi_m-Phi_0>=pi. Set
+𝛽= Φ𝑚−1 −Φ0,
+𝛾= Φ𝑚−Φ0.
+Minimality and the strict increment bounds give
+0 < 𝛽< 𝜋≤𝛾< 2𝜋,
+0 < 𝛾−𝛽< 𝜋.
+The identity
+sin(𝛾−𝛽) −sin 𝛾𝑒𝑖𝛽+ sin 𝛽𝑒𝑖𝛾= 0
+(6)
+now supplies an explicit SNN polynomial vanishing at the specified point. Take
+𝑎0 =
+sin(𝛾−𝛽)
+|𝑏0(𝑧)|
+,
+𝑎𝑚−1 =
+−sin 𝛾
+|𝑏𝑚−1(𝑧)|,
+𝑎𝑚=
+sin 𝛽
+|𝑏𝑚(𝑧)|,
+and take every other coefficient to be zero. The first and last of these coefficients are strictly positive,
+and the middle one is nonnegative. Multiplying (6) by exp(i Phi_0) proves sum a_j b_j(z)=0. The
+indices are distinct because m>=2.
+Thus every nonreal point in the root locus is realized by at most three binomial-basis terms. When
+the initial crossing occurs exactly at gamma=pi, two suffice. This converse and its explicit witness
+were obtained after independent discussion with the coordinating agent.
+For a computational formula without complex arguments, (2) reads
+𝑑
+∑
+𝑘=1
+[arctan(𝑥+ 𝑘
+𝑦
+) −arctan(𝑥+ 1 −𝑘
+𝑦
+)] = Θ𝑑(𝑥, 𝑦).
+(7)
+Formula (7) uses the ordinary real arctangent in (-pi/2,pi/2) and therefore has no branch ambi-
+guity. Complex conjugation describes the lower-half-plane locus.
+For completeness, the real root locus is precisely [-d,d-1]. Outside this interval all binomial basis
+polynomials have the same strict sign. At an integer in the interval at least one basis polynomial
+vanishes. At a noninteger x in the interval one can choose 0<=j<=d-1 with j-d<x<j; then (x+d-j)/(x-
+j)<0, so b_j(x) and b_{j+1}(x) have opposite signs. A positive combination of this pair vanishes at
+x.
+7
+
+
+===== PAGE 8 =====
+B3: Positivity certificates
+6 October 2026
+Low-degree controls
+• M_1(z)=2z+1, B_1=0.
+• M_2(z)=z^2+z+1, B_2=sqrt(3)/2.
+• M_3(z)=(2z+1)(z^2+z+6)/6, B_3=sqrt(23)/2.
+The companion script verify_interpolation.py computes integer multiples d! M_d exactly, checks
+the endpoint-phase identities numerically as a secondary diagnostic, and verifies these exact low-
+degree formulas. The proof does not depend on these computations.
+Literature verification and novelty qualification
+1. Benjamin Braun and Mike Develin, Ehrhart Polynomial Roots and Stanley’s Non-negativity
+Theorem, arXiv:math/0610399 (2006), primary PDF. Definition 1.2 defines SNN polynomials;
+Conjecture 2.4 is the exact imaginary-part bound above. Their equation (2.2) identifies the
+same value B_d by the arctangent sum in (4). Their discussion notes the degree-two case.
+2. Max Kölbl, Properties of Ehrhart Polynomials Whose Roots Lie on the Canonical Line, Integers
+25 (2025), A68, primary PDF. Conjecture 2 retains the general bound; Section 2 proves it under
+the additional canonical-line hypothesis.
+The derivation above was obtained in this research session. A focused search of these exact conjec-
+ture phrases found no prior general proof. That is a qualified prior-art check, not a guarantee of
+novelty. The mathematical statement and proof should receive further independent review before
+any durable external resolution or publication claim.
+Figure 1: Blue regions are the attainable nonreal roots; the gold segment gives all attainable real
+roots. The dashed lines are the proved sharp bounds. The red points have real part −1/2 and
+imaginary parts ±𝐵𝑑. Numerical contour sampling is illustrative only.
+8
+
+
+===== PAGE 9 =====
+B3: Positivity certificates
+6 October 2026
+Q165:
+an all-length coefficient certificate and a Hurwitz-
+stability proof
+Date: 2026-10-06. Status: complete proof supplied below, with exact symbolic verification in veri-
+fy_q165_certificate.py and independent audits of the formal-series, algebraic, and analytic steps.
+This establishes the stated parity real-rootedness conjecture through the stronger conclusion that
+every nonzero zero of the path domination polynomial lies in the open left half-plane. No claim of
+literature priority is made.
+Statement and the key positive polynomial
+Let
+𝐷0(𝑥) = 1,
+𝐷1(𝑥) = 𝑥,
+𝐷2(𝑥) = 𝑥2+2𝑥,
+𝐷𝑛(𝑥) = 𝑥(𝐷𝑛−1(𝑥)+𝐷𝑛−2(𝑥)+𝐷𝑛−3(𝑥))
+(𝑛≥3).
+These are the domination polynomials of paths. The zero at the origin has multiplicity ⌈𝑛/3⌉: posi-
+tivity of the recurrence coefficients gives 𝑚𝑛= 1+min(𝑚𝑛−1, 𝑚𝑛−2, 𝑚𝑛−3) and the stated formula
+follows from the three initial values. For real 𝑦, define
+𝐹𝑛(𝑦2) = Re(𝐷𝑛(𝑖𝑦)𝐷𝑛−1(−𝑖𝑦)).
+This defines an integer polynomial 𝐹𝑛(𝑧). We prove the following stronger coefficient statement:
+Theorem 1. Every coefficient of every 𝐹𝑛(𝑧) is nonnegative. Moreover 𝐹𝑛(𝑧) > 0 for
+𝑛≥2 and real 𝑧> 0.
+The first values are
+𝐹1 = 0,
+𝐹2 = 2𝑧,
+𝐹3 = 2𝑧+ 𝑧2,
+𝐹4 = 8𝑧2 + 𝑧3,
+𝐹5 = 12𝑧2 + 9𝑧3 + 𝑧4.
+An exact rational generating function
+Put 𝐺(𝑡, 𝑧) = ∑𝑛≥1 𝐹𝑛(𝑧)𝑡𝑛. Then
+𝐺(𝑡, 𝑧) = 𝑁(𝑡, 𝑧)
+𝐷(𝑡, 𝑧),
+(1)
+where
+𝐷(𝑡, 𝑧) = 1 −𝑧(𝑡+ 2𝑡2 + 3𝑡3)
++ 𝑧2(𝑡3 −4𝑡4 + 𝑡5 + 3𝑡6)
+−𝑧3(𝑡5 −𝑡6 −𝑡8 + 𝑡9),
+(2)
+and
+𝑁(𝑡, 𝑧) = 𝑡2𝑧(2 + 2𝑡−𝑡𝑧+ 2𝑡2𝑧+ 2𝑡3𝑧−3𝑡4𝑧
++ 𝑡3𝑧2 −𝑡4𝑧2 + 𝑡5𝑧2 −2𝑡6𝑧2 + 𝑡7𝑧2).
+(3)
+Here is a finite exact derivation of this identity. Set
+9
+
+
+===== PAGE 10 =====
+B3: Positivity certificates
+6 October 2026
+𝑇(𝑥) = (
+𝑥
+𝑥
+𝑥
+1
+0
+0
+0
+1
+0
+) ,
+𝐾= 𝑇(𝑥) ⊗𝑇(−𝑥).
+For 𝑛≥2, the product vector of (𝐷𝑛(𝑥), 𝐷𝑛−1(𝑥), 𝐷𝑛−2(𝑥)) and its evaluation at −𝑥evolves by 𝐾.
+Its symmetric (0, 1), (1, 0) component is 𝐹𝑛(−𝑥2). Direct determinant expansion gives
+det(𝑞𝐼−𝐾) = 𝑞9 + 𝑥2𝑞8 + 2𝑥2𝑞7 + (𝑥4 + 3𝑥2)𝑞6 −4𝑥4𝑞5
++ (𝑥6 + 𝑥4)𝑞4 + (−𝑥6 + 3𝑥4)𝑞3 −𝑥6𝑞+ 𝑥6.
+Reversing this characteristic polynomial and substituting 𝑥2 = −𝑧gives (2).
+Cayley–Hamilton
+makes its recurrence valid for 𝐹𝑛at 𝑛≥11.
+Multiplying the initial series through 𝐹10 by (2)
+gives exactly (3), with zero coefficient of 𝑡10. This proves (1); it is not a guessed recurrence from
+finite data. The verification script reconstructs both the determinant and the initial multiplication
+independently.
+Change variables to expose a positive recurrence
+Use the monomial change
+𝑤= 𝑧𝑡3,
+𝑢= 𝑡−1.
+Write 𝐻(𝑤, 𝑢) =̃ 𝑁(𝑤, 𝑢)/̃𝐷(𝑤, 𝑢) for the rational function obtained from (1). The numerator and
+denominator becomẽ
+𝐷= (1 −𝑤)3 −𝑢𝑤(1 −𝑤)(𝑤+ 2) −𝑢2𝑤(1 + 4𝑤)
++ 𝑢3𝑤2(1 + 𝑤) −𝑢4𝑤3,
+(4)̃
+𝑁= 𝑤(1 −𝑤)(2 −𝑤) + 2𝑢𝑤(1 + 𝑤−𝑤2) + 𝑢2𝑤2(2 + 𝑤)
+−𝑢3𝑤2(1 + 𝑤) + 𝑢4𝑤3.
+(5)
+The occurrence of 𝑡−1 causes no formal-series ambiguity. Every monomial 𝑤𝑗𝑢𝑟iñ 𝑁and iñ 𝐷−
+1 satisfies 𝑗≥1 and 0 ≤𝑟≤2𝑗.
+This cone is closed under multiplication, so the geometric
+inverse 1/̃𝐷, and hence 𝐻, are supported in the same cone (with a possible constant for the inverse).
+Mapping such a monomial back gives 𝑧𝑗𝑡3𝑗−𝑟, whose 𝑡-degree is at least 𝑗. There are only finitely
+many contributing pairs for any fixed 𝑡-degree. Consequently this substitution defines a legitimate
+series map, and the resulting series is (1) by uniqueness of the inverse of 𝐷(𝑡, 𝑧). It will therefore
+suffice to prove that every coefficient of 𝐻(𝑤, 𝑢) is nonnegative.
+Normalize (4) by (1 −𝑤)3, and multiply both numerator and denominator by
+1 + 𝜌𝑢,
+𝜌=
+𝑤
+1 + 𝑤.
+Although 𝜌itself has alternating coefficients, the resulting denominator is
+1 −𝛼𝑢−𝛽𝑢2 −𝛾𝑢3 −𝜂𝑢5,
+(6)
+where
+10
+
+
+===== PAGE 11 =====
+B3: Positivity certificates
+6 October 2026
+𝛼=
+𝑤(1 + 5𝑤)
+(1 −𝑤)(1 −𝑤2),
+𝛽= 𝑤(1 + 4𝑤)
+(1 −𝑤)3 +
+𝑤2(𝑤+ 2)
+(1 −𝑤)(1 −𝑤2),
+𝛾=
+𝑤3(2 −𝑤)
+(1 −𝑤)2(1 −𝑤2),
+𝜂=
+𝑤4
+(1 −𝑤)2(1 −𝑤2).
+(7)
+All four are nonnegative coefficientwise as power series in 𝑤. The only slightly nonobvious case
+follows from
+2 −𝑤
+(1 −𝑤)2 = ∑
+𝑗≥0
+(𝑗+ 2)𝑤𝑗.
+Let the transformed numerator be
+𝑀(𝑤, 𝑢) =̃ 𝑁(𝑤, 𝑢)(1 + 𝜌𝑢)
+(1 −𝑤)3
+.
+It has degree at most five in 𝑢, and
+[𝑢4]𝑀= 0,
+[𝑢5]𝑀= 𝜂.
+(8)
+Indeed, before division by (1 −𝑤)3, its 𝑢4 coefficient is 𝑤3 −𝜌𝑤2(1 + 𝑤) = 0, and its 𝑢5 coefficient
+is 𝜌𝑤3.
+The four initial series and positivity
+Expand 𝐻(𝑤, 𝑢) = ∑𝑟≥0 𝑔𝑟(𝑤)𝑢𝑟. Division of (5) by (4) gives
+𝑔0 = 𝑤(2 −𝑤)
+(1 −𝑤)2 ,
+𝑔1 = 𝑤(𝑤3 −4𝑤2 + 4𝑤+ 2)
+(1 −𝑤)4
+,
+𝑔2 = 𝑤2(3𝑤3 −12𝑤2 + 10𝑤+ 8)
+(1 −𝑤)6
+,
+𝑔3 = 𝑤2(1 + 28𝑤+ 28𝑤2 −43𝑤3 + 14𝑤4 −𝑤5)
+(1 −𝑤)8
+.
+(9)
+The signed numerators do not obstruct coefficient positivity.
+Their coefficients are explicitly as
+follows. For 𝑗≥1,
+[𝑤𝑗]𝑔0 = 𝑗+ 1,
+[𝑤𝑗]𝑔1 = (𝑗+ 1)(𝑗2 + 3𝑗−2)
+2
+.
+(10)
+Their constant coefficients are zero. For 𝑚≥0,
+11
+
+
+===== PAGE 12 =====
+B3: Positivity certificates
+6 October 2026
+[𝑤𝑚+2]𝑔2 = (𝑚+ 1)(𝑚+ 2)(9𝑚3 + 133𝑚2 + 538𝑚+ 480)
+120
+,
+(11)
+[𝑤𝑚+2]𝑔3 = (𝑚+ 1)(𝑚+ 2)(9𝑚5 + 211𝑚4 + 1575𝑚3 + 4163𝑚2 + 3282𝑚+ 840)
+1680
+.
+(12)
+The coefficients of degrees zero and one in 𝑔2, 𝑔3 are zero. These formulas follow directly by expand-
+ing (1−𝑤)−𝑘, and are exact polynomial identities. In particular all four initial series are nonnegative
+coefficientwise.
+Equations (6)–(8), with 𝑔𝑟= 0 for 𝑟< 0, now imply
+𝑔4 = 𝛼𝑔3 + 𝛽𝑔2 + 𝛾𝑔1,
+𝑔5 = 𝛼𝑔4 + 𝛽𝑔3 + 𝛾𝑔2 + 𝜂𝑔0 + 𝜂,
+and, for every 𝑟≥6,
+𝑔𝑟= 𝛼𝑔𝑟−1 + 𝛽𝑔𝑟−2 + 𝛾𝑔𝑟−3 + 𝜂𝑔𝑟−5.
+(13)
+Induction proves that every 𝑔𝑟is nonnegative coefficientwise. The justified series substitution in
+Section 3 proves the nonnegativity in Theorem 1. Finally 𝐹2 = 2𝑧, while [𝑧𝑛−1]𝐹𝑛= 1 for 𝑛≥3:
+the latter follows by using the top two terms 𝐷𝑛(𝑥) = 𝑥𝑛+ 𝑛𝑥𝑛−1 + ⋯and 𝐷𝑛−1(𝑥) = 𝑥𝑛−1 + (𝑛−
+1)𝑥𝑛−2 + ⋯. Thus 𝐹𝑛(𝑧) > 0 for 𝑛≥2, 𝑧> 0. This completes the proof of Theorem 1.
+From the coefficient certificate to Hurwitz stability
+Theorem 2. For every 𝑛≥1, all nonzero zeros of 𝐷𝑛have strictly negative real part.
+The cases 𝑛= 1, 2 are immediate. Assume the conclusion holds for 𝐷𝑛−1 and let
+𝑅𝑛(𝑥) =
+𝐷𝑛(𝑥)
+𝐷𝑛−1(𝑥).
+There are no poles in the closed right half-plane. At the origin the quotient has a removable sin-
+gularity because the zero multiplicities ⌈𝑛/3⌉are nondecreasing. Its removable value there is non-
+negative: either zero, or a ratio of positive lowest coefficients. At all other points of the imaginary
+axis,
+Re 𝑅𝑛(𝑖𝑦) =
+𝐹𝑛(𝑦2)
+|𝐷𝑛−1(𝑖𝑦)|2 > 0.
+For 𝑛≥3, polynomial division at infinity gives 𝑅𝑛(𝑥) = 𝑥+ 1 + 𝑂(1/𝑥). On a sufficiently large
+right semicircle, therefore, Re 𝑅𝑛(𝑥) > 0. The minimum principle for the harmonic function Re 𝑅𝑛,
+applied on the corresponding right half-disk, gives nonnegativity in its interior; the strong minimum
+principle gives strict positivity there, since this harmonic function is not constant. Taking arbitrarily
+large radii proves strict positivity throughout the open right half-plane. The quotient consequently
+has no zeros there; its strictly positive real part on the nonzero imaginary axis also excludes such
+boundary zeros. Induction proves Theorem 2.
+12
+
+
+===== PAGE 13 =====
+B3: Positivity certificates
+6 October 2026
+Resolution of Q165
+Write 𝐷𝑛(𝑥) = 𝑥𝑚𝑃𝑛(𝑥), with 𝑚= ⌈𝑛/3⌉. By Theorem 2 the polynomial 𝑃𝑛is strictly Hurwitz
+stable and has positive coefficients. The classical Hermite–Biehler theorem implies that its even
+and odd component polynomials have only negative real roots, with the usual harmless constant or
+zero component in the smallest cases.
+Restoring the factor 𝑥𝑚only adds zero roots and possibly interchanges the two components. Ex-
+plicitly, if 𝑃𝑛(𝑥) = 𝐸(𝑥2) + 𝑥𝑂(𝑥2), then for 𝑚= 2𝑎the parity components of 𝐷𝑛are 𝑥𝑎𝐸(𝑥)
+and 𝑥𝑎𝑂(𝑥); for 𝑚= 2𝑎+ 1 they are 𝑥𝑎+1𝑂(𝑥) and 𝑥𝑎𝐸(𝑥). Therefore both polynomials in Q165
+have only real nonpositive roots. The identically zero component of 𝐷1 = 𝑥is interpreted in the
+conventional degenerate sense; every nonzero parity component satisfies the assertion literally.
+Exact verification and sources
+verify_q165_certificate.py verifies the transfer characteristic polynomial,
+the generating-
+function numerator, the transformed denominator, the two numerator tail identities, the four
+initial rational functions, and the coefficient formulas by exact symbolic algebra. It also checks
+the rational generating-function identity against independently generated 𝐹𝑛through 𝑛= 40.
+These finite checks audit the displayed proof identities; the all-length conclusion follows from
+Cayley–Hamilton and the positive recurrence (13).
+Primary sources used for background, not for the new displayed certificate:
+• Yufei Zhang, Some Combinatorial Problems Involving Total Non-Negativity and Unimodality,
+printed pp. 82–83, Conjecture 5.1.4: https://ndownloader.figshare.com/files/54098216 .
+• Galvin–Zhang, arXiv:2408.12731, path domination recurrence: https://arxiv.org/html/2408.12
+731v1 .
+• Brown–Cameron, On the Stability of Independence Polynomials, arXiv:1802.02478, Theorem
+2.1 (PDF p. 4), for the even/odd form of Hermite–Biehler: https://arxiv.org/pdf/1802.02478 .
+This proof supersedes the earlier unresolved-status note q165-hurwitz-route.md, whose bounded
+checks remain valid provenance.
+13
+
+
+===== PAGE 14 =====
+B3: Positivity certificates
+6 October 2026
+Q166: A four-functions proof of log-concavity
+Date: 2026-10-06.
+Status: structural proof, independently audited by the root research agent;
+prior-art status unclaimed. The proof establishes the exact conjecture stated in the handoff, for
+every positive integer 𝑛and every integer ℓ≥2. It also establishes a weighted strengthening and
+ordinary log-concavity for all powers of paths (a weaker property than the ULC requested in Q164).
+General interval-constraint theorem
+Let 𝑚≥0. Fix any collection of integer bounds
+𝐿𝑎𝑏≤
+𝑏
+∑
+𝑖=𝑎+1
+𝑢𝑖≤𝑈𝑎𝑏,
+0 ≤𝑎< 𝑏≤𝑚,
+where 𝑢is a binary word of length 𝑚. Either bound may be absent. Let ℱbe the set of words
+satisfying all bounds, and write
+𝑓𝑡= # {𝑢∈ℱ∶∑
+𝑖
+𝑢𝑖= 𝑡} ,
+with 𝑓𝑡= 0 outside [0, 𝑚]. Then
+𝑓2
+𝑡≥𝑓𝑡−1𝑓𝑡+1
+for every integer 𝑡. More generally, for arbitrary nonnegative weights 𝑤1, … , 𝑤𝑚,
+𝑓𝑡(𝑤) =
+∑
+𝑢∈ℱ
+∑𝑖𝑢𝑖=𝑡
+𝑚
+∏
+𝑖=1
+𝑤𝑢𝑖
+𝑖
+is log-concave in 𝑡. This is a numerical statement for all nonnegative choices of the weights; no
+claim of coefficientwise log-concavity is made here.
+Proof, unweighted case
+Represent 𝑢by its prefix-height vector ℎ= (ℎ0, … , ℎ𝑚), where ℎ0 = 0 and ℎ𝑗= ∑
+𝑗
+𝑖=1 𝑢𝑖. The
+binary restrictions become
+ℎ𝑖−1 ≤ℎ𝑖≤ℎ𝑖−1 + 1.
+Every interval restriction is a pair of difference inequalities ℎ𝑏≤ℎ𝑎+ 𝑈𝑎𝑏and ℎ𝑎≤ℎ𝑏−𝐿𝑎𝑏.
+Let 𝐾be the set of all integer vectors satisfying these difference inequalities, with ℎ0 free. The set
+𝐾is invariant under uniform integer translation, ℎ↦ℎ+𝑐1. It is also closed under coordinatewise
+minimum and maximum. Indeed, if 𝑥𝑏≤𝑥𝑎+ 𝑐and 𝑦𝑏≤𝑦𝑎+ 𝑐, monotonicity of minimum gives
+min(𝑥𝑏, 𝑦𝑏) ≤min(𝑥𝑎+ 𝑐, 𝑦𝑎+ 𝑐) = min(𝑥𝑎, 𝑦𝑎) + 𝑐,
+and the identical argument with maximum proves closure under maximum.
+Apply this to every
+difference inequality.
+Let
+14
+
+
+===== PAGE 15 =====
+B3: Positivity certificates
+6 October 2026
+𝐻𝑡= {ℎ∈𝐾∶ℎ0 = 0, ℎ𝑚= 𝑡}.
+These are the prefix-height versions of the rank-𝑡words, so |𝐻𝑡| = 𝑓𝑡. Fix 1 ≤𝑡≤𝑚−1 and form
+the finite sets
+𝐴= 𝐻𝑡−1 + 1,
+𝐵= 𝐻𝑡+1.
+For every 𝑎∈𝐴and 𝑏∈𝐵, coordinatewise meet and join are in 𝐾. Their endpoint values are
+(𝑎∧𝑏)0 = 0,
+(𝑎∧𝑏)𝑚= 𝑡,
+(𝑎∨𝑏)0 = 1,
+(𝑎∨𝑏)𝑚= 𝑡+ 1.
+Consequently,
+𝐴∧𝐵⊆𝐻𝑡,
+𝐴∨𝐵⊆𝐻𝑡+ 1.
+All four sets lie in the finite product lattice {0, … , 𝑚+1}𝑚+1. The cardinality case of the Ahlswede–
+Daykin four-functions theorem gives
+|𝐴| |𝐵| ≤|𝐴∧𝐵| |𝐴∨𝐵| ≤|𝐻𝑡|2,
+which is the required inequality.
+Boundary inequalities are automatic because the out-of-range
+terms are zero. This argument does not assert that taking meet and join is an injection on ordered
+pairs; the four-functions theorem supplies precisely the counting inequality that replaces that in-
+valid assertion.
+Weighted extension
+First suppose every 𝑤𝑖is positive, and on the finite product lattice define
+𝑊(ℎ) =
+𝑚
+∏
+𝑖=1
+𝑤ℎ𝑖−ℎ𝑖−1
+𝑖
+.
+The weight 𝑊is invariant under uniform translation, and
+𝑊(𝑎)𝑊(𝑏) = 𝑊(𝑎∧𝑏)𝑊(𝑎∨𝑏),
+because coordinatewise 𝑎+ 𝑏= (𝑎∧𝑏) + (𝑎∨𝑏). Apply the weighted four-functions theorem to the
+four functions 𝑊times the indicators of 𝐴, 𝐵, 𝐻𝑡, and 𝐻𝑡+ 1. Their pointwise product inequality
+follows from the displayed identity and the two set inclusions above. Summation gives
+𝑓𝑡−1(𝑤)𝑓𝑡+1(𝑤) ≤𝑓𝑡(𝑤)2.
+Taking limits of positive weights at any zero-weight positions proves the nonnegative case by conti-
+nuity.
+Application to forbidden runs of one-parts
+A composition of 𝑛into 𝑘positive parts corresponds uniquely to a set of 𝑘−1 cuts among the 𝑛−1
+internal positions 1, … , 𝑛−1. Write 𝑐𝑖= 1 if there is a cut at 𝑖and 𝑐𝑖= 0 otherwise, and adjoin the
+two fixed boundary cuts 𝑐0 = 𝑐𝑛= 1.
+There are ℓconsecutive parts equal to 1 exactly when there is some 𝑖with 0 ≤𝑖≤𝑛−ℓfor which
+15
+
+
+===== PAGE 16 =====
+B3: Positivity certificates
+6 October 2026
+𝑐𝑖= 𝑐𝑖+1 = ⋯= 𝑐𝑖+ℓ= 1.
+There are ℓ+ 1 cuts in this display because ℓunit parts have ℓ+ 1 endpoints. Thus the avoidance
+condition is exactly
+𝑖+ℓ
+∑
+𝑗=𝑖
+𝑐𝑗≤ℓ
+for every 0 ≤𝑖≤𝑛−ℓ.
+For each such interval subtract the contribution of the fixed boundary cuts. The resulting constraint
+is an upper bound on the sum of the internal cut indicators in an interval of {1, … , 𝑛−1}. The general
+theorem applies with 𝑚= 𝑛−1 and 𝑡= 𝑘−1, proving
+𝐴ℓ(𝑛, 𝑘)2 ≥𝐴ℓ(𝑛, 𝑘−1)𝐴ℓ(𝑛, 𝑘+ 1).
+If 𝑛< ℓthere are no avoidance constraints and the usual binomial composition sequence is recov-
+ered. If 𝑛= ℓ, the window from 0 to 𝑛forbids precisely the all-ones composition. If 𝑛= 1, the
+single composition (1) is allowed because ℓ≥2, and the one-term sequence is log-concave. For
+𝑛= 𝑘, the all-ones composition is allowed if and only if 𝑛< ℓ, as required. No exceptional boundary
+formula is imported from the thesis.
+The weighted extension allows an arbitrary nonnegative multiplicative weight for each internal cut
+position. It does not require a common ℓ: one can forbid independently specified runs located in
+specified intervals, or impose other upper or lower bounds on cut counts in intervals.
+Application to Q164: ordinary log-concavity for path powers
+A dominating set 𝐷in 𝑃ℓ
+𝑛is represented by 𝑑𝑖= 1{𝑖∈𝐷}. It is dominating exactly when
+min(𝑛,𝑖+ℓ)
+∑
+𝑗=max(1,𝑖−ℓ)
+𝑑𝑗≥1
+for every 𝑖= 1, … , 𝑛.
+These are interval lower bounds. The general theorem therefore proves that the domination coef-
+ficient sequence of 𝑃ℓ
+𝑛is log-concave for all 𝑛and ℓ, and remains log-concave when every vertex
+receives an arbitrary fixed nonnegative multiplicative weight.
+The same argument applies to the dominating sets of any graph equipped with a vertex ordering
+in which each closed neighborhood is an interval, or more generally to hitting sets of any interval
+hypergraph. It does not by itself prove ultra-log-concavity after division by (𝑛
+𝑘), and the circular-
+neighborhood constraints for a cycle are not all single intervals in one linear order. Accordingly,
+Q164 remains open in its stated full strength in this report.
+Sources and verification
+• Yufei Zhang, Some Combinatorial Problems Involving Total Non-Negativity and Unimodality,
+Notre Dame dissertation, 2025. Conjecture 5.1.7 on printed p. 86 is Q166. Definition/sequence
+convention for Q167 is on pp. 91–92. https://ndownloader.figshare.com/files/54098216 ;
+institutional landing page https://curate.nd.edu/articles/thesis/Some_Combinatorial_Problem
+s_Involving_Total_Non-Negativity_and_Unimodality/28786115 .
+• Rudolf Ahlswede and David E. Daykin, An Inequality for the Weights of Two Families of Sets,
+Their Unions and Intersections, Z. Wahrscheinlichkeitstheorie verw. Gebiete 43 (1978), 183–
+185. Theorem 1 and the immediate distributive-lattice corollary on the first page. Primary
+author-hosted PDF: https://www.math.uni-bielefeld.de/ahlswede/homepage/public/30.pdf .
+16
+
+
+===== PAGE 17 =====
+B3: Positivity certificates
+6 October 2026
+• David Galvin and Yufei Zhang, The domination polynomial of powers of paths and cycles, arX-
+iv:2408.12731, 2024. https://arxiv.org/html/2408.12731v1 . The paper establishes unimodality
+and states the ULC conjecture; the present proof strengthens its path portion to ordinary log-
+concavity but does not prove that full conjecture.
+• Mathlib’s independently formalized four-functions theorem and cardinality corollary document
+the exact form used above: https://leanprover-community.github.io/mathlib4_docs/Mathli
+b/Combinatorics/SetFamily/FourFunctions.html . This is corroboration, not the primary
+mathematical source.
+The decisive result is the proof. Finite checks are separate implementation controls and are record-
+ed in q166-controls.json after execution of verify_q166.py.
+17
+
+
+===== PAGE 18 =====
+B3: Positivity certificates
+6 October 2026
+Higher-order Stirling positivity: structural results and exact
+certificates
+Date: 2026-10-06.
+Results and scope
+The four assigned B3 targets retain their full infinite conjectures. The following all-parameter re-
+sults substantially restrict what a counterexample could look like.
+Target
+Structural result established
+here
+Remaining question
+Q1158: total nonnegativity of
+the cycle triangle
+Every minor of order at most
+two is nonnegative, for every
+integer r ≥1.
+Minors of order at least three.
+Q1159: total nonnegativity of
+the subset triangle
+Every minor of order at most
+two is nonnegative, for every
+integer r ≥1.
+Minors of order at least three.
+Q1160: coefficientwise Hankel
+positivity of cycle rows
+For every r ≥2 and every
+Hankel minor, its
+highest-degree coefficient and
+its lowest nonzero coefficient
+are strictly positive. Their
+degrees are explicit.
+The coefficients strictly
+between those two degrees.
+Q1161: third-order
+left-half-plane stability
+Exact Routh certificates for
+both families, every n from 1
+through 80. After the simple
+zero at zero is removed, every
+remaining root lies in the open
+left half-plane.
+An all-n proof.
+There is also an all-parameter negative certificate for the related subset Hankel question, Deb–
+Sokal Conjecture 1.4(d): a single specified 3 × 3 minor has a negative coefficient for every r ≥
+3. This is adjacent to Q1160 but is not one of the twenty exact B3 statement IDs. It must not be
+reported as a disproof of Q1160.
+The proofs below are mathematical certificates. The bounded calculations later in this report certify
+their stated finite instances and do not extend their bounds by inference.
+Sources and status qualification
+The definitions and recurrence are supplied in the user attachment and in Deb–Sokal, arX-
+iv:2507.18959, Lemma 1.1. The source identifies Q1158–Q1160 as parts of Conjectures 1.3–1.4
+and Q1161 as Conjectures 7.5 and 7.7. Appendix C already reports triangle tests through 70 × 70
+for r = 2,…,10; cycle Hankel tests reach 11 × 11 for r = 3,…,7 and 10 × 10 for r = 8,9,10. Section
+7 uses numerical zero plots at n = 50,100,150,200. No later resolution of these exact four targets
+was located in the focused searches performed for this report; this is not an exhaustive literature
+certification.
+A manuscript dated 2 September 2026 by Carptopus already states log-concavity of the normalized
+cycle rows used below. The short proof needed here is independently reproduced in full. Its much
+longer claims about other log-concavity cases are not relied upon. No claim of first publication is
+made for the present consequences.
+18
+
+
+===== PAGE 19 =====
+B3: Positivity certificates
+6 October 2026
+Definitions
+Write p = r−1. For A equal to C or S, let A(n,k) denote the higher-order, column-shifted triangle
+from the handoff. Thus A(0,0)=1; other entries outside 0≤k≤n vanish; and, for n≥1,
+𝐶(𝑛, 𝑘) = (𝑛+ 𝑝𝑘−1)𝑝𝐶(𝑛−1, 𝑘−1) + (𝑛+ 𝑝𝑘−1)𝐶(𝑛−1, 𝑘),
+𝑆(𝑛, 𝑘) = (𝑛+ 𝑝𝑘−1)𝑝
+𝑝!
+𝑆(𝑛−1, 𝑘−1) + 𝑘𝑆(𝑛−1, 𝑘).
+The falling factorial of order zero equals one. Entries with 1≤k≤n are strictly positive. Define
+𝑐𝑟,𝑛(𝑥) = ∑
+𝑘
+𝐶(𝑛, 𝑘)𝑥𝑘,
+𝑠𝑟,𝑛(𝑥) = ∑
+𝑘
+𝑆(𝑛, 𝑘)𝑥𝑘.
+All matrix row and column indices below are these shifted indices, not the original sizes of the
+underlying permutations or partitions.
+Every higher-order Stirling triangle is TN of order two
+2.1 An elementary preservation lemma
+Let (x_k) be a nonnegative log-concave sequence with no internal zeros, extended by zero outside
+its support. Suppose c_k,d_k are nonnegative, log-concave on the indices needed, and satisfy
+2𝑐𝑘𝑑𝑘≥𝑐𝑘−1𝑑𝑘+1 + 𝑐𝑘+1𝑑𝑘−1.
+(2.1)
+Then y_k=d_kx_k+c_kx_{k-1} is log-concave.
+Proof. Expansion gives
+𝑦2
+𝑘−𝑦𝑘−1𝑦𝑘+1 = 𝑑2
+𝑘𝑥2
+𝑘−𝑑𝑘−1𝑑𝑘+1𝑥𝑘−1𝑥𝑘+1
++ 𝑐2
+𝑘𝑥2
+𝑘−1 −𝑐𝑘−1𝑐𝑘+1𝑥𝑘−2𝑥𝑘
++ (2𝑐𝑘𝑑𝑘−𝑑𝑘−1𝑐𝑘+1)𝑥𝑘−1𝑥𝑘−𝑐𝑘−1𝑑𝑘+1𝑥𝑘−2𝑥𝑘+1.
+Log-concavity implies x_k²≥x_{k−1}x_{k+1}, x_{k−1}²≥x_{k−2}x_k, and x_{k−1}x_k≥x_{k−2}x_{k+1}.
+The last inequality follows by chaining the decreasing adjacent ratios on the positive support; it
+also holds at the zero boundaries. Consequently the displayed difference is at least
+(𝑑2
+𝑘−𝑑𝑘−1𝑑𝑘+1)𝑥2
+𝑘+ (𝑐2
+𝑘−𝑐𝑘−1𝑐𝑘+1)𝑥2
+𝑘−1 + (2𝑐𝑘𝑑𝑘−𝑑𝑘−1𝑐𝑘+1 −𝑐𝑘−1𝑑𝑘+1)𝑥𝑘−1𝑥𝑘,
+which is nonnegative. □
+This is the elementary log-concavity criterion commonly attributed to Sagan; the proof above sup-
+plies all that is used.
+2.2 Normalized rows are log-concave for every r
+For either triangle define
+𝐻(𝑛, 𝑘) = 𝑘! 𝐴(𝑛, 𝑘)
+(𝑛+ 𝑝𝑘)! .
+(2.2)
+For a fixed recurrence step n, put N=n+pk. Direct factorial cancellation gives
+19
+
+
+===== PAGE 20 =====
+B3: Positivity certificates
+6 October 2026
+𝐻𝐶(𝑛, 𝑘) = 𝑁−1
+𝑁
+𝐻𝐶(𝑛−1, 𝑘) + 𝑘
+𝑁𝐻𝐶(𝑛−1, 𝑘−1),
+(2.3)
+𝐻𝑆(𝑛, 𝑘) = 𝑘
+𝑁(𝐻𝑆(𝑛−1, 𝑘) + 1
+𝑝!𝐻𝑆(𝑛−1, 𝑘−1)) .
+(2.4)
+To apply the lemma to (2.3), use c_k=k/N and d_k=(N−1)/N. For n≥2 and 1≤k≤n−1, set
+𝑄= 𝑁2(𝑁−𝑝)(𝑁+ 𝑝) > 0.
+Elementary common-denominator calculations give
+𝑑2
+𝑘−𝑑𝑘−1𝑑𝑘+1 = 𝑝2(2𝑁−1)
+𝑄
+,
+𝑐2
+𝑘−𝑐𝑘−1𝑐𝑘+1 = 𝑛(2𝑁−𝑛)
+𝑄
+,
+2𝑐𝑘𝑑𝑘−𝑐𝑘−1𝑑𝑘+1 −𝑐𝑘+1𝑑𝑘−1 = 2𝑝((𝑛+ 1)𝑁−𝑛)
+𝑄
+.
+(2.5)
+Every numerator is nonnegative for p≥0.
+At p=0 the first and third expressions vanish, which
+causes no problem. The n=0 and n=1 rows and the zero boundaries are immediate. Induction
+proves log-concavity of all normalized cycle rows.
+For (2.4), the two coefficient sequences are proportional to k/(n+pk), whose log-concavity is the
+second identity above. Their mixed defect is a positive constant times that same log-concavity defect.
+The lemma therefore proves log-concavity of all normalized subset rows as well. Equivalently, (2.4)
+first convolves the previous row with the positive two-term sequence (1,1/p!) and then multiplies
+termwise by a log-concave sequence.
+2.3 The normalization supplies exactly the weight needed for TN2
+Write
+𝐴(𝑛, 𝑘) = 𝑊(𝑛, 𝑘)𝐻(𝑛, 𝑘),
+𝑊(𝑛, 𝑘) = (𝑛+ 𝑝𝑘)!
+𝑘!
+.
+Let u_{n,k} and v_{n,k} be the coefficients of A(n−1,k−1) and A(n−1,k), respectively, in the original
+recurrence. For k≥1,
+𝑊(𝑛, 𝑘)2
+𝑊(𝑛, 𝑘−1)𝑊(𝑛, 𝑘+ 1) = 𝑘+ 1
+𝑘
+𝑁!2
+(𝑁−𝑝)!(𝑁+ 𝑝)! = 𝑘+ 1
+𝑘
+𝑢𝑛+1,𝑘
+𝑢𝑛+1,𝑘+1
+.
+(2.6)
+The constant factor 1/p! in the subset u’s cancels. The log-concavity just proved therefore yields
+𝑢𝑛+1,𝑘+1𝐴(𝑛, 𝑘)2 ≥𝑘+ 1
+𝑘
+𝑢𝑛+1,𝑘𝐴(𝑛, 𝑘−1)𝐴(𝑛, 𝑘+ 1).
+(2.7)
+For k at the last nonzero position, the right side is zero and the needed inequality holds directly. Put
+a_k=A(n,k). The adjacent-row, adjacent-column minor is exactly
+20
+
+
+===== PAGE 21 =====
+B3: Positivity certificates
+6 October 2026
+𝐷𝑛,𝑘= 𝐴(𝑛, 𝑘)𝐴(𝑛+ 1, 𝑘+ 1) −𝐴(𝑛, 𝑘+ 1)𝐴(𝑛+ 1, 𝑘)
+= 𝑢𝑛+1,𝑘+1𝑎2
+𝑘−𝑢𝑛+1,𝑘𝑎𝑘−1𝑎𝑘+1 + (𝑣𝑛+1,𝑘+1 −𝑣𝑛+1,𝑘)𝑎𝑘𝑎𝑘+1.
+(2.8)
+The difference v_{n+1,k+1}−v_{n+1,k} is p for cycles and 1 for subsets.
+Equations (2.7)–(2.8)
+prove D_{n,k}≥0 for all relevant n,k≥1.
+For completeness, local minors imply arbitrary 2 × 2 minors here as follows. On the strictly positive
+support, (2.8) says that A(n+1,k)/A(n,k) is nondecreasing in k. Chaining across columns gives
+𝐴(𝑛, 𝑘)𝐴(𝑛+ 1, 𝑙) ≥𝐴(𝑛, 𝑙)𝐴(𝑛+ 1, 𝑘),
+𝑘< 𝑙≤𝑛.
+Thus A(n,l)/A(n,k) is nondecreasing in n≥l.
+Chaining across rows proves the desired inequality
+for every pair of nonconsecutive rows as well. If an earlier row lies below the smaller selected
+column, its selected entries are both zero. If it lies between the selected columns, the upper-right
+selected entry is zero and the determinant is a product of nonnegative entries. Column zero has
+only A(0,0)=1; minors involving it are either zero or reduce to a nonnegative entry. These cases
+cover the entire infinite triangle.
+Theorem 2.1. For every integer r≥1, both C^(r) and S^(r) are totally nonnegative of order two. □
+This theorem is strictly weaker than full total nonnegativity. It rules out all order-one and order-two
+counterexamples to Q1158 or Q1159.
+Extreme coefficients of every cycle Hankel minor are positive
+Let I=(i_1<⋯<i_m) and J=(j_1<⋯<j_m) be finite increasing lists of nonnegative integers, m≥1. Put
+𝐹(𝑟)
+𝐼,𝐽(𝑥) = det(𝑐𝑟,𝑖𝑎+𝑗𝑏(𝑥))𝑚
+𝑎,𝑏=1,
+𝐷= ∑
+𝑎
+𝑖𝑎+ ∑
+𝑏
+𝑗𝑏,
+𝜈= 𝑚−1{0∈𝐼∩𝐽}.
+Theorem 3.1. For every r≥2,
+deg 𝐹(𝑟)
+𝐼,𝐽= 𝐷,
+ord𝑥=0 𝐹(𝑟)
+𝐼,𝐽= 𝜈,
+and both coefficients [x^D]F and [x^ν]F are strictly positive.
+This includes the 1 × 1 minor
+c_{r,0}=1, for which D=ν=0.
+3.1 A moment-determinant fact
+If a positive measure μ on (0,∞) has all needed moments and has a positive density, then every
+generalized Hankel determinant
+det (∫𝑡𝑖𝑎+𝑗𝑏𝑑𝜇(𝑡))
+𝑚
+𝑎,𝑏=1
+is strictly positive. Indeed, expansion and Fubini give the identity
+1
+𝑚! ∫det(𝑡𝑖𝑎
+𝑏)𝑚
+𝑎,𝑏=1 det(𝑡𝑗𝑎
+𝑏)𝑚
+𝑎,𝑏=1
+𝑚
+∏
+𝑏=1
+𝑑𝜇(𝑡𝑏).
+(3.1)
+On 0<t_1<⋯<t_m, each generalized Vandermonde determinant is positive. One way to see this
+is to factor out the ordinary Vandermonde; the quotient is a Schur polynomial with nonnegative
+21
+
+
+===== PAGE 22 =====
+B3: Positivity certificates
+6 October 2026
+integer coefficients, multiplied if needed by a power of ∏t_b. The product of the two determinants
+is invariant under permutations of the t_b and is positive off the diagonals. Integrability follows
+from the moment assumptions, and a region with distinct positive t_b has positive measure. This
+proves strict positivity.
+3.2 The highest coefficient
+The diagonal counts give
+𝑑𝑛= [𝑥𝑛]𝑐𝑟,𝑛(𝑥) = (𝑟𝑛)!
+𝑟𝑛𝑛! = 𝑟(𝑟−1)𝑛
+𝑟−1
+∏
+𝑞=1
+(𝑞/𝑟)𝑛.
+(3.2)
+The final equality can be checked without invoking the multiplication formula: both sides equal one
+at n=0 and have the same ratio at consecutive n. Let G_q be independent gamma random variables
+of shape q/r and scale one. Then
+𝑋= 𝑟𝑟−1
+𝑟−1
+∏
+𝑞=1
+𝐺𝑞
+⟹
+𝔼𝑋𝑛= 𝑑𝑛.
+(3.3)
+The product has a positive density on (0,∞), and all its positive integer moments are finite. In every
+permutation term of F, the maximum possible degree is D. Consequently
+[𝑥𝐷]𝐹(𝑟)
+𝐼,𝐽= det(𝑑𝑖𝑎+𝑗𝑏) > 0
+by (3.1). No cancellation can lower the degree.
+3.3 The lowest coefficient
+For n≥1, the coefficient of x counts a single cycle and is
+[𝑥]𝑐𝑟,𝑛(𝑥) = (𝑛+ 𝑟−2)! = Γ(𝑛+ 𝑟−1).
+(3.4)
+These are the moments of the unnormalized positive gamma measure t{r−2}e{−t}dt. If 0 is not in
+both I and J, every entry of the selected Hankel matrix is divisible by x, and
+[𝑥𝑚]𝐹= det(Γ(𝑖𝑎+ 𝑗𝑏+ 𝑟−1)) > 0.
+If 0 is in both I and J, the upper-left entry is c_{r,0}=1. A determinant term using that entry can
+have degree m−1; every term not using it has degree at least m. The coefficient of x^{m−1} is the
+same gamma-moment determinant after deleting row zero and column zero, and is positive by (3.1).
+For m=1 the deleted determinant is the empty determinant, equal to one. This proves the theorem.
+□
+Consequence for Q1160. Any negative coefficient in any cycle Hankel minor must occur at a
+degree strictly between ν and D. The theorem does not establish positivity of those intermediate
+coefficients.
+The highest-coefficient argument also applies to subset rows after replacing the scale r^(r−1) in
+(3.3) by r^r/r!. The lowest-coefficient argument does not transfer: [x]s_{r,n}=1 has rank one as a
+Hankel kernel.
+22
+
+
+===== PAGE 23 =====
+B3: Positivity certificates
+6 October 2026
+An all-parameter subset Hankel countercertificate
+Define the related subset minor
+𝐾𝑟(𝑥) = det ⎛
+⎜
+⎝
+𝑠𝑟,1(𝑥)
+𝑠𝑟,2(𝑥)
+𝑠𝑟,3(𝑥)
+𝑠𝑟,2(𝑥)
+𝑠𝑟,3(𝑥)
+𝑠𝑟,4(𝑥)
+𝑠𝑟,3(𝑥)
+𝑠𝑟,4(𝑥)
+𝑠𝑟,5(𝑥)
+⎞
+⎟
+⎠
+.
+(4.1)
+This uses Hankel row indices (1,2,3) and column indices (0,1,2).
+Theorem 4.1. For every integer r≥3,
+𝐾𝑟(𝑥) = −𝑏2(𝑟−1)(𝑟−2)(𝑟2 + 11𝑟+ 6)
+(𝑟+ 1)(𝑟+ 3)(𝑟+ 2)2
+𝑥5 + 𝑂(𝑥6),
+𝑏= 1
+2(2𝑟
+𝑟).
+(4.2)
+In particular, the coefficientwise Hankel positivity of the subset row polynomials fails for every r≥3.
+At each such r, the numerical sequence (s_{r,n}(x)) is also not a Stieltjes moment sequence for all
+sufficiently small positive x.
+Proof. Write s_{r,n}(x)/x=1+a_nx+O(x²), so a_n=S(n,2). For n=1,…,5 put
+𝑎1 = 0,
+𝑎2 = 𝑏,
+𝑎3 = 𝑞,
+𝑎4 = 𝑒,
+𝑎5 = ℎ.
+Counting the possible two block sizes gives
+𝑏= (2𝑟)!
+2(𝑟!)2,
+𝑞= (2𝑟+ 1)!
+𝑟!(𝑟+ 1)!,
+𝑒= (2𝑟+ 2)!
+𝑟!(𝑟+ 2)! +
+(2𝑟+ 2)!
+2((𝑟+ 1)!)2,
+ℎ= (2𝑟+ 3)!
+𝑟!(𝑟+ 3)! +
+(2𝑟+ 3)!
+(𝑟+ 1)!(𝑟+ 2)!.
+Factor x from each row of (4.1). Subtract the first row from the second and third rows, then the
+first column from the second and third columns. The lower-right 2 × 2 block has first-order part
+𝑥( 𝑞−2𝑏
+𝑒−𝑞−𝑏
+𝑒−𝑞−𝑏
+ℎ−2𝑞) .
+Every other noncorner entry is O(x), while the corner is 1. Hence coefficients below x^5 in K_r
+vanish, and
+[𝑥5]𝐾𝑟= (𝑞−2𝑏)(ℎ−2𝑞) −(𝑒−𝑞−𝑏)2.
+(4.3)
+The factorial expressions simplify to
+𝑞−2𝑏
+𝑏
+=
+2𝑟
+𝑟+ 1,
+ℎ−2𝑞
+𝑏
+= 12(2𝑟+ 1)
+𝑟+ 3
+,
+𝑒−𝑞−𝑏
+𝑏
+= 7𝑟+ 2
+𝑟+ 2 .
+Their substitution in (4.3) gives (4.2), because
+24𝑟(2𝑟+ 1)(𝑟+ 2)2 −(7𝑟+ 2)2(𝑟+ 1)(𝑟+ 3) = −(𝑟−1)(𝑟−2)(𝑟2 + 11𝑟+ 6).
+23
+
+
+===== PAGE 24 =====
+B3: Positivity certificates
+6 October 2026
+All denominator factors are positive and all numerator factors are positive when r≥3. The small-
+positive-x assertion follows from this being the first nonzero coefficient. A negative Hankel minor
+precludes the Stieltjes moment property. □
+For a fully explicit instance,
+𝐾3(𝑥) = −16𝑥5 + 19110𝑥6 + 938700𝑥7 + 15309000𝑥8 + 79380000𝑥9,
+and
+𝐾3(1/2000) = −
+4966725131
+25600000000000000000000000 < 0.
+Appendix C of Deb–Sokal proposes this particular negative-minor mechanism. Formula (4.2) sup-
+plies its uniform algebraic proof. This result is a countercertificate for the subset Hankel property,
+while Q1160 concerns cycle rows.
+Why the direct production-matrix route fails
+For an invertible lower triangular array 𝐴, its ordinary production matrix is uniquely determined
+by 𝐴𝑃=̄ 𝐴, wherē 𝐴(𝑛, 𝑘) = 𝐴(𝑛+ 1, 𝑘). The diagonal of each present array is nonzero, so the
+matrix is well-defined by triangular solution.
+For cycles set a=(r−1)! and d=C(3,3)=(3r)!/(6r³). Direct substitution of the first four rows gives
+𝑃𝐶(3, 1) = −2𝑟𝑎(𝑟2 −𝑟−1)
+(𝑟+ 1)𝑑
+< 0,
+𝑟≥2.
+(5.1)
+For clarity, the needed preceding entries are 𝑃𝐶(1, 1) = 𝑟and 𝑃𝐶(2, 1) = 𝑟𝑎/𝐶(2, 2), together with
+𝐶(3, 2)/𝐶(2, 2) = 2𝑟(2𝑟+ 1)/(𝑟+ 1). Substituting these into row 3 of 𝐴𝑃=̄ 𝐴gives (5.1).
+For subsets, put b=S(2,2) and d=S(3,3). The corresponding entry is
+𝑃𝑆(3, 2) = −𝑏
+𝑑
+(𝑟−1)(𝑟2 + 5𝑟+ 2)
+(𝑟+ 1)2(𝑟+ 2)
+< 0,
+𝑟≥2.
+(5.2)
+Indeed P_S(1,2)=b, P_S(2,2)=q/b−1, and row 3 gives P_S(3,2)=(e−b+q−q²/b)/d; the expressions
+from Section 4 simplify to (5.2). At r=3 these entries are −3/448 and −13/560, respectively.
+Thus the triangles themselves cannot be the output matrices of entrywise nonnegative ordinary
+production matrices. Positive column rescaling only conjugates P by a positive diagonal matrix and
+cannot remove the negative entry. This does not rule out enlarged-state constructions, different
+auxiliary arrays, nonstationary networks, or other transformations.
+5.1 The third-order differential steps do not preserve all stable inputs
+Writing g_n=c_{3,n}/x or g_n=s_{3,n}/x, the exact quotient recurrences are g_n=L_n g_{n−1},
+where
+𝐿𝐶
+𝑛𝑔= 4𝑥3𝑔″ + ((4𝑛+ 14)𝑥2 + 2𝑥)𝑔′ + ((𝑛+ 2)(𝑛+ 3)𝑥+ 𝑛+ 1)𝑔,
+𝐿𝑆
+𝑛𝑔= 2𝑥3𝑔″ + ((2𝑛+ 7)𝑥2 + 𝑥)𝑔′ + ((𝑛+ 2)(𝑛+ 3)
+2
+𝑥+ 1) 𝑔.
+24
+
+
+===== PAGE 25 =====
+B3: Positivity certificates
+6 October 2026
+These follow directly by summing the coefficient recurrences and substituting f=xg. They are not
+generic Hurwitz-stability preservers even on real polynomials with positive coefficients and the
+required input degree.
+For cycles take n=4 and g=50x²+x+50. Its two roots have real part −1/100. But
+𝐿𝐶
+4 𝑔= 5500𝑥3 + 522𝑥2 + 2107𝑥+ 250,
+whose second Hurwitz determinant is
+522 ⋅2107 −5500 ⋅250 = −275146 < 0.
+Its Routh first-column signs are (+,+,−,+), certifying two roots in the open right half-plane.
+For subsets take n=6 and g=(500x²+x+500)². Its roots have real part −1/1000. The output is
+𝐿𝑆
+6 𝑔= 34000000𝑥5 + 1355000𝑥4 + 39004078𝑥3 + 1555003𝑥2 + 9002000𝑥+ 250000.
+Here the second Hurwitz determinant is −19576310000, and the Routh first-column signs are
+(+,+,−,+,+,+), again certifying two roots in the open right half-plane. These are counterexamples
+to generic operator preservation, not to Q1161: neither input is asserted to be an actual preceding
+Stirling row.
+Exact computations and reusable certificates
+Run, with Python 3 and no third-party packages:
+python3 research/stirling/stirling_research.py
+The script writes results.json and neville-certificates.json next to itself.
+6.1 Triangle blocks
+For each r in {2,3,11,12,16,32}, both C and S were generated on indices 0,…,24. Every minor of
+each entire 25 × 25 block is certified nonnegative by a factorization.
+The trivial first row and column split off a 1. On the remaining 24 × 24 block, bottom-to-top Neville
+elimination produces
+𝐴= 𝐹1𝐹2 ⋯𝐹276𝐷,
+𝐹𝑡= 𝐼+ 𝑚𝑡𝐸𝑖𝑡,𝑖𝑡−1,
+𝑚𝑡≥0,
+with D positive diagonal. Every factor is totally nonnegative, and the Cauchy–Binet formula pre-
+serves total nonnegativity under multiplication.
+The exact rational multipliers and diagonal are
+stored. Reconstructing the block from those factors is separately checked by exact arithmetic dur-
+ing each run. This certifies all finite-block minors without enumerating them.
+The r=2,3 blocks are controls within the larger source-tested range. The r=11,12,16,32 cases add
+parameter values outside Appendix C’s stated range, with a smaller block dimension.
+6.2 Third-order roots
+Every polynomial c_{3,n}(x)/x and s_{3,n}(x)/x, 1≤n≤80, passed an exact Routh test.
+The zero
+at zero is simple because the coefficient of x is positive. The quotient has only roots with strictly
+negative real parts.
+The algorithm forms the Routh rows using integers and removes only positive greatest common
+divisors.
+At every stage the entire row differs from the usual rational Routh row by a positive
+factor, so first-column signs are preserved. All first-column entries were positive. The integer sign
+sequence, largest pivot bit-length, and a SHA-256 digest of the exact primitive pivots are recorded
+25
+
+
+===== PAGE 26 =====
+B3: Positivity certificates
+6 October 2026
+for every n; the generator and deterministic algorithm reproduce every pivot. Singular or zero-pivot
+cases are explicitly returned as undecided rather than treated as stable. None occurred.
+The classical criterion used here is presented with a proof in Olga Holtz, Hermite–Biehler, Routh–
+Hurwitz, and total positivity. The complete quotients are certified instances; the family for unbound-
+ed n is not proved.
+6.3 Cycle Hankel blocks
+For each r in {3,4,11,16,32}, all 923 nonempty minors of the 6 × 6 Hankel block with row and
+column indices 0,…,5 were computed in Z[x] and had nonnegative coefficients. The counts by order
+are 36,225,400,225,36,1. Thus 4,615 polynomial determinants were checked in total. Bareiss elim-
+ination uses exact polynomial division, and the calculated highest and lowest degrees are checked
+against Theorem 3.1.
+The r=3,4 calculations are controls. The other three values add parameters outside the source’s
+stated Hankel tests. These are finite checks only.
+6.4 Independent controls
+The generator reproduces the ordinary Stirling fourth rows (0,6,11,6,1) and (0,1,7,6,1), the exact
+diagonal factorial formulas, and the third-order third rows.
+The Routh routine checks a stable
+cubic, an unstable cubic, and a boundary polynomial with imaginary roots, which must be reported
+undecided by this strict routine.
+Polynomial determinants have an independent small symbolic
+control. The production-matrix formulas and the subset negative coefficient are checked against
+direct exact calculations over multiple r values.
+Next proof targets
+The all-r TN2 theorem shifts Q1158 and Q1159 to order-three and higher minors.
+The direct
+production-matrix obstruction shows why an auxiliary state space or a different array would be
+needed for that particular proof method. Positive finite Neville factors suggest seeking closed for-
+mulas or inductively positive families of elimination pivots.
+For Q1160, the two ends of every determinant polynomial already have strict sign certificates. A
+remaining negative coefficient, if any, must be internal. A positive proof needs a mechanism con-
+trolling cancellations in those coefficients, such as a weighted path model for the Hankel minors.
+The subset calculation identifies an explicit cancellation mechanism that such a cycle proof must
+avoid.
+For Q1161, exact Routh certificates remove numerical ambiguity on the checked range, but not the
+induction problem. The ordinary second-order differential recurrence by itself does not automat-
+ically preserve Hurwitz stability of arbitrary inputs. The available evidence therefore supports a
+family-specific invariant, rather than an assumption of generic operator preservation.
+No OEIS submission, external publication, durable catalog resolution entry, or edit to the original
+handoff was made.
+26
+
+
+===== PAGE 27 =====
+B3: Positivity certificates
+6 October 2026
+Interpolated totally positive sequences and multiplier tests
+A compact exact parameter space for the interpolation questions
+Write
+𝑃(𝑧) =
+𝑛
+∑
+𝑗=0
+𝑢𝑗(𝑧
+𝑗),
+𝐿(𝑃)(𝑢) =
+𝑛
+∑
+𝑗=0
+𝑢𝑗𝑢𝑗.
+The source criterion says that P in U_n exactly when its leading coefficient is positive and L(P) has
+every root in [-1,0]. Since positive scaling changes none of the roots under study, normalize u_n=1.
+Then every instance has the form
+𝐿(𝑃)(𝑢) =
+𝑛
+∏
+𝑖=1
+(𝑢+ 𝑎𝑖),
+0 ≤𝑎𝑖≤1.
+(1)
+This turns the parameter space into a compact cube, modulo permutation. Coefficients vary contin-
+uously with the a_i, and the leading coefficient of P stays fixed at 1/n!. Continuity of polynomial
+roots as an unordered multiset therefore shows that both r_n and R_n are attained for each fixed
+degree. Neither supremum needs an escaping sequence of coefficients.
+There is also a useful probabilistic/operator representation.
+Let Delta
+f(z)=f(z+1)-f(z), let
+(z)_n=z(z-1)...(z-n+1), and let S be the sum of independent Bernoulli random variables with
+success probabilities a_1,...,a_n.
+The elementary identity Delta^k(z)_n=n!/(n-k)!
+(z)_(n-k)
+gives
+𝑛!𝑃(𝑧) =
+𝑛
+∏
+𝑖=1
+(1 + 𝑎𝑖Δ)(𝑧)𝑛= 𝔼[(𝑧+ 𝑆)𝑛].
+(2)
+The factors in (2) are (1-a_i)+a_i E, where E f(z)=f(z+1). This is an exact representation of the
+whole class. An arbitrary distribution on {0,...,n} would give the larger SNN class; independence
+imposes the PF numerator condition.
+The SNN theorem supplies a strict, though not sharp, imaginary-part bound for the interpolation
+class. For n>=2, no member of U_n can be a positive multiple of M_n: its numerator would be 1+z^n,
+which is not a polynomial with all real nonpositive roots. Hence every root of every P in U_n has
+|Im z|<B_n. Compactness makes the degree-specific maximum strictly smaller than B_n. This does
+not imply the desired modulus bound R_n=n.
+Complete degree-two analysis
+By (1), write L(P)(u)=(u+a)(u+b), a,b in [0,1]. Put s=a+b, t=ab. Then
+𝑝(𝑧) ∶= 2𝑃(𝑧) = 𝑧2 + (2𝑠−1)𝑧+ 2𝑡,
+(3)
+where the exact feasible coefficient region is
+0 ≤𝑠≤2,
+max(0, 𝑠−1) ≤𝑡≤𝑠2/4.
+(4)
+5.1 Exact nonreal root locus
+If x+iy, y!=0, is a root of (3), its conjugate is the other root, and
+27
+
+
+===== PAGE 28 =====
+B3: Positivity certificates
+6 October 2026
+𝑥= 1
+2 −𝑠,
+𝑦2 = 2𝑡−𝑥2.
+The upper constraint in (4) is precisely
+2(𝑥+ 1/2)2 + 4𝑦2 ≤1.
+(5)
+Conversely, for any nonreal point satisfying (5), take s=1/2-x and t=(x^2+y^2)/2. The remaining low-
+er constraint in (4) is automatic: it is t>=0 when s<=1, and when s>=1 it reduces to (x+1)^2+y^2>=0.
+The resulting roots a,b of v^2-sv+t belong to [0,1].
+Thus (5), away from the real axis, is the exact nonreal root locus. Its maximal imaginary part is 1/2.
+The real root locus is [-2,1]. The polynomials with L(P)=(u+1)(u+a) have roots -1,-2a, and those
+with L(P)=u(u+a) have roots 0,1-2a; these cover the stated interval. The general real-root bound
+excludes anything outside it.
+5.2 Exact smallest-root extremum
+Let
+𝑟∗= (1 +
+√
+2)/2,
+𝑠∗= 1 + 1/
+√
+2.
+For s<=s_*, the smaller root modulus is at most the geometric mean of the two moduli, namely
+√
+2𝑡≤𝑠/
+√
+2 ≤𝑟∗.
+For s>=s_*, the discriminant (2s-1)^2-8t is nonnegative throughout the feasible region. For fixed
+s, the smaller modulus increases with t, so it is largest at t=s^2/4. There its value is
+𝑔(𝑠) = 𝑠−1
+2 −1
+2√2(𝑠−1)2 −1.
+This function decreases on [s_*,2]: its derivative is 1-(s-1)/sqrt(2(s-1)^2-1)<=0, with the end-
+point interpreted by continuity. Therefore g(s)<=g(s_*)=r_*.
+Equality occurs when a=b=(2+sqrt2)/4, where p(z)=(z+r_*)^2. Consequently
+𝑟2 = (1 +
+√
+2)/2.
+5.3 Largest root and real gaps
+For a nonreal root in (5), its modulus is smaller than r_*<2.
+Real roots lie in [-2,1], and -2 is
+attained. Hence R_2=2.
+For real roots the squared gap is (2s-1)^2-8t.
+Its maximum at fixed s is attained at the lower
+endpoint in (4). For 0<=s<=1 the bound is (2s-1)^2<=1; for 1<=s<=2 it is (2s-3)^2<=1. Thus the
+optimal degree-two gap constant is exactly 1.
+A proof that R_3=3
+Write L(P)=prod(u+a_i) for three parameters in [0,1], and let s_1,s_2,s_3 be their elementary
+symmetric functions. Then
+𝑝(𝑧) ∶= 6𝑃(𝑧) = 𝑧3 + (3𝑠1 −3)𝑧2 + (2 −3𝑠1 + 6𝑠2)𝑧+ 6𝑠3.
+(6)
+28
+
+
+===== PAGE 29 =====
+B3: Positivity certificates
+6 October 2026
+All real roots belong to [-3,2]. It remains to bound a nonreal pair w,bar w. Let r be the remaining
+real root. If s_3>0, then
+𝑟|𝑤|2 = −6𝑠3,
+(7)
+so r<0. Direct substitution in (6) gives
+𝑝(−𝑠3) = 𝑠3𝐹(𝑎1, 𝑎2, 𝑎3),
+where
+𝐹= 4 + 3𝑠1 −6𝑠2 + 3𝑠3(𝑠1 −1) −𝑠2
+3.
+(8)
+Here is a finite exact positivity certificate for (8). With B_i^2(a)=binom(2,i)a^i(1-a)^(2-i), the
+polynomial has the expansion
+𝐹=
+2
+∑
+𝑖,𝑗,𝑘=0
+𝑐𝑖𝑗𝑘𝐵2
+𝑖(𝑎1)𝐵2
+𝑗(𝑎2)𝐵2
+𝑘(𝑎3).
+The coefficients are symmetric under permutation of the three indices; the ten distinct entries are:
+Sorted indices
+Coefficient
+000
+4
+001
+11/2
+002
+7
+011
+11/2
+012
+11/2
+022
+4
+111
+29/8
+112
+5/2
+122
+1
+222
+0
+Every term is nonnegative on the parameter cube, proving F>=0. Since
+𝑝(𝑥) = (𝑥−𝑟)((𝑥−Re 𝑤)2 + (Im 𝑤)2),
+the inequality p(-s_3)>=0 implies -s_3>=r. Equations (7)–(8) yield |w|^2<=6.
+If s_3=0, take one parameter to be zero and denote the other two by b,c. The polynomial factors as
+z times a quadratic. If its remaining roots are nonreal, their squared modulus is
+2 −3(𝑏+ 𝑐) + 6𝑏𝑐= 2 −3𝑏(1 −𝑐) −3𝑐(1 −𝑏) ≤2.
+Thus every nonreal root has modulus at most sqrt6<3. Real roots have modulus at most 3, and
+binom(z+3,3) attains the root -3. Therefore
+𝑅3 = 3.
+The accompanying code verifies the full Bernstein expansion exactly by its monomial-to-Bernstein
+coefficient formula. The inequalities in the proof cover all real parameter values, not a parameter
+grid.
+29
+
+
+===== PAGE 30 =====
+B3: Positivity certificates
+6 October 2026
+Infinite families giving stronger lower bounds for r_n
+For P(z)=(4z+5)^6, its sampled-value numerator is
+𝑁𝑃(𝑡) = 15625 + 422066𝑡+ 1434847𝑡2 + 963292𝑡3 + 112567𝑡4 + 722𝑡5 + 𝑡6.
+(9)
+It has positive coefficients. Its values at
+−1000, −500, −200, −5, −1, −1/10, 0
+have signs +,-,+,-,+,-,+, respectively. The intermediate value theorem gives six distinct negative
+roots, exhausting its degree. Thus (9) is an exact all-length PF certificate for (P(k)), and every root
+of P equals -5/4.
+Exact Sturm certificates also establish (4z+5)^8
+in
+U_8 and (4z+5)^10
+in
+U_10.
+The source’s
+product-closure theorem now gives
+(4𝑧+ 5)𝑛∈𝑈𝑛
+for every even 𝑛≥6.
+Indeed every integer at least 3 is a sum of 3, 4 and 5. This proves r_n>=5/4 for every even n>=6.
+A stronger rational value is obtained from eight exact bases:
+(40𝑧+ 51)𝑛∈𝑈𝑛,
+𝑛= 16, 18, 20, 22, 24, 26, 28, 30.
+Their complete numerator coefficients and exact root-count certificates are in shifted-power-
+family-certificates.json.
+Every even integer n>=16 is a sum of these eight even integers, so
+product closure proves
+𝑟𝑛≥51/40 = 1.275
+for every even 𝑛≥16.
+These finite bases have become infinite-family certificates through a structural theorem. They do
+not establish the requested uniform upper bound.
+There is also a useful limitation on this particular construction. If 1<t<2 and (z+t)^(2m) belongs to
+U_(2m), the reflected sampled sequence |k+1-t|^(2m) is log-concave. Its window k=0,1,2 gives
+(2 −𝑡)2 ≥(𝑡−1)(3 −𝑡),
+and therefore t<=2-1/sqrt2, approximately 1.29289. This is an upper bound for these shifted pow-
+ers, not for general members of U_n.
+Exact real-root gap witnesses
+Consider the symmetric family
+𝑃𝑐(𝑧) = (𝑧2 + 𝑧−𝑐)2,
+𝑐≥0.
+Its two distinct real roots have gap sqrt(1+4c), each with multiplicity two. Direct numerator calcu-
+lation gives the reciprocal polynomial
+𝑁𝑐(𝑡) = 𝑐2 + (4 −4𝑐−4𝑐2)𝑡+ (16 + 8𝑐+ 6𝑐2)𝑡2 + (4 −4𝑐−4𝑐2)𝑡3 + 𝑐2𝑡4.
+For c>0, divide by t^2 and set v=t+t^(-1). The resulting quadratic is
+30
+
+
+===== PAGE 31 =====
+B3: Positivity certificates
+6 October 2026
+𝑐2𝑣2 + 4(1 −𝑐−𝑐2)𝑣+ (16 + 8𝑐+ 4𝑐2).
+Its discriminant is 16(1-2c-5c^2). It has both roots in (-infinity,-2] exactly for
+0 < 𝑐≤𝑐∗= (
+√
+6 −1)/5.
+For this range its vertex lies to the left of -2, while its value at -2 is 8+16c+16c^2>0, so the discrimi-
+nant condition indeed puts both roots there. Each such v yields two negative real values of t. Thus
+P_c in U_4 throughout this parameter range. The endpoint yields a necessary lower bound
+𝐷≥√(1 + 4
+√
+6)/5.
+A short stronger certificate is available in degree eight:
+𝑃(𝑧) = (3𝑧2 + 3𝑧−1)4,
+whose numerator coefficients, in ascending order, are
+(1, 616, 77932, 771352, 1566118, 771352, 77932, 616, 1).
+After dividing by t^4 and substituting v=t+t^(-1), the numerator becomes
+𝑔(𝑣) = 𝑣4 + 616𝑣3 + 77928𝑣2 + 769504𝑣+ 1410256.
+The exact values at v=-500,-200,-10,-5,-2 are
+4598658256, −363370544, 902016, −565439, 178048.
+Their alternating signs prove four distinct roots strictly below -2, hence eight distinct negative roots
+of the numerator. The original polynomial’s gap is sqrt(7/3).
+The strongest bounded witness retained here is
+𝑃(𝑧) = (5𝑧2 + 5𝑧−2)12 ∈𝑈24.
+Its numerator has positive integer coefficients and 24 distinct real roots, certified by exact Sturm
+arithmetic. Its two real roots are
+−1 −√13/5
+2
+,
+−1 + √13/5
+2
+,
+both of multiplicity 12. Therefore any universal gap constant in Q1443 must satisfy
+𝐷≥√13/5 ≈1.61245155.
+All coefficients and the exact root-count certificate are in verification-results.json. This does
+not contradict the proposed D<2.
+The coordinating agent identified a useful ceiling for this family. For even m, if (z^2+z-c)^m
+in
+U_(2m) and 0<c<2, sampled log-concavity at indices 0, 1 and 2 gives (2-c)^2>=c(6-c). Therefore
+𝑐≤(5 −
+√
+17)/2,
+gap ≤√11 −2
+√
+17 ≈1.65945.
+This family cannot approach a gap of 2.
+31
+
+
+===== PAGE 32 =====
+B3: Positivity certificates
+6 October 2026
+Q1249: a rigorous obstruction to a tempting weakening
+The all-remainder condition does not ensure preservation of arbitrary log-concave sequences. A
+small exact example is
+𝐴(𝑧) = 2 + 27𝑧+ 108𝑧2 + 108𝑧3 = 108(𝑧+ 1/6)2(𝑧+ 2/3).
+Every remainder belongs to LP-I: after removing its power of z, the nontrivial tails are 27(1+2z)^2,
+108(1+z) and 108. Let
+𝑏= (1, 1, 1, 1/2, 1/4, 1/8, …).
+Its successive ratios are 1,1,1/2,1/2,..., so it is log-concave. But the termwise product has gen-
+erating polynomial
+2 + 27𝑧+ 108𝑧2 + 54𝑧3,
+whose discriminant is -472392; it has a nonreal pair. This demonstrates that ordinary log-concavity
+is too weak to replace the input PF condition in a proof of Q1249.
+It is not a counterexample to Q1249. The input itself fails PF: its Toeplitz minor with rows {0,1,2}
+and columns {1,2,3} is
+det (
+1
+1
+1/2
+1
+1
+1
+0
+1
+1
+) = −1/2.
+A separate bounded experiment constructed one exact rational degree-seven A whose eight tails are
+all real-rooted with nonnegative coefficients. It tested 300 PF inputs with generating functions
+∏𝑖(1 + 𝛼𝑖𝑧)
+∏𝑗(1 −𝛽𝑗𝑧),
+𝛼𝑖, 𝛽𝑗> 0,
+using deterministic seed 1249, at most three numerator factors and one to four denominator factors.
+The 300 trials contain 293 distinct input generating functions. Every output passed the exact finite-
+polynomial PF criterion.
+Full parameters are recorded.
+This remains a bounded screen of one
+candidate, without a sufficiency proof.
+Reproduction and limitations
+Run from this directory or pass the full paths:
+python verify_interpolation.py
+python additional_certificates.py
+The scripts use the standard library only. Polynomial coefficients are exact rational numbers or
+integers. The Sturm procedure removes repeated factors before comparing the distinct real-root
+count with the squarefree degree. Positive numerator coefficients then exclude positive roots. This
+decides complete polynomial instances and, through the generating-function criterion, their entire
+sampled sequences.
+The principal generated records are:
+• verification-results.json: the SNN phase controls, 336 explicit three-term witness controls,
+and 42 central-gap-family checks.
+• additional-certificate-results.json: the exact cubic Bernstein certificate, short sign proof-
+s, and the log-concavity proxy obstruction.
+• shifted-power-family-certificates.json: 11 complete numerator certificates underlying the
+two infinite shifted-power families.
+32
+
+
+===== PAGE 33 =====
+B3: Positivity certificates
+6 October 2026
+• Q1249-bounded-search.json: the exact degree-seven multiplier candidate and every one of the
+300 PF test inputs.
+• shifted-power-results.json:
+an earlier bounded reconnaissance over ten even degrees
+through 64 and five rational shifts; it is not used for the main claims.
+No unresolved question is marked proved merely because the listed computations passed. No public
+submission or durable external catalog update has been made.
+33
+
+
+===== PAGE 34 =====
+B3: Positivity certificates
+6 October 2026
+Q167: Complete classification in degrees at most four
+Date: 2026-10-06. Status: exact structural classification for n=1,2,3,4; the general classification
+remains unresolved. All ties are included, as required by Zhang’s association on printed pp. 91–92.
+Let p(x)=product_{i=1}^n(1+r_i x)=sum_{k=0}^n c_k x^k, with positive integers r_i. Write an
+ordering as a string of indices from smallest coefficient to largest.
+For example, 04123 means
+c_0<=c_4<=c_1<=c_2<=c_3.
+Classification and explicit witnesses
+Degree n
+Ordering
+One tuple of factors r
+Coefficients
+(c_0,…,c_n)
+1
+01
+(2)
+(1,2)
+1
+10
+(1)
+(1,1)
+2
+012
+(3,3)
+(1,6,9)
+2
+021
+(1,2)
+(1,3,2)
+2
+201
+(1,1)
+(1,2,1)
+3
+0312
+(1,1,2)
+(1,4,5,2)
+3
+0321
+(1,1,1)
+(1,3,3,1)
+3
+3012
+(1,1,1)
+(1,3,3,1)
+3
+3021
+(1,1,1)
+(1,3,3,1)
+3
+0132
+(1,3,3)
+(1,7,15,9)
+3
+0123
+(4,4,4)
+(1,12,48,64)
+4
+04132
+(1,1,1,2)
+(1,5,9,7,2)
+4
+04312
+(1,1,1,1)
+(1,4,6,4,1)
+4
+40132
+(1,1,1,1)
+(1,4,6,4,1)
+4
+40312
+(1,1,1,1)
+(1,4,6,4,1)
+4
+04123
+(1,1,2,3)
+(1,7,17,17,6)
+4
+01423
+(1,2,2,2)
+(1,7,18,20,8)
+4
+01243
+(3,3,3,3)
+(1,12,54,108,81)
+4
+01234
+(5,5,5,5)
+(1,20,150,500,625)
+Thus the exact counts are 2,3,6,8. Degree zero, if included, has the unique order 0.
+Preliminary inequalities
+All c_k are positive. Newton’s inequalities for a product of linear factors with positive parameters
+imply strict ordinary log-concavity at internal indices:
+c_k^2 >= [(k+1)(n-k+1)/(k(n-k))] c_{k-1} c_{k+1} > c_{k-1} c_{k+1}.
+Consequently the coefficients strictly increase up to their mode and strictly decrease afterwards,
+allowing only a pair of equal adjacent modes. Sorting their values therefore removes the left or
+right endpoint of the remaining interval at each step. Nonadjacent equal coefficients can be sorted
+either way, but they must remain consistent with this endpoint-removal description.
+For r_i>=1 we have c_0=1, c_n=product r_i>=1, and every internal c_k>=binomial(n,k)>1 for
+n>=2. Thus c_0 is uniquely minimal unless every r_i=1; in that exceptional case c_0=c_n=1.
+For n=3, c_2>=c_1, with equality only when every r_i=1. Indeed c_2-c_1 is zero at (1,1,1), and its
+partial derivative with respect to r_i is the sum of the other two factors minus 1, which is positive
+for r_i>=1.
+For n=4, c_2>c_1 always:
+double-counting gives 2c_2=sum_i r_i sum_{j!=i}r_j >=3c_1.
+Also
+c_3>=c_1, with equality only at (1,1,1,1): c_3-c_1 vanishes there, while its derivative with respect
+to any r_i is the sum of the three pair products among the other variables minus 1, at least 2.
+34
+
+
+===== PAGE 35 =====
+B3: Positivity certificates
+6 October 2026
+Exhaustiveness for n=1,2,3
+Degree one has two possible orders, both exhibited.
+For degree two, c_1>c_0; the only additional endpoint tie c_0=c_2 occurs at (1,1). Otherwise c_2
+can lie on either side of c_1. This gives exactly the three listed orders.
+For degree three with some r_i>1, c_0 is uniquely minimal and c_1<c_2. The last coefficient c_3 can
+lie below c_1, between c_1 and c_2, or above c_2, giving 0312,0132,0123. At (1,1,1), both endpoint
+and middle ties occur, giving 0312,0321,3012,3021. Their union is the six orders listed.
+The degree-four obstruction
+Suppose n=4, some factor exceeds 1, and c_2>=c_3. Then
+c_4 < c_1.
+(*)
+This uses integrality. Let s be the number of factors that are at least 2.
+• If s=1, the tuple is (1,1,1,a) up to permutation and c_4=a<c_1=a+3.
+• If s=2, the tuple is (1,1,a,b), where a,b>=2. Then c_2-c_3=1+a+b-ab. The hypothesis implies
+ab<=a+b+1<a+b+2=c_1, proving (*).
+• If s=3, the tuple is (1,a,b,c), where a,b,c>=2. Then c_3-c_2=abc-a-b-c. This is at least 8-2-2-
+2=2, because it is increasing in each variable on [2,infinity)^3. Hence c_2>=c_3 is impossible.
+• If s=4, all r_i>=2. Double-counting extensions of pairs gives 3c_3=sum_{|S|=2} product_{i in
+S}r_i sum_{j notin S}r_j >=4c_2, so again c_3>c_2.
+That proves (*).
+For a tuple other than (1,1,1,1), the inequalities c_0<c_1<c_2 and c_1<c_3, together with strict
+log-concavity, leave only six endpoint-removal orders:
+04132, 01432, 04123, 01423, 01243, 01234.
+The order 01432 would require c_4>=c_1 and c_2>=c_3,
+contradicting (*).
+The remain-
+ing five orders all have explicit witnesses above.
+The exceptional all-ones tuple contributes
+04312,40132,40312 in addition to 04132. Thus there are exactly eight orders.
+A finite search over bounded factors is unnecessary for this exhaustiveness claim: the case analysis
+covers every positive integer tuple, regardless of factor size. The source only reports a general
+empirical growth guess; no novelty claim is made for this small-degree classification.
+General obstruction available in every degree
+For positive integers r_i, let s=#{i:r_i>=2}. Then
+c_{k+1}/c_k >= 2(s-k)/(k+1)
+whenever 0<=k<s.
+Indeed, for each k-set S at least s-k factors outside S are at least 2, so
+(k+1)c_{k+1}=sum_{|S|=k} r_S sum_{j notin S}r_j >= 2(s-k)c_k.
+Including the n-s factors merely equal to at least 1 gives the stronger universal form
+(k+1)c_{k+1} >= (n+s-2k)c_k
+for k<=s,
+because among the n-k outside factors at least s-k contribute an additional unit. These inequalities
+supply immediate forbidden coefficient orders based on the number of nonunit factors. They do not
+by themselves classify all orders.
+Sources
+• Yufei Zhang, Some Combinatorial Problems Involving Total Non-Negativity and Unimodality,
+Notre Dame, 2025, pp. 91–98, especially Question 5.2.6 and its sorting/tie convention. https:
+//ndownloader.figshare.com/files/54098216 .
+The classification here is an independent
+deduction from that setup.
+35
+
+
+===== PAGE 36 =====
+B3: Positivity certificates
+6 October 2026
+• Newton’s inequalities are classical; the only use here is the displayed strict log-concavity con-
+sequence for positive elementary symmetric functions. The proofs of the new small-degree
+obstructions are given in full above.
+verify_q167.py independently checks every listed witness and enumerates every permutation com-
+patible with its exact coefficients; its finite controls are in q167-controls.json.
+36
+
+
+===== PAGE 37 =====
+B3: Positivity certificates
+6 October 2026
+Eulerian recognition, atoms, pattern intervals, and random
+graphs
+Research results for B3, 6 October 2026. This report covers Q1262–Q1263, Q1366, Q2212 and
+Q2400, and supplies controls for Q183 and Q1454. It accompanies the other mathematical reports
+and the exact positivity toolkit.
+Q1262: a finite recognition theorem for every possible length
+For a positive integer vector 𝑠= (𝑠1, … , 𝑠𝐿), use the inversion-sequence definition
+𝐸𝑠(𝑥) =
+∑
+0≤𝑒𝑖<𝑠𝑖
+𝑥asc(𝑒),
+asc(𝑒) = #{0 ≤𝑖< 𝐿∶𝑒𝑖/𝑠𝑖< 𝑒𝑖+1/𝑠𝑖+1},
+where 𝑒0 = 0, 𝑠0 = 1. The equivalence of this definition with the lecture-hall Ehrhart definition
+is established in the literature cited by Deligeorgaki–Han–Solus. Their Proposition 25 already us-
+es factorization of 𝐸𝑠(1) and removal of repeated entries equal to one to give an exact exclusion.
+The recognition theorem below makes that method general and explicit; it is not a claim to have
+discovered the unit-removal argument.
+Theorem. Let 𝑝(𝑥) have nonnegative integer coefficients and constant term one, and put 𝑁= 𝑝(1).
+If 𝑁> 1, then 𝑝= 𝐸𝑠for some positive integer vector of arbitrary length if and only if it equals
+one of the finitely many 𝐸𝑠obtained as follows:
+1. Choose any ordered factorization 𝑁= 𝑡1 ⋯𝑡𝑞with every 𝑡𝑖≥2.
+2. Insert either no entry or one entry equal to one in each of the 𝑞−1 internal gaps.
+Here 𝑞≤Ω(𝑁), the number of prime factors counted with multiplicity, and the resulting length
+is at most 2Ω(𝑁) −1. If 𝑁= 1, the only possible polynomial is one, represented by any all-ones
+vector.
+Proof. The number of inversion sequences is 𝐸𝑠(1) = ∏𝑖𝑠𝑖. All nonunit entries therefore form
+an ordered factorization of 𝑁. A coordinate with 𝑠𝑖= 1 forces 𝑒𝑖= 0. Leading or trailing entries
+equal to one add no ascents and can be removed. A consecutive block of ones can be reduced to
+a single one: every removed coordinate and its neighboring unit coordinate both have ratio zero,
+so the ascent statistic is unchanged. These deletions give an ascent-preserving bijection, leaving
+only the stated choices. Conversely every stated choice is a valid positive vector. The length and
+factor-count bounds follow directly. □
+Thus a negative output of eulerian_recognition.py is a complete exclusion for that polynomial,
+covering all lengths. It is not a fixed-dimension nonmatch. This is an effective decision procedure;
+a structural characterization of all (𝑚, 𝑟) is still missing.
+A small complete exclusion
+For the uncolored multiplicities (2, 3),
+𝐴(1,1)
+(2,3)(𝑥) = 1 + 6𝑥+ 3𝑥2,
+𝐴(1,1)
+(2,3)(1) = 10.
+The canonical candidates are (10), (2, 5), (5, 2), (2, 1, 5), (5, 1, 2). Their distinct polynomials are
+1 + 9𝑥,
+1 + 7𝑥+ 2𝑥2,
+1 + 5𝑥+ 4𝑥2.
+None is the required polynomial. This proves an exclusion for every positive integer vector 𝑠, in-
+dependently of a length bound chosen by the computation. The source’s (3, 3) exclusion is also
+reproduced.
+37
+
+
+===== PAGE 38 =====
+B3: Positivity certificates
+6 October 2026
+An infinite family from a Pell equation
+A unit separator gives a product identity:
+𝐸(𝑎,1,𝑏)(𝑥) = 𝐸(𝑎)(𝑥)𝐸(𝑏)(𝑥) = (1 + (𝑎−1)𝑥)(1 + (𝑏−1)𝑥).
+(1.1)
+Indeed, the middle inversion coordinate is zero. Its incoming transition is never an ascent, and its
+outgoing transition is exactly the initial ascent for the second block. More generally 𝐸(𝑠,1,𝑡) = 𝐸𝑠𝐸𝑡
+for arbitrary positive vectors 𝑠, 𝑡.
+For two uncolored symbols with multiplicities (2, 𝑏),
+𝐴(1,1)
+(2,𝑏)(𝑥) = 1 + 2𝑏𝑥+ (𝑏
+2)𝑥2.
+Whenever 𝑏(𝑏+ 1)/2 = 𝑡2,
+1 + 2𝑏𝑥+ (𝑏
+2)𝑥2 = (1 + (𝑏−𝑡)𝑥)(1 + (𝑏+ 𝑡)𝑥),
+and consequently
+𝐴(1,1)
+(2,𝑏) = 𝐸(𝑏−𝑡+1, 1, 𝑏+𝑡+1).
+(1.2)
+Both entries are positive because 𝑡≤𝑏for 𝑏≥1. The positive solutions form an infinite family:
+starting from (𝑏, 𝑡) = (1, 1), the recurrence
+(𝑏, 𝑡) ⟼(3𝑏+ 4𝑡+ 1, 2𝑏+ 3𝑡+ 1)
+preserves (2𝑏+ 1)2 −8𝑡2 = 1 and strictly increases 𝑏. Thus the first nontrivial examples are
+𝑏
+𝑡
+A representing vector 𝑠
+8
+6
+(3, 1, 15)
+49
+35
+(15, 1, 85)
+288
+204
+(85, 1, 493)
+1681
+1189
+(493, 1, 2871)
+No general exclusion is inferred for values outside this family. For example (2, 2) is represented by
+(2, 3) through a different mechanism.
+Exact finite recognition results
+The script generates colored coefficients from the supplied Ehrhart identity and compares complete
+polynomials. The refined inversion-sequence dynamic program uses integer cross multiplication to
+compare ratios and was independently checked against literal enumeration for all 120 vectors of
+length at most four with entries in {1, 2, 3}.
+For 1 ≤𝑎≤6, 𝑎≤𝑏≤8, retaining exactly the cases with (𝑎+𝑏
+𝑎) ≤500, all 28 uncolored two-
+symbol polynomials were completely decided. Ten are s-Eulerian: the eight cases 𝑎= 1, plus (2, 2)
+and (2, 8). The other eighteen are excluded for every possible length. The complete coefficients,
+witness vectors, and candidate counts are in eulerian_results.json.
+38
+
+
+===== PAGE 39 =====
+B3: Positivity certificates
+6 October 2026
+Q1263: exact symmetric decompositions
+For a polynomial 𝑝of its actual degree 𝑑, the decomposition 𝑝= 𝑎+ 𝑥𝑏is obtained exactly from
+𝑏(𝑥) = 𝑥𝑑𝑝(1/𝑥) −𝑝(𝑥)
+1 −𝑥
+,
+𝑎(𝑥) = 𝑝(𝑥) −𝑥𝑏(𝑥).
+Successively removing the lowest-degree term in the symmetric basis 𝑥𝑖(1 + 𝑥)𝑑−2𝑖then gives the
+two gamma-vectors without numerical fitting. This is implemented in both the recognition script
+and the general toolkit.
+As an elementary closed formula, take two distinct symbols with color counts 𝑢, 𝑣≥2. Then
+𝐴(𝑢,𝑣)
+(1,1)(𝑥) = 1 + (𝑢𝑣+ 𝑢+ 𝑣−2)𝑥+ (𝑢−1)(𝑣−1)𝑥2.
+Its actual degree is two, and its two gamma-vectors are
+𝛾(𝑎) = (1, 2𝑢+ 2𝑣−4),
+𝛾(𝑏) = ((𝑢−1)(𝑣−1) −1).
+These are nonnegative on the stated parameter range. They give complete degree-two formulas, but
+no general orbit action or interpretation of the two vectors for arbitrary multiplicities is supplied.
+Q1263 remains unresolved in its requested general form.
+Q2212: exhaustive finite coverage of every numerical monoid
+Two elementary reductions make an exact finite screen exhaustive over monoids, rather than an
+arbitrary list of generators.
+Atom inheritance. If 𝐴⊂𝐻contains zero and 𝐴= 𝐵+𝐶with both factors containing zero, then
+𝐵, 𝐶⊂𝐴. Therefore 𝐴is an atom in the reduced power monoid of 𝐻if and only if it is an atom in
+that of ℕ0. Its atomicity is independent of the surrounding numerical monoid.
+Truncation characterization.
+A set 𝑇⊆{0, … , ℓ} containing zero occurs as 𝐻∩[0, ℓ] for a
+numerical monoid 𝐻if and only if
+𝑎, 𝑏∈𝑇, 𝑎+ 𝑏≤ℓ
+⟹
+𝑎+ 𝑏∈𝑇.
+Necessity is immediate. For sufficiency, take 𝐻= 𝑇∪{ℓ+1, ℓ+2, …}. Sums at most ℓare covered
+by the condition, and all larger sums lie in the cofinite tail. This is a numerical monoid with the
+required truncation.
+The C++ screen enumerates all such 𝑇. Independently, it enumerates every pair of nonidentity finite
+factors 𝐵, 𝐶containing zero with max 𝐵+ max 𝐶≤ℓ, and marks their sumsets as decomposable.
+Restricting the remaining subsets to each 𝑇gives the required atom counts. The output retains
+exactly cardinalities 0, … , ℓ, as required by the source, and maximum at most ℓ.
+Result. Every numerical monoid satisfies Q2212 for every cutoff 0 ≤ℓ≤22. In fact every counted
+row in this finite range is log-concave.
+Cutoff ℓ
+Distinct numerical-monoid
+truncations
+Nonempty subsets evaluated
+across those truncations
+12
+171
+16,758
+16
+785
+306,484
+18
+1,655
+1,282,272
+20
+3,516
+5,315,701
+22
+7,257
+21,814,098
+39
+
+
+===== PAGE 40 =====
+B3: Positivity certificates
+6 October 2026
+At cutoff 22, the sumset stage checked 20,972,544 unordered factor pairs. Arithmetic is exact; the
+chosen cutoff keeps every counter and its squared inequality within unsigned 64-bit range. An inde-
+pendent Python implementation enumerated factors as literal sets for all 502 nonempty candidate
+subsets through cutoff eight, and matched all 110 monoid rows in those cutoffs. It shares neither the
+bitwise sumset operation nor the factor-pair enumeration scheme with the C++ implementation.
+These are complete finite results, with every row retained in the accompanying JSONL files. They
+do not establish the conjecture for ℓ≥23.
+A source-status correction
+The handoff follows Tringali’s survey in describing the cited special-case asymptotic result as uni-
+modality for almost all cutoffs. The cited Aggarwal–Gotti–Lu preprint’s Corollary 5.3 actually states
+that asymptotically almost all positions within a row satisfy the appropriate direction of inequal-
+ity. That is a different quantifier. The retrieved preprint has only its December 2024 version; its
+abstract also describes each row as “almost unimodal.” The stronger almost-all-cutoffs interpreta-
+tion should not be treated as established by that cited corollary. This report does not attempt to
+re-prove the asymptotic result.
+Q1366: exact classical-pattern interval controls
+The screen constructs every principal downset of every permutation of length at most seven by re-
+cursive deletion and standardization. A set records distinct standardized permutations, so repeated
+occurrences do not inflate any rank. Literal position-subset enumeration independently verifies ev-
+ery downset through top length five.
+For each top permutation 𝜏, every lower pattern 𝜎≤𝜏is used as an interval endpoint. Counting
+each intermediate distinct permutation by its length gives the complete interval rank vector.
+All 200,523 intervals with nonempty lower endpoint and top length at most seven were unimodal.
+There were 206,436 intervals when the empty lower permutation was also included. These totals in-
+clude all smaller top lengths; the detailed per-length counts are in pattern_interval_results.json.
+For calibration, the interval [1, 13524] has rank vector
+(1, 2, 5, 5, 1).
+It is unimodal and fails log-concavity because 22 < 1 ⋅5. This is an exact witness against an unre-
+quested stronger property, and provides no counterexample to Q1366. The full all-interval conjec-
+ture remains unresolved.
+Q2400: a rigorous growing prefix with high probability
+The requested assertion concerns every coefficient of a sampled graph simultaneously, in a limit
+with fixed 𝑑. The following theorem establishes a growing initial part of that assertion. It leaves the
+remainder, including the region near the independence number, unresolved.
+Deterministic lemma. Let 𝐺have 𝑛≥2 vertices and 𝑚edges. For 1 ≤𝑘≤𝑛−1, define
+𝜖𝑘= 𝑚𝑘(𝑘−1)
+𝑛(𝑛−1) ,
+𝑇𝑘=
+𝑛+ 1
+(𝑘+ 1)(𝑛−𝑘+ 1).
+If 2𝜖𝑘≤𝑇𝑘, then
+𝑥𝑘(𝐺)2 ≥𝑥𝑘−1(𝐺)𝑥𝑘+1(𝐺).
+(5.1)
+Proof. Every non-independent 𝑘-set contains an edge. A union bound, expressed as an exact count-
+ing inequality, gives
+40
+
+
+===== PAGE 41 =====
+B3: Positivity certificates
+6 October 2026
+𝑥𝑘≥(𝑛
+𝑘) −𝑚(𝑛−2
+𝑘−2) = (𝑛
+𝑘)(1 −𝜖𝑘).
+Also 𝑥𝑘−1 ≤( 𝑛
+𝑘−1) and 𝑥𝑘+1 ≤( 𝑛
+𝑘+1). The hypothesis implies 0 ≤𝜖𝑘≤1/2, and
+(1 −𝜖𝑘)2 ≥1 −2𝜖𝑘≥1 −𝑇𝑘= ( 𝑛
+𝑘−1)( 𝑛
+𝑘+1)
+(𝑛
+𝑘)
+2
+.
+Squaring the nonnegative lower bound proves (5.1). □
+Corollary. Fix 𝑑> 0 and take 𝑛≥max(2, 𝑑) with 𝐺∼𝐺(𝑛, 𝑑/𝑛). Put
+𝐾= min (𝑛−1, ⌊(𝑛−1
+2𝑑)
+1/3
+⌋) .
+With probability at least 1 −exp(−𝑑(𝑛−1)/6), (5.1) holds simultaneously for every 1 ≤𝑘≤𝐾.
+Proof. The edge count has mean 𝜇= 𝑑(𝑛−1)/2. The standard binomial Chernoff bound gives
+Pr[𝑚> 𝑑𝑛] ≤Pr[𝑚> 2𝜇] ≤𝑒−𝜇/3. On 𝑚≤𝑑𝑛,
+2𝜖𝑘(𝑘+ 1) ≤2𝑑(𝑘3 −𝑘)
+𝑛−1
+≤1
+for every indicated 𝑘, while 𝑇𝑘≥1/(𝑘+ 1). The deterministic lemma applies to all those indices at
+once, without a union bound over 𝑘. □
+For 𝑑= 0 the graph is empty and the full coefficient sequence is binomial, hence log-concave. For
+fixed positive 𝑑, the corollary proves a prefix of order 𝑛1/3 with exponentially high probability. It
+neither proves nor refutes Q2400’s complete-row assertion.
+An exact expectation identity
+For 𝑞= 1 −𝑑/𝑛and arbitrary 𝑎, 𝑏, the exact mixed moment is
+𝔼[𝑥𝑎𝑥𝑏] = ∑
+𝑗
+𝑛! 𝑞(𝑎
+2)+(𝑏
+2)−(𝑗
+2)
+𝑗!(𝑎−𝑗)!(𝑏−𝑗)!(𝑛−𝑎−𝑏+ 𝑗)!,
+where the sum contains only indices for which all factorials are defined. This counts ordered pairs
+of independent sets by their intersection size.
+Taking (𝑎, 𝑏) = (𝑘, 𝑘) and (𝑘−1, 𝑘+1) shows, term by term, that 𝔼[𝑥2
+𝑘−𝑥𝑘−1𝑥𝑘+1] > 0 for 0 < 𝑞≤1
+and 1 ≤𝑘≤𝑛. For 𝑗≤𝑘−1 the second summand divided by the first is 𝑞(𝑘−𝑗)/(𝑘+1−𝑗) < 1; the
+𝑗= 𝑘term occurs only in the first sum. This concerns the expectation of the defect, and is stronger
+than comparing only expected coefficients, but still does not imply that the defect is nonnegative
+with high probability. The growing-prefix corollary above is the part that makes an actual probability
+statement about sampled graphs.
+Q183 and Q1454: structural calibrations and remaining gaps
+For Q183, every board with at most two nonempty rows has a non-nesting rook polynomial 1 + (𝑎+
+𝑏)𝑥+ 𝑐𝑥2, where 𝑎, 𝑏are the row lengths and 0 ≤𝑐≤𝑎𝑏. Its discriminant satisfies
+41
+
+
+===== PAGE 42 =====
+B3: Positivity certificates
+6 October 2026
+(𝑎+ 𝑏)2 −4𝑐≥(𝑎−𝑏)2 ≥0.
+Thus those instances are real-rooted, and automatically avoid the three-row forbidden board. Trans-
+position gives the corresponding two-column family. This elementary subclass does not handle gen-
+eral forbidden-board avoidance, and no new general resolution of Q183 is asserted.
+For Q1454, the Catalan control is an actual infinite certificate:
+𝐶𝑛= 1
+2𝜋∫
+4
+0
+𝑥𝑛√4 −𝑥
+𝑥
+𝑑𝑥.
+The integral is finite even at zero and equals
+1
+𝑛+1(2𝑛
+𝑛) by the beta integral.
+The shifted atomic
+sequence from the handoff is also retained with its correct shift:
+𝑏𝑗= 1
+86𝑗+ 1
+44𝑗+ 5
+82𝑗.
+It is the moment sequence of 1
+8𝛿6 + 1
+4𝛿4 + 5
+8𝛿2. Its Hankel rank is exactly three. The toolkit verifies
+the Catalan blocks and correctly detects the singular atomic blocks. These reproduce known certifi-
+cates; they do not settle any previously unresolved forbidden pattern. In particular no extrapolated
+1324 terms are used.
+Sources
+• Deligeorgaki–Han–Solus, Colored Multiset Eulerian Polynomials, arXiv:2407.12076, Proposi-
+tion 25 and Questions 22, 26: https://arxiv.org/pdf/2407.12076 .
+• Tringali, Power monoids and their arithmetic: a survey, arXiv:2602.15754v3, Conjecture 5.4:
+https://arxiv.org/html/2602.15754v3 .
+• Aggarwal–Gotti–Lu, On primality and atomicity of numerical power monoids, arXiv:2412.05857v1,
+Corollary 5.3: https://arxiv.org/html/2412.05857v1 .
+• McNamara–Steingrímsson, On the topology of the permutation pattern poset, arXiv:1305.5569:
+https://arxiv.org/abs/1305.5569 .
+• Vatter, An assortment of problems in permutation patterns, arXiv:2602.16355, Conjecture 2.2
+and Question 2.7: https://arxiv.org/html/2602.16355 .
+• Heilman, Independent Sets of Random Trees and of Sparse Random Graphs, arXiv:2006.04756,
+Question 1.21: https://arxiv.org/pdf/2006.04756 .
+• Jal et al., Rook matroids and log-concavity, arXiv:2410.00127: https://arxiv.org/abs/2410.001
+27 .
+• Bostan–Elvey Price–Guttmann–Maillard, Stieltjes moment sequences for pattern-avoiding per-
+mutations, arXiv:2001.00393: https://arxiv.org/abs/2001.00393 .
+Source questions are attributed above. The elementary deductions and exact calculations are pro-
+vided with their proofs and scopes, without asserting publication priority.
+42
+
+
+===== PAGE 43 =====
+B3: Positivity certificates
+6 October 2026
+Exact positivity diagnostic and verification
+The delivered positivity.py is a standalone implementation of the handoff’s proposed diagnostic.
+It accepts a JSON object or a list of objects and emits structured exact results. It is ready to use
+independently of the unavailable original oeis.py repository.
+All scalar input values are integers or rational strings; floating-point values are rejected. Polynomial
+coefficients are ordered from constant term upward.
+Metadata is retained, and every bounded-
+minor result records its row range, column range, maximum order, budget and number of checked
+minors. A failure includes a concrete exact witness.
+Supported inputs
+Input kind
+Main capabilities
+Scope rule
+finite-row
+Unimodality, log-concavity,
+log-convexity, internal zeros,
+ULC, optional Toeplitz minors
+Actual complete coefficient
+row; ULC requires explicit
+order and indices 0, … , 𝑁
+prefix
+Local inequalities, fully known
+Hankel PSD blocks, optional
+Toeplitz window
+Unknown entries are never set
+to zero
+matrix
+Bounded minors, optional
+exact PSD
+Finite matrix scope is explicit
+polynomial-matrix
+Exact polynomial minors and
+negative coefficient witnesses
+Values at sampled parameters
+are not substituted for
+coefficient signs
+polynomial
+Exact real-root counting, finite
+PF criterion, weak half-plane
+stability, gamma conversion
+The entire specified polynomial
+is certified
+interpolated-polynomial
+Rational numerator and PF
+criterion for (𝑃(𝑘))𝑘≥0
+A passing numerator criterion
+certifies the infinite sampled
+sequence
+Typical use is:
+python positivity.py research/toolkit/examples.json --out example_results.json
+The README in the archive specifies every input option and all reproduction commands.
+Boundary-safe exact methods
+Real roots. A rational Sturm chain counts distinct roots of the squarefree part. Multiplicities and
+roots at zero are retained separately. For nonnegative polynomial coefficients, real nonpositive roots
+are exactly the finite PF property.
+Weak half-plane stability. For a nonzero real polynomial 𝑝with positive leading coefficient, form
+𝑝(𝑧+ 𝑡). Every root of 𝑝lies in Re 𝑧≤0 exactly when 𝑝(𝑧+ 𝑡) is strictly Hurwitz stable for every
+sufficiently small positive 𝑡. By the Hurwitz criterion, this is equivalent to every leading Hurwitz
+determinant, regarded as a polynomial in 𝑡, having positive first nonzero coefficient. The diagnostic
+computes those polynomials exactly. This handles repeated imaginary-axis roots, where a strict test
+on 𝑝alone would fail. The default symbolic degree budget is twelve and is explicit in the output.
+Positive semidefiniteness. Exact symmetric elimination handles positive pivots, zero rows, and
+zero diagonal entries with nonzero off-diagonal entries. A negative result records an actual negative
+principal minor. It does not infer semidefiniteness from only the leading principal minors.
+Moment prefixes. Both 𝐻0 = (𝑎𝑖+𝑗) and 𝐻1 = (𝑎𝑖+𝑗+1) are tested at the largest sizes entirely
+known from the prefix.
+Passing these necessary finite constraints is reported as finite support,
+without a claim of an infinite representing measure or an extension theorem.
+43
+
+
+===== PAGE 44 =====
+B3: Positivity certificates
+6 October 2026
+Interpolation. The numerator is computed exactly as
+[𝑧𝑗]𝑁𝑃(𝑧) =
+𝑗
+∑
+𝑖=0
+(−1)𝑖(𝑛+ 1
+𝑖
+)𝑃(𝑗−𝑖),
+𝑛= deg 𝑃.
+Nonnegative coefficients and real nonpositive zeros of 𝑁𝑃establish the full sampled-sequence PF
+property using the cited generating-function criterion.
+Independent verification
+The toolkit controls include 729 symmetric 3 × 3 matrices, comparing the PSD procedure against
+every principal minor; 15 polynomial determinants checked against a separate permutation expan-
+sion; 150 constructed real-rooted and non-real-rooted polynomial cases; and 14 half-plane cases
+including repeated imaginary roots. All passed.
+The Catalan prefix gave PSD blocks of sizes eight and seven with full rank. A known three-atom mea-
+sure gave rank three in both fully known Hankel blocks. Deliberately insufficient prefixes returned
+insufficient-data rather than a false pass.
+The main proofs received separate audits. Q165’s rational identities and coefficient formulas were
+checked by both a symbolic system and an independent implementation using exact fractions;
+the formal substitution and the analytic implication were reviewed separately. Q166’s difference-
+constraint closure, endpoints and weighted four-functions application were checked directly, with
+independent composition and cut-set counts as controls. Q325’s phase ordering, centered-integral
+inequality, sharpness and equality cases were checked independently.
+The stronger interpolation examples were independently reconstructed and checked with exact root
+counting, including all eleven bases underlying the two infinite smallest-root families, the degree-24
+gap example, and all 27 tensor Bernstein coefficients used for 𝑅3 = 3.
+Most useful remaining proof targets
+The next work should focus on a short list of concrete missing statements.
+1. Q1158 and Q1159: strengthen total nonnegativity of order two to a uniform factorization,
+planar network, or explicit higher-minor formula. Exact Neville factors exist for the comput-
+ed blocks, but a symbolic description valid for arbitrary size is missing. The naive ordinary
+production matrices have negative entries, so their signs do not directly give the required
+certificate.
+2. Q1160: interpret the interior coefficients of the cycle Hankel determinants. The two extremes
+are already positive by explicit moment arguments; any counterexample would have to occur
+strictly between the proved degrees. The related subset negative minor identifies a precise
+feature a cycle-specific proof must use.
+3. Q164: upgrade the interval-constraint four-functions argument to binomial-normalized ultra-
+log-concavity, and address circular intervals for cycles. Ordinary log-concavity alone is insuf-
+ficient. The all-length success for Q165 also suggests investigating whether richer interval
+recurrences have positive cross-product certificates.
+4. Q1441–Q1443: use the compact cube parameterization and product closure to sharpen the
+uniform extremal bounds. Fixed-degree compactness gives existence of extrema, but it sup-
+plies no bound independent of degree. The explicit lower examples constrain what a proposed
+bound can be.
+5. Q1262: replace finite volume-factorization recognition by structural criteria for colored multi-
+plicities. The unit-separator product identity and Pell family give concrete constructive cases,
+while exact all-length exclusions can rule out overly broad conjectures.
+6. Q2400: control adjacent independence-count ratios beyond the first 𝑂(𝑛1/3) coefficients, es-
+pecially near the independence number. The positive expectation identity is not a substitute
+44
+
+
+===== PAGE 45 =====
+B3: Positivity certificates
+6 October 2026
+for concentration of those ratios or defects.
+These targets are stronger than extending a passing computational cutoff. The archive preserves
+the existing exact computations so that subsequent work can start from the proved reductions and
+retained witnesses.
+45

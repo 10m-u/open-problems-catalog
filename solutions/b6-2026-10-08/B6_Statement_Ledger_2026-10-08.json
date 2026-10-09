@@ -1,0 +1,1277 @@
+{
+  "schema_version": "1.0",
+  "programme": "B6",
+  "prepared_utc_date": "2026-10-08",
+  "authority_input": {
+    "filename": "B6 Random Genealogies - Agent Handoff 2026-10-07.md",
+    "archive_path": "inputs/B6_Handoff_2026-10-07.md",
+    "sha256": "0793df5488efa9c5b1455b96113123568fae822f452b49d23de2e92cfade6992",
+    "statement_count": 21
+  },
+  "status_semantics": {
+    "proved": "Complete written proof at exact retained scope; no compiled formal theorem or external peer review asserted.",
+    "partial": "A complete narrower theorem or exact reduction is supplied; full retained claim unresolved.",
+    "unresolved": "No exact new proof or counterexample obtained; finite/source evidence may be recorded.",
+    "scope-nonmatch": "A neighboring result does not answer the retained model/question."
+  },
+  "status_counts": {
+    "proved": 4,
+    "disproved": 0,
+    "partial": 4,
+    "unresolved": 13,
+    "scope-nonmatch": 0
+  },
+  "entries": [
+    {
+      "programme": "B6",
+      "q": "Q197",
+      "stable_statement_id": "2fb7624f5493d80f9245",
+      "numbering": "retained",
+      "title": "Retained statement",
+      "exact_retained_statement": "For the DLA tree X_m after m edges, does lim_(m→∞) log(diam_(X_m)(X_m))/log m exist almost surely, and what is its value? Diameter uses internal tree distance.",
+      "model_and_assumptions": "DLA tree in the supplied Pfeffer/Gwynne setup; diameter is intrinsic graph/tree distance after m edges, not ambient distance.",
+      "status": "unresolved",
+      "result_summary": "No new intrinsic-diameter exponent theorem obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "Existence and value of the almost-sure internal diameter exponent remain.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": false,
+          "source_ids": [],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Joshua William Pfeffer: Frontiers of Liouville Quantum Gravity](#source-1). **Location:** Problem 8.8.1, printed p. 315. Status evidence, checked 5 October 2026: The February 2021 primary-paper revision and Annals of Probability publication retain these as Problems 8.1–8.2. Searches for later work and Gwynne’s current publication list found no resolution; the proved ambient-distance growth exponent does not determine internal tree diameter or ends.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q198",
+      "stable_statement_id": "c1a6ddcd43922d127073",
+      "numbering": "retained",
+      "title": "Retained statement",
+      "exact_retained_statement": "Is the infinite DLA tree X_∞ almost surely one-ended: after deleting any finite-radius internal ball about its root, exactly one infinite component remains?",
+      "model_and_assumptions": "Infinite DLA tree in the supplied Pfeffer/Gwynne setup; one-endedness after deleting every finite-radius intrinsic root ball.",
+      "status": "unresolved",
+      "result_summary": "No new one-endedness theorem obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "Control of infinite components after deleting intrinsic root balls remains.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": false,
+          "source_ids": [],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Joshua William Pfeffer: Frontiers of Liouville Quantum Gravity](#source-1). **Location:** Problem 8.8.2, printed p. 315. Status evidence, checked 5 October 2026: The February 2021 primary-paper revision and Annals of Probability publication retain these as Problems 8.1–8.2. Searches for later work and Gwynne’s current publication list found no resolution; the proved ambient-distance growth exponent does not determine internal tree diameter or ends.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1288",
+      "stable_statement_id": "fe43a1729f391b7ded90",
+      "numbering": "retained",
+      "title": "Critical component scale in genuine attachment graphs",
+      "exact_retained_statement": "For δ>0, independently retain edges with probability π_c, the threshold for a positive limiting giant-component proportion. What is the asymptotic order, as n→∞, of the largest connected component?",
+      "model_and_assumptions": "Thesis model (d): start with two vertices joined by m parallel edges, m>=2; each new vertex adds m edges sequentially to older vertices with weights current degree+delta. Retained question has delta>0; independent edge percolation at pi_c.",
+      "status": "unresolved",
+      "result_summary": "Neighboring independent-edge critical-window result checked and rejected as a model match.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "Largest-component order in the genuine degree-dependent fixed-outdegree model remains.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S8"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Rounak Ray: Stochastic processes on preferential attachment models](#source-2). **Location:** Discussion, p.194; Chapter 6.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1296",
+      "stable_statement_id": "1d82caacb8c09e80ef97",
+      "numbering": "retained",
+      "title": "Monotonicity under branching, deletion and merging",
+      "exact_retained_statement": "Is P(Z_n>0 for every n) nondecreasing in p and nonincreasing in q?",
+      "model_and_assumptions": "p>-1, q in [0,1]. Poisson((1+p)(1-q)^k_u) children for each last-generation vertex, with k_u the current distance-three count; independently mark distance-four pairs of new vertices with probability q and merge the generated equivalence classes. Z_n is generation size.",
+      "status": "unresolved",
+      "result_summary": "No monotonicity proof or counterexample obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "A coupling must respect state-dependent suppression and merger equivalence classes.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": false,
+          "source_ids": [],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Laura Eslava, Sarah Penington and Fiona Skerman: A branching process with deletions and mergers that matches the threshold for hypercube percolation](#source-3). **Location:** After Theorem 1.1 and §2.3.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1397",
+      "stable_statement_id": "c513ac78091df42c2868",
+      "numbering": "retained",
+      "title": "Geometry of large subcritical attachment components",
+      "exact_retained_statement": "For fixed 0<π<π_c, determine the metric scaling limits of the largest connected components, including the correct rescaling of graph distances; the cardinality normalization n^{(1−√(8π²−8π+1))/2} is already known.",
+      "model_and_assumptions": "Start with one vertex; each arrival chooses two independently uniform older endpoints, then independently retain each edge with probability pi. pi_c=(2-sqrt(2))/4. Fixed 0<pi<pi_c; requested object is graph-distance geometry of largest components.",
+      "status": "unresolved",
+      "result_summary": "No metric scaling theorem obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "Distance rescaling and metric limits of largest subcritical fixed-two-outedge components remain.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S8"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Sayan Banerjee, Shankar Bhamidi, Remco van der Hofstad and Rounak Ray: Non-equilibrium coagulation processes and subcritical percolation on evolving networks](#source-4). **Location:** p. 13, Work in progress (ii).",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1398",
+      "stable_statement_id": "e1dfbdf43eae91c58029",
+      "numbering": "retained",
+      "title": "Critical window for fixed-outdegree uniform attachment",
+      "exact_retained_statement": "For π_n=π_c+b/(log n)² with fixed b∈R, determine the asymptotic scales and limiting laws of the largest component sizes in the fixed-two-outedge model.",
+      "model_and_assumptions": "The same fixed-two-outedge uniform attachment/percolation model as Q1397, with pi_n=pi_c+b/(log n)^2, fixed real b.",
+      "status": "unresolved",
+      "result_summary": "Independent-edge critical-window theorem is a scope nonmatch.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "Critical-window component laws for the exact fixed-two-outedge model remain.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S8"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Sayan Banerjee, Shankar Bhamidi, Remco van der Hofstad and Rounak Ray: Non-equilibrium coagulation processes and subcritical percolation on evolving networks](#source-4). **Location:** p. 13, Work in progress (iii).",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1884",
+      "stable_statement_id": "45d9aec35f166c99cecf",
+      "numbering": "retained",
+      "title": "Critical directed diameter",
+      "exact_retained_statement": "Is Diam(G_n)=Θ_P(n^(1/3)), meaning that Diam(G_n)/n^(1/3) and its reciprocal are tight?",
+      "model_and_assumptions": "iid critical directed degree pairs with E D-=E D+=E(D-D+)>0, all supplied moments through total degree 3 plus (1,3),(3,1), strongly aperiodic D--D+; condition equal totals and graphicality and sample a uniform simple digraph. Diameter is the largest finite directed distance.",
+      "status": "unresolved",
+      "result_summary": "No new upper bound obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "The exact tight upper bound for largest finite directed distance remains.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": false,
+          "source_ids": [],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Serte Donderwinkel: The structure of large random graphs](#source-5). **Location:** §3.6(2), p. 183; model §3.1.3.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1885",
+      "stable_statement_id": "9555ab5eed7e5e643fb2",
+      "numbering": "retained",
+      "title": "Universal BST lower bound",
+      "exact_retained_statement": "For every μ and ε>0, is P(h(T_n)<(c_*−ε)log n)→0?",
+      "model_and_assumptions": "Arbitrary permuton mu (uniform marginals); sort iid mu-points by x and insert y-values into a BST; graph height and c_*>2 satisfying c_* log(2e/c_*)=1.",
+      "status": "partial",
+      "result_summary": "Almost-sure liminf H_n/log n >= c_* if mu has continuous positive density on any nondegenerate rectangle touching the left edge; no condition outside that rectangle.",
+      "changed_assumptions": [
+        "For the partial theorem only: restrict mu to a continuous positive density on one nondegenerate left-edge rectangle; outside it mu may be singular. Convergence is strengthened to an almost-sure liminf in the nested iid coupling."
+      ],
+      "residual_gap_or_limit": "The universal arbitrary-permuton lower bound, including singular cases, remains.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": true,
+          "artifacts": [
+            "research/permutations/Q1885-formatted.md",
+            "research/permutations/Q1886-formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S3"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": true,
+          "experiment_ids": [
+            "bst"
+          ],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Victor Dubach: On Some Models of Non-Uniform Random Permutations](#source-6). **Location:** Conjecture 3.2.2, p. 124.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1886",
+      "stable_statement_id": "bf78aed37063121c130a",
+      "numbering": "retained",
+      "title": "Almost-sure sampled BST height",
+      "exact_retained_statement": "Use the first n points of one infinite iid μ-sequence. If μ has bounded density, continuous and positive near {0}×[0,1], does h(T_n)/log n→c_* almost surely?",
+      "model_and_assumptions": "The first n points of one infinite iid permuton sequence, ordered by x and inserted by y; mu has globally bounded density, continuous and positive on a neighborhood of the entire edge {0}x[0,1].",
+      "status": "proved",
+      "result_summary": "H_n/log n -> c_* almost surely in the exact nested iid planar-sample coupling under the exact retained density hypotheses. Polynomial marginal deviation bounds are also proved.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "No mathematical gap identified in the complete written argument; external peer review and formal verification are not claimed.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": true,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": [
+            "research/permutations/Q1886-formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S3"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": true,
+          "experiment_ids": [
+            "bst"
+          ],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Victor Dubach: On Some Models of Non-Uniform Random Permutations](#source-6). **Location:** Remark 17, pp. 124–125.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1887",
+      "stable_statement_id": "8f92afa9a2824a17445b",
+      "numbering": "retained",
+      "title": "Uniform limit with many internals",
+      "exact_retained_statement": "Whenever n,k→∞ and k/n→∞, does (n+k)⁻¹∑_{i=1}^{n+k}δ_{(i/(n+k),σ_{n,k}(i)/(n+k))} converge weakly in probability to Lebesgue measure on [0,1]²?",
+      "model_and_assumptions": "Uniform permutation of n+k entries with exactly n external records (an empty strict quadrant) and k internal entries; normalized permutation ranks, not arbitrary independent continuous coordinates.",
+      "status": "proved",
+      "result_summary": "Normalized permutation-rank empirical measures converge weakly in probability to Lebesgue whenever k/n -> infinity. Stronger range: every n>=4, without requiring n -> infinity.",
+      "changed_assumptions": [
+        "No narrowing: the proved theorem additionally allows fixed n>=4 while k/n tends to infinity."
+      ],
+      "residual_gap_or_limit": "No mathematical gap identified in the complete written argument. Thesis question-page numbering remains attachment provenance.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": true,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": [
+            "research/permutations/Q1887-formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S2"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": true,
+          "experiment_ids": [
+            "skeleton"
+          ],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Jacopo Borga: Random Permutations – A geometric point of view](#source-7). **Location:** Conjecture 5.1.4(e), p. 127.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1888",
+      "stable_statement_id": "7e728675d1726f7676ee",
+      "numbering": "retained",
+      "title": "Complete hub mass",
+      "exact_retained_statement": "Is ∑_{i≥1}Z_i=1 almost surely?",
+      "model_and_assumptions": "T_2 is edge {1,2}; select a uniform vertex, then a uniform neighbor, and attach the new vertex to that neighbor. Z_i=lim degree(i)/n.",
+      "status": "proved",
+      "result_summary": "Sum_i Z_i=1 almost surely. Also l1 limits for leaf mass, excess-degree mass, and degree mass on nonleaves; TV attachment-label convergence, a conditional TV distance-law limit, and tight typical distances.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "Depends on the primary polynomial nonleaf bound; no external peer review or formal verification claimed.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": true,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": [
+            "research/friend/friend_research_formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S1"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": true,
+          "experiment_ids": [
+            "friend"
+          ],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Louigi Addario-Berry, Simon Briend, Luc Devroye, Serte Donderwinkel, Céline Kerriou and Gábor Lugosi: Random Friend Trees](#source-8). **Location:** §7(4).",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1889",
+      "stable_statement_id": "c8f5ea8c27dcbc835ad2",
+      "numbering": "retained",
+      "title": "Older hubs dominate",
+      "exact_retained_statement": "For every u<v, does Z_u stochastically dominate Z_v?",
+      "model_and_assumptions": "The same random-friend tree, all fixed birth labels u<v, and stochastic order of the entire limiting degree-share distributions.",
+      "status": "unresolved",
+      "result_summary": "Exact finite-time older-degree stochastic-order comparisons pass for all sizes 2 through 8.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "No proof for arbitrary sizes or limiting label pairs; neighboring degrees obstruct a scalar degree induction.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": [
+            "research/friend/friend_research_formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S1"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": true,
+          "experiment_ids": [
+            "friend"
+          ],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Louigi Addario-Berry, Simon Briend, Luc Devroye, Serte Donderwinkel, Céline Kerriou and Gábor Lugosi: Random Friend Trees](#source-8). **Location:** §7(3).",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1890",
+      "stable_statement_id": "489730501d06b46aaf17",
+      "numbering": "retained",
+      "title": "Nonleaf normalization",
+      "exact_retained_statement": "Do μ>0 and a nondegenerate random variable X exist with n^(−μ)N_n→X almost surely?",
+      "model_and_assumptions": "The same random-friend tree; N_n is the number of degree-at-least-two vertices; deterministic mu>0 and an almost-sure nondegenerate normalized limit are requested.",
+      "status": "partial",
+      "result_summary": "With q_n=N_n^{-1} sum_{v:D_n(v)>=2} L_n(v)/D_n(v), log N_n-sum_{k=3}^{n-1} q_k/k has a finite real almost-sure limit.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "A deterministic exponent, convergence of the centered harmonic drift, and nondegeneracy remain. Positive finite power-normalized limits are equivalent to real convergence of the centered harmonic series.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": true,
+          "artifacts": [
+            "research/friend/friend_research_formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S1"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Louigi Addario-Berry, Simon Briend, Luc Devroye, Serte Donderwinkel, Céline Kerriou and Gábor Lugosi: Random Friend Trees](#source-8). **Location:** §7(1).",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1891",
+      "stable_statement_id": "24273db763cecc5254b2",
+      "numbering": "retained",
+      "title": "Heavy-tail common-subtree limit",
+      "exact_retained_statement": "If μ([k,∞))∼ck^(−α) and μ′([k,∞))∼c′k^(−α′), with c,c′>0 and 1<α≤α′<2, does n^(−1/α′)L_n converge in distribution to a finite positive random variable?",
+      "model_and_assumptions": "Independent critical nondegenerate Bienayme trees conditioned on n vertices along common admissible sizes; unlabelled unordered unrooted graph-subtree isomorphism; stated regularly varying offspring tails, 1<alpha<=alpha_prime<2.",
+      "status": "unresolved",
+      "result_summary": "No heavy-tail common-subtree limit obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "Large-degree decoration control and the proposed n^(1/alpha_prime) limit remain.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S4"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Omer Angel, Caelan Atamanchuk, Anna Brandenberger, Serte Donderwinkel and Robin Khanfir: The largest common subtree of two random trees](#source-9). **Location:** §6(ii), p. 41.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1892",
+      "stable_statement_id": "d6a1058cd1299f2c8603",
+      "numbering": "retained",
+      "title": "Mixed-moment common subtrees",
+      "exact_retained_statement": "If μ has a finite (2+κ)-moment for some κ>0 while μ′ has infinite second moment, is L_n/√n→0 in probability?",
+      "model_and_assumptions": "The same conditioned unlabelled unordered unrooted common-subtree model; mu has some finite (2+kappa)-moment, while mu_prime has infinite second moment.",
+      "status": "unresolved",
+      "result_summary": "No mixed-moment vanishing theorem obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "The finite-variance/infinite-variance comparison at scale sqrt(n) remains.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S4"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Omer Angel, Caelan Atamanchuk, Anna Brandenberger, Serte Donderwinkel and Robin Khanfir: The largest common subtree of two random trees](#source-9). **Location:** §6(iii), p. 41.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q1893",
+      "stable_statement_id": "1682f687494957159272",
+      "numbering": "retained",
+      "title": "Critical memory-tree scaling",
+      "exact_retained_statement": "For β=1/2, does n^(−1/2)T_n converge in distribution in the Gromov–Hausdorff topology to a nondegenerate compact random metric space?",
+      "model_and_assumptions": "Root 1; independently attach vertex n+1 uniformly to {max(1,n-floor(n^beta)),...,n}; beta=1/2 and graph distance, with bare GH convergence requested.",
+      "status": "partial",
+      "result_summary": "At beta=1/2, ||max_{v<=n}|D_v-4 sqrt(v)|/sqrt(n)||_2 -> 0. Uniform-vertex radial measure converges to the law of 4 sqrt(U); any rooted measured subsequential limit has this law and height 4.",
+      "changed_assumptions": [
+        "No GH convergence asserted. A root and uniform-vertex measure are retained only for the necessary radial-profile statement."
+      ],
+      "residual_gap_or_limit": "GH tightness/compactness, the full metric object, and uniqueness remain; root-distance control is not a covering-number bound.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": true,
+          "artifacts": [
+            "research/memory/critical_profile_formatted.md",
+            "research/memory/memory_depth_clt_formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S6"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Omer Angel, Shankar Bhamidi, Serte Donderwinkel, Neeladri Maitra and Akshay Sakanaveeti: Evolution of recursive trees with limited memory](#source-10). **Location:** §3.3(d), p. 8.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    },
+    {
+      "programme": "B6",
+      "q": "Q2392",
+      "stable_statement_id": "1959a17dd98d050f8c68",
+      "numbering": "retained",
+      "title": "Sharp cladogram branch rotation",
+      "exact_retained_statement": "Consider rooted unordered binary trees with n leaves labeled [n] and a root stem. Pick uniformly a nonstem edge, detach its descendant subtree, and suppress its attachment vertex, making edge e. Choose each existing edge adjacent to e with probability 1/4 and regraft at its midpoint; unused probability holds. Is inverse spectral gap O(n^(3/2))?",
+      "model_and_assumptions": "Rooted unordered binary cladograms with n labelled leaves and a root stem; the exact uniform-nonstem-edge detachment, adjacent-edge regraft at probability 1/4 each, and holding convention of the attachment.",
+      "status": "unresolved",
+      "result_summary": "No sharper spectral-gap estimate obtained.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "The O(n^(3/2)) inverse-gap bound for the exact rotation and holding rule remains.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": false,
+          "source_ids": [],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[David Aldous: Some Open Problems](#source-11). **Location:** §4, pp. 9–11; hosted clad-mix.pdf, pp. 1–2.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q2399",
+      "stable_statement_id": "b252bb236c6d560e7c49",
+      "numbering": "retained",
+      "title": "Rooted common-subtree scaling law",
+      "exact_retained_statement": "Does (n^(−1/2)τ_n,n^(−1/2)τ′_n,n^(−1/2)L•(τ_n,τ′_n)) converge jointly in distribution to (2T/σ,2T′/σ′,c min{2H(T)/σ,2H(T′)/σ′}), with Gromov–Hausdorff convergence in the first two coordinates?",
+      "model_and_assumptions": "Independent critical nondegenerate Bienayme trees conditioned on common admissible size n; finite positive variances sigma^2,sigma_prime^2, and a finite (2+kappa)-moment for mu. Common subtrees preserve the original roots and ignore order and labels. c=E L_bullet(tau_star,tau_prime_star) for root offspring (k+1)mu(k+1) and (k+1)mu_prime(k+1). Independent normalized-excursion Brownian CRTs.",
+      "status": "proved",
+      "result_summary": "L_n^bullet=c min(H(tau_n),H(tau_prime_n))+o_P(sqrt(n)), giving the exact asserted joint CRT limit and rooted GH convergence.",
+      "changed_assumptions": [
+        "No narrowing: rooted GH convergence of the tree coordinates is proved in addition to the retained unmarked conclusion."
+      ],
+      "residual_gap_or_limit": "Uses Proposition 4.3 uniform estimates from the primary source. No mathematical gap identified in the independent written reviews; no formal verification.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": true,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": [
+            "research/common/q2399_proof.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S4",
+            "S5"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Omer Angel: Caelan Atamanchuk, Anna Brandenberger, Serte Donderwinkel and Robin Khanfir, The largest common subtree of two random trees](#source-12). **Location:** §6(i), p. 41; Theorem 1.2 definitions, p. 2.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    },
+    {
+      "programme": "B6",
+      "q": "Q2490",
+      "stable_statement_id": "9b2ec4db36d8dc2b752e",
+      "numbering": "provisional-recovery-draft",
+      "title": "Sub-square-root Yule agreement bound",
+      "exact_retained_statement": "Grow a Yule–Harding unrooted binary tree from one edge by repeatedly splitting a uniformly chosen leaf into a node with two new leaves; label its n leaves uniformly by [n]. For independent copies Y_n,Y′_n, does some ε>0 satisfy P(MAST(Y_n,Y′_n)≤n^(1/2−ε))→1? MAST preserves leaf labels and suppresses degree-two vertices after restriction.",
+      "model_and_assumptions": "Yule–Harding unrooted binary trees from the specified leaf-splitting growth, independently and uniformly labelled by [n]; MAST preserves leaf labels and suppresses degree-two vertices after restriction.",
+      "status": "unresolved",
+      "result_summary": "Checked that the existing uniform-labelled binary-tree result does not settle the Yule–Harding law.",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "A sub-square-root high-probability agreement bound for the exact Yule growth law remains.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S7"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Thomas Budzinski; Delphin Sénizergues: Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](#source-13). **Location:** §5.2, Other models of random trees, p. 28.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q2491",
+      "stable_statement_id": "f82ba8d6bddd7e9322b5",
+      "numbering": "provisional-recovery-draft",
+      "title": "Optimal Brownian-tree Hölder exponent",
+      "exact_retained_statement": "Let T,T′ be independent Brownian CRTs coded by normalized Brownian excursions. Determine γ_+=inf{γ≥0: almost surely no homeomorphism Ψ:T→T′ satisfies d′(Ψx,Ψy)≤C d(x,y)^γ for some finite C and all x,y}.",
+      "model_and_assumptions": "Independent Brownian CRTs coded by normalized excursions; one-direction gamma-Holder homeomorphism with a finite random global constant; gamma_+ as the infimum in the exact retained statement.",
+      "status": "unresolved",
+      "result_summary": "Verified existing bounds 5-2 sqrt(6) <= gamma_+ <= 1-10^(-338); existence is for every exponent strictly below 5-2 sqrt(6).",
+      "changed_assumptions": [],
+      "residual_gap_or_limit": "The exact optimal Holder exponent remains; these bounds are existing results, not new progress claimed here.",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": false,
+          "artifacts": []
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S7"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": false,
+          "experiment_ids": [],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Thomas Budzinski; Delphin Sénizergues: Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](#source-13). **Location:** §5.2, Optimal regularity, pp. 28–29.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "No exact written proof claimed."
+    },
+    {
+      "programme": "B6",
+      "q": "Q2495",
+      "stable_statement_id": "c8efa831871a9b89e030",
+      "numbering": "provisional-recovery-draft",
+      "title": "Memory-tree height fluctuations",
+      "exact_retained_statement": "For each fixed β∈(0,1), determine the scale and limiting distribution of H_n−E H_n, including the transition at β=1/2.",
+      "model_and_assumptions": "Root 1; vertex n+1 independently chooses a uniform parent in {max(1,n-floor(n^beta)),...,n}; fixed beta in (0,1), full-tree root height H_n, centered by E H_n.",
+      "status": "partial",
+      "result_summary": "For every fixed 0<beta<1/2, Var H_n ~ 2 n^(1-beta)/(3(1-beta)) and the corresponding centered normal limit. The same depth theorem holds for all fixed 0<beta<1; ||H_n-D_n||_2=O(n^(beta/2) log n). Exact clock F(n) is a valid centering.",
+      "changed_assumptions": [
+        "No model change. Height theorem restricted to fixed beta in (0,1/2); the auxiliary single-vertex depth theorem covers fixed beta in (0,1)."
+      ],
+      "residual_gap_or_limit": "Critical and supercritical height scales and distributions remain. The all-beta auxiliary theorem concerns D_n, not H_n.",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "complete_at_exact_retained_scope": false,
+          "complete_for_stated_partial_scope": true,
+          "artifacts": [
+            "research/memory/memory_depth_clt_formatted.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "performed": true,
+          "source_ids": [
+            "S6",
+            "S9"
+          ],
+          "coverage_note": "See version and inspection limits in primary_sources. Historical collector status is not a new literature certification."
+        },
+        "finite_computation": {
+          "performed": true,
+          "experiment_ids": [
+            "memory"
+          ],
+          "used_as_asymptotic_proof": false
+        },
+        "compiled_formal_theorem": {
+          "ran": false,
+          "scope": null,
+          "kernel_certificate": null
+        }
+      },
+      "historical_source_provenance": {
+        "from": "attached handoff",
+        "text": "[Omer Angel; Shankar Bhamidi; Serte Donderwinkel; Neeladri Maitra; Akshay Sakanaveeti: Evolution of recursive trees with limited memory](#source-14). **Location:** §3.3(c), p. 8.",
+        "independent_current_status_certification": false
+      },
+      "proof_review": "Independent mathematical review within this session; no external peer review or publication-priority assertion."
+    }
+  ],
+  "primary_sources": {
+    "S1": {
+      "title": "Random friend trees",
+      "url": "https://arxiv.org/html/2403.20185v1",
+      "version": "v1",
+      "version_date": "2024-03-29",
+      "locations": [
+        "Theorem 3.1, printed p. 5",
+        "Theorem 4.7, printed p. 7",
+        "Section 7, printed p. 31"
+      ],
+      "inspection": "Primary theorem statements and question section checked; complete journal version not independently compared."
+    },
+    "S2": {
+      "title": "Almost square permutations are typically square",
+      "url": "https://arxiv.org/pdf/1910.04813v2",
+      "version": "v2",
+      "version_date": "2020-12-08",
+      "locations": [
+        "Section 1, pp. 1–2"
+      ],
+      "inspection": "Exact ASq(n,k) model checked; thesis Conjecture 5.1.4(e) numbering remains attachment provenance."
+    },
+    "S3": {
+      "title": "Binary search trees of permuton samples",
+      "url": "https://arxiv.org/html/2403.03151v2",
+      "version": "v2",
+      "version_date": "2025-01-27",
+      "locations": [
+        "Sections 1.2–1.3",
+        "Theorem 1.1",
+        "Remark 1",
+        "Conjecture 1",
+        "Lemmas 3.1–3.2 and 3.5",
+        "Propositions 3.3 and 5.5"
+      ],
+      "inspection": "Exact assumptions, coupling question, and homogeneous-height dependency checked."
+    },
+    "S4": {
+      "title": "The largest common subtree of two random trees",
+      "url": "https://arxiv.org/html/2601.00119v1",
+      "version": "v1",
+      "version_date": "2025-12-31",
+      "locations": [
+        "Proposition 2.6",
+        "Lemma 2.7",
+        "Proposition 4.3",
+        "Section 4.2",
+        "Section 6(i)–(iii)"
+      ],
+      "inspection": "Uniform exceptional-event statement, quantifiers, deterministic application and retained questions checked."
+    },
+    "S5": {
+      "title": "The continuum random tree III",
+      "url": "https://www.stat.berkeley.edu/~aldous/Papers/CRT3.pdf",
+      "version": "Annals of Probability 21 (1993), 248–289",
+      "locations": [
+        "Lemma 21 and equation (33), printed p. 277",
+        "Corollary 22, printed p. 279"
+      ],
+      "inspection": "Reduced-tree edge density checked for diffuse positive root branch heights."
+    },
+    "S6": {
+      "title": "Evolution of recursive trees with limited memory",
+      "url": "https://arxiv.org/html/2510.18856v1",
+      "version": "v1",
+      "version_date": "2025-10-21",
+      "locations": [
+        "Section 1.1",
+        "Theorems 2.8–2.11",
+        "Section 3.3(c,d)",
+        "Proposition 6.1",
+        "Corollary 6.2",
+        "Section 6.2"
+      ],
+      "inspection": "Exact window, source limits, questions and ancestry exploration checked."
+    },
+    "S7": {
+      "title": "Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees",
+      "url": "https://numdam.org/item/10.5802/jep.256.pdf",
+      "version": "JEP 11 (2024), 395–430",
+      "locations": [
+        "Theorem 2",
+        "Theorem 22",
+        "Section 5.2"
+      ],
+      "inspection": "Existing Hölder bounds and Yule-versus-uniform model scope checked."
+    },
+    "S8": {
+      "title": "Independent-edge age-kernel critical-window source",
+      "url": "https://arxiv.org/abs/2512.18937",
+      "version": "abstract and model description accessed 2026-10-08 UTC",
+      "locations": [
+        "Abstract and model description"
+      ],
+      "inspection": "Scope comparison only; not a closure of the retained fixed-outdegree or genuine preferential-attachment statements."
+    },
+    "S9": {
+      "title": "On the rate of convergence in the martingale central limit theorem",
+      "url": "https://arxiv.org/abs/1103.5050v2",
+      "version": "v2; Bernoulli 19(2) (2013), 633–645",
+      "locations": [
+        "Abstract; standard martingale CLT criterion"
+      ],
+      "inspection": "Conditional-variance and Lindeberg formulation checked; Brown (1971) is the standard original dependency, DOI 10.1214/aoms/1177693494."
+    }
+  },
+  "experiments": {
+    "friend": {
+      "script": "research/friend/exact_friend_audit.py",
+      "outputs": [
+        "research/friend/exact_friend_audit.json"
+      ],
+      "ran": true,
+      "status": "passed",
+      "domain": "All recursive parent arrays on [n], 2<=n<=8, starting with edge {1,2}.",
+      "generator": "Exhaustive; exact Fraction random-friend path probabilities.",
+      "seed": null,
+      "resource_bound": {
+        "wall_cap_seconds": 120
+      },
+      "permitted_observations": [
+        "transition probabilities",
+        "prefix leaf-tail drift",
+        "finite-time labelled degree marginals",
+        "stochastic-order inequalities"
+      ],
+      "loss": "Any exact assertion violation; none occurred.",
+      "controls": "Exact state probability sums and (n-1)! state counts; exact leaf and attachment mass identities.",
+      "residual_uncertainty": "Finite domains only; stochastic dominance in the limit is not proved."
+    },
+    "bst": {
+      "script": "research/permutations/verify_bst_crossings.py",
+      "outputs": [
+        "research/permutations/bst_crossing_verification.json"
+      ],
+      "ran": true,
+      "status": "passed",
+      "domain": "All permutations for 1<=n<=8; horizontal intervals for n<=7.",
+      "generator": "Exhaustive permutations and deletions/restrictions.",
+      "seed": null,
+      "resource_bound": {
+        "permutation_max_n": 8,
+        "interval_max_n": 7,
+        "wall_time_recorded": false
+      },
+      "permitted_observations": [
+        "ancestor relation",
+        "height",
+        "pivotal point counts",
+        "interval restriction"
+      ],
+      "loss": "Any deterministic assertion violation; none occurred.",
+      "controls": "Recorded example verifies that adding a point can lower height; no false monotonicity assumption.",
+      "residual_uncertainty": "Finite combinatorial checks only; polynomial probability bounds and almost-sure limits are written proofs."
+    },
+    "skeleton": {
+      "script": "research/permutations/verify_external_skeleton.py",
+      "outputs": [
+        "research/permutations/external_skeleton_verification.json"
+      ],
+      "ran": true,
+      "status": "passed",
+      "domain": "All permutations through 8; valid insertions through 7; favorable patterns n=4,...,100.",
+      "generator": "Exhaustive rank permutations and admissible insertion cells.",
+      "seed": null,
+      "resource_bound": {
+        "permutation_max_n": 8,
+        "insertion_max_n": 7,
+        "pattern_max_n": 100,
+        "wall_time_recorded": false
+      },
+      "permitted_observations": [
+        "external record status",
+        "four-quadrant skeleton witnesses",
+        "valid insertion",
+        "corner coverage"
+      ],
+      "loss": "Any exact assertion violation; none occurred.",
+      "controls": "Recompute records after insertion and after deleting internals; explicit favorable n=4 pattern.",
+      "residual_uncertainty": "Finite combinatorial checks only; no simulated limiting permuton is inferred."
+    },
+    "memory": {
+      "script": "research/memory/check_memory.py",
+      "outputs": [
+        "research/memory/memory_check_results.json",
+        "research/memory/raw_beta_1_5.npz",
+        "research/memory/raw_beta_2_5.npz",
+        "research/memory/raw_beta_1_2.npz",
+        "research/memory/raw_beta_3_4.npz"
+      ],
+      "ran": true,
+      "status": "completed",
+      "domain": "beta=1/5,2/5,1/2,3/4; exact algebraic depth moment recurrences to n=500000; 2048 complete-tree simulations each to n=30000.",
+      "generator": "Independent uniform parents in exact integer windows; NumPy PCG64.",
+      "seed": [
+        20261008,
+        20261009,
+        20261010,
+        20261011
+      ],
+      "resource_bound": {
+        "process_budget_seconds": 110,
+        "outer_wall_cap_seconds": 115,
+        "recurrence_max_n": 500000,
+        "simulation_max_n": 30000,
+        "replicates_per_beta": 2048
+      },
+      "permitted_observations": [
+        "terminal depth",
+        "actual maximum height",
+        "exact clock",
+        "depth moments",
+        "centered diagnostic quantiles"
+      ],
+      "loss": "Diagnostic deviation of finite variance ratios, means and quantiles from asymptotic predictions; no fitted loss or acceptance-as-proof rule.",
+      "controls": "Integer-power floor correction; complete depth ring buffer; deterministic moment recurrences evaluated in long-double arithmetic.",
+      "residual_uncertainty": "Finite-size and Monte Carlo error; moment evaluation is floating point, not exact rational or interval arithmetic; no critical/supercritical law identified."
+    },
+    "protocol": {
+      "script": "research/protocol/genealogy_protocol.py",
+      "outputs": [
+        "research/protocol/protocol_checks.json"
+      ],
+      "ran": true,
+      "status": "passed",
+      "domain": "Exhaustive recursive trees sizes 2 through 8; synthetic multiple-advisor DAG, duplicate/cycle controls; four model generators at n=256.",
+      "generator": "Exact enumeration and synthetic controls; uniform, affine, friend and memory attachment.",
+      "seed": 20261008,
+      "resource_bound": {
+        "wall_budget_seconds": 120,
+        "max_exact_n": 8,
+        "synthetic_generator_n": 256
+      },
+      "permitted_observations": [
+        "unique descendants",
+        "exact-length paths",
+        "generation profile",
+        "data quality",
+        "date-field presence",
+        "direct students and advisor counts"
+      ],
+      "loss": "Any exact recurrence, pmf, or graph-audit assertion violation.",
+      "controls": "Diamond ancestry paths differ from unique people; missing and duplicate identifiers and cycle blocking; uniform and affine beta-binomial laws; exact profile coefficients.",
+      "residual_uncertainty": "Synthetic inputs only; no real genealogy fit, doctoral arrival order, missingness rate or empirical ranking."
+    }
+  },
+  "scope_comparisons": [
+    {
+      "status": "scope-nonmatch",
+      "related_q": [
+        "Q1288",
+        "Q1398"
+      ],
+      "source_id": "S8",
+      "reason": "Independent-edge age-kernel model does not match either genuine degree-dependent sequential attachment or fixed-two-outedge uniform attachment."
+    },
+    {
+      "status": "scope-nonmatch",
+      "related_q": [
+        {
+          "q": "Q2490",
+          "stable_statement_id": "9b2ec4db36d8dc2b752e"
+        }
+      ],
+      "source_id": "S7",
+      "reason": "Uniform labelled binary-tree agreement bound does not substitute for the Yule–Harding growth law."
+    },
+    {
+      "status": "scope-nonmatch",
+      "related_q": "B6 geometry questions",
+      "source": "Family 229 note in the attached handoff",
+      "reason": "Three-state above-Kesten–Stigum formalization note is not a four-state equality nonreconstruction theorem, a B6 geometry result, or a compiled certificate in this work."
+    }
+  ],
+  "application_results": {
+    "proof": "research/protocol/age_null_and_observation.md",
+    "experiment_id": "protocol",
+    "actual_lineage_data_supplied": false,
+    "empirical_fit_performed": false,
+    "results": [
+      "Uniform and affine single-parent age-conditioned descendant laws.",
+      "Exact uniform generation-profile polynomial and independent-edge-recording expectation.",
+      "Unrestricted-missingness nonidentifiability construction.",
+      "Executable advisor-DAG audit with separate unique-person and path statistics."
+    ]
+  },
+  "review_and_formalization": {
+    "independent_internal_mathematical_review": true,
+    "compiled_formal_theorem_ran": false,
+    "external_peer_review": false,
+    "publication_priority_claimed": false
+  }
+}

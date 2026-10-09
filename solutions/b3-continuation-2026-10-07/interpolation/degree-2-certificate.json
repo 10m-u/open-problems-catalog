@@ -1,0 +1,37 @@
+{
+  "n": 2,
+  "definition": "Delta_r = det[b_(2*j-i+1)] for F_n(t;x)",
+  "all_coefficients_strictly_positive": true,
+  "determinants": [
+    {
+      "r": 1,
+      "monomial_count": 4,
+      "expected_full_box_count": 4,
+      "minimum_coefficient": "3",
+      "maximum_coefficient": "5",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0
+          ],
+          "coefficient": "3"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1
+          ],
+          "coefficient": "5"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1
+          ],
+          "coefficient": "3"
+        }
+      ]
+    }
+  ]
+}

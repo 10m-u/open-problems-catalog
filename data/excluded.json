@@ -1,0 +1,146 @@
+[
+ {
+  "number": 607,
+  "title": "Polynomial samples for exact recovery from deleted observations",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 122: Quantitative trace-reconstruction bounds with a uniform decoder (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/quantitative-lower-bounds-for-trace-reconstruction-September-24-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "2ebcfe72585b1be70fc9"
+  ]
+ },
+ {
+  "number": 1113,
+  "title": "Ordinary-double-point normalized volume gap",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 037: The ordinary-double-point volume gap (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-ordinary-double-point-gap-in-every-dimension-September-24-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "bc8c11a4ccf1841b4b72"
+  ]
+ },
+ {
+  "number": 1209,
+  "title": "Multiplicity cannot decrease under flat local extension",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 194: Lech’s multiplicity conjecture (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Lechs-multiplicity-conjecture-September-23-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "63ae596daeb8abaade98"
+  ]
+ },
+ {
+  "number": 1229,
+  "title": "Residual finiteness of hyperbolic groups",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 252: A torsion-free hyperbolic group that is neither residually finite nor linear over any field (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/a-torsion-free-hyperbolic-group-that-is-not-residually-finite-September-23-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "ed8f827ad35bbe8fb6fb"
+  ]
+ },
+ {
+  "number": 1734,
+  "title": "Extending sphere isometries",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 322: Tingley’s sphere-isometry problem (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-positive-solution-to-Tingleys-problem-September-23-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "c4ce98e1a38ddb62dd6d"
+  ]
+ },
+ {
+  "number": 1790,
+  "title": "Higher-dimensional directional zero-one law",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 220: Directional zero–one laws beyond iid environments and iid ballisticity (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-directional-zero-one-law-under-strict-ellipticity-September-23-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "dcf3adbfb27d291659db"
+  ]
+ },
+ {
+  "number": 2013,
+  "title": "Finitely many block types",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 203: Donovan's conjecture over fields and complete mixed-characteristic DVRs (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Integral-Donovan-Finiteness-over-Witt-Vectors-September-25-2026/main.pdf"
+  },
+  "statement_ids": [
+   "491ae22b0fe1a1017fb0"
+  ]
+ },
+ {
+  "number": 2235,
+  "title": "Bounded approximation over uniformly discrete spaces",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 330: A uniformly discrete counterexample to bounded approximation in Lipschitz-free spaces (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Failure-of-Bounded-Approximation-in-a-Lipschitz-Free-Space-over-a-Uniformly-Discrete-Metric-Space-September-26-2026/main.pdf"
+  },
+  "statement_ids": [
+   "1bd3355d32f68ff26f1e"
+  ]
+ },
+ {
+  "number": 2322,
+  "title": "Finitely presented simple amenable groups",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 253: An infinite finitely presented simple amenable group (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/An-Infinite-Finitely-Presented-Simple-Amenable-Group-September-23-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "7d7cd8797fbbd62e280d"
+  ]
+ },
+ {
+  "number": 2323,
+  "title": "Finitely presented infinite torsion groups",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 247: An infinite finitely presented residually finite 2-group and a finitely presented nil algebra (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/residually-finite-torsion.pdf"
+  },
+  "statement_ids": [
+   "16553cf9787c00036e03"
+  ]
+ },
+ {
+  "number": 2330,
+  "title": "Purely cosmetic knot surgeries",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 306: The purely cosmetic surgery conjecture (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Purely-Cosmetic-Surgery-on-Knots-in-the-Three-Sphere-September-23-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "522301a04b4518298842"
+  ]
+ },
+ {
+  "number": 2426,
+  "title": "Hamiltonian unknotting of nearby Lagrangians",
+  "solved_elsewhere": {
+   "how": "claimed in openai/math",
+   "what": "openai/math family 340: A counterexample to the nearby Lagrangian conjecture (upstream claim, not independently verified)",
+   "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-counterexample-to-the-nearby-Lagrangian-conjecture-September-23-2026/paper.pdf"
+  },
+  "statement_ids": [
+   "a5f34994d4ebe9df815b"
+  ]
+ }
+]

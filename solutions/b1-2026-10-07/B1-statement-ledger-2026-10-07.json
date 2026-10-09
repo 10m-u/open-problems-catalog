@@ -1,0 +1,710 @@
+{
+  "schema_version": "1.0",
+  "programme": "B1",
+  "date": "2026-10-07",
+  "input": {
+    "file": "sources/B1-handoff-2026-10-07.md",
+    "sha256": "3e5471ea384dfcfd8f84a3a3bfb7b51350cb1bae5984483acddaa23174916d8e",
+    "catalogue_members": 10,
+    "historical_exact_closures": 0
+  },
+  "evidence_policy": {
+    "layers": [
+      "Dated collector/source status in the supplied handoff",
+      "Exact-statement dispositions reached by this report",
+      "Imported claims separately checked or left attributed"
+    ],
+    "status_vocabulary": [
+      "proved",
+      "disproved",
+      "partial",
+      "unresolved",
+      "scope-nonmatch"
+    ],
+    "evidence_vocabulary": [
+      "written_argument",
+      "primary_source_comparison",
+      "finite_computation",
+      "compiled_formal_theorem"
+    ],
+    "compiled_formal_theorem_obtained": false,
+    "novelty_or_exhaustive_literature_claim": false,
+    "source_catalogue_authority_files_modified": false,
+    "automatic_certificate_scope": "Finite graph closure proves all input lengths after the independently documented semantic connection; bounded numerical controls are separate."
+  },
+  "catalogue_status_counts": {
+    "proved": 1,
+    "partial": 8,
+    "unresolved": 1,
+    "disproved": 0,
+    "scope-nonmatch": 0
+  },
+  "catalogue_entries": [
+    {
+      "programme": "B1",
+      "q_number": "Q246",
+      "stable_statement_id": "b4cba42238e08ad101bc",
+      "exact_retained_statement": "Does some predicate R⊆ℕ make (ℤ,<,+,R) NIP but non-distal? NIP means every formula has finite VC-dimension; distal has its standard model-theoretic meaning.",
+      "original_source_title": "Ho Wang Mervyn Tong: Distality to and from Combinatorics",
+      "original_source_location": "Problem 3.1.2, printed p.38 (PDF p.50).",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "Every automatic unary predicate is excluded as a NIP but non-distal witness.",
+      "changed_assumptions_for_partial_results": [
+        "The exclusion theorem restricts R to a k-automatic set for some integer k≥2; arbitrary unary predicates remain allowed by the original question."
+      ],
+      "remaining": "Existence or nonexistence of a nonautomatic unary R making the expansion NIP and non-distal.",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        {
+          "name": "Automatic unary predicates are excluded",
+          "status": "proved",
+          "statement": "For every integer k>=2 and every k-automatic R subset of N, if (Z,<,+,R) is NIP then it is distal.",
+          "changed_assumptions": [
+            "R is k-automatic for some fixed integer k>=2"
+          ],
+          "dependencies": [
+            "Bell-Block Gorman-Schulz v2 Theorem 1.1",
+            "Bès Theorem 3.1 as stated in the same paper's Fact 2.17",
+            "Tong thesis Theorem 3.4.8 and powers examples"
+          ],
+          "evidence": [
+            "written argument",
+            "primary-source comparison"
+          ]
+        },
+        {
+          "name": "Explicit Büchi independence-property witness",
+          "status": "proved",
+          "statement": "For each k>=2, the fixed formula delta_k(x;p) testing digit 1 at the power-of-k position p has all Boolean patterns on arbitrarily long finite lists of positions.",
+          "changed_assumptions": [
+            "Ambient arithmetic is full Büchi arithmetic, not an arbitrary unary-predicate expansion"
+          ],
+          "evidence": [
+            "written argument"
+          ]
+        }
+      ],
+      "proof_file": "notes/model-theory-partials.md",
+      "artifacts": [],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q1375",
+      "stable_statement_id": "3c545d79b70573f46278",
+      "exact_retained_statement": "For each fixed k≥1, what is the exact decision complexity of BA_p sentences with k quantifier alternations?",
+      "original_source_title": "Christoph Haase and Mikhail Starchak: Formal languages and arithmetic theories: recent results and open problems",
+      "original_source_location": "Open Problem 3, p. 5.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "Conservative fixed-block automata bound; no elementary-time normalization of arbitrary sentences to equivalent Σ₂ sentences.",
+      "changed_assumptions_for_partial_results": [
+        "The direct upper bound counts r prenex quantifier blocks. This is not the exact complexity for k alternations and does not identify blocks with switches."
+      ],
+      "remaining": "Matching upper and lower bounds for each exact fixed-alternation fragment, under a fixed alternation convention and input language.",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        "Conservative fixed-block automata upper bound",
+        "No elementary-time normalization of arbitrary BA sentences to equivalent Sigma_2 sentences"
+      ],
+      "proof_file": "notes/foundations.md",
+      "artifacts": [],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q1376",
+      "stable_statement_id": "7017180285bacc39c17f",
+      "exact_retained_statement": "Given regular L⊆Σ*, is it decidable whether [L] is definable by an existential BA_p formula?",
+      "original_source_title": "Christoph Haase and Mikhail Starchak: Formal languages and arithmetic theories: recent results and open problems",
+      "original_source_location": "Open Problem 5, p. 7.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "Affirmative semidecision; sound YES/NO/UNKNOWN automaton triage by growth; exact full-growth counterexample to completeness of that triage.",
+      "changed_assumptions_for_partial_results": [
+        "The decision procedure returns UNKNOWN outside the proved growth classes; affirmative semidecision need not halt on a negative instance."
+      ],
+      "remaining": "A terminating recognition algorithm or an undecidability proof for all regular unary predicates; full-growth cases remain outside the triage.",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison",
+        "finite_computation"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        "Uniform affirmative semidecision",
+        "SCC decision for polynomial growth and intermediate exponential growth",
+        "Full-growth regular nonexistential counterexample to completeness of raw density triage"
+      ],
+      "proof_file": "notes/foundations.md",
+      "artifacts": [
+        "verification/foundations/foundations_check.py",
+        "verification/foundations/automata.json",
+        "verification/foundations/check_output.json"
+      ],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q1377",
+      "stable_statement_id": "f8506c29d8d1507a5f50",
+      "exact_retained_statement": "Is BA_k finitely axiomatizable?",
+      "original_source_title": "Konstantin Kovalyov: A natural axiomatization of Büchi Arithmetic",
+      "original_source_location": "Question 1(1), p. 13.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "No axiomatization solely by universally quantified quantifier-free sentences, even an infinite one.",
+      "changed_assumptions_for_partial_results": [
+        "Only universal axioms with quantifier-free matrices are excluded, in the total unary valuation language (0,S,+,V_k,≤). Arbitrary finite axiomatizations are not excluded."
+      ],
+      "remaining": "Finite axiomatizability with unrestricted quantifier form.",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        "No axiomatization by universally quantified quantifier-free sentences, even infinitely many"
+      ],
+      "proof_file": "notes/foundations.md",
+      "artifacts": [],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q1378",
+      "stable_statement_id": "d1962d78132eb0c2aaac",
+      "exact_retained_statement": "Does BA_k have an expansion by finitely many definable functions or predicates whose theory eliminates quantifiers?",
+      "original_source_title": "Konstantin Kovalyov: A natural axiomatization of Büchi Arithmetic",
+      "original_source_location": "Question 1(4), p. 13.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "No QE expansion whose added predicates and complements are existential and whose added total functions have existential graphs.",
+      "changed_assumptions_for_partial_results": [
+        "Each added predicate and its complement must be existentially definable, and each added function must be total with existentially definable graph. The original permits arbitrary definable additions."
+      ],
+      "remaining": "Finite definitional QE using arbitrary definable predicates or functions beyond the excluded existential restrictions.",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        "No QE expansion with existential predicate definitions and existential complements, and existential graphs for every added total function"
+      ],
+      "proof_file": "notes/foundations.md",
+      "artifacts": [],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q1481",
+      "stable_statement_id": "8d48b234d27dbcb91ed7",
+      "exact_retained_statement": "Is it decidable, given finite automata for regular L₁,L₂⊆Σ*, whether [L₁] is existentially definable in (N,0,1,+,[L₂],≤)?",
+      "original_source_title": "Christoph Haase and Mikhail Starchak: Formal languages and arithmetic theories: recent results and open problems",
+      "original_source_location": "Open Problem 6, p. 9.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "Affirmative semidecision; complete decision when the second predicate is ultimately periodic.",
+      "changed_assumptions_for_partial_results": [
+        "The complete algorithm assumes [L₂] is ultimately periodic. The general semidecision gives no negative termination guarantee."
+      ],
+      "remaining": "General negative-instance termination or an undecidability theorem for arbitrary regular [L₂].",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        "Uniform affirmative semidecision",
+        "Complete decision when [L2] is ultimately periodic",
+        "Positive answer for every L2 when [L1] is ultimately periodic"
+      ],
+      "proof_file": "notes/foundations.md",
+      "artifacts": [],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q1979",
+      "stable_statement_id": "11f085365348dc8d4680",
+      "exact_retained_statement": "For every definable S in every model of Presburger arithmetic, is π_S(t) asymptotic to a polynomial?",
+      "original_source_title": "Pantelis E. Eleftheriou; Aris Papadopoulos: On the global linear Zarankiewicz problem",
+      "original_source_location": "Question 9.3, p. 60.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "Exact shatter functions and leading constants for interval families and independent residue-class interval families in every Presburger model.",
+      "changed_assumptions_for_partial_results": [
+        "The exact asymptotic formulas concern intervals with independent endpoint choices, including independent choices in each fixed residue class.",
+        "The pointwise computability result assumes a parameter-free formula or specified standard integer parameters.",
+        "The original wording is preserved. The motivating real semilinear result uses Θ(t^s); the restricted results here prove stronger ratio asymptotics."
+      ],
+      "remaining": "Polynomial asymptotics for arbitrary definable families in every Presburger model, with coupled parameters, residues, and coordinates.",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison",
+        "finite_computation"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        "Exact shatter polynomial for at most r intervals in every model",
+        "Exact optimization and leading coefficient for independent intervals in each residue class",
+        "Effective pointwise shatter values and model independence for parameter-free formulas"
+      ],
+      "proof_file": "notes/foundations.md",
+      "artifacts": [
+        "verification/foundations/foundations_check.py",
+        "verification/foundations/check_output.json"
+      ],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q2168",
+      "stable_statement_id": "70b5ed041cc98b2932f1",
+      "exact_retained_statement": "Does a Presburger group P with SC(P)=Σ4 exist?",
+      "original_source_title": "Jason Block: Measuring the Complexity of Countable Presburger Models",
+      "original_source_location": "Question 6.1, §6.1, p. 29.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "proved",
+      "exact_statement_closed_by_this_report": true,
+      "headline": "Explicit countable Presburger group with a Σ₄ Scott sentence and no Π₄ Scott sentence; hence optimal complexity Σ₄.",
+      "changed_assumptions_for_partial_results": [],
+      "remaining": null,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [],
+      "proof_file": "notes/Q2168-proof.md",
+      "artifacts": [],
+      "construction": "Fix a positive transcendental t. Let W=Q[t]+span_Q{1/(t+n):n>=1}, ordered as a subgroup of R. Set P=W times Z lexicographically with distinguished 1=(0,1).",
+      "conclusion": "SC(P)=Sigma_4 under the infinitary hierarchy and optimal-complexity convention in Block v3.",
+      "proof_summary": "The proper elementary substructures P_n=((t+n)W) times Z contain every finite tuple for some n and are isomorphic to P by division of the first coordinate by t+n. Their isomorphisms move a=(1,0) outside its automorphism orbit. Sigma_1 absoluteness and Pi_2 downward preservation show that this orbit is not Sigma_3 definable, hence no Pi_4 Scott sentence exists. Naming a makes every tuple orbit Pi_1 definable by rational cuts and universal residue formulas, yielding a Pi_3 Scott sentence with a named and a Sigma_4 Scott sentence after existentially quantifying a.",
+      "dependencies": [
+        "Presburger quantifier elimination in the congruence expansion",
+        "Montalban 2015 A robuster Scott rank Theorem 1.1; also Block v3 Theorem 1.1"
+      ],
+      "effective_strengthening": "A computable positive transcendental t can be chosen; canonical rational functions then give a computable presentation of P. This is proved by a construction in prose, not executed.",
+      "independent_audit": "Separate written reviews by two other collaborators in this session; completed, without a proof-assistant kernel.",
+      "audit_file": "notes/Q2168-independent-audit.md",
+      "upper_bound": "An explicit schematic Σ₄ Scott sentence is constructed in Section 6.1 of the proof.",
+      "lower_bound": "The orbit of a=(1,0) has no parameter-free Σ₃ infinitary definition; Montalbán’s orbit theorem excludes Π₄ Scott sentences.",
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q2169",
+      "stable_statement_id": "c2fc98c1e0a3bc2fd1d8",
+      "exact_retained_statement": "For every nonzero countable divisible ordered abelian group V, is DgSp(V)=DgSp(V×Z), with lexicographic order and distinguished 1=(0,1)?",
+      "original_source_title": "Jason Block: Measuring the Complexity of Countable Presburger Models",
+      "original_source_location": "Question 6.4, §6.2, p. 29.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "partial",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "Degree-spectrum equality when the quotient has a least nonzero Archimedean class; includes finite Archimedean rank and finite dimension.",
+      "changed_assumptions_for_partial_results": [
+        "The positive Archimedean classes of V have a least member, or the particular presentation has the stated computable coinitial-anchor information.",
+        "The least-class proof allows one nonuniform finite anchor in an oracle program, as permitted for degree-spectrum inclusion."
+      ],
+      "remaining": "Removing the jump for all quotient groups with no least nonzero Archimedean class, without additional presentation information.",
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [
+        {
+          "name": "Least Archimedean class suffices",
+          "status": "proved",
+          "statement": "If V has a least nonzero Archimedean class, then DgSp(V)=DgSp(V times Z).",
+          "changed_assumptions": [
+            "The positive Archimedean classes of V have a least member"
+          ],
+          "included_cases": [
+            "Every nonzero Archimedean V",
+            "Every V of finite Archimedean rank",
+            "Every nonzero finite-dimensional ordered Q-vector space"
+          ],
+          "evidence": [
+            "written argument"
+          ]
+        },
+        {
+          "name": "Presentation-level quotient criterion",
+          "status": "proved",
+          "statement": "For a given oracle presentation P of V times Z, the embedded Z is oracle-decidable iff P computes positive noninteger anchors coinitial among its nonzero quotient Archimedean classes.",
+          "changed_assumptions": [
+            "This concerns computing the particular quotient presentation, which is stronger than merely producing some copy of V"
+          ],
+          "evidence": [
+            "written argument"
+          ]
+        }
+      ],
+      "proof_file": "notes/model-theory-partials.md",
+      "artifacts": [],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    },
+    {
+      "programme": "B1",
+      "q_number": "Q2170",
+      "stable_statement_id": "86f031cac9140549efc3",
+      "exact_retained_statement": "Does every countable non-automorphically-trivial structure have the same degree spectrum as some Presburger group?",
+      "original_source_title": "Jason Block: Measuring the Complexity of Countable Presburger Models",
+      "original_source_location": "Question 6.5, §6.2, p. 29.",
+      "historical_handoff_status": "No exact closure in the supplied catalog-ledger snapshot.",
+      "status": "unresolved",
+      "exact_statement_closed_by_this_report": false,
+      "headline": "No universality theorem or forbidden degree spectrum obtained.",
+      "changed_assumptions_for_partial_results": [],
+      "remaining": "The full degree-spectrum universality assertion.",
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "compiled_formal_theorem": false,
+      "independent_external_peer_review": false,
+      "scope_note": "This is the research report disposition; no external catalogue authority file was modified.",
+      "results": [],
+      "proof_file": "notes/model-theory-partials.md",
+      "artifacts": [],
+      "literature_status": "The cited inspected source retains the original question. Current report results are separate deductions; no exhaustive later-literature or novelty claim is made."
+    }
+  ],
+  "auxiliary_results": [
+    {
+      "exact_statement": "For every w>=1 and all x,y<2^w, (x+y modulo 2^w)_0 = x_0 XOR y_0, and x+y modulo 2^w equals x XOR y iff x AND y belongs to {0,2^(w-1)}.",
+      "proof_section": "notes/algebra-and-fourier.md Section 2",
+      "changed_assumptions": "None; width zero is explicitly excluded.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-CARRY",
+      "source_local_label": null,
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [],
+      "compiled_formal_theorem": false,
+      "automatic_certificate_evidence": "Complete counterexample-DFA emptiness certificates in verification/generated; semantic connection proved in notes/encoding_and_boundary.md."
+    },
+    {
+      "exact_statement": "For every w>=1 and a,b<2^w, [for all x<2^w, x+a modulo 2^w=x XOR b] iff a=b and a is zero or 2^(w-1).",
+      "proof_section": "notes/algebra-and-fourier.md Section 3",
+      "changed_assumptions": "Precise common-translation interpretation supplied; the original unspecified top-toggle uniqueness assertion is not identified with this theorem.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-COMMON-TRANSLATIONS",
+      "source_local_label": null,
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [],
+      "compiled_formal_theorem": false,
+      "automatic_certificate_evidence": "Complete counterexample-DFA emptiness certificates in verification/generated; semantic connection proved in notes/encoding_and_boundary.md."
+    },
+    {
+      "exact_statement": "For every w>=1, common endomorphisms of cyclic addition and XOR on [0,2^w) are exactly multiplication modulo 2^w by 0, by 2^r (0<=r<w), or by 2^(w-1)+2^r (0<=r<w-1).",
+      "proof_section": "notes/algebra-and-fourier.md Section 4",
+      "changed_assumptions": "New precise map class; not a claim about an unspecified original map.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-COMMON-ENDOMORPHISMS",
+      "source_local_label": null,
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [],
+      "compiled_formal_theorem": false
+    },
+    {
+      "exact_statement": "For every w>=3, P=2^w, h=P/2 and q=P/4, a cyclic affine permutation ax+b modulo P is XOR affine iff [a in {1,1+h} and q divides b] or [a in {P-1,h-1} and q divides b+1]. There are 16 maps. All eight cyclic affine maps at w=2 and both at w=1 are XOR affine.",
+      "proof_section": "notes/algebra-and-fourier.md Section 5",
+      "changed_assumptions": "Affine map class explicitly specified; width exceptions included.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-COMMON-AFFINE",
+      "source_local_label": null,
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [],
+      "compiled_formal_theorem": false
+    },
+    {
+      "exact_statement": "For all w>=1, the normalized cyclic/Walsh overlap has absolute value one exactly at (a,b)=(0,0) and (2^(w-1),1).",
+      "proof_section": "notes/algebra-and-fourier.md Section 6",
+      "changed_assumptions": "Fourier sign convention is explicitly normalized; magnitudes are unchanged.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-SHARED-CHARACTERS",
+      "source_local_label": "inverse Q4.1 (not a catalogue member)",
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [],
+      "compiled_formal_theorem": false
+    },
+    {
+      "exact_statement": "The maximum magnitude of the cyclic/Walsh Fourier overlap in the block m=msb(b)=w-1-v_2(a) is 1/[2^m sin(pi/2^(m+1))], attained at a=2^(w-m-1), b=2^m; these maxima decrease to 2/pi.",
+      "proof_section": "notes/algebra-and-fourier.md Section 7.2",
+      "changed_assumptions": "Zero frequency is treated separately; paired block is explicitly fixed.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-BLOCK-COHERENCE",
+      "source_local_label": "inverse Q25.1 (not a catalogue member)",
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [],
+      "compiled_formal_theorem": false
+    },
+    {
+      "exact_statement": "The minimum Walsh Shannon entropy over cyclic-character rows in block m is sum from j=2 to m+1 of h_2(sin^2(pi/2^j)); every such minimum is less than 1151/576 bits. Therefore no positive width-linear sum-of-entropies lower bound holds for all vectors even within the largest paired block.",
+      "proof_section": "notes/algebra-and-fourier.md Section 7.3",
+      "changed_assumptions": "The entropy minimum is over cyclic-character rows; the counterexample to a universal vector bound follows by selecting one such row.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-BLOCK-ENTROPY",
+      "source_local_label": "inverse inquiry 25 (not a catalogue member)",
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [
+        "exact_rational_and_integer_certificate"
+      ],
+      "compiled_formal_theorem": false
+    },
+    {
+      "exact_statement": "At a fixed width w, deterministic addition-rotation compositions admit constants C<infinity and gamma>0 such that c(T_L)<=C exp(-gamma L) for every L.",
+      "proved_obstruction": "For every permutation T of [0,2^w), c(T)>=(2^w-1)^(-1/2). Pure digit rotations have c=1 at every length, and repetitions of a fixed permutation recur exactly.",
+      "proof_section": "notes/algebra-and-fourier.md Section 8",
+      "changed_assumptions": "The disproof concerns deterministic fixed width and a bound for every length; random averages and finite-length regimes remain different questions.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-DETERMINISTIC-DECAY-OBSTRUCTION",
+      "source_local_label": "inverse Q4.4 (not a catalogue member)",
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "disproved",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "additional_evidence_details": [],
+      "compiled_formal_theorem": false
+    },
+    {
+      "exact_statement": "The uniform relation S(P,a,b): P=2^w, w>=1, a,b<P, and Fourier overlap M_w[a,b] nonzero is not first-order Buechi definable in the original synchronized binary integer coordinates.",
+      "proof_section": "notes/algebra-and-fourier.md Section 9",
+      "changed_assumptions": "Uniform variable P is essential; every fixed-width relation is finite. No claim about a different representation is made.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-SUPPORT-NONAUTOMATIC",
+      "source_local_label": null,
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "additional_evidence_details": [
+        "independent_audit_of_root_argument"
+      ],
+      "compiled_formal_theorem": false
+    },
+    {
+      "exact_statement": "With r=Rev_w(b) as native mask coordinate, Fourier support is exactly the zero pair or equality of positive lowest-set-bit powers V2(a)=V2(r), under the word bounds. This support relation is existential Buechi definable, while the uniform coordinate reversal graph is not automatic.",
+      "proof_section": "notes/algebra-and-fourier.md Section 9",
+      "changed_assumptions": "Native integer coordinate b is replaced by its w-bit reversal r; conversion is not asserted to be automatic.",
+      "programme": "B1",
+      "local_result_id": "B1-DERIVED-REVERSED-MASK-SUPPORT",
+      "source_local_label": null,
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "catalogue_scope_note": "An auxiliary B1 result; no canonical Q number or stable catalogue ID was supplied for this statement.",
+      "result_status": "proved",
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "additional_evidence_details": [
+        "independent_audit_of_root_argument"
+      ],
+      "compiled_formal_theorem": false
+    },
+    {
+      "programme": "B1",
+      "local_result_id": "B1-ENCODING-INVENTORY",
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "result_status": "proved",
+      "exact_statement": "With P as a power-of-two value and all words below P, addition modulo P, XOR, AND, fixed single-bit rotations, and every fixed finite circuit made from them are automatic relations.",
+      "changed_assumptions": "Circuit size and each rotation count in the formula are fixed; no exponential function, variable multiplication, variable-length circuit, or function quantification is silently added.",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "compiled_formal_theorem": false,
+      "proof_file": "notes/encoding_and_boundary.md"
+    },
+    {
+      "programme": "B1",
+      "local_result_id": "B1-FUNCTION-LENGTH-BOUNDARY",
+      "q_number": null,
+      "stable_statement_id": null,
+      "catalogue_scope_status": "scope-nonmatch",
+      "result_status": "proved",
+      "exact_statement": "An N-state synchronized automaton for a partial function has output bit length at most the maximum input bit length plus N. Consequently uniform exponential, exact numerical bit-length, and exact popcount graphs are not automatic; squaring even on powers of two is nonautomatic.",
+      "changed_assumptions": "Standard synchronized binary number encodings; exact values, not fixed-modulus statistics.",
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "compiled_formal_theorem": false,
+      "proof_file": "notes/encoding_and_boundary.md"
+    },
+    {
+      "programme": "B1",
+      "local_result_id": "B1-INVERSE-DISTRIBUTION",
+      "q_number": null,
+      "stable_statement_id": null,
+      "source_local_label": "Inverse inquiry Q4.2; not a catalogue member",
+      "catalogue_scope_status": "scope-nonmatch",
+      "result_status": "partial",
+      "exact_retained_statement": "Describe the full distribution of |M[a][b]|. How heavy is the tail?",
+      "proved_results": [
+        "Exact digit product and support decomposition",
+        "Exact maximum coefficient magnitude in each paired block",
+        "Exact minimum Shannon entropy among cyclic-character rows in each paired block"
+      ],
+      "remaining": "A full aggregate tail law or complete distribution theorem beyond the exact finite product representation.",
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "compiled_formal_theorem": false,
+      "proof_file": "notes/algebra-and-fourier.md"
+    },
+    {
+      "programme": "B1",
+      "local_result_id": "B1-INVERSE-ALL-ONES-MASK",
+      "q_number": null,
+      "stable_statement_id": null,
+      "source_local_label": "Inverse inquiry Q4.3; not a catalogue member",
+      "catalogue_scope_status": "scope-nonmatch",
+      "result_status": "unresolved",
+      "exact_retained_statement": "What is max_{a ≠ 0} |M[a][1^w]|, exactly, as a function of w?",
+      "remaining": "The all-ones-column maximum is not supplied by a maximum over an entire block; no exact all-width formula is proved here.",
+      "changed_assumptions": null,
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "compiled_formal_theorem": false,
+      "proof_file": "notes/algebra-and-fourier.md"
+    }
+  ],
+  "sources_file": "sources/primary_sources.json",
+  "verification": {
+    "suite_version": "B1-direct-DFA-1.0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "walnut_executed": false,
+    "proof_assistant": null,
+    "resource_limits": {
+      "max_states_per_construction": 100000,
+      "max_transitions_per_construction": 5000000,
+      "main_process_timeout_seconds": 60,
+      "algebra_and_audit_alarm_seconds": 45
+    },
+    "certificate_count": 12,
+    "empty_counterexample_languages": 10,
+    "nonempty_negative_controls": 2,
+    "maximum_intermediate_states": 88,
+    "maximum_intermediate_transitions": 45056,
+    "elapsed_seconds": 0.5047708620004414,
+    "peak_rss_kib": 17152,
+    "summary": "verification/generated/run_summary.json",
+    "raw_transcript": "verification/transcript.jsonl",
+    "independent_checker_output": "verification/certificate_check.txt",
+    "independent_semantic_audit": "verification/audit/audit_automata_output.json",
+    "algebra_controls": "verification/algebra/algebra_check_output.json",
+    "foundations_controls": "verification/foundations/check_output.json",
+    "seeds": null,
+    "randomized": false,
+    "loss_function": null,
+    "permitted_observations": "Exact truth/equivalence checks, state-graph reachability, exact combinatorial counts, and separately labeled floating Fourier diagnostics.",
+    "residual_uncertainty": "Written proofs and Python implementation are the trust boundary; no proof-assistant kernel or Walnut run certifies them."
+  }
+}

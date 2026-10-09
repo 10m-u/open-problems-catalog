@@ -1,0 +1,392 @@
+{
+  "checked_on": "2026-09-30",
+  "statement_id": "a89c4a7fea1f6a2b1d26",
+  "nonadaptive_recovery": [
+    {
+      "n": 1,
+      "exactly_one": 0,
+      "at_most_one": 1,
+      "at_most_two": 1,
+      "all_cheaper_menus_rejected": {
+        "exactly_one": 0,
+        "at_most_one": 1,
+        "at_most_two": 1
+      },
+      "attaining_menus": {
+        "exactly_one": [],
+        "at_most_one": [
+          [
+            1,
+            1
+          ]
+        ],
+        "at_most_two": [
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "exactly_one": 1,
+      "at_most_one": 2,
+      "at_most_two": 2,
+      "all_cheaper_menus_rejected": {
+        "exactly_one": 1,
+        "at_most_one": 4,
+        "at_most_two": 4
+      },
+      "attaining_menus": {
+        "exactly_one": [
+          [
+            1,
+            1
+          ]
+        ],
+        "at_most_one": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "at_most_two": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "exactly_one": 2,
+      "at_most_one": 2,
+      "at_most_two": 3,
+      "all_cheaper_menus_rejected": {
+        "exactly_one": 7,
+        "at_most_one": 7,
+        "at_most_two": 22
+      },
+      "attaining_menus": {
+        "exactly_one": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "at_most_one": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "at_most_two": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "exactly_one": 2,
+      "at_most_one": 3,
+      "at_most_two": 4,
+      "all_cheaper_menus_rejected": {
+        "exactly_one": 11,
+        "at_most_one": 56,
+        "at_most_two": 176
+      },
+      "attaining_menus": {
+        "exactly_one": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "at_most_one": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "at_most_two": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "exactly_one": 3,
+      "at_most_one": 3,
+      "at_most_two": 5,
+      "all_cheaper_menus_rejected": {
+        "exactly_one": 121,
+        "at_most_one": 121,
+        "at_most_two": 1941
+      },
+      "attaining_menus": {
+        "exactly_one": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "at_most_one": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "at_most_two": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "exactly_one": 3,
+      "at_most_one": 4,
+      "at_most_two": 6,
+      "all_cheaper_menus_rejected": {
+        "exactly_one": 232,
+        "at_most_one": 1562,
+        "at_most_two": 27896
+      },
+      "attaining_menus": {
+        "exactly_one": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "at_most_one": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "at_most_two": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      }
+    }
+  ],
+  "adaptive_recovery": [
+    {
+      "n": 1,
+      "exactly_one": 0,
+      "at_most_one": 1
+    },
+    {
+      "n": 2,
+      "exactly_one": 1,
+      "at_most_one": 2
+    },
+    {
+      "n": 3,
+      "exactly_one": 2,
+      "at_most_one": 2
+    },
+    {
+      "n": 4,
+      "exactly_one": 2,
+      "at_most_one": 3
+    },
+    {
+      "n": 5,
+      "exactly_one": 3,
+      "at_most_one": 3
+    },
+    {
+      "n": 6,
+      "exactly_one": 3,
+      "at_most_one": 3
+    },
+    {
+      "n": 7,
+      "exactly_one": 3,
+      "at_most_one": 3
+    },
+    {
+      "n": 8,
+      "exactly_one": 3,
+      "at_most_one": 4
+    }
+  ],
+  "binary_targets": [
+    {
+      "n": 1,
+      "labelings_checked": 2,
+      "all_cheaper_menus_rejected": 0
+    },
+    {
+      "n": 2,
+      "labelings_checked": 4,
+      "all_cheaper_menus_rejected": 2
+    },
+    {
+      "n": 3,
+      "labelings_checked": 8,
+      "all_cheaper_menus_rejected": 6
+    },
+    {
+      "n": 4,
+      "labelings_checked": 16,
+      "all_cheaper_menus_rejected": 34
+    },
+    {
+      "n": 5,
+      "labelings_checked": 32,
+      "all_cheaper_menus_rejected": 180
+    },
+    {
+      "n": 6,
+      "labelings_checked": 64,
+      "all_cheaper_menus_rejected": 1154
+    },
+    {
+      "n": 7,
+      "labelings_checked": 128,
+      "all_cheaper_menus_rejected": 7770
+    }
+  ],
+  "total_binary_targets": 254,
+  "connected_pool_masking": {
+    "graphs": 75,
+    "low_degree_vertex_checks": 695
+  },
+  "scope": "finite controls; see hand proofs for all sizes"
+}

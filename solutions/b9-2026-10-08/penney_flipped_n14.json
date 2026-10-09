@@ -1,0 +1,19 @@
+{
+ "n": 14,
+ "A_checked": 8192,
+ "full_scans": 8187,
+ "counterexamples": [],
+ "optimal_set_sizes": {
+  "1": 7287,
+  "2": 905
+ },
+ "optimal_types": {
+  "tail+T": 1797,
+  "H^n": 2211,
+  "T^n": 2647,
+  "tail+H+tail+T": 904,
+  "tail+H": 632,
+  "T^n+tail+T": 1
+ },
+ "seconds": 9.0
+}

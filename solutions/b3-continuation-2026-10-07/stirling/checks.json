@@ -1,0 +1,298 @@
+{
+  "schema": "b3-stirling-reconstructed-checks-v1",
+  "date": "2026-10-07",
+  "policy": "Exact finite controls support transcription checks; all-r conclusions rely on the written proof.",
+  "source_sha256": "e60621f29fbbc93809345e34ba3aa1c2e8d40925563b61800cf370140a1254d7",
+  "checks": {
+    "recurrence_vs_independent_assembly": {
+      "r": [
+        1,
+        8
+      ],
+      "n": [
+        0,
+        9
+      ],
+      "families": [
+        "cycle",
+        "subset"
+      ],
+      "entries": 880,
+      "passed": true
+    },
+    "first_principal_hankel_formula": {
+      "r_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        64,
+        100
+      ],
+      "passed": true,
+      "samples": [
+        {
+          "r": 2,
+          "normalized_coefficients": [
+            "0",
+            "0",
+            "12",
+            "84",
+            "180",
+            "156",
+            "48"
+          ]
+        },
+        {
+          "r": 3,
+          "normalized_coefficients": [
+            "0",
+            "0",
+            "36",
+            "1026",
+            "10638",
+            "46980",
+            "64800"
+          ]
+        },
+        {
+          "r": 4,
+          "normalized_coefficients": [
+            "0",
+            "0",
+            "80",
+            "8880",
+            "450800",
+            "10882200",
+            "56350000"
+          ]
+        },
+        {
+          "r": 5,
+          "normalized_coefficients": [
+            "0",
+            "0",
+            "150",
+            "64375",
+            "16756500",
+            "2493855000",
+            "45230062500"
+          ]
+        }
+      ]
+    },
+    "leading_block_2x2_symbolic_formulas_controls": {
+      "r_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        64,
+        100
+      ],
+      "distinct_formulas": 6,
+      "checks": 198,
+      "passed": true,
+      "policy": "These exact substitutions check transcription; the formulas' all-r positivity is proved in REPORT.md."
+    },
+    "universal_2x2_lead_finite_controls": {
+      "r_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11,
+        16
+      ],
+      "row_column_indices": [
+        0,
+        8
+      ],
+      "families": [
+        "cycle",
+        "subset"
+      ],
+      "minors": 23328,
+      "passed": true,
+      "evidence_kind": "finite-only",
+      "summary": [
+        {
+          "r": 1,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 1,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 2,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "2"
+        },
+        {
+          "r": 2,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 3,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "6"
+        },
+        {
+          "r": 3,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 4,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "24"
+        },
+        {
+          "r": 4,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 5,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "120"
+        },
+        {
+          "r": 5,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 6,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "720"
+        },
+        {
+          "r": 6,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 8,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "40320"
+        },
+        {
+          "r": 8,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 11,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "39916800"
+        },
+        {
+          "r": 11,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        },
+        {
+          "r": 16,
+          "family": "cycle",
+          "minimum_nonzero_coefficient": "20922789888000"
+        },
+        {
+          "r": 16,
+          "family": "subset",
+          "minimum_nonzero_coefficient": "1"
+        }
+      ]
+    },
+    "subset_counterexample_control": {
+      "r": 3,
+      "I": [
+        1,
+        2,
+        3
+      ],
+      "J": [
+        0,
+        1,
+        2
+      ],
+      "coefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -16,
+        19110,
+        938700,
+        15309000,
+        79380000
+      ],
+      "negative_degree": 5,
+      "passed": true,
+      "scope": "Adjacent subset Hankel property, not cycle Q1160."
+    }
+  },
+  "passed": true
+}

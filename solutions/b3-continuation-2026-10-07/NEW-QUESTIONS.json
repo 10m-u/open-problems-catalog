@@ -1,0 +1,344 @@
+{
+  "schema": "b3-continuation-question-register-v1",
+  "date": "2026-10-07",
+  "policy": "Research-local IDs; not new global catalog numbers. Theorems live in RESULTS.json; counterexamples there name their exact stronger scope.",
+  "entries": [
+    {
+      "id": "B3C-Q01",
+      "status": "conjecture",
+      "statement": "For every integer q>=1 and every collection of integer bandwidths B_I>=0 on linear intervals I of {1,...,2q}, let H={x in {0,1}^{2q}: abs(2*sum_(i in I)x_i-|I|)<=B_I for all I}, and c_j=number of x in H with sum_i x_i=j. Is q*c_q >= (q+1)*c_(q-1)?",
+      "evidence": "Complete symmetric-interval enumeration q<=4; all-dimensional laminar case and endpoint consequences proved.",
+      "direction": "Seek a nonlocal exchange on prefix-height vectors for crossing intervals. One-bit inclusion matching is disproved.",
+      "targets": [
+        164
+      ]
+    },
+    {
+      "id": "B3C-Q02",
+      "status": "unverified-proof-lead-and-conjecture",
+      "statement": "For every integer r>=1, every 2x2 minor det(f_(i_a+j_b)(x)) with 0<=i_1<i_2 and 0<=j_1<j_2 has nonnegative coefficients, for f=c_r or f=s_r.",
+      "evidence": "User-reported proof unavailable; 23328 exact finite minors pass; leading cycle block proved.",
+      "direction": "Prove the adjacent fixed-sum inequality f_m f_(n+1)-f_(m+1)f_n >=_coeff 0 for all 0<=m<n; telescoping then supplies arbitrary gaps.",
+      "targets": [
+        1160
+      ]
+    },
+    {
+      "id": "B3C-Q03",
+      "status": "existing-question-subproblem",
+      "statement": "For every integer r>=3 and every pair of increasing nonnegative triples I,J, det(c_r,i_a+j_b(x)) has nonnegative coefficients.",
+      "evidence": "Leading cycle block all-r>=2, and initial extreme coefficients for arbitrary minors.",
+      "direction": "Next symbolic block I=J=(1,2,3), followed by unequal gaps; subset order-three failure is not a cycle counterexample.",
+      "targets": [
+        1160
+      ]
+    },
+    {
+      "id": "B3C-Q04",
+      "status": "conjecture",
+      "statement": "For every integer n >= 2 and every 1 <= r < n, Delta_r(x)=det[b_(2*j-i+1)]_(i,j=0)^(r-1), where F_n(t;x)=sum_(k=0)^n e_k(x) product_(j=0)^(n-1)((n+k-j-1)+(n-k+j)t)=sum_(i=0)^n b_i t^(n-i), has a strictly positive coefficient for every monomial product_i x_i^d_i with 0 <= d_i <= r, and has no other monomials.",
+      "evidence": "All 4816 coefficient values for n2..5,r<n are strictly positive.",
+      "direction": "Derive a structural positive expansion of the Hurwitz determinants; preserve independent Bernoulli parameters.",
+      "targets": [
+        1442
+      ]
+    },
+    {
+      "id": "B3C-Q05",
+      "status": "conjecture-stronger-than-catalog-target",
+      "statement": "For every integer n>=1 and every (a_1,...,a_n) in [0,1]^n, all zeros of P(z)=sum_j e_(n-j)(a) binom(z,j) lie in |z+1/2|<=n-1/2; boundary only for all-zero/all-one parameter polynomials.",
+      "evidence": "Uniform n<=5 certificate; all n for equal parameters. Degree6..8 claim has no supplied certificate.",
+      "direction": "Use Q04 or another argument respecting the TP parameterization; arbitrary shift mixtures are an invalid relaxation.",
+      "targets": [
+        1442
+      ]
+    },
+    {
+      "id": "B3C-Q06",
+      "status": "unverified-recovery-lead",
+      "statement": "For every pair of integers d,u>=1, every s-Eulerian vector representing (1+u x)^d has length at least 2d-1, and a length 2d-1 representation exists.",
+      "evidence": "Upper bound proved. Explicit vector (u+1,1,u+1,...,1,u+1) realizes the polynomial. Universal lower bound claimed remotely but not recovered.",
+      "direction": "Recover L13 simple negative roots for each nonunit block, or prove directly that repeated linear factors must occur in separate blocks.",
+      "targets": [
+        1262
+      ]
+    },
+    {
+      "id": "B3C-Q07",
+      "status": "unverified-recovery-lead",
+      "statement": "For every nonempty positive integer vector s with all entries >=2, every root of E_s(x) is negative and simple.",
+      "evidence": "Stalled-agent claim only. General real-rootedness alone does not imply simplicity. Degree-two coefficient classification is not an all-degree proof.",
+      "direction": "Audit strict interlacing of refined ascent polynomials with all endpoint and equality cases. Do not infer strictness from weak interlacing.",
+      "targets": [
+        1262
+      ]
+    },
+    {
+      "id": "B3C-R01",
+      "status": "missing-certificate-recovery",
+      "statement": "Recover exact degree-six, degree-seven and degree-eight independent-parameter interpolation disk certificates and endpoint classification.",
+      "evidence": "Intermediate messages from the external agent; no corresponding files survived.",
+      "direction": "Prefer obtaining or structurally replacing missing certificates; no unbounded n8 brute-force determinant run authorized by this checkpoint.",
+      "targets": [
+        1442
+      ]
+    },
+    {
+      "id": "B3C-R02",
+      "status": "missing-statement-recovery",
+      "statement": "Identify the two stronger Schur-positivity claims and exact counterexamples mentioned in the stalled output.",
+      "evidence": "Neither exact quantifiers nor witnesses supplied.",
+      "direction": "Recover original statements before recording a refutation. No historical Schur counterexample asserted.",
+      "targets": [
+        1160,
+        1442
+      ]
+    }
+  ],
+  "retained_catalog_questions": [
+    "Q164",
+    "Q167",
+    "Q183",
+    "Q1158",
+    "Q1159",
+    "Q1160",
+    "Q1161",
+    "Q1249",
+    "Q1262",
+    "Q1263",
+    "Q1366",
+    "Q1441",
+    "Q1442",
+    "Q1443",
+    "Q1454",
+    "Q2212",
+    "Q2400"
+  ],
+  "historical_branch_registers": {
+    "stirling": {
+      "schema": "b3-stirling-continuation-register-v1",
+      "date": "2026-10-07",
+      "evidence_policy": "Complete written proofs, conjectures, adjacent counterexamples, and finite-only evidence are separate. No catalog resolution ledger is changed.",
+      "source_files": [
+        "solutions/b3-2026-10-06/report-extracted.txt",
+        "solutions/b3-2026-10-06/B3_statement_ledger.json",
+        "solutions/b3-continuation-2026-10-07/stirling/REPORT.md",
+        "solutions/b3-continuation-2026-10-07/stirling/checks.py",
+        "solutions/b3-continuation-2026-10-07/stirling/checks.json"
+      ],
+      "definitions": {
+        "C": "C_r(0,0)=1, C_r(n,k)=0 outside 0<=k<=n; C_r(n,k)=(n+(r-1)k-1)_(r-1) C_r(n-1,k-1)+(n+(r-1)k-1) C_r(n-1,k). Falling factorial.",
+        "S": "S_r(0,0)=1, S_r(n,k)=0 outside 0<=k<=n; S_r(n,k)=binom(n+(r-1)k-1,r-1) S_r(n-1,k-1)+k S_r(n-1,k).",
+        "row_polynomials": "c_r,n(x)=sum_k C_r(n,k)x^k; s_r,n(x)=sum_k S_r(n,k)x^k; c_r,0=s_r,0=1.",
+        "hankel_minor": "det(f_(i_a+j_b)(x)) with finite strictly increasing lists I,J of nonnegative integers, equal cardinality.",
+        "coefficientwise_positive_on_support": "Every nonzero coefficient is strictly positive; no missing degree within the specified support interval."
+      },
+      "proved_results": [
+        {
+          "id": "B3-ST-T001",
+          "name": "First principal cycle Hankel determinant",
+          "statement": "For every integer r>=2, det(c_r,i+j(x))_(i,j=0)^2 has support exactly {2,3,4,5,6} and strictly positive coefficients at each of those degrees.",
+          "proof": "REPORT.md: normalization, explicit coefficient expansion and factorial-ratio inequalities; highest coefficient is a positive gamma-product Gram determinant.",
+          "related_question": 1160,
+          "statement_id": "0aded4f0c2d209554604",
+          "catalog_disposition": "partial only",
+          "recovery": "Independently reconstructed from a user-reported lead; stalled continuation artifacts unavailable.",
+          "limitations": "One principal minor; does not prove arbitrary 3x3 or larger Hankel positivity. Publication priority unclaimed. Parent mathematical review and independent symbolic/exact checks completed; see ../audit/PROOF-REVIEW.md."
+        },
+        {
+          "id": "B3-ST-T002",
+          "name": "Leading 3x3 cycle block",
+          "statement": "For every integer r>=2, every nonempty minor of the leading block (c_r,i+j(x))_(i,j=0)^2 is coefficientwise nonnegative and strictly positive throughout its specified nonzero support.",
+          "proof": "REPORT.md corollary gives every distinct 2x2 polynomial explicitly, using the same factorial-ratio inequalities and gamma-product moment minors; 1x1 and 3x3 cases are supplied.",
+          "related_question": 1160,
+          "statement_id": "0aded4f0c2d209554604",
+          "catalog_disposition": "partial only",
+          "limitations": "Leading indices 0,1,2 only; no arbitrary index-set conclusion. Parent mathematical review and independent symbolic/exact checks completed; see ../audit/PROOF-REVIEW.md."
+        }
+      ],
+      "conjectures_and_recovery_targets": [
+        {
+          "id": "B3-ST-C001",
+          "name": "Universal Hankel TN2, both families",
+          "statement": "For every integer r>=1, every 2x2 minor det(f_(i_a+j_b)(x)) with 0<=i_1<i_2 and 0<=j_1<j_2 has nonnegative coefficients, for f=c_r or f=s_r.",
+          "evidence": "User's interrupted agent asserted a proof; those files are unavailable. Reconstructed finite checks cover 23328 minors for r in {1,2,3,4,5,6,8,11,16}, I,J subset {0,...,8}; all passed. Cycle leading 3x3 block is proved separately.",
+          "status": "unverified lead; not recovered as a proof",
+          "novelty": "Cycle part is an order-two subproblem of existing Q1160. The all-r subset version is a separately tracked adjacent question, compatible with the known order-three failures.",
+          "exact_equivalent_form": "It suffices to prove f_m(x) f_(n+1)(x)-f_(m+1)(x) f_n(x) >=_coeff 0 for every 0<=m<n. Any larger-gap 2x2 determinant is a telescoping sum of such expressions at fixed total index; this equivalence does not divide polynomials.",
+          "next_step": "Recover or derive a two-object injection or coefficientwise telescoping recurrence. Triangle TN2 concerns C_r/S_r entries and does not establish this Hankel statement."
+        },
+        {
+          "id": "B3-ST-C002",
+          "name": "Arbitrary cycle Hankel minors of order three",
+          "statement": "For every integer r>=3 and every pair of increasing nonnegative triples I,J, det(c_r,i_a+j_b(x)) has nonnegative coefficients.",
+          "evidence": "Exact first principal minor and entire leading 3x3 block now have an all-r proof; the initial report gives positive extreme coefficients for every cycle Hankel minor.",
+          "status": "open subproblem of Q1160",
+          "novelty": "Research direction within the existing question, not a new independent catalog statement.",
+          "next_step": "Start with I=J=(1,2,3), then unequal index gaps; derive formulas in rising factorials rather than infer a theorem by increasing a cutoff."
+        }
+      ],
+      "counterexamples_and_obstructions": [
+        {
+          "id": "B3-ST-O001",
+          "status": "existing theorem, exact instance recovered",
+          "statement": "The subset minor I=(1,2,3), J=(0,1,2) has negative x^5 coefficient for every integer r>=3, as proved in the initial packet. At r=3 its polynomial is -16x^5+19110x^6+938700x^7+15309000x^8+79380000x^9.",
+          "scope": "Subset Hankel positivity of order three; does not refute cycle Q1160 or Hankel TN2 conjecture C001."
+        },
+        {
+          "id": "B3-ST-O002",
+          "status": "existing obstruction, not recomputed in this continuation",
+          "statement": "Both shifted triangles have negative entries in their ordinary production matrices for every r>=2. Positive column rescaling preserves those signs.",
+          "scope": "Obstructs an unchanged-state ordinary positive-production-matrix proof, not total nonnegativity of the triangles or a larger-state path representation."
+        },
+        {
+          "id": "B3-ST-O003",
+          "status": "not recovered",
+          "statement": "The external agent's intermediate summary mentions counterexamples to two stronger Schur-positivity claims. Their exact statements, coefficients and artifacts were not supplied, so no such counterexample is asserted here."
+        }
+      ],
+      "finite_only_observations": [
+        {
+          "id": "B3-ST-F001",
+          "statement": "23328 exact 2x2 Hankel minors passed coefficientwise nonnegativity for both families, r in {1,2,3,4,5,6,8,11,16}, and row/column index pairs from {0,...,8}.",
+          "artifact": "checks.json: universal_2x2_lead_finite_controls",
+          "limitation": "Does not recover the external agent's universal proof claim or settle any exact question."
+        }
+      ],
+      "exact_question_status": {
+        "Q1158": "partial from initial triangle TN2 theorem; no higher-order infinite theorem recovered here",
+        "Q1159": "partial from initial triangle TN2 theorem; no higher-order infinite theorem recovered here",
+        "Q1160": "partial: first complete leading 3x3 cycle block now proved for all integer r>=2; arbitrary minors remain open",
+        "Q1161": "unresolved infinite target; initial finite stability claims not extended or reproduced here"
+      }
+    },
+    "compositions": {
+      "date": "2026-10-07",
+      "proved_claims": [
+        {
+          "id": "B3-COMP-SUPPORT",
+          "status": "proved",
+          "statement": "Every binary linear interval-constraint family with integer bounds has a consecutive set of attainable ranks, including after coordinate conditioning.",
+          "proof": "REPORT.md: coordinatewise floor of a convex interpolation of feasible prefix-height vectors."
+        },
+        {
+          "id": "B3-COMP-CAPP-REDUCTION",
+          "status": "proved_conditional_reduction",
+          "statement": "If q*c_q >= (q+1)*c_(q-1) for every symmetric linear interval-band family on 2q coordinates and every q>=1, then every binary linear interval-constraint family has an ultra-log-concave weighted rank sequence of order its number of variables for every nonnegative position-weight vector.",
+          "dependencies": [
+            "Kahn-Neiman Theorem 1",
+            "B3-COMP-SUPPORT"
+          ]
+        },
+        {
+          "id": "B3-COMP-ULC-9",
+          "status": "computer_assisted_proof",
+          "statement": "For every m<=9, every collection of integer lower and upper bounds on sums over linear intervals in {1,...,m}, and every nonnegative real position-weight vector, the weighted feasible-word rank sequence is ULC of order m.",
+          "evidence": "Complete enumeration of symmetric interval-band families in even dimensions 2,4,6,8; exactly 2,16,377,32554 nonempty families; no APP defect.",
+          "artifacts": [
+            "REPORT.md",
+            "checks.py",
+            "checks.json"
+          ]
+        },
+        {
+          "id": "B3-COMP-ENDPOINT-ULC",
+          "status": "computer_assisted_proof_with_published_reduction",
+          "statement": "For arbitrary m and every linear interval-constraint family and nonnegative weights, k*(m-k)*f_k^2 >= (k+1)*(m-k+1)*f_(k-1)*f_(k+1) at k in {1,2,3,4,m-4,m-3,m-2,m-1} intersect {1,...,m-1}.",
+          "dependencies": [
+            "Exact APP enumeration through q=4",
+            "Kahn-Neiman Theorem 9"
+          ]
+        },
+        {
+          "id": "B3-COMP-LAMINAR-ULC",
+          "status": "proved_from_published_closure",
+          "statement": "For every m>=0, every laminar collection of constrained intervals with integer rank bounds, and every nonnegative position-weight vector, the weighted feasible-word rank sequence is ULC of order m.",
+          "dependencies": [
+            "Kahn-Neiman Theorem 4: convolution closure",
+            "consecutive rank truncation preserves ULC"
+          ],
+          "novelty_claim": false
+        }
+      ],
+      "open_questions": [
+        {
+          "id": "B3-COMP-APP-ALL",
+          "status": "conjecture",
+          "statement": "For every integer q>=1 and every collection of integer bandwidths B_I>=0 on linear intervals I of {1,...,2q}, let H={x in {0,1}^{2q}: abs(2*sum_(i in I)x_i-|I|)<=B_I for all I}, and c_j=number of x in H with sum_i x_i=j. Is q*c_q >= (q+1)*c_(q-1)?",
+          "evidence": "Exhaustive verification for q<=4. Bandwidth parity may be rounded down to that of |I|; negative bandwidths give an empty family. Laminar systems follow from closure arguments. No all-q proof.",
+          "implication": "An affirmative answer proves arbitrary weighted ULC of order m for every linear interval-constraint family."
+        },
+        {
+          "id": "Q164",
+          "status": "catalog_target_remains_open",
+          "statement": "For every graph G equal to a path or a cycle on n vertices and every integer ell>=1, is (gamma_k(G^ell)/binom(n,k))_(k=0)^n log-concave?",
+          "new_scope": "All weighted path-power families for n<=9 and endpoint indices within four of either end for arbitrary n. Laminar interval families all dimensions. General crossing-neighborhood and cycle cases not closed."
+        }
+      ],
+      "obstructions": [
+        {
+          "id": "B3-COMP-INCLUSION-MATCHING",
+          "status": "disproved_stronger_route",
+          "statement_refuted": "In every symmetric interval family on 2q coordinates, every feasible rank q-1 word has a feasible rank q superset obtained by changing one zero to one.",
+          "witness": "q=3, pair equations x1+x2=x2+x3=x4+x5=x5+x6=1; rank2 word 010010 has no feasible rank3 superset; the two central words are 010101 and101010.",
+          "does_not_refute": [
+            "Central APP inequality",
+            "Numerical weighted ULC",
+            "Catalog Q164"
+          ],
+          "artifact": "checks.json"
+        },
+        {
+          "id": "B3-COMP-COEFFICIENTWISE-ULC",
+          "status": "disproved_stronger_property",
+          "statement_refuted": "The normalized central ULC defect is coefficientwise nonnegative in independent position weights for every interval family.",
+          "witness": "Unrestricted m=2: f1^2-4*f0*f2 = w1^2-2*w1*w2+w2^2; mixed coefficient -2.",
+          "numerical_property_survives": "Defect equals (w1-w2)^2 and is nonnegative for every real weight vector."
+        }
+      ]
+    },
+    "interpolation": {
+      "date": "2026-10-07",
+      "program": "B3 interpolation",
+      "entries": [
+        {
+          "id": "B3-I-C01",
+          "status": "conjecture",
+          "question_numbers": [
+            1442
+          ],
+          "statement": "For every integer n >= 2 and every 1 <= r < n, Delta_r(x)=det[b_(2*j-i+1)]_(i,j=0)^(r-1), where F_n(t;x)=sum_(k=0)^n e_k(x) product_(j=0)^(n-1)((n+k-j-1)+(n-k+j)t)=sum_(i=0)^n b_i t^(n-i), has a strictly positive coefficient for every monomial product_i x_i^d_i with 0 <= d_i <= r, and has no other monomials.",
+          "evidence": "Exact coefficient certificates for every n=2,3,4,5 and r<n; 4,816 positive integer coefficients in total. These certify the theorem uniformly in all real admissible parameters for those degrees.",
+          "implication": "For every n and all a_i in [0,1], every root of P(z)=sum_j e_(n-j)(a) binom(z,j) lies in |z+1/2| <= n-1/2; boundary only at the all-zero and all-one parameter polynomials. Hence R_n=n.",
+          "boundary": "The general coefficient conjecture is sufficient for the root bound; necessity is not claimed. No Schur-basis positivity assertion is made.",
+          "artifacts": [
+            "checks.py",
+            "checks.json",
+            "degree-2-certificate.json",
+            "degree-3-certificate.json",
+            "degree-4-certificate.json",
+            "degree-5-certificate.json"
+          ]
+        },
+        {
+          "id": "B3-I-O01",
+          "status": "proved_counterexample_to_relaxation",
+          "statement": "The centered disk bound fails when the independent Bernoulli shift sum is replaced by an arbitrary distribution on {0,...,n}.",
+          "witness": "n=4, P(z)=binom(z,4)+binom(z+4,4). In w=z+1/2, 24P(w-1/2)=2w^4+43w^2+105/8, giving roots w=+/-i sqrt(43/4+sqrt(109)) with modulus >7/2.",
+          "scope": "This is not a counterexample to Q1442: its sampled-value numerator 1+t^4 has nonreal roots, so P is outside U_4.",
+          "artifacts": [
+            "REPORT.md",
+            "checks.py"
+          ]
+        },
+        {
+          "id": "B3-I-U01",
+          "status": "intermediate_claim_not_reconstructed",
+          "statement": "The interrupted agent reported the independent-parameter disk and endpoint boundary theorem uniformly through degree eight.",
+          "evidence": "User-provided intermediate transcript; original degree-six, degree-seven, and degree-eight certificates absent.",
+          "remaining": "Recover those certificates, reconstruct exact uniform certificates, or replace the cutoff by a structural all-degree proof. Degree five and the all-degree equal-parameter family have now been independently reconstructed."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "n": 4,
+  "definition": "Delta_r = det[b_(2*j-i+1)] for F_n(t;x)",
+  "all_coefficients_strictly_positive": true,
+  "determinants": [
+    {
+      "r": 1,
+      "monomial_count": 16,
+      "expected_full_box_count": 16,
+      "minimum_coefficient": "42",
+      "maximum_coefficient": "1106",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1106"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "954"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "598"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "254"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "42"
+        }
+      ]
+    },
+    {
+      "r": 2,
+      "monomial_count": 81,
+      "expected_full_box_count": 81,
+      "minimum_coefficient": "17346",
+      "maximum_coefficient": "5087888",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "421498"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1060276"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "coefficient": "680346"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "2167596"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "1158632"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "coefficient": "505310"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "3673184"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "1638356"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "600060"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "182590"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "5087888"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "1830000"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "519964"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "112336"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "17346"
+        }
+      ]
+    },
+    {
+      "r": 3,
+      "monomial_count": 256,
+      "expected_full_box_count": 256,
+      "minimum_coefficient": "17702916",
+      "maximum_coefficient": "12623508372",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "17702916"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "122234420"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "coefficient": "247238684"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            3
+          ],
+          "coefficient": "150965100"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "633634820"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "1055580124"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            3
+          ],
+          "coefficient": "564541900"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "coefficient": "1474102292"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            3
+          ],
+          "coefficient": "675710100"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "coefficient": "259262900"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "2683875300"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "3827552220"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "1820642300"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "4686340740"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "1934724100"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "675710100"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "5019999852"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "1820642300"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "564541900"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "150965100"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "9523388772"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "11784645036"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "5019999852"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "12623508372"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "4686340740"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "1474102292"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "11784645036"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "3827552220"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "1055580124"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "247238684"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "9523388772"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "2683875300"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "633634820"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "122234420"
+        },
+        {
+          "sorted_exponents": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "17702916"
+        }
+      ]
+    }
+  ]
+}

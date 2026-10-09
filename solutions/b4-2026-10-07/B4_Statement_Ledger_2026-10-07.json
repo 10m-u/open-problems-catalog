@@ -1,0 +1,3730 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "B4 research statement ledger",
+  "programme": "B4",
+  "generated_at_utc": "2026-10-08T00:20:42.538880+00:00",
+  "generated_local_date": "2026-10-07",
+  "timezone": "America/Chicago",
+  "source_handoff": {
+    "filename": "B4 Optimal Stopping - Agent Handoff 2026-10-07.md",
+    "archive_path": "inputs/B4_Handoff_2026-10-07.md",
+    "archived_filename": "B4_Handoff_2026-10-07.md",
+    "workspace_path": "/workspace/scratch/3bd76bf682c0/b4_research/inputs/B4_Handoff_2026-10-07.md",
+    "library_file_id": "libfile_755433a4ec9081919aeadd47744ef13c",
+    "file_citation_id": "file_00000000eca081f58e06a241d93b55d9",
+    "sha256": "006b3a09c1844c0ab0a56f56b6f29c2559518478086376c548e570ebb81d8955",
+    "snapshot_date": "2026-10-07",
+    "read_only_source_preserved": true,
+    "canonical_question_count": 7
+  },
+  "status_vocabulary": [
+    "disproved",
+    "partial",
+    "proved",
+    "scope-nonmatch",
+    "unresolved"
+  ],
+  "evidence_policy": {
+    "exact_statement_and_subclass_results_separated": true,
+    "conditional_complexity_assumptions_explicit": true,
+    "Turing_reductions_not_relabelled_many_one": true,
+    "finite_computation_not_used_as_universal_proof": true,
+    "written_audits_not_peer_review_or_formal_verification": true,
+    "prior_packet_claims_not_promoted": true,
+    "compiled_formal_theorem": false,
+    "novelty_or_published_resolution_claim": false,
+    "original_catalogue_or_vault_ledger_modified": false
+  },
+  "question_status_counts": {
+    "disproved": 1,
+    "partial": 3,
+    "proved": 1,
+    "scope-nonmatch": 0,
+    "unresolved": 2
+  },
+  "questions": [
+    {
+      "programme": "B4",
+      "question": "Q535",
+      "question_number": 535,
+      "stable_statement_id": "e73cca50c72b11a00581",
+      "title": "Does time-dependent Pandora search admit a PTAS?",
+      "exact_retained_statement": "In Pandora’s Box Over Time there are n boxes, integer processing delays p_i≥0, and an explicit horizon H≥n+∑_i p_i. Inspecting unused box i at time t costs c_i(t)≥0, draws V_it from a known nonnegative distribution D_it, and prevents another inspection before t+1+p_i. All box-time draws are independent. Stopping is allowed only after every initiated inspection has completed (t_i+p_i≤T). At stopping time T≤H, collect max_{inspected i} v̄_i(V_it,T−t−p_i), minus all inspection costs; 0≤v̄_i(v,τ)≤v̄_i(v,0)=v. Waiting and adaptive inspection/stopping are allowed. Does this optimization problem admit a polynomial-time approximation scheme, or can one rule out a PTAS under a standard complexity assumption? Preserve the source’s value-oracle access for expected maxima of reservation-truncated independent rewards, or state an explicit finite-support encoding. Approximation is multiplicative relative to optimal expected net utility, with stopping without inspection available.",
+      "status": "disproved",
+      "conclusion": "The affirmative PTAS possibility is ruled out conditionally: deterministic PTAS implies P=NP; randomized schemes imply a randomized PTAS for an APX-hard scheduling problem and are excluded under NP not contained in BPP.",
+      "changed_assumptions_at_canonical_scope": [],
+      "conditional_complexity_assumptions": [
+        "Deterministic no-PTAS conclusion assumes P != NP.",
+        "Randomized no-PTAS conclusion assumes NP not subseteq BPP.",
+        "JISP MAX-SNP-hardness is an external primary-source dependency."
+      ],
+      "prior_packet_status": {
+        "catalogue_exact_scope_closure_recorded": false,
+        "provenance": "Supplied handoff snapshot, 7 October 2026; prior catalogue not modified.",
+        "collector_notes_verbatim": [
+          "Status for question 535, checked 5 October 2026: No PTAS or matching impossibility located. The current 2025 framework supersedes older deadline-specific approximation bounds."
+        ]
+      },
+      "results": [
+        {
+          "result_id": "B4-Q535-R1",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "Any rational equal-length interval family of N alternatives can be converted in polynomial time to equal-length integer half-open intervals of length L=N+1 with starts in [1,1+N*L], preserving every pairwise conflict and the job partition.",
+          "changed_assumptions": [
+            "A structural lemma for the equal-length JISP restriction used in the reduction."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q535/report.md",
+              "location": "Section 2",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "JISP-primary-restatement",
+                  "title": "Simple Algorithms for a Weighted Interval Selection Problem",
+                  "authors": "Thomas Erlebach and Frits C. R. Spieksma",
+                  "year": 2000,
+                  "venue": "ISAAC 2000",
+                  "url": "https://www.researchgate.net/publication/225552747_Simple_Algorithms_for_a_Weighted_Interval_Selection_Problem",
+                  "location": "Section 1.1, printed p.2 of author manuscript",
+                  "role": "Primary author restatement of the equal-length, two-alternative MAX-SNP-hardness restriction; not an independent proof of it.",
+                  "access_evidence": "Inspected by original derivation and independent q535 audit."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q535-main",
+                "ran": true,
+                "command": "python q535/verify.py",
+                "scripts": [
+                  "q535/verify.py"
+                ],
+                "inputs": [
+                  "q535/verify.py: declared generators",
+                  "q535/results.json: all generated instances"
+                ],
+                "outputs": [
+                  "q535/results.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 53520261007,
+                "counts": {
+                  "exhaustive_scheduling_instances": 258,
+                  "seeded_scheduling_instances": 80,
+                  "interval_compression_cases": 100,
+                  "approximation_inequality_checks": 176850
+                },
+                "generator": "n=1,2,3; each job has two distinct starts from {1,2,3,4}; common length 2",
+                "controls": "Independent interval-choice enumeration and time/subset Bellman recursion; pairwise conflict preservation; exact approximation-transfer inequalities.",
+                "status": "passed",
+                "scope": "Finite implementation controls; asymptotic hardness rests on written reduction and primary dependency."
+              },
+              {
+                "run_id": "Q535-audit",
+                "ran": true,
+                "command": "python q535/audit_verify.py",
+                "scripts": [
+                  "q535/audit_verify.py"
+                ],
+                "inputs": [
+                  "q535/audit_verify.py: exhaustive multisets and extreme inputs"
+                ],
+                "outputs": [
+                  "q535/audit_results.json"
+                ],
+                "arithmetic": "exact fractions",
+                "counts": {
+                  "sorted_multisets": 3002,
+                  "extreme_rational_cases": 3,
+                  "closed_endpoint_cases": 1
+                },
+                "generator": "Every sorted multiset of sizes 1 through 8 over the stated grid",
+                "status": "passed",
+                "scope": "Adversarial interval-compression boundary controls."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q535-independent",
+                  "path": "q535/audit.md",
+                  "scope": "External restriction and model compatibility, integer compression, horizon/bit encoding, all-zero trajectory extraction, deterministic/randomized transfer and oracle simplicity.",
+                  "finding": "No invalid reduction step found; deterministic and randomized complexity assumptions must remain distinct.",
+                  "additional_executed_controls": {
+                    "script": "q535/audit_verify.py",
+                    "output": "q535/audit_results.json",
+                    "sorted_multisets": 3002,
+                    "extreme_rational_cases": 3,
+                    "closed_endpoint_case": 1
+                  },
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "This is a graph-preserving encoding lemma, not an independent complexity-hardness dependency."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q535-R2",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For the constructed zero-cost, no-deterioration, common-delay instance, with Bernoulli theta=1/(2n) rewards only at the at most two starts assigned to each box and independent box-time draws, the fully adaptive optimum is 1-(1-theta)^(K*), where K* is the maximum feasible JISP schedule size.",
+          "changed_assumptions": [
+            "Hardness subclass: costs zero, no deterioration, common positive delay L-1, values {0,1}, at most two nonzero-probability starts per box, polynomial numerical horizon."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q535/report.md",
+              "location": "Sections 3–4",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q535-source",
+                  "title": "Pandora's Box Problem With Time Constraints",
+                  "authors": "Amanatidis, Berger, Ezra, Feldman, Fusco, Reiffenhäuser, Tsikiridis",
+                  "identifier": "arXiv:2407.15261v3",
+                  "version_date": "2025-11-15",
+                  "url": "https://arxiv.org/html/2407.15261v3",
+                  "locations": [
+                    "Section 2 model and oracle contract",
+                    "Section 5 PTAS question"
+                  ],
+                  "role": "Primary-source model comparison; not the source of the new reduction.",
+                  "access_evidence": "Reported primary-source inspection in q535/report.md and independent q535/audit.md."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q535-main",
+                "ran": true,
+                "command": "python q535/verify.py",
+                "scripts": [
+                  "q535/verify.py"
+                ],
+                "inputs": [
+                  "q535/verify.py: declared generators",
+                  "q535/results.json: all generated instances"
+                ],
+                "outputs": [
+                  "q535/results.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 53520261007,
+                "counts": {
+                  "exhaustive_scheduling_instances": 258,
+                  "seeded_scheduling_instances": 80,
+                  "interval_compression_cases": 100,
+                  "approximation_inequality_checks": 176850
+                },
+                "generator": "n=1,2,3; each job has two distinct starts from {1,2,3,4}; common length 2",
+                "controls": "Independent interval-choice enumeration and time/subset Bellman recursion; pairwise conflict preservation; exact approximation-transfer inequalities.",
+                "status": "passed",
+                "scope": "Finite implementation controls; asymptotic hardness rests on written reduction and primary dependency."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q535-independent",
+                  "path": "q535/audit.md",
+                  "scope": "External restriction and model compatibility, integer compression, horizon/bit encoding, all-zero trajectory extraction, deterministic/randomized transfer and oracle simplicity.",
+                  "finding": "No invalid reduction step found; deterministic and randomized complexity assumptions must remain distinct.",
+                  "additional_executed_controls": {
+                    "script": "q535/audit_verify.py",
+                    "output": "q535/audit_results.json",
+                    "sorted_multisets": 3002,
+                    "extreme_rational_cases": 3,
+                    "closed_endpoint_case": 1
+                  },
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Uses arbitrary time-dependent distributions and positive delay; no instant-inspection or time-independent hardness claim."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q535-R3",
+          "status": "proved",
+          "relationship_to_canonical_question": "conditional_negative_resolution_of_PTAS_branch",
+          "statement": "A deterministic polynomial-time approximation scheme for Q535 with deterministic polynomial-time policy decisions would yield a deterministic PTAS for MAX-SNP-hard equal-length, two-alternative JISP. Therefore no such Q535 PTAS exists unless P=NP, already in the restricted family of R2. The finite-support encoding and expected-maximum oracle are polynomially evaluable.",
+          "changed_assumptions": [
+            "No model relaxation: a special case of the exact target suffices.",
+            "Deterministic preprocessing and deterministic policy execution for the P!=NP exclusion."
+          ],
+          "conditional_complexity_assumptions": [
+            "No deterministic PTAS under P != NP.",
+            "The external equal-length, two-alternative JISP MAX-SNP-hardness theorem is a dependency."
+          ],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q535/report.md",
+              "location": "Sections 2–6",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [
+              {
+                "source_id": "JISP-hardness",
+                "title": "On the approximability of an interval scheduling problem",
+                "authors": "F. C. R. Spieksma",
+                "year": 1999,
+                "journal": "Journal of Scheduling 2, 215–227",
+                "doi": "10.1002/(SICI)1099-1425(199909/10)2:5<215::AID-JOS27>3.0.CO;2-Y",
+                "url": "https://doi.org/10.1002/(SICI)1099-1425(199909/10)2:5%3C215::AID-JOS27%3E3.0.CO;2-Y",
+                "role": "External MAX-SNP-hardness dependency for unweighted Job Interval Selection with two alternatives per job and equal interval length.",
+                "access_evidence": "Publisher/author materials inspected; original full proof PDF not successfully retrieved and not reconstructed."
+              },
+              {
+                "source_id": "JISP-primary-restatement",
+                "title": "Simple Algorithms for a Weighted Interval Selection Problem",
+                "authors": "Thomas Erlebach and Frits C. R. Spieksma",
+                "year": 2000,
+                "venue": "ISAAC 2000",
+                "url": "https://www.researchgate.net/publication/225552747_Simple_Algorithms_for_a_Weighted_Interval_Selection_Problem",
+                "location": "Section 1.1, printed p.2 of author manuscript",
+                "role": "Primary author restatement of the equal-length, two-alternative MAX-SNP-hardness restriction; not an independent proof of it.",
+                "access_evidence": "Inspected by original derivation and independent q535 audit."
+              }
+            ],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q535-source",
+                  "title": "Pandora's Box Problem With Time Constraints",
+                  "authors": "Amanatidis, Berger, Ezra, Feldman, Fusco, Reiffenhäuser, Tsikiridis",
+                  "identifier": "arXiv:2407.15261v3",
+                  "version_date": "2025-11-15",
+                  "url": "https://arxiv.org/html/2407.15261v3",
+                  "locations": [
+                    "Section 2 model and oracle contract",
+                    "Section 5 PTAS question"
+                  ],
+                  "role": "Primary-source model comparison; not the source of the new reduction.",
+                  "access_evidence": "Reported primary-source inspection in q535/report.md and independent q535/audit.md."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q535-main",
+                "ran": true,
+                "command": "python q535/verify.py",
+                "scripts": [
+                  "q535/verify.py"
+                ],
+                "inputs": [
+                  "q535/verify.py: declared generators",
+                  "q535/results.json: all generated instances"
+                ],
+                "outputs": [
+                  "q535/results.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 53520261007,
+                "counts": {
+                  "exhaustive_scheduling_instances": 258,
+                  "seeded_scheduling_instances": 80,
+                  "interval_compression_cases": 100,
+                  "approximation_inequality_checks": 176850
+                },
+                "generator": "n=1,2,3; each job has two distinct starts from {1,2,3,4}; common length 2",
+                "controls": "Independent interval-choice enumeration and time/subset Bellman recursion; pairwise conflict preservation; exact approximation-transfer inequalities.",
+                "status": "passed",
+                "scope": "Finite implementation controls; asymptotic hardness rests on written reduction and primary dependency."
+              },
+              {
+                "run_id": "Q535-audit",
+                "ran": true,
+                "command": "python q535/audit_verify.py",
+                "scripts": [
+                  "q535/audit_verify.py"
+                ],
+                "inputs": [
+                  "q535/audit_verify.py: exhaustive multisets and extreme inputs"
+                ],
+                "outputs": [
+                  "q535/audit_results.json"
+                ],
+                "arithmetic": "exact fractions",
+                "counts": {
+                  "sorted_multisets": 3002,
+                  "extreme_rational_cases": 3,
+                  "closed_endpoint_cases": 1
+                },
+                "generator": "Every sorted multiset of sizes 1 through 8 over the stated grid",
+                "status": "passed",
+                "scope": "Adversarial interval-compression boundary controls."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q535-independent",
+                  "path": "q535/audit.md",
+                  "scope": "External restriction and model compatibility, integer compression, horizon/bit encoding, all-zero trajectory extraction, deterministic/randomized transfer and oracle simplicity.",
+                  "finding": "No invalid reduction step found; deterministic and randomized complexity assumptions must remain distinct.",
+                  "additional_executed_controls": {
+                    "script": "q535/audit_verify.py",
+                    "output": "q535/audit_results.json",
+                    "sorted_multisets": 3002,
+                    "extreme_rational_cases": 3,
+                    "closed_endpoint_case": 1
+                  },
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "A deterministic constructor returning a randomized policy falls under R4 unless a suitable seed can also be selected deterministically.",
+            "No strong-hardness or restricted-special-case PTAS classification beyond the stated reduction."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q535-R4",
+          "status": "proved",
+          "relationship_to_canonical_question": "conditional_negative_resolution_for_randomized_PTAS",
+          "statement": "A randomized polynomial-time approximation scheme for Q535, including randomized policy execution, would produce a randomized PTAS for the same APX-hard scheduling problem by sampling all-zero policy trajectories and selecting the best extracted schedule. Thus such a scheme is excluded under NP not contained in BPP.",
+          "changed_assumptions": [
+            "Randomized synthesis and/or randomized policy execution."
+          ],
+          "conditional_complexity_assumptions": [
+            "No randomized PTAS under NP not subseteq BPP.",
+            "Uses the standard constant-gap consequence of the JISP MAX-SNP-hardness theorem."
+          ],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q535/report.md",
+              "location": "Section 5 randomized transfer",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [
+              {
+                "source_id": "JISP-hardness",
+                "title": "On the approximability of an interval scheduling problem",
+                "authors": "F. C. R. Spieksma",
+                "year": 1999,
+                "journal": "Journal of Scheduling 2, 215–227",
+                "doi": "10.1002/(SICI)1099-1425(199909/10)2:5<215::AID-JOS27>3.0.CO;2-Y",
+                "url": "https://doi.org/10.1002/(SICI)1099-1425(199909/10)2:5%3C215::AID-JOS27%3E3.0.CO;2-Y",
+                "role": "External MAX-SNP-hardness dependency for unweighted Job Interval Selection with two alternatives per job and equal interval length.",
+                "access_evidence": "Publisher/author materials inspected; original full proof PDF not successfully retrieved and not reconstructed."
+              },
+              {
+                "source_id": "JISP-primary-restatement",
+                "title": "Simple Algorithms for a Weighted Interval Selection Problem",
+                "authors": "Thomas Erlebach and Frits C. R. Spieksma",
+                "year": 2000,
+                "venue": "ISAAC 2000",
+                "url": "https://www.researchgate.net/publication/225552747_Simple_Algorithms_for_a_Weighted_Interval_Selection_Problem",
+                "location": "Section 1.1, printed p.2 of author manuscript",
+                "role": "Primary author restatement of the equal-length, two-alternative MAX-SNP-hardness restriction; not an independent proof of it.",
+                "access_evidence": "Inspected by original derivation and independent q535 audit."
+              }
+            ],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q535-source",
+                  "title": "Pandora's Box Problem With Time Constraints",
+                  "authors": "Amanatidis, Berger, Ezra, Feldman, Fusco, Reiffenhäuser, Tsikiridis",
+                  "identifier": "arXiv:2407.15261v3",
+                  "version_date": "2025-11-15",
+                  "url": "https://arxiv.org/html/2407.15261v3",
+                  "locations": [
+                    "Section 2 model and oracle contract",
+                    "Section 5 PTAS question"
+                  ],
+                  "role": "Primary-source model comparison; not the source of the new reduction.",
+                  "access_evidence": "Reported primary-source inspection in q535/report.md and independent q535/audit.md."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q535-main",
+                "ran": true,
+                "command": "python q535/verify.py",
+                "scripts": [
+                  "q535/verify.py"
+                ],
+                "inputs": [
+                  "q535/verify.py: declared generators",
+                  "q535/results.json: all generated instances"
+                ],
+                "outputs": [
+                  "q535/results.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 53520261007,
+                "counts": {
+                  "exhaustive_scheduling_instances": 258,
+                  "seeded_scheduling_instances": 80,
+                  "interval_compression_cases": 100,
+                  "approximation_inequality_checks": 176850
+                },
+                "generator": "n=1,2,3; each job has two distinct starts from {1,2,3,4}; common length 2",
+                "controls": "Independent interval-choice enumeration and time/subset Bellman recursion; pairwise conflict preservation; exact approximation-transfer inequalities.",
+                "status": "passed",
+                "scope": "Finite implementation controls; asymptotic hardness rests on written reduction and primary dependency."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q535-independent",
+                  "path": "q535/audit.md",
+                  "scope": "External restriction and model compatibility, integer compression, horizon/bit encoding, all-zero trajectory extraction, deterministic/randomized transfer and oracle simplicity.",
+                  "finding": "No invalid reduction step found; deterministic and randomized complexity assumptions must remain distinct.",
+                  "additional_executed_controls": {
+                    "script": "q535/audit_verify.py",
+                    "output": "q535/audit_results.json",
+                    "sorted_multisets": 3002,
+                    "extreme_rational_cases": 3,
+                    "closed_endpoint_case": 1
+                  },
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "P!=NP alone is not asserted to exclude every randomized scheme."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        }
+      ],
+      "source_subreports_and_ledgers": [
+        "q535/report.md",
+        "q535/audit.md"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_published_resolution_claim": false,
+      "status_interpretation": "disproved refers to the existence of a PTAS under the explicitly stated complexity separation, answering the alternative in the question negatively; it is not an unconditional complexity-class separation."
+    },
+    {
+      "programme": "B4",
+      "question": "Q536",
+      "question_number": 536,
+      "stable_statement_id": "85ea7e49998acbab5d24",
+      "title": "Efficient optimal stopping under a finite mixture of product distributions",
+      "exact_retained_statement": "There are m known scenarios, each specifying n distributions on a common set of k reward values. A scenario is sampled uniformly once; conditional on it, the n rewards are sampled independently. Rewards arrive in their fixed order. A policy observes the prefix and must irrevocably stop on one observed current reward, maximizing expected payoff. Can an optimal online stopping policy be computed in time polynomial in m,n,k (and the bit length for rational inputs)? If exact optimization is intractable, what approximation to the optimal online payoff is possible? The computational output must permit the policy’s stop/continue decision at an observed history without expanding an exponential history tree.",
+      "status": "partial",
+      "conclusion": "Exact polynomial-time optimal-policy synthesis is conditionally intractable already for two scenarios. Fixed-m FPTAS and parameter-dependent variable-m approximation proved; unrestricted variable-m approximation classification remains incomplete.",
+      "changed_assumptions_at_canonical_scope": [],
+      "conditional_complexity_assumptions": [
+        "Exact deterministic polynomial policy synthesis would imply every #P function is in FP and hence P=NP.",
+        "Fixed-m approximation and baseline guarantees are unconditional mathematical statements subject to their stated model restrictions."
+      ],
+      "prior_packet_status": {
+        "catalogue_exact_scope_closure_recorded": false,
+        "provenance": "Supplied handoff snapshot, 7 October 2026; prior catalogue not modified.",
+        "collector_notes_verbatim": [
+          "Status for question 536, checked 5 October 2026: No resolution located. The 2026 common-base prophet ratio and polynomially solvable deterministic-scenario model do not settle this computational question."
+        ]
+      },
+      "results": [
+        {
+          "result_id": "B4-Q536-H1",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For two rational Bernoulli product laws P,Q, a uniform two-scenario stopping gadget with rewards {0,1,2} has optimum 1+TV(P,Q)/2. Exact optimal-value computation is therefore #P-hard under polynomial-time Turing reductions for m=2,k=3.",
+          "changed_assumptions": [
+            "Nonnegative reward subcase; zero and unit probabilities allowed."
+          ],
+          "conditional_complexity_assumptions": [
+            "Deterministic polynomial-time exact value computation would put every #P function in FP."
+          ],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q536/q536_research.md",
+              "location": "Section 2",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [
+              {
+                "source_id": "TV-hardness",
+                "title": "Total Variation Distance for Product Distributions is #P-Complete",
+                "authors": [
+                  "Arnab Bhattacharyya",
+                  "Sutanu Gayen",
+                  "Kuldeep S. Meel",
+                  "Dimitrios Myrisiotis",
+                  "A. Pavan",
+                  "N. V. Vinodchandran"
+                ],
+                "identifier": "arXiv:2405.08255v1",
+                "version_date": "2024-05-14",
+                "url": "https://arxiv.org/html/2405.08255v1",
+                "location": "Theorem 1, Section 2, printed p.2",
+                "published_doi": "10.1016/j.ipl.2025.106560",
+                "role": "External exact-total-variation counting-hardness theorem for rational Bernoulli product distributions, under polynomial-time Turing reductions.",
+                "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json; external counting theorem not reproved here."
+              }
+            ],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q536-source",
+                  "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+                  "contribution_author": "Andrés Cristi",
+                  "contribution_title": "Hardness of Correlated Prophet Inequality",
+                  "doi": "10.4230/DagRep.15.3.159",
+                  "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+                  "location": "Section 4.2, model (2), printed pp.172–173",
+                  "role": "Primary source for the uniform finite-mixture stopping model.",
+                  "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q536-main",
+                "ran": true,
+                "command": "python q536/verify_q536.py",
+                "scripts": [
+                  "q536/verify_q536.py"
+                ],
+                "inputs": [
+                  "q536/q536_inputs.json",
+                  "q536/q536_certificate.json: example conditional probabilities"
+                ],
+                "outputs": [
+                  "q536/q536_certificate.json"
+                ],
+                "arithmetic": "exact fractions.Fraction; no floating decisions",
+                "seed": 53620261007,
+                "counts": {
+                  "generated_FPTAS_instances": 16,
+                  "complete_reward_strings_per_instance": 243,
+                  "example_full_history_policies": 1024,
+                  "example_time_current_policies": 32,
+                  "probe_tie_conventions": 2,
+                  "probe_queries_per_convention": 9
+                },
+                "generator": "16 cases, n=5, k=3, m alternates 2 and 3; counts iid uniform integers0..4, all-zero row replaced by(1,0,0); rewards0,2,7; eps1/5 then1/10",
+                "minimum_achieved_FPTAS_ratio": "1917023/1917039",
+                "status": "All exact arithmetic checks passed.",
+                "scope": "Finite exact controls, not the source of the general hardness or approximation theorem."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q536-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+                  "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "The unprefixed gadget has an easily evaluated optimal decision rule; value hardness alone does not imply policy-synthesis hardness."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q536-H2",
+          "status": "proved",
+          "relationship_to_canonical_question": "conditional_negative_resolution_of_exact_synthesis_branch",
+          "statement": "An oracle producing an exact optimal policy with polynomial-time history decisions computes exact rational product-law TV using polynomially many deterministic first-offer probes. Hence exact optimal-policy synthesis is #P-hard under polynomial-time Turing reductions, already for uniform m=2 and k<=4.",
+          "changed_assumptions": [
+            "Nonnegative reward subcase, explicit binary rational inputs, deterministic exact synthesis/decision contract."
+          ],
+          "conditional_complexity_assumptions": [
+            "No deterministic polynomial-time exact policy synthesis unless every #P function is in FP (conventionally FP=#P), which implies P=NP."
+          ],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q536/q536_research.md",
+              "location": "Section 3",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [
+              {
+                "source_id": "TV-hardness",
+                "title": "Total Variation Distance for Product Distributions is #P-Complete",
+                "authors": [
+                  "Arnab Bhattacharyya",
+                  "Sutanu Gayen",
+                  "Kuldeep S. Meel",
+                  "Dimitrios Myrisiotis",
+                  "A. Pavan",
+                  "N. V. Vinodchandran"
+                ],
+                "identifier": "arXiv:2405.08255v1",
+                "version_date": "2024-05-14",
+                "url": "https://arxiv.org/html/2405.08255v1",
+                "location": "Theorem 1, Section 2, printed p.2",
+                "published_doi": "10.1016/j.ipl.2025.106560",
+                "role": "External exact-total-variation counting-hardness theorem for rational Bernoulli product distributions, under polynomial-time Turing reductions.",
+                "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json; external counting theorem not reproved here."
+              }
+            ],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q536-source",
+                  "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+                  "contribution_author": "Andrés Cristi",
+                  "contribution_title": "Hardness of Correlated Prophet Inequality",
+                  "doi": "10.4230/DagRep.15.3.159",
+                  "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+                  "location": "Section 4.2, model (2), printed pp.172–173",
+                  "role": "Primary source for the uniform finite-mixture stopping model.",
+                  "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q536-main",
+                "ran": true,
+                "command": "python q536/verify_q536.py",
+                "scripts": [
+                  "q536/verify_q536.py"
+                ],
+                "inputs": [
+                  "q536/q536_inputs.json",
+                  "q536/q536_certificate.json: example conditional probabilities"
+                ],
+                "outputs": [
+                  "q536/q536_certificate.json"
+                ],
+                "arithmetic": "exact fractions.Fraction; no floating decisions",
+                "seed": 53620261007,
+                "counts": {
+                  "generated_FPTAS_instances": 16,
+                  "complete_reward_strings_per_instance": 243,
+                  "example_full_history_policies": 1024,
+                  "example_time_current_policies": 32,
+                  "probe_tie_conventions": 2,
+                  "probe_queries_per_convention": 9
+                },
+                "generator": "16 cases, n=5, k=3, m alternates 2 and 3; counts iid uniform integers0..4, all-zero row replaced by(1,0,0); rewards0,2,7; eps1/5 then1/10",
+                "minimum_achieved_FPTAS_ratio": "1917023/1917039",
+                "status": "All exact arithmetic checks passed.",
+                "scope": "Finite exact controls, not the source of the general hardness or approximation theorem."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q536-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+                  "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Turing-hardness, not a many-one PP/NP-completeness claim.",
+            "No bounded-error randomized complexity collapse is asserted.",
+            "Does not require querying an unreachable history or an expected-value oracle."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q536-A1",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For each fixed m and rational 0<epsilon<1, the uniform finite-product-mixture stopping problem with nonnegative rational rewards admits a deterministic FPTAS. It stores a polynomial-size likelihood-exponent policy table with at most n*m*(J+2)^(m-1) states, J=O(n^2 L/epsilon), and polynomial-time online decisions.",
+          "changed_assumptions": [
+            "Number of scenarios m is fixed.",
+            "Rewards are nonnegative."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q536/q536_research.md",
+              "location": "Section 4",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q536-source",
+                  "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+                  "contribution_author": "Andrés Cristi",
+                  "contribution_title": "Hardness of Correlated Prophet Inequality",
+                  "doi": "10.4230/DagRep.15.3.159",
+                  "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+                  "location": "Section 4.2, model (2), printed pp.172–173",
+                  "role": "Primary source for the uniform finite-mixture stopping model.",
+                  "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q536-main",
+                "ran": true,
+                "command": "python q536/verify_q536.py",
+                "scripts": [
+                  "q536/verify_q536.py"
+                ],
+                "inputs": [
+                  "q536/q536_inputs.json",
+                  "q536/q536_certificate.json: example conditional probabilities"
+                ],
+                "outputs": [
+                  "q536/q536_certificate.json"
+                ],
+                "arithmetic": "exact fractions.Fraction; no floating decisions",
+                "seed": 53620261007,
+                "counts": {
+                  "generated_FPTAS_instances": 16,
+                  "complete_reward_strings_per_instance": 243,
+                  "example_full_history_policies": 1024,
+                  "example_time_current_policies": 32,
+                  "probe_tie_conventions": 2,
+                  "probe_queries_per_convention": 9
+                },
+                "generator": "16 cases, n=5, k=3, m alternates 2 and 3; counts iid uniform integers0..4, all-zero row replaced by(1,0,0); rewards0,2,7; eps1/5 then1/10",
+                "minimum_achieved_FPTAS_ratio": "1917023/1917039",
+                "status": "All exact arithmetic checks passed.",
+                "scope": "Finite exact controls, not the source of the general hardness or approximation theorem."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q536-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+                  "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Dependence on m is exponential; no variable-m FPTAS follows.",
+            "Subprobabilities are never renormalized.",
+            "A^J rational-denominator bound is for reachable normalized states; larger formal tables may use A^(2J)."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q536-A2",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For variable m and nonnegative rewards, a deterministic polynomial-time policy attains at least OPT/min(m,n,k_positive), where k_positive counts distinct positive reward levels. If k_positive=0 the optimum is zero.",
+          "changed_assumptions": [
+            "Rewards are nonnegative."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q536/q536_research.md",
+              "location": "Section 5",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q536-source",
+                  "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+                  "contribution_author": "Andrés Cristi",
+                  "contribution_title": "Hardness of Correlated Prophet Inequality",
+                  "doi": "10.4230/DagRep.15.3.159",
+                  "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+                  "location": "Section 4.2, model (2), printed pp.172–173",
+                  "role": "Primary source for the uniform finite-mixture stopping model.",
+                  "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "ran": false,
+                "reason": "The baseline factor has an elementary written proof; it was not separately implemented.",
+                "scripts": [],
+                "outputs": [],
+                "counts": {},
+                "compiled_formal_theorem": false
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q536-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+                  "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Not a universal constant when all three parameters grow.",
+            "No optimality claim for this factor."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q536-S1",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "Exact optimal value computation can be carried out in polynomial space by depth-first Bellman recursion with unnormalized masses; threshold comparison is in PSPACE and rational-value computation has an FPSPACE upper bound.",
+          "changed_assumptions": [
+            "Explicit rational inputs and unrestricted exponential running time."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q536/q536_research.md",
+              "location": "Section 3, General space upper bound",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q536-source",
+                  "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+                  "contribution_author": "Andrés Cristi",
+                  "contribution_title": "Hardness of Correlated Prophet Inequality",
+                  "doi": "10.4230/DagRep.15.3.159",
+                  "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+                  "location": "Section 4.2, model (2), printed pp.172–173",
+                  "role": "Primary source for the uniform finite-mixture stopping model.",
+                  "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "ran": false,
+                "reason": "No separate finite computation is claimed for this written result.",
+                "scripts": [],
+                "outputs": [],
+                "counts": {},
+                "compiled_formal_theorem": false
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q536-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+                  "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "No matching completeness classification is proved."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q536-A3",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For signed rewards in [a,b], applying the fixed-m FPTAS to X_i-a produces a policy with E[X_tau]>=OPT-epsilon*(OPT-a)>=OPT-epsilon*(b-a).",
+          "changed_assumptions": [
+            "Fixed m.",
+            "Signed-reward guarantee is additive after a known common shift, not multiplicative."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q536/q536_research.md",
+              "location": "Section 5 final display",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q536-source",
+                  "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+                  "contribution_author": "Andrés Cristi",
+                  "contribution_title": "Hardness of Correlated Prophet Inequality",
+                  "doi": "10.4230/DagRep.15.3.159",
+                  "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+                  "location": "Section 4.2, model (2), printed pp.172–173",
+                  "role": "Primary source for the uniform finite-mixture stopping model.",
+                  "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "ran": false,
+                "reason": "No separate finite computation is claimed for this written result.",
+                "scripts": [],
+                "outputs": [],
+                "counts": {},
+                "compiled_formal_theorem": false
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q536-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+                  "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q536-E1",
+          "status": "proved",
+          "relationship_to_canonical_question": "finite_specialization_and_information_gap",
+          "statement": "The explicit uniform m=2,n=4 signal instance with signals 0 or 1/4, safe reward 1, final reward 0 or 2, and Bernoulli signal parameters P=(3/4,1/4), Q=(1/4,3/4), has full-history optimum 5/4 and best arbitrary time-and-current-value-only payoff 1.",
+          "changed_assumptions": [
+            "One exact finite instance.",
+            "The comparator remembers only time and current reward."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q536/q536_research.md",
+              "location": "Section 6",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q536-source",
+                  "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+                  "contribution_author": "Andrés Cristi",
+                  "contribution_title": "Hardness of Correlated Prophet Inequality",
+                  "doi": "10.4230/DagRep.15.3.159",
+                  "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+                  "location": "Section 4.2, model (2), printed pp.172–173",
+                  "role": "Primary source for the uniform finite-mixture stopping model.",
+                  "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q536-main",
+                "ran": true,
+                "command": "python q536/verify_q536.py",
+                "scripts": [
+                  "q536/verify_q536.py"
+                ],
+                "inputs": [
+                  "q536/q536_inputs.json",
+                  "q536/q536_certificate.json: example conditional probabilities"
+                ],
+                "outputs": [
+                  "q536/q536_certificate.json"
+                ],
+                "arithmetic": "exact fractions.Fraction; no floating decisions",
+                "seed": 53620261007,
+                "counts": {
+                  "generated_FPTAS_instances": 16,
+                  "complete_reward_strings_per_instance": 243,
+                  "example_full_history_policies": 1024,
+                  "example_time_current_policies": 32,
+                  "probe_tie_conventions": 2,
+                  "probe_queries_per_convention": 9
+                },
+                "generator": "16 cases, n=5, k=3, m alternates 2 and 3; counts iid uniform integers0..4, all-zero row replaced by(1,0,0); rewards0,2,7; eps1/5 then1/10",
+                "minimum_achieved_FPTAS_ratio": "1917023/1917039",
+                "status": "All exact arithmetic checks passed.",
+                "scope": "Finite exact controls, not the source of the general hardness or approximation theorem."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q536-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+                  "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "No universal inference from the finite history gap."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false,
+          "exact_values": {
+            "full_history": "5/4",
+            "time_current_only": "1",
+            "TV": "1/2",
+            "relative_history_gain": "1/4"
+          }
+        }
+      ],
+      "source_subreports_and_ledgers": [
+        "q536/q536_research.md",
+        "q536/q536_ledger.json",
+        "cross_audit.md"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_published_resolution_claim": false
+    },
+    {
+      "programme": "B4",
+      "question": "Q540",
+      "question_number": 540,
+      "stable_statement_id": "6ffd1bba3a75f8698d0c",
+      "title": "Half-prophet utility under an unobserved additive common cause",
+      "exact_retained_statement": "Let Z,X_1,…,X_n be mutually independent nonnegative random variables with known bounded-support laws. Only Y_i=Z+X_i is revealed, sequentially in fixed order; neither Z nor any X_i is directly observed. Does every such instance admit a possibly randomized stopping rule τ∈{1,…,n}, adapted to the revealed Y-prefixes, satisfying E[Y_τ]≥(1/2)E[max_iY_i]? The rule may use the whole observation history and must accept a current value irrevocably, taking the last value if necessary. It is not restricted to one fixed threshold.",
+      "status": "partial",
+      "conclusion": "Support-band prophet guarantee, half-prophet subclass, binary exact polynomial algorithm, and exact history-gap certificate proved; unrestricted half-prophet statement remains unresolved.",
+      "changed_assumptions_at_canonical_scope": [],
+      "conditional_complexity_assumptions": [],
+      "prior_packet_status": {
+        "catalogue_exact_scope_closure_recorded": false,
+        "provenance": "Supplied handoff snapshot, 7 October 2026; prior catalogue not modified.",
+        "collector_notes_verbatim": [
+          "Status for question 540, checked 5 October 2026: Read latest listed arXiv v1 (10 July 2026), including the full observation model. Exact-title/common-base follow-up searches found no solution. Its 0.475 upper bound concerns the single-threshold-plus-last class ST*, not all adaptive policies. Its common-scale 1/n impossibility is a different, solved model."
+        ]
+      },
+      "results": [
+        {
+          "result_id": "B4-Q540-R1",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For every n>=1, 0<ell<=u, and integrable nonnegative Z independent of the full residue vector with X_i in {0} union [ell,u], one of the threshold-ell-with-last rule and the first-strict-rise-over-Y1-with-last rule attains gamma(u/ell) times the prophet, gamma(c)=3/[c+1+2 sqrt(c*c-c+1)]. Thus the half guarantee holds if u/ell<=2 sqrt(2)-1, and shared binary residues {0,d} admit 3/4.",
+          "changed_assumptions": [
+            "Residual supports share a zero-or-positive band.",
+            "Only independence of Z from the whole residue vector is needed; residual coordinates may be dependent.",
+            "Integrability of Z suffices instead of bounded support."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q540/Q540_report.md",
+              "location": "Theorem 1 and Corollaries 1a–1c",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q540-source",
+                  "title": "Threshold Dynamics and Correlated Prophet Inequalities",
+                  "authors": [
+                    "José Correa",
+                    "Maximilian Fichtl",
+                    "Reda Jlibene",
+                    "Rida Laraki",
+                    "Vasilis Livanos",
+                    "Kevin Schewior",
+                    "Victor Verdugo"
+                  ],
+                  "identifier": "arXiv:2607.09887v1",
+                  "version_date": "2026-07-10",
+                  "url": "https://arxiv.org/html/2607.09887v1",
+                  "locations": [
+                    "Section 1.1",
+                    "Section 3, Proposition 5"
+                  ],
+                  "role": "Primary-source common-base observation model and distinction between adaptive stopping and single-threshold-with-last guarantees.",
+                  "access_evidence": "The investigating agent obtained indexed primary text but its direct opens failed. Root subsequently retrieved the full versioned HTML at https://arxiv.org/html/2607.09887v1 and checked the observation model and Proposition 5. No new publication-priority or exhaustive follow-up-status claim is made."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q540-main",
+                "ran": true,
+                "command": "python q540/exact_common_cause.py",
+                "scripts": [
+                  "q540/exact_common_cause.py"
+                ],
+                "inputs": [
+                  "q540/tiny_input.json"
+                ],
+                "outputs": [
+                  "q540/tiny_certificate.json",
+                  "q540/all_history_policies.csv",
+                  "q540/run_output.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 540,
+                "counts": {
+                  "raw_worlds": 16,
+                  "observation_nodes": 25,
+                  "exhaustive_full_history_policies": 1024,
+                  "exhaustive_time_current_policies": 64,
+                  "time_threshold_combinations": 16,
+                  "fixed_threshold_classes": 4,
+                  "additional_binary_formula_controls": 70
+                },
+                "generator": {
+                  "case_count": 70,
+                  "n_values": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "seed": 540,
+                  "probability_grid": "j/8, j=0,...,8",
+                  "z_support": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "z_weight_generator": "four independent integers 1,...,8, normalized",
+                  "checks": "general posterior DP = binary formula = independent world evaluation; 3/4 guarantee",
+                  "all_passed": true,
+                  "evidence": "finite exact-arithmetic controls; theorem is proved separately"
+                },
+                "status": "All exact assertions passed.",
+                "scope": "The gamma(c) inequality has a written proof; these additional numerical controls exercise only its binary c=1 subclass and the binary formula."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q540-independent",
+                  "path": "q540/audit_support_band.md",
+                  "scope": "Support-band gamma(c) proof, binary and half-prophet corollaries, observation legality, and additional inspection of binary deadline formula.",
+                  "finding": "No defect found in the written derivations; no claim for unrestricted residue supports.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "The general Q540 half guarantee is not proved.",
+            "Finite controls test binary c=1 cases; the continuous-band theorem is justified by the written proof.",
+            "For common {a,b}, subtracting a gives E[Y_tau]>=3/4 E[max Y]+a/4."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q540-R2",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For independent residues on the same rational alphabet {a,b}, a<b, and independent Z with m explicit rational support points, equation (6) computes the exact optimal value and an efficient online policy with O(n*m) rational operations and polynomial input bit complexity. The policy keeps a first-observation deadline until the first change identifies Z.",
+          "changed_assumptions": [
+            "All residues have a common two-point alphabet.",
+            "Explicit finite rational encoding for the algorithmic claim."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q540/Q540_report.md",
+              "location": "Theorem 2",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q540-source",
+                  "title": "Threshold Dynamics and Correlated Prophet Inequalities",
+                  "authors": [
+                    "José Correa",
+                    "Maximilian Fichtl",
+                    "Reda Jlibene",
+                    "Rida Laraki",
+                    "Vasilis Livanos",
+                    "Kevin Schewior",
+                    "Victor Verdugo"
+                  ],
+                  "identifier": "arXiv:2607.09887v1",
+                  "version_date": "2026-07-10",
+                  "url": "https://arxiv.org/html/2607.09887v1",
+                  "locations": [
+                    "Section 1.1",
+                    "Section 3, Proposition 5"
+                  ],
+                  "role": "Primary-source common-base observation model and distinction between adaptive stopping and single-threshold-with-last guarantees.",
+                  "access_evidence": "The investigating agent obtained indexed primary text but its direct opens failed. Root subsequently retrieved the full versioned HTML at https://arxiv.org/html/2607.09887v1 and checked the observation model and Proposition 5. No new publication-priority or exhaustive follow-up-status claim is made."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q540-main",
+                "ran": true,
+                "command": "python q540/exact_common_cause.py",
+                "scripts": [
+                  "q540/exact_common_cause.py"
+                ],
+                "inputs": [
+                  "q540/tiny_input.json"
+                ],
+                "outputs": [
+                  "q540/tiny_certificate.json",
+                  "q540/all_history_policies.csv",
+                  "q540/run_output.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 540,
+                "counts": {
+                  "raw_worlds": 16,
+                  "observation_nodes": 25,
+                  "exhaustive_full_history_policies": 1024,
+                  "exhaustive_time_current_policies": 64,
+                  "time_threshold_combinations": 16,
+                  "fixed_threshold_classes": 4,
+                  "additional_binary_formula_controls": 70
+                },
+                "generator": {
+                  "case_count": 70,
+                  "n_values": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "seed": 540,
+                  "probability_grid": "j/8, j=0,...,8",
+                  "z_support": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "z_weight_generator": "four independent integers 1,...,8, normalized",
+                  "checks": "general posterior DP = binary formula = independent world evaluation; 3/4 guarantee",
+                  "all_passed": true,
+                  "evidence": "finite exact-arithmetic controls; theorem is proved separately"
+                },
+                "status": "All exact assertions passed.",
+                "scope": "The gamma(c) inequality has a written proof; these additional numerical controls exercise only its binary c=1 subclass and the binary formula."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q540-independent",
+                  "path": "q540/audit_support_band.md",
+                  "scope": "Support-band gamma(c) proof, binary and half-prophet corollaries, observation legality, and additional inspection of binary deadline formula.",
+                  "finding": "No defect found in the written derivations; no claim for unrestricted residue supports.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "No polynomial-time claim for three or more residual levels or arbitrary bounded support."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q540-R3",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For every finite rational common-base instance, unnormalized posterior weights w_h(z)=Pr(Z=z)*product_j Pr(X_j=y_j-z) and the Bellman recurrence compute an exact deterministic optimal stopping policy.",
+          "changed_assumptions": [
+            "Finite rational supports for exact executable arithmetic."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q540/Q540_report.md",
+              "location": "Section 5",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q540-source",
+                  "title": "Threshold Dynamics and Correlated Prophet Inequalities",
+                  "authors": [
+                    "José Correa",
+                    "Maximilian Fichtl",
+                    "Reda Jlibene",
+                    "Rida Laraki",
+                    "Vasilis Livanos",
+                    "Kevin Schewior",
+                    "Victor Verdugo"
+                  ],
+                  "identifier": "arXiv:2607.09887v1",
+                  "version_date": "2026-07-10",
+                  "url": "https://arxiv.org/html/2607.09887v1",
+                  "locations": [
+                    "Section 1.1",
+                    "Section 3, Proposition 5"
+                  ],
+                  "role": "Primary-source common-base observation model and distinction between adaptive stopping and single-threshold-with-last guarantees.",
+                  "access_evidence": "The investigating agent obtained indexed primary text but its direct opens failed. Root subsequently retrieved the full versioned HTML at https://arxiv.org/html/2607.09887v1 and checked the observation model and Proposition 5. No new publication-priority or exhaustive follow-up-status claim is made."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q540-main",
+                "ran": true,
+                "command": "python q540/exact_common_cause.py",
+                "scripts": [
+                  "q540/exact_common_cause.py"
+                ],
+                "inputs": [
+                  "q540/tiny_input.json"
+                ],
+                "outputs": [
+                  "q540/tiny_certificate.json",
+                  "q540/all_history_policies.csv",
+                  "q540/run_output.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 540,
+                "counts": {
+                  "raw_worlds": 16,
+                  "observation_nodes": 25,
+                  "exhaustive_full_history_policies": 1024,
+                  "exhaustive_time_current_policies": 64,
+                  "time_threshold_combinations": 16,
+                  "fixed_threshold_classes": 4,
+                  "additional_binary_formula_controls": 70
+                },
+                "generator": {
+                  "case_count": 70,
+                  "n_values": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "seed": 540,
+                  "probability_grid": "j/8, j=0,...,8",
+                  "z_support": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "z_weight_generator": "four independent integers 1,...,8, normalized",
+                  "checks": "general posterior DP = binary formula = independent world evaluation; 3/4 guarantee",
+                  "all_passed": true,
+                  "evidence": "finite exact-arithmetic controls; theorem is proved separately"
+                },
+                "status": "All exact assertions passed.",
+                "scope": "The gamma(c) inequality has a written proof; these additional numerical controls exercise only its binary c=1 subclass and the binary formula."
+              }
+            ],
+            "independent_audits": {
+              "performed": false,
+              "reports": []
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "The observation tree can be exponential; compact posterior storage alone gives no polynomial synthesis bound."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q540-E1",
+          "status": "proved",
+          "relationship_to_canonical_question": "finite_specialization_and_information_gap",
+          "statement": "For independent Bernoulli variables with success probabilities Z=3/8, X1=1/8, X2=1/4, X3=3/8, the full-history optimum is 469/512, the best arbitrary time/current-only payoff is 107/128, the best fixed threshold with last acceptance yields 1701/2048, and the prophet is 247/256. At current value 1, history (0,1) strictly requires stop while (1,1) strictly requires continue.",
+          "changed_assumptions": [
+            "One exact n=3 finite-support instance.",
+            "Time/current-only and fixed-threshold comparators are restricted policy classes."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q540/Q540_report.md",
+              "location": "Sections 4–6",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q540-source",
+                  "title": "Threshold Dynamics and Correlated Prophet Inequalities",
+                  "authors": [
+                    "José Correa",
+                    "Maximilian Fichtl",
+                    "Reda Jlibene",
+                    "Rida Laraki",
+                    "Vasilis Livanos",
+                    "Kevin Schewior",
+                    "Victor Verdugo"
+                  ],
+                  "identifier": "arXiv:2607.09887v1",
+                  "version_date": "2026-07-10",
+                  "url": "https://arxiv.org/html/2607.09887v1",
+                  "locations": [
+                    "Section 1.1",
+                    "Section 3, Proposition 5"
+                  ],
+                  "role": "Primary-source common-base observation model and distinction between adaptive stopping and single-threshold-with-last guarantees.",
+                  "access_evidence": "The investigating agent obtained indexed primary text but its direct opens failed. Root subsequently retrieved the full versioned HTML at https://arxiv.org/html/2607.09887v1 and checked the observation model and Proposition 5. No new publication-priority or exhaustive follow-up-status claim is made."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q540-main",
+                "ran": true,
+                "command": "python q540/exact_common_cause.py",
+                "scripts": [
+                  "q540/exact_common_cause.py"
+                ],
+                "inputs": [
+                  "q540/tiny_input.json"
+                ],
+                "outputs": [
+                  "q540/tiny_certificate.json",
+                  "q540/all_history_policies.csv",
+                  "q540/run_output.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 540,
+                "counts": {
+                  "raw_worlds": 16,
+                  "observation_nodes": 25,
+                  "exhaustive_full_history_policies": 1024,
+                  "exhaustive_time_current_policies": 64,
+                  "time_threshold_combinations": 16,
+                  "fixed_threshold_classes": 4,
+                  "additional_binary_formula_controls": 70
+                },
+                "generator": {
+                  "case_count": 70,
+                  "n_values": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "seed": 540,
+                  "probability_grid": "j/8, j=0,...,8",
+                  "z_support": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "z_weight_generator": "four independent integers 1,...,8, normalized",
+                  "checks": "general posterior DP = binary formula = independent world evaluation; 3/4 guarantee",
+                  "all_passed": true,
+                  "evidence": "finite exact-arithmetic controls; theorem is proved separately"
+                },
+                "status": "All exact assertions passed.",
+                "scope": "The gamma(c) inequality has a written proof; these additional numerical controls exercise only its binary c=1 subclass and the binary formula."
+              },
+              {
+                "run_id": "Q540-exploration",
+                "ran": true,
+                "command": "python q540/search_binary.py",
+                "scripts": [
+                  "q540/search_binary.py"
+                ],
+                "inputs": [
+                  "q540/search_binary.py: Bernoulli parameter domain"
+                ],
+                "outputs": [
+                  "q540/search_binary_output.json"
+                ],
+                "arithmetic": "floating NumPy/SciPy exploration",
+                "seed": 540,
+                "counts": {
+                  "grid_instances": 2401,
+                  "optimizer_maxiter": 100,
+                  "optimizer_population_multiplier": 12,
+                  "optimizer_function_evaluations": 4913
+                },
+                "optimizer_reported_success": false,
+                "scope": "Exploratory fixture selection only; no certified global minimum or maximum and no universal inference."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q540-independent",
+                  "path": "q540/audit_support_band.md",
+                  "scope": "Support-band gamma(c) proof, binary and half-prophet corollaries, observation legality, and additional inspection of binary deadline formula.",
+                  "finding": "No defect found in the written derivations; no claim for unrestricted residue supports.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Neither a universal counterexample nor an extremal ratio is established.",
+            "Floating search hit its optimizer iteration limit; only the rational fixture is certified."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false,
+          "exact_values": {
+            "full_history": "469/512",
+            "time_current_only": "107/128",
+            "time_threshold": "107/128",
+            "fixed_threshold": "1701/2048",
+            "prophet": "247/256",
+            "ratio_to_prophet": "469/494",
+            "relative_gain_over_fixed": "25/243",
+            "relative_gain_over_time_current": "41/428"
+          }
+        }
+      ],
+      "source_subreports_and_ledgers": [
+        "q540/Q540_report.md",
+        "q540/Q540_ledger.json",
+        "q540/audit_support_band.md"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_published_resolution_claim": false
+    },
+    {
+      "programme": "B4",
+      "question": "Q541",
+      "question_number": 541,
+      "stable_statement_id": "5eb5c8b65ab784bcfab0",
+      "title": "Exact complexity of finite coupon-collection query scheduling",
+      "exact_retained_statement": "There are n independent dice with known rational outcome probabilities on d colors, each usable once. Choose a permutation before observing outcomes; reveal dice in that order until every color has appeared or all n dice have been revealed. Minimize the expected number of reveals. What is the exact computational complexity of finding an optimal permutation: is there a polynomial-time algorithm in the explicit n×d probability input and its bit length, or is the optimization NP-hard? The prescribed rule keeps revealing if collecting every color has become impossible, until all dice are exhausted.",
+      "status": "proved",
+      "conclusion": "Exact optimal-order synthesis is #P-hard under polynomial-time Turing reductions, even n=d+1 with all probabilities positive; restricted n=d+1 search is Turing equivalent to permanent.",
+      "changed_assumptions_at_canonical_scope": [],
+      "conditional_complexity_assumptions": [
+        "Exact deterministic polynomial order synthesis would imply every #P function is in FP and hence P=NP.",
+        "The hardness classification is under polynomial-time Turing reductions."
+      ],
+      "prior_packet_status": {
+        "catalogue_exact_scope_closure_recorded": false,
+        "provenance": "Supplied handoff snapshot, 7 October 2026; prior catalogue not modified.",
+        "collector_notes_verbatim": [
+          "Status for question 541, checked 5 October 2026: Read the full 29 September 2026 preprint, including its exact stopping convention, theorem and open questions. Exact-title/finite-coupon follow-up searches through 5 October 2026 found no resolution in the six-day window. This is recent preprint evidence, not a peer-reviewed claim."
+        ]
+      },
+      "results": [
+        {
+          "result_id": "B4-Q541-R1",
+          "status": "proved",
+          "relationship_to_canonical_question": "exact_search_hardness_resolution",
+          "statement": "Computing any optimal precommitted permutation for finite coupon collection is #P-hard under polynomial-time Turing reductions, already for n=d+1. An arbitrary optimal-order oracle computes the permanent of every 0/1 matrix by reading only the returned last die in strict half-integer comparisons.",
+          "changed_assumptions": [
+            "No relaxation of the target; hardness holds on the stronger restriction n=d+1."
+          ],
+          "conditional_complexity_assumptions": [
+            "No deterministic polynomial-time exact-order algorithm unless every #P function is in FP (conventionally FP=#P), implying P=NP.",
+            "External Valiant permanent completeness theorem used."
+          ],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q541/report.md",
+              "location": "Sections 2–5",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [
+              {
+                "source_id": "permanent-hardness",
+                "title": "The complexity of computing the permanent",
+                "authors": [
+                  "L. G. Valiant"
+                ],
+                "year": 1979,
+                "journal": "Theoretical Computer Science 8(2), 189–201",
+                "doi": "10.1016/0304-3975(79)90044-6",
+                "url": "https://www.cs.bu.edu/faculty/gacs/courses/cs535/papers/Valiant_permanent.pdf",
+                "location": "Theorem 1, printed p.194",
+                "role": "External #P-completeness of 0/1 permanent under polynomial-time oracle reductions.",
+                "access_evidence": "Primary theorem inspected as reported in q541; not reproved or formally compiled here."
+              }
+            ],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q541-source",
+                  "title": "On Extensions of the Unanimous Vote Problem",
+                  "authors": [
+                    "Evan J. R. Brody",
+                    "Haya Diwan",
+                    "Lisa Hellerstein",
+                    "Thomas Lidbetter"
+                  ],
+                  "identifier": "arXiv:2609.36508v1",
+                  "version_date": "2026-09-29",
+                  "url": "https://arxiv.org/html/2609.36508",
+                  "locations": [
+                    "Section 4, Definition 7 and Theorem 7",
+                    "Section 6, printed p.11"
+                  ],
+                  "role": "Primary source for forced-exhaustion finite coupon collection and its earlier open complexity question.",
+                  "access_evidence": "Primary-source inspection recorded in q541/statement_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q541-main",
+                "ran": true,
+                "command": "python q541/verify_q541.py",
+                "scripts": [
+                  "q541/verify_q541.py"
+                ],
+                "inputs": [
+                  "q541/verify_q541.py: exhaustive and seeded generators",
+                  "q541/verification.json: worked and general inputs"
+                ],
+                "outputs": [
+                  "q541/verification.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 541,
+                "counts": {
+                  "all_01_matrices_dimensions_1_to_3": 530,
+                  "half_integer_comparison_constructions": 1752,
+                  "recursive_counting_calls_exhaustive": 976,
+                  "seeded_matrices_dimension_4": 64,
+                  "seeded_matrices_dimension_5": 32,
+                  "seeded_matrices_dimension_6": 8,
+                  "strictly_positive_oracle_calls": 804,
+                  "complete_outcome_and_order_controls": 432,
+                  "general_instance_permutations": 120,
+                  "adjacent_exchange_checks": 480
+                },
+                "status": "Zero reported errors; all exact assertions passed.",
+                "scope": "Finite controls of the implementation and reduction; source theorem and general written reduction establish hardness."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q541-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q541 last-die extraction, matched-minor counting recursion, polynomial encoding, ties, positivity smoothing, and restricted oracle upper bound.",
+                  "finding": "No substantive flaw found; Turing-hardness, not many-one completeness or strong hardness.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Polynomial-time Turing reductions; no many-one threshold-language completeness claim.",
+            "No strong hardness or fixed-d classification."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q541-R2",
+          "status": "proved",
+          "relationship_to_canonical_question": "strengthening_of_exact_search_hardness",
+          "statement": "The R1 counting-hardness reduction remains valid when every die-color probability is strictly positive: mixing each die with uniform mass eta=1/(16*d*D^2) preserves the unique optimal last die at every half-integer probe and has polynomial binary encoding.",
+          "changed_assumptions": [
+            "Stronger restriction: all probabilities positive; they may be exponentially small numerically."
+          ],
+          "conditional_complexity_assumptions": [
+            "Same deterministic complexity consequence as R1."
+          ],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q541/report.md",
+              "location": "Section 6",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [
+              {
+                "source_id": "permanent-hardness",
+                "title": "The complexity of computing the permanent",
+                "authors": [
+                  "L. G. Valiant"
+                ],
+                "year": 1979,
+                "journal": "Theoretical Computer Science 8(2), 189–201",
+                "doi": "10.1016/0304-3975(79)90044-6",
+                "url": "https://www.cs.bu.edu/faculty/gacs/courses/cs535/papers/Valiant_permanent.pdf",
+                "location": "Theorem 1, printed p.194",
+                "role": "External #P-completeness of 0/1 permanent under polynomial-time oracle reductions.",
+                "access_evidence": "Primary theorem inspected as reported in q541; not reproved or formally compiled here."
+              }
+            ],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q541-source",
+                  "title": "On Extensions of the Unanimous Vote Problem",
+                  "authors": [
+                    "Evan J. R. Brody",
+                    "Haya Diwan",
+                    "Lisa Hellerstein",
+                    "Thomas Lidbetter"
+                  ],
+                  "identifier": "arXiv:2609.36508v1",
+                  "version_date": "2026-09-29",
+                  "url": "https://arxiv.org/html/2609.36508",
+                  "locations": [
+                    "Section 4, Definition 7 and Theorem 7",
+                    "Section 6, printed p.11"
+                  ],
+                  "role": "Primary source for forced-exhaustion finite coupon collection and its earlier open complexity question.",
+                  "access_evidence": "Primary-source inspection recorded in q541/statement_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q541-main",
+                "ran": true,
+                "command": "python q541/verify_q541.py",
+                "scripts": [
+                  "q541/verify_q541.py"
+                ],
+                "inputs": [
+                  "q541/verify_q541.py: exhaustive and seeded generators",
+                  "q541/verification.json: worked and general inputs"
+                ],
+                "outputs": [
+                  "q541/verification.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 541,
+                "counts": {
+                  "all_01_matrices_dimensions_1_to_3": 530,
+                  "half_integer_comparison_constructions": 1752,
+                  "recursive_counting_calls_exhaustive": 976,
+                  "seeded_matrices_dimension_4": 64,
+                  "seeded_matrices_dimension_5": 32,
+                  "seeded_matrices_dimension_6": 8,
+                  "strictly_positive_oracle_calls": 804,
+                  "complete_outcome_and_order_controls": 432,
+                  "general_instance_permutations": 120,
+                  "adjacent_exchange_checks": 480
+                },
+                "status": "Zero reported errors; all exact assertions passed.",
+                "scope": "Finite controls of the implementation and reduction; source theorem and general written reduction establish hardness."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q541-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q541 last-die extraction, matched-minor counting recursion, polynomial encoding, ties, positivity smoothing, and restricted oracle upper bound.",
+                  "finding": "No substantive flaw found; Turing-hardness, not many-one completeness or strong hardness.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "No inverse-polynomial lower bound on positive probabilities is promised."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q541-R3",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "On n=d+1 inputs, optimal-order synthesis belongs to FP^#P and is polynomial-time Turing equivalent to computing 0/1 permanent. Rational permanents of the n possible omitted-last-die submatrices suffice for the upper reduction.",
+          "changed_assumptions": [
+            "The oracle upper bound is restricted to n=d+1."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q541/report.md",
+              "location": "Section 7",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [
+              {
+                "source_id": "permanent-hardness",
+                "title": "The complexity of computing the permanent",
+                "authors": [
+                  "L. G. Valiant"
+                ],
+                "year": 1979,
+                "journal": "Theoretical Computer Science 8(2), 189–201",
+                "doi": "10.1016/0304-3975(79)90044-6",
+                "url": "https://www.cs.bu.edu/faculty/gacs/courses/cs535/papers/Valiant_permanent.pdf",
+                "location": "Theorem 1, printed p.194",
+                "role": "External #P-completeness of 0/1 permanent under polynomial-time oracle reductions.",
+                "access_evidence": "Primary theorem inspected as reported in q541; not reproved or formally compiled here."
+              }
+            ],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q541-source",
+                  "title": "On Extensions of the Unanimous Vote Problem",
+                  "authors": [
+                    "Evan J. R. Brody",
+                    "Haya Diwan",
+                    "Lisa Hellerstein",
+                    "Thomas Lidbetter"
+                  ],
+                  "identifier": "arXiv:2609.36508v1",
+                  "version_date": "2026-09-29",
+                  "url": "https://arxiv.org/html/2609.36508",
+                  "locations": [
+                    "Section 4, Definition 7 and Theorem 7",
+                    "Section 6, printed p.11"
+                  ],
+                  "role": "Primary source for forced-exhaustion finite coupon collection and its earlier open complexity question.",
+                  "access_evidence": "Primary-source inspection recorded in q541/statement_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q541-main",
+                "ran": true,
+                "command": "python q541/verify_q541.py",
+                "scripts": [
+                  "q541/verify_q541.py"
+                ],
+                "inputs": [
+                  "q541/verify_q541.py: exhaustive and seeded generators",
+                  "q541/verification.json: worked and general inputs"
+                ],
+                "outputs": [
+                  "q541/verification.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 541,
+                "counts": {
+                  "all_01_matrices_dimensions_1_to_3": 530,
+                  "half_integer_comparison_constructions": 1752,
+                  "recursive_counting_calls_exhaustive": 976,
+                  "seeded_matrices_dimension_4": 64,
+                  "seeded_matrices_dimension_5": 32,
+                  "seeded_matrices_dimension_6": 8,
+                  "strictly_positive_oracle_calls": 804,
+                  "complete_outcome_and_order_controls": 432,
+                  "general_instance_permutations": 120,
+                  "adjacent_exchange_checks": 480
+                },
+                "status": "Zero reported errors; all exact assertions passed.",
+                "scope": "Finite controls of the implementation and reduction; source theorem and general written reduction establish hardness."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q541-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q541 last-die extraction, matched-minor counting recursion, polynomial encoding, ties, positivity smoothing, and restricted oracle upper bound.",
+                  "finding": "No substantive flaw found; Turing-hardness, not many-one completeness or strong hardness.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "No matching oracle upper classification for unrestricted n,d is claimed."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q541-R4",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For arbitrary finite rational input, inclusion-exclusion computes coverage probabilities q(S), and F(S)=min_i[F(S without i)+1-q(S without i)] gives an exact optimal order. Adjacent exchange costs equal q(S union b)-q(S union a).",
+          "changed_assumptions": [],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q541/report.md",
+              "location": "Section 8",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q541-source",
+                  "title": "On Extensions of the Unanimous Vote Problem",
+                  "authors": [
+                    "Evan J. R. Brody",
+                    "Haya Diwan",
+                    "Lisa Hellerstein",
+                    "Thomas Lidbetter"
+                  ],
+                  "identifier": "arXiv:2609.36508v1",
+                  "version_date": "2026-09-29",
+                  "url": "https://arxiv.org/html/2609.36508",
+                  "locations": [
+                    "Section 4, Definition 7 and Theorem 7",
+                    "Section 6, printed p.11"
+                  ],
+                  "role": "Primary source for forced-exhaustion finite coupon collection and its earlier open complexity question.",
+                  "access_evidence": "Primary-source inspection recorded in q541/statement_ledger.json."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q541-main",
+                "ran": true,
+                "command": "python q541/verify_q541.py",
+                "scripts": [
+                  "q541/verify_q541.py"
+                ],
+                "inputs": [
+                  "q541/verify_q541.py: exhaustive and seeded generators",
+                  "q541/verification.json: worked and general inputs"
+                ],
+                "outputs": [
+                  "q541/verification.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "seed": 541,
+                "counts": {
+                  "all_01_matrices_dimensions_1_to_3": 530,
+                  "half_integer_comparison_constructions": 1752,
+                  "recursive_counting_calls_exhaustive": 976,
+                  "seeded_matrices_dimension_4": 64,
+                  "seeded_matrices_dimension_5": 32,
+                  "seeded_matrices_dimension_6": 8,
+                  "strictly_positive_oracle_calls": 804,
+                  "complete_outcome_and_order_controls": 432,
+                  "general_instance_permutations": 120,
+                  "adjacent_exchange_checks": 480
+                },
+                "status": "Zero reported errors; all exact assertions passed.",
+                "scope": "Finite controls of the implementation and reduction; source theorem and general written reduction establish hardness."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q541-independent",
+                  "path": "cross_audit.md",
+                  "scope": "Q541 last-die extraction, matched-minor counting recursion, polynomial encoding, ties, positivity smoothing, and restricted oracle upper bound.",
+                  "finding": "No substantive flaw found; Turing-hardness, not many-one completeness or strong hardness.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Exponential exact algorithm, not polynomial-time synthesis."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false,
+          "complexity": "O(2^(n+d)+n*d*2^d+n*2^n) rational operations; if d>n every order costs n."
+        }
+      ],
+      "source_subreports_and_ledgers": [
+        "q541/report.md",
+        "q541/statement_ledger.json",
+        "cross_audit.md"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_published_resolution_claim": false,
+      "status_interpretation": "proved refers to the requested intractability alternative via a fully specified Turing counting-hardness theorem; no many-one completeness classification is asserted."
+    },
+    {
+      "programme": "B4",
+      "question": "Q767",
+      "question_number": 767,
+      "stable_statement_id": "95579efa54844e655376",
+      "title": "Constant approximation for search under a latent mixture",
+      "exact_retained_statement": "A known finite latent state S makes nonnegative box values conditionally independent. Opening unused box i costs c_i and reveals its value; S stays hidden. Is a universal constant approximation to E[opening costs+minimum opened value] computable in polynomial time, including online decisions, for explicit rational finite-support mixtures without a separation promise? At least one box must be opened.",
+      "status": "partial",
+      "conclusion": "Exact posterior recurrence, unbounded fixed-order adaptivity gap, and fixed-scenario/fixed-type FPTAS proved; unrestricted universal constant approximation remains unresolved.",
+      "changed_assumptions_at_canonical_scope": [],
+      "conditional_complexity_assumptions": [],
+      "prior_packet_status": {
+        "catalogue_exact_scope_closure_recorded": false,
+        "provenance": "Supplied handoff snapshot, 7 October 2026; prior catalogue not modified.",
+        "collector_notes_verbatim": [
+          "Status for question 767, checked 5 October 2026: Later constant-factor results require separation or a weaker benchmark; no general polynomial-time resolution located."
+        ]
+      },
+      "results": [
+        {
+          "result_id": "B4-Q767-R1",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "The posterior dynamic programme J(U,b,w)=min{b*sum(w), min_i[c_i*sum(w)+sum_v J(U without i,min(b,v),w^v)]}, with stopping omitted before the first opening, exactly optimizes explicit finite rational latent product mixtures without revealing the scenario.",
+          "changed_assumptions": [
+            "No model relaxation; explicit finite rational inputs retained."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q767/report.md",
+              "location": "Section 1",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q767-source",
+                  "title": "Combinatorial Optimization Under Uncertainty: Probing and Stopping-Time Algorithms",
+                  "authors": [
+                    "Sahil Singla"
+                  ],
+                  "year": 2018,
+                  "type": "doctoral dissertation",
+                  "url": "https://faculty.cc.gatech.edu/~ssingla7/papers/thesis_Sahil.pdf",
+                  "location": "Question 13.3.1, printed p.197 / PDF p.211",
+                  "role": "Primary hidden-state search objective and source question.",
+                  "access_evidence": "Compared in q767/report.md."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q767-main",
+                "ran": true,
+                "command": "python q767/verify.py",
+                "scripts": [
+                  "q767/verify.py"
+                ],
+                "inputs": [
+                  "q767/results.json: diagnostic families and noisy repeated-type input"
+                ],
+                "outputs": [
+                  "q767/results.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "random_sampling": false,
+                "counts": {
+                  "diagnostic_family_instances": 3,
+                  "all_orders_by_scenarios": {
+                    "2": 6,
+                    "3": 24,
+                    "4": 120
+                  },
+                  "total_enumerated_fixed_orders": 150,
+                  "noisy_repeated_type_instances": 1,
+                  "FPTAS_epsilon_runs": 3,
+                  "zero_optimum_control": 1
+                },
+                "FPTAS_epsilons": [
+                  "1/2",
+                  "1/5",
+                  "1/10"
+                ],
+                "noisy_true_optimum": "4871/5880",
+                "status": "passed",
+                "scope": "Exact finite objective and policy controls; not an unrestricted approximation theorem."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q767-independent",
+                  "path": "q767/audit.md",
+                  "scope": "Exact posterior recurrence, diagnostic adaptivity gap, opening-cost treatment under rounding, fixed scenario/type FPTAS, online output and arithmetic bit bounds.",
+                  "finding": "No substantive correction required. Fixed m and fixed number of types are material restrictions.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "The unused subset and belief branches may give exponential complexity."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        },
+        {
+          "result_id": "B4-Q767-R2",
+          "status": "proved",
+          "relationship_to_canonical_question": "adaptivity_gap_not_adaptive_inapproximability",
+          "statement": "For every m>=2, a uniform deterministic-scenario mixture with m unit-cost target boxes and a diagnostic box of cost 1/4 has fully adaptive optimum 5/4 and best fixed-order-with-adaptive-stopping objective (m+1)/2. The ratio 2(m+1)/5 is unbounded.",
+          "changed_assumptions": [
+            "An explicit conditionally deterministic subclass, which is still conditionally independent.",
+            "Fixed-order comparator cannot reorder or skip earlier unopened positions."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q767/report.md",
+              "location": "Section 2",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q767-source",
+                  "title": "Combinatorial Optimization Under Uncertainty: Probing and Stopping-Time Algorithms",
+                  "authors": [
+                    "Sahil Singla"
+                  ],
+                  "year": 2018,
+                  "type": "doctoral dissertation",
+                  "url": "https://faculty.cc.gatech.edu/~ssingla7/papers/thesis_Sahil.pdf",
+                  "location": "Question 13.3.1, printed p.197 / PDF p.211",
+                  "role": "Primary hidden-state search objective and source question.",
+                  "access_evidence": "Compared in q767/report.md."
+                },
+                {
+                  "source_id": "Q767-fixed-order-comparator",
+                  "authors": [
+                    "Bansal",
+                    "Huang",
+                    "Zhu"
+                  ],
+                  "identifier": "arXiv:2509.17029v2",
+                  "version_date": "2025-10-10",
+                  "url": "https://arxiv.org/html/2509.17029v2",
+                  "location": "Section 2.2",
+                  "role": "Partially adaptive fixed-order comparator, distinguished from the fully adaptive target.",
+                  "access_evidence": "Compared in q767/report.md; author surnames are preserved exactly as supplied in the report citation."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q767-main",
+                "ran": true,
+                "command": "python q767/verify.py",
+                "scripts": [
+                  "q767/verify.py"
+                ],
+                "inputs": [
+                  "q767/results.json: diagnostic families and noisy repeated-type input"
+                ],
+                "outputs": [
+                  "q767/results.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "random_sampling": false,
+                "counts": {
+                  "diagnostic_family_instances": 3,
+                  "all_orders_by_scenarios": {
+                    "2": 6,
+                    "3": 24,
+                    "4": 120
+                  },
+                  "total_enumerated_fixed_orders": 150,
+                  "noisy_repeated_type_instances": 1,
+                  "FPTAS_epsilon_runs": 3,
+                  "zero_optimum_control": 1
+                },
+                "FPTAS_epsilons": [
+                  "1/2",
+                  "1/5",
+                  "1/10"
+                ],
+                "noisy_true_optimum": "4871/5880",
+                "status": "passed",
+                "scope": "Exact finite objective and policy controls; not an unrestricted approximation theorem."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q767-independent",
+                  "path": "q767/audit.md",
+                  "scope": "Exact posterior recurrence, diagnostic adaptivity gap, opening-cost treatment under rounding, fixed scenario/type FPTAS, online output and arithmetic bit bounds.",
+                  "finding": "No substantive correction required. Fixed m and fixed number of types are material restrictions.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Does not prove computational hardness of approximation against fully adaptive OPT."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false,
+          "exact_m3_values": {
+            "fully_adaptive": "5/4",
+            "fixed_order": "2",
+            "absolute_gap": "3/4"
+          }
+        },
+        {
+          "result_id": "B4-Q767-R3",
+          "status": "proved",
+          "relationship_to_canonical_question": "partial_result",
+          "statement": "For each fixed number m of latent scenarios and fixed number d of interchangeable box types, explicit nonnegative rational search instances admit an FPTAS with J(policy)<=(1+epsilon)*OPT for 0<epsilon<=1, including OPT=0. Policy construction and each online decision are polynomial in explicit n,k,input bit length,1/epsilon, with at most (n+1)^d*(k+1)*(nD+2)^m states and D=O(nB/epsilon).",
+          "changed_assumptions": [
+            "Both m and the number d of interchangeable types are fixed.",
+            "n is the explicit number of boxes, not exponentially large binary multiplicities.",
+            "Nonnegative costs and values."
+          ],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": true,
+              "path": "q767/report.md",
+              "location": "Section 3",
+              "description": "Complete written mathematical argument at the stated location.",
+              "peer_reviewed": false
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q767-source",
+                  "title": "Combinatorial Optimization Under Uncertainty: Probing and Stopping-Time Algorithms",
+                  "authors": [
+                    "Sahil Singla"
+                  ],
+                  "year": 2018,
+                  "type": "doctoral dissertation",
+                  "url": "https://faculty.cc.gatech.edu/~ssingla7/papers/thesis_Sahil.pdf",
+                  "location": "Question 13.3.1, printed p.197 / PDF p.211",
+                  "role": "Primary hidden-state search objective and source question.",
+                  "access_evidence": "Compared in q767/report.md."
+                },
+                {
+                  "source_id": "Q767-separated-mixtures",
+                  "authors": [
+                    "Chawla",
+                    "Gergatsouli",
+                    "McMahan",
+                    "Tzamos"
+                  ],
+                  "identifier": "arXiv:2108.12976v4",
+                  "version_date": "2023-07-21",
+                  "url": "https://arxiv.org/html/2108.12976v4",
+                  "location": "Section 6",
+                  "role": "Constant approximation under an identical-or-TV-separated component condition; does not resolve unrestricted no-separation Q767.",
+                  "access_evidence": "Compared in q767/report.md."
+                },
+                {
+                  "source_id": "Q767-fixed-order-comparator",
+                  "authors": [
+                    "Bansal",
+                    "Huang",
+                    "Zhu"
+                  ],
+                  "identifier": "arXiv:2509.17029v2",
+                  "version_date": "2025-10-10",
+                  "url": "https://arxiv.org/html/2509.17029v2",
+                  "location": "Section 2.2",
+                  "role": "Partially adaptive fixed-order comparator, distinguished from the fully adaptive target.",
+                  "access_evidence": "Compared in q767/report.md; author surnames are preserved exactly as supplied in the report citation."
+                }
+              ]
+            },
+            "finite_computation": [
+              {
+                "run_id": "Q767-main",
+                "ran": true,
+                "command": "python q767/verify.py",
+                "scripts": [
+                  "q767/verify.py"
+                ],
+                "inputs": [
+                  "q767/results.json: diagnostic families and noisy repeated-type input"
+                ],
+                "outputs": [
+                  "q767/results.json"
+                ],
+                "arithmetic": "exact fractions.Fraction",
+                "random_sampling": false,
+                "counts": {
+                  "diagnostic_family_instances": 3,
+                  "all_orders_by_scenarios": {
+                    "2": 6,
+                    "3": 24,
+                    "4": 120
+                  },
+                  "total_enumerated_fixed_orders": 150,
+                  "noisy_repeated_type_instances": 1,
+                  "FPTAS_epsilon_runs": 3,
+                  "zero_optimum_control": 1
+                },
+                "FPTAS_epsilons": [
+                  "1/2",
+                  "1/5",
+                  "1/10"
+                ],
+                "noisy_true_optimum": "4871/5880",
+                "status": "passed",
+                "scope": "Exact finite objective and policy controls; not an unrestricted approximation theorem."
+              }
+            ],
+            "independent_audits": {
+              "performed": true,
+              "reports": [
+                {
+                  "audit_id": "Q767-independent",
+                  "path": "q767/audit.md",
+                  "scope": "Exact posterior recurrence, diagnostic adaptivity gap, opening-cost treatment under rounding, fixed scenario/type FPTAS, online output and arithmetic bit bounds.",
+                  "finding": "No substantive correction required. Fixed m and fixed number of types are material restrictions.",
+                  "additional_executed_controls": null,
+                  "code_rerun_in_audit": false,
+                  "compiled_formal_theorem": false
+                }
+              ]
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Not polynomial jointly in unrestricted m,d.",
+            "No separation assumption introduced.",
+            "Does not resolve the unrestricted universal constant-approximation target."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false,
+          "internal_method_dependency": [
+            "B4-Q536-A1: likelihood subprobability rounding, adapted and separately proved for opening costs plus terminal minimum."
+          ]
+        }
+      ],
+      "source_subreports_and_ledgers": [
+        "q767/report.md",
+        "q767/audit.md"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_published_resolution_claim": false
+    },
+    {
+      "programme": "B4",
+      "question": "Q1496",
+      "question_number": 1496,
+      "stable_statement_id": "8b77f8589cc4d5f5cdc9",
+      "title": "The limiting full-information expected rank",
+      "exact_retained_statement": "Determine the exact value of v=lim_{n→∞}v_n.",
+      "status": "unresolved",
+      "conclusion": "No new exact limiting-rank result; prior finite numerical estimates remain explicitly prior and uncertified.",
+      "changed_assumptions_at_canonical_scope": [],
+      "conditional_complexity_assumptions": [],
+      "prior_packet_status": {
+        "catalogue_exact_scope_closure_recorded": false,
+        "provenance": "Supplied handoff snapshot, 7 October 2026; prior catalogue not modified.",
+        "collector_notes_verbatim": [
+          "Status for question 1496, checked 6 October 2026: August 2026 source explicitly reaffirms this target; no subsequent resolution found by 6 October 2026."
+        ]
+      },
+      "results": [
+        {
+          "result_id": "B4-Q1496-U1",
+          "status": "unresolved",
+          "relationship_to_canonical_question": "exact_statement_unresolved",
+          "statement": "Determine the exact infinite-horizon limit v=lim_n v_n in Robbins’ full-information expected-rank stopping problem.",
+          "changed_assumptions": [],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": false,
+              "reason": "No new proof for this statement."
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q1496-source",
+                  "title": "Algorithms for Robbins’ Problem using Markov Decision Processes",
+                  "authors": "Brice–Bruss–Majumdar–Raskin",
+                  "identifier": "arXiv:2608.27419",
+                  "version_date": "2026-08-27",
+                  "url": "https://arxiv.org/abs/2608.27419",
+                  "location": "Fresh access: primary indexed abstract only. Introduction, Section 2 Known results, and equation 3 remain supplied handoff provenance.",
+                  "role": "Primary source for the limiting-rank question and numerical finite-n MDP work.",
+                  "access_evidence": "The primary indexed abstract was retrieved and describes numerical fixed-n approximations through n=100, not an exact limiting constant. Full PDF/HTML and direct abstract retrieval failed; no full-paper absence claim or numerical rerun is made."
+                },
+                {
+                  "source_id": "Q1496-author-page",
+                  "title": "Other research: Robbins’ problem",
+                  "author": "Brice, first author of arXiv:2608.27419",
+                  "url": "https://lnrdbrice.github.io/other-research.html",
+                  "location": "Robbins’ problem section",
+                  "role": "Fresh primary author description of numerical MDP work and the open problem.",
+                  "access_evidence": "Root retrieved this primary author page; it is a source-scope check, not an independent proof or exhaustive literature survey."
+                }
+              ],
+              "fresh_scope_note": {
+                "performed": true,
+                "path": "q1496_q2390_scope.md",
+                "section": "Q1496 — limiting full-information expected rank",
+                "check_date_local": "2026-10-07",
+                "review_level": "Primary indexed abstract and primary author page; no full-paper retrieval.",
+                "sources": [
+                  "Q1496-source",
+                  "Q1496-author-page"
+                ],
+                "checked_source_claims": [
+                  {
+                    "claim": "The indexed primary abstract describes numerical MDP approximations for finite n through n=100; it supplies no exact limiting value.",
+                    "evidence": "Primary indexed arXiv abstract."
+                  },
+                  {
+                    "claim": "The first-author research page describes numerical work and the problem as open.",
+                    "evidence": "Freshly retrieved primary author research page; bibliographic year differs from arXiv posting date."
+                  }
+                ],
+                "acquisition_limits": [
+                  "Direct canonical/versioned PDF and HTML, export PDF, and direct abstract retrieval failed.",
+                  "The handoff locations Introduction, Section 2 and equation 3 are supplied provenance, not freshly reread section text."
+                ],
+                "status_after_check": "unresolved",
+                "independent_proof_audit": false,
+                "numerical_rerun": false,
+                "compiled_formal_theorem": false,
+                "exhaustive_literature_status_claim": false
+              },
+              "scope": "Fresh source-statement comparison only; historical collector notes remain separately attributed and no new proof or closure is inferred."
+            },
+            "finite_computation": [
+              {
+                "ran": false,
+                "reason": "No new Robbins calculation, interval certificate, V(7) run, or source-code reproduction was performed in this research packet.",
+                "scripts": [],
+                "outputs": [],
+                "counts": {},
+                "compiled_formal_theorem": false
+              }
+            ],
+            "independent_audits": {
+              "performed": false,
+              "reports": []
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Previously reported finite V(5),V(6) values are prior non-interval-certified evidence, not a determination of the limit.",
+            "No existing source code was supplied for a new interval certificate."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        }
+      ],
+      "source_subreports_and_ledgers": [
+        "q1496_q2390_scope.md"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_published_resolution_claim": false,
+      "fresh_source_scope_comparison": {
+        "performed": true,
+        "path": "q1496_q2390_scope.md",
+        "section": "Q1496 — limiting full-information expected rank",
+        "check_date_local": "2026-10-07",
+        "review_level": "Primary indexed abstract and primary author page; no full-paper retrieval.",
+        "sources": [
+          "Q1496-source",
+          "Q1496-author-page"
+        ],
+        "checked_source_claims": [
+          {
+            "claim": "The indexed primary abstract describes numerical MDP approximations for finite n through n=100; it supplies no exact limiting value.",
+            "evidence": "Primary indexed arXiv abstract."
+          },
+          {
+            "claim": "The first-author research page describes numerical work and the problem as open.",
+            "evidence": "Freshly retrieved primary author research page; bibliographic year differs from arXiv posting date."
+          }
+        ],
+        "acquisition_limits": [
+          "Direct canonical/versioned PDF and HTML, export PDF, and direct abstract retrieval failed.",
+          "The handoff locations Introduction, Section 2 and equation 3 are supplied provenance, not freshly reread section text."
+        ],
+        "status_after_check": "unresolved",
+        "independent_proof_audit": false,
+        "numerical_rerun": false,
+        "compiled_formal_theorem": false,
+        "exhaustive_literature_status_claim": false
+      },
+      "exact_source_setup_from_handoff": "Observe independent U(0,1) variables X₁,…,X_n sequentially. Select exactly one by a stopping time τ≤n adapted to the observed values, without recall. Its final rank is R_τ=Σ_{j=1}^n1{X_j≤X_τ}; set v_n=inf_τ ER_τ."
+    },
+    {
+      "programme": "B4",
+      "question": "Q2390",
+      "question_number": 2390,
+      "stable_statement_id": "20bb4427a9a4677b822d",
+      "title": "Optimal ordinal matroid secretary ratio",
+      "exact_retained_statement": "For every finite M, does such an algorithm guarantee E[w(A)]≥e^(−1) max_{I∈I}w(I) for every weight assignment?",
+      "status": "unresolved",
+      "conclusion": "No new proof or disproof of the full ordinal random-arrival 1/e matroid-secretary statement.",
+      "changed_assumptions_at_canonical_scope": [],
+      "conditional_complexity_assumptions": [],
+      "prior_packet_status": {
+        "catalogue_exact_scope_closure_recorded": false,
+        "provenance": "Supplied handoff snapshot, 7 October 2026; prior catalogue not modified.",
+        "collector_notes_verbatim": [
+          "Status for question 2390, checked 6 October 2026: September 2026 papers prove the 1/e guarantee for linear matroids and constants for all matroids, leaving this full strong form."
+        ]
+      },
+      "results": [
+        {
+          "result_id": "B4-Q2390-U1",
+          "status": "unresolved",
+          "relationship_to_canonical_question": "exact_statement_unresolved",
+          "statement": "For every finite matroid, determine whether an ordinal random-arrival online algorithm guarantees expected weight at least 1/e of the offline maximum for every nonnegative weight assignment.",
+          "changed_assumptions": [],
+          "conditional_complexity_assumptions": [],
+          "evidence": {
+            "written_argument": {
+              "present": false,
+              "reason": "No new proof for this statement."
+            },
+            "primary_source_dependencies": [],
+            "primary_source_comparison": {
+              "performed": true,
+              "sources": [
+                {
+                  "source_id": "Q2390-source",
+                  "title": "On the Strong Matroid Secretary Conjecture and Beyond",
+                  "authors": [
+                    "Hamed Abdi",
+                    "Kiarash Banihashem",
+                    "MohammadTaghi Hajiaghayi",
+                    "Danny Mittal"
+                  ],
+                  "identifier": "arXiv:2609.19118v1",
+                  "version_date": "2026-09-16",
+                  "url": "https://arxiv.org/pdf/2609.19118",
+                  "page_count": 27,
+                  "locations": [
+                    "Conjecture 1.1, p.2",
+                    "Theorem 1.2, p.3",
+                    "Theorem 1.3, pp.3–4",
+                    "Corollary 1.4, p.4",
+                    "Theorem 3.1, p.7",
+                    "Theorem A.2, pp.22–23"
+                  ],
+                  "role": "Fresh primary statement-level comparison: ordinal 1/e for linear matroids, ordinal 1/64 for all matroids, and a fixed-matroid LP, without a universal 1/e theorem.",
+                  "access_evidence": "Root and the coupon-scheduling source-scope check retrieved the full 27-page preliminary v1 PDF and inspected these model/theorem locations. No independent proof audit, implementation run, or formal compilation of the paper is claimed."
+                }
+              ],
+              "fresh_scope_note": {
+                "performed": true,
+                "path": "q1496_q2390_scope.md",
+                "section": "Q2390 — optimal ordinal matroid secretary ratio",
+                "check_date_local": "2026-10-07",
+                "review_level": "Full 27-page primary PDF, statement/model/LP location comparison.",
+                "sources": [
+                  "Q2390-source"
+                ],
+                "checked_source_claims": [
+                  {
+                    "location": "Conjecture 1.1, p.2",
+                    "claim": "The universal ordinal random-arrival 1/e target is stated."
+                  },
+                  {
+                    "location": "Theorem 1.2, p.3; Section 4",
+                    "claim": "Ordinal 1/e is established for linear matroids; the finite-LP construction has no polynomial-time guarantee."
+                  },
+                  {
+                    "location": "Corollary 1.4, p.4",
+                    "claim": "Ordinal 1/64 is established for all matroids with polynomial computation."
+                  },
+                  {
+                    "location": "Theorem 1.3, pp.3–4; Section 5",
+                    "claim": "A one-sample prophet 1/2 theorem uses independent values and a different order/information contract; it is not Q2390."
+                  },
+                  {
+                    "location": "Theorem 3.1, p.7; Theorem A.2, pp.22–23",
+                    "claim": "A finite LP attains a fixed matroid’s optimal weighted ordinal ratio; this supplies no universal 1/e bound."
+                  }
+                ],
+                "acquisition_limits": [
+                  "Other handoff arXiv follow-up papers were not independently checked in this narrow source review."
+                ],
+                "status_after_check": "unresolved",
+                "independent_proof_audit": false,
+                "code_rerun": false,
+                "compiled_formal_theorem": false,
+                "exhaustive_literature_status_claim": false
+              },
+              "scope": "Fresh source-statement comparison only; historical collector notes remain separately attributed and no new proof or closure is inferred."
+            },
+            "finite_computation": [
+              {
+                "ran": false,
+                "reason": "No new general ordinal matroid-secretary proof, algorithm, or compiled formal theorem is supplied.",
+                "scripts": [],
+                "outputs": [],
+                "counts": {},
+                "compiled_formal_theorem": false
+              }
+            ],
+            "independent_audits": {
+              "performed": false,
+              "reports": []
+            },
+            "compiled_formal_theorem": false,
+            "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+          },
+          "scope_limits": [
+            "Prior special-class and constant-factor statements do not establish the full 1/e target.",
+            "Family 111 is a different independent-value one-sample prophet model, not an exact-scope answer."
+          ],
+          "compiled_formal_theorem": false,
+          "novelty_or_publication_priority_claim": false
+        }
+      ],
+      "source_subreports_and_ledgers": [
+        "q1496_q2390_scope.md"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_published_resolution_claim": false,
+      "fresh_source_scope_comparison": {
+        "performed": true,
+        "path": "q1496_q2390_scope.md",
+        "section": "Q2390 — optimal ordinal matroid secretary ratio",
+        "check_date_local": "2026-10-07",
+        "review_level": "Full 27-page primary PDF, statement/model/LP location comparison.",
+        "sources": [
+          "Q2390-source"
+        ],
+        "checked_source_claims": [
+          {
+            "location": "Conjecture 1.1, p.2",
+            "claim": "The universal ordinal random-arrival 1/e target is stated."
+          },
+          {
+            "location": "Theorem 1.2, p.3; Section 4",
+            "claim": "Ordinal 1/e is established for linear matroids; the finite-LP construction has no polynomial-time guarantee."
+          },
+          {
+            "location": "Corollary 1.4, p.4",
+            "claim": "Ordinal 1/64 is established for all matroids with polynomial computation."
+          },
+          {
+            "location": "Theorem 1.3, pp.3–4; Section 5",
+            "claim": "A one-sample prophet 1/2 theorem uses independent values and a different order/information contract; it is not Q2390."
+          },
+          {
+            "location": "Theorem 3.1, p.7; Theorem A.2, pp.22–23",
+            "claim": "A finite LP attains a fixed matroid’s optimal weighted ordinal ratio; this supplies no universal 1/e bound."
+          }
+        ],
+        "acquisition_limits": [
+          "Other handoff arXiv follow-up papers were not independently checked in this narrow source review."
+        ],
+        "status_after_check": "unresolved",
+        "independent_proof_audit": false,
+        "code_rerun": false,
+        "compiled_formal_theorem": false,
+        "exhaustive_literature_status_claim": false
+      },
+      "exact_source_setup_from_handoff": "A known finite matroid M=(E,I) has adversarial nonnegative weights, hidden until elements arrive in uniformly random order. An ordinal online algorithm sees only relative weight rankings and matroid information, and irrevocably accepts an independent subset; computation is unrestricted."
+    }
+  ],
+  "prior_packet_claims": [
+    {
+      "claim_id": "B4-prior-Robbins-values",
+      "related_question": "Q1496",
+      "stable_statement_id": "8b77f8589cc4d5f5cdc9",
+      "evidence_origin": "Supplied handoff, Selected substantive catalog evidence / Robbins numerical controls.",
+      "status": "prior_reported_finite_computation",
+      "values": {
+        "V5_reported": "1.5707281364801",
+        "V6_reported": "1.6320777151"
+      },
+      "qualification": "Agreement of numerical tolerances, not interval-certified enclosures; code and datasets not bundled in the attachment.",
+      "recomputed_this_session": false,
+      "interval_certified_this_session": false,
+      "compiled_formal_theorem": false,
+      "implication_for_exact_limit": "None; Q1496 remains unresolved."
+    },
+    {
+      "claim_id": "B4-prior-Robbins-memory-correction",
+      "related_question": "Q1496",
+      "stable_statement_id": "8b77f8589cc4d5f5cdc9",
+      "evidence_origin": "Supplied handoff, Addendum 2 and correction.",
+      "status": "prior_reported_fitted_policy_comparison",
+      "claims": {
+        "memoryless_n5_approx": "1.587",
+        "incorrect_old_n5_comparator": "1.63833 was an asymptotic parameterized rule, not the optimal memoryless n=5 value",
+        "relative_rank_gap_closed_n5_approx": "0.84",
+        "relative_rank_gap_closed_n6_approx": "0.90"
+      },
+      "qualification": "Fitted held-out policy comparisons with sampling and search error; not newly executed or certified.",
+      "recomputed_this_session": false,
+      "compiled_formal_theorem": false
+    },
+    {
+      "claim_id": "B4-prior-Q2390-special-classes",
+      "related_question": "Q2390",
+      "stable_statement_id": "20bb4427a9a4677b822d",
+      "evidence_origin": "Supplied handoff collector note checked 6 October 2026.",
+      "status": "prior_source_status_claim",
+      "claim_verbatim": "September 2026 papers prove the 1/e guarantee for linear matroids and constants for all matroids, leaving this full strong form.",
+      "qualification": "Retained as dated provenance; not an imported new proof of the full canonical statement.",
+      "compiled_formal_theorem": false
+    }
+  ],
+  "scope_nonmatches": [
+    {
+      "result_id": "B4-Family111-import",
+      "status": "scope-nonmatch",
+      "relationship_to_canonical_question": "unchecked_method_or_model_connection_only",
+      "statement": "The supplied Family 111 upstream scope claims a one-sample independent-value matroid prophet inequality with ratio 2^(-310) under an adversary seeing samples, values and the full random seed, with no polynomial-time guarantee supplied. This is not the ordinal random-arrival matroid secretary 1/e statement Q2390.",
+      "changed_assumptions": [
+        "Independent random values and one sample per element instead of adversarial fixed weights revealed in uniformly random order.",
+        "Full-seed adversarial ordering and a numerical 2^(-310) prophet comparator instead of ordinal 1/e secretary comparison."
+      ],
+      "conditional_complexity_assumptions": [],
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "reason": "No new proof for this statement."
+        },
+        "primary_source_dependencies": [],
+        "primary_source_comparison": {
+          "performed": true,
+          "sources": [
+            {
+              "source_id": "family111-preprint",
+              "title": "One Sample Suffices for Matroid Prophet Inequalities against an Almighty Adversary",
+              "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+              "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/One-Sample-Suffices-for-Matroid-Prophet-Inequalities-against-an-Almighty-Adversary-September-23-2026/final.pdf",
+              "role": "Unchecked upstream method/model lead; not an answer to ordinal secretary Q2390.",
+              "access_evidence": "Text and links supplied in handoff; no local proof validation."
+            },
+            {
+              "source_id": "family111-formalization-scope",
+              "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+              "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/111.md",
+              "role": "Upstream scope description, not evidence of a local kernel pass.",
+              "access_evidence": "Scope statement supplied in handoff; no compilation performed."
+            }
+          ]
+        },
+        "finite_computation": [
+          {
+            "ran": false,
+            "reason": "No imported proof was independently validated and no Lean or other kernel compilation was run.",
+            "scripts": [],
+            "outputs": [],
+            "counts": {},
+            "compiled_formal_theorem": false
+          }
+        ],
+        "independent_audits": {
+          "performed": false,
+          "reports": []
+        },
+        "compiled_formal_theorem": false,
+        "proof_assistant_scope": "No Lean, Coq, Isabelle, or other proof-assistant theorem was compiled or checked."
+      },
+      "scope_limits": [
+        "Upstream use of the word proves is author-supplied scope text only.",
+        "No local formalization pass, semantic correspondence audit, or exact-scope Q2390 closure."
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_or_publication_priority_claim": false,
+      "review_status": "upstream_claim_not_independently_verified",
+      "related_question": "Q2390",
+      "related_stable_statement_id": "20bb4427a9a4677b822d",
+      "upstream_scope_verbatim": "The formalization proves a one-sample matroid prophet inequality with expected reward at least $2^{-310}$ times the expected offline optimum. Each element has one independent sample paired with an identically distributed nonnegative online value, and all coordinates are independent. The rule and finite seed law depend only on the labeled matroid; choices are irrevocable and feasible after every prefix. The arrival order may depend measurably on all samples, values, and the seed, and only the offline optimum must be integrable.\n\nA supporting hidden-vector selection result for fixed nonnegative matroid weights gives expected worst-order reward at least $2^{-293}$ times the optimum, again with a finite seed law and prefix feasibility."
+    }
+  ],
+  "primary_source_registry": {
+    "Q535-source": {
+      "title": "Pandora's Box Problem With Time Constraints",
+      "authors": "Amanatidis, Berger, Ezra, Feldman, Fusco, Reiffenhäuser, Tsikiridis",
+      "identifier": "arXiv:2407.15261v3",
+      "version_date": "2025-11-15",
+      "url": "https://arxiv.org/html/2407.15261v3",
+      "locations": [
+        "Section 2 model and oracle contract",
+        "Section 5 PTAS question"
+      ],
+      "role": "Primary-source model comparison; not the source of the new reduction.",
+      "access_evidence": "Reported primary-source inspection in q535/report.md and independent q535/audit.md."
+    },
+    "JISP-hardness": {
+      "title": "On the approximability of an interval scheduling problem",
+      "authors": "F. C. R. Spieksma",
+      "year": 1999,
+      "journal": "Journal of Scheduling 2, 215–227",
+      "doi": "10.1002/(SICI)1099-1425(199909/10)2:5<215::AID-JOS27>3.0.CO;2-Y",
+      "url": "https://doi.org/10.1002/(SICI)1099-1425(199909/10)2:5%3C215::AID-JOS27%3E3.0.CO;2-Y",
+      "role": "External MAX-SNP-hardness dependency for unweighted Job Interval Selection with two alternatives per job and equal interval length.",
+      "access_evidence": "Publisher/author materials inspected; original full proof PDF not successfully retrieved and not reconstructed."
+    },
+    "JISP-primary-restatement": {
+      "title": "Simple Algorithms for a Weighted Interval Selection Problem",
+      "authors": "Thomas Erlebach and Frits C. R. Spieksma",
+      "year": 2000,
+      "venue": "ISAAC 2000",
+      "url": "https://www.researchgate.net/publication/225552747_Simple_Algorithms_for_a_Weighted_Interval_Selection_Problem",
+      "location": "Section 1.1, printed p.2 of author manuscript",
+      "role": "Primary author restatement of the equal-length, two-alternative MAX-SNP-hardness restriction; not an independent proof of it.",
+      "access_evidence": "Inspected by original derivation and independent q535 audit."
+    },
+    "Q536-source": {
+      "title": "Approximation Algorithms for Stochastic Optimization, Dagstuhl Seminar 25132",
+      "contribution_author": "Andrés Cristi",
+      "contribution_title": "Hardness of Correlated Prophet Inequality",
+      "doi": "10.4230/DagRep.15.3.159",
+      "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume15/issue03/25132/DagRep.15.3.159/DagRep.15.3.159.pdf",
+      "location": "Section 4.2, model (2), printed pp.172–173",
+      "role": "Primary source for the uniform finite-mixture stopping model.",
+      "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json."
+    },
+    "TV-hardness": {
+      "title": "Total Variation Distance for Product Distributions is #P-Complete",
+      "authors": [
+        "Arnab Bhattacharyya",
+        "Sutanu Gayen",
+        "Kuldeep S. Meel",
+        "Dimitrios Myrisiotis",
+        "A. Pavan",
+        "N. V. Vinodchandran"
+      ],
+      "identifier": "arXiv:2405.08255v1",
+      "version_date": "2024-05-14",
+      "url": "https://arxiv.org/html/2405.08255v1",
+      "location": "Theorem 1, Section 2, printed p.2",
+      "published_doi": "10.1016/j.ipl.2025.106560",
+      "role": "External exact-total-variation counting-hardness theorem for rational Bernoulli product distributions, under polynomial-time Turing reductions.",
+      "access_evidence": "Retrieved/read as recorded in q536/q536_ledger.json; external counting theorem not reproved here."
+    },
+    "Q540-source": {
+      "title": "Threshold Dynamics and Correlated Prophet Inequalities",
+      "authors": [
+        "José Correa",
+        "Maximilian Fichtl",
+        "Reda Jlibene",
+        "Rida Laraki",
+        "Vasilis Livanos",
+        "Kevin Schewior",
+        "Victor Verdugo"
+      ],
+      "identifier": "arXiv:2607.09887v1",
+      "version_date": "2026-07-10",
+      "url": "https://arxiv.org/html/2607.09887v1",
+      "locations": [
+        "Section 1.1",
+        "Section 3, Proposition 5"
+      ],
+      "role": "Primary-source common-base observation model and distinction between adaptive stopping and single-threshold-with-last guarantees.",
+      "access_evidence": "The investigating agent obtained indexed primary text but its direct opens failed. Root subsequently retrieved the full versioned HTML at https://arxiv.org/html/2607.09887v1 and checked the observation model and Proposition 5. No new publication-priority or exhaustive follow-up-status claim is made."
+    },
+    "Q541-source": {
+      "title": "On Extensions of the Unanimous Vote Problem",
+      "authors": [
+        "Evan J. R. Brody",
+        "Haya Diwan",
+        "Lisa Hellerstein",
+        "Thomas Lidbetter"
+      ],
+      "identifier": "arXiv:2609.36508v1",
+      "version_date": "2026-09-29",
+      "url": "https://arxiv.org/html/2609.36508",
+      "locations": [
+        "Section 4, Definition 7 and Theorem 7",
+        "Section 6, printed p.11"
+      ],
+      "role": "Primary source for forced-exhaustion finite coupon collection and its earlier open complexity question.",
+      "access_evidence": "Primary-source inspection recorded in q541/statement_ledger.json."
+    },
+    "permanent-hardness": {
+      "title": "The complexity of computing the permanent",
+      "authors": [
+        "L. G. Valiant"
+      ],
+      "year": 1979,
+      "journal": "Theoretical Computer Science 8(2), 189–201",
+      "doi": "10.1016/0304-3975(79)90044-6",
+      "url": "https://www.cs.bu.edu/faculty/gacs/courses/cs535/papers/Valiant_permanent.pdf",
+      "location": "Theorem 1, printed p.194",
+      "role": "External #P-completeness of 0/1 permanent under polynomial-time oracle reductions.",
+      "access_evidence": "Primary theorem inspected as reported in q541; not reproved or formally compiled here."
+    },
+    "Q767-source": {
+      "title": "Combinatorial Optimization Under Uncertainty: Probing and Stopping-Time Algorithms",
+      "authors": [
+        "Sahil Singla"
+      ],
+      "year": 2018,
+      "type": "doctoral dissertation",
+      "url": "https://faculty.cc.gatech.edu/~ssingla7/papers/thesis_Sahil.pdf",
+      "location": "Question 13.3.1, printed p.197 / PDF p.211",
+      "role": "Primary hidden-state search objective and source question.",
+      "access_evidence": "Compared in q767/report.md."
+    },
+    "Q767-separated-mixtures": {
+      "authors": [
+        "Chawla",
+        "Gergatsouli",
+        "McMahan",
+        "Tzamos"
+      ],
+      "identifier": "arXiv:2108.12976v4",
+      "version_date": "2023-07-21",
+      "url": "https://arxiv.org/html/2108.12976v4",
+      "location": "Section 6",
+      "role": "Constant approximation under an identical-or-TV-separated component condition; does not resolve unrestricted no-separation Q767.",
+      "access_evidence": "Compared in q767/report.md."
+    },
+    "Q767-fixed-order-comparator": {
+      "authors": [
+        "Bansal",
+        "Huang",
+        "Zhu"
+      ],
+      "identifier": "arXiv:2509.17029v2",
+      "version_date": "2025-10-10",
+      "url": "https://arxiv.org/html/2509.17029v2",
+      "location": "Section 2.2",
+      "role": "Partially adaptive fixed-order comparator, distinguished from the fully adaptive target.",
+      "access_evidence": "Compared in q767/report.md; author surnames are preserved exactly as supplied in the report citation."
+    },
+    "Q1496-source": {
+      "title": "Algorithms for Robbins’ Problem using Markov Decision Processes",
+      "authors": "Brice–Bruss–Majumdar–Raskin",
+      "identifier": "arXiv:2608.27419",
+      "version_date": "2026-08-27",
+      "url": "https://arxiv.org/abs/2608.27419",
+      "location": "Fresh access: primary indexed abstract only. Introduction, Section 2 Known results, and equation 3 remain supplied handoff provenance.",
+      "role": "Primary source for the limiting-rank question and numerical finite-n MDP work.",
+      "access_evidence": "The primary indexed abstract was retrieved and describes numerical fixed-n approximations through n=100, not an exact limiting constant. Full PDF/HTML and direct abstract retrieval failed; no full-paper absence claim or numerical rerun is made."
+    },
+    "Q1496-author-page": {
+      "title": "Other research: Robbins’ problem",
+      "author": "Brice, first author of arXiv:2608.27419",
+      "url": "https://lnrdbrice.github.io/other-research.html",
+      "location": "Robbins’ problem section",
+      "role": "Fresh primary author description of numerical MDP work and the open problem.",
+      "access_evidence": "Root retrieved this primary author page; it is a source-scope check, not an independent proof or exhaustive literature survey."
+    },
+    "Q2390-source": {
+      "title": "On the Strong Matroid Secretary Conjecture and Beyond",
+      "authors": [
+        "Hamed Abdi",
+        "Kiarash Banihashem",
+        "MohammadTaghi Hajiaghayi",
+        "Danny Mittal"
+      ],
+      "identifier": "arXiv:2609.19118v1",
+      "version_date": "2026-09-16",
+      "url": "https://arxiv.org/pdf/2609.19118",
+      "page_count": 27,
+      "locations": [
+        "Conjecture 1.1, p.2",
+        "Theorem 1.2, p.3",
+        "Theorem 1.3, pp.3–4",
+        "Corollary 1.4, p.4",
+        "Theorem 3.1, p.7",
+        "Theorem A.2, pp.22–23"
+      ],
+      "role": "Fresh primary statement-level comparison: ordinal 1/e for linear matroids, ordinal 1/64 for all matroids, and a fixed-matroid LP, without a universal 1/e theorem.",
+      "access_evidence": "Root and the coupon-scheduling source-scope check retrieved the full 27-page preliminary v1 PDF and inspected these model/theorem locations. No independent proof audit, implementation run, or formal compilation of the paper is claimed."
+    },
+    "Q2390-prior-followup-1": {
+      "identifier": "arXiv:2609.20797",
+      "url": "https://arxiv.org/abs/2609.20797",
+      "role": "Prior-packet follow-up link; no new exact-scope theorem imported in this ledger.",
+      "access_evidence": "Prior handoff only."
+    },
+    "Q2390-prior-followup-2": {
+      "identifier": "arXiv:2609.14555",
+      "url": "https://arxiv.org/abs/2609.14555",
+      "role": "Prior-packet follow-up link; no new exact-scope theorem imported in this ledger.",
+      "access_evidence": "Prior handoff only."
+    },
+    "family111-preprint": {
+      "title": "One Sample Suffices for Matroid Prophet Inequalities against an Almighty Adversary",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/One-Sample-Suffices-for-Matroid-Prophet-Inequalities-against-an-Almighty-Adversary-September-23-2026/final.pdf",
+      "role": "Unchecked upstream method/model lead; not an answer to ordinal secretary Q2390.",
+      "access_evidence": "Text and links supplied in handoff; no local proof validation."
+    },
+    "family111-formalization-scope": {
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/111.md",
+      "role": "Upstream scope description, not evidence of a local kernel pass.",
+      "access_evidence": "Scope statement supplied in handoff; no compilation performed."
+    }
+  },
+  "independent_audit_registry": {
+    "Q535-independent": {
+      "path": "q535/audit.md",
+      "scope": "External restriction and model compatibility, integer compression, horizon/bit encoding, all-zero trajectory extraction, deterministic/randomized transfer and oracle simplicity.",
+      "finding": "No invalid reduction step found; deterministic and randomized complexity assumptions must remain distinct.",
+      "additional_executed_controls": {
+        "script": "q535/audit_verify.py",
+        "output": "q535/audit_results.json",
+        "sorted_multisets": 3002,
+        "extreme_rational_cases": 3,
+        "closed_endpoint_case": 1
+      },
+      "compiled_formal_theorem": false
+    },
+    "Q536-independent": {
+      "path": "cross_audit.md",
+      "scope": "Q536 exact value/policy reductions, ties and lattice precision, output-policy access, subprobability FPTAS, normalized states and bit bounds.",
+      "finding": "No substantive flaw found. A^J denominator bound applies to reachable stage/state pairs, which the implementation uses; A^(2J) suffices for a larger formal table.",
+      "additional_executed_controls": null,
+      "code_rerun_in_audit": false,
+      "compiled_formal_theorem": false
+    },
+    "Q540-independent": {
+      "path": "q540/audit_support_band.md",
+      "scope": "Support-band gamma(c) proof, binary and half-prophet corollaries, observation legality, and additional inspection of binary deadline formula.",
+      "finding": "No defect found in the written derivations; no claim for unrestricted residue supports.",
+      "additional_executed_controls": null,
+      "code_rerun_in_audit": false,
+      "compiled_formal_theorem": false
+    },
+    "Q541-independent": {
+      "path": "cross_audit.md",
+      "scope": "Q541 last-die extraction, matched-minor counting recursion, polynomial encoding, ties, positivity smoothing, and restricted oracle upper bound.",
+      "finding": "No substantive flaw found; Turing-hardness, not many-one completeness or strong hardness.",
+      "additional_executed_controls": null,
+      "code_rerun_in_audit": false,
+      "compiled_formal_theorem": false
+    },
+    "Q767-independent": {
+      "path": "q767/audit.md",
+      "scope": "Exact posterior recurrence, diagnostic adaptivity gap, opening-cost treatment under rounding, fixed scenario/type FPTAS, online output and arithmetic bit bounds.",
+      "finding": "No substantive correction required. Fixed m and fixed number of types are material restrictions.",
+      "additional_executed_controls": null,
+      "code_rerun_in_audit": false,
+      "compiled_formal_theorem": false
+    }
+  },
+  "executed_computation_registry": {
+    "Q535-main": {
+      "ran": true,
+      "command": "python q535/verify.py",
+      "scripts": [
+        "q535/verify.py"
+      ],
+      "inputs": [
+        "q535/verify.py: declared generators",
+        "q535/results.json: all generated instances"
+      ],
+      "outputs": [
+        "q535/results.json"
+      ],
+      "arithmetic": "exact fractions.Fraction",
+      "seed": 53520261007,
+      "counts": {
+        "exhaustive_scheduling_instances": 258,
+        "seeded_scheduling_instances": 80,
+        "interval_compression_cases": 100,
+        "approximation_inequality_checks": 176850
+      },
+      "generator": "n=1,2,3; each job has two distinct starts from {1,2,3,4}; common length 2",
+      "controls": "Independent interval-choice enumeration and time/subset Bellman recursion; pairwise conflict preservation; exact approximation-transfer inequalities.",
+      "status": "passed",
+      "scope": "Finite implementation controls; asymptotic hardness rests on written reduction and primary dependency."
+    },
+    "Q535-audit": {
+      "ran": true,
+      "command": "python q535/audit_verify.py",
+      "scripts": [
+        "q535/audit_verify.py"
+      ],
+      "inputs": [
+        "q535/audit_verify.py: exhaustive multisets and extreme inputs"
+      ],
+      "outputs": [
+        "q535/audit_results.json"
+      ],
+      "arithmetic": "exact fractions",
+      "counts": {
+        "sorted_multisets": 3002,
+        "extreme_rational_cases": 3,
+        "closed_endpoint_cases": 1
+      },
+      "generator": "Every sorted multiset of sizes 1 through 8 over the stated grid",
+      "status": "passed",
+      "scope": "Adversarial interval-compression boundary controls."
+    },
+    "Q536-main": {
+      "ran": true,
+      "command": "python q536/verify_q536.py",
+      "scripts": [
+        "q536/verify_q536.py"
+      ],
+      "inputs": [
+        "q536/q536_inputs.json",
+        "q536/q536_certificate.json: example conditional probabilities"
+      ],
+      "outputs": [
+        "q536/q536_certificate.json"
+      ],
+      "arithmetic": "exact fractions.Fraction; no floating decisions",
+      "seed": 53620261007,
+      "counts": {
+        "generated_FPTAS_instances": 16,
+        "complete_reward_strings_per_instance": 243,
+        "example_full_history_policies": 1024,
+        "example_time_current_policies": 32,
+        "probe_tie_conventions": 2,
+        "probe_queries_per_convention": 9
+      },
+      "generator": "16 cases, n=5, k=3, m alternates 2 and 3; counts iid uniform integers0..4, all-zero row replaced by(1,0,0); rewards0,2,7; eps1/5 then1/10",
+      "minimum_achieved_FPTAS_ratio": "1917023/1917039",
+      "status": "All exact arithmetic checks passed.",
+      "scope": "Finite exact controls, not the source of the general hardness or approximation theorem."
+    },
+    "Q540-main": {
+      "ran": true,
+      "command": "python q540/exact_common_cause.py",
+      "scripts": [
+        "q540/exact_common_cause.py"
+      ],
+      "inputs": [
+        "q540/tiny_input.json"
+      ],
+      "outputs": [
+        "q540/tiny_certificate.json",
+        "q540/all_history_policies.csv",
+        "q540/run_output.json"
+      ],
+      "arithmetic": "exact fractions.Fraction",
+      "seed": 540,
+      "counts": {
+        "raw_worlds": 16,
+        "observation_nodes": 25,
+        "exhaustive_full_history_policies": 1024,
+        "exhaustive_time_current_policies": 64,
+        "time_threshold_combinations": 16,
+        "fixed_threshold_classes": 4,
+        "additional_binary_formula_controls": 70
+      },
+      "generator": {
+        "case_count": 70,
+        "n_values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "seed": 540,
+        "probability_grid": "j/8, j=0,...,8",
+        "z_support": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "z_weight_generator": "four independent integers 1,...,8, normalized",
+        "checks": "general posterior DP = binary formula = independent world evaluation; 3/4 guarantee",
+        "all_passed": true,
+        "evidence": "finite exact-arithmetic controls; theorem is proved separately"
+      },
+      "status": "All exact assertions passed.",
+      "scope": "The gamma(c) inequality has a written proof; these additional numerical controls exercise only its binary c=1 subclass and the binary formula."
+    },
+    "Q540-exploration": {
+      "ran": true,
+      "command": "python q540/search_binary.py",
+      "scripts": [
+        "q540/search_binary.py"
+      ],
+      "inputs": [
+        "q540/search_binary.py: Bernoulli parameter domain"
+      ],
+      "outputs": [
+        "q540/search_binary_output.json"
+      ],
+      "arithmetic": "floating NumPy/SciPy exploration",
+      "seed": 540,
+      "counts": {
+        "grid_instances": 2401,
+        "optimizer_maxiter": 100,
+        "optimizer_population_multiplier": 12,
+        "optimizer_function_evaluations": 4913
+      },
+      "optimizer_reported_success": false,
+      "scope": "Exploratory fixture selection only; no certified global minimum or maximum and no universal inference."
+    },
+    "Q541-main": {
+      "ran": true,
+      "command": "python q541/verify_q541.py",
+      "scripts": [
+        "q541/verify_q541.py"
+      ],
+      "inputs": [
+        "q541/verify_q541.py: exhaustive and seeded generators",
+        "q541/verification.json: worked and general inputs"
+      ],
+      "outputs": [
+        "q541/verification.json"
+      ],
+      "arithmetic": "exact fractions.Fraction",
+      "seed": 541,
+      "counts": {
+        "all_01_matrices_dimensions_1_to_3": 530,
+        "half_integer_comparison_constructions": 1752,
+        "recursive_counting_calls_exhaustive": 976,
+        "seeded_matrices_dimension_4": 64,
+        "seeded_matrices_dimension_5": 32,
+        "seeded_matrices_dimension_6": 8,
+        "strictly_positive_oracle_calls": 804,
+        "complete_outcome_and_order_controls": 432,
+        "general_instance_permutations": 120,
+        "adjacent_exchange_checks": 480
+      },
+      "status": "Zero reported errors; all exact assertions passed.",
+      "scope": "Finite controls of the implementation and reduction; source theorem and general written reduction establish hardness."
+    },
+    "Q767-main": {
+      "ran": true,
+      "command": "python q767/verify.py",
+      "scripts": [
+        "q767/verify.py"
+      ],
+      "inputs": [
+        "q767/results.json: diagnostic families and noisy repeated-type input"
+      ],
+      "outputs": [
+        "q767/results.json"
+      ],
+      "arithmetic": "exact fractions.Fraction",
+      "random_sampling": false,
+      "counts": {
+        "diagnostic_family_instances": 3,
+        "all_orders_by_scenarios": {
+          "2": 6,
+          "3": 24,
+          "4": 120
+        },
+        "total_enumerated_fixed_orders": 150,
+        "noisy_repeated_type_instances": 1,
+        "FPTAS_epsilon_runs": 3,
+        "zero_optimum_control": 1
+      },
+      "FPTAS_epsilons": [
+        "1/2",
+        "1/5",
+        "1/10"
+      ],
+      "noisy_true_optimum": "4871/5880",
+      "status": "passed",
+      "scope": "Exact finite objective and policy controls; not an unrestricted approximation theorem."
+    }
+  },
+  "artifact_manifest": [
+    {
+      "path": "B4_Research_Report_2026-10-07.md",
+      "sha256": "9963e5dcc6b472a5c38cf87ac6400839c94bc2d620c6e1e28bc469b2b9ee81bc",
+      "bytes": 96599
+    },
+    {
+      "path": "FINAL_REPORT_AUDIT.md",
+      "sha256": "caead09f557cd08bfb9724375e487af9ef437b4814b90fab90f6a7b1fcc9bf63",
+      "bytes": 3978
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "9a1db4028239f198c8d0be234f9a18ac1a495e63fd45114c353a2880a4359ce6",
+      "bytes": 11133
+    },
+    {
+      "path": "assemble_statement_ledger.py",
+      "sha256": "30f28fc8eb7ea638ef7f4af12b9d996dec549077c28709ce408ba218d311ced4",
+      "bytes": 53071
+    },
+    {
+      "path": "build_report.py",
+      "sha256": "539a5984137818c813cfad36a90a9751a0541df69dca0b5399621c7aef15796c",
+      "bytes": 21838
+    },
+    {
+      "path": "cross_audit.md",
+      "sha256": "097df04614253366f607e0d1f5c731406665877e322cd8756c656719621ebe70",
+      "bytes": 14063
+    },
+    {
+      "path": "inputs/B4_Handoff_2026-10-07.md",
+      "sha256": "006b3a09c1844c0ab0a56f56b6f29c2559518478086376c548e570ebb81d8955",
+      "bytes": 45247
+    },
+    {
+      "path": "package_archive.py",
+      "sha256": "8b2c99033cfc00985e9c407be055b94a10136c3ad2ee448cf305252d75dc9f93",
+      "bytes": 4348
+    },
+    {
+      "path": "q1496_q2390_scope.md",
+      "sha256": "cf8e1c8b2861ef3c9e6579fed69730f027e96065598857bf71c35e1900077f53",
+      "bytes": 7703
+    },
+    {
+      "path": "q535/audit.md",
+      "sha256": "f5eb94a196ba8be3fdcdc80ea6294983f0e1b0e9c346d11bcb0cb13f7ded9818",
+      "bytes": 9189
+    },
+    {
+      "path": "q535/audit_results.json",
+      "sha256": "49b99eef2f3fab2f2146c92f6c9929fc80224e9d56609e96b63f3de79b1d933a",
+      "bytes": 2804
+    },
+    {
+      "path": "q535/audit_verify.py",
+      "sha256": "581216c024019f2fc3b1713f66bc2872a8b0d9744109350efb5a04476a9a10e9",
+      "bytes": 3339
+    },
+    {
+      "path": "q535/report.md",
+      "sha256": "a290774cecc9f6277c7e5943aa44ce4b757872ad929b1ac7f54f5b0a63003c60",
+      "bytes": 9553
+    },
+    {
+      "path": "q535/results.json",
+      "sha256": "42d5c666ff375fbf294464e9ae113acec5f236d8104011d3ad27cb36e952ff15",
+      "bytes": 207930
+    },
+    {
+      "path": "q535/verify.py",
+      "sha256": "47237eb191a9e2ce27bf2b9c64f30d73f0382d2025d3773de3f3624ae5ea3bec",
+      "bytes": 5200
+    },
+    {
+      "path": "q536/q536_certificate.json",
+      "sha256": "a891a7b01f23aebb5c9facbc2d3ef39fad1c88bae06af7c9511c399aa748c289",
+      "bytes": 43960
+    },
+    {
+      "path": "q536/q536_inputs.json",
+      "sha256": "6234e2bd6f3c0d314aa0c372607f46f5de0073e08f1183b471c1148f01da658b",
+      "bytes": 17455
+    },
+    {
+      "path": "q536/q536_ledger.json",
+      "sha256": "f63aa65c9ca3ef518ae6dd1f26421e27d30e4010bab1a9612a4cafb222e7c89e",
+      "bytes": 8039
+    },
+    {
+      "path": "q536/q536_research.md",
+      "sha256": "bcf5c5521535b7771e57b98397ef994483027d87fe17340490c78eeaa7d38bd7",
+      "bytes": 20706
+    },
+    {
+      "path": "q536/verify_q536.py",
+      "sha256": "31ed545c3887546195240be422e525377bc02230a266b9f35ac69abd8bb0070c",
+      "bytes": 12390
+    },
+    {
+      "path": "q540/Q540_ledger.json",
+      "sha256": "bebf11f559529f71aee1a6887865bebd1cb18da02a85103209f5395e6a6f31e1",
+      "bytes": 5745
+    },
+    {
+      "path": "q540/Q540_report.md",
+      "sha256": "c9f8948e078d6ae9c41bcfbf25e154e9d449e537e9a4fe9073bacbab1bb4730e",
+      "bytes": 18047
+    },
+    {
+      "path": "q540/all_history_policies.csv",
+      "sha256": "b6fcc52a476a4ed620ac5d7f4cca95aa28599d8a219a45bae14843a505bbd415",
+      "bytes": 13544
+    },
+    {
+      "path": "q540/audit_support_band.md",
+      "sha256": "b0f8a24348848b0cc139946b379b1adaa1d9feb4e8d9f199cedc1b9a28a6402a",
+      "bytes": 3157
+    },
+    {
+      "path": "q540/exact_common_cause.py",
+      "sha256": "a80c2cc1afeac5086f9e33e292dae78a0658610e7c88c7da707c206086a7e686",
+      "bytes": 10292
+    },
+    {
+      "path": "q540/run_output.json",
+      "sha256": "16ece4e8d2819c3b29c9733fe48fa090267685b2566c7ac1e14c24eab6c50b3d",
+      "bytes": 988
+    },
+    {
+      "path": "q540/search_binary.py",
+      "sha256": "b0adae82b9d5d84a5b29f98fd965a29589b79af64305bcab89997c8395924c95",
+      "bytes": 2140
+    },
+    {
+      "path": "q540/search_binary_output.json",
+      "sha256": "4db64d176a4d4704813df5538598aa728fdd6069909a33acb2154d2eafb2eb48",
+      "bytes": 1225
+    },
+    {
+      "path": "q540/sha256_manifest.json",
+      "sha256": "1aa9253693af545ab5c63f7348b04f095471da47997271ff14f34aca9ddffaa1",
+      "bytes": 896
+    },
+    {
+      "path": "q540/tiny_certificate.json",
+      "sha256": "b872f4e6ed034aeba1b679f55956a36ebba7ff02ed092de35201f28ee7429112",
+      "bytes": 16005
+    },
+    {
+      "path": "q540/tiny_input.json",
+      "sha256": "71cc026bd1958f6b6a761d95dacb63d196e5533a05166c1f28805f7d6bc24410",
+      "bytes": 569
+    },
+    {
+      "path": "q541/report.md",
+      "sha256": "a9c60813676e7c9ba5ca2923978fa40e82041432fff8c5a9a6197692bf6c7a2b",
+      "bytes": 17872
+    },
+    {
+      "path": "q541/statement_ledger.json",
+      "sha256": "2e78a62949829f4c2574e368210eae8b36f7cb833461070d2cb3bd8fe39a4824",
+      "bytes": 6599
+    },
+    {
+      "path": "q541/verification.json",
+      "sha256": "2aeae334090c6cb0d98d6aa50f8331cbd0c3b9bcd0b1aa4d3933b964d749d7dc",
+      "bytes": 4456
+    },
+    {
+      "path": "q541/verify_q541.py",
+      "sha256": "2279d2f558729eaa15f2be232d34c459ba9240d2845ca62b8a5f4a92fc432e53",
+      "bytes": 12485
+    },
+    {
+      "path": "q767/audit.md",
+      "sha256": "74e51f566e1c58fa9419279e0644f9217d6364da131ae0d7cdb30a4644a7e418",
+      "bytes": 6532
+    },
+    {
+      "path": "q767/report.md",
+      "sha256": "8d7651b922d5ecd79a1339837851deee4d85e609bb5dc20db0702e46e3789e26",
+      "bytes": 9100
+    },
+    {
+      "path": "q767/results.json",
+      "sha256": "9511a89ddbc9f359aff60af0203300a7b0a708b3458b07e4623986e538165f3b",
+      "bytes": 28744
+    },
+    {
+      "path": "q767/verify.py",
+      "sha256": "fe8ab38b2af21e43553fdb5a057c613de67f4d850ac2bf8b2529bc8df4484afc",
+      "bytes": 7819
+    },
+    {
+      "path": "run_all.py",
+      "sha256": "618900ac8dc86ba7060ea397eb3e549a0d0a3463b5e1a6d5960d437730cf65be",
+      "bytes": 6220
+    },
+    {
+      "path": "run_all_results.json",
+      "sha256": "278c61d5a5d6ca5349895152361e3f98a7c3106c2fd1b496cfae1f6add270f0c",
+      "bytes": 14477
+    }
+  ],
+  "residual_questions": [
+    "Q536: universal constant or PTAS for variable m, or matching approximation hardness.",
+    "Q540: half-prophet utility for unrestricted independent bounded-support residues and hidden additive common cause.",
+    "Q767: universal constant approximation to fully adaptive search for unrestricted scenarios/types without separation.",
+    "Q1496: exact Robbins limiting expected rank and any new interval certification of the prior finite computations.",
+    "Q2390: ordinal random-arrival 1/e guarantee for every finite matroid.",
+    "Q541: many-one/strong hardness and fixed-d classifications are outside the proved Turing reduction."
+  ],
+  "assembly": {
+    "script": "assemble_statement_ledger.py",
+    "source_reports_modified": false,
+    "validation": "All seven stable IDs and canonical formulations checked directly against the supplied attachment; referenced local paths and result status vocabulary checked."
+  }
+}

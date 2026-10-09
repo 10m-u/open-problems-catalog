@@ -1,0 +1,2133 @@
+{
+  "n": 5,
+  "definition": "Delta_r = det[b_(2*j-i+1)] for F_n(t;x)",
+  "all_coefficients_strictly_positive": true,
+  "determinants": [
+    {
+      "r": 1,
+      "monomial_count": 32,
+      "expected_full_box_count": 32,
+      "minimum_coefficient": "216",
+      "maximum_coefficient": "25866",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "25866"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "19896"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "12186"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "5796"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "1866"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "216"
+        }
+      ]
+    },
+    {
+      "r": 2,
+      "monomial_count": 243,
+      "expected_full_box_count": 243,
+      "minimum_coefficient": "688176",
+      "maximum_coefficient": "2900814912",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "331049106"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "665960292"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "coefficient": "351297936"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "1171455624"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "541309932"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2,
+            2
+          ],
+          "coefficient": "216899046"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "1814870448"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "735491124"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "259842492"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "80904096"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "2466650016"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "867225168"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "263311344"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "68798052"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "15334506"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "2900814912"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "860815296"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "212858928"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "42163884"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "6250932"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "688176"
+        }
+      ]
+    },
+    {
+      "r": 3,
+      "monomial_count": 1024,
+      "expected_full_box_count": 1024,
+      "minimum_coefficient": "8882544240",
+      "maximum_coefficient": "377330367853530",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "910207661220"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "3863073912930"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "coefficient": "5537336523300"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "coefficient": "2636146077840"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "14330157528240"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "18293107152240"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            3
+          ],
+          "coefficient": "7918528311180"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2,
+            2
+          ],
+          "coefficient": "20802976614180"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2,
+            3
+          ],
+          "coefficient": "8068486932990"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            3,
+            3
+          ],
+          "coefficient": "2761068983400"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "47375472471390"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "54507246898860"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "21568985261460"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "56412103396950"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "20131478263080"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "6383201602050"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "53029531774260"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "17206727011740"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "5005217844900"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "1318819320000"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "140826823862940"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "146773638991260"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "53172775106460"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "138175762089240"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "45264169539090"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "13217817179340"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "118055351619180"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "35123665657140"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "9364350341880"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "2251626185340"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "91509006207780"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "24731384276610"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "5994311538960"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "1303954672230"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "252504238140"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "377330367853530"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "356075975954340"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "117734640399000"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "303150223451250"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "90447648906420"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "24016970223630"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "232671066703380"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "62612837313120"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "15000311457540"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "3202136752500"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "159899573785770"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "38585390746320"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "8246265781590"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "1551757806180"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "252833332770"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "96979163616900"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "20722142873160"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "3875753666700"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "625821407820"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "84630907620"
+        },
+        {
+          "sorted_exponents": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "8882544240"
+        }
+      ]
+    },
+    {
+      "r": 4,
+      "monomial_count": 3125,
+      "expected_full_box_count": 3125,
+      "minimum_coefficient": "196604854823520",
+      "maximum_coefficient": "51681790325722799520",
+      "symmetric_orbit_coefficients": [
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "196604854823520"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1960587302267880"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "coefficient": "6499792908772020"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "coefficient": "8721744655389480"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          "coefficient": "4067871612124320"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "15544629117440280"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "44035258621685760"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            3
+          ],
+          "coefficient": "52918702977769200"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            1,
+            4
+          ],
+          "coefficient": "22814476075230840"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2,
+            2
+          ],
+          "coefficient": "109185681131429760"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2,
+            3
+          ],
+          "coefficient": "117513450552532320"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            2,
+            4
+          ],
+          "coefficient": "46323317106366300"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            3,
+            3
+          ],
+          "coefficient": "113574980140581960"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            3,
+            4
+          ],
+          "coefficient": "40423089000654360"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            0,
+            4,
+            4
+          ],
+          "coefficient": "12812426729182080"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "105101756402132880"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "263435425689674160"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "288325413799534800"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            1,
+            4
+          ],
+          "coefficient": "115770018827703240"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "590693575630972320"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "586389647042971200"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            2,
+            4
+          ],
+          "coefficient": "216706622032817280"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "527546835569098800"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            3,
+            4
+          ],
+          "coefficient": "177111001703563200"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            1,
+            4,
+            4
+          ],
+          "coefficient": "53265682456033320"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "1204949064396870000"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "1097463470811346080"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            2,
+            4
+          ],
+          "coefficient": "375845314040108640"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "914426111261229840"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            3,
+            4
+          ],
+          "coefficient": "286454788963892640"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            2,
+            4,
+            4
+          ],
+          "coefficient": "80934356419714980"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "703195156131315120"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "203002653427512120"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "53265682456033320"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            0,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "12812426729182080"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "625181420762210880"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "1412545056745613760"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "1423147200865232400"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": "535277566366586640"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "2892506573587662720"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "2665519077226384800"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": "927290154435511680"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "2240082349817637600"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            3,
+            4
+          ],
+          "coefficient": "711039237252980400"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            1,
+            4,
+            4
+          ],
+          "coefficient": "203002653427512120"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "5427472715495972640"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "4612055749523168400"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            2,
+            4
+          ],
+          "coefficient": "1491786816137876160"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "3599134667775619200"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficient": "1067852093555894400"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            2,
+            4,
+            4
+          ],
+          "coefficient": "286454788963892640"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "2597107601907010800"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "711039237252980400"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "177111001703563200"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            1,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "40423089000654360"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "9390839290223440320"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "7394842458254322720"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            2,
+            4
+          ],
+          "coefficient": "2231612198298455040"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "5370785309797846560"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            3,
+            4
+          ],
+          "coefficient": "1491786816137876160"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            2,
+            4,
+            4
+          ],
+          "coefficient": "375845314040108640"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "3613335416826518880"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "927290154435511680"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "216706622032817280"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            2,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "46323317106366300"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "2255190572841459840"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            3,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "535277566366586640"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            3,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "115770018827703240"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            3,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "22814476075230840"
+        },
+        {
+          "sorted_exponents": [
+            0,
+            4,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "4067871612124320"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "3319199036284769280"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "6826862887569545760"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": "6373385285971507200"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": "2255190572841459840"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": "12819748809581313120"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "11003355750987540000"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": "3613335416826518880"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": "8645341182417216000"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            3,
+            4
+          ],
+          "coefficient": "2597107601907010800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            1,
+            4,
+            4
+          ],
+          "coefficient": "703195156131315120"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "22129118136058976640"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "17557136801400232800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            2,
+            4
+          ],
+          "coefficient": "5370785309797846560"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "12813123593685376800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficient": "3599134667775619200"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            2,
+            4,
+            4
+          ],
+          "coefficient": "914426111261229840"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "8645341182417216000"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "2240082349817637600"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "527546835569098800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            1,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "113574980140581960"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "35220553447799350080"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "25897506492495268800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            2,
+            4
+          ],
+          "coefficient": "7394842458254322720"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "17557136801400232800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            3,
+            4
+          ],
+          "coefficient": "4612055749523168400"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            2,
+            4,
+            4
+          ],
+          "coefficient": "1097463470811346080"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "11003355750987540000"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "2665519077226384800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "586389647042971200"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            2,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "117513450552532320"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "6373385285971507200"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            3,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "1423147200865232400"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            3,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "288325413799534800"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            3,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "52918702977769200"
+        },
+        {
+          "sorted_exponents": [
+            1,
+            4,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "8721744655389480"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": "51681790325722799520"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2,
+            3
+          ],
+          "coefficient": "35220553447799350080"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            2,
+            4
+          ],
+          "coefficient": "9390839290223440320"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            3,
+            3
+          ],
+          "coefficient": "22129118136058976640"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            3,
+            4
+          ],
+          "coefficient": "5427472715495972640"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            2,
+            4,
+            4
+          ],
+          "coefficient": "1204949064396870000"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "12819748809581313120"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "2892506573587662720"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "590693575630972320"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            2,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "109185681131429760"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "6826862887569545760"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            3,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "1412545056745613760"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "263435425689674160"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            3,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "44035258621685760"
+        },
+        {
+          "sorted_exponents": [
+            2,
+            4,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "6499792908772020"
+        },
+        {
+          "sorted_exponents": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "coefficient": "3319199036284769280"
+        },
+        {
+          "sorted_exponents": [
+            3,
+            3,
+            3,
+            3,
+            4
+          ],
+          "coefficient": "625181420762210880"
+        },
+        {
+          "sorted_exponents": [
+            3,
+            3,
+            3,
+            4,
+            4
+          ],
+          "coefficient": "105101756402132880"
+        },
+        {
+          "sorted_exponents": [
+            3,
+            3,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "15544629117440280"
+        },
+        {
+          "sorted_exponents": [
+            3,
+            4,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "1960587302267880"
+        },
+        {
+          "sorted_exponents": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "coefficient": "196604854823520"
+        }
+      ]
+    }
+  ]
+}

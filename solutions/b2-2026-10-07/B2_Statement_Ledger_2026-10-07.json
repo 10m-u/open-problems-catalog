@@ -1,0 +1,2681 @@
+{
+  "schema_version": "1.0",
+  "programme": "B2",
+  "date": "2026-10-07",
+  "source_packet": {
+    "filename": "B2 Addition and Multiplication - Agent Handoff 2026-10-07.md",
+    "sha256": "1b2874d545cb8c4a89d721dc5a86353a2f7d3263919a10d8fe3585741166a307",
+    "authoritative_catalog_modified": false
+  },
+  "evidence_policy": {
+    "written_argument": "A complete mathematical proof or explicitly conditional implication in this report.",
+    "primary_source_comparison": "A retrieved dated primary text; no unperformed proof audit is implied.",
+    "finite_computation": "An actually run calculation with the declared domain and archived code/output.",
+    "compiled_formal_theorem": "None in this deliverable; this label is not assigned to any result.",
+    "status_scope": "Statement status partial/unresolved is separate from proved auxiliary results. No exact retained question is marked closed."
+  },
+  "summary": {
+    "tracked_statements": 48,
+    "provisional_statements": 5,
+    "exact_questions_closed": 0,
+    "statement_status_counts": {
+      "partial": 26,
+      "unresolved": 22
+    },
+    "auxiliary_result_status_counts": {
+      "proved": 24,
+      "scope-nonmatch": 2
+    }
+  },
+  "statements": [
+    {
+      "programme": "B2",
+      "q": 49,
+      "stable_statement_id": "d0a8503718ca529daf5a",
+      "title": "Retained statement",
+      "exact_retained_statement": "Set F(n)=n(n−1)(n+2). Are there only finitely many integer triples n_(1),n_(2),n_(3)≥2 satisfying [F(n_(1))+F(n_(2))−F(n_(3))]^(2)=4F(n_(1))F(n_(2))?",
+      "status": "partial",
+      "changed_assumptions": [
+        "All three indices<=1000000 for the finite exhaustion."
+      ],
+      "provisional": false,
+      "residual": "No argument bounds the minimum index of every resonance; global finiteness is unresolved.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Common-squarefree-kernel reduction and elementary effective inequalities b<4F(a)/9 and c<a+b for sorted resonances.",
+        "Exact exhaustion with all three indices in [2,1000000] gives only sorted triples (5,5,8) and (10,10,16).",
+        "The cited source already treats minimum index<=10000 with other indices unbounded; the new box is a different domain."
+      ],
+      "auxiliary_result_ids": [
+        "B2-R4"
+      ],
+      "artifacts": [
+        "research/root/root_results.md",
+        "research/root/q49_search.py",
+        "research/root/q49_search.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/pdf/2301.00115"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1312,
+      "stable_statement_id": "7e21e2d207cc4fd014a3",
+      "title": "An abc bound sensitive to the number of prime factors",
+      "exact_retained_statement": "For every ε>0, does some C_ε>0 satisfy c<C_ε H(abc)^{1+ε} for all coprime positive integers a, b, c with a+b=c?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [],
+      "findings": [],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1509,
+      "stable_statement_id": "ffda628de2bac43d0ec3",
+      "title": "Squarefree polynomial values",
+      "exact_retained_statement": "For every separable f∈Z[x] of degree≥4 with no fixed prime-square divisor, is #{1≤n≤X:f(n) squarefree}∼X∏_{p prime}(1−ρ_f(p²)/p²)?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Constituent factor asymptotics required; irreducible factors of degree≥5 remain unresolved."
+      ],
+      "provisional": false,
+      "residual": "A product-transfer theorem is proved. Factor degrees<=3 are unconditional using classical input. Factor degrees<=4 are conditional on the unverified imported quartic theorem; irreducible factors of degree>=5 remain outside this consequence.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Correct Euler-product squarefree asymptotics transfer to finite products of pairwise coprime separable factors. Unconditional factor-degree≤3 class; conditional imported quartic theorem expands cutoff to4."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A1",
+        "B2-SCOPE-020"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/pdf/1511.00601",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/020.md",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.lean"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1510,
+      "stable_statement_id": "88eed316b86c7cab6b69",
+      "title": "Squarefree values at primes",
+      "exact_retained_statement": "For every separable f∈Z[x] of degree≥4 with c_f>0, is N_f(X)∼c_f X/log X?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Constituent asymptotics must hold at prime arguments; the explicit example has prime local constant0 and is not a counterexample to retained statement."
+      ],
+      "provisional": false,
+      "residual": "Constituent prime-argument asymptotics are still required. Integer-argument statements do not supply them; general higher irreducible degrees remain unresolved.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison",
+        "finite_computation"
+      ],
+      "findings": [
+        "Prime-argument constituent asymptotics transfer to finite products. Integer-argument asymptotic does not supply this hypothesis. Explicit f=x(x+1)(x²+1) is integer-admissible but has only prime argument2 yielding a squarefree value."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A2"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [
+        "https://people.math.harvard.edu/~hpasten/preprints/SqfPrimIJNT.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1511,
+      "stable_statement_id": "0f88e5baee08af4d6f4f",
+      "title": "Terai’s Ramanujan–Nagell conjecture",
+      "exact_retained_statement": "For every integer k>1, is (x,y,z)=(k−1,1,2) the only positive-integer solution of x²+(2k−1)^y=k^z?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Proved subcase y in {3,5} and (z even or k a square); the full uniqueness conclusion is not asserted."
+      ],
+      "provisional": false,
+      "residual": "All other y, and y=3 or 5 with nonsquare k and odd z, remain outside the repaired partial theorem.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "No positive-integer solution exists when y is 3 or 5 and either z is even or k is a square. Repaired a false eventual-positivity threshold in source Lemma 2.3; verified all eight polynomial gap arguments and necessary small-base cases."
+      ],
+      "auxiliary_result_ids": [
+        "B2-D5"
+      ],
+      "artifacts": [
+        "research/diophantine/notes.md",
+        "research/diophantine/q1511_corrected_subcase.py",
+        "research/diophantine/q1511_corrected_subcase.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/pdf/2301.05431",
+        "https://arxiv.org/pdf/2210.04758"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "k>1 and x,y,z positive integers."
+    },
+    {
+      "programme": "B2",
+      "q": 1608,
+      "stable_statement_id": "a2149a20f47eba9e27ee",
+      "title": "Higher-exponent plus equation",
+      "exact_retained_statement": "Is (a^n+1)(b^n+1)=x² impossible for every n≥4?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Primary source retains the full conjecture; its 4-divides-n theorem is correctly scoped. Diagonal a=b examples are inadmissible."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/diophantine/notes.md"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2606.31223v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "All variables positive integers; 1<=a<b."
+    },
+    {
+      "programme": "B2",
+      "q": 1609,
+      "stable_statement_id": "56c577fc2add1efcbecd",
+      "title": "Cubic plus equation",
+      "exact_retained_statement": "Are the only solutions of (a³+1)(b³+1)=x² the triples (1,23,156), (6,26, 1953), and (20,362,616077)?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Retained source setup 1<=a<b and positive x; additional finite bound b<=10000000."
+      ],
+      "provisional": false,
+      "residual": "All b>10000000 remain outside the exact search.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "finite_computation",
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "The listed three triples are exactly all admissible solutions with b<=10000000."
+      ],
+      "auxiliary_result_ids": [
+        "B2-D4"
+      ],
+      "artifacts": [
+        "research/diophantine/notes.md",
+        "research/diophantine/cubic_squarecore.cpp",
+        "research/diophantine/cubic_squarecore_10000000.json",
+        "research/diophantine/validate_cubic_search.py",
+        "research/diophantine/cubic_search_validation.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2606.31223v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "All variables positive integers; 1<=a<b."
+    },
+    {
+      "programme": "B2",
+      "q": 1610,
+      "stable_statement_id": "746ff7ed37b5c6eff82f",
+      "title": "Higher-exponent Cohn equation",
+      "exact_retained_statement": "Is (a^n−1)(b^n−1)=x² impossible for every n≥5?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Primary source retains the full conjecture. Diagonal or a=1 examples are inadmissible."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/diophantine/notes.md"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2606.31223v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "All variables positive integers; 1<a<b."
+    },
+    {
+      "programme": "B2",
+      "q": 1611,
+      "stable_statement_id": "77f199e22acb02c0e966",
+      "title": "Cubic Cohn equation",
+      "exact_retained_statement": "Are the only solutions of (a³−1)(b³−1)=x² the triples (2,4,21), (2,22,273), (3,313,28236), and (4,22,819)?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Retained source setup 1<a<b and positive x; additional finite bound b<=10000000."
+      ],
+      "provisional": false,
+      "residual": "All b>10000000 remain outside the exact search.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "finite_computation",
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "The listed four triples are exactly all admissible solutions with b<=10000000."
+      ],
+      "auxiliary_result_ids": [
+        "B2-D4"
+      ],
+      "artifacts": [
+        "research/diophantine/notes.md",
+        "research/diophantine/cubic_squarecore.cpp",
+        "research/diophantine/cubic_squarecore_10000000.json",
+        "research/diophantine/validate_cubic_search.py",
+        "research/diophantine/cubic_search_validation.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2606.31223v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "All variables positive integers; 1<a<b."
+    },
+    {
+      "programme": "B2",
+      "q": 1612,
+      "stable_statement_id": "4211038b2f8f58510864",
+      "title": "Bounded degree of split S-polynomials",
+      "exact_retained_statement": "For every finite S, is there N(S) such that every S-polynomial f∈ℤ[x] splitting over ℚ has deg f≤N(S)?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Restrict S to finite prime sets excluding2 and3; this is a known source theorem, not a new proof."
+      ],
+      "provisional": false,
+      "residual": "General finite S, especially those containing 2 or 3, remains unresolved. The reported degree<=3 subcase is a source result.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "The checked primary source gives degree≤3 whenever2,3 are both absent from S."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [
+        "https://dea.lib.unideb.hu/bitstreams/b0c2409b-44fa-47f4-9edc-ed6df4b24ac8/download"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1613,
+      "stable_statement_id": "75f7fe19d171998305b3",
+      "title": "Prime-digit bound for split polynomials",
+      "exact_retained_statement": "For every prime p, does a constant c(p) bound the number of nonzero base-p digits of deg(f)+1 whenever f∈ℤ[x] splits over ℚ and no coefficient is divisible by p? Can c(p)=p−1 always be used?",
+      "status": "partial",
+      "changed_assumptions": [
+        "One-root-class restriction for arbitrary primes; p=3,5 computations/proofs were not rerun locally."
+      ],
+      "provisional": false,
+      "residual": "General primes with more than one nonzero root residue class, and the proposed universal p-1 digit bound, are not proved.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Exact equivalence to split finite-field polynomials with all coefficients nonzero. If all roots reduce to the same nonzero class, deg(f)+1 has one nonzero digit; entire p=2 case follows. Primary-source comparison confirms reported p=3,5 cases."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A7"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [
+        "https://dea.lib.unideb.hu/bitstreams/b0c2409b-44fa-47f4-9edc-ed6df4b24ac8/download",
+        "https://cs.uwaterloo.ca/journals/JIS/VOL28/Fokkink/fokkink9.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1860,
+      "stable_statement_id": "1bbd790f1e916985ec31",
+      "title": "Settle the rainbow Schur density",
+      "exact_retained_statement": "Is lim_(n→∞) Λ_(n,3)=9/22?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "The claimed limiting value 9/22 is neither proved nor disproved.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Exploratory three-color interval/residue searches did not beat 9/22; no certificate of optimality was produced."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/root/rainbow_grid_search.cpp",
+        "research/root/rainbow_grid_k3.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2609.18474v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1861,
+      "stable_statement_id": "17b96fc493616f6da52c",
+      "title": "Find the four-colour Schur density",
+      "exact_retained_statement": "Determine liminf_(n→∞) Λ_(n,4) and limsup_(n→∞) Λ_(n,4), including whether they coincide.",
+      "status": "partial",
+      "changed_assumptions": [
+        "No hypothesis restriction for the lower-bound theorem; only a one-sided conclusion from the retained determination problem is proved."
+      ],
+      "provisional": false,
+      "residual": "The exact liminf, limsup, and their equality remain unresolved; the cited upper bound 3/4 remains.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "finite_computation",
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Independently verified root-agent construction giving density50368/90905 by exact integer lattice counts at n=t·90905 for t=1,2,3,10,100; checked rectangle counting formula in2548 small cases.",
+        "Proved liminf Lambda_(n,4)>=50368/90905 with an explicit nine-interval coloring.",
+        "For all integers t>=1, R_(90905t)=2289351520t^2+25184t; an integer inclusion-exclusion identity certifies every scale."
+      ],
+      "auxiliary_result_ids": [
+        "B2-R1"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json",
+        "research/root/root_results.md",
+        "research/root/rainbow_exact.py",
+        "research/root/rainbow_exact_output.json",
+        "research/squarefree_algebra/verify_rainbow_interval.py",
+        "research/squarefree_algebra/rainbow_interval_verification.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2609.18474v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1903,
+      "stable_statement_id": "6f77af6017250e8f5f73",
+      "title": "Rational septuples",
+      "exact_retained_statement": "Does a rational Diophantine septuple exist?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1904,
+      "stable_statement_id": "ffe6233da22c4944b875",
+      "title": "Two integral entries",
+      "exact_retained_statement": "Does a rational Diophantine sextuple with at least two integer elements exist?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1905,
+      "stable_statement_id": "993c5519c53ce33a2045",
+      "title": "Strong rational quadruples",
+      "exact_retained_statement": "Do four distinct nonzero rationals a₁,…,a₄ exist with a_i a_j+1 a rational square for every 1≤i,j≤4?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1906,
+      "stable_statement_id": "ecfc3848aae38321043a",
+      "title": "A Diophantine K₃,₃",
+      "exact_retained_statement": "Do six distinct positive integers a₁,a₂,a₃,b₁,b₂,b₃ exist with a_i b_j+1 square for every i,j?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1907,
+      "stable_statement_id": "ef826ba72180d89f7c12",
+      "title": "Six positive integral solutions",
+      "exact_retained_statement": "Do distinct positive integers a₁,a₂,a₃ exist such that ∏_{i=1}³(a_i x+1) is square for at least six positive integers x?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1908,
+      "stable_statement_id": "86bfeed53339e892c665",
+      "title": "Mixed-sign extension identity",
+      "exact_retained_statement": "For every D(−1)-triple {a,b,c} and positive integer d with ad+1,bd+1,cd+1 squares, must (d+a+b−c)²=4(ab−1)(cd+1)?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1959,
+      "stable_statement_id": "65d0b4c5a86887c26fd5",
+      "title": "Bound projective-cube-free integer sets",
+      "exact_retained_statement": "Is the maximum size of a 3-cube-free subset of {1,…,N} at most (2/3+o(1))N as N→∞?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [],
+      "findings": [],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1960,
+      "stable_statement_id": "5bcb37e9988a37da8cc3",
+      "title": "Bound projective-cube-free cyclic sets",
+      "exact_retained_statement": "For all integers d≥2 and N divisible by d, must every d-cube-free A⊆Z/NZ satisfy |A|≤(d−1)N/d?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [],
+      "findings": [],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 1961,
+      "stable_statement_id": "dfe8135fbdbcd3117dc4",
+      "title": "Prove the five-eighths projective-cube bound",
+      "exact_retained_statement": "For every integer n≥3, must a projective-3-cube-free subset of Z/(2^n)Z have at most 5·2^(n−3) elements?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [],
+      "findings": [],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2008,
+      "stable_statement_id": "36753dcad26060a463f6",
+      "title": "Half-factorial class groups",
+      "exact_retained_statement": "Is every abelian group isomorphic to the ideal class group of a half-factorial Dedekind domain?",
+      "status": "unresolved",
+      "changed_assumptions": [
+        "None."
+      ],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "scope_review"
+      ],
+      "findings": [
+        "No new result in this lane."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2010,
+      "stable_statement_id": "9413185b6a31098502e0",
+      "title": "Torsion forces exceptional units",
+      "exact_retained_statement": "For prime N≥29, if E/K has a K-rational point of order N and N∤c(E/K), must M(K)≥(N−1)/2?",
+      "status": "unresolved",
+      "changed_assumptions": [
+        "None."
+      ],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "scope_review"
+      ],
+      "findings": [
+        "No new result in this lane."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2011,
+      "stable_statement_id": "910e657e85689a64c8c1",
+      "title": "Large sextic and septic unit cliques",
+      "exact_retained_statement": "Are there only finitely many Q-isomorphism classes of fields K with [K:Q]∈{6,7} and M(K)>7?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Necessary local restrictions only; no finiteness proof."
+      ],
+      "provisional": false,
+      "residual": "Necessary residue-degree restrictions do not establish finiteness of the field isomorphism classes.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "findings": [
+        "M(K)>7 forces no residue field of order≤7. Exact possible factorization types of2 are classified for degree6 and7; in degree7,2 must be unramified."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A8"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2187,
+      "stable_statement_id": "6a0c75d8af9af7e1c137",
+      "title": "Polylogarithmic Paley clique size",
+      "exact_retained_statement": "Do absolute C,K>0 satisfy ω(G_p)≤C(log p)^K for every prime p≡1 mod 4?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Finite computations restrict p to all primes <=300 congruent to 1 modulo 4."
+      ],
+      "provisional": false,
+      "residual": "The original asymptotic quantifiers are not established.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Global degree-two clique theta, even with entrywise nonnegativity, equals sqrt(p).",
+        "All 29 eligible prime clique numbers p<=300 exactly certified.",
+        "On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators."
+      ],
+      "auxiliary_result_ids": [
+        "B2-PAL-1",
+        "B2-PAL-4",
+        "B2-R3"
+      ],
+      "artifacts": [
+        "research/paley/paley_report.md",
+        "research/paley/results.csv",
+        "research/paley/verification.json",
+        "research/paley/certificates/",
+        "research/root/root_results.md"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2188,
+      "stable_statement_id": "277f454289360bbd69ef",
+      "title": "Polynomial gain from degree-four SOS",
+      "exact_retained_statement": "Does some ε>0 satisfy SOS₄(G_p)=O(p^{1/2−ε}) as p→∞ through primes p≡1 mod 4?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Finite computations restrict p to all primes <=300 congruent to 1 modulo 4."
+      ],
+      "provisional": false,
+      "residual": "The original asymptotic quantifiers are not established.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Proved SOS4(G_p)<=1+theta(complement(L_p)), where L_p is the one-local residue graph.",
+        "Ordinary one-local rational Fourier duals give certified finite SOS4 upper bounds for every eligible p<=300.",
+        "On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators."
+      ],
+      "auxiliary_result_ids": [
+        "B2-PAL-2",
+        "B2-PAL-4",
+        "B2-R3"
+      ],
+      "artifacts": [
+        "research/paley/paley_report.md",
+        "research/paley/results.csv",
+        "research/paley/verification.json",
+        "research/paley/certificates/",
+        "research/root/root_results.md"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2189,
+      "stable_statement_id": "b7cebb91447185f8bc65",
+      "title": "Infinitely many strict Schrijver improvements",
+      "exact_retained_statement": "Are there infinitely many such p with 1+τ₊(H_p)<⌊(1+√(2p−1))/2⌋?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Finite computations restrict p to all primes <=300 congruent to 1 modulo 4."
+      ],
+      "provisional": false,
+      "residual": "The original asymptotic quantifiers are not established.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Exactly p=61 and p=281 satisfy the strict inequality among eligible primes p<=300, with both directions certified.",
+        "The two examples are already present numerically in the source and are not claimed new.",
+        "On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators."
+      ],
+      "auxiliary_result_ids": [
+        "B2-PAL-4",
+        "B2-R3"
+      ],
+      "artifacts": [
+        "research/paley/paley_report.md",
+        "research/paley/results.csv",
+        "research/paley/verification.json",
+        "research/paley/certificates/",
+        "research/root/root_results.md"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2190,
+      "stable_statement_id": "858e236a2a78c67c9b1f",
+      "title": "Two-localization beats the leading constant",
+      "exact_retained_statement": "Does there exist ε>0 such that θ(H_p)≤(1/√2−ε)√p for all sufficiently large primes p≡1 mod 4?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Finite computations restrict p to all primes <=300 congruent to 1 modulo 4."
+      ],
+      "provisional": false,
+      "residual": "The original asymptotic quantifiers are not established.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Rational theta dual upper bounds certified on all 29 eligible primes p<=300.",
+        "After adding two and taking floors, 18/29 match the exact clique number and 21/29 improve the HP floor.",
+        "On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators."
+      ],
+      "auxiliary_result_ids": [
+        "B2-PAL-4",
+        "B2-R3"
+      ],
+      "artifacts": [
+        "research/paley/paley_report.md",
+        "research/paley/results.csv",
+        "research/paley/verification.json",
+        "research/paley/certificates/",
+        "research/root/root_results.md"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2191,
+      "stable_statement_id": "68bd7a5a8c3e1ff55f95",
+      "title": "Near-linear sparsity for the Paley frame",
+      "exact_retained_statement": "Do absolute C,α>0 and 0<δ<√2−1 exist such that (1−δ)||x||₂²≤||Φ_px||₂²≤(1+δ)||x||₂² for every x supported on at most Cp/(log p)^α coordinates and all sufficiently large such p?",
+      "status": "partial",
+      "changed_assumptions": [
+        "The coherence-saturation and first-gap theorems hold for every eligible prime and finite support size. Computations restrict p<=300. No near-linear sparsity estimate is proved."
+      ],
+      "provisional": false,
+      "residual": "The original asymptotic quantifiers are not established.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Proved delta_k=(k-1)/sqrt(p) if and only if k<=omega(G_p)+1.",
+        "For k>=omega+2, proved delta_k<=min(1,(k-4+sqrt(k^2+4k-12))/(2sqrt(p))).",
+        "Fixed-delta Q2191 must be distinguished from polynomially decaying RIP and stronger quantitative profiles in Satake.",
+        "On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators."
+      ],
+      "auxiliary_result_ids": [
+        "B2-PAL-3",
+        "B2-PAL-5",
+        "B2-R3"
+      ],
+      "artifacts": [
+        "research/paley/paley_report.md",
+        "research/paley/results.csv",
+        "research/paley/verification.json",
+        "research/paley/certificates/",
+        "research/root/root_results.md"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2203,
+      "stable_statement_id": "f44a7194398e19780ec5",
+      "title": "Uniform color bounds for linear equations",
+      "exact_retained_statement": "For every m≥1, does an integer r(m) exist such that every r(m)-regular E in m variables is regular?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [],
+      "findings": [],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2210,
+      "stable_statement_id": "be959fff2c1da528a958",
+      "title": "Realizing all finite factorization-length sets",
+      "exact_retained_statement": "For every finite nonempty L⊆{2,3,…}, does some A∈P satisfy L(A)=L?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Universal claim restricted to singleton L; bounded computation does not rule out witnesses beyond maximum16."
+      ],
+      "provisional": false,
+      "residual": "Arbitrary finite nonempty length sets remain unresolved; the exhaustive computation is restricted to sets in [0,16].",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "findings": [
+        "Every singleton length set{k} realized by a base-three Boolean cube. Exact exhaustive search of all65536 sets containing0 in[0,16] gives seven displayed length-set witnesses, independently checked."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A6"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2213,
+      "stable_statement_id": "ca6484e601099abf0ee7",
+      "title": "Prescribed product-one subsequence threshold",
+      "exact_retained_statement": "Is E(G)=d(G)+|G| for every finite nonabelian group G?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Remaining universal direction is E(G)≤d(G)+|G|. This is a standard necessary bound."
+      ],
+      "provisional": false,
+      "residual": "The reverse inequality E(G)<=d(G)+|G| remains the substantive universal target.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "findings": [
+        "Universal lower bound E(G)≥d(G)+|G| proved by adding |G|−1 identities to a product-one-free sequence."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A9"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2215,
+      "stable_statement_id": "235fbd589621177ad36d",
+      "title": "Additive irreducibility near the squares",
+      "exact_retained_statement": "If R⊆N satisfies |(R△Q)∩[1,X]|=o(√X) as X→∞, is it impossible to have R=A+B with A,B⊆N and |A|,|B|≥2?",
+      "status": "partial",
+      "changed_assumptions": [
+        "The full o(√X) perturbation class remains unresolved."
+      ],
+      "provisional": false,
+      "residual": "The necessary error lower bound is X^(1/3-o(1)); it does not exclude every o(sqrt(X)) perturbation, nor every o(X^(1/3)) perturbation.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "findings": [
+        "Any decomposition under the retained hypotheses has both summands infinite, A(X),B(X)=o(√X), liminf |(R\\Q)∩[1,X]|/X^(1/4)≥1, and the stronger bound E(X)≫_η X^(1/3−η) for every η>0. Thus irreducibility holds for perturbations O(X^(1/3−δ)) for any fixed δ>0."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A3"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2216,
+      "stable_statement_id": "df34eaaa5ab7e530f259",
+      "title": "Uniform bipartite square-tuple bound",
+      "exact_retained_statement": "Does an absolute C exist such that min(|A|,|B|)≤C for every ε∈{−1,1} and every pair with BD₂(ε)?",
+      "status": "unresolved",
+      "changed_assumptions": [
+        "None."
+      ],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "scope_review"
+      ],
+      "findings": [
+        "No new result in this lane."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2217,
+      "stable_statement_id": "19c8d772d81df73beca8",
+      "title": "Failure of almost atomicity in rank one",
+      "exact_retained_statement": "Does a cancellative torsion-free commutative monoid M with rank-one Grothendieck group exist such that M is almost atomic but P_fin(M) is not?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Necessary restriction; no rank-one counterexample or ascent theorem for accumulating Puiseux monoids."
+      ],
+      "provisional": false,
+      "residual": "The case of a proper nonnegative rational monoid with positive elements accumulating at zero remains unresolved.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Any counterexample must be a proper Puiseux monoid with positive elements accumulating at0. Groups and monoids with positive lower gap have atomic power monoids."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A10"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2501.03407v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2306,
+      "stable_statement_id": "c8a9d6037b292fdf3b04",
+      "title": "Imaginary quadratic Diophantine quintuple",
+      "exact_retained_statement": "Does some imaginary quadratic field K have a D(1)-quintuple in its ring of integers O_K?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2307,
+      "stable_statement_id": "388e074f811c33b3c869",
+      "title": "Rank four with maximal rational two-power torsion",
+      "exact_retained_statement": "Does an elliptic curve E/Q exist with E(Q)_tors≅C₂×C₈ and rank E(Q)=4?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2308,
+      "stable_statement_id": "b97d79c1f4837f05055a",
+      "title": "Infinitely many rank-two C₂×C₈ curves",
+      "exact_retained_statement": "Are there infinitely many elliptic curves E/Q with E(Q)_tors≅C₂×C₈ and rank E(Q)≥2?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2309,
+      "stable_statement_id": "c2919a57f718e86ebf52",
+      "title": "Six-torsion from an integral Diophantine triple",
+      "exact_retained_statement": "Does a Diophantine triple {a,b,c} exist whose curve y²=(ax+1)(bx+1)(cx+1) has rational torsion group C₂×C₆?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": false,
+      "residual": "No exact closure established in this session.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [],
+      "primary_sources": [
+        "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2314,
+      "stable_statement_id": "5a4ccc40e698f43e2bbe",
+      "title": "Polynomial families for a cubic product equation",
+      "exact_retained_statement": "Is {(x,y,z,t):xyz+t²+1=0} a finite union of polynomial families?",
+      "status": "partial",
+      "changed_assumptions": [
+        "One explicit polynomial family and its sign/permutation copies are studied, not every possible finite union."
+      ],
+      "provisional": false,
+      "residual": "The displayed dense family and its symmetries are incomplete; a different finite union of polynomial families is neither constructed nor excluded.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Constructed a Zariski-dense integer polynomial family with three parameters; gave an exact integer solution outside it and every sign/permutation copy. This is a limitation of that family, not a disproof of finite polynomial parametrization."
+      ],
+      "auxiliary_result_ids": [
+        "B2-D3"
+      ],
+      "artifacts": [
+        "research/diophantine/notes.md",
+        "research/diophantine/q2314_checks.py",
+        "research/diophantine/q2314_checks.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2404.08518v10"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "All variables integers; each polynomial family is the image of Z^r under integer-coefficient polynomials, with finite r>=0."
+    },
+    {
+      "programme": "B2",
+      "q": 2315,
+      "stable_statement_id": "fe5ce4fae3105179737a",
+      "title": "A nonzero point on a small ternary quartic",
+      "exact_retained_statement": "Does x⁴+x³y−y⁴+y³z+z⁴=0 have a solution (x,y,z)≠(0,0,0)?",
+      "status": "partial",
+      "changed_assumptions": [
+        "The proved solvability statement is over R and every Z_p, not over Z or Q."
+      ],
+      "provisional": false,
+      "residual": "Everywhere local solubility is proved; a nonzero rational/projective point, equivalently nonzero integer point, is not supplied.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "The projective quartic is smooth of genus 3 over Q and has a real point and a primitive Z_p point for every prime p. Therefore no finite modulus supplies a primitive local obstruction. Global nonzero integer existence remains unresolved."
+      ],
+      "auxiliary_result_ids": [
+        "B2-D1"
+      ],
+      "artifacts": [
+        "research/diophantine/notes.md",
+        "research/diophantine/q2315_local.py",
+        "research/diophantine/q2315_local.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2404.08518v10",
+        "https://math.mit.edu/~poonen/papers/curves.pdf"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "All variables integers."
+    },
+    {
+      "programme": "B2",
+      "q": 2316,
+      "stable_statement_id": "210ee10d0d0097b4ee16",
+      "title": "Integral solvability of a symmetric cubic",
+      "exact_retained_statement": "Does x³+x+y³+y+z³+z=xyz+1 have an integer solution?",
+      "status": "partial",
+      "changed_assumptions": [
+        "The explicit global point is rational; the proved integral solvability is over each Z_p separately."
+      ],
+      "provisional": false,
+      "residual": "The rational point and every-p-adic integral points do not supply an integer point.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Found exact rational point (-13/20,-79/20,21/5), proved Z_p-solubility for every prime, and ruled out any integer coordinate 0 or +/-1. Integer existence remains unresolved."
+      ],
+      "auxiliary_result_ids": [
+        "B2-D2"
+      ],
+      "artifacts": [
+        "research/diophantine/notes.md",
+        "research/diophantine/q2316_checks.py",
+        "research/diophantine/q2316_checks.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2404.08518v10",
+        "https://mathoverflow.net/questions/400714/can-you-solve-the-listed-smallest-open-diophantine-equations"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search.",
+      "source_setup": "All variables integers."
+    },
+    {
+      "programme": "B2",
+      "q": 2414,
+      "stable_statement_id": "fbf539f5a7f03f1da075",
+      "title": "Nicol’s cyclotomic-sum irreducibility",
+      "exact_retained_statement": "For every n,m>1, is the non-cyclotomic part of Φ_n(x)+Φ_m(x) either 2 or irreducible?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Both indices restricted to powers of2; numbering provisional."
+      ],
+      "provisional": true,
+      "residual": "Indices not both powers of two remain outside the proved subfamily.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison",
+        "finite_computation"
+      ],
+      "findings": [
+        "For n=2^r,m=2^s with r,s≥1, equal indices leave2 and unequal indices give an irreducible entire sum."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A4"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2610.05568v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2415,
+      "stable_statement_id": "a06b211ca02e3eb359fa",
+      "title": "Cyclotomic product plus one",
+      "exact_retained_statement": "For every n,m>1, is the non-cyclotomic part of Φ_n(x)Φ_m(x)+1 irreducible?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Equal indices restricted to powers of2; numbering provisional."
+      ],
+      "provisional": true,
+      "residual": "Pairs other than equal powers of two remain outside the proved subfamily.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison",
+        "finite_computation"
+      ],
+      "findings": [
+        "For n=m=2^r, r≥1, the polynomial is Eisenstein at2 and therefore irreducible."
+      ],
+      "auxiliary_result_ids": [
+        "B2-A5"
+      ],
+      "artifacts": [
+        "research/squarefree_algebra/notes.md",
+        "research/squarefree_algebra/statement_ledger.json"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2610.05568v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2462,
+      "stable_statement_id": "ab65e680b82754944885",
+      "title": "Evaluate nondegenerate limiting densities",
+      "exact_retained_statement": "If no nonempty subset of the coefficients sums to zero, determine lim_(ε↓0)d(L,ε).",
+      "status": "partial",
+      "changed_assumptions": [
+        "All coefficients equal one fixed nonzero integer c for the evaluated density."
+      ],
+      "provisional": true,
+      "residual": "Arbitrary nondegenerate integer coefficient tuples are not evaluated.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "For every fixed k>=3 and nonzero integer c, the equation c(x1+...+xk)=0 satisfies d(L,epsilon)=1/k for every fixed epsilon>0.",
+        "The general epsilon-down-to-zero limit exists by monotonicity; its value for arbitrary nondegenerate coefficients remains unresolved."
+      ],
+      "auxiliary_result_ids": [
+        "B2-R2"
+      ],
+      "artifacts": [
+        "research/root/root_results.md"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2507.22831v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2468,
+      "stable_statement_id": "3529c68ac8a3205e8a47",
+      "title": "Determine the Schur chromatic threshold",
+      "exact_retained_statement": "What is the exact value of δχ?",
+      "status": "unresolved",
+      "changed_assumptions": [],
+      "provisional": true,
+      "residual": "No new exact value or quantitative bound for the retained Schur chromatic threshold is established.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "Primary-source qualitative threshold classification does not give the exact Schur threshold.",
+        "Small Cayley independence number and unbounded Cayley chromatic number are distinct constraints; fixed integer scalar multiplication alone does not introduce a second independent group law."
+      ],
+      "auxiliary_result_ids": [],
+      "artifacts": [
+        "research/root/root_results.md"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2603.05490v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    },
+    {
+      "programme": "B2",
+      "q": 2469,
+      "stable_statement_id": "d4554ad68bb1d9e77596",
+      "title": "Strength of inhomogeneous ring regularity",
+      "exact_retained_statement": "What is the reverse-mathematical strength over RCA₀ of the assertion: for every commutative ring R, finite m×n matrix A over R and nonzero b∈R^m, if Ax=b has no constant solution, some finite coloring of R has no monochromatic solution?",
+      "status": "partial",
+      "changed_assumptions": [
+        "Countable coded commutative rings, as required for the retained second-order arithmetic statement; no additional ring hypothesis. Only an upper bound on logical strength is proved."
+      ],
+      "provisional": true,
+      "residual": "No WKL0 reversal, lower bound on the optimal color count, or exact reverse-mathematical classification is proved.",
+      "exact_scope_status": "unresolved",
+      "exact_question_closed": false,
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "findings": [
+        "WKL0 proves the retained ring-coloring assertion over RCA0, with at most [3(n-1)]^(n-1) colors for n>=2 and one color for n<=1.",
+        "A finite-presentation construction avoids comprehension of the range sR; supplied finite integer matrices are diagonalized by an explicit primitive-recursive algorithm.",
+        "Every PA degree relative to the input can compute a witnessing coloring."
+      ],
+      "auxiliary_result_ids": [
+        "B2-R5"
+      ],
+      "artifacts": [
+        "research/paley/q2469_wkl_review.md"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/html/2504.09235v1"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "source_status": "The attachment records no exact closure; that historical statement is not itself a renewed literature search."
+    }
+  ],
+  "auxiliary_results": [
+    {
+      "result_id": "B2-R1",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 1861,
+          "stable_statement_id": "17b96fc493616f6da52c",
+          "provisional": false,
+          "exact_retained_statement": "Determine liminf_(n→∞) Λ_(n,4) and limsup_(n→∞) Λ_(n,4), including whether they coincide."
+        }
+      ],
+      "status": "proved",
+      "statement": "liminf Lambda_(n,4)>=50368/90905; exact nine-interval count R_(90905t)=2289351520t^2+25184t for every integer t>=1.",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "proof_location": "Part A, section 1",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-R2",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2462,
+          "stable_statement_id": "ab65e680b82754944885",
+          "provisional": true,
+          "exact_retained_statement": "If no nonempty subset of the coefficients sums to zero, determine lim_(ε↓0)d(L,ε)."
+        }
+      ],
+      "status": "proved",
+      "statement": "For every fixed k>=3, c!=0, and epsilon>0, d(c(x1+...+xk)=0,epsilon)=1/k.",
+      "changed_assumptions": [
+        "Equal coefficients."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part A, section 2",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-R3",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2187,
+          "stable_statement_id": "6a0c75d8af9af7e1c137",
+          "provisional": false,
+          "exact_retained_statement": "Do absolute C,K>0 satisfy ω(G_p)≤C(log p)^K for every prime p≡1 mod 4?"
+        },
+        {
+          "q": 2188,
+          "stable_statement_id": "277f454289360bbd69ef",
+          "provisional": false,
+          "exact_retained_statement": "Does some ε>0 satisfy SOS₄(G_p)=O(p^{1/2−ε}) as p→∞ through primes p≡1 mod 4?"
+        },
+        {
+          "q": 2189,
+          "stable_statement_id": "b7cebb91447185f8bc65",
+          "provisional": false,
+          "exact_retained_statement": "Are there infinitely many such p with 1+τ₊(H_p)<⌊(1+√(2p−1))/2⌋?"
+        },
+        {
+          "q": 2190,
+          "stable_statement_id": "858e236a2a78c67c9b1f",
+          "provisional": false,
+          "exact_retained_statement": "Does there exist ε>0 such that θ(H_p)≤(1/√2−ε)√p for all sufficiently large primes p≡1 mod 4?"
+        },
+        {
+          "q": 2191,
+          "stable_statement_id": "68bd7a5a8c3e1ff55f95",
+          "provisional": false,
+          "exact_retained_statement": "Do absolute C,α>0 and 0<δ<√2−1 exist such that (1−δ)||x||₂²≤||Φ_px||₂²≤(1+δ)||x||₂² for every x supported on at most Cp/(log p)^α coordinates and all sufficiently large such p?"
+        }
+      ],
+      "status": "proved",
+      "statement": "The two completed orthonormal character bases on the (p-1)-dimensional mean-zero space have overlap magnitude 1/sqrt(p-1); rs>=p-1. Every nonconstant rational function has full nonzero additive Fourier support.",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part A, section 3",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-R4",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 49,
+          "stable_statement_id": "d0a8503718ca529daf5a",
+          "provisional": false,
+          "exact_retained_statement": "Set F(n)=n(n−1)(n+2). Are there only finitely many integer triples n_(1),n_(2),n_(3)≥2 satisfying [F(n_(1))+F(n_(2))−F(n_(3))]^(2)=4F(n_(1))F(n_(2))?"
+        }
+      ],
+      "status": "proved",
+      "statement": "For sorted resonances, b<4F(a)/9 and c<a+b. In the box 2<=a<=b<c<=1000000 exactly (5,5,8),(10,10,16) occur.",
+      "changed_assumptions": [
+        "All indices bounded by 1000000 for the finite classification."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "proof_location": "Part A, section 4",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-R5",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2469,
+          "stable_statement_id": "d4554ad68bb1d9e77596",
+          "provisional": true,
+          "exact_retained_statement": "What is the reverse-mathematical strength over RCA₀ of the assertion: for every commutative ring R, finite m×n matrix A over R and nonzero b∈R^m, if Ax=b has no constant solution, some finite coloring of R has no monochromatic solution?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Over RCA0, WKL0 implies the ring-coloring assertion, with q(n)=[3(n-1)]^(n-1) colors for n>=2. The finite feasibility lemma is proved by explicit integer-matrix diagonalization.",
+      "changed_assumptions": [
+        "Only the upper logical bound is proved."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "primary_source_comparison"
+      ],
+      "proof_location": "Part E",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-PAL-1",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2187,
+          "stable_statement_id": "6a0c75d8af9af7e1c137",
+          "provisional": false,
+          "exact_retained_statement": "Do absolute C,K>0 satisfy ω(G_p)≤C(log p)^K for every prime p≡1 mod 4?"
+        }
+      ],
+      "status": "proved",
+      "statement": "For every prime p congruent to 1 mod 4, global clique theta, global Schrijver clique theta, and degree-2 SOS all equal sqrt(p).",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part B; paley_report.md, section 2",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-PAL-2",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2188,
+          "stable_statement_id": "277f454289360bbd69ef",
+          "provisional": false,
+          "exact_retained_statement": "Does some ε>0 satisfy SOS₄(G_p)=O(p^{1/2−ε}) as p→∞ through primes p≡1 mod 4?"
+        }
+      ],
+      "status": "proved",
+      "statement": "For every finite vertex-transitive graph G, SOS4(G)<=1+theta(complement of its neighborhood graph). In particular this holds for every Paley G_p.",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part B; paley_report.md, section 3",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-PAL-3",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2191,
+          "stable_statement_id": "68bd7a5a8c3e1ff55f95",
+          "provisional": false,
+          "exact_retained_statement": "Do absolute C,α>0 and 0<δ<√2−1 exist such that (1−δ)||x||₂²≤||Φ_px||₂²≤(1+δ)||x||₂² for every x supported on at most Cp/(log p)^α coordinates and all sufficiently large such p?"
+        }
+      ],
+      "status": "proved",
+      "statement": "For every eligible p and integer 1<=k<=p+1, delta_k=(k-1)/sqrt(p) iff k<=omega(G_p)+1. If k>=omega+2 then delta_k<=min(1,(k-4+sqrt(k^2+4k-12))/(2sqrt(p))).",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part B; paley_report.md, section 4",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-PAL-4",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2187,
+          "stable_statement_id": "6a0c75d8af9af7e1c137",
+          "provisional": false,
+          "exact_retained_statement": "Do absolute C,K>0 satisfy ω(G_p)≤C(log p)^K for every prime p≡1 mod 4?"
+        },
+        {
+          "q": 2188,
+          "stable_statement_id": "277f454289360bbd69ef",
+          "provisional": false,
+          "exact_retained_statement": "Does some ε>0 satisfy SOS₄(G_p)=O(p^{1/2−ε}) as p→∞ through primes p≡1 mod 4?"
+        },
+        {
+          "q": 2189,
+          "stable_statement_id": "b7cebb91447185f8bc65",
+          "provisional": false,
+          "exact_retained_statement": "Are there infinitely many such p with 1+τ₊(H_p)<⌊(1+√(2p−1))/2⌋?"
+        },
+        {
+          "q": 2190,
+          "stable_statement_id": "858e236a2a78c67c9b1f",
+          "provisional": false,
+          "exact_retained_statement": "Does there exist ε>0 such that θ(H_p)≤(1/√2−ε)√p for all sufficiently large primes p≡1 mod 4?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Exact finite results for all 29 primes p<=300, p congruent to 1 mod4, as enumerated in verification.json.",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "finite_computation",
+        "written_argument"
+      ],
+      "proof_location": "Part B; finite experiment",
+      "artifacts": [
+        "research/paley/paley_experiment.py",
+        "research/paley/verify_paley.py",
+        "research/paley/results.csv",
+        "research/paley/results.json",
+        "research/paley/run.log",
+        "research/paley/verification.json",
+        "research/paley/verification.log",
+        "research/paley/certificates/"
+      ],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-PAL-5",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2191,
+          "stable_statement_id": "68bd7a5a8c3e1ff55f95",
+          "provisional": false,
+          "exact_retained_statement": "Do absolute C,α>0 and 0<δ<√2−1 exist such that (1−δ)||x||₂²≤||Φ_px||₂²≤(1+δ)||x||₂² for every x supported on at most Cp/(log p)^α coordinates and all sufficiently large such p?"
+        }
+      ],
+      "status": "scope-nonmatch",
+      "statement": "Theorem 18 and the quantitative Conjecture29 in Satake2405.08608v2 have stronger RIP-constant hypotheses than retained Q2191 and cannot be imported merely by citation substitution.",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "proof_location": "Part B; paley_report.md, section 4",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A1",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 1509,
+          "stable_statement_id": "ffda628de2bac43d0ec3",
+          "provisional": false,
+          "exact_retained_statement": "For every separable f∈Z[x] of degree≥4 with no fixed prime-square divisor, is #{1≤n≤X:f(n) squarefree}∼X∏_{p prime}(1−ρ_f(p²)/p²)?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Correct squarefree Euler-product asymptotics for pairwise coprime separable factors imply the correct asymptotic for their finite product.",
+      "changed_assumptions": [
+        "Constituent asymptotics are hypotheses; the transfer implication is unconditional."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 1",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A2",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 1510,
+          "stable_statement_id": "88eed316b86c7cab6b69",
+          "provisional": false,
+          "exact_retained_statement": "For every separable f∈Z[x] of degree≥4 with c_f>0, is N_f(X)∼c_f X/log X?"
+        }
+      ],
+      "status": "proved",
+      "statement": "The analogous transfer holds at prime arguments using constituent prime asymptotics; f=x(x+1)(x^2+1) has no fixed square divisor but only prime argument2 gives a squarefree value.",
+      "changed_assumptions": [
+        "Prime constituent asymptotics are required. The example has zero prime local constant and is not a Q1510 counterexample."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "proof_location": "Part C, section 2",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A3",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2215,
+          "stable_statement_id": "235fbd589621177ad36d",
+          "provisional": false,
+          "exact_retained_statement": "If R⊆N satisfies |(R△Q)∩[1,X]|=o(√X) as X→∞, is it impossible to have R=A+B with A,B⊆N and |A|,|B|≥2?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Any retained near-square decomposition has E(X)>>_eta X^(1/3-eta) for every eta>0; hence perturbations O(X^(1/3-delta)) with delta>0 cannot decompose.",
+      "changed_assumptions": [
+        "Stronger error restriction for the irreducibility corollary."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 3",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A4",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2414,
+          "stable_statement_id": "fbf539f5a7f03f1da075",
+          "provisional": true,
+          "exact_retained_statement": "For every n,m>1, is the non-cyclotomic part of Φ_n(x)+Φ_m(x) either 2 or irreducible?"
+        }
+      ],
+      "status": "proved",
+      "statement": "The retained noncyclotomic-sum conclusion holds whenever n and m are powers of two.",
+      "changed_assumptions": [
+        "n=2^r,m=2^s,r,s>=1."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 4",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A5",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2415,
+          "stable_statement_id": "a06b211ca02e3eb359fa",
+          "provisional": true,
+          "exact_retained_statement": "For every n,m>1, is the non-cyclotomic part of Φ_n(x)Φ_m(x)+1 irreducible?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Phi_n(x)^2+1 is irreducible when n is a power of two.",
+      "changed_assumptions": [
+        "n=m=2^r,r>=1."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 4",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A6",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2210,
+          "stable_statement_id": "be959fff2c1da528a958",
+          "provisional": false,
+          "exact_retained_statement": "For every finite nonempty L⊆{2,3,…}, does some A∈P satisfy L(A)=L?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Every singleton length set {k}, k>=2, is realized; all65536 finite subsets of [0,16] containing0 were exhausted and seven displayed length-set witnesses independently checked.",
+      "changed_assumptions": [
+        "Finite search bound max(A)<=16; general theorem treats singleton length sets."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "proof_location": "Part C, section 5",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A7",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 1613,
+          "stable_statement_id": "75f7fe19d171998305b3",
+          "provisional": false,
+          "exact_retained_statement": "For every prime p, does a constant c(p) bound the number of nonzero base-p digits of deg(f)+1 whenever f∈ℤ[x] splits over ℚ and no coefficient is divisible by p? Can c(p)=p−1 always be used?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Exact reduction to split finite-field polynomials with every coefficient nonzero; if all roots have one nonzero residue class, degree+1 has exactly one nonzero base-p digit. This includes all of p=2.",
+      "changed_assumptions": [
+        "One root residue class, or p=2."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 6",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A8",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2011,
+          "stable_statement_id": "910e657e85689a64c8c1",
+          "provisional": false,
+          "exact_retained_statement": "Are there only finitely many Q-isomorphism classes of fields K with [K:Q]∈{6,7} and M(K)>7?"
+        }
+      ],
+      "status": "proved",
+      "statement": "M(K)<=#(O_K/p) for every prime ideal; resulting residue-degree restrictions above2,3,5,7 are necessary for M(K)>7, including unramified2 in degree7.",
+      "changed_assumptions": [
+        "Necessary conditions, not field finiteness."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 6",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A9",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2213,
+          "stable_statement_id": "ca6484e601099abf0ee7",
+          "provisional": false,
+          "exact_retained_statement": "Is E(G)=d(G)+|G| for every finite nonabelian group G?"
+        }
+      ],
+      "status": "proved",
+      "statement": "E(G)>=d(G)+|G| for every finite group.",
+      "changed_assumptions": [
+        "Only one inequality."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 6",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-A10",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2217,
+          "stable_statement_id": "19c8d772d81df73beca8",
+          "provisional": false,
+          "exact_retained_statement": "Does a cancellative torsion-free commutative monoid M with rank-one Grothendieck group exist such that M is almost atomic but P_fin(M) is not?"
+        }
+      ],
+      "status": "proved",
+      "statement": "Groups and nonnegative rank-one monoids with a positive lower gap have atomic finite power monoids. A counterexample must be a proper Puiseux monoid accumulating at0.",
+      "changed_assumptions": [
+        "Excludes only the specified cases."
+      ],
+      "evidence_labels": [
+        "written_argument"
+      ],
+      "proof_location": "Part C, section 6",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-D1",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2315,
+          "stable_statement_id": "fe5ce4fae3105179737a",
+          "provisional": false,
+          "exact_retained_statement": "Does x⁴+x³y−y⁴+y³z+z⁴=0 have a solution (x,y,z)≠(0,0,0)?"
+        }
+      ],
+      "status": "proved",
+      "statement": "The quartic has a primitive Z_p point for every prime and a real point. Thus no modulus obstructs primitive solvability.",
+      "changed_assumptions": [
+        "Local and real solvability; global rational/integer existence not established."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "proof_location": "Part D, section 2",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-D2",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2316,
+          "stable_statement_id": "210ee10d0d0097b4ee16",
+          "provisional": false,
+          "exact_retained_statement": "Does x³+x+y³+y+z³+z=xyz+1 have an integer solution?"
+        }
+      ],
+      "status": "proved",
+      "statement": "(-13/20,-79/20,21/5) is a rational point; integral local points exist for every prime; any integer point has every coordinate odd and none 0,+1,-1.",
+      "changed_assumptions": [
+        "Rational and local solvability; no integer point supplied."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "proof_location": "Part D, section 3",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-D3",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 2314,
+          "stable_statement_id": "5a4ccc40e698f43e2bbe",
+          "provisional": false,
+          "exact_retained_statement": "Is {(x,y,z,t):xyz+t²+1=0} a finite union of polynomial families?"
+        }
+      ],
+      "status": "proved",
+      "statement": "The displayed three-parameter polynomial family is Zariski dense but misses (-13,13,29,70), as do all of its sign/permutation copies.",
+      "changed_assumptions": [
+        "One specified family, not arbitrary finite unions."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "proof_location": "Part D, section 4",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-D4",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 1609,
+          "stable_statement_id": "56c577fc2add1efcbecd",
+          "provisional": false,
+          "exact_retained_statement": "Are the only solutions of (a³+1)(b³+1)=x² the triples (1,23,156), (6,26, 1953), and (20,362,616077)?"
+        },
+        {
+          "q": 1611,
+          "stable_statement_id": "77f199e22acb02c0e966",
+          "provisional": false,
+          "exact_retained_statement": "Are the only solutions of (a³−1)(b³−1)=x² the triples (2,4,21), (2,22,273), (3,313,28236), and (4,22,819)?"
+        }
+      ],
+      "status": "proved",
+      "statement": "For b<=10000000 the retained lists are complete under 1<=a<b (plus) and 1<a<b (minus).",
+      "changed_assumptions": [
+        "Additional bound b<=10000000."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation"
+      ],
+      "proof_location": "Part D, section 5",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-D5",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 1511,
+          "stable_statement_id": "0f88e5baee08af4d6f4f",
+          "provisional": false,
+          "exact_retained_statement": "For every integer k>1, is (x,y,z)=(k−1,1,2) the only positive-integer solution of x²+(2k−1)^y=k^z?"
+        }
+      ],
+      "status": "proved",
+      "statement": "No positive solution exists for y in {3,5} and either even z or square k; the source gap-polynomial threshold is repaired and fully checked.",
+      "changed_assumptions": [
+        "The specified partial subcase; already claimed in the source."
+      ],
+      "evidence_labels": [
+        "written_argument",
+        "finite_computation",
+        "primary_source_comparison"
+      ],
+      "proof_location": "Part D, section 6",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    },
+    {
+      "result_id": "B2-SCOPE-020",
+      "programme": "B2",
+      "targets": [
+        {
+          "q": 1509,
+          "stable_statement_id": "ffda628de2bac43d0ec3",
+          "provisional": false,
+          "exact_retained_statement": "For every separable f∈Z[x] of degree≥4 with no fixed prime-square divisor, is #{1≤n≤X:f(n) squarefree}∼X∏_{p prime}(1−ρ_f(p²)/p²)?"
+        }
+      ],
+      "status": "scope-nonmatch",
+      "statement": "The pinned comparator allDegrees ends in by sorry; it is not a local completed formal proof. The d-2-free scope specializes to squarefree only for d=4.",
+      "changed_assumptions": [],
+      "evidence_labels": [
+        "primary_source_comparison"
+      ],
+      "proof_location": "Part C, section 1",
+      "artifacts": [],
+      "compiled_formal_theorem": false,
+      "novelty_claim": false,
+      "conditional": false
+    }
+  ],
+  "experiments": [
+    {
+      "id": "four_color_discovery",
+      "purpose": "Find an explicit high-density coloring; no upper-bound or optimality claim.",
+      "domain": "Piecewise constant colorings with interval and residue classes; exact final family has nine intervals.",
+      "generator": "Seeded local improvement in rainbow_search.py and rainbow_grid_search.cpp; rational stationary calculation in rainbow_exact.py.",
+      "permitted_observations": "Color assignments and exact or numerical counts of rainbow triples.",
+      "loss": "Negative ordered rainbow-triple density.",
+      "seed": "20261007; C++ uses20261007+number_of_colors",
+      "resource_budget": "Initial parity grid240 with30 restarts and100 sweeps; saved C++ grid runs use120 or500 restarts,180 sweeps, and25-second per-run cap.",
+      "controls": "Exact Fraction integration; symbolic integer all-t coefficients; independent integer rectangle enumeration and2548 brute-force cases.",
+      "artifacts": [
+        "research/root/rainbow_search.py",
+        "research/root/rainbow_search_output.json",
+        "research/root/rainbow_grid_search.cpp",
+        "research/root/rainbow_grid_k3.json",
+        "research/root/rainbow_grid_k4.json",
+        "research/root/rainbow_grid_k4_m240.json",
+        "research/root/rainbow_exact.py",
+        "research/root/rainbow_exact_output.json",
+        "research/squarefree_algebra/rainbow_interval_verification.json"
+      ],
+      "uncertainty": "Heuristic search is incomplete; the displayed coloring is rigorously certified without assuming the search was optimal."
+    },
+    {
+      "id": "paley",
+      "purpose": "Certify finite cliques and justified relaxation bounds.",
+      "domain": "All29 primes p<=300 with p=1mod4.",
+      "generator": "paley_experiment.py",
+      "permitted_observations": "Explicit adjacency, clique witnesses, optimization candidates and certificate residuals.",
+      "loss": "Negative clique size for search; theta primal/dual objectives for candidate optimization.",
+      "seed": null,
+      "resource_budget": "At most4 smooth optimization stages,250 iterations per stage per finite graph; actual generator6.635s and verifier1.682s recorded.",
+      "controls": "Independent integer clique trees, rational Fourier interval primal/dual checks, rational Gram plus diagonal-dominance PSD certificates.",
+      "artifacts": [
+        "research/paley/results.csv",
+        "research/paley/results.json",
+        "research/paley/certificates/",
+        "research/paley/verification.json"
+      ],
+      "uncertainty": "Finite prime range; two-local SDP certificates need not be optimal; no asymptotic inference."
+    },
+    {
+      "id": "cubic_square_products",
+      "purpose": "Exhaustively test the two retained cubic solution lists.",
+      "domain": "1<=a<b<=10^7 for plus;2<=a<b<=10^7 for minus.",
+      "generator": "cubic_squarecore.cpp",
+      "permitted_observations": "Exact squarefree-core collisions and integer-square checks.",
+      "loss": "None: exact decision enumeration.",
+      "seed": null,
+      "resource_budget": "Approximately0.5GiB and one minute; actual10^7 run9.22701s.",
+      "controls": "Every core quotient is checked square; independent direct product testing for all b<=1000; arbitrary-precision substitution of every witness.",
+      "artifacts": [
+        "research/diophantine/cubic_squarecore.cpp",
+        "research/diophantine/cubic_squarecore_10000000.json",
+        "research/diophantine/cubic_search_validation.json"
+      ],
+      "uncertainty": "No assertion about b>10^7."
+    },
+    {
+      "id": "q49",
+      "purpose": "Exact resonance box verification.",
+      "domain": "Every index2..1000000.",
+      "generator": "q49_search.py",
+      "permitted_observations": "Squarefree kernel and exact root-sum comparisons.",
+      "loss": "None: exact decision enumeration.",
+      "seed": null,
+      "resource_budget": "Fixed one-million endpoint; completed2.266855406s.",
+      "controls": "Integer kernel factorization and direct original-equation substitution.",
+      "artifacts": [
+        "research/root/q49_search.py",
+        "research/root/q49_search.json"
+      ],
+      "uncertainty": "Box scope does not include all triples with bounded minimum index."
+    },
+    {
+      "id": "power_monoid",
+      "purpose": "Exact bounded factorization-length classification.",
+      "domain": "All65536 subsets of[0,16] containing0.",
+      "generator": "power_monoid_search.py",
+      "permitted_observations": "All Minkowski decompositions within the maximum bound.",
+      "loss": "None: exact dynamic programming.",
+      "seed": null,
+      "resource_budget": "Maximum16;229504 nonunit unordered factor pairs.",
+      "controls": "Independent recursive ordinary-set verifier for seven displayed witnesses.",
+      "artifacts": [
+        "research/squarefree_algebra/power_monoid_lengths_u32le.bin",
+        "research/squarefree_algebra/power_monoid_output.json",
+        "research/squarefree_algebra/verification_output.json"
+      ],
+      "uncertainty": "No exclusion of other length sets at larger maximum."
+    },
+    {
+      "id": "q2316_rational",
+      "purpose": "Find a rational witness and verify it exactly.",
+      "domain": "Denominator2..30 and-100<=a<=100; stopped at first witness, denominator20.",
+      "generator": "q2316_rational_search.py",
+      "permitted_observations": "Exact divisor identities and square checks.",
+      "loss": "None: witness search.",
+      "seed": null,
+      "resource_budget": "Fixed small parameter caps.",
+      "controls": "Separate Fraction substitution and Hensel residue witnesses at2 and5.",
+      "artifacts": [
+        "research/diophantine/q2316_rational_search.py",
+        "research/diophantine/q2316_rational_search.json",
+        "research/diophantine/q2316_checks.json"
+      ],
+      "uncertainty": "Not an exhaustive integer-point height search; not an integer witness."
+    },
+    {
+      "id": "q1511_repair",
+      "purpose": "Verify the repaired infinite subcase via polynomial positivity plus exhaustive finite remainders.",
+      "domain": "Eight specified gap polynomials with certified eventual thresholds and all smaller positive integer arguments.",
+      "generator": "q1511_corrected_subcase.py",
+      "permitted_observations": "Exact coefficients, shifted sign certificates, square tests, factor power checks.",
+      "loss": "None: exact certificate verification.",
+      "seed": null,
+      "resource_budget": "27361 finite square tests,18 small-k and19 square-base cases.",
+      "controls": "Exact polynomial identity and nonnegative shifted coefficients with positive constant terms.",
+      "artifacts": [
+        "research/diophantine/q1511_corrected_subcase.py",
+        "research/diophantine/q1511_corrected_subcase.json"
+      ],
+      "uncertainty": "Only y=3,5 with even z or square k; no full uniqueness theorem."
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "KY2024",
+      "url": "https://arxiv.org/html/2211.02713v2",
+      "version": "v2, 2024-04-25",
+      "locations": [
+        "Conjecture 1.1",
+        "Theorem 1.2",
+        "Section 6"
+      ],
+      "finding": "Retains polylogarithmic clique target and polynomial degree-four SOS improvement; proves relaxation lower bound c*p^(1/3). Proof not independently audited."
+    },
+    {
+      "id": "MMP2019",
+      "url": "https://arxiv.org/html/1907.05971v1",
+      "version": "v1, 2019-07-12",
+      "locations": [
+        "Propositions 2–4",
+        "Conjecture 6",
+        "Table 1"
+      ],
+      "finding": "One-local circulant Fourier LP; source table already includes strict numerical improvements at p=61 and 281."
+    },
+    {
+      "id": "Kun2023",
+      "url": "https://arxiv.org/html/2303.16475v1",
+      "version": "v1, 2023-03-29",
+      "locations": [
+        "Theorem 1.19",
+        "Appendix A, Conjecture A.1"
+      ],
+      "finding": "Two-local theta constant target remains conjectural in this source."
+    },
+    {
+      "id": "R2026",
+      "url": "https://arxiv.org/html/2603.29571v1",
+      "version": "v1, 2026-03-31",
+      "locations": [
+        "Entry 12, Conjectures 25–29"
+      ],
+      "finding": "Dated 2026 restatement of main Paley targets, not a current-resolution certificate."
+    },
+    {
+      "id": "BFMW2012",
+      "url": "https://arxiv.org/pdf/1202.1234v2",
+      "version": "v2, 2012-02-23; journal 2013",
+      "locations": [
+        "Theorem 20, printed p.14",
+        "Conjecture 25, printed p.20"
+      ],
+      "finding": "Original Conjecture 25 is fixed-delta near-linear sparsity, as retained in Q2191. Initial coherence-saturation identity is Theorem 20.",
+      "downloaded_file": "source_1202.1234v2.pdf",
+      "sha256": "63ebea8af9331f679b89e954dbbb597db978ec1d71486e7cff1334ba4c38c384"
+    },
+    {
+      "id": "Sat2024",
+      "url": "https://arxiv.org/pdf/2405.08608v2",
+      "version": "v2, 2024-05-15",
+      "locations": [
+        "Definition 11, Lemma 12",
+        "Theorem 18, printed p.6",
+        "Conjecture 29, printed p.8"
+      ],
+      "finding": "Theorem 18 assumes polynomial decay of the RIP constant. Conjecture 29 gives a stronger quantitative delta_K profile than the fixed-delta statement in the original cited Conjecture 25. Those profiles cannot be silently substituted for Q2191."
+    },
+    {
+      "id": "HP2019",
+      "url": "https://arxiv.org/abs/1905.09134",
+      "version": "First submitted 2019-05-22; v3, 2020-05-06; arXiv metadata lists Proc. Lond. Math. Soc. 121(2), 287–292 (2020)",
+      "locations": [
+        "Upper clique bound as cited in KY2024/MMP2019"
+      ],
+      "finding": "Comparator floor((1+sqrt(2p-1))/2); not used to certify exhaustive clique maxima."
+    },
+    {
+      "id": "HKP2026",
+      "url": "https://arxiv.org/html/2609.18474v1",
+      "version": "v1, 2026-09-16",
+      "locations": [
+        "Theorems1.1 and1.3",
+        "four-color bound comparison"
+      ]
+    },
+    {
+      "id": "BCKLS2025",
+      "url": "https://arxiv.org/html/2507.22831v1",
+      "version": "v1",
+      "locations": [
+        "Definition of d(L,epsilon)",
+        "Problem5.2; retained journal statement controls"
+      ]
+    },
+    {
+      "id": "LWYZ2026",
+      "url": "https://arxiv.org/html/2603.05490v1",
+      "version": "v1, 2026-03-05",
+      "locations": [
+        "Theorem1.4",
+        "Problem6.1"
+      ]
+    },
+    {
+      "id": "Lab2025",
+      "url": "https://arxiv.org/html/2504.09235v1",
+      "version": "v1",
+      "locations": [
+        "Theorem4.2",
+        "Open Questions3 and40"
+      ]
+    },
+    {
+      "id": "Shao2023",
+      "url": "https://arxiv.org/pdf/2301.00115",
+      "version": "v2, 2023-02-14",
+      "locations": [
+        "Proposition2.3"
+      ]
+    },
+    {
+      "id": "ConradGauss",
+      "url": "https://kconrad.math.uconn.edu/blurbs/gradnumthy/Gauss-Jacobi-sums.pdf",
+      "version": "retrieved2026-10-07",
+      "locations": [
+        "Theorem2.2"
+      ]
+    },
+    {
+      "id": "BB2017",
+      "url": "https://arxiv.org/pdf/1511.00601",
+      "version": "v3, 2017-01-18",
+      "locations": [
+        "Theorem1.2,p.4"
+      ]
+    },
+    {
+      "id": "Pasten2014",
+      "url": "https://people.math.harvard.edu/~hpasten/preprints/SqfPrimIJNT.pdf",
+      "version": "2014-08-03",
+      "locations": [
+        "Introduction",
+        "Theorem1.1"
+      ]
+    },
+    {
+      "id": "Grechuk2026",
+      "url": "https://arxiv.org/html/2404.08518v10",
+      "version": "v10,2026-10-01",
+      "locations": [
+        "Definition1",
+        "Table1",
+        "Equations24 and28"
+      ]
+    },
+    {
+      "id": "Virbalas2026",
+      "url": "https://arxiv.org/html/2606.31223v1",
+      "version": "v1,2026-06-30",
+      "locations": [
+        "Equations1.1 and1.2",
+        "Section6, Conjectures6.2 and6.3"
+      ]
+    },
+    {
+      "id": "Mutlu2023",
+      "url": "https://arxiv.org/pdf/2301.05431",
+      "version": "v1,2023-01-13",
+      "locations": [
+        "Lemma2.3,pp.4-5",
+        "Lemma2.4,pp.5-6"
+      ]
+    },
+    {
+      "id": "LeSrin2023",
+      "url": "https://arxiv.org/pdf/2210.04758",
+      "version": "v2,2023-12-02",
+      "locations": [
+        "Theorem1.3",
+        "Introduction scope correction"
+      ]
+    },
+    {
+      "id": "Poonen2006",
+      "url": "https://math.mit.edu/~poonen/papers/curves.pdf",
+      "version": "2006-03-05",
+      "locations": [
+        "Section2.9.2,printedp.39",
+        "Section3.3,printedp.52"
+      ]
+    },
+    {
+      "id": "FMS2026",
+      "url": "https://arxiv.org/html/2610.05568v1",
+      "version": "v1",
+      "locations": [
+        "Conjectures1.2 and1.5"
+      ]
+    },
+    {
+      "id": "Dujella2026",
+      "url": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "version": "dated2026-10-05",
+      "locations": [
+        "Retained Diophantine-tuple and torsion questions"
+      ]
+    },
+    {
+      "id": "source_23",
+      "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/020.md",
+      "version": "See cited part and source packet",
+      "locations": [
+        "See proof part"
+      ]
+    },
+    {
+      "id": "source_24",
+      "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.lean",
+      "version": "See cited part and source packet",
+      "locations": [
+        "See proof part"
+      ]
+    },
+    {
+      "id": "source_25",
+      "url": "https://dea.lib.unideb.hu/bitstreams/b0c2409b-44fa-47f4-9edc-ed6df4b24ac8/download",
+      "version": "See cited part and source packet",
+      "locations": [
+        "See proof part"
+      ]
+    },
+    {
+      "id": "source_26",
+      "url": "https://cs.uwaterloo.ca/journals/JIS/VOL28/Fokkink/fokkink9.pdf",
+      "version": "See cited part and source packet",
+      "locations": [
+        "See proof part"
+      ]
+    },
+    {
+      "id": "source_27",
+      "url": "https://arxiv.org/html/2501.03407v1",
+      "version": "See cited part and source packet",
+      "locations": [
+        "See proof part"
+      ]
+    },
+    {
+      "id": "source_28",
+      "url": "https://mathoverflow.net/questions/400714/can-you-solve-the-listed-smallest-open-diophantine-equations",
+      "version": "See cited part and source packet",
+      "locations": [
+        "See proof part"
+      ]
+    }
+  ],
+  "proof_assistant": {
+    "run": false,
+    "compiled_theorems": 0,
+    "upstream_family_020_proof_audited": false
+  }
+}

@@ -1,0 +1,2276 @@
+{
+  "schema": "b7-research-return-ledger-v1",
+  "program": "B7",
+  "research_date": "2026-10-07",
+  "input_manifest": {
+    "input": "B7 Invariant Completeness - Agent Handoff 2026-10-07.md",
+    "sha256": "b6270e23f7766acafc6e8570abb0e3c2a8e679fc8beb186885fcfdb231468cd2",
+    "questions": 48
+  },
+  "status_policy": {
+    "new_proved": "Complete written proof at exact retained scope, proposed for catalog reconciliation; not a claim of external acceptance or Lean certification.",
+    "accepted_proved": "Prior user-trusted decision preserved from the supplied handoff.",
+    "partial": "One-sided bound, restricted case, theorem of implication, or residual result; original full statement not settled.",
+    "unresolved": "No complete solution produced in this return; not an assertion that all current literature was exhaustively searched.",
+    "scope-nonmatch": "Recorded at attempt/result linkage level when the experiment does not answer the original exact target."
+  },
+  "status_counts": {
+    "proved": 5,
+    "unresolved": 32,
+    "partial": 11
+  },
+  "new_full_written_solutions": [
+    "Q17",
+    "Q1749",
+    "Q739"
+  ],
+  "imported_accepted_solutions": [
+    "Q738",
+    "Q742"
+  ],
+  "statements": [
+    {
+      "program": "B7",
+      "question": "Q17",
+      "stable_statement_id": "3e7e1834fd713fe73a83",
+      "title": "Retained statement",
+      "exact_retained_statement": "For a tree T and even k≥2, form D_(k)(T) with entry indexed by (v_(1),…,v_(k)) equal to the edge-count of the smallest subtree containing those vertices. Does 2^(k−1)−1 always divide its symmetric hyperdeterminant?",
+      "provisional": false,
+      "object_class": "Finite trees T and even tensor orders k≥2.",
+      "invariant_or_observation_map": "Steiner-distance tensor D_(k)(T): each ordered k-tuple maps to the edge count of its spanning subtree; take its symmetric hyperdeterminant.",
+      "target_equivalence": "Integer divisibility by 2^(k−1)−1; no object-reconstruction equivalence is imposed.",
+      "generic_or_uniform_scope": "Uniform over every finite tree and every even k≥2.",
+      "noise_and_loss": "Exact integer data; divisibility, with no stochastic noise or approximation loss.",
+      "measurement_count": "The full |V(T)|^k-entry tensor, followed by one symmetric hyperdeterminant; no sampling budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Search-qualified status: Cooper–Du (2025) resolves tree-independence of the determinant, not this divisibility statement. No proof/disproof found in targeted searches.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Gabrielle Anne Tauscheck: Generalizations of the Graham-Pollak Tree Theorem](#source-1). **Location:** Conjecture 4, printed p.69. Search-qualified status: Cooper–Du (2025) resolves tree-independence of the determinant, not this divisibility statement. No proof/disproof found in targeted searches.",
+      "status_for_exact_statement": "proved",
+      "decision_origin": "new_written_proof_proposed_for_reconciliation",
+      "session_result_ids": [
+        "B7-R01"
+      ],
+      "session_summary": "Stronger divisor for every tree and every order k>=2.",
+      "attempt_status": "proved",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q20",
+      "stable_statement_id": "9ba5075d118c04918d6d",
+      "title": "Retained statement",
+      "exact_retained_statement": "Are K_(1),K_(2),K_(3), two isolated vertices, and the three-vertex path the only graphs H for which a graph G’s adjacency spectrum always determines whether G contains an induced H?",
+      "provisional": false,
+      "object_class": "Finite graphs G and candidate finite induced subgraphs H.",
+      "invariant_or_observation_map": "Complete adjacency eigenvalue multiset of G maps to the truth value of containing an induced H.",
+      "target_equivalence": "Equality of adjacency spectra must preserve induced-H containment; classify H up to graph isomorphism.",
+      "generic_or_uniform_scope": "Uniform over all G for each H; classify all H with this property.",
+      "noise_and_loss": "Exact spectra and exact Boolean containment; no noise.",
+      "measurement_count": "All adjacency eigenvalues with multiplicity; no truncated-spectrum or sample budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Search-qualified status: Author’s March 2025 CV lists the relevant manuscript in preparation. The June 2025 Barranca–Barrus paper treats double stars, not this classification. No resolving later work found.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Emily Barranca: Recognizing Induced Subgraph and Tree Structure from the Adjacency Spectrum of a Graph](#source-2). **Location:** Conjecture 2.1.2, printed p.26. Search-qualified status: Author’s March 2025 CV lists the relevant manuscript in preparation. The June 2025 Barranca–Barrus paper treats double stars, not this classification. No resolving later work found.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q101",
+      "stable_statement_id": "06c3626cd7abe261f06c",
+      "title": "Retained statement",
+      "exact_retained_statement": "Do identical forced-minor sets imply that two finite graphs have homeomorphic geometric realizations?",
+      "provisional": false,
+      "object_class": "Geometric realizations of finite graphs, using finite cozero covers and their intersection graphs.",
+      "invariant_or_observation_map": "Set of forced graph minors: H is forced when some finite cozero cover has every refinement intersection graph containing H as a minor.",
+      "target_equivalence": "Homeomorphism of geometric realizations.",
+      "generic_or_uniform_scope": "Uniform implication for every pair of finite graphs with identical forced-minor sets.",
+      "noise_and_loss": "Exact equality of the whole forced-minor set; no noise or approximate loss.",
+      "measurement_count": "Complete forced-minor set, allowing all finite cozero covers and refinements; no finite cutoff.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status evidence for this section, checked 5 October 2026: The dissertation explicitly leaves this unresolved. Searches by author, thesis title, and the specialized forced-minor/topological-invariant terminology found no later proof or counterexample. No independent recent openness declaration was located; current-status confidence is therefore moderate.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Joseph Matthew Bedich: Combinatorics of Finite Open Covers](#source-3). **Location:** Question 6.4.3, p. 107. Status: see the section-wide dated evidence above.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q169",
+      "stable_statement_id": "2db69aae8c225ff910dd",
+      "title": "Retained statement",
+      "exact_retained_statement": "For fixed k≥2 and sufficiently large n=kq+1, is the maximum kth adjacency eigenvalue among connected outerplanar n-vertex graphs the spectral radius of the fan K₁ joined to a (q−1)-vertex path? Must every extremizer have a cut vertex leaving k disjoint such fans?",
+      "provisional": false,
+      "object_class": "Connected outerplanar graphs on n=kq+1 vertices.",
+      "invariant_or_observation_map": "The kth largest adjacency eigenvalue, maximized over the graph class; compare with the spectral radius of K₁ joined to a (q−1)-vertex path.",
+      "target_equivalence": "Exact extremal value and structural characterization of every extremizer by a cut vertex and k fan components.",
+      "generic_or_uniform_scope": "For every fixed k≥2 and all sufficiently large admissible n=kq+1; structural conclusion for all extremizers.",
+      "noise_and_loss": "Exact spectral optimization; no noise or approximation loss.",
+      "measurement_count": "One specified adjacency eigenvalue per graph, with full graph structure for the extremizer clause; no sample budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status evidence, checked 5 October 2026: The 2025 associated paper proves the leading asymptotic and the k=2 cases; its general exact description remains conjectural. Targeted later searches found no general resolution.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[George Henry Brooks: Explorations in Extremal Combinatorics: Graph Spectra, Codegree Squared Sum of Hypergraphs and Lin-Lu-Yau Ricci Curvature](#source-4). **Location:** Conjecture 3.1.1, printed p.26. Status evidence, checked 5 October 2026: The 2025 associated paper proves the leading asymptotic and the k=2 cases; its general exact description remains conjectural. Targeted later searches found no general resolution.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q337",
+      "stable_statement_id": "3f57476cd8727d99a539",
+      "title": "Retained statement",
+      "exact_retained_statement": "For a finite simple graph $G$, a degree-associated card is the pair $(G-v,d_G(v))$, with $G-v$ unlabeled. Let $\\operatorname{drn}(G)$ be the smallest size of a submultiset of these cards that occurs in no nonisomorphic graph’s degree-associated deck. Are there only finitely many isomorphism classes of trees $T$ with $\\operatorname{drn}(T)=3$?",
+      "provisional": false,
+      "object_class": "Finite trees, with degree-associated cards defined for finite simple graphs.",
+      "invariant_or_observation_map": "Degree-associated deck: the multiset of pairs (unlabeled G−v,d_G(v)); drn(G) is the minimum size of a card submultiset excluding all nonisomorphic graphs.",
+      "target_equivalence": "Graph isomorphism; finiteness of tree isomorphism classes having drn(T)=3.",
+      "generic_or_uniform_scope": "All finite trees; card consistency is tested against nonisomorphic finite simple graphs.",
+      "noise_and_loss": "Exact unlabeled vertex-deleted cards with original vertex degrees; no noise.",
+      "measurement_count": "Three cards for the target drn(T)=3, with minimality requiring failure of every smaller identifying submultiset.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status, checked 5 October 2026: Borzooei–Shadravan, Transactions on Combinatorics 14(1) (2025), pp. 31–43 (online February 2024), explicitly recalls the Barrus–West conjecture and proves the unicentroidal case (Theorems 1.3–1.4). Its conclusion is restricted to unicentroidal trees, leaving the bicentroidal case of this conjecture untreated. Targeted searches through the check date found no full proof or counterexample. Edge-reconstruction and adversary reconstruction results concern different parameters and were not treated as resolutions. The latest direct supporting primary source is this 2025 partial result, not a claim of exhaustive literature coverage.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Michael David Barrus: On Induced Subgraphs, Degree Sequences, and Graph Structure](#source-5). **Location:** Unnumbered conjecture, printed p. 28; chapter provenance on p. 1. Exact author-hosted thesis pages and title page were read through the search index; the live author PDF now redirects, so full-file retrieval was unavailable. Joint Barrus–West paper, Conjecture 1.2, author version p. 2, supplies the equivalent formulation and definitions.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q400",
+      "stable_statement_id": "c406d4b9e0c3a2b80408",
+      "title": "Retained statement",
+      "exact_retained_statement": "Does every such pair (α,β) admit a constant C=C(α,β)>0, independent of m, such that E_m(α,β)≤C exp(−2π√((α−β)m)) for every integer m≥1?",
+      "provisional": false,
+      "object_class": "Negative powers x^α on (0,1] with fixed −1≤β<α<0, approximated by real rational functions p/q of numerator and denominator degree at most m.",
+      "invariant_or_observation_map": "Weighted best rational-approximation error E_m(α,β)=inf_(p,q) sup_(0<x≤1) |x^α−p(x)/q(x)|/x^β, excluding poles in (0,1].",
+      "target_equivalence": "Uniform root-exponential upper bound in approximation degree; no reconstruction equivalence.",
+      "generic_or_uniform_scope": "Every fixed pair −1≤β<α<0 admits its own C(α,β)>0, uniformly for all integers m≥1.",
+      "noise_and_loss": "Weighted uniform error on (0,1]; target C exp(−2π√((α−β)m)); no observation noise.",
+      "measurement_count": "Degree bounds deg p,deg q≤m; error is over the entire interval, not a finite set of measurements.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status, checked 5 October 2026: The primary joint preprint labels this exact estimate Conjecture 2, and arXiv still lists only its May 2023 submission. Searches for the authors, paper identifier, weighted negative-power approximation and conjecture found no proof or counterexample through 2026-10-05. A later quantum-relative-entropy algorithm paper cites this work but was not used as an independent assertion of openness. The classic unweighted positive-power asymptotic quoted in the thesis is a different statement. Current openness is supported by the explicit source and a negative resolution search, not an independent recent open-status affirmation.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Oisín Paul Bertrand Faust: Convex Relaxations: Beyond Polynomials, Splitting Methods and Average Case Analysis](#source-6). **Location:** Conjecture 3.2, printed p. 86; weighted rational approximation definition equation (3.15), p. 72, and §3.4. Earlier joint preprint: Conjecture 2.",
+      "contextual_definition": "For fixed −1≤β<α<0, let E_m(α,β)=inf_{p,q} sup_{0<x≤1} |x^α−p(x)/q(x)|/x^β, where p and q are real polynomials of degree at most m and p/q has no pole in (0,1].",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q607",
+      "stable_statement_id": "2ebcfe72585b1be70fc9",
+      "title": "Polynomial samples for exact recovery from deleted observations",
+      "exact_retained_statement": "For each fixed retention probability p∈(0,1), is there C_p<∞ such that every unknown x∈{0,1}^n can be recovered exactly with probability at least 2/3 from n^{C_p} deletion traces? There is no computational-time restriction in this sample-complexity question.",
+      "provisional": false,
+      "object_class": "Unknown deterministic binary strings of length n.",
+      "invariant_or_observation_map": "Independent deletion traces: each bit is retained with fixed known probability p∈(0,1), preserving order.",
+      "target_equivalence": "Exact equality of the source string.",
+      "generic_or_uniform_scope": "Worst case over every n-bit string, for each fixed retention p; success at least 2/3; unrestricted computational time.",
+      "noise_and_loss": "Deletion-channel randomness; exact-recovery error probability at most 1/3.",
+      "measurement_count": "At most n^{C_p} independent traces for some finite exponent depending only on p.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger; unverified candidate answer",
+        "collector_status_verbatim": "Status for question 607, checked 5 October 2026: July 2026 gives exp(p^(−7/3)(log₂ n)^c) samples, improving the obsolete exp(Õ(n^(1/5))) bound but remaining superpolynomial; it reports an Ω̃(n^(3/2)) lower bound. No polynomial solution or superpolynomial lower bound located.",
+        "exact_ledger_decision": null,
+        "recorded_lead": "OpenAI 122: candidate negative answer. Superpolynomial exact worst-case sample lower bound; selected Lean lower-bound scope."
+      },
+      "source_locator_from_handoff": "[Zachary Chase: Some results at the interface of combinatorics and number theory](#source-7). **Location:** Thesis Chapter 5, §5.1; 2025 paper §1.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [
+        "B7-R21"
+      ],
+      "session_summary": "Exact-model comparator audited; underlying Family 122 proof remains unverified.",
+      "attempt_status": "unresolved",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q608",
+      "stable_statement_id": "16cdc05113faa8ab347d",
+      "title": "Compute a transcript within the quasipolynomial sample budget",
+      "exact_retained_statement": "For fixed p∈(0,1), can worst-case exact deletion-trace reconstruction achieve quasipolynomial sample size and runtime, succeeding with probability≥2/3 for every n-bit source? Full reconstruction is required, not pairwise distinguishing.",
+      "provisional": false,
+      "object_class": "Unknown deterministic binary strings of length n.",
+      "invariant_or_observation_map": "Independent deletion traces with fixed known retention p∈(0,1).",
+      "target_equivalence": "Exact full reconstruction of the source string.",
+      "generic_or_uniform_scope": "Worst case over all source strings for each fixed p; success at least 2/3; both sample count and runtime quasipolynomial.",
+      "noise_and_loss": "Deletion-channel randomness; exact-recovery error probability at most 1/3.",
+      "measurement_count": "Quasipolynomially many traces and quasipolynomial runtime in n; pairwise distinguishing alone does not meet the target.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 608, checked 5 October 2026: July 2026 version checked; no later revision or runtime solution located. Efficient pairwise tests and restricted-string results do not solve full reconstruction.",
+        "exact_ledger_decision": null,
+        "recorded_lead": "OpenAI 122: candidate subcase. Full decoder with sample and bit-time bounds for fixed known rational retention; align unrestricted question parameter model before promotion."
+      },
+      "source_locator_from_handoff": "[Arnav Burudgunte; Paul Valiant; Hongao Wang: Quasipolynomial Trace Reconstruction](#source-8). **Location:** §1, Run time vs. sample complexity; Definition 2; Theorem 43.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R16"
+      ],
+      "session_summary": "Rational-to-real retention reduction, now with constant-factor sample overhead.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q609",
+      "stable_statement_id": "9144c2582d1e2c9c3b3a",
+      "title": "Polylogarithmic observations for typical exact transcript recovery",
+      "exact_retained_statement": "For every fixed deletion probability δ∈(0,1), can a uniformly random unknown X∈{0,1}^n be reconstructed exactly from (log n)^{Oδ(1)} independent deletion traces, with success probability 1−o_n(1) over X and the channel? No polynomial-time condition is added.",
+      "provisional": false,
+      "object_class": "Uniformly random binary source X∈{0,1}^n.",
+      "invariant_or_observation_map": "Independent deletion traces with fixed deletion probability δ∈(0,1), conditional on the same source X.",
+      "target_equivalence": "Exact equality of the reconstructed and sampled source strings.",
+      "generic_or_uniform_scope": "Every fixed δ; average over uniform X and channel randomness; success 1−o_n(1); no polynomial-time condition.",
+      "noise_and_loss": "Deletion-channel randomness; vanishing average exact-recovery error.",
+      "measurement_count": "(log n)^{O_δ(1)} independent traces.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 609, checked 5 October 2026: July 2026 still reports exp(Õ((log n)^(1/5))) versus Ω̃((log n)^(5/2)). Its worst-case improvement is not established for the shifted oracle. No polylogarithmic solution located.",
+        "exact_ledger_decision": null,
+        "recorded_lead": "OpenAI 122: scope nonmatch. Average-case, insertion–deletion, unlabeled-mixture and one-trace LCS targets differ from the inspected deterministic-word statements."
+      },
+      "source_locator_from_handoff": "[Ittai Rubinstein: Average-Case to (Shifted) Worst-Case Reduction for the Trace Reconstruction Problem](#source-9). **Location:** §§1–1.1; Theorem 4; 2026 status paper §1.2.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R17"
+      ],
+      "session_summary": "Hard-pair embedding proves a conditional negative consequence; premise unverified.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q610",
+      "stable_statement_id": "8a00508df67e6fbcd058",
+      "title": "Accuracy-scalable reconstruction under insertions and deletions",
+      "exact_retained_statement": "In the source’s insertion–deletion channel R_p, at each step copy the current input bit with probability 1−p, delete it with probability p/2, or insert a uniform random bit with probability p/2 without advancing. For fixed sufficiently small p>0 and uniform S∈{0,1}^n, can its near-linear-time reconstruction theorem be extended to edit error O(εpn), for arbitrary ε>0, using poly(1/ε) traces and success probability at least 1−1/n? Runtime is near-linear in n for fixed p,ε.",
+      "provisional": false,
+      "object_class": "Uniformly random binary source S∈{0,1}^n under the source channel R_p.",
+      "invariant_or_observation_map": "At each step R_p copies the current input bit with probability 1−p, deletes it with p/2, or inserts a uniform bit with p/2 without advancing.",
+      "target_equivalence": "Approximate reconstruction measured by edit distance to S.",
+      "generic_or_uniform_scope": "Fixed sufficiently small p>0, arbitrary ε>0, and uniform S; success at least 1−1/n; runtime near-linear in n for fixed p,ε.",
+      "noise_and_loss": "Insertion/deletion and inserted-bit randomness; edit error O(εpn).",
+      "measurement_count": "poly(1/ε) independent traces; near-linear runtime in n for fixed p,ε.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 610, checked 5 October 2026: No resolution located. Later deletion-only few-trace/one-trace results and the Chase–Peres constant-trace existence theorem do not supply this accuracy and runtime guarantee.",
+        "exact_ledger_decision": null,
+        "recorded_lead": "OpenAI 122: scope nonmatch. Average-case, insertion–deletion, unlabeled-mixture and one-trace LCS targets differ from the inspected deterministic-word statements."
+      },
+      "source_locator_from_handoff": "[Diptarka Chakraborty; Debarati Das; Robert Krauthgamer: Approximate Trace Reconstruction via Median String (In Average-Case)](#source-10). **Location:** Theorem 1; Conjecture 2; channel R_p.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new result for insertion/deletion accuracy and runtime.",
+      "attempt_status": "unresolved",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q611",
+      "stable_statement_id": "472e43724c08d9837feb",
+      "title": "Reconstruct probability sequences on a fixed finite grid",
+      "exact_retained_statement": "In generalized trace reconstruction, a hidden vector p∈[0,1]^n first emits independent Bernoulli(p_i) bits, then each bit is deleted with fixed probability δ∈(0,1). If all p_i lie in {0,1/k,…,1}, what is the minimax number of traces for recovering p to ℓ∞ error below 1/(2k), with probability at least 2/3? In particular, can superpolynomial-in-n lower bounds persist for a fixed k≥2?",
+      "provisional": false,
+      "object_class": "Probability vectors p∈{0,1/k,…,1}^n, with particular interest in fixed k≥2.",
+      "invariant_or_observation_map": "Each trace independently emits Bernoulli(p_i) bits at all positions and then deletes each emitted bit with fixed probability δ∈(0,1).",
+      "target_equivalence": "Recovery of the ordered probability vector; ℓ∞ error below half the grid spacing permits exact coordinatewise rounding.",
+      "generic_or_uniform_scope": "Minimax over all grid vectors, success at least 2/3; ask whether superpolynomial-in-n lower bounds persist at fixed k.",
+      "noise_and_loss": "Fresh Bernoulli-emission and deletion randomness; ℓ∞ error strictly below 1/(2k).",
+      "measurement_count": "Determine the minimax number of traces as a function of n,k,δ; no runtime target is specified.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 611, checked 5 October 2026: No finite-grid resolution located. The July 2026 theorem covers deterministic strings, not fixed k≥2 stochastic emission grids.",
+        "exact_ledger_decision": null,
+        "recorded_lead": "OpenAI 122: conditional consequence. Grid includes 0/1 vectors. Sup-norm accuracy <1/(2k) rounds to the deterministic word. Source lower bound thus persists for every fixed k≥2 if valid; full minimax rate not supplied."
+      },
+      "source_locator_from_handoff": "[Joey Rivkin; Gregory Valiant; Paul Valiant: A Generalized Trace Reconstruction Problem: Recovering a String of Probabilities](#source-11). **Location:** Definition 1; Theorem 2; §1.1.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R18"
+      ],
+      "session_summary": "Two-point emission reduction, including an interior grid pair; minimax rate remains.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q612",
+      "stable_statement_id": "4c25b9b7f68a9602ba33",
+      "title": "Faster recovery of a sparse distribution of latent messages",
+      "exact_retained_statement": "For fixed retention p∈(0,1) and fixed TV accuracy ε∈(0,1/2), can a distribution D supported on at most ℓ unknown n-bit strings be learned to TV error ε, with success at least 2/3, using both exp(~O(n^(1/5) poly(ℓ))) traces and time? A trace first samples x∼D and then independently deletes bits of x; component labels and repeat observations of a chosen component are unavailable.",
+      "provisional": false,
+      "object_class": "Distributions D supported on at most ℓ unknown binary strings of length n.",
+      "invariant_or_observation_map": "Each trace draws a fresh latent x∼D and applies independent deletions with fixed retention p; latent component labels and chosen-component repeat access are unavailable.",
+      "target_equivalence": "Recovery of D as a distribution on strings, measured in total variation; component-list order is irrelevant.",
+      "generic_or_uniform_scope": "Uniform over all such D for fixed p∈(0,1) and fixed ε∈(0,1/2); success at least 2/3.",
+      "noise_and_loss": "Latent sampling plus deletion randomness; total-variation error at most ε.",
+      "measurement_count": "Both traces and runtime bounded by exp(~O(n^(1/5) poly(ℓ))).",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 612, checked 5 October 2026: No solution located. July 2026 solves a single-string sample obstacle, not mixture recovery. Probability-string models differ; known n^{Ω(ℓ)} lower bounds preclude a casual poly(n,ℓ) replacement.",
+        "exact_ledger_decision": null,
+        "recorded_lead": "OpenAI 122: scope nonmatch. Average-case, insertion–deletion, unlabeled-mixture and one-trace LCS targets differ from the inspected deterministic-word statements."
+      },
+      "source_locator_from_handoff": "[Shyam Narayanan: Improved Algorithms for Population Recovery from the Deletion Channel](#source-12). **Location:** Theorems 1.2–1.3; §1.2.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new result for unlabeled population recovery.",
+      "attempt_status": "unresolved",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q613",
+      "stable_statement_id": "c302289d6bd6215ff58d",
+      "title": "Sharp decision fidelity from one deleted observation",
+      "exact_retained_statement": "Let A receive n and one δ-deletion trace of x, and output an n-bit estimate. Determine the sharp asymptotic values of L_worst(δ,n)/n and L_avg(δ,n)/n, where L_worst(δ,n)=sup_A inf_x E[LCS(A(trace,n),x)] and L_avg(δ,n)=sup_A E_{X uniform}[LCS(A(trace,n),X)] for fixed δ, already at δ=0.1 or 0.9. Here LCS denotes longest-common-subsequence length, and A is deterministic, as in the source definitions.",
+      "provisional": false,
+      "object_class": "Length-n binary strings under either worst-case or uniform-source evaluation.",
+      "invariant_or_observation_map": "One δ-deletion trace and n are given to a deterministic algorithm returning an n-bit estimate.",
+      "target_equivalence": "Decision fidelity given by longest-common-subsequence length between estimate and source.",
+      "generic_or_uniform_scope": "Sharp asymptotic normalized optimum for each fixed δ, both supremum-over-algorithms worst-case and uniform-average criteria; already δ=0.1 or 0.9.",
+      "noise_and_loss": "One deletion trace; expected LCS utility, normalized by n; algorithms are deterministic in the retained definitions.",
+      "measurement_count": "Exactly one trace; no computational-time restriction is added.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 613, checked 5 October 2026: No sharp fixed-noise frontier located. High-noise and small-noise asymptotics do not settle the stated constants; multiple-trace reconstruction has a different observation budget.",
+        "exact_ledger_decision": null,
+        "recorded_lead": "OpenAI 122: scope nonmatch. Average-case, insertion–deletion, unlabeled-mixture and one-trace LCS targets differ from the inspected deterministic-word statements."
+      },
+      "source_locator_from_handoff": "[Xi Chen; Anindya De; Chin Ho Lee; Rocco A. Servedio; Sandip Sinha: Approximate Trace Reconstruction from a Single Trace](#source-13). **Location:** §1.2; §2.2, equations (2), (4).",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R19"
+      ],
+      "session_summary": "Exact Bayes formula and complete finite computation through n=8; asymptotics remain.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q738",
+      "stable_statement_id": "2f577a87fee1b2c95e2d",
+      "title": "Do 3k moments uniquely identify a univariate Gaussian mixture?",
+      "exact_retained_statement": "For arbitrary k, is the complexified moment map of k-component univariate Gaussian mixtures, with unknown means, variances and weights summing to 1, generically one-to-one modulo component permutation from moments m_1,…,m_{3k}? Equivalently, is the model rationally identifiable at order 3k? Algebraic finite-fiber identification at 3k−1 and rational identification at 3k+2 are established; these are not the target.",
+      "provisional": false,
+      "object_class": "Complexified k-component univariate Gaussian mixtures with unknown means, variances, and weights summing to 1.",
+      "invariant_or_observation_map": "Moment parameterization to raw moments m_1,…,m_{3k}.",
+      "target_equivalence": "Mixture parameter tuples modulo component permutation; generic one-to-one fibers, equivalently rational identifiability.",
+      "generic_or_uniform_scope": "Arbitrary k; algebraic generic identifiability in the complexified model, rather than a statement about every exceptional tuple.",
+      "noise_and_loss": "Exact moments; no stability, statistical noise, or finite-sample loss in the retained target.",
+      "measurement_count": "First 3k moments; m_0=1 is normalization. Orders 3k−1 and 3k+2 are context, not the target budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "Ledger closed: proved",
+        "collector_status_verbatim": "Status for question 738, checked 5 October 2026: Reaffirmed by Henriksson et al.(2025); the general 3k threshold remains unresolved in checked sources.",
+        "exact_ledger_decision": "proved; scope statement; checked 2026-10-06.",
+        "recorded_lead": "BKS ledger: proved. Generic rational identification of k univariate Gaussian components from moments 1..3k, modulo permutation, via an isolated-contact lemma and a non-weak-defectivity criterion. Scope: The stated complex generic target; not every exceptional parameter and not a stable recovery algorithm."
+      },
+      "source_locator_from_handoff": "[Carlos Améndola; Jean-Charles Faugère; Bernd Sturmfels: Moment Varieties of Gaussian Mixtures](#source-14). **Location:** arXiv Conjecture 15; thesis Conjecture 5.3.3.",
+      "status_for_exact_statement": "proved",
+      "decision_origin": "accepted_in_supplied_handoff_not_reaudited",
+      "session_result_ids": [
+        "B7-R10"
+      ],
+      "session_summary": "Imported accepted generic identification; new collision-stability obstruction.",
+      "attempt_status": "proved",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q739",
+      "stable_statement_id": "3e3c622525036c1e9a43",
+      "title": "Is parameter counting exact for every bivariate Gaussian mixture?",
+      "exact_retained_statement": "For every d≥2,k≥1, is dim Sec_k(G_{2,d})=min{binom(d+2,2)−1,6k−1}?",
+      "provisional": false,
+      "object_class": "The complex projective variety G_{2,d} of bivariate Gaussian moments through degree d and its kth secant variety; component covariance matrices vary separately.",
+      "invariant_or_observation_map": "Mixture moment parameterization and the dimension of Sec_k(G_{2,d}).",
+      "target_equivalence": "Equality with the specified expected dimension min{binom(d+2,2)−1,6k−1}; no uniqueness quotient is asserted.",
+      "generic_or_uniform_scope": "Every d≥2 and k≥1; dimension is an algebraic generic-rank property of the whole secant variety.",
+      "noise_and_loss": "Exact algebraic moment coordinates; no noise or approximate loss.",
+      "measurement_count": "binom(d+2,2) projective moment coordinates including the constant coordinate, through total degree d; no sample budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 739, 740, checked 5 October 2026: No resolution found in bounded follow-up searches through 2026-10-05.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Carlos Améndola; Kristian Ranestad; Bernd Sturmfels: Algebraic Identifiability of Gaussian Mixtures](#source-15). **Location:** Conjecture 2.",
+      "status_for_exact_statement": "proved",
+      "decision_origin": "new_written_proof_proposed_for_reconciliation",
+      "session_result_ids": [
+        "B7-R02"
+      ],
+      "session_summary": "Full nondefectivity formula for every d>=2,k>=1.",
+      "attempt_status": "proved",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q740",
+      "stable_statement_id": "b69755d99b945371b6be",
+      "title": "How much latent ambiguity survives fourth-order Gaussian summaries?",
+      "exact_retained_statement": "For n≥8,r≥3,k=n+r and P=k n(n+3)/2+k−1≤binom(n+4,4)−1, is dim Sec_k(G_{n,4})=P−binom(r−1,2)?",
+      "provisional": false,
+      "object_class": "The complex projective variety G_{n,4} of n-variate Gaussian moments through degree 4 and its kth secant, with separately unknown component covariances.",
+      "invariant_or_observation_map": "Fourth-order mixture moment parameterization and dimension of Sec_k(G_{n,4}).",
+      "target_equivalence": "The precise secant dimension P−binom(r−1,2), rather than parameter identifiability.",
+      "generic_or_uniform_scope": "All n≥8,r≥3,k=n+r satisfying P=k n(n+3)/2+k−1≤binom(n+4,4)−1.",
+      "noise_and_loss": "Exact algebraic moment data; no noise or numerical-stability claim.",
+      "measurement_count": "All binom(n+4,4) projective moment coordinates through degree 4, including the constant coordinate.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 739, 740, checked 5 October 2026: No resolution found in bounded follow-up searches through 2026-10-05.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Carlos Améndola; Kristian Ranestad; Bernd Sturmfels: Algebraic Identifiability of Gaussian Mixtures](#source-15). **Location:** Conjecture 21.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R06",
+        "B7-R07",
+        "B7-R08"
+      ],
+      "session_summary": "Universal defect lower bound, exact n=8,k=11 dimension, positive real ambiguity family.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q741",
+      "stable_statement_id": "f344e3bf779aac637144",
+      "title": "Are high-order Gaussian moment tangent maps nondegenerate?",
+      "exact_retained_statement": "For all d≥5 and n≥2, does V=GM_d(C^n)=closure{[exp(ℓ+q/2)]_d:ℓ∈S¹(C^n),q∈S²(C^n)} have a nondegenerate tangent map? Precisely, must T:P(V_reg)→Gr(dimV,S^d(C^n)), [v]↦T_vV, have finite fibers? The unresolved extension is beyond the proved degrees 5,…,9; [·]_d means the homogeneous degree-d part.",
+      "provisional": false,
+      "object_class": "Homogeneous Gaussian moment cone GM_d(C^n)=closure{[exp(ℓ+q/2)]_d}, with ℓ linear and q quadratic.",
+      "invariant_or_observation_map": "Projective tangent map [v]↦T_vV on the regular locus, into the stated Grassmannian.",
+      "target_equivalence": "Every tangent-map fiber finite; this is nondegeneracy, without requiring singleton fibers.",
+      "generic_or_uniform_scope": "All d≥5,n≥2, with the retained unresolved extension beyond degrees 5,…,9; finite fibers on the specified regular projective locus.",
+      "noise_and_loss": "Exact algebraic tangent spaces; no observation noise or loss.",
+      "measurement_count": "Homogeneous degree-d coordinates in S^d(C^n), followed by the tangent space; no finite-sample recovery budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 741, checked 5 October 2026: No resolution found in bounded follow-up searches through 2026-10-05.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Alexander Taveira Blomenhofer; Alex Casarotti: Nondefectivity of invariant secant varieties](#source-16). **Location:** Remark 4.11; Definition 4.9; Theorem 3.6.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R09"
+      ],
+      "session_summary": "Generic Gauss finiteness in every degree; full smooth-locus fibers remain.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q742",
+      "stable_statement_id": "c069b7ff6ff08382c685",
+      "title": "Do 3k moments identify positive-support mixture sensors?",
+      "exact_retained_statement": "For each k≥2, are k-mixtures of gamma distributions and k-mixtures of inverse Gaussian distributions rationally identifiable from their first 3k moments, modulo component permutations? Component parameters and mixture weights are unknown. Rational identifiability refers to generic one-to-one fibers of the complexified moment parameterization; the two positive-support families are one source-conjectured target, not two counts.",
+      "provisional": false,
+      "object_class": "For each k≥2, complexified k-component gamma mixtures and k-component inverse Gaussian mixtures with unknown component parameters and weights.",
+      "invariant_or_observation_map": "First 3k raw moments of the mixture for each of the two families.",
+      "target_equivalence": "Generic one-to-one moment fibers modulo component permutations, equivalently rational identifiability.",
+      "generic_or_uniform_scope": "Every k≥2 in both families, as one grouped target; algebraic generic scope, not all exceptional or real-positive parameter tuples.",
+      "noise_and_loss": "Exact moments; no numerical stability or finite-sample recovery guarantee is included.",
+      "measurement_count": "First 3k moments for each family; the two families constitute one source-conjectured question.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "Ledger closed: proved",
+        "collector_status_verbatim": "Status for question 742, checked 5 October 2026: Explicitly open in v3(2025), published 2026; no later resolution located.",
+        "exact_ledger_decision": "proved; scope statement; checked 2026-10-06.",
+        "recorded_lead": "BKS ledger: proved. The same isolated-contact proof gives generic rational identification from 3k moments for gamma and inverse Gaussian mixtures. Scope: Full stated grouped target with the same generic and arithmetic qualifications."
+      },
+      "source_locator_from_handoff": "[Oskar Henriksson; Kristian Ranestad; Lisa Seccia; Teresa Yu: Moment varieties of the inverse Gaussian and gamma distributions are nondefective](#source-17). **Location:** v3 p. 2; §5.",
+      "status_for_exact_statement": "proved",
+      "decision_origin": "accepted_in_supplied_handoff_not_reaudited",
+      "session_result_ids": [
+        "B7-R10"
+      ],
+      "session_summary": "Imported accepted result for both families; new collision-stability obstruction.",
+      "attempt_status": "proved",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q997",
+      "stable_statement_id": "8bdda54c021f80a96ef9",
+      "title": "Does moment sparsity exactly determine latent mixture dimension?",
+      "exact_retained_statement": "For all n, r≥1, d≥3, is dimσ_r(M_{n, d})=max(∑ᵢc_i−1), over integer 0≤c_i≤nr satisfying ∑_{i∈S}c_i≤∑_{λ⊢d, lenλ≤n,λ∩S≠∅}|N_λ| for every S⊆[d]?",
+      "provisional": false,
+      "object_class": "Complex projective product moment variety M_{n,d}, with m_α=∏_j μ_(j,α_j), |α|=d, μ_(j,0)=1, and its rth secant.",
+      "invariant_or_observation_map": "Dimension of σ_r(M_{n,d}) compared with an integer optimization using partition-indexed exponent sets N_λ.",
+      "target_equivalence": "Exact equality with the stated combinatorial maximum; no parameter-reconstruction equivalence.",
+      "generic_or_uniform_scope": "All n,r≥1 and d≥3; maximum over integer 0≤c_i≤nr satisfying every subset constraint S⊆[d].",
+      "noise_and_loss": "Exact algebraic moment coordinates and combinatorial ranks; no noise or approximation loss.",
+      "measurement_count": "All total-degree-d moment coordinates m_α, |α|=d; the formula uses every subset S⊆[d], with no sampling budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 997, checked 5 October 2026: No general resolution found through 2026-10-05. Generator-degree questions are separate.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Yulia Alexandr; Joe Kileel; Bernd Sturmfels: Moment Varieties for Mixtures of Products](#source-18). **Location:** Current PDF Conjecture 27, Theorem 25, equation 10; thesis 7.4.5.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1001",
+      "stable_statement_id": "93986607a1f5ccc79b75",
+      "title": "Exact exceptional cumulants beyond the low-order cases",
+      "exact_retained_statement": "For n≥2,d≥3, characterize T∈V_pmi with a unique orthogonal eigenvector basis up to signs/order; equivalently {Q∈O(n):Q·T∈V_pmi}=SP(n), the signed permutations.",
+      "provisional": false,
+      "object_class": "Symmetric order-d tensors T∈V_pmi={T:T_(ij…j)=0 for i≠j}, n≥2,d≥3.",
+      "invariant_or_observation_map": "Orthogonal tensor orbit and its intersection with V_pmi, equivalently orthogonal eigenvector bases.",
+      "target_equivalence": "Signed permutations SP(n): {Q∈O(n):Q·T∈V_pmi}=SP(n).",
+      "generic_or_uniform_scope": "Exact characterization of all tensors with this uniqueness property, including exceptional cases, for every n≥2,d≥3.",
+      "noise_and_loss": "Exact tensor data; no measurement noise or estimation loss.",
+      "measurement_count": "One full symmetric order-d tensor; no finite-sample or truncated-coordinate budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 1001, 1002, checked 6 October 2026: 2026-10-06: no resolution located in bounded searches.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Álvaro Ribot; Anna Seigal; Piotr Zwiernik: Beyond independent component analysis: identifiability and algorithms](#source-19). **Location:** §4, paragraph before Remark 4.3; Discussion, first open problem",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R11"
+      ],
+      "session_summary": "Explicit sufficient criterion for real even-order diagonal tensors.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1002",
+      "stable_statement_id": "ddcccae3e3f4fb404ca2",
+      "title": "An all-cumulant identification criterion for dependent sources",
+      "exact_retained_statement": "Which PMI source distributions are identifiable from all cumulants jointly, rather than from one generic order? Give the distributional analogue of ICA’s at-most-one-Gaussian rule.",
+      "provisional": false,
+      "object_class": "Centered PMI source distributions satisfying E[s_i|s_j]=0 for i≠j, observed through x=As with A invertible; cumulant-generating function finite near zero.",
+      "invariant_or_observation_map": "All cumulant tensors jointly; whitening reduces the mixing transformation to an orthogonal one.",
+      "target_equivalence": "Identification of source/mixing representation modulo ICA scaling and permutation, or signed permutation after whitening.",
+      "generic_or_uniform_scope": "Distributional characterization across PMI sources; an all-orders analogue of ICA’s at-most-one-Gaussian criterion, without imposing a single generic cumulant order.",
+      "noise_and_loss": "Exact cumulants of all orders; no sample noise or finite-order estimation guarantee.",
+      "measurement_count": "The full cumulant sequence, with no finite-order cutoff or finite-sample budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 1001, 1002, checked 6 October 2026: 2026-10-06: no resolution located in bounded searches.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Álvaro Ribot; Anna Seigal; Piotr Zwiernik: Beyond independent component analysis: identifiability and algorithms](#source-19). **Location:** §3 after Theorem 1.3; Discussion",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R12",
+        "B7-R13"
+      ],
+      "session_summary": "Finite cutoff for each fixed source; no uniform cutoff, with exact examples.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1156",
+      "stable_statement_id": "48ec50411ade2c1537dd",
+      "title": "Which nearest-neighbor maps embed in fixed dimension?",
+      "exact_retained_statement": "For each fixed k≥1, characterize exactly the finite maps f that admit such a nearest-neighbor realization in Euclidean R^k.",
+      "provisional": false,
+      "object_class": "Finite fixed-point-free maps f:[n]→[n], n≥3, and distinct labeled Euclidean points with all distinct-pair distances mutually different.",
+      "invariant_or_observation_map": "Point configuration maps each label i to the label of its unique nearest other point.",
+      "target_equivalence": "Existence of a realization in R^k; uniqueness of the realizing configuration is not requested.",
+      "generic_or_uniform_scope": "For each fixed k≥1, exact characterization of all finite maps admitting a realization.",
+      "noise_and_loss": "Exact strict distance comparisons with no equal pair distances; no noise or approximate realization.",
+      "measurement_count": "One nearest-neighbor label per vertex; ambient dimension k fixed, with no numerical distance observations.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 1156, 1157, checked 6 October 2026: Checked 2026-10-06: no resolution located in bounded searches.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Žarko Ranđelović: Minimal and Maximal Distances in Metric Spaces](#source-20). **Location:** Problem 20.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R14"
+      ],
+      "session_summary": "Complete constructive line subcase.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1157",
+      "stable_statement_id": "cc68108ee4fc5b3d3ebc",
+      "title": "Joint nearest and farthest maps in fixed dimension",
+      "exact_retained_statement": "For each fixed k≥1, characterize the pairs (f,g) realizable in some metric space that admit a simultaneous realization in Euclidean R^k.",
+      "provisional": false,
+      "object_class": "Pairs of fixed-point-free maps (f,g) on [n], n≥3, already simultaneously realizable in some metric space with distinct labeled points and mutually distinct pair distances.",
+      "invariant_or_observation_map": "A configuration records each vertex’s unique nearest and unique farthest other-point labels.",
+      "target_equivalence": "Existence of a simultaneous realization in Euclidean R^k.",
+      "generic_or_uniform_scope": "For every fixed k≥1, classify all metric-realizable pairs that admit such a Euclidean realization.",
+      "noise_and_loss": "Exact strict nearest/farthest relations and mutually distinct pair distances; no noise.",
+      "measurement_count": "Two neighbor labels per vertex, one nearest and one farthest; no finite-distance-value sample budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 1156, 1157, checked 6 October 2026: Checked 2026-10-06: no resolution located in bounded searches.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Žarko Ranđelović: Minimal and Maximal Distances in Metric Spaces](#source-20). **Location:** Problem 21.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R15"
+      ],
+      "session_summary": "Complete line criterion via rational linear feasibility.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1324",
+      "stable_statement_id": "b17e6d3142710d3c0f68",
+      "title": "Recovering Anosov orbits from Liouville geometry",
+      "exact_retained_statement": "If two AL structures are exact symplectomorphic after completion, must the underlying Anosov flows be orbit equivalent? Exact means λ₁=φ*λ₀+df with f constant near infinity; orbit equivalence is a homeomorphism preserving oriented trajectories.",
+      "provisional": false,
+      "object_class": "AL structures λ=e^(−s)α₋+e^sα₊ supporting smooth oriented Anosov flows on closed connected oriented 3-manifolds.",
+      "invariant_or_observation_map": "Associate the completed exact symplectic/Liouville structure to the flow; compare λ₁=φ*λ₀+df with f constant near infinity.",
+      "target_equivalence": "Oriented orbit equivalence: a homeomorphism preserving oriented flow trajectories.",
+      "generic_or_uniform_scope": "Uniform implication for all pairs of such completed exact-symplectomorphic AL structures.",
+      "noise_and_loss": "Exact symplectic equivalence and exact oriented topological orbit equivalence; no noise or metric loss.",
+      "measurement_count": "The whole completed AL structure; no finite measurement or sampling budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1324, checked 6 October 2026: 2026-10-06: retained in July 2026 v2; skewed R-covered case proved.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Jonathan Bowden; Thomas Massoni: Topological invariance of Liouville structures for taut foliations and Anosov flows](#source-21). **Location:** §0.4,Q3.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1456",
+      "stable_statement_id": "2dd40c2f94424a87477d",
+      "title": "Diameter bound for multiset tree dimension",
+      "exact_retained_statement": "Must every finite tree T with mdim(T)<∞ satisfy mdim(T)≤|V(T)|−diam(T)+1?",
+      "provisional": false,
+      "object_class": "Finite trees T with finite multiset metric dimension.",
+      "invariant_or_observation_map": "For landmark set S, each vertex v maps to the unordered multiset {d(v,s):s∈S}; mdim(T) is the smallest |S| making all vertices distinct.",
+      "target_equivalence": "Distinct vertices must have distinct distance multisets; target upper bound on the minimum resolving-set size.",
+      "generic_or_uniform_scope": "Every finite tree with mdim(T)<∞; bound |V(T)|−diam(T)+1.",
+      "noise_and_loss": "Exact unweighted graph distances, with landmark labels discarded within each observation multiset; no noise.",
+      "measurement_count": "Optimize the number |S| of landmark distances per vertex; conjectured upper bound |V(T)|−diam(T)+1.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1456, checked 6 October 2026: Checked 2026-10-06: retained as Problem 3 of the July 2026 survey. Allikvere’s general-graph counterexamples do not settle this tree bound.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Yusuf Hafidh; Rizki Kurniawan; Suhadi Saputro; Rinovia Simanjuntak; Steven Tanujaya; Saladin Uttunggadewa: Multiset Dimensions of Trees](#source-22). **Location:** Conjecture 2, p. 7.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1457",
+      "stable_statement_id": "b40e30bbf175d35162cb",
+      "title": "Compute outer multiset dimension on trees",
+      "exact_retained_statement": "What is the computational complexity of deciding, given a finite tree T and an integer k, whether T has an outer multiset resolving set of size at most k?",
+      "provisional": false,
+      "object_class": "Finite trees T with an input integer k.",
+      "invariant_or_observation_map": "Given landmark set S, compare distance multisets {d(v,s):s∈S} only for vertices v outside S.",
+      "target_equivalence": "Decision whether all distinct vertices outside S can be distinguished with |S|≤k; classify computational complexity.",
+      "generic_or_uniform_scope": "Worst-case decision complexity over arbitrary finite input trees and integers k.",
+      "noise_and_loss": "Exact distances and exact decision; no noise.",
+      "measurement_count": "At most k landmarks; resolving requirements apply only to vertices outside the landmark set.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1457, checked 6 October 2026: Checked 2026-10-06: no tree-case classification located. Later king-grid, toroidal-grid and hypercube resolutions address other questions.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Mohammad Farhan; Sandi Klavžar; Dorota Kuziak; Ismael G. Yero: Multiset resolvability parameters in graphs: A survey with new results and open problems](#source-23). **Location:** §7.2, Problem 8.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1458",
+      "stable_statement_id": "d7fe39dcb9bb210db7fa",
+      "title": "Finiteness of random multiset dimension",
+      "exact_retained_statement": "For fixed 1/8<x≤1/2 and (n−1)p=nˣ, is mdim(G(n,p)) finite with probability tending to one as n→∞, where each possible edge is independently present with probability p?",
+      "provisional": false,
+      "object_class": "Binomial random graphs G(n,p) with independent edges and (n−1)p=n^x.",
+      "invariant_or_observation_map": "Multiset metric dimension from unordered distances to landmark sets, using all vertices as the distinguishing target.",
+      "target_equivalence": "Finiteness of the multiset metric dimension, equivalently existence of a resolving landmark set.",
+      "generic_or_uniform_scope": "For each fixed 1/8<x≤1/2, probability of finiteness tends to one as n→∞.",
+      "noise_and_loss": "Randomness is in the graph; conditional on the graph, distances and resolvability are exact.",
+      "measurement_count": "Existence of some finite landmark subset of the n vertices; no fixed cardinality bound requested.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1458, checked 6 October 2026: Checked 2026-10-06: September 2, 2026 v2 still states the question. Finiteness proved for 0<x≤1/8; infinitude for x>1/2.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Austin Eide; Paweł Prałat: Multiset Metric Dimension of Binomial Random Graphs](#source-24). **Location:** §5, first proposed direction.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1498",
+      "stable_statement_id": "01c8355b5e7fc5532a9c",
+      "title": "Optimal exponent for barrier recovery",
+      "exact_retained_statement": "Is the rate T^(−2/3) as T→∞ optimal, up to logarithms, for the worst-case Hausdorff error in recovering the entire barrier union from these fixed-frequency data when only the stated geometric and process controls are available?",
+      "provisional": false,
+      "object_class": "Bounded smooth planar domains with finitely many disjoint smooth closed semipermeable barriers, observed through stationary reflected Brownian motion with positive side-dependent crossing rates.",
+      "invariant_or_observation_map": "Sampled process X_0,X_t,…,X_(⌊T/t⌋t), with fixed sufficiently small t under the handoff’s geometric, permeability, area, mixing, stationary-density, and connectedness controls.",
+      "target_equivalence": "Recovery of the entire barrier union up to Hausdorff error.",
+      "generic_or_uniform_scope": "Worst case under only the stated geometric/process bounds, as T→∞ with fixed admissible sampling interval t.",
+      "noise_and_loss": "Stochastic diffusion and crossing noise; worst-case Hausdorff error, asking optimality of T^(−2/3) up to logarithmic factors.",
+      "measurement_count": "⌊T/t⌋+1 fixed-frequency trajectory observations over duration T.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1498, checked 6 October 2026: Checked 6 October 2026: current preprint and author’s publication list give no matching lower-bound result.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Alexander Van Werde; Jaron Sanders: Recovering semipermeable barriers from reflected Brownian motion](#source-25). **Location:** Paper §2.3.1 after Theorem 2.3; thesis §3.1, pp. 59–61.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1593",
+      "stable_statement_id": "ec5863144b957427d69c",
+      "title": "Exponential instability at minimal measurements",
+      "exact_retained_statement": "Do universal C>0 and 0<β<1 exist such that ω(A)≤C(max_i||A_i||_2)β^M for every M>1 and every such A?",
+      "provisional": false,
+      "object_class": "Real full-spark matrices A∈R^((2M−1)×M), M>1: every M-row submatrix is nonsingular.",
+      "invariant_or_observation_map": "ω(A)=min_(|S|=M) σ_min(A_S), normalized against the largest Euclidean row norm.",
+      "target_equivalence": "A uniform exponential upper bound on this scalar stability quantity; no object-reconstruction quotient is imposed.",
+      "generic_or_uniform_scope": "Universal constants C>0 and 0<β<1 independent of every M and every eligible A.",
+      "noise_and_loss": "Exact matrix data; the target is a worst-submatrix singular-value/stability bound, not a noisy recovery risk.",
+      "measurement_count": "2M−1 rows; ω ranges over all M-row submatrices.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1593, checked 6 October 2026: general deterministic bound unresolved; Gaussian special case was solved in 2026.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Afonso Bandeira, Daniil Dmitriev, Kevin Lucca, Petar Nizić-Nikolac, Almut Rödder: Randomstrasse101: Open Problems of 2025](#source-26). **Location:** Conjecture 20, p. 7.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1749",
+      "stable_statement_id": "0c0478553c79951846b2",
+      "title": "Baire category of uniquely retrievable Gabor signals",
+      "exact_retained_statement": "For fixed a,b>0, is E_Λ meagre or nonmeagre in L²(R) with its norm topology?",
+      "provisional": false,
+      "object_class": "Complex signals in L²(R) and a fixed rectangular lattice Λ=aZ×bZ, a,b>0.",
+      "invariant_or_observation_map": "Magnitudes of the Gaussian-window Gabor transform Gf(x,ω)=2^(1/4)∫f(t)e^(−π(t−x)²)e^(−2πitω)dt on every lattice point.",
+      "target_equivalence": "Signal equality modulo a global unit complex phase; E_Λ is the set whose magnitude fiber is exactly its phase orbit.",
+      "generic_or_uniform_scope": "For each fixed a,b>0, determine the Baire category of E_Λ in the L² norm topology.",
+      "noise_and_loss": "Exact magnitudes, no noise; target meagreness versus nonmeagreness, rather than a numerical recovery loss.",
+      "measurement_count": "The full countably infinite lattice of Gabor magnitudes; no finite truncation.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1749, checked 6 October 2026: density has substantial positive results (Wellershoff, April 2026 revision); the separate category clause remains unanswered in checked sources.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Marc Allain; Selin Aslan; Wim Coene; Sjoerd Dirksen; Jonathan Dong; Julien Flamant; Mark Iwen; Felix Krahmer; Tristan van Leeuwen; Oleh Melnyk; Andreas Menzel; Allard P. Mosk; Viktor Nikitin; Gerlind Plonka; Palina Salanevich; Matthias Wellershoff: Phasebook: a survey of selected open problems in phase retrieval](#source-27). **Location:** Question 8.8, category clause; compare Wellershoff §1.1",
+      "status_for_exact_statement": "proved",
+      "decision_origin": "new_written_proof_proposed_for_reconciliation",
+      "session_result_ids": [
+        "B7-R03",
+        "B7-R04"
+      ],
+      "session_summary": "Full category trichotomy and exact critical uniqueness criterion.",
+      "attempt_status": "proved",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q1766",
+      "stable_statement_id": "84f1767e6fac27a1ca5e",
+      "title": "Exact edge multiset dimension of the six-cube",
+      "exact_retained_statement": "What is the edge multiset dimension of Q₆, the graph on {0,1}⁶ with adjacency at Hamming distance one?",
+      "provisional": false,
+      "object_class": "The six-dimensional hypercube Q₆ with vertex set {0,1}⁶ and Hamming-distance-one adjacency.",
+      "invariant_or_observation_map": "For landmarks S⊆V(Q₆), edge uv maps to the multiset {min(d(u,s),d(v,s)):s∈S}.",
+      "target_equivalence": "Distinguish every pair of edges by their distance multisets; determine the least |S|.",
+      "generic_or_uniform_scope": "Exact finite value for this one graph, with all edges to be resolved.",
+      "noise_and_loss": "Exact graph distances; landmark identities discarded inside each multiset; no noise.",
+      "measurement_count": "Optimize the landmark count |S| among the 64 vertices; each edge supplies |S| distance entries.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 1766, checked 6 October 2026: currently 6≤edim_m(Q₆)≤15.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Jaan Allikvere: The edge multiset dimension of hypercubes](#source-28). **Location:** §10, Open problem 1.",
+      "status_for_exact_statement": "partial",
+      "decision_origin": "session_partial_result",
+      "session_result_ids": [
+        "B7-R05"
+      ],
+      "session_summary": "Computer-assisted interval narrowed to 13–15; exact value remains.",
+      "attempt_status": "partial",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2025",
+      "stable_statement_id": "35437229265179fdf70c",
+      "title": "Low-dimensional spherical isospectral orbifolds",
+      "exact_retained_statement": "Do nonisometric isospectral spherical orbifolds exist in any dimension 2≤d≤4?",
+      "provisional": false,
+      "object_class": "Spherical orbifolds S^d/Γ with Γ≤O(d+1) finite and 2≤d≤4, allowing nonfree actions.",
+      "invariant_or_observation_map": "Full scalar Laplace spectrum, including multiplicities.",
+      "target_equivalence": "Riemannian orbifold isometry; seek a pair sharing the invariant without being isometric.",
+      "generic_or_uniform_scope": "Existence of such a pair in any of the dimensions 2,3,4.",
+      "noise_and_loss": "Exact isospectrality; no noise or spectral approximation.",
+      "measurement_count": "The entire Laplace eigenvalue sequence with multiplicities; no finite spectral cutoff.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2025, checked 6 October 2026: no low-dimensional resolution located; September space-form examples have different scope.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Alfredo Álzaga, Emilio A. Lauret: Isospectral spherical space forms and orbifolds of highest volume](#source-29). **Location:** After Theorem 1.2, p. 73.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [
+        "B7-R20"
+      ],
+      "session_summary": "Lens-to-homometry experiment has dimension five: scope-nonmatch.",
+      "attempt_status": "scope-nonmatch",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2032",
+      "stable_statement_id": "d54894e53caf916054e2",
+      "title": "Inaudible groups in dimensions one modulo four",
+      "exact_retained_statement": "Do isospectral spherical space forms with nonisomorphic fundamental groups exist in any dimension d≡1 (mod 4)?",
+      "provisional": false,
+      "object_class": "Curvature-one spherical space forms S^d/Γ with finite free group actions and d≡1 (mod 4).",
+      "invariant_or_observation_map": "Full scalar Laplace spectrum, with multiplicities.",
+      "target_equivalence": "Fundamental-group isomorphism; seek an isospectral pair whose fundamental groups are nonisomorphic.",
+      "generic_or_uniform_scope": "Existence in any dimension congruent to 1 modulo 4.",
+      "noise_and_loss": "Exact isospectrality and exact group isomorphism distinction; no noise.",
+      "measurement_count": "The complete Laplace spectrum with multiplicities.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2032, checked 6 October 2026: September nonstrong-isospectral examples have isomorphic groups; no answer to this dimension-restricted question located.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Mauro Colantonio, Emilio A. Lauret: The fundamental group of a spherical space form is not audible](#source-30). **Location:** Question 5.3, p. 16.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [
+        "B7-R20"
+      ],
+      "session_summary": "Experiment uses isomorphic cyclic groups: scope-nonmatch.",
+      "attempt_status": "scope-nonmatch",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2033",
+      "stable_statement_id": "73618fc79466096402ed",
+      "title": "Steklov twins with spectrally different boundaries",
+      "exact_retained_statement": "Can two Steklov-isospectral Ω have boundaries with different Laplace–Beltrami spectra?",
+      "provisional": false,
+      "object_class": "Compact connected smooth Riemannian manifolds Ω of dimension at least 2 with nonempty smooth boundary.",
+      "invariant_or_observation_map": "Steklov spectrum from Δu=0 in Ω and ∂νu=σu on ∂Ω; compare the intrinsic Laplace–Beltrami spectra of the boundaries.",
+      "target_equivalence": "Equality of Steklov spectra together with inequality of boundary Laplace–Beltrami spectra, both counted with multiplicity.",
+      "generic_or_uniform_scope": "Existence of a pair of such manifolds; no genericity or restricted finite family is imposed.",
+      "noise_and_loss": "Exact spectral equalities/inequalities; no noise.",
+      "measurement_count": "Complete Steklov and boundary Laplace–Beltrami spectra, with multiplicities.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 2033, 2034, checked 6 October 2026: no resolutions located; August planar examples and 2026 nodal estimates have different scope.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Bruno Colbois, Alexandre Girouard, Carolyn Gordon, David Sher: Some recent developments on the Steklov eigenvalue problem](#source-31). **Location:** Question 9.1, journal p. 128.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2034",
+      "stable_statement_id": "53728349aebd91e7cfc3",
+      "title": "Linear interior Steklov nodal bounds",
+      "exact_retained_statement": "For each Ω^{d+1}, do c,C>0 exist such that cσ≤H^d(Z(u)∩Ω)≤Cσ for every nonzero real Steklov eigenfunction u with eigenvalue σ>0?",
+      "provisional": false,
+      "object_class": "Compact connected smooth Riemannian manifolds Ω^(d+1) with nonempty smooth boundary and nonzero real Steklov eigenfunctions u.",
+      "invariant_or_observation_map": "Steklov eigenvalue σ and d-dimensional Hausdorff measure of the interior nodal set Z(u)∩Ω.",
+      "target_equivalence": "Two-sided linear nodal-size bound cσ≤H^d(Z(u)∩Ω)≤Cσ; no object-reconstruction equivalence.",
+      "generic_or_uniform_scope": "For each fixed Ω, constants c,C>0 uniform over every nonzero real eigenfunction with σ>0.",
+      "noise_and_loss": "Exact nodal measure and eigenvalue; no stochastic noise or approximation loss.",
+      "measurement_count": "Whole interior nodal set for each eigenfunction, across all positive Steklov eigenvalues; no finite sampling budget.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 2033, 2034, checked 6 October 2026: no resolutions located; August planar examples and 2026 nodal estimates have different scope.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Bruno Colbois, Alexandre Girouard, Carolyn Gordon, David Sher: Some recent developments on the Steklov eigenvalue problem](#source-31). **Location:** Question 10.7, equation (10.3), p. 140.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2092",
+      "stable_statement_id": "c78457588025ba2dcd4d",
+      "title": "Vanishing minimal-measurement injectivity",
+      "exact_retained_statement": "Is lim_{M→∞} p_M=0?",
+      "provisional": false,
+      "object_class": "Random complex matrices A∈C^((4M−5)×M), M≥2, with independent standard complex Gaussian entries.",
+      "invariant_or_observation_map": "Phaseless linear map x↦|Ax|; p_M is the probability over A that this map is globally injective modulo unit complex scalars.",
+      "target_equivalence": "Global signal equality modulo a unit complex scalar.",
+      "generic_or_uniform_scope": "Asymptotic probability over the random sensing matrix as M→∞; each injectivity event quantifies over all signals.",
+      "noise_and_loss": "Matrix randomness; measurements themselves exact; target lim p_M=0.",
+      "measurement_count": "4M−5 complex linear measurements followed by magnitudes for dimension M.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2092, checked 6 October 2026: Li proves p_M<1, leaving the asymptotic part.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Zhangsong Li: On Injectivity of Phase Retrieval, 2026](#source-32). **Location:** Conjecture 1.1(2), pp. 1–2.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2105",
+      "stable_statement_id": "ed3c15822967f6534d5b",
+      "title": "Odd-prime modular reconstruction",
+      "exact_retained_statement": "For every odd prime p, field k of characteristic p, and finite p-groups G,H, does kG≅kH imply G≅H?",
+      "provisional": false,
+      "object_class": "Finite p-groups G,H, every odd prime p, and every coefficient field k of characteristic p.",
+      "invariant_or_observation_map": "Group algebra G↦kG, with isomorphisms preserving the coefficient field and identity.",
+      "target_equivalence": "Group isomorphism G≅H.",
+      "generic_or_uniform_scope": "Uniform over all odd primes, characteristic-p fields, and pairs of finite p-groups.",
+      "noise_and_loss": "Exact algebra isomorphism; no noise or approximate loss.",
+      "measurement_count": "The whole group algebra, not a truncated augmentation quotient or selected numerical invariants.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 2105, 2106, 2107, checked 6 October 2026: 2024–2026 work settles specified group classes; bounded searches found no resolutions of these three assertions.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Leo Margolis: The Modular Isomorphism Problem: a survey](#source-33). **Location:** Problem 8.7.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2106",
+      "stable_statement_id": "790cf230288fb810afad",
+      "title": "Modular detection of nilpotency class",
+      "exact_retained_statement": "For every prime p, field k of characteristic p, and finite p-groups G,H with kG≅kH, must cl(G)=cl(H)?",
+      "provisional": false,
+      "object_class": "Finite p-groups G,H, every prime p, and every field k of characteristic p.",
+      "invariant_or_observation_map": "Group algebra G↦kG under coefficient-preserving unital isomorphism.",
+      "target_equivalence": "Equality of nilpotency classes, defined by lower central series length.",
+      "generic_or_uniform_scope": "Uniform over all primes, all characteristic-p fields, and all finite p-group pairs with isomorphic algebras.",
+      "noise_and_loss": "Exact algebra isomorphism and exact integer class comparison; no noise.",
+      "measurement_count": "The full group algebra; no finite list of derived invariants is substituted.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 2105, 2106, 2107, checked 6 October 2026: 2024–2026 work settles specified group classes; bounded searches found no resolutions of these three assertions.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Leo Margolis: The Modular Isomorphism Problem: a survey](#source-33). **Location:** Problem 8.5.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2107",
+      "stable_statement_id": "91432fe0cb2d0ad759e1",
+      "title": "Odd-order integral reconstruction",
+      "exact_retained_statement": "For finite groups G,H of odd order, does ZG≅ZH imply G≅H?",
+      "provisional": false,
+      "object_class": "Finite groups G,H of odd order.",
+      "invariant_or_observation_map": "Integral group ring G↦ZG, with coefficient-preserving unital ring isomorphism.",
+      "target_equivalence": "Group isomorphism G≅H.",
+      "generic_or_uniform_scope": "Uniform over all finite odd-order group pairs.",
+      "noise_and_loss": "Exact integral group-ring isomorphism; no noise or approximation loss.",
+      "measurement_count": "The entire integral group ring, with no reduction to selected representations or coefficients.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 2105, 2106, 2107, checked 6 October 2026: 2024–2026 work settles specified group classes; bounded searches found no resolutions of these three assertions.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Leo Margolis: The Modular Isomorphism Problem: a survey](#source-33). **Location:** Problem 2.10.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2108",
+      "stable_statement_id": "9e1bb75af8f94aaea2d7",
+      "title": "Field-independent group determination",
+      "exact_retained_statement": "Let G be a finite p-group such that F_pG≅F_pH forces G≅H for every finite p-group H. Must FG≅FH force G≅H for every characteristic-p field F and finite p-group H?",
+      "provisional": false,
+      "object_class": "Finite p-groups G determined among finite p-groups by their group algebra over F_p.",
+      "invariant_or_observation_map": "Compare determination by F_pG with determination by FG for an arbitrary characteristic-p field F.",
+      "target_equivalence": "Group isomorphism G≅H among finite p-groups H.",
+      "generic_or_uniform_scope": "For every G satisfying the prime-field determination hypothesis, every characteristic-p field F, and every finite p-group H.",
+      "noise_and_loss": "Exact coefficient-preserving unital algebra isomorphism; no noise.",
+      "measurement_count": "Full group algebra over each field; the field extension is unrestricted in the retained target.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2108, checked 6 October 2026: September 2026 descent result requires restricted extension degrees; unrestricted determination remains open.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Leo Margolis, Taro Sakurai: The Modular Isomorphism Problem over all fields](#source-34). **Location:** §1, paragraph after the two MIP formulations.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2109",
+      "stable_statement_id": "783798519c45eea8a7ab",
+      "title": "Character degrees determine simple groups",
+      "exact_retained_statement": "If S is a finite nonabelian simple group and G any finite group with cd(G)=cd(S), must G≅S×B for some abelian group B?",
+      "provisional": false,
+      "object_class": "Finite nonabelian simple groups S and arbitrary finite groups G.",
+      "invariant_or_observation_map": "Character-degree set cd(G)={χ(1):χ∈Irr_C(G)}, retaining degrees without multiplicity.",
+      "target_equivalence": "G≅S×B for some finite abelian group B; the abelian factor is not determined by this invariant.",
+      "generic_or_uniform_scope": "Uniform over every finite nonabelian simple S and every finite G with cd(G)=cd(S).",
+      "noise_and_loss": "Exact equality of degree sets; no noise.",
+      "measurement_count": "The full set of complex irreducible-character degrees, without degree multiplicities.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2109, checked 6 October 2026: Exceptional groups are proved; general classical groups remain. September’s codegree theorem concerns a different invariant.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Hung P. Tong-Viet: Huppert’s Conjecture for finite simple exceptional groups of Lie type](#source-35). **Location:** Introduction, Huppert’s conjecture before Theorem 1.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2123",
+      "stable_statement_id": "7ecf710a682d6bfc2410",
+      "title": "Commensurability from full length spectrum",
+      "exact_retained_statement": "For each n≥2, must two finite-volume hyperbolic n-manifolds with identical length spectra be commensurable?",
+      "provisional": false,
+      "object_class": "Connected complete boundaryless finite-volume hyperbolic n-manifolds of curvature −1.",
+      "invariant_or_observation_map": "Full length spectrum with multiplicities.",
+      "target_equivalence": "Commensurability: existence of a common finite-sheeted Riemannian cover.",
+      "generic_or_uniform_scope": "For every n≥2 and every pair with identical length spectra.",
+      "noise_and_loss": "Exact equality of length spectra; no noise or finite precision.",
+      "measurement_count": "The complete length spectrum with multiplicities; no finite length cutoff.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 2121, 2122, 2123, checked 6 October 2026: no resolutions located for retained targets; August solutions exclude Problem 3.16.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[R. İnanç Baykur; Robion C. Kirby; Daniel Ruberman: K3: A New Problem List in Low-Dimensional Topology](#source-36). **Location:** Problem 3.17, p. 143.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2134",
+      "stable_statement_id": "d7d72638df3bb1201dc2",
+      "title": "Lens spaces as maximum-volume isospectral pairs",
+      "exact_retained_statement": "For every odd d≥5, must each maximum-volume pair of nonisometric isospectral spherical space forms consist of lens spaces?",
+      "provisional": false,
+      "object_class": "Pairs of nonisometric isospectral curvature-one spherical space forms S^d/Γ in a fixed odd dimension d≥5.",
+      "invariant_or_observation_map": "Full scalar Laplace spectrum with multiplicities, together with maximization of the common volume among eligible pairs.",
+      "target_equivalence": "Both members being lens spaces, equivalently both free acting groups being cyclic.",
+      "generic_or_uniform_scope": "For every odd d≥5 and every maximum-volume eligible pair.",
+      "noise_and_loss": "Exact isospectrality and exact volume optimization; no noise or approximate optimality.",
+      "measurement_count": "The full Laplace spectrum and volume; no finite spectral or sample cutoff.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2134, checked 6 October 2026: fresh final-journal read retains the conjecture; September nonstrong-isospectral examples do not optimize volume. No resolution located.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Alfredo Álzaga; Emilio A. Lauret: Isospectral spherical space forms and orbifolds of highest volume](#source-37). **Location:** After Question 1.3, p. 73.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [
+        "B7-R20"
+      ],
+      "session_summary": "Experiment gives no all-dimensional maximum-volume result: scope-nonmatch.",
+      "attempt_status": "scope-nonmatch",
+      "source_freshness": "Relevant dependencies compared to primary sources during this run; see result records.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2159",
+      "stable_statement_id": "253959e9e3fc2bc95cf7",
+      "title": "Determine planar stable-colouring growth",
+      "exact_retained_statement": "Determine the asymptotic order of max{χ_st(G): G is planar and |V(G)|=n} as n→∞.",
+      "provisional": false,
+      "object_class": "Finite planar graphs with n vertices and arbitrary strict vertex rankings of the available k colors.",
+      "invariant_or_observation_map": "χ_st(G): least k such that every ranking profile admits a proper coloring whose preference digraph is acyclic; u→v records preference for the adjacent vertex’s color.",
+      "target_equivalence": "Asymptotic extremal order of max χ_st(G) on n-vertex planar graphs; no invariant-reconstruction equivalence.",
+      "generic_or_uniform_scope": "Worst case over planar graphs and, within χ_st, every vertex ranking profile; n→∞.",
+      "noise_and_loss": "Exact combinatorial preference and stability conditions; no noise.",
+      "measurement_count": "Entire graph and ranking profile; optimize the number of colors, with n the asymptotic size parameter.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2159, checked 6 October 2026: source leaves this open; later searches found no resolution.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Tomohiro Koana; Yeeseok Oh; Hirotaka Yoneda: Graph Coloring with Color Preferences](#source-38). **Location:** §5, p. 14; §3.7, pp. 10–11.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2211",
+      "stable_statement_id": "a0c7ab5838fac12c9329",
+      "title": "Reconstructing finite semigroups from subsets",
+      "exact_retained_statement": "For finite semigroups H,K, does P(H)≅P(K) imply H≅K?",
+      "provisional": false,
+      "object_class": "Finite semigroups H,K.",
+      "invariant_or_observation_map": "Power semigroup P(H) of nonempty subsets with setwise multiplication AB={ab:a∈A,b∈B}.",
+      "target_equivalence": "Semigroup isomorphism H≅K.",
+      "generic_or_uniform_scope": "Uniform over all finite semigroup pairs whose power semigroups are isomorphic.",
+      "noise_and_loss": "Exact power-semigroup structure; no noise.",
+      "measurement_count": "All nonempty subsets and their setwise multiplication; 2^{|H|}−1 subset elements for H.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for questions 2211, 2212, checked 6 October 2026: May revision retains both. Later reconstruction results cover other classes; atom-count results establish only almost-unimodality for H=N₀.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Salvatore Tringali: Power monoids and their arithmetic: a survey](#source-39). **Location:** Question 1.1(1) and following finite-semigroup discussion.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2350",
+      "stable_statement_id": "1cd1a29825c43e7714d6",
+      "title": "Distinguish trees chromatically",
+      "exact_retained_statement": "For finite trees T and U, does X_T=X_U force T≅U?",
+      "provisional": false,
+      "object_class": "Finite trees T,U.",
+      "invariant_or_observation_map": "Chromatic symmetric function X_G=∑_(proper colorings κ:V→N) ∏_(v∈V) x_(κ(v)).",
+      "target_equivalence": "Graph isomorphism T≅U.",
+      "generic_or_uniform_scope": "Uniform over every pair of finite trees with equal chromatic symmetric functions.",
+      "noise_and_loss": "Exact symmetric-function equality; no noise.",
+      "measurement_count": "The full chromatic symmetric function, with no coefficient truncation or sampled-coloring substitute.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2350, checked 6 October 2026: September papers still leave general tree reconstruction open.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Logan Crew: Vertex-Weighted Generalizations of Chromatic Symmetric Functions](#source-40). **Location:** Conjecture 16, p. 57.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2364",
+      "stable_statement_id": "6f31e42a6bb668cb8904",
+      "title": "Exclude e-positive degree-four trees",
+      "exact_retained_statement": "Must every finite tree with a vertex of degree at least4 fail to be e-positive?",
+      "provisional": false,
+      "object_class": "Finite trees with at least one vertex of degree at least 4.",
+      "invariant_or_observation_map": "Coefficients of the chromatic symmetric function X_T in the elementary symmetric-function basis e_λ.",
+      "target_equivalence": "Failure of e-positivity, meaning at least one negative elementary-basis coefficient; no reconstruction equivalence.",
+      "generic_or_uniform_scope": "Every finite tree satisfying the degree condition.",
+      "noise_and_loss": "Exact coefficient signs; no noise or approximate positivity.",
+      "measurement_count": "The entire elementary-basis expansion of X_T; no selected coefficient or finite-tree census suffices for the uniform assertion.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger",
+        "collector_status_verbatim": "Status for question 2364, checked 6 October 2026: latest source retains these targets; bounded later searches found no resolution.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null
+      },
+      "source_locator_from_handoff": "[Foster Tom: Graphs missing a connected partition](#source-41). **Location:** Conjecture 1.2, p. 2.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "No new analysis or status promotion in this return.",
+      "attempt_status": "not_attempted",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    },
+    {
+      "program": "B7",
+      "question": "Q2483",
+      "stable_statement_id": "952a31b8ef8e3b9b0e60",
+      "title": "Intermediate complete-theory isomorphism",
+      "exact_retained_statement": "Is there a complete countable-language theory T with =_R<_B ≅↾Mod_ω(T)<_B =⁺, where =⁺ identifies real sequences enumerating the same set?",
+      "provisional": true,
+      "object_class": "Complete theories T in countable languages and their spaces Mod_ω(T) of countable models.",
+      "invariant_or_observation_map": "The isomorphism equivalence relation on Mod_ω(T), compared by Borel reducibility with equality on R and =⁺ on sequences enumerating the same countable set of reals.",
+      "target_equivalence": "Strict Borel-reducibility position =_R<_B ≅↾Mod_ω(T)<_B =⁺; each strict inequality excludes a reduction in the reverse direction.",
+      "generic_or_uniform_scope": "Existence of one such complete theory; countable-model classification scope. Question number and import remain provisional in the handoff.",
+      "noise_and_loss": "Exact equivalence relations and Borel reductions; no statistical noise or numerical loss.",
+      "measurement_count": "Whole countable structures and their isomorphism relation; no finite observation budget or finite-census substitute.",
+      "source_status_from_handoff": {
+        "catalog_disposition": "No exact closure in catalog ledger; provisional numbering",
+        "collector_status_verbatim": "Status for questions 2481, 2482, 2483, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.",
+        "exact_ledger_decision": null,
+        "recorded_lead": null,
+        "import_status": "`provisional-recovery-draft`; `proposed` numbering. Use the stable ID when returning results."
+      },
+      "source_locator_from_handoff": "[George Barmpalias; Su Gao; Jialiang He; Takayuki Kihara; Andre Nies; Theodore Slaman; Chieu-Minh Tran; Daniel Turetsky; Philip Welch; Liang Yu; Hang Zhang: Open Problems in Mathematical Logic](#source-42). **Location:** Problem 11.1, p. 13.",
+      "status_for_exact_statement": "unresolved",
+      "decision_origin": "no_closure_in_this_return",
+      "session_result_ids": [],
+      "session_summary": "Provisional number, stable ID 952a31b8ef8e3b9b0e60; no new result.",
+      "attempt_status": "unresolved",
+      "source_freshness": "Historical handoff status preserved; no comprehensive fresh literature check.",
+      "compiled_formal_theorem_in_this_return": false
+    }
+  ],
+  "results": [
+    {
+      "result_id": "B7-R01",
+      "program": "B7",
+      "questions": [
+        "Q17"
+      ],
+      "stable_statement_ids": [
+        "3e7e1834fd713fe73a83"
+      ],
+      "exact_retained_statements": [
+        "For a tree T and even k≥2, form D_(k)(T) with entry indexed by (v_(1),…,v_(k)) equal to the edge-count of the smallest subtree containing those vertices. Does 2^(k−1)−1 always divide its symmetric hyperdeterminant?"
+      ],
+      "result_status": "proved",
+      "result_statement": "For every n-vertex tree, n>=2, and every integer k>=2, (n-1)(2^(k-1)-1) divides the raw symmetric tensor resultant; the n=1 determinant is zero.",
+      "relation_to_original_question": "Full retained statement, with stronger divisor and all-order extension.",
+      "changed_assumptions": "The main theorem additionally permits odd k. The weighted-tree corollary changes entries to integer edge-weight sums.",
+      "remaining_for_original_question": "None for the retained statement.",
+      "evidence": {
+        "written_argument": "b7_work/q17_proof.md",
+        "primary_source_comparison": [
+          "S02",
+          "S03"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/verify_q17.py",
+          "b7_work/q17_output/q17_summary.json",
+          "b7_work/q17_output/q17_tree_checks.jsonl"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R02",
+      "program": "B7",
+      "questions": [
+        "Q739"
+      ],
+      "stable_statement_ids": [
+        "3e3c622525036c1e9a43"
+      ],
+      "exact_retained_statements": [
+        "For every d≥2,k≥1, is dim Sec_k(G_{2,d})=min{binom(d+2,2)−1,6k−1}?"
+      ],
+      "result_status": "proved",
+      "result_statement": "dim Sec_k(G_(2,d)) = min{binom(d+2,2)-1,6k-1} for every d>=2,k>=1.",
+      "relation_to_original_question": "Full retained statement.",
+      "changed_assumptions": "None within the stated result scope.",
+      "remaining_for_original_question": "None for the retained dimension statement; uniqueness is a separate question.",
+      "evidence": {
+        "written_argument": "b7_work/moments/q739_proof.md",
+        "primary_source_comparison": [
+          "S04"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/moments/verify_q739.py",
+          "b7_work/moments/independent_verify_q739.py",
+          "b7_work/moments/q739_certificates.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R03",
+      "program": "B7",
+      "questions": [
+        "Q1749"
+      ],
+      "stable_statement_ids": [
+        "0c0478553c79951846b2"
+      ],
+      "exact_retained_statements": [
+        "For fixed a,b>0, is E_Λ meagre or nonmeagre in L²(R) with its norm topology?"
+      ],
+      "result_status": "proved",
+      "result_statement": "For complex L2 Gaussian Gabor data on aZ x bZ, E is comeagre when ab<1, nonempty nowhere dense when ab=1, and empty when ab>1.",
+      "relation_to_original_question": "Full retained norm-category statement for every a,b>0.",
+      "changed_assumptions": "None within the stated result scope.",
+      "remaining_for_original_question": "None for category; uniform quantitative stability is not established.",
+      "evidence": {
+        "written_argument": "b7_work/q1749_proof.md",
+        "primary_source_comparison": [
+          "S09",
+          "S10",
+          "S11",
+          "S12",
+          "S13"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/verify_q1749_control.py",
+          "b7_work/q1749_control_output.json",
+          "b7_work/trace/q1749_audit.md"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R04",
+      "program": "B7",
+      "questions": [
+        "Q1749"
+      ],
+      "stable_statement_ids": [
+        "0c0478553c79951846b2"
+      ],
+      "exact_retained_statements": [
+        "For fixed a,b>0, is E_Λ meagre or nonmeagre in L²(R) with its norm topology?"
+      ],
+      "result_status": "proved",
+      "result_statement": "At ab=1, among actual L2 Gabor coefficient sequences c, uniqueness is equivalent to c in l1 and ||c||1=2||c||infinity.",
+      "relation_to_original_question": "Stronger characterization within the critical case; includes zero.",
+      "changed_assumptions": "Restricts to ab=1 for this additional theorem, retaining all complex L2 signals.",
+      "remaining_for_original_question": "No assertion that arbitrary balanced magnitude sequences lie in the analysis range, and no finite-data decision procedure.",
+      "evidence": {
+        "written_argument": "b7_work/trace/q1749_critical_characterization.md",
+        "primary_source_comparison": [
+          "S13"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/trace/q1749_critical_characterization_independent_audit.md"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R05",
+      "program": "B7",
+      "questions": [
+        "Q1766"
+      ],
+      "stable_statement_ids": [
+        "84f1767e6fac27a1ca5e"
+      ],
+      "exact_retained_statements": [
+        "What is the edge multiset dimension of Q₆, the graph on {0,1}⁶ with adjacency at Hamming distance one?"
+      ],
+      "result_status": "proved",
+      "result_statement": "13 <= edim_m(Q6) <= 15; an independent elementary proof gives the lower bound 8.",
+      "relation_to_original_question": "Computer-assisted partial bound.",
+      "changed_assumptions": "None within the stated result scope.",
+      "remaining_for_original_question": "Exclude sizes 13 and 14 or exhibit a smaller resolving set to determine the exact value.",
+      "evidence": {
+        "written_argument": "b7_work/cube/REPORT.md",
+        "primary_source_comparison": [
+          "S14"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/cube/replay_bound.py",
+          "b7_work/cube/verified_bound.json",
+          "b7_work/cube/manifest.json",
+          "b7_work/cube/source15_histograms.csv",
+          "b7_work/cube/exhaust12_summary.json",
+          "b7_work/cube/pruning_audit.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R06",
+      "program": "B7",
+      "questions": [
+        "Q740"
+      ],
+      "stable_statement_ids": [
+        "b69755d99b945371b6be"
+      ],
+      "exact_retained_statements": [
+        "For n≥8,r≥3,k=n+r and P=k n(n+3)/2+k−1≤binom(n+4,4)−1, is dim Sec_k(G_{n,4})=P−binom(r−1,2)?"
+      ],
+      "result_status": "proved",
+      "result_statement": "Throughout the full stated range, dim Sec_(n+r)(G_(n,4)) <= P-binom(r-1,2).",
+      "relation_to_original_question": "Universal one-sided bound at the exact parameter scope.",
+      "changed_assumptions": "None within the stated result scope.",
+      "remaining_for_original_question": "Prove the reverse inequality for every admissible n,r.",
+      "evidence": {
+        "written_argument": "b7_work/moments/q740_rotation_proof.md",
+        "primary_source_comparison": [
+          "S05"
+        ],
+        "finite_computation_artifacts": [],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R07",
+      "program": "B7",
+      "questions": [
+        "Q740"
+      ],
+      "stable_statement_ids": [
+        "b69755d99b945371b6be"
+      ],
+      "exact_retained_statements": [
+        "For n≥8,r≥3,k=n+r and P=k n(n+3)/2+k−1≤binom(n+4,4)−1, is dim Sec_k(G_{n,4})=P−binom(r−1,2)?"
+      ],
+      "result_status": "proved",
+      "result_statement": "dim Sec_11(G_(8,4)) = 493.",
+      "relation_to_original_question": "Complete smallest-dimensional subcase, certified by a 494x494 minor equal to 90 modulo 101.",
+      "changed_assumptions": "Specializes n=8,k=11; this is every admissible Q740 case at n=8.",
+      "remaining_for_original_question": "The other n>=9 cases remain.",
+      "evidence": {
+        "written_argument": "b7_work/moments/q740_rotation_proof.md",
+        "primary_source_comparison": [
+          "S05"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/moments/verify_q740.py",
+          "b7_work/moments/independent_verify_q740_rank.py",
+          "b7_work/moments/q740_n8_k11_rank_certificate.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R08",
+      "program": "B7",
+      "questions": [
+        "Q740"
+      ],
+      "stable_statement_ids": [
+        "b69755d99b945371b6be"
+      ],
+      "exact_retained_statements": [
+        "For n≥8,r≥3,k=n+r and P=k n(n+3)/2+k−1≤binom(n+4,4)−1, is dim Sec_k(G_{n,4})=P−binom(r−1,2)?"
+      ],
+      "result_status": "proved",
+      "result_statement": "An explicit real one-parameter family of 11-component 8-variate mixtures has fixed positive weights and distinct fixed means, covariance >= I/3, and identical moments through order four, but a varying fifth moment.",
+      "relation_to_original_question": "Exact positive-parameter ambiguity construction.",
+      "changed_assumptions": "Specializes to positive real mixtures n=8,k=11 for the explicit family.",
+      "remaining_for_original_question": "Does not prove the dimension lower bound in the universal conjecture.",
+      "evidence": {
+        "written_argument": "b7_work/moments/q740_rotation_proof.md",
+        "primary_source_comparison": [
+          "S05"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/moments/q740_family_checks.json",
+          "b7_work/moments/verify_q740.py"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R09",
+      "program": "B7",
+      "questions": [
+        "Q741"
+      ],
+      "stable_statement_ids": [
+        "f344e3bf779aac637144"
+      ],
+      "exact_retained_statements": [
+        "For all d≥5 and n≥2, does V=GM_d(C^n)=closure{[exp(ℓ+q/2)]_d:ℓ∈S¹(C^n),q∈S²(C^n)} have a nondegenerate tangent map? Precisely, must T:P(V_reg)→Gr(dimV,S^d(C^n)), [v]↦T_vV, have finite fibers? The unresolved extension is beyond the proved degrees 5,…,9; [·]_d means the homogeneous degree-d part."
+      ],
+      "result_status": "proved",
+      "result_statement": "For every d>=5,n>=2, the homogeneous Gaussian moment variety has a generically finite Gauss map; every fiber is finite within its smooth coprime finite-parameter image.",
+      "relation_to_original_question": "All-degree generic theorem and restricted all-fiber theorem.",
+      "changed_assumptions": "Replaces the full all-smooth-fibers assertion by generic finiteness, or by all fibers restricted to the coprime parameter image.",
+      "remaining_for_original_question": "Treat all smooth boundary points and points lacking a coprime representation. Literal full Q741 remains partial.",
+      "evidence": {
+        "written_argument": "b7_work/moments/q741_generic_gauss_proof.md",
+        "primary_source_comparison": [
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "finite_computation_artifacts": [],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R10",
+      "program": "B7",
+      "questions": [
+        "Q738",
+        "Q742"
+      ],
+      "stable_statement_ids": [
+        "2f577a87fee1b2c95e2d",
+        "c069b7ff6ff08382c685"
+      ],
+      "exact_retained_statements": [
+        "For arbitrary k, is the complexified moment map of k-component univariate Gaussian mixtures, with unknown means, variances and weights summing to 1, generically one-to-one modulo component permutation from moments m_1,…,m_{3k}? Equivalently, is the model rationally identifiable at order 3k? Algebraic finite-fiber identification at 3k−1 and rational identification at 3k+2 are established; these are not the target.",
+        "For each k≥2, are k-mixtures of gamma distributions and k-mixtures of inverse Gaussian distributions rationally identifiable from their first 3k moments, modulo component permutations? Component parameters and mixture weights are unknown. Rational identifiability refers to generic one-to-one fibers of the complexified moment parameterization; the two positive-support families are one source-conjectured target, not two counts."
+      ],
+      "result_status": "proved",
+      "result_statement": "For each fixed k>=2 and finite moment order d, positive k-component mixture pairs in all three families satisfy parameter-mixing-measure W1=epsilon and moment difference O(epsilon^(2k-1)). No uniform inverse Holder exponent above 1/(2k-1) is possible near collisions.",
+      "relation_to_original_question": "Residual stability obstruction; accepted exact identifiability results are unchanged.",
+      "changed_assumptions": "Studies positive real mixing measures with deterministic moment noise and component collisions; W1 is on mean-variance parameter space.",
+      "remaining_for_original_question": "No claim of optimal achievable exponent, separated-class stability, or sampling complexity.",
+      "evidence": {
+        "written_argument": "b7_work/trace/moment_collision_stability.md",
+        "primary_source_comparison": [
+          "S24"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/trace/moment_collision_check.py",
+          "b7_work/trace/moment_collision_results.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R11",
+      "program": "B7",
+      "questions": [
+        "Q1001"
+      ],
+      "stable_statement_ids": [
+        "93986607a1f5ccc79b75"
+      ],
+      "exact_retained_statements": [
+        "For n≥2,d≥3, characterize T∈V_pmi with a unique orthogonal eigenvector basis up to signs/order; equivalently {Q∈O(n):Q·T∈V_pmi}=SP(n), the signed permutations."
+      ],
+      "result_status": "proved",
+      "result_statement": "For an even-order real diagonal tensor with nonzero same-sign coefficients lambda_i, absence of any vanishing signed subset sum of |lambda_i|^(-2/(d-2)) implies a unique real orthogonal eigenbasis up to signs and order.",
+      "relation_to_original_question": "Explicit sufficient criterion on a restricted tensor class.",
+      "changed_assumptions": "Restricts to real diagonal tensors, even d>=4, all coefficients nonzero and of one sign.",
+      "remaining_for_original_question": "Classify arbitrary PMI tensors, including necessity and other orders/sign patterns.",
+      "evidence": {
+        "written_argument": "b7_work/pmi_audit/REPORT.md",
+        "primary_source_comparison": [
+          "S15"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/pmi_audit/independent_audit.md"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R12",
+      "program": "B7",
+      "questions": [
+        "Q1002"
+      ],
+      "stable_statement_ids": [
+        "ddcccae3e3f4fb404ca2"
+      ],
+      "exact_retained_statements": [
+        "Which PMI source distributions are identifiable from all cumulants jointly, rather than from one generic order? Give the distributional analogue of ICA’s at-most-one-Gaussian rule."
+      ],
+      "result_status": "proved",
+      "result_statement": "For every fixed full cumulant sequence, the orthogonal rotations satisfying all PMI zero restrictions are determined by finitely many initial orders. For an analytic CGF this is the distributional PMI rotation locus.",
+      "relation_to_original_question": "Distribution-dependent finite determination.",
+      "changed_assumptions": "The algebraic statement assumes all cumulants exist; its distributional interpretation assumes a CGF finite near zero.",
+      "remaining_for_original_question": "A full distributional classification and an effective stopping certificate remain unavailable.",
+      "evidence": {
+        "written_argument": "b7_work/pmi_audit/REPORT.md",
+        "primary_source_comparison": [
+          "S15",
+          "S17"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/pmi_audit/independent_audit.md"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R13",
+      "program": "B7",
+      "questions": [
+        "Q1002"
+      ],
+      "stable_statement_ids": [
+        "ddcccae3e3f4fb404ca2"
+      ],
+      "exact_retained_statements": [
+        "Which PMI source distributions are identifiable from all cumulants jointly, rather than from one generic order? Give the distributional analogue of ICA’s at-most-one-Gaussian rule."
+      ],
+      "result_status": "proved",
+      "result_statement": "For every n>=2 and m>=2 there are standardized analytic independent sources with minimum sufficient PMI cumulant cutoff exactly 2m. Hence no dimension-only uniform finite cutoff exists.",
+      "relation_to_original_question": "Explicit obstruction to a uniform cutoff.",
+      "changed_assumptions": "None within the stated result scope.",
+      "remaining_for_original_question": "Does not classify all identifiable dependent PMI distributions.",
+      "evidence": {
+        "written_argument": "b7_work/pmi_audit/REPORT.md",
+        "primary_source_comparison": [
+          "S15",
+          "S16"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/pmi_audit/verify_quadrature.py",
+          "b7_work/pmi_audit/exact_controls.json",
+          "b7_work/pmi_audit/independent_audit.md"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R14",
+      "program": "B7",
+      "questions": [
+        "Q1156"
+      ],
+      "stable_statement_ids": [
+        "48ec50411ade2c1537dd"
+      ],
+      "exact_retained_statements": [
+        "For each fixed k≥1, characterize exactly the finite maps f that admit such a nearest-neighbor realization in Euclidean R^k."
+      ],
+      "result_status": "proved",
+      "result_statement": "A fixed-point-free nearest-neighbor map is realizable on the line with all pair distances distinct iff its undirected edge graph is a disjoint union of paths; integer coordinates in [0,2^(n-1)-1] suffice.",
+      "relation_to_original_question": "Complete constructive dimension-one subcase.",
+      "changed_assumptions": "Specializes the target dimension to one.",
+      "remaining_for_original_question": "Fixed Euclidean dimensions at least two remain.",
+      "evidence": {
+        "written_argument": "b7_work/metric_line_results.md",
+        "primary_source_comparison": [
+          "S18"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/verify_metric_line.py",
+          "b7_work/metric_line_certificates.jsonl",
+          "b7_work/metric_line_summary.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R15",
+      "program": "B7",
+      "questions": [
+        "Q1157"
+      ],
+      "stable_statement_ids": [
+        "cc68108ee4fc5b3d3ebc"
+      ],
+      "exact_retained_statements": [
+        "For each fixed k≥1, characterize the pairs (f,g) realizable in some metric space that admit a simultaneous realization in Euclidean R^k."
+      ],
+      "result_status": "proved",
+      "result_statement": "Simultaneous nearest/farthest line realizability is equivalent to feasibility of one of the n! explicitly given rational linear systems, with strict pair-distance uniqueness attainable by rational perturbation.",
+      "relation_to_original_question": "Complete dimension-one decision criterion.",
+      "changed_assumptions": "Specializes the target dimension to one; enumerating n! orders is allowed.",
+      "remaining_for_original_question": "Higher dimensions and a polynomial-time bound are not proved.",
+      "evidence": {
+        "written_argument": "b7_work/metric_line_results.md",
+        "primary_source_comparison": [
+          "S18"
+        ],
+        "finite_computation_artifacts": [],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R16",
+      "program": "B7",
+      "questions": [
+        "Q608"
+      ],
+      "stable_statement_ids": [
+        "16cdc05113faa8ab347d"
+      ],
+      "exact_retained_statements": [
+        "For fixed p∈(0,1), can worst-case exact deletion-trace reconstruction achieve quasipolynomial sample size and runtime, succeeding with probability≥2/3 for every n-bit source? Full reconstruction is required, not pairwise distinguishing."
+      ],
+      "result_status": "proved",
+      "result_statement": "A full decoder for each fixed rational retention extends to every fixed real retention through calibration and dyadic thinning, with O(M) traces and T+O(nM polylog(nM)) time for fixed retention/error.",
+      "relation_to_original_question": "Unconditional reduction; application to Family 122 remains conditional.",
+      "changed_assumptions": "The reduction assumes a full finite rational-retention decoder with a usable sample/time bound; it does not assume an oracle for the real retention.",
+      "remaining_for_original_question": "Validate the actual rational full decoder and its bit-time guarantee.",
+      "evidence": {
+        "written_argument": "b7_work/trace/TRACE_REPORT.md",
+        "primary_source_comparison": [
+          "S20",
+          "S21",
+          "S22"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/trace/exact_trace_checks.py",
+          "b7_work/trace/exact_results.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R17",
+      "program": "B7",
+      "questions": [
+        "Q609"
+      ],
+      "stable_statement_ids": [
+        "9144c2582d1e2c9c3b3a"
+      ],
+      "exact_retained_statements": [
+        "For every fixed deletion probability δ∈(0,1), can a uniformly random unknown X∈{0,1}^n be reconstructed exactly from (log n)^{Oδ(1)} independent deletion traces, with success probability 1−o_n(1) over X and the channel? No polynomial-time condition is added."
+      ],
+      "result_status": "proved",
+      "result_statement": "For a hard pair of m-bit words with t-trace TV beta, uniform n-bit reconstruction success is at most [1-2^(-m)(1-beta)]^floor(n/m). Superpolynomially small one-trace TV would rule out every polylogarithmic trace budget.",
+      "relation_to_original_question": "Unconditional hard-pair embedding theorem; conditional negative consequence.",
+      "changed_assumptions": "The inequality is unconditional. Its asymptotic corollary assumes the currently unverified Family 122-type separation bound.",
+      "remaining_for_original_question": "Validate the hypothesized superpolynomial one-trace TV theorem before closing Q609.",
+      "evidence": {
+        "written_argument": "b7_work/trace/TRACE_REPORT.md",
+        "primary_source_comparison": [
+          "S20",
+          "S21"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/trace/exact_results.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R18",
+      "program": "B7",
+      "questions": [
+        "Q611"
+      ],
+      "stable_statement_ids": [
+        "472e43724c08d9837feb"
+      ],
+      "exact_retained_statements": [
+        "In generalized trace reconstruction, a hidden vector p∈[0,1]^n first emits independent Bernoulli(p_i) bits, then each bit is deleted with fixed probability δ∈(0,1). If all p_i lie in {0,1/k,…,1}, what is the minimax number of traces for recovering p to ℓ∞ error below 1/(2k), with probability at least 2/3? In particular, can superpolynomial-in-n lower bounds persist for a fixed k≥2?"
+      ],
+      "result_status": "proved",
+      "result_statement": "Binary trace lower bounds transfer to every two-point Bernoulli emission alphabet; for k>=3 the fixed grid admits the interior pair {1/k,2/k}. An unconditional exponential upper bound follows from full-length traces.",
+      "relation_to_original_question": "Model reduction and elementary finite upper bound.",
+      "changed_assumptions": "Any binary lower-bound premise must be separately validated; the original grid itself is unchanged.",
+      "remaining_for_original_question": "The full minimax rate and an unconditional fixed-grid superpolynomial bound remain.",
+      "evidence": {
+        "written_argument": "b7_work/trace/TRACE_REPORT.md",
+        "primary_source_comparison": [
+          "S23",
+          "S20"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/trace/exact_trace_checks.py",
+          "b7_work/trace/exact_results.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R19",
+      "program": "B7",
+      "questions": [
+        "Q613"
+      ],
+      "stable_statement_ids": [
+        "c302289d6bd6215ff58d"
+      ],
+      "exact_retained_statements": [
+        "Let A receive n and one δ-deletion trace of x, and output an n-bit estimate. Determine the sharp asymptotic values of L_worst(δ,n)/n and L_avg(δ,n)/n, where L_worst(δ,n)=sup_A inf_x E[LCS(A(trace,n),x)] and L_avg(δ,n)=sup_A E_{X uniform}[LCS(A(trace,n),X)] for fixed δ, already at δ=0.1 or 0.9. Here LCS denotes longest-common-subsequence length, and A is deterministic, as in the source definitions."
+      ],
+      "result_status": "proved",
+      "result_statement": "For any fixed prior on length-n words and fixed loss, the one-trace Bayes decoder is independent of retention. Uniform-source optimal LCS is an exact degree-n Bernstein polynomial; all values and decoders through n=8 are computed.",
+      "relation_to_original_question": "Exact finite-n average-case formula and enumeration.",
+      "changed_assumptions": "The Bayes statements concern a fixed prior; they are not worst-case minimax claims.",
+      "remaining_for_original_question": "Fixed-deletion asymptotic constants and the deterministic worst-case frontier remain.",
+      "evidence": {
+        "written_argument": "b7_work/trace/TRACE_REPORT.md",
+        "primary_source_comparison": [],
+        "finite_computation_artifacts": [
+          "b7_work/trace/exact_trace_checks.py",
+          "b7_work/trace/exact_results.json",
+          "b7_work/trace/bayes_decoders_n1_to_n8.tsv"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R20",
+      "program": "B7",
+      "questions": [
+        "Q2025",
+        "Q2032",
+        "Q2134"
+      ],
+      "stable_statement_ids": [
+        "35437229265179fdf70c",
+        "d54894e53caf916054e2",
+        "d7d72638df3bb1201dc2"
+      ],
+      "exact_retained_statements": [
+        "Do nonisometric isospectral spherical orbifolds exist in any dimension 2≤d≤4?",
+        "Do isospectral spherical space forms with nonisomorphic fundamental groups exist in any dimension d≡1 (mod 4)?",
+        "For every odd d≥5, must each maximum-volume pair of nonisometric isospectral spherical space forms consist of lens spaces?"
+      ],
+      "result_status": "disproved",
+      "result_statement": "The proposed implication from scalar-isospectral lens spaces to additively homometric signed weight sets fails for L(11;1,2,3), L(11;1,2,4).",
+      "relation_to_original_question": "A negative result about one specified encoding; scope-nonmatch for all three original spectral targets.",
+      "changed_assumptions": "Dimension is five, both groups are Z/11, and no global maximum-volume comparison is made.",
+      "remaining_for_original_question": "The low-dimensional, nonisomorphic-group, and all-dimensional maximum-volume questions remain unchanged.",
+      "evidence": {
+        "written_argument": "b7_work/lens_homometry_result.md",
+        "primary_source_comparison": [
+          "S19"
+        ],
+        "finite_computation_artifacts": [
+          "b7_work/verify_lens_homometry.py",
+          "b7_work/lens_homometry_certificate.json",
+          "b7_work/trace/lens_autocorrelation_check.py",
+          "b7_work/trace/lens_autocorrelation_results.json"
+        ],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    },
+    {
+      "result_id": "B7-R21",
+      "program": "B7",
+      "questions": [
+        "Q607"
+      ],
+      "stable_statement_ids": [
+        "2ebcfe72585b1be70fc9"
+      ],
+      "exact_retained_statements": [
+        "For each fixed retention probability p∈(0,1), is there C_p<∞ such that every unknown x∈{0,1}^n can be recovered exactly with probability at least 2/3 from n^{C_p} deletion traces? There is no computational-time restriction in this sample-complexity question."
+      ],
+      "result_status": "unresolved",
+      "result_statement": "The accessible Family 122 comparator matches the full-trace worst-case sample model, but its theorem placeholders are not a proof certificate.",
+      "relation_to_original_question": "Source audit only.",
+      "changed_assumptions": "Live main was accessible; equivalence with pinned commit adc7f1241b42e322a6451854ab7e4b4c146bf78a was not verified.",
+      "remaining_for_original_question": "Inspect the actual proof and pinned comparison configuration and compile or independently prove it.",
+      "evidence": {
+        "written_argument": "b7_work/trace/TRACE_REPORT.md",
+        "primary_source_comparison": [
+          "S20",
+          "S21",
+          "S22"
+        ],
+        "finite_computation_artifacts": [],
+        "compiled_formal_theorem": false
+      },
+      "priority_claim": false
+    }
+  ],
+  "primary_sources": [
+    {
+      "source_id": "S01",
+      "title": "Supplied B7 handoff",
+      "url_or_path": "inputs/B7_Handoff_2026-10-07.md",
+      "version": "2026-10-07",
+      "location": "Exact statement register, historical accepted decisions, Family 122 lead, return contract",
+      "comparison": "Supplied input; historical decisions preserved, not re-audited."
+    },
+    {
+      "source_id": "S02",
+      "title": "Ya-Nan Zheng, On the Hyperdeterminants of Steiner Distance Hypermatrices",
+      "url_or_path": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v32i2p30/pdf/",
+      "version": "EJCombin 32(2), P2.30 (2025)",
+      "location": "Theorems 2 and 4, printed pp. 2–3; equation (1), p. 4",
+      "comparison": "Raw homogeneous-resultant normalization and composition law checked."
+    },
+    {
+      "source_id": "S03",
+      "title": "Cooper–Du, Determinants of Steiner Distance Hypermatrices",
+      "url_or_path": "https://arxiv.org/html/2505.10501v1",
+      "version": "v1, 2025",
+      "location": "Section 1, tensor equations",
+      "comparison": "Compatible convention; tree independence is not used in our Q17 proof."
+    },
+    {
+      "source_id": "S04",
+      "title": "Ciliberto–Miranda, Linear Systems of Plane Curves with Base Points of Equal Multiplicity",
+      "url_or_path": "https://arxiv.org/pdf/math/9804018",
+      "version": "Trans. AMS 352 (2000), 4037–4050; arXiv text",
+      "location": "Conjecture 2.2, Theorems 2.4 and 5.2; PDF pp. 4, 5 and 13",
+      "comparison": "Multiplicity-three classification yields only (d,k)=(3,2),(4,2),(6,5)."
+    },
+    {
+      "source_id": "S05",
+      "title": "Améndola–Ranestad–Sturmfels, Algebraic Identifiability of Gaussian Mixtures",
+      "url_or_path": "https://arxiv.org/pdf/1612.01129v2",
+      "version": "v2",
+      "location": "Example 19, p. 13; Table 2 and Conjecture 21, p. 14",
+      "comparison": "Fourth-order defect target and earlier numerical n=8,k=11 result."
+    },
+    {
+      "source_id": "S06",
+      "title": "Blomenhofer–Casarotti, Nondefectivity of invariant secant varieties",
+      "url_or_path": "https://arxiv.org/html/2312.12335v2",
+      "version": "v2",
+      "location": "Theorem 3.6; Definition 4.9, Theorem 4.10 and Remark 4.11",
+      "comparison": "Nondefectivity range and the strict/generic Gauss-map wording distinction."
+    },
+    {
+      "source_id": "S07",
+      "title": "Blomenhofer, Gaussian Mixture Identifiability from degree 6 Moments",
+      "url_or_path": "https://arxiv.org/pdf/2307.03850",
+      "version": "arXiv PDF inspected 2026-10-07",
+      "location": "Proposition 2.8, pp. 8–9; Proposition 2.13, p. 11",
+      "comparison": "Tangent formula and earlier finite-degree contact calculation; our all-degree proof is separate."
+    },
+    {
+      "source_id": "S08",
+      "title": "Massarenti–Mella, Bronowski's conjecture and the identifiability of projective varieties",
+      "url_or_path": "https://arxiv.org/pdf/2210.13524",
+      "version": "v3",
+      "location": "Theorem 1.5, printed p. 3; Definition 2.2 and Remark 2.3, p. 5",
+      "comparison": "The identifiability criterion requires the generic Gauss condition."
+    },
+    {
+      "source_id": "S09",
+      "title": "Wellershoff, On a dense set of functions determined by sampled Gabor magnitude",
+      "url_or_path": "https://arxiv.org/html/2507.14556v2",
+      "version": "v2, 17 April 2026",
+      "location": "Section 2.3, Corollary 3",
+      "comparison": "Finite Hermite combinations are unique among all complex L2 competitors at lower density greater than one."
+    },
+    {
+      "source_id": "S10",
+      "title": "Phasebook",
+      "url_or_path": "https://arxiv.org/pdf/2505.15351",
+      "version": "arXiv PDF inspected 2026-10-07",
+      "location": "Question 8.8, printed p. 33",
+      "comparison": "Q1749 norm-category target."
+    },
+    {
+      "source_id": "S11",
+      "title": "Borichev–Gröchenig–Lyubarskii, Gaussian Gabor frame bounds",
+      "url_or_path": "https://arxiv.org/pdf/0909.4937",
+      "version": "arXiv PDF inspected 2026-10-07",
+      "location": "Theorem A, printed p. 2",
+      "comparison": "The Gaussian rectangular-lattice frame condition ab<1."
+    },
+    {
+      "source_id": "S12",
+      "title": "Benedetto–Heil–Walnut, Differentiation and the Balian–Low theorem",
+      "url_or_path": "https://heil.math.gatech.edu/papers/blt.pdf",
+      "version": "Primary PDF inspected 2026-10-07",
+      "location": "Theorem 2.2(b), printed p. 363",
+      "comparison": "Gabor incompleteness when ab>1."
+    },
+    {
+      "source_id": "S13",
+      "title": "NIST DLMF, Jacobi triple product",
+      "url_or_path": "https://dlmf.nist.gov/20.5.E9",
+      "version": "Live reference inspected 2026-10-07",
+      "location": "Section 20.5, equation 20.5.9",
+      "comparison": "Product identity used to locate the unique simple Gaussian Zak zero."
+    },
+    {
+      "source_id": "S14",
+      "title": "Allikvere, The edge multiset dimension of hypercubes",
+      "url_or_path": "https://arxiv.org/pdf/2608.09983",
+      "version": "v1, August 2026",
+      "location": "Table 1, Proposition 10; Section 10, Open problem 1",
+      "comparison": "Published six-cube interval 6–15 and exact 15-landmark witness."
+    },
+    {
+      "source_id": "S15",
+      "title": "Ribot–Seigal–Zwiernik, Beyond independent component analysis: identifiability and algorithms",
+      "url_or_path": "https://arxiv.org/html/2510.07525v1",
+      "version": "v1",
+      "location": "Theorem 2.3; Section 3, eigenvector/action definitions; Lemma 3.3 and Remark 3.4",
+      "comparison": "Real O(n) matches the statistical model; analytic all-cumulant PMI equivalence."
+    },
+    {
+      "source_id": "S16",
+      "title": "NIST DLMF, Gaussian quadrature and Hermite polynomials",
+      "url_or_path": "https://dlmf.nist.gov/3.5",
+      "version": "Live reference inspected 2026-10-07",
+      "location": "Section 3.5(v); also https://dlmf.nist.gov/18.3 and https://dlmf.nist.gov/18.12",
+      "comparison": "Quadrature facts; the report also supplies the exactness, positivity and deficit proofs."
+    },
+    {
+      "source_id": "S17",
+      "title": "Stacks Project, Noetherian rings",
+      "url_or_path": "https://stacks.math.columbia.edu/tag/00FM",
+      "version": "Live reference",
+      "location": "Section 10.31, Hilbert basis theorem",
+      "comparison": "Finite-variable polynomial rings over R are Noetherian."
+    },
+    {
+      "source_id": "S18",
+      "title": "Ranđelović, Minimal and Maximal Distances in Metric Spaces",
+      "url_or_path": "https://arxiv.org/pdf/2409.14648v3",
+      "version": "v3, 5 July 2025",
+      "location": "Introduction and final section",
+      "comparison": "Strict pair-distance convention and fixed-dimensional targets."
+    },
+    {
+      "source_id": "S19",
+      "title": "Ikeda, On lens spaces which are isospectral but not isometric",
+      "url_or_path": "https://www.numdam.org/item/10.24033/asens.1384.pdf",
+      "version": "Ann. ENS 13 (1980), 303–315",
+      "location": "Theorem 2.1, p. 309; equations (2.1)–(2.3), pp. 309–310; Section 4(I)(i), p. 313",
+      "comparison": "Classical lens pair, sign equivalence and full harmonic generating-function criterion."
+    },
+    {
+      "source_id": "S20",
+      "title": "OpenAI Family 122 trace comparator",
+      "url_or_path": "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/TraceReconstruction.lean",
+      "version": "Live main inspected 2026-10-07",
+      "location": "quantitative_sample_lower_bound, superpolynomial_one_trace, superpolynomial_sample_complexity",
+      "comparison": "Exact model match; comparator contains theorem placeholders. Actual proof and pinned commit not validated."
+    },
+    {
+      "source_id": "S21",
+      "title": "OpenAI Family 122 scope note",
+      "url_or_path": "https://github.com/openai/math/blob/main/lean/docs/122.md",
+      "version": "Live main inspected 2026-10-07",
+      "location": "Scope",
+      "comparison": "Same-origin claim of superpolynomial lower bound, not independent proof evidence."
+    },
+    {
+      "source_id": "S22",
+      "title": "OpenAI comparator instructions",
+      "url_or_path": "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/README.md",
+      "version": "Live main inspected 2026-10-07",
+      "location": "Comparator verification workflow",
+      "comparison": "No Lean compilation or comparator proof check was run in this return."
+    },
+    {
+      "source_id": "S23",
+      "title": "Rivkin–Valiant–Valiant, A Generalized Trace Reconstruction Problem",
+      "url_or_path": "https://arxiv.org/html/2412.00674v1",
+      "version": "v1",
+      "location": "Definition 1, Theorem 2 and Section 1.1",
+      "comparison": "Generalized emission model and finite-grid question."
+    },
+    {
+      "source_id": "S24",
+      "title": "Henriksson–Ranestad–Seccia–Yu, Moment varieties of the inverse Gaussian and gamma distributions are nondefective",
+      "url_or_path": "https://arxiv.org/html/2409.18421v3",
+      "version": "v3; J. Symbolic Computation 132 (2026), 102460",
+      "location": "Section 3, equation (3.1); beginning of Section 4",
+      "comparison": "Gamma and inverse Gaussian moment formulas, not a new audit of accepted Q742."
+    }
+  ],
+  "formal_verification": {
+    "compiled_in_this_return": false,
+    "family_122_proof_verified": false,
+    "pinned_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "pinned_commit_compared": false
+  },
+  "verification_entrypoint": "b7_work/reproduce.py",
+  "verification_receipt": "b7_work/reproduction/latest_run.json"
+}

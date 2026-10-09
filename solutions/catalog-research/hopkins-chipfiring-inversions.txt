@@ -1,0 +1,8 @@
+Exhaustive maximum-inversion counts for labeled chip-firing with N = 2m+1 chips at the origin of Z
+(all firing choices explored; memoized DFS over states; 2026-09-30):
+N=3 max inversions=1  (m=1)  states=4
+N=5 max inversions=2  (m=2)  states=56
+N=7 max inversions=3  (m=3)  states=1699
+N=9 max inversions=4  (m=4)  states=84793
+N=11 max inversions=5  (m=5)  states=6520201  distinct final permutations=819 (new term of OEIS A282901)
+Independent Python enumeration (scratch) agrees for N <= 9 (states and maxima); final-permutation counts 3, 12, 54, 232.

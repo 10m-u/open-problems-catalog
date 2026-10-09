@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-30",
+  "status": "all assertions passed",
+  "independent_phase_grid_checks": 132,
+  "phase_grid_moduli": "n-th roots, n=2..8; every symmetric support; d=2..4",
+  "full_odd_support_checks": [
+    {
+      "n": 4,
+      "degree_three_dimension": 1,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 6,
+      "degree_three_dimension": 1,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 8,
+      "degree_three_dimension": 2,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 10,
+      "degree_three_dimension": 2,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 12,
+      "degree_three_dimension": 3,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 14,
+      "degree_three_dimension": 3,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 16,
+      "degree_three_dimension": 4,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 18,
+      "degree_three_dimension": 4,
+      "degree_four_orbits": 1
+    },
+    {
+      "n": 20,
+      "degree_three_dimension": 5,
+      "degree_four_orbits": 1
+    }
+  ],
+  "binary_z12": {
+    "subsets": 4096,
+    "translation_classes": 352,
+    "degree_three_collision_groups": 1,
+    "exceptional_sets": [
+      [
+        0,
+        1,
+        2,
+        4,
+        5,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        5,
+        9,
+        10
+      ]
+    ],
+    "exact_fourier_supports": [
+      [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ]
+    ],
+    "fourth_order_offsets": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "fourth_order_counts": [
+      1,
+      0
+    ],
+    "degree_four_separates_all_binary_translation_classes": true
+  },
+  "limits": "Finite controls support hand proofs; no novelty or formal verification claim."
+}

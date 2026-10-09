@@ -1,0 +1,1535 @@
+{
+  "schema_version": "B13.statement-ledger.v1",
+  "B": "B13",
+  "prepared_date_utc": "2026-10-09",
+  "source": {
+    "filename": "B13 Permutation Mixing - Agent Handoff 2026-10-08.md",
+    "snapshot": "2026-10-08",
+    "archive_path": "inputs/B13_Original_Handoff.md",
+    "sha256": "c5c6d650d73941c8e8d1f0beb717ceee734f1f1bd2e5d7e4bca04294caa98b25"
+  },
+  "count_summary": {
+    "unresolved": 18,
+    "partial": 6,
+    "proved": 5,
+    "disproved": 1
+  },
+  "complete_resolutions": 6,
+  "tracked_statements": 30,
+  "status_scope": "Decisions apply to the exact retained statements. Unresolved means unresolved in this return, not a global novelty or literature-priority claim.",
+  "evidence_policy": "Written arguments, imported primary theorems, finite computations, and compiled formal theorems are separate fields. No compiled formal theorem was produced. Independent reviews are separate agent checks, not external peer review.",
+  "entries": [
+    {
+      "B": "B13",
+      "Q": 1285,
+      "title": "Cutoff with extreme reservoir densities",
+      "exact_retained_statement": "On {1,…,N}, each nearest-neighbor edge exchanges its endpoint contents at rate N², and each boundary endpoint independently resets at rate N² to a Bernoulli value of density p_N or q_N. Assume p_N,q_N∈[0,1] and q_N≤min{p_N,1−p_N}. Does worst-case total-variation cutoff occur at π⁻² log[N/(√(Np_N)∨1)] for every such density sequence?",
+      "stable_statement_id": "901c05b15569f039ac00",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1286,
+      "title": "Product-condition cutoff with unequal reservoirs",
+      "exact_retained_statement": "Consider connected n-site networks with symmetric exchange rates c_ij≥0 and Bernoulli resets at rates κ_i≥0, not all zero, whose densities lie in [δ,1−δ] for fixed δ>0. Let λ_n be the least eigenvalue of diag(κ_i+Σ_j c_ij)−(c_ij). Is worst-case total-variation cutoff equivalent to λ_n t_mix(ε)→∞ for fixed ε∈(0,1)?",
+      "stable_statement_id": "cc2c43f786837e4b7aa2",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1290,
+      "title": "Separation cutoff for positively biased shuffles",
+      "exact_retained_statement": "For every fixed α>0 with α≠1, does this walk on S_n have separation-distance cutoff at t_n,α log n, as n→∞?",
+      "stable_statement_id": "dd1e1530c8b22bbf943a",
+      "numbering_provisional": false,
+      "decision": "partial",
+      "summary": "Separation cutoff proved for every fixed 0<alpha<1; alpha>1 remains unresolved.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "Every fixed alpha<=1; this settles the requested 0<alpha<1 range.",
+          "statement": "Separation cutoff at (S_alpha(n)/n^alpha) log n.",
+          "assumptions": "Restrict the original positive-alpha question to 0<alpha<1; the proof also covers the excluded endpoint and nonpositive biases.",
+          "dependencies": [
+            "Unsigned TV cutoff, thesis Theorem 3.6.6",
+            "Random-transposition separation cutoff, White Theorem 1",
+            "Exact central-mixture and binomial convolution bound proved here"
+          ]
+        }
+      ],
+      "remaining": "The interval alpha>1; no optimal additive separation window is established.",
+      "proof_files": [
+        "root/q1290_partial.md"
+      ],
+      "review_files": [
+        "whirling/audit_q1290.md"
+      ],
+      "report_section": "6",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "root/q1290_partial.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://etheses.whiterose.ac.uk/id/eprint/28076/1/OMatheauRavenThesis.pdf",
+            "https://arxiv.org/html/1910.00770v1"
+          ]
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1291,
+      "title": "Total-variation cutoff for biased signed shuffles",
+      "exact_retained_statement": "On signed permutations B_n, follow each transposition by a fair coin: on tails flip both selected cards, or flip the single card once if i=j. For every fixed nonzero α∈R, is there total-variation cutoff at t_n,α log n?",
+      "stable_statement_id": "cc27e5d9e60fdad839fa",
+      "numbering_provisional": false,
+      "decision": "proved",
+      "summary": "Total-variation cutoff at tau_n log n for every fixed real alpha, including the full requested nonzero range.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "Full original statement, with alpha=0 also included.",
+          "statement": "Total-variation cutoff at tau_n log n for every fixed real alpha, including the full requested nonzero range.",
+          "assumptions": "Alpha is a fixed real number independent of n; diagonal selections flip one sign once.",
+          "dependencies": [
+            "Unsigned TV cutoff, thesis Theorem 3.6.6",
+            "Conditional F_2-span lemma and uniform cut estimates proved here"
+          ]
+        }
+      ],
+      "remaining": "Nothing remains at the original cutoff scope; an optimal window or full profile is not asserted.",
+      "proof_files": [
+        "root/q1291_signed_cutoff.md"
+      ],
+      "review_files": [
+        "root/proof_review.md"
+      ],
+      "report_section": "1",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "root/q1291_signed_cutoff.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://etheses.whiterose.ac.uk/id/eprint/28076/1/OMatheauRavenThesis.pdf"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "exact_integer_exhaustive_control",
+            "floating_point_control"
+          ],
+          "scope": "All n=3 histories through length 6 and n=4 histories through length 4 (67,098 histories); all cuts through n=12 for 11 fixed biases (51,920 numerical checks).",
+          "seed": null,
+          "files": [
+            "root/verify_signed_graph.py",
+            "root/signed_verification.json"
+          ],
+          "role": "Controls only; the all-n theorem is the written graph argument."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1405,
+      "title": "Constant-factor cost of conjugacy in dominating sets",
+      "exact_retained_statement": "Does an absolute c>0 satisfy γ_u(G)≤c·γ_t(G) for every finite nonabelian simple group G?",
+      "stable_statement_id": "2f935b9be6f6cf5e6ab9",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1406,
+      "title": "Bounded ratio between spread and uniform spread",
+      "exact_retained_statement": "Does an absolute c>0 satisfy s(G)≤c·u(G) for every finite nonabelian simple group G?",
+      "stable_statement_id": "db6847d81b588f311dee",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1407,
+      "title": "Exact spread of odd-degree alternating groups",
+      "exact_retained_statement": "Determine s(A_n) and u(A_n) for all odd n≥5.",
+      "stable_statement_id": "f360f758c8bcd6664901",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1408,
+      "title": "Exact spread of rank-one linear groups",
+      "exact_retained_statement": "Determine s(PSL₂(q)) and u(PSL₂(q)) for prime powers q≥11 with q≡3 mod 4.",
+      "stable_statement_id": "85e1bb57b7e9ea21e1fe",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1492,
+      "title": "Infinite interchange cycles in lower dimensions",
+      "exact_retained_statement": "For each d∈{3,4}, does there exist β₀(d)<∞ such that π_β almost surely has an infinite cycle for every fixed β>β₀(d)?",
+      "stable_statement_id": "93a2d63b2ddcbb351782",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1493,
+      "title": "Finiteness of planar interchange cycles",
+      "exact_retained_statement": "For d=2 and every fixed β>0, does π_β almost surely have only finite cycles?",
+      "stable_statement_id": "543094642ca56218b341",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1494,
+      "title": "A single high-dimensional interchange transition",
+      "exact_retained_statement": "For each d≥5, is there β_c∈(0,∞) such that π_β almost surely has only finite cycles for β<β_c and has infinite cycles for β>β_c?",
+      "stable_statement_id": "b5ad443ffe0eac2e6b5c",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1589,
+      "title": "Nonequilibrium exclusion cutoff profile",
+      "exact_retained_statement": "For the rate-N² segment SSEP, fix p, q∈(0, 1), q≤min{p, 1−p}, p≠q. Put S(x)=Σ_u x(u), t_N(b)=(log N)/(2π²)+b/π², and let π_N be stationary. Does there exist f_pq>0 with (E_1 S(X_{t_N(b)})−E_{π_N}S)/√Var_{π_N}S→f_pq e^(−b) and worst-case TV distance at t_N(b) tending to TV(N(0, 1), N(f_pq e^(−b), 1)) for every b∈R?",
+      "stable_statement_id": "b8d510fafe6e359a7aa3",
+      "numbering_provisional": false,
+      "decision": "disproved",
+      "summary": "The proposed unweighted-count Gaussian profile is false: p=1/2, q=1/4 gives a strictly larger sine-statistic TV lower bound.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "disproved",
+          "scope": "The specified universal Gaussian profile with shift fixed by unweighted S.",
+          "statement": "At p=1/2,q=1/4, f is forced to A_S=(5/pi^2)/sqrt(43/192), while liminf TV>=2Phi(A_H e^(-b)/2)-1 with A_H=(5/(4pi))/sqrt(11/96-1/(64pi^2))>A_S, for each real b.",
+          "assumptions": "Exact permitted densities and the original boundary and N^2-rate normalization.",
+          "dependencies": [
+            "Stationary fluctuation theorem, Landim-Milanes-Olla Theorem 2.1 and equation (2.4)",
+            "Explicit covariance calculation and coupling transfer proved here"
+          ],
+          "counterexample": {
+            "p": "1/2",
+            "q": "1/4",
+            "V_S": "43/192",
+            "V_H": "11/96-1/(64*pi^2)",
+            "strict_inequality": "43*pi^4-352*pi^2+48>0"
+          }
+        }
+      ],
+      "remaining": "The original formula is refuted; the correct nonequilibrium profile and a matching upper bound are not determined.",
+      "proof_files": [
+        "root/q1589_profile_counterexample.md"
+      ],
+      "review_files": [
+        "root/proof_review.md"
+      ],
+      "report_section": "2",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "root/q1589_profile_counterexample.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://www.unige.ch/~tranh/these-version-240521.pdf",
+            "https://arxiv.org/pdf/math/0608165"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "floating_point_control"
+          ],
+          "scope": "Full stationary generators for 2<=N<=8 at p=1/2,q=1/4; means, covariances, and sine eigenfunction.",
+          "seed": null,
+          "files": [
+            "root/verify_exclusion.py",
+            "root/exclusion_verification.json"
+          ],
+          "role": "Controls only; exact displayed constants and stationary CLT prove the asymptotic counterexample."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1895,
+      "title": "Sukhatme fixed points",
+      "exact_retained_statement": "Determine centering, scaling and a nondegenerate limiting distribution for F_n as n→∞.",
+      "stable_statement_id": "4faaafa325700071ea75",
+      "numbering_provisional": false,
+      "decision": "proved",
+      "summary": "(F_n-(log n)/e)/sqrt((log n)/e) converges in distribution to N(0,1); E F_n=(log n)/e+O(1).",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "Original Sukhatme fixed-point statistic.",
+          "statement": "(F_n-(log n)/e)/sqrt((log n)/e) converges in distribution to N(0,1); E F_n=(log n)/e+O(1).",
+          "assumptions": "Weights n-i+1; reversing labels and ranks or taking inverse preserves the statistic.",
+          "dependencies": [
+            "Exponential race representation",
+            "Uniform compensator approximation proved here",
+            "Triangular-array martingale CLT as stated in Major's notes",
+            "Slutsky's theorem"
+          ]
+        }
+      ],
+      "remaining": "Nothing remains at the requested centering/scaling/limit-law scope; no Poisson TV approximation, exact bounded mean correction, or variance asymptotic is asserted.",
+      "proof_files": [
+        "spectral/sukhatme_report.md"
+      ],
+      "review_files": [
+        "semigroup/audit_sukhatme.md",
+        "root/proof_review.md"
+      ],
+      "report_section": "3",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "spectral/sukhatme_report.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/html/2509.07729v2",
+            "https://www.renyi.hu/~major/probability/martingale.pdf"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "monte_carlo_diagnostic"
+          ],
+          "scope": "n=100,1000,10000, 2000 repetitions each.",
+          "seed": 1895,
+          "files": [
+            "spectral/sukhatme_check.py",
+            "spectral/sukhatme_output.json"
+          ],
+          "role": "Model-orientation diagnostic only; not the proof of convergence or a formal goodness-of-fit test."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1896,
+      "title": "Sukhatme cycle count",
+      "exact_retained_statement": "Determine centering, scaling and a nondegenerate limiting distribution for C_n as n→∞.",
+      "stable_statement_id": "25f5bc9a09e2c4ffa329",
+      "numbering_provisional": false,
+      "decision": "partial",
+      "summary": "C_n>=(1-o_P(1))log n; E C_n>=log n-O(1); limsup E C_n/(log n)^2<=1/2. No limiting distribution.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "Partial bounds in the original model",
+          "statement": "For every epsilon>0, P(C_n<(1-epsilon)log(n)) tends to zero.",
+          "assumptions": "None changed",
+          "dependencies": [
+            "Clock concentration and reciprocal estimates proved in spectral/sukhatme_report.md.",
+            "Chebyshev inequality and an explicitly proved Bernoulli exponential-supermartingale bound."
+          ]
+        },
+        {
+          "status": "proved",
+          "scope": "Partial bounds in the original model",
+          "statement": "E C_n >= log(n)-O(1).",
+          "assumptions": "None changed",
+          "dependencies": [
+            "Clock concentration and reciprocal estimates proved in spectral/sukhatme_report.md.",
+            "Chebyshev inequality and an explicitly proved Bernoulli exponential-supermartingale bound."
+          ]
+        },
+        {
+          "status": "proved",
+          "scope": "Partial bounds in the original model",
+          "statement": "limsup E C_n/(log(n))^2 <= 1/2; consequently C_n=O_P((log(n))^2).",
+          "assumptions": "None changed",
+          "dependencies": [
+            "Clock concentration and reciprocal estimates proved in spectral/sukhatme_report.md.",
+            "Chebyshev inequality and an explicitly proved Bernoulli exponential-supermartingale bound."
+          ]
+        },
+        {
+          "status": "proved",
+          "scope": "Partial bounds in the original model",
+          "statement": "Exact deletion-filtration compensator: K_n=sum_j a_{n,j}/S_{n,j}, where a_{n,j} is the unique available path head that closes the cycle at domain j and j<=a_{n,j}<=max A_{n,j}.",
+          "assumptions": "None changed",
+          "dependencies": [
+            "Clock concentration and reciprocal estimates proved in spectral/sukhatme_report.md.",
+            "Chebyshev inequality and an explicitly proved Bernoulli exponential-supermartingale bound."
+          ]
+        }
+      ],
+      "remaining": "Centering, fluctuation scale and a limiting distribution for the total cycle count; the path-head compensator is not sharply evaluated.",
+      "proof_files": [
+        "spectral/sukhatme_cycles_report.md",
+        "spectral/sukhatme_report.md"
+      ],
+      "review_files": [
+        "semigroup/audit_cycles.md",
+        "root/proof_review.md"
+      ],
+      "report_section": "7",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "spectral/sukhatme_cycles_report.md",
+            "spectral/sukhatme_report.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/html/2509.07729v2"
+          ]
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 1897,
+      "title": "Sukhatme increasing subsequences",
+      "exact_retained_statement": "Determine centering, scaling and a nondegenerate limiting distribution for L_n as n→∞.",
+      "stable_statement_id": "c0e5e644929150cddbda",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2198,
+      "title": "Product criterion on bounded-step nilpotent groups",
+      "exact_retained_statement": "For every sequence of finite nilpotent groups of uniformly bounded nilpotency class and arbitrary generating sets, does γ t_mix(1/4)→∞ imply cutoff?",
+      "stable_statement_id": "9e2e29797ab8b0f064b5",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2290,
+      "title": "One-label hypergraph spectral gap",
+      "exact_retained_statement": "Must λ₂(L_IP)=λ₂(L_RW) for every such weighted hypergraph?",
+      "stable_statement_id": "cb376eb93c0b5497e6fb",
+      "numbering_provisional": false,
+      "decision": "partial",
+      "summary": "Gap equality for hyperedges restricted to pairs and the full vertex set, including every n<=3 instance.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "Restrict effective hyperedges to pairs and the full vertex set.",
+          "statement": "Equality for hypergraphs whose effective edges are only pairs and the full vertex set; in particular every hypergraph on at most three vertices.",
+          "assumptions": "Restrict effective hyperedges to pairs and the full vertex set."
+        }
+      ],
+      "remaining": "Arbitrary weighted hypergraphs outside the stated restricted family.",
+      "proof_files": [
+        "spectral/pair_report.md"
+      ],
+      "review_files": [],
+      "report_section": "10.5",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "spectral/pair_report.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/pdf/2311.02505"
+          ]
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2291,
+      "title": "Two representations control unitary gaps",
+      "exact_retained_statement": "Is inf_{ρ nontrivial} λ_ρ=min{ω₁,ω₂} for every such weighted hypergraph?",
+      "stable_statement_id": "576df523032c0668f39e",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The full unitary representation infimum for arbitrary weighted hypergraphs.",
+      "proof_files": [
+        "spectral/pair_report.md"
+      ],
+      "review_files": [],
+      "report_section": "10.5",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/pdf/2603.00353",
+            "https://arxiv.org/abs/2609.10450"
+          ]
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2292,
+      "title": "Odd-sector spectral ordering",
+      "exact_retained_statement": "Must ω₁≤ω₃≤ω₅≤⋯ hold for every such weighted hypergraph?",
+      "stable_statement_id": "3430a4c6c2d41614aa1a",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The odd-sector ordering for arbitrary weighted hypergraphs.",
+      "proof_files": [
+        "spectral/pair_report.md"
+      ],
+      "review_files": [],
+      "report_section": "10.5",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/pdf/2603.00353",
+            "https://arxiv.org/abs/2609.10450"
+          ]
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2293,
+      "title": "Quadratic Brownian-energy gap",
+      "exact_retained_statement": "For every such α and w, is the spectral gap attained by a nonconstant polynomial in η of degree at most two?",
+      "stable_statement_id": "6e840638a5684077278e",
+      "numbering_provisional": false,
+      "decision": "partial",
+      "summary": "Common positive edge weights on the complete graph: gap=c sum(alpha), attained in degree one for all positive alpha.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "Complete graph with a common positive edge weight; all positive parameter vectors are retained. This includes every connected two-vertex instance.",
+          "statement": "For all n>=2 and positive alpha, if every offdiagonal edge weight is c>0, the entire degree-r eigenspace has eigenvalue c*r*(r-1+sum(alpha)), hence gap=c*sum(alpha), attained in degree one.",
+          "assumptions": "Complete graph with a common positive edge weight; all positive parameter vectors are retained. This includes every connected two-vertex instance."
+        }
+      ],
+      "remaining": "General connected edge weights with arbitrary positive parameter vectors.",
+      "proof_files": [
+        "spectral/pair_report.md"
+      ],
+      "review_files": [],
+      "report_section": "10.5",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "spectral/pair_report.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/abs/2609.10450"
+          ]
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2303,
+      "title": "Complete mappings of Rees zero-matrix semigroups",
+      "exact_retained_statement": "Give necessary and sufficient structural conditions on finite G,I,Λ,P for M⁰=(I×G×Λ)∪{0} to admit a complete mapping, where G is a group, I,Λ≠∅, P∈(G∪{0})^(Λ×I) has no zero row/column, and (i,g,λ)(j,h,μ)=(i,gp_(λj)h,μ) if p_(λj)≠0, otherwise 0; zero is absorbing.",
+      "stable_statement_id": "1bc2b2da7b69544e14b9",
+      "numbering_provisional": false,
+      "decision": "partial",
+      "summary": "Usable-support reduction, abelian obstruction and exact count-flow relaxation; exact classification on usable forests.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "subscope": "arbitrary Rees zero-matrix semigroups",
+          "status": "proved",
+          "claim": "Deleting every sandwich entry that is zero in every balanced support weighting preserves complete-mapping existence.",
+          "proof": "semigroup/report.md section 7"
+        },
+        {
+          "subscope": "quotient group labels admit vertex potentials on usable support",
+          "status": "proved",
+          "claim": "If chi:G->A is an abelian quotient, Delta=sum_g chi(g), |I||Lambda| Delta is nonzero, and chi(p_lambda_j)=a_lambda+b_j on usable support, no complete mapping exists.",
+          "proof": "semigroup/report.md section 8"
+        },
+        {
+          "subscope": "auxiliary criterion, not the stated Q2303 characterization",
+          "status": "disproved",
+          "claim": "Balanced support plus the presence of an even-order sandwich entry does not suffice.",
+          "counterexample": {
+            "G": "C2 additive",
+            "I": [
+              0,
+              1,
+              2
+            ],
+            "Lambda": [
+              0,
+              1,
+              2
+            ],
+            "P": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                null,
+                0,
+                null
+              ],
+              [
+                null,
+                null,
+                0
+              ]
+            ],
+            "N": 19,
+            "null_means": "absorbing zero sandwich entry; integer 0 is the group identity"
+          },
+          "proof": "semigroup/report.md section 8"
+        },
+        {
+          "subscope": "general odd-by-odd bad-group Rees case",
+          "status": "unresolved",
+          "claim": "No necessary-and-sufficient criterion is established here."
+        },
+        {
+          "subscope": "abelian quotient count-flow relaxation",
+          "status": "proved",
+          "claim": "With balanced support and chi:G->A onto abelian, integer count flows with complete-mapping margins and quotient sum exist iff -|I||Lambda| sum_g chi(g) belongs to the subgroup generated by alternating cycle voltages on usable support. This does not construct a complete mapping.",
+          "proof": "semigroup/quotient_flow_addendum.md"
+        },
+        {
+          "subscope": "usable support graph is a forest",
+          "status": "proved",
+          "claim": "A complete mapping exists iff balanced support holds and either the group passes Hall-Paige or |I||Lambda| is even.",
+          "proof": "semigroup/quotient_flow_addendum.md final section"
+        }
+      ],
+      "remaining": "A necessary-and-sufficient characterization in the general Rees zero-matrix case; quotient count feasibility does not supply the required bijections.",
+      "proof_files": [
+        "semigroup/report.md",
+        "semigroup/quotient_flow_addendum.md"
+      ],
+      "review_files": [
+        "root/proof_review.md"
+      ],
+      "report_section": "8 and 9",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "semigroup/report.md",
+            "semigroup/quotient_flow_addendum.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/html/2608.25092v1"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "inconclusive_bounded_exact_cover_search"
+          ],
+          "scope": "2,000,000 expanded nodes plus one budget-stop call; two negative cases completed; one unknown on timeout.",
+          "seed": null,
+          "files": [
+            "semigroup/explore_c2.py",
+            "semigroup/c2_raw.json",
+            "semigroup/c2_summary.json",
+            "semigroup/c2_timeout_record.json"
+          ],
+          "role": "No theorem or proposed converse is supported by this unsuccessful search; null means unknown."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2494,
+      "title": "Optimal connected-complement gap exponent",
+      "exact_retained_statement": "Determine the smallest p for which some c_p>0 satisfies gap(G)+gap(Ḡ)≥c_p n^{−p} for every n-vertex G with both G and Ḡ connected.",
+      "stable_statement_id": "20d1798f558ecef53b7b",
+      "numbering_provisional": true,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2529,
+      "title": "Uniform expansion of primitive origami orbit graphs",
+      "exact_retained_statement": "Is there ε>0 such that every such orbit graph G in H(2) has |∂_E A|≥ε|A| whenever 0<|A|≤|V(G)|/2, uniformly over n?",
+      "stable_statement_id": "3f09875aa32e6fb5d8a6",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2601,
+      "title": "Optimal greedy-base ratio",
+      "exact_retained_statement": "Determine sup_G g(G)/b(G). Is its value 4/3?",
+      "stable_statement_id": "22c5b3891653baeb4e4b",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2602,
+      "title": "Asymptotic greedy-base ratio",
+      "exact_retained_statement": "Determine limsup_(k→∞) sup{g(G)/b(G): b(G)=k}. Is its value 9/8?",
+      "stable_statement_id": "308eab8632988c80391e",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2603,
+      "title": "Quadratic-rank irredundant-base bound",
+      "exact_retained_statement": "Is there an absolute constant C such that I(G,Ω)≤Cr²+Ω(e) for every such G and action?",
+      "stable_statement_id": "b51b1715c73663fb2403",
+      "numbering_provisional": false,
+      "decision": "unresolved",
+      "summary": "No new exact-scope result established in this return.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [],
+      "remaining": "The entire retained question remains unresolved in this return.",
+      "proof_files": [],
+      "review_files": [],
+      "report_section": "Register and unresolved-question notes",
+      "evidence": {
+        "written_argument": {
+          "present": false,
+          "files": []
+        },
+        "primary_source_comparison": {
+          "present": false,
+          "urls": []
+        },
+        "finite_computation": {
+          "present": false
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2662,
+      "title": "Smallest matching-scheme spectral gap",
+      "exact_retained_statement": "For every n≥5 and μ⊢n with μ≠1^n, is λ₁(A_μ)−λ₂(A_μ)≥2n−1, the gap attained by μ=(2,1^{n−2})?",
+      "stable_statement_id": "3aaf2060b2cc3217f8e1",
+      "numbering_provisional": false,
+      "decision": "proved",
+      "summary": "Every nonidentity perfect-matching relation has adjacency gap at least 2n-1 for all n>=5.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "All n>=5 and all partitions mu!=1^n.",
+          "statement": "Every nonidentity perfect-matching relation has adjacency gap at least 2n-1 for all n>=5.",
+          "assumptions": "Unnormalized adjacency eigenvalues ordered algebraically with multiplicity, exactly as in the handoff.",
+          "dependencies": [
+            "Flip-relation gap 2n-1, primary paper Proposition 4.1",
+            "Two-step equivariant energy comparison proved here",
+            "Valency estimate proved here",
+            "Exact finite certificate at n=5,mu=(2,2,1)"
+          ]
+        }
+      ],
+      "remaining": "Nothing remains at the original minimum-gap scope; the exact second eigenvalue for every relation is not claimed.",
+      "proof_files": [
+        "whirling/matching_proof.md"
+      ],
+      "review_files": [
+        "semigroup/audit_matching.md",
+        "root/proof_review.md"
+      ],
+      "report_section": "4",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "whirling/matching_proof.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/html/2510.17135"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "exact_integer_certificate",
+            "bounded_enumeration_control"
+          ],
+          "scope": "All 945 matchings of K_10; exact quotient and annihilator; 9,242 partitions for 5<=n<=25 as an additional control.",
+          "seed": null,
+          "files": [
+            "whirling/verify_matching.py",
+            "whirling/matching_certificate.json",
+            "whirling/matching_checks.txt"
+          ],
+          "role": "The all-n comparison is written; one finite exceptional case has a complete exact integer certificate."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2664,
+      "title": "Balanced whirling of repeated surjections",
+      "exact_retained_statement": "Let n,k,m≥1 with n≥mk. On functions f:[n]→[k] with every fibre of size ≥m, w_i repeatedly increments f(i) cyclically modulo k until admissible again. Does every orbit of w_n∘⋯∘w₁ average |f⁻¹(j)| to n/k for each j∈[k]?",
+      "stable_statement_id": "3f3121a42f7e5c02851a",
+      "numbering_provisional": false,
+      "decision": "proved",
+      "summary": "Every repeated-surjection whirling orbit has each fibre average n/k, proved by an explicit coboundary.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "All n,k,m>=1 with n>=mk, every orbit and every fibre.",
+          "statement": "Every repeated-surjection whirling orbit has each fibre average n/k, proved by an explicit coboundary.",
+          "assumptions": "None changed; any coordinate update order is also allowed.",
+          "dependencies": [
+            "Explicit suffix-maximum coboundary proved here"
+          ]
+        }
+      ],
+      "remaining": "Nothing remains at the original orbit-average scope.",
+      "proof_files": [
+        "whirling/proofs.md"
+      ],
+      "review_files": [
+        "semigroup/audit_whirling.md",
+        "root/proof_review.md"
+      ],
+      "report_section": "5",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "whirling/proofs.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/html/1711.02411v6"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "exact_integer_control",
+            "bounded_exhaustive_orbits"
+          ],
+          "scope": "30,336 local exchanges; 20,000 seeded global sweeps with 100,099 colour identities; exhaustive orbits at (13,3,2),(11,3,2),(11,3,3).",
+          "seed": 20261009,
+          "files": [
+            "whirling/verify_potentials.py",
+            "whirling/potential_checks.txt",
+            "whirling/check.cpp",
+            "whirling/jobs.json",
+            "whirling/raw_checks.txt"
+          ],
+          "role": "Controls only; the all-parameter coboundary is proved symbolically."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 2665,
+      "title": "Asymptotic homomesy on a slab",
+      "exact_retained_statement": "For each integer n≥1 and real r with 0≤r≤n/2, put P={x∈[0,1]^n:r≤Σx_i≤n−r}. The toggle t_i replaces x_i by max(0,r−s)+min(1,n−r−s)−x_i, where s=Σ_{j≠i}x_j. For every permutation π and x∈P, does N⁻¹Σ_{j=0}^{N−1}Σ_i(T_π^j x)_i→n/2, where T_π=t_{π(n)}∘⋯∘t_{π(1)}?",
+      "stable_statement_id": "39dd68d5345401fd90b1",
+      "numbering_provisional": false,
+      "decision": "proved",
+      "summary": "Every real slab orbit has average n/2, with uniform error <=(n-r)/(2N).",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "status": "proved",
+          "scope": "Every integer n>=1, real 0<=r<=n/2, permutation pi, point x in the slab, and integer N>=1.",
+          "statement": "Absolute error of the first N time-average from n/2 is at most (n-r)/(2N).",
+          "assumptions": "None; no rationality, periodicity, or almost-everywhere qualification.",
+          "dependencies": [
+            "Explicit bounded capacity-exchange coboundary proved here"
+          ]
+        }
+      ],
+      "remaining": "Nothing remains at the original real-slab time-average scope.",
+      "proof_files": [
+        "whirling/proofs.md"
+      ],
+      "review_files": [
+        "semigroup/audit_whirling.md",
+        "root/proof_review.md"
+      ],
+      "report_section": "5",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "whirling/proofs.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/html/1711.02411v6"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "exact_integer_control",
+            "bounded_exhaustive_orbits"
+          ],
+          "scope": "4,356 local capacity exchanges; 20,000 seeded global slab identities; 33 grid cases recorded in jobs.json.",
+          "seed": 20261009,
+          "files": [
+            "whirling/verify_potentials.py",
+            "whirling/potential_checks.txt",
+            "whirling/check.cpp",
+            "whirling/jobs.json",
+            "whirling/raw_checks.txt"
+          ],
+          "role": "Controls only; the real-parameter proof does not use grid approximation."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    },
+    {
+      "B": "B13",
+      "Q": 3205,
+      "title": "Complexity of recognizing complete mappings",
+      "exact_retained_statement": "What is the computational complexity, with the Cayley table as input, of deciding whether a finite semigroup has a complete mapping? Determine it also for regular, inverse, completely regular, completely 0-simple and aperiodic semigroups.",
+      "stable_statement_id": "ee813378b94c439e788a",
+      "numbering_provisional": false,
+      "decision": "partial",
+      "summary": "Deterministic P for inverse, completely regular, and aperiodic semigroups; aperiodic positive instances have constructive certificates.",
+      "changed_assumptions_at_original_statement_level": [],
+      "scoped_results": [
+        {
+          "subscope": "inverse semigroups",
+          "status": "proved",
+          "claim": "Decision problem belongs to deterministic P.",
+          "proof": "semigroup/report.md section 3",
+          "primary_dependencies": [
+            "Hall-Paige theorem",
+            "arXiv:2608.25092v1 Theorem 10.1"
+          ],
+          "complexity_bound": "O(N^4) elementary operations, conservative"
+        },
+        {
+          "subscope": "completely regular semigroups",
+          "status": "proved",
+          "claim": "Decision problem belongs to deterministic P.",
+          "proof": "semigroup/report.md section 4",
+          "primary_dependencies": [
+            "Hall-Paige theorem",
+            "arXiv:2608.25092v1 Theorem 5.1"
+          ],
+          "complexity_bound": "O(N^4) elementary operations, conservative"
+        },
+        {
+          "subscope": "aperiodic semigroups",
+          "status": "proved",
+          "claim": "Decision and construction of a complete mapping on positive inputs belong to deterministic polynomial time.",
+          "proof": "semigroup/report.md section 5",
+          "primary_dependencies": [
+            "Finite Rees structure theorem",
+            "Integral max-flow and bipartite matching"
+          ],
+          "complexity_bound": "O(N^4) elementary operations, conservative"
+        },
+        {
+          "subscope": "general and regular semigroups",
+          "status": "partial",
+          "claim": "The decision problems are polynomial-time many-one equivalent; both are in NP.",
+          "proof": "semigroup/report.md section 6"
+        },
+        {
+          "subscope": "completely 0-simple semigroups",
+          "status": "unresolved",
+          "claim": "In NP; a polynomial algorithm would imply one for every finite semigroup via principal factors. No full classification is established."
+        }
+      ],
+      "remaining": "Full complexity classification for general, regular, and completely 0-simple semigroups; no NP-hardness or P-completeness claim.",
+      "proof_files": [
+        "semigroup/report.md"
+      ],
+      "review_files": [
+        "root/proof_review.md"
+      ],
+      "report_section": "8",
+      "evidence": {
+        "written_argument": {
+          "present": true,
+          "files": [
+            "semigroup/report.md"
+          ]
+        },
+        "primary_source_comparison": {
+          "present": true,
+          "urls": [
+            "https://arxiv.org/html/2608.25092v1"
+          ]
+        },
+        "finite_computation": {
+          "present": true,
+          "kind": [
+            "exact_integer_examples"
+          ],
+          "scope": "17 explicit Cayley tables, including four constructive positive aperiodic cases; every table checked for associativity.",
+          "seed": null,
+          "files": [
+            "semigroup/recognition.py",
+            "semigroup/recognition_examples.json",
+            "semigroup/recognition_summary.json"
+          ],
+          "role": "Executable implementations and examples, not exhaustive classification."
+        },
+        "compiled_formal_theorem": {
+          "present": false,
+          "files": []
+        }
+      }
+    }
+  ],
+  "supplemental_results": [
+    {
+      "question": "Inquiry 30",
+      "stable_statement_id": null,
+      "decision": "partial",
+      "retained_statement": "Classify fixed programs for width-uniform tuple gaps or polynomial-depth approximate k-wise independence.",
+      "proved_restricted_statements": [
+        "For N=2^w, <ROTR1, x->ROTR1(x)+1 mod N>=S_N for every w>=1. Both specified kernels act irreducibly on every ordered-distinct k-tuple space, 1<=k<=N; the pair chains are aperiodic and have uniform stationary law.",
+        "For the base program only, worst-case pair t_mix(1/4)>=(sqrt(2*pi)/8+o(1))*2^w*sqrt(w). This also lower-bounds all ordered-distinct k-tuple mixing times for k>=2.",
+        "For the base program only, the additive reversibilization has gap at most [((N-w-1)/(N(N-1)))/(w/4-w(w-1)/(2(N-1))-w^2/(N^2(N-1)^2))]=(4+o(1))/(w2^w)."
+      ],
+      "changed_assumptions": "The first claim covers both supplied kernels; the mixing and Poincare claims restrict to R;+{0,1}. The Poincare claim explicitly uses additive reversibilization, not the nonreversible eigenvalue-modulus statistic.",
+      "remaining": "Exact asymptotics of either nonreversible eigenvalue-modulus gap; polynomial-depth possibility for the extra-MSB-XOR program; general program classification.",
+      "evidence": [
+        "written_argument",
+        "finite_exact_computation",
+        "finite_floating_point_computation"
+      ],
+      "finite_bounds": {
+        "pair_spectra_widths": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "exact_identity_widths": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "report": "spectral/pair_report.md"
+    }
+  ],
+  "numerical_hypotheses": [
+    {
+      "target": "Inquiry 30 base nonreversible modulus gap",
+      "hypothesis": "Order 1/(w*2^w)",
+      "status": "unproved",
+      "range": "2<=w<=8; largest-modulus candidates from double-precision ARPACK"
+    },
+    {
+      "target": "Inquiry 30 extra-MSB-XOR nonreversible modulus gap",
+      "hypothesis": "Order 1/w^2",
+      "status": "unproved",
+      "range": "2<=w<=8; largest-modulus candidates from double-precision ARPACK"
+    }
+  ]
+}

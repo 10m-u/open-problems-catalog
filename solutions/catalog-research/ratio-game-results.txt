@@ -1,0 +1,7 @@
+Results recorded 2026-09-30 (seeded runs; see the three ratio_game_*.py scripts):
+ratio_game_drift_scan.py   : done tested 66199 centers 66199 cands 0
+ratio_game_orbit_convexity : centers 19940, max fraction of closed-orbit region with negative curvature = 0;
+                             centers 19822, cases where A or B is non-convex on the swept range = 743
+ratio_game_symbolic.py     : W depends only on q, V only on p; K = -(n3*D - d3*N) * Q(p,q), Q bilinear
+Direct EG runs (scratch): 8000 random game/start pairs converge for eta <= 0.01 (eta = 0.05 failures are step-size artefacts);
+                          12000 near-bilinear game/start pairs: max late-time spread 2.5e-3 (slow O(eta^2) contraction near centres), no cycling.

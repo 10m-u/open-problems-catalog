@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "independent_parameter_disk_certified_degrees": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "structural_checks": {
+    "equal_parameter_recurrence_symbolic_degrees": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "snn_degree_four_counterexample_identity": true
+  },
+  "boundary_claim": "only all-zero and all-one parameter vectors",
+  "method": "exact integer polynomial-domain determinant expansion; all coefficient-box entries positive"
+}
