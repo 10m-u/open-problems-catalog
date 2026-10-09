@@ -174,7 +174,7 @@ Status source 2: https://warwick.ac.uk/fac/sci/statistics/staff/academic-researc
 
 ## Q192. For independent standard Brownian motions B¹, B² starting at zero, condition on …
 
-**Status:** Open · **Kind:** conjecture (Conjecture 4.2.3) · **Collection** 2
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 4.2.3) · **Collection** 2
 
 For independent standard Brownian motions B¹, B² starting at zero, condition on ∫₀¹(B_(t)¹)^(N − 1) ∘ dB_(t)² = 0 using the canonical density disintegration. Does the conditional law of B¹ converge weakly in C₀([0, 1], ℝ) to the zero path as N → ∞?
 
@@ -186,6 +186,11 @@ Status source 2: https://warwick.ac.uk/fac/sci/statistics/staff/academic-researc
 **Further links.** [1](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.12384) · [2](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/habermann/publications/)
 
 *Duplicate of Q11a52318057a76bc65a4.*
+
+**Result (2026-10-09).** Under the canonical density disintegration, the Brownian path conditioned on one power integral being zero converges to the zero path in the uniform topology. Every fixed-radius escape probability decays faster than any prescribed exponential in the power. Exact single-integral question only; the full-signature and comparison questions Q191 and Q193 remain unresolved.
+
+[Proof](../../solutions/round-2026-10-09/probability/Q192-brownian-power-conditioning.md) · [Internal review](../../solutions/round-2026-10-09/discrete/review-Q192.md) · [Exact computational controls](../../solutions/round-2026-10-09/probability/probability-certificates.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q193"></a>
@@ -327,7 +332,7 @@ For every integer \$d\ge3\$ and every finite sequence of unit vectors \$v_1,\ldo
 
 ## Q270. Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\to j\$ e…
 
-**Status:** Open · **Kind:** conjecture (Conjecture 6.6.4) · **Collection** 3
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 6.6.4) · **Collection** 3
 
 Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\to j\$ exactly when \$i&lt;j\$, and join corresponding vertices by one undirected vertical edge. Retain every horizontal arc and vertical edge independently with probability \$1/2\$. Is \$\mathbb P(u^{(0)}\to v^{(0)})\ge\mathbb P(u^{(0)}\to v^{(1)})\$ for every \$n,u,v\$, allowing vertical traversal in either direction?
 
@@ -336,6 +341,11 @@ Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\
 **Source.** Lawrence Albert Hollom. *Extremal, Probabilistic, and Infinitary Problems in Combinatorics*. University of Cambridge, 2025. Advisor(s): Béla Bollobás. [primary source](https://api.repository.cam.ac.uk/server/api/core/bitstreams/a0069f85-e810-476b-ba41-c2babc9c2f0b/content) · [record](https://www.repository.cam.ac.uk/items/d9fa2d8e-7393-49d3-933e-0dc3229c2efa) Location: Conjecture 6.6.4, printed p. 158; model D₇ in Section 6.4, pp. 152–153.
 
 **Further links.** [1](https://doi.org/10.1016/j.ejc.2025.104188) · [2](https://arxiv.org/html/2406.01790) · [3](https://arxiv.org/html/2506.22284)
+
+**Result (2026-10-09).** The independent-edge, bidirectional-vertical bunkbed inequality holds for every transitive tournament. The proof allows any common horizontal retention probability and independent vertex-dependent vertical probabilities; at probability one half the gap for u<v is at least 2^(-(v-u+2)). Transitive tournaments and the stated independent-edge model. Arbitrary acyclic graphs and conditioned paired-edge models are outside the result.
+
+[Proof](../../solutions/round-2026-10-09/probability/Q270-transitive-tournament-bunkbed.md) · [Internal review](../../solutions/round-2026-10-09/discrete/review-Q270.md) · [Exact computational controls](../../solutions/round-2026-10-09/probability/Q270-certificates.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q275"></a>

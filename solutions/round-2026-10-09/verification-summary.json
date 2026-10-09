@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-09",
+  "arithmetic": "exact integers/rationals; standard library only",
+  "all_passed": true,
+  "checkers": [
+    {
+      "checker": "algebra/verify_results.py",
+      "checker_sha256": "c963165103ea42d5d5b4ed90a804fe25308ff3120b96f18a4797c8a8753fb481",
+      "exit_code": 0,
+      "certificates": {
+        "algebra/verification.json": "392402357d3a10f1152b247c9f4dde6e8a4426166339f2390384479aa2b9746c"
+      }
+    },
+    {
+      "checker": "discrete/verify_connected_set.py",
+      "checker_sha256": "02faca27d8e375c8063e945f941ff221441ff82248c0ac51fbc1fad083c0f937",
+      "exit_code": 0,
+      "certificates": {
+        "discrete/connected-set-checks.json": "392c738962d0a1aba2b062c9d22c463e5306871ddd6b5e1370bb4c668f053998"
+      }
+    },
+    {
+      "checker": "discrete/verify_periodic_zero.py",
+      "checker_sha256": "17c648a5f5bd77d74557957f18f49bfd2abdf402fd8cde4eedd2bc14f07c39e3",
+      "exit_code": 0,
+      "certificates": {
+        "discrete/periodic-zero-checks.json": "8695c8d39af8d95bafabf20d785f05022dcd252cc78f1d9da4150c6deb82c624"
+      }
+    },
+    {
+      "checker": "discrete/verify_recurrent_complexity.py",
+      "checker_sha256": "c2ed948de50d453562500ed59fd42cc5513182645e52108dfd5153727e4f9467",
+      "exit_code": 0,
+      "certificates": {
+        "discrete/recurrent-complexity-checks.json": "fc6c29a781685595bd91a1eef522dae99715c1a9382cd094ebfc53d7360f9949"
+      }
+    },
+    {
+      "checker": "games/check_q0291.py",
+      "checker_sha256": "f65026ae0d9000de11f212d27c896a0d68ac2b12e10e2d0c2f00e2e27ca70dd8",
+      "exit_code": 0,
+      "certificates": {
+        "games/q0291-checks.json": "783414c30fc09c1a0092b4dc2f45343dc73c58f634a658d52499647a97bc291f"
+      }
+    },
+    {
+      "checker": "optimization/check_q0056.py",
+      "checker_sha256": "c798856e8e7b46eac635a87e575c49e0ebb6f3629bb7db6b81458e696d096870",
+      "exit_code": 0,
+      "certificates": {
+        "optimization/q0056-checks.json": "c9137864e43131c2c93b90166000826120d93b92f4492df9460223dea187d0ba"
+      }
+    },
+    {
+      "checker": "probability/verify_probability.py",
+      "checker_sha256": "ac9f006ce4c186b5b85ab6ae4078f7de68e084a530039e1bc6fde678d886c4f2",
+      "exit_code": 0,
+      "certificates": {
+        "probability/probability-certificates.json": "5c000c9e381044043e93e7aedfa1da85028d31baf4d017a4d1f80ebe47146283"
+      }
+    },
+    {
+      "checker": "probability/verify_q270.py",
+      "checker_sha256": "01fb816f3dd97059ef6c9defd12c36016d155780269c322eefd310db86b3b50b",
+      "exit_code": 0,
+      "certificates": {
+        "probability/Q270-certificates.json": "2d6740bad46fcf58d415df3dd8217e87c0d5328b2c236d1ecb69a20c9a2c9b21"
+      }
+    }
+  ],
+  "scope": "Finite controls supplement the written proofs; no formal or external peer review is claimed."
+}

@@ -1,0 +1,256 @@
+{
+  "all_passed": true,
+  "finite_place_value_prefixes": 729,
+  "prefix_length_including_U0": 7,
+  "increments_enumerated": [
+    1,
+    2,
+    3
+  ],
+  "alphabet": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "p_values": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "numeric_vs_suffix_checks": 995085,
+  "finite_equivalence_checks": 2916,
+  "membership_comparisons_for_equivalence": 40884,
+  "positive_finite_properties": 120,
+  "negative_finite_properties": 2796,
+  "alternating_example": {
+    "place_values": [
+      1,
+      2,
+      6,
+      12,
+      36,
+      72,
+      216,
+      432,
+      1296,
+      2592,
+      7776
+    ],
+    "maximal_words": [
+      [],
+      [
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ]
+    ],
+    "two_zero_extension_checks": 9841,
+    "one_zero_counterexample": {
+      "word": [
+        2
+      ],
+      "extended_word": [
+        2,
+        0
+      ]
+    },
+    "periodic_shift_checks": 62
+  },
+  "representative_finite_cases": {
+    "p=1, holds=True": {
+      "place_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "maximum_word_length": 5,
+      "first_obstruction": null
+    },
+    "p=2, holds=True": {
+      "place_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "maximum_word_length": 4,
+      "first_obstruction": null
+    },
+    "p=3, holds=True": {
+      "place_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "maximum_word_length": 3,
+      "first_obstruction": null
+    },
+    "p=4, holds=True": {
+      "place_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "maximum_word_length": 2,
+      "first_obstruction": null
+    },
+    "p=1, holds=False": {
+      "place_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "maximum_word_length": 5,
+      "first_obstruction": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "p=2, holds=False": {
+      "place_values": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "maximum_word_length": 4,
+      "first_obstruction": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "p=3, holds=False": {
+      "place_values": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_word_length": 3,
+      "first_obstruction": [
+        1,
+        0,
+        1
+      ]
+    },
+    "p=4, holds=False": {
+      "place_values": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_word_length": 2,
+      "first_obstruction": [
+        1,
+        1
+      ]
+    }
+  },
+  "scope": "Finite indexing controls, not a substitute for the infinite proof."
+}

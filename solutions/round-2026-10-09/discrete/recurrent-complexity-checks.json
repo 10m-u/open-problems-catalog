@@ -1,0 +1,299 @@
+{
+  "all_passed": true,
+  "max_length_enumerated": 14,
+  "membership_checks": 32767,
+  "factor_closure_checks": 7826,
+  "complexity_counts": [
+    {
+      "length": 0,
+      "count": 1
+    },
+    {
+      "length": 1,
+      "count": 2
+    },
+    {
+      "length": 2,
+      "count": 4
+    },
+    {
+      "length": 3,
+      "count": 4
+    },
+    {
+      "length": 4,
+      "count": 5
+    },
+    {
+      "length": 5,
+      "count": 6
+    },
+    {
+      "length": 6,
+      "count": 7
+    },
+    {
+      "length": 7,
+      "count": 8
+    },
+    {
+      "length": 8,
+      "count": 9
+    },
+    {
+      "length": 9,
+      "count": 10
+    },
+    {
+      "length": 10,
+      "count": 11
+    },
+    {
+      "length": 11,
+      "count": 12
+    },
+    {
+      "length": 12,
+      "count": 13
+    },
+    {
+      "length": 13,
+      "count": 14
+    },
+    {
+      "length": 14,
+      "count": 15
+    }
+  ],
+  "right_extension_rules_checked": 16,
+  "compatible_tetragram_counts": [
+    4
+  ],
+  "right_extension_rule_details": [
+    {
+      "trigrams": [
+        "000",
+        "010",
+        "100",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0100",
+        "1000",
+        "1100"
+      ]
+    },
+    {
+      "trigrams": [
+        "000",
+        "010",
+        "100",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0100",
+        "1000",
+        "1111"
+      ]
+    },
+    {
+      "trigrams": [
+        "000",
+        "010",
+        "101",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0101",
+        "1010",
+        "1101"
+      ]
+    },
+    {
+      "trigrams": [
+        "000",
+        "010",
+        "101",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0101",
+        "1010",
+        "1111"
+      ]
+    },
+    {
+      "trigrams": [
+        "000",
+        "011",
+        "100",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0110",
+        "1000",
+        "1100"
+      ]
+    },
+    {
+      "trigrams": [
+        "000",
+        "011",
+        "100",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0111",
+        "1000",
+        "1111"
+      ]
+    },
+    {
+      "trigrams": [
+        "000",
+        "011",
+        "101",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0110",
+        "1011",
+        "1101"
+      ]
+    },
+    {
+      "trigrams": [
+        "000",
+        "011",
+        "101",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0000",
+        "0111",
+        "1011",
+        "1111"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "010",
+        "100",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0010",
+        "0100",
+        "1001",
+        "1100"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "010",
+        "100",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0010",
+        "0100",
+        "1001",
+        "1111"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "010",
+        "101",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0010",
+        "0101",
+        "1010",
+        "1101"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "010",
+        "101",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0010",
+        "0101",
+        "1010",
+        "1111"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "011",
+        "100",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0011",
+        "0110",
+        "1001",
+        "1100"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "011",
+        "100",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0011",
+        "0111",
+        "1001",
+        "1111"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "011",
+        "101",
+        "110"
+      ],
+      "compatible_tetragrams": [
+        "0011",
+        "0110",
+        "1011",
+        "1101"
+      ]
+    },
+    {
+      "trigrams": [
+        "001",
+        "011",
+        "101",
+        "111"
+      ],
+      "compatible_tetragrams": [
+        "0011",
+        "0111",
+        "1011",
+        "1111"
+      ]
+    }
+  ],
+  "scope": "Finite controls; the infinite impossibility is proved in the note."
+}

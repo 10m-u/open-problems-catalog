@@ -1,0 +1,24 @@
+{
+  "problem": "Q291",
+  "arithmetic": "exact rational",
+  "players": "2..5",
+  "ordinary_paper_probabilities": [
+    "0",
+    "1/3",
+    "2/3",
+    "1"
+  ],
+  "special_scissors_probabilities": [
+    "1/3",
+    "2/3",
+    "1"
+  ],
+  "checks": {
+    "opponent_profiles": 340,
+    "unique_scissors_profiles": 1020,
+    "special_best_response_profiles": 102,
+    "ordinary_deviation_comparisons": 3756
+  },
+  "result": "all assertions passed",
+  "scope": "finite independent payoff controls; all-m proof in Q0291.md"
+}

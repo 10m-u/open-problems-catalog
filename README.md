@@ -7,9 +7,9 @@ obtained on it. Problems already solved elsewhere are left out.
 | | Count |
 |---|---:|
 | Problems in the catalog | 3588 |
-| Open, no results here | 3466 |
-| Open, with partial results here | 87 |
-| Solved here | 35 (25 proved, 10 disproved) |
+| Open | 3456 |
+| Open, with partial results here | 90 |
+| Solved here | 42 (30 proved, 12 disproved) |
 | Excluded as solved elsewhere | 12 |
 | Automatically extracted thesis statements (unreviewed) | 10001 |
 
@@ -46,6 +46,7 @@ level. None of it is peer reviewed. Much of the work was done with AI research a
 - B9 is preregistered. Its counterexamples are re-verified by separately written checkers, and its proof's lemmas
   are machine-checked.
 - `catalog-research` contains written proofs with exact computational checks.
+- `round-2026-10-09` contains five proposed affirmative proofs, two counterexamples, two hardness theorems and one partial theorem, with separate internal AI reviews and exact computational controls. The two complexity questions retain partial status because their negative algorithmic consequences are conditional.
 
 "Solved here" means a result on this repository's own record at the scope stated on the problem page. It does not
 mean an independently verified theorem. Reports of errors are welcome.

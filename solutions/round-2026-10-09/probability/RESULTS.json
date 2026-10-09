@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-09",
+  "base_commit": "8967f4f70776856b3dfc0b2494ed73167b15ee0c",
+  "historical_novelty": "not established; primary-source and targeted literature searches performed",
+  "results": [
+    {
+      "number": 192,
+      "conclusion": "affirmative",
+      "scope": "exact cited Conjecture 4.2.3; single power-integral conditioning",
+      "proof": "Q192-brownian-power-conditioning.md",
+      "verification": "verify_probability.py",
+      "does_not_settle": [
+        191,
+        193
+      ]
+    },
+    {
+      "number": 270,
+      "conclusion": "affirmative",
+      "scope": "exact D7 transitive-tournament conjecture; extended independent probability parameters",
+      "proof": "Q270-transitive-tournament-bunkbed.md",
+      "verification": "verify_q270.py",
+      "explicit_graphs_enumerated": 66066
+    },
+    {
+      "number": 1060,
+      "conclusion": "negative",
+      "scope": "exact heterogeneous-marginal quadratic maximum-over-subsets objective",
+      "proof": "Q1060-negative-covariance-counterexample.md",
+      "verification": "verify_probability.py",
+      "unrestricted_optimum": "16",
+      "NCD_optimum": "920/57",
+      "gap": "8/57",
+      "forced_covariance_at_any_optimizer": "1/2",
+      "all_dimensions_at_least_four": true
+    }
+  ],
+  "integration_manifest": "../RESULTS.json"
+}

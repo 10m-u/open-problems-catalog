@@ -1,6 +1,6 @@
 # Optimization & Operations Research
 
-110 problems: 105 open, 3 open, partial results, 1 solved here: proved, 1 solved here: disproved.
+110 problems: 103 open, 4 open, partial results, 1 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -8,7 +8,7 @@
 |---|---|---|
 | [Q53](optimization-operations-research.md#q53) | For every Hermitian positive-semidefinite A=V^(\*)V∈ℂ^(n×n), with v_(i) the colum… | Open |
 | [Q55](optimization-operations-research.md#q55) | Given k probability distributions on n points x_(1),…,x_(n)∈ℝ^(3), is exact mini… | Open |
-| [Q56](optimization-operations-research.md#q56) | Let C=R+S∈(ℝ^(n))^(⊗k), where R has fixed CP rank and is given in factored form,… | Open |
+| [Q56](optimization-operations-research.md#q56) | Let C=R+S∈(ℝ^(n))^(⊗k), where R has fixed CP rank and is given in factored form,… | Open, partial results |
 | [Q58](optimization-operations-research.md#q58) | For degree-2d real homogeneous forms in n variables, characterize those p admitt… | Open |
 | [Q346](optimization-operations-research.md#q346) | For SO(n) = {R ∈ R^(n×n): RᵀR = I, det R = 1}, is there a polynomial p such that… | Open |
 | [Q349](optimization-operations-research.md#q349) | For two such chains (K₁,π₁) and (K₂,π₂), does α\_cvx((K₁⊗I+I⊗K₂)/2, π₁⊗π₂) = (1/2… | Open |
@@ -94,7 +94,7 @@
 | [Q1057](optimization-operations-research.md#q1057) | Sharp detection of changes in structured preference probabilities | Open |
 | [Q1058](optimization-operations-research.md#q1058) | Pure entropic equilibria with signed terminal outcomes | Open |
 | [Q1059](optimization-operations-research.md#q1059) | Stationary extreme-risk equilibria with signed outcomes | Open |
-| [Q1060](optimization-operations-research.md#q1060) | Negative-correlation minimizers under uncertain participation | Open |
+| [Q1060](optimization-operations-research.md#q1060) | Negative-correlation minimizers under uncertain participation | Solved here: disproved |
 | [Q1061](optimization-operations-research.md#q1061) | How many policy changes can uncertain risk tolerance induce? | Open |
 | [Q1087](optimization-operations-research.md#q1087) | Sharp learning cost with one noiseless best option | Open |
 | [Q1088](optimization-operations-research.md#q1088) | Can irrelevant bad options destabilize gradient exploration? | Open |
@@ -151,7 +151,7 @@ Given k probability distributions on n points x_(1),…,x_(n)∈ℝ^(3), is exac
 
 ## Q56. Let C=R+S∈(ℝ^(n))^(⊗k), where R has fixed CP rank and is given in factored form,…
 
-**Status:** Open · **Kind:** open problem · **Collection** 1
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 1
 
 Let C=R+S∈(ℝ^(n))^(⊗k), where R has fixed CP rank and is given in factored form, S is given by its s nonzero entries, and both components are O(C_(max))-bounded. Can the approximate MIN oracle minimize C_(j_(1),…,j_(k))−∑\_(i) p_(i) (j_(i)) to error ε in time polynomial in n,k,s and log(C_(max)/ε), for arbitrary supplied vectors p_(i)∈ℝ^(n)?
 
@@ -160,6 +160,11 @@ Let C=R+S∈(ℝ^(n))^(⊗k), where R has fixed CP rank and is given in factored
 **Source.** Jason M Altschuler. *Transport and Beyond: Efficient Optimization over Probability Distributions*. Massachusetts Institute of Technology, 2022. Advisor(s): Pablo A. Parrilo. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/11d844d8-16cf-4447-9fd7-2d2afdbb6d14/content) · [record](https://dspace.mit.edu/server/api/core/bitstreams/11d844d8-16cf-4447-9fd7-2d2afdbb6d14/content#page=1) Location: §6.7.2, discussion after Theorem 6.7.4, p.190. Search-qualified status: Explicitly open in thesis and associated papers. Targeted later searches found numerical and structural advances but no resolution of these precise complexity questions.
 
 **Further links.** [1](https://www.sciencedirect.com/science/article/abs/pii/S1572528621000487) · [2](https://d-nb.info/1271958090/34)
+
+**Result (2026-10-09).** NP-hardness already at CP rank at most two, mode size two, zero sparse term and positive bounded rational factors. A deterministic algorithm with the requested logarithmic precision dependence would imply P=NP in the binary rational-input model. The same construction gives a uniform-marginal MOT hardness corollary. The hardness theorem is unconditional. The negative algorithmic conclusion is conditional on P != NP; no complexity-class separation is proved.
+
+[Proof](../../solutions/round-2026-10-09/optimization/Q0056.md) · [Internal review](../../solutions/round-2026-10-09/algebra/review-Q0056.md) · [Exact computational controls](../../solutions/round-2026-10-09/optimization/q0056-checks.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q58"></a>
@@ -1579,7 +1584,7 @@ For every partition into pessimists maximizing ess inf X_i and optimists maximiz
 
 ## Q1060. Negative-correlation minimizers under uncertain participation
 
-**Status:** Open · **Kind:** open problem · **Collection** 11
+**Status:** Solved here: disproved · **Kind:** open problem · **Collection** 11
 
 For every n≥4 and every marginal tuple, does some minimizer satisfy Cov(X_i,X_j)≤0 for all i≠j?
 
@@ -1588,6 +1593,11 @@ For every n≥4 and every marginal tuple, does some minimizer satisfy Cov(X_i,X_
 **Source.** Takaaki Koike; Liyuan Lin; Ruodu Wang. *Joint mixability and notions of negative dependence*. 2024. [primary source](https://www.math.uwaterloo.ca/~wang/papers/2024Koike-Lin-Wang-MOR.pdf) Location: §4.3, Remark 4.
 
 **Literature check.** Status for question 1060, checked 6 October 2026: Current author version retains the question; no later resolution located by 6 October 2026.
+
+**Result (2026-10-09).** Four explicit bounded, centered, two-point marginals have unrestricted minimum 16 and minimum 920/57 under pairwise nonpositive covariances. Every unrestricted minimizer has Cov(X2,X3)>=1/2. Nondegenerate counterexamples extend to every n>=4. The quadratic objective is the maximum over all subsets with the exact heterogeneous marginals in the report. Both optima have rational certificates.
+
+[Proof](../../solutions/round-2026-10-09/probability/Q1060-negative-covariance-counterexample.md) · [Internal review](../../solutions/round-2026-10-09/algebra/review-Q1060.md) · [Exact computational controls](../../solutions/round-2026-10-09/probability/probability-certificates.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q1061"></a>

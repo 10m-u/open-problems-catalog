@@ -1,6 +1,6 @@
 # Combinatorics & Graph Theory
 
-516 problems: 496 open, 12 open, partial results, 8 solved here: proved.
+516 problems: 494 open, 12 open, partial results, 9 solved here: proved, 1 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -184,7 +184,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q1650](combinatorics-graph-theory-part-1.md#q1650) | Enumerate arbitrary bipartite-forbidden graphs | Open |
 | [Q1651](combinatorics-graph-theory-part-1.md#q1651) | Sharp count of progression-free sets | Open |
 | [Q1652](combinatorics-graph-theory-part-1.md#q1652) | Count SAT functions with growing clause width | Open |
-| [Q1653](combinatorics-graph-theory-part-1.md#q1653) | Realize unbounded factorial-language complexity | Open |
+| [Q1653](combinatorics-graph-theory-part-1.md#q1653) | Realize unbounded factorial-language complexity | Solved here: disproved |
 | [Q1656](combinatorics-graph-theory-part-1.md#q1656) | Force every nonbouncing endpoint path | Open |
 | [Q1657](combinatorics-graph-theory-part-1.md#q1657) | Bound the cost of one tournament vertex | Open |
 | [Q1658](combinatorics-graph-theory-part-1.md#q1658) | Find the optimal tree-blow-up base | Open |
@@ -511,7 +511,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q3499](combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Open |
 | [Q3500](combinatorics-graph-theory-part-2.md#q3500) | Boolean real-rootedness | Open |
 | [Q3568](combinatorics-graph-theory-part-2.md#q3568) | Width-two order-polynomial positivity | Open |
-| [Q3569](combinatorics-graph-theory-part-2.md#q3569) | Periodic zero-extension | Open |
+| [Q3569](combinatorics-graph-theory-part-2.md#q3569) | Periodic zero-extension | Solved here: proved |
 | [Q3570](combinatorics-graph-theory-part-2.md#q3570) | Context-free Max_U | Open |
 | [Q3573](combinatorics-graph-theory-part-2.md#q3573) | Squared-outdegree extremum excluding the regular five-tournament | Open |
 | [Q3574](combinatorics-graph-theory-part-2.md#q3574) | Cohen–Macaulay harmonic algebras of hypersimplices | Open |

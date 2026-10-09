@@ -1,0 +1,58 @@
+{
+  "problem": 3489,
+  "date": "2026-10-09",
+  "all_passed": true,
+  "arithmetic": "exact integers and fractions; no floating point",
+  "left_sides": "direct subset enumeration of constructed graphs",
+  "counts": {
+    "pendant_leaf_graphs": 1100,
+    "two_leaf_graphs": 12,
+    "rooted_c5_graphs": 12,
+    "clique_substitution_graphs": 152,
+    "full_single_call_reductions": 3,
+    "exact_unit_circle_norm_checks": 440
+  },
+  "single_call_examples": [
+    {
+      "input_vertices": 1,
+      "input_edges": [],
+      "query_vertices": 4,
+      "base": 8,
+      "oracle_answer": 4,
+      "decoded_coefficients": [
+        0,
+        1
+      ]
+    },
+    {
+      "input_vertices": 2,
+      "input_edges": [],
+      "query_vertices": 12,
+      "base": 26,
+      "oracle_answer": 40,
+      "decoded_coefficients": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "input_vertices": 2,
+      "input_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "query_vertices": 12,
+      "base": 26,
+      "oracle_answer": 716,
+      "decoded_coefficients": [
+        0,
+        2,
+        1
+      ]
+    }
+  ],
+  "scope": "Finite controls only; general statements follow from the proof."
+}

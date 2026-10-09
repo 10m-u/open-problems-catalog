@@ -489,7 +489,7 @@ What is the exact complexity of satisfiability for this input-dependent-successo
 
 ## Q3489. Exact connected-set evaluation at minus two
 
-**Status:** Open · **Kind:** open problem · **Collection** 35
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 35
 
 Is C_G(−2) computable in time polynomial in the input size of G?
 
@@ -498,6 +498,11 @@ Is C_G(−2) computable in time polynomial in the input size of G?
 **Source.** Lucas Mol. *On Connectedness and Graph Polynomials*. Dalhousie University, 2016. Advisor(s): Jason Brown (acknowledgements and departmental degree record). [primary source](https://central.bac-lac.gc.ca/.item?app=Library&id=TC-NSHD-71408&oclc_number=1033184059&op=pdf) Location: §6.4, p. 166.
 
 **Literature check.** Status checked 9 October 2026: Full thesis §6.4 retains the exceptional point. Later node-reliability/connected-set complexity and correction searches found no resolution.
+
+**Result (2026-10-09).** Exact C_G(-2) evaluation is #P-hard by an explicit polynomial-size single-call reduction and belongs to GapP; it is polynomial-time computable if and only if FP=#P. Rooted attachments also classify every nonzero fixed algebraic evaluation point as #P-hard. The signed function is not called #P-complete. No separation FP != #P is proved; exact algebraic outputs use a fixed-number-field bit model.
+
+[Proof](../../solutions/round-2026-10-09/discrete/Q3489-connected-set-evaluation.md) · [Internal review](../../solutions/round-2026-10-09/reviews/root-review.md) · [Exact computational controls](../../solutions/round-2026-10-09/discrete/connected-set-checks.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
 
 
 <a id="q3490"></a>
