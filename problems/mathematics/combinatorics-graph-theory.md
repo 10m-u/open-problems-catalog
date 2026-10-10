@@ -1,6 +1,6 @@
 # Combinatorics & Graph Theory
 
-621 problems: 593 open, 14 open, partial results, 12 solved here: proved, 2 solved here: disproved.
+621 problems: 591 open, 16 open, partial results, 12 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -567,8 +567,8 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q3828"></a>[Q3828](combinatorics-graph-theory-part-3.md#q3828) | Fat-hook billiard counts | Open |
 | <a id="q3829"></a>[Q3829](combinatorics-graph-theory-part-3.md#q3829) | Fixed points in random cycle-factors | Open |
 | <a id="q3839"></a>[Q3839](combinatorics-graph-theory-part-3.md#q3839) | For every n≥2 and every n-vertex tree T, does every zero z of Φ\_T satisfy… | Open |
-| <a id="q3840"></a>[Q3840](combinatorics-graph-theory-part-3.md#q3840) | Which integer pairs n≥5 odd, m≥6, m≢3 (mod 4) make C_n□P_m admit such a set? | Open |
-| <a id="q3841"></a>[Q3841](combinatorics-graph-theory-part-3.md#q3841) | Which odd integers n,m≥5 make C_n□C_m admit such a set? | Open |
+| <a id="q3840"></a>[Q3840](combinatorics-graph-theory-part-3.md#q3840) | Which integer pairs n≥5 odd, m≥6, m≢3 (mod 4) make C_n□P_m admit such a set? | Open, partial results |
+| <a id="q3841"></a>[Q3841](combinatorics-graph-theory-part-3.md#q3841) | Which odd integers n,m≥5 make C_n□C_m admit such a set? | Open, partial results |
 | <a id="q3842"></a>[Q3842](combinatorics-graph-theory-part-3.md#q3842) | Is m_{S_n}(3,0)=2(4n+1)!/((3n+2)!(n+1)!)? | Open |
 | <a id="q3843"></a>[Q3843](combinatorics-graph-theory-part-3.md#q3843) | Is m_{S_n}(1,3)=F_{3n}/2? | Open |
 | <a id="q3844"></a>[Q3844](combinatorics-graph-theory-part-3.md#q3844) | Is dim R_{B_n}^{(1,2)}=4^n n!? | Open |

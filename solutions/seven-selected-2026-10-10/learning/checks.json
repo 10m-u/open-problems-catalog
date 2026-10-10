@@ -1,0 +1,27 @@
+{
+  "problem_number": 726,
+  "arithmetic": "exact fractions.Fraction",
+  "finite_games": {
+    "scenarios": 4617,
+    "all_optimizing_pairs_checked": 6726,
+    "scenarios_with_ties": 1429,
+    "zero_width_pairs": 659,
+    "largest_regret_divided_by_proved_bound": "72/85",
+    "nonmetric_negative_control": {
+      "detected": true,
+      "leader": 0,
+      "follower": 1,
+      "width": "0",
+      "regret": "1/12"
+    },
+    "all_passed": true
+  },
+  "posterior_controls": {
+    "posterior_feature_vs_kernel_pairs": 200,
+    "squared_triangle_inequalities": 1000,
+    "sequential_determinant_identities": 8,
+    "final_determinant": "433/45",
+    "all_passed": true
+  },
+  "evidence_limit": "Finite controls accompany, and do not replace, the written proof."
+}

@@ -1,0 +1,77 @@
+{
+  "checked_on": "2026-10-10",
+  "problem_numbers": [3982, 3983],
+  "source_authority": "The paper itself, not the catalog paraphrase, supplies the hypotheses and the two questions.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2610.12354v1",
+      "title": "Brownian motion with drift conditioned to have restricted L²-norm",
+      "authors": ["Frank Aurzada", "Yuvraj Dutta", "Max Wiegand"],
+      "version": "v1, submitted 2026-10-08",
+      "locations": [
+        "Introduction: definition of Brownian motion with constant-in-time drift depending on T, and the deterministic L² conditioning.",
+        "Theorem 1: existing convergence theorem under a power bound on squared drift with exponent below 1/2.",
+        "Section 1.1, discussion after equation (3): asks for the entire range mu(T)^2=o(T).",
+        "Section 1.1, critical-scales paragraph: asks for mu(T) asymptotic to c sqrt(T).",
+        "Section 2: explicit Laplace transform and Bromwich inversion formula."
+      ],
+      "conclusion": "Both chosen catalog problems are explicitly posed; the source's existing theorem does not already resolve either enlarged regime."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.12354",
+      "title": "arXiv abstract and version history for 2610.12354",
+      "observed_versions": ["v1, 2026-10-08 17:22:11 UTC"],
+      "conclusion": "The checked version history lists no subsequent revision."
+    },
+    {
+      "url": "https://www2.mathematik.tu-darmstadt.de/~aurzada/",
+      "title": "Frank Aurzada's university publication list",
+      "conclusion": "Lists the same drift paper as submitted and does not list a later resolution of these two questions."
+    },
+    {
+      "url": "https://yuvrajdutta05.github.io/",
+      "title": "Yuvraj Dutta's academic homepage",
+      "conclusion": "Search retrieval identifies the same manuscript; the page's June 2026 update is older than the source and is not used as current status evidence."
+    }
+  ],
+  "searches": [
+    {
+      "engine": "system2",
+      "query": "\"Brownian motion with drift conditioned\" \"restricted\"",
+      "result": "Original-paper listings and author pages found; no separate resolution identified."
+    },
+    {
+      "engine": "system2",
+      "query": "\"Aurzada\" \"Dutta\" \"Wiegand\" drift critical",
+      "result": "Original-paper listings and author pages found; no separate resolution identified."
+    },
+    {
+      "engine": "system2",
+      "query": "\"Brownian\" \"L2\" \"conditioning\" \"sqrt\" \"drift\" Ornstein 2026",
+      "result": "No matching resolution identified."
+    },
+    {
+      "engine": "system1",
+      "query": "\"2610.12354\" Brownian drift critical",
+      "recency_days": 30,
+      "result": "Returned unrelated search results; this query supplies no affirmative status evidence."
+    },
+    {
+      "engine": "system1",
+      "query": "\"Brownian motion\" \"restricted\" \"critical\" \"Aurzada\" \"Dutta\"",
+      "recency_days": 30,
+      "result": "Returned unrelated search results; this query supplies no affirmative status evidence."
+    }
+  ],
+  "novelty_assessment": "The attached proof addresses exactly the two source questions. No resolution was located in the bounded checks above; the check is not exhaustive, and the proof has no external peer-review claim.",
+  "new_mathematical_content": [
+    "Uniform saddle asymptotics when mu(T)^2/T stays bounded, with the tilt included in the phase.",
+    "Total variation convergence on every fixed initial time interval when mu(T)^2/T has a finite limit.",
+    "Critical limiting OU parameter: the unique positive root of 2 theta lambda^3 - lambda^2 - c^2 = 0."
+  ],
+  "scope_exclusions": [
+    "Squared drift divided by T tending to infinity.",
+    "A nonconstant drift as a function of time within a single trajectory.",
+    "Observation windows reaching the conditioning endpoint T."
+  ]
+}

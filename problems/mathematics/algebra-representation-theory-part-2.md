@@ -1566,7 +1566,7 @@ Over a characteristic-zero field K, for all sufficiently large d and every permu
 
 ## Q3893. Whiskering forces Lefschetz failure
 
-**Status:** Open · **Kind:** conjecture (Conjecture 1.3) · **Collection** 39
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 1.3) · **Collection** 39
 
 For every finite simple graph G on [n] with independence number≥3, let w(G) add one pendant vertex at each vertex. Over any field K, must K[x₁,…,x₂ₙ]/(x_ix_j:{i,j}∈E(w(G)); x₁²,…,x₂ₙ²) fail WLP?
 
@@ -1577,6 +1577,11 @@ For every finite simple graph G on [n] with independence number≥3, let w(G) ad
 **Literature check.** Status: Checked 10 October 2026: both retained in the final; no general resolution found.
 
 **Further links.** [1](https://doi.org/10.1016/j.jpaa.2026.108238) · [2](https://hollebenthiago.github.io/phd/thesis.pdf) · [3](https://hollebenthiago.github.io/)
+
+**Result (2026-10-10).** For every graph G on n vertices with an independent triple, the square-truncated algebra of its fully whiskered graph fails the weak Lefschetz property over every field. Every linear form fails maximal rank from degree ceil(n/2) to degree ceil(n/2)+1. A shear yields invariant summands forcing a kernel and a cokernel in the same map. The statement uses the exact square relations and complete whiskering in the source conjecture. It makes no extension to arbitrary higher truncation powers or general very-well-covered graphs.
+
+[Proof](../../solutions/seven-selected-2026-10-10/algebra/3893.md) · [Internal review](../../solutions/seven-selected-2026-10-10/discrete/review-Q3893.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/verification.json) · [Source check](../../solutions/seven-selected-2026-10-10/algebra/SOURCES.md). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
+
 
 
 <a id="q3894"></a>

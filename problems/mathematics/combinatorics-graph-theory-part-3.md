@@ -592,7 +592,7 @@ For every n≥2 and every n-vertex tree T, does every zero z of Φ\_T satisfy 1/
 
 ## Q3840. Which integer pairs n≥5 odd, m≥6, m≢3 (mod 4) make C_n□P_m admit such a set?
 
-**Status:** Open · **Kind:** open problem (Problem 2.8) · **Collection** 39
+**Status:** Open, partial results · **Kind:** open problem (Problem 2.8) · **Collection** 39
 
 Which integer pairs n≥5 odd, m≥6, m≢3 (mod 4) make C_n□P_m admit such a set?
 
@@ -604,12 +604,17 @@ Which integer pairs n≥5 odd, m≥6, m≢3 (mod 4) make C_n□P_m admit such a 
 
 **Further links.** [1](https://scholarworks.wmich.edu/dissertations/4275/)
 
+**Result (2026-10-10).** C_5 square P_m has a proper total dominating set exactly for m in {3,5,7} or m>=9. In the catalog's requested range, the circumference-five failures are precisely m=6 and m=8. Explicit two-row insertions prove the infinite positive families, and covering pullbacks supply positive families for every odd circumference divisible by five. The full classification at all odd circumferences n>=7 remains unresolved. Exact exhaustive certificates prove the finitely many negative cases; nonexistence is not asserted to pull back to graph covers.
+
+[Proof](../../solutions/seven-selected-2026-10-10/discrete/Q3840.md) · [Internal review](../../solutions/seven-selected-2026-10-10/probability/review-Q3840-Q3841.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/discrete/verification.json) · [Source check](../../solutions/seven-selected-2026-10-10/discrete/sources.md). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
+
+
 
 <a id="q3841"></a>
 
 ## Q3841. Which odd integers n,m≥5 make C_n□C_m admit such a set?
 
-**Status:** Open · **Kind:** open problem · **Collection** 39
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 39
 
 Which odd integers n,m≥5 make C_n□C_m admit such a set?
 
@@ -620,6 +625,11 @@ Which odd integers n,m≥5 make C_n□C_m admit such a set?
 **Literature check.** Status: No matching resolution located through 10 October 2026.
 
 **Further links.** [1](https://scholarworks.wmich.edu/dissertations/4275/)
+
+**Result (2026-10-10).** For odd m>=5, C_5 square C_m has a proper total dominating set if and only if m>=7. An exact exhaustive certificate excludes C_5 square C_5; explicit seeds and two-row insertions cover all positive lengths. Covering pullbacks extend the positive families to odd circumferences divisible by five. The full classification when both odd circumferences are at least seven remains unresolved. The covering argument is sufficient for existence and makes no assertion that nonexistence persists under covers.
+
+[Proof](../../solutions/seven-selected-2026-10-10/discrete/Q3841.md) · [Internal review](../../solutions/seven-selected-2026-10-10/probability/review-Q3840-Q3841.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/discrete/verification.json) · [Source check](../../solutions/seven-selected-2026-10-10/discrete/sources.md). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
+
 
 
 <a id="q3842"></a>

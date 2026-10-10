@@ -4033,7 +4033,7 @@ Does there exist such a stationary field for which the counting measure Σ\_{k�
 
 ## Q3982. If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X_t/(2θ)dt, X_0=x?
 
-**Status:** Open · **Kind:** open problem · **Collection** 40
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 40
 
 If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X_t/(2θ)dt, X_0=x?
 
@@ -4043,12 +4043,17 @@ If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X
 
 **Literature check.** Status: Paper-origin. Theorem1 proves Q3982 only under μ(T)²≤MT^β for some M>0 and β<1/2. The source separately asks about the critical scale in Q3983; its exponential-threshold variant is not included. No matching resolution found on 10 October 2026.
 
+**Result (2026-10-10).** For every deterministic drift with mu(T)^2=o(T), Brownian motion conditioned on its squared L2 norm being at most theta T converges to dX_t=dB_t-X_t/(2 theta) dt, X_0=x. Convergence holds in total variation on every fixed initial interval and weakly on C([0,infinity)) with uniform convergence on compact intervals. The proof treats a drift constant in time within each path and the source's deterministic norm threshold. It does not address observation windows growing to the terminal horizon or arbitrary time-inhomogeneous drifts.
+
+[Proof](../../solutions/seven-selected-2026-10-10/probability/brownian_l2_drift.md) · [Internal review](../../solutions/seven-selected-2026-10-10/reviews/Q3982-Q3983.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/probability/checks.json) · [Source check](../../solutions/seven-selected-2026-10-10/probability/sources.json). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
+
+
 
 <a id="q3983"></a>
 
 ## Q3983. For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exists.
 
-**Status:** Open · **Kind:** open problem · **Collection** 40
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 40
 
 For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exists.
 
@@ -4057,6 +4062,11 @@ For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exist
 **Source.** Frank Aurzada, Yuvraj Dutta and Max Wiegand. *Brownian motion with drift conditioned to have restricted L²-norm*. 2026. [primary source](https://arxiv.org/abs/2610.12354) Location: §1.1, pp.4–5.
 
 **Literature check.** Status: Paper-origin. Theorem1 proves Q3982 only under μ(T)²≤MT^β for some M>0 and β<1/2. The source separately asks about the critical scale in Q3983; its exponential-threshold variant is not included. No matching resolution found on 10 October 2026.
+
+**Result (2026-10-10).** If mu(T) is asymptotic to c sqrt(T), the conditioned law converges to dX_t=dB_t-lambda_c X_t dt, X_0=x, where lambda_c is the unique positive root of 2 theta lambda_c^3-lambda_c^2-c^2=0. The sign of c does not affect the limit. The unified proof covers every finite limit mu(T)^2/T -> r>=0 and gives total variation convergence on fixed initial intervals. The result includes weak convergence in the source's compact-uniform path topology. It does not cover mu(T)^2/T diverging, a random norm threshold, or observation windows reaching the terminal horizon.
+
+[Proof](../../solutions/seven-selected-2026-10-10/probability/brownian_l2_drift.md) · [Internal review](../../solutions/seven-selected-2026-10-10/reviews/Q3982-Q3983.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/probability/checks.json) · [Source check](../../solutions/seven-selected-2026-10-10/probability/sources.json). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
+
 
 
 <a id="q3987"></a>

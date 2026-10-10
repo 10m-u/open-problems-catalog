@@ -1,6 +1,6 @@
 # Algebra & Representation Theory
 
-375 problems: 360 open, 10 open, partial results, 2 solved here: proved, 3 solved here: disproved.
+375 problems: 358 open, 10 open, partial results, 3 solved here: proved, 4 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -20,7 +20,7 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q128"></a>[Q128](algebra-representation-theory-part-1.md#q128) | Over a characteristic-zero field, let an algebra A satisfy a(bc)=b(ac) and ([a,b… | Open |
 | <a id="q202"></a>[Q202](algebra-representation-theory-part-1.md#q202) | Does every rational \$q/p\ge1\$ occur as \$\widehat\alpha(I)\$ for a monomial ideal … | Open |
 | <a id="q203"></a>[Q203](algebra-representation-theory-part-1.md#q203) | For rational \$q/p\ge1\$, determine monomial ideals with \$\widehat\alpha(I)=q/p\$ t… | Open |
-| <a id="q212"></a>[Q212](algebra-representation-theory-part-1.md#q212) | Let \$A=\bigoplus_{d\ge0}A_d\$ be a unital associative algebra over an algebraical… | Open |
+| <a id="q212"></a>[Q212](algebra-representation-theory-part-1.md#q212) | Let \$A=\bigoplus_{d\ge0}A_d\$ be a unital associative algebra over an algebraical… | Solved here: disproved |
 | <a id="q326"></a>[Q326](algebra-representation-theory-part-1.md#q326) | For a finite nonempty simple graph \$G\$, let \$\xi_f(G)\$ be the infimum of \$d/r\$ o… | Open |
 | <a id="q327"></a>[Q327](algebra-representation-theory-part-1.md#q327) | For integers \$n\ge2r\ge2\$, let \$KG(n,r)\$ have the \$r\$-subsets of \$[n]\$ as vertic… | Open |
 | <a id="q388"></a>[Q388](algebra-representation-theory-part-1.md#q388) | Let \$Q\$ be any orientation of the \$E_8\$ Dynkin diagram, and let \$V,W\$ be finite-… | Open |
@@ -369,7 +369,7 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q3838"></a>[Q3838](algebra-representation-theory-part-2.md#q3838) | Automorphic growth of Thompson’s F | Open |
 | <a id="q3889"></a>[Q3889](algebra-representation-theory-part-2.md#q3889) | A general Engel bound from one multilinear identity | Open |
 | <a id="q3892"></a>[Q3892](algebra-representation-theory-part-2.md#q3892) | Koszul Roller Coaster algebras | Open |
-| <a id="q3893"></a>[Q3893](algebra-representation-theory-part-2.md#q3893) | Whiskering forces Lefschetz failure | Open |
+| <a id="q3893"></a>[Q3893](algebra-representation-theory-part-2.md#q3893) | Whiskering forces Lefschetz failure | Solved here: proved |
 | <a id="q3894"></a>[Q3894](algebra-representation-theory-part-2.md#q3894) | Strong Lefschetz for unexpected reductions | Open |
 | <a id="q3895"></a>[Q3895](algebra-representation-theory-part-2.md#q3895) | A shorter normality test | Open |
 | <a id="q3896"></a>[Q3896](algebra-representation-theory-part-2.md#q3896) | Universal integral-closure containments | Open |

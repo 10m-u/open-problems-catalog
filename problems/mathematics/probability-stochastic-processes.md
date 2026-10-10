@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-509 problems: 471 open, 20 open, partial results, 13 solved here: proved, 5 solved here: disproved.
+509 problems: 469 open, 20 open, partial results, 15 solved here: proved, 5 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -494,8 +494,8 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q3973"></a>[Q3973](probability-stochastic-processes-part-2.md#q3973) | For every nonatomic weight law, does (J,M_n) converge weakly, with limiting M a measurable… | Open |
 | <a id="q3974"></a>[Q3974](probability-stochastic-processes-part-2.md#q3974) | For ε=1−M(0), is \|M△M_{0,ε}\| finite almost surely? | Open |
 | <a id="q3975"></a>[Q3975](probability-stochastic-processes-part-2.md#q3975) | Does there exist such a stationary field for which the counting measure Σ\_{k∈Z²}δ\_{k+ξ\_k} has… | Open |
-| <a id="q3982"></a>[Q3982](probability-stochastic-processes-part-2.md#q3982) | If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X_t/(2θ)dt, X_0=x? | Open |
-| <a id="q3983"></a>[Q3983](probability-stochastic-processes-part-2.md#q3983) | For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exists. | Open |
+| <a id="q3982"></a>[Q3982](probability-stochastic-processes-part-2.md#q3982) | If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X_t/(2θ)dt, X_0=x? | Solved here: proved |
+| <a id="q3983"></a>[Q3983](probability-stochastic-processes-part-2.md#q3983) | For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exists. | Solved here: proved |
 | <a id="q3987"></a>[Q3987](probability-stochastic-processes-part-2.md#q3987) | For n×n matrices A_n with iid real entries having one fixed nondegenerate probability law, does… | Open |
 | <a id="q3988"></a>[Q3988](probability-stochastic-processes-part-2.md#q3988) | For every n≥1, is max_k\|\|B_n^(k)\|\|max=\|\|U\|\|max almost surely? | Open |
 | <a id="q3989"></a>[Q3989](probability-stochastic-processes-part-2.md#q3989) | Does 2ζ(1+σ)C_c(σ)→1 as σ↓0? | Open |

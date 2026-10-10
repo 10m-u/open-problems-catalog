@@ -1,6 +1,6 @@
 # Optimization & Operations Research
 
-116 problems: 108 open, 4 open, partial results, 2 solved here: proved, 2 solved here: disproved.
+116 problems: 107 open, 4 open, partial results, 3 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -53,7 +53,7 @@
 | [Q723](optimization-operations-research.md#q723) | Corruption-budget-free inverse optimization with bounded lifetime regret | Open |
 | [Q724](optimization-operations-research.md#q724) | Exact safety region for squared-error reward learning | Solved here: proved |
 | [Q725](optimization-operations-research.md#q725) | Exact safety region for regularized learned-reward optimization | Open, partial results |
-| [Q726](optimization-operations-research.md#q726) | Unrestricted MaxMinLCB preference optimization | Open |
+| [Q726](optimization-operations-research.md#q726) | Unrestricted MaxMinLCB preference optimization | Solved here: proved |
 | [Q727](optimization-operations-research.md#q727) | Is the offline inverse-RL state-squared cost necessary? | Open |
 | [Q728](optimization-operations-research.md#q728) | Correct posterior-sampling stopping under bounded linear structure | Open |
 | [Q729](optimization-operations-research.md#q729) | Output-polynomial exact utility–cost tradeoff enumeration | Open |
@@ -931,7 +931,7 @@ For fixed λ>0 and continuous nonnegative policy penalty ω, characterize D such
 
 ## Q726. Unrestricted MaxMinLCB preference optimization
 
-**Status:** Open · **Kind:** open problem · **Collection** 8
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 8
 
 Does MaxMinLCB retain anytime regret O(β\_Tᴰ(δ)√(Tγ\_Tᴰ)) with probability 1−δ when both max–min domains are X rather than M_t? Keep its prescribed estimator/confidence coefficients. X is compact, ||f||\_Hk≤B, k(x,x)≤1, and kernel eigenfunctions have zero mean. Pair feedback is Bernoulli σ(f(x)−f(y)), σ logistic; regret is Σ\_t[σ(f\*−f(x_t))+σ(f\*−f(y_t))−1]/2. Here γ\_Tᴰ is information gain for kᴰ((x,y),(x′,y′))=k(x,x′)+k(y,y′)−k(x,y′)−k(y,x′).
 
@@ -940,6 +940,11 @@ Does MaxMinLCB retain anytime regret O(β\_Tᴰ(δ)√(Tγ\_Tᴰ)) with probabil
 **Source.** Barna Pásztor; Parnian Kassraie; Andreas Krause. *Bandits with Preference Feedback: A Stackelberg Game Perspective*. 2024. [primary source](https://arxiv.org/abs/2406.16745) Location: §5.2, Eq.(7), Theorems 5–6.
 
 **Literature check.** Status for question 726, checked 5 October 2026: Retained in December 2025 v3; no later resolution located.
+
+**Result (2026-10-10).** With the source's prescribed bounded or projected RKHS estimator and confidence coefficients, exact MaxMinLCB optimization over X in both domains has anytime regret O_{B,lambda,kappa}(beta_T^D sqrt(T gamma_T^D)) with probability at least 1-delta. The proof covers every optimizing tie and uses the posterior pseudometric triangle inequality to control both played arms. The norm bound on the estimator is the source's theoretical assumption, with its prescribed projection when needed. The result does not cover an unprojected estimate outside that bound, approximate optimization, or an efficient implementation of continuous max-min optimization.
+
+[Proof](../../solutions/seven-selected-2026-10-10/learning/Q726.md) · [Internal review](../../solutions/seven-selected-2026-10-10/algebra/review-Q726.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/learning/checks.json) · [Source check](../../solutions/seven-selected-2026-10-10/learning/SOURCES.md). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
+
 
 
 <a id="q727"></a>
