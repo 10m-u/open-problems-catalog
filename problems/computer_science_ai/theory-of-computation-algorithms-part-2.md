@@ -688,3 +688,1039 @@ Does GENERATING SET admit an O\*(2^{o((log s)²)})-time algorithm?
 
 **Literature check.** Status: v2, 2025-11-26; no later resolution found by 2026-10-09.
 
+
+<a id="q3824"></a>
+
+## Q3824. Polynomial Cutting Planes proofs of Tseitin contradictions
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Does a polynomial p bound the number of lines in some Cutting Planes refutation of every F by p(|F|), with |F| its CNF encoding length?
+
+**Context.** Paper authors: Noah Fleming, Mika Göös, Russell Impagliazzo, Toniann Pitassi, Robert Robere, Li-Yang Tan, Avi Wigderson. On the Power and Limitations of Branch and Cut, Theory of Computing 22(2), 2026. Let G be finite simple and χ:V(G)→{0,1} have odd sum. Let F directly encode ⊕\_{e∋v}x_e=χ(v) as CNF. Translate clauses to literal-sum ≥1, interpreting ¬x as 1−x, and include 0≤x_e≤1. Cutting Planes permits nonnegative integer combinations and division of a·x≥b by positive integers dividing every coefficient of a, rounding b/d upward. Refutations derive 0≥1.
+
+**Source.** Noah Fleming, Mika Göös, Russell Impagliazzo, Toniann Pitassi, Robert Robere, Li-Yang Tan and Avi Wigderson. *On the Power and Limitations of Branch and Cut*. 2026. [primary source](https://www.theoryofcomputing.org/articles/v022a002/) Location: Existing proof-complexity question restated in the doctoral-linked joint paper. Locator: final §6, p.30; definitions pp.3,10–11.
+
+**Literature check.** Status: Inspected June 2026 publisher final and thesis. No later resolution located, 10 October 2026.
+
+**Further links.** [1](https://noahrfleming.github.io/papers/Thesis.pdf) · [2](https://www.cs.toronto.edu/~noahfleming/Vita.pdf)
+
+
+<a id="q3861"></a>
+
+## Q3861. Do there exist families f_N,g_N∈C[x_1,…,x_N] and integers d_N≥2 with f_N=g_N^{d_N},…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Do there exist families f_N,g_N∈C[x_1,…,x_N] and integers d_N≥2 with f_N=g_N^{d_N}, deg(f_N)=N^{O(1)}, and W(f_N)=N^{O(1)}, while W(g_N) is not bounded by any polynomial in N?
+
+**Context.** Paper origin: Robert Andrews, Jules Armand, Prateek Dwivedi, Magnus Rahbek Dalgaard Hansen, Nutan Limaye, Srikanth Srinivasan and Sébastien Tavenas, On Closure Properties of Read-Once Oblivious Algebraic Branching Programs, ITCS 2026, §6, p.9:17; published version read. Setup: Over C, an roABP is a layered directed source–sink graph whose ith-layer edge labels are univariate polynomials in x_{π(i)}, for one variable ordering π. It computes the sum of products along source–sink paths. Let W(f) be its minimum width over all variable orders; width is the largest layer size. Use the paper’s polynomial-degree, polynomial-size family convention; size and width are polynomially related.
+
+**Source.** Robert Andrews, Jules Armand, Prateek Dwivedi, Magnus Rahbek Dalgaard Hansen, Nutan Limaye, Srikanth Srinivasan and Sébastien Tavenas. *On Closure Properties of Read-Once Oblivious Algebraic Branching Programs*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ITCS.2026.9) Location: §6, p.9:17; published version read.
+
+**Literature check.** Status: This expresses the paper’s easy-power/hard-root question in the characteristic-zero setting. No later resolution found through 10 October 2026.
+
+
+<a id="q3862"></a>
+
+## Q3862. Does every unitary U on X satisfying UR(σ)=R(σ)U for all σ∈Γ admit an exact Γ-symmetric…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Does every unitary U on X satisfying UR(σ)=R(σ)U for all σ∈Γ admit an exact Γ-symmetric implementation, allowing ancillas returned to |0⟩?
+
+**Context.** Paper origin: Davi Castro-Silva, Tom Gur and Sergii Strelchuk, Symmetric Quantum Computation, ITCS 2026, §5, p.35:8; full definitions in arXiv:2501.01214v2, Definitions 9–12, pp.16–18. Setup: Γ≤S_X acts by permuting a finite set X of active qubits. Circuits may use finitely many ancillas initially |0⟩, arbitrary one-qubit unitaries, and gates flipping a target bit when the sum of a disjoint set of control bits is ≥t or =t, for a nonnegative integer t. Gates are grouped into ordered layers, each containing mutually commuting gates. A circuit is Γ-symmetric if every σ∈Γ extends to a permutation of all its qubits that preserves each layer, including gate types, parameters and supports. Write R(σ) for the permutation of the active qubits’ tensor factors.
+
+**Source.** Davi Castro-Silva, Tom Gur and Sergii Strelchuk. *Symmetric Quantum Computation*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ITCS.2026.35) Location: §5, p.35:8; full definitions in arXiv:2501.01214v2, Definitions 9–12, pp.16–18.
+
+**Literature check.** Status: The published paper leaves arbitrary Γ open after proving partition-permutation cases. No matching resolution found through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2501.01214v2)
+
+
+<a id="q3863"></a>
+
+## Q3863. Given oracle maps f,g:[N]→[N], Nephew asks for v with f(f(g(v)))≠f(v) or f(g(v))=v. Does Nephew…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Given oracle maps f,g:[N]→[N], Nephew asks for v with f(f(g(v)))≠f(v) or f(g(v))=v. Does Nephew admit a black-box reduction to Lossy-Code of poly(log N) complexity? Here complexity is log L+d, where L is target-table bit length and d bounds bit-query depth for each target bit and for decoding any target solution. The authors conjecture no.
+
+**Context.** Paper origin: Noah Fleming, Stefan Grosser, Siddhartha Jain, Jiawei Li, Hanlin Ren, Morgan Shirley and Weiqiang Yuan, Total Search Problems in ZPP, ITCS 2026, pp.60:2,60:5–6,60:9–11,60:21; final version read. Setup: For m≥1, Lossy-Code receives C:{0,1}^m→{0,1}^{m−1} and D:{0,1}^{m−1}→{0,1}^m and asks for y with D(C(y))≠y. Maps are oracle tables in the black-box model and Boolean circuits in the white-box model.
+
+**Source.** Noah Fleming, Stefan Grosser, Siddhartha Jain, Jiawei Li, Hanlin Ren, Morgan Shirley and Weiqiang Yuan. *Total Search Problems in ZPP*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ITCS.2026.60) Location: pp.60:2,60:5–6,60:9–11,60:21; final version read.
+
+**Literature check.** Status: Both remain unresolved in the current sources; no later resolution found through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2512.01138)
+
+
+<a id="q3864"></a>
+
+## Q3864. Given binary N≥2, can finding a prime N&lt;p<2N be reduced deterministically in polynomial time to…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Given binary N≥2, can finding a prime N&lt;p<2N be reduced deterministically in polynomial time to white-box Lossy-Code, with every target solution decoding to a valid prime?
+
+**Context.** Paper origin: Noah Fleming, Stefan Grosser, Siddhartha Jain, Jiawei Li, Hanlin Ren, Morgan Shirley and Weiqiang Yuan, Total Search Problems in ZPP, ITCS 2026, pp.60:2,60:5–6,60:9–11,60:21; final version read. Setup: For m≥1, Lossy-Code receives C:{0,1}^m→{0,1}^{m−1} and D:{0,1}^{m−1}→{0,1}^m and asks for y with D(C(y))≠y. Maps are oracle tables in the black-box model and Boolean circuits in the white-box model.
+
+**Source.** Noah Fleming, Stefan Grosser, Siddhartha Jain, Jiawei Li, Hanlin Ren, Morgan Shirley and Weiqiang Yuan. *Total Search Problems in ZPP*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ITCS.2026.60) Location: pp.60:2,60:5–6,60:9–11,60:21; final version read.
+
+**Literature check.** Status: Both remain unresolved in the current sources; no later resolution found through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2512.01138)
+
+
+<a id="q3879"></a>
+
+## Q3879. Is there an algorithm that, given only an n-vertex graph G, finds a maximum-cardinality…
+
+**Status:** Open · **Kind:** open problem (Question 9) · **Collection** 39
+
+Is there an algorithm that, given only an n-vertex graph G, finds a maximum-cardinality independent set in time 2^{O(cw(G))}n^{O(1)}, without receiving a clique-width expression?
+
+**Context.** Doctoral source: Tuukka Korhonen, Computing Width Parameters of Graphs, University of Bergen PhD, May 2024; advisor Fedor V. Fomin, co-advisor Petr A. Golovach. Question 9, p.308 (PDF p.326), restates a question of Oum, Sæther and Vatshelle (2014). Setup: For a finite simple graph G, a k-expression constructs G using at most k vertex labels and four operations: creating one labeled vertex, taking disjoint unions, relabeling every vertex of one label, and adding all edges between two different labels. The clique-width cw(G) is the least such k. An independent set contains no adjacent pair of vertices.
+
+**Source.** Tuukka Korhonen. *Computing Width Parameters of Graphs*. University of Bergen, 2024. Advisor(s): Fedor V. Fomin; co-advisor Petr A. Golovach. [primary source](https://tuukkakorhonen.com/papers/phd-thesis.pdf) Location: Question 9, p.308 (PDF p.326), restates a question of Oum, Sæther and Vatshelle (2014).
+
+**Literature check.** Status: The author’s 16 September 2026 problem list retains this algorithmic gap. The known decomposition-free bound is 2^{O(k log k)}n^{O(1)}. No matching resolution found through 10 October 2026.
+
+**Further links.** [1](https://tuukkakorhonen.com/problems.html)
+
+
+<a id="q3880"></a>
+
+## Q3880. Is C_k≥2^{c k log₂k} for some absolute c>0 and all sufficiently large k?
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Is C_k≥2^{c k log₂k} for some absolute c>0 and all sufficiently large k?
+
+**Context.** Paper source: Kacper Kluk and Jesper Nederlof, Lower Bounds on Pure Dynamic Programming for Connectivity Problems on Graphs of Bounded Path-Width, ICALP 2026, §§4.1,7, pp.130:12–13,130:21; published version read. Setup: M_k has rows and columns indexed by permutations of [k], with M_k(ρ,σ)=1 exactly when σρ is a single k-cycle. Let C_k be the minimum number of all-one combinatorial rectangles needed to cover all its 1-entries.
+
+**Source.** Kacper Kluk and Jesper Nederlof. *Lower Bounds on Pure Dynamic Programming for Connectivity Problems on Graphs of Bounded Path-Width*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2026.130) Location: §§4.1,7, pp.130:12–13,130:21; published version read.
+
+**Literature check.** Status: No matching resolution found through 10 October 2026.
+
+**Notes.** This older Raz–Spieker frontier is explicitly reaffirmed here.
+
+
+<a id="q3881"></a>
+
+## Q3881. For every finite simple undirected n-vertex graph G of treewidth k, does the convex hull of…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+For every finite simple undirected n-vertex graph G of treewidth k, does the convex hull of incidence vectors of its Hamiltonian cycles admit an extended formulation with 2^{O(k)}n^{O(1)} inequalities? An extended formulation is a polyhedron projecting linearly onto that convex hull. Treewidth minimizes the largest bag size minus one over tree-indexed bags covering vertices and edges, with each vertex’s bags connected.
+
+**Context.** Paper source: Kacper Kluk and Jesper Nederlof, Lower Bounds on Pure Dynamic Programming for Connectivity Problems on Graphs of Bounded Path-Width, ICALP 2026, §§4.1,7, pp.130:12–13,130:21; published version read. Setup: M_k has rows and columns indexed by permutations of [k], with M_k(ρ,σ)=1 exactly when σρ is a single k-cycle. Let C_k be the minimum number of all-one combinatorial rectangles needed to cover all its 1-entries.
+
+**Source.** Kacper Kluk and Jesper Nederlof. *Lower Bounds on Pure Dynamic Programming for Connectivity Problems on Graphs of Bounded Path-Width*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2026.130) Location: §§4.1,7, pp.130:12–13,130:21; published version read.
+
+**Literature check.** Status: No matching resolution found through 10 October 2026.
+
+
+<a id="q3882"></a>
+
+## Q3882. Is deciding existence of a 3-visit schedule strongly NP-complete when all deadlines are distinct?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 62) · **Collection** 39
+
+Is deciding existence of a 3-visit schedule strongly NP-complete when all deadlines are distinct?
+
+**Context.** Paper source: Sotiris Kanellopoulos, Giorgos Mitropoulos, Christos Pergaminelis and Thanos Tolias, Hardness, Tractability and Density Thresholds of finite Pinwheel Scheduling Variants. ICALP 2026 final, Conjecture 62 and §8; later arXiv:2604.16030v5, 11 August 2026, Conjecture 1 and §8, pp.27–28. Q3882–28 restate Kanellopoulos, Pergaminelis, Kokkou, Markou and Pagourtzis (SODA 2026). Setup: A binary-encoded list of positive deadlines d₁,…,d_n describes n distinct tasks, even when deadlines repeat. An r-visit schedule is a word of length rn containing each task exactly r times. Task i first occurs by position d_i; successive occurrences of task i must be at most d_i positions apart. There is no terminal deadline after its last occurrence.
+
+**Source.** Sotiris Kanellopoulos, Giorgos Mitropoulos, Christos Pergaminelis and Thanos Tolias. *Hardness, Tractability and Density Thresholds of finite Pinwheel Scheduling Variants*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2026.122) Location: Conjecture 62 and §8; later arXiv:2604.16030v5, 11 August 2026, Conjecture 1 and §8, pp.27–28.
+
+**Literature check.** Status: Current versions retain all three; no matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2604.16030v5)
+
+
+<a id="q3883"></a>
+
+## Q3883. Does 2-visit feasibility have a deterministic algorithm with running time f(p)L^{O(1)}, where p…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 62) · **Collection** 39
+
+Does 2-visit feasibility have a deterministic algorithm with running time f(p)L^{O(1)}, where p is the number of distinct deadlines, L the input bit length, and f is computable?
+
+**Context.** Paper source: Sotiris Kanellopoulos, Giorgos Mitropoulos, Christos Pergaminelis and Thanos Tolias, Hardness, Tractability and Density Thresholds of finite Pinwheel Scheduling Variants. ICALP 2026 final, Conjecture 62 and §8; later arXiv:2604.16030v5, 11 August 2026, Conjecture 1 and §8, pp.27–28. Q3882–28 restate Kanellopoulos, Pergaminelis, Kokkou, Markou and Pagourtzis (SODA 2026). Setup: A binary-encoded list of positive deadlines d₁,…,d_n describes n distinct tasks, even when deadlines repeat. An r-visit schedule is a word of length rn containing each task exactly r times. Task i first occurs by position d_i; successive occurrences of task i must be at most d_i positions apart. There is no terminal deadline after its last occurrence.
+
+**Source.** Sotiris Kanellopoulos, Giorgos Mitropoulos, Christos Pergaminelis and Thanos Tolias. *Hardness, Tractability and Density Thresholds of finite Pinwheel Scheduling Variants*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2026.122) Location: Conjecture 62 and §8; later arXiv:2604.16030v5, 11 August 2026, Conjecture 1 and §8, pp.27–28.
+
+**Literature check.** Status: Current versions retain all three; no matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2604.16030v5)
+
+
+<a id="q3884"></a>
+
+## Q3884. Must every list with Σ\_i1/d_i≤1 admit a 2-visit schedule?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 62) · **Collection** 39
+
+Must every list with Σ\_i1/d_i≤1 admit a 2-visit schedule?
+
+**Context.** Paper source: Sotiris Kanellopoulos, Giorgos Mitropoulos, Christos Pergaminelis and Thanos Tolias, Hardness, Tractability and Density Thresholds of finite Pinwheel Scheduling Variants. ICALP 2026 final, Conjecture 62 and §8; later arXiv:2604.16030v5, 11 August 2026, Conjecture 1 and §8, pp.27–28. Q3882–28 restate Kanellopoulos, Pergaminelis, Kokkou, Markou and Pagourtzis (SODA 2026). Setup: A binary-encoded list of positive deadlines d₁,…,d_n describes n distinct tasks, even when deadlines repeat. An r-visit schedule is a word of length rn containing each task exactly r times. Task i first occurs by position d_i; successive occurrences of task i must be at most d_i positions apart. There is no terminal deadline after its last occurrence.
+
+**Source.** Sotiris Kanellopoulos, Giorgos Mitropoulos, Christos Pergaminelis and Thanos Tolias. *Hardness, Tractability and Density Thresholds of finite Pinwheel Scheduling Variants*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2026.122) Location: Conjecture 62 and §8; later arXiv:2604.16030v5, 11 August 2026, Conjecture 1 and §8, pp.27–28.
+
+**Literature check.** Status: Current versions retain all three; no matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2604.16030v5)
+
+
+<a id="q3885"></a>
+
+## Q3885. Does this optimization problem admit a polynomial-time approximation algorithm with…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 5.1) · **Collection** 39
+
+Does this optimization problem admit a polynomial-time approximation algorithm with approximation ratio (log k)^{1+o(1)} as k→∞, returning feasible flows for the selected pairs?
+
+**Context.** Paper origin: Nikhil Bansal, Arun Jambulapati and Thatchaphol Saranurak, Expander Decomposition with Almost Optimal Overhead, ICALP 2026, Conjecture 5.1, §5, p.22:15; published version read. Setup: Input is an undirected graph with unit edge capacities and k specified source–sink pairs. Select as many pairs as possible and route one unit of flow for each selected pair. Each commodity may split among several paths, but the sum of the loads of all commodities on every edge must be at most one. Let OPT be the maximum number of simultaneously routable pairs.
+
+**Source.** Nikhil Bansal, Arun Jambulapati and Thatchaphol Saranurak. *Expander Decomposition with Almost Optimal Overhead*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2026.22) Location: Conjecture 5.1, §5, p.22:15; published version read.
+
+**Literature check.** Status: The current final and April arXiv revision retain this conjecture. Their improved expander decomposition does not itself establish the all-or-nothing guarantee; no matching resolution found through 10 October 2026. This is the multicommodity selection problem, distinct from the unrelated edge-wise zero-or-capacity flow problem bearing the same name.
+
+
+<a id="q3886"></a>
+
+## Q3886. Is deciding whether such an assignment exists strongly NP-complete, equivalently NP-complete…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2) · **Collection** 39
+
+Is deciding whether such an assignment exists strongly NP-complete, equivalently NP-complete even when the input integers are encoded in unary?
+
+**Context.** Paper origin: Sotiris Kanellopoulos, Finite Pinwheel Covering, arXiv:2607.28574v4, 7 October 2026, Definition 3, p.5, and Conjecture 2, p.15; current full version read. Setup: Input consists of n pairwise distinct positive integers f₁,…,f_n, encoded in binary. A feasible assignment pairs each frequency f_i with a distinct position b_i∈{1,…,n} and a distinct position c_i∈{n+1,…,2n}, using every position exactly once, such that c_i−b_i≥f_i. This is the paper’s explicit numerical-matching definition of 2-Visits Covering: each task is performed twice, with a minimum recovery gap rather than a maximum deadline gap.
+
+**Source.** Sotiris Kanellopoulos. *Finite Pinwheel Covering*. 2026. [primary source](https://arxiv.org/abs/2607.28574v4) Location: Definition 3, p.5, and Conjecture 2, p.15; current full version read.
+
+**Literature check.** Status: Conjecture 2 names this Definition 3 problem. The paper’s finite-window Definition 2 has a boundary discrepancy; its claimed equivalence is not used here. The 7 October version leaves pairwise-distinct frequencies unresolved. Its hardness result permits repeated frequencies. No later matching resolution found through 10 October 2026; no doctoral attribution is claimed.
+
+
+<a id="q3903"></a>
+
+## Q3903. With vertex weights in {1,…,n}, can a maximum-weight independent set be found in time…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+With vertex weights in {1,…,n}, can a maximum-weight independent set be found in time O(n+m)+f(tw(G)) for some computable f, without a supplied decomposition? The constant in O(n+m) must be parameter-independent.
+
+**Context.** Paper origin: Tuukka Korhonen, Daniel Lokshtanov and Saket Saurabh, Courcelle’s Theorem in Truly Linear FPT, arXiv:2607.11230v1, 13 July 2026, §6, p.15; computational model §2, p.4. Setup: Input is a finite simple n-vertex, m-edge graph, given as vertex and edge lists. Use word-RAM with Θ(log(n+m+2))-bit words. A tree decomposition comprises tree-indexed vertex bags covering every vertex and edge, with each vertex’s bags forming a connected subtree. Treewidth tw(G) is the minimum, over such decompositions, of the largest bag size minus one. An independent set contains no adjacent pair.
+
+**Source.** Tuukka Korhonen, Daniel Lokshtanov and Saket Saurabh. *Courcelle’s Theorem in Truly Linear FPT*. 2026. [primary source](https://arxiv.org/abs/2607.11230v1) Location: §6, p.15; computational model §2, p.4.
+
+**Literature check.** Status: The source explicitly retains this weighted question after proving its unweighted results. No matching later resolution found through 10 October 2026.
+
+
+<a id="q3904"></a>
+
+## Q3904. Determine q(n,c) asymptotically, up to universal constant factors, throughout the regimes…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Determine q(n,c) asymptotically, up to universal constant factors, throughout the regimes integers n≥1 and c≥0.
+
+**Context.** Paper source: Xudong Wu, Guangxu Yang and Penghui Yao, A Lifting Theorem for Hybrid Classical-Quantum Communication Complexity, ICALP 2026, §1.4(5), p.155:6; model in §2.3, pp.155:9–10. Published version read. Setup: Alice receives x∈{0,1}^n and Bob receives y∈{0,1}^n; they must decide whether some coordinate has x_i=y_i=1. First they exchange at most c classical bits using deterministic classical computation. Then they exchange at most q qubits using quantum computation. Arbitrary prior entanglement is allowed but cannot be accessed during the classical phase. Communication is interactive in each phase; the worst-case error is at most 1/10 on every input. Let q(n,c) be the least such quantum communication cost.
+
+**Source.** Xudong Wu, Guangxu Yang and Penghui Yao. *A Lifting Theorem for Hybrid Classical-Quantum Communication Complexity*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2026.155) Location: §1.4(5), p.155:6; model in §2.3, pp.155:9–10.
+
+**Literature check.** Status: The final explicitly leaves this tight tradeoff open; its lifting theorem uses much larger gadgets and does not settle the two-bit AND gadget underlying disjointness. No matching later resolution found through 10 October 2026.
+
+
+<a id="q3913"></a>
+
+## Q3913. Can every n-vertex graph obtain a maximal independent set in O(√log n·(loglog n)^C) rounds, for…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Can every n-vertex graph obtain a maximal independent set in O(√log n·(loglog n)^C) rounds, for some constant C, with failure probability at most 1/n?
+
+**Context.** LOCAL algorithms know n and unique polynomial-range identifiers, use synchronous neighbor communication with unbounded messages and computation, and independent vertex randomness. An LCL uses fixed finite input/output alphabets and fixed-radius local validity rules on graphs of some fixed maximum degree. In deterministic VOLUME, a query starts at its requested vertex and adaptively discovers neighboring vertices; it knows n and unique polynomial-range vertex identifiers. All separately computed labels must form a valid solution. Complexity counts worst-case probes per requested vertex.
+
+**Source.** Václav Rozhoň. *Invitation to Local Algorithms*. 2024. [primary source](https://arxiv.org/abs/2406.19430) Location: Problems 1.13 and 3.4; thesis genealogy led to this survey.
+
+**Literature check.** Status: No resolution found through 10 October 2026; Peng’s July 2026 paper explicitly retains Q3914.
+
+**Further links.** [1](https://www.podc.org/2025-principles-of-distributed-computing-doctoral-dissertation-award/) · [2](https://arxiv.org/abs/2607.09626)
+
+
+<a id="q3914"></a>
+
+## Q3914. Does a solvable LCL have optimal deterministic VOLUME complexity ω(log\*n) and o(n) on…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does a solvable LCL have optimal deterministic VOLUME complexity ω(log\*n) and o(n) on bounded-degree graphs?
+
+**Context.** LOCAL algorithms know n and unique polynomial-range identifiers, use synchronous neighbor communication with unbounded messages and computation, and independent vertex randomness. An LCL uses fixed finite input/output alphabets and fixed-radius local validity rules on graphs of some fixed maximum degree. In deterministic VOLUME, a query starts at its requested vertex and adaptively discovers neighboring vertices; it knows n and unique polynomial-range vertex identifiers. All separately computed labels must form a valid solution. Complexity counts worst-case probes per requested vertex.
+
+**Source.** Václav Rozhoň. *Invitation to Local Algorithms*. 2024. [primary source](https://arxiv.org/abs/2406.19430) Location: Problems 1.13 and 3.4; thesis genealogy led to this survey.
+
+**Literature check.** Status: No resolution found through 10 October 2026; Peng’s July 2026 paper explicitly retains Q3914.
+
+**Further links.** [1](https://www.podc.org/2025-principles-of-distributed-computing-doctoral-dissertation-award/) · [2](https://arxiv.org/abs/2607.09626)
+
+
+<a id="q3915"></a>
+
+## Q3915. An offline vertex set V is known initially. Vertices w arrive sequentially, revealing triples…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+An offline vertex set V is known initially. Vertices w arrive sequentially, revealing triples {u,v,w} with u,v∈V. The algorithm irrevocably selects at most one arriving triple, keeping all selected triples vertex-disjoint. Does a randomized algorithm achieve expected cardinality at least (1/3+ε)OPT for some absolute ε>0 on every finite instance fixed independently of its randomness, without a degree bound? OPT is the offline maximum matching cardinality.
+
+**Context.** Locators: thesis §4.1 and Conclusion p.165; §7.1; journal matching §6; heap §1.
+
+**Source.** Danish Kashaev. *Approximation via Duality in Offline, Online and Strategic Settings*. University of Amsterdam, 2026. Advisor(s): Guido Schäfer and Daniel Dadush. [primary source](https://eprints.illc.uva.nl/id/eprint/2410/) Location: thesis §4.1 and Conclusion p.165; §7.1; journal matching §6; heap §1.
+
+**Literature check.** Status: No resolution found through 10 October 2026; April 2026 matching final retains Q3915.
+
+**Further links.** [1](https://doi.org/10.1007/s10107-026-02360-2) · [2](https://doi.org/10.1007/s10107-024-02145-5)
+
+
+<a id="q3916"></a>
+
+## Q3916. In an infinite rooted binary heap with distinct real keys increasing along root-to-leaf paths,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+In an infinite rooted binary heap with distinct real keys increasing along root-to-leaf paths, an explorer starts at the root and learns keys only by visiting vertices; each edge traversal costs one. Must every always-correct randomized algorithm identifying the nth smallest key have superlinear worst-case expected travel cost, even with unrestricted memory and an oblivious adversary?
+
+**Context.** Locators: thesis §4.1 and Conclusion p.165; §7.1; journal matching §6; heap §1.
+
+**Source.** Danish Kashaev. *Approximation via Duality in Offline, Online and Strategic Settings*. University of Amsterdam, 2026. Advisor(s): Guido Schäfer and Daniel Dadush. [primary source](https://eprints.illc.uva.nl/id/eprint/2410/) Location: thesis §4.1 and Conclusion p.165; §7.1; journal matching §6; heap §1.
+
+**Literature check.** Status: No resolution found through 10 October 2026; April 2026 matching final retains Q3915.
+
+**Further links.** [1](https://doi.org/10.1007/s10107-026-02360-2) · [2](https://doi.org/10.1007/s10107-024-02145-5)
+
+
+<a id="q3917"></a>
+
+## Q3917. Writing R_L(n) and R_V(n) for optimal randomized LCA and VOLUME probe complexities of an LCL,…
+
+**Status:** Open · **Kind:** open problem (Question 58) · **Collection** 40
+
+Writing R_L(n) and R_V(n) for optimal randomized LCA and VOLUME probe complexities of an LCL, must R_V(n)=O((R_L(n)+1)^C) for some constant C depending on the LCL, or can an LCL have a superpolynomial separation?
+
+**Context.** Consider solvable LCLs on finite graphs of fixed bounded degree, with fixed finite input/output alphabets and fixed-radius validity rules. Vertices have polynomial-range unique identifiers and ordered ports; algorithms know n. A graph-oracle probe returns a vertex’s input label, adjacency list and ports. A stateless randomized LCA may probe any identifier and uses a random tape shared across queries. VOLUME instead must grow the probed region connectedly from the queried vertex, and sees only independent random strings attached to probed vertices, consistently shared across queries. Each algorithm’s simultaneously induced labeling must be valid with probability ≥1−1/n. Complexity is maximum probes for one vertex query.
+
+**Source.** Sijin Peng. *New Complexity Classes in Locally Checkable Labeling for Local Computation Algorithms*. 2026. [primary source](https://arxiv.org/abs/2607.09626) Location: Question 58.
+
+**Literature check.** Status: No later version, resolution or matching claim found through 10 October 2026.
+
+
+<a id="q3918"></a>
+
+## Q3918. With nonnegative rational edge weights, is maximizing the weight of a triangle-free 2-matching…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+With nonnegative rational edge weights, is maximizing the weight of a triangle-free 2-matching polynomial-time solvable, or NP-hard?
+
+**Context.** A 2-matching is an edge subset M of a finite simple undirected graph with every vertex having degree at most two in M.
+
+**Source.** Miguel Bosch Calvo. *Approximation Algorithms for Connectivity Problems*. Università della Svizzera italiana, 2026. Advisor(s): Fabrizio Grandoni. [primary source](https://sonar.rero.ch/documents/334875/files/2026INF002.pdf) Location: Older problems restated in Chapter 6, printed page 123, items 1, 2, 4 and 7.
+
+**Literature check.** Status: No resolution found through 10 October 2026. The 2026 weighted PTAS does not settle exact complexity; the September journal final retains Q3919.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-032-28691-8_2) · [2](https://doi.org/10.1007/s10107-026-02419-0)
+
+
+<a id="q3919"></a>
+
+## Q3919. Is maximizing |M| subject to M containing neither a 3-cycle nor a 4-cycle polynomial-time…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is maximizing |M| subject to M containing neither a 3-cycle nor a 4-cycle polynomial-time solvable, or NP-hard?
+
+**Context.** A 2-matching is an edge subset M of a finite simple undirected graph with every vertex having degree at most two in M.
+
+**Source.** Miguel Bosch Calvo. *Approximation Algorithms for Connectivity Problems*. Università della Svizzera italiana, 2026. Advisor(s): Fabrizio Grandoni. [primary source](https://sonar.rero.ch/documents/334875/files/2026INF002.pdf) Location: Older problems restated in Chapter 6, printed page 123, items 1, 2, 4 and 7.
+
+**Literature check.** Status: No resolution found through 10 October 2026. The 2026 weighted PTAS does not settle exact complexity; the September journal final retains Q3919.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-032-28691-8_2) · [2](https://doi.org/10.1007/s10107-026-02419-0)
+
+
+<a id="q3920"></a>
+
+## Q3920. Does some constant ε>0 permit a polynomial-time (8/7−ε)-approximation for minimum-weight…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does some constant ε>0 permit a polynomial-time (8/7−ε)-approximation for minimum-weight Hamiltonian cycle in complete undirected graphs on at least three vertices with edge weights in {1,2}?
+
+**Context.** A 2-matching is an edge subset M of a finite simple undirected graph with every vertex having degree at most two in M.
+
+**Source.** Miguel Bosch Calvo. *Approximation Algorithms for Connectivity Problems*. Università della Svizzera italiana, 2026. Advisor(s): Fabrizio Grandoni. [primary source](https://sonar.rero.ch/documents/334875/files/2026INF002.pdf) Location: Older problems restated in Chapter 6, printed page 123, items 1, 2, 4 and 7.
+
+**Literature check.** Status: No resolution found through 10 October 2026. The 2026 weighted PTAS does not settle exact complexity; the September journal final retains Q3919.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-032-28691-8_2) · [2](https://doi.org/10.1007/s10107-026-02419-0)
+
+
+<a id="q3921"></a>
+
+## Q3921. Does some constant ε>0 permit a polynomial-time (2−ε)-approximation for a minimum-weight…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does some constant ε>0 permit a polynomial-time (2−ε)-approximation for a minimum-weight 2-edge-connected spanning subgraph of an arbitrary finite simple 2-edge-connected graph with nonnegative rational edge weights? Each input edge may be selected only once; 2-edge-connected means remaining connected after deletion of any one edge.
+
+**Context.** A 2-matching is an edge subset M of a finite simple undirected graph with every vertex having degree at most two in M.
+
+**Source.** Miguel Bosch Calvo. *Approximation Algorithms for Connectivity Problems*. Università della Svizzera italiana, 2026. Advisor(s): Fabrizio Grandoni. [primary source](https://sonar.rero.ch/documents/334875/files/2026INF002.pdf) Location: Older problems restated in Chapter 6, printed page 123, items 1, 2, 4 and 7.
+
+**Literature check.** Status: No resolution found through 10 October 2026. The 2026 weighted PTAS does not settle exact complexity; the September journal final retains Q3919.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-032-28691-8_2) · [2](https://doi.org/10.1007/s10107-026-02419-0)
+
+
+<a id="q3924"></a>
+
+## Q3924. For integers n,k,b≥2, must every linearizable, nondeterministic solo-terminating n-process…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For integers n,k,b≥2, must every linearizable, nondeterministic solo-terminating n-process implementation of a scannable object with k fully reusable b-state components use at least k+ceil(n/(b−1)) b-state base objects?
+
+**Context.** A scannable object has k components, each supporting a read of its full state: Apply(i,op) invokes a component operation; Scan returns their entire state vector atomically. A component is fully reusable if every state can reach every other by operations. All n processes may apply and scan. Base objects are atomic deterministic state machines; their domain sizes count their complete states, including auxiliary information. Here solo-termination means that from every reachable configuration, each process with an unfinished operation has some finite solo execution completing it. Linearizability requires operations to behave as an atomic sequential execution respecting real-time precedence.
+
+**Source.** Sean Garnet Ovens. *The Space Complexity of Asynchronous Algorithms from Bounded Size Base Objects*. University of Toronto, 2023. Advisor(s): Faith Ellen. [primary source](https://utoronto.scholaris.ca/bitstreams/b8edd80a-a35f-47d6-944c-cc2f4ebf045a/download) Location: Thesis conjecture, printed page 72.
+
+**Literature check.** Status: No resolution or matching claim found through 10 October 2026. This is the thesis’s strengthened conjecture, not the earlier DISC 2022 bound; restricting to a single updater invalidates it.
+
+**Further links.** [1](https://doi.org/10.4230/LIPIcs.DISC.2022.30) · [2](https://www.podc.org/2025-principles-of-distributed-computing-doctoral-dissertation-award/) · [3](https://www.seanovens.com/uploads/CV_Sean_Ovens.pdf)
+
+
+<a id="q3925"></a>
+
+## Q3925. For every fixed d≥2 and ε>0, is there a polynomial-time (d+ε)-approximation for the…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For every fixed d≥2 and ε>0, is there a polynomial-time (d+ε)-approximation for the maximum-cardinality independent set of d-oriented polygons?
+
+**Context.** For d≥2, d-oriented polygons are bounded convex planar polygons with nonempty interiors whose edges follow a common supplied set of d pairwise nonparallel integer-vector directions, with rational half-plane descriptions. Independent polygons have disjoint interiors; boundary touching is allowed. Origin: Q3925 is proposed as a follow-up improvement; Q3926 is an older barrier restated in the dissertation. Polynomial time refers to binary input size. The polygon model permits boundary touching; the segment problem requires disjoint sets.
+
+**Source.** Antoine Tinguely. *Approximating Packing Problems*. Università della Svizzera italiana, 2025. Advisor(s): Fabrizio Grandoni. [primary source](https://sonar.ch/documents/333906/files/2025INF016.pdf) Location: Thesis §5.2, printed page 152.
+
+**Literature check.** Status: No resolution found through 10 October 2026. September’s segment hitting-set final explicitly retains the independent-set factor-two barrier.
+
+**Further links.** [1](https://doi.org/10.4230/LIPIcs.SoCG.2024.61) · [2](https://doi.org/10.20382/jocg.v14i1a5) · [3](https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2026.14) · [4](https://www.inf.usi.ch/en/node/11454)
+
+
+<a id="q3926"></a>
+
+## Q3926. Does some constant ε>0 permit a polynomial-time (2−ε)-approximation for a maximum-total-weight…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does some constant ε>0 permit a polynomial-time (2−ε)-approximation for a maximum-total-weight pairwise-disjoint subfamily of finitely many nondegenerate closed horizontal and vertical line segments with rational endpoints and positive rational weights?
+
+**Context.** For d≥2, d-oriented polygons are bounded convex planar polygons with nonempty interiors whose edges follow a common supplied set of d pairwise nonparallel integer-vector directions, with rational half-plane descriptions. Independent polygons have disjoint interiors; boundary touching is allowed. Origin: Q3925 is proposed as a follow-up improvement; Q3926 is an older barrier restated in the dissertation. Polynomial time refers to binary input size. The polygon model permits boundary touching; the segment problem requires disjoint sets.
+
+**Source.** Antoine Tinguely. *Approximating Packing Problems*. Università della Svizzera italiana, 2025. Advisor(s): Fabrizio Grandoni. [primary source](https://sonar.ch/documents/333906/files/2025INF016.pdf) Location: Thesis §5.2, printed page 152.
+
+**Literature check.** Status: No resolution found through 10 October 2026. September’s segment hitting-set final explicitly retains the independent-set factor-two barrier.
+
+**Further links.** [1](https://doi.org/10.4230/LIPIcs.SoCG.2024.61) · [2](https://doi.org/10.20382/jocg.v14i1a5) · [3](https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2026.14) · [4](https://www.inf.usi.ch/en/node/11454)
+
+
+<a id="q3927"></a>
+
+## Q3927. Is there a polynomial-time constant-factor approximation for this problem on arbitrary inputs,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is there a polynomial-time constant-factor approximation for this problem on arbitrary inputs, without increasing any edge capacity?
+
+**Context.** An input is a finite m-edge path with positive integer capacities u(e), and tasks i with positive integer profit w_i, demand d_i, processing length 1≤p_i≤m, and a contiguous window W_i of at least p_i edges. A selected task occupies p_i consecutive edges within W_i, without preemption. On each edge, total selected demand cannot exceed u(e); maximize total selected profit.
+
+**Source.** Alexander Armbruster, Fabrizio Grandoni, Edin Husić, Antoine Tinguely and Andreas Wiese. *On the Approximability of Unsplittable Flow on a Path with Time Windows*. 2026. [primary source](https://doi.org/10.1007/s10107-026-02408-3) Location: Explicit open problem in final §1.1 after Theorem 3.
+
+**Literature check.** Status: Origin and status: Explicit open problem in final §1.1 after Theorem 3. Its quasi-polynomial (2+ε)-approximation permits capacity augmentation and therefore does not answer this question. No later correction, resolution or matching claim was found through 10 October 2026. Runtime is polynomial in the binary-encoded input length, including the explicitly listed path.
+
+
+<a id="q3929"></a>
+
+## Q3929. For q=2 and |R|≤3, is this optimization problem polynomial-time solvable or NP-hard?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For q=2 and |R|≤3, is this optimization problem polynomial-time solvable or NP-hard?
+
+**Context.** Given a finite undirected graph J with nonnegative rational edge costs and a specified terminal set R, seek a minimum-cost subgraph H in which every two distinct terminals have at least q edge-disjoint connecting paths. Each available edge may be purchased once; vertices outside R may be used freely. Infeasibility can be reported. Polynomial time refers to the complete binary-encoded input. Origin: The thesis restates the complexity questions from joint work with Michael Dinitz, Guy Kortsarz and Zeev Nutov. The known factor-two approximation for survivable network design does not give exact algorithms. Later relative-connectivity algorithms and hardness results do not classify these ordinary fixed-demand problems. No resolution or matching claim found through 10 October 2026.
+
+**Source.** Ama Koranteng. *Approximation Algorithms for New Problems in Network Design*. Johns Hopkins University, 2025. Advisor(s): Michael Dinitz. [primary source](https://jscholarship.library.jhu.edu/bitstreams/1462afa3-e477-40bb-8dd7-a399f6447c6e/download) Location: Thesis §3.4.1, pages 47–48.
+
+**Literature check.** Status: Origin: The thesis restates the complexity questions from joint work with Michael Dinitz, Guy Kortsarz and Zeev Nutov. The known factor-two approximation for survivable network design does not give exact algorithms. Later relative-connectivity algorithms and hardness results do not classify these ordinary fixed-demand problems. No resolution or matching claim found through 10 October 2026.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-031-49815-2_14) · [2](https://amakora0.github.io/) · [3](https://doi.org/10.4230/LIPIcs.ESA.2025.38)
+
+
+<a id="q3930"></a>
+
+## Q3930. For q=3 and |R|≤4, is this optimization problem polynomial-time solvable or NP-hard?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For q=3 and |R|≤4, is this optimization problem polynomial-time solvable or NP-hard?
+
+**Context.** Given a finite undirected graph J with nonnegative rational edge costs and a specified terminal set R, seek a minimum-cost subgraph H in which every two distinct terminals have at least q edge-disjoint connecting paths. Each available edge may be purchased once; vertices outside R may be used freely. Infeasibility can be reported. Polynomial time refers to the complete binary-encoded input. Origin: The thesis restates the complexity questions from joint work with Michael Dinitz, Guy Kortsarz and Zeev Nutov. The known factor-two approximation for survivable network design does not give exact algorithms. Later relative-connectivity algorithms and hardness results do not classify these ordinary fixed-demand problems. No resolution or matching claim found through 10 October 2026.
+
+**Source.** Ama Koranteng. *Approximation Algorithms for New Problems in Network Design*. Johns Hopkins University, 2025. Advisor(s): Michael Dinitz. [primary source](https://jscholarship.library.jhu.edu/bitstreams/1462afa3-e477-40bb-8dd7-a399f6447c6e/download) Location: Thesis §3.4.1, pages 47–48.
+
+**Literature check.** Status: Origin: The thesis restates the complexity questions from joint work with Michael Dinitz, Guy Kortsarz and Zeev Nutov. The known factor-two approximation for survivable network design does not give exact algorithms. Later relative-connectivity algorithms and hardness results do not classify these ordinary fixed-demand problems. No resolution or matching claim found through 10 October 2026.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-031-49815-2_14) · [2](https://amakora0.github.io/) · [3](https://doi.org/10.4230/LIPIcs.ESA.2025.38)
+
+
+<a id="q4002"></a>
+
+## Q4002. Can |F_C(n,k)| for edgeless C be computed exactly in 2^{O(k²)}n^{O(1)} time?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Can |F_C(n,k)| for edgeless C be computed exactly in 2^{O(k²)}n^{O(1)} time?
+
+**Context.** Input: integers n≥1 and 0≤k≤n. Let F_C(n,k) contain the simple graphs on [n] admitting deletion of at most k vertices into class C. Count each graph once, regardless of deletion sets. FPT means f(k)n^{O(1)} time for computable f; counting is deterministic, sampling expected-time. Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Source.** Úrsula Hébert-Johnson. *Efficient Algorithms for Graph Counting and Sampling from a Parameterized Perspective*. University of California, Santa Barbara, 2025. Advisor(s): Daniel Lokshtanov. [primary source](https://escholarship.org/uc/item/9646w20k) Location: Thesis §5.3, pages 222–223.
+
+**Literature check.** Status: Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Further links.** [1](https://sites.cs.ucsb.edu/~daniello/students.html)
+
+
+<a id="q4003"></a>
+
+## Q4003. Can |F_C(n,k)| be computed exactly in FPT time for cographs (no induced four-vertex path)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Can |F_C(n,k)| be computed exactly in FPT time for cographs (no induced four-vertex path)?
+
+**Context.** Input: integers n≥1 and 0≤k≤n. Let F_C(n,k) contain the simple graphs on [n] admitting deletion of at most k vertices into class C. Count each graph once, regardless of deletion sets. FPT means f(k)n^{O(1)} time for computable f; counting is deterministic, sampling expected-time. Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Source.** Úrsula Hébert-Johnson. *Efficient Algorithms for Graph Counting and Sampling from a Parameterized Perspective*. University of California, Santa Barbara, 2025. Advisor(s): Daniel Lokshtanov. [primary source](https://escholarship.org/uc/item/9646w20k) Location: Thesis §5.3, pages 222–223.
+
+**Literature check.** Status: Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Further links.** [1](https://sites.cs.ucsb.edu/~daniello/students.html)
+
+
+<a id="q4004"></a>
+
+## Q4004. Can |F_C(n,k)| be computed exactly in FPT time for forests?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Can |F_C(n,k)| be computed exactly in FPT time for forests?
+
+**Context.** Input: integers n≥1 and 0≤k≤n. Let F_C(n,k) contain the simple graphs on [n] admitting deletion of at most k vertices into class C. Count each graph once, regardless of deletion sets. FPT means f(k)n^{O(1)} time for computable f; counting is deterministic, sampling expected-time. Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Source.** Úrsula Hébert-Johnson. *Efficient Algorithms for Graph Counting and Sampling from a Parameterized Perspective*. University of California, Santa Barbara, 2025. Advisor(s): Daniel Lokshtanov. [primary source](https://escholarship.org/uc/item/9646w20k) Location: Thesis §5.3, pages 222–223.
+
+**Literature check.** Status: Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Further links.** [1](https://sites.cs.ucsb.edu/~daniello/students.html)
+
+
+<a id="q4005"></a>
+
+## Q4005. Is exact uniform sampling from F_C(n,k) FPT when C consists of disjoint unions of cliques?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is exact uniform sampling from F_C(n,k) FPT when C consists of disjoint unions of cliques?
+
+**Context.** Input: integers n≥1 and 0≤k≤n. Let F_C(n,k) contain the simple graphs on [n] admitting deletion of at most k vertices into class C. Count each graph once, regardless of deletion sets. FPT means f(k)n^{O(1)} time for computable f; counting is deterministic, sampling expected-time. Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Source.** Úrsula Hébert-Johnson. *Efficient Algorithms for Graph Counting and Sampling from a Parameterized Perspective*. University of California, Santa Barbara, 2025. Advisor(s): Daniel Lokshtanov. [primary source](https://escholarship.org/uc/item/9646w20k) Location: Thesis §5.3, pages 222–223.
+
+**Literature check.** Status: Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Further links.** [1](https://sites.cs.ucsb.edu/~daniello/students.html)
+
+
+<a id="q4006"></a>
+
+## Q4006. Is exact uniform sampling from F_C(n,k) FPT when C consists of split graphs, partitionable into…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is exact uniform sampling from F_C(n,k) FPT when C consists of split graphs, partitionable into a clique and an independent set?
+
+**Context.** Input: integers n≥1 and 0≤k≤n. Let F_C(n,k) contain the simple graphs on [n] admitting deletion of at most k vertices into class C. Count each graph once, regardless of deletion sets. FPT means f(k)n^{O(1)} time for computable f; counting is deterministic, sampling expected-time. Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Source.** Úrsula Hébert-Johnson. *Efficient Algorithms for Graph Counting and Sampling from a Parameterized Perspective*. University of California, Santa Barbara, 2025. Advisor(s): Daniel Lokshtanov. [primary source](https://escholarship.org/uc/item/9646w20k) Location: Thesis §5.3, pages 222–223.
+
+**Literature check.** Status: Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Further links.** [1](https://sites.cs.ucsb.edu/~daniello/students.html)
+
+
+<a id="q4007"></a>
+
+## Q4007. Is exact uniform sampling FPT for tournaments on [n] that become acyclic after deleting at most…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is exact uniform sampling FPT for tournaments on [n] that become acyclic after deleting at most k vertices?
+
+**Context.** Input: integers n≥1 and 0≤k≤n. Let F_C(n,k) contain the simple graphs on [n] admitting deletion of at most k vertices into class C. Count each graph once, regardless of deletion sets. FPT means f(k)n^{O(1)} time for computable f; counting is deterministic, sampling expected-time. Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Source.** Úrsula Hébert-Johnson. *Efficient Algorithms for Graph Counting and Sampling from a Parameterized Perspective*. University of California, Santa Barbara, 2025. Advisor(s): Daniel Lokshtanov. [primary source](https://escholarship.org/uc/item/9646w20k) Location: Thesis §5.3, pages 222–223.
+
+**Literature check.** Status: Origin: Thesis residuals; no resolution found through 2026-10-10.
+
+**Further links.** [1](https://sites.cs.ucsb.edu/~daniello/students.html)
+
+
+<a id="q4008"></a>
+
+## Q4008. Is there an exact uniform sampler and an absolute constant C such that, for every n≥1 and every…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is there an exact uniform sampler and an absolute constant C such that, for every n≥1 and every G∈U_n, E[T_n|X_n=G]≤n^C+C?
+
+**Context.** A chordal graph is a finite simple graph with no induced cycle of length at least four. Let U_n be its n-vertex isomorphism classes. An unlabeled sampler outputs a representative, with every class receiving probability 1/|U_n|, rather than assigning equal probability to all labeled graphs. Let T_n be its running time and X_n its output class.
+
+**Source.** Úrsula Hébert-Johnson and Daniel Lokshtanov. *Sampling Unlabeled Chordal Graphs in Expected Polynomial Time*. 2025. [primary source](https://doi.org/10.4230/LIPIcs.STACS.2025.46) Location: Explicit residual in final §5, page 46:19.
+
+**Literature check.** Status: Origin and status: Explicit residual in final §5, page 46:19. The established algorithm bounds unconditional expected time only. Sun’s July 2026 exact enumeration has a subexponential, explicitly non-polynomial bound and does not provide this conditional runtime guarantee. No matching resolution found through 2026-10-10.
+
+**Further links.** [1](https://arxiv.org/abs/2607.02613)
+
+
+<a id="q4010"></a>
+
+## Q4010. Is this problem FPT parameterized by k, or W[1]-hard?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is this problem FPT parameterized by k, or W[1]-hard?
+
+**Context.** Input is a finite simple unweighted undirected graph G on n vertices and 1≤k≤n. Decide whether V(G) partitions into k nonempty paths, each shortest between its endpoints in G; singleton paths are allowed. FPT for parameter p means time f(p)n^{O(1)}, for computable f. A tree decomposition is a tree of vertex bags covering all vertices and edges, with the bags containing each vertex connected. Treewidth minimizes the largest bag size minus one.
+
+**Source.** Dibyayan Chakraborty, Oscar Defrain, Florent Foucaud, Mathieu Mari and Prafullkumar Tale. *Parameterized Complexity of Isometric Path Partition: Treewidth and Diameter*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.WG.2026.11) Location: Final §6, page 11:14, poses both residuals.
+
+**Literature check.** Status: Origin and status: Final §6, page 11:14, poses both residuals. These are paper-origin questions, not attributed to the dissertation. The paper's hardness for unrestricted treewidth does not resolve either. No later resolution found through 10 October 2026.
+
+**Further links.** [1](https://dibyayancg.github.io/Research/thesis.pdf) · [2](https://dibyayancg.github.io/index.html)
+
+
+<a id="q4011"></a>
+
+## Q4011. On planar graphs, is this problem FPT parameterized by treewidth?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+On planar graphs, is this problem FPT parameterized by treewidth?
+
+**Context.** Input is a finite simple unweighted undirected graph G on n vertices and 1≤k≤n. Decide whether V(G) partitions into k nonempty paths, each shortest between its endpoints in G; singleton paths are allowed. FPT for parameter p means time f(p)n^{O(1)}, for computable f. A tree decomposition is a tree of vertex bags covering all vertices and edges, with the bags containing each vertex connected. Treewidth minimizes the largest bag size minus one.
+
+**Source.** Dibyayan Chakraborty, Oscar Defrain, Florent Foucaud, Mathieu Mari and Prafullkumar Tale. *Parameterized Complexity of Isometric Path Partition: Treewidth and Diameter*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.WG.2026.11) Location: Final §6, page 11:14, poses both residuals.
+
+**Literature check.** Status: Origin and status: Final §6, page 11:14, poses both residuals. These are paper-origin questions, not attributed to the dissertation. The paper's hardness for unrestricted treewidth does not resolve either. No later resolution found through 10 October 2026.
+
+**Further links.** [1](https://dibyayancg.github.io/Research/thesis.pdf) · [2](https://dibyayancg.github.io/index.html)
+
+
+<a id="q4012"></a>
+
+## Q4012. For each n≥3, find an explicit finite presentation of CT(n) using these circuit generators:…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+For each n≥3, find an explicit finite presentation of CT(n) using these circuit generators: finitely many valid equations from which every equality of generator words follows.
+
+**Context.** Put ω=exp(iπ/4), H=2^(−1/2)[[1,1],[1,−1]], T=diag(1,ω), S=T² and CZ=diag(1,1,1,−1). Let CT(n)≤U(2^n) be generated by these one- and two-qubit gates on any wires, together with ωI. Equality retains global phase; auxiliary qubits are not allowed.
+
+**Source.** Xiaoning Bian. *Generators and Relations for Some Classes of Quantum Circuits*. Dalhousie University, 2023. Advisor(s): Peter Selinger. [primary source](https://www.mathstat.dal.ca/~xbian/thesis/thesis.pdf) Location: Chapter 6, p.67.
+
+**Literature check.** Status: No resolution found through 10 October 2026. Blake’s FSCD 2026 presentation covers Clifford+T only through two qubits; Clément’s LICS 2026 conclusion still identifies the higher-dimensional presentation obstacle.
+
+**Further links.** [1](https://www.mathstat.dal.ca/~xbian/) · [2](https://doi.org/10.4230/LIPIcs.FSCD.2026.6) · [3](https://doi.org/10.4230/LIPIcs.LICS.2026.28)
+
+
+<a id="q4030"></a>
+
+## Q4030. Classify the complexity of deciding whether such a path exists for each fixed pair of integers…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Classify the complexity of deciding whether such a path exists for each fixed pair of integers k≥4 and 1≤q≤k−3.
+
+**Context.** The input is an explicitly listed finite k-uniform hypergraph H and distinct vertices x,y. A q-linear path is a sequence e₁,…,e_L, L≥1, with 1≤|e_i∩e_(i+1)|≤q, and e_i∩e_j empty whenever |i−j|>1. It joins x to y when x belongs to e₁ only and y to e_L only; a single-edge path containing both is allowed.
+
+**Source.** Florian Galliot, Sylvain Gravier and Isabelle Sivignon. *(k−2)-linear connected components in hypergraphs of rank k*. 2023. [primary source](https://doi.org/10.46298/dmtcs.10202) Location: §6, p.30.
+
+**Literature check.** Status: The final solves q=k−2; q=k−1 is ordinary connectivity. No resolution of the remaining parameter range found through 10 October 2026.
+
+
+<a id="q4148"></a>
+
+## Q4148. For each fixed integer g≥5, classify Injective Colouring on graphs of girth≥g, both with input k…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For each fixed integer g≥5, classify Injective Colouring on graphs of girth≥g, both with input k and with each fixed k≥4.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite and simple; colourings are proper (adjacent vertices differ). Acyclic, star and injective colourings require every two colour classes to induce, respectively, a forest, disjoint stars, or a matching plus isolated vertices. Decide existence with at most k colours. H-free excludes induced H; P_n is the n-vertex path; + denotes disjoint union. Girth is shortest-cycle length, or ∞ for forests. Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Source.** Jan Bok, Nikola Jedličková, Barnaby Martin, Pascal Ochem, Daniël Paulusma and Siani Smith. *Acyclic, Star and Injective Colouring: A Complexity Picture for H-Free Graphs*. 2020. [primary source](https://arxiv.org/abs/2008.09415v6) Location: §6, Problems 1–4, pp.21–22.
+
+**Literature check.** Status: Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4149"></a>
+
+## Q4149. For each fixed integer g≥5 and k≥4, classify Star k-Colouring on graphs of girth≥g.
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For each fixed integer g≥5 and k≥4, classify Star k-Colouring on graphs of girth≥g.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite and simple; colourings are proper (adjacent vertices differ). Acyclic, star and injective colourings require every two colour classes to induce, respectively, a forest, disjoint stars, or a matching plus isolated vertices. Decide existence with at most k colours. H-free excludes induced H; P_n is the n-vertex path; + denotes disjoint union. Girth is shortest-cycle length, or ∞ for forests. Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Source.** Jan Bok, Nikola Jedličková, Barnaby Martin, Pascal Ochem, Daniël Paulusma and Siani Smith. *Acyclic, Star and Injective Colouring: A Complexity Picture for H-Free Graphs*. 2020. [primary source](https://arxiv.org/abs/2008.09415v6) Location: §6, Problems 1–4, pp.21–22.
+
+**Literature check.** Status: Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4150"></a>
+
+## Q4150. Classify Injective Colouring with input k on (2P₁+P₄)-free graphs.
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Classify Injective Colouring with input k on (2P₁+P₄)-free graphs.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite and simple; colourings are proper (adjacent vertices differ). Acyclic, star and injective colourings require every two colour classes to induce, respectively, a forest, disjoint stars, or a matching plus isolated vertices. Decide existence with at most k colours. H-free excludes induced H; P_n is the n-vertex path; + denotes disjoint union. Girth is shortest-cycle length, or ∞ for forests. Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Source.** Jan Bok, Nikola Jedličková, Barnaby Martin, Pascal Ochem, Daniël Paulusma and Siani Smith. *Acyclic, Star and Injective Colouring: A Complexity Picture for H-Free Graphs*. 2020. [primary source](https://arxiv.org/abs/2008.09415v6) Location: §6, Problems 1–4, pp.21–22.
+
+**Literature check.** Status: Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4151"></a>
+
+## Q4151. Classify Acyclic Colouring with input k on 2P₂-free graphs.
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Classify Acyclic Colouring with input k on 2P₂-free graphs.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite and simple; colourings are proper (adjacent vertices differ). Acyclic, star and injective colourings require every two colour classes to induce, respectively, a forest, disjoint stars, or a matching plus isolated vertices. Decide existence with at most k colours. H-free excludes induced H; P_n is the n-vertex path; + denotes disjoint union. Girth is shortest-cycle length, or ∞ for forests. Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Source.** Jan Bok, Nikola Jedličková, Barnaby Martin, Pascal Ochem, Daniël Paulusma and Siani Smith. *Acyclic, Star and Injective Colouring: A Complexity Picture for H-Free Graphs*. 2020. [primary source](https://arxiv.org/abs/2008.09415v6) Location: §6, Problems 1–4, pp.21–22.
+
+**Literature check.** Status: Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4152"></a>
+
+## Q4152. Classify Star Colouring with input k on 2P₂-free graphs.
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Classify Star Colouring with input k on 2P₂-free graphs.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite and simple; colourings are proper (adjacent vertices differ). Acyclic, star and injective colourings require every two colour classes to induce, respectively, a forest, disjoint stars, or a matching plus isolated vertices. Decide existence with at most k colours. H-free excludes induced H; P_n is the n-vertex path; + denotes disjoint union. Girth is shortest-cycle length, or ∞ for forests. Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Source.** Jan Bok, Nikola Jedličková, Barnaby Martin, Pascal Ochem, Daniël Paulusma and Siani Smith. *Acyclic, Star and Injective Colouring: A Complexity Picture for H-Free Graphs*. 2020. [primary source](https://arxiv.org/abs/2008.09415v6) Location: §6, Problems 1–4, pp.21–22.
+
+**Literature check.** Status: Origin: Joint-paper residuals; no resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4153"></a>
+
+## Q4153. Determine the complexity of deciding whether a graph of diameter at most three admits an acyclic…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Determine the complexity of deciding whether a graph of diameter at most three admits an acyclic three-colouring.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite, simple and connected. A proper three-colouring assigns vertices at most three colours, with adjacent vertices different. It is acyclic if no cycle is two-coloured, and star if no four-vertex path is two-coloured; paths need not be induced. Diameter is maximum vertex distance. Origin: Joint-paper residual classifications. The four star-diameter cases are grouped as one threshold problem, rather than counted separately. No matching later resolution found through 10 October 2026.
+
+**Source.** Christoph Brause, Petr A. Golovach, Barnaby Martin, Pascal Ochem, Daniël Paulusma and Siani Smith. *Acyclic, Star, and Injective Colouring: Bounding the Diameter*. 2022. [primary source](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v29i2p43/pdf/) Location: Theorems 2–3 and following discussion, p.5; §5, p.26.
+
+**Literature check.** Status: Origin: Joint-paper residual classifications. The four star-diameter cases are grouped as one threshold problem, rather than counted separately. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4154"></a>
+
+## Q4154. For each fixed d∈{4,5,6,7}, determine the complexity of deciding whether a graph of diameter at…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For each fixed d∈{4,5,6,7}, determine the complexity of deciding whether a graph of diameter at most d admits a star three-colouring.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite, simple and connected. A proper three-colouring assigns vertices at most three colours, with adjacent vertices different. It is acyclic if no cycle is two-coloured, and star if no four-vertex path is two-coloured; paths need not be induced. Diameter is maximum vertex distance. Origin: Joint-paper residual classifications. The four star-diameter cases are grouped as one threshold problem, rather than counted separately. No matching later resolution found through 10 October 2026.
+
+**Source.** Christoph Brause, Petr A. Golovach, Barnaby Martin, Pascal Ochem, Daniël Paulusma and Siani Smith. *Acyclic, Star, and Injective Colouring: Bounding the Diameter*. 2022. [primary source](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v29i2p43/pdf/) Location: Theorems 2–3 and following discussion, p.5; §5, p.26.
+
+**Literature check.** Status: Origin: Joint-paper residual classifications. The four star-diameter cases are grouped as one threshold problem, rather than counted separately. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4155"></a>
+
+## Q4155. Determine the complexity of Disjoint Paths on 3P₁-free graphs.
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 42
+
+Determine the complexity of Disjoint Paths on 3P₁-free graphs.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite, simple and undirected; the positive integer k is part of the input. Disjoint Paths asks, given k pairwise disjoint terminal pairs (s_i,t_i), with s_i≠t_i, for pairwise vertex-disjoint paths joining the prescribed pairs. Disjoint Connected Subgraphs instead receives pairwise disjoint terminal sets Z_i and asks for pairwise vertex-disjoint connected subgraphs containing the respective sets. H-free means no induced H; P_n is an n-vertex path; + denotes disjoint union. Origin: Joint-paper residuals, also Smith’s thesis Problem18. No matching later resolution found through 10 October 2026.
+
+**Source.** Walter Kern, Barnaby Martin, Daniël Paulusma, Siani Smith and Erik Jan van Leeuwen. *Disjoint paths and connected subgraphs for H-free graphs*. 2022. [primary source](https://dspace.library.uu.nl/bitstream/handle/1874/416033/1_s2.0_S0304397521006344_main.pdf?sequence=1) Location: §7, Open Problem 1, p.67; also Smith’s thesis Problem 18
+
+**Literature check.** Status: Origin: Joint-paper residuals, also Smith’s thesis Problem18. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4156"></a>
+
+## Q4156. Determine the complexity of Disjoint Paths on (2P₁+P₂)-free graphs.
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 42
+
+Determine the complexity of Disjoint Paths on (2P₁+P₂)-free graphs.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite, simple and undirected; the positive integer k is part of the input. Disjoint Paths asks, given k pairwise disjoint terminal pairs (s_i,t_i), with s_i≠t_i, for pairwise vertex-disjoint paths joining the prescribed pairs. Disjoint Connected Subgraphs instead receives pairwise disjoint terminal sets Z_i and asks for pairwise vertex-disjoint connected subgraphs containing the respective sets. H-free means no induced H; P_n is an n-vertex path; + denotes disjoint union. Origin: Joint-paper residuals, also Smith’s thesis Problem18. No matching later resolution found through 10 October 2026.
+
+**Source.** Walter Kern, Barnaby Martin, Daniël Paulusma, Siani Smith and Erik Jan van Leeuwen. *Disjoint paths and connected subgraphs for H-free graphs*. 2022. [primary source](https://dspace.library.uu.nl/bitstream/handle/1874/416033/1_s2.0_S0304397521006344_main.pdf?sequence=1) Location: §7, Open Problem 1, p.67; also Smith’s thesis Problem 18
+
+**Literature check.** Status: Origin: Joint-paper residuals, also Smith’s thesis Problem18. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4157"></a>
+
+## Q4157. Determine the complexity of Disjoint Connected Subgraphs on (2P₁+P₂)-free graphs.
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 42
+
+Determine the complexity of Disjoint Connected Subgraphs on (2P₁+P₂)-free graphs.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions Graphs are finite, simple and undirected; the positive integer k is part of the input. Disjoint Paths asks, given k pairwise disjoint terminal pairs (s_i,t_i), with s_i≠t_i, for pairwise vertex-disjoint paths joining the prescribed pairs. Disjoint Connected Subgraphs instead receives pairwise disjoint terminal sets Z_i and asks for pairwise vertex-disjoint connected subgraphs containing the respective sets. H-free means no induced H; P_n is an n-vertex path; + denotes disjoint union. Origin: Joint-paper residuals, also Smith’s thesis Problem18. No matching later resolution found through 10 October 2026.
+
+**Source.** Walter Kern, Barnaby Martin, Daniël Paulusma, Siani Smith and Erik Jan van Leeuwen. *Disjoint paths and connected subgraphs for H-free graphs*. 2022. [primary source](https://dspace.library.uu.nl/bitstream/handle/1874/416033/1_s2.0_S0304397521006344_main.pdf?sequence=1) Location: §7, Open Problem 1, p.67; also Smith’s thesis Problem 18
+
+**Literature check.** Status: Origin: Joint-paper residuals, also Smith’s thesis Problem18. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4158"></a>
+
+## Q4158. For every fixed nonempty linear forest H and each fixed integer ℓ≥2, is this problem…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For every fixed nonempty linear forest H and each fixed integer ℓ≥2, is this problem polynomial-time solvable on H-free graphs when |Z_i|≤ℓ for all i?
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions For finite simple undirected G and pairwise disjoint terminal sets Z₁,…,Z_k, Induced Disjoint Connected Subgraphs asks for vertex sets D_i⊇Z_i such that each G[D_i] is connected, the D_i are pairwise disjoint, and no edge joins distinct D_i. The number k is part of the input. H-free means no induced H; P_n is the n-vertex path; a linear forest is a disjoint union of paths. Origin: Joint-paper residuals. The final gives quasipolynomial algorithms for Q4158 and leaves Q4159 as its single remaining unrestricted-terminal-size case. No matching later resolution found through 10 October 2026.
+
+**Source.** Barnaby Martin, Daniël Paulusma, Siani Smith and Erik Jan van Leeuwen. *Induced Disjoint Paths and Connected Subgraphs for H-Free Graphs*. 2023. [primary source](https://link.springer.com/article/10.1007/s00453-023-01109-z) Location: §7, pp.2602–2603; definitions pp.2581–2582.
+
+**Literature check.** Status: Origin: Joint-paper residuals. The final gives quasipolynomial algorithms for Q4158 and leaves Q4159 as its single remaining unrestricted-terminal-size case. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4159"></a>
+
+## Q4159. Determine its computational complexity on P₆-free graphs when terminal-set sizes are unbounded.
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Determine its computational complexity on P₆-free graphs when terminal-set sizes are unbounded.
+
+**Context.** Doctoral context: Siani Alice Smith, Graph Partitioning With Input Restrictions, Durham University, January 2022; PhD in Computer Science. Supervisors: Barnaby Martin (Director of Studies) and Daniël Paulusma (second supervisor). Durham lists her doctoral study as completed in 2022. The questions below retain their actual joint-paper origins. Sources: https://etheses.durham.ac.uk/id/eprint/14442/ ; https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions For finite simple undirected G and pairwise disjoint terminal sets Z₁,…,Z_k, Induced Disjoint Connected Subgraphs asks for vertex sets D_i⊇Z_i such that each G[D_i] is connected, the D_i are pairwise disjoint, and no edge joins distinct D_i. The number k is part of the input. H-free means no induced H; P_n is the n-vertex path; a linear forest is a disjoint union of paths. Origin: Joint-paper residuals. The final gives quasipolynomial algorithms for Q4158 and leaves Q4159 as its single remaining unrestricted-terminal-size case. No matching later resolution found through 10 October 2026.
+
+**Source.** Barnaby Martin, Daniël Paulusma, Siani Smith and Erik Jan van Leeuwen. *Induced Disjoint Paths and Connected Subgraphs for H-Free Graphs*. 2023. [primary source](https://link.springer.com/article/10.1007/s00453-023-01109-z) Location: §7, pp.2602–2603; definitions pp.2581–2582.
+
+**Literature check.** Status: Origin: Joint-paper residuals. The final gives quasipolynomial algorithms for Q4158 and leaves Q4159 as its single remaining unrestricted-terminal-size case. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://etheses.durham.ac.uk/id/eprint/14442/) · [2](https://durham-repository.worktribe.com/person/211543/barnaby-martin/supervisions)
+
+
+<a id="q4160"></a>
+
+## Q4160. For each fixed connected non-bipartite H, determine a constant c_H permitting c_H^w n^{O(1)}…
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 42
+
+For each fixed connected non-bipartite H, determine a constant c_H permitting c_H^w n^{O(1)} time for Hom(H), given n-vertex G and a width-w ordering, while SETH excludes (c_H−ε)^w n^{O(1)} time for every 0<ε&lt;c_H.
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. Graphs are finite, simple, undirected. Hom(H) decides existence of an edge-preserving map G→H. An ordering’s width w is the maximum number of edges crossing a prefix cut. For finite square 0–1 matrices A, mim(A) is the largest order of a permutation submatrix, and him(A) that of a triangular submatrix with diagonal 1; rows/columns may be permuted independently. Put mimsup(A)=sup_{r≥1}mim(A^{⊗r})^{1/r}, using Kronecker powers. Joint-paper questions: Open Problem 1, p.77:3; §6, p.77:17. No resolution found through 10 October 2026.
+
+**Source.** Carla Groenland, Isja Mannens, Jesper Nederlof, Marta Piecyk and Paweł Rzążewski. *ICALP 2024, Article 77 (title not given in the supplied text)*. 2024. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2024.77) Location: Open Problem 1, p.77:3; §6, p.77:17.
+
+**Literature check.** Status: Joint-paper questions: Open Problem 1, p.77:3; §6, p.77:17. No resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4161"></a>
+
+## Q4161. Can mimsup(A) be nonintegral?
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 42
+
+Can mimsup(A) be nonintegral?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. Graphs are finite, simple, undirected. Hom(H) decides existence of an edge-preserving map G→H. An ordering’s width w is the maximum number of edges crossing a prefix cut. For finite square 0–1 matrices A, mim(A) is the largest order of a permutation submatrix, and him(A) that of a triangular submatrix with diagonal 1; rows/columns may be permuted independently. Put mimsup(A)=sup_{r≥1}mim(A^{⊗r})^{1/r}, using Kronecker powers. Joint-paper questions: Open Problem 1, p.77:3; §6, p.77:17. No resolution found through 10 October 2026.
+
+**Source.** Carla Groenland, Isja Mannens, Jesper Nederlof, Marta Piecyk and Paweł Rzążewski. *ICALP 2024, Article 77 (title not given in the supplied text)*. 2024. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2024.77) Location: Open Problem 1, p.77:3; §6, p.77:17.
+
+**Literature check.** Status: Joint-paper questions: Open Problem 1, p.77:3; §6, p.77:17. No resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4162"></a>
+
+## Q4162. Is mimsup(A) bounded by a function of him(A), uniformly over A?
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 42
+
+Is mimsup(A) bounded by a function of him(A), uniformly over A?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. Graphs are finite, simple, undirected. Hom(H) decides existence of an edge-preserving map G→H. An ordering’s width w is the maximum number of edges crossing a prefix cut. For finite square 0–1 matrices A, mim(A) is the largest order of a permutation submatrix, and him(A) that of a triangular submatrix with diagonal 1; rows/columns may be permuted independently. Put mimsup(A)=sup_{r≥1}mim(A^{⊗r})^{1/r}, using Kronecker powers. Joint-paper questions: Open Problem 1, p.77:3; §6, p.77:17. No resolution found through 10 October 2026.
+
+**Source.** Carla Groenland, Isja Mannens, Jesper Nederlof, Marta Piecyk and Paweł Rzążewski. *ICALP 2024, Article 77 (title not given in the supplied text)*. 2024. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2024.77) Location: Open Problem 1, p.77:3; §6, p.77:17.
+
+**Literature check.** Status: Joint-paper questions: Open Problem 1, p.77:3; §6, p.77:17. No resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4163"></a>
+
+## Q4163. Is deciding proper 3-colorability polynomial-time solvable for graphs of diameter at most 2?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Is deciding proper 3-colorability polynomial-time solvable for graphs of diameter at most 2?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. For each fixed integer k≥2 and finite simple undirected G, Hom(C_{2k+1}) asks for a map from V(G) to the vertices of the (2k+1)-cycle that maps edges to edges. Diameter is maximum shortest-path distance. Proper 3-coloring assigns adjacent vertices different colors from {1,2,3}. Origin: Q4163 is an older problem; Q4164 comes from Piecyk’s paper. The revised full text follows MFCS 2024 and withdraws an earlier assertion about diameter k+3; it retains this exact question. No later matching resolution found through 10 October 2026.
+
+**Source.** Marta Piecyk. *C_{2k+1}-Coloring of Bounded-Diameter Graphs*. 2024. [primary source](https://arxiv.org/abs/2403.06694v3) Location: §8, p.24; definition p.1.
+
+**Literature check.** Status: Origin: Q4163 is an older problem; Q4164 comes from Piecyk’s paper. The revised full text follows MFCS 2024 and withdraws an earlier assertion about diameter k+3; it retains this exact question. No later matching resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4164"></a>
+
+## Q4164. Is Hom(C_{2k+1}) NP-hard on graphs of diameter at most k+2, for every fixed k≥2?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Is Hom(C_{2k+1}) NP-hard on graphs of diameter at most k+2, for every fixed k≥2?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. For each fixed integer k≥2 and finite simple undirected G, Hom(C_{2k+1}) asks for a map from V(G) to the vertices of the (2k+1)-cycle that maps edges to edges. Diameter is maximum shortest-path distance. Proper 3-coloring assigns adjacent vertices different colors from {1,2,3}. Origin: Q4163 is an older problem; Q4164 comes from Piecyk’s paper. The revised full text follows MFCS 2024 and withdraws an earlier assertion about diameter k+3; it retains this exact question. No later matching resolution found through 10 October 2026.
+
+**Source.** Marta Piecyk. *C_{2k+1}-Coloring of Bounded-Diameter Graphs*. 2024. [primary source](https://arxiv.org/abs/2403.06694v3) Location: §8, p.24; definition p.1.
+
+**Literature check.** Status: Origin: Q4163 is an older problem; Q4164 comes from Piecyk’s paper. The revised full text follows MFCS 2024 and withdraws an earlier assertion about diameter k+3; it retains this exact question. No later matching resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4165"></a>
+
+## Q4165. For each fixed k≥3, determine the complexity of List k-Coloring on X-free ordered graphs.
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For each fixed k≥3, determine the complexity of List k-Coloring on X-free ordered graphs.
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. An ordered graph has a supplied linear vertex order; H-free means no order-preserving induced copy of H. List k-Coloring asks for a proper coloring (adjacent vertices differ) from lists L(v)⊆{1,…,k}. Let X and N each have vertices 1<2<3<4, with edges {13,24} and {14,23}, respectively. All graphs are finite, simple and undirected. Origin: Joint-paper questions after Piecyk’s dissertation. The quadratic hardness reduction for Q4166 excludes only 2^{o(√n)} time under the Exponential Time Hypothesis. No matching later resolution found through 10 October 2026.
+
+**Source.** Marta Piecyk and Paweł Rzążewski. *List Coloring Ordered Graphs with Forbidden Induced Subgraphs*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.STACS.2026.74) Location: Final §5, p.74:16; definitions p.74:4; Theorem 12, p.74:10.
+
+**Literature check.** Status: Origin: Joint-paper questions after Piecyk’s dissertation. The quadratic hardness reduction for Q4166 excludes only 2^{o(√n)} time under the Exponential Time Hypothesis. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4166"></a>
+
+## Q4166. Does List 4-Coloring on n-vertex N-free ordered graphs admit a 2^{o(n)}-time algorithm?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does List 4-Coloring on n-vertex N-free ordered graphs admit a 2^{o(n)}-time algorithm?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. An ordered graph has a supplied linear vertex order; H-free means no order-preserving induced copy of H. List k-Coloring asks for a proper coloring (adjacent vertices differ) from lists L(v)⊆{1,…,k}. Let X and N each have vertices 1<2<3<4, with edges {13,24} and {14,23}, respectively. All graphs are finite, simple and undirected. Origin: Joint-paper questions after Piecyk’s dissertation. The quadratic hardness reduction for Q4166 excludes only 2^{o(√n)} time under the Exponential Time Hypothesis. No matching later resolution found through 10 October 2026.
+
+**Source.** Marta Piecyk and Paweł Rzążewski. *List Coloring Ordered Graphs with Forbidden Induced Subgraphs*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.STACS.2026.74) Location: Final §5, p.74:16; definitions p.74:4; Theorem 12, p.74:10.
+
+**Literature check.** Status: Origin: Joint-paper questions after Piecyk’s dissertation. The quadratic hardness reduction for Q4166 excludes only 2^{o(√n)} time under the Exponential Time Hypothesis. No matching later resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4169"></a>
+
+## Q4169. For every fixed integer k≥0, is MWIS quasipolynomial-time solvable on H_k-free graphs, where H_k…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For every fixed integer k≥0, is MWIS quasipolynomial-time solvable on H_k-free graphs, where H_k has vertices 1<...<2k+4 and exactly edges {1,2k+4},{k+2,k+3}?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. The finite simple undirected input graph has a linear vertex order. H-free means excluding induced copies preserving that order. MWIS finds a pairwise nonadjacent vertex set of maximum total positive rational weight.
+
+**Source.** Paweł Rafał Bieliński, Marta Piecyk and Paweł Rzążewski. *Maximum Weight Independent Set in Hereditary Classes of Ordered Graphs*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ESA.2026.30) Location: §4 p. 30:12; definitions pp. 30:1–3,6.
+
+**Literature check.** Status: ETH asserts that 3-SAT has no subexponential-time algorithm in its variable count. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4170"></a>
+
+## Q4170. Assuming the Exponential-Time Hypothesis, does maximum-cardinality independent set on F-free…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Assuming the Exponential-Time Hypothesis, does maximum-cardinality independent set on F-free n-vertex ordered graphs have no 2^{o(n)}-time algorithm, where F has vertices 1<2<3<4<5 and exactly edges {1,5},{2,4}?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. The finite simple undirected input graph has a linear vertex order. H-free means excluding induced copies preserving that order. MWIS finds a pairwise nonadjacent vertex set of maximum total positive rational weight.
+
+**Source.** Paweł Rafał Bieliński, Marta Piecyk and Paweł Rzążewski. *Maximum Weight Independent Set in Hereditary Classes of Ordered Graphs*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.ESA.2026.30) Location: §4 p. 30:12; definitions pp. 30:1–3,6.
+
+**Literature check.** Status: ETH asserts that 3-SAT has no subexponential-time algorithm in its variable count. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+

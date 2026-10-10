@@ -1,6 +1,6 @@
 # Optimization & Operations Research
 
-110 problems: 102 open, 4 open, partial results, 2 solved here: proved, 2 solved here: disproved.
+116 problems: 108 open, 4 open, partial results, 2 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -116,6 +116,12 @@
 | [Q3390](optimization-operations-research.md#q3390) | An efficient geodesic first-order method | Open |
 | [Q3391](optimization-operations-research.md#q3391) | Sharp barrier growth for hyperbolic balls | Open |
 | [Q3392](optimization-operations-research.md#q3392) | Inner-ball obstruction for all convex domains | Open |
+| [Q3815](optimization-operations-research.md#q3815) | With k∈{0,…,n} supplied as input, is minimizing W(S)+p(S)w(N∖S) over \|S\|=k weakly NP-hard? | Open |
+| [Q3816](optimization-operations-research.md#q3816) | With k∈{0,…,n} and e≥0 supplied as integer inputs, is minimizing W(S)+e w(N∖S) over \|N∖S\|=k… | Open |
+| [Q3817](optimization-operations-research.md#q3817) | For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G with n≥3 vertices,… | Open |
+| [Q3818](optimization-operations-research.md#q3818) | Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles modulo… | Open |
+| [Q3819](optimization-operations-research.md#q3819) | Let X⊂R contain n points, partitioned into k nonempty clusters C_i. Put… | Open |
+| [Q3878](optimization-operations-research.md#q3878) | Given S,T⊆[n], is deciding conv(P∩M_S)=conv(P∩M_{S∪T}) Π₂^p-complete under polynomial-time… | Open |
 
 <a id="q53"></a>
 
@@ -1938,4 +1944,106 @@ For every proper open geodesically convex D⊊H² containing a radius-r ball, mu
 **Literature check.** Status for questions 3391, 3392, checked 8 October 2026: Checked 8 October 2026; no later resolution located.
 
 **Further links.** [1](https://www.cwi.nl/en/research/algorithms-and-complexity/events/phd-defence-harold-nieuwboer-ac/)
+
+
+<a id="q3815"></a>
+
+## Q3815. With k∈{0,…,n} supplied as input, is minimizing W(S)+p(S)w(N∖S) over |S|=k weakly NP-hard?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.1) · **Collection** 39
+
+With k∈{0,…,n} supplied as input, is minimizing W(S)+p(S)w(N∖S) over |S|=k weakly NP-hard?
+
+**Context.** Jobs N={1,…,n} have positive integer processing times p_j and nonnegative integer weights w_j. Write p(S)=Σ\_{j∈S}p_j and w(S)=Σ\_{j∈S}w_j. Let W(S) minimize Σ\_{j∈S}w_j C_j over nonpreemptive single-machine schedules of S starting at zero; C_j is completion time. All integer inputs are binary-encoded. Origin/locator: integer-data formulations of thesis §3.6, Definitions 3.3–3.5, pp.52–53, and Conjecture 3.1, p.54. The two objectives are distinct; the second has a common input rejection coefficient. General arbitrary rejection penalties are outside its scope.
+
+**Source.** Guangjing Yang. *Solutions to sequencing and bargaining games*. University of Twente, 2021. Advisor(s): Marc Uetz and Hao Sun; co-supervisor Ruben Hoeksma. [primary source](https://ris.utwente.nl/ws/portalfiles/portal/268383498/PhD_thesis_Guangjing_Yang.pdf) Location: integer-data formulations of thesis §3.6, Definitions 3.3–3.5, pp.52–53, and Conjecture 3.1, p.54.
+
+**Literature check.** Status, 10 October 2026: primary thesis text and doctoral record inspected; no exact later resolution found in the documented bounded search.
+
+**Further links.** [1](https://doi.org/10.3990/1.9789036551298)
+
+
+<a id="q3816"></a>
+
+## Q3816. With k∈{0,…,n} and e≥0 supplied as integer inputs, is minimizing W(S)+e w(N∖S) over |N∖S|=k…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.1) · **Collection** 39
+
+With k∈{0,…,n} and e≥0 supplied as integer inputs, is minimizing W(S)+e w(N∖S) over |N∖S|=k weakly NP-hard?
+
+**Context.** Jobs N={1,…,n} have positive integer processing times p_j and nonnegative integer weights w_j. Write p(S)=Σ\_{j∈S}p_j and w(S)=Σ\_{j∈S}w_j. Let W(S) minimize Σ\_{j∈S}w_j C_j over nonpreemptive single-machine schedules of S starting at zero; C_j is completion time. All integer inputs are binary-encoded. Origin/locator: integer-data formulations of thesis §3.6, Definitions 3.3–3.5, pp.52–53, and Conjecture 3.1, p.54. The two objectives are distinct; the second has a common input rejection coefficient. General arbitrary rejection penalties are outside its scope.
+
+**Source.** Guangjing Yang. *Solutions to sequencing and bargaining games*. University of Twente, 2021. Advisor(s): Marc Uetz and Hao Sun; co-supervisor Ruben Hoeksma. [primary source](https://ris.utwente.nl/ws/portalfiles/portal/268383498/PhD_thesis_Guangjing_Yang.pdf) Location: integer-data formulations of thesis §3.6, Definitions 3.3–3.5, pp.52–53, and Conjecture 3.1, p.54.
+
+**Literature check.** Status, 10 October 2026: primary thesis text and doctoral record inspected; no exact later resolution found in the documented bounded search.
+
+**Further links.** [1](https://doi.org/10.3990/1.9789036551298)
+
+
+<a id="q3817"></a>
+
+## Q3817. For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G with n≥3 vertices,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G with n≥3 vertices, |E(G)|≤cn, and every start v?
+
+**Context.** Source: Stefan Klootwijk and Bodo Manthey, Probabilistic Analysis of Optimization Problems on Sparse Random Shortest Path Metrics, Algorithmica 85 (2023), 3793–3815, final published 26 August 2023. Paper-origin extension question, §6; nearest-neighbor definition §4.2. Doctoral metadata verified; full thesis unavailable in this audit. Give each edge of a connected finite undirected simple graph G an independent Exp(1) weight. Use shortest-path distances as the complete metric, and let OPT be the minimum Hamiltonian-cycle length. From v, nearest neighbor repeatedly visits the closest unvisited vertex and finally returns to v; let NN_v be its tour length.
+
+**Source.** Stefan Klootwijk and Bodo Manthey. *Probabilistic Analysis of Optimization Problems on Sparse Random Shortest Path Metrics*. 2023. [primary source](https://doi.org/10.1007/s00453-023-01167-3) Location: §6; nearest-neighbor definition §4.2.
+
+**Literature check.** Status, 10 October 2026: full publisher final independently inspected; no general resolution found. Its fast-growing-cut hypothesis proves a restricted case only. Its all-sparse-graph result for 2-opt concerns a different algorithm.
+
+**Further links.** [1](https://doi.org/10.3990/1.9789036552493)
+
+
+<a id="q3818"></a>
+
+## Q3818. Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles modulo…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 17) · **Collection** 39
+
+Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles modulo rotation/reversal for which no cycle-preserving two-edge replacement decreases length. Is E[M_n]=O(√(n!))?
+
+**Context.** Both questions originate in joint work with Manthey, independently inspected in the conference finals below. Thesis metadata verified; thesis text unavailable in this audit.
+
+**Source.** Jesse van Rhijn and Bodo Manthey. *Counting Locally Optimal Tours in the TSP (MFCS 2025); Worst-Case and Smoothed Analysis of the Hartigan–Wong Method for k-Means Clustering (STACS 2024)*. 2025. [primary source](https://doi.org/10.4230/LIPIcs.MFCS.2025.73) Location: Counting Locally Optimal Tours in the TSP, MFCS 2025, Conjecture 17, p.73:15; cycle-count convention §4.
+
+**Literature check.** Status, 10 October 2026: no later resolution found. Higher-dimensional PLS-hardness does not settle Q3819's one-dimensional path question.
+
+**Further links.** [1](https://doi.org/10.4230/LIPIcs.STACS.2024.52) · [2](https://doi.org/10.3990/1.9789036563277)
+
+
+<a id="q3819"></a>
+
+## Q3819. Let X⊂R contain n points, partitioned into k nonempty clusters C_i. Put…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Let X⊂R contain n points, partitioned into k nonempty clusters C_i. Put Φ=Σ\_iΣ\_{x∈C_i}(x−mean(C_i))². A move transfers one point, keeps every cluster nonempty, recomputes means, and strictly decreases Φ. Does every initial partition admit an improving path of at most poly(n,k) moves to a partition with no improving move?
+
+**Context.** Both questions originate in joint work with Manthey, independently inspected in the conference finals below. Thesis metadata verified; thesis text unavailable in this audit.
+
+**Source.** Jesse van Rhijn and Bodo Manthey. *Counting Locally Optimal Tours in the TSP (MFCS 2025); Worst-Case and Smoothed Analysis of the Hartigan–Wong Method for k-Means Clustering (STACS 2024)*. 2025. [primary source](https://doi.org/10.4230/LIPIcs.MFCS.2025.73) Location: Worst-Case and Smoothed Analysis of the Hartigan–Wong Method for k-Means Clustering, STACS 2024, §5, p.52:14.
+
+**Literature check.** Status, 10 October 2026: no later resolution found. Higher-dimensional PLS-hardness does not settle Q3819's one-dimensional path question.
+
+**Further links.** [1](https://doi.org/10.4230/LIPIcs.STACS.2024.52) · [2](https://doi.org/10.3990/1.9789036563277)
+
+
+<a id="q3878"></a>
+
+## Q3878. Given S,T⊆[n], is deciding conv(P∩M_S)=conv(P∩M_{S∪T}) Π₂^p-complete under polynomial-time…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.4) · **Collection** 39
+
+Given S,T⊆[n], is deciding conv(P∩M_S)=conv(P∩M_{S∪T}) Π₂^p-complete under polynomial-time many-one reductions?
+
+**Context.** Doctoral route: Roelof (Rolf) van der Hulst, Network submatrices in mixed-integer optimization, Twente PhD awarded 16 April 2026; supervisor Marc Jochen Uetz, co-supervisor Matthias Walter. This is a paper-origin question: Rolf van der Hulst and Matthias Walter, Implied integrality in mixed-integer optimization, Mathematical Programming, 13 July 2026, Conjecture 6.4, final PDF p.36. The doctoral record was verified; the formulation comes from the fully read paper. Setup: Input rational A,b defines P={x∈R^n:Ax≤b}. For S⊆[n], let M_S={x∈R^n:x_i∈Z for i∈S}; all rational data are binary encoded. The class Π₂^p uses a universal block followed by an existential block of polynomial-length strings, with a polynomial-time predicate.
+
+**Source.** Rolf van der Hulst and Matthias Walter. *Implied integrality in mixed-integer optimization*. 2026. [primary source](https://doi.org/10.1007/s10107-026-02389-3) Location: Conjecture 6.4, final PDF p.36.
+
+**Literature check.** Status: The published paper proves membership and conjectures hardness. No later matching resolution found through 10 October 2026.
+
+**Further links.** [1](https://doi.org/10.3990/1.9789036571531)
 

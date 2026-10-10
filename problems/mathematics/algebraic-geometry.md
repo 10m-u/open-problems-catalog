@@ -1,6 +1,6 @@
 # Algebraic Geometry
 
-12 problems: 12 open.
+23 problems: 23 open.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -18,6 +18,17 @@
 | [Q3456](algebraic-geometry.md#q3456) | Does tropical duality localize to stars? | Open |
 | [Q3462](algebraic-geometry.md#q3462) | Minimal-weight compactifications of marked del Pezzo surfaces | Open |
 | [Q3528](algebraic-geometry.md#q3528) | A toric Zariski–Nagata equality | Open |
+| [Q3801](algebraic-geometry.md#q3801) | For general self-dual Γ, if linear six-planes L₁,L₂⊂P¹⁴ satisfy Lᵢ∩Gr(2,6)≅Γ projectively, must… | Open |
+| [Q3869](algebraic-geometry.md#q3869) | The tensor-triangular DK hypothesis | Open |
+| [Q3872](algebraic-geometry.md#q3872) | Minimal-degree relations for odd-length rank-two Quot schemes | Open |
+| [Q3931](algebraic-geometry.md#q3931) | Can a symmetric numerical semigroup fail to be representable? | Open |
+| [Q4048](algebraic-geometry.md#q4048) | For r>0, n=ar+b, 0≤b&lt;r, 1≤t≤N−r−1, and nonnegative integers p₁,…,p_t with 0<Σp_i≤n+(N−r)(a+1),… | Open |
+| [Q4063](algebraic-geometry.md#q4063) | Are abelian surfaces X,Y derived isogenous exactly when there exists a quasiliftable principal… | Open |
+| [Q4064](algebraic-geometry.md#q4064) | If Km(X),Km(Y) are prime-to-p derived isogenous, must X,Y be prime-to-p derived isogenous? | Open |
+| [Q4173](algebraic-geometry.md#q4173) | Is NG(X/B)={b∈B:π\_1(LS_Hdg(X_b))→π\_1(VMHS(X)) is not injective} always a countable union of… | Open |
+| [Q4189](algebraic-geometry.md#q4189) | Does Dᵇ(X^[3]) admit a semiorthogonal decomposition ⟨Dᵇ\_S₃(X³), (d−2)·Dᵇ(X²),… | Open |
+| [Q4197](algebraic-geometry.md#q4197) | Does there exist a nondegenerate smooth threefold X⊂P⁵\_C lying on no cubic hypersurface, with… | Open |
+| [Q4198](algebraic-geometry.md#q4198) | Does there exist a nondegenerate smooth fourfold X⊂P⁷\_C lying on no quadric hypersurface, with… | Open |
 
 <a id="q208"></a>
 
@@ -212,4 +223,181 @@ For every such X_Σ, closed V⊂X_Σ, and n≥1, must I(V)^{(n)}=⋂\_{p∈V}I(p
 **Source.** Jordan Vincent Barrett. *A Zariski-Nagata Theorem for Smooth Toric Surfaces*. University of Nebraska–Lincoln, 2025. Advisor(s): Jack Jeffries. [primary source](https://digitalcommons.unl.edu/dissunl/294/) Location: Question 1, p.35; conclusion p.59; Definitions 4.2.19–20, pp.33–34.
 
 **Literature check.** Status: The May 2025 dissertation proves sufficient cases and leaves the general smooth-surface case open. No later resolution found, checked 2026-10-09.
+
+
+<a id="q3801"></a>
+
+## Q3801. For general self-dual Γ, if linear six-planes L₁,L₂⊂P¹⁴ satisfy Lᵢ∩Gr(2,6)≅Γ projectively, must…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+For general self-dual Γ, if linear six-planes L₁,L₂⊂P¹⁴ satisfy Lᵢ∩Gr(2,6)≅Γ projectively, must some g∈SL₆(C) satisfy (∧²g)L₁=L₂?
+
+**Context.** Over C, fourteen points Γ⊂P⁶ represented by rank-seven M∈C^{7×14} are self-dual if MΛMᵀ=0 for some invertible diagonal Λ. Use the Plücker embedding Gr(2,6)⊂P(∧²C⁶)=P¹⁴.
+
+**Source.** Barbara Betti. *Khovanskii and Gröbner Degenerations in Computational Commutative Algebra*. Leipzig University, 2025. Advisor(s): Simon Telen. [primary source](https://ul.qucosa.de/api/qucosa%3A100940/attachment/ATT-0/) Location: Petrakiev's 2006 preprint/2009 paper, Remark 2.11; thesis p.104 restatement.
+
+**Literature check.** Status, 2026-10-10: no general resolution found in bounded searches.
+
+**Further links.** [1](https://arxiv.org/abs/2406.02734v3) · [2](https://arxiv.org/abs/math/0604518) · [3](https://doi.org/10.1080/10586458.2025.2513603)
+
+
+<a id="q3869"></a>
+
+## Q3869. The tensor-triangular DK hypothesis
+
+**Status:** Open · **Kind:** conjecture (Conjecture 5.40.2) · **Collection** 39
+
+Does every connected component of Spec^FM Perf(X) containing a copy of X contain every smooth projective variety K-equivalent to X as an open subscheme?
+
+**Context.** Origin: Paper-origin; discovery through Ito’s Berkeley 2026 dissertation, Geometry in the Triangular Spectrum of Perfect Derived Categories; advisor David Nadler. Setup: Let k be algebraically closed of characteristic zero and X a smooth projective integral k-variety. Form Spec^FM Perf(X) by gluing images of all smooth projective Y under all k-linear triangulated equivalences Perf(Y)≃Perf(X) in Matsui’s triangular spectrum: y maps to the transported thick subcategory of perfect complexes vanishing at y. Glue the usual scheme structures on these copies. Call X,Y K-equivalent when a common smooth birational model has equal pullbacks of their canonical divisors. Sources:
+
+**Source.** Daigo Ito. *Gluing of Fourier-Mukai Partners in a Triangular Spectrum and Birational Geometry*. 2025. [primary source](https://arxiv.org/abs/2309.08147v3) Location: Observation 5.40, Conjecture 5.40.2, p.40; Definitions 4.1–4.3 and Theorem 4.12.
+
+**Literature check.** Status: Checked 10 October 2026: no general resolution found in current v3 or later work, including September reconstruction results.
+
+**Further links.** [1](https://math.berkeley.edu/people/grad/daigo-ito) · [2](https://daigoi.github.io/research.html)
+
+
+<a id="q3872"></a>
+
+## Q3872. Minimal-degree relations for odd-length rank-two Quot schemes
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.3.4) · **Collection** 39
+
+Is the kernel of this surjection generated by d+2 homogeneous relations, all in cohomological degree 2d+2?
+
+**Context.** Origin: Explicit thesis conjecture arising from joint work with Marian; no first-publication priority claim. Setup: Let V be a rank-two vector bundle on P¹\_C and d a positive odd integer. Q=Quotᵈ(V,P¹) parametrizes length-d torsion quotients of V. On Q×P¹ let E be the universal kernel, and write cᵢ(E)=aᵢ⊗1+fᵢ⊗h, where h is the positive generator of H²(P¹;Q). The Künneth classes give a surjection Q[a₁,a₂,f₂]→H\*(Q;Q), with degrees 2,4,2; f₁=deg(V)−d is constant. Sources:
+
+**Source.** Ajay Gautam. *A study of Quot schemes on smooth curves*. SISSA, 2026. Advisor(s): Barbara Fantechi and Alina Marian. [primary source](https://iris.sissa.it/handle/20.500.11767/150130) Location: Conjecture 3.3.4, p.33; §1.1, pp.2–3.
+
+**Literature check.** Status: Checked 10 October 2026: no later resolution located. Tautological-sheaf cohomology results concern a different target.
+
+**Further links.** [1](https://iris.sissa.it/retrieve/0cce998b-a3cd-4406-864c-0b0b0b005d77/PhD_Thesis.pdf) · [2](https://indico.ictp.it/event/10993)
+
+
+<a id="q3931"></a>
+
+## Q3931. Can a symmetric numerical semigroup fail to be representable?
+
+**Status:** Open · **Kind:** open problem (Question 5.2.1) · **Collection** 40
+
+Can a symmetric numerical semigroup fail to be representable?
+
+**Context.** A numerical semigroup S is an additive submonoid of the nonnegative integers with finite complement. For S≠N, let F be its largest gap; S is symmetric if, for every integer n, n∈S exactly when F−n∉S. Call S representable if S={ℓ≥0:A_ℓ≠0} for the coordinate ring A, graded by a good effective C\* action, of a complex normal weighted-homogeneous surface singularity whose link is a rational homology sphere.
+
+**Source.** Zsolt Baja and Tamás László. *Flat semigroups and weighted homogeneous surface singularities*. 2026. [primary source](https://doi.org/10.2140/agt.2026.26.201) Location: Question 5.2.1, p.224; setup §§1.1, 2.2–2.3.
+
+**Literature check.** Status: Paper-origin question. Checked arXiv:2511.03406v1, which studies already representable semigroups, and arXiv:2607.13619v1, which proves representability for finite intersections of proportionally modular semigroups. Neither settles all symmetric semigroups. No matching resolution found in the documented 10 October 2026 search.
+
+**Further links.** [1](https://arxiv.org/abs/2511.03406) · [2](https://arxiv.org/abs/2607.13619)
+
+
+<a id="q4048"></a>
+
+## Q4048. For r>0, n=ar+b, 0≤b&lt;r, 1≤t≤N−r−1, and nonnegative integers p₁,…,p_t with 0<Σp_i≤n+(N−r)(a+1),…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.3.3) · **Collection** 41
+
+For r>0, n=ar+b, 0≤b&lt;r, 1≤t≤N−r−1, and nonnegative integers p₁,…,p_t with 0<Σp_i≤n+(N−r)(a+1), is χ(Q,⊗\_{i=1}^t(Λ^{p_i}L_i^[n])∨)=0 for all line bundles L₁,…,L_t on P¹?
+
+**Context.** For integers N>r>0 and n≥0, over C let Q=Quot_P¹(O^N,n,r) parametrize rank-r, degree-n quotients, with universal quotient U on P¹×Q and projections p,π. Define L^[n]=Rπ\_\*(p\*L⊗U). Exterior powers and duals are derived; χ is holomorphic Euler characteristic.
+
+**Source.** Alina Marian, Dragos Oprea and Steven V Sam. *On the cohomology of tautological bundles over Quot schemes of curves*. 2026. [primary source](https://doi.org/10.2140/ant.2026.20.943) Location: Remark 5.1.9, pp.79–80, records a partial result, not the origin: Alina Marian, Dragos Oprea and Steven V Sam, On the cohomology of tautological bundles over Quot schemes of curves, Conjecture 1.3.3, p.948, Algebra & Number Theory 20 (2026).
+
+**Literature check.** Status checked 10 October 2026: Gautam–Lin–Sinha prove only special cases of this mixed-dual conjecture; no full resolution found. Their proofs of Conjectures 1.3.1–1.3.2 are excluded.
+
+**Further links.** [1](https://escholarship.org/uc/item/37g034w1) · [2](https://arxiv.org/abs/2511.03519)
+
+
+<a id="q4063"></a>
+
+## Q4063. Are abelian surfaces X,Y derived isogenous exactly when there exists a quasiliftable principal…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.3.2) · **Collection** 41
+
+Are abelian surfaces X,Y derived isogenous exactly when there exists a quasiliftable principal isogeny X→Y?
+
+**Context.** Work over algebraically closed k of characteristic p>3. Within abelian surfaces, or within K3 surfaces, “derived isogenous” means connected by a finite chain of k-linear equivalences between bounded derived categories of Brauer-twisted coherent sheaves; consecutive equivalences may use different Brauer classes on their shared surface. An isogeny is a surjective homomorphism with finite kernel; principal means square degree. Quasiliftable means a finite composition of isogenies liftable to characteristic zero. Liftable means occurring as a special fiber over a mixed-characteristic discrete valuation ring. Km(X) is the minimal resolution of X/{±1}. Put W=W(k), the Witt-vector ring, and K₀=Frac(W). A derived isogeny is prime-to-p when each link’s even crystalline realization over K₀ maps the integral H^even_crys(−/W) lattices isomorphically.
+
+**Source.** Zhiyuan Li and Haitao Zou. *Derived isogenies and isogenies for abelian surfaces*. 2026. [primary source](https://doi.org/10.2140/ant.2026.20.1185) Location: Conjecture 6.3.2 and Remark6.4.2, pp.1230–1231.
+
+**Literature check.** Status checked 10 October 2026: no matching resolution found. Known individual-equivalence and prime-to-p-isogeny results leave these residuals.
+
+
+<a id="q4064"></a>
+
+## Q4064. If Km(X),Km(Y) are prime-to-p derived isogenous, must X,Y be prime-to-p derived isogenous?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.3.2) · **Collection** 41
+
+If Km(X),Km(Y) are prime-to-p derived isogenous, must X,Y be prime-to-p derived isogenous?
+
+**Context.** Work over algebraically closed k of characteristic p>3. Within abelian surfaces, or within K3 surfaces, “derived isogenous” means connected by a finite chain of k-linear equivalences between bounded derived categories of Brauer-twisted coherent sheaves; consecutive equivalences may use different Brauer classes on their shared surface. An isogeny is a surjective homomorphism with finite kernel; principal means square degree. Quasiliftable means a finite composition of isogenies liftable to characteristic zero. Liftable means occurring as a special fiber over a mixed-characteristic discrete valuation ring. Km(X) is the minimal resolution of X/{±1}. Put W=W(k), the Witt-vector ring, and K₀=Frac(W). A derived isogeny is prime-to-p when each link’s even crystalline realization over K₀ maps the integral H^even_crys(−/W) lattices isomorphically.
+
+**Source.** Zhiyuan Li and Haitao Zou. *Derived isogenies and isogenies for abelian surfaces*. 2026. [primary source](https://doi.org/10.2140/ant.2026.20.1185) Location: Conjecture 6.3.2 and Remark6.4.2, pp.1230–1231.
+
+**Literature check.** Status checked 10 October 2026: no matching resolution found. Known individual-equivalence and prime-to-p-isogeny results leave these residuals.
+
+
+<a id="q4173"></a>
+
+## Q4173. Is NG(X/B)={b∈B:π\_1(LS_Hdg(X_b))→π\_1(VMHS(X)) is not injective} always a countable union of…
+
+**Status:** Open · **Kind:** open problem (Question 1.7) · **Collection** 42
+
+Is NG(X/B)={b∈B:π\_1(LS_Hdg(X_b))→π\_1(VMHS(X)) is not injective} always a countable union of closed algebraic subsets of B?
+
+**Context.** Let f:X→B be a smooth projective morphism between smooth connected complex algebraic varieties, with connected fibers. VMHS(Y) is the neutral Q-linear Tannakian category of admissible graded-polarizable variations of mixed Q-Hodge structure whose underlying local systems have integral structures. LS_Hdg(Y) is the Tannakian subcategory of such Q-local systems generated by the underlying local systems of VMHS(Y). Use compatible basepoint fiber functors for Tannakian fundamental groups.
+
+**Source.** Simon Shuofeng Xu. *On exact sequences of Hodge theoretic fundamental groups*. 2025. [primary source](https://arxiv.org/abs/2503.13307v2) Location: Question 1.7, p. 3, and Question 4.8, p. 14.
+
+**Literature check.** Status checked 10 October 2026: The current version retains this question. Results for pro-reductive quotients or non-integral variations do not settle the stated integral, mixed question; no later resolution was found.
+
+
+<a id="q4189"></a>
+
+## Q4189. Does Dᵇ(X^[3]) admit a semiorthogonal decomposition ⟨Dᵇ\_S₃(X³), (d−2)·Dᵇ(X²),…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.4.2.1) · **Collection** 42
+
+Does Dᵇ(X^[3]) admit a semiorthogonal decomposition ⟨Dᵇ\_S₃(X³), (d−2)·Dᵇ(X²), (binom(d,2)−1)·Dᵇ(X)⟩? Here m·D means m fully faithful copies with semiorthogonal images, and the displayed components must generate the whole category.
+
+**Context.** Let X be a smooth projective variety of dimension d≥2 over an algebraically closed field of characteristic zero. Write X^[3] for its Hilbert scheme of length-three subschemes, Dᵇ for the bounded derived category of coherent sheaves, and Dᵇ\_S₃(X³) for its equivariant counterpart under permutation of the factors.
+
+**Source.** Erik Nikolov. *The Derived Category of the Hilbert Scheme of Three Points*. Leibniz University Hannover, 2025. Advisor(s): Andreas Krug. [primary source](https://doi.org/10.15488/19656) Location: Conjecture 2.4.2.1, p. 89, discusses a broader formulation.
+
+**Literature check.** Status checked 10 October 2026: The published final retains the conjecture and proves only partial components. No later resolution was found.
+
+**Further links.** [1](https://doi.org/10.1007/s00029-026-01140-2)
+
+
+<a id="q4197"></a>
+
+## Q4197. Does there exist a nondegenerate smooth threefold X⊂P⁵\_C lying on no cubic hypersurface, with…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does there exist a nondegenerate smooth threefold X⊂P⁵\_C lying on no cubic hypersurface, with S₄(X)≠P⁵\_C?
+
+**Context.** For a smooth irreducible projective variety X⊂Pʳ\_C, let S_d(X) be the union of lines whose scheme-theoretic intersection with X has length at least d, including lines contained in X. Nondegenerate means not contained in a hyperplane.
+
+**Source.** Jong In Han and Sijong Kwak. *Linear syzygies and linear subspaces whose lines are multisecant*. 2026. [primary source](https://arxiv.org/abs/2610.12078v1) Location: Open question 1.2(1)–(2), p. 4; conventions pp. 1–2.
+
+**Literature check.** Status checked 10 October 2026: Current v1 constructs singular examples for both questions, and explicitly leaves the smooth cases unresolved. No later resolution was found.
+
+
+<a id="q4198"></a>
+
+## Q4198. Does there exist a nondegenerate smooth fourfold X⊂P⁷\_C lying on no quadric hypersurface, with…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does there exist a nondegenerate smooth fourfold X⊂P⁷\_C lying on no quadric hypersurface, with S₃(X)≠P⁷\_C?
+
+**Context.** For a smooth irreducible projective variety X⊂Pʳ\_C, let S_d(X) be the union of lines whose scheme-theoretic intersection with X has length at least d, including lines contained in X. Nondegenerate means not contained in a hyperplane.
+
+**Source.** Jong In Han and Sijong Kwak. *Linear syzygies and linear subspaces whose lines are multisecant*. 2026. [primary source](https://arxiv.org/abs/2610.12078v1) Location: Open question 1.2(1)–(2), p. 4; conventions pp. 1–2.
+
+**Literature check.** Status checked 10 October 2026: Current v1 constructs singular examples for both questions, and explicitly leaves the smooth cases unresolved. No later resolution was found.
 

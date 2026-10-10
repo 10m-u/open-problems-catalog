@@ -1,6 +1,6 @@
 # Logic, Foundations & Set Theory
 
-402 problems: 392 open, 9 open, partial results, 1 solved here: proved.
+417 problems: 407 open, 9 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -8,405 +8,420 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 
 | Q | Title | Status |
 |---|---|---|
-| [Q80](logic-foundations-set-theory-part-1.md#q80) | If every ordinal-length Lipschitz game G_(δ)(U,W) between countably complete ult… | Open |
-| [Q81](logic-foundations-set-theory-part-1.md#q81) | Under UA, are hereditarily uniform irreducible countably complete ultrafilters a… | Open |
-| [Q82](logic-foundations-set-theory-part-1.md#q82) | In ZFC, if countably complete ultrafilters U,W are mutually internal, must j_(U)… | Open |
-| [Q83](logic-foundations-set-theory-part-1.md#q83) | Assuming UA and κ supercompact, must HOD compute κ^(+) correctly? | Open |
-| [Q84](logic-foundations-set-theory-part-1.md#q84) | Under UA, are isolated Fréchet cardinals exactly the measurables λ that are not … | Open |
-| [Q85](logic-foundations-set-theory-part-1.md#q85) | For n nonconstant solution pairs of ∂\_(x)^(2)y=6y^(2)+x with (y_(i)/y_(j))^(5)≠1… | Open |
-| [Q86](logic-foundations-set-theory-part-1.md#q86) | Which differential equations E(x,y) admit a nontrivial adequate, or strongly ade… | Open |
-| [Q87](logic-foundations-set-theory-part-1.md#q87) | For a differentially closed field ℱ=(F;+,⋅,0,1,D) and a family R of ℱ-definable … | Open |
-| [Q88](logic-foundations-set-theory-part-1.md#q88) | For divergent AD^(+) models L(A,ℝ),L(B,ℝ), set Δ=𝒫(ℝ)∩L(A,ℝ)∩L(B,ℝ) and κ=min(Θ^… | Open |
-| [Q89](logic-foundations-set-theory-part-1.md#q89) | Assume Strong Sealing, a proper class of measurable Woodin cardinals, and exactl… | Open |
-| [Q90](logic-foundations-set-theory-part-1.md#q90) | Under Strong Sealing, arbitrarily large measurable Woodin cardinals, and exactly… | Open |
-| [Q91](logic-foundations-set-theory-part-1.md#q91) | Given supercompact κ, V-generic g⊆Col(ω,<κ), and definable M⊆V(ℝ^(\*)) satisfying… | Open |
-| [Q92](logic-foundations-set-theory-part-1.md#q92) | Assume LSA+V=L(𝒫(ℝ)), Θ a limit of Woodins in HOD, and L(Δ,ℝ)⊨HPC. Do some κ,λ∈(… | Open |
-| [Q113](logic-foundations-set-theory-part-1.md#q113) | If an abstract linear space has irreducible algebraic base S and constant fibre … | Open |
-| [Q114](logic-foundations-set-theory-part-1.md#q114) | For rational step words u,v over a compact metric alphabet Σ with rational pairw… | Open |
-| [Q146](logic-foundations-set-theory-part-1.md#q146) | For singular α>κ and κ α-subcompact, can preparatory forcing make κ's α-subcompa… | Open |
-| [Q147](logic-foundations-set-theory-part-1.md#q147) | Can a C^(2)-supercompact κ that is not C^(2)-extendible be prepared so its C^(2)… | Open |
-| [Q148](logic-foundations-set-theory-part-1.md#q148) | Find an explicit axiomatization of the common first-order theory of D-reducts of… | Open |
-| [Q149](logic-foundations-set-theory-part-1.md#q149) | Axiomatize the common first-order theory of ZFA reducts with S(x,y)≡(x∈y∨y∈x) an… | Open |
-| [Q150](logic-foundations-set-theory-part-1.md#q150) | For an o-minimal theory T and a global M-invariant type p, must p be domination-… | Open |
-| [Q151](logic-foundations-set-theory-part-1.md#q151) | In every NIP theory, does the Morley product respect domination and induce a com… | Open |
-| [Q152](logic-foundations-set-theory-part-1.md#q152) | Let U0≺U1 be monster models of an arbitrary complete theory, with U0 small in U1… | Open |
-| [Q153](logic-foundations-set-theory-part-1.md#q153) | Must every weakly binary theory be NIP2? More generally, does weak k-arity imply… | Open |
-| [Q154](logic-foundations-set-theory-part-1.md#q154) | In finitely short abstract elementary categories with amalgamation, must long di… | Open |
-| [Q155](logic-foundations-set-theory-part-1.md#q155) | For a thick positive NSOP1 theory with nonforking existence, can Kim-independenc… | Open |
-| [Q156](logic-foundations-set-theory-part-1.md#q156) | Does the positive theory of existentially closed exponential fields satisfy nonf… | Open |
-| [Q157](logic-foundations-set-theory-part-1.md#q157) | For fixed n≥3, does RCA\*0+RTⁿ₂ prove RTⁿ⁺¹₂? Already the implication from triple… | Open |
-| [Q158](logic-foundations-set-theory-part-1.md#q158) | Over RCA\*0+¬IΣ⁰₁, is the growing grouping principle GGP²₂ provable? Is it equiva… | Open |
-| [Q159](logic-foundations-set-theory-part-1.md#q159) | Over RCA\*0, is ℓ-CRT²₂ equivalent to CRT²₂, and does RT²₂ imply ℓ-CRT²₂? The lon… | Open |
-| [Q160](logic-foundations-set-theory-part-1.md#q160) | Is the following problem NP-complete? Given an explicit finite set L of ground t… | Open |
-| [Q161](logic-foundations-set-theory-part-1.md#q161) | Is it NP-complete, given an explicit finite word set L and k≥0, to decide whethe… | Open |
-| [Q240](logic-foundations-set-theory-part-1.md#q240) | Is D uniformly definable in A, or in B? | Open |
-| [Q241](logic-foundations-set-theory-part-1.md#q241) | Is G uniformly definable in C? | Open |
-| [Q242](logic-foundations-set-theory-part-1.md#q242) | Is ordinary inquisitive disjunction (t⊨φ or t⊨ψ) uniformly definable in A when b… | Open |
-| [Q243](logic-foundations-set-theory-part-1.md#q243) | Do IVL and IVLM have the finite model property: does each non-theorem admit a co… | Open |
-| [Q244](logic-foundations-set-theory-part-1.md#q244) | Is validity of M first-order definable over S in the frame signature {≤,R}? If s… | Open |
-| [Q245](logic-foundations-set-theory-part-1.md#q245) | Determine the computational complexity of satisfiability for the full, arbitrari… | Open |
-| [Q246](logic-foundations-set-theory-part-1.md#q246) | Does some predicate R⊆ℕ make (ℤ,<,+,R) NIP but non-distal? NIP means every formu… | Open, partial results |
-| [Q247](logic-foundations-set-theory-part-1.md#q247) | Fix an o-minimal expansion \$M\$ of an ordered field and a formula \$\varphi(x_1,x_… | Open |
-| [Q248](logic-foundations-set-theory-part-1.md#q248) | Does every formula admitting a k-strong honest definition admit one of degree 1?… | Open |
-| [Q249](logic-foundations-set-theory-part-1.md#q249) | If T is strongly k-distal, without assuming NIP, must every formula φ(x₁,…,xₖ;y)… | Open |
-| [Q250](logic-foundations-set-theory-part-1.md#q250) | Does a complete NIP theory T exist with 2&lt;DR(T)<ω? | Open |
-| [Q251](logic-foundations-set-theory-part-1.md#q251) | For a finite parameter-free family Φ(x;y) in a fixed first-order structure M, su… | Open |
-| [Q301](logic-foundations-set-theory-part-1.md#q301) | Find sound and complete axiomatizations of the full, arbitrarily nested \$K\$-only… | Open |
-| [Q304](logic-foundations-set-theory-part-1.md#q304) | Is \$\\{\varphi:\exists\alpha\in\mathrm{FO}[R,=]\ \forall F\\;(F\models_{\rm frame}… | Open |
-| [Q305](logic-foundations-set-theory-part-1.md#q305) | Let \$R\$ be real closed, \$K=R(i)\$, \$G=\mathbb G_a\times\mathbb G_m\$, and \$n>1\$. L… | Open |
-| [Q306](logic-foundations-set-theory-part-1.md#q306) | In an NTP\$\_2\$ theory, let \$(a_i)\_{i\in\mathbb Z}\$ be indiscernible and \$(b_j)\_{j… | Open |
-| [Q307](logic-foundations-set-theory-part-1.md#q307) | If \$T\$ is NTP\$\_2\$, \$M\preceq N\$, and \$p(x)\in S(N)\$ divides over \$M\$, must some … | Open |
-| [Q308](logic-foundations-set-theory-part-1.md#q308) | For every NTP\$\_2\$ theory, small \$A\$, finite tuples \$a,b\$, and \$k,l\in\mathbb N\$,… | Open |
-| [Q309](logic-foundations-set-theory-part-1.md#q309) | Give a concrete sound and strongly complete natural-deduction calculus for \$\mat… | Open |
-| [Q310](logic-foundations-set-theory-part-1.md#q310) | Are subsumption and matching in \$\mathcal{FL}\_0\$ with input forward TBoxes \$\mat… | Open |
-| [Q311](logic-foundations-set-theory-part-1.md#q311) | For finite nonempty \$\Sigma\$, let \$\varphi,\psi\$ be language expressions built f… | Open |
-| [Q312](logic-foundations-set-theory-part-1.md#q312) | Does every closed well-typed program in System \$F^{=i}\_{\omega}\$ terminate under… | Open |
-| [Q313](logic-foundations-set-theory-part-1.md#q313) | Let \$T_{\mathrm{gf}}\$ be the complete limit theory of \$(\mathbb C,+,\cdot,f)\$ fo… | Open |
-| [Q314](logic-foundations-set-theory-part-1.md#q314) | Is \$\operatorname{Th}(\mathbb R,+,\cdot)\$ semi-equational? | Open |
-| [Q315](logic-foundations-set-theory-part-1.md#q315) | For each prime \$p\$, is \$\operatorname{Th}(\mathbb Q_p)\$ in the language of field… | Open |
-| [Q316](logic-foundations-set-theory-part-1.md#q316) | For \$k\geq3\$, suppose a definable \$R\subseteq X\times Y\$ is a \$(k,1)\$-semi-equat… | Open |
-| [Q527](logic-foundations-set-theory-part-1.md#q527) | Counting transitive possible-world relations | Open |
-| [Q528](logic-foundations-set-theory-part-1.md#q528) | Symmetric counting of cyclic relational patterns | Open |
-| [Q529](logic-foundations-set-theory-part-1.md#q529) | Counting worlds under generalized homophily | Open |
-| [Q692](logic-foundations-set-theory-part-1.md#q692) | Exact cost of quantified marginal-identity reasoning | Open |
-| [Q693](logic-foundations-set-theory-part-1.md#q693) | Exact cost of negated probabilistic-dependence reasoning | Open |
-| [Q988](logic-foundations-set-theory-part-1.md#q988) | Decidability with exponential probability constraints | Open |
-| [Q989](logic-foundations-set-theory-part-1.md#q989) | A decidable logic for sampling-driven belief revision | Open |
-| [Q990](logic-foundations-set-theory-part-1.md#q990) | Complete reasoning about pointwise informational dependence | Open |
-| [Q991](logic-foundations-set-theory-part-1.md#q991) | Intrinsic realizability of exact accepted-and-rejected evidence states | Open |
-| [Q992](logic-foundations-set-theory-part-1.md#q992) | When does symmetry guarantee evidential support? | Open |
-| [Q993](logic-foundations-set-theory-part-1.md#q993) | Must finite-type symmetric priors favor repeated types? | Open |
-| [Q994](logic-foundations-set-theory-part-1.md#q994) | Exact complexity of a unique undefeated minimal reason | Open |
-| [Q995](logic-foundations-set-theory-part-1.md#q995) | Deterministic hardness of ideal evidence acceptance | Open |
-| [Q1174](logic-foundations-set-theory-part-1.md#q1174) | Choiceless canonization with bounded color classes | Open |
-| [Q1175](logic-foundations-set-theory-part-1.md#q1175) | Does witnessed choice strengthen choiceless computation? | Open |
-| [Q1176](logic-foundations-set-theory-part-1.md#q1176) | Extract binary convergence from circle-valued convergence | Open |
-| [Q1177](logic-foundations-set-theory-part-1.md#q1177) | Finite outer automorphisms of finite-language structures | Open |
-| [Q1178](logic-foundations-set-theory-part-1.md#q1178) | A Borel set meeting every line twice | Open |
-| [Q1179](logic-foundations-set-theory-part-1.md#q1179) | Borel algebraically closed extensions | Open |
-| [Q1181](logic-foundations-set-theory-part-1.md#q1181) | Ordinary versus Blackwell determinacy | Open |
-| [Q1182](logic-foundations-set-theory-part-1.md#q1182) | Remove dependent choice from real Blackwell equivalence | Open |
-| [Q1183](logic-foundations-set-theory-part-1.md#q1183) | Computable bases from monotone bases | Open |
-| [Q1184](logic-foundations-set-theory-part-1.md#q1184) | Exact complexity of admitting a Schauder basis | Open |
-| [Q1269](logic-foundations-set-theory-part-1.md#q1269) | Noetherianity over every oligomorphic structure | Open |
-| [Q1270](logic-foundations-set-theory-part-1.md#q1270) | Exact Weihrauch degree of multiplayer Nash equilibria | Open |
-| [Q1272](logic-foundations-set-theory-part-1.md#q1272) | Complexity of nonuniform effective-dense equivalence | Open |
-| [Q1273](logic-foundations-set-theory-part-1.md#q1273) | Complexity of effective-dense reducibility between sets | Open |
-| [Q1274](logic-foundations-set-theory-part-1.md#q1274) | Strictly comparable 2-random degrees with one jump | Open |
-| [Q1275](logic-foundations-set-theory-part-1.md#q1275) | Injective randomness-preserving one-way real functions | Open |
-| [Q1276](logic-foundations-set-theory-part-1.md#q1276) | An effectively closed family with computable maximal-almost-disjoint part | Open |
-| [Q1277](logic-foundations-set-theory-part-1.md#q1277) | Small-model categoricity in the one-measure model | Open |
-| [Q1278](logic-foundations-set-theory-part-1.md#q1278) | Realizing categoricity degrees by decidable structures | Open |
-| [Q1279](logic-foundations-set-theory-part-1.md#q1279) | Weihrauch degree of column-pivoted LU decomposition | Open |
-| [Q1280](logic-foundations-set-theory-part-1.md#q1280) | Winning the k-even game beyond three choices | Open |
-| [Q1368](logic-foundations-set-theory-part-1.md#q1368) | A local continuity-or-jump dichotomy | Open |
-| [Q1369](logic-foundations-set-theory-part-1.md#q1369) | Embed height-three partial orders into Turing degrees | Open |
-| [Q1370](logic-foundations-set-theory-part-1.md#q1370) | Uniqueness in the weak Rudin–Keisler class | Open |
-| [Q1371](logic-foundations-set-theory-part-1.md#q1371) | Is Martin measure Rudin–Keisler maximal? | Open |
-| [Q1375](logic-foundations-set-theory-part-1.md#q1375) | Complexity of bounded-alternation Büchi arithmetic | Open, partial results |
-| [Q1376](logic-foundations-set-theory-part-1.md#q1376) | Recognize existentially Büchi-definable regular sets | Open, partial results |
-| [Q1377](logic-foundations-set-theory-part-1.md#q1377) | Finite axiomatizability of Büchi arithmetic | Open, partial results |
-| [Q1378](logic-foundations-set-theory-part-1.md#q1378) | A finite definitional expansion with quantifier elimination | Open, partial results |
-| [Q1383](logic-foundations-set-theory-part-1.md#q1383) | Separate Maltsev-closed quantifiers without a variable bound | Open |
-| [Q1479](logic-foundations-set-theory-part-1.md#q1479) | Halting strength with finitely generated complements | Open |
-| [Q1480](logic-foundations-set-theory-part-1.md#q1480) | Uniformly find generators without knowing rank | Open |
-| [Q1481](logic-foundations-set-theory-part-1.md#q1481) | Decide existential definability between regular predicates | Open, partial results |
-| [Q1482](logic-foundations-set-theory-part-1.md#q1482) | A priori complexity-preserving basis theorem | Open |
-| [Q1483](logic-foundations-set-theory-part-1.md#q1483) | A pointed perfect constant-or-injective restriction | Open |
-| [Q1574](logic-foundations-set-theory-part-1.md#q1574) | Prescribe both finite presentation dimensions | Open |
-| [Q1575](logic-foundations-set-theory-part-1.md#q1575) | Decomposition from scattered lists | Open |
-| [Q1576](logic-foundations-set-theory-part-1.md#q1576) | Closed choice versus decomposition | Open |
-| [Q1577](logic-foundations-set-theory-part-1.md#q1577) | Cantor-space versus real-line listing | Open |
-| [Q1578](logic-foundations-set-theory-part-1.md#q1578) | An everywhere arithmetically closed ultrafilter jump | Open |
-| [Q1579](logic-foundations-set-theory-part-1.md#q1579) | A nonzero degree invisible to every ultrafilter jump | Open |
-| [Q1580](logic-foundations-set-theory-part-1.md#q1580) | Strict ultrafilter-jump domination on a cone | Open |
-| [Q1583](logic-foundations-set-theory-part-1.md#q1583) | A subgraph decision degree between consecutive LPO jumps | Open |
-| [Q1661](logic-foundations-set-theory-part-1.md#q1661) | Linear size without a topological matching | Open |
-| [Q1662](logic-foundations-set-theory-part-1.md#q1662) | Linear plane matchings in complete drawings | Open |
-| [Q1667](logic-foundations-set-theory-part-1.md#q1667) | Optimal linear-order gap | Open |
-| [Q1668](logic-foundations-set-theory-part-1.md#q1668) | Faithful Boolean completeness | Open |
-| [Q1669](logic-foundations-set-theory-part-1.md#q1669) | Boolean-algebra spectral gaps | Open |
-| [Q1670](logic-foundations-set-theory-part-1.md#q1670) | Maximal back-and-forth types | Open |
-| [Q1671](logic-foundations-set-theory-part-1.md#q1671) | Other scattered Σ-complexities | Open |
-| [Q1672](logic-foundations-set-theory-part-1.md#q1672) | Atomic pairs below ∅′ | Open |
-| [Q1673](logic-foundations-set-theory-part-1.md#q1673) | Ziegler ∀∃ theory | Open |
-| [Q1674](logic-foundations-set-theory-part-1.md#q1674) | Finite Ziegler skeleton | Open |
-| [Q1767](logic-foundations-set-theory-part-1.md#q1767) | Generic compact metrizable group | Open |
-| [Q1768](logic-foundations-set-theory-part-1.md#q1768) | Small ultrapowers force small nonmeager sets | Open |
-| [Q1769](logic-foundations-set-theory-part-1.md#q1769) | Countable ultrapowers and category inequality | Open |
-| [Q1770](logic-foundations-set-theory-part-1.md#q1770) | Keisler principle in the Sacks model | Open |
-| [Q1771](logic-foundations-set-theory-part-1.md#q1771) | Larger continuum | Open |
-| [Q1772](logic-foundations-set-theory-part-1.md#q1772) | Unequal bounding numbers | Open |
-| [Q1773](logic-foundations-set-theory-part-1.md#q1773) | Projective converse | Open |
-| [Q1774](logic-foundations-set-theory-part-1.md#q1774) | Borel conjecture implication | Open |
-| [Q1775](logic-foundations-set-theory-part-1.md#q1775) | Splitting games below closed-null uniformity | Open |
-| [Q1776](logic-foundations-set-theory-part-1.md#q1776) | Null additivity below splitting-game number | Open |
-| [Q1777](logic-foundations-set-theory-part-1.md#q1777) | Double-star splitting versus domination | Open |
-| [Q1778](logic-foundations-set-theory-part-1.md#q1778) | Exact reaping-game cardinal | Open |
-| [Q1779](logic-foundations-set-theory-part-1.md#q1779) | Strong-null versus universal-null cofinality | Open |
-| [Q1780](logic-foundations-set-theory-part-1.md#q1780) | Separating universal-null additivity | Open |
-| [Q1781](logic-foundations-set-theory-part-1.md#q1781) | Exact zero-evasion number | Open |
-| [Q1782](logic-foundations-set-theory-part-1.md#q1782) | Hechler real after a second Hechler stage | Open |
-| [Q1783](logic-foundations-set-theory-part-1.md#q1783) | Mathias real after a second Mathias stage | Open |
-| [Q1831](logic-foundations-set-theory-part-1.md#q1831) | Coproducts preserve continuous sections | Open |
-| [Q1869](logic-foundations-set-theory-part-1.md#q1869) | Least continuum for vanishing | Open |
-| [Q1870](logic-foundations-set-theory-part-1.md#q1870) | Prescribed nonvanishing degrees | Open |
-| [Q1871](logic-foundations-set-theory-part-1.md#q1871) | Simultaneous countable-to-arbitrary extrapolation | Open |
-| [Q1872](logic-foundations-set-theory-part-1.md#q1872) | Projective Polish p-groups | Open |
-| [Q1873](logic-foundations-set-theory-part-1.md#q1873) | Projective topological torsion groups | Open |
-| [Q1874](logic-foundations-set-theory-part-1.md#q1874) | Nonvanishing from d=aleph two | Open |
-| [Q1875](logic-foundations-set-theory-part-1.md#q1875) | Finite-type degree spectrum | Open |
-| [Q1876](logic-foundations-set-theory-part-1.md#q1876) | Degree-preserving finite-type extension | Open |
-| [Q1877](logic-foundations-set-theory-part-1.md#q1877) | Arbitrary product groups lack generic actions | Open |
-| [Q1878](logic-foundations-set-theory-part-1.md#q1878) | Effective extensions with decidable domino problem | Open |
-| [Q1879](logic-foundations-set-theory-part-1.md#q1879) | Many-one spectrum of inclusion | Open |
-| [Q1880](logic-foundations-set-theory-part-1.md#q1880) | Embedding decidability forces computable language | Open |
-| [Q1881](logic-foundations-set-theory-part-1.md#q1881) | Optimal hybrid interpolant size | Open |
-| [Q1882](logic-foundations-set-theory-part-1.md#q1882) | Hybrid fixpoint interpolant existence | Open |
-| [Q1883](logic-foundations-set-theory-part-1.md#q1883) | Binary grades | Open |
-| [Q1932](logic-foundations-set-theory-part-1.md#q1932) | Increasing density-characterizing sequence | Open |
-| [Q1933](logic-foundations-set-theory-part-1.md#q1933) | All intermediate Borel ranks | Open |
-| [Q1968](logic-foundations-set-theory-part-1.md#q1968) | G-delta maximal cofinitary groups | Open |
-| [Q1969](logic-foundations-set-theory-part-1.md#q1969) | Infinitely many higher tuple orbits | Open |
-| [Q1970](logic-foundations-set-theory-part-1.md#q1970) | Borel maximal finitely periodic groups | Open |
-| [Q1971](logic-foundations-set-theory-part-1.md#q1971) | Eventually bounded maximal finitely periodic groups | Open |
-| [Q1972](logic-foundations-set-theory-part-1.md#q1972) | Coanalytic orthogonal families after Laver forcing | Open |
-| [Q1973](logic-foundations-set-theory-part-1.md#q1973) | Determinacy and absence of mad families | Open |
-| [Q1974](logic-foundations-set-theory-part-1.md#q1974) | Reducing Hamel-basis projective complexity | Open |
-| [Q1975](logic-foundations-set-theory-part-1.md#q1975) | Large definable tight madness above bounding | Open |
-| [Q1976](logic-foundations-set-theory-part-1.md#q1976) | Coanalytic witnesses at both ends of the mad spectrum | Open |
-| [Q1977](logic-foundations-set-theory-part-1.md#q1977) | Closed maximal eventually different permutations | Open |
-| [Q1978](logic-foundations-set-theory-part-1.md#q1978) | Equality of eventual-difference cardinal invariants | Open |
-| [Q1979](logic-foundations-set-theory-part-1.md#q1979) | Polynomial asymptotics of Presburger shattering | Open, partial results |
-| [Q1980](logic-foundations-set-theory-part-1.md#q1980) | Linear incidence bounds characterize one-basedness | Open |
-| [Q1981](logic-foundations-set-theory-part-1.md#q1981) | Interpretations preserve global linear incidence bounds | Open |
-| [Q1982](logic-foundations-set-theory-part-1.md#q1982) | Finite multiplicative stabilization forces strong compactness | Open |
-| [Q1983](logic-foundations-set-theory-part-1.md#q1983) | Join closure below a jump-traceable set | Open |
-| [Q1984](logic-foundations-set-theory-part-1.md#q1984) | Strong jump traceability implies randomness reducibility | Open |
-| [Q2067](logic-foundations-set-theory-part-1.md#q2067) | Removing coefficient restrictions from simulation | Open |
-| [Q2068](logic-foundations-set-theory-part-1.md#q2068) | Polynomial simulation of bounded coefficients | Open |
-| [Q2069](logic-foundations-set-theory-part-1.md#q2069) | Preserving small coefficients in simulation | Open |
-| [Q2070](logic-foundations-set-theory-part-1.md#q2070) | Extension preservation at clique-width three | Open |
-| [Q2071](logic-foundations-set-theory-part-1.md#q2071) | Extension preservation at twin-width one | Open |
-| [Q2072](logic-foundations-set-theory-part-1.md#q2072) | Stable bounded clique-width preservation | Open |
-| [Q2073](logic-foundations-set-theory-part-1.md#q2073) | Homomorphism preservation at bounded clique-width | Open |
-| [Q2074](logic-foundations-set-theory-part-1.md#q2074) | Deciding preservation from forbidden minors | Open |
-| [Q2075](logic-foundations-set-theory-part-1.md#q2075) | Almost-optimal tuple-type counts | Open |
-| [Q2076](logic-foundations-set-theory-part-1.md#q2076) | Homogenizability survives taking cores | Open |
-| [Q2077](logic-foundations-set-theory-part-1.md#q2077) | Lachlan structures from equality | Open |
-| [Q2078](logic-foundations-set-theory-part-1.md#q2078) | Binary NIP structures from ordered cores | Open |
-| [Q2079](logic-foundations-set-theory-part-1.md#q2079) | Strong modeling limits for stable graphs | Open |
-| [Q2080](logic-foundations-set-theory-part-1.md#q2080) | Unary expansions characterize modeling limits | Open |
-| [Q2081](logic-foundations-set-theory-part-1.md#q2081) | Composing independent-defect valuations | Open |
-| [Q2082](logic-foundations-set-theory-part-1.md#q2082) | Finite-color promise compactness implies ultrafilters | Open |
-| [Q2083](logic-foundations-set-theory-part-1.md#q2083) | One-in-three to not-all-equal compactness | Open |
-| [Q2168](logic-foundations-set-theory-part-1.md#q2168) | Presburger complexity at Σ4 | Solved here: proved |
-| [Q2169](logic-foundations-set-theory-part-1.md#q2169) | Removing the discrete factor | Open, partial results |
-| [Q2170](logic-foundations-set-theory-part-1.md#q2170) | Presburger degree-spectrum universality | Open |
-| [Q2171](logic-foundations-set-theory-part-1.md#q2171) | Scott ideals give full elementarity | Open |
-| [Q2172](logic-foundations-set-theory-part-1.md#q2172) | Computable absolute-Galois elementarity | Open |
-| [Q2173](logic-foundations-set-theory-part-1.md#q2173) | Admissibility over extendable parameters | Open |
-| [Q2174](logic-foundations-set-theory-part-1.md#q2174) | Admissibility over prime parameters | Open |
-| [Q2175](logic-foundations-set-theory-part-1.md#q2175) | Optimal GL fixed-point length | Open |
-| [Q2176](logic-foundations-set-theory-part-1.md#q2176) | Optimal universal-tangle translation | Open |
-| [Q2177](logic-foundations-set-theory-part-1.md#q2177) | Continuum many localisation values | Open |
-| [Q2178](logic-foundations-set-theory-part-1.md#q2178) | Intermediate-width localisation separation | Open |
-| [Q2179](logic-foundations-set-theory-part-1.md#q2179) | Dominating forcing without Cohen reals | Open |
-| [Q2180](logic-foundations-set-theory-part-1.md#q2180) | Higher Borel conjecture consistency | Open |
-| [Q2181](logic-foundations-set-theory-part-1.md#q2181) | Nonuniform projective choice equivalence | Open |
-| [Q2182](logic-foundations-set-theory-part-1.md#q2182) | Separating nonuniform choice levels | Open |
-| [Q2183](logic-foundations-set-theory-part-1.md#q2183) | Small nonmeagre sets at countable cofinality | Open |
-| [Q2184](logic-foundations-set-theory-part-1.md#q2184) | Capture at complete ineffability | Open |
-| [Q2267](logic-foundations-set-theory-part-1.md#q2267) | Continuum many non-tabular complete coatoms | Open |
-| [Q2268](logic-foundations-set-theory-part-1.md#q2268) | Recognizing Craig interpolation above S4_t | Open |
-| [Q2269](logic-foundations-set-theory-part-1.md#q2269) | Counting finitely approximable pretabular logics | Open |
-| [Q2270](logic-foundations-set-theory-part-1.md#q2270) | Pretabularity at depth three | Open |
-| [Q2271](logic-foundations-set-theory-part-1.md#q2271) | Injectivity of tense completion above K4 | Open |
-| [Q2272](logic-foundations-set-theory-part-1.md#q2272) | Decidability under minimal tense extension | Open |
-| [Q2273](logic-foundations-set-theory-part-1.md#q2273) | Two decidable coincidence targets | Open |
-| [Q2274](logic-foundations-set-theory-part-1.md#q2274) | Entailment with nonemptiness | Open |
-| [Q2275](logic-foundations-set-theory-part-1.md#q2275) | Fine model-checking complexity | Open |
-| [Q2276](logic-foundations-set-theory-part-1.md#q2276) | Tree bad sequences versus descending sequences | Open |
-| [Q2277](logic-foundations-set-theory-part-1.md#q2277) | Defining the enumeration skip | Open |
-| [Q2278](logic-foundations-set-theory-part-1.md#q2278) | Finite skip to totality | Open |
-| [Q2279](logic-foundations-set-theory-part-1.md#q2279) | Pigeonhole hierarchy implies cohesiveness | Open |
-| [Q2280](logic-foundations-set-theory-part-1.md#q2280) | Σ₂ pigeonhole conservation | Open |
-| [Q2281](logic-foundations-set-theory-part-1.md#q2281) | Pigeonhole hierarchy yields induction | Open |
-| [Q2282](logic-foundations-set-theory-part-1.md#q2282) | Hindman in arithmetical comprehension | Open |
-| [Q2283](logic-foundations-set-theory-part-1.md#q2283) | Independent identities in monoid varieties | Open |
-| [Q2338](logic-foundations-set-theory-part-1.md#q2338) | Universal minimal fibers in group extensions | Open |
-| [Q2339](logic-foundations-set-theory-part-1.md#q2339) | Unique ergodicity of open subgroups | Open |
-| [Q2340](logic-foundations-set-theory-part-1.md#q2340) | Metrizability from unique ergodicity | Open |
-| [Q2367](logic-foundations-set-theory-part-1.md#q2367) | Dimension one in a minimal degree | Open |
-| [Q2368](logic-foundations-set-theory-part-1.md#q2368) | Hypersmooth canonization of analytic relations | Open |
-| [Q2369](logic-foundations-set-theory-part-1.md#q2369) | Intermediate hereditary model checking | Open |
-| [Q2370](logic-foundations-set-theory-part-1.md#q2370) | Which finite CSPs are hereditary FO | Open |
-| [Q2371](logic-foundations-set-theory-part-1.md#q2371) | The last prefix tractability meta-problem | Open |
-| [Q2372](logic-foundations-set-theory-part-1.md#q2372) | Negative connected hereditary definitions | Open |
-| [Q2373](logic-foundations-set-theory-part-1.md#q2373) | Finite promise witnesses for FPC failure | Open |
-| [Q2374](logic-foundations-set-theory-part-1.md#q2374) | Classify quantifier-free dependence checking | Open |
-| [Q2375](logic-foundations-set-theory-part-1.md#q2375) | Implication of split dependencies | Open |
-| [Q2376](logic-foundations-set-theory-part-1.md#q2376) | Exact complexity of DFA primality | Open |
-| [Q2377](logic-foundations-set-theory-part-1.md#q2377) | Smash-product composition coherence | Open |
-| [Q2378](logic-foundations-set-theory-part-1.md#q2378) | Coherence for every reflector | Open |
-| [Q2379](logic-foundations-set-theory-part-1.md#q2379) | Two clocks in invariant-free networks | Open |
-| [Q2380](logic-foundations-set-theory-part-1.md#q2380) | Sparsify strong flip-flatness | Open |
-| [Q2381](logic-foundations-set-theory-part-1.md#q2381) | Universal-cover component as truncation | Open |
-| [Q2382](logic-foundations-set-theory-part-1.md#q2382) | Finitely bounded CSP representatives | Open |
-| [Q2383](logic-foundations-set-theory-part-1.md#q2383) | Connected extensional definitions | Open |
-| [Q2469](logic-foundations-set-theory-part-1.md#q2469) | Strength of inhomogeneous ring regularity | Open, partial results |
-| [Q2470](logic-foundations-set-theory-part-1.md#q2470) | Maximal complexity of hyperfiniteness | Open |
-| [Q2471](logic-foundations-set-theory-part-1.md#q2471) | Hyperfiniteness of amenable actions | Open |
-| [Q2472](logic-foundations-set-theory-part-1.md#q2472) | Bounded-degree dimension complexity | Open |
-| [Q2473](logic-foundations-set-theory-part-2.md#q2473) | Two colors on dihedral orbits | Open |
-| [Q2474](logic-foundations-set-theory-part-2.md#q2474) | Hypersmoothness for commuting functions | Open |
-| [Q2475](logic-foundations-set-theory-part-2.md#q2475) | Subcountability forces anti-complements | Open |
-| [Q2476](logic-foundations-set-theory-part-2.md#q2476) | Reflection well-foundedness over ACA | Open |
-| [Q2481](logic-foundations-set-theory-part-2.md#q2481) | Davies projections in ZFC | Open |
-| [Q2482](logic-foundations-set-theory-part-2.md#q2482) | Hyperfiniteness of Cohen equivalence | Open |
-| [Q2483](logic-foundations-set-theory-part-2.md#q2483) | Intermediate complete-theory isomorphism | Open |
-| [Q2567](logic-foundations-set-theory-part-2.md#q2567) | Lower factors of wim extensions | Open |
-| [Q2568](logic-foundations-set-theory-part-2.md#q2568) | Upper factors of wim extensions | Open |
-| [Q2569](logic-foundations-set-theory-part-2.md#q2569) | Minimal computable-topological degrees | Open |
-| [Q2570](logic-foundations-set-theory-part-2.md#q2570) | A least degree for an infinite compactum | Open |
-| [Q2571](logic-foundations-set-theory-part-2.md#q2571) | Common upper bounds for Cantor presentations | Open |
-| [Q2572](logic-foundations-set-theory-part-2.md#q2572) | Effective local connectedness up to homeomorphism | Open |
-| [Q2573](logic-foundations-set-theory-part-2.md#q2573) | First-order logic of IZF | Open |
-| [Q2574](logic-foundations-set-theory-part-2.md#q2574) | Choice extensibility over CZF | Open |
-| [Q2575](logic-foundations-set-theory-part-2.md#q2575) | Failure of coalgebraic Janin–Walukiewicz | Open |
-| [Q2576](logic-foundations-set-theory-part-2.md#q2576) | Finitizing cyclic linear-logic proofs | Open |
-| [Q2577](logic-foundations-set-theory-part-2.md#q2577) | Completeness of original game logic | Open |
-| [Q2578](logic-foundations-set-theory-part-2.md#q2578) | Non-first-order basis spectrum | Open |
-| [Q2579](logic-foundations-set-theory-part-2.md#q2579) | Non-arithmetic basis spectrum | Open |
-| [Q2580](logic-foundations-set-theory-part-2.md#q2580) | Banach categoricity at every finite level | Open |
-| [Q2581](logic-foundations-set-theory-part-2.md#q2581) | An intrinsically noncomputable Schauder basis | Open |
-| [Q2582](logic-foundations-set-theory-part-2.md#q2582) | Two-move memory for Nonempty | Open |
-| [Q2583](logic-foundations-set-theory-part-2.md#q2583) | Atomless lattice inside punctual rationals | Open |
-| [Q2666](logic-foundations-set-theory-part-2.md#q2666) | Labelled distributive lattices | Open |
-| [Q2667](logic-foundations-set-theory-part-2.md#q2667) | Early stabilization of categoricity | Open |
-| [Q2668](logic-foundations-set-theory-part-2.md#q2668) | Arithmetic fixed-point reduction | Open |
-| [Q2669](logic-foundations-set-theory-part-2.md#q2669) | Finite parallel hierarchy of ATR₂ | Open |
-| [Q2670](logic-foundations-set-theory-part-2.md#q2670) | Four-color pigeonhole versus ADS | Open |
-| [Q2671](logic-foundations-set-theory-part-2.md#q2671) | Removing singleton neighborhoods | Open |
-| [Q2672](logic-foundations-set-theory-part-2.md#q2672) | Two weak Rival–Sands calls | Open |
-| [Q2673](logic-foundations-set-theory-part-2.md#q2673) | Width-two Rival–Sands strength | Open |
-| [Q2674](logic-foundations-set-theory-part-2.md#q2674) | Cofinite Rival–Sands strength | Open |
-| [Q2675](logic-foundations-set-theory-part-2.md#q2675) | Fraïssé in ATR₀ | Open |
-| [Q2676](logic-foundations-set-theory-part-2.md#q2676) | Monotone Π⁰₁ density | Open |
-| [Q2677](logic-foundations-set-theory-part-2.md#q2677) | True-point coincidence with consistency | Open |
-| [Q2678](logic-foundations-set-theory-part-2.md#q2678) | Maximum-size Weihrauch chains | Open |
-| [Q2679](logic-foundations-set-theory-part-2.md#q2679) | Countable Weihrauch gaps | Open |
-| [Q2680](logic-foundations-set-theory-part-2.md#q2680) | Cofinality of Weihrauch degrees | Open |
-| [Q2681](logic-foundations-set-theory-part-2.md#q2681) | Continuum-sized maximal antichains | Open |
-| [Q2682](logic-foundations-set-theory-part-2.md#q2682) | Baire co-totality and discontinuity | Open |
-| [Q2768](logic-foundations-set-theory-part-2.md#q2768) | Higher dependence of pure fields | Open |
-| [Q2769](logic-foundations-set-theory-part-2.md#q2769) | Defect of the canonical valuation in divisible-tame type | Open |
-| [Q2770](logic-foundations-set-theory-part-2.md#q2770) | Consistency strength of strong distributivity | Open |
-| [Q2771](logic-foundations-set-theory-part-2.md#q2771) | Disjoint stationary sequences with CH | Open |
-| [Q2772](logic-foundations-set-theory-part-2.md#q2772) | Disjoint club sequences on ω₃ | Open |
-| [Q2773](logic-foundations-set-theory-part-2.md#q2773) | ω-stable bounded theory with unbounded type | Open |
-| [Q2774](logic-foundations-set-theory-part-2.md#q2774) | Few countable models with unbounded types | Open |
-| [Q2775](logic-foundations-set-theory-part-2.md#q2775) | Existential definitions under tilting | Open |
-| [Q2777](logic-foundations-set-theory-part-2.md#q2777) | One-dimensional spectra of GP² | Open |
-| [Q2778](logic-foundations-set-theory-part-2.md#q2778) | Global cardinality constraints for GP² | Open |
-| [Q2779](logic-foundations-set-theory-part-2.md#q2779) | Higher-dependence composition lemma | Open |
-| [Q2877](logic-foundations-set-theory-part-2.md#q2877) | Clopen finite-index layers | Open |
-| [Q2880](logic-foundations-set-theory-part-2.md#q2880) | Compact frame points and choice | Open |
-| [Q2974](logic-foundations-set-theory-part-2.md#q2974) | Eventual strictness of pure maps in ZFC | Open |
-| [Q2975](logic-foundations-set-theory-part-2.md#q2975) | Alternation-free two-way interpolation | Open |
-| [Q2976](logic-foundations-set-theory-part-2.md#q2976) | Finite-model two-way interpolation | Open |
-| [Q2977](logic-foundations-set-theory-part-2.md#q2977) | Uniform two-way interpolation | Open |
-| [Q2978](logic-foundations-set-theory-part-2.md#q2978) | Two quantifier blocks with two power predicates | Open |
-| [Q2979](logic-foundations-set-theory-part-2.md#q2979) | Existential arithmetic with two exponential functions | Open |
-| [Q2980](logic-foundations-set-theory-part-2.md#q2980) | Repeated-root recurrence predicate | Open |
-| [Q2981](logic-foundations-set-theory-part-2.md#q2981) | Presburger arithmetic with primes | Open |
-| [Q2982](logic-foundations-set-theory-part-2.md#q2982) | Order with power-free predicates | Open |
-| [Q2990](logic-foundations-set-theory-part-2.md#q2990) | One-variable arithmetic with general polynomial predicates | Open |
-| [Q2991](logic-foundations-set-theory-part-2.md#q2991) | Two-variable arithmetic with squares | Open |
-| [Q2992](logic-foundations-set-theory-part-2.md#q2992) | Two-variable existential arithmetic with cubes | Open |
-| [Q2993](logic-foundations-set-theory-part-2.md#q2993) | Existential arithmetic with three power predicates | Open |
-| [Q3074](logic-foundations-set-theory-part-2.md#q3074) | Strong indivisibility in REC | Open |
-| [Q3078](logic-foundations-set-theory-part-2.md#q3078) | Differential largeness versus genericity | Open |
-| [Q3081](logic-foundations-set-theory-part-2.md#q3081) | Higher hierarchy inside NTP₂ | Open |
-| [Q3169](logic-foundations-set-theory-part-2.md#q3169) | Borel ranks for tall ideal topologies | Open |
-| [Q3170](logic-foundations-set-theory-part-2.md#q3170) | Countable-cofinality correctness into the universe | Open |
-| [Q3171](logic-foundations-set-theory-part-2.md#q3171) | Extending HOD covering past compactness | Open |
-| [Q3172](logic-foundations-set-theory-part-2.md#q3172) | Consistency with floating functions | Open |
-| [Q3173](logic-foundations-set-theory-part-2.md#q3173) | Separating the last two Scott highness levels | Open |
-| [Q3174](logic-foundations-set-theory-part-2.md#q3174) | Low-rank trees testing global isomorphism highness | Open |
-| [Q3175](logic-foundations-set-theory-part-2.md#q3175) | Removing weakening with polynomial proof cost | Open |
-| [Q3176](logic-foundations-set-theory-part-2.md#q3176) | Removing contraction with polynomial proof cost | Open |
-| [Q3178](logic-foundations-set-theory-part-2.md#q3178) | Uniform isomorphism highness at a minimal double jump | Open |
-| [Q3179](logic-foundations-set-theory-part-2.md#q3179) | Transferring total isomorphism procedures | Open |
-| [Q3180](logic-foundations-set-theory-part-2.md#q3180) | First HOD disagreement at uncountable cofinality | Open |
-| [Q3181](logic-foundations-set-theory-part-2.md#q3181) | Stationary power-set agreement at a singular limit | Open |
-| [Q3182](logic-foundations-set-theory-part-2.md#q3182) | Double-successor compactness inside HOD | Open |
-| [Q3183](logic-foundations-set-theory-part-2.md#q3183) | Compactness of nonmeasurability in HOD | Open |
-| [Q3268](logic-foundations-set-theory-part-2.md#q3268) | Distal expansions of Mekler groups | Open |
-| [Q3269](logic-foundations-set-theory-part-2.md#q3269) | Ramsey structures beyond their dependence arity | Open |
-| [Q3270](logic-foundations-set-theory-part-2.md#q3270) | Sharp type-language Scott sentences | Open |
-| [Q3271](logic-foundations-set-theory-part-2.md#q3271) | Sharp type-language model separation | Open |
-| [Q3272](logic-foundations-set-theory-part-2.md#q3272) | Lower-complexity recovery at infinite Scott ranks | Open |
-| [Q3273](logic-foundations-set-theory-part-2.md#q3273) | Analytic Van Douwen families for ideals | Open |
-| [Q3274](logic-foundations-set-theory-part-2.md#q3274) | Analytic transversals modulo P-points | Open |
-| [Q3275](logic-foundations-set-theory-part-2.md#q3275) | Borel productive families for ideals | Open |
-| [Q3279](logic-foundations-set-theory-part-2.md#q3279) | Effective amenable actions of exact groups | Open |
-| [Q3280](logic-foundations-set-theory-part-2.md#q3280) | Subset closure of extensional well-quasi-orders | Open |
-| [Q3373](logic-foundations-set-theory-part-2.md#q3373) | Collapse absoluteness at higher projective levels | Open |
-| [Q3374](logic-foundations-set-theory-part-2.md#q3374) | A measurable successor of the first singular cardinal | Open |
-| [Q3375](logic-foundations-set-theory-part-2.md#q3375) | Sharp weight at the distributivity threshold | Open |
-| [Q3376](logic-foundations-set-theory-part-2.md#q3376) | Nonuniform simultaneous compactness below the splitting number | Open |
-| [Q3380](logic-foundations-set-theory-part-2.md#q3380) | Removing the large cardinal from finite-equivalence classification | Open |
-| [Q3381](logic-foundations-set-theory-part-2.md#q3381) | Potential cardinality of a branching refinement theory | Open |
-| [Q3382](logic-foundations-set-theory-part-2.md#q3382) | CBERs admitting spanning trees in every graphing | Open |
-| [Q3383](logic-foundations-set-theory-part-2.md#q3383) | Vizing’s theorem on a comeager invariant set | Open |
-| [Q3384](logic-foundations-set-theory-part-2.md#q3384) | Countable invariant uniformization and essential countability | Open |
-| [Q3385](logic-foundations-set-theory-part-2.md#q3385) | Effective invariant uniformization without smoothness | Open |
-| [Q3430](logic-foundations-set-theory-part-2.md#q3430) | Determinacy of graph-query games | Open |
-| [Q3431](logic-foundations-set-theory-part-2.md#q3431) | Elusive positive minimum degree | Open |
-| [Q3432](logic-foundations-set-theory-part-2.md#q3432) | CSP dichotomy with dependent choice | Open |
-| [Q3435](logic-foundations-set-theory-part-2.md#q3435) | Hausdorff homomorphism-distinguishing topology | Open |
-| [Q3482](logic-foundations-set-theory-part-2.md#q3482) | Subhalting categoricity of linear orders | Open |
-| [Q3493](logic-foundations-set-theory-part-2.md#q3493) | Six-element Ramsey choice | Open |
-| [Q3494](logic-foundations-set-theory-part-2.md#q3494) | The remaining four-cardinal ordering | Open |
-| [Q3552](logic-foundations-set-theory-part-2.md#q3552) | Are uncountably many distinct varieties of commutative semilinear residuated lattices amalgamating? | Open |
-| [Q3553](logic-foundations-set-theory-part-2.md#q3553) | Does any nonabelian variety of lattice-ordered groups have AP? Group translations preserve order. | Open |
-| [Q3554](logic-foundations-set-theory-part-2.md#q3554) | Do all commutative cancellative semilinear residuated lattices have AP? | Open |
-| [Q3555](logic-foundations-set-theory-part-2.md#q3555) | Do all integral residuated lattices have AP? Integral means x≤1 for every x. | Open |
-| [Q3556](logic-foundations-set-theory-part-2.md#q3556) | Given finite residuated lattices A,B,C by operation tables and embeddings A→B,A→C, is it… | Open |
-| [Q3557](logic-foundations-set-theory-part-2.md#q3557) | Give an explicit characterization of QL_=(IKP), the first-order formulas with equality whose… | Open |
-| [Q3558](logic-foundations-set-theory-part-2.md#q3558) | For constructive Zermelo–Fraenkel theory CZF, and for intuitionistic Zermelo–Fraenkel theory IZF… | Open |
-| [Q3561](logic-foundations-set-theory-part-2.md#q3561) | For an uncountable regular successor κ, let d_κ be the least size of an eventually dominating… | Open |
-| [Q3562](logic-foundations-set-theory-part-2.md#q3562) | Let GC² be two-variable guarded first-order logic with counting, over finite unary/binary… | Open |
-| [Q3563](logic-foundations-set-theory-part-2.md#q3563) | Over RCA\*₀, does ADS plus exponential closure of I⁰₁ imply CRT²₂? Ask also with CAC replacing ADS. | Open |
-| [Q3564](logic-foundations-set-theory-part-2.md#q3564) | Let W consist of all maps ω+1→ω+1 preserving arbitrary joins, including the empty join. Its… | Open |
-| [Q3565](logic-foundations-set-theory-part-2.md#q3565) | Do commutative idempotent distributive lattice-ordered monoids have AP? Such an algebra… | Open |
-| [Q3566](logic-foundations-set-theory-part-2.md#q3566) | A lattice-ordered pregroup is a lattice-ordered monoid (L,∧,∨,·,1) with order-preserving… | Open |
-| [Q3567](logic-foundations-set-theory-part-2.md#q3567) | What is the exact consistency strength over ZFC of a weakly compact κ satisfying b_κ(∈\*)>κ+? | Open |
-| [Q3635](logic-foundations-set-theory-part-2.md#q3635) | A continuous group action on a metrizable space is metric-independently expansive if, for every… | Open |
-| [Q3636](logic-foundations-set-theory-part-2.md#q3636) | For every uncountable cardinal λ, is EGCH(λ) independent of ZFC? EGCH(λ) says that a group G of… | Open |
-| [Q3654](logic-foundations-set-theory-part-2.md#q3654) | For n≥1 put Ω\_n=ω·n+1. Let R_n comprise all arbitrary-join-preserving maps Ω\_n→Ω\_n, including… | Open |
-| [Q3655](logic-foundations-set-theory-part-2.md#q3655) | Is the positive Horn theory of the free Heyting algebra on countably many generators decidable?… | Open |
-| [Q3656](logic-foundations-set-theory-part-2.md#q3656) | Given a propositional axiom α, is it decidable whether IPC+α is uniformly locally tabular: some… | Open |
-| [Q3657](logic-foundations-set-theory-part-2.md#q3657) | Does ACA₀ prove Δ¹₂ₙ-Det⇒Π¹₂ₙ-Det for every n≥2? Boldface Γ-Det means determinacy of length-ω… | Open |
-| [Q3658](logic-foundations-set-theory-part-2.md#q3658) | Which α<δ¹₂ occur as the least ordinal with D(α) ill-founded for a recursive pseudodilator D? A… | Open |
-| [Q3659](logic-foundations-set-theory-part-2.md#q3659) | Is there a fixed c.e. operator W(A)=W_e^A satisfying A<\_T W(A)<\_T A′ for every A⊆N and… | Open |
-| [Q3660](logic-foundations-set-theory-part-2.md#q3660) | Is intuitionistic second-order propositional logic weakly complete for complete Heyting… | Open |
-| [Q3663](logic-foundations-set-theory-part-2.md#q3663) | Is every 1-generic A⊆N dispersive? Put δ(X,Y)=limsup_n \|(X△Y)∩[0,n)\|/n and… | Open |
-| [Q3664](logic-foundations-set-theory-part-2.md#q3664) | For every k≥3, are there ε>0 and arbitrarily large existential-positive FO^{k+1} sentences φ… | Open |
-| [Q3665](logic-foundations-set-theory-part-2.md#q3665) | Are there ε>0,n₀ such that, for every n>n₀, two FO²-distinguishable n-element relational… | Open |
-| [Q3753](logic-foundations-set-theory-part-2.md#q3753) | Omega-categorical Heyting theories | Open |
-| [Q3754](logic-foundations-set-theory-part-2.md#q3754) | Effective descent for finitely presented Heyting algebras | Open |
-| [Q3755](logic-foundations-set-theory-part-2.md#q3755) | Analytic maximal ideal-independent family | Open |
-| [Q3756](logic-foundations-set-theory-part-2.md#q3756) | A projective gap for MAD families | Open |
-| [Q3757](logic-foundations-set-theory-part-2.md#q3757) | Nonpolyhedral semialgebraic modal logic | Open |
-| [Q3758](logic-foundations-set-theory-part-2.md#q3758) | Rapid constructible Raisonnier filters and domination | Open |
-| [Q3759](logic-foundations-set-theory-part-2.md#q3759) | The covering number of the Raisonnier ideal | Open |
-| [Q3760](logic-foundations-set-theory-part-2.md#q3760) | Interpolation above Fischer–Servi logic with linearity | Open |
-| [Q3761](logic-foundations-set-theory-part-2.md#q3761) | Every point of a Kakeya set computes the halting problem | Open |
-| [Q3762](logic-foundations-set-theory-part-2.md#q3762) | Minimal subsets of Borel whole-line Kakeya sets | Open |
-| [Q3763](logic-foundations-set-theory-part-2.md#q3763) | Decidability of admissibility in K | Open |
-| [Q3764](logic-foundations-set-theory-part-2.md#q3764) | Kripke completeness of transitive union-splittings | Open |
-| [Q3765](logic-foundations-set-theory-part-2.md#q3765) | Recognizing a transitive union-splitting | Open |
-| [Q3766](logic-foundations-set-theory-part-2.md#q3766) | Henselized rational functions inside Laurent series | Open |
-| [Q3767](logic-foundations-set-theory-part-2.md#q3767) | Pointed AKE for imperfect deeply ramified fields | Open |
+| <a id="q80"></a>[Q80](logic-foundations-set-theory-part-1.md#q80) | If every ordinal-length Lipschitz game G_(δ)(U,W) between countably complete ult… | Open |
+| <a id="q81"></a>[Q81](logic-foundations-set-theory-part-1.md#q81) | Under UA, are hereditarily uniform irreducible countably complete ultrafilters a… | Open |
+| <a id="q82"></a>[Q82](logic-foundations-set-theory-part-1.md#q82) | In ZFC, if countably complete ultrafilters U,W are mutually internal, must j_(U)… | Open |
+| <a id="q83"></a>[Q83](logic-foundations-set-theory-part-1.md#q83) | Assuming UA and κ supercompact, must HOD compute κ^(+) correctly? | Open |
+| <a id="q84"></a>[Q84](logic-foundations-set-theory-part-1.md#q84) | Under UA, are isolated Fréchet cardinals exactly the measurables λ that are not … | Open |
+| <a id="q85"></a>[Q85](logic-foundations-set-theory-part-1.md#q85) | For n nonconstant solution pairs of ∂\_(x)^(2)y=6y^(2)+x with (y_(i)/y_(j))^(5)≠1… | Open |
+| <a id="q86"></a>[Q86](logic-foundations-set-theory-part-1.md#q86) | Which differential equations E(x,y) admit a nontrivial adequate, or strongly ade… | Open |
+| <a id="q87"></a>[Q87](logic-foundations-set-theory-part-1.md#q87) | For a differentially closed field ℱ=(F;+,⋅,0,1,D) and a family R of ℱ-definable … | Open |
+| <a id="q88"></a>[Q88](logic-foundations-set-theory-part-1.md#q88) | For divergent AD^(+) models L(A,ℝ),L(B,ℝ), set Δ=𝒫(ℝ)∩L(A,ℝ)∩L(B,ℝ) and κ=min(Θ^… | Open |
+| <a id="q89"></a>[Q89](logic-foundations-set-theory-part-1.md#q89) | Assume Strong Sealing, a proper class of measurable Woodin cardinals, and exactl… | Open |
+| <a id="q90"></a>[Q90](logic-foundations-set-theory-part-1.md#q90) | Under Strong Sealing, arbitrarily large measurable Woodin cardinals, and exactly… | Open |
+| <a id="q91"></a>[Q91](logic-foundations-set-theory-part-1.md#q91) | Given supercompact κ, V-generic g⊆Col(ω,<κ), and definable M⊆V(ℝ^(\*)) satisfying… | Open |
+| <a id="q92"></a>[Q92](logic-foundations-set-theory-part-1.md#q92) | Assume LSA+V=L(𝒫(ℝ)), Θ a limit of Woodins in HOD, and L(Δ,ℝ)⊨HPC. Do some κ,λ∈(… | Open |
+| <a id="q113"></a>[Q113](logic-foundations-set-theory-part-1.md#q113) | If an abstract linear space has irreducible algebraic base S and constant fibre … | Open |
+| <a id="q114"></a>[Q114](logic-foundations-set-theory-part-1.md#q114) | For rational step words u,v over a compact metric alphabet Σ with rational pairw… | Open |
+| <a id="q146"></a>[Q146](logic-foundations-set-theory-part-1.md#q146) | For singular α>κ and κ α-subcompact, can preparatory forcing make κ's α-subcompa… | Open |
+| <a id="q147"></a>[Q147](logic-foundations-set-theory-part-1.md#q147) | Can a C^(2)-supercompact κ that is not C^(2)-extendible be prepared so its C^(2)… | Open |
+| <a id="q148"></a>[Q148](logic-foundations-set-theory-part-1.md#q148) | Find an explicit axiomatization of the common first-order theory of D-reducts of… | Open |
+| <a id="q149"></a>[Q149](logic-foundations-set-theory-part-1.md#q149) | Axiomatize the common first-order theory of ZFA reducts with S(x,y)≡(x∈y∨y∈x) an… | Open |
+| <a id="q150"></a>[Q150](logic-foundations-set-theory-part-1.md#q150) | For an o-minimal theory T and a global M-invariant type p, must p be domination-… | Open |
+| <a id="q151"></a>[Q151](logic-foundations-set-theory-part-1.md#q151) | In every NIP theory, does the Morley product respect domination and induce a com… | Open |
+| <a id="q152"></a>[Q152](logic-foundations-set-theory-part-1.md#q152) | Let U0≺U1 be monster models of an arbitrary complete theory, with U0 small in U1… | Open |
+| <a id="q153"></a>[Q153](logic-foundations-set-theory-part-1.md#q153) | Must every weakly binary theory be NIP2? More generally, does weak k-arity imply… | Open |
+| <a id="q154"></a>[Q154](logic-foundations-set-theory-part-1.md#q154) | In finitely short abstract elementary categories with amalgamation, must long di… | Open |
+| <a id="q155"></a>[Q155](logic-foundations-set-theory-part-1.md#q155) | For a thick positive NSOP1 theory with nonforking existence, can Kim-independenc… | Open |
+| <a id="q156"></a>[Q156](logic-foundations-set-theory-part-1.md#q156) | Does the positive theory of existentially closed exponential fields satisfy nonf… | Open |
+| <a id="q157"></a>[Q157](logic-foundations-set-theory-part-1.md#q157) | For fixed n≥3, does RCA\*0+RTⁿ₂ prove RTⁿ⁺¹₂? Already the implication from triple… | Open |
+| <a id="q158"></a>[Q158](logic-foundations-set-theory-part-1.md#q158) | Over RCA\*0+¬IΣ⁰₁, is the growing grouping principle GGP²₂ provable? Is it equiva… | Open |
+| <a id="q159"></a>[Q159](logic-foundations-set-theory-part-1.md#q159) | Over RCA\*0, is ℓ-CRT²₂ equivalent to CRT²₂, and does RT²₂ imply ℓ-CRT²₂? The lon… | Open |
+| <a id="q160"></a>[Q160](logic-foundations-set-theory-part-1.md#q160) | Is the following problem NP-complete? Given an explicit finite set L of ground t… | Open |
+| <a id="q161"></a>[Q161](logic-foundations-set-theory-part-1.md#q161) | Is it NP-complete, given an explicit finite word set L and k≥0, to decide whethe… | Open |
+| <a id="q240"></a>[Q240](logic-foundations-set-theory-part-1.md#q240) | Is D uniformly definable in A, or in B? | Open |
+| <a id="q241"></a>[Q241](logic-foundations-set-theory-part-1.md#q241) | Is G uniformly definable in C? | Open |
+| <a id="q242"></a>[Q242](logic-foundations-set-theory-part-1.md#q242) | Is ordinary inquisitive disjunction (t⊨φ or t⊨ψ) uniformly definable in A when b… | Open |
+| <a id="q243"></a>[Q243](logic-foundations-set-theory-part-1.md#q243) | Do IVL and IVLM have the finite model property: does each non-theorem admit a co… | Open |
+| <a id="q244"></a>[Q244](logic-foundations-set-theory-part-1.md#q244) | Is validity of M first-order definable over S in the frame signature {≤,R}? If s… | Open |
+| <a id="q245"></a>[Q245](logic-foundations-set-theory-part-1.md#q245) | Determine the computational complexity of satisfiability for the full, arbitrari… | Open |
+| <a id="q246"></a>[Q246](logic-foundations-set-theory-part-1.md#q246) | Does some predicate R⊆ℕ make (ℤ,<,+,R) NIP but non-distal? NIP means every formu… | Open, partial results |
+| <a id="q247"></a>[Q247](logic-foundations-set-theory-part-1.md#q247) | Fix an o-minimal expansion \$M\$ of an ordered field and a formula \$\varphi(x_1,x_… | Open |
+| <a id="q248"></a>[Q248](logic-foundations-set-theory-part-1.md#q248) | Does every formula admitting a k-strong honest definition admit one of degree 1?… | Open |
+| <a id="q249"></a>[Q249](logic-foundations-set-theory-part-1.md#q249) | If T is strongly k-distal, without assuming NIP, must every formula φ(x₁,…,xₖ;y)… | Open |
+| <a id="q250"></a>[Q250](logic-foundations-set-theory-part-1.md#q250) | Does a complete NIP theory T exist with 2&lt;DR(T)<ω? | Open |
+| <a id="q251"></a>[Q251](logic-foundations-set-theory-part-1.md#q251) | For a finite parameter-free family Φ(x;y) in a fixed first-order structure M, su… | Open |
+| <a id="q301"></a>[Q301](logic-foundations-set-theory-part-1.md#q301) | Find sound and complete axiomatizations of the full, arbitrarily nested \$K\$-only… | Open |
+| <a id="q304"></a>[Q304](logic-foundations-set-theory-part-1.md#q304) | Is \$\\{\varphi:\exists\alpha\in\mathrm{FO}[R,=]\ \forall F\\;(F\models_{\rm frame}… | Open |
+| <a id="q305"></a>[Q305](logic-foundations-set-theory-part-1.md#q305) | Let \$R\$ be real closed, \$K=R(i)\$, \$G=\mathbb G_a\times\mathbb G_m\$, and \$n>1\$. L… | Open |
+| <a id="q306"></a>[Q306](logic-foundations-set-theory-part-1.md#q306) | In an NTP\$\_2\$ theory, let \$(a_i)\_{i\in\mathbb Z}\$ be indiscernible and \$(b_j)\_{j… | Open |
+| <a id="q307"></a>[Q307](logic-foundations-set-theory-part-1.md#q307) | If \$T\$ is NTP\$\_2\$, \$M\preceq N\$, and \$p(x)\in S(N)\$ divides over \$M\$, must some … | Open |
+| <a id="q308"></a>[Q308](logic-foundations-set-theory-part-1.md#q308) | For every NTP\$\_2\$ theory, small \$A\$, finite tuples \$a,b\$, and \$k,l\in\mathbb N\$,… | Open |
+| <a id="q309"></a>[Q309](logic-foundations-set-theory-part-1.md#q309) | Give a concrete sound and strongly complete natural-deduction calculus for \$\mat… | Open |
+| <a id="q310"></a>[Q310](logic-foundations-set-theory-part-1.md#q310) | Are subsumption and matching in \$\mathcal{FL}\_0\$ with input forward TBoxes \$\mat… | Open |
+| <a id="q311"></a>[Q311](logic-foundations-set-theory-part-1.md#q311) | For finite nonempty \$\Sigma\$, let \$\varphi,\psi\$ be language expressions built f… | Open |
+| <a id="q312"></a>[Q312](logic-foundations-set-theory-part-1.md#q312) | Does every closed well-typed program in System \$F^{=i}\_{\omega}\$ terminate under… | Open |
+| <a id="q313"></a>[Q313](logic-foundations-set-theory-part-1.md#q313) | Let \$T_{\mathrm{gf}}\$ be the complete limit theory of \$(\mathbb C,+,\cdot,f)\$ fo… | Open |
+| <a id="q314"></a>[Q314](logic-foundations-set-theory-part-1.md#q314) | Is \$\operatorname{Th}(\mathbb R,+,\cdot)\$ semi-equational? | Open |
+| <a id="q315"></a>[Q315](logic-foundations-set-theory-part-1.md#q315) | For each prime \$p\$, is \$\operatorname{Th}(\mathbb Q_p)\$ in the language of field… | Open |
+| <a id="q316"></a>[Q316](logic-foundations-set-theory-part-1.md#q316) | For \$k\geq3\$, suppose a definable \$R\subseteq X\times Y\$ is a \$(k,1)\$-semi-equat… | Open |
+| <a id="q527"></a>[Q527](logic-foundations-set-theory-part-1.md#q527) | Counting transitive possible-world relations | Open |
+| <a id="q528"></a>[Q528](logic-foundations-set-theory-part-1.md#q528) | Symmetric counting of cyclic relational patterns | Open |
+| <a id="q529"></a>[Q529](logic-foundations-set-theory-part-1.md#q529) | Counting worlds under generalized homophily | Open |
+| <a id="q692"></a>[Q692](logic-foundations-set-theory-part-1.md#q692) | Exact cost of quantified marginal-identity reasoning | Open |
+| <a id="q693"></a>[Q693](logic-foundations-set-theory-part-1.md#q693) | Exact cost of negated probabilistic-dependence reasoning | Open |
+| <a id="q988"></a>[Q988](logic-foundations-set-theory-part-1.md#q988) | Decidability with exponential probability constraints | Open |
+| <a id="q989"></a>[Q989](logic-foundations-set-theory-part-1.md#q989) | A decidable logic for sampling-driven belief revision | Open |
+| <a id="q990"></a>[Q990](logic-foundations-set-theory-part-1.md#q990) | Complete reasoning about pointwise informational dependence | Open |
+| <a id="q991"></a>[Q991](logic-foundations-set-theory-part-1.md#q991) | Intrinsic realizability of exact accepted-and-rejected evidence states | Open |
+| <a id="q992"></a>[Q992](logic-foundations-set-theory-part-1.md#q992) | When does symmetry guarantee evidential support? | Open |
+| <a id="q993"></a>[Q993](logic-foundations-set-theory-part-1.md#q993) | Must finite-type symmetric priors favor repeated types? | Open |
+| <a id="q994"></a>[Q994](logic-foundations-set-theory-part-1.md#q994) | Exact complexity of a unique undefeated minimal reason | Open |
+| <a id="q995"></a>[Q995](logic-foundations-set-theory-part-1.md#q995) | Deterministic hardness of ideal evidence acceptance | Open |
+| <a id="q1174"></a>[Q1174](logic-foundations-set-theory-part-1.md#q1174) | Choiceless canonization with bounded color classes | Open |
+| <a id="q1175"></a>[Q1175](logic-foundations-set-theory-part-1.md#q1175) | Does witnessed choice strengthen choiceless computation? | Open |
+| <a id="q1176"></a>[Q1176](logic-foundations-set-theory-part-1.md#q1176) | Extract binary convergence from circle-valued convergence | Open |
+| <a id="q1177"></a>[Q1177](logic-foundations-set-theory-part-1.md#q1177) | Finite outer automorphisms of finite-language structures | Open |
+| <a id="q1178"></a>[Q1178](logic-foundations-set-theory-part-1.md#q1178) | A Borel set meeting every line twice | Open |
+| <a id="q1179"></a>[Q1179](logic-foundations-set-theory-part-1.md#q1179) | Borel algebraically closed extensions | Open |
+| <a id="q1181"></a>[Q1181](logic-foundations-set-theory-part-1.md#q1181) | Ordinary versus Blackwell determinacy | Open |
+| <a id="q1182"></a>[Q1182](logic-foundations-set-theory-part-1.md#q1182) | Remove dependent choice from real Blackwell equivalence | Open |
+| <a id="q1183"></a>[Q1183](logic-foundations-set-theory-part-1.md#q1183) | Computable bases from monotone bases | Open |
+| <a id="q1184"></a>[Q1184](logic-foundations-set-theory-part-1.md#q1184) | Exact complexity of admitting a Schauder basis | Open |
+| <a id="q1269"></a>[Q1269](logic-foundations-set-theory-part-1.md#q1269) | Noetherianity over every oligomorphic structure | Open |
+| <a id="q1270"></a>[Q1270](logic-foundations-set-theory-part-1.md#q1270) | Exact Weihrauch degree of multiplayer Nash equilibria | Open |
+| <a id="q1272"></a>[Q1272](logic-foundations-set-theory-part-1.md#q1272) | Complexity of nonuniform effective-dense equivalence | Open |
+| <a id="q1273"></a>[Q1273](logic-foundations-set-theory-part-1.md#q1273) | Complexity of effective-dense reducibility between sets | Open |
+| <a id="q1274"></a>[Q1274](logic-foundations-set-theory-part-1.md#q1274) | Strictly comparable 2-random degrees with one jump | Open |
+| <a id="q1275"></a>[Q1275](logic-foundations-set-theory-part-1.md#q1275) | Injective randomness-preserving one-way real functions | Open |
+| <a id="q1276"></a>[Q1276](logic-foundations-set-theory-part-1.md#q1276) | An effectively closed family with computable maximal-almost-disjoint part | Open |
+| <a id="q1277"></a>[Q1277](logic-foundations-set-theory-part-1.md#q1277) | Small-model categoricity in the one-measure model | Open |
+| <a id="q1278"></a>[Q1278](logic-foundations-set-theory-part-1.md#q1278) | Realizing categoricity degrees by decidable structures | Open |
+| <a id="q1279"></a>[Q1279](logic-foundations-set-theory-part-1.md#q1279) | Weihrauch degree of column-pivoted LU decomposition | Open |
+| <a id="q1280"></a>[Q1280](logic-foundations-set-theory-part-1.md#q1280) | Winning the k-even game beyond three choices | Open |
+| <a id="q1368"></a>[Q1368](logic-foundations-set-theory-part-1.md#q1368) | A local continuity-or-jump dichotomy | Open |
+| <a id="q1369"></a>[Q1369](logic-foundations-set-theory-part-1.md#q1369) | Embed height-three partial orders into Turing degrees | Open |
+| <a id="q1370"></a>[Q1370](logic-foundations-set-theory-part-1.md#q1370) | Uniqueness in the weak Rudin–Keisler class | Open |
+| <a id="q1371"></a>[Q1371](logic-foundations-set-theory-part-1.md#q1371) | Is Martin measure Rudin–Keisler maximal? | Open |
+| <a id="q1375"></a>[Q1375](logic-foundations-set-theory-part-1.md#q1375) | Complexity of bounded-alternation Büchi arithmetic | Open, partial results |
+| <a id="q1376"></a>[Q1376](logic-foundations-set-theory-part-1.md#q1376) | Recognize existentially Büchi-definable regular sets | Open, partial results |
+| <a id="q1377"></a>[Q1377](logic-foundations-set-theory-part-1.md#q1377) | Finite axiomatizability of Büchi arithmetic | Open, partial results |
+| <a id="q1378"></a>[Q1378](logic-foundations-set-theory-part-1.md#q1378) | A finite definitional expansion with quantifier elimination | Open, partial results |
+| <a id="q1383"></a>[Q1383](logic-foundations-set-theory-part-1.md#q1383) | Separate Maltsev-closed quantifiers without a variable bound | Open |
+| <a id="q1479"></a>[Q1479](logic-foundations-set-theory-part-1.md#q1479) | Halting strength with finitely generated complements | Open |
+| <a id="q1480"></a>[Q1480](logic-foundations-set-theory-part-1.md#q1480) | Uniformly find generators without knowing rank | Open |
+| <a id="q1481"></a>[Q1481](logic-foundations-set-theory-part-1.md#q1481) | Decide existential definability between regular predicates | Open, partial results |
+| <a id="q1482"></a>[Q1482](logic-foundations-set-theory-part-1.md#q1482) | A priori complexity-preserving basis theorem | Open |
+| <a id="q1483"></a>[Q1483](logic-foundations-set-theory-part-1.md#q1483) | A pointed perfect constant-or-injective restriction | Open |
+| <a id="q1574"></a>[Q1574](logic-foundations-set-theory-part-1.md#q1574) | Prescribe both finite presentation dimensions | Open |
+| <a id="q1575"></a>[Q1575](logic-foundations-set-theory-part-1.md#q1575) | Decomposition from scattered lists | Open |
+| <a id="q1576"></a>[Q1576](logic-foundations-set-theory-part-1.md#q1576) | Closed choice versus decomposition | Open |
+| <a id="q1577"></a>[Q1577](logic-foundations-set-theory-part-1.md#q1577) | Cantor-space versus real-line listing | Open |
+| <a id="q1578"></a>[Q1578](logic-foundations-set-theory-part-1.md#q1578) | An everywhere arithmetically closed ultrafilter jump | Open |
+| <a id="q1579"></a>[Q1579](logic-foundations-set-theory-part-1.md#q1579) | A nonzero degree invisible to every ultrafilter jump | Open |
+| <a id="q1580"></a>[Q1580](logic-foundations-set-theory-part-1.md#q1580) | Strict ultrafilter-jump domination on a cone | Open |
+| <a id="q1583"></a>[Q1583](logic-foundations-set-theory-part-1.md#q1583) | A subgraph decision degree between consecutive LPO jumps | Open |
+| <a id="q1661"></a>[Q1661](logic-foundations-set-theory-part-1.md#q1661) | Linear size without a topological matching | Open |
+| <a id="q1662"></a>[Q1662](logic-foundations-set-theory-part-1.md#q1662) | Linear plane matchings in complete drawings | Open |
+| <a id="q1667"></a>[Q1667](logic-foundations-set-theory-part-1.md#q1667) | Optimal linear-order gap | Open |
+| <a id="q1668"></a>[Q1668](logic-foundations-set-theory-part-1.md#q1668) | Faithful Boolean completeness | Open |
+| <a id="q1669"></a>[Q1669](logic-foundations-set-theory-part-1.md#q1669) | Boolean-algebra spectral gaps | Open |
+| <a id="q1670"></a>[Q1670](logic-foundations-set-theory-part-1.md#q1670) | Maximal back-and-forth types | Open |
+| <a id="q1671"></a>[Q1671](logic-foundations-set-theory-part-1.md#q1671) | Other scattered Σ-complexities | Open |
+| <a id="q1672"></a>[Q1672](logic-foundations-set-theory-part-1.md#q1672) | Atomic pairs below ∅′ | Open |
+| <a id="q1673"></a>[Q1673](logic-foundations-set-theory-part-1.md#q1673) | Ziegler ∀∃ theory | Open |
+| <a id="q1674"></a>[Q1674](logic-foundations-set-theory-part-1.md#q1674) | Finite Ziegler skeleton | Open |
+| <a id="q1767"></a>[Q1767](logic-foundations-set-theory-part-1.md#q1767) | Generic compact metrizable group | Open |
+| <a id="q1768"></a>[Q1768](logic-foundations-set-theory-part-1.md#q1768) | Small ultrapowers force small nonmeager sets | Open |
+| <a id="q1769"></a>[Q1769](logic-foundations-set-theory-part-1.md#q1769) | Countable ultrapowers and category inequality | Open |
+| <a id="q1770"></a>[Q1770](logic-foundations-set-theory-part-1.md#q1770) | Keisler principle in the Sacks model | Open |
+| <a id="q1771"></a>[Q1771](logic-foundations-set-theory-part-1.md#q1771) | Larger continuum | Open |
+| <a id="q1772"></a>[Q1772](logic-foundations-set-theory-part-1.md#q1772) | Unequal bounding numbers | Open |
+| <a id="q1773"></a>[Q1773](logic-foundations-set-theory-part-1.md#q1773) | Projective converse | Open |
+| <a id="q1774"></a>[Q1774](logic-foundations-set-theory-part-1.md#q1774) | Borel conjecture implication | Open |
+| <a id="q1775"></a>[Q1775](logic-foundations-set-theory-part-1.md#q1775) | Splitting games below closed-null uniformity | Open |
+| <a id="q1776"></a>[Q1776](logic-foundations-set-theory-part-1.md#q1776) | Null additivity below splitting-game number | Open |
+| <a id="q1777"></a>[Q1777](logic-foundations-set-theory-part-1.md#q1777) | Double-star splitting versus domination | Open |
+| <a id="q1778"></a>[Q1778](logic-foundations-set-theory-part-1.md#q1778) | Exact reaping-game cardinal | Open |
+| <a id="q1779"></a>[Q1779](logic-foundations-set-theory-part-1.md#q1779) | Strong-null versus universal-null cofinality | Open |
+| <a id="q1780"></a>[Q1780](logic-foundations-set-theory-part-1.md#q1780) | Separating universal-null additivity | Open |
+| <a id="q1781"></a>[Q1781](logic-foundations-set-theory-part-1.md#q1781) | Exact zero-evasion number | Open |
+| <a id="q1782"></a>[Q1782](logic-foundations-set-theory-part-1.md#q1782) | Hechler real after a second Hechler stage | Open |
+| <a id="q1783"></a>[Q1783](logic-foundations-set-theory-part-1.md#q1783) | Mathias real after a second Mathias stage | Open |
+| <a id="q1831"></a>[Q1831](logic-foundations-set-theory-part-1.md#q1831) | Coproducts preserve continuous sections | Open |
+| <a id="q1869"></a>[Q1869](logic-foundations-set-theory-part-1.md#q1869) | Least continuum for vanishing | Open |
+| <a id="q1870"></a>[Q1870](logic-foundations-set-theory-part-1.md#q1870) | Prescribed nonvanishing degrees | Open |
+| <a id="q1871"></a>[Q1871](logic-foundations-set-theory-part-1.md#q1871) | Simultaneous countable-to-arbitrary extrapolation | Open |
+| <a id="q1872"></a>[Q1872](logic-foundations-set-theory-part-1.md#q1872) | Projective Polish p-groups | Open |
+| <a id="q1873"></a>[Q1873](logic-foundations-set-theory-part-1.md#q1873) | Projective topological torsion groups | Open |
+| <a id="q1874"></a>[Q1874](logic-foundations-set-theory-part-1.md#q1874) | Nonvanishing from d=aleph two | Open |
+| <a id="q1875"></a>[Q1875](logic-foundations-set-theory-part-1.md#q1875) | Finite-type degree spectrum | Open |
+| <a id="q1876"></a>[Q1876](logic-foundations-set-theory-part-1.md#q1876) | Degree-preserving finite-type extension | Open |
+| <a id="q1877"></a>[Q1877](logic-foundations-set-theory-part-1.md#q1877) | Arbitrary product groups lack generic actions | Open |
+| <a id="q1878"></a>[Q1878](logic-foundations-set-theory-part-1.md#q1878) | Effective extensions with decidable domino problem | Open |
+| <a id="q1879"></a>[Q1879](logic-foundations-set-theory-part-1.md#q1879) | Many-one spectrum of inclusion | Open |
+| <a id="q1880"></a>[Q1880](logic-foundations-set-theory-part-1.md#q1880) | Embedding decidability forces computable language | Open |
+| <a id="q1881"></a>[Q1881](logic-foundations-set-theory-part-1.md#q1881) | Optimal hybrid interpolant size | Open |
+| <a id="q1882"></a>[Q1882](logic-foundations-set-theory-part-1.md#q1882) | Hybrid fixpoint interpolant existence | Open |
+| <a id="q1883"></a>[Q1883](logic-foundations-set-theory-part-1.md#q1883) | Binary grades | Open |
+| <a id="q1932"></a>[Q1932](logic-foundations-set-theory-part-1.md#q1932) | Increasing density-characterizing sequence | Open |
+| <a id="q1933"></a>[Q1933](logic-foundations-set-theory-part-1.md#q1933) | All intermediate Borel ranks | Open |
+| <a id="q1968"></a>[Q1968](logic-foundations-set-theory-part-1.md#q1968) | G-delta maximal cofinitary groups | Open |
+| <a id="q1969"></a>[Q1969](logic-foundations-set-theory-part-1.md#q1969) | Infinitely many higher tuple orbits | Open |
+| <a id="q1970"></a>[Q1970](logic-foundations-set-theory-part-1.md#q1970) | Borel maximal finitely periodic groups | Open |
+| <a id="q1971"></a>[Q1971](logic-foundations-set-theory-part-1.md#q1971) | Eventually bounded maximal finitely periodic groups | Open |
+| <a id="q1972"></a>[Q1972](logic-foundations-set-theory-part-1.md#q1972) | Coanalytic orthogonal families after Laver forcing | Open |
+| <a id="q1973"></a>[Q1973](logic-foundations-set-theory-part-1.md#q1973) | Determinacy and absence of mad families | Open |
+| <a id="q1974"></a>[Q1974](logic-foundations-set-theory-part-1.md#q1974) | Reducing Hamel-basis projective complexity | Open |
+| <a id="q1975"></a>[Q1975](logic-foundations-set-theory-part-1.md#q1975) | Large definable tight madness above bounding | Open |
+| <a id="q1976"></a>[Q1976](logic-foundations-set-theory-part-1.md#q1976) | Coanalytic witnesses at both ends of the mad spectrum | Open |
+| <a id="q1977"></a>[Q1977](logic-foundations-set-theory-part-1.md#q1977) | Closed maximal eventually different permutations | Open |
+| <a id="q1978"></a>[Q1978](logic-foundations-set-theory-part-1.md#q1978) | Equality of eventual-difference cardinal invariants | Open |
+| <a id="q1979"></a>[Q1979](logic-foundations-set-theory-part-1.md#q1979) | Polynomial asymptotics of Presburger shattering | Open, partial results |
+| <a id="q1980"></a>[Q1980](logic-foundations-set-theory-part-1.md#q1980) | Linear incidence bounds characterize one-basedness | Open |
+| <a id="q1981"></a>[Q1981](logic-foundations-set-theory-part-1.md#q1981) | Interpretations preserve global linear incidence bounds | Open |
+| <a id="q1982"></a>[Q1982](logic-foundations-set-theory-part-1.md#q1982) | Finite multiplicative stabilization forces strong compactness | Open |
+| <a id="q1983"></a>[Q1983](logic-foundations-set-theory-part-1.md#q1983) | Join closure below a jump-traceable set | Open |
+| <a id="q1984"></a>[Q1984](logic-foundations-set-theory-part-1.md#q1984) | Strong jump traceability implies randomness reducibility | Open |
+| <a id="q2067"></a>[Q2067](logic-foundations-set-theory-part-1.md#q2067) | Removing coefficient restrictions from simulation | Open |
+| <a id="q2068"></a>[Q2068](logic-foundations-set-theory-part-1.md#q2068) | Polynomial simulation of bounded coefficients | Open |
+| <a id="q2069"></a>[Q2069](logic-foundations-set-theory-part-1.md#q2069) | Preserving small coefficients in simulation | Open |
+| <a id="q2070"></a>[Q2070](logic-foundations-set-theory-part-1.md#q2070) | Extension preservation at clique-width three | Open |
+| <a id="q2071"></a>[Q2071](logic-foundations-set-theory-part-1.md#q2071) | Extension preservation at twin-width one | Open |
+| <a id="q2072"></a>[Q2072](logic-foundations-set-theory-part-1.md#q2072) | Stable bounded clique-width preservation | Open |
+| <a id="q2073"></a>[Q2073](logic-foundations-set-theory-part-1.md#q2073) | Homomorphism preservation at bounded clique-width | Open |
+| <a id="q2074"></a>[Q2074](logic-foundations-set-theory-part-1.md#q2074) | Deciding preservation from forbidden minors | Open |
+| <a id="q2075"></a>[Q2075](logic-foundations-set-theory-part-1.md#q2075) | Almost-optimal tuple-type counts | Open |
+| <a id="q2076"></a>[Q2076](logic-foundations-set-theory-part-1.md#q2076) | Homogenizability survives taking cores | Open |
+| <a id="q2077"></a>[Q2077](logic-foundations-set-theory-part-1.md#q2077) | Lachlan structures from equality | Open |
+| <a id="q2078"></a>[Q2078](logic-foundations-set-theory-part-1.md#q2078) | Binary NIP structures from ordered cores | Open |
+| <a id="q2079"></a>[Q2079](logic-foundations-set-theory-part-1.md#q2079) | Strong modeling limits for stable graphs | Open |
+| <a id="q2080"></a>[Q2080](logic-foundations-set-theory-part-1.md#q2080) | Unary expansions characterize modeling limits | Open |
+| <a id="q2081"></a>[Q2081](logic-foundations-set-theory-part-1.md#q2081) | Composing independent-defect valuations | Open |
+| <a id="q2082"></a>[Q2082](logic-foundations-set-theory-part-1.md#q2082) | Finite-color promise compactness implies ultrafilters | Open |
+| <a id="q2083"></a>[Q2083](logic-foundations-set-theory-part-1.md#q2083) | One-in-three to not-all-equal compactness | Open |
+| <a id="q2168"></a>[Q2168](logic-foundations-set-theory-part-1.md#q2168) | Presburger complexity at Σ4 | Solved here: proved |
+| <a id="q2169"></a>[Q2169](logic-foundations-set-theory-part-1.md#q2169) | Removing the discrete factor | Open, partial results |
+| <a id="q2170"></a>[Q2170](logic-foundations-set-theory-part-1.md#q2170) | Presburger degree-spectrum universality | Open |
+| <a id="q2171"></a>[Q2171](logic-foundations-set-theory-part-1.md#q2171) | Scott ideals give full elementarity | Open |
+| <a id="q2172"></a>[Q2172](logic-foundations-set-theory-part-1.md#q2172) | Computable absolute-Galois elementarity | Open |
+| <a id="q2173"></a>[Q2173](logic-foundations-set-theory-part-1.md#q2173) | Admissibility over extendable parameters | Open |
+| <a id="q2174"></a>[Q2174](logic-foundations-set-theory-part-1.md#q2174) | Admissibility over prime parameters | Open |
+| <a id="q2175"></a>[Q2175](logic-foundations-set-theory-part-1.md#q2175) | Optimal GL fixed-point length | Open |
+| <a id="q2176"></a>[Q2176](logic-foundations-set-theory-part-1.md#q2176) | Optimal universal-tangle translation | Open |
+| <a id="q2177"></a>[Q2177](logic-foundations-set-theory-part-1.md#q2177) | Continuum many localisation values | Open |
+| <a id="q2178"></a>[Q2178](logic-foundations-set-theory-part-1.md#q2178) | Intermediate-width localisation separation | Open |
+| <a id="q2179"></a>[Q2179](logic-foundations-set-theory-part-1.md#q2179) | Dominating forcing without Cohen reals | Open |
+| <a id="q2180"></a>[Q2180](logic-foundations-set-theory-part-1.md#q2180) | Higher Borel conjecture consistency | Open |
+| <a id="q2181"></a>[Q2181](logic-foundations-set-theory-part-1.md#q2181) | Nonuniform projective choice equivalence | Open |
+| <a id="q2182"></a>[Q2182](logic-foundations-set-theory-part-1.md#q2182) | Separating nonuniform choice levels | Open |
+| <a id="q2183"></a>[Q2183](logic-foundations-set-theory-part-1.md#q2183) | Small nonmeagre sets at countable cofinality | Open |
+| <a id="q2184"></a>[Q2184](logic-foundations-set-theory-part-1.md#q2184) | Capture at complete ineffability | Open |
+| <a id="q2267"></a>[Q2267](logic-foundations-set-theory-part-1.md#q2267) | Continuum many non-tabular complete coatoms | Open |
+| <a id="q2268"></a>[Q2268](logic-foundations-set-theory-part-1.md#q2268) | Recognizing Craig interpolation above S4_t | Open |
+| <a id="q2269"></a>[Q2269](logic-foundations-set-theory-part-1.md#q2269) | Counting finitely approximable pretabular logics | Open |
+| <a id="q2270"></a>[Q2270](logic-foundations-set-theory-part-1.md#q2270) | Pretabularity at depth three | Open |
+| <a id="q2271"></a>[Q2271](logic-foundations-set-theory-part-1.md#q2271) | Injectivity of tense completion above K4 | Open |
+| <a id="q2272"></a>[Q2272](logic-foundations-set-theory-part-1.md#q2272) | Decidability under minimal tense extension | Open |
+| <a id="q2273"></a>[Q2273](logic-foundations-set-theory-part-1.md#q2273) | Two decidable coincidence targets | Open |
+| <a id="q2274"></a>[Q2274](logic-foundations-set-theory-part-1.md#q2274) | Entailment with nonemptiness | Open |
+| <a id="q2275"></a>[Q2275](logic-foundations-set-theory-part-1.md#q2275) | Fine model-checking complexity | Open |
+| <a id="q2276"></a>[Q2276](logic-foundations-set-theory-part-1.md#q2276) | Tree bad sequences versus descending sequences | Open |
+| <a id="q2277"></a>[Q2277](logic-foundations-set-theory-part-1.md#q2277) | Defining the enumeration skip | Open |
+| <a id="q2278"></a>[Q2278](logic-foundations-set-theory-part-1.md#q2278) | Finite skip to totality | Open |
+| <a id="q2279"></a>[Q2279](logic-foundations-set-theory-part-1.md#q2279) | Pigeonhole hierarchy implies cohesiveness | Open |
+| <a id="q2280"></a>[Q2280](logic-foundations-set-theory-part-1.md#q2280) | Σ₂ pigeonhole conservation | Open |
+| <a id="q2281"></a>[Q2281](logic-foundations-set-theory-part-1.md#q2281) | Pigeonhole hierarchy yields induction | Open |
+| <a id="q2282"></a>[Q2282](logic-foundations-set-theory-part-1.md#q2282) | Hindman in arithmetical comprehension | Open |
+| <a id="q2283"></a>[Q2283](logic-foundations-set-theory-part-1.md#q2283) | Independent identities in monoid varieties | Open |
+| <a id="q2338"></a>[Q2338](logic-foundations-set-theory-part-1.md#q2338) | Universal minimal fibers in group extensions | Open |
+| <a id="q2339"></a>[Q2339](logic-foundations-set-theory-part-1.md#q2339) | Unique ergodicity of open subgroups | Open |
+| <a id="q2340"></a>[Q2340](logic-foundations-set-theory-part-1.md#q2340) | Metrizability from unique ergodicity | Open |
+| <a id="q2367"></a>[Q2367](logic-foundations-set-theory-part-1.md#q2367) | Dimension one in a minimal degree | Open |
+| <a id="q2368"></a>[Q2368](logic-foundations-set-theory-part-1.md#q2368) | Hypersmooth canonization of analytic relations | Open |
+| <a id="q2369"></a>[Q2369](logic-foundations-set-theory-part-1.md#q2369) | Intermediate hereditary model checking | Open |
+| <a id="q2370"></a>[Q2370](logic-foundations-set-theory-part-1.md#q2370) | Which finite CSPs are hereditary FO | Open |
+| <a id="q2371"></a>[Q2371](logic-foundations-set-theory-part-1.md#q2371) | The last prefix tractability meta-problem | Open |
+| <a id="q2372"></a>[Q2372](logic-foundations-set-theory-part-1.md#q2372) | Negative connected hereditary definitions | Open |
+| <a id="q2373"></a>[Q2373](logic-foundations-set-theory-part-1.md#q2373) | Finite promise witnesses for FPC failure | Open |
+| <a id="q2374"></a>[Q2374](logic-foundations-set-theory-part-1.md#q2374) | Classify quantifier-free dependence checking | Open |
+| <a id="q2375"></a>[Q2375](logic-foundations-set-theory-part-1.md#q2375) | Implication of split dependencies | Open |
+| <a id="q2376"></a>[Q2376](logic-foundations-set-theory-part-1.md#q2376) | Exact complexity of DFA primality | Open |
+| <a id="q2377"></a>[Q2377](logic-foundations-set-theory-part-1.md#q2377) | Smash-product composition coherence | Open |
+| <a id="q2378"></a>[Q2378](logic-foundations-set-theory-part-1.md#q2378) | Coherence for every reflector | Open |
+| <a id="q2379"></a>[Q2379](logic-foundations-set-theory-part-1.md#q2379) | Two clocks in invariant-free networks | Open |
+| <a id="q2380"></a>[Q2380](logic-foundations-set-theory-part-1.md#q2380) | Sparsify strong flip-flatness | Open |
+| <a id="q2381"></a>[Q2381](logic-foundations-set-theory-part-1.md#q2381) | Universal-cover component as truncation | Open |
+| <a id="q2382"></a>[Q2382](logic-foundations-set-theory-part-1.md#q2382) | Finitely bounded CSP representatives | Open |
+| <a id="q2383"></a>[Q2383](logic-foundations-set-theory-part-1.md#q2383) | Connected extensional definitions | Open |
+| <a id="q2469"></a>[Q2469](logic-foundations-set-theory-part-1.md#q2469) | Strength of inhomogeneous ring regularity | Open, partial results |
+| <a id="q2470"></a>[Q2470](logic-foundations-set-theory-part-1.md#q2470) | Maximal complexity of hyperfiniteness | Open |
+| <a id="q2471"></a>[Q2471](logic-foundations-set-theory-part-1.md#q2471) | Hyperfiniteness of amenable actions | Open |
+| <a id="q2472"></a>[Q2472](logic-foundations-set-theory-part-1.md#q2472) | Bounded-degree dimension complexity | Open |
+| <a id="q2473"></a>[Q2473](logic-foundations-set-theory-part-2.md#q2473) | Two colors on dihedral orbits | Open |
+| <a id="q2474"></a>[Q2474](logic-foundations-set-theory-part-2.md#q2474) | Hypersmoothness for commuting functions | Open |
+| <a id="q2475"></a>[Q2475](logic-foundations-set-theory-part-2.md#q2475) | Subcountability forces anti-complements | Open |
+| <a id="q2476"></a>[Q2476](logic-foundations-set-theory-part-2.md#q2476) | Reflection well-foundedness over ACA | Open |
+| <a id="q2481"></a>[Q2481](logic-foundations-set-theory-part-2.md#q2481) | Davies projections in ZFC | Open |
+| <a id="q2482"></a>[Q2482](logic-foundations-set-theory-part-2.md#q2482) | Hyperfiniteness of Cohen equivalence | Open |
+| <a id="q2483"></a>[Q2483](logic-foundations-set-theory-part-2.md#q2483) | Intermediate complete-theory isomorphism | Open |
+| <a id="q2567"></a>[Q2567](logic-foundations-set-theory-part-2.md#q2567) | Lower factors of wim extensions | Open |
+| <a id="q2568"></a>[Q2568](logic-foundations-set-theory-part-2.md#q2568) | Upper factors of wim extensions | Open |
+| <a id="q2569"></a>[Q2569](logic-foundations-set-theory-part-2.md#q2569) | Minimal computable-topological degrees | Open |
+| <a id="q2570"></a>[Q2570](logic-foundations-set-theory-part-2.md#q2570) | A least degree for an infinite compactum | Open |
+| <a id="q2571"></a>[Q2571](logic-foundations-set-theory-part-2.md#q2571) | Common upper bounds for Cantor presentations | Open |
+| <a id="q2572"></a>[Q2572](logic-foundations-set-theory-part-2.md#q2572) | Effective local connectedness up to homeomorphism | Open |
+| <a id="q2573"></a>[Q2573](logic-foundations-set-theory-part-2.md#q2573) | First-order logic of IZF | Open |
+| <a id="q2574"></a>[Q2574](logic-foundations-set-theory-part-2.md#q2574) | Choice extensibility over CZF | Open |
+| <a id="q2575"></a>[Q2575](logic-foundations-set-theory-part-2.md#q2575) | Failure of coalgebraic Janin–Walukiewicz | Open |
+| <a id="q2576"></a>[Q2576](logic-foundations-set-theory-part-2.md#q2576) | Finitizing cyclic linear-logic proofs | Open |
+| <a id="q2577"></a>[Q2577](logic-foundations-set-theory-part-2.md#q2577) | Completeness of original game logic | Open |
+| <a id="q2578"></a>[Q2578](logic-foundations-set-theory-part-2.md#q2578) | Non-first-order basis spectrum | Open |
+| <a id="q2579"></a>[Q2579](logic-foundations-set-theory-part-2.md#q2579) | Non-arithmetic basis spectrum | Open |
+| <a id="q2580"></a>[Q2580](logic-foundations-set-theory-part-2.md#q2580) | Banach categoricity at every finite level | Open |
+| <a id="q2581"></a>[Q2581](logic-foundations-set-theory-part-2.md#q2581) | An intrinsically noncomputable Schauder basis | Open |
+| <a id="q2582"></a>[Q2582](logic-foundations-set-theory-part-2.md#q2582) | Two-move memory for Nonempty | Open |
+| <a id="q2583"></a>[Q2583](logic-foundations-set-theory-part-2.md#q2583) | Atomless lattice inside punctual rationals | Open |
+| <a id="q2666"></a>[Q2666](logic-foundations-set-theory-part-2.md#q2666) | Labelled distributive lattices | Open |
+| <a id="q2667"></a>[Q2667](logic-foundations-set-theory-part-2.md#q2667) | Early stabilization of categoricity | Open |
+| <a id="q2668"></a>[Q2668](logic-foundations-set-theory-part-2.md#q2668) | Arithmetic fixed-point reduction | Open |
+| <a id="q2669"></a>[Q2669](logic-foundations-set-theory-part-2.md#q2669) | Finite parallel hierarchy of ATR₂ | Open |
+| <a id="q2670"></a>[Q2670](logic-foundations-set-theory-part-2.md#q2670) | Four-color pigeonhole versus ADS | Open |
+| <a id="q2671"></a>[Q2671](logic-foundations-set-theory-part-2.md#q2671) | Removing singleton neighborhoods | Open |
+| <a id="q2672"></a>[Q2672](logic-foundations-set-theory-part-2.md#q2672) | Two weak Rival–Sands calls | Open |
+| <a id="q2673"></a>[Q2673](logic-foundations-set-theory-part-2.md#q2673) | Width-two Rival–Sands strength | Open |
+| <a id="q2674"></a>[Q2674](logic-foundations-set-theory-part-2.md#q2674) | Cofinite Rival–Sands strength | Open |
+| <a id="q2675"></a>[Q2675](logic-foundations-set-theory-part-2.md#q2675) | Fraïssé in ATR₀ | Open |
+| <a id="q2676"></a>[Q2676](logic-foundations-set-theory-part-2.md#q2676) | Monotone Π⁰₁ density | Open |
+| <a id="q2677"></a>[Q2677](logic-foundations-set-theory-part-2.md#q2677) | True-point coincidence with consistency | Open |
+| <a id="q2678"></a>[Q2678](logic-foundations-set-theory-part-2.md#q2678) | Maximum-size Weihrauch chains | Open |
+| <a id="q2679"></a>[Q2679](logic-foundations-set-theory-part-2.md#q2679) | Countable Weihrauch gaps | Open |
+| <a id="q2680"></a>[Q2680](logic-foundations-set-theory-part-2.md#q2680) | Cofinality of Weihrauch degrees | Open |
+| <a id="q2681"></a>[Q2681](logic-foundations-set-theory-part-2.md#q2681) | Continuum-sized maximal antichains | Open |
+| <a id="q2682"></a>[Q2682](logic-foundations-set-theory-part-2.md#q2682) | Baire co-totality and discontinuity | Open |
+| <a id="q2768"></a>[Q2768](logic-foundations-set-theory-part-2.md#q2768) | Higher dependence of pure fields | Open |
+| <a id="q2769"></a>[Q2769](logic-foundations-set-theory-part-2.md#q2769) | Defect of the canonical valuation in divisible-tame type | Open |
+| <a id="q2770"></a>[Q2770](logic-foundations-set-theory-part-2.md#q2770) | Consistency strength of strong distributivity | Open |
+| <a id="q2771"></a>[Q2771](logic-foundations-set-theory-part-2.md#q2771) | Disjoint stationary sequences with CH | Open |
+| <a id="q2772"></a>[Q2772](logic-foundations-set-theory-part-2.md#q2772) | Disjoint club sequences on ω₃ | Open |
+| <a id="q2773"></a>[Q2773](logic-foundations-set-theory-part-2.md#q2773) | ω-stable bounded theory with unbounded type | Open |
+| <a id="q2774"></a>[Q2774](logic-foundations-set-theory-part-2.md#q2774) | Few countable models with unbounded types | Open |
+| <a id="q2775"></a>[Q2775](logic-foundations-set-theory-part-2.md#q2775) | Existential definitions under tilting | Open |
+| <a id="q2777"></a>[Q2777](logic-foundations-set-theory-part-2.md#q2777) | One-dimensional spectra of GP² | Open |
+| <a id="q2778"></a>[Q2778](logic-foundations-set-theory-part-2.md#q2778) | Global cardinality constraints for GP² | Open |
+| <a id="q2779"></a>[Q2779](logic-foundations-set-theory-part-2.md#q2779) | Higher-dependence composition lemma | Open |
+| <a id="q2877"></a>[Q2877](logic-foundations-set-theory-part-2.md#q2877) | Clopen finite-index layers | Open |
+| <a id="q2880"></a>[Q2880](logic-foundations-set-theory-part-2.md#q2880) | Compact frame points and choice | Open |
+| <a id="q2974"></a>[Q2974](logic-foundations-set-theory-part-2.md#q2974) | Eventual strictness of pure maps in ZFC | Open |
+| <a id="q2975"></a>[Q2975](logic-foundations-set-theory-part-2.md#q2975) | Alternation-free two-way interpolation | Open |
+| <a id="q2976"></a>[Q2976](logic-foundations-set-theory-part-2.md#q2976) | Finite-model two-way interpolation | Open |
+| <a id="q2977"></a>[Q2977](logic-foundations-set-theory-part-2.md#q2977) | Uniform two-way interpolation | Open |
+| <a id="q2978"></a>[Q2978](logic-foundations-set-theory-part-2.md#q2978) | Two quantifier blocks with two power predicates | Open |
+| <a id="q2979"></a>[Q2979](logic-foundations-set-theory-part-2.md#q2979) | Existential arithmetic with two exponential functions | Open |
+| <a id="q2980"></a>[Q2980](logic-foundations-set-theory-part-2.md#q2980) | Repeated-root recurrence predicate | Open |
+| <a id="q2981"></a>[Q2981](logic-foundations-set-theory-part-2.md#q2981) | Presburger arithmetic with primes | Open |
+| <a id="q2982"></a>[Q2982](logic-foundations-set-theory-part-2.md#q2982) | Order with power-free predicates | Open |
+| <a id="q2990"></a>[Q2990](logic-foundations-set-theory-part-2.md#q2990) | One-variable arithmetic with general polynomial predicates | Open |
+| <a id="q2991"></a>[Q2991](logic-foundations-set-theory-part-2.md#q2991) | Two-variable arithmetic with squares | Open |
+| <a id="q2992"></a>[Q2992](logic-foundations-set-theory-part-2.md#q2992) | Two-variable existential arithmetic with cubes | Open |
+| <a id="q2993"></a>[Q2993](logic-foundations-set-theory-part-2.md#q2993) | Existential arithmetic with three power predicates | Open |
+| <a id="q3074"></a>[Q3074](logic-foundations-set-theory-part-2.md#q3074) | Strong indivisibility in REC | Open |
+| <a id="q3078"></a>[Q3078](logic-foundations-set-theory-part-2.md#q3078) | Differential largeness versus genericity | Open |
+| <a id="q3081"></a>[Q3081](logic-foundations-set-theory-part-2.md#q3081) | Higher hierarchy inside NTP₂ | Open |
+| <a id="q3169"></a>[Q3169](logic-foundations-set-theory-part-2.md#q3169) | Borel ranks for tall ideal topologies | Open |
+| <a id="q3170"></a>[Q3170](logic-foundations-set-theory-part-2.md#q3170) | Countable-cofinality correctness into the universe | Open |
+| <a id="q3171"></a>[Q3171](logic-foundations-set-theory-part-2.md#q3171) | Extending HOD covering past compactness | Open |
+| <a id="q3172"></a>[Q3172](logic-foundations-set-theory-part-2.md#q3172) | Consistency with floating functions | Open |
+| <a id="q3173"></a>[Q3173](logic-foundations-set-theory-part-2.md#q3173) | Separating the last two Scott highness levels | Open |
+| <a id="q3174"></a>[Q3174](logic-foundations-set-theory-part-2.md#q3174) | Low-rank trees testing global isomorphism highness | Open |
+| <a id="q3175"></a>[Q3175](logic-foundations-set-theory-part-2.md#q3175) | Removing weakening with polynomial proof cost | Open |
+| <a id="q3176"></a>[Q3176](logic-foundations-set-theory-part-2.md#q3176) | Removing contraction with polynomial proof cost | Open |
+| <a id="q3178"></a>[Q3178](logic-foundations-set-theory-part-2.md#q3178) | Uniform isomorphism highness at a minimal double jump | Open |
+| <a id="q3179"></a>[Q3179](logic-foundations-set-theory-part-2.md#q3179) | Transferring total isomorphism procedures | Open |
+| <a id="q3180"></a>[Q3180](logic-foundations-set-theory-part-2.md#q3180) | First HOD disagreement at uncountable cofinality | Open |
+| <a id="q3181"></a>[Q3181](logic-foundations-set-theory-part-2.md#q3181) | Stationary power-set agreement at a singular limit | Open |
+| <a id="q3182"></a>[Q3182](logic-foundations-set-theory-part-2.md#q3182) | Double-successor compactness inside HOD | Open |
+| <a id="q3183"></a>[Q3183](logic-foundations-set-theory-part-2.md#q3183) | Compactness of nonmeasurability in HOD | Open |
+| <a id="q3268"></a>[Q3268](logic-foundations-set-theory-part-2.md#q3268) | Distal expansions of Mekler groups | Open |
+| <a id="q3269"></a>[Q3269](logic-foundations-set-theory-part-2.md#q3269) | Ramsey structures beyond their dependence arity | Open |
+| <a id="q3270"></a>[Q3270](logic-foundations-set-theory-part-2.md#q3270) | Sharp type-language Scott sentences | Open |
+| <a id="q3271"></a>[Q3271](logic-foundations-set-theory-part-2.md#q3271) | Sharp type-language model separation | Open |
+| <a id="q3272"></a>[Q3272](logic-foundations-set-theory-part-2.md#q3272) | Lower-complexity recovery at infinite Scott ranks | Open |
+| <a id="q3273"></a>[Q3273](logic-foundations-set-theory-part-2.md#q3273) | Analytic Van Douwen families for ideals | Open |
+| <a id="q3274"></a>[Q3274](logic-foundations-set-theory-part-2.md#q3274) | Analytic transversals modulo P-points | Open |
+| <a id="q3275"></a>[Q3275](logic-foundations-set-theory-part-2.md#q3275) | Borel productive families for ideals | Open |
+| <a id="q3279"></a>[Q3279](logic-foundations-set-theory-part-2.md#q3279) | Effective amenable actions of exact groups | Open |
+| <a id="q3280"></a>[Q3280](logic-foundations-set-theory-part-2.md#q3280) | Subset closure of extensional well-quasi-orders | Open |
+| <a id="q3373"></a>[Q3373](logic-foundations-set-theory-part-2.md#q3373) | Collapse absoluteness at higher projective levels | Open |
+| <a id="q3374"></a>[Q3374](logic-foundations-set-theory-part-2.md#q3374) | A measurable successor of the first singular cardinal | Open |
+| <a id="q3375"></a>[Q3375](logic-foundations-set-theory-part-2.md#q3375) | Sharp weight at the distributivity threshold | Open |
+| <a id="q3376"></a>[Q3376](logic-foundations-set-theory-part-2.md#q3376) | Nonuniform simultaneous compactness below the splitting number | Open |
+| <a id="q3380"></a>[Q3380](logic-foundations-set-theory-part-2.md#q3380) | Removing the large cardinal from finite-equivalence classification | Open |
+| <a id="q3381"></a>[Q3381](logic-foundations-set-theory-part-2.md#q3381) | Potential cardinality of a branching refinement theory | Open |
+| <a id="q3382"></a>[Q3382](logic-foundations-set-theory-part-2.md#q3382) | CBERs admitting spanning trees in every graphing | Open |
+| <a id="q3383"></a>[Q3383](logic-foundations-set-theory-part-2.md#q3383) | Vizing’s theorem on a comeager invariant set | Open |
+| <a id="q3384"></a>[Q3384](logic-foundations-set-theory-part-2.md#q3384) | Countable invariant uniformization and essential countability | Open |
+| <a id="q3385"></a>[Q3385](logic-foundations-set-theory-part-2.md#q3385) | Effective invariant uniformization without smoothness | Open |
+| <a id="q3430"></a>[Q3430](logic-foundations-set-theory-part-2.md#q3430) | Determinacy of graph-query games | Open |
+| <a id="q3431"></a>[Q3431](logic-foundations-set-theory-part-2.md#q3431) | Elusive positive minimum degree | Open |
+| <a id="q3432"></a>[Q3432](logic-foundations-set-theory-part-2.md#q3432) | CSP dichotomy with dependent choice | Open |
+| <a id="q3435"></a>[Q3435](logic-foundations-set-theory-part-2.md#q3435) | Hausdorff homomorphism-distinguishing topology | Open |
+| <a id="q3482"></a>[Q3482](logic-foundations-set-theory-part-2.md#q3482) | Subhalting categoricity of linear orders | Open |
+| <a id="q3493"></a>[Q3493](logic-foundations-set-theory-part-2.md#q3493) | Six-element Ramsey choice | Open |
+| <a id="q3494"></a>[Q3494](logic-foundations-set-theory-part-2.md#q3494) | The remaining four-cardinal ordering | Open |
+| <a id="q3552"></a>[Q3552](logic-foundations-set-theory-part-2.md#q3552) | Are uncountably many distinct varieties of commutative semilinear residuated lattices amalgamating? | Open |
+| <a id="q3553"></a>[Q3553](logic-foundations-set-theory-part-2.md#q3553) | Does any nonabelian variety of lattice-ordered groups have AP? Group translations preserve order. | Open |
+| <a id="q3554"></a>[Q3554](logic-foundations-set-theory-part-2.md#q3554) | Do all commutative cancellative semilinear residuated lattices have AP? | Open |
+| <a id="q3555"></a>[Q3555](logic-foundations-set-theory-part-2.md#q3555) | Do all integral residuated lattices have AP? Integral means x≤1 for every x. | Open |
+| <a id="q3556"></a>[Q3556](logic-foundations-set-theory-part-2.md#q3556) | Given finite residuated lattices A,B,C by operation tables and embeddings A→B,A→C, is it… | Open |
+| <a id="q3557"></a>[Q3557](logic-foundations-set-theory-part-2.md#q3557) | Give an explicit characterization of QL_=(IKP), the first-order formulas with equality whose… | Open |
+| <a id="q3558"></a>[Q3558](logic-foundations-set-theory-part-2.md#q3558) | For constructive Zermelo–Fraenkel theory CZF, and for intuitionistic Zermelo–Fraenkel theory IZF… | Open |
+| <a id="q3561"></a>[Q3561](logic-foundations-set-theory-part-2.md#q3561) | For an uncountable regular successor κ, let d_κ be the least size of an eventually dominating… | Open |
+| <a id="q3562"></a>[Q3562](logic-foundations-set-theory-part-2.md#q3562) | Let GC² be two-variable guarded first-order logic with counting, over finite unary/binary… | Open |
+| <a id="q3563"></a>[Q3563](logic-foundations-set-theory-part-2.md#q3563) | Over RCA\*₀, does ADS plus exponential closure of I⁰₁ imply CRT²₂? Ask also with CAC replacing ADS. | Open |
+| <a id="q3564"></a>[Q3564](logic-foundations-set-theory-part-2.md#q3564) | Let W consist of all maps ω+1→ω+1 preserving arbitrary joins, including the empty join. Its… | Open |
+| <a id="q3565"></a>[Q3565](logic-foundations-set-theory-part-2.md#q3565) | Do commutative idempotent distributive lattice-ordered monoids have AP? Such an algebra… | Open |
+| <a id="q3566"></a>[Q3566](logic-foundations-set-theory-part-2.md#q3566) | A lattice-ordered pregroup is a lattice-ordered monoid (L,∧,∨,·,1) with order-preserving… | Open |
+| <a id="q3567"></a>[Q3567](logic-foundations-set-theory-part-2.md#q3567) | What is the exact consistency strength over ZFC of a weakly compact κ satisfying b_κ(∈\*)>κ+? | Open |
+| <a id="q3635"></a>[Q3635](logic-foundations-set-theory-part-2.md#q3635) | A continuous group action on a metrizable space is metric-independently expansive if, for every… | Open |
+| <a id="q3636"></a>[Q3636](logic-foundations-set-theory-part-2.md#q3636) | For every uncountable cardinal λ, is EGCH(λ) independent of ZFC? EGCH(λ) says that a group G of… | Open |
+| <a id="q3654"></a>[Q3654](logic-foundations-set-theory-part-2.md#q3654) | For n≥1 put Ω\_n=ω·n+1. Let R_n comprise all arbitrary-join-preserving maps Ω\_n→Ω\_n, including… | Open |
+| <a id="q3655"></a>[Q3655](logic-foundations-set-theory-part-2.md#q3655) | Is the positive Horn theory of the free Heyting algebra on countably many generators decidable?… | Open |
+| <a id="q3656"></a>[Q3656](logic-foundations-set-theory-part-2.md#q3656) | Given a propositional axiom α, is it decidable whether IPC+α is uniformly locally tabular: some… | Open |
+| <a id="q3657"></a>[Q3657](logic-foundations-set-theory-part-2.md#q3657) | Does ACA₀ prove Δ¹₂ₙ-Det⇒Π¹₂ₙ-Det for every n≥2? Boldface Γ-Det means determinacy of length-ω… | Open |
+| <a id="q3658"></a>[Q3658](logic-foundations-set-theory-part-2.md#q3658) | Which α<δ¹₂ occur as the least ordinal with D(α) ill-founded for a recursive pseudodilator D? A… | Open |
+| <a id="q3659"></a>[Q3659](logic-foundations-set-theory-part-2.md#q3659) | Is there a fixed c.e. operator W(A)=W_e^A satisfying A<\_T W(A)<\_T A′ for every A⊆N and… | Open |
+| <a id="q3660"></a>[Q3660](logic-foundations-set-theory-part-2.md#q3660) | Is intuitionistic second-order propositional logic weakly complete for complete Heyting… | Open |
+| <a id="q3663"></a>[Q3663](logic-foundations-set-theory-part-2.md#q3663) | Is every 1-generic A⊆N dispersive? Put δ(X,Y)=limsup_n \|(X△Y)∩[0,n)\|/n and… | Open |
+| <a id="q3664"></a>[Q3664](logic-foundations-set-theory-part-2.md#q3664) | For every k≥3, are there ε>0 and arbitrarily large existential-positive FO^{k+1} sentences φ… | Open |
+| <a id="q3665"></a>[Q3665](logic-foundations-set-theory-part-2.md#q3665) | Are there ε>0,n₀ such that, for every n>n₀, two FO²-distinguishable n-element relational… | Open |
+| <a id="q3753"></a>[Q3753](logic-foundations-set-theory-part-2.md#q3753) | Omega-categorical Heyting theories | Open |
+| <a id="q3754"></a>[Q3754](logic-foundations-set-theory-part-2.md#q3754) | Effective descent for finitely presented Heyting algebras | Open |
+| <a id="q3755"></a>[Q3755](logic-foundations-set-theory-part-2.md#q3755) | Analytic maximal ideal-independent family | Open |
+| <a id="q3756"></a>[Q3756](logic-foundations-set-theory-part-2.md#q3756) | A projective gap for MAD families | Open |
+| <a id="q3757"></a>[Q3757](logic-foundations-set-theory-part-2.md#q3757) | Nonpolyhedral semialgebraic modal logic | Open |
+| <a id="q3758"></a>[Q3758](logic-foundations-set-theory-part-2.md#q3758) | Rapid constructible Raisonnier filters and domination | Open |
+| <a id="q3759"></a>[Q3759](logic-foundations-set-theory-part-2.md#q3759) | The covering number of the Raisonnier ideal | Open |
+| <a id="q3760"></a>[Q3760](logic-foundations-set-theory-part-2.md#q3760) | Interpolation above Fischer–Servi logic with linearity | Open |
+| <a id="q3761"></a>[Q3761](logic-foundations-set-theory-part-2.md#q3761) | Every point of a Kakeya set computes the halting problem | Open |
+| <a id="q3762"></a>[Q3762](logic-foundations-set-theory-part-2.md#q3762) | Minimal subsets of Borel whole-line Kakeya sets | Open |
+| <a id="q3763"></a>[Q3763](logic-foundations-set-theory-part-2.md#q3763) | Decidability of admissibility in K | Open |
+| <a id="q3764"></a>[Q3764](logic-foundations-set-theory-part-2.md#q3764) | Kripke completeness of transitive union-splittings | Open |
+| <a id="q3765"></a>[Q3765](logic-foundations-set-theory-part-2.md#q3765) | Recognizing a transitive union-splitting | Open |
+| <a id="q3766"></a>[Q3766](logic-foundations-set-theory-part-2.md#q3766) | Henselized rational functions inside Laurent series | Open |
+| <a id="q3767"></a>[Q3767](logic-foundations-set-theory-part-2.md#q3767) | Pointed AKE for imperfect deeply ramified fields | Open |
+| <a id="q3820"></a>[Q3820](logic-foundations-set-theory-part-2.md#q3820) | Choice in a weakly compact mantle | Open |
+| <a id="q3821"></a>[Q3821](logic-foundations-set-theory-part-2.md#q3821) | Successor mantle and tail intersection | Open |
+| <a id="q3822"></a>[Q3822](logic-foundations-set-theory-part-2.md#q3822) | Unique multipartite endomorphism topology | Open |
+| <a id="q3823"></a>[Q3823](logic-foundations-set-theory-part-2.md#q3823) | Strictly coarser Hausdorff topology | Open |
+| <a id="q3860"></a>[Q3860](logic-foundations-set-theory-part-2.md#q3860) | Do there exist 2-random reals x<\_T z and a constant c such that \|K(x↾n)−K(z↾n)\|≤c for every n? | Open |
+| <a id="q3865"></a>[Q3865](logic-foundations-set-theory-part-2.md#q3865) | If A is homogeneous in a finite relational language, does F[A^d] have finite length for every… | Open |
+| <a id="q3866"></a>[Q3866](logic-foundations-set-theory-part-2.md#q3866) | Does this hold for every oligomorphic A and characteristic-zero F? Oligomorphic means finitely… | Open |
+| <a id="q4001"></a>[Q4001](logic-foundations-set-theory-part-2.md#q4001) | Is derivability decidable in its fragment whose formulas are built only from propositional… | Open |
+| <a id="q4044"></a>[Q4044](logic-foundations-set-theory-part-2.md#q4044) | Is group isomorphism on finitely generated bi-orderable groups universal? | Open |
+| <a id="q4045"></a>[Q4045](logic-foundations-set-theory-part-2.md#q4045) | Is group isomorphism on finitely generated amenable left-orderable groups universal, or at least… | Open |
+| <a id="q4046"></a>[Q4046](logic-foundations-set-theory-part-2.md#q4046) | Does every computable bi-orderable metabelian group have a computable copy admitting a… | Open |
+| <a id="q4047"></a>[Q4047](logic-foundations-set-theory-part-2.md#q4047) | For every computable ordinal α≥1, is there a computable bi-orderable G with X(G) countable, of… | Open |
+| <a id="q4132"></a>[Q4132](logic-foundations-set-theory-part-2.md#q4132) | Do such A,T exist for every x that is neither Schnorr random nor weakly 1-generic, with T… | Open |
+| <a id="q4133"></a>[Q4133](logic-foundations-set-theory-part-2.md#q4133) | Do such A,T exist for every x that is neither Schnorr random nor 1-generic, without requiring… | Open |
+| <a id="q4182"></a>[Q4182](logic-foundations-set-theory-part-2.md#q4182) | For each n≥2, what is the exact computability-theoretic complexity of CP3(nV)? | Open |

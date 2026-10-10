@@ -1,6 +1,6 @@
 # Classical Statistical Machine Learning
 
-169 problems: 158 open, 8 open, partial results, 3 solved here: proved.
+170 problems: 159 open, 8 open, partial results, 3 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -175,6 +175,7 @@
 | [Q1085](classical-statistical-machine-learning.md#q1085) | Linear-time inference without grounding unknown facts | Open |
 | [Q1086](classical-statistical-machine-learning.md#q1086) | Exact repair with two separately penalized semantic dependencies | Open |
 | [Q1722](classical-statistical-machine-learning.md#q1722) | Qualitative quasicircle preservation forces quasiconformality | Open |
+| [Q3856](classical-statistical-machine-learning.md#q3856) | For every such pair of means, is sup_{T≥1} R_exp(T)<∞? | Open |
 
 <a id="q68"></a>
 
@@ -2977,4 +2978,21 @@ Must every homeomorphism f:S→S that sends every quasicircle to a quasicircle b
 **Literature check.** Status for question 1722, checked 6 October 2026: the paper answers only the uniformly controlled case; bounded later searches found no full resolution.
 
 **Further links.** [1](https://arxiv.org/abs/2601.09892)
+
+
+<a id="q3856"></a>
+
+## Q3856. For every such pair of means, is sup_{T≥1} R_exp(T)<∞?
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+For every such pair of means, is sup_{T≥1} R_exp(T)<∞?
+
+**Context.** Use independent i.i.d. Bernoulli reward streams with 0<μ₂<μ₁<1. At integer time t≥1, UCB chooses A_t maximizing μ̂\_a(t)+√(2 log(t)/N_a(t)), where N_a(t) counts earlier pulls and μ̂\_a(t) is the empirical mean; unpulled arms have infinite index. Set τ₁=inf{t≥1:A_t=2}, τ\_{k+1}=inf{t>τ\_k:A_t=2,A_{t−1}=1}, and R_exp(T)=limsup_k E[Σ\_{i=0}^{T−1}(μ₁−μ\_{A_{τ\_k+i}})] for integers T≥1.
+
+**Source.** Victor Boone. *Optimal Regrets in Markov Decision Processes*. Université Grenoble Alpes, 2024. Advisor(s): Bruno Gaujal. [primary source](https://victor-boone.github.io/assets/pdf/VBOONE-manuscript-v1.1.pdf) Location: Explicit boundedness conjecture: Chapter 14, p.261; setup pp.246–253.
+
+**Literature check.** Status, 10 October 2026: no matching resolution found. Boone–Gaujal’s final COLT 2025 result gives logarithmic exploration regret for episodic MDP algorithms, not this constant UCB bound. The exact defense date is omitted because primary records disagree.
+
+**Further links.** [1](https://arxiv.org/abs/2311.18437v1) · [2](https://proceedings.mlr.press/v291/boone25a.html)
 

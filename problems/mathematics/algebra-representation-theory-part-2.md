@@ -1357,3 +1357,427 @@ Let G be finite, p a prime divisor of |G|, and x∈G have p-power order. Define 
 
 **Further links.** [1](https://wiki.mathmig.binghamton.edu/doku.php?id=news:2026:0907_chris_schroeder)
 
+
+<a id="q3802"></a>
+
+## Q3802. Is every finite permutative semigroup finitely related?
+
+**Status:** Open · **Kind:** open problem (Problem 7.1) · **Collection** 39
+
+Is every finite permutative semigroup finitely related?
+
+**Context.** A finite semigroup is finitely related if finitely many finitary relations have precisely its nonempty-word operations as positive-arity polymorphisms. Permutative means satisfying x₁⋯xₙ=x_{π(1)}⋯x_{π(n)} for some nonidentity permutation π. Let B={0,I₂,e₁₁,e₁₂,e₂₁,e₂₂} under matrix multiplication, using standard matrix units. Origins/locators: thesis Problems 7.1, 7.12, 7.14, pp.119,122,124. Q3802 is thesis-origin; Q3803 restates Glasson (2024), Problem 4.21; Q3804 restates Mayr (2013), Problem 8.4. Both journal finals inspected; later Sapir accepted v3 checked.
+
+**Source.** Daniel Glasson. *Finitely Related Semigroups and Associated Structures*. RMIT University, 2024. Advisor(s): Marcel Jackson, Asha Rao, Graham Clarke. [primary source](https://doi.org/10.25439/rmt.28478171) Location: thesis Problem 7.1, p.119 (thesis-origin)
+
+**Literature check.** Status, 2026-10-10: no resolution found in bounded searches.
+
+**Further links.** [1](https://ndownloader.figshare.com/files/52581998) · [2](https://doi.org/10.1007/s00233-024-10452-8) · [3](https://doi.org/10.1007/s00233-012-9455-6) · [4](https://arxiv.org/abs/2502.02157v3)
+
+
+<a id="q3803"></a>
+
+## Q3803. Can finitely related finite semigroups S,T have non-finitely-related product S×T?
+
+**Status:** Open · **Kind:** open problem (Problem 7.12) · **Collection** 39
+
+Can finitely related finite semigroups S,T have non-finitely-related product S×T?
+
+**Context.** A finite semigroup is finitely related if finitely many finitary relations have precisely its nonempty-word operations as positive-arity polymorphisms. Permutative means satisfying x₁⋯xₙ=x_{π(1)}⋯x_{π(n)} for some nonidentity permutation π. Let B={0,I₂,e₁₁,e₁₂,e₂₁,e₂₂} under matrix multiplication, using standard matrix units. Origins/locators: thesis Problems 7.1, 7.12, 7.14, pp.119,122,124. Q3802 is thesis-origin; Q3803 restates Glasson (2024), Problem 4.21; Q3804 restates Mayr (2013), Problem 8.4. Both journal finals inspected; later Sapir accepted v3 checked.
+
+**Source.** Daniel Glasson. *Finitely Related Semigroups and Associated Structures*. RMIT University, 2024. Advisor(s): Marcel Jackson, Asha Rao, Graham Clarke. [primary source](https://doi.org/10.25439/rmt.28478171) Location: thesis Problem 7.12, p.122; restates Glasson (2024), Problem 4.21
+
+**Literature check.** Status, 2026-10-10: no resolution found in bounded searches.
+
+**Further links.** [1](https://ndownloader.figshare.com/files/52581998) · [2](https://doi.org/10.1007/s00233-024-10452-8) · [3](https://doi.org/10.1007/s00233-012-9455-6) · [4](https://arxiv.org/abs/2502.02157v3)
+
+
+<a id="q3804"></a>
+
+## Q3804. Is every finite semigroup admitting an injective semigroup homomorphism B→S non-finitely-related?
+
+**Status:** Open · **Kind:** open problem (Problem 7.14) · **Collection** 39
+
+Is every finite semigroup admitting an injective semigroup homomorphism B→S non-finitely-related?
+
+**Context.** A finite semigroup is finitely related if finitely many finitary relations have precisely its nonempty-word operations as positive-arity polymorphisms. Permutative means satisfying x₁⋯xₙ=x_{π(1)}⋯x_{π(n)} for some nonidentity permutation π. Let B={0,I₂,e₁₁,e₁₂,e₂₁,e₂₂} under matrix multiplication, using standard matrix units. Origins/locators: thesis Problems 7.1, 7.12, 7.14, pp.119,122,124. Q3802 is thesis-origin; Q3803 restates Glasson (2024), Problem 4.21; Q3804 restates Mayr (2013), Problem 8.4. Both journal finals inspected; later Sapir accepted v3 checked.
+
+**Source.** Daniel Glasson. *Finitely Related Semigroups and Associated Structures*. RMIT University, 2024. Advisor(s): Marcel Jackson, Asha Rao, Graham Clarke. [primary source](https://doi.org/10.25439/rmt.28478171) Location: thesis Problem 7.14, p.124; restates Mayr (2013), Problem 8.4
+
+**Literature check.** Status, 2026-10-10: no resolution found in bounded searches.
+
+**Further links.** [1](https://ndownloader.figshare.com/files/52581998) · [2](https://doi.org/10.1007/s00233-024-10452-8) · [3](https://doi.org/10.1007/s00233-012-9455-6) · [4](https://arxiv.org/abs/2502.02157v3)
+
+
+<a id="q3830"></a>
+
+## Q3830. Finite-codimension generalized Witt subalgebras
+
+**Status:** Open · **Kind:** open problem (Question 5.9.2) · **Collection** 39
+
+Give an explicit classification of the finite-codimension Lie subalgebras embedded in W_Γ.
+
+**Context.** Origin: Explicitly posed in thesis Questions 5.9.2(1),(2),(4); no first-publication claim. Setup: Let k be algebraically closed of characteristic zero and Γ an additive subgroup of k. The k-Lie algebra W_Γ has basis e_γ (γ∈Γ), with [e_γ,e_δ]=(δ−γ)e_(γ+δ). Sources:
+
+**Source.** Lucas Buzaglo. *Lie algebras of derivations and their universal enveloping algebras*. University of Edinburgh, 2024. Advisor(s): Susan Sierra. [primary source](https://mathweb.ucsd.edu/~lbuzaglo/thesis.pdf) Location: pp. 101–102, Question 5.9.2(1)
+
+**Literature check.** Status: Checked 10 October 2026: no general resolution found. The 2026 curve results do not cover arbitrary Γ.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lbuzaglo/) · [2](https://arxiv.org/abs/2606.21748v1)
+
+
+<a id="q3831"></a>
+
+## Q3831. Derivations of generalized Witt subalgebras
+
+**Status:** Open · **Kind:** open problem (Question 5.9.2) · **Collection** 39
+
+Determine Der_k(g) for every infinite-dimensional Lie subalgebra g⊂W_Γ.
+
+**Context.** Origin: Explicitly posed in thesis Questions 5.9.2(1),(2),(4); no first-publication claim. Setup: Let k be algebraically closed of characteristic zero and Γ an additive subgroup of k. The k-Lie algebra W_Γ has basis e_γ (γ∈Γ), with [e_γ,e_δ]=(δ−γ)e_(γ+δ). Sources:
+
+**Source.** Lucas Buzaglo. *Lie algebras of derivations and their universal enveloping algebras*. University of Edinburgh, 2024. Advisor(s): Susan Sierra. [primary source](https://mathweb.ucsd.edu/~lbuzaglo/thesis.pdf) Location: p. 102, Question 5.9.2(2)
+
+**Literature check.** Status: Checked 10 October 2026: no general resolution found. The 2026 curve results do not cover arbitrary Γ.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lbuzaglo/) · [2](https://arxiv.org/abs/2606.21748v1)
+
+
+<a id="q3832"></a>
+
+## Q3832. Isomorphisms between generalized Witt subalgebras
+
+**Status:** Open · **Kind:** open problem (Question 5.9.2) · **Collection** 39
+
+Determine when two infinite-dimensional Lie subalgebras of W_Γ are isomorphic as k-Lie algebras.
+
+**Context.** Origin: Explicitly posed in thesis Questions 5.9.2(1),(2),(4); no first-publication claim. Setup: Let k be algebraically closed of characteristic zero and Γ an additive subgroup of k. The k-Lie algebra W_Γ has basis e_γ (γ∈Γ), with [e_γ,e_δ]=(δ−γ)e_(γ+δ). Sources:
+
+**Source.** Lucas Buzaglo. *Lie algebras of derivations and their universal enveloping algebras*. University of Edinburgh, 2024. Advisor(s): Susan Sierra. [primary source](https://mathweb.ucsd.edu/~lbuzaglo/thesis.pdf) Location: p. 102, Question 5.9.2(4)
+
+**Literature check.** Status: Checked 10 October 2026: no general resolution found. The 2026 curve results do not cover arbitrary Γ.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lbuzaglo/) · [2](https://arxiv.org/abs/2606.21748v1)
+
+
+<a id="q3833"></a>
+
+## Q3833. Explicit subalgebra structure on arbitrary curves
+
+**Status:** Open · **Kind:** open problem (Question 9.9) · **Collection** 39
+
+Describe explicitly all infinite-dimensional Lie subalgebras of L_C for every such curve C.
+
+**Context.** Origin: Joint-paper Question 9.9. Doctoral context: Buzaglo, above. Setup: Let k be algebraically closed of characteristic zero. For a smooth affine irreducible k-curve C, set L_C=Der_k(O(C)). Sources:
+
+**Source.** Lucas Buzaglo and Colin Ingalls. *Lie subalgebras of vector fields on curves*. 2026. [primary source](https://arxiv.org/abs/2606.21748) Location: p. 26, Question 9.9; global conventions §2, p. 4
+
+**Literature check.** Status: Checked 10 October 2026: v1 remains current; no resolution found. Theorem 1.1 gives a finite-codimension embedding into L_D, not this explicit description.
+
+**Further links.** [1](https://arxiv.org/pdf/2606.21748v1)
+
+
+<a id="q3836"></a>
+
+## Q3836. Polynomially bounded nonpolynomial automorphic growth
+
+**Status:** Open · **Kind:** open problem (Question 8.2) · **Collection** 39
+
+Does some finitely generated G have polynomially bounded α\_G that is not ∼-equivalent to any nonzero polynomial?
+
+**Context.** Doctoral context: Alexander Evetts: Aspects of Growth in Finitely Generated Groups, Heriot-Watt PhD, June 2020; supervisor Laura Ciobanu. Origin: Joint-paper Questions 8.2, 8.3, 8.7; dissertation-led follow-up, not thesis-origin. Setup: For finitely generated G, α\_G(n) counts Aut(G)-orbits meeting a word ball of radius n. Define f≼g by f(n)≤λg(λn+λ)+λ for some integer λ≥1 and all n≥0; f∼g means both directions. Thompson’s F comprises orientation-preserving piecewise-linear homeomorphisms of [0,1] with finitely many dyadic breakpoints and slopes powers of two. Sources:
+
+**Source.** Luna Elliott, Alex Evetts and Alex Levine. *Counting automorphic orbits in finitely generated groups*. 2026. [primary source](https://arxiv.org/abs/2604.18104) Location: p. 41, Question 8.2
+
+**Literature check.** Status: Checked 10 October 2026: v2 and Elliott’s June list retain these; no resolution found.
+
+**Further links.** [1](https://le27.github.io/L-Elliott/questions/) · [2](https://www.ros.hw.ac.uk/server/api/core/bitstreams/e4de7b9f-71ed-4985-b1ab-3c60e61101c9/content) · [3](https://www.macs.hw.ac.uk/~lc45/GroupTheory/Papers.html)
+
+
+<a id="q3837"></a>
+
+## Q3837. Automorphic growth of virtually abelian groups
+
+**Status:** Open · **Kind:** open problem (Question 8.3) · **Collection** 39
+
+Classify α\_G up to ∼ for every finitely generated virtually abelian group G.
+
+**Context.** Doctoral context: Alexander Evetts: Aspects of Growth in Finitely Generated Groups, Heriot-Watt PhD, June 2020; supervisor Laura Ciobanu. Origin: Joint-paper Questions 8.2, 8.3, 8.7; dissertation-led follow-up, not thesis-origin. Setup: For finitely generated G, α\_G(n) counts Aut(G)-orbits meeting a word ball of radius n. Define f≼g by f(n)≤λg(λn+λ)+λ for some integer λ≥1 and all n≥0; f∼g means both directions. Thompson’s F comprises orientation-preserving piecewise-linear homeomorphisms of [0,1] with finitely many dyadic breakpoints and slopes powers of two. Sources:
+
+**Source.** Luna Elliott, Alex Evetts and Alex Levine. *Counting automorphic orbits in finitely generated groups*. 2026. [primary source](https://arxiv.org/abs/2604.18104) Location: p. 41, Question 8.3
+
+**Literature check.** Status: Checked 10 October 2026: v2 and Elliott’s June list retain these; no resolution found.
+
+**Further links.** [1](https://le27.github.io/L-Elliott/questions/) · [2](https://www.ros.hw.ac.uk/server/api/core/bitstreams/e4de7b9f-71ed-4985-b1ab-3c60e61101c9/content) · [3](https://www.macs.hw.ac.uk/~lc45/GroupTheory/Papers.html)
+
+
+<a id="q3838"></a>
+
+## Q3838. Automorphic growth of Thompson’s F
+
+**Status:** Open · **Kind:** open problem (Question 8.7) · **Collection** 39
+
+Determine α\_F up to ∼.
+
+**Context.** Doctoral context: Alexander Evetts: Aspects of Growth in Finitely Generated Groups, Heriot-Watt PhD, June 2020; supervisor Laura Ciobanu. Origin: Joint-paper Questions 8.2, 8.3, 8.7; dissertation-led follow-up, not thesis-origin. Setup: For finitely generated G, α\_G(n) counts Aut(G)-orbits meeting a word ball of radius n. Define f≼g by f(n)≤λg(λn+λ)+λ for some integer λ≥1 and all n≥0; f∼g means both directions. Thompson’s F comprises orientation-preserving piecewise-linear homeomorphisms of [0,1] with finitely many dyadic breakpoints and slopes powers of two. Sources:
+
+**Source.** Luna Elliott, Alex Evetts and Alex Levine. *Counting automorphic orbits in finitely generated groups*. 2026. [primary source](https://arxiv.org/abs/2604.18104) Location: p. 41, Question 8.7
+
+**Literature check.** Status: Checked 10 October 2026: v2 and Elliott’s June list retain these; no resolution found.
+
+**Further links.** [1](https://le27.github.io/L-Elliott/questions/) · [2](https://www.ros.hw.ac.uk/server/api/core/bitstreams/e4de7b9f-71ed-4985-b1ab-3c60e61101c9/content) · [3](https://www.macs.hw.ac.uk/~lc45/GroupTheory/Papers.html)
+
+
+<a id="q3889"></a>
+
+## Q3889. A general Engel bound from one multilinear identity
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.5) · **Collection** 39
+
+For every integer k≥2, does the identity t_k=0 on A imply e_{3^(k−2)}(x,y)=0 for all x,y∈A?
+
+**Context.** Origin: Paper-origin: On a conjecture of Dotsenko on weak nilpotence and the Engel identity, current author-hosted 2026 submitted manuscript. Setup: Let A be a vector space over a characteristic-zero field with a commutative bilinear product, not assumed associative or unital. Define t_k(a₁,…,a_k) by summing all distinct multilinear degree-k nonassociative monomials, identifying only those equal by commutativity. Let e_m(x,y)=(((xy)y)⋯y), with m copies of y. Sources:
+
+**Source.** Oisín Flynn-Connolly. *On a conjecture of Dotsenko on weak nilpotence and the Engel identity*. 2026. [primary source](https://flynncoo.github.io/pdfs/papers/dotsenko-weak-nilpotence-engel.pdf) Location: Conjecture 1.5, p.2; definitions p.1.
+
+**Literature check.** Status: Checked 10 October 2026: k=3,4 are proved; no general resolution found.
+
+**Further links.** [1](https://flynncoo.github.io/) · [2](https://flynncoo.github.io/pdfs/theses/PhD_thesis__ED_version_.pdf)
+
+
+<a id="q3892"></a>
+
+## Q3892. Koszul Roller Coaster algebras
+
+**Status:** Open · **Kind:** conjecture (Conjecture 5.8) · **Collection** 39
+
+Over a characteristic-zero field K, for all sufficiently large d and every permutation π of {1,…,⌊d/2⌋}, is there an Artinian Gorenstein Koszul K-algebra of socle degree d with h_{π(1)}<⋯&lt;h_{π(⌊d/2⌋)}?
+
+**Context.** Origin: Paper-origin: Holleben–Lisa Nicklasson, Roller Coaster Gorenstein algebras and Koszul algebras failing the weak Lefschetz property, JPAA230(2026),108238; full final. Setup: All algebras are standard graded. For Artinian A, write h_i=dim_K A_i. WLP means some ℓ∈A₁ makes every map A_i→A_{i+1}, u↦ℓu, have maximal rank. Sources:
+
+**Source.** Thiago Holleben and Lisa Nicklasson. *Roller Coaster Gorenstein algebras and Koszul algebras failing the weak Lefschetz property*. 2026. [primary source](https://www.diva-portal.org/smash/get/diva2%3A2053155/FULLTEXT01.pdf) Location: Conjecture 5.8, printed p.18 (PDF p.19); thesis Question 7.3.1, p.163; characteristic-zero context: thesis p.118.
+
+**Literature check.** Status: Checked 10 October 2026: both retained in the final; no general resolution found.
+
+**Further links.** [1](https://doi.org/10.1016/j.jpaa.2026.108238) · [2](https://hollebenthiago.github.io/phd/thesis.pdf) · [3](https://hollebenthiago.github.io/)
+
+
+<a id="q3893"></a>
+
+## Q3893. Whiskering forces Lefschetz failure
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.3) · **Collection** 39
+
+For every finite simple graph G on [n] with independence number≥3, let w(G) add one pendant vertex at each vertex. Over any field K, must K[x₁,…,x₂ₙ]/(x_ix_j:{i,j}∈E(w(G)); x₁²,…,x₂ₙ²) fail WLP?
+
+**Context.** Origin: Paper-origin: Holleben–Lisa Nicklasson, Roller Coaster Gorenstein algebras and Koszul algebras failing the weak Lefschetz property, JPAA230(2026),108238; full final. Setup: All algebras are standard graded. For Artinian A, write h_i=dim_K A_i. WLP means some ℓ∈A₁ makes every map A_i→A_{i+1}, u↦ℓu, have maximal rank. Sources:
+
+**Source.** Thiago Holleben and Lisa Nicklasson. *Roller Coaster Gorenstein algebras and Koszul algebras failing the weak Lefschetz property*. 2026. [primary source](https://www.diva-portal.org/smash/get/diva2%3A2053155/FULLTEXT01.pdf) Location: Conjecture 1.3, p.3; 3.15, p.10.
+
+**Literature check.** Status: Checked 10 October 2026: both retained in the final; no general resolution found.
+
+**Further links.** [1](https://doi.org/10.1016/j.jpaa.2026.108238) · [2](https://hollebenthiago.github.io/phd/thesis.pdf) · [3](https://hollebenthiago.github.io/)
+
+
+<a id="q3894"></a>
+
+## Q3894. Strong Lefschetz for unexpected reductions
+
+**Status:** Open · **Kind:** open problem (Question 7.1) · **Collection** 39
+
+Must A have the strong Lefschetz property: some ℓ∈A₁ makes multiplication by ℓʲ from A_i to A_{i+j} have maximal rank for every i,j≥0?
+
+**Context.** Origin: Paper-origin, also restated in thesis Question 7.1.1. Setup: Let Δ be a d-dimensional Q-homology sphere on [n], meaning every face link has the reduced rational homology of a sphere of its dimension. Set R=C[x₁,…,xₙ], I=I_Δ, the ideal generated by squarefree monomials of nonfaces, and L=Σx_i. Let a≥1 and positive-degree homogeneous θ₁,…,θ\_{d+1} make A=R/(I,θ₁,…,θ\_{d+1}) finite-dimensional. Put t=Σdeg θ\_i and J=I+(x₁ᵃ,…,xₙᵃ). Assume t≥d+1, L,x₁ᵃ,…,xₙᵃ∈(I,θ₁,…,θ\_{d+1}), and dim_C(R/J)\_t≤dim_C(R/J)\_{t−1}. Sources:
+
+**Source.** Thiago Holleben. *From points to complexes: A concept of unexpectedness for simplicial complexes*. 2026. [primary source](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.70632) Location: Question 7.1; Definition 3.2(U1–U5); thesis p.157.
+
+**Literature check.** Status: Checked 10 October 2026: final retains the question; no later resolution found.
+
+**Further links.** [1](https://hollebenthiago.github.io/phd/thesis.pdf) · [2](https://hollebenthiago.github.io/research/)
+
+
+<a id="q3895"></a>
+
+## Q3895. A shorter normality test
+
+**Status:** Open · **Kind:** open problem (Question 3.17) · **Collection** 39
+
+If I is minimally generated by q≥4 monomials, is normality equivalent to overline(Iʳ)=Iʳ for every 2≤r≤q−2?
+
+**Context.** Origin: Paper-origin; Holleben’s verified doctoral context is given above. Setup: Let R=k[x₁,…,xₙ] over a field k. For a squarefree monomial ideal I, write overline(Iʳ) for the integral closure of Iʳ and I^(s)=∩\_{P∈Min(I)}(IˢR_P∩R). The ideal I is normal when overline(Iʳ)=Iʳ for every r≥1. Sources:
+
+**Source.** Trung Chau, Art Duval, Sara Faridi, Thiago Holleben, Susan Morey and Liana Şega. *Symbolic powers and integral closures via extremal ideals*. 2026. [primary source](https://arxiv.org/abs/2602.05076v1) Location: Question 3.17, p.16; Theorem 3.16.
+
+**Literature check.** Status: Checked 10 October 2026: current v1 and author publication lists retain the questions; no general resolution found.
+
+**Further links.** [1](https://hollebenthiago.github.io/research/)
+
+
+<a id="q3896"></a>
+
+## Q3896. Universal integral-closure containments
+
+**Status:** Open · **Kind:** open problem (Question 4.12) · **Collection** 39
+
+For each q≥1, determine all positive integer pairs (r,s) for which I^(s)⊆overline(Iʳ) holds for every squarefree monomial ideal I generated by q elements, in every polynomial ring over a field.
+
+**Context.** Origin: Paper-origin; Holleben’s verified doctoral context is given above. Setup: Let R=k[x₁,…,xₙ] over a field k. For a squarefree monomial ideal I, write overline(Iʳ) for the integral closure of Iʳ and I^(s)=∩\_{P∈Min(I)}(IˢR_P∩R). The ideal I is normal when overline(Iʳ)=Iʳ for every r≥1. Sources:
+
+**Source.** Trung Chau, Art Duval, Sara Faridi, Thiago Holleben, Susan Morey and Liana Şega. *Symbolic powers and integral closures via extremal ideals*. 2026. [primary source](https://arxiv.org/abs/2602.05076v1) Location: Question 4.12, p.22.
+
+**Literature check.** Status: Checked 10 October 2026: current v1 and author publication lists retain the questions; no general resolution found.
+
+**Further links.** [1](https://hollebenthiago.github.io/research/)
+
+
+<a id="q3932"></a>
+
+## Q3932. Is there an involution semigroup with exactly five elements, no identity element, and no finite…
+
+**Status:** Open · **Kind:** open problem (Question 1.2) · **Collection** 40
+
+Is there an involution semigroup with exactly five elements, no identity element, and no finite identity basis?
+
+**Context.** An involution semigroup is an associative semigroup S equipped with a unary operation \* satisfying (x\*)\*=x and (xy)\*=y\*x\*. It is finitely based if all identities valid in the signature (multiplication,\*) follow from a finite set of such identities.
+
+**Source.** Meng Gao, Edmond W. H. Lee, Yan Feng Luo and Wen Ting Zhang. *Finite basis problem for involution semigroups of order four*. 2026. [primary source](https://doi.org/10.2140/pjm.2026.342.163) Location: Question 1.2 and following paragraph, p.165.
+
+**Literature check.** Status: This is the authors' explicit remaining case of uniqueness at order five: the unique non-finitely-based order-five involution monoid is already known. Paper-origin question; the 2026 final and arXiv:2305.19494v2 (14 April 2026), Question 1.2, retain the nonunital case. No matching later resolution found in the documented 10 October 2026 search.
+
+**Further links.** [1](https://arxiv.org/abs/2305.19494v2)
+
+
+<a id="q3936"></a>
+
+## Q3936. Must there exist a bounded complex C of finite-dimensional p-permutation kG-modules such that,…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 9.0.7) · **Collection** 40
+
+Must there exist a bounded complex C of finite-dimensional p-permutation kG-modules such that, for every P∈X_V, C(P) has one-dimensional homology in degree f(P) and vanishing homology otherwise?
+
+**Context.** Let G be finite, k a field with char(k)=p>0, and V a finite-dimensional p-permutation kG-module with all indecomposable summand dimensions divisible by p. Put X_V={P≤G:P a p-subgroup,V(P)=0}, using Brauer quotients, applied termwise to complexes. Let f:X_V→Z be conjugacy-invariant. Require these Borel–Smith conditions whenever every displayed f-value is defined: for H◁L, L/H≅C_p and p odd, f(H)−f(L) is even; for H◁L◁N≤N_G(H), L/H≅C_2, require f(H)−f(L) to be divisible by 2 or 4 when N/H≅C_4 or Q_8, respectively; for H◁L, L/H≅C_p×C_p, require f(H)−f(L)=Σ\_{H&lt;K&lt;L}(f(K)−f(L)). All groups in these chains are p-subgroups of G; N need not belong to X_V.
+
+**Source.** Sam Kim Miller. *Permutation modules and endotrivial complexes*. University of California, Santa Cruz, 2025. Advisor(s): Robert Boltje. [primary source](https://escholarship.org/uc/item/9h73j2g4) Location: Conjecture 9.0.7(i), p.123, restates Relatively endotrivial complexes, Conjecture 10.7(i), accepted arXiv:2402.08042v3; JPAA 229 (2025), 107867.
+
+**Literature check.** Status: Theorem 1.2(a) gives this equivalent local formulation; later integral classification is non-relative. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2402.08042v3) · [2](https://arxiv.org/abs/2605.31128v1)
+
+
+<a id="q3937"></a>
+
+## Q3937. For each prime p and integer r≥2, do there exist finite p-groups G of arbitrarily large…
+
+**Status:** Open · **Kind:** open problem (Question 5.1) · **Collection** 40
+
+For each prime p and integer r≥2, do there exist finite p-groups G of arbitrarily large nilpotence class such that Z(G)≅(C_p)^r and every g∈G\Z(G) is conjugate to every element of gZ(G)?
+
+**Source.** Alexander Moretó. *On the minimal dimension of a faithful linear representation of a finite group*. 2026. [primary source](https://doi.org/10.2140/ant.2026.20.219) Location: Question 5.1 and its discussion, p.233.
+
+**Literature check.** Status: The conjugacy condition says (G,Z(G)) is a Camina pair; the source explicitly identifies it with its character-theoretic hypothesis. The r=1 case is already affirmative and is excluded. Moretó states the general question, crediting Reichstein with earlier r=1,2 questions. Paper-origin residual, not a new doctoral attribution. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3938"></a>
+
+## Q3938. Under these hypotheses, does maximal Cohen–Macaulayness of F_R^e(N)⊗\_R M, for some e≫0, force N…
+
+**Status:** Open · **Kind:** open problem (Question 4.12) · **Collection** 40
+
+Under these hypotheses, does maximal Cohen–Macaulayness of F_R^e(N)⊗\_R M, for some e≫0, force N to be free?
+
+**Context.** Let (R,m,k) be a commutative Noetherian local ring of characteristic p>0, and M,N finitely generated R-modules. Assume Supp_R(M)=Spec(R) and N_q is free over R_q for every q∈Ass(R). Write F_R^e(N)=N⊗\_{R,F^e}R, with scalar action on the second factor; F^e(r)=r^{p^e}. A nonzero finite module is maximal Cohen–Macaulay when its depth equals dim(R).
+
+**Source.** Olgur Celikbas, Arash Sadeghi and Yongwei Yao. *On the test properties of the Frobenius endomorphism*. 2026. [primary source](https://doi.org/10.2140/pjm.2026.342.235) Location: Question 4.12, p.255; Frobenius convention pp.235,237.
+
+**Literature check.** Status: Paper-origin question. The final proves this when M is Cohen–Macaulay and leaves the displayed hypothesis without that assumption open. The source's “some e≫0” convention is preserved. No matching later resolution found, 10 October 2026.
+
+
+<a id="q3958"></a>
+
+## Q3958. Is A⊗\_k B necessarily noetherian whenever both factors are noetherian connected graded…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is A⊗\_k B necessarily noetherian whenever both factors are noetherian connected graded Artin–Schelter regular k-algebras?
+
+**Context.** Fix a field k. A connected N-graded k-algebra T has T₀=k. It is Artin–Schelter regular if it has finite global dimension d, finite Gelfand–Kirillov dimension, left and right injective dimension d, and using graded Ext on both sides, Ext^i_T(k,T)=0 for i≠d while Ext^d_T(k,T)≅k(ℓ) for an integer ℓ. The notation k(ℓ) shifts internal grading.
+
+**Source.** Ellen Kirkman, Robert Won and James J. Zhang. *Homological regularities and concavities*. 2026. [primary source](https://doi.org/10.2140/ant.2026.20.1559) Location: final Remark 5.8, p.1591; Definition 0.2, p.1560.
+
+**Literature check.** Status: Noetherian means both left and right noetherian. This is a paper-reported open question. The final explicitly leaves tensor-product noetherianity unresolved before discussing additivity of other invariants; those conditional additivity statements do not answer it. No matching later resolution found, 10 October 2026.
+
+
+<a id="q4038"></a>
+
+## Q4038. Call G resistant if, for every field k, each element of kG with support size>1 generates a…
+
+**Status:** Open · **Kind:** open problem (Question 19) · **Collection** 41
+
+Call G resistant if, for every field k, each element of kG with support size>1 generates a proper two-sided ideal. Are arbitrary direct products of resistant groups resistant?
+
+**Source.** George M. Bergman. *Some questions for possible submission to the next Kourovka notebook*. 2026. [primary source](https://arxiv.org/abs/1904.04298v2) Location: Q3(ii), p. 2; originally 2021 Question 19
+
+**Literature check.** Status: Author’s updated list retains these; no later resolution found, 10 October 2026. Paper-origin.
+
+**Further links.** [1](https://math.berkeley.edu/~gbergman/papers/prin_ids_in_kG.pdf) · [2](https://math.berkeley.edu/~gbergman/papers/kG_in_D.pdf)
+
+
+<a id="q4039"></a>
+
+## Q4039. For a group G with a right-invariant total order and a field k, let k((G)) be formal k-linear…
+
+**Status:** Open · **Kind:** open problem (Question 13) · **Collection** 41
+
+For a group G with a right-invariant total order and a field k, let k((G)) be formal k-linear sums with well-ordered support. For nonzero x₁,x₂,y₁,y₂∈kG, must the operator y₁y₂⁻¹−x₁x₂⁻¹ on k((G)) be zero or invertible? Products act on the right; inverses mean inverse right-multiplication operators.
+
+**Source.** George M. Bergman. *Some questions for possible submission to the next Kourovka notebook*. 2026. [primary source](https://arxiv.org/abs/1904.04298v2) Location: Q4, p. 2; originally 2019 Question 13
+
+**Literature check.** Status: Author’s updated list retains these; no later resolution found, 10 October 2026. Paper-origin.
+
+**Further links.** [1](https://math.berkeley.edu/~gbergman/papers/prin_ids_in_kG.pdf) · [2](https://math.berkeley.edu/~gbergman/papers/kG_in_D.pdf)
+
+
+<a id="q4040"></a>
+
+## Q4040. For a group variety V (a class defined by group identities), let F_V(r) be its relatively free…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+For a group variety V (a class defined by group identities), let F_V(r) be its relatively free group on r generators. Can F_V(2) have polynomial word growth while F_V(3) does not? Polynomial growth means |B(n)|≤Cnᵈ for some C,d and all n≥1, where B(n) comprises group elements representable by words of length≤n in generators and inverses.
+
+**Source.** George M. Bergman. *Some questions for possible submission to the next Kourovka notebook*. 2026. [primary source](https://arxiv.org/abs/1904.04298v2) Location: Q22(i), pp. 3–4
+
+**Literature check.** Status: Author’s updated list retains these; no later resolution found, 10 October 2026. Paper-origin.
+
+**Further links.** [1](https://math.berkeley.edu/~gbergman/papers/prin_ids_in_kG.pdf) · [2](https://math.berkeley.edu/~gbergman/papers/kG_in_D.pdf)
+
+
+<a id="q4187"></a>
+
+## Q4187. If a finite group G is generated by two elements and its generating graph has no induced…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.11) · **Collection** 42
+
+If a finite group G is generated by two elements and its generating graph has no induced four-vertex path, must G be soluble? This graph has vertex set G, with distinct x,y adjacent exactly when ⟨x,y⟩=G.
+
+**Source.** Daniele Nemmi. *Problems on generation of finite groups and on class related graphs*. University of Padova, 2024. Advisor(s): Andrea Lucchini. [primary source](https://www.research.unipd.it/handle/11577/3515010) Location: Conjecture 2.11, p. 11, and Problem 7.65, p. 122, restate earlier joint-paper questions.
+
+**Literature check.** Status checked 10 October 2026: The published originals retain these questions: Lucchini–Nemmi (2022), Conjecture 1.11, p. 927; Burness–Lucchini–Nemmi (2023), Problem 8.1, p. 37. No later resolution was found.
+
+**Further links.** [1](https://doi.org/10.5802/alco.229) · [2](https://doi.org/10.1016/j.jcta.2022.105708)
+
+
+<a id="q4188"></a>
+
+## Q4188. Does some finite insoluble group G with trivial soluble radical have soluble graph of diameter…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.11) · **Collection** 42
+
+Does some finite insoluble group G with trivial soluble radical have soluble graph of diameter five? Its vertices are G∖{1}, and distinct x,y are adjacent exactly when ⟨x,y⟩ is soluble.
+
+**Source.** Daniele Nemmi. *Problems on generation of finite groups and on class related graphs*. University of Padova, 2024. Advisor(s): Andrea Lucchini. [primary source](https://www.research.unipd.it/handle/11577/3515010) Location: Conjecture 2.11, p. 11, and Problem 7.65, p. 122, restate earlier joint-paper questions.
+
+**Literature check.** Status checked 10 October 2026: The published originals retain these questions: Lucchini–Nemmi (2022), Conjecture 1.11, p. 927; Burness–Lucchini–Nemmi (2023), Problem 8.1, p. 37. No later resolution was found.
+
+**Further links.** [1](https://doi.org/10.5802/alco.229) · [2](https://doi.org/10.1016/j.jcta.2022.105708)
+

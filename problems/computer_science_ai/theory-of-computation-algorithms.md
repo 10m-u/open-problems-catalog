@@ -1,6 +1,6 @@
 # Theory of Computation & Algorithms
 
-300 problems: 293 open, 6 open, partial results, 1 solved here: proved.
+362 problems: 355 open, 6 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -8,303 +8,365 @@ Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computat
 
 | Q | Title | Status |
 |---|---|---|
-| [Q13](theory-of-computation-algorithms-part-1.md#q13) | For UT(3,ℤ), take S={I±E_(12),I±E_(23)}. If c_(n) counts length-n words over S e… | Open |
-| [Q14](theory-of-computation-algorithms-part-1.md#q14) | For any finitely generated virtually nilpotent group G, is D-finiteness of its c… | Open |
-| [Q15](theory-of-computation-algorithms-part-1.md#q15) | Start with A→C_(1)→⋯→C_(k)→B, positive integer edge multiplicities x_(0),…,x_(k)… | Open |
-| [Q16](theory-of-computation-algorithms-part-1.md#q16) | For a finite poset P, let si(P) be the absolute difference between its even and … | Open |
-| [Q47](theory-of-computation-algorithms-part-1.md#q47) | On graphs of maximum degree d, can a Markov-chain algorithm initialized from the… | Open |
-| [Q48](theory-of-computation-algorithms-part-1.md#q48) | Let H_(N) be a centered Gaussian Hamiltonian on {σ∈ℝ^(N):∥σ∥^(2)=N} with covaria… | Open |
-| [Q54](theory-of-computation-algorithms-part-1.md#q54) | For the Gaussian model of Definition 5.3.4, can restarted PDHG identify the opti… | Open |
-| [Q59](theory-of-computation-algorithms-part-1.md#q59) | Does random restriction yield a comparator-circuit gate-count shrinkage exponent… | Open |
-| [Q60](theory-of-computation-algorithms-part-1.md#q60) | Can hardness magnification for comparator circuits be brought down from size n^(… | Open |
-| [Q61](theory-of-computation-algorithms-part-1.md#q61) | For each fixed finite-domain constraint language with domain larger than two, do… | Open |
-| [Q65](theory-of-computation-algorithms-part-1.md#q65) | Is verifying that an n-element integer set is Sidon 4SUM-hard under fine-grained… | Open |
-| [Q66](theory-of-computation-algorithms-part-1.md#q66) | For a length-n text and length-m pattern over a polynomial-size alphabet, for 0<… | Open |
-| [Q67](theory-of-computation-algorithms-part-1.md#q67) | Can k-mismatch string matching with single-character wildcards in both the text … | Open |
-| [Q71](theory-of-computation-algorithms-part-1.md#q71) | Is Temporal Firefighter fixed-parameter tractable in ψ+Δ? Here ψ is the maximum … | Open |
-| [Q72](theory-of-computation-algorithms-part-1.md#q72) | Determine the parameterized complexity of Temporal Graph Burning for edge-interv… | Open |
-| [Q73](theory-of-computation-algorithms-part-1.md#q73) | For some fixed k≥3, can Pr[φ]≥p for a k-CNF be decided in poly(1/p)\|φ\| or 2^(pol… | Open |
-| [Q74](theory-of-computation-algorithms-part-1.md#q74) | For 2-CNF φ(x,y), can ∃x:Pr_(y)[φ(x,y)]≥p be decided in f(1/p)\|φ\| time for compu… | Open |
-| [Q75](theory-of-computation-algorithms-part-1.md#q75) | Is testing Pr[ψ∧L]≥1/2, with ψ a 3-CNF and L an unrestricted clause, NP-complete… | Open |
-| [Q76](theory-of-computation-algorithms-part-1.md#q76) | For constant p, is testing Pr[φ∣ψ]≥p polynomial-time for 2-CNFs? What if φ is a … | Open |
-| [Q77](theory-of-computation-algorithms-part-1.md#q77) | Can vertex-disjoint shortest paths for two terminal pairs be reported in O(m+n) … | Open |
-| [Q78](theory-of-computation-algorithms-part-1.md#q78) | Does directed 2-DSP admit O(m+n) detection, or a fine-grained lower bound exclud… | Open |
-| [Q93](theory-of-computation-algorithms-part-1.md#q93) | For extensional multimodal type theory (MTT) with one endomodality, does transla… | Open |
-| [Q94](theory-of-computation-algorithms-part-1.md#q94) | In MTT with the adjunction mode theory M_(adj) and univalence at both modes, mus… | Open |
-| [Q95](theory-of-computation-algorithms-part-1.md#q95) | Given a closed pretype C and a modality μ, does MTT retain normalization and can… | Open |
-| [Q96](theory-of-computation-algorithms-part-1.md#q96) | Let W be an ω-regular winning objective and M a fixed finite-state memory struct… | Open |
-| [Q97](theory-of-computation-algorithms-part-1.md#q97) | Is concept satisfiability undecidable for propositional dynamic logic with self-… | Open |
-| [Q98](theory-of-computation-algorithms-part-1.md#q98) | Is knowledge-base satisfiability decidable for ALC with visibly pushdown path mo… | Open |
-| [Q99](theory-of-computation-algorithms-part-1.md#q99) | Does adding role functionality to ALC with visibly pushdown path modalities pres… | Open |
-| [Q100](theory-of-computation-algorithms-part-1.md#q100) | Is finite concept satisfiability decidable for ALC with visibly pushdown path mo… | Open |
-| [Q137](theory-of-computation-algorithms-part-1.md#q137) | Does every search problem in search-RL have a pseudodeterministic randomized log… | Open |
-| [Q138](theory-of-computation-algorithms-part-1.md#q138) | Characterize the relation of search-BPP(log n) to search-BPP and pseudodetermini… | Open |
-| [Q139](theory-of-computation-algorithms-part-1.md#q139) | One explicitly proposed formulation of the thesis’s #SAT lifting conjecture is t… | Open |
-| [Q140](theory-of-computation-algorithms-part-1.md#q140) | Are first-order snapshots optimal for randomized one-pass, adversarial-order Max… | Open |
-| [Q141](theory-of-computation-algorithms-part-1.md#q141) | Can every n-vertex graph of pathwidth k receive a universal constant-factor path… | Open |
-| [Q142](theory-of-computation-algorithms-part-1.md#q142) | Does treewidth admit a 1.99-approximation in 2^(O(k)) n^(O(1)) time for n-vertex… | Open |
-| [Q143](theory-of-computation-algorithms-part-1.md#q143) | For each fixed q≥3, does some ε\_q>0 permit randomized q-matroid parity in O\*(2^(… | Open |
-| [Q144](theory-of-computation-algorithms-part-1.md#q144) | Is Max-Min/MoV Fair Matching solvable in f(k)\|I\|^(O(1)) time when each right ver… | Open |
-| [Q145](theory-of-computation-algorithms-part-1.md#q145) | Can Max-Min/MoV Fair Matching be solved in O\*(2^k) time, for k right vertices an… | Open |
-| [Q199](theory-of-computation-algorithms-part-1.md#q199) | Let P_(n) = {X − I_(n)/n : X ≽ 0, tr X = 1} and P_(n) ⊆ S ⊆ (1 + ε)P_(n). For fi… | Open |
-| [Q222](theory-of-computation-algorithms-part-1.md#q222) | Can a deterministic two-party protocol find a maximum-cardinality matching in an… | Open |
-| [Q223](theory-of-computation-algorithms-part-1.md#q223) | For bipartite n-vertex graphs with publicly known bipartition, can exact maximum… | Open |
-| [Q224](theory-of-computation-algorithms-part-1.md#q224) | For two matroids on an \$n\$-element ground set with maximum common independent-se… | Open |
-| [Q228](theory-of-computation-algorithms-part-1.md#q228) | Do one-way functions suffice for dual-key invisible edits? After choosing e befo… | Open |
-| [Q229](theory-of-computation-algorithms-part-1.md#q229) | Do one-way functions suffice for dual-key deniable edits? After adaptive access … | Open |
-| [Q230](theory-of-computation-algorithms-part-1.md#q230) | Assume one-way functions exist and \$\mathrm{NP}\ne\mathrm{coNP}\$. Must range avo… | Open |
-| [Q231](theory-of-computation-algorithms-part-1.md#q231) | Suppose that for every polynomial p there are a polynomial q and a deterministic… | Open |
-| [Q232](theory-of-computation-algorithms-part-1.md#q232) | For a simple graph G, a pivot step forms a cluster from a selected vertex and al… | Open |
-| [Q233](theory-of-computation-algorithms-part-1.md#q233) | Determine the complexity of this recognition problem: given a finite hypergraph … | Open |
-| [Q234](theory-of-computation-algorithms-part-1.md#q234) | Determine the complexity of recognizing segment representations of hypergraphs w… | Open |
-| [Q235](theory-of-computation-algorithms-part-1.md#q235) | Is there a polynomial-time constant-factor approximation for minimizing \$\sum_{i… | Open |
-| [Q252](theory-of-computation-algorithms-part-1.md#q252) | For integers 1≤t≤n&lt;m, determine asymptotically sharp bounds on the minimum size … | Open |
-| [Q350](theory-of-computation-algorithms-part-1.md#q350) | For every nonzero \$P:\\{-1,1\\}^2\to[0,1]\$, is \$\alpha(P)=\beta(P)\$? Write \$P(x,y)… | Open |
-| [Q351](theory-of-computation-algorithms-part-1.md#q351) | Must one-pass randomized verification of bipartiteness in the best-order streami… | Open |
-| [Q352](theory-of-computation-algorithms-part-1.md#q352) | Does there exist a constant \$c\$ such that inverting \$c\$-local Boolean permutatio… | Open |
-| [Q354](theory-of-computation-algorithms-part-1.md#q354) | For every fixed integer k ≥ 2, can MAX-k-SAT on n variables be solved in O\*(2^{n… | Open |
-| [Q355](theory-of-computation-algorithms-part-1.md#q355) | Can MAX-CUT and MAX-2-SAT be solved exactly in O\*(1.9^n) time and polynomial spa… | Open |
-| [Q356](theory-of-computation-algorithms-part-1.md#q356) | Do fixed constants k ≥ 3 and 0 < δ < 1 exist such that, for every finite field F… | Open |
-| [Q357](theory-of-computation-algorithms-part-1.md#q357) | Can a polynomial-size multi-output circuit family G_n: {0,1}^n → {0,1}^{m(n)}, w… | Open |
-| [Q358](theory-of-computation-algorithms-part-1.md#q358) | Can an efficiently evaluable keyed family F_w: {0,1}^n → {0,1} be a weak pseudor… | Open |
-| [Q361](theory-of-computation-algorithms-part-1.md#q361) | Does every crossing-free straight-line graph on four or five point seeds admit a… | Open |
-| [Q362](theory-of-computation-algorithms-part-1.md#q362) | Does every finite point set S in convex position admit a straight-line triangula… | Open |
-| [Q363](theory-of-computation-algorithms-part-1.md#q363) | Characterize labeled trees T on {1,…,n} for which there exist real coordinates x… | Open |
-| [Q365](theory-of-computation-algorithms-part-1.md#q365) | Is 1/2 the optimal polynomial-time approximation ratio for maximizing a common c… | Open |
-| [Q374](theory-of-computation-algorithms-part-1.md#q374) | Do there exist an absolute constant \$C\$ and a function \$f:\mathbb N\to\mathbb N\$… | Open |
-| [Q384](theory-of-computation-algorithms-part-1.md#q384) | Given a monic degree-\$m\$ polynomial \$f\in k[T]\$ over a field and an integer \$N\g… | Open |
-| [Q434](theory-of-computation-algorithms-part-1.md#q434) | The approximate-counting complexity of bipartite independent sets | Open |
-| [Q435](theory-of-computation-algorithms-part-1.md#q435) | Sampling color-constrained beliefs at the degree threshold | Open |
-| [Q436](theory-of-computation-algorithms-part-1.md#q436) | Random-cluster Glauber mixing for nonintegral cluster weights | Open |
-| [Q437](theory-of-computation-algorithms-part-1.md#q437) | An FPRAS for perfect-matching normalizers on general graphs | Open |
-| [Q452](theory-of-computation-algorithms-part-1.md#q452) | Exact complexity of adaptive action evaluation | Open |
-| [Q453](theory-of-computation-algorithms-part-1.md#q453) | A proof-search procedure competitive with every proof system | Open |
-| [Q454](theory-of-computation-algorithms-part-1.md#q454) | Does lack of an optimal proof calculus admit a computable improvement operator? | Open |
-| [Q459](theory-of-computation-algorithms-part-1.md#q459) | Best universal computation budget schedule using one random bit | Open |
-| [Q499](theory-of-computation-algorithms-part-1.md#q499) | Deciding exact infinite discounted trade-off targets | Open |
-| [Q515](theory-of-computation-algorithms-part-1.md#q515) | Strong-approximation lower bounds without determinism | Open |
-| [Q516](theory-of-computation-algorithms-part-1.md#q516) | Quasipolynomial enumeration of sufficient reasons | Open |
-| [Q520](theory-of-computation-algorithms-part-1.md#q520) | Unconditional DNF-to-deterministic-DNNF separation | Open |
-| [Q521](theory-of-computation-algorithms-part-1.md#q521) | Weighted countermodels of unambiguous case lists | Open |
-| [Q522](theory-of-computation-algorithms-part-1.md#q522) | Equivalence across incompatible circuit decompositions | Open |
-| [Q523](theory-of-computation-algorithms-part-1.md#q523) | Length-k walk approximation | Open |
-| [Q524](theory-of-computation-algorithms-part-1.md#q524) | Regular-language approximation dichotomy | Open |
-| [Q525](theory-of-computation-algorithms-part-1.md#q525) | Compact reachability provenance | Open |
-| [Q526](theory-of-computation-algorithms-part-1.md#q526) | Approximation degree of two-terminal unreliability | Open |
-| [Q530](theory-of-computation-algorithms-part-1.md#q530) | Do all safe probabilistic queries have compact deterministic provenance? | Open |
-| [Q531](theory-of-computation-algorithms-part-1.md#q531) | Sharp representation cost of negating deterministic decomposable beliefs | Open |
-| [Q532](theory-of-computation-algorithms-part-1.md#q532) | Canonical SDD size for tree decision diagrams | Open |
-| [Q541](theory-of-computation-algorithms-part-1.md#q541) | Exact complexity of finite coupon-collection query scheduling | Solved here: proved |
-| [Q546](theory-of-computation-algorithms-part-1.md#q546) | Can small clause memory always support short tree-like proofs? | Open |
-| [Q547](theory-of-computation-algorithms-part-1.md#q547) | Does variable memory control clause memory? | Open |
-| [Q548](theory-of-computation-algorithms-part-1.md#q548) | Can a fixed-width DNF calculus eliminate the memory–length gap? | Open |
-| [Q551](theory-of-computation-algorithms-part-1.md#q551) | Is algebraic proof degree a linear memory lower bound? | Open |
-| [Q552](theory-of-computation-algorithms-part-1.md#q552) | Can bounded-depth proofs of search hardness be analyzed efficiently? | Open |
-| [Q553](theory-of-computation-algorithms-part-1.md#q553) | Can witnesses be extracted from proof-search lower bounds in parallel? | Open |
-| [Q554](theory-of-computation-algorithms-part-1.md#q554) | Can resolution be weakly automated by a stronger certificate system? | Open |
-| [Q555](theory-of-computation-algorithms-part-1.md#q555) | Does generic one-wayness already obstruct threshold-logic proof search? | Open |
-| [Q561](theory-of-computation-algorithms-part-1.md#q561) | Exact fixed-degree sum-of-squares refutation for finite-domain constraints | Open |
-| [Q562](theory-of-computation-algorithms-part-1.md#q562) | Do sparse CNF refutations require unexpectedly large coefficient encodings? | Open |
-| [Q593](theory-of-computation-algorithms-part-1.md#q593) | Deciding exact probability equivalence of recursive language sensors | Open |
-| [Q594](theory-of-computation-algorithms-part-1.md#q594) | Deciding the unresolved side of a model-distance threshold | Open |
-| [Q595](theory-of-computation-algorithms-part-1.md#q595) | Polynomial-space approximation for infinite observation-trace distance | Open |
-| [Q601](theory-of-computation-algorithms-part-1.md#q601) | Construct optimal multi-symbol sequence-model compression | Open |
-| [Q602](theory-of-computation-algorithms-part-1.md#q602) | Decide bounded likelihood ratios with polynomially many interpretations | Open |
-| [Q603](theory-of-computation-algorithms-part-1.md#q603) | Unconditional bounded-ratio testing on structured sequence supports | Open |
-| [Q604](theory-of-computation-algorithms-part-1.md#q604) | Sharp cost of exact register compression for weighted sensors | Open |
-| [Q605](theory-of-computation-algorithms-part-1.md#q605) | Tight complexity of deterministic minimum-cost interpretation | Open |
-| [Q606](theory-of-computation-algorithms-part-1.md#q606) | Compute linear closures of recursively constrained sensor updates | Open |
-| [Q608](theory-of-computation-algorithms-part-1.md#q608) | Compute a transcript within the quasipolynomial sample budget | Open, partial results |
-| [Q609](theory-of-computation-algorithms-part-1.md#q609) | Polylogarithmic observations for typical exact transcript recovery | Open, partial results |
-| [Q610](theory-of-computation-algorithms-part-1.md#q610) | Accuracy-scalable reconstruction under insertions and deletions | Open |
-| [Q611](theory-of-computation-algorithms-part-1.md#q611) | Reconstruct probability sequences on a fixed finite grid | Open, partial results |
-| [Q612](theory-of-computation-algorithms-part-1.md#q612) | Faster recovery of a sparse distribution of latent messages | Open |
-| [Q613](theory-of-computation-algorithms-part-1.md#q613) | Sharp decision fidelity from one deleted observation | Open, partial results |
-| [Q621](theory-of-computation-algorithms-part-1.md#q621) | Complexity of a self-consistent three-level source ranking | Open |
-| [Q622](theory-of-computation-algorithms-part-1.md#q622) | Complexity of inference from strongly stable source integrations | Open |
-| [Q630](theory-of-computation-algorithms-part-1.md#q630) | Constant-factor testable learning of general halfspaces | Open |
-| [Q631](theory-of-computation-algorithms-part-1.md#q631) | The degree–accuracy cost of testable polynomial classifiers | Open |
-| [Q647](theory-of-computation-algorithms-part-1.md#q647) | Efficient dependent-data prediction without observing update sites | Open |
-| [Q761](theory-of-computation-algorithms-part-1.md#q761) | Constant-factor decision trees for equally likely hypotheses | Open |
-| [Q762](theory-of-computation-algorithms-part-1.md#q762) | Hardness with query prerequisites | Open |
-| [Q763](theory-of-computation-algorithms-part-1.md#q763) | Nonuniform-prior query guarantees | Open |
-| [Q764](theory-of-computation-algorithms-part-1.md#q764) | Bounded prerequisite query bundles | Open |
-| [Q765](theory-of-computation-algorithms-part-1.md#q765) | Sharp computational approximation for repeated median testing | Open |
-| [Q766](theory-of-computation-algorithms-part-1.md#q766) | Exact utility loss from partial rather than complete probes | Open |
-| [Q767](theory-of-computation-algorithms-part-1.md#q767) | Constant approximation for search under a latent mixture | Open, partial results |
-| [Q768](theory-of-computation-algorithms-part-1.md#q768) | Sharp particle accuracy | Open |
-| [Q769](theory-of-computation-algorithms-part-1.md#q769) | Minimum particle memory | Open |
-| [Q770](theory-of-computation-algorithms-part-1.md#q770) | Quadratic query barrier | Open |
-| [Q771](theory-of-computation-algorithms-part-1.md#q771) | Verifier-robust coverage without enumerating the action alphabet | Open |
-| [Q772](theory-of-computation-algorithms-part-1.md#q772) | Optimal first-order query complexity of log-concave inference | Open |
-| [Q773](theory-of-computation-algorithms-part-1.md#q773) | Joint dimension and noise cost of stochastic posterior queries | Open |
-| [Q774](theory-of-computation-algorithms-part-1.md#q774) | Optimal finite-sum posterior-sampling budget | Open |
-| [Q775](theory-of-computation-algorithms-part-1.md#q775) | Sharp one-dimensional cost of local posterior mixing | Open |
-| [Q776](theory-of-computation-algorithms-part-1.md#q776) | A PTAS for unequal-cost fixed-order threshold verification | Open |
-| [Q779](theory-of-computation-algorithms-part-1.md#q779) | Sharp precision versus expansiveness for predictive stability | Open |
-| [Q809](theory-of-computation-algorithms-part-1.md#q809) | Exact complexity of DAG-constrained linear probability feasibility | Open |
-| [Q929](theory-of-computation-algorithms-part-1.md#q929) | Sharp prefix-query cost with a known model class | Open |
-| [Q930](theory-of-computation-algorithms-part-1.md#q930) | Deterministic counting with twice-used evidence atoms | Open |
-| [Q931](theory-of-computation-algorithms-part-1.md#q931) | Derandomizing the probability of global connectivity | Open |
-| [Q932](theory-of-computation-algorithms-part-1.md#q932) | Local Ising sampling throughout uniqueness | Open |
-| [Q933](theory-of-computation-algorithms-part-1.md#q933) | Local coloring sampling at the CFTP threshold | Open |
-| [Q934](theory-of-computation-algorithms-part-1.md#q934) | Sharp critical Glauber inference time | Open |
-| [Q935](theory-of-computation-algorithms-part-1.md#q935) | Deterministic normalizers at criticality | Open |
-| [Q936](theory-of-computation-algorithms-part-1.md#q936) | Sparse Bayesian sampling with near-minimal observations | Open |
-| [Q937](theory-of-computation-algorithms-part-1.md#q937) | Comparing Ising posteriors without bounded-away-from-zero marginals | Open |
-| [Q938](theory-of-computation-algorithms-part-1.md#q938) | Deterministic normalization of assignment hypotheses | Open |
-| [Q939](theory-of-computation-algorithms-part-1.md#q939) | Parallel sampling of uniformly plausible matchings | Open |
-| [Q940](theory-of-computation-algorithms-part-1.md#q940) | Parallel inference with unrestricted ferromagnetic fields | Open |
-| [Q941](theory-of-computation-algorithms-part-1.md#q941) | Deterministic likelihoods for arbitrary disjunctive evidence | Open |
-| [Q942](theory-of-computation-algorithms-part-1.md#q942) | Optimal parallel rounds for coherent conditional queries | Open |
-| [Q943](theory-of-computation-algorithms-part-1.md#q943) | Subquadratic normalizers throughout the uniqueness phase | Open |
-| [Q1015](theory-of-computation-algorithms-part-1.md#q1015) | General-state Gibbs ergodicity across scan schedules | Open |
-| [Q1016](theory-of-computation-algorithms-part-1.md#q1016) | Remove the smallest-mass penalty from Gibbs scan comparison | Open |
-| [Q1017](theory-of-computation-algorithms-part-1.md#q1017) | Almost-sure coalescence for every coupling of a generic kernel | Open |
-| [Q1018](theory-of-computation-algorithms-part-1.md#q1018) | Exact normalization of cubed principal minors | Open |
-| [Q1019](theory-of-computation-algorithms-part-1.md#q1019) | Single-exponential structural cost for a product-DPP normalizer | Open |
-| [Q1020](theory-of-computation-algorithms-part-1.md#q1020) | Locate the approximation boundary for exponentiated DPPs | Open |
-| [Q1021](theory-of-computation-algorithms-part-1.md#q1021) | Sharp oracle complexity of well-conditioned evidence integrals | Open |
-| [Q1022](theory-of-computation-algorithms-part-1.md#q1022) | Near-optimal log-partition approximation in fixed polynomial time | Open |
-| [Q1023](theory-of-computation-algorithms-part-1.md#q1023) | Close the tempered Matérn evidence-query gap | Open |
-| [Q1024](theory-of-computation-algorithms-part-1.md#q1024) | Joint noise-and-query minimax rate for Gaussian-kernel quadrature | Open |
-| [Q1025](theory-of-computation-algorithms-part-1.md#q1025) | General-likelihood collapse of wide mean-field Bayesian networks | Open |
-| [Q1026](theory-of-computation-algorithms-part-1.md#q1026) | A priori root-derivative control for star-structured variational transport | Open |
-| [Q1027](theory-of-computation-algorithms-part-1.md#q1027) | Uniqueness of a one-sided behavioral-error certificate | Open |
-| [Q1028](theory-of-computation-algorithms-part-1.md#q1028) | Sharp complexity of approximating one-sided trace divergence | Open |
-| [Q1029](theory-of-computation-algorithms-part-1.md#q1029) | Exact complexity of symmetric skewed behavioral distance | Open |
-| [Q1030](theory-of-computation-algorithms-part-1.md#q1030) | Threshold complexity for multiplicative behavioral distortion | Open |
-| [Q1031](theory-of-computation-algorithms-part-1.md#q1031) | Short certificates for optimal finite-state belief compression | Open |
-| [Q1040](theory-of-computation-algorithms-part-1.md#q1040) | Can an exact cost representation use at most two accepting paths? | Open |
-| [Q1041](theory-of-computation-algorithms-part-1.md#q1041) | The small-width frontier for exact cost-register compression | Open |
-| [Q1169](theory-of-computation-algorithms-part-1.md#q1169) | Recognizing history-determinism with unrestricted priorities | Open |
-| [Q1170](theory-of-computation-algorithms-part-1.md#q1170) | A quadratic history-deterministic Büchi succinctness gap | Open |
-| [Q1171](theory-of-computation-algorithms-part-1.md#q1171) | Sharp short witnesses of unboundedness | Open |
-| [Q1172](theory-of-computation-algorithms-part-1.md#q1172) | Recognize deterministic one-counter realizations | Open |
-| [Q1173](theory-of-computation-algorithms-part-1.md#q1173) | NP certificates for disequality-guarded reachability | Open |
-| [Q1180](theory-of-computation-algorithms-part-1.md#q1180) | Infinite word-equation solutions force unbounded powers | Open |
-| [Q1234](theory-of-computation-algorithms-part-1.md#q1234) | NP certificates for 3-manifold homeomorphism | Open |
-| [Q1271](theory-of-computation-algorithms-part-1.md#q1271) | Linear-time co-lex sorting of deterministic automata | Open |
-| [Q1281](theory-of-computation-algorithms-part-1.md#q1281) | NP membership for mixed-encoding two-counter reachability | Open |
-| [Q1282](theory-of-computation-algorithms-part-1.md#q1282) | Hardness of mixed-encoding coverability | Open |
-| [Q1283](theory-of-computation-algorithms-part-1.md#q1283) | Prime counter languages in every higher dimension | Open |
-| [Q1284](theory-of-computation-algorithms-part-1.md#q1284) | Two-token characterization beyond finite state spaces | Open |
-| [Q1372](theory-of-computation-algorithms-part-1.md#q1372) | Decide first-order definability of regular transductions | Open |
-| [Q1373](theory-of-computation-algorithms-part-1.md#q1373) | Effectively remove infinite lookaround from continuous functions | Open |
-| [Q1374](theory-of-computation-algorithms-part-1.md#q1374) | Equivalence of string-to-string polyregular functions | Open |
-| [Q1381](theory-of-computation-algorithms-part-1.md#q1381) | Characterize compression-compatible polyregular functions | Open |
-| [Q1382](theory-of-computation-algorithms-part-1.md#q1382) | Recognize rectangular polyregular functions | Open |
-| [Q1457](theory-of-computation-algorithms-part-1.md#q1457) | Compute outer multiset dimension on trees | Open |
-| [Q1468](theory-of-computation-algorithms-part-1.md#q1468) | NP certificates for unconstrained word equations | Open |
-| [Q1469](theory-of-computation-algorithms-part-1.md#q1469) | Decide word equations with linear length constraints | Open |
-| [Q1470](theory-of-computation-algorithms-part-1.md#q1470) | Reversal closure for returning translucent automata | Open |
-| [Q1478](theory-of-computation-algorithms-part-1.md#q1478) | Context-freeness of primitive binary words | Open |
-| [Q1567](theory-of-computation-algorithms-part-1.md#q1567) | Unary two-dimensional nonnegative continuous counters | Open |
-| [Q1568](theory-of-computation-algorithms-part-1.md#q1568) | Fixed-dimensional unary signed continuous counters | Open |
-| [Q1572](theory-of-computation-algorithms-part-1.md#q1572) | Density of tolerant learning degrees | Open |
-| [Q1573](theory-of-computation-algorithms-part-1.md#q1573) | Computable learning under maximum tolerance | Open |
-| [Q1582](theory-of-computation-algorithms-part-1.md#q1582) | Decide simulation between gap-order systems | Open |
-| [Q1654](theory-of-computation-algorithms-part-1.md#q1654) | Improve weighted planar even-cycle transversal | Open |
-| [Q1655](theory-of-computation-algorithms-part-1.md#q1655) | Improve weighted planar directed feedback sets | Open |
-| [Q1675](theory-of-computation-algorithms-part-1.md#q1675) | Compressing a specified state | Open |
-| [Q1676](theory-of-computation-algorithms-part-1.md#q1676) | Cardoso’s subset bound | Open |
-| [Q1677](theory-of-computation-algorithms-part-1.md#q1677) | An easy k-subset | Open |
-| [Q1678](theory-of-computation-algorithms-part-1.md#q1678) | Subquadratic synchronizability | Open |
-| [Q1679](theory-of-computation-algorithms-part-1.md#q1679) | Parallel minimum-rank witness | Open |
-| [Q1680](theory-of-computation-algorithms-part-1.md#q1680) | Unambiguous completeness complexity | Open |
-| [Q1681](theory-of-computation-algorithms-part-1.md#q1681) | Rational conjugacy complexity | Open |
-| [Q1682](theory-of-computation-algorithms-part-1.md#q1682) | Recognizing Wheeler transducers | Open |
-| [Q1683](theory-of-computation-algorithms-part-1.md#q1683) | Wheeler realizability | Open |
-| [Q1914](theory-of-computation-algorithms-part-1.md#q1914) | Groups of eighth-power prime order | Open |
-| [Q1915](theory-of-computation-algorithms-part-1.md#q1915) | Explicit classification of groups of order 1024 | Open |
-| [Q1916](theory-of-computation-algorithms-part-1.md#q1916) | Groups whose orders have five prime factors | Open |
-| [Q1917](theory-of-computation-algorithms-part-1.md#q1917) | Uniform classification of groups of order pⁿq | Open |
-| [Q2477](theory-of-computation-algorithms-part-1.md#q2477) | Optimal proof systems beyond NP | Open |
-| [Q2478](theory-of-computation-algorithms-part-1.md#q2478) | Polynomial calculus beats clause space | Open |
-| [Q2479](theory-of-computation-algorithms-part-1.md#q2479) | Unprovable fixed circuit bounds in S₂¹ | Open |
-| [Q2480](theory-of-computation-algorithms-part-1.md#q2480) | Unprovable NP circuit bounds in T₂¹ | Open |
-| [Q2584](theory-of-computation-algorithms-part-1.md#q2584) | Linear-query provenance minimization | Open |
-| [Q2587](theory-of-computation-algorithms-part-1.md#q2587) | Identity padding and CNOT distance | Open |
-| [Q2588](theory-of-computation-algorithms-part-1.md#q2588) | First nonpermutation CNOT diameter | Open |
-| [Q2596](theory-of-computation-algorithms-part-1.md#q2596) | Optimal marked-grid rendezvous time | Open |
-| [Q2714](theory-of-computation-algorithms-part-1.md#q2714) | Diophantine decidability in Thompson V | Open |
-| [Q2715](theory-of-computation-algorithms-part-1.md#q2715) | Single-equation decidability in Thompson F | Open |
-| [Q2776](theory-of-computation-algorithms-part-1.md#q2776) | Quantum-matching decidability | Open |
-| [Q2780](theory-of-computation-algorithms-part-1.md#q2780) | Decidability of branching-VASS reachability | Open |
-| [Q2781](theory-of-computation-algorithms-part-1.md#q2781) | Exact complexity of two-dimensional branching VASS | Open |
-| [Q2782](theory-of-computation-algorithms-part-1.md#q2782) | Decidability of the nondeterministic tree index | Open |
-| [Q2783](theory-of-computation-algorithms-part-1.md#q2783) | Sequential two-way realization of monotone functions | Open |
-| [Q2852](theory-of-computation-algorithms-part-1.md#q2852) | SFVS on directed-path graphs | Open |
-| [Q2853](theory-of-computation-algorithms-part-1.md#q2853) | SFVS on strongly chordal split graphs | Open |
-| [Q2854](theory-of-computation-algorithms-part-1.md#q2854) | Unweighted SFVS parameterized by leafage | Open |
-| [Q2869](theory-of-computation-algorithms-part-1.md#q2869) | Partial versus complete automaton semigroups | Open |
-| [Q2870](theory-of-computation-algorithms-part-1.md#q2870) | Finiteness of automaton groups | Open |
-| [Q2871](theory-of-computation-algorithms-part-1.md#q2871) | Freeness of automaton groups | Open |
-| [Q2872](theory-of-computation-algorithms-part-1.md#q2872) | Binary-alphabet freeness | Open |
-| [Q2873](theory-of-computation-algorithms-part-1.md#q2873) | Free presentation of automaton semigroups | Open |
-| [Q2874](theory-of-computation-algorithms-part-1.md#q2874) | Existence of a semigroup length function | Open |
-| [Q2875](theory-of-computation-algorithms-part-1.md#q2875) | Exact complexity for deterministic limit Parikh automata | Open |
-| [Q2876](theory-of-computation-algorithms-part-1.md#q2876) | Gale–Stewart games with limit-Parikh winning conditions | Open |
-| [Q2878](theory-of-computation-algorithms-part-1.md#q2878) | DA reachability closure | Open |
-| [Q2879](theory-of-computation-algorithms-part-1.md#q2879) | Characterizing ordered population protocols | Open |
-| [Q2881](theory-of-computation-algorithms-part-1.md#q2881) | Bireversibility forced by free first-level-transitive actions | Open |
-| [Q2882](theory-of-computation-algorithms-part-1.md#q2882) | Parikh-implementable history-deterministic resolvers | Open |
-| [Q2883](theory-of-computation-algorithms-part-1.md#q2883) | Complementing weakly-unambiguous Parikh automata | Open |
-| [Q2884](theory-of-computation-algorithms-part-1.md#q2884) | Exponential determinization after one random transition | Open |
-| [Q2960](theory-of-computation-algorithms-part-1.md#q2960) | Width-parameterized MCS extension | Open |
-| [Q2961](theory-of-computation-algorithms-part-1.md#q2961) | LBFS extension on chordal graphs | Open |
-| [Q2962](theory-of-computation-algorithms-part-1.md#q2962) | Recognizing intersections of two chordal graphs | Open |
-| [Q2971](theory-of-computation-algorithms-part-1.md#q2971) | Generalized BFS-tree recognition on chordal graphs | Open |
-| [Q2983](theory-of-computation-algorithms-part-1.md#q2983) | Skolem decidability | Open |
-| [Q2984](theory-of-computation-algorithms-part-1.md#q2984) | Positivity decidability | Open |
-| [Q2985](theory-of-computation-algorithms-part-1.md#q2985) | Ultimate positivity decidability | Open |
-| [Q2986](theory-of-computation-algorithms-part-1.md#q2986) | Full orbit verification with a Positivity oracle | Open |
-| [Q2987](theory-of-computation-algorithms-part-1.md#q2987) | Planar multiple reachability | Open |
-| [Q2988](theory-of-computation-algorithms-part-1.md#q2988) | Recognizing prophetic rational functions | Open |
-| [Q2989](theory-of-computation-algorithms-part-1.md#q2989) | One-way definability of regular ω-functions | Open |
-| [Q3075](theory-of-computation-algorithms-part-1.md#q3075) | Finite regular colourability | Open |
-| [Q3076](theory-of-computation-algorithms-part-1.md#q3076) | Finite colourability complexity | Open |
-| [Q3077](theory-of-computation-algorithms-part-1.md#q3077) | Bounded clique size | Open |
-| [Q3079](theory-of-computation-algorithms-part-1.md#q3079) | Semilinear diagonal predecessors | Open |
-| [Q3080](theory-of-computation-algorithms-part-2.md#q3080) | Three additive clocks | Open |
-| [Q3082](theory-of-computation-algorithms-part-2.md#q3082) | Maximal order type of graph minors | Open |
-| [Q3083](theory-of-computation-algorithms-part-2.md#q3083) | Minimizing visible pebbles | Open |
-| [Q3084](theory-of-computation-algorithms-part-2.md#q3084) | Last-pebble to marble membership | Open |
-| [Q3085](theory-of-computation-algorithms-part-2.md#q3085) | Eliminating unbounded last-pebble recursion | Open |
-| [Q3086](theory-of-computation-algorithms-part-2.md#q3086) | Polynomial ambiguity in tree height | Open |
-| [Q3087](theory-of-computation-algorithms-part-2.md#q3087) | An exponential rate for weighted trees | Open |
-| [Q3088](theory-of-computation-algorithms-part-2.md#q3088) | Arena-independent constrained SPE memory | Open |
-| [Q3089](theory-of-computation-algorithms-part-2.md#q3089) | Composition at exponential growth | Open |
-| [Q3122](theory-of-computation-algorithms-part-2.md#q3122) | Polynomial Khovanov computation at fixed braid index | Open |
-| [Q3177](theory-of-computation-algorithms-part-2.md#q3177) | Semigroup frontier for guarded data logic | Open |
-| [Q3257](theory-of-computation-algorithms-part-2.md#q3257) | Approximate graph homomorphism hardness | Open |
-| [Q3264](theory-of-computation-algorithms-part-2.md#q3264) | Minimum-color cycle complexity | Open |
-| [Q3265](theory-of-computation-algorithms-part-2.md#q3265) | FPT path-width from a connectivity oracle | Open |
-| [Q3276](theory-of-computation-algorithms-part-2.md#q3276) | Equivalence under subsequence constraints | Open |
-| [Q3277](theory-of-computation-algorithms-part-2.md#q3277) | Equivalence under reversal constraints | Open |
-| [Q3278](theory-of-computation-algorithms-part-2.md#q3278) | Equivalence under word-power constraints | Open |
-| [Q3281](theory-of-computation-algorithms-part-2.md#q3281) | Verification with two ReLU neurons per layer | Open |
-| [Q3282](theory-of-computation-algorithms-part-2.md#q3282) | Global identifiability with independent HMM entries | Open |
-| [Q3283](theory-of-computation-algorithms-part-2.md#q3283) | Local identifiability of a fixed HMM | Open |
-| [Q3372](theory-of-computation-algorithms-part-2.md#q3372) | Integer feasibility in atom-dimension two | Open |
-| [Q3377](theory-of-computation-algorithms-part-2.md#q3377) | Recognizing fully universal representations | Open |
-| [Q3378](theory-of-computation-algorithms-part-2.md#q3378) | Smallest network problem outside NP | Open |
-| [Q3379](theory-of-computation-algorithms-part-2.md#q3379) | Atomic-or-unconstrained network classification | Open |
-| [Q3386](theory-of-computation-algorithms-part-2.md#q3386) | Sampling hardness against shallow parity circuits | Open |
-| [Q3387](theory-of-computation-algorithms-part-2.md#q3387) | Pseudo-Siggers tractability for normal relation algebras | Open |
-| [Q3388](theory-of-computation-algorithms-part-2.md#q3388) | Explicit local-source dispersers below square-root entropy | Open |
-| [Q3433](theory-of-computation-algorithms-part-2.md#q3433) | Deterministic mean-payoff decomposition | Open |
-| [Q3434](theory-of-computation-algorithms-part-2.md#q3434) | Exact complexity with many successors | Open |
-| [Q3489](theory-of-computation-algorithms-part-2.md#q3489) | Exact connected-set evaluation at minus two | Open, partial results |
-| [Q3490](theory-of-computation-algorithms-part-2.md#q3490) | Unrestricted orbit-finite linear feasibility | Open |
-| [Q3559](theory-of-computation-algorithms-part-2.md#q3559) | Are GKAT guarded-string languages closed under intersection? | Open |
-| [Q3560](theory-of-computation-algorithms-part-2.md#q3560) | For syntax-tree GKAT expressions over a fixed finite nonempty test alphabet and a fixed nonempty… | Open |
-| [Q3571](theory-of-computation-algorithms-part-2.md#q3571) | Forbidden-subgraph injective labelling | Open |
-| [Q3572](theory-of-computation-algorithms-part-2.md#q3572) | Mixed semibalanced targets | Open |
-| [Q3584](theory-of-computation-algorithms-part-2.md#q3584) | Polynomial-time functional approximation of matroid branch-depth | Open |
-| [Q3661](theory-of-computation-algorithms-part-2.md#q3661) | Is satisfiability for PML(p,s,¬) EXPTIME-complete with unbounded input relation symbols and arities? | Open |
-| [Q3662](theory-of-computation-algorithms-part-2.md#q3662) | For fixed c≥2, is satisfiability for PML(p,s,¬,∩) plus binary identity I={(w,w):w∈W}… | Open |
-| [Q3666](theory-of-computation-algorithms-part-2.md#q3666) | For every fixed finite nonbipartite simple graph H, is its oracular quantum homomorphism problem… | Open |
-| [Q3667](theory-of-computation-algorithms-part-2.md#q3667) | Fix c≥1 and a finite family F of finite simple graphs with edges colored from [c]. Given a… | Open |
-| [Q3668](theory-of-computation-algorithms-part-2.md#q3668) | Are cyclic arithmetic and Peano arithmetic exponentially separated in shortest proof size?… | Open |
-| [Q3684](theory-of-computation-algorithms-part-2.md#q3684) | Subquadratic-logarithmic generating-set algorithm | Open |
+| <a id="q13"></a>[Q13](theory-of-computation-algorithms-part-1.md#q13) | For UT(3,ℤ), take S={I±E_(12),I±E_(23)}. If c_(n) counts length-n words over S e… | Open |
+| <a id="q14"></a>[Q14](theory-of-computation-algorithms-part-1.md#q14) | For any finitely generated virtually nilpotent group G, is D-finiteness of its c… | Open |
+| <a id="q15"></a>[Q15](theory-of-computation-algorithms-part-1.md#q15) | Start with A→C_(1)→⋯→C_(k)→B, positive integer edge multiplicities x_(0),…,x_(k)… | Open |
+| <a id="q16"></a>[Q16](theory-of-computation-algorithms-part-1.md#q16) | For a finite poset P, let si(P) be the absolute difference between its even and … | Open |
+| <a id="q47"></a>[Q47](theory-of-computation-algorithms-part-1.md#q47) | On graphs of maximum degree d, can a Markov-chain algorithm initialized from the… | Open |
+| <a id="q48"></a>[Q48](theory-of-computation-algorithms-part-1.md#q48) | Let H_(N) be a centered Gaussian Hamiltonian on {σ∈ℝ^(N):∥σ∥^(2)=N} with covaria… | Open |
+| <a id="q54"></a>[Q54](theory-of-computation-algorithms-part-1.md#q54) | For the Gaussian model of Definition 5.3.4, can restarted PDHG identify the opti… | Open |
+| <a id="q59"></a>[Q59](theory-of-computation-algorithms-part-1.md#q59) | Does random restriction yield a comparator-circuit gate-count shrinkage exponent… | Open |
+| <a id="q60"></a>[Q60](theory-of-computation-algorithms-part-1.md#q60) | Can hardness magnification for comparator circuits be brought down from size n^(… | Open |
+| <a id="q61"></a>[Q61](theory-of-computation-algorithms-part-1.md#q61) | For each fixed finite-domain constraint language with domain larger than two, do… | Open |
+| <a id="q65"></a>[Q65](theory-of-computation-algorithms-part-1.md#q65) | Is verifying that an n-element integer set is Sidon 4SUM-hard under fine-grained… | Open |
+| <a id="q66"></a>[Q66](theory-of-computation-algorithms-part-1.md#q66) | For a length-n text and length-m pattern over a polynomial-size alphabet, for 0<… | Open |
+| <a id="q67"></a>[Q67](theory-of-computation-algorithms-part-1.md#q67) | Can k-mismatch string matching with single-character wildcards in both the text … | Open |
+| <a id="q71"></a>[Q71](theory-of-computation-algorithms-part-1.md#q71) | Is Temporal Firefighter fixed-parameter tractable in ψ+Δ? Here ψ is the maximum … | Open |
+| <a id="q72"></a>[Q72](theory-of-computation-algorithms-part-1.md#q72) | Determine the parameterized complexity of Temporal Graph Burning for edge-interv… | Open |
+| <a id="q73"></a>[Q73](theory-of-computation-algorithms-part-1.md#q73) | For some fixed k≥3, can Pr[φ]≥p for a k-CNF be decided in poly(1/p)\|φ\| or 2^(pol… | Open |
+| <a id="q74"></a>[Q74](theory-of-computation-algorithms-part-1.md#q74) | For 2-CNF φ(x,y), can ∃x:Pr_(y)[φ(x,y)]≥p be decided in f(1/p)\|φ\| time for compu… | Open |
+| <a id="q75"></a>[Q75](theory-of-computation-algorithms-part-1.md#q75) | Is testing Pr[ψ∧L]≥1/2, with ψ a 3-CNF and L an unrestricted clause, NP-complete… | Open |
+| <a id="q76"></a>[Q76](theory-of-computation-algorithms-part-1.md#q76) | For constant p, is testing Pr[φ∣ψ]≥p polynomial-time for 2-CNFs? What if φ is a … | Open |
+| <a id="q77"></a>[Q77](theory-of-computation-algorithms-part-1.md#q77) | Can vertex-disjoint shortest paths for two terminal pairs be reported in O(m+n) … | Open |
+| <a id="q78"></a>[Q78](theory-of-computation-algorithms-part-1.md#q78) | Does directed 2-DSP admit O(m+n) detection, or a fine-grained lower bound exclud… | Open |
+| <a id="q93"></a>[Q93](theory-of-computation-algorithms-part-1.md#q93) | For extensional multimodal type theory (MTT) with one endomodality, does transla… | Open |
+| <a id="q94"></a>[Q94](theory-of-computation-algorithms-part-1.md#q94) | In MTT with the adjunction mode theory M_(adj) and univalence at both modes, mus… | Open |
+| <a id="q95"></a>[Q95](theory-of-computation-algorithms-part-1.md#q95) | Given a closed pretype C and a modality μ, does MTT retain normalization and can… | Open |
+| <a id="q96"></a>[Q96](theory-of-computation-algorithms-part-1.md#q96) | Let W be an ω-regular winning objective and M a fixed finite-state memory struct… | Open |
+| <a id="q97"></a>[Q97](theory-of-computation-algorithms-part-1.md#q97) | Is concept satisfiability undecidable for propositional dynamic logic with self-… | Open |
+| <a id="q98"></a>[Q98](theory-of-computation-algorithms-part-1.md#q98) | Is knowledge-base satisfiability decidable for ALC with visibly pushdown path mo… | Open |
+| <a id="q99"></a>[Q99](theory-of-computation-algorithms-part-1.md#q99) | Does adding role functionality to ALC with visibly pushdown path modalities pres… | Open |
+| <a id="q100"></a>[Q100](theory-of-computation-algorithms-part-1.md#q100) | Is finite concept satisfiability decidable for ALC with visibly pushdown path mo… | Open |
+| <a id="q137"></a>[Q137](theory-of-computation-algorithms-part-1.md#q137) | Does every search problem in search-RL have a pseudodeterministic randomized log… | Open |
+| <a id="q138"></a>[Q138](theory-of-computation-algorithms-part-1.md#q138) | Characterize the relation of search-BPP(log n) to search-BPP and pseudodetermini… | Open |
+| <a id="q139"></a>[Q139](theory-of-computation-algorithms-part-1.md#q139) | One explicitly proposed formulation of the thesis’s #SAT lifting conjecture is t… | Open |
+| <a id="q140"></a>[Q140](theory-of-computation-algorithms-part-1.md#q140) | Are first-order snapshots optimal for randomized one-pass, adversarial-order Max… | Open |
+| <a id="q141"></a>[Q141](theory-of-computation-algorithms-part-1.md#q141) | Can every n-vertex graph of pathwidth k receive a universal constant-factor path… | Open |
+| <a id="q142"></a>[Q142](theory-of-computation-algorithms-part-1.md#q142) | Does treewidth admit a 1.99-approximation in 2^(O(k)) n^(O(1)) time for n-vertex… | Open |
+| <a id="q143"></a>[Q143](theory-of-computation-algorithms-part-1.md#q143) | For each fixed q≥3, does some ε\_q>0 permit randomized q-matroid parity in O\*(2^(… | Open |
+| <a id="q144"></a>[Q144](theory-of-computation-algorithms-part-1.md#q144) | Is Max-Min/MoV Fair Matching solvable in f(k)\|I\|^(O(1)) time when each right ver… | Open |
+| <a id="q145"></a>[Q145](theory-of-computation-algorithms-part-1.md#q145) | Can Max-Min/MoV Fair Matching be solved in O\*(2^k) time, for k right vertices an… | Open |
+| <a id="q199"></a>[Q199](theory-of-computation-algorithms-part-1.md#q199) | Let P_(n) = {X − I_(n)/n : X ≽ 0, tr X = 1} and P_(n) ⊆ S ⊆ (1 + ε)P_(n). For fi… | Open |
+| <a id="q222"></a>[Q222](theory-of-computation-algorithms-part-1.md#q222) | Can a deterministic two-party protocol find a maximum-cardinality matching in an… | Open |
+| <a id="q223"></a>[Q223](theory-of-computation-algorithms-part-1.md#q223) | For bipartite n-vertex graphs with publicly known bipartition, can exact maximum… | Open |
+| <a id="q224"></a>[Q224](theory-of-computation-algorithms-part-1.md#q224) | For two matroids on an \$n\$-element ground set with maximum common independent-se… | Open |
+| <a id="q228"></a>[Q228](theory-of-computation-algorithms-part-1.md#q228) | Do one-way functions suffice for dual-key invisible edits? After choosing e befo… | Open |
+| <a id="q229"></a>[Q229](theory-of-computation-algorithms-part-1.md#q229) | Do one-way functions suffice for dual-key deniable edits? After adaptive access … | Open |
+| <a id="q230"></a>[Q230](theory-of-computation-algorithms-part-1.md#q230) | Assume one-way functions exist and \$\mathrm{NP}\ne\mathrm{coNP}\$. Must range avo… | Open |
+| <a id="q231"></a>[Q231](theory-of-computation-algorithms-part-1.md#q231) | Suppose that for every polynomial p there are a polynomial q and a deterministic… | Open |
+| <a id="q232"></a>[Q232](theory-of-computation-algorithms-part-1.md#q232) | For a simple graph G, a pivot step forms a cluster from a selected vertex and al… | Open |
+| <a id="q233"></a>[Q233](theory-of-computation-algorithms-part-1.md#q233) | Determine the complexity of this recognition problem: given a finite hypergraph … | Open |
+| <a id="q234"></a>[Q234](theory-of-computation-algorithms-part-1.md#q234) | Determine the complexity of recognizing segment representations of hypergraphs w… | Open |
+| <a id="q235"></a>[Q235](theory-of-computation-algorithms-part-1.md#q235) | Is there a polynomial-time constant-factor approximation for minimizing \$\sum_{i… | Open |
+| <a id="q252"></a>[Q252](theory-of-computation-algorithms-part-1.md#q252) | For integers 1≤t≤n&lt;m, determine asymptotically sharp bounds on the minimum size … | Open |
+| <a id="q350"></a>[Q350](theory-of-computation-algorithms-part-1.md#q350) | For every nonzero \$P:\\{-1,1\\}^2\to[0,1]\$, is \$\alpha(P)=\beta(P)\$? Write \$P(x,y)… | Open |
+| <a id="q351"></a>[Q351](theory-of-computation-algorithms-part-1.md#q351) | Must one-pass randomized verification of bipartiteness in the best-order streami… | Open |
+| <a id="q352"></a>[Q352](theory-of-computation-algorithms-part-1.md#q352) | Does there exist a constant \$c\$ such that inverting \$c\$-local Boolean permutatio… | Open |
+| <a id="q354"></a>[Q354](theory-of-computation-algorithms-part-1.md#q354) | For every fixed integer k ≥ 2, can MAX-k-SAT on n variables be solved in O\*(2^{n… | Open |
+| <a id="q355"></a>[Q355](theory-of-computation-algorithms-part-1.md#q355) | Can MAX-CUT and MAX-2-SAT be solved exactly in O\*(1.9^n) time and polynomial spa… | Open |
+| <a id="q356"></a>[Q356](theory-of-computation-algorithms-part-1.md#q356) | Do fixed constants k ≥ 3 and 0 < δ < 1 exist such that, for every finite field F… | Open |
+| <a id="q357"></a>[Q357](theory-of-computation-algorithms-part-1.md#q357) | Can a polynomial-size multi-output circuit family G_n: {0,1}^n → {0,1}^{m(n)}, w… | Open |
+| <a id="q358"></a>[Q358](theory-of-computation-algorithms-part-1.md#q358) | Can an efficiently evaluable keyed family F_w: {0,1}^n → {0,1} be a weak pseudor… | Open |
+| <a id="q361"></a>[Q361](theory-of-computation-algorithms-part-1.md#q361) | Does every crossing-free straight-line graph on four or five point seeds admit a… | Open |
+| <a id="q362"></a>[Q362](theory-of-computation-algorithms-part-1.md#q362) | Does every finite point set S in convex position admit a straight-line triangula… | Open |
+| <a id="q363"></a>[Q363](theory-of-computation-algorithms-part-1.md#q363) | Characterize labeled trees T on {1,…,n} for which there exist real coordinates x… | Open |
+| <a id="q365"></a>[Q365](theory-of-computation-algorithms-part-1.md#q365) | Is 1/2 the optimal polynomial-time approximation ratio for maximizing a common c… | Open |
+| <a id="q374"></a>[Q374](theory-of-computation-algorithms-part-1.md#q374) | Do there exist an absolute constant \$C\$ and a function \$f:\mathbb N\to\mathbb N\$… | Open |
+| <a id="q384"></a>[Q384](theory-of-computation-algorithms-part-1.md#q384) | Given a monic degree-\$m\$ polynomial \$f\in k[T]\$ over a field and an integer \$N\g… | Open |
+| <a id="q434"></a>[Q434](theory-of-computation-algorithms-part-1.md#q434) | The approximate-counting complexity of bipartite independent sets | Open |
+| <a id="q435"></a>[Q435](theory-of-computation-algorithms-part-1.md#q435) | Sampling color-constrained beliefs at the degree threshold | Open |
+| <a id="q436"></a>[Q436](theory-of-computation-algorithms-part-1.md#q436) | Random-cluster Glauber mixing for nonintegral cluster weights | Open |
+| <a id="q437"></a>[Q437](theory-of-computation-algorithms-part-1.md#q437) | An FPRAS for perfect-matching normalizers on general graphs | Open |
+| <a id="q452"></a>[Q452](theory-of-computation-algorithms-part-1.md#q452) | Exact complexity of adaptive action evaluation | Open |
+| <a id="q453"></a>[Q453](theory-of-computation-algorithms-part-1.md#q453) | A proof-search procedure competitive with every proof system | Open |
+| <a id="q454"></a>[Q454](theory-of-computation-algorithms-part-1.md#q454) | Does lack of an optimal proof calculus admit a computable improvement operator? | Open |
+| <a id="q459"></a>[Q459](theory-of-computation-algorithms-part-1.md#q459) | Best universal computation budget schedule using one random bit | Open |
+| <a id="q499"></a>[Q499](theory-of-computation-algorithms-part-1.md#q499) | Deciding exact infinite discounted trade-off targets | Open |
+| <a id="q515"></a>[Q515](theory-of-computation-algorithms-part-1.md#q515) | Strong-approximation lower bounds without determinism | Open |
+| <a id="q516"></a>[Q516](theory-of-computation-algorithms-part-1.md#q516) | Quasipolynomial enumeration of sufficient reasons | Open |
+| <a id="q520"></a>[Q520](theory-of-computation-algorithms-part-1.md#q520) | Unconditional DNF-to-deterministic-DNNF separation | Open |
+| <a id="q521"></a>[Q521](theory-of-computation-algorithms-part-1.md#q521) | Weighted countermodels of unambiguous case lists | Open |
+| <a id="q522"></a>[Q522](theory-of-computation-algorithms-part-1.md#q522) | Equivalence across incompatible circuit decompositions | Open |
+| <a id="q523"></a>[Q523](theory-of-computation-algorithms-part-1.md#q523) | Length-k walk approximation | Open |
+| <a id="q524"></a>[Q524](theory-of-computation-algorithms-part-1.md#q524) | Regular-language approximation dichotomy | Open |
+| <a id="q525"></a>[Q525](theory-of-computation-algorithms-part-1.md#q525) | Compact reachability provenance | Open |
+| <a id="q526"></a>[Q526](theory-of-computation-algorithms-part-1.md#q526) | Approximation degree of two-terminal unreliability | Open |
+| <a id="q530"></a>[Q530](theory-of-computation-algorithms-part-1.md#q530) | Do all safe probabilistic queries have compact deterministic provenance? | Open |
+| <a id="q531"></a>[Q531](theory-of-computation-algorithms-part-1.md#q531) | Sharp representation cost of negating deterministic decomposable beliefs | Open |
+| <a id="q532"></a>[Q532](theory-of-computation-algorithms-part-1.md#q532) | Canonical SDD size for tree decision diagrams | Open |
+| <a id="q541"></a>[Q541](theory-of-computation-algorithms-part-1.md#q541) | Exact complexity of finite coupon-collection query scheduling | Solved here: proved |
+| <a id="q546"></a>[Q546](theory-of-computation-algorithms-part-1.md#q546) | Can small clause memory always support short tree-like proofs? | Open |
+| <a id="q547"></a>[Q547](theory-of-computation-algorithms-part-1.md#q547) | Does variable memory control clause memory? | Open |
+| <a id="q548"></a>[Q548](theory-of-computation-algorithms-part-1.md#q548) | Can a fixed-width DNF calculus eliminate the memory–length gap? | Open |
+| <a id="q551"></a>[Q551](theory-of-computation-algorithms-part-1.md#q551) | Is algebraic proof degree a linear memory lower bound? | Open |
+| <a id="q552"></a>[Q552](theory-of-computation-algorithms-part-1.md#q552) | Can bounded-depth proofs of search hardness be analyzed efficiently? | Open |
+| <a id="q553"></a>[Q553](theory-of-computation-algorithms-part-1.md#q553) | Can witnesses be extracted from proof-search lower bounds in parallel? | Open |
+| <a id="q554"></a>[Q554](theory-of-computation-algorithms-part-1.md#q554) | Can resolution be weakly automated by a stronger certificate system? | Open |
+| <a id="q555"></a>[Q555](theory-of-computation-algorithms-part-1.md#q555) | Does generic one-wayness already obstruct threshold-logic proof search? | Open |
+| <a id="q561"></a>[Q561](theory-of-computation-algorithms-part-1.md#q561) | Exact fixed-degree sum-of-squares refutation for finite-domain constraints | Open |
+| <a id="q562"></a>[Q562](theory-of-computation-algorithms-part-1.md#q562) | Do sparse CNF refutations require unexpectedly large coefficient encodings? | Open |
+| <a id="q593"></a>[Q593](theory-of-computation-algorithms-part-1.md#q593) | Deciding exact probability equivalence of recursive language sensors | Open |
+| <a id="q594"></a>[Q594](theory-of-computation-algorithms-part-1.md#q594) | Deciding the unresolved side of a model-distance threshold | Open |
+| <a id="q595"></a>[Q595](theory-of-computation-algorithms-part-1.md#q595) | Polynomial-space approximation for infinite observation-trace distance | Open |
+| <a id="q601"></a>[Q601](theory-of-computation-algorithms-part-1.md#q601) | Construct optimal multi-symbol sequence-model compression | Open |
+| <a id="q602"></a>[Q602](theory-of-computation-algorithms-part-1.md#q602) | Decide bounded likelihood ratios with polynomially many interpretations | Open |
+| <a id="q603"></a>[Q603](theory-of-computation-algorithms-part-1.md#q603) | Unconditional bounded-ratio testing on structured sequence supports | Open |
+| <a id="q604"></a>[Q604](theory-of-computation-algorithms-part-1.md#q604) | Sharp cost of exact register compression for weighted sensors | Open |
+| <a id="q605"></a>[Q605](theory-of-computation-algorithms-part-1.md#q605) | Tight complexity of deterministic minimum-cost interpretation | Open |
+| <a id="q606"></a>[Q606](theory-of-computation-algorithms-part-1.md#q606) | Compute linear closures of recursively constrained sensor updates | Open |
+| <a id="q608"></a>[Q608](theory-of-computation-algorithms-part-1.md#q608) | Compute a transcript within the quasipolynomial sample budget | Open, partial results |
+| <a id="q609"></a>[Q609](theory-of-computation-algorithms-part-1.md#q609) | Polylogarithmic observations for typical exact transcript recovery | Open, partial results |
+| <a id="q610"></a>[Q610](theory-of-computation-algorithms-part-1.md#q610) | Accuracy-scalable reconstruction under insertions and deletions | Open |
+| <a id="q611"></a>[Q611](theory-of-computation-algorithms-part-1.md#q611) | Reconstruct probability sequences on a fixed finite grid | Open, partial results |
+| <a id="q612"></a>[Q612](theory-of-computation-algorithms-part-1.md#q612) | Faster recovery of a sparse distribution of latent messages | Open |
+| <a id="q613"></a>[Q613](theory-of-computation-algorithms-part-1.md#q613) | Sharp decision fidelity from one deleted observation | Open, partial results |
+| <a id="q621"></a>[Q621](theory-of-computation-algorithms-part-1.md#q621) | Complexity of a self-consistent three-level source ranking | Open |
+| <a id="q622"></a>[Q622](theory-of-computation-algorithms-part-1.md#q622) | Complexity of inference from strongly stable source integrations | Open |
+| <a id="q630"></a>[Q630](theory-of-computation-algorithms-part-1.md#q630) | Constant-factor testable learning of general halfspaces | Open |
+| <a id="q631"></a>[Q631](theory-of-computation-algorithms-part-1.md#q631) | The degree–accuracy cost of testable polynomial classifiers | Open |
+| <a id="q647"></a>[Q647](theory-of-computation-algorithms-part-1.md#q647) | Efficient dependent-data prediction without observing update sites | Open |
+| <a id="q761"></a>[Q761](theory-of-computation-algorithms-part-1.md#q761) | Constant-factor decision trees for equally likely hypotheses | Open |
+| <a id="q762"></a>[Q762](theory-of-computation-algorithms-part-1.md#q762) | Hardness with query prerequisites | Open |
+| <a id="q763"></a>[Q763](theory-of-computation-algorithms-part-1.md#q763) | Nonuniform-prior query guarantees | Open |
+| <a id="q764"></a>[Q764](theory-of-computation-algorithms-part-1.md#q764) | Bounded prerequisite query bundles | Open |
+| <a id="q765"></a>[Q765](theory-of-computation-algorithms-part-1.md#q765) | Sharp computational approximation for repeated median testing | Open |
+| <a id="q766"></a>[Q766](theory-of-computation-algorithms-part-1.md#q766) | Exact utility loss from partial rather than complete probes | Open |
+| <a id="q767"></a>[Q767](theory-of-computation-algorithms-part-1.md#q767) | Constant approximation for search under a latent mixture | Open, partial results |
+| <a id="q768"></a>[Q768](theory-of-computation-algorithms-part-1.md#q768) | Sharp particle accuracy | Open |
+| <a id="q769"></a>[Q769](theory-of-computation-algorithms-part-1.md#q769) | Minimum particle memory | Open |
+| <a id="q770"></a>[Q770](theory-of-computation-algorithms-part-1.md#q770) | Quadratic query barrier | Open |
+| <a id="q771"></a>[Q771](theory-of-computation-algorithms-part-1.md#q771) | Verifier-robust coverage without enumerating the action alphabet | Open |
+| <a id="q772"></a>[Q772](theory-of-computation-algorithms-part-1.md#q772) | Optimal first-order query complexity of log-concave inference | Open |
+| <a id="q773"></a>[Q773](theory-of-computation-algorithms-part-1.md#q773) | Joint dimension and noise cost of stochastic posterior queries | Open |
+| <a id="q774"></a>[Q774](theory-of-computation-algorithms-part-1.md#q774) | Optimal finite-sum posterior-sampling budget | Open |
+| <a id="q775"></a>[Q775](theory-of-computation-algorithms-part-1.md#q775) | Sharp one-dimensional cost of local posterior mixing | Open |
+| <a id="q776"></a>[Q776](theory-of-computation-algorithms-part-1.md#q776) | A PTAS for unequal-cost fixed-order threshold verification | Open |
+| <a id="q779"></a>[Q779](theory-of-computation-algorithms-part-1.md#q779) | Sharp precision versus expansiveness for predictive stability | Open |
+| <a id="q809"></a>[Q809](theory-of-computation-algorithms-part-1.md#q809) | Exact complexity of DAG-constrained linear probability feasibility | Open |
+| <a id="q929"></a>[Q929](theory-of-computation-algorithms-part-1.md#q929) | Sharp prefix-query cost with a known model class | Open |
+| <a id="q930"></a>[Q930](theory-of-computation-algorithms-part-1.md#q930) | Deterministic counting with twice-used evidence atoms | Open |
+| <a id="q931"></a>[Q931](theory-of-computation-algorithms-part-1.md#q931) | Derandomizing the probability of global connectivity | Open |
+| <a id="q932"></a>[Q932](theory-of-computation-algorithms-part-1.md#q932) | Local Ising sampling throughout uniqueness | Open |
+| <a id="q933"></a>[Q933](theory-of-computation-algorithms-part-1.md#q933) | Local coloring sampling at the CFTP threshold | Open |
+| <a id="q934"></a>[Q934](theory-of-computation-algorithms-part-1.md#q934) | Sharp critical Glauber inference time | Open |
+| <a id="q935"></a>[Q935](theory-of-computation-algorithms-part-1.md#q935) | Deterministic normalizers at criticality | Open |
+| <a id="q936"></a>[Q936](theory-of-computation-algorithms-part-1.md#q936) | Sparse Bayesian sampling with near-minimal observations | Open |
+| <a id="q937"></a>[Q937](theory-of-computation-algorithms-part-1.md#q937) | Comparing Ising posteriors without bounded-away-from-zero marginals | Open |
+| <a id="q938"></a>[Q938](theory-of-computation-algorithms-part-1.md#q938) | Deterministic normalization of assignment hypotheses | Open |
+| <a id="q939"></a>[Q939](theory-of-computation-algorithms-part-1.md#q939) | Parallel sampling of uniformly plausible matchings | Open |
+| <a id="q940"></a>[Q940](theory-of-computation-algorithms-part-1.md#q940) | Parallel inference with unrestricted ferromagnetic fields | Open |
+| <a id="q941"></a>[Q941](theory-of-computation-algorithms-part-1.md#q941) | Deterministic likelihoods for arbitrary disjunctive evidence | Open |
+| <a id="q942"></a>[Q942](theory-of-computation-algorithms-part-1.md#q942) | Optimal parallel rounds for coherent conditional queries | Open |
+| <a id="q943"></a>[Q943](theory-of-computation-algorithms-part-1.md#q943) | Subquadratic normalizers throughout the uniqueness phase | Open |
+| <a id="q1015"></a>[Q1015](theory-of-computation-algorithms-part-1.md#q1015) | General-state Gibbs ergodicity across scan schedules | Open |
+| <a id="q1016"></a>[Q1016](theory-of-computation-algorithms-part-1.md#q1016) | Remove the smallest-mass penalty from Gibbs scan comparison | Open |
+| <a id="q1017"></a>[Q1017](theory-of-computation-algorithms-part-1.md#q1017) | Almost-sure coalescence for every coupling of a generic kernel | Open |
+| <a id="q1018"></a>[Q1018](theory-of-computation-algorithms-part-1.md#q1018) | Exact normalization of cubed principal minors | Open |
+| <a id="q1019"></a>[Q1019](theory-of-computation-algorithms-part-1.md#q1019) | Single-exponential structural cost for a product-DPP normalizer | Open |
+| <a id="q1020"></a>[Q1020](theory-of-computation-algorithms-part-1.md#q1020) | Locate the approximation boundary for exponentiated DPPs | Open |
+| <a id="q1021"></a>[Q1021](theory-of-computation-algorithms-part-1.md#q1021) | Sharp oracle complexity of well-conditioned evidence integrals | Open |
+| <a id="q1022"></a>[Q1022](theory-of-computation-algorithms-part-1.md#q1022) | Near-optimal log-partition approximation in fixed polynomial time | Open |
+| <a id="q1023"></a>[Q1023](theory-of-computation-algorithms-part-1.md#q1023) | Close the tempered Matérn evidence-query gap | Open |
+| <a id="q1024"></a>[Q1024](theory-of-computation-algorithms-part-1.md#q1024) | Joint noise-and-query minimax rate for Gaussian-kernel quadrature | Open |
+| <a id="q1025"></a>[Q1025](theory-of-computation-algorithms-part-1.md#q1025) | General-likelihood collapse of wide mean-field Bayesian networks | Open |
+| <a id="q1026"></a>[Q1026](theory-of-computation-algorithms-part-1.md#q1026) | A priori root-derivative control for star-structured variational transport | Open |
+| <a id="q1027"></a>[Q1027](theory-of-computation-algorithms-part-1.md#q1027) | Uniqueness of a one-sided behavioral-error certificate | Open |
+| <a id="q1028"></a>[Q1028](theory-of-computation-algorithms-part-1.md#q1028) | Sharp complexity of approximating one-sided trace divergence | Open |
+| <a id="q1029"></a>[Q1029](theory-of-computation-algorithms-part-1.md#q1029) | Exact complexity of symmetric skewed behavioral distance | Open |
+| <a id="q1030"></a>[Q1030](theory-of-computation-algorithms-part-1.md#q1030) | Threshold complexity for multiplicative behavioral distortion | Open |
+| <a id="q1031"></a>[Q1031](theory-of-computation-algorithms-part-1.md#q1031) | Short certificates for optimal finite-state belief compression | Open |
+| <a id="q1040"></a>[Q1040](theory-of-computation-algorithms-part-1.md#q1040) | Can an exact cost representation use at most two accepting paths? | Open |
+| <a id="q1041"></a>[Q1041](theory-of-computation-algorithms-part-1.md#q1041) | The small-width frontier for exact cost-register compression | Open |
+| <a id="q1169"></a>[Q1169](theory-of-computation-algorithms-part-1.md#q1169) | Recognizing history-determinism with unrestricted priorities | Open |
+| <a id="q1170"></a>[Q1170](theory-of-computation-algorithms-part-1.md#q1170) | A quadratic history-deterministic Büchi succinctness gap | Open |
+| <a id="q1171"></a>[Q1171](theory-of-computation-algorithms-part-1.md#q1171) | Sharp short witnesses of unboundedness | Open |
+| <a id="q1172"></a>[Q1172](theory-of-computation-algorithms-part-1.md#q1172) | Recognize deterministic one-counter realizations | Open |
+| <a id="q1173"></a>[Q1173](theory-of-computation-algorithms-part-1.md#q1173) | NP certificates for disequality-guarded reachability | Open |
+| <a id="q1180"></a>[Q1180](theory-of-computation-algorithms-part-1.md#q1180) | Infinite word-equation solutions force unbounded powers | Open |
+| <a id="q1234"></a>[Q1234](theory-of-computation-algorithms-part-1.md#q1234) | NP certificates for 3-manifold homeomorphism | Open |
+| <a id="q1271"></a>[Q1271](theory-of-computation-algorithms-part-1.md#q1271) | Linear-time co-lex sorting of deterministic automata | Open |
+| <a id="q1281"></a>[Q1281](theory-of-computation-algorithms-part-1.md#q1281) | NP membership for mixed-encoding two-counter reachability | Open |
+| <a id="q1282"></a>[Q1282](theory-of-computation-algorithms-part-1.md#q1282) | Hardness of mixed-encoding coverability | Open |
+| <a id="q1283"></a>[Q1283](theory-of-computation-algorithms-part-1.md#q1283) | Prime counter languages in every higher dimension | Open |
+| <a id="q1284"></a>[Q1284](theory-of-computation-algorithms-part-1.md#q1284) | Two-token characterization beyond finite state spaces | Open |
+| <a id="q1372"></a>[Q1372](theory-of-computation-algorithms-part-1.md#q1372) | Decide first-order definability of regular transductions | Open |
+| <a id="q1373"></a>[Q1373](theory-of-computation-algorithms-part-1.md#q1373) | Effectively remove infinite lookaround from continuous functions | Open |
+| <a id="q1374"></a>[Q1374](theory-of-computation-algorithms-part-1.md#q1374) | Equivalence of string-to-string polyregular functions | Open |
+| <a id="q1381"></a>[Q1381](theory-of-computation-algorithms-part-1.md#q1381) | Characterize compression-compatible polyregular functions | Open |
+| <a id="q1382"></a>[Q1382](theory-of-computation-algorithms-part-1.md#q1382) | Recognize rectangular polyregular functions | Open |
+| <a id="q1457"></a>[Q1457](theory-of-computation-algorithms-part-1.md#q1457) | Compute outer multiset dimension on trees | Open |
+| <a id="q1468"></a>[Q1468](theory-of-computation-algorithms-part-1.md#q1468) | NP certificates for unconstrained word equations | Open |
+| <a id="q1469"></a>[Q1469](theory-of-computation-algorithms-part-1.md#q1469) | Decide word equations with linear length constraints | Open |
+| <a id="q1470"></a>[Q1470](theory-of-computation-algorithms-part-1.md#q1470) | Reversal closure for returning translucent automata | Open |
+| <a id="q1478"></a>[Q1478](theory-of-computation-algorithms-part-1.md#q1478) | Context-freeness of primitive binary words | Open |
+| <a id="q1567"></a>[Q1567](theory-of-computation-algorithms-part-1.md#q1567) | Unary two-dimensional nonnegative continuous counters | Open |
+| <a id="q1568"></a>[Q1568](theory-of-computation-algorithms-part-1.md#q1568) | Fixed-dimensional unary signed continuous counters | Open |
+| <a id="q1572"></a>[Q1572](theory-of-computation-algorithms-part-1.md#q1572) | Density of tolerant learning degrees | Open |
+| <a id="q1573"></a>[Q1573](theory-of-computation-algorithms-part-1.md#q1573) | Computable learning under maximum tolerance | Open |
+| <a id="q1582"></a>[Q1582](theory-of-computation-algorithms-part-1.md#q1582) | Decide simulation between gap-order systems | Open |
+| <a id="q1654"></a>[Q1654](theory-of-computation-algorithms-part-1.md#q1654) | Improve weighted planar even-cycle transversal | Open |
+| <a id="q1655"></a>[Q1655](theory-of-computation-algorithms-part-1.md#q1655) | Improve weighted planar directed feedback sets | Open |
+| <a id="q1675"></a>[Q1675](theory-of-computation-algorithms-part-1.md#q1675) | Compressing a specified state | Open |
+| <a id="q1676"></a>[Q1676](theory-of-computation-algorithms-part-1.md#q1676) | Cardoso’s subset bound | Open |
+| <a id="q1677"></a>[Q1677](theory-of-computation-algorithms-part-1.md#q1677) | An easy k-subset | Open |
+| <a id="q1678"></a>[Q1678](theory-of-computation-algorithms-part-1.md#q1678) | Subquadratic synchronizability | Open |
+| <a id="q1679"></a>[Q1679](theory-of-computation-algorithms-part-1.md#q1679) | Parallel minimum-rank witness | Open |
+| <a id="q1680"></a>[Q1680](theory-of-computation-algorithms-part-1.md#q1680) | Unambiguous completeness complexity | Open |
+| <a id="q1681"></a>[Q1681](theory-of-computation-algorithms-part-1.md#q1681) | Rational conjugacy complexity | Open |
+| <a id="q1682"></a>[Q1682](theory-of-computation-algorithms-part-1.md#q1682) | Recognizing Wheeler transducers | Open |
+| <a id="q1683"></a>[Q1683](theory-of-computation-algorithms-part-1.md#q1683) | Wheeler realizability | Open |
+| <a id="q1914"></a>[Q1914](theory-of-computation-algorithms-part-1.md#q1914) | Groups of eighth-power prime order | Open |
+| <a id="q1915"></a>[Q1915](theory-of-computation-algorithms-part-1.md#q1915) | Explicit classification of groups of order 1024 | Open |
+| <a id="q1916"></a>[Q1916](theory-of-computation-algorithms-part-1.md#q1916) | Groups whose orders have five prime factors | Open |
+| <a id="q1917"></a>[Q1917](theory-of-computation-algorithms-part-1.md#q1917) | Uniform classification of groups of order pⁿq | Open |
+| <a id="q2477"></a>[Q2477](theory-of-computation-algorithms-part-1.md#q2477) | Optimal proof systems beyond NP | Open |
+| <a id="q2478"></a>[Q2478](theory-of-computation-algorithms-part-1.md#q2478) | Polynomial calculus beats clause space | Open |
+| <a id="q2479"></a>[Q2479](theory-of-computation-algorithms-part-1.md#q2479) | Unprovable fixed circuit bounds in S₂¹ | Open |
+| <a id="q2480"></a>[Q2480](theory-of-computation-algorithms-part-1.md#q2480) | Unprovable NP circuit bounds in T₂¹ | Open |
+| <a id="q2584"></a>[Q2584](theory-of-computation-algorithms-part-1.md#q2584) | Linear-query provenance minimization | Open |
+| <a id="q2587"></a>[Q2587](theory-of-computation-algorithms-part-1.md#q2587) | Identity padding and CNOT distance | Open |
+| <a id="q2588"></a>[Q2588](theory-of-computation-algorithms-part-1.md#q2588) | First nonpermutation CNOT diameter | Open |
+| <a id="q2596"></a>[Q2596](theory-of-computation-algorithms-part-1.md#q2596) | Optimal marked-grid rendezvous time | Open |
+| <a id="q2714"></a>[Q2714](theory-of-computation-algorithms-part-1.md#q2714) | Diophantine decidability in Thompson V | Open |
+| <a id="q2715"></a>[Q2715](theory-of-computation-algorithms-part-1.md#q2715) | Single-equation decidability in Thompson F | Open |
+| <a id="q2776"></a>[Q2776](theory-of-computation-algorithms-part-1.md#q2776) | Quantum-matching decidability | Open |
+| <a id="q2780"></a>[Q2780](theory-of-computation-algorithms-part-1.md#q2780) | Decidability of branching-VASS reachability | Open |
+| <a id="q2781"></a>[Q2781](theory-of-computation-algorithms-part-1.md#q2781) | Exact complexity of two-dimensional branching VASS | Open |
+| <a id="q2782"></a>[Q2782](theory-of-computation-algorithms-part-1.md#q2782) | Decidability of the nondeterministic tree index | Open |
+| <a id="q2783"></a>[Q2783](theory-of-computation-algorithms-part-1.md#q2783) | Sequential two-way realization of monotone functions | Open |
+| <a id="q2852"></a>[Q2852](theory-of-computation-algorithms-part-1.md#q2852) | SFVS on directed-path graphs | Open |
+| <a id="q2853"></a>[Q2853](theory-of-computation-algorithms-part-1.md#q2853) | SFVS on strongly chordal split graphs | Open |
+| <a id="q2854"></a>[Q2854](theory-of-computation-algorithms-part-1.md#q2854) | Unweighted SFVS parameterized by leafage | Open |
+| <a id="q2869"></a>[Q2869](theory-of-computation-algorithms-part-1.md#q2869) | Partial versus complete automaton semigroups | Open |
+| <a id="q2870"></a>[Q2870](theory-of-computation-algorithms-part-1.md#q2870) | Finiteness of automaton groups | Open |
+| <a id="q2871"></a>[Q2871](theory-of-computation-algorithms-part-1.md#q2871) | Freeness of automaton groups | Open |
+| <a id="q2872"></a>[Q2872](theory-of-computation-algorithms-part-1.md#q2872) | Binary-alphabet freeness | Open |
+| <a id="q2873"></a>[Q2873](theory-of-computation-algorithms-part-1.md#q2873) | Free presentation of automaton semigroups | Open |
+| <a id="q2874"></a>[Q2874](theory-of-computation-algorithms-part-1.md#q2874) | Existence of a semigroup length function | Open |
+| <a id="q2875"></a>[Q2875](theory-of-computation-algorithms-part-1.md#q2875) | Exact complexity for deterministic limit Parikh automata | Open |
+| <a id="q2876"></a>[Q2876](theory-of-computation-algorithms-part-1.md#q2876) | Gale–Stewart games with limit-Parikh winning conditions | Open |
+| <a id="q2878"></a>[Q2878](theory-of-computation-algorithms-part-1.md#q2878) | DA reachability closure | Open |
+| <a id="q2879"></a>[Q2879](theory-of-computation-algorithms-part-1.md#q2879) | Characterizing ordered population protocols | Open |
+| <a id="q2881"></a>[Q2881](theory-of-computation-algorithms-part-1.md#q2881) | Bireversibility forced by free first-level-transitive actions | Open |
+| <a id="q2882"></a>[Q2882](theory-of-computation-algorithms-part-1.md#q2882) | Parikh-implementable history-deterministic resolvers | Open |
+| <a id="q2883"></a>[Q2883](theory-of-computation-algorithms-part-1.md#q2883) | Complementing weakly-unambiguous Parikh automata | Open |
+| <a id="q2884"></a>[Q2884](theory-of-computation-algorithms-part-1.md#q2884) | Exponential determinization after one random transition | Open |
+| <a id="q2960"></a>[Q2960](theory-of-computation-algorithms-part-1.md#q2960) | Width-parameterized MCS extension | Open |
+| <a id="q2961"></a>[Q2961](theory-of-computation-algorithms-part-1.md#q2961) | LBFS extension on chordal graphs | Open |
+| <a id="q2962"></a>[Q2962](theory-of-computation-algorithms-part-1.md#q2962) | Recognizing intersections of two chordal graphs | Open |
+| <a id="q2971"></a>[Q2971](theory-of-computation-algorithms-part-1.md#q2971) | Generalized BFS-tree recognition on chordal graphs | Open |
+| <a id="q2983"></a>[Q2983](theory-of-computation-algorithms-part-1.md#q2983) | Skolem decidability | Open |
+| <a id="q2984"></a>[Q2984](theory-of-computation-algorithms-part-1.md#q2984) | Positivity decidability | Open |
+| <a id="q2985"></a>[Q2985](theory-of-computation-algorithms-part-1.md#q2985) | Ultimate positivity decidability | Open |
+| <a id="q2986"></a>[Q2986](theory-of-computation-algorithms-part-1.md#q2986) | Full orbit verification with a Positivity oracle | Open |
+| <a id="q2987"></a>[Q2987](theory-of-computation-algorithms-part-1.md#q2987) | Planar multiple reachability | Open |
+| <a id="q2988"></a>[Q2988](theory-of-computation-algorithms-part-1.md#q2988) | Recognizing prophetic rational functions | Open |
+| <a id="q2989"></a>[Q2989](theory-of-computation-algorithms-part-1.md#q2989) | One-way definability of regular ω-functions | Open |
+| <a id="q3075"></a>[Q3075](theory-of-computation-algorithms-part-1.md#q3075) | Finite regular colourability | Open |
+| <a id="q3076"></a>[Q3076](theory-of-computation-algorithms-part-1.md#q3076) | Finite colourability complexity | Open |
+| <a id="q3077"></a>[Q3077](theory-of-computation-algorithms-part-1.md#q3077) | Bounded clique size | Open |
+| <a id="q3079"></a>[Q3079](theory-of-computation-algorithms-part-1.md#q3079) | Semilinear diagonal predecessors | Open |
+| <a id="q3080"></a>[Q3080](theory-of-computation-algorithms-part-2.md#q3080) | Three additive clocks | Open |
+| <a id="q3082"></a>[Q3082](theory-of-computation-algorithms-part-2.md#q3082) | Maximal order type of graph minors | Open |
+| <a id="q3083"></a>[Q3083](theory-of-computation-algorithms-part-2.md#q3083) | Minimizing visible pebbles | Open |
+| <a id="q3084"></a>[Q3084](theory-of-computation-algorithms-part-2.md#q3084) | Last-pebble to marble membership | Open |
+| <a id="q3085"></a>[Q3085](theory-of-computation-algorithms-part-2.md#q3085) | Eliminating unbounded last-pebble recursion | Open |
+| <a id="q3086"></a>[Q3086](theory-of-computation-algorithms-part-2.md#q3086) | Polynomial ambiguity in tree height | Open |
+| <a id="q3087"></a>[Q3087](theory-of-computation-algorithms-part-2.md#q3087) | An exponential rate for weighted trees | Open |
+| <a id="q3088"></a>[Q3088](theory-of-computation-algorithms-part-2.md#q3088) | Arena-independent constrained SPE memory | Open |
+| <a id="q3089"></a>[Q3089](theory-of-computation-algorithms-part-2.md#q3089) | Composition at exponential growth | Open |
+| <a id="q3122"></a>[Q3122](theory-of-computation-algorithms-part-2.md#q3122) | Polynomial Khovanov computation at fixed braid index | Open |
+| <a id="q3177"></a>[Q3177](theory-of-computation-algorithms-part-2.md#q3177) | Semigroup frontier for guarded data logic | Open |
+| <a id="q3257"></a>[Q3257](theory-of-computation-algorithms-part-2.md#q3257) | Approximate graph homomorphism hardness | Open |
+| <a id="q3264"></a>[Q3264](theory-of-computation-algorithms-part-2.md#q3264) | Minimum-color cycle complexity | Open |
+| <a id="q3265"></a>[Q3265](theory-of-computation-algorithms-part-2.md#q3265) | FPT path-width from a connectivity oracle | Open |
+| <a id="q3276"></a>[Q3276](theory-of-computation-algorithms-part-2.md#q3276) | Equivalence under subsequence constraints | Open |
+| <a id="q3277"></a>[Q3277](theory-of-computation-algorithms-part-2.md#q3277) | Equivalence under reversal constraints | Open |
+| <a id="q3278"></a>[Q3278](theory-of-computation-algorithms-part-2.md#q3278) | Equivalence under word-power constraints | Open |
+| <a id="q3281"></a>[Q3281](theory-of-computation-algorithms-part-2.md#q3281) | Verification with two ReLU neurons per layer | Open |
+| <a id="q3282"></a>[Q3282](theory-of-computation-algorithms-part-2.md#q3282) | Global identifiability with independent HMM entries | Open |
+| <a id="q3283"></a>[Q3283](theory-of-computation-algorithms-part-2.md#q3283) | Local identifiability of a fixed HMM | Open |
+| <a id="q3372"></a>[Q3372](theory-of-computation-algorithms-part-2.md#q3372) | Integer feasibility in atom-dimension two | Open |
+| <a id="q3377"></a>[Q3377](theory-of-computation-algorithms-part-2.md#q3377) | Recognizing fully universal representations | Open |
+| <a id="q3378"></a>[Q3378](theory-of-computation-algorithms-part-2.md#q3378) | Smallest network problem outside NP | Open |
+| <a id="q3379"></a>[Q3379](theory-of-computation-algorithms-part-2.md#q3379) | Atomic-or-unconstrained network classification | Open |
+| <a id="q3386"></a>[Q3386](theory-of-computation-algorithms-part-2.md#q3386) | Sampling hardness against shallow parity circuits | Open |
+| <a id="q3387"></a>[Q3387](theory-of-computation-algorithms-part-2.md#q3387) | Pseudo-Siggers tractability for normal relation algebras | Open |
+| <a id="q3388"></a>[Q3388](theory-of-computation-algorithms-part-2.md#q3388) | Explicit local-source dispersers below square-root entropy | Open |
+| <a id="q3433"></a>[Q3433](theory-of-computation-algorithms-part-2.md#q3433) | Deterministic mean-payoff decomposition | Open |
+| <a id="q3434"></a>[Q3434](theory-of-computation-algorithms-part-2.md#q3434) | Exact complexity with many successors | Open |
+| <a id="q3489"></a>[Q3489](theory-of-computation-algorithms-part-2.md#q3489) | Exact connected-set evaluation at minus two | Open, partial results |
+| <a id="q3490"></a>[Q3490](theory-of-computation-algorithms-part-2.md#q3490) | Unrestricted orbit-finite linear feasibility | Open |
+| <a id="q3559"></a>[Q3559](theory-of-computation-algorithms-part-2.md#q3559) | Are GKAT guarded-string languages closed under intersection? | Open |
+| <a id="q3560"></a>[Q3560](theory-of-computation-algorithms-part-2.md#q3560) | For syntax-tree GKAT expressions over a fixed finite nonempty test alphabet and a fixed nonempty… | Open |
+| <a id="q3571"></a>[Q3571](theory-of-computation-algorithms-part-2.md#q3571) | Forbidden-subgraph injective labelling | Open |
+| <a id="q3572"></a>[Q3572](theory-of-computation-algorithms-part-2.md#q3572) | Mixed semibalanced targets | Open |
+| <a id="q3584"></a>[Q3584](theory-of-computation-algorithms-part-2.md#q3584) | Polynomial-time functional approximation of matroid branch-depth | Open |
+| <a id="q3661"></a>[Q3661](theory-of-computation-algorithms-part-2.md#q3661) | Is satisfiability for PML(p,s,¬) EXPTIME-complete with unbounded input relation symbols and arities? | Open |
+| <a id="q3662"></a>[Q3662](theory-of-computation-algorithms-part-2.md#q3662) | For fixed c≥2, is satisfiability for PML(p,s,¬,∩) plus binary identity I={(w,w):w∈W}… | Open |
+| <a id="q3666"></a>[Q3666](theory-of-computation-algorithms-part-2.md#q3666) | For every fixed finite nonbipartite simple graph H, is its oracular quantum homomorphism problem… | Open |
+| <a id="q3667"></a>[Q3667](theory-of-computation-algorithms-part-2.md#q3667) | Fix c≥1 and a finite family F of finite simple graphs with edges colored from [c]. Given a… | Open |
+| <a id="q3668"></a>[Q3668](theory-of-computation-algorithms-part-2.md#q3668) | Are cyclic arithmetic and Peano arithmetic exponentially separated in shortest proof size?… | Open |
+| <a id="q3684"></a>[Q3684](theory-of-computation-algorithms-part-2.md#q3684) | Subquadratic-logarithmic generating-set algorithm | Open |
+| <a id="q3824"></a>[Q3824](theory-of-computation-algorithms-part-2.md#q3824) | Polynomial Cutting Planes proofs of Tseitin contradictions | Open |
+| <a id="q3861"></a>[Q3861](theory-of-computation-algorithms-part-2.md#q3861) | Do there exist families f_N,g_N∈C[x_1,…,x_N] and integers d_N≥2 with f_N=g_N^{d_N},… | Open |
+| <a id="q3862"></a>[Q3862](theory-of-computation-algorithms-part-2.md#q3862) | Does every unitary U on X satisfying UR(σ)=R(σ)U for all σ∈Γ admit an exact Γ-symmetric… | Open |
+| <a id="q3863"></a>[Q3863](theory-of-computation-algorithms-part-2.md#q3863) | Given oracle maps f,g:[N]→[N], Nephew asks for v with f(f(g(v)))≠f(v) or f(g(v))=v. Does Nephew… | Open |
+| <a id="q3864"></a>[Q3864](theory-of-computation-algorithms-part-2.md#q3864) | Given binary N≥2, can finding a prime N&lt;p<2N be reduced deterministically in polynomial time to… | Open |
+| <a id="q3879"></a>[Q3879](theory-of-computation-algorithms-part-2.md#q3879) | Is there an algorithm that, given only an n-vertex graph G, finds a maximum-cardinality… | Open |
+| <a id="q3880"></a>[Q3880](theory-of-computation-algorithms-part-2.md#q3880) | Is C_k≥2^{c k log₂k} for some absolute c>0 and all sufficiently large k? | Open |
+| <a id="q3881"></a>[Q3881](theory-of-computation-algorithms-part-2.md#q3881) | For every finite simple undirected n-vertex graph G of treewidth k, does the convex hull of… | Open |
+| <a id="q3882"></a>[Q3882](theory-of-computation-algorithms-part-2.md#q3882) | Is deciding existence of a 3-visit schedule strongly NP-complete when all deadlines are distinct? | Open |
+| <a id="q3883"></a>[Q3883](theory-of-computation-algorithms-part-2.md#q3883) | Does 2-visit feasibility have a deterministic algorithm with running time f(p)L^{O(1)}, where p… | Open |
+| <a id="q3884"></a>[Q3884](theory-of-computation-algorithms-part-2.md#q3884) | Must every list with Σ\_i1/d_i≤1 admit a 2-visit schedule? | Open |
+| <a id="q3885"></a>[Q3885](theory-of-computation-algorithms-part-2.md#q3885) | Does this optimization problem admit a polynomial-time approximation algorithm with… | Open |
+| <a id="q3886"></a>[Q3886](theory-of-computation-algorithms-part-2.md#q3886) | Is deciding whether such an assignment exists strongly NP-complete, equivalently NP-complete… | Open |
+| <a id="q3903"></a>[Q3903](theory-of-computation-algorithms-part-2.md#q3903) | With vertex weights in {1,…,n}, can a maximum-weight independent set be found in time… | Open |
+| <a id="q3904"></a>[Q3904](theory-of-computation-algorithms-part-2.md#q3904) | Determine q(n,c) asymptotically, up to universal constant factors, throughout the regimes… | Open |
+| <a id="q3913"></a>[Q3913](theory-of-computation-algorithms-part-2.md#q3913) | Can every n-vertex graph obtain a maximal independent set in O(√log n·(loglog n)^C) rounds, for… | Open |
+| <a id="q3914"></a>[Q3914](theory-of-computation-algorithms-part-2.md#q3914) | Does a solvable LCL have optimal deterministic VOLUME complexity ω(log\*n) and o(n) on… | Open |
+| <a id="q3915"></a>[Q3915](theory-of-computation-algorithms-part-2.md#q3915) | An offline vertex set V is known initially. Vertices w arrive sequentially, revealing triples… | Open |
+| <a id="q3916"></a>[Q3916](theory-of-computation-algorithms-part-2.md#q3916) | In an infinite rooted binary heap with distinct real keys increasing along root-to-leaf paths,… | Open |
+| <a id="q3917"></a>[Q3917](theory-of-computation-algorithms-part-2.md#q3917) | Writing R_L(n) and R_V(n) for optimal randomized LCA and VOLUME probe complexities of an LCL,… | Open |
+| <a id="q3918"></a>[Q3918](theory-of-computation-algorithms-part-2.md#q3918) | With nonnegative rational edge weights, is maximizing the weight of a triangle-free 2-matching… | Open |
+| <a id="q3919"></a>[Q3919](theory-of-computation-algorithms-part-2.md#q3919) | Is maximizing \|M\| subject to M containing neither a 3-cycle nor a 4-cycle polynomial-time… | Open |
+| <a id="q3920"></a>[Q3920](theory-of-computation-algorithms-part-2.md#q3920) | Does some constant ε>0 permit a polynomial-time (8/7−ε)-approximation for minimum-weight… | Open |
+| <a id="q3921"></a>[Q3921](theory-of-computation-algorithms-part-2.md#q3921) | Does some constant ε>0 permit a polynomial-time (2−ε)-approximation for a minimum-weight… | Open |
+| <a id="q3924"></a>[Q3924](theory-of-computation-algorithms-part-2.md#q3924) | For integers n,k,b≥2, must every linearizable, nondeterministic solo-terminating n-process… | Open |
+| <a id="q3925"></a>[Q3925](theory-of-computation-algorithms-part-2.md#q3925) | For every fixed d≥2 and ε>0, is there a polynomial-time (d+ε)-approximation for the… | Open |
+| <a id="q3926"></a>[Q3926](theory-of-computation-algorithms-part-2.md#q3926) | Does some constant ε>0 permit a polynomial-time (2−ε)-approximation for a maximum-total-weight… | Open |
+| <a id="q3927"></a>[Q3927](theory-of-computation-algorithms-part-2.md#q3927) | Is there a polynomial-time constant-factor approximation for this problem on arbitrary inputs,… | Open |
+| <a id="q3929"></a>[Q3929](theory-of-computation-algorithms-part-2.md#q3929) | For q=2 and \|R\|≤3, is this optimization problem polynomial-time solvable or NP-hard? | Open |
+| <a id="q3930"></a>[Q3930](theory-of-computation-algorithms-part-2.md#q3930) | For q=3 and \|R\|≤4, is this optimization problem polynomial-time solvable or NP-hard? | Open |
+| <a id="q4002"></a>[Q4002](theory-of-computation-algorithms-part-2.md#q4002) | Can \|F_C(n,k)\| for edgeless C be computed exactly in 2^{O(k²)}n^{O(1)} time? | Open |
+| <a id="q4003"></a>[Q4003](theory-of-computation-algorithms-part-2.md#q4003) | Can \|F_C(n,k)\| be computed exactly in FPT time for cographs (no induced four-vertex path)? | Open |
+| <a id="q4004"></a>[Q4004](theory-of-computation-algorithms-part-2.md#q4004) | Can \|F_C(n,k)\| be computed exactly in FPT time for forests? | Open |
+| <a id="q4005"></a>[Q4005](theory-of-computation-algorithms-part-2.md#q4005) | Is exact uniform sampling from F_C(n,k) FPT when C consists of disjoint unions of cliques? | Open |
+| <a id="q4006"></a>[Q4006](theory-of-computation-algorithms-part-2.md#q4006) | Is exact uniform sampling from F_C(n,k) FPT when C consists of split graphs, partitionable into… | Open |
+| <a id="q4007"></a>[Q4007](theory-of-computation-algorithms-part-2.md#q4007) | Is exact uniform sampling FPT for tournaments on [n] that become acyclic after deleting at most… | Open |
+| <a id="q4008"></a>[Q4008](theory-of-computation-algorithms-part-2.md#q4008) | Is there an exact uniform sampler and an absolute constant C such that, for every n≥1 and every… | Open |
+| <a id="q4010"></a>[Q4010](theory-of-computation-algorithms-part-2.md#q4010) | Is this problem FPT parameterized by k, or W[1]-hard? | Open |
+| <a id="q4011"></a>[Q4011](theory-of-computation-algorithms-part-2.md#q4011) | On planar graphs, is this problem FPT parameterized by treewidth? | Open |
+| <a id="q4012"></a>[Q4012](theory-of-computation-algorithms-part-2.md#q4012) | For each n≥3, find an explicit finite presentation of CT(n) using these circuit generators:… | Open |
+| <a id="q4030"></a>[Q4030](theory-of-computation-algorithms-part-2.md#q4030) | Classify the complexity of deciding whether such a path exists for each fixed pair of integers… | Open |
+| <a id="q4148"></a>[Q4148](theory-of-computation-algorithms-part-2.md#q4148) | For each fixed integer g≥5, classify Injective Colouring on graphs of girth≥g, both with input k… | Open |
+| <a id="q4149"></a>[Q4149](theory-of-computation-algorithms-part-2.md#q4149) | For each fixed integer g≥5 and k≥4, classify Star k-Colouring on graphs of girth≥g. | Open |
+| <a id="q4150"></a>[Q4150](theory-of-computation-algorithms-part-2.md#q4150) | Classify Injective Colouring with input k on (2P₁+P₄)-free graphs. | Open |
+| <a id="q4151"></a>[Q4151](theory-of-computation-algorithms-part-2.md#q4151) | Classify Acyclic Colouring with input k on 2P₂-free graphs. | Open |
+| <a id="q4152"></a>[Q4152](theory-of-computation-algorithms-part-2.md#q4152) | Classify Star Colouring with input k on 2P₂-free graphs. | Open |
+| <a id="q4153"></a>[Q4153](theory-of-computation-algorithms-part-2.md#q4153) | Determine the complexity of deciding whether a graph of diameter at most three admits an acyclic… | Open |
+| <a id="q4154"></a>[Q4154](theory-of-computation-algorithms-part-2.md#q4154) | For each fixed d∈{4,5,6,7}, determine the complexity of deciding whether a graph of diameter at… | Open |
+| <a id="q4155"></a>[Q4155](theory-of-computation-algorithms-part-2.md#q4155) | Determine the complexity of Disjoint Paths on 3P₁-free graphs. | Open |
+| <a id="q4156"></a>[Q4156](theory-of-computation-algorithms-part-2.md#q4156) | Determine the complexity of Disjoint Paths on (2P₁+P₂)-free graphs. | Open |
+| <a id="q4157"></a>[Q4157](theory-of-computation-algorithms-part-2.md#q4157) | Determine the complexity of Disjoint Connected Subgraphs on (2P₁+P₂)-free graphs. | Open |
+| <a id="q4158"></a>[Q4158](theory-of-computation-algorithms-part-2.md#q4158) | For every fixed nonempty linear forest H and each fixed integer ℓ≥2, is this problem… | Open |
+| <a id="q4159"></a>[Q4159](theory-of-computation-algorithms-part-2.md#q4159) | Determine its computational complexity on P₆-free graphs when terminal-set sizes are unbounded. | Open |
+| <a id="q4160"></a>[Q4160](theory-of-computation-algorithms-part-2.md#q4160) | For each fixed connected non-bipartite H, determine a constant c_H permitting c_H^w n^{O(1)}… | Open |
+| <a id="q4161"></a>[Q4161](theory-of-computation-algorithms-part-2.md#q4161) | Can mimsup(A) be nonintegral? | Open |
+| <a id="q4162"></a>[Q4162](theory-of-computation-algorithms-part-2.md#q4162) | Is mimsup(A) bounded by a function of him(A), uniformly over A? | Open |
+| <a id="q4163"></a>[Q4163](theory-of-computation-algorithms-part-2.md#q4163) | Is deciding proper 3-colorability polynomial-time solvable for graphs of diameter at most 2? | Open |
+| <a id="q4164"></a>[Q4164](theory-of-computation-algorithms-part-2.md#q4164) | Is Hom(C_{2k+1}) NP-hard on graphs of diameter at most k+2, for every fixed k≥2? | Open |
+| <a id="q4165"></a>[Q4165](theory-of-computation-algorithms-part-2.md#q4165) | For each fixed k≥3, determine the complexity of List k-Coloring on X-free ordered graphs. | Open |
+| <a id="q4166"></a>[Q4166](theory-of-computation-algorithms-part-2.md#q4166) | Does List 4-Coloring on n-vertex N-free ordered graphs admit a 2^{o(n)}-time algorithm? | Open |
+| <a id="q4169"></a>[Q4169](theory-of-computation-algorithms-part-2.md#q4169) | For every fixed integer k≥0, is MWIS quasipolynomial-time solvable on H_k-free graphs, where H_k… | Open |
+| <a id="q4170"></a>[Q4170](theory-of-computation-algorithms-part-2.md#q4170) | Assuming the Exponential-Time Hypothesis, does maximum-cardinality independent set on F-free… | Open |

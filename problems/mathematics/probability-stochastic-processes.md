@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-477 problems: 439 open, 20 open, partial results, 13 solved here: proved, 5 solved here: disproved.
+509 problems: 471 open, 20 open, partial results, 13 solved here: proved, 5 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -8,480 +8,512 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 
 | Q | Title | Status |
 |---|---|---|
-| [Q37](probability-stochastic-processes-part-1.md#q37) | For γ∈(0,2), is a γ-Liouville-quantum-gravity geodesic metrically removable: can… | Open |
-| [Q38](probability-stochastic-processes-part-1.md#q38) | Fix γ∈(0,2), a whole-plane Gaussian free field h, and four distinct deterministi… | Open |
-| [Q39](probability-stochastic-processes-part-1.md#q39) | Give each vertex of ℤ^(2) an independent Exp(1) weight, refreshed independently … | Open |
-| [Q40](probability-stochastic-processes-part-1.md#q40) | Fix γ∈(0,2), a whole-plane GFF h and distinct deterministic z_(1),z_(2). Determi… | Open |
-| [Q41](probability-stochastic-processes-part-1.md#q41) | For uniform perfect matchings of ℤ^(3), is there exactly one ergodic Gibbs measu… | Open |
-| [Q42](probability-stochastic-processes-part-1.md#q42) | For d≥3, do the centered, rescaled divergence-free flows induced by uniform perf… | Open |
-| [Q43](probability-stochastic-processes-part-1.md#q43) | Can a positive-volume region R⊂ℝ^(3) with boundary flow b have multiple maximize… | Open |
-| [Q44](probability-stochastic-processes-part-1.md#q44) | Can a region R⊂ℝ^(3) with prescribed boundary flow have an entropy-maximizing di… | Open |
-| [Q45](probability-stochastic-processes-part-1.md#q45) | Let G_(L) be G(n,p) conditioned on N_(H)≤η𝔼[N_(H)], where N_(H) counts H-copies.… | Open |
-| [Q46](probability-stochastic-processes-part-1.md#q46) | For G_(L) distributed as G(n,p) conditioned on having at most η times the expect… | Open |
-| [Q191](probability-stochastic-processes-part-1.md#q191) | For d ≥ 2, let P_(N)⁰ be the canonical law of d-dimensional Brownian motion on [… | Open |
-| [Q192](probability-stochastic-processes-part-1.md#q192) | For independent standard Brownian motions B¹, B² starting at zero, condition on … | Solved here: proved |
-| [Q193](probability-stochastic-processes-part-1.md#q193) | Let P_(N)^(x) denote the canonical law of Brownian motion in ℝ^(d), d ≥ 2, condi… | Open |
-| [Q196](probability-stochastic-processes-part-1.md#q196) | Fix 0 < Q < 2 and a whole-plane GFF h normalized by h₁(0) = 0. For a dyadic squa… | Open |
-| [Q197](probability-stochastic-processes-part-1.md#q197) | For the DLA tree X_m after m edges, does lim_(m→∞) log(diam_(X_m)(X_m))/log m ex… | Open |
-| [Q198](probability-stochastic-processes-part-1.md#q198) | Is the infinite DLA tree X_∞ almost surely one-ended: after deleting any finite-… | Open |
-| [Q266](probability-stochastic-processes-part-1.md#q266) | Does every poset P without an infinite antichain contain a chain C satisfying \|C… | Open |
-| [Q267](probability-stochastic-processes-part-1.md#q267) | For which uncountable cardinals κ does every vacillating poset P of size κ, with… | Open |
-| [Q268](probability-stochastic-processes-part-1.md#q268) | Let \$X\$ range over all finite sums \$\sum_i a_i\varepsilon_i\$, where the \$\vareps… | Open |
-| [Q269](probability-stochastic-processes-part-1.md#q269) | For every integer \$d\ge3\$ and every finite sequence of unit vectors \$v_1,\ldots,… | Open |
-| [Q270](probability-stochastic-processes-part-1.md#q270) | Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\to j\$ e… | Solved here: proved |
-| [Q275](probability-stochastic-processes-part-1.md#q275) | On \$\mathbb Z^d\$, \$d\ge2\$, is there \$0<\alpha_c(d)<\infty\$ separating almost-sur… | Open |
-| [Q276](probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Open, partial results |
-| [Q277](probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Open, partial results |
-| [Q278](probability-stochastic-processes-part-1.md#q278) | For every \$d\ge3\$, does sufficiently small \$\alpha>0\$ give positive probability … | Open |
-| [Q280](probability-stochastic-processes-part-1.md#q280) | Is \$q_{p,d}=\tilde q_{p,d}\$ for every \$p\ge1,d\ge3\$? | Open |
-| [Q281](probability-stochastic-processes-part-1.md#q281) | Let \$1\le p&lt;d\$ and let \$\mu\$ have a finite \$\theta\$-moment for some \$\theta>dp/(… | Open |
-| [Q282](probability-stochastic-processes-part-1.md#q282) | For fixed \$p\ge d\ge1\$, characterize the absolutely continuous, compactly suppor… | Open |
-| [Q287](probability-stochastic-processes-part-1.md#q287) | Are the following conditions equivalent: (i) \$\gamma\ge1\$ and \$a_k>1\$ for all su… | Open |
-| [Q288](probability-stochastic-processes-part-1.md#q288) | Assume additionally that the Futaki character vanishes. Is \$\gamma_{\rm PS}=\del… | Open |
-| [Q339](probability-stochastic-processes-part-1.md#q339) | Independently sample 2n uniform points in the unit square [0,1]^2 and join them … | Open |
-| [Q367](probability-stochastic-processes-part-1.md#q367) | For \$d\ge3\$, \$m=1\$, and \$E=\mathbb Z\$, must every gradient phase for every unper… | Open |
-| [Q368](probability-stochastic-processes-part-1.md#q368) | For every permitted perturbed simply attractive potential, must each gradient ph… | Open |
-| [Q369](probability-stochastic-processes-part-1.md#q369) | For every permitted perturbed simply attractive potential, must any \$\mathcal L\$… | Open |
-| [Q371](probability-stochastic-processes-part-1.md#q371) | Fix \$d\ge3\$, a finite spin set \$\mathcal X\$ with at least three elements, symmet… | Open |
-| [Q379](probability-stochastic-processes-part-1.md#q379) | Fix integers \$2\le d_1<\cdots&lt;d_k\$ with \$d_k\ge3\$ and constants \$0<\delta_j<1\$. … | Open |
-| [Q380](probability-stochastic-processes-part-1.md#q380) | On \$\mathbb Z_{\ge0}^2\$, direct edges from \$v\$ to \$v+e_i\$. Boundary vertices cop… | Open |
-| [Q381](probability-stochastic-processes-part-1.md#q381) | On \$\mathbb Z_{\ge0}^3\$, direct edges from \$v\$ to \$v+e_i\$. Use three-input major… | Open |
-| [Q382](probability-stochastic-processes-part-1.md#q382) | Let \$L_0=1\$, \$L_k=O(\log k)\$, and each layer-\$k\$ vertex choose \$d\ge3\$ parents i… | Open |
-| [Q423](probability-stochastic-processes-part-1.md#q423) | Does iterated structural self-adhesivity add four-variable constraints? | Open |
-| [Q424](probability-stochastic-processes-part-1.md#q424) | Do semigraphoid and polymatroid gluing tests coincide? | Open |
-| [Q425](probability-stochastic-processes-part-1.md#q425) | Exact versus almost-entropic CI realizability | Open |
-| [Q426](probability-stochastic-processes-part-1.md#q426) | A finite calculus for self-adhesive semigraphoids | Open |
-| [Q430](probability-stochastic-processes-part-1.md#q430) | Decomposable signed circuits for determinantal laws | Open |
-| [Q431](probability-stochastic-processes-part-1.md#q431) | Exact epistemic inference on binary polytrees | Open |
-| [Q432](probability-stochastic-processes-part-1.md#q432) | Strong-extension posterior inference at arbitrary HMM times | Open |
-| [Q500](probability-stochastic-processes-part-1.md#q500) | Rationality of discounted-utility tail probabilities | Open |
-| [Q537](probability-stochastic-processes-part-1.md#q537) | Exact nonadaptive evaluation of unit-cost k-of-n decisions | Open |
-| [Q538](probability-stochastic-processes-part-1.md#q538) | Exact minimum-cost ordering for detecting non-unanimity | Open |
-| [Q539](probability-stochastic-processes-part-1.md#q539) | Hardness of adaptive unit-cost linear-threshold evaluation | Open |
-| [Q597](probability-stochastic-processes-part-1.md#q597) | Completeness of countable probabilistic I/O rewriting | Open |
-| [Q616](probability-stochastic-processes-part-1.md#q616) | Minimal square-root posterior uncertainty for balanced features | Open |
-| [Q636](probability-stochastic-processes-part-1.md#q636) | Does prequential credal randomness have a precise explanation? | Open |
-| [Q637](probability-stochastic-processes-part-1.md#q637) | Can one precise model preserve every Church-random path? | Open |
-| [Q638](probability-stochastic-processes-part-1.md#q638) | Do betting audits require a wider interval than frequency audits? | Open |
-| [Q648](probability-stochastic-processes-part-1.md#q648) | Efficient adaptive rule verification | Open |
-| [Q649](probability-stochastic-processes-part-1.md#q649) | Unbiased read-once adaptivity advantage | Open |
-| [Q650](probability-stochastic-processes-part-1.md#q650) | Positive-rule adaptivity advantage | Open |
-| [Q652](probability-stochastic-processes-part-1.md#q652) | Sharp norm-valued adaptivity gap | Open |
-| [Q653](probability-stochastic-processes-part-1.md#q653) | Exact symmetric-norm batching cost | Open |
-| [Q691](probability-stochastic-processes-part-1.md#q691) | Generic faithfulness with time-reused Bayesian parameters | Open |
-| [Q695](probability-stochastic-processes-part-1.md#q695) | Can a continuous objective force an atomless coherent posterior law? | Open |
-| [Q696](probability-stochastic-processes-part-1.md#q696) | Is the universal disagreement curve pointwise unavoidable? | Open |
-| [Q697](probability-stochastic-processes-part-1.md#q697) | The exact universal coupling penalty for four alternatives | Open |
-| [Q698](probability-stochastic-processes-part-1.md#q698) | Is two the sharp scalar coupling ratio? | Open |
-| [Q730](probability-stochastic-processes-part-1.md#q730) | Does quantile homogenization enlarge every possible aggregate law? | Open |
-| [Q731](probability-stochastic-processes-part-1.md#q731) | Which laws are sums of two uniform reports? | Open |
-| [Q732](probability-stochastic-processes-part-1.md#q732) | Can uniform convex beliefs always be balanced jointly? | Open |
-| [Q733](probability-stochastic-processes-part-1.md#q733) | Can negative association survive exchangeable joint representation? | Open |
-| [Q734](probability-stochastic-processes-part-1.md#q734) | Is a balanced coupling optimal under uncertain observation subsets? | Solved here: disproved |
-| [Q735](probability-stochastic-processes-part-1.md#q735) | Does finite-menu representation commute with combination? | Open |
-| [Q736](probability-stochastic-processes-part-1.md#q736) | Does individual irrelevance already give joint irrelevance? | Open |
-| [Q737](probability-stochastic-processes-part-1.md#q737) | Does independent extension permit option-specific conditioning events? | Open |
-| [Q738](probability-stochastic-processes-part-1.md#q738) | Do 3k moments uniquely identify a univariate Gaussian mixture? | Solved here: proved |
-| [Q739](probability-stochastic-processes-part-1.md#q739) | Is parameter counting exact for every bivariate Gaussian mixture? | Solved here: proved |
-| [Q740](probability-stochastic-processes-part-1.md#q740) | How much latent ambiguity survives fourth-order Gaussian summaries? | Open, partial results |
-| [Q741](probability-stochastic-processes-part-1.md#q741) | Are high-order Gaussian moment tangent maps nondegenerate? | Open, partial results |
-| [Q742](probability-stochastic-processes-part-1.md#q742) | Do 3k moments identify positive-support mixture sensors? | Solved here: proved |
-| [Q743](probability-stochastic-processes-part-1.md#q743) | Can reduced information-bottleneck roots be singular away from bifurcations? | Open |
-| [Q812](probability-stochastic-processes-part-1.md#q812) | Does square-summable updating preserve a predictive density? | Solved here: disproved |
-| [Q813](probability-stochastic-processes-part-1.md#q813) | Sharp decision-distinguishability distortion from averaging sensors | Open |
-| [Q814](probability-stochastic-processes-part-1.md#q814) | Which fully parameterized latent tensors are uniquely decomposable? | Open |
-| [Q815](probability-stochastic-processes-part-1.md#q815) | Does optimal nonnegative compression retain unique latent components? | Open |
-| [Q816](probability-stochastic-processes-part-1.md#q816) | Realizability of the remaining five-variable entropy rays | Open |
-| [Q817](probability-stochastic-processes-part-1.md#q817) | Can maximum-entropy inference exceed every finite copy construction? | Open |
-| [Q818](probability-stochastic-processes-part-1.md#q818) | Rational certificates for alternative entropy guarantees | Open |
-| [Q819](probability-stochastic-processes-part-1.md#q819) | Almost-linear stability for a six-variable dependence certificate | Open |
-| [Q820](probability-stochastic-processes-part-1.md#q820) | Can a stochastic interpretation forget its exact randomization weights? | Open |
-| [Q821](probability-stochastic-processes-part-1.md#q821) | Decide whether temporal ambiguity has a finite-memory random resolver | Open |
-| [Q822](probability-stochastic-processes-part-1.md#q822) | Replace temporal interpretation memory with randomness at equal state size | Open |
-| [Q823](probability-stochastic-processes-part-1.md#q823) | Exact equivalence of one-symbol credal sequence sensors | Open |
-| [Q824](probability-stochastic-processes-part-1.md#q824) | Exact probability that one uncertain report occurs inside another | Open |
-| [Q825](probability-stochastic-processes-part-1.md#q825) | Must tractable language inference admit a compact executable representation? | Open |
-| [Q826](probability-stochastic-processes-part-1.md#q826) | Exact complexity of exhaustive unambiguous semantic coverage | Open |
-| [Q827](probability-stochastic-processes-part-1.md#q827) | Recognize exact finite-state replacements for unambiguous grammars | Open |
-| [Q914](probability-stochastic-processes-part-1.md#q914) | Complexity of exact latent size at fixed ordinary rank | Open |
-| [Q915](probability-stochastic-processes-part-1.md#q915) | Is rank-tight nonnegative factorization ∃R-complete? | Open |
-| [Q916](probability-stochastic-processes-part-1.md#q916) | Polynomial-time latent compression for pentadiagonal laws | Open |
-| [Q917](probability-stochastic-processes-part-1.md#q917) | Column stabilization of latent-feasibility algebraic boundaries | Open |
-| [Q918](probability-stochastic-processes-part-1.md#q918) | Can ordinary-rank-three latent models require irrational weights? | Open |
-| [Q919](probability-stochastic-processes-part-1.md#q919) | Decidability of exact rational latent realization | Open |
-| [Q920](probability-stochastic-processes-part-1.md#q920) | A spectral criterion for polynomial-path semantic representations | Open |
-| [Q921](probability-stochastic-processes-part-1.md#q921) | Failure of reversal closure for copyless semantic streaming | Open |
-| [Q922](probability-stochastic-processes-part-1.md#q922) | Finite ambiguity from bounded sums without invertibility | Open |
-| [Q923](probability-stochastic-processes-part-1.md#q923) | Complexity of recognizing low-ambiguity invertible scorers | Open |
-| [Q924](probability-stochastic-processes-part-1.md#q924) | State cost of low-ambiguity semantic compilation | Open |
-| [Q925](probability-stochastic-processes-part-1.md#q925) | Approximate semantic identification with only the last hypothesis | Open |
-| [Q926](probability-stochastic-processes-part-1.md#q926) | Which uncountable interpretation families permit eventual valid proposals? | Open |
-| [Q927](probability-stochastic-processes-part-1.md#q927) | Stable semantic proposal support with infinite valid coverage | Open |
-| [Q928](probability-stochastic-processes-part-1.md#q928) | Support-sensitive universality for Blackwell comparison | Open |
-| [Q1032](probability-stochastic-processes-part-1.md#q1032) | A strict latent-simulation cost gap at negative Rényi orders | Open |
-| [Q1033](probability-stochastic-processes-part-1.md#q1033) | Exact entropy cost of a binary-pair latent representation | Open |
-| [Q1034](probability-stochastic-processes-part-1.md#q1034) | Exact agreement frontier for a multibit common representation | Open |
-| [Q1035](probability-stochastic-processes-part-1.md#q1035) | Can blockwise local sensors outperform all scalar decoders? | Open |
-| [Q1036](probability-stochastic-processes-part-1.md#q1036) | Optimal balanced multiclass decoding of correlated Gaussian reports | Open |
-| [Q1037](probability-stochastic-processes-part-1.md#q1037) | Extremal overlap for sign-invariant Gaussian evidence tests | Open |
-| [Q1038](probability-stochastic-processes-part-1.md#q1038) | Must optimal antisymmetric local agreement use a majority? | Open |
-| [Q1039](probability-stochastic-processes-part-1.md#q1039) | Computational complexity of binary noninteractive simulation | Open |
-| [Q1185](probability-stochastic-processes-part-1.md#q1185) | Openness of random transient directions | Open |
-| [Q1186](probability-stochastic-processes-part-1.md#q1186) | Sharp transience on doubled trees | Open |
-| [Q1189](probability-stochastic-processes-part-1.md#q1189) | Critical escape scale for switch walks | Open |
-| [Q1190](probability-stochastic-processes-part-1.md#q1190) | Critical loop susceptibility and connectivity | Open |
-| [Q1191](probability-stochastic-processes-part-1.md#q1191) | Sharp loop percolation threshold | Open |
-| [Q1192](probability-stochastic-processes-part-1.md#q1192) | Monotonicity along the Kertész line | Open |
-| [Q1193](probability-stochastic-processes-part-1.md#q1193) | Stochastic monotonicity of double currents | Open |
-| [Q1194](probability-stochastic-processes-part-1.md#q1194) | Ends of percolating loop and single-current clusters | Open |
-| [Q1195](probability-stochastic-processes-part-1.md#q1195) | Subcritical loop Gibbs uniqueness | Open |
-| [Q1196](probability-stochastic-processes-part-1.md#q1196) | Planar hostile-environment coexistence | Open |
-| [Q1197](probability-stochastic-processes-part-1.md#q1197) | Weak hostile-environment coexistence | Open |
-| [Q1198](probability-stochastic-processes-part-1.md#q1198) | Conversion-model survival phase diagram | Open |
-| [Q1199](probability-stochastic-processes-part-1.md#q1199) | Tensor type-two bound | Open |
-| [Q1200](probability-stochastic-processes-part-1.md#q1200) | Sharp random-circulant Lovász asymptotic | Open |
-| [Q1285](probability-stochastic-processes-part-1.md#q1285) | Cutoff with extreme reservoir densities | Open |
-| [Q1286](probability-stochastic-processes-part-1.md#q1286) | Product-condition cutoff with unequal reservoirs | Open |
-| [Q1287](probability-stochastic-processes-part-1.md#q1287) | Order of the quenched Ising transition | Open |
-| [Q1288](probability-stochastic-processes-part-1.md#q1288) | Critical component scale in genuine attachment graphs | Open |
-| [Q1289](probability-stochastic-processes-part-1.md#q1289) | Critical universality of spread-out discrete Gaussian fields | Open |
-| [Q1290](probability-stochastic-processes-part-1.md#q1290) | Separation cutoff for positively biased shuffles | Open, partial results |
-| [Q1291](probability-stochastic-processes-part-1.md#q1291) | Total-variation cutoff for biased signed shuffles | Solved here: proved |
-| [Q1292](probability-stochastic-processes-part-1.md#q1292) | Monotonicity in subdivision count | Open |
-| [Q1293](probability-stochastic-processes-part-1.md#q1293) | Equality of dust and crossing thresholds | Open |
-| [Q1294](probability-stochastic-processes-part-1.md#q1294) | Can fat percolation have positive-volume dust? | Open |
-| [Q1295](probability-stochastic-processes-part-1.md#q1295) | Distinct speeds for surviving annihilating blocks | Open |
-| [Q1296](probability-stochastic-processes-part-1.md#q1296) | Monotonicity under branching, deletion and merging | Open |
-| [Q1297](probability-stochastic-processes-part-1.md#q1297) | Sharp barely-supercritical giant normalization | Open |
-| [Q1298](probability-stochastic-processes-part-1.md#q1298) | Width of the secondary critical window | Open |
-| [Q1299](probability-stochastic-processes-part-1.md#q1299) | Intermediate loop phase on a lattice | Open |
-| [Q1300](probability-stochastic-processes-part-1.md#q1300) | Even-subgraph percolation from transience | Open |
-| [Q1384](probability-stochastic-processes-part-1.md#q1384) | A monotone recurrence boundary for lattice frogs | Open |
-| [Q1385](probability-stochastic-processes-part-1.md#q1385) | Concavity of the fastest-frog speed | Open |
-| [Q1386](probability-stochastic-processes-part-1.md#q1386) | The two unresolved tree degrees | Open |
-| [Q1387](probability-stochastic-processes-part-1.md#q1387) | Monotonicity without frog deaths | Open |
-| [Q1388](probability-stochastic-processes-part-1.md#q1388) | A single rotor bias threshold | Open |
-| [Q1389](probability-stochastic-processes-part-1.md#q1389) | Roundness of the rotor-walk limit | Open |
-| [Q1390](probability-stochastic-processes-part-1.md#q1390) | Diffusive limits above dimension two | Open |
-| [Q1391](probability-stochastic-processes-part-1.md#q1391) | Fourier fluctuations above γ=1/√2 | Open |
-| [Q1392](probability-stochastic-processes-part-1.md#q1392) | Fourier fluctuations at γ=1/√2 | Open |
-| [Q1393](probability-stochastic-processes-part-1.md#q1393) | Delayed epidemic extinction below static percolation | Open |
-| [Q1394](probability-stochastic-processes-part-1.md#q1394) | Survival of a moving Brownian epidemic | Open |
-| [Q1395](probability-stochastic-processes-part-1.md#q1395) | A single removal threshold with moving susceptibles | Open |
-| [Q1396](probability-stochastic-processes-part-1.md#q1396) | Monotonicity of conversion survival | Open |
-| [Q1397](probability-stochastic-processes-part-1.md#q1397) | Geometry of large subcritical attachment components | Open |
-| [Q1398](probability-stochastic-processes-part-1.md#q1398) | Critical window for fixed-outdegree uniform attachment | Open |
-| [Q1399](probability-stochastic-processes-part-1.md#q1399) | Openness of pressure discontinuity | Open |
-| [Q1400](probability-stochastic-processes-part-1.md#q1400) | Survival with general host immunities | Open |
-| [Q1488](probability-stochastic-processes-part-1.md#q1488) | Strict convexity of the passage-time shape | Open |
-| [Q1489](probability-stochastic-processes-part-1.md#q1489) | Absence of planar bigeodesics | Open |
-| [Q1490](probability-stochastic-processes-part-1.md#q1490) | Convergence of axial finite geodesics | Open |
-| [Q1491](probability-stochastic-processes-part-1.md#q1491) | Unequal-rate Richardson noncoexistence | Open |
-| [Q1492](probability-stochastic-processes-part-1.md#q1492) | Infinite interchange cycles in lower dimensions | Open |
-| [Q1493](probability-stochastic-processes-part-1.md#q1493) | Finiteness of planar interchange cycles | Open |
-| [Q1494](probability-stochastic-processes-part-1.md#q1494) | A single high-dimensional interchange transition | Open |
-| [Q1495](probability-stochastic-processes-part-1.md#q1495) | Full high-temperature SK Glauber mixing | Open |
-| [Q1496](probability-stochastic-processes-part-1.md#q1496) | The limiting full-information expected rank | Open |
-| [Q1498](probability-stochastic-processes-part-1.md#q1498) | Optimal exponent for barrier recovery | Open |
-| [Q1499](probability-stochastic-processes-part-1.md#q1499) | The extremal negative renewal coefficient | Open |
-| [Q1500](probability-stochastic-processes-part-1.md#q1500) | Longer stationary cycle-history comparison | Open |
-| [Q1584](probability-stochastic-processes-part-1.md#q1584) | Countably many Brownian critical points | Open |
-| [Q1585](probability-stochastic-processes-part-1.md#q1585) | Planar Wiener boundary asymptotic | Open |
-| [Q1586](probability-stochastic-processes-part-1.md#q1586) | Three-dimensional Wiener surface fluctuations | Open |
-| [Q1587](probability-stochastic-processes-part-1.md#q1587) | Gated and one-limited polling law | Open |
-| [Q1588](probability-stochastic-processes-part-1.md#q1588) | Renewal-input large-switch limit | Open |
-| [Q1589](probability-stochastic-processes-part-1.md#q1589) | Nonequilibrium exclusion cutoff profile | Solved here: disproved |
-| [Q1590](probability-stochastic-processes-part-1.md#q1590) | Noncrossing matching in a strip | Open |
-| [Q1591](probability-stochastic-processes-part-1.md#q1591) | Stationary noncrossing Poisson matching | Open |
-| [Q1592](probability-stochastic-processes-part-1.md#q1592) | Sharp dense-network synchronization threshold | Open |
-| [Q1593](probability-stochastic-processes-part-1.md#q1593) | Exponential instability at minimal measurements | Open |
-| [Q1594](probability-stochastic-processes-part-1.md#q1594) | Higher-dimensional perfectness | Open |
-| [Q1595](probability-stochastic-processes-part-1.md#q1595) | Uniqueness of subcritical one-color matching | Open |
-| [Q1596](probability-stochastic-processes-part-1.md#q1596) | Length-minimal planar Poisson matching | Open |
-| [Q1597](probability-stochastic-processes-part-1.md#q1597) | Stable Poisson matching moment threshold | Open |
-| [Q1600](probability-stochastic-processes-part-1.md#q1600) | Recurrence with exact real power steps | Open |
-| [Q1684](probability-stochastic-processes-part-1.md#q1684) | A sharp SERPT mean-delay bound | Open |
-| [Q1685](probability-stochastic-processes-part-1.md#q1685) | A sharp monotonic-SERPT bound | Open |
-| [Q1692](probability-stochastic-processes-part-1.md#q1692) | Euclidean hard-sphere nonuniqueness | Open |
-| [Q1693](probability-stochastic-processes-part-1.md#q1693) | Full-time convergence of hard-sphere dynamics | Open |
-| [Q1698](probability-stochastic-processes-part-1.md#q1698) | Exact fractional-integral persistence exponent | Open |
-| [Q1699](probability-stochastic-processes-part-1.md#q1699) | Giant size from Erlang-tree survival | Open |
-| [Q1700](probability-stochastic-processes-part-1.md#q1700) | Isotropic factors with exponential tails | Open |
-| [Q1784](probability-stochastic-processes-part-1.md#q1784) | The unbiased critical-state limit | Open |
-| [Q1785](probability-stochastic-processes-part-1.md#q1785) | Critical cycle states in biased ARW | Open |
-| [Q1786](probability-stochastic-processes-part-1.md#q1786) | Spherical activated-walk aggregate | Open |
-| [Q1787](probability-stochastic-processes-part-1.md#q1787) | Higher-dimensional critical-time cutoff | Open |
-| [Q1788](probability-stochastic-processes-part-1.md#q1788) | Forgetting dense initial configurations | Open |
-| [Q1789](probability-stochastic-processes-part-1.md#q1789) | Directional transience forces positive speed | Open |
-| [Q1791](probability-stochastic-processes-part-1.md#q1791) | Recurrence of the planar balanced excited walk | Open |
-| [Q1792](probability-stochastic-processes-part-1.md#q1792) | Existence of a balanced-walk range exponent | Open |
-| [Q1793](probability-stochastic-processes-part-1.md#q1793) | Superexponentially rare zero permanents | Open |
-| [Q1794](probability-stochastic-processes-part-1.md#q1794) | Infinite rays among planar random mirrors | Open |
-| [Q1795](probability-stochastic-processes-part-1.md#q1795) | Optimal second-moment queue scheduling | Open |
-| [Q1796](probability-stochastic-processes-part-1.md#q1796) | Sharp nonzero determinant anticoncentration | Open |
-| [Q1797](probability-stochastic-processes-part-1.md#q1797) | Sharp repeated-eigenvalue exponent | Open |
-| [Q1798](probability-stochastic-processes-part-1.md#q1798) | Sharp rank resilience of square sign matrices | Open |
-| [Q1799](probability-stochastic-processes-part-1.md#q1799) | Diagonal resilience of random sign matrices | Open |
-| [Q1800](probability-stochastic-processes-part-1.md#q1800) | Altruistic Poisson matching existence | Open |
-| [Q1884](probability-stochastic-processes-part-1.md#q1884) | Critical directed diameter | Open |
-| [Q1885](probability-stochastic-processes-part-1.md#q1885) | Universal BST lower bound | Open, partial results |
-| [Q1886](probability-stochastic-processes-part-1.md#q1886) | Almost-sure sampled BST height | Solved here: proved |
-| [Q1887](probability-stochastic-processes-part-1.md#q1887) | Uniform limit with many internals | Solved here: proved |
-| [Q1888](probability-stochastic-processes-part-1.md#q1888) | Complete hub mass | Solved here: proved |
-| [Q1889](probability-stochastic-processes-part-1.md#q1889) | Older hubs dominate | Open |
-| [Q1890](probability-stochastic-processes-part-1.md#q1890) | Nonleaf normalization | Open, partial results |
-| [Q1891](probability-stochastic-processes-part-1.md#q1891) | Heavy-tail common-subtree limit | Open |
-| [Q1892](probability-stochastic-processes-part-1.md#q1892) | Mixed-moment common subtrees | Open |
-| [Q1893](probability-stochastic-processes-part-1.md#q1893) | Critical memory-tree scaling | Open, partial results |
-| [Q1894](probability-stochastic-processes-part-1.md#q1894) | Intermediate zero-range relaxation | Open |
-| [Q1895](probability-stochastic-processes-part-1.md#q1895) | Sukhatme fixed points | Solved here: proved |
-| [Q1896](probability-stochastic-processes-part-1.md#q1896) | Sukhatme cycle count | Open, partial results |
-| [Q1897](probability-stochastic-processes-part-1.md#q1897) | Sukhatme increasing subsequences | Open |
-| [Q1898](probability-stochastic-processes-part-1.md#q1898) | No infinite noodle | Open |
-| [Q1899](probability-stochastic-processes-part-1.md#q1899) | Macroscopic meandric-loop exponent | Open |
-| [Q1900](probability-stochastic-processes-part-1.md#q1900) | Baxter subsequence exponent | Open |
-| [Q1985](probability-stochastic-processes-part-1.md#q1985) | FIID sparse Bernoulli tail | Open |
-| [Q1986](probability-stochastic-processes-part-1.md#q1986) | Critical Ising observation threshold | Open |
-| [Q1987](probability-stochastic-processes-part-1.md#q1987) | Infinite-variance nonamenable zoos | Open |
-| [Q1988](probability-stochastic-processes-part-1.md#q1988) | Immediate uniqueness at zero Betti number | Open |
-| [Q1989](probability-stochastic-processes-part-1.md#q1989) | Critical tree-builder growth | Open |
-| [Q1990](probability-stochastic-processes-part-1.md#q1990) | Continuity of critical velocity | Open |
-| [Q1991](probability-stochastic-processes-part-1.md#q1991) | Connective limit on percolation cluster | Open |
-| [Q1992](probability-stochastic-processes-part-1.md#q1992) | Biased random orientations percolate | Open |
-| [Q1993](probability-stochastic-processes-part-1.md#q1993) | Negative association of uniform forests | Open |
-| [Q1994](probability-stochastic-processes-part-1.md#q1994) | Negative association of uniform connected subgraphs | Open |
-| [Q1995](probability-stochastic-processes-part-1.md#q1995) | Hall’s random-triangle extremizer | Open |
-| [Q1996](probability-stochastic-processes-part-1.md#q1996) | Functional Berry nodal-length limit | Open |
-| [Q1997](probability-stochastic-processes-part-1.md#q1997) | Infinite second-moment worm threshold | Open |
-| [Q1998](probability-stochastic-processes-part-1.md#q1998) | Planar worm first-moment criterion | Open |
-| [Q1999](probability-stochastic-processes-part-1.md#q1999) | Three-dimensional critical-tail worms | Open |
-| [Q2000](probability-stochastic-processes-part-1.md#q2000) | Four-dimensional critical-tail worms | Open |
-| [Q2084](probability-stochastic-processes-part-1.md#q2084) | Uniqueness with two Markov marginals | Open |
-| [Q2085](probability-stochastic-processes-part-1.md#q2085) | Uniform learnability to fluctuation tails | Open |
-| [Q2086](probability-stochastic-processes-part-2.md#q2086) | Remove lacunarity from pairwise-independent means | Open |
-| [Q2087](probability-stochastic-processes-part-2.md#q2087) | Small reinforcement in dimensions three to five | Open |
-| [Q2088](probability-stochastic-processes-part-2.md#q2088) | Large-reinforcement lattice recurrence | Open |
-| [Q2089](probability-stochastic-processes-part-2.md#q2089) | Recurrence across strip reinforcements | Open |
-| [Q2090](probability-stochastic-processes-part-2.md#q2090) | Upper range bound for strong reinforcement | Open |
-| [Q2091](probability-stochastic-processes-part-2.md#q2091) | Replacer suppression at every fitness | Open |
-| [Q2092](probability-stochastic-processes-part-2.md#q2092) | Vanishing minimal-measurement injectivity | Open |
-| [Q2093](probability-stochastic-processes-part-2.md#q2093) | Sharp mobility-response rate | Open |
-| [Q2094](probability-stochastic-processes-part-2.md#q2094) | Low-dimensional block-beta faces | Open |
-| [Q2095](probability-stochastic-processes-part-2.md#q2095) | Exact block-beta facet constant | Open |
-| [Q2096](probability-stochastic-processes-part-2.md#q2096) | Negative-beta boundary singularities | Open |
-| [Q2097](probability-stochastic-processes-part-2.md#q2097) | Reconstructing the low-temperature plus phase | Open |
-| [Q2098](probability-stochastic-processes-part-2.md#q2098) | Free-tree Ising along exhaustions | Open |
-| [Q2099](probability-stochastic-processes-part-2.md#q2099) | Free-tree Ising along local approximations | Open |
-| [Q2100](probability-stochastic-processes-part-2.md#q2100) | Infinite expected coding for tree matchings | Open |
-| [Q2185](probability-stochastic-processes-part-2.md#q2185) | Semideciding limsup-average POMDP values | Open |
-| [Q2186](probability-stochastic-processes-part-2.md#q2186) | Logarithmic second-fire record times | Open |
-| [Q2187](probability-stochastic-processes-part-2.md#q2187) | Polylogarithmic Paley clique size | Open, partial results |
-| [Q2188](probability-stochastic-processes-part-2.md#q2188) | Polynomial gain from degree-four SOS | Open, partial results |
-| [Q2189](probability-stochastic-processes-part-2.md#q2189) | Infinitely many strict Schrijver improvements | Open, partial results |
-| [Q2190](probability-stochastic-processes-part-2.md#q2190) | Two-localization beats the leading constant | Open, partial results |
-| [Q2191](probability-stochastic-processes-part-2.md#q2191) | Near-linear sparsity for the Paley frame | Open, partial results |
-| [Q2192](probability-stochastic-processes-part-2.md#q2192) | Exact polynomial-log graph-matrix growth | Open |
-| [Q2193](probability-stochastic-processes-part-2.md#q2193) | Subcriticality with sparse transverse streets | Open |
-| [Q2194](probability-stochastic-processes-part-2.md#q2194) | Balanced streets improve percolation | Open |
-| [Q2195](probability-stochastic-processes-part-2.md#q2195) | Homogeneous extremizer for total intensity | Open |
-| [Q2196](probability-stochastic-processes-part-2.md#q2196) | Exponential-radius vacant transition | Open |
-| [Q2197](probability-stochastic-processes-part-2.md#q2197) | Isotropic-line occupied transition | Open |
-| [Q2198](probability-stochastic-processes-part-2.md#q2198) | Product criterion on bounded-step nilpotent groups | Open |
-| [Q2199](probability-stochastic-processes-part-2.md#q2199) | Finite private memory for every stochastic game | Open |
-| [Q2200](probability-stochastic-processes-part-2.md#q2200) | Logarithmic public memory with liminf guarantees | Open |
-| [Q2284](probability-stochastic-processes-part-2.md#q2284) | Critical hyperbolic boundary density | Open |
-| [Q2285](probability-stochastic-processes-part-2.md#q2285) | Convergence beyond front tightness | Open |
-| [Q2286](probability-stochastic-processes-part-2.md#q2286) | Fast-refresh critical-rate limit | Open |
-| [Q2287](probability-stochastic-processes-part-2.md#q2287) | Ordering count-based game values | Open |
-| [Q2288](probability-stochastic-processes-part-2.md#q2288) | Sharp threshold with two count players | Open |
-| [Q2289](probability-stochastic-processes-part-2.md#q2289) | Critical winning probability limit | Open |
-| [Q2290](probability-stochastic-processes-part-2.md#q2290) | One-label hypergraph spectral gap | Open, partial results |
-| [Q2291](probability-stochastic-processes-part-2.md#q2291) | Two representations control unitary gaps | Open |
-| [Q2292](probability-stochastic-processes-part-2.md#q2292) | Odd-sector spectral ordering | Open |
-| [Q2293](probability-stochastic-processes-part-2.md#q2293) | Quadratic Brownian-energy gap | Open, partial results |
-| [Q2294](probability-stochastic-processes-part-2.md#q2294) | Monotonic speed on leafless trees | Open |
-| [Q2295](probability-stochastic-processes-part-2.md#q2295) | Regenerations dominate the cubic tree | Open |
-| [Q2296](probability-stochastic-processes-part-2.md#q2296) | Sharp weighted Bernoulli mean tail | Open |
-| [Q2297](probability-stochastic-processes-part-2.md#q2297) | Sharp complementary relaxation bound | Open |
-| [Q2298](probability-stochastic-processes-part-2.md#q2298) | Stochastic advantage of collaborating walks | Solved here: disproved |
-| [Q2299](probability-stochastic-processes-part-2.md#q2299) | Logarithmic three-dimensional critical passage | Open |
-| [Q2300](probability-stochastic-processes-part-2.md#q2300) | Bounded-degree hitting-time anticoncentration | Open |
-| [Q2384](probability-stochastic-processes-part-2.md#q2384) | Poisson-calibrated disjoint-path ordering | Open |
-| [Q2385](probability-stochastic-processes-part-2.md#q2385) | Sharp rare-event singleton bound | Open |
-| [Q2386](probability-stochastic-processes-part-2.md#q2386) | Third-order Harris inequality | Open |
-| [Q2387](probability-stochastic-processes-part-2.md#q2387) | Centered planar matching limit | Open |
-| [Q2388](probability-stochastic-processes-part-2.md#q2388) | Empirical selection between separated squares | Open |
-| [Q2389](probability-stochastic-processes-part-2.md#q2389) | Complete additive EFX allocations | Open |
-| [Q2390](probability-stochastic-processes-part-2.md#q2390) | Optimal ordinal matroid secretary ratio | Open |
-| [Q2391](probability-stochastic-processes-part-2.md#q2391) | Sharp polygon flip relaxation | Open |
-| [Q2392](probability-stochastic-processes-part-2.md#q2392) | Sharp cladogram branch rotation | Open |
-| [Q2393](probability-stochastic-processes-part-2.md#q2393) | Limit constant for common planar orders | Open |
-| [Q2394](probability-stochastic-processes-part-2.md#q2394) | Asymptotic optimal online tree cost | Open |
-| [Q2395](probability-stochastic-processes-part-2.md#q2395) | Stationary law of the drift-jump system | Open, partial results |
-| [Q2396](probability-stochastic-processes-part-2.md#q2396) | Concavity under recursive overlap | Open, partial results |
-| [Q2397](probability-stochastic-processes-part-2.md#q2397) | Uniform dependence on greedy-walk start | Solved here: disproved |
-| [Q2398](probability-stochastic-processes-part-2.md#q2398) | Planar-grid greedy-walk law of large numbers | Open |
-| [Q2399](probability-stochastic-processes-part-2.md#q2399) | Rooted common-subtree scaling law | Solved here: proved |
-| [Q2400](probability-stochastic-processes-part-2.md#q2400) | Log-concave high-degree random independent sets | Open, partial results |
-| [Q2484](probability-stochastic-processes-part-2.md#q2484) | Euclidean first-passage shape | Open |
-| [Q2485](probability-stochastic-processes-part-2.md#q2485) | Subpolynomial additive grid distortion | Open |
-| [Q2486](probability-stochastic-processes-part-2.md#q2486) | Near-complete oriented-flow deficit | Open |
-| [Q2487](probability-stochastic-processes-part-2.md#q2487) | Power law for optimal network density | Open |
-| [Q2488](probability-stochastic-processes-part-2.md#q2488) | Exact Lp quantile convergence criteria | Open |
-| [Q2489](probability-stochastic-processes-part-2.md#q2489) | Gaussian fluctuations of Euclidean greedy length | Open |
-| [Q2490](probability-stochastic-processes-part-2.md#q2490) | Sub-square-root Yule agreement bound | Open |
-| [Q2491](probability-stochastic-processes-part-2.md#q2491) | Optimal Brownian-tree Hölder exponent | Open |
-| [Q2492](probability-stochastic-processes-part-2.md#q2492) | Critical branching minimum escape | Open |
-| [Q2493](probability-stochastic-processes-part-2.md#q2493) | Small-exponent branching slowdown | Open |
-| [Q2494](probability-stochastic-processes-part-2.md#q2494) | Optimal connected-complement gap exponent | Open |
-| [Q2495](probability-stochastic-processes-part-2.md#q2495) | Memory-tree height fluctuations | Open, partial results |
-| [Q2496](probability-stochastic-processes-part-2.md#q2496) | Cyclic-meander diagonal limit | Open |
-| [Q2497](probability-stochastic-processes-part-2.md#q2497) | Space-filling SLE visit order | Open |
-| [Q2498](probability-stochastic-processes-part-2.md#q2498) | Directional zero-one law for bounded cookies | Open |
-| [Q2499](probability-stochastic-processes-part-2.md#q2499) | Recurrence–transience dichotomy for cookie walks | Open |
-| [Q2500](probability-stochastic-processes-part-2.md#q2500) | Integral spectra of random sign matrices | Open |
-| [Q2585](probability-stochastic-processes-part-2.md#q2585) | Fleming–Viot non-explosion | Open |
-| [Q2586](probability-stochastic-processes-part-2.md#q2586) | ASEP circle mixing without cutoff | Open |
-| [Q2589](probability-stochastic-processes-part-2.md#q2589) | High-probability events at reachable vertices | Open |
-| [Q2592](probability-stochastic-processes-part-2.md#q2592) | Two-stage nucleation times | Open |
-| [Q2593](probability-stochastic-processes-part-2.md#q2593) | Removing competition logarithms | Open |
-| [Q2594](probability-stochastic-processes-part-2.md#q2594) | Distance-universal quadratic rendezvous | Open |
-| [Q2595](probability-stochastic-processes-part-2.md#q2595) | Bounded-support optimal rendezvous | Open |
-| [Q2683](probability-stochastic-processes-part-2.md#q2683) | Entropy criterion for perturbed-graph cutoff | Open |
-| [Q2684](probability-stochastic-processes-part-2.md#q2684) | Subcritical small-world cutoff | Open |
-| [Q2685](probability-stochastic-processes-part-2.md#q2685) | Fast analytic simulation on compact sets | Open |
-| [Q2687](probability-stochastic-processes-part-2.md#q2687) | All-moment bounds for meteor mass flow | Open |
-| [Q2688](probability-stochastic-processes-part-2.md#q2688) | Exact earthworm growth exponent | Open |
-| [Q2689](probability-stochastic-processes-part-2.md#q2689) | Bounded Brownian pieces and reversal | Open |
-| [Q2690](probability-stochastic-processes-part-2.md#q2690) | Separation of two random peaks | Open |
-| [Q2691](probability-stochastic-processes-part-2.md#q2691) | Higher-dimensional exit directions | Open |
-| [Q2692](probability-stochastic-processes-part-2.md#q2692) | Brownian-trace percolation dimension | Open |
-| [Q2693](probability-stochastic-processes-part-2.md#q2693) | Rigid symmetry behind shy coupling | Open |
-| [Q2694](probability-stochastic-processes-part-2.md#q2694) | Failure of bounded synchronous coalescence | Open |
-| [Q2695](probability-stochastic-processes-part-2.md#q2695) | Synchronous coalescence outside a disk | Open |
-| [Q2698](probability-stochastic-processes-part-2.md#q2698) | Three-dimensional two-stage threshold | Open |
-| [Q2699](probability-stochastic-processes-part-2.md#q2699) | Three-dimensional two-neighbor threshold | Open |
-| [Q2736](probability-stochastic-processes-part-2.md#q2736) | Infinite mean attraction without degree-two ergodicity | Open |
-| [Q2784](probability-stochastic-processes-part-2.md#q2784) | Uniform continuity near a separating vertex | Open |
-| [Q2785](probability-stochastic-processes-part-2.md#q2785) | Exact three-terminal percolation extremum | Open |
-| [Q2789](probability-stochastic-processes-part-2.md#q2789) | Sharp anisotropic recurrence criterion | Open |
-| [Q2790](probability-stochastic-processes-part-2.md#q2790) | Zero threshold for planar random rays | Open |
-| [Q2791](probability-stochastic-processes-part-2.md#q2791) | Loop-erased ants find every geodesic | Open |
-| [Q2792](probability-stochastic-processes-part-2.md#q2792) | Deterministic trace-reinforcement limit | Open |
-| [Q2793](probability-stochastic-processes-part-2.md#q2793) | Finite clusters under strong reinforcement | Open |
-| [Q2794](probability-stochastic-processes-part-2.md#q2794) | Critical WARM equilibration on Z | Open |
-| [Q2796](probability-stochastic-processes-part-2.md#q2796) | Recurrence above square-root reinforcement | Open |
-| [Q2797](probability-stochastic-processes-part-2.md#q2797) | Tight non-leaf degree distribution | Open |
-| [Q2798](probability-stochastic-processes-part-2.md#q2798) | Rectangular circulant Gumbel fluctuations | Open |
-| [Q2799](probability-stochastic-processes-part-2.md#q2799) | Critical hierarchical VRJP recurrence | Open |
-| [Q2885](probability-stochastic-processes-part-2.md#q2885) | Critical local tree limits | Open |
-| [Q2886](probability-stochastic-processes-part-2.md#q2886) | Spanning-tree diameter crossover | Open |
-| [Q2887](probability-stochastic-processes-part-2.md#q2887) | A finite-dimensional dependent threshold | Open |
-| [Q2888](probability-stochastic-processes-part-2.md#q2888) | Sharp giant size under local dependence | Open |
-| [Q2889](probability-stochastic-processes-part-2.md#q2889) | Always-disconnected hypercube threshold | Open |
-| [Q2890](probability-stochastic-processes-part-2.md#q2890) | Extremal connectivity near certainty | Open |
-| [Q2891](probability-stochastic-processes-part-2.md#q2891) | Associated percolation’s leading threshold | Open |
-| [Q2892](probability-stochastic-processes-part-2.md#q2892) | Markovian super-coupon collection | Open |
-| [Q2893](probability-stochastic-processes-part-2.md#q2893) | Supercritical nonlinear-memory transience | Open |
-| [Q2894](probability-stochastic-processes-part-2.md#q2894) | Dimension of independent ordering laws | Open |
-| [Q2895](probability-stochastic-processes-part-2.md#q2895) | Almost-sure Liouville Weyl law | Open |
-| [Q2896](probability-stochastic-processes-part-2.md#q2896) | Liouville eigenfunction equidistribution | Open |
-| [Q2897](probability-stochastic-processes-part-2.md#q2897) | GOE gaps for Liouville eigenvalues | Open |
-| [Q2898](probability-stochastic-processes-part-2.md#q2898) | Second-order loop-percolation threshold | Open |
-| [Q2899](probability-stochastic-processes-part-2.md#q2899) | Sharpness for lattice loop soups | Open |
-| [Q2900](probability-stochastic-processes-part-2.md#q2900) | Realizing every density as a distance law | Open |
-| [Q2994](probability-stochastic-processes-part-2.md#q2994) | Separate comb densities | Open |
-| [Q2995](probability-stochastic-processes-part-2.md#q2995) | Speed with leaves in causal maps | Open |
-| [Q2996](probability-stochastic-processes-part-2.md#q2996) | Causal-map percolation nonuniqueness | Open |
-| [Q2999](probability-stochastic-processes-part-2.md#q2999) | Polynomial repelling-walk mixing | Open |
-| [Q3000](probability-stochastic-processes-part-2.md#q3000) | A specified large boundary local limit | Open |
-| [Q3092](probability-stochastic-processes-part-2.md#q3092) | Sparse combinatorial-matrix least-singular-value upper bound | Open |
-| [Q3093](probability-stochastic-processes-part-2.md#q3093) | Independent exponential gaps in the high-temperature Bessel limit | Open |
-| [Q3100](probability-stochastic-processes-part-2.md#q3100) | Positive finite prediction coefficients for fractional Gaussian noise | Open |
-| [Q3184](probability-stochastic-processes-part-2.md#q3184) | Strict successive polymer moment thresholds | Open |
-| [Q3185](probability-stochastic-processes-part-2.md#q3185) | Polynomial upper tail of the continuum polymer martingale | Open |
-| [Q3186](probability-stochastic-processes-part-2.md#q3186) | Critical continuum-polymer moment index | Open |
-| [Q3187](probability-stochastic-processes-part-2.md#q3187) | Worst-case convergence rate of best-edge dynamics | Open |
-| [Q3192](probability-stochastic-processes-part-2.md#q3192) | Hyperuniform stationary activated random walk on intervals | Open |
-| [Q3193](probability-stochastic-processes-part-2.md#q3193) | Sublinear mixing from regular activated-random-walk configurations | Open |
-| [Q3194](probability-stochastic-processes-part-2.md#q3194) | Diameter-scale robustness of maximal hitting time | Open |
-| [Q3195](probability-stochastic-processes-part-2.md#q3195) | Corner paths as the most likely exponential-LPP geodesics | Open |
-| [Q3196](probability-stochastic-processes-part-2.md#q3196) | Infinite Schnyder Woods | Open |
-| [Q3197](probability-stochastic-processes-part-2.md#q3197) | Monotonicity of the scaled gamma-median offset | Open |
-| [Q3198](probability-stochastic-processes-part-2.md#q3198) | Sharp rational interpolation bounds for gamma medians | Open |
-| [Q3199](probability-stochastic-processes-part-2.md#q3199) | Almost-sure critical asymptotics along the full complex phase | Open |
-| [Q3200](probability-stochastic-processes-part-2.md#q3200) | Continuity of the complex BBM martingale limit on phase boundaries | Open |
-| [Q3284](probability-stochastic-processes-part-2.md#q3284) | Unimodality of remaining-record dispersion | Open |
-| [Q3285](probability-stochastic-processes-part-2.md#q3285) | Simplex-record underdispersion | Open |
-| [Q3286](probability-stochastic-processes-part-2.md#q3286) | Large-parameter record-count dispersion | Solved here: proved |
-| [Q3287](probability-stochastic-processes-part-2.md#q3287) | Small-parameter record-count dispersion | Solved here: proved |
-| [Q3288](probability-stochastic-processes-part-2.md#q3288) | Finite-space distribution-map convergence | Open |
-| [Q3289](probability-stochastic-processes-part-2.md#q3289) | Planar nearest-of-two collapse | Open |
-| [Q3290](probability-stochastic-processes-part-2.md#q3290) | Interval full-support iteration limits | Open |
-| [Q3291](probability-stochastic-processes-part-2.md#q3291) | Finitary coding of union fields | Open |
-| [Q3292](probability-stochastic-processes-part-2.md#q3292) | Finitary coding of selected-set fields | Open |
-| [Q3293](probability-stochastic-processes-part-2.md#q3293) | High-temperature Curie–Weiss representation | Open |
-| [Q3294](probability-stochastic-processes-part-2.md#q3294) | Regular-tree Poisson representation | Open |
-| [Q3295](probability-stochastic-processes-part-2.md#q3295) | Binary-tree game convergence | Open |
-| [Q3296](probability-stochastic-processes-part-2.md#q3296) | Almost-sure game convergence | Open |
-| [Q3297](probability-stochastic-processes-part-2.md#q3297) | Intermediate long-range contact threshold | Open |
-| [Q3298](probability-stochastic-processes-part-2.md#q3298) | Boundary-set convergence on trees | Open |
-| [Q3299](probability-stochastic-processes-part-2.md#q3299) | Interval-boundary Lipschitz convergence | Open |
-| [Q3300](probability-stochastic-processes-part-2.md#q3300) | Degree threshold for grounded convergence | Open |
-| [Q3393](probability-stochastic-processes-part-2.md#q3393) | Differentiability of the CRT distance density | Open |
-| [Q3394](probability-stochastic-processes-part-2.md#q3394) | Uniform Lipschitz moments for tree distance profiles | Open |
-| [Q3395](probability-stochastic-processes-part-2.md#q3395) | Common-descendant limiting law | Open |
-| [Q3396](probability-stochastic-processes-part-2.md#q3396) | Critical speed in the continuous bullet model | Open |
-| [Q3397](probability-stochastic-processes-part-2.md#q3397) | KPZ variance for standard ballistic deposition | Open |
-| [Q3398](probability-stochastic-processes-part-2.md#q3398) | Unbounded arrivals on recursive trees | Open |
-| [Q3399](probability-stochastic-processes-part-2.md#q3399) | Fluctuations of the first parking flux | Open |
-| [Q3436](probability-stochastic-processes-part-2.md#q3436) | Real-rooted finite commutators | Open |
-| [Q3437](probability-stochastic-processes-part-2.md#q3437) | Generalized rectangular positivity | Open |
-| [Q3438](probability-stochastic-processes-part-2.md#q3438) | Integrable initial opinions | Open |
-| [Q3439](probability-stochastic-processes-part-2.md#q3439) | Ergodic initial opinions | Open |
-| [Q3440](probability-stochastic-processes-part-2.md#q3440) | Markovian segregation above 1/e | Open |
-| [Q3441](probability-stochastic-processes-part-2.md#q3441) | Critical uniform Deffuant model | Open |
-| [Q3442](probability-stochastic-processes-part-2.md#q3442) | Sharp jig-type constant | Open |
-| [Q3485](probability-stochastic-processes-part-2.md#q3485) | Weak-coupling limit from empty environment | Open |
-| [Q3585](probability-stochastic-processes-part-2.md#q3585) | Optimal anonymous channel capture | Open |
-| [Q3586](probability-stochastic-processes-part-2.md#q3586) | Anonymous capture with ternary feedback | Open |
-| [Q3587](probability-stochastic-processes-part-2.md#q3587) | Bulk gaps of Lévy random walks | Open |
-| [Q3588](probability-stochastic-processes-part-2.md#q3588) | Area saturation for a reflected Brownian hull | Open |
-| [Q3591](probability-stochastic-processes-part-2.md#q3591) | Planar favorite-point fluctuations | Open |
-| [Q3592](probability-stochastic-processes-part-2.md#q3592) | A simultaneous Ray–Knight coupling | Open |
-| [Q3593](probability-stochastic-processes-part-2.md#q3593) | Removing dimensional moment restrictions | Open |
-| [Q3594](probability-stochastic-processes-part-2.md#q3594) | Deterministic long-range homogenization | Open |
-| [Q3595](probability-stochastic-processes-part-2.md#q3595) | Coincidence of three-dimensional loop-soup thresholds | Open |
-| [Q3596](probability-stochastic-processes-part-2.md#q3596) | Persistence of draws under neutralization | Open |
-| [Q3597](probability-stochastic-processes-part-2.md#q3597) | Draws on oriented cubic lattices | Open |
-| [Q3598](probability-stochastic-processes-part-2.md#q3598) | Misère draws on the square lattice | Open |
-| [Q3599](probability-stochastic-processes-part-2.md#q3599) | A double-edge excursion asymptotic | Open |
-| [Q3600](probability-stochastic-processes-part-2.md#q3600) | Critical radius for coordinate-wise connections | Open |
-| [Q3685](probability-stochastic-processes-part-2.md#q3685) | Asymmetric capital and draw probability | Open |
-| [Q3686](probability-stochastic-processes-part-2.md#q3686) | Trap-density monotonicity of draws | Open |
-| [Q3687](probability-stochastic-processes-part-2.md#q3687) | Uniqueness in lattice-conditioned continuum percolation | Open |
-| [Q3690](probability-stochastic-processes-part-2.md#q3690) | Is Δ\_{p_c}<∞ for every sufficiently large d? | Open |
-| [Q3691](probability-stochastic-processes-part-2.md#q3691) | For d≥2, does some c>0 make c(log n/n)¹ᐟᵈ a sharp threshold for χ>d+1? | Open |
-| [Q3692](probability-stochastic-processes-part-2.md#q3692) | For d≥3, do c₂&lt;c₃<⋯&lt;c_d exist with c_kn⁻¹ᐟᵈ sharply thresholding χ>k for 3≤k≤d? | Open |
-| [Q3693](probability-stochastic-processes-part-2.md#q3693) | Differentiability of the hyperbolic uniqueness threshold | Open |
-| [Q3694](probability-stochastic-processes-part-2.md#q3694) | Maximum spread for four-wise independence | Open |
-| [Q3695](probability-stochastic-processes-part-2.md#q3695) | Sharp temporal-connectivity radius | Open |
-| [Q3696](probability-stochastic-processes-part-2.md#q3696) | Full ergodic-density relaxation | Open |
-| [Q3697](probability-stochastic-processes-part-2.md#q3697) | Noisy consensus on hyperbolic tilings | Open |
-| [Q3698](probability-stochastic-processes-part-2.md#q3698) | Velocity stability under rare anomalies | Open |
-| [Q3782](probability-stochastic-processes-part-2.md#q3782) | For each fixed r≥3, does containing a K_r-factor have a sharp threshold as n→∞ through multiples… | Open |
-| [Q3783](probability-stochastic-processes-part-2.md#q3783) | Determine C_M=lim_{n→∞, 2∣n}m_M(1/2,n)/n, where M is containing a perfect matching. | Open |
-| [Q3784](probability-stochastic-processes-part-2.md#q3784) | Determine C_H=lim_{n→∞}m_H(1/2,n)/n, where H is containing a Hamilton cycle. | Open |
-| [Q3785](probability-stochastic-processes-part-2.md#q3785) | For fixed integer r≥3 and c>0, determine the asymptotic value of χ(G(n,1−c n^{−2/r})) with… | Open |
-| [Q3788](probability-stochastic-processes-part-2.md#q3788) | Voronoi mean-field exponents from the triangle condition | Open |
-| [Q3789](probability-stochastic-processes-part-2.md#q3789) | Strict decrease of the hyperbolic uniqueness threshold | Open |
-| [Q3790](probability-stochastic-processes-part-2.md#q3790) | Monotonicity of realizable-basis spread | Open |
-| [Q3792](probability-stochastic-processes-part-2.md#q3792) | Polynomial growth from nonnegative discrete curvature | Open |
-| [Q3793](probability-stochastic-processes-part-2.md#q3793) | Finite dimension for regular nonnegative-curvature graphs | Open |
-| [Q3794](probability-stochastic-processes-part-2.md#q3794) | Cooperative-contact thresholds | Open |
-| [Q3795](probability-stochastic-processes-part-2.md#q3795) | Positive-density continuity | Open |
-| [Q3796](probability-stochastic-processes-part-2.md#q3796) | Positive basin threshold | Open |
-| [Q3797](probability-stochastic-processes-part-2.md#q3797) | Stability of randomly slowed shrinkers | Open |
-| [Q3798](probability-stochastic-processes-part-2.md#q3798) | Irreducible Gaussian limits at arbitrary combinatorial dimensions | Open |
-| [Q3799](probability-stochastic-processes-part-2.md#q3799) | Sharp noise sensitivity of Boolean percolation | Open |
-| [Q3800](probability-stochastic-processes-part-2.md#q3800) | Fast nonlinear exchange up to the marginal threshold | Open |
+| <a id="q37"></a>[Q37](probability-stochastic-processes-part-1.md#q37) | For γ∈(0,2), is a γ-Liouville-quantum-gravity geodesic metrically removable: can… | Open |
+| <a id="q38"></a>[Q38](probability-stochastic-processes-part-1.md#q38) | Fix γ∈(0,2), a whole-plane Gaussian free field h, and four distinct deterministi… | Open |
+| <a id="q39"></a>[Q39](probability-stochastic-processes-part-1.md#q39) | Give each vertex of ℤ^(2) an independent Exp(1) weight, refreshed independently … | Open |
+| <a id="q40"></a>[Q40](probability-stochastic-processes-part-1.md#q40) | Fix γ∈(0,2), a whole-plane GFF h and distinct deterministic z_(1),z_(2). Determi… | Open |
+| <a id="q41"></a>[Q41](probability-stochastic-processes-part-1.md#q41) | For uniform perfect matchings of ℤ^(3), is there exactly one ergodic Gibbs measu… | Open |
+| <a id="q42"></a>[Q42](probability-stochastic-processes-part-1.md#q42) | For d≥3, do the centered, rescaled divergence-free flows induced by uniform perf… | Open |
+| <a id="q43"></a>[Q43](probability-stochastic-processes-part-1.md#q43) | Can a positive-volume region R⊂ℝ^(3) with boundary flow b have multiple maximize… | Open |
+| <a id="q44"></a>[Q44](probability-stochastic-processes-part-1.md#q44) | Can a region R⊂ℝ^(3) with prescribed boundary flow have an entropy-maximizing di… | Open |
+| <a id="q45"></a>[Q45](probability-stochastic-processes-part-1.md#q45) | Let G_(L) be G(n,p) conditioned on N_(H)≤η𝔼[N_(H)], where N_(H) counts H-copies.… | Open |
+| <a id="q46"></a>[Q46](probability-stochastic-processes-part-1.md#q46) | For G_(L) distributed as G(n,p) conditioned on having at most η times the expect… | Open |
+| <a id="q191"></a>[Q191](probability-stochastic-processes-part-1.md#q191) | For d ≥ 2, let P_(N)⁰ be the canonical law of d-dimensional Brownian motion on [… | Open |
+| <a id="q192"></a>[Q192](probability-stochastic-processes-part-1.md#q192) | For independent standard Brownian motions B¹, B² starting at zero, condition on … | Solved here: proved |
+| <a id="q193"></a>[Q193](probability-stochastic-processes-part-1.md#q193) | Let P_(N)^(x) denote the canonical law of Brownian motion in ℝ^(d), d ≥ 2, condi… | Open |
+| <a id="q196"></a>[Q196](probability-stochastic-processes-part-1.md#q196) | Fix 0 < Q < 2 and a whole-plane GFF h normalized by h₁(0) = 0. For a dyadic squa… | Open |
+| <a id="q197"></a>[Q197](probability-stochastic-processes-part-1.md#q197) | For the DLA tree X_m after m edges, does lim_(m→∞) log(diam_(X_m)(X_m))/log m ex… | Open |
+| <a id="q198"></a>[Q198](probability-stochastic-processes-part-1.md#q198) | Is the infinite DLA tree X_∞ almost surely one-ended: after deleting any finite-… | Open |
+| <a id="q266"></a>[Q266](probability-stochastic-processes-part-1.md#q266) | Does every poset P without an infinite antichain contain a chain C satisfying \|C… | Open |
+| <a id="q267"></a>[Q267](probability-stochastic-processes-part-1.md#q267) | For which uncountable cardinals κ does every vacillating poset P of size κ, with… | Open |
+| <a id="q268"></a>[Q268](probability-stochastic-processes-part-1.md#q268) | Let \$X\$ range over all finite sums \$\sum_i a_i\varepsilon_i\$, where the \$\vareps… | Open |
+| <a id="q269"></a>[Q269](probability-stochastic-processes-part-1.md#q269) | For every integer \$d\ge3\$ and every finite sequence of unit vectors \$v_1,\ldots,… | Open |
+| <a id="q270"></a>[Q270](probability-stochastic-processes-part-1.md#q270) | Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\to j\$ e… | Solved here: proved |
+| <a id="q275"></a>[Q275](probability-stochastic-processes-part-1.md#q275) | On \$\mathbb Z^d\$, \$d\ge2\$, is there \$0<\alpha_c(d)<\infty\$ separating almost-sur… | Open |
+| <a id="q276"></a>[Q276](probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Open, partial results |
+| <a id="q277"></a>[Q277](probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Open, partial results |
+| <a id="q278"></a>[Q278](probability-stochastic-processes-part-1.md#q278) | For every \$d\ge3\$, does sufficiently small \$\alpha>0\$ give positive probability … | Open |
+| <a id="q280"></a>[Q280](probability-stochastic-processes-part-1.md#q280) | Is \$q_{p,d}=\tilde q_{p,d}\$ for every \$p\ge1,d\ge3\$? | Open |
+| <a id="q281"></a>[Q281](probability-stochastic-processes-part-1.md#q281) | Let \$1\le p&lt;d\$ and let \$\mu\$ have a finite \$\theta\$-moment for some \$\theta>dp/(… | Open |
+| <a id="q282"></a>[Q282](probability-stochastic-processes-part-1.md#q282) | For fixed \$p\ge d\ge1\$, characterize the absolutely continuous, compactly suppor… | Open |
+| <a id="q287"></a>[Q287](probability-stochastic-processes-part-1.md#q287) | Are the following conditions equivalent: (i) \$\gamma\ge1\$ and \$a_k>1\$ for all su… | Open |
+| <a id="q288"></a>[Q288](probability-stochastic-processes-part-1.md#q288) | Assume additionally that the Futaki character vanishes. Is \$\gamma_{\rm PS}=\del… | Open |
+| <a id="q339"></a>[Q339](probability-stochastic-processes-part-1.md#q339) | Independently sample 2n uniform points in the unit square [0,1]^2 and join them … | Open |
+| <a id="q367"></a>[Q367](probability-stochastic-processes-part-1.md#q367) | For \$d\ge3\$, \$m=1\$, and \$E=\mathbb Z\$, must every gradient phase for every unper… | Open |
+| <a id="q368"></a>[Q368](probability-stochastic-processes-part-1.md#q368) | For every permitted perturbed simply attractive potential, must each gradient ph… | Open |
+| <a id="q369"></a>[Q369](probability-stochastic-processes-part-1.md#q369) | For every permitted perturbed simply attractive potential, must any \$\mathcal L\$… | Open |
+| <a id="q371"></a>[Q371](probability-stochastic-processes-part-1.md#q371) | Fix \$d\ge3\$, a finite spin set \$\mathcal X\$ with at least three elements, symmet… | Open |
+| <a id="q379"></a>[Q379](probability-stochastic-processes-part-1.md#q379) | Fix integers \$2\le d_1<\cdots&lt;d_k\$ with \$d_k\ge3\$ and constants \$0<\delta_j<1\$. … | Open |
+| <a id="q380"></a>[Q380](probability-stochastic-processes-part-1.md#q380) | On \$\mathbb Z_{\ge0}^2\$, direct edges from \$v\$ to \$v+e_i\$. Boundary vertices cop… | Open |
+| <a id="q381"></a>[Q381](probability-stochastic-processes-part-1.md#q381) | On \$\mathbb Z_{\ge0}^3\$, direct edges from \$v\$ to \$v+e_i\$. Use three-input major… | Open |
+| <a id="q382"></a>[Q382](probability-stochastic-processes-part-1.md#q382) | Let \$L_0=1\$, \$L_k=O(\log k)\$, and each layer-\$k\$ vertex choose \$d\ge3\$ parents i… | Open |
+| <a id="q423"></a>[Q423](probability-stochastic-processes-part-1.md#q423) | Does iterated structural self-adhesivity add four-variable constraints? | Open |
+| <a id="q424"></a>[Q424](probability-stochastic-processes-part-1.md#q424) | Do semigraphoid and polymatroid gluing tests coincide? | Open |
+| <a id="q425"></a>[Q425](probability-stochastic-processes-part-1.md#q425) | Exact versus almost-entropic CI realizability | Open |
+| <a id="q426"></a>[Q426](probability-stochastic-processes-part-1.md#q426) | A finite calculus for self-adhesive semigraphoids | Open |
+| <a id="q430"></a>[Q430](probability-stochastic-processes-part-1.md#q430) | Decomposable signed circuits for determinantal laws | Open |
+| <a id="q431"></a>[Q431](probability-stochastic-processes-part-1.md#q431) | Exact epistemic inference on binary polytrees | Open |
+| <a id="q432"></a>[Q432](probability-stochastic-processes-part-1.md#q432) | Strong-extension posterior inference at arbitrary HMM times | Open |
+| <a id="q500"></a>[Q500](probability-stochastic-processes-part-1.md#q500) | Rationality of discounted-utility tail probabilities | Open |
+| <a id="q537"></a>[Q537](probability-stochastic-processes-part-1.md#q537) | Exact nonadaptive evaluation of unit-cost k-of-n decisions | Open |
+| <a id="q538"></a>[Q538](probability-stochastic-processes-part-1.md#q538) | Exact minimum-cost ordering for detecting non-unanimity | Open |
+| <a id="q539"></a>[Q539](probability-stochastic-processes-part-1.md#q539) | Hardness of adaptive unit-cost linear-threshold evaluation | Open |
+| <a id="q597"></a>[Q597](probability-stochastic-processes-part-1.md#q597) | Completeness of countable probabilistic I/O rewriting | Open |
+| <a id="q616"></a>[Q616](probability-stochastic-processes-part-1.md#q616) | Minimal square-root posterior uncertainty for balanced features | Open |
+| <a id="q636"></a>[Q636](probability-stochastic-processes-part-1.md#q636) | Does prequential credal randomness have a precise explanation? | Open |
+| <a id="q637"></a>[Q637](probability-stochastic-processes-part-1.md#q637) | Can one precise model preserve every Church-random path? | Open |
+| <a id="q638"></a>[Q638](probability-stochastic-processes-part-1.md#q638) | Do betting audits require a wider interval than frequency audits? | Open |
+| <a id="q648"></a>[Q648](probability-stochastic-processes-part-1.md#q648) | Efficient adaptive rule verification | Open |
+| <a id="q649"></a>[Q649](probability-stochastic-processes-part-1.md#q649) | Unbiased read-once adaptivity advantage | Open |
+| <a id="q650"></a>[Q650](probability-stochastic-processes-part-1.md#q650) | Positive-rule adaptivity advantage | Open |
+| <a id="q652"></a>[Q652](probability-stochastic-processes-part-1.md#q652) | Sharp norm-valued adaptivity gap | Open |
+| <a id="q653"></a>[Q653](probability-stochastic-processes-part-1.md#q653) | Exact symmetric-norm batching cost | Open |
+| <a id="q691"></a>[Q691](probability-stochastic-processes-part-1.md#q691) | Generic faithfulness with time-reused Bayesian parameters | Open |
+| <a id="q695"></a>[Q695](probability-stochastic-processes-part-1.md#q695) | Can a continuous objective force an atomless coherent posterior law? | Open |
+| <a id="q696"></a>[Q696](probability-stochastic-processes-part-1.md#q696) | Is the universal disagreement curve pointwise unavoidable? | Open |
+| <a id="q697"></a>[Q697](probability-stochastic-processes-part-1.md#q697) | The exact universal coupling penalty for four alternatives | Open |
+| <a id="q698"></a>[Q698](probability-stochastic-processes-part-1.md#q698) | Is two the sharp scalar coupling ratio? | Open |
+| <a id="q730"></a>[Q730](probability-stochastic-processes-part-1.md#q730) | Does quantile homogenization enlarge every possible aggregate law? | Open |
+| <a id="q731"></a>[Q731](probability-stochastic-processes-part-1.md#q731) | Which laws are sums of two uniform reports? | Open |
+| <a id="q732"></a>[Q732](probability-stochastic-processes-part-1.md#q732) | Can uniform convex beliefs always be balanced jointly? | Open |
+| <a id="q733"></a>[Q733](probability-stochastic-processes-part-1.md#q733) | Can negative association survive exchangeable joint representation? | Open |
+| <a id="q734"></a>[Q734](probability-stochastic-processes-part-1.md#q734) | Is a balanced coupling optimal under uncertain observation subsets? | Solved here: disproved |
+| <a id="q735"></a>[Q735](probability-stochastic-processes-part-1.md#q735) | Does finite-menu representation commute with combination? | Open |
+| <a id="q736"></a>[Q736](probability-stochastic-processes-part-1.md#q736) | Does individual irrelevance already give joint irrelevance? | Open |
+| <a id="q737"></a>[Q737](probability-stochastic-processes-part-1.md#q737) | Does independent extension permit option-specific conditioning events? | Open |
+| <a id="q738"></a>[Q738](probability-stochastic-processes-part-1.md#q738) | Do 3k moments uniquely identify a univariate Gaussian mixture? | Solved here: proved |
+| <a id="q739"></a>[Q739](probability-stochastic-processes-part-1.md#q739) | Is parameter counting exact for every bivariate Gaussian mixture? | Solved here: proved |
+| <a id="q740"></a>[Q740](probability-stochastic-processes-part-1.md#q740) | How much latent ambiguity survives fourth-order Gaussian summaries? | Open, partial results |
+| <a id="q741"></a>[Q741](probability-stochastic-processes-part-1.md#q741) | Are high-order Gaussian moment tangent maps nondegenerate? | Open, partial results |
+| <a id="q742"></a>[Q742](probability-stochastic-processes-part-1.md#q742) | Do 3k moments identify positive-support mixture sensors? | Solved here: proved |
+| <a id="q743"></a>[Q743](probability-stochastic-processes-part-1.md#q743) | Can reduced information-bottleneck roots be singular away from bifurcations? | Open |
+| <a id="q812"></a>[Q812](probability-stochastic-processes-part-1.md#q812) | Does square-summable updating preserve a predictive density? | Solved here: disproved |
+| <a id="q813"></a>[Q813](probability-stochastic-processes-part-1.md#q813) | Sharp decision-distinguishability distortion from averaging sensors | Open |
+| <a id="q814"></a>[Q814](probability-stochastic-processes-part-1.md#q814) | Which fully parameterized latent tensors are uniquely decomposable? | Open |
+| <a id="q815"></a>[Q815](probability-stochastic-processes-part-1.md#q815) | Does optimal nonnegative compression retain unique latent components? | Open |
+| <a id="q816"></a>[Q816](probability-stochastic-processes-part-1.md#q816) | Realizability of the remaining five-variable entropy rays | Open |
+| <a id="q817"></a>[Q817](probability-stochastic-processes-part-1.md#q817) | Can maximum-entropy inference exceed every finite copy construction? | Open |
+| <a id="q818"></a>[Q818](probability-stochastic-processes-part-1.md#q818) | Rational certificates for alternative entropy guarantees | Open |
+| <a id="q819"></a>[Q819](probability-stochastic-processes-part-1.md#q819) | Almost-linear stability for a six-variable dependence certificate | Open |
+| <a id="q820"></a>[Q820](probability-stochastic-processes-part-1.md#q820) | Can a stochastic interpretation forget its exact randomization weights? | Open |
+| <a id="q821"></a>[Q821](probability-stochastic-processes-part-1.md#q821) | Decide whether temporal ambiguity has a finite-memory random resolver | Open |
+| <a id="q822"></a>[Q822](probability-stochastic-processes-part-1.md#q822) | Replace temporal interpretation memory with randomness at equal state size | Open |
+| <a id="q823"></a>[Q823](probability-stochastic-processes-part-1.md#q823) | Exact equivalence of one-symbol credal sequence sensors | Open |
+| <a id="q824"></a>[Q824](probability-stochastic-processes-part-1.md#q824) | Exact probability that one uncertain report occurs inside another | Open |
+| <a id="q825"></a>[Q825](probability-stochastic-processes-part-1.md#q825) | Must tractable language inference admit a compact executable representation? | Open |
+| <a id="q826"></a>[Q826](probability-stochastic-processes-part-1.md#q826) | Exact complexity of exhaustive unambiguous semantic coverage | Open |
+| <a id="q827"></a>[Q827](probability-stochastic-processes-part-1.md#q827) | Recognize exact finite-state replacements for unambiguous grammars | Open |
+| <a id="q914"></a>[Q914](probability-stochastic-processes-part-1.md#q914) | Complexity of exact latent size at fixed ordinary rank | Open |
+| <a id="q915"></a>[Q915](probability-stochastic-processes-part-1.md#q915) | Is rank-tight nonnegative factorization ∃R-complete? | Open |
+| <a id="q916"></a>[Q916](probability-stochastic-processes-part-1.md#q916) | Polynomial-time latent compression for pentadiagonal laws | Open |
+| <a id="q917"></a>[Q917](probability-stochastic-processes-part-1.md#q917) | Column stabilization of latent-feasibility algebraic boundaries | Open |
+| <a id="q918"></a>[Q918](probability-stochastic-processes-part-1.md#q918) | Can ordinary-rank-three latent models require irrational weights? | Open |
+| <a id="q919"></a>[Q919](probability-stochastic-processes-part-1.md#q919) | Decidability of exact rational latent realization | Open |
+| <a id="q920"></a>[Q920](probability-stochastic-processes-part-1.md#q920) | A spectral criterion for polynomial-path semantic representations | Open |
+| <a id="q921"></a>[Q921](probability-stochastic-processes-part-1.md#q921) | Failure of reversal closure for copyless semantic streaming | Open |
+| <a id="q922"></a>[Q922](probability-stochastic-processes-part-1.md#q922) | Finite ambiguity from bounded sums without invertibility | Open |
+| <a id="q923"></a>[Q923](probability-stochastic-processes-part-1.md#q923) | Complexity of recognizing low-ambiguity invertible scorers | Open |
+| <a id="q924"></a>[Q924](probability-stochastic-processes-part-1.md#q924) | State cost of low-ambiguity semantic compilation | Open |
+| <a id="q925"></a>[Q925](probability-stochastic-processes-part-1.md#q925) | Approximate semantic identification with only the last hypothesis | Open |
+| <a id="q926"></a>[Q926](probability-stochastic-processes-part-1.md#q926) | Which uncountable interpretation families permit eventual valid proposals? | Open |
+| <a id="q927"></a>[Q927](probability-stochastic-processes-part-1.md#q927) | Stable semantic proposal support with infinite valid coverage | Open |
+| <a id="q928"></a>[Q928](probability-stochastic-processes-part-1.md#q928) | Support-sensitive universality for Blackwell comparison | Open |
+| <a id="q1032"></a>[Q1032](probability-stochastic-processes-part-1.md#q1032) | A strict latent-simulation cost gap at negative Rényi orders | Open |
+| <a id="q1033"></a>[Q1033](probability-stochastic-processes-part-1.md#q1033) | Exact entropy cost of a binary-pair latent representation | Open |
+| <a id="q1034"></a>[Q1034](probability-stochastic-processes-part-1.md#q1034) | Exact agreement frontier for a multibit common representation | Open |
+| <a id="q1035"></a>[Q1035](probability-stochastic-processes-part-1.md#q1035) | Can blockwise local sensors outperform all scalar decoders? | Open |
+| <a id="q1036"></a>[Q1036](probability-stochastic-processes-part-1.md#q1036) | Optimal balanced multiclass decoding of correlated Gaussian reports | Open |
+| <a id="q1037"></a>[Q1037](probability-stochastic-processes-part-1.md#q1037) | Extremal overlap for sign-invariant Gaussian evidence tests | Open |
+| <a id="q1038"></a>[Q1038](probability-stochastic-processes-part-1.md#q1038) | Must optimal antisymmetric local agreement use a majority? | Open |
+| <a id="q1039"></a>[Q1039](probability-stochastic-processes-part-1.md#q1039) | Computational complexity of binary noninteractive simulation | Open |
+| <a id="q1185"></a>[Q1185](probability-stochastic-processes-part-1.md#q1185) | Openness of random transient directions | Open |
+| <a id="q1186"></a>[Q1186](probability-stochastic-processes-part-1.md#q1186) | Sharp transience on doubled trees | Open |
+| <a id="q1189"></a>[Q1189](probability-stochastic-processes-part-1.md#q1189) | Critical escape scale for switch walks | Open |
+| <a id="q1190"></a>[Q1190](probability-stochastic-processes-part-1.md#q1190) | Critical loop susceptibility and connectivity | Open |
+| <a id="q1191"></a>[Q1191](probability-stochastic-processes-part-1.md#q1191) | Sharp loop percolation threshold | Open |
+| <a id="q1192"></a>[Q1192](probability-stochastic-processes-part-1.md#q1192) | Monotonicity along the Kertész line | Open |
+| <a id="q1193"></a>[Q1193](probability-stochastic-processes-part-1.md#q1193) | Stochastic monotonicity of double currents | Open |
+| <a id="q1194"></a>[Q1194](probability-stochastic-processes-part-1.md#q1194) | Ends of percolating loop and single-current clusters | Open |
+| <a id="q1195"></a>[Q1195](probability-stochastic-processes-part-1.md#q1195) | Subcritical loop Gibbs uniqueness | Open |
+| <a id="q1196"></a>[Q1196](probability-stochastic-processes-part-1.md#q1196) | Planar hostile-environment coexistence | Open |
+| <a id="q1197"></a>[Q1197](probability-stochastic-processes-part-1.md#q1197) | Weak hostile-environment coexistence | Open |
+| <a id="q1198"></a>[Q1198](probability-stochastic-processes-part-1.md#q1198) | Conversion-model survival phase diagram | Open |
+| <a id="q1199"></a>[Q1199](probability-stochastic-processes-part-1.md#q1199) | Tensor type-two bound | Open |
+| <a id="q1200"></a>[Q1200](probability-stochastic-processes-part-1.md#q1200) | Sharp random-circulant Lovász asymptotic | Open |
+| <a id="q1285"></a>[Q1285](probability-stochastic-processes-part-1.md#q1285) | Cutoff with extreme reservoir densities | Open |
+| <a id="q1286"></a>[Q1286](probability-stochastic-processes-part-1.md#q1286) | Product-condition cutoff with unequal reservoirs | Open |
+| <a id="q1287"></a>[Q1287](probability-stochastic-processes-part-1.md#q1287) | Order of the quenched Ising transition | Open |
+| <a id="q1288"></a>[Q1288](probability-stochastic-processes-part-1.md#q1288) | Critical component scale in genuine attachment graphs | Open |
+| <a id="q1289"></a>[Q1289](probability-stochastic-processes-part-1.md#q1289) | Critical universality of spread-out discrete Gaussian fields | Open |
+| <a id="q1290"></a>[Q1290](probability-stochastic-processes-part-1.md#q1290) | Separation cutoff for positively biased shuffles | Open, partial results |
+| <a id="q1291"></a>[Q1291](probability-stochastic-processes-part-1.md#q1291) | Total-variation cutoff for biased signed shuffles | Solved here: proved |
+| <a id="q1292"></a>[Q1292](probability-stochastic-processes-part-1.md#q1292) | Monotonicity in subdivision count | Open |
+| <a id="q1293"></a>[Q1293](probability-stochastic-processes-part-1.md#q1293) | Equality of dust and crossing thresholds | Open |
+| <a id="q1294"></a>[Q1294](probability-stochastic-processes-part-1.md#q1294) | Can fat percolation have positive-volume dust? | Open |
+| <a id="q1295"></a>[Q1295](probability-stochastic-processes-part-1.md#q1295) | Distinct speeds for surviving annihilating blocks | Open |
+| <a id="q1296"></a>[Q1296](probability-stochastic-processes-part-1.md#q1296) | Monotonicity under branching, deletion and merging | Open |
+| <a id="q1297"></a>[Q1297](probability-stochastic-processes-part-1.md#q1297) | Sharp barely-supercritical giant normalization | Open |
+| <a id="q1298"></a>[Q1298](probability-stochastic-processes-part-1.md#q1298) | Width of the secondary critical window | Open |
+| <a id="q1299"></a>[Q1299](probability-stochastic-processes-part-1.md#q1299) | Intermediate loop phase on a lattice | Open |
+| <a id="q1300"></a>[Q1300](probability-stochastic-processes-part-1.md#q1300) | Even-subgraph percolation from transience | Open |
+| <a id="q1384"></a>[Q1384](probability-stochastic-processes-part-1.md#q1384) | A monotone recurrence boundary for lattice frogs | Open |
+| <a id="q1385"></a>[Q1385](probability-stochastic-processes-part-1.md#q1385) | Concavity of the fastest-frog speed | Open |
+| <a id="q1386"></a>[Q1386](probability-stochastic-processes-part-1.md#q1386) | The two unresolved tree degrees | Open |
+| <a id="q1387"></a>[Q1387](probability-stochastic-processes-part-1.md#q1387) | Monotonicity without frog deaths | Open |
+| <a id="q1388"></a>[Q1388](probability-stochastic-processes-part-1.md#q1388) | A single rotor bias threshold | Open |
+| <a id="q1389"></a>[Q1389](probability-stochastic-processes-part-1.md#q1389) | Roundness of the rotor-walk limit | Open |
+| <a id="q1390"></a>[Q1390](probability-stochastic-processes-part-1.md#q1390) | Diffusive limits above dimension two | Open |
+| <a id="q1391"></a>[Q1391](probability-stochastic-processes-part-1.md#q1391) | Fourier fluctuations above γ=1/√2 | Open |
+| <a id="q1392"></a>[Q1392](probability-stochastic-processes-part-1.md#q1392) | Fourier fluctuations at γ=1/√2 | Open |
+| <a id="q1393"></a>[Q1393](probability-stochastic-processes-part-1.md#q1393) | Delayed epidemic extinction below static percolation | Open |
+| <a id="q1394"></a>[Q1394](probability-stochastic-processes-part-1.md#q1394) | Survival of a moving Brownian epidemic | Open |
+| <a id="q1395"></a>[Q1395](probability-stochastic-processes-part-1.md#q1395) | A single removal threshold with moving susceptibles | Open |
+| <a id="q1396"></a>[Q1396](probability-stochastic-processes-part-1.md#q1396) | Monotonicity of conversion survival | Open |
+| <a id="q1397"></a>[Q1397](probability-stochastic-processes-part-1.md#q1397) | Geometry of large subcritical attachment components | Open |
+| <a id="q1398"></a>[Q1398](probability-stochastic-processes-part-1.md#q1398) | Critical window for fixed-outdegree uniform attachment | Open |
+| <a id="q1399"></a>[Q1399](probability-stochastic-processes-part-1.md#q1399) | Openness of pressure discontinuity | Open |
+| <a id="q1400"></a>[Q1400](probability-stochastic-processes-part-1.md#q1400) | Survival with general host immunities | Open |
+| <a id="q1488"></a>[Q1488](probability-stochastic-processes-part-1.md#q1488) | Strict convexity of the passage-time shape | Open |
+| <a id="q1489"></a>[Q1489](probability-stochastic-processes-part-1.md#q1489) | Absence of planar bigeodesics | Open |
+| <a id="q1490"></a>[Q1490](probability-stochastic-processes-part-1.md#q1490) | Convergence of axial finite geodesics | Open |
+| <a id="q1491"></a>[Q1491](probability-stochastic-processes-part-1.md#q1491) | Unequal-rate Richardson noncoexistence | Open |
+| <a id="q1492"></a>[Q1492](probability-stochastic-processes-part-1.md#q1492) | Infinite interchange cycles in lower dimensions | Open |
+| <a id="q1493"></a>[Q1493](probability-stochastic-processes-part-1.md#q1493) | Finiteness of planar interchange cycles | Open |
+| <a id="q1494"></a>[Q1494](probability-stochastic-processes-part-1.md#q1494) | A single high-dimensional interchange transition | Open |
+| <a id="q1495"></a>[Q1495](probability-stochastic-processes-part-1.md#q1495) | Full high-temperature SK Glauber mixing | Open |
+| <a id="q1496"></a>[Q1496](probability-stochastic-processes-part-1.md#q1496) | The limiting full-information expected rank | Open |
+| <a id="q1498"></a>[Q1498](probability-stochastic-processes-part-1.md#q1498) | Optimal exponent for barrier recovery | Open |
+| <a id="q1499"></a>[Q1499](probability-stochastic-processes-part-1.md#q1499) | The extremal negative renewal coefficient | Open |
+| <a id="q1500"></a>[Q1500](probability-stochastic-processes-part-1.md#q1500) | Longer stationary cycle-history comparison | Open |
+| <a id="q1584"></a>[Q1584](probability-stochastic-processes-part-1.md#q1584) | Countably many Brownian critical points | Open |
+| <a id="q1585"></a>[Q1585](probability-stochastic-processes-part-1.md#q1585) | Planar Wiener boundary asymptotic | Open |
+| <a id="q1586"></a>[Q1586](probability-stochastic-processes-part-1.md#q1586) | Three-dimensional Wiener surface fluctuations | Open |
+| <a id="q1587"></a>[Q1587](probability-stochastic-processes-part-1.md#q1587) | Gated and one-limited polling law | Open |
+| <a id="q1588"></a>[Q1588](probability-stochastic-processes-part-1.md#q1588) | Renewal-input large-switch limit | Open |
+| <a id="q1589"></a>[Q1589](probability-stochastic-processes-part-1.md#q1589) | Nonequilibrium exclusion cutoff profile | Solved here: disproved |
+| <a id="q1590"></a>[Q1590](probability-stochastic-processes-part-1.md#q1590) | Noncrossing matching in a strip | Open |
+| <a id="q1591"></a>[Q1591](probability-stochastic-processes-part-1.md#q1591) | Stationary noncrossing Poisson matching | Open |
+| <a id="q1592"></a>[Q1592](probability-stochastic-processes-part-1.md#q1592) | Sharp dense-network synchronization threshold | Open |
+| <a id="q1593"></a>[Q1593](probability-stochastic-processes-part-1.md#q1593) | Exponential instability at minimal measurements | Open |
+| <a id="q1594"></a>[Q1594](probability-stochastic-processes-part-1.md#q1594) | Higher-dimensional perfectness | Open |
+| <a id="q1595"></a>[Q1595](probability-stochastic-processes-part-1.md#q1595) | Uniqueness of subcritical one-color matching | Open |
+| <a id="q1596"></a>[Q1596](probability-stochastic-processes-part-1.md#q1596) | Length-minimal planar Poisson matching | Open |
+| <a id="q1597"></a>[Q1597](probability-stochastic-processes-part-1.md#q1597) | Stable Poisson matching moment threshold | Open |
+| <a id="q1600"></a>[Q1600](probability-stochastic-processes-part-1.md#q1600) | Recurrence with exact real power steps | Open |
+| <a id="q1684"></a>[Q1684](probability-stochastic-processes-part-1.md#q1684) | A sharp SERPT mean-delay bound | Open |
+| <a id="q1685"></a>[Q1685](probability-stochastic-processes-part-1.md#q1685) | A sharp monotonic-SERPT bound | Open |
+| <a id="q1692"></a>[Q1692](probability-stochastic-processes-part-1.md#q1692) | Euclidean hard-sphere nonuniqueness | Open |
+| <a id="q1693"></a>[Q1693](probability-stochastic-processes-part-1.md#q1693) | Full-time convergence of hard-sphere dynamics | Open |
+| <a id="q1698"></a>[Q1698](probability-stochastic-processes-part-1.md#q1698) | Exact fractional-integral persistence exponent | Open |
+| <a id="q1699"></a>[Q1699](probability-stochastic-processes-part-1.md#q1699) | Giant size from Erlang-tree survival | Open |
+| <a id="q1700"></a>[Q1700](probability-stochastic-processes-part-1.md#q1700) | Isotropic factors with exponential tails | Open |
+| <a id="q1784"></a>[Q1784](probability-stochastic-processes-part-1.md#q1784) | The unbiased critical-state limit | Open |
+| <a id="q1785"></a>[Q1785](probability-stochastic-processes-part-1.md#q1785) | Critical cycle states in biased ARW | Open |
+| <a id="q1786"></a>[Q1786](probability-stochastic-processes-part-1.md#q1786) | Spherical activated-walk aggregate | Open |
+| <a id="q1787"></a>[Q1787](probability-stochastic-processes-part-1.md#q1787) | Higher-dimensional critical-time cutoff | Open |
+| <a id="q1788"></a>[Q1788](probability-stochastic-processes-part-1.md#q1788) | Forgetting dense initial configurations | Open |
+| <a id="q1789"></a>[Q1789](probability-stochastic-processes-part-1.md#q1789) | Directional transience forces positive speed | Open |
+| <a id="q1791"></a>[Q1791](probability-stochastic-processes-part-1.md#q1791) | Recurrence of the planar balanced excited walk | Open |
+| <a id="q1792"></a>[Q1792](probability-stochastic-processes-part-1.md#q1792) | Existence of a balanced-walk range exponent | Open |
+| <a id="q1793"></a>[Q1793](probability-stochastic-processes-part-1.md#q1793) | Superexponentially rare zero permanents | Open |
+| <a id="q1794"></a>[Q1794](probability-stochastic-processes-part-1.md#q1794) | Infinite rays among planar random mirrors | Open |
+| <a id="q1795"></a>[Q1795](probability-stochastic-processes-part-1.md#q1795) | Optimal second-moment queue scheduling | Open |
+| <a id="q1796"></a>[Q1796](probability-stochastic-processes-part-1.md#q1796) | Sharp nonzero determinant anticoncentration | Open |
+| <a id="q1797"></a>[Q1797](probability-stochastic-processes-part-1.md#q1797) | Sharp repeated-eigenvalue exponent | Open |
+| <a id="q1798"></a>[Q1798](probability-stochastic-processes-part-1.md#q1798) | Sharp rank resilience of square sign matrices | Open |
+| <a id="q1799"></a>[Q1799](probability-stochastic-processes-part-1.md#q1799) | Diagonal resilience of random sign matrices | Open |
+| <a id="q1800"></a>[Q1800](probability-stochastic-processes-part-1.md#q1800) | Altruistic Poisson matching existence | Open |
+| <a id="q1884"></a>[Q1884](probability-stochastic-processes-part-1.md#q1884) | Critical directed diameter | Open |
+| <a id="q1885"></a>[Q1885](probability-stochastic-processes-part-1.md#q1885) | Universal BST lower bound | Open, partial results |
+| <a id="q1886"></a>[Q1886](probability-stochastic-processes-part-1.md#q1886) | Almost-sure sampled BST height | Solved here: proved |
+| <a id="q1887"></a>[Q1887](probability-stochastic-processes-part-1.md#q1887) | Uniform limit with many internals | Solved here: proved |
+| <a id="q1888"></a>[Q1888](probability-stochastic-processes-part-1.md#q1888) | Complete hub mass | Solved here: proved |
+| <a id="q1889"></a>[Q1889](probability-stochastic-processes-part-1.md#q1889) | Older hubs dominate | Open |
+| <a id="q1890"></a>[Q1890](probability-stochastic-processes-part-1.md#q1890) | Nonleaf normalization | Open, partial results |
+| <a id="q1891"></a>[Q1891](probability-stochastic-processes-part-1.md#q1891) | Heavy-tail common-subtree limit | Open |
+| <a id="q1892"></a>[Q1892](probability-stochastic-processes-part-1.md#q1892) | Mixed-moment common subtrees | Open |
+| <a id="q1893"></a>[Q1893](probability-stochastic-processes-part-1.md#q1893) | Critical memory-tree scaling | Open, partial results |
+| <a id="q1894"></a>[Q1894](probability-stochastic-processes-part-1.md#q1894) | Intermediate zero-range relaxation | Open |
+| <a id="q1895"></a>[Q1895](probability-stochastic-processes-part-1.md#q1895) | Sukhatme fixed points | Solved here: proved |
+| <a id="q1896"></a>[Q1896](probability-stochastic-processes-part-1.md#q1896) | Sukhatme cycle count | Open, partial results |
+| <a id="q1897"></a>[Q1897](probability-stochastic-processes-part-1.md#q1897) | Sukhatme increasing subsequences | Open |
+| <a id="q1898"></a>[Q1898](probability-stochastic-processes-part-1.md#q1898) | No infinite noodle | Open |
+| <a id="q1899"></a>[Q1899](probability-stochastic-processes-part-1.md#q1899) | Macroscopic meandric-loop exponent | Open |
+| <a id="q1900"></a>[Q1900](probability-stochastic-processes-part-1.md#q1900) | Baxter subsequence exponent | Open |
+| <a id="q1985"></a>[Q1985](probability-stochastic-processes-part-1.md#q1985) | FIID sparse Bernoulli tail | Open |
+| <a id="q1986"></a>[Q1986](probability-stochastic-processes-part-1.md#q1986) | Critical Ising observation threshold | Open |
+| <a id="q1987"></a>[Q1987](probability-stochastic-processes-part-1.md#q1987) | Infinite-variance nonamenable zoos | Open |
+| <a id="q1988"></a>[Q1988](probability-stochastic-processes-part-1.md#q1988) | Immediate uniqueness at zero Betti number | Open |
+| <a id="q1989"></a>[Q1989](probability-stochastic-processes-part-1.md#q1989) | Critical tree-builder growth | Open |
+| <a id="q1990"></a>[Q1990](probability-stochastic-processes-part-1.md#q1990) | Continuity of critical velocity | Open |
+| <a id="q1991"></a>[Q1991](probability-stochastic-processes-part-1.md#q1991) | Connective limit on percolation cluster | Open |
+| <a id="q1992"></a>[Q1992](probability-stochastic-processes-part-1.md#q1992) | Biased random orientations percolate | Open |
+| <a id="q1993"></a>[Q1993](probability-stochastic-processes-part-1.md#q1993) | Negative association of uniform forests | Open |
+| <a id="q1994"></a>[Q1994](probability-stochastic-processes-part-1.md#q1994) | Negative association of uniform connected subgraphs | Open |
+| <a id="q1995"></a>[Q1995](probability-stochastic-processes-part-1.md#q1995) | Hall’s random-triangle extremizer | Open |
+| <a id="q1996"></a>[Q1996](probability-stochastic-processes-part-1.md#q1996) | Functional Berry nodal-length limit | Open |
+| <a id="q1997"></a>[Q1997](probability-stochastic-processes-part-1.md#q1997) | Infinite second-moment worm threshold | Open |
+| <a id="q1998"></a>[Q1998](probability-stochastic-processes-part-1.md#q1998) | Planar worm first-moment criterion | Open |
+| <a id="q1999"></a>[Q1999](probability-stochastic-processes-part-1.md#q1999) | Three-dimensional critical-tail worms | Open |
+| <a id="q2000"></a>[Q2000](probability-stochastic-processes-part-1.md#q2000) | Four-dimensional critical-tail worms | Open |
+| <a id="q2084"></a>[Q2084](probability-stochastic-processes-part-1.md#q2084) | Uniqueness with two Markov marginals | Open |
+| <a id="q2085"></a>[Q2085](probability-stochastic-processes-part-1.md#q2085) | Uniform learnability to fluctuation tails | Open |
+| <a id="q2086"></a>[Q2086](probability-stochastic-processes-part-2.md#q2086) | Remove lacunarity from pairwise-independent means | Open |
+| <a id="q2087"></a>[Q2087](probability-stochastic-processes-part-2.md#q2087) | Small reinforcement in dimensions three to five | Open |
+| <a id="q2088"></a>[Q2088](probability-stochastic-processes-part-2.md#q2088) | Large-reinforcement lattice recurrence | Open |
+| <a id="q2089"></a>[Q2089](probability-stochastic-processes-part-2.md#q2089) | Recurrence across strip reinforcements | Open |
+| <a id="q2090"></a>[Q2090](probability-stochastic-processes-part-2.md#q2090) | Upper range bound for strong reinforcement | Open |
+| <a id="q2091"></a>[Q2091](probability-stochastic-processes-part-2.md#q2091) | Replacer suppression at every fitness | Open |
+| <a id="q2092"></a>[Q2092](probability-stochastic-processes-part-2.md#q2092) | Vanishing minimal-measurement injectivity | Open |
+| <a id="q2093"></a>[Q2093](probability-stochastic-processes-part-2.md#q2093) | Sharp mobility-response rate | Open |
+| <a id="q2094"></a>[Q2094](probability-stochastic-processes-part-2.md#q2094) | Low-dimensional block-beta faces | Open |
+| <a id="q2095"></a>[Q2095](probability-stochastic-processes-part-2.md#q2095) | Exact block-beta facet constant | Open |
+| <a id="q2096"></a>[Q2096](probability-stochastic-processes-part-2.md#q2096) | Negative-beta boundary singularities | Open |
+| <a id="q2097"></a>[Q2097](probability-stochastic-processes-part-2.md#q2097) | Reconstructing the low-temperature plus phase | Open |
+| <a id="q2098"></a>[Q2098](probability-stochastic-processes-part-2.md#q2098) | Free-tree Ising along exhaustions | Open |
+| <a id="q2099"></a>[Q2099](probability-stochastic-processes-part-2.md#q2099) | Free-tree Ising along local approximations | Open |
+| <a id="q2100"></a>[Q2100](probability-stochastic-processes-part-2.md#q2100) | Infinite expected coding for tree matchings | Open |
+| <a id="q2185"></a>[Q2185](probability-stochastic-processes-part-2.md#q2185) | Semideciding limsup-average POMDP values | Open |
+| <a id="q2186"></a>[Q2186](probability-stochastic-processes-part-2.md#q2186) | Logarithmic second-fire record times | Open |
+| <a id="q2187"></a>[Q2187](probability-stochastic-processes-part-2.md#q2187) | Polylogarithmic Paley clique size | Open, partial results |
+| <a id="q2188"></a>[Q2188](probability-stochastic-processes-part-2.md#q2188) | Polynomial gain from degree-four SOS | Open, partial results |
+| <a id="q2189"></a>[Q2189](probability-stochastic-processes-part-2.md#q2189) | Infinitely many strict Schrijver improvements | Open, partial results |
+| <a id="q2190"></a>[Q2190](probability-stochastic-processes-part-2.md#q2190) | Two-localization beats the leading constant | Open, partial results |
+| <a id="q2191"></a>[Q2191](probability-stochastic-processes-part-2.md#q2191) | Near-linear sparsity for the Paley frame | Open, partial results |
+| <a id="q2192"></a>[Q2192](probability-stochastic-processes-part-2.md#q2192) | Exact polynomial-log graph-matrix growth | Open |
+| <a id="q2193"></a>[Q2193](probability-stochastic-processes-part-2.md#q2193) | Subcriticality with sparse transverse streets | Open |
+| <a id="q2194"></a>[Q2194](probability-stochastic-processes-part-2.md#q2194) | Balanced streets improve percolation | Open |
+| <a id="q2195"></a>[Q2195](probability-stochastic-processes-part-2.md#q2195) | Homogeneous extremizer for total intensity | Open |
+| <a id="q2196"></a>[Q2196](probability-stochastic-processes-part-2.md#q2196) | Exponential-radius vacant transition | Open |
+| <a id="q2197"></a>[Q2197](probability-stochastic-processes-part-2.md#q2197) | Isotropic-line occupied transition | Open |
+| <a id="q2198"></a>[Q2198](probability-stochastic-processes-part-2.md#q2198) | Product criterion on bounded-step nilpotent groups | Open |
+| <a id="q2199"></a>[Q2199](probability-stochastic-processes-part-2.md#q2199) | Finite private memory for every stochastic game | Open |
+| <a id="q2200"></a>[Q2200](probability-stochastic-processes-part-2.md#q2200) | Logarithmic public memory with liminf guarantees | Open |
+| <a id="q2284"></a>[Q2284](probability-stochastic-processes-part-2.md#q2284) | Critical hyperbolic boundary density | Open |
+| <a id="q2285"></a>[Q2285](probability-stochastic-processes-part-2.md#q2285) | Convergence beyond front tightness | Open |
+| <a id="q2286"></a>[Q2286](probability-stochastic-processes-part-2.md#q2286) | Fast-refresh critical-rate limit | Open |
+| <a id="q2287"></a>[Q2287](probability-stochastic-processes-part-2.md#q2287) | Ordering count-based game values | Open |
+| <a id="q2288"></a>[Q2288](probability-stochastic-processes-part-2.md#q2288) | Sharp threshold with two count players | Open |
+| <a id="q2289"></a>[Q2289](probability-stochastic-processes-part-2.md#q2289) | Critical winning probability limit | Open |
+| <a id="q2290"></a>[Q2290](probability-stochastic-processes-part-2.md#q2290) | One-label hypergraph spectral gap | Open, partial results |
+| <a id="q2291"></a>[Q2291](probability-stochastic-processes-part-2.md#q2291) | Two representations control unitary gaps | Open |
+| <a id="q2292"></a>[Q2292](probability-stochastic-processes-part-2.md#q2292) | Odd-sector spectral ordering | Open |
+| <a id="q2293"></a>[Q2293](probability-stochastic-processes-part-2.md#q2293) | Quadratic Brownian-energy gap | Open, partial results |
+| <a id="q2294"></a>[Q2294](probability-stochastic-processes-part-2.md#q2294) | Monotonic speed on leafless trees | Open |
+| <a id="q2295"></a>[Q2295](probability-stochastic-processes-part-2.md#q2295) | Regenerations dominate the cubic tree | Open |
+| <a id="q2296"></a>[Q2296](probability-stochastic-processes-part-2.md#q2296) | Sharp weighted Bernoulli mean tail | Open |
+| <a id="q2297"></a>[Q2297](probability-stochastic-processes-part-2.md#q2297) | Sharp complementary relaxation bound | Open |
+| <a id="q2298"></a>[Q2298](probability-stochastic-processes-part-2.md#q2298) | Stochastic advantage of collaborating walks | Solved here: disproved |
+| <a id="q2299"></a>[Q2299](probability-stochastic-processes-part-2.md#q2299) | Logarithmic three-dimensional critical passage | Open |
+| <a id="q2300"></a>[Q2300](probability-stochastic-processes-part-2.md#q2300) | Bounded-degree hitting-time anticoncentration | Open |
+| <a id="q2384"></a>[Q2384](probability-stochastic-processes-part-2.md#q2384) | Poisson-calibrated disjoint-path ordering | Open |
+| <a id="q2385"></a>[Q2385](probability-stochastic-processes-part-2.md#q2385) | Sharp rare-event singleton bound | Open |
+| <a id="q2386"></a>[Q2386](probability-stochastic-processes-part-2.md#q2386) | Third-order Harris inequality | Open |
+| <a id="q2387"></a>[Q2387](probability-stochastic-processes-part-2.md#q2387) | Centered planar matching limit | Open |
+| <a id="q2388"></a>[Q2388](probability-stochastic-processes-part-2.md#q2388) | Empirical selection between separated squares | Open |
+| <a id="q2389"></a>[Q2389](probability-stochastic-processes-part-2.md#q2389) | Complete additive EFX allocations | Open |
+| <a id="q2390"></a>[Q2390](probability-stochastic-processes-part-2.md#q2390) | Optimal ordinal matroid secretary ratio | Open |
+| <a id="q2391"></a>[Q2391](probability-stochastic-processes-part-2.md#q2391) | Sharp polygon flip relaxation | Open |
+| <a id="q2392"></a>[Q2392](probability-stochastic-processes-part-2.md#q2392) | Sharp cladogram branch rotation | Open |
+| <a id="q2393"></a>[Q2393](probability-stochastic-processes-part-2.md#q2393) | Limit constant for common planar orders | Open |
+| <a id="q2394"></a>[Q2394](probability-stochastic-processes-part-2.md#q2394) | Asymptotic optimal online tree cost | Open |
+| <a id="q2395"></a>[Q2395](probability-stochastic-processes-part-2.md#q2395) | Stationary law of the drift-jump system | Open, partial results |
+| <a id="q2396"></a>[Q2396](probability-stochastic-processes-part-2.md#q2396) | Concavity under recursive overlap | Open, partial results |
+| <a id="q2397"></a>[Q2397](probability-stochastic-processes-part-2.md#q2397) | Uniform dependence on greedy-walk start | Solved here: disproved |
+| <a id="q2398"></a>[Q2398](probability-stochastic-processes-part-2.md#q2398) | Planar-grid greedy-walk law of large numbers | Open |
+| <a id="q2399"></a>[Q2399](probability-stochastic-processes-part-2.md#q2399) | Rooted common-subtree scaling law | Solved here: proved |
+| <a id="q2400"></a>[Q2400](probability-stochastic-processes-part-2.md#q2400) | Log-concave high-degree random independent sets | Open, partial results |
+| <a id="q2484"></a>[Q2484](probability-stochastic-processes-part-2.md#q2484) | Euclidean first-passage shape | Open |
+| <a id="q2485"></a>[Q2485](probability-stochastic-processes-part-2.md#q2485) | Subpolynomial additive grid distortion | Open |
+| <a id="q2486"></a>[Q2486](probability-stochastic-processes-part-2.md#q2486) | Near-complete oriented-flow deficit | Open |
+| <a id="q2487"></a>[Q2487](probability-stochastic-processes-part-2.md#q2487) | Power law for optimal network density | Open |
+| <a id="q2488"></a>[Q2488](probability-stochastic-processes-part-2.md#q2488) | Exact Lp quantile convergence criteria | Open |
+| <a id="q2489"></a>[Q2489](probability-stochastic-processes-part-2.md#q2489) | Gaussian fluctuations of Euclidean greedy length | Open |
+| <a id="q2490"></a>[Q2490](probability-stochastic-processes-part-2.md#q2490) | Sub-square-root Yule agreement bound | Open |
+| <a id="q2491"></a>[Q2491](probability-stochastic-processes-part-2.md#q2491) | Optimal Brownian-tree Hölder exponent | Open |
+| <a id="q2492"></a>[Q2492](probability-stochastic-processes-part-2.md#q2492) | Critical branching minimum escape | Open |
+| <a id="q2493"></a>[Q2493](probability-stochastic-processes-part-2.md#q2493) | Small-exponent branching slowdown | Open |
+| <a id="q2494"></a>[Q2494](probability-stochastic-processes-part-2.md#q2494) | Optimal connected-complement gap exponent | Open |
+| <a id="q2495"></a>[Q2495](probability-stochastic-processes-part-2.md#q2495) | Memory-tree height fluctuations | Open, partial results |
+| <a id="q2496"></a>[Q2496](probability-stochastic-processes-part-2.md#q2496) | Cyclic-meander diagonal limit | Open |
+| <a id="q2497"></a>[Q2497](probability-stochastic-processes-part-2.md#q2497) | Space-filling SLE visit order | Open |
+| <a id="q2498"></a>[Q2498](probability-stochastic-processes-part-2.md#q2498) | Directional zero-one law for bounded cookies | Open |
+| <a id="q2499"></a>[Q2499](probability-stochastic-processes-part-2.md#q2499) | Recurrence–transience dichotomy for cookie walks | Open |
+| <a id="q2500"></a>[Q2500](probability-stochastic-processes-part-2.md#q2500) | Integral spectra of random sign matrices | Open |
+| <a id="q2585"></a>[Q2585](probability-stochastic-processes-part-2.md#q2585) | Fleming–Viot non-explosion | Open |
+| <a id="q2586"></a>[Q2586](probability-stochastic-processes-part-2.md#q2586) | ASEP circle mixing without cutoff | Open |
+| <a id="q2589"></a>[Q2589](probability-stochastic-processes-part-2.md#q2589) | High-probability events at reachable vertices | Open |
+| <a id="q2592"></a>[Q2592](probability-stochastic-processes-part-2.md#q2592) | Two-stage nucleation times | Open |
+| <a id="q2593"></a>[Q2593](probability-stochastic-processes-part-2.md#q2593) | Removing competition logarithms | Open |
+| <a id="q2594"></a>[Q2594](probability-stochastic-processes-part-2.md#q2594) | Distance-universal quadratic rendezvous | Open |
+| <a id="q2595"></a>[Q2595](probability-stochastic-processes-part-2.md#q2595) | Bounded-support optimal rendezvous | Open |
+| <a id="q2683"></a>[Q2683](probability-stochastic-processes-part-2.md#q2683) | Entropy criterion for perturbed-graph cutoff | Open |
+| <a id="q2684"></a>[Q2684](probability-stochastic-processes-part-2.md#q2684) | Subcritical small-world cutoff | Open |
+| <a id="q2685"></a>[Q2685](probability-stochastic-processes-part-2.md#q2685) | Fast analytic simulation on compact sets | Open |
+| <a id="q2687"></a>[Q2687](probability-stochastic-processes-part-2.md#q2687) | All-moment bounds for meteor mass flow | Open |
+| <a id="q2688"></a>[Q2688](probability-stochastic-processes-part-2.md#q2688) | Exact earthworm growth exponent | Open |
+| <a id="q2689"></a>[Q2689](probability-stochastic-processes-part-2.md#q2689) | Bounded Brownian pieces and reversal | Open |
+| <a id="q2690"></a>[Q2690](probability-stochastic-processes-part-2.md#q2690) | Separation of two random peaks | Open |
+| <a id="q2691"></a>[Q2691](probability-stochastic-processes-part-2.md#q2691) | Higher-dimensional exit directions | Open |
+| <a id="q2692"></a>[Q2692](probability-stochastic-processes-part-2.md#q2692) | Brownian-trace percolation dimension | Open |
+| <a id="q2693"></a>[Q2693](probability-stochastic-processes-part-2.md#q2693) | Rigid symmetry behind shy coupling | Open |
+| <a id="q2694"></a>[Q2694](probability-stochastic-processes-part-2.md#q2694) | Failure of bounded synchronous coalescence | Open |
+| <a id="q2695"></a>[Q2695](probability-stochastic-processes-part-2.md#q2695) | Synchronous coalescence outside a disk | Open |
+| <a id="q2698"></a>[Q2698](probability-stochastic-processes-part-2.md#q2698) | Three-dimensional two-stage threshold | Open |
+| <a id="q2699"></a>[Q2699](probability-stochastic-processes-part-2.md#q2699) | Three-dimensional two-neighbor threshold | Open |
+| <a id="q2736"></a>[Q2736](probability-stochastic-processes-part-2.md#q2736) | Infinite mean attraction without degree-two ergodicity | Open |
+| <a id="q2784"></a>[Q2784](probability-stochastic-processes-part-2.md#q2784) | Uniform continuity near a separating vertex | Open |
+| <a id="q2785"></a>[Q2785](probability-stochastic-processes-part-2.md#q2785) | Exact three-terminal percolation extremum | Open |
+| <a id="q2789"></a>[Q2789](probability-stochastic-processes-part-2.md#q2789) | Sharp anisotropic recurrence criterion | Open |
+| <a id="q2790"></a>[Q2790](probability-stochastic-processes-part-2.md#q2790) | Zero threshold for planar random rays | Open |
+| <a id="q2791"></a>[Q2791](probability-stochastic-processes-part-2.md#q2791) | Loop-erased ants find every geodesic | Open |
+| <a id="q2792"></a>[Q2792](probability-stochastic-processes-part-2.md#q2792) | Deterministic trace-reinforcement limit | Open |
+| <a id="q2793"></a>[Q2793](probability-stochastic-processes-part-2.md#q2793) | Finite clusters under strong reinforcement | Open |
+| <a id="q2794"></a>[Q2794](probability-stochastic-processes-part-2.md#q2794) | Critical WARM equilibration on Z | Open |
+| <a id="q2796"></a>[Q2796](probability-stochastic-processes-part-2.md#q2796) | Recurrence above square-root reinforcement | Open |
+| <a id="q2797"></a>[Q2797](probability-stochastic-processes-part-2.md#q2797) | Tight non-leaf degree distribution | Open |
+| <a id="q2798"></a>[Q2798](probability-stochastic-processes-part-2.md#q2798) | Rectangular circulant Gumbel fluctuations | Open |
+| <a id="q2799"></a>[Q2799](probability-stochastic-processes-part-2.md#q2799) | Critical hierarchical VRJP recurrence | Open |
+| <a id="q2885"></a>[Q2885](probability-stochastic-processes-part-2.md#q2885) | Critical local tree limits | Open |
+| <a id="q2886"></a>[Q2886](probability-stochastic-processes-part-2.md#q2886) | Spanning-tree diameter crossover | Open |
+| <a id="q2887"></a>[Q2887](probability-stochastic-processes-part-2.md#q2887) | A finite-dimensional dependent threshold | Open |
+| <a id="q2888"></a>[Q2888](probability-stochastic-processes-part-2.md#q2888) | Sharp giant size under local dependence | Open |
+| <a id="q2889"></a>[Q2889](probability-stochastic-processes-part-2.md#q2889) | Always-disconnected hypercube threshold | Open |
+| <a id="q2890"></a>[Q2890](probability-stochastic-processes-part-2.md#q2890) | Extremal connectivity near certainty | Open |
+| <a id="q2891"></a>[Q2891](probability-stochastic-processes-part-2.md#q2891) | Associated percolation’s leading threshold | Open |
+| <a id="q2892"></a>[Q2892](probability-stochastic-processes-part-2.md#q2892) | Markovian super-coupon collection | Open |
+| <a id="q2893"></a>[Q2893](probability-stochastic-processes-part-2.md#q2893) | Supercritical nonlinear-memory transience | Open |
+| <a id="q2894"></a>[Q2894](probability-stochastic-processes-part-2.md#q2894) | Dimension of independent ordering laws | Open |
+| <a id="q2895"></a>[Q2895](probability-stochastic-processes-part-2.md#q2895) | Almost-sure Liouville Weyl law | Open |
+| <a id="q2896"></a>[Q2896](probability-stochastic-processes-part-2.md#q2896) | Liouville eigenfunction equidistribution | Open |
+| <a id="q2897"></a>[Q2897](probability-stochastic-processes-part-2.md#q2897) | GOE gaps for Liouville eigenvalues | Open |
+| <a id="q2898"></a>[Q2898](probability-stochastic-processes-part-2.md#q2898) | Second-order loop-percolation threshold | Open |
+| <a id="q2899"></a>[Q2899](probability-stochastic-processes-part-2.md#q2899) | Sharpness for lattice loop soups | Open |
+| <a id="q2900"></a>[Q2900](probability-stochastic-processes-part-2.md#q2900) | Realizing every density as a distance law | Open |
+| <a id="q2994"></a>[Q2994](probability-stochastic-processes-part-2.md#q2994) | Separate comb densities | Open |
+| <a id="q2995"></a>[Q2995](probability-stochastic-processes-part-2.md#q2995) | Speed with leaves in causal maps | Open |
+| <a id="q2996"></a>[Q2996](probability-stochastic-processes-part-2.md#q2996) | Causal-map percolation nonuniqueness | Open |
+| <a id="q2999"></a>[Q2999](probability-stochastic-processes-part-2.md#q2999) | Polynomial repelling-walk mixing | Open |
+| <a id="q3000"></a>[Q3000](probability-stochastic-processes-part-2.md#q3000) | A specified large boundary local limit | Open |
+| <a id="q3092"></a>[Q3092](probability-stochastic-processes-part-2.md#q3092) | Sparse combinatorial-matrix least-singular-value upper bound | Open |
+| <a id="q3093"></a>[Q3093](probability-stochastic-processes-part-2.md#q3093) | Independent exponential gaps in the high-temperature Bessel limit | Open |
+| <a id="q3100"></a>[Q3100](probability-stochastic-processes-part-2.md#q3100) | Positive finite prediction coefficients for fractional Gaussian noise | Open |
+| <a id="q3184"></a>[Q3184](probability-stochastic-processes-part-2.md#q3184) | Strict successive polymer moment thresholds | Open |
+| <a id="q3185"></a>[Q3185](probability-stochastic-processes-part-2.md#q3185) | Polynomial upper tail of the continuum polymer martingale | Open |
+| <a id="q3186"></a>[Q3186](probability-stochastic-processes-part-2.md#q3186) | Critical continuum-polymer moment index | Open |
+| <a id="q3187"></a>[Q3187](probability-stochastic-processes-part-2.md#q3187) | Worst-case convergence rate of best-edge dynamics | Open |
+| <a id="q3192"></a>[Q3192](probability-stochastic-processes-part-2.md#q3192) | Hyperuniform stationary activated random walk on intervals | Open |
+| <a id="q3193"></a>[Q3193](probability-stochastic-processes-part-2.md#q3193) | Sublinear mixing from regular activated-random-walk configurations | Open |
+| <a id="q3194"></a>[Q3194](probability-stochastic-processes-part-2.md#q3194) | Diameter-scale robustness of maximal hitting time | Open |
+| <a id="q3195"></a>[Q3195](probability-stochastic-processes-part-2.md#q3195) | Corner paths as the most likely exponential-LPP geodesics | Open |
+| <a id="q3196"></a>[Q3196](probability-stochastic-processes-part-2.md#q3196) | Infinite Schnyder Woods | Open |
+| <a id="q3197"></a>[Q3197](probability-stochastic-processes-part-2.md#q3197) | Monotonicity of the scaled gamma-median offset | Open |
+| <a id="q3198"></a>[Q3198](probability-stochastic-processes-part-2.md#q3198) | Sharp rational interpolation bounds for gamma medians | Open |
+| <a id="q3199"></a>[Q3199](probability-stochastic-processes-part-2.md#q3199) | Almost-sure critical asymptotics along the full complex phase | Open |
+| <a id="q3200"></a>[Q3200](probability-stochastic-processes-part-2.md#q3200) | Continuity of the complex BBM martingale limit on phase boundaries | Open |
+| <a id="q3284"></a>[Q3284](probability-stochastic-processes-part-2.md#q3284) | Unimodality of remaining-record dispersion | Open |
+| <a id="q3285"></a>[Q3285](probability-stochastic-processes-part-2.md#q3285) | Simplex-record underdispersion | Open |
+| <a id="q3286"></a>[Q3286](probability-stochastic-processes-part-2.md#q3286) | Large-parameter record-count dispersion | Solved here: proved |
+| <a id="q3287"></a>[Q3287](probability-stochastic-processes-part-2.md#q3287) | Small-parameter record-count dispersion | Solved here: proved |
+| <a id="q3288"></a>[Q3288](probability-stochastic-processes-part-2.md#q3288) | Finite-space distribution-map convergence | Open |
+| <a id="q3289"></a>[Q3289](probability-stochastic-processes-part-2.md#q3289) | Planar nearest-of-two collapse | Open |
+| <a id="q3290"></a>[Q3290](probability-stochastic-processes-part-2.md#q3290) | Interval full-support iteration limits | Open |
+| <a id="q3291"></a>[Q3291](probability-stochastic-processes-part-2.md#q3291) | Finitary coding of union fields | Open |
+| <a id="q3292"></a>[Q3292](probability-stochastic-processes-part-2.md#q3292) | Finitary coding of selected-set fields | Open |
+| <a id="q3293"></a>[Q3293](probability-stochastic-processes-part-2.md#q3293) | High-temperature Curie–Weiss representation | Open |
+| <a id="q3294"></a>[Q3294](probability-stochastic-processes-part-2.md#q3294) | Regular-tree Poisson representation | Open |
+| <a id="q3295"></a>[Q3295](probability-stochastic-processes-part-2.md#q3295) | Binary-tree game convergence | Open |
+| <a id="q3296"></a>[Q3296](probability-stochastic-processes-part-2.md#q3296) | Almost-sure game convergence | Open |
+| <a id="q3297"></a>[Q3297](probability-stochastic-processes-part-2.md#q3297) | Intermediate long-range contact threshold | Open |
+| <a id="q3298"></a>[Q3298](probability-stochastic-processes-part-2.md#q3298) | Boundary-set convergence on trees | Open |
+| <a id="q3299"></a>[Q3299](probability-stochastic-processes-part-2.md#q3299) | Interval-boundary Lipschitz convergence | Open |
+| <a id="q3300"></a>[Q3300](probability-stochastic-processes-part-2.md#q3300) | Degree threshold for grounded convergence | Open |
+| <a id="q3393"></a>[Q3393](probability-stochastic-processes-part-2.md#q3393) | Differentiability of the CRT distance density | Open |
+| <a id="q3394"></a>[Q3394](probability-stochastic-processes-part-2.md#q3394) | Uniform Lipschitz moments for tree distance profiles | Open |
+| <a id="q3395"></a>[Q3395](probability-stochastic-processes-part-2.md#q3395) | Common-descendant limiting law | Open |
+| <a id="q3396"></a>[Q3396](probability-stochastic-processes-part-2.md#q3396) | Critical speed in the continuous bullet model | Open |
+| <a id="q3397"></a>[Q3397](probability-stochastic-processes-part-2.md#q3397) | KPZ variance for standard ballistic deposition | Open |
+| <a id="q3398"></a>[Q3398](probability-stochastic-processes-part-2.md#q3398) | Unbounded arrivals on recursive trees | Open |
+| <a id="q3399"></a>[Q3399](probability-stochastic-processes-part-2.md#q3399) | Fluctuations of the first parking flux | Open |
+| <a id="q3436"></a>[Q3436](probability-stochastic-processes-part-2.md#q3436) | Real-rooted finite commutators | Open |
+| <a id="q3437"></a>[Q3437](probability-stochastic-processes-part-2.md#q3437) | Generalized rectangular positivity | Open |
+| <a id="q3438"></a>[Q3438](probability-stochastic-processes-part-2.md#q3438) | Integrable initial opinions | Open |
+| <a id="q3439"></a>[Q3439](probability-stochastic-processes-part-2.md#q3439) | Ergodic initial opinions | Open |
+| <a id="q3440"></a>[Q3440](probability-stochastic-processes-part-2.md#q3440) | Markovian segregation above 1/e | Open |
+| <a id="q3441"></a>[Q3441](probability-stochastic-processes-part-2.md#q3441) | Critical uniform Deffuant model | Open |
+| <a id="q3442"></a>[Q3442](probability-stochastic-processes-part-2.md#q3442) | Sharp jig-type constant | Open |
+| <a id="q3485"></a>[Q3485](probability-stochastic-processes-part-2.md#q3485) | Weak-coupling limit from empty environment | Open |
+| <a id="q3585"></a>[Q3585](probability-stochastic-processes-part-2.md#q3585) | Optimal anonymous channel capture | Open |
+| <a id="q3586"></a>[Q3586](probability-stochastic-processes-part-2.md#q3586) | Anonymous capture with ternary feedback | Open |
+| <a id="q3587"></a>[Q3587](probability-stochastic-processes-part-2.md#q3587) | Bulk gaps of Lévy random walks | Open |
+| <a id="q3588"></a>[Q3588](probability-stochastic-processes-part-2.md#q3588) | Area saturation for a reflected Brownian hull | Open |
+| <a id="q3591"></a>[Q3591](probability-stochastic-processes-part-2.md#q3591) | Planar favorite-point fluctuations | Open |
+| <a id="q3592"></a>[Q3592](probability-stochastic-processes-part-2.md#q3592) | A simultaneous Ray–Knight coupling | Open |
+| <a id="q3593"></a>[Q3593](probability-stochastic-processes-part-2.md#q3593) | Removing dimensional moment restrictions | Open |
+| <a id="q3594"></a>[Q3594](probability-stochastic-processes-part-2.md#q3594) | Deterministic long-range homogenization | Open |
+| <a id="q3595"></a>[Q3595](probability-stochastic-processes-part-2.md#q3595) | Coincidence of three-dimensional loop-soup thresholds | Open |
+| <a id="q3596"></a>[Q3596](probability-stochastic-processes-part-2.md#q3596) | Persistence of draws under neutralization | Open |
+| <a id="q3597"></a>[Q3597](probability-stochastic-processes-part-2.md#q3597) | Draws on oriented cubic lattices | Open |
+| <a id="q3598"></a>[Q3598](probability-stochastic-processes-part-2.md#q3598) | Misère draws on the square lattice | Open |
+| <a id="q3599"></a>[Q3599](probability-stochastic-processes-part-2.md#q3599) | A double-edge excursion asymptotic | Open |
+| <a id="q3600"></a>[Q3600](probability-stochastic-processes-part-2.md#q3600) | Critical radius for coordinate-wise connections | Open |
+| <a id="q3685"></a>[Q3685](probability-stochastic-processes-part-2.md#q3685) | Asymmetric capital and draw probability | Open |
+| <a id="q3686"></a>[Q3686](probability-stochastic-processes-part-2.md#q3686) | Trap-density monotonicity of draws | Open |
+| <a id="q3687"></a>[Q3687](probability-stochastic-processes-part-2.md#q3687) | Uniqueness in lattice-conditioned continuum percolation | Open |
+| <a id="q3690"></a>[Q3690](probability-stochastic-processes-part-2.md#q3690) | Is Δ\_{p_c}<∞ for every sufficiently large d? | Open |
+| <a id="q3691"></a>[Q3691](probability-stochastic-processes-part-2.md#q3691) | For d≥2, does some c>0 make c(log n/n)¹ᐟᵈ a sharp threshold for χ>d+1? | Open |
+| <a id="q3692"></a>[Q3692](probability-stochastic-processes-part-2.md#q3692) | For d≥3, do c₂&lt;c₃<⋯&lt;c_d exist with c_kn⁻¹ᐟᵈ sharply thresholding χ>k for 3≤k≤d? | Open |
+| <a id="q3693"></a>[Q3693](probability-stochastic-processes-part-2.md#q3693) | Differentiability of the hyperbolic uniqueness threshold | Open |
+| <a id="q3694"></a>[Q3694](probability-stochastic-processes-part-2.md#q3694) | Maximum spread for four-wise independence | Open |
+| <a id="q3695"></a>[Q3695](probability-stochastic-processes-part-2.md#q3695) | Sharp temporal-connectivity radius | Open |
+| <a id="q3696"></a>[Q3696](probability-stochastic-processes-part-2.md#q3696) | Full ergodic-density relaxation | Open |
+| <a id="q3697"></a>[Q3697](probability-stochastic-processes-part-2.md#q3697) | Noisy consensus on hyperbolic tilings | Open |
+| <a id="q3698"></a>[Q3698](probability-stochastic-processes-part-2.md#q3698) | Velocity stability under rare anomalies | Open |
+| <a id="q3782"></a>[Q3782](probability-stochastic-processes-part-2.md#q3782) | For each fixed r≥3, does containing a K_r-factor have a sharp threshold as n→∞ through multiples… | Open |
+| <a id="q3783"></a>[Q3783](probability-stochastic-processes-part-2.md#q3783) | Determine C_M=lim_{n→∞, 2∣n}m_M(1/2,n)/n, where M is containing a perfect matching. | Open |
+| <a id="q3784"></a>[Q3784](probability-stochastic-processes-part-2.md#q3784) | Determine C_H=lim_{n→∞}m_H(1/2,n)/n, where H is containing a Hamilton cycle. | Open |
+| <a id="q3785"></a>[Q3785](probability-stochastic-processes-part-2.md#q3785) | For fixed integer r≥3 and c>0, determine the asymptotic value of χ(G(n,1−c n^{−2/r})) with… | Open |
+| <a id="q3788"></a>[Q3788](probability-stochastic-processes-part-2.md#q3788) | Voronoi mean-field exponents from the triangle condition | Open |
+| <a id="q3789"></a>[Q3789](probability-stochastic-processes-part-2.md#q3789) | Strict decrease of the hyperbolic uniqueness threshold | Open |
+| <a id="q3790"></a>[Q3790](probability-stochastic-processes-part-2.md#q3790) | Monotonicity of realizable-basis spread | Open |
+| <a id="q3792"></a>[Q3792](probability-stochastic-processes-part-2.md#q3792) | Polynomial growth from nonnegative discrete curvature | Open |
+| <a id="q3793"></a>[Q3793](probability-stochastic-processes-part-2.md#q3793) | Finite dimension for regular nonnegative-curvature graphs | Open |
+| <a id="q3794"></a>[Q3794](probability-stochastic-processes-part-2.md#q3794) | Cooperative-contact thresholds | Open |
+| <a id="q3795"></a>[Q3795](probability-stochastic-processes-part-2.md#q3795) | Positive-density continuity | Open |
+| <a id="q3796"></a>[Q3796](probability-stochastic-processes-part-2.md#q3796) | Positive basin threshold | Open |
+| <a id="q3797"></a>[Q3797](probability-stochastic-processes-part-2.md#q3797) | Stability of randomly slowed shrinkers | Open |
+| <a id="q3798"></a>[Q3798](probability-stochastic-processes-part-2.md#q3798) | Irreducible Gaussian limits at arbitrary combinatorial dimensions | Open |
+| <a id="q3799"></a>[Q3799](probability-stochastic-processes-part-2.md#q3799) | Sharp noise sensitivity of Boolean percolation | Open |
+| <a id="q3800"></a>[Q3800](probability-stochastic-processes-part-2.md#q3800) | Fast nonlinear exchange up to the marginal threshold | Open |
+| <a id="q3857"></a>[Q3857](probability-stochastic-processes-part-2.md#q3857) | Let d≥1 and supp(μ)={g_i}, where g_i(x)=ρ\_iU_ix+b_i on Rᵈ, ρ\_i>0 and U_i are orthogonal. Assume… | Open |
+| <a id="q3858"></a>[Q3858](probability-stochastic-processes-part-2.md#q3858) | Let μ be finitely supported on SL₂(R), with support contained in no compact subgroup and… | Open |
+| <a id="q3874"></a>[Q3874](probability-stochastic-processes-part-2.md#q3874) | Does (L_n−C(log n)²)/(log n)^(3/2) converge in distribution to a nondegenerate random variable? | Open |
+| <a id="q3966"></a>[Q3966](probability-stochastic-processes-part-2.md#q3966) | With nondegenerate edge law and finite second moments for both laws, does F_{G_n} satisfy the… | Open |
+| <a id="q3967"></a>[Q3967](probability-stochastic-processes-part-2.md#q3967) | With standard Gaussian edges and finite-fourth-moment vertex law, does A_{G_n} satisfy the CLT… | Open |
+| <a id="q3972"></a>[Q3972](probability-stochastic-processes-part-2.md#q3972) | Determine the exact leading asymptotics of E[W_2(μ\_n,μ∞)] as n→∞, including its leading constant. | Open |
+| <a id="q3973"></a>[Q3973](probability-stochastic-processes-part-2.md#q3973) | For every nonatomic weight law, does (J,M_n) converge weakly, with limiting M a measurable… | Open |
+| <a id="q3974"></a>[Q3974](probability-stochastic-processes-part-2.md#q3974) | For ε=1−M(0), is \|M△M_{0,ε}\| finite almost surely? | Open |
+| <a id="q3975"></a>[Q3975](probability-stochastic-processes-part-2.md#q3975) | Does there exist such a stationary field for which the counting measure Σ\_{k∈Z²}δ\_{k+ξ\_k} has… | Open |
+| <a id="q3982"></a>[Q3982](probability-stochastic-processes-part-2.md#q3982) | If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X_t/(2θ)dt, X_0=x? | Open |
+| <a id="q3983"></a>[Q3983](probability-stochastic-processes-part-2.md#q3983) | For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exists. | Open |
+| <a id="q3987"></a>[Q3987](probability-stochastic-processes-part-2.md#q3987) | For n×n matrices A_n with iid real entries having one fixed nondegenerate probability law, does… | Open |
+| <a id="q3988"></a>[Q3988](probability-stochastic-processes-part-2.md#q3988) | For every n≥1, is max_k\|\|B_n^(k)\|\|max=\|\|U\|\|max almost surely? | Open |
+| <a id="q3989"></a>[Q3989](probability-stochastic-processes-part-2.md#q3989) | Does 2ζ(1+σ)C_c(σ)→1 as σ↓0? | Open |
+| <a id="q3991"></a>[Q3991](probability-stochastic-processes-part-2.md#q3991) | Determine the least k(n) for which A_n=A_{n,k(n)}, including its asymptotic growth as n→∞. | Open |
+| <a id="q3992"></a>[Q3992](probability-stochastic-processes-part-2.md#q3992) | Determine dim A_{n,k} for all integers n≥2 and k≥1. | Open |
+| <a id="q3993"></a>[Q3993](probability-stochastic-processes-part-2.md#q3993) | If v(0)>0, must p↦v(p) be nondecreasing on [0,1]? | Open |
+| <a id="q3999"></a>[Q3999](probability-stochastic-processes-part-2.md#q3999) | Does Σ\_{j=1}^n δ\_{a_n(λ\_j(L_n)−b_n)} converge in distribution, in the vague topology on locally… | Open |
+| <a id="q4070"></a>[Q4070](probability-stochastic-processes-part-2.md#q4070) | If μ^{\*m}(0)=ν^{\*m}(0) for every integer m≥1, must the two shapes agree? | Open |
+| <a id="q4082"></a>[Q4082](probability-stochastic-processes-part-2.md#q4082) | Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X? | Open |
+| <a id="q4091"></a>[Q4091](probability-stochastic-processes-part-2.md#q4091) | For every such G and α, does μₐ,Λ₁=μₐ,Λ₂ imply ∫q^(k−1)Λ₁(dq)/Λ₁([0,1])=∫q^(k−1)Λ₂(dq)/Λ₂([0,1])… | Open |
+| <a id="q4093"></a>[Q4093](probability-stochastic-processes-part-2.md#q4093) | Assuming additionally Eξ²=0 when F=C, does (νₙ) satisfy a speed-n² large-deviation principle on… | Open |
+| <a id="q4094"></a>[Q4094](probability-stochastic-processes-part-2.md#q4094) | With F=C and no assumption Eξ²=0, is it true that for every 0&lt;r<1 there exist c_μ,r>0 and n₀… | Open |
+| <a id="q4095"></a>[Q4095](probability-stochastic-processes-part-2.md#q4095) | For every δ>0, does this once-reinforced walk visit 0 infinitely often almost surely? | Open |
+| <a id="q4108"></a>[Q4108](probability-stochastic-processes-part-2.md#q4108) | If Λ₁₁>1 and Λ₂₂>1, must uQ(u)=0 have a probability solution with u₀₀<1, for every γ≥0? | Open |
+| <a id="q4126"></a>[Q4126](probability-stochastic-processes-part-2.md#q4126) | Does P(N(X)<∞)=1 imply P(N(Y)<∞)=1? | Open |
+| <a id="q4127"></a>[Q4127](probability-stochastic-processes-part-2.md#q4127) | Does P(N(Y)=∞)=1 imply P(N(X)=∞)=1? | Open |
+| <a id="q4128"></a>[Q4128](probability-stochastic-processes-part-2.md#q4128) | Must Z visit every vertex only finitely often almost surely? | Open |
+| <a id="q4129"></a>[Q4129](probability-stochastic-processes-part-2.md#q4129) | For almost every H, do two independent discrete-time simple random walks X,Y on this graph, both… | Open |
+| <a id="q4130"></a>[Q4130](probability-stochastic-processes-part-2.md#q4130) | For each d∈{3,4}, determine whether λp<λ₂, λp=λ₂, or λp>λ₂. | Open |
+| <a id="q4131"></a>[Q4131](probability-stochastic-processes-part-2.md#q4131) | Does λ₂<λh hold for every d∈{3,4,5,6}? | Open |
+| <a id="q4134"></a>[Q4134](probability-stochastic-processes-part-2.md#q4134) | Is it true, for every such law and every integer n≥1, that supₓ∈R \|P((X₁+⋯+Xₙ)/√n≤x)−Φ(x)\|≤cEβ/√n? | Open |

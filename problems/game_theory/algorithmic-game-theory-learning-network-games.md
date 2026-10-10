@@ -1,6 +1,6 @@
 # Algorithmic Game Theory, Learning & Network Games
 
-81 problems: 78 open, 3 solved here: disproved.
+84 problems: 81 open, 3 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -87,6 +87,9 @@
 | [Q3477](algorithmic-game-theory-learning-network-games.md#q3477) | Better stable triple welfare | Open |
 | [Q3589](algorithmic-game-theory-learning-network-games.md#q3589) | Non-oriented percolation-game values | Open |
 | [Q3590](algorithmic-game-theory-learning-network-games.md#q3590) | Action-correlated percolation control | Open |
+| [Q4167](algorithmic-game-theory-learning-network-games.md#q4167) | Is there an absolute α>0 guaranteeing an α-MMS allocation for every G, n and these utilities? | Open |
+| [Q4168](algorithmic-game-theory-learning-network-games.md#q4168) | What is the largest universal α guaranteeing such allocations when G is a cactus, meaning each… | Open |
+| [Q4171](algorithmic-game-theory-learning-network-games.md#q4171) | In the preceding connected MMS model, what is the largest constant c that guarantees a c-MMS… | Open |
 
 <a id="q62"></a>
 
@@ -1433,4 +1436,51 @@ If J is a singleton and the vectors (g(z,i))\_{i∈I} are iid across z, with arb
 **Literature check.** Status: Explicitly open in the September 2026 manuscript; no later resolution located, checked 2026-10-09.
 
 **Further links.** [1](https://www.ceremade.dauphine.fr/~vigeral/Thesecompletementfinale.pdf)
+
+
+<a id="q4167"></a>
+
+## Q4167. Is there an absolute α>0 guaranteeing an α-MMS allocation for every G, n and these utilities?
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 42
+
+Is there an absolute α>0 guaranteeing an α-MMS allocation for every G, n and these utilities?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. For a finite connected undirected graph G and integer n≥1 agents, each u_i assigns nonnegative real vertex values, extended additively. Bundles induce connected subgraphs; empty bundles are allowed. Define μ\_i=max_P min_j u_i(P_j), over partitions P of V(G) into n bundles. An α-MMS allocation is such a partition (A_i) with u_i(A_i)≥αμ\_i for every i.
+
+**Source.** Václav Blažej, Michał Dębski, Zbigniew Lonc, Marta Piecyk and Paweł Rzążewski. *On Approximate MMS Allocations on Restricted Graph Classes*. 2025. [primary source](https://journals.sagepub.com/doi/10.3233/FAIA251271) Location: Question 1.
+
+**Literature check.** Status: Q4167 restates Lonc’s 2023 question. Read publisher final HTML and arXiv2508.06343v2. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4168"></a>
+
+## Q4168. What is the largest universal α guaranteeing such allocations when G is a cactus, meaning each…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+What is the largest universal α guaranteeing such allocations when G is a cactus, meaning each block is an edge or cycle?
+
+**Context.** Marta Piecyk’s doctoral route: Graph Homomorphisms – Exploring the Boundaries of Tractability, Warsaw University of Technology, 2024 PhD dissertation in mathematics; supervisors Zbigniew Lonc and Paweł Rzążewski. Degree award unverified. Q4160 restates thesis Open Problem 1, p.18; subsequent questions follow her publication network. Field: Graph algorithms and matrix invariants. SETH denotes the Strong Exponential Time Hypothesis. For a finite connected undirected graph G and integer n≥1 agents, each u_i assigns nonnegative real vertex values, extended additively. Bundles induce connected subgraphs; empty bundles are allowed. Define μ\_i=max_P min_j u_i(P_j), over partitions P of V(G) into n bundles. An α-MMS allocation is such a partition (A_i) with u_i(A_i)≥αμ\_i for every i.
+
+**Source.** Václav Blažej, Michał Dębski, Zbigniew Lonc, Marta Piecyk and Paweł Rzążewski. *On Approximate MMS Allocations on Restricted Graph Classes*. 2025. [primary source](https://journals.sagepub.com/doi/10.3233/FAIA251271) Location: §6.
+
+**Literature check.** Status: Q4167 restates Lonc’s 2023 question. Read publisher final HTML and arXiv2508.06343v2. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
+
+
+<a id="q4171"></a>
+
+## Q4171. In the preceding connected MMS model, what is the largest constant c that guarantees a c-MMS…
+
+**Status:** Open · **Kind:** open problem (Problem 2) · **Collection** 42
+
+In the preceding connected MMS model, what is the largest constant c that guarantees a c-MMS allocation for every connected claw-free graph, every number of agents, and all nonnegative additive utilities? Claw-free means having no induced K_{1,3}.
+
+**Source.** Zbigniew Lonc. *Approximating Proportional and Maximin Allocations on D-Claw-Free Graphs*. 2026. [primary source](https://www.jair.org/index.php/jair/article/download/17263/27278) Location: Problem 2 p. 23:25; definitions pp. 23:5–7.
+
+**Literature check.** Status: The question was already posed in Lonc’s IJCAI 2023 paper, Problem 1 p. 2832. Read the JAIR publisher final; no matching resolution found, 10 October 2026.
 

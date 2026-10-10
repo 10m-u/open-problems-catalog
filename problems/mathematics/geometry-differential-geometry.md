@@ -1,6 +1,6 @@
 # Geometry & Differential Geometry
 
-226 problems: 223 open, 3 open, partial results.
+268 problems: 265 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -232,6 +232,48 @@
 | [Q3721](geometry-differential-geometry.md#q3721) | CPC submanifolds in the solvable model | Open |
 | [Q3722](geometry-differential-geometry.md#q3722) | Cusps in hyperbolic-product complements | Open |
 | [Q3723](geometry-differential-geometry.md#q3723) | Curvature of hyperbolic-product branched covers | Open |
+| [Q3808](geometry-differential-geometry.md#q3808) | In each connected component C of such a stratum, what is the minimum square count for a… | Open |
+| [Q3809](geometry-differential-geometry.md#q3809) | Which cycle types occur for hvh^{-1}v^{-1} when Singer cycles h,v generate PGL(d,q)? | Open |
+| [Q3810](geometry-differential-geometry.md#q3810) | Does d,q determine spin parity for such primitive origamis with monodromy isomorphic to PSL(d,q)? | Open |
+| [Q3814](geometry-differential-geometry.md#q3814) | For Lipschitz f_i:Q→R and π\_i:Q→R^d, assume Σ\_i\|\|f_i\|\|\_L∏\_{j=1}^d Lip(π\_i^j)<∞. Does Σ\_i f_i… | Open |
+| [Q3835](geometry-differential-geometry.md#q3835) | Twisted growth versus ordinary conjugacy growth | Open |
+| [Q3870](geometry-differential-geometry.md#q3870) | Transcendental conjugacy growth outside virtual abelianness | Open |
+| [Q3871](geometry-differential-geometry.md#q3871) | Equality of ordinary and conjugacy growth rates | Open |
+| [Q3876](geometry-differential-geometry.md#q3876) | With natural logarithms, is there an absolute c>0, independent of all these choices, such that… | Open |
+| [Q3877](geometry-differential-geometry.md#q3877) | Must g_ε=g₀ for all sufficiently small ε? | Open |
+| [Q3887](geometry-differential-geometry.md#q3887) | Scalar-equivariant infinite staircases | Open |
+| [Q3888](geometry-differential-geometry.md#q3888) | Orbifold type detected by virtual retractions | Open |
+| [Q3890](geometry-differential-geometry.md#q3890) | Finite extensions of hyperbolic LR groups | Open |
+| [Q3891](geometry-differential-geometry.md#q3891) | Finite extensions of limit groups | Open |
+| [Q3933](geometry-differential-geometry.md#q3933) | If K(G,P) has finite dimension, must G have only finitely many simplex orbits, equivalently act… | Open |
+| [Q3947](geometry-differential-geometry.md#q3947) | If ρ has costable norm one, must it have a continuous, weakly closed representative of supremum… | Open |
+| [Q3948](geometry-differential-geometry.md#q3948) | For infinite WΓ, must some subgroup of finite index in Aut(WΓ) have an infinite Coxeter group as… | Open |
+| [Q3955](geometry-differential-geometry.md#q3955) | If C_{α,β} is a nonzero constant on all nonzero holomorphic tangent vectors, must g be Kähler? | Open |
+| [Q3956](geometry-differential-geometry.md#q3956) | Does every pants graph of a finite-type surface admit exactly one coarse median structure? | Open |
+| [Q3957](geometry-differential-geometry.md#q3957) | Which finite simplicial graphs Γ give a right-angled Artin group AΓ with exactly one coarse… | Open |
+| [Q3965](geometry-differential-geometry.md#q3965) | Let closed Riemannian n-manifolds M_i converge in Gromov–Hausdorff distance to a compact metric… | Open |
+| [Q4051](geometry-differential-geometry.md#q4051) | Does there exist a smooth closed orientable real-hyperbolic n-manifold M, for some integer n≥2,… | Open |
+| [Q4052](geometry-differential-geometry.md#q4052) | If Γ is finitely generated and H≤Γ is noncyclic, of finite index, with girth(H)=∞, must girth(Γ)=∞? | Open |
+| [Q4053](geometry-differential-geometry.md#q4053) | For every noncyclic finitely generated G and φ∈Aut(G), is girth(G)=∞ equivalent to girth(⟨G,t \|… | Open |
+| [Q4054](geometry-differential-geometry.md#q4054) | Must every finitely generated group of intermediate growth have infinite girth? Intermediate… | Open |
+| [Q4055](geometry-differential-geometry.md#q4055) | If a finitely generated group has infinitely many pairwise nonisomorphic nonabelian finite… | Open |
+| [Q4056](geometry-differential-geometry.md#q4056) | For all integers p,q,r≥2 with 1/p+1/q+1/r<1, does Δ(p,q,r)=⟨x,y \| x^p=y^q=(xy)^r=1⟩ satisfy… | Open |
+| [Q4057](geometry-differential-geometry.md#q4057) | If G is hyperbolic with cd_Z(G)≤4 and H≤G is of type F, must H be hyperbolic? | Open |
+| [Q4058](geometry-differential-geometry.md#q4058) | If G admits a finite classifying space of dimension≤3 and contains no subgroup isomorphic to… | Open |
+| [Q4059](geometry-differential-geometry.md#q4059) | Does every complete finite-volume real-hyperbolic n-manifold, n≥2, have a finite-sheeted cover… | Open |
+| [Q4060](geometry-differential-geometry.md#q4060) | Is inf_{M∈M(X)}V_R(M) attained by some member of M(X)? Topology varies while conformal infinity… | Open |
+| [Q4061](geometry-differential-geometry.md#q4061) | Let M be a complete finite-volume real-hyperbolic n-manifold, n≥4, and f:M→S¹ a homotopically… | Open |
+| [Q4066](geometry-differential-geometry.md#q4066) | If G and H are quasi-isometric, must they be isomorphic as Lie groups? | Open |
+| [Q4090](geometry-differential-geometry.md#q4090) | For every integer d≥3 and every compact convex K⊂Rᵈ with nonempty interior, does int(K) admit a… | Open |
+| [Q4096](geometry-differential-geometry.md#q4096) | For every pair of integers n≥5 and 3≤j≤n−2, if every sum of n−j eigenvalues of D²ζ(u) is… | Open |
+| [Q4135](geometry-differential-geometry.md#q4135) | Does λ₁^α(Ω)≤λ₁^α(B) hold for every α<0 whenever Ω is convex with d≥2, or simply connected with… | Open |
+| [Q4136](geometry-differential-geometry.md#q4136) | Does λ₁^α(Ω)≤λ₁^α(B) hold for every α<0 and every bounded Lipschitz domain Ω⊂R³, where B has… | Open |
+| [Q4172](geometry-differential-geometry.md#q4172) | For every non-Archimedean local skew field K of characteristic zero and torsion-free lattice… | Open |
+| [Q4178](geometry-differential-geometry.md#q4178) | If a hyperbolic group G regularly embeds into a hyperbolic group H, must Confdim(∂∞G)≤Confdim(∂∞H)? | Open |
+| [Q4181](geometry-differential-geometry.md#q4181) | For each marked conformal structure c on S, is there a unique pair (E,Σ), up to marked isometry,… | Open |
+| [Q4183](geometry-differential-geometry.md#q4183) | Does 2V have property (T)? | Open |
+| [Q4184](geometry-differential-geometry.md#q4184) | For every ε>0, does M₂ contain a nonempty open subset U such that every degree-two cover of… | Open |
+| [Q4185](geometry-differential-geometry.md#q4185) | Does every complete connected orientable finite-area hyperbolic surface X admit a degree-two… | Open |
 
 <a id="q10"></a>
 
@@ -4030,4 +4072,666 @@ Does X_d admit a Riemannian metric of sectional curvature ≤0?
 **Literature check.** Status: General case remains open; follow-up listed in preparation.
 
 **Further links.** [1](https://etd.ohiolink.edu/acprod/odb_etd/r/etd/search/10?p10_accession_num=osu1752753416943883) · [2](https://hyeran131.wixsite.com/hyeran-cho/research) · [3](https://facstaff.bloomu.edu/bminemyer/)
+
+
+<a id="q3808"></a>
+
+## Q3808. In each connected component C of such a stratum, what is the minimum square count for a…
+
+**Status:** Open · **Kind:** open problem (Question 7.2) · **Collection** 39
+
+In each connected component C of such a stratum, what is the minimum square count for a [1,1]-pillowcase cover with exactly one, respectively both, cylinder core curves separating (∞ if none exists)?
+
+**Context.** Q(k₁,…,kₙ) consists of genus-g nonsquare meromorphic quadratic differentials with prescribed orders kᵢ≥−1 and Σkᵢ=4g−4. A [1,1]-pillowcase cover is a unit-square-tiled half-translation surface with one horizontal and one vertical cylinder.
+
+**Source.** Luke Jeffreys. *Meanders, hyperelliptic pillowcase covers, and the Johnson filtration*. 2024. [primary source](https://doi.org/10.1007/s10711-024-00936-w) Location: thesis Question 7.2, p.122, refined in Jeffreys, Meanders, hyperelliptic pillowcase covers, and the Johnson filtration, Question 1.1, final p.3.
+
+**Literature check.** Status, 2026-10-10: hyperelliptic cases settled by Theorem 1.2; no general answer found in bounded searches.
+
+**Further links.** [1](https://arxiv.org/abs/2210.11332v2) · [2](https://theses.gla.ac.uk/81526/) · [3](https://seis.bristol.ac.uk/~pk20963/pdf/CV.pdf)
+
+
+<a id="q3809"></a>
+
+## Q3809. Which cycle types occur for hvh^{-1}v^{-1} when Singer cycles h,v generate PGL(d,q)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Which cycle types occur for hvh^{-1}v^{-1} when Singer cycles h,v generate PGL(d,q)?
+
+**Context.** Authors: Tarik Aougab, Adam Friedman-Brown, Luke Jeffreys, Jiajie Ma. Paper: On the monodromy and spin parity of single-cylinder origamis in the minimal stratum. These are post-thesis paper questions. Set n=(q^d−1)/(q−1), d≥2, q a prime power. A Singer cycle is an element of PGL(d,q) acting as an n-cycle on PG(d−1,q). For an origami, square monodromy is generated by its right/up gluing permutations; primitive means this action is primitive. A minimal [1,1]-origami in H(2g−2) uses 2g−1 unit squares and one horizontal/vertical cylinder. With div(ω)=(2g−2)P, spin parity is h⁰(X,O((g−1)P)) modulo 2. Locators: Questions 9.6–9.7, pp.45–46, inspected arXiv:2502.09498v2 (2026-01-25).
+
+**Source.** Tarik Aougab, Adam Friedman-Brown, Luke Jeffreys and Jiajie Ma. *On the monodromy and spin parity of single-cylinder origamis in the minimal stratum*. 2025. [primary source](https://arxiv.org/abs/2502.09498v2) Location: Questions 9.6–9.7, pp.45–46, inspected arXiv:2502.09498v2 (2026-01-25).
+
+**Literature check.** Status, 2026-10-10: no resolution found in bounded searches.
+
+
+<a id="q3810"></a>
+
+## Q3810. Does d,q determine spin parity for such primitive origamis with monodromy isomorphic to PSL(d,q)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Does d,q determine spin parity for such primitive origamis with monodromy isomorphic to PSL(d,q)?
+
+**Context.** Authors: Tarik Aougab, Adam Friedman-Brown, Luke Jeffreys, Jiajie Ma. Paper: On the monodromy and spin parity of single-cylinder origamis in the minimal stratum. These are post-thesis paper questions. Set n=(q^d−1)/(q−1), d≥2, q a prime power. A Singer cycle is an element of PGL(d,q) acting as an n-cycle on PG(d−1,q). For an origami, square monodromy is generated by its right/up gluing permutations; primitive means this action is primitive. A minimal [1,1]-origami in H(2g−2) uses 2g−1 unit squares and one horizontal/vertical cylinder. With div(ω)=(2g−2)P, spin parity is h⁰(X,O((g−1)P)) modulo 2. Locators: Questions 9.6–9.7, pp.45–46, inspected arXiv:2502.09498v2 (2026-01-25).
+
+**Source.** Tarik Aougab, Adam Friedman-Brown, Luke Jeffreys and Jiajie Ma. *On the monodromy and spin parity of single-cylinder origamis in the minimal stratum*. 2025. [primary source](https://arxiv.org/abs/2502.09498v2) Location: Questions 9.6–9.7, pp.45–46, inspected arXiv:2502.09498v2 (2026-01-25).
+
+**Literature check.** Status, 2026-10-10: no resolution found in bounded searches.
+
+
+<a id="q3814"></a>
+
+## Q3814. For Lipschitz f_i:Q→R and π\_i:Q→R^d, assume Σ\_i||f_i||\_L∏\_{j=1}^d Lip(π\_i^j)<∞. Does Σ\_i f_i…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+For Lipschitz f_i:Q→R and π\_i:Q→R^d, assume Σ\_i||f_i||\_L∏\_{j=1}^d Lip(π\_i^j)<∞. Does Σ\_i f_i det(Dπ\_i)=0 almost everywhere imply Σ\_i T(f_i,π\_i^1,…,π\_i^d)=0 for every such T?
+
+**Context.** Let d≥1, Q=[0,1]^d and ||f||\_L=max(||f||∞,Lip(f)). A Lang metric d-current is a real multilinear T:Lip(Q)^{d+1}→R, continuous for pointwise-convergent tuples with uniformly bounded Lipschitz constants, and vanishing if any π-coordinate is constant near supp(f). Finite mass is not required.
+
+**Source.** Jakub Takáč. *The structure of rectifiable and purely unrectifiable metric spaces; the infinite-mass Flat Chain Conjecture and prescribed Jacobians*. University of Warwick, 2025. Advisor(s): David Bate. [primary source](https://wrap.warwick.ac.uk/id/eprint/200303/) Location: the injectivity question for potential forms, equivalently stated using a zero relation. Thesis Definition 4.3.7 and following paragraph, p.134; Takáč, Failure of Lang’s Flat Chain Conjecture and non-regularity of the prescribed Jacobian equation, Definition 3.7, p.19.
+
+**Literature check.** Status, 10 October 2026: thesis and arXiv:2506.13718v2 (26 November 2025) independently inspected; no later resolution found. The case d=1 is settled; higher dimensions remain the target. Submission alone does not establish degree conferral.
+
+**Further links.** [1](https://arxiv.org/abs/2506.13718v2)
+
+
+<a id="q3835"></a>
+
+## Q3835. Twisted growth versus ordinary conjugacy growth
+
+**Status:** Open · **Kind:** conjecture (Conjecture 9.3.1) · **Collection** 39
+
+Must c_φ≺c hold for every endomorphism φ of G?
+
+**Context.** Origin: Thesis Conjecture 9.3.1. Setup: Let G be finitely presented and S a finite generating set with positive weights on S∪S⁻¹. For φ∈End(G), declare x∼\_φ y when x=gyφ(g)^(−1) for some g∈G. Let c_φ(r) count these classes meeting the weighted word ball of radius r, and c(r) count ordinary conjugacy classes there. Write f≺h if f(r)≤a h(ar+b)+b for all r≥0, with a>0,b≥0. Sources:
+
+**Source.** Maarten Lathouwers. *An algebraic and geometric approach to infinite Reidemeister numbers*. KU Leuven, 2025. Advisor(s): Karel Dekimpe. [primary source](https://lirias.kuleuven.be/4233981) Location: p. 133, Conjecture 9.3.1; p. 40, Definition 4.3.3
+
+**Literature check.** Status: Checked 10 October 2026: no general resolution found. Virtually abelian endomorphisms and generalized-Heisenberg automorphisms are known cases.
+
+**Further links.** [1](https://lirias.kuleuven.be/retrieve/49efdd5c-57e1-44bb-90ce-0edde2fdc51d) · [2](https://arxiv.org/abs/2509.02231)
+
+
+<a id="q3870"></a>
+
+## Q3870. Transcendental conjugacy growth outside virtual abelianness
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.1.1) · **Collection** 39
+
+If G is not virtually abelian, is Σₙ≥₀c(n)zⁿ transcendental over Q(z), for every S?
+
+**Context.** Origin: Thesis restatements; also Ciobanu–Evetts–Meng-Che “Turbo” Ho, New York J. Math. 26 (2020), Conjectures 7.2,7.4. Setup: Let G be finitely presented and S a finite generating set. For its word ball B_S(n), put b(n)=|B_S(n)| and c(n)=#{conjugacy classes meeting B_S(n)}. Sources:
+
+**Source.** Alexander Evetts. *Aspects of Growth in Finitely Generated Groups*. Heriot-Watt University, 2020. Advisor(s): Laura Ciobanu. [primary source](https://www.ros.hw.ac.uk/server/api/core/bitstreams/e4de7b9f-71ed-4985-b1ab-3c60e61101c9/content) Location: Conjecture 6.1.1, p.113.
+
+**Literature check.** Status: Checked 10 October 2026: no general resolution found; the transcendence conjecture is reaffirmed in Ciobanu–Genevois arXiv:2504.15636v1, Conjecture 1.5.
+
+**Further links.** [1](https://nyjm.albany.edu/j/2020/26-23p.pdf) · [2](https://arxiv.org/abs/2504.15636v1) · [3](https://aevetts.github.io/research/)
+
+
+<a id="q3871"></a>
+
+## Q3871. Equality of ordinary and conjugacy growth rates
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.2.2) · **Collection** 39
+
+For every G and S above, is limsupₙ→∞c(n)^(1/n)=limsupₙ→∞b(n)^(1/n)?
+
+**Context.** Origin: Thesis restatements; also Ciobanu–Evetts–Meng-Che “Turbo” Ho, New York J. Math. 26 (2020), Conjectures 7.2,7.4. Setup: Let G be finitely presented and S a finite generating set. For its word ball B_S(n), put b(n)=|B_S(n)| and c(n)=#{conjugacy classes meeting B_S(n)}. Sources:
+
+**Source.** Alexander Evetts. *Aspects of Growth in Finitely Generated Groups*. Heriot-Watt University, 2020. Advisor(s): Laura Ciobanu. [primary source](https://www.ros.hw.ac.uk/server/api/core/bitstreams/e4de7b9f-71ed-4985-b1ab-3c60e61101c9/content) Location: Conjecture 6.2.2, p.114; Definition 2.2.12, p.10.
+
+**Literature check.** Status: Checked 10 October 2026: no general resolution found; the transcendence conjecture is reaffirmed in Ciobanu–Genevois arXiv:2504.15636v1, Conjecture 1.5.
+
+**Further links.** [1](https://nyjm.albany.edu/j/2020/26-23p.pdf) · [2](https://arxiv.org/abs/2504.15636v1) · [3](https://aevetts.github.io/research/)
+
+
+<a id="q3876"></a>
+
+## Q3876. With natural logarithms, is there an absolute c>0, independent of all these choices, such that…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+With natural logarithms, is there an absolute c>0, independent of all these choices, such that vol(∂₀ᴷS)/vol(S)≥(cr/R)min{1,log(e/s)/n}?
+
+**Context.** Doctoral context: Manuel Fernandez V, Large-Scale Phenomena in Geometry, Probability, and Combinatorics, Georgia Tech, May 2025; advisor Galyna V Livshyts. The selected question originates in his subsequent paper, not the thesis. Let n≥2, let Q⊂Rⁿ be a convex body invariant under every coordinate sign change, and let K be a convex body with x₀+rQ⊂K⊂y₀+RQ for some r,R>0 and x₀,y₀∈Rⁿ. For Borel S⊂K with 0&lt;s=vol(S)/vol(K)≤1/2, put ∂₀ᴷS={x∈K∖S: some y∈S differs from x in at most one coordinate}, using Lebesgue volume.
+
+**Source.** Manuel Fernandez V. *Improved ℓ₀-Isoperimetry for Convex Bodies via Mass Transport*. 2026. [primary source](https://arxiv.org/abs/2608.27854) Location: Improved ℓ₀-Isoperimetry for Convex Bodies via Mass Transport, arXiv:2608.27854v1 (28 August 2026), conjecture after Theorem 1.6, p.8, and §5(1), p.26; setup Theorem 1.1, p.4.
+
+**Literature check.** Status checked 10 October 2026: v1 remains latest; no matching resolution located. September’s arXiv:2609.22456 concerns ℓ∞ neighborhoods of cubes and tori.
+
+**Further links.** [1](https://repository.gatech.edu/bitstreams/1f830ab2-9b1f-48bd-b215-d6bbcc126b51/download)
+
+
+<a id="q3877"></a>
+
+## Q3877. Must g_ε=g₀ for all sufficiently small ε?
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 39
+
+Must g_ε=g₀ for all sufficiently small ε?
+
+**Context.** Write T=R/Z. Consider a smooth family of Riemannian metrics on T², g_ε=[1+f₁(x₁)+f₂(x₂)+εU(x₁,x₂,ε)\](dx₁²+dx₂²), where f₁,f₂∈C∞(T) each have exactly two critical points, U is smooth, and the conformal factor is positive. Suppose every g_ε is invariant under (x₁,x₂)↦(1−x₁,x₂) and (x₁,x₂)↦(x₁,1−x₂). Assume the set of lengths of all closed g_ε-geodesics is independent of ε.
+
+**Source.** Yunzhe Li. *Spectral Rigidity and Nonrigidity of Dynamical Systems*. Institute of Science and Technology Austria, 2026. Advisor(s): Vadim Kaloshin. [primary source](https://research-explorer.ista.ac.at/record/22255) Location: Explicit thesis Question 2, §1.2.4, p.13; no earlier exact formulation located.
+
+**Literature check.** Status, 10 October 2026: no matching resolution found. July 2026 v2 of 2511.10398 gives restricted Laplace-spectral theorems and within-Liouville length classifications, which do not settle this smooth length-only target.
+
+**Further links.** [1](https://arxiv.org/abs/2511.10398v2)
+
+
+<a id="q3887"></a>
+
+## Q3887. Scalar-equivariant infinite staircases
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+For every positive integer n, does cₙ have an infinite staircase, meaning infinitely many nonsmooth points?
+
+**Context.** Origin: Paper-origin: Nikolas Adaloglou–Hauber, Quantitative symplectic topology of Katok’s examples and equivariant symplectic embeddings, arXiv:2609.35209v1, 28 September 2026. Setup: In standard symplectic C², let E(a,b)={π|z₁|²/a+π|z₂|²/b≤1} and B(c)=E(c,c). The cyclic group μₙ of nth roots of unity acts by ζ·(z₁,z₂)=(ζz₁,ζz₂). For a≥1, set cₙ(a)=inf{c>0: E(1,a) admits a μₙ-equivariant symplectic embedding into B(c)}. Embeddings of closed domains extend symplectically to neighborhoods. Sources:
+
+**Source.** Nikolas Adaloglou and Johannes Hauber. *Quantitative symplectic topology of Katok’s examples and equivariant symplectic embeddings*. 2026. [primary source](https://arxiv.org/abs/2609.35209v1) Location: Open questions (b), p.5; closed-embedding convention p.2, footnote 1.
+
+**Literature check.** Status: Checked 10 October 2026: n=1,2,4 are known; no general resolution found.
+
+**Further links.** [1](https://libra.unine.ch/entities/publication/d1ddd1e7-d448-477c-bd35-1e4350178970) · [2](https://hauberjq.github.io/)
+
+
+<a id="q3888"></a>
+
+## Q3888. Orbifold type detected by virtual retractions
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Does IMG(f) have (LR) if and only if χ=0?
+
+**Context.** Origin: Thesis rational-map formulation; earlier Fariña-Asategui–Jon Merladet Urigüen, arXiv:2601.16869v1, Conjecture 2, prints C[x]. Setup: Let f∈C(x) have degree≥2 and finite postcritical set P_f. Write IMG(f) for the monodromy image of π₁(P¹∖P_f) on the iterated-preimage tree based outside P_f. Property (LR) means every finitely generated H≤G is a retract of some finite-index K≤G containing H. For the canonical Thurston orbifold, ν(z)=lcm{deg_w(fᵐ): m≥1, fᵐ(w)=z}, allowing ∞; χ=2−Σ\_{z∈P_f}(1−1/ν(z)), with 1/∞=0. Sources:
+
+**Source.** Jorge Fariña-Asategui. *Groups acting on rooted trees: Dimension, subgroups, randomness and dynamics*. Lund University and University of the Basque Country, 2026. Advisor(s): Anitha Thillaisundaram and Gustavo A. Fernández-Alcober. [primary source](https://lup.lub.lu.se/search/files/248603771/kappa-farina.pdf) Location: Thesis pp.35–36; orbifold definition: Bonk–Meyer (2020), §2.5, p.502.
+
+**Literature check.** Status: Checked 10 October 2026: quadratic polynomials are settled; no general resolution found.
+
+**Further links.** [1](https://arxiv.org/abs/2601.16869v1) · [2](https://doi.org/10.1007/s40598-020-00156-6)
+
+
+<a id="q3890"></a>
+
+## Q3890. Finite extensions of hyperbolic LR groups
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.6) · **Collection** 39
+
+If G is word-hyperbolic and has (LR), must every group E containing G with [E:G]<∞ also have (LR)?
+
+**Context.** Origin: Paper-origin: Property (LR) and an embedding theorem for virtually free groups, arXiv:2603.17596v2, 20 March 2026. Setup: A group G has (LR) when every finitely generated H≤G is a retract of some finite-index K≤G containing H. A limit group means a finitely generated fully residually free group: each finite subset of nonidentity elements survives under some homomorphism to a free group. Sources:
+
+**Source.** Ashot Minasyan. *Property (LR) and an embedding theorem for virtually free groups*. 2026. [primary source](https://arxiv.org/abs/2603.17596v2) Location: Conjecture 1.6, p.4.
+
+**Literature check.** Status: Checked 10 October 2026: virtually free groups are settled; neither general extension conjecture was resolved in the later-work search.
+
+**Further links.** [1](https://www.personal.soton.ac.uk/am4x07/rs/pdfthesis.pdf) · [2](https://www.personal.soton.ac.uk/am4x07/rs/publ.htm)
+
+
+<a id="q3891"></a>
+
+## Q3891. Finite extensions of limit groups
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.7) · **Collection** 39
+
+Must every group E containing a limit group L with [E:L]<∞ have (LR)?
+
+**Context.** Origin: Paper-origin: Property (LR) and an embedding theorem for virtually free groups, arXiv:2603.17596v2, 20 March 2026. Setup: A group G has (LR) when every finitely generated H≤G is a retract of some finite-index K≤G containing H. A limit group means a finitely generated fully residually free group: each finite subset of nonidentity elements survives under some homomorphism to a free group. Sources:
+
+**Source.** Ashot Minasyan. *Property (LR) and an embedding theorem for virtually free groups*. 2026. [primary source](https://arxiv.org/abs/2603.17596v2) Location: Conjecture 1.7, p.4.
+
+**Literature check.** Status: Checked 10 October 2026: virtually free groups are settled; neither general extension conjecture was resolved in the later-work search.
+
+**Further links.** [1](https://www.personal.soton.ac.uk/am4x07/rs/pdfthesis.pdf) · [2](https://www.personal.soton.ac.uk/am4x07/rs/publ.htm)
+
+
+<a id="q3933"></a>
+
+## Q3933. If K(G,P) has finite dimension, must G have only finitely many simplex orbits, equivalently act…
+
+**Status:** Open · **Kind:** open problem (Question 5.23) · **Collection** 40
+
+If K(G,P) has finite dimension, must G have only finitely many simplex orbits, equivalently act cocompactly?
+
+**Context.** Let G be a finitely generated group and P a finite collection of infinite subgroups. The simplicial complex K(G,P) has vertices the left cosets gH, H∈P. Distinct vertices g_0H_0,…,g_rH_r span a simplex exactly when ⋂\_{i=0}^r g_iH_ig_i^{-1} is infinite. G acts by left multiplication.
+
+**Source.** Carolyn Abbott and Eduardo Martínez-Pedroza. *The quasi-isometry invariance of the coset intersection complex*. 2026. [primary source](https://doi.org/10.2140/agt.2026.26.659) Location: Question 5.23, p.686; Definition 4.1.
+
+**Literature check.** Status: Paper-origin question. The hypotheses and conclusions in arXiv:2503.08411v2 and arXiv:2603.29158v2 do not settle this general finite-height question. No matching resolution found in the documented 10 October 2026 search.
+
+**Further links.** [1](https://arxiv.org/abs/2503.08411v2) · [2](https://arxiv.org/abs/2603.29158v2)
+
+
+<a id="q3947"></a>
+
+## Q3947. If ρ has costable norm one, must it have a continuous, weakly closed representative of supremum…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+If ρ has costable norm one, must it have a continuous, weakly closed representative of supremum comass one?
+
+**Context.** Let M be a closed oriented Riemannian manifold of dimension 3≤d≤7. The comass of a (d−1)-form at a point is the supremum of its absolute value on unit simple (d−1)-vectors. For ρ∈H^{d−1}(M;R), define its costable norm as the infimum of the essential-supremum comass over weakly closed measurable forms representing ρ.
+
+**Source.** Aidan Backus. *The canonical lamination calibrated by a cohomology class*. 2026. [primary source](https://doi.org/10.2140/gt.2026.30.1575) Location: final §3.3, p.1589; Theorem2.6, p.1582.
+
+**Literature check.** Status: Backus’s 2025 Brown mathematics PhD was advised by Georgios Daskalopoulos; its title is Calibration of laminations as the limit of convex duality for the p-Laplacian. This is a paper/author-list question, not an asserted new thesis-origin problem. Liu’s and Zhang’s obstruction results do not cover this dimensional and codimensional scope. No matching later resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2512.04789v3)
+
+
+<a id="q3948"></a>
+
+## Q3948. For infinite WΓ, must some subgroup of finite index in Aut(WΓ) have an infinite Coxeter group as…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.2) · **Collection** 40
+
+For infinite WΓ, must some subgroup of finite index in Aut(WΓ) have an infinite Coxeter group as a quotient?
+
+**Context.** Let Γ be a finite simplicial graph, with each edge e labelled by an integer m(e)≥2. Its Coxeter group WΓ has one involutory generator per vertex and relations (vw)^{m({v,w})}=1 for adjacent vertices; nonadjacent vertices impose no such relation.
+
+**Source.** Olga Varghese. *Coxeter quotients of the automorphism group of a Coxeter group*. 2026. [primary source](https://doi.org/10.2140/agt.2026.26.2353) Location: final Conjecture 1.2, p.2353; Definition 2.1, p.2355.
+
+**Literature check.** Status: This is a paper-reported question, not a dissertation-origin attribution. The final proves special cases, including even Coxeter groups and groups with finite outer automorphism group. The weaker property-(T) conjecture is not separately selected. No matching later resolution found, 10 October 2026.
+
+
+<a id="q3955"></a>
+
+## Q3955. If C_{α,β} is a nonzero constant on all nonzero holomorphic tangent vectors, must g be Kähler?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.3) · **Collection** 40
+
+If C_{α,β} is a nonzero constant on all nonzero holomorphic tangent vectors, must g be Kähler?
+
+**Context.** Let (M,g) be a compact Hermitian manifold of complex dimension n≥3. Let R be its Chern curvature tensor and Ric^(1) its first Chern Ricci tensor. For nonzero X∈T^{1,0}M, set H(X)=R(X,X̄,X,X̄)/|X|⁴ and C_{α,β}(X)=α Ric^(1)(X,X̄)/|X|²+βH(X), where α,β are fixed real numbers and β≠0.
+
+**Source.** Kai Tang. *On mixed curvature for Hermitian manifolds*. 2026. [primary source](https://doi.org/10.2140/pjm.2026.344.201) Location: final Conjecture 1.3, p.203.
+
+**Literature check.** Status: This paper-origin question excludes the solved surface case. Tang–Wang, arXiv:2609.05852v1, Conjecture 1.2 and Theorem 1.4, reaffirms the general question and resolves the locally conformally Kähler subclass; it does not settle arbitrary compact Hermitian manifolds. No matching later resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2609.05852v1)
+
+
+<a id="q3956"></a>
+
+## Q3956. Does every pants graph of a finite-type surface admit exactly one coarse median structure?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does every pants graph of a finite-type surface admit exactly one coarse median structure?
+
+**Context.** A coarse median on (X,d) is a symmetric map μ:X³→X with μ(x,x,y)=x and, for some C≥1, d(μ(μ(x,p,y),p,z),μ(x,p,μ(y,p,z)))≤C and d(μ(x,y,z),μ(p,y,z))≤C d(x,p)+C for all x,y,z,p. Two such maps define the same structure when their pointwise distances are uniformly bounded. Vertices are isotopy classes of pants decompositions; an edge replaces one curve within a one-holed torus or four-holed sphere by a curve intersecting it minimally, once or twice respectively. Edges have length one.
+
+**Source.** Elia Fioravanti and Alessandro Sisto. *On uniqueness of coarse median structures*. 2026. [primary source](https://doi.org/10.2140/agt.2026.26.2689) Location: final Question and Problem, p.2690; definitions §2.2.
+
+**Literature check.** Status: These are paper-origin questions. Uniqueness from cocompact cubulations alone is weaker. No matching later resolution found, 10 October 2026.
+
+
+<a id="q3957"></a>
+
+## Q3957. Which finite simplicial graphs Γ give a right-angled Artin group AΓ with exactly one coarse…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Which finite simplicial graphs Γ give a right-angled Artin group AΓ with exactly one coarse median structure for a word metric? Here AΓ has vertex generators, with commutation relations precisely along edges.
+
+**Context.** A coarse median on (X,d) is a symmetric map μ:X³→X with μ(x,x,y)=x and, for some C≥1, d(μ(μ(x,p,y),p,z),μ(x,p,μ(y,p,z)))≤C and d(μ(x,y,z),μ(p,y,z))≤C d(x,p)+C for all x,y,z,p. Two such maps define the same structure when their pointwise distances are uniformly bounded. Vertices are isotopy classes of pants decompositions; an edge replaces one curve within a one-holed torus or four-holed sphere by a curve intersecting it minimally, once or twice respectively. Edges have length one.
+
+**Source.** Elia Fioravanti and Alessandro Sisto. *On uniqueness of coarse median structures*. 2026. [primary source](https://doi.org/10.2140/agt.2026.26.2689) Location: final Question and Problem, p.2690; definitions §2.2.
+
+**Literature check.** Status: These are paper-origin questions. Uniqueness from cocompact cubulations alone is weaker. No matching later resolution found, 10 October 2026.
+
+
+<a id="q3965"></a>
+
+## Q3965. Let closed Riemannian n-manifolds M_i converge in Gromov–Hausdorff distance to a compact metric…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 0.7) · **Collection** 40
+
+Let closed Riemannian n-manifolds M_i converge in Gromov–Hausdorff distance to a compact metric space X with 0&lt;diam(X)<∞. Suppose vol(M_i)→0, sec(M_i)≥−1, and every M_i is aspherical with π₁(M_i) of type As. Must X be a topological aspherical manifold without boundary?
+
+**Context.** A manifold is aspherical if its universal cover is contractible. A finitely generated group Γ has type As if, for every normal virtually nilpotent subgroup Λ◁Γ and every finite subgroup F≤Γ/Λ, the normalizer of F has finite index in Γ/Λ. Virtually nilpotent means having a nilpotent subgroup of finite index.
+
+**Source.** Xiaochun Rong. *Gromov–Hausdorff limits of aspherical manifolds*. 2026. [primary source](https://doi.org/10.2140/gt.2026.30.2685) Location: final Conjecture 0.7, sectional-curvature branch, p.2688; Definition 0.4, p.2686.
+
+**Literature check.** Status: This is the paper’s topological branch, not a smoothness assertion. The final proves the nilmanifold subclass and the two-sided-curvature case. No matching general resolution found, 10 October 2026.
+
+
+<a id="q4051"></a>
+
+## Q4051. Does there exist a smooth closed orientable real-hyperbolic n-manifold M, for some integer n≥2,…
+
+**Status:** Open · **Kind:** open problem (Question 1.22) · **Collection** 41
+
+Does there exist a smooth closed orientable real-hyperbolic n-manifold M, for some integer n≥2, which is not diffeomorphic to the boundary of any compact smooth (n+1)-manifold? Here real-hyperbolic means sectional curvature constantly−1; the bounding manifold need not be orientable. Thus non-cobordant means nonzero in unoriented bordism, not merely failure to bound geometrically.
+
+**Source.** Jacopo Guoyi Chen. *Hyperbolic manifolds in high dimensions*. Scuola Normale Superiore, 2025. Advisor(s): Bruno Martelli; internal supervisor Andrea Malchiodi. [primary source](https://tesidottorato.depositolegale.it/handle/20.500.14242/353809) Location: Thesis Question 1.22, p.18, restates Chen’s Non-cobordant hyperbolic manifolds, arXiv:2501.11610v1, Question 1.4, p.3.
+
+**Literature check.** Status checked 10 October 2026: no resolution found. Later profinite-invariance results do not construct such an orientable representative.
+
+**Further links.** [1](https://arxiv.org/abs/2501.11610)
+
+
+<a id="q4052"></a>
+
+## Q4052. If Γ is finitely generated and H≤Γ is noncyclic, of finite index, with girth(H)=∞, must girth(Γ)=∞?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If Γ is finitely generated and H≤Γ is noncyclic, of finite index, with girth(H)=∞, must girth(Γ)=∞?
+
+**Context.** For a finitely generated group G, let girth(G) be the supremum, over finite generating sets S, of the shortest nonempty freely reduced word in the formal letters S^{±1} representing 1; the minimum is ∞ if no relation exists.
+
+**Source.** Tattwamasi Amrutam, Arka Banerjee, Daniel L. Gulbrandsen and Pratyush Mishra. *Boundary Dynamics, Cubical Actions, and Infinite Girth*. 2026. [primary source](https://arxiv.org/abs/2608.31124) Location: Current formulation: Tattwamasi Amrutam, Arka Banerjee, Daniel L. Gulbrandsen and Pratyush Mishra, Boundary Dynamics, Cubical Actions, and Infinite Girth, arXiv:2608.31124v1, §5 and Remark 5.6, pp.19–21.
+
+**Literature check.** Status checked 10 October 2026: no general resolution found. The later paper proves the finite-index assertion for subgroups surjecting onto non-virtually-solvable linear groups, and a finite-girth obstruction for extensions of law-satisfying groups.
+
+**Notes.** This refines the older finite-index question by explicitly excluding the cyclic counterexample.
+
+**Further links.** [1](https://doi.org/10.1007/s10711-026-01096-9)
+
+
+<a id="q4053"></a>
+
+## Q4053. For every noncyclic finitely generated G and φ∈Aut(G), is girth(G)=∞ equivalent to girth(⟨G,t |…
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 41
+
+For every noncyclic finitely generated G and φ∈Aut(G), is girth(G)=∞ equivalent to girth(⟨G,t | t⁻¹gt=φ(g), g∈G⟩)=∞?
+
+**Context.** For a finitely generated group G, let girth(G) be the supremum, over finite generating sets S, of the shortest nonempty freely reduced word in the formal letters S^{±1} representing 1; the minimum is ∞ if no relation exists.
+
+**Source.** Tattwamasi Amrutam, Arka Banerjee, Daniel L. Gulbrandsen and Pratyush Mishra. *Boundary Dynamics, Cubical Actions, and Infinite Girth*. 2026. [primary source](https://arxiv.org/abs/2608.31124) Location: Origin: Azer Akhmedov and Pratyush Mishra, Girth alternative for HNN extensions, Geometriae Dedicata 220 (2026), Question 2, p.14.
+
+**Literature check.** Status checked 10 October 2026: no general resolution found. The later paper proves the finite-index assertion for subgroups surjecting onto non-virtually-solvable linear groups, and a finite-girth obstruction for extensions of law-satisfying groups.
+
+**Further links.** [1](https://doi.org/10.1007/s10711-026-01096-9)
+
+
+<a id="q4054"></a>
+
+## Q4054. Must every finitely generated group of intermediate growth have infinite girth? Intermediate…
+
+**Status:** Open · **Kind:** open problem (Question 6.4) · **Collection** 41
+
+Must every finitely generated group of intermediate growth have infinite girth? Intermediate means its word-ball growth is subexponential but not bounded above by any polynomial.
+
+**Source.** Pratyush Mishra. *Infinite girth and profinite properties of residually finite groups*. 2026. [primary source](https://arxiv.org/abs/2610.10925) Location: Question 6.4, p.22; related to Bartholdi–Erschler’s 2015 almost-identity question, but no equivalence is asserted.
+
+**Literature check.** Status checked 10 October 2026: no matching resolution found. Ordinary infinite girth of these triangle groups does not establish the two-generator bound.
+
+
+<a id="q4055"></a>
+
+## Q4055. If a finitely generated group has infinitely many pairwise nonisomorphic nonabelian finite…
+
+**Status:** Open · **Kind:** open problem (Question 1.1) · **Collection** 41
+
+If a finitely generated group has infinitely many pairwise nonisomorphic nonabelian finite simple quotient groups, must its girth be infinite?
+
+**Source.** Pratyush Mishra. *Infinite girth and profinite properties of residually finite groups*. 2026. [primary source](https://arxiv.org/abs/2610.10925) Location: Question 1.1=6.7, pp.2,23; attributed to László Pyber.
+
+**Literature check.** Status checked 10 October 2026: no matching resolution found. Ordinary infinite girth of these triangle groups does not establish the two-generator bound.
+
+
+<a id="q4056"></a>
+
+## Q4056. For all integers p,q,r≥2 with 1/p+1/q+1/r<1, does Δ(p,q,r)=⟨x,y | x^p=y^q=(xy)^r=1⟩ satisfy…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+For all integers p,q,r≥2 with 1/p+1/q+1/r<1, does Δ(p,q,r)=⟨x,y | x^p=y^q=(xy)^r=1⟩ satisfy girth₂(Δ(p,q,r))=∞?
+
+**Source.** Pratyush Mishra. *Infinite girth and profinite properties of residually finite groups*. 2026. [primary source](https://arxiv.org/abs/2610.10925) Location: Remark 4.9, p.10.
+
+**Literature check.** Status checked 10 October 2026: no matching resolution found. Ordinary infinite girth of these triangle groups does not establish the two-generator bound.
+
+
+<a id="q4057"></a>
+
+## Q4057. If G is hyperbolic with cd_Z(G)≤4 and H≤G is of type F, must H be hyperbolic?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If G is hyperbolic with cd_Z(G)≤4 and H≤G is of type F, must H be hyperbolic?
+
+**Source.** Giovanni Italiano. *Fibering Hyperbolic Manifolds and Hyperbolic Groups*. Scuola Normale Superiore, 2024. Advisor(s): Bruno Martelli; internal supervisor Andrea Malchiodi. [primary source](https://ricerca.sns.it/handle/11384/139204) Location: Questions 70–71, p.79.
+
+**Literature check.** Status checked 10 October 2026: no matching general resolution found. New algebraic-fibering constructions have kernels lacking type F and do not settle these questions.
+
+**Further links.** [1](https://arxiv.org/abs/2112.01331v3)
+
+
+<a id="q4058"></a>
+
+## Q4058. If G admits a finite classifying space of dimension≤3 and contains no subgroup isomorphic to…
+
+**Status:** Open · **Kind:** open problem (Question 1.1) · **Collection** 41
+
+If G admits a finite classifying space of dimension≤3 and contains no subgroup isomorphic to BS(m,n)=⟨a,t | t⁻¹a^m t=a^n⟩ for any nonzero integers m,n, must G be hyperbolic?
+
+**Source.** Giovanni Italiano. *Fibering Hyperbolic Manifolds and Hyperbolic Groups*. Scuola Normale Superiore, 2024. Advisor(s): Bruno Martelli; internal supervisor Andrea Malchiodi. [primary source](https://ricerca.sns.it/handle/11384/139204) Location: thesis Questions 70–71, p.79; restates Gardam–Kielak–Logan’s Question 1.1
+
+**Literature check.** Status checked 10 October 2026: no matching general resolution found. New algebraic-fibering constructions have kernels lacking type F and do not settle these questions.
+
+**Further links.** [1](https://arxiv.org/abs/2112.01331v3)
+
+
+<a id="q4059"></a>
+
+## Q4059. Does every complete finite-volume real-hyperbolic n-manifold, n≥2, have a finite-sheeted cover…
+
+**Status:** Open · **Kind:** open problem (Question 27) · **Collection** 41
+
+Does every complete finite-volume real-hyperbolic n-manifold, n≥2, have a finite-sheeted cover whose compact core admits a perfect circle-valued Morse function?
+
+**Context.** For a complete finite-volume real-hyperbolic manifold M, use its compact core M\* obtained by truncating cusps, or M\*=M when closed. A circle-valued Morse function is smooth f:M\*→S¹, has nondegenerate critical points, and has no critical points on its boundary restriction. It is perfect when it has exactly |χ(M\*)| critical points.
+
+**Source.** Ludovico Battista and Bruno Martelli. *Hyperbolic 4-manifolds with perfect circle-valued Morse functions*. 2022. [primary source](https://doi.org/10.1090/tran/8542) Location: Question 27; restated in Italiano–Migliorini, arXiv:2503.24128v1, Question 8.3, p.29.
+
+**Literature check.** Status checked 10 October 2026: no general resolution found. Known four-, five- and six-dimensional examples do not prove this universal assertion. Odd-dimensional virtual fibering and single-dimensional existence are not counted separately.
+
+**Further links.** [1](https://arxiv.org/abs/2503.24128)
+
+
+<a id="q4060"></a>
+
+## Q4060. Is inf_{M∈M(X)}V_R(M) attained by some member of M(X)? Topology varies while conformal infinity…
+
+**Status:** Open · **Kind:** open problem (Question 2.1.3) · **Collection** 41
+
+Is inf_{M∈M(X)}V_R(M) attained by some member of M(X)? Topology varies while conformal infinity X stays fixed.
+
+**Context.** Let X be a nonempty compact Riemann surface with components of genus≥2, and M(X) the complete oriented convex-cocompact hyperbolic 3-manifolds, possibly disconnected, with conformal infinity X. Convex-cocompact means compact convex core. Normalize V_R(M)=Vol(C_r)−½∫\_{∂C_r}H dA+πrχ(X), where C_r exhausts M by equidistant convex boundaries, H is half the outward shape-operator trace, and their induced metrics satisfy 4e^{-2r}g_r→h, the curvature−1 metric on X.
+
+**Source.** Viola Giovannini. *On the Renormalized Volume of Hyperbolic 3-Manifolds with Compressible Boundary*. University of Luxembourg and University of Pisa, 2025. [primary source](https://arxiv.org/abs/2405.07598v2) Location: Thesis Question 2.1.3, p.42; use the compact-boundary formulation of Cremaschi–Giovannini–Schlenker, Journal of Geometry and Physics 217 (2025), 105628, Question 1.3, already in their 2024 preprint.
+
+**Literature check.** Status checked 10 October 2026: no resolution found. Fixed-topology results allowing the conformal boundary to vary do not answer this question.
+
+**Further links.** [1](https://doi.org/10.1016/j.geomphys.2025.105628)
+
+
+<a id="q4061"></a>
+
+## Q4061. Let M be a complete finite-volume real-hyperbolic n-manifold, n≥4, and f:M→S¹ a homotopically…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 24) · **Collection** 41
+
+Let M be a complete finite-volume real-hyperbolic n-manifold, n≥4, and f:M→S¹ a homotopically nontrivial smooth map with finitely generated H=ker(f_\*:π₁M→Z). Must the covering M_H associated to H be infinitesimally rigid? Precisely, for its holonomy ρ:H→Isom(ℍⁿ), must H¹(H,𝔤\_{Adρ})=0, where 𝔤 is the Lie algebra of Isom(ℍⁿ) and h∈H acts by Ad(ρ(h))? This quotient of infinitesimal representation deformations by infinitesimal conjugations is the source’s rigidity notion.
+
+**Source.** Ludovico Battista. *Infinitesimal rigidity for cubulated manifolds*. 2023. [primary source](https://doi.org/10.1007/s10711-022-00765-9) Location: Conjecture 24, p.29; paper-origin.
+
+**Literature check.** Status checked 10 October 2026: no general resolution found. The paper proves particular four- and five-dimensional examples, not the universal conjecture.
+
+
+<a id="q4066"></a>
+
+## Q4066. If G and H are quasi-isometric, must they be isomorphic as Lie groups?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 19.113) · **Collection** 41
+
+If G and H are quasi-isometric, must they be isomorphic as Lie groups?
+
+**Context.** Let G,H be connected simply-connected solvable real Lie groups such that every adjoint operator ad(X) on either Lie algebra has real eigenvalues. Equip them with left-invariant Riemannian metrics. A quasi-isometry is a map f:G→H with coarsely dense image and constants A≥1,B≥0 satisfying A⁻¹d(x,y)−B≤d(fx,fy)≤Ad(x,y)+B.
+
+**Source.** Yves Cornulier. *On the quasi-isometric classification of locally compact groups*. [primary source](https://www.normalesup.org/~cornulier/qihlc.pdf) Location: Yves Cornulier’s Conjecture 19.113, On the quasi-isometric classification of locally compact groups, §19.6.6,p.45 of author version, restated as Tom Ferragut’s Conjecture 0.1, AGT 26 (2026),p.865.
+
+**Literature check.** Status checked 10 October 2026: no general resolution found. Known classifications of special families, and recognition of virtually polycyclic groups, do not classify all these Lie groups.
+
+**Further links.** [1](https://doi.org/10.2140/agt.2026.26.863)
+
+
+<a id="q4090"></a>
+
+## Q4090. For every integer d≥3 and every compact convex K⊂Rᵈ with nonempty interior, does int(K) admit a…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+For every integer d≥3 and every compact convex K⊂Rᵈ with nonempty interior, does int(K) admit a recursive (d−1)-skeleton?
+
+**Context.** A recursive Λ-cell in R is a bounded open interval. In Rᵏ, k≥2, it has form {x:πₑx∈C₋, β(πₑx)&lt;xₑ<τ(πₑx)}, where πₑ deletes one coordinate, C₋ is a recursive Λ-cell in Rᵏ⁻¹, and β,τ:Rᵏ⁻¹→R are globally Λ-Lipschitz for the norm ||y||∞=maxᵢ|yᵢ|, with β<τ on C₋. A recursive Λ-skeleton is a finite family of pairwise disjoint such cells whose union differs from the specified set by a Lebesgue-null set. Only coordinate choices and permutations are allowed, with no rotations.
+
+**Source.** Ahmadreza Azimifard. *Plunge bounds for Fourier concentration operators: geometry, smoothing, and wave packets*. 2026. [primary source](https://arxiv.org/abs/2610.09406v1) Location: Open Questions 19.21, p.50.
+
+**Literature check.** Status: Paper-origin. The source reports this bound for balls and standard simplices, but not arbitrary convex bodies. Mere existence with some finite slope, the polytope-only case, and separate dimensional subcases are not counted. No matching resolution found, 10 October 2026.
+
+
+<a id="q4096"></a>
+
+## Q4096. For every pair of integers n≥5 and 3≤j≤n−2, if every sum of n−j eigenvalues of D²ζ(u) is…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+For every pair of integers n≥5 and 3≤j≤n−2, if every sum of n−j eigenvalues of D²ζ(u) is nonnegative for every u∈Sⁿ⁻¹, must Fζ((1−t)K+tL)≥Fζ(K)^(1−t)Fζ(L)^t hold for all convex bodies K,L and 0&lt;t<1?
+
+**Context.** A convex body is any nonempty compact convex subset of Rⁿ. Its support function is h_K(u)=supₓ∈K x·u. The mixed volume V(K₁,…,Kₙ) is the coefficient of t₁⋯tₙ in volₙ(ΣtᵢKᵢ), divided by n!. Brackets indicate repeated arguments; B is the unit ball. For ζ∈C²(Sⁿ⁻¹), choose convex bodies A,C with ζ=h_A−h_C and set Fζ(K)=V(K[j],A,B[n−j−1])−V(K[j],C,B[n−j−1]); this is independent of the choice. Let D²ζ(u) be the Hessian of x↦|x|ζ(x/|x|), restricted to u⊥.
+
+**Source.** Leo Brauner and Oscar Ortega-Moreno. *Hyperbolicity Beyond Convexity in the Alexandrov–Fenchel Inequality*. 2026. [primary source](https://arxiv.org/abs/2610.08746v1) Location: after Theorem C, p. 4.
+
+**Literature check.** Status: Paper-origin residual. The hypothesis ensures Fζ≥0; it does not require ζ≥0. Earlier Colesanti–Hug–Saorín-Gómez work gives necessary conditions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4135"></a>
+
+## Q4135. Does λ₁^α(Ω)≤λ₁^α(B) hold for every α<0 whenever Ω is convex with d≥2, or simply connected with…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does λ₁^α(Ω)≤λ₁^α(B) hold for every α<0 whenever Ω is convex with d≥2, or simply connected with d=2, and B is a ball with |B|=|Ω|?
+
+**Context.** For a bounded Lipschitz domain Ω⊂Rᵈ and α<0, define its first Robin eigenvalue by λ₁^α(Ω)=inf₀≠u∈H¹(Ω) (∫Ω|∇u|² dx+α∫∂Ω|u|² dS)/(∫Ω|u|² dx), using the boundary trace and surface measure dS. A domain is open, nonempty and connected.
+
+**Source.** David Krejčiřík. *Spectral geometry: old questions and new answers*. 2026. [primary source](https://arxiv.org/abs/2609.28602v1) Location: Open Problems 3–4, pp. 64–65.
+
+**Literature check.** Status: These are survey-recorded residual problems, not thesis-origin claims. The first restricts Bareket’s false unrestricted-volume conjecture to the stated classes. The second removes convexity from the known fixed-surface-area comparison. The 2026 small-coupling result does not cover all α<0; the newer torsional-rigidity final concerns a different functional. No matching resolution found, 10 October 2026.
+
+
+<a id="q4136"></a>
+
+## Q4136. Does λ₁^α(Ω)≤λ₁^α(B) hold for every α<0 and every bounded Lipschitz domain Ω⊂R³, where B has…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does λ₁^α(Ω)≤λ₁^α(B) hold for every α<0 and every bounded Lipschitz domain Ω⊂R³, where B has |∂B|=|∂Ω|?
+
+**Context.** For a bounded Lipschitz domain Ω⊂Rᵈ and α<0, define its first Robin eigenvalue by λ₁^α(Ω)=inf₀≠u∈H¹(Ω) (∫Ω|∇u|² dx+α∫∂Ω|u|² dS)/(∫Ω|u|² dx), using the boundary trace and surface measure dS. A domain is open, nonempty and connected.
+
+**Source.** David Krejčiřík. *Spectral geometry: old questions and new answers*. 2026. [primary source](https://arxiv.org/abs/2609.28602v1) Location: Open Problems 3–4, pp. 64–65.
+
+**Literature check.** Status: These are survey-recorded residual problems, not thesis-origin claims. The first restricts Bareket’s false unrestricted-volume conjecture to the stated classes. The second removes convexity from the known fixed-surface-area comparison. The 2026 small-coupling result does not cover all α<0; the newer torsional-rigidity final concerns a different functional. No matching resolution found, 10 October 2026.
+
+
+<a id="q4172"></a>
+
+## Q4172. For every non-Archimedean local skew field K of characteristic zero and torsion-free lattice…
+
+**Status:** Open · **Kind:** open problem (Question 6.2) · **Collection** 42
+
+For every non-Archimedean local skew field K of characteristic zero and torsion-free lattice Γ≤SL_3(K), is every unlabelled Cayley graph X of Γ for a finite symmetric generating set locally-to-globally rigid: does some R>0 ensure that X covers every connected graph whose rooted radius-R balls are isometric to those of X?
+
+**Source.** Amandine Escalier. *Local-to-Global-rigidity of lattices in SL_n(K)*. 2022. [primary source](https://aif.centre-mersenne.org/item/10.5802/aif.3490.pdf) Location: Question 6.2, p. 1769; current arXiv:2008.07250v3.
+
+**Literature check.** Status checked 10 October 2026: The final article and updated preprint retain the rank-three question; no later resolution was found.
+
+**Further links.** [1](https://www.imj-prg.fr/theses/pdf/amandine_escalier.pdf)
+
+
+<a id="q4178"></a>
+
+## Q4178. If a hyperbolic group G regularly embeds into a hyperbolic group H, must Confdim(∂∞G)≤Confdim(∂∞H)?
+
+**Status:** Open · **Kind:** open problem (Question 1.5) · **Collection** 42
+
+If a hyperbolic group G regularly embeds into a hyperbolic group H, must Confdim(∂∞G)≤Confdim(∂∞H)?
+
+**Context.** A regular embedding between finitely generated groups is a map between their Cayley-graph vertex sets that is C-Lipschitz and has every fiber of size at most C, for some C. Confdim denotes Ahlfors-regular conformal dimension: the infimum of Hausdorff dimensions of Ahlfors-regular metric spaces quasisymmetrically equivalent to the boundary with a visual metric.
+
+**Source.** David Hume and John M. Mackay. *Connecting conformal dimension and Poincaré profiles*. 2025. [primary source](https://arxiv.org/abs/2511.10469v1) Location: Question 1.5, p. 4; definitions pp. 2–3.
+
+**Literature check.** Status checked 10 October 2026: Current arXiv and author listings retain a preprint. The paper proves several special cases; no general resolution was found.
+
+
+<a id="q4181"></a>
+
+## Q4181. For each marked conformal structure c on S, is there a unique pair (E,Σ), up to marked isometry,…
+
+**Status:** Open · **Kind:** open problem (Question 1.10) · **Collection** 42
+
+For each marked conformal structure c on S, is there a unique pair (E,Σ), up to marked isometry, where E is a hyperbolic end with conformal infinity c and Σ is a convex ideal polyhedral surface of combinatorics Γ and exterior dihedral angles θ?
+
+**Context.** Let S be a closed oriented surface of genus at least two, Γ the embedded 1-skeleton of a cell decomposition, and θ:E(Γ)→(0,π). Assume the incident θ-values sum to 2π at each vertex, and their sum exceeds 2π along every null-homotopic non-backtracking closed edge path in the dual graph Γ\* that does not bound a face. Dual edges inherit their corresponding primal-edge weights. A hyperbolic end is diffeomorphic to S×(0,∞), complete toward infinity, with metric completion adding a concave pleated boundary.
+
+**Source.** Jean-Marc Schlenker. *Equivariant isometric immersions of surfaces in hyperbolic space*. 2026. [primary source](https://arxiv.org/abs/2609.32300v1) Location: Question 1.10, p. 5; §1.3.
+
+**Literature check.** Status checked 10 October 2026: This remains a question in the current paper; no later resolution was found.
+
+
+<a id="q4183"></a>
+
+## Q4183. Does 2V have property (T)?
+
+**Status:** Open · **Kind:** open problem (Question 1.3) · **Collection** 42
+
+Does 2V have property (T)?
+
+**Context.** Let C={0,1}^N. The group 2V consists of homeomorphisms of C² given by finite coordinatewise prefix replacements between partitions into product cylinders. Kazhdan's property (T) means that every unitary representation with almost invariant unit vectors has a nonzero invariant vector.
+
+**Source.** Roman Sauer and Eduard Schesler. *Higher Brin–Thompson groups are Kazhdan*. 2026. [primary source](https://arxiv.org/abs/2610.09524v1) Location: Question 1.3, p. 3; definitions pp. 2, 14–15.
+
+**Literature check.** Status checked 10 October 2026: The current paper proves property (T) for nV only for sufficiently large n and explicitly leaves 2V open. No later resolution was found.
+
+
+<a id="q4184"></a>
+
+## Q4184. For every ε>0, does M₂ contain a nonempty open subset U such that every degree-two cover of…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For every ε>0, does M₂ contain a nonempty open subset U such that every degree-two cover of every X∈U has a new eigenvalue in (0,ε)? Covers here may be disconnected, as in the source's convention.
+
+**Context.** Surfaces are complete, connected, orientable and hyperbolic, with finite area. For a degree-two cover Y→X, its new spectrum is the Laplacian spectrum on L²-functions odd under the deck involution; λ₁ⁿᵉʷ(Y) is its infimum. Write λ₁(X) for the first nonzero spectral value, not necessarily an eigenvalue. M₂ denotes the moduli space of closed genus-two surfaces, with its Fenchel–Nielsen topology.
+
+**Source.** Lawford Hatcher and Bram Petri. *Spectral gaps of double covers of hyperbolic surfaces*. 2026. [primary source](https://arxiv.org/abs/2610.07193v1) Location: Questions 1.5(c) and 1.6, p. 3; definitions pp. 2, 7.
+
+**Literature check.** Status checked 10 October 2026: The paper leaves both questions open after disproving the unrestricted 1/4 bound. No later resolution was found.
+
+
+<a id="q4185"></a>
+
+## Q4185. Does every complete connected orientable finite-area hyperbolic surface X admit a degree-two…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does every complete connected orientable finite-area hyperbolic surface X admit a degree-two cover Y→X satisfying λ₁ⁿᵉʷ(Y)≥min{λ₁(X),1/4}?
+
+**Context.** Surfaces are complete, connected, orientable and hyperbolic, with finite area. For a degree-two cover Y→X, its new spectrum is the Laplacian spectrum on L²-functions odd under the deck involution; λ₁ⁿᵉʷ(Y) is its infimum. Write λ₁(X) for the first nonzero spectral value, not necessarily an eigenvalue. M₂ denotes the moduli space of closed genus-two surfaces, with its Fenchel–Nielsen topology.
+
+**Source.** Lawford Hatcher and Bram Petri. *Spectral gaps of double covers of hyperbolic surfaces*. 2026. [primary source](https://arxiv.org/abs/2610.07193v1) Location: Questions 1.5(c) and 1.6, p. 3; definitions pp. 2, 7.
+
+**Literature check.** Status checked 10 October 2026: The paper leaves both questions open after disproving the unrestricted 1/4 bound. No later resolution was found.
 

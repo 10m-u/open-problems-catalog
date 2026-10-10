@@ -1,6 +1,6 @@
 # Analysis
 
-103 problems: 100 open, 3 open, partial results.
+115 problems: 112 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -109,6 +109,18 @@
 | [Q3742](analysis.md#q3742) | For every K>0, do d≥1 and an origin-symmetric, coordinate-permutation-invariant convex body… | Open |
 | [Q3745](analysis.md#q3745) | Must there exist 0≠φ∈H with x↦⟨U_xφ,φ⟩ in L¹(Ξ)? | Open |
 | [Q3746](analysis.md#q3746) | If A is trace-class and F_UA has compact support, must F_σ(F_UA)∈L¹(Ξ)? | Open |
+| [Q3875](analysis.md#q3875) | Is m(x)≥0 for every x>0? | Open |
+| [Q3968](analysis.md#q3968) | Is Q_λ discrete exactly when λ is strong PV? | Open |
+| [Q3969](analysis.md#q3969) | Is Q_λ relatively dense in R for every λ∈R\\[0,1]? | Open |
+| [Q3970](analysis.md#q3970) | Is Q_λ relatively dense in C for every λ∈C\R? | Open |
+| [Q3971](analysis.md#q3971) | Does there exist discrete Q_λ which is not a proper subset of any discrete Q_μ, μ∈C? | Open |
+| [Q4083](analysis.md#q4083) | Determine the exact value of λ₉=infᵤ E(u)/H(u). | Open |
+| [Q4086](analysis.md#q4086) | If inf_{x∈X,0&lt;r<3diamX} μ(B(x,r))/r^Q=0, must there exist a real f∈Lᵖ(X,μ) with sup_{x∈X,r>0}… | Open |
+| [Q4087](analysis.md#q4087) | Must xₙ=an+b for some a>0 and b∈R? | Open |
+| [Q4098](analysis.md#q4098) | Does a constant Cχ exist such that a·m({\|F(L)f\|>a})≤Cχ S₂(F)\|\|f\|\|₁ for every a>0,… | Open |
+| [Q4099](analysis.md#q4099) | If 1&lt;p<∞ and w∈Lᵖ\_loc(μ) is positive μ-almost everywhere and satisfies ⟨wᵖ⟩Δ^(1/p)≤C⟨w⟩Δ for… | Open |
+| [Q4100](analysis.md#q4100) | Determine Cₙ exactly for every n∈{5,6,…}∪{∞}. | Open |
+| [Q4110](analysis.md#q4110) | For every c∈(0,1), does D_(A_c),c have exactly one zero t_c∈(0,∞), with D″\_(A_c),c(t_c)>0? | Open |
 
 <a id="q283"></a>
 
@@ -1864,4 +1876,188 @@ If A is trace-class and F_UA has compact support, must F_σ(F_UA)∈L¹(Ξ)?
 **Literature check.** Status checked October 9, 2026: no later exact resolution located.
 
 **Further links.** [1](https://research.uni-hannover.de/de/publications/toeplitz-operators-and-generated-algebras-on-non-hilbertian-space/)
+
+
+<a id="q3875"></a>
+
+## Q3875. Is m(x)≥0 for every x>0?
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Is m(x)≥0 for every x>0?
+
+**Context.** Doctoral context: Barbara Roos, Boundary Superconductivity in BCS Theory, ISTA, September 2023; supervisor Robert Seiringer. Thesis §5.5, pp.116–117, restates the Roos–Seiringer paper’s question. For x>0 define m(x)=4/(πx)∫₁^∞[sin²(xk)/k]arccoth(k)dk−2sin²x/(πx)−2sin²x/x²+4sin x[sin x Si(2x)−cos x Cin(2x)]/(πx²), where arccoth(k)=½log((k+1)/(k−1)), Si(y)=∫₀ʸ(sin t)/t dt, and Cin(y)=∫₀ʸ(1−cos t)/t dt. The improper integral converges; m extends continuously to m(0)=0.
+
+**Source.** Barbara Roos and Robert Seiringer. *BCS Critical Temperature on Half-Spaces*. 2025. [primary source](https://doi.org/10.1007/s00205-025-02088-x) Location: Roos–Seiringer, BCS Critical Temperature on Half-Spaces, Archive for Rational Mechanics and Analysis 249, article 20 (2025), Lemma 5.1 and following paragraph, p.40.
+
+**Literature check.** Status checked 10 October 2026: the published version retains the conjectured nonnegativity; no matching resolution or erratum located.
+
+**Further links.** [1](https://research-explorer.ista.ac.at/record/14374)
+
+
+<a id="q3968"></a>
+
+## Q3968. Is Q_λ discrete exactly when λ is strong PV?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is Q_λ discrete exactly when λ is strong PV?
+
+**Context.** For λ∈C let Q_λ be the smallest set containing 0,1 and closed under (a,b)↦(1−λ)a+λb. An algebraic integer λ is strong PV when every Galois conjugate other than λ and its complex conjugate belongs to (0,1). Relative density in R or C means every ambient point is within one fixed finite distance of the set.
+
+**Source.** Stephen Fenner, Frederic Green and Steven Homer. *Fixed-Parameter Extrapolation and Aperiodic Order*. 2026. [primary source](https://doi.org/10.1007/s00454-025-00816-4) Location: Conjecture11.1.
+
+**Literature check.** Status: These are paper-origin questions, restated in the 2026 final rather than newly attributed to a dissertation. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3969"></a>
+
+## Q3969. Is Q_λ relatively dense in R for every λ∈R\\[0,1]?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is Q_λ relatively dense in R for every λ∈R\\[0,1]?
+
+**Context.** For λ∈C let Q_λ be the smallest set containing 0,1 and closed under (a,b)↦(1−λ)a+λb. An algebraic integer λ is strong PV when every Galois conjugate other than λ and its complex conjugate belongs to (0,1). Relative density in R or C means every ambient point is within one fixed finite distance of the set.
+
+**Source.** Stephen Fenner, Frederic Green and Steven Homer. *Fixed-Parameter Extrapolation and Aperiodic Order*. 2026. [primary source](https://doi.org/10.1007/s00454-025-00816-4) Location: Question11.3, real case.
+
+**Literature check.** Status: These are paper-origin questions, restated in the 2026 final rather than newly attributed to a dissertation. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3970"></a>
+
+## Q3970. Is Q_λ relatively dense in C for every λ∈C\R?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is Q_λ relatively dense in C for every λ∈C\R?
+
+**Context.** For λ∈C let Q_λ be the smallest set containing 0,1 and closed under (a,b)↦(1−λ)a+λb. An algebraic integer λ is strong PV when every Galois conjugate other than λ and its complex conjugate belongs to (0,1). Relative density in R or C means every ambient point is within one fixed finite distance of the set.
+
+**Source.** Stephen Fenner, Frederic Green and Steven Homer. *Fixed-Parameter Extrapolation and Aperiodic Order*. 2026. [primary source](https://doi.org/10.1007/s00454-025-00816-4) Location: Question11.3, complex case.
+
+**Literature check.** Status: These are paper-origin questions, restated in the 2026 final rather than newly attributed to a dissertation. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3971"></a>
+
+## Q3971. Does there exist discrete Q_λ which is not a proper subset of any discrete Q_μ, μ∈C?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does there exist discrete Q_λ which is not a proper subset of any discrete Q_μ, μ∈C?
+
+**Context.** For λ∈C let Q_λ be the smallest set containing 0,1 and closed under (a,b)↦(1−λ)a+λb. An algebraic integer λ is strong PV when every Galois conjugate other than λ and its complex conjugate belongs to (0,1). Relative density in R or C means every ambient point is within one fixed finite distance of the set.
+
+**Source.** Stephen Fenner, Frederic Green and Steven Homer. *Fixed-Parameter Extrapolation and Aperiodic Order*. 2026. [primary source](https://doi.org/10.1007/s00454-025-00816-4) Location: Definition11.10 and Question11.11.
+
+**Literature check.** Status: These are paper-origin questions, restated in the 2026 final rather than newly attributed to a dissertation. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q4083"></a>
+
+## Q4083. Determine the exact value of λ₉=infᵤ E(u)/H(u).
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Determine the exact value of λ₉=infᵤ E(u)/H(u).
+
+**Context.** Let e₁,…,e₉ be the standard basis of Z⁹ and |x| the Euclidean norm. For nonzero finitely supported u:Z⁹→C with u(0)=0, put E(u)=Σₓ∈Z⁹Σⱼ₌₁⁹|u(x+eⱼ)−u(x)|² and H(u)=Σₓ≠₀|u(x)|²/|x|². Edges incident to zero are included; each undirected nearest-neighbor edge is counted once.
+
+**Source.** Natanael Alpay. *Sharp discrete Hardy constants in low dimensions*. 2026. [primary source](https://arxiv.org/abs/2610.05421v1) Location: Remark 8.3, p.24.
+
+**Literature check.** Status: Paper-origin residual. This asks for an exact fixed-dimensional constant, rather than a large-dimension asymptotic or the already reported low-dimensional transition. No matching resolution found, 10 October 2026.
+
+
+<a id="q4086"></a>
+
+## Q4086. If inf_{x∈X,0&lt;r<3diamX} μ(B(x,r))/r^Q=0, must there exist a real f∈Lᵖ(X,μ) with sup_{x∈X,r>0}…
+
+**Status:** Open · **Kind:** open problem (Question 4) · **Collection** 41
+
+If inf_{x∈X,0&lt;r<3diamX} μ(B(x,r))/r^Q=0, must there exist a real f∈Lᵖ(X,μ) with sup_{x∈X,r>0} r⁻λ∫\_{B(x,r)}|f−f_{B(x,r)}|ᵖdμ<∞ but no continuous representative g equal to f μ-almost everywhere satisfying sup_{x≠y}|g(x)−g(y)|/d(x,y)^α<∞?
+
+**Context.** Let (X,d) be a compact metric space with at least two points and a Borel measure μ satisfying 0<μ(B(x,r))<∞ for every open ball. Assume some η∈(0,1) satisfies B(x,r)∖B(x,ηr)≠∅ whenever X∖B(x,r)≠∅. Fix Q>0, 1≤p<∞ and Q<λ&lt;Q+p; set α=(λ−Q)/p. Write f_B=μ(B)⁻¹∫\_B f dμ.
+
+**Source.** Przemysław Górka and Zuzanna Stępień. *Optimal Embeddings of Campanato and Morrey Spaces*. 2026. [primary source](https://arxiv.org/abs/2610.04622v1) Location: Question 4, p.16.
+
+**Literature check.** Status: Paper-origin. No upper regularity or doubling hypothesis is imposed here. The theorem proves the narrower ranges described in the source; Question 5 is a weaker variant and is not counted. No matching resolution found, 10 October 2026.
+
+
+<a id="q4087"></a>
+
+## Q4087. Must xₙ=an+b for some a>0 and b∈R?
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 41
+
+Must xₙ=an+b for some a>0 and b∈R?
+
+**Context.** Let F:(0,∞)→(0,∞) be strictly decreasing, with Σₙ≥₁F(n)<∞. Let (xₙ)ₙ∈Z be strictly increasing with xₙ→±∞ as n→±∞, representing identical particles. Assume for every n that Σⱼ<ₙF(xₙ−xⱼ)=Σⱼ>ₙF(xⱼ−xₙ)<∞, so both one-sided forces are finite and their difference is zero.
+
+**Source.** Agelos Georgakopoulos and Mihail N. Kolountzakis. *On particles in equilibrium on the real line*. 2017. [primary source](https://doi.org/10.1090/proc/13492) Location: Problem 1.
+
+**Literature check.** Status: Paper-origin generalization of Benjamini’s inverse-square question. The accepted version’s summability condition is retained. The original preprint explicitly stipulates finite one-sided configuration forces. Alper Ferudun’s arXiv:2610.06944v1 (3 October 2026), Remark 1.3(c), retains the general-force problem while reporting a solution for F(r)=r⁻ˢ, 1&lt;s≤2. Neither those powers nor a principal-value variant is separately counted. No matching general-force resolution found, 10 October 2026. https://arxiv.org/abs/2610.06944v1
+
+**Further links.** [1](https://wrap.warwick.ac.uk/id/eprint/86750/7/WRAP-particles-equilibrium-real-line-Georgakopoulos-2017.pdf) · [2](https://arxiv.org/abs/2610.06944v1)
+
+
+<a id="q4098"></a>
+
+## Q4098. Does a constant Cχ exist such that a·m({|F(L)f|>a})≤Cχ S₂(F)||f||₁ for every a>0,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Does a constant Cχ exist such that a·m({|F(L)f|>a})≤Cχ S₂(F)||f||₁ for every a>0, f∈L¹(R⁴)∩L²(R⁴), and bounded Borel F:[0,∞)→C with S₂(F)<∞?
+
+**Context.** On R⁴ with coordinates (x,y,z,w) and Lebesgue measure m, set X=∂ₓ and Y=∂ᵧ+x∂\_z+(x²/2)∂\_w. Let L be the nonnegative self-adjoint operator associated with the closure of ∫(|Xf|²+|Yf|²)dm, initially for f∈C_c∞(R⁴). Define F(L) by spectral calculus. Fix a nonzero χ∈C_c∞((0,∞)). Put S₂(F)=supᵣ>₀||χ(·)F(r·)||\_H²(R), where ||g||\_{H²}²=∫R(1+|ξ|²)²|ĝ(ξ)|²dξ.
+
+**Source.** Zhicheng Han and Zhipeng Yang. *A sharp spectral multiplier theorem on the Engel group*. 2026. [primary source](https://arxiv.org/abs/2610.08976v1) Location: Open Problem, p. 4.
+
+**Literature check.** Status: Paper-origin endpoint question. The source proves the corresponding weak-(1,1) bound for every Sobolev order s>2; the infimum of sufficient orders being 2 does not establish the endpoint. No matching resolution found, 10 October 2026.
+
+
+<a id="q4099"></a>
+
+## Q4099. If 1&lt;p<∞ and w∈Lᵖ\_loc(μ) is positive μ-almost everywhere and satisfies ⟨wᵖ⟩Δ^(1/p)≤C⟨w⟩Δ for…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If 1&lt;p<∞ and w∈Lᵖ\_loc(μ) is positive μ-almost everywhere and satisfies ⟨wᵖ⟩Δ^(1/p)≤C⟨w⟩Δ for every restricted ball Δ, must there exist ε>0 and C′<∞ such that ⟨w^(p+ε)⟩Δ^(1/(p+ε))≤C′⟨w⟩Δ for every such Δ?
+
+**Context.** Let d≥1 be an integer and let μ be a nonzero Radon measure on Rᵈ, with X=supp(μ). For x∈X,r>0, write Δ=B(x,r)∩X, using open Euclidean balls. Assume 0<μ(B(x,2r))≤Dμ(B(x,r))<∞ for some finite D independent of x,r. Write ⟨g⟩Δ=μ(Δ)^(−1)∫Δg dμ.
+
+**Source.** Martí Prats. *Weak reverse Hölder inequalities for doubling measures on closed subsets of Rᵈ*. 2026. [primary source](https://arxiv.org/abs/2610.05320v1) Location: §11, pp. 44–45.
+
+**Literature check.** Status: Paper-origin Euclidean-ball residual. Both averages must use the same ball. Counterexamples for general homogeneous-type spaces use a different metric; known positive results assume additional annular decay or doubling of wμ. Those extra assumptions are not imposed here. No matching resolution found, 10 October 2026.
+
+
+<a id="q4100"></a>
+
+## Q4100. Determine Cₙ exactly for every n∈{5,6,…}∪{∞}.
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Determine Cₙ exactly for every n∈{5,6,…}∪{∞}.
+
+**Context.** For an integer n≥5, equip Z/nZ with uniform probability measure and put Eₙ(u)=[2n(1−cos(2π/n))]^(−1)Σⱼ₌₀ⁿ⁻¹(u(j+1)−u(j))², using cyclic indices. Also let n=∞ denote T=R/Z with Lebesgue probability measure and E∞(u)=(4π²)^(−1)∫₀¹|u′|². Admissible u are real and nonnegative, satisfy ||u||₂=1, and belong to H¹(T) in the circle case. Set Cₙ=infᵤ≠₁ [2Eₙ(u)−∫u²log(u²)]/||u−1||₂⁴ over admissible u, with 0log0=0 and all norms/integrals taken in the specified probability space.
+
+**Source.** Lu Chen, Nguyen Lam and Guozhen Lu. *Sharp uniform stability of the logarithmic Sobolev inequality on finite cycles and stability of the cubic Sobolev inequality*. 2026. [primary source](https://arxiv.org/abs/2610.05347v1) Location: after Theorem 1.2, p. 5.
+
+**Literature check.** Status: Paper-origin sharp-constant residual. The source establishes uniform positive lower bounds and upper bounds, but explicitly leaves these individual constants undetermined. The solved uniform constant across all cycles n≥4 is not this target. No matching resolution found, 10 October 2026.
+
+
+<a id="q4110"></a>
+
+## Q4110. For every c∈(0,1), does D_(A_c),c have exactly one zero t_c∈(0,∞), with D″\_(A_c),c(t_c)>0?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 23) · **Collection** 42
+
+For every c∈(0,1), does D_(A_c),c have exactly one zero t_c∈(0,∞), with D″\_(A_c),c(t_c)>0?
+
+**Context.** A nonnegative smooth function h on (0,∞) is Bernstein if (−1)ⁿh⁽ⁿ⁺¹⁾≥0 for every integer n≥0. For 0&lt;c<1, set Hₐ,c(y)=(1+1/y)^(ay−c) and A_c=sup{a>0:Hₐ,c is Bernstein}. The source proves 0&lt;A_c<3−c. For 0&lt;a<3−c, define q₁=a/2+c, q₂=a/3+c/2+q₁²/2, wₐ,c(s)=π⁻¹[s/(1−s)]^(as+c)sin(π(as+c)), and Dₐ,c(t)=q₁+(q₁−q₂)t+e^(−a)∫₀¹wₐ,c(s)[e^((1−s)t)−1−(1−s)t]ds.
+
+**Source.** Valmir Krasniqi. *On the Alzer–Berg problem: an optimal Bernstein boundary and a uniqueness conjecture*. 2026. [primary source](https://arxiv.org/abs/2609.28707v1) Location: Conjecture 23, pp. 35–36.
+
+**Literature check.** Status: This is the source’s combined uniqueness-and-quadratic-contact conjecture, with c=−b. The proved boundary theorem gives a finite nonempty set of positive zeros of even order, but neither uniqueness nor order two. The parameter-domain classification is already established and is not asked again. No matching resolution found, 10 October 2026.
 

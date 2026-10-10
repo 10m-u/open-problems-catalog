@@ -1,6 +1,6 @@
 # Differential Equations & Dynamical Systems
 
-110 problems: 107 open, 2 open, partial results, 1 solved here: proved.
+136 problems: 133 open, 2 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -116,6 +116,32 @@
 | [Q3737](differential-equations-dynamical-systems.md#q3737) | Does exponential 2-mixing of a smooth diffeomorphism imply exponential k-mixing for every k≥2? | Open |
 | [Q3738](differential-equations-dynamical-systems.md#q3738) | For a C² diffeomorphism f and arbitrary nonatomic invariant μ, does exponential 2-mixing imply… | Open |
 | [Q3739](differential-equations-dynamical-systems.md#q3739) | Does every compact smooth manifold M with dim M≥2 admit a C∞ diffeomorphism preserving a… | Open |
+| [Q3873](differential-equations-dynamical-systems.md#q3873) | Must there exist G∈C²(T\*T²), polynomial in momenta of degree at most two, with {H,G}=0 and dH,dG… | Open |
+| [Q3976](differential-equations-dynamical-systems.md#q3976) | Is there exactly one solution whenever Ω^c is star-shaped? | Open |
+| [Q3977](differential-equations-dynamical-systems.md#q3977) | Is there exactly one solution whenever Ω={(x′,y):y>φ(x′)} is an epigraph? | Open |
+| [Q3978](differential-equations-dynamical-systems.md#q3978) | If f(s)/s is strictly decreasing on (0,1], is there at most one solution for every Ω? | Open |
+| [Q3979](differential-equations-dynamical-systems.md#q3979) | Is there at most one solution on every epigraph of a globally Lipschitz function? | Open |
+| [Q3980](differential-equations-dynamical-systems.md#q3980) | Is there at most one solution when Ω^c is compact and convex? | Open |
+| [Q3981](differential-equations-dynamical-systems.md#q3981) | For d≥2, is there exactly one solution outside any two disjoint closed balls? | Open |
+| [Q3986](differential-equations-dynamical-systems.md#q3986) | Apart from the unique solution with λ\_u>0, must every such solution satisfy λ\_u<0? | Open |
+| [Q3994](differential-equations-dynamical-systems.md#q3994) | For which pairs (n,h) in this range is G_{n,h} Morse–Smale? | Open |
+| [Q4000](differential-equations-dynamical-systems.md#q4000) | Does an integer d_c exist such that, for every fixed d≥3, P(G_{n,d} is globally synchronizing)… | Open |
+| [Q4067](differential-equations-dynamical-systems.md#q4067) | What is the smallest fixed n for which deciding GAS among homogeneous cubic F:Rⁿ→Rⁿ is… | Open |
+| [Q4068](differential-equations-dynamical-systems.md#q4068) | What is the smallest fixed n for which deciding Lyapunov stability among homogeneous cubic… | Open |
+| [Q4069](differential-equations-dynamical-systems.md#q4069) | Is there a Turing algorithm deciding Lyapunov stability for every rational homogeneous quadratic… | Open |
+| [Q4077](differential-equations-dynamical-systems.md#q4077) | If PER(f)=PER(g), must there be a homeomorphism h:[0,1]→[0,1] satisfying h∘f=g∘h? | Open |
+| [Q4081](differential-equations-dynamical-systems.md#q4081) | If Σₙ≥₀(logqₙ₊₁)/qₙ=∞ but limsupₙ→∞(logqₙ₊₁)/qₙ<∞, must some integers mⱼ→∞ satisfy… | Open |
+| [Q4084](differential-equations-dynamical-systems.md#q4084) | If the action is minimal and admits an invariant Borel probability μ, must RP be an equivalence… | Open |
+| [Q4085](differential-equations-dynamical-systems.md#q4085) | Without assuming an invariant measure, must R_d be an equivalence relation for every minimal… | Open |
+| [Q4088](differential-equations-dynamical-systems.md#q4088) | Determine T((0,π)×(0,L),(α,β)×(0,L)) for L>0 and 0≤α<β≤π. | Open |
+| [Q4089](differential-equations-dynamical-systems.md#q4089) | Is T((0,π)²,(0,π/2)²) finite? | Open |
+| [Q4097](differential-equations-dynamical-systems.md#q4097) | Is every bounded positive v∈C²(H)∩C(cl(H)) satisfying −Δv+v=v^p in H, v=c_p on ∂H, and… | Open |
+| [Q4101](differential-equations-dynamical-systems.md#q4101) | For every Banach B, is every generalized-hyperbolic f∈D(B) stable? | Open |
+| [Q4102](differential-equations-dynamical-systems.md#q4102) | For every Banach B, is every stable f∈D(B) generalized-hyperbolic? | Open |
+| [Q4111](differential-equations-dynamical-systems.md#q4111) | Determine Cα for every irrational α. | Open |
+| [Q4113](differential-equations-dynamical-systems.md#q4113) | Must Eφ be infinite-dimensional? | Open |
+| [Q4114](differential-equations-dynamical-systems.md#q4114) | If ψ is another C² expanding map commuting with φ and preserving μ, must Eφ∩Eψ contain a nonzero… | Open |
+| [Q4180](differential-equations-dynamical-systems.md#q4180) | Are any two transitive Anosov flows on closed orientable three-manifolds with orientable… | Open |
 
 <a id="q49"></a>
 
@@ -1985,4 +2011,408 @@ Does every compact smooth manifold M with dim M≥2 admit a C∞ diffeomorphism 
 **Literature check.** Status checked October 9, 2026: no later exact resolution located.
 
 **Further links.** [1](https://impan.pl/images/newsletter/newsletter_08_2015.pdf)
+
+
+<a id="q3873"></a>
+
+## Q3873. Must there exist G∈C²(T\*T²), polynomial in momenta of degree at most two, with {H,G}=0 and dH,dG…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Must there exist G∈C²(T\*T²), polynomial in momenta of degree at most two, with {H,G}=0 and dH,dG independent on such a set?
+
+**Context.** Let g be a C² Riemannian metric on T² and H(x,p)=½Σᵢⱼgⁱʲ(x)pᵢpⱼ its geodesic Hamiltonian. Suppose F∈C²(T\*T²) is a finite-degree polynomial in the momenta, {H,F}=0 for the canonical Poisson bracket, and dH,dF are independent on an open dense set of full measure.
+
+**Source.** Sven Joscha Henheik. *Modeling complex quantum systems: Random matrices, BCS theory, and quantum lattice systems*. Institute of Science and Technology Austria, 2025. Advisor(s): László Erdős. [primary source](https://research-explorer.ista.ac.at/record/19540) Location: Kozlov–Denisova’s 1994 conjecture (1995 English translation), restated in thesis §A.3.3, p.630.
+
+**Literature check.** Status, 10 October 2026: no matching resolution found. Henheik–Kaloshin–Li–Vig, arXiv:2511.10398v2 (17 July 2026), §3.3, p.13, retains the conjecture; its spectral-deformation results do not settle this target.
+
+**Further links.** [1](https://doi.org/10.1017/etds.2024.48) · [2](https://arxiv.org/abs/2511.10398v2)
+
+
+<a id="q3976"></a>
+
+## Q3976. Is there exactly one solution whenever Ω^c is star-shaped?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is there exactly one solution whenever Ω^c is star-shaped?
+
+**Context.** Let d≥1, 0<γ≤1, and Ω⊂R^d be nonempty, open, connected and uniformly C^{2,γ}. Let f∈C^{1,γ}([0,∞)), f(0)=f(1)=0, f>0 on (0,1), f<0 on (1,∞), and f′(0)>0>f′(1). Consider bounded positive classical solutions of −Δu=f(u) in Ω, with u=0 on ∂Ω unless specified otherwise. Epigraph functions are locally C^{2,γ}.
+
+**Source.** Henri Berestycki and Cole Graham. *A Stable-Compact Method for Qualitative Properties of Semilinear Elliptic Equations*. 2026. [primary source](https://doi.org/10.1007/s00205-026-02168-6) Location: Question1.
+
+**Literature check.** Status: Paper-origin. No matching resolution found on 10 October 2026.
+
+
+<a id="q3977"></a>
+
+## Q3977. Is there exactly one solution whenever Ω={(x′,y):y>φ(x′)} is an epigraph?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is there exactly one solution whenever Ω={(x′,y):y>φ(x′)} is an epigraph?
+
+**Context.** Let d≥1, 0<γ≤1, and Ω⊂R^d be nonempty, open, connected and uniformly C^{2,γ}. Let f∈C^{1,γ}([0,∞)), f(0)=f(1)=0, f>0 on (0,1), f<0 on (1,∞), and f′(0)>0>f′(1). Consider bounded positive classical solutions of −Δu=f(u) in Ω, with u=0 on ∂Ω unless specified otherwise. Epigraph functions are locally C^{2,γ}.
+
+**Source.** Henri Berestycki and Cole Graham. *A Stable-Compact Method for Qualitative Properties of Semilinear Elliptic Equations*. 2026. [primary source](https://doi.org/10.1007/s00205-026-02168-6) Location: Question2.
+
+**Literature check.** Status: Paper-origin. No matching resolution found on 10 October 2026.
+
+
+<a id="q3978"></a>
+
+## Q3978. If f(s)/s is strictly decreasing on (0,1], is there at most one solution for every Ω?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+If f(s)/s is strictly decreasing on (0,1], is there at most one solution for every Ω?
+
+**Context.** Let d≥1, 0<γ≤1, and Ω⊂R^d be nonempty, open, connected and uniformly C^{2,γ}. Let f∈C^{1,γ}([0,∞)), f(0)=f(1)=0, f>0 on (0,1), f<0 on (1,∞), and f′(0)>0>f′(1). Consider bounded positive classical solutions of −Δu=f(u) in Ω, with u=0 on ∂Ω unless specified otherwise. Epigraph functions are locally C^{2,γ}.
+
+**Source.** Henri Berestycki and Cole Graham. *A Stable-Compact Method for Qualitative Properties of Semilinear Elliptic Equations*. 2026. [primary source](https://doi.org/10.1007/s00205-026-02168-6) Location: Question3, restating their earlier strong-KPP conjecture.
+
+**Literature check.** Status: Paper-origin. No matching resolution found on 10 October 2026.
+
+
+<a id="q3979"></a>
+
+## Q3979. Is there at most one solution on every epigraph of a globally Lipschitz function?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is there at most one solution on every epigraph of a globally Lipschitz function?
+
+**Context.** Let d≥1, 0<γ≤1, and Ω⊂R^d be nonempty, open, connected and uniformly C^{2,γ}. Let f∈C^{1,γ}([0,∞)), f(0)=f(1)=0, f>0 on (0,1), f<0 on (1,∞), and f′(0)>0>f′(1). Consider bounded positive classical solutions of −Δu=f(u) in Ω, with u=0 on ∂Ω unless specified otherwise. Epigraph functions are locally C^{2,γ}. Setup for questions 3979, 3980: For Q3979–Q3980 replace Dirichlet data by u+α∂νu=0, α>0, with outward normal ν.
+
+**Source.** Henri Berestycki and Cole Graham. *A Stable-Compact Method for Qualitative Properties of Semilinear Elliptic Equations*. 2026. [primary source](https://doi.org/10.1007/s00205-026-02168-6) Location: Question4.
+
+**Literature check.** Status: Paper-origin. No matching resolution found on 10 October 2026.
+
+
+<a id="q3980"></a>
+
+## Q3980. Is there at most one solution when Ω^c is compact and convex?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Is there at most one solution when Ω^c is compact and convex?
+
+**Context.** Let d≥1, 0<γ≤1, and Ω⊂R^d be nonempty, open, connected and uniformly C^{2,γ}. Let f∈C^{1,γ}([0,∞)), f(0)=f(1)=0, f>0 on (0,1), f<0 on (1,∞), and f′(0)>0>f′(1). Consider bounded positive classical solutions of −Δu=f(u) in Ω, with u=0 on ∂Ω unless specified otherwise. Epigraph functions are locally C^{2,γ}. Setup for questions 3979, 3980: For Q3979–Q3980 replace Dirichlet data by u+α∂νu=0, α>0, with outward normal ν.
+
+**Source.** Henri Berestycki and Cole Graham. *A Stable-Compact Method for Qualitative Properties of Semilinear Elliptic Equations*. 2026. [primary source](https://doi.org/10.1007/s00205-026-02168-6) Location: Question4.
+
+**Literature check.** Status: Paper-origin. No matching resolution found on 10 October 2026.
+
+
+<a id="q3981"></a>
+
+## Q3981. For d≥2, is there exactly one solution outside any two disjoint closed balls?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For d≥2, is there exactly one solution outside any two disjoint closed balls?
+
+**Context.** Let d≥1, 0<γ≤1, and Ω⊂R^d be nonempty, open, connected and uniformly C^{2,γ}. Let f∈C^{1,γ}([0,∞)), f(0)=f(1)=0, f>0 on (0,1), f<0 on (1,∞), and f′(0)>0>f′(1). Consider bounded positive classical solutions of −Δu=f(u) in Ω, with u=0 on ∂Ω unless specified otherwise. Epigraph functions are locally C^{2,γ}.
+
+**Source.** Henri Berestycki and Cole Graham. *A Stable-Compact Method for Qualitative Properties of Semilinear Elliptic Equations*. 2026. [primary source](https://doi.org/10.1007/s00205-026-02168-6) Location: Question7(ii), attributed to Bassam Fayad.
+
+**Literature check.** Status: Paper-origin. No matching resolution found on 10 October 2026.
+
+
+<a id="q3986"></a>
+
+## Q3986. Apart from the unique solution with λ\_u>0, must every such solution satisfy λ\_u<0?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Apart from the unique solution with λ\_u>0, must every such solution satisfy λ\_u<0?
+
+**Context.** Let d≥2 and Ω={(x′,y):y>φ(x′)} contain a circular cone of aperture greater than π. Assume φ is globally Lipschitz with ‖∇φ‖\_{C^α(R^{d−1})}<∞, 0<α<1. Let f∈C^{1,γ}\_loc([0,∞)), 0<γ<1, satisfy f(0)=f(θ)=f(1)=0 for some θ∈(0,1), f′(0)<0, f′(θ)>0, f′(1)<0, f<0 on (0,θ)∪(1,∞), f>0 on (θ,1), and ∫\_0^1f>0. Assume −ΔU=f(U) has a positive radial exponentially decaying solution on R^d with ker(−Δ−f′(U))∩L∞=span{∂\_1U,…,∂\_dU}. For bounded positive classical solutions of −Δu=f(u) in Ω, u=0 on ∂Ω, define λ\_u=sup{λ:∃ψ∈W^{2,d}\_loc(Ω), ψ>0, (Δ+f′(u)+λ)ψ≤0}.
+
+**Source.** Henri Berestycki, Cole Graham and Juncheng Wei. *Uniqueness and multiplicity for semilinear elliptic problems in unbounded domains*. 2025. [primary source](https://arxiv.org/abs/2502.16780) Location: §4.2, p.27.
+
+**Literature check.** Status: Paper-origin closing conjecture, retaining the combined hypotheses of Theorem1.5 and Proposition4.6. Theorem1.5 supplies the unique strictly stable solution, while Proposition4.6 treats constructed spike solutions. The question excludes marginal stability for all remaining solutions. No matching resolution found on 10 October 2026.
+
+
+<a id="q3994"></a>
+
+## Q3994. For which pairs (n,h) in this range is G_{n,h} Morse–Smale?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For which pairs (n,h) in this range is G_{n,h} Morse–Smale?
+
+**Context.** For an integer n≥4 and 0&lt;h<1/(n+1), define G_{n,h} on (R/2πZ)^n by G_{n,h}(z)=z+h(I_n+11^T)sin z, with sine componentwise and 1 the all-ones column. This is the phase-quotient map for the unit-weight star K_{1,n}. A diffeomorphism is Morse–Smale when its nonwandering set consists of finitely many hyperbolic periodic points and their stable and unstable manifolds meet transversely.
+
+**Source.** Jorge Buescu, Emma D’Aniello and Henrique M. Oliveira. *Morse–Smale dynamics in discrete Huygens networks*. 2026. [primary source](https://arxiv.org/abs/2610.10993) Location: §7, p.22.
+
+**Literature check.** Status: Paper-origin. The source proves this property for the three-leaf star throughout its diffeomorphism interval, but explicitly leaves the larger unit-weight stars undecided. Its nontransverse tree examples are not stars. No matching resolution found on 10 October 2026.
+
+
+<a id="q4000"></a>
+
+## Q4000. Does an integer d_c exist such that, for every fixed d≥3, P(G_{n,d} is globally synchronizing)…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does an integer d_c exist such that, for every fixed d≥3, P(G_{n,d} is globally synchronizing) tends to 1 for d≥d_c and to 0 for d&lt;d_c; if so, what is d_c?
+
+**Context.** Let G_{n,d} be uniformly distributed among simple d-regular graphs on {1,…,n}, with d fixed and n→∞ through nd even. On (R/2πZ)^n consider the homogeneous unit-coupling Kuramoto flow θ̇\_u=−Σ\_{v∼u}sin(θ\_u−θ\_v). A graph is globally synchronizing if, for uniform initial phase, the flow converges to a state with all phases equal with probability one. Doctoral context: Ciro Carvallo is an ongoing Universidad de Buenos Aires PhD student supervised by Pablo Groisman. https://mate.dm.uba.ar/~pgroisma/students.html https://www.imas-uba-conicet.gob.ar/?page_id=4177
+
+**Source.** Ciro Carvallo, Pablo Groisman and Dieter Mitsche. *Random 3-regular graphs are not globally synchronizing*. 2026. [primary source](https://arxiv.org/abs/2610.09135) Location: §4(1), p.10.
+
+**Literature check.** Status: Paper-origin. The source proves failure with high probability for d=3; known positive results cover d≥35. It suggests d_c=4 without proving existence of the threshold. No matching resolution found on 10 October 2026.
+
+**Further links.** [1](https://mate.dm.uba.ar/~pgroisma/students.html) · [2](https://www.imas-uba-conicet.gob.ar/?page_id=4177)
+
+
+<a id="q4067"></a>
+
+## Q4067. What is the smallest fixed n for which deciding GAS among homogeneous cubic F:Rⁿ→Rⁿ is…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+What is the smallest fixed n for which deciding GAS among homogeneous cubic F:Rⁿ→Rⁿ is Turing-undecidable?
+
+**Context.** Consider x′=F(x) on Rⁿ, n≥1, where F has rational coefficients and every monomial has degree d. The origin is Lyapunov stable if for every ε>0 some δ>0 makes all solutions starting within δ exist for t≥0 and remain within ε. Global asymptotic stability (GAS) additionally requires every solution to exist forward forever and tend to zero. Decision algorithms take finite rational coefficient lists.
+
+**Source.** Ivan O. Shevchenko, Jun Liu and Xinzhi Liu. *Global asymptotic stability of homogeneous polynomial vector fields is undecidable*. 2026. [primary source](https://arxiv.org/abs/2610.12434v1) Location: §16.2, p.46.
+
+**Literature check.** Status: Paper-origin residual questions. The source reports cubic undecidability in sufficiently large fixed dimensions; it leaves these thresholds and the quadratic decision problem unresolved. No matching resolution found on 10 October 2026.
+
+
+<a id="q4068"></a>
+
+## Q4068. What is the smallest fixed n for which deciding Lyapunov stability among homogeneous cubic…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+What is the smallest fixed n for which deciding Lyapunov stability among homogeneous cubic F:Rⁿ→Rⁿ is Turing-undecidable?
+
+**Context.** Consider x′=F(x) on Rⁿ, n≥1, where F has rational coefficients and every monomial has degree d. The origin is Lyapunov stable if for every ε>0 some δ>0 makes all solutions starting within δ exist for t≥0 and remain within ε. Global asymptotic stability (GAS) additionally requires every solution to exist forward forever and tend to zero. Decision algorithms take finite rational coefficient lists.
+
+**Source.** Ivan O. Shevchenko, Jun Liu and Xinzhi Liu. *Global asymptotic stability of homogeneous polynomial vector fields is undecidable*. 2026. [primary source](https://arxiv.org/abs/2610.12434v1) Location: §16.2, p.46.
+
+**Literature check.** Status: Paper-origin residual questions. The source reports cubic undecidability in sufficiently large fixed dimensions; it leaves these thresholds and the quadratic decision problem unresolved. No matching resolution found on 10 October 2026.
+
+
+<a id="q4069"></a>
+
+## Q4069. Is there a Turing algorithm deciding Lyapunov stability for every rational homogeneous quadratic…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is there a Turing algorithm deciding Lyapunov stability for every rational homogeneous quadratic F, with its finite dimension n included in the input?
+
+**Context.** Consider x′=F(x) on Rⁿ, n≥1, where F has rational coefficients and every monomial has degree d. The origin is Lyapunov stable if for every ε>0 some δ>0 makes all solutions starting within δ exist for t≥0 and remain within ε. Global asymptotic stability (GAS) additionally requires every solution to exist forward forever and tend to zero. Decision algorithms take finite rational coefficient lists.
+
+**Source.** Ivan O. Shevchenko, Jun Liu and Xinzhi Liu. *Global asymptotic stability of homogeneous polynomial vector fields is undecidable*. 2026. [primary source](https://arxiv.org/abs/2610.12434v1) Location: §16.2, p.46.
+
+**Literature check.** Status: Paper-origin residual questions. The source reports cubic undecidability in sufficiently large fixed dimensions; it leaves these thresholds and the quadratic decision problem unresolved. No matching resolution found on 10 October 2026.
+
+
+<a id="q4077"></a>
+
+## Q4077. If PER(f)=PER(g), must there be a homeomorphism h:[0,1]→[0,1] satisfying h∘f=g∘h?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If PER(f)=PER(g), must there be a homeomorphism h:[0,1]→[0,1] satisfying h∘f=g∘h?
+
+**Context.** Let f,g:[0,1]→[0,1] be continuous and topologically transitive: for any nonempty relatively open U,V, some integer n≥0 satisfies fⁿ(U)∩V≠∅, and likewise for g. The periodic-orbit collection PER(f) consists of the finite subsets {x,f(x),…,fᵖ⁻¹(x)} with fᵖ(x)=x, p≥1; no cyclic ordering is retained.
+
+**Source.** Gabriel Fuhrmann, Maik Gröger and Alejandro Passeggi. *Period spectrum and rigidity of interval maps*. 2026. [primary source](https://arxiv.org/abs/2610.07435v1) Location: discussion after Example5.1, p.21.
+
+**Literature check.** Status: Paper-origin. The source proves equality of maps in the mixing case. Its nonconjugate examples with dense periodic orbits are not transitive. The stronger simultaneous normal-form question is not counted separately. No matching resolution found, 10October2026.
+
+
+<a id="q4081"></a>
+
+## Q4081. If Σₙ≥₀(logqₙ₊₁)/qₙ=∞ but limsupₙ→∞(logqₙ₊₁)/qₙ<∞, must some integers mⱼ→∞ satisfy…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If Σₙ≥₀(logqₙ₊₁)/qₙ=∞ but limsupₙ→∞(logqₙ₊₁)/qₙ<∞, must some integers mⱼ→∞ satisfy sup_z∈D|Fᵐⱼ(z)−z|→0?
+
+**Context.** Let D={z∈R²:|z|≤1}. An irrational pseudo-rotation F:D→D preserves orientation and Lebesgue area, fixes zero, and has no other periodic point. Require F and F⁻¹ to be C¹ up to the boundary. For a degree-one lift f̃ of F|∂D, its rotation number is α=limₙ(f̃ⁿ(t)−t)/n modulo1, represented in(0,1). Let qₙ be the denominators of the continued-fraction convergents of α.
+
+**Source.** Ziran Liu, Jian Wang and Peizheng Yu. *Non-rigid disk pseudo-rotations in C¹ and C¹,β*. 2026. [primary source](https://arxiv.org/abs/2610.09986v1) Location: §1.3, p.5.
+
+**Literature check.** Status: Paper-origin residual arithmetic range. The source gives nonrigid examples for Brjuno rotation numbers; known super-Liouville rigidity and higher-regularity non-Brjuno results do not decide this C¹ range. No matching resolution found, 10October2026.
+
+
+<a id="q4084"></a>
+
+## Q4084. If the action is minimal and admits an invariant Borel probability μ, must RP be an equivalence…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If the action is minimal and admits an invariant Borel probability μ, must RP be an equivalence relation? Invariance means μ(s⁻¹B)=μ(B) for every s and Borel B⊆X; S need not commute.
+
+**Context.** Let a discrete semigroup S act continuously on a nonempty compact Hausdorff X. Minimal means every orbit Sx is dense. For A⊆X², write s⁻¹A={(x,y):(sx,sy)∈A}; cl denotes closure in X². In the following intersections, A ranges over all open neighborhoods of the diagonal. Define RP=⋂ₐ cl(⋃ₛ∈S s⁻¹A). For commutative S and an integer d≥2 define R_d=⋂ₐ cl(⋃\_(s₁,…,s_d)∈Sᵈ ⋂\_∅≠I⊆{1,…,d}(∏ᵢ∈I sᵢ)⁻¹A).
+
+**Source.** Angelina Blahodatna, Lauren Detmold, Daniel Glasscock and Anh N. Le. *The regionally proximal relation for commutative semigroup actions*. 2026. [primary source](https://arxiv.org/abs/2610.10397v1) Location: Questions 7.2–7.3, p.41.
+
+**Literature check.** Status: Paper-origin. The d=1 commutative case is reported proved. No matching general resolution found, 10 October 2026.
+
+
+<a id="q4085"></a>
+
+## Q4085. Without assuming an invariant measure, must R_d be an equivalence relation for every minimal…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Without assuming an invariant measure, must R_d be an equivalence relation for every minimal action as above?
+
+**Context.** Let a discrete semigroup S act continuously on a nonempty compact Hausdorff X. Minimal means every orbit Sx is dense. For A⊆X², write s⁻¹A={(x,y):(sx,sy)∈A}; cl denotes closure in X². In the following intersections, A ranges over all open neighborhoods of the diagonal. Define RP=⋂ₐ cl(⋃ₛ∈S s⁻¹A). For commutative S and an integer d≥2 define R_d=⋂ₐ cl(⋃\_(s₁,…,s_d)∈Sᵈ ⋂\_∅≠I⊆{1,…,d}(∏ᵢ∈I sᵢ)⁻¹A).
+
+**Source.** Angelina Blahodatna, Lauren Detmold, Daniel Glasscock and Anh N. Le. *The regionally proximal relation for commutative semigroup actions*. 2026. [primary source](https://arxiv.org/abs/2610.10397v1) Location: Questions 7.2–7.3, p.41.
+
+**Literature check.** Status: Paper-origin. The d=1 commutative case is reported proved. No matching general resolution found, 10 October 2026.
+
+
+<a id="q4088"></a>
+
+## Q4088. Determine T((0,π)×(0,L),(α,β)×(0,L)) for L>0 and 0≤α<β≤π.
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Determine T((0,π)×(0,L),(α,β)×(0,L)) for L>0 and 0≤α<β≤π.
+
+**Context.** For a rectangle Ω, consider nonzero real solutions u∈C(R;H₀¹(Ω))∩C¹(R;L²(Ω)) of u_tt−Δu=0, with zero boundary trace. For open ω⊆Ω, let T(Ω,ω) be the supremum of lengths of bounded time intervals J for which some such u is nonnegative almost everywhere on J×ω.
+
+**Source.** Alain Haraux. *Uniform oscillation properties of almost periodic functions*. 2026. [primary source](https://arxiv.org/abs/2610.06515v1) Location: Remarks 7.2–7.3, p.8.
+
+**Literature check.** Status: Paper-origin questions. The strip problem asks for an optimal bound; the quarter-square problem asks whether any solution-independent bound exists. Haraux traces the latter to 1985 and restates its motivation in Some simple problems for the next generations, arXiv:1512.06540v1, Problem 2.1. The 2026 text supplies the present nonnegative-solution formulation; the older question used strict positivity. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/1512.06540v1)
+
+
+<a id="q4089"></a>
+
+## Q4089. Is T((0,π)²,(0,π/2)²) finite?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is T((0,π)²,(0,π/2)²) finite?
+
+**Context.** For a rectangle Ω, consider nonzero real solutions u∈C(R;H₀¹(Ω))∩C¹(R;L²(Ω)) of u_tt−Δu=0, with zero boundary trace. For open ω⊆Ω, let T(Ω,ω) be the supremum of lengths of bounded time intervals J for which some such u is nonnegative almost everywhere on J×ω.
+
+**Source.** Alain Haraux. *Uniform oscillation properties of almost periodic functions*. 2026. [primary source](https://arxiv.org/abs/2610.06515v1) Location: Remarks 7.2–7.3, p.8.
+
+**Literature check.** Status: Paper-origin questions. The strip problem asks for an optimal bound; the quarter-square problem asks whether any solution-independent bound exists. Haraux traces the latter to 1985 and restates its motivation in Some simple problems for the next generations, arXiv:1512.06540v1, Problem 2.1. The 2026 text supplies the present nonnegative-solution formulation; the older question used strict positivity. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/1512.06540v1)
+
+
+<a id="q4097"></a>
+
+## Q4097. Is every bounded positive v∈C²(H)∩C(cl(H)) satisfying −Δv+v=v^p in H, v=c_p on ∂H, and…
+
+**Status:** Open · **Kind:** open problem (Problem 4) · **Collection** 41
+
+Is every bounded positive v∈C²(H)∩C(cl(H)) satisfying −Δv+v=v^p in H, v=c_p on ∂H, and supₓ′∈R⁵|v(x′,t)|→0 as t→∞, necessarily v(x′,t)=w_p(t), for every p>1?
+
+**Context.** For p>1, put c_p=((p+1)/2)^(1/(p−1)) and w_p(t)=c_p[cosh((p−1)t/2)]^(−2/(p−1)). Write H=R⁵×(0,∞).
+
+**Source.** Phuong Le. *The critical boundary value for a nonlinear Schrödinger equation in a half-space: rigidity and dimensional transition*. 2026. [primary source](https://arxiv.org/abs/2610.02790v1) Location: Open Problem 4, p. 3.
+
+**Literature check.** Status: This is the six-dimensional residual of Antonio J. Fernández and Tobias Weth's threshold-boundary uniqueness question, The nonlinear Schrödinger equation in the half-space, Math. Ann. 383 (2022), 361–397, Remark 1.1(e). https://doi.org/10.1007/s00208-020-02129-8 The final article was read. The 2026 paper reports uniqueness in dimensions 2–5 and nonuniqueness in dimensions ≥8; neither settles dimension 6. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://doi.org/10.1007/s00208-020-02129-8)
+
+
+<a id="q4101"></a>
+
+## Q4101. For every Banach B, is every generalized-hyperbolic f∈D(B) stable?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For every Banach B, is every generalized-hyperbolic f∈D(B) stable?
+
+**Context.** For a Banach space B, let D(B) consist of C¹-diffeomorphisms f:B→B with globally bounded Df,D(f⁻¹) and uniformly continuous Df. Set d₁(f,g)=supₓ||f(x)−g(x)||+supₓ||Df(x)−Dg(x)||. Call f stable if ∀ε>0 ∃δ>0 ∀g∈D(B) with d₁(f,g)<δ, there is a homeomorphism H satisfying gH=Hf and max(||H−id||∞,||H⁻¹−id||∞)<ε. Call f generalized-hyperbolic if ∃C>0, λ∈(0,1) and bounded linear projections Pₓ,Qₓ with Pₓ+Qₓ=id, B=Eₓˢ⊕Eₓᵘ, Eₓˢ=ran(Pₓ), Eₓᵘ=ran(Qₓ), ||Pₓ||,||Qₓ||≤C; Df(x)Eₓˢ⊆E_f(x)ˢ and D(f⁻¹)(x)Eₓᵘ⊆E_f⁻¹(x)ᵘ; and for every integer n≥1, ||Dfⁿ(x)|Eₓˢ||,||D(f⁻ⁿ)(x)|Eₓᵘ||≤Cλⁿ. These conditions hold for every x∈B; derivative and projection norms are operator norms. No regularity of x↦Pₓ,Qₓ is assumed.
+
+**Source.** Sergey Tikhomirov. *Discontinuous Generalized Hyperbolicity and Structural Stability*. 2026. [primary source](https://arxiv.org/abs/2610.04179v1) Location: §2.7, pp.12–13.
+
+**Literature check.** Status: Paper-origin. Q4101 already appears as Conjecture 13, p.8, in his Generalized hyperbolicity for diffeomorphisms of Banach spaces, arXiv:2510.05499v3. https://arxiv.org/abs/2510.05499v3 The 2026 source explicitly asks both directions. Linear shadowing results do not settle these nonlinear questions. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2510.05499v3)
+
+
+<a id="q4102"></a>
+
+## Q4102. For every Banach B, is every stable f∈D(B) generalized-hyperbolic?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For every Banach B, is every stable f∈D(B) generalized-hyperbolic?
+
+**Context.** For a Banach space B, let D(B) consist of C¹-diffeomorphisms f:B→B with globally bounded Df,D(f⁻¹) and uniformly continuous Df. Set d₁(f,g)=supₓ||f(x)−g(x)||+supₓ||Df(x)−Dg(x)||. Call f stable if ∀ε>0 ∃δ>0 ∀g∈D(B) with d₁(f,g)<δ, there is a homeomorphism H satisfying gH=Hf and max(||H−id||∞,||H⁻¹−id||∞)<ε. Call f generalized-hyperbolic if ∃C>0, λ∈(0,1) and bounded linear projections Pₓ,Qₓ with Pₓ+Qₓ=id, B=Eₓˢ⊕Eₓᵘ, Eₓˢ=ran(Pₓ), Eₓᵘ=ran(Qₓ), ||Pₓ||,||Qₓ||≤C; Df(x)Eₓˢ⊆E_f(x)ˢ and D(f⁻¹)(x)Eₓᵘ⊆E_f⁻¹(x)ᵘ; and for every integer n≥1, ||Dfⁿ(x)|Eₓˢ||,||D(f⁻ⁿ)(x)|Eₓᵘ||≤Cλⁿ. These conditions hold for every x∈B; derivative and projection norms are operator norms. No regularity of x↦Pₓ,Qₓ is assumed.
+
+**Source.** Sergey Tikhomirov. *Discontinuous Generalized Hyperbolicity and Structural Stability*. 2026. [primary source](https://arxiv.org/abs/2610.04179v1) Location: §2.7, pp.12–13.
+
+**Literature check.** Status: Paper-origin. Q4101 already appears as Conjecture 13, p.8, in his Generalized hyperbolicity for diffeomorphisms of Banach spaces, arXiv:2510.05499v3. https://arxiv.org/abs/2510.05499v3 The 2026 source explicitly asks both directions. Linear shadowing results do not settle these nonlinear questions. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2510.05499v3)
+
+
+<a id="q4111"></a>
+
+## Q4111. Determine Cα for every irrational α.
+
+**Status:** Open · **Kind:** open problem (Question 8.3) · **Collection** 42
+
+Determine Cα for every irrational α.
+
+**Context.** Let T=R/Z with Lebesgue probability measure, Rα(θ)=θ+α modulo 1, and τ=1_[0,1/2)−1_[1/2,1). For irrational α, define Cα to be the set of pairs (c,ℓ)∈T×{−1,1} for which there is a measurable integer-valued function f:T→Z satisfying τ(θ+c)−ℓτ(θ)=f(θ+α)−f(θ) for almost every θ.
+
+**Source.** Nicanor Carrasco-Vargas. *Isomorphisms and slow entropy of deterministic [T,T⁻¹] systems*. 2026. [primary source](https://arxiv.org/abs/2609.13589v2) Location: Question 8.3, p. 29.
+
+**Literature check.** Status: Paper-origin classification question. When α has bounded continued-fraction coefficients, the source records precisely (c,ℓ)=(kα,1) or (kα+1/2,−1), k∈Z. For other rotation numbers extra shifts can occur; the paper does not give the general classification. The transfer function is merely measurable, with no continuity, boundedness or integrability imposed. Known isomorphism-rigidity theorems for the skew products do not supply this missing arithmetic description. No matching resolution found, 10 October 2026.
+
+
+<a id="q4113"></a>
+
+## Q4113. Must Eφ be infinite-dimensional?
+
+**Status:** Open · **Kind:** open problem (Question 5.1) · **Collection** 42
+
+Must Eφ be infinite-dimensional?
+
+**Context.** Let M be a closed, connected, oriented Riemannian manifold of dimension at least two. Let φ:M→M be C² and expanding: some C>0, λ>1 satisfy ||d(φⁿ)ₓv||≥Cλⁿ||v|| for all n≥1 and tangent vectors v. Assume φ preserves the probability measure μ=ρvol, with ρ positive and C¹. In L²(μ;TM), let H be the closure of {∇f:f∈C∞(M)}. Define Kφu(x)=(dφₓ)\*u(φ(x)), where \* denotes the metric adjoint, and Dφ=(Kφ|H)\*, the Hilbert-space adjoint on H. Put Eφ=ker(Dφ−I).
+
+**Source.** Douglas Finamore, André Magalhães de Sá Gomes and Christian S. Rodrigues. *Pushforward dynamics on Wasserstein spaces and measure rigidity*. 2026. [primary source](https://arxiv.org/abs/2609.00451v1) Location: Question 5.1, p. 52.
+
+**Literature check.** Status: These paper-origin questions use the higher-dimensional residual explicitly discussed after Question 5.1. Linear-torus results do not settle arbitrary expanding maps. The joint question depends on both maps, not just individual eigenspace dimensions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4114"></a>
+
+## Q4114. If ψ is another C² expanding map commuting with φ and preserving μ, must Eφ∩Eψ contain a nonzero…
+
+**Status:** Open · **Kind:** open problem (Question 5.1) · **Collection** 42
+
+If ψ is another C² expanding map commuting with φ and preserving μ, must Eφ∩Eψ contain a nonzero vector?
+
+**Context.** Let M be a closed, connected, oriented Riemannian manifold of dimension at least two. Let φ:M→M be C² and expanding: some C>0, λ>1 satisfy ||d(φⁿ)ₓv||≥Cλⁿ||v|| for all n≥1 and tangent vectors v. Assume φ preserves the probability measure μ=ρvol, with ρ positive and C¹. In L²(μ;TM), let H be the closure of {∇f:f∈C∞(M)}. Define Kφu(x)=(dφₓ)\*u(φ(x)), where \* denotes the metric adjoint, and Dφ=(Kφ|H)\*, the Hilbert-space adjoint on H. Put Eφ=ker(Dφ−I).
+
+**Source.** Douglas Finamore, André Magalhães de Sá Gomes and Christian S. Rodrigues. *Pushforward dynamics on Wasserstein spaces and measure rigidity*. 2026. [primary source](https://arxiv.org/abs/2609.00451v1) Location: Question 5.1, p. 52.
+
+**Literature check.** Status: These paper-origin questions use the higher-dimensional residual explicitly discussed after Question 5.1. Linear-torus results do not settle arbitrary expanding maps. The joint question depends on both maps, not just individual eigenspace dimensions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4180"></a>
+
+## Q4180. Are any two transitive Anosov flows on closed orientable three-manifolds with orientable…
+
+**Status:** Open · **Kind:** open problem (Problem 1.1) · **Collection** 42
+
+Are any two transitive Anosov flows on closed orientable three-manifolds with orientable center-stable and center-unstable foliations almost equivalent: after deleting the same finite number of periodic orbits, is there a homeomorphism between the complements carrying flow orbits onto flow orbits and preserving their orientations?
+
+**Context.** Transitive means admitting a dense orbit. No finite covering of either manifold is permitted in this equivalence.
+
+**Source.** Pierre Dehornoy and Mario Shannon. *Almost equivalence of suspension Anosov flows*. 2026. [primary source](https://arxiv.org/abs/1910.08457v3) Location: Problem 1.1, p. 2.
+
+**Literature check.** Status checked 10 October 2026: Current v3 proves the result for suspensions of positive-trace hyperbolic torus automorphisms, while retaining the general problem. No later resolution was found.
 

@@ -2471,3 +2471,250 @@ Fix prime p and e∈N_{>0}∪{∞}. Take henselian (K,v,t),(L,w,s) of characteri
 
 **Further links.** [1](https://eprints.illc.uva.nl/id/eprint/2359/)
 
+
+<a id="q3820"></a>
+
+## Q3820. Choice in a weakly compact mantle
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+If κ is weakly compact in V, must M_κ satisfy ZFC?
+
+**Context.** In a ZFC universe V, M_λ intersects all inner ZFC models W with V=W[H], where H is W-generic for forcing of W-cardinality <λ. Origin/locators: Thesis Questions 13.37,13.35, pp.231,230; restated in Lietz, The Axiom of Choice in the κ-Mantle, Questions 4.2,3.35, pp.19,18. Inspected: March 2023 dissertation; arXiv:2403.09015v1, posted 14 March 2024, internally dated September 2023. No later resolution located in bounded 10 October 2026 searches.
+
+**Source.** Andreas Lietz. *Forcing “NSω₁ Is ω₁-Dense” from Large Cardinals: A Journey Guided by the Stars*. University of Münster, 2023. Advisor(s): Ralf Schindler. [primary source](https://andreas-lietz.github.io/resources/PDFs/AJourneyGuidedByTheStars.pdf) Location: Thesis Questions 13.37,13.35, pp.231,230; restated in Lietz, The Axiom of Choice in the κ-Mantle, Questions 4.2,3.35, pp.19,18.
+
+**Literature check.** Status: Inspected: March 2023 dissertation; arXiv:2403.09015v1, posted 14 March 2024, internally dated September 2023. No later resolution located in bounded 10 October 2026 searches.
+
+**Further links.** [1](https://arxiv.org/abs/2403.09015v1) · [2](https://www.uni-muenster.de/MathematicsMuenster/news/artikel/2024/02-16.shtml)
+
+
+<a id="q3821"></a>
+
+## Q3821. Successor mantle and tail intersection
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Over L, let κ be regular uncountable and G generic for the <κ⁺-support product of κ⁺ copies of Add(κ,1). In V=L[G], is M_(κ⁺)=⋂\_{α<κ⁺}L[G↾(α,κ⁺)]? Here Add(κ,1) comprises partial functions κ→2 of size <κ, ordered by extension.
+
+**Context.** In a ZFC universe V, M_λ intersects all inner ZFC models W with V=W[H], where H is W-generic for forcing of W-cardinality <λ. Origin/locators: Thesis Questions 13.37,13.35, pp.231,230; restated in Lietz, The Axiom of Choice in the κ-Mantle, Questions 4.2,3.35, pp.19,18. Inspected: March 2023 dissertation; arXiv:2403.09015v1, posted 14 March 2024, internally dated September 2023. No later resolution located in bounded 10 October 2026 searches.
+
+**Source.** Andreas Lietz. *Forcing “NSω₁ Is ω₁-Dense” from Large Cardinals: A Journey Guided by the Stars*. University of Münster, 2023. Advisor(s): Ralf Schindler. [primary source](https://andreas-lietz.github.io/resources/PDFs/AJourneyGuidedByTheStars.pdf) Location: Thesis Questions 13.37,13.35, pp.231,230; restated in Lietz, The Axiom of Choice in the κ-Mantle, Questions 4.2,3.35, pp.19,18.
+
+**Literature check.** Status: Inspected: March 2023 dissertation; arXiv:2403.09015v1, posted 14 March 2024, internally dated September 2023. No later resolution located in bounded 10 October 2026 searches.
+
+**Further links.** [1](https://arxiv.org/abs/2403.09015v1) · [2](https://www.uni-muenster.de/MathematicsMuenster/news/artikel/2024/02-16.shtml)
+
+
+<a id="q3822"></a>
+
+## Q3822. Unique multipartite endomorphism topology
+
+**Status:** Open · **Kind:** open problem (Question 5.4.9) · **Collection** 39
+
+For K on N×N with (i,a) adjacent to (j,b) exactly when i≠j, is pointwise topology the unique Polish semigroup topology on End(K)?
+
+**Context.** For countable relational A, End(A) comprises relation-preserving self-maps. Pointwise topology is inherited from A^A with A discrete. Semigroup topologies make composition jointly continuous; Polish means separable and completely metrizable. Here ω-categorical means Aut(A) has finitely many orbits on A^n for every n. Origin/locators: Q3822: Schindler thesis Question 5.4.9, p.89. Both: Marimon–Pinsker, A guide to topological reconstruction on endomorphism monoids and polymorphism clones, Questions 5.18,5.7, pp.19,17; Q3823 is later-paper-origin.
+
+**Source.** Paolo Marimon and Michael Pinsker. *A guide to topological reconstruction on endomorphism monoids and polymorphism clones*. 2025. [primary source](https://arxiv.org/abs/2512.01086v2) Location: Schindler thesis Question 5.4.9, p.89; Marimon–Pinsker, A guide to topological reconstruction on endomorphism monoids and polymorphism clones, Questions 5.18 and 5.7, pp.19,17
+
+**Literature check.** Status: Inspected thesis and guide v2, 10 July 2026; no later resolution found, 10 October 2026.
+
+**Further links.** [1](https://repositum.tuwien.at/handle/20.500.12708/193465) · [2](https://paolomarimon.github.io/assets/pdf/Paolo_Marimon_CV_2026.pdf)
+
+
+<a id="q3823"></a>
+
+## Q3823. Strictly coarser Hausdorff topology
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Does some ω-categorical A admit a Hausdorff semigroup topology on End(A) strictly coarser than pointwise topology?
+
+**Context.** For countable relational A, End(A) comprises relation-preserving self-maps. Pointwise topology is inherited from A^A with A discrete. Semigroup topologies make composition jointly continuous; Polish means separable and completely metrizable. Here ω-categorical means Aut(A) has finitely many orbits on A^n for every n. Origin/locators: Q3822: Schindler thesis Question 5.4.9, p.89. Both: Marimon–Pinsker, A guide to topological reconstruction on endomorphism monoids and polymorphism clones, Questions 5.18,5.7, pp.19,17; Q3823 is later-paper-origin.
+
+**Source.** Paolo Marimon and Michael Pinsker. *A guide to topological reconstruction on endomorphism monoids and polymorphism clones*. 2025. [primary source](https://arxiv.org/abs/2512.01086v2) Location: Marimon–Pinsker, A guide to topological reconstruction on endomorphism monoids and polymorphism clones, Questions 5.18 and 5.7, pp.19,17 (later-paper-origin)
+
+**Literature check.** Status: Inspected thesis and guide v2, 10 July 2026; no later resolution found, 10 October 2026.
+
+**Further links.** [1](https://repositum.tuwien.at/handle/20.500.12708/193465) · [2](https://paolomarimon.github.io/assets/pdf/Paolo_Marimon_CV_2026.pdf)
+
+
+<a id="q3860"></a>
+
+## Q3860. Do there exist 2-random reals x<\_T z and a constant c such that |K(x↾n)−K(z↾n)|≤c for every n?
+
+**Status:** Open · **Kind:** open problem (Problem 1.4) · **Collection** 39
+
+Do there exist 2-random reals x<\_T z and a constant c such that |K(x↾n)−K(z↾n)|≤c for every n?
+
+**Context.** Paper-origin problem contributed by George Barmpalias to Open Problems in Mathematical Logic, 2026 Tianyuan Workshop in Definability and Computation; arXiv:2608.26628v2, 31 August 2026, Problem 1.4(2), p.3. Setup: A real is an infinite binary sequence. It is 2-random when Martin-Löf random relative to the halting set. K denotes prefix-free Kolmogorov complexity for a fixed universal prefix-free machine; x↾n is the first n bits. The notation x<\_T z means x is Turing-computable from z but z is not Turing-computable from x.
+
+**Source.** George Barmpalias, Su Gao, Jialiang He, Takayuki Kihara, Andre Nies, Theodore Slaman, Chieu-Minh Tran, Daniel Turetsky, Philip Welch, Liang Yu, Hang Zhang. *Open Problems in Mathematical Logic*. 2026. [primary source](https://arxiv.org/abs/2608.26628v2) Location: Problem 1.4(2), p.3.
+
+**Literature check.** Status: The current workshop version explicitly asks this; searches through 10 October 2026 found no matching resolution. The same-jump question is a different part of Problem 1.4 and is not repeated here.
+
+
+<a id="q3865"></a>
+
+## Q3865. If A is homogeneous in a finite relational language, does F[A^d] have finite length for every…
+
+**Status:** Open · **Kind:** open problem (Question 1.2) · **Collection** 39
+
+If A is homogeneous in a finite relational language, does F[A^d] have finite length for every field F and d≥1? Homogeneous means finite induced-substructure isomorphisms extend to automorphisms.
+
+**Context.** Doctoral route: Arka Ghosh, Linear Algebra in Orbit-finite Dimension, University of Warsaw doctorate awarded 27 November 2025; supervisor Sławomir Lasota, auxiliary supervisor Piotr Hofman. His Chapter 8 discusses the weaker Noetherian question. Primary formulations: David M. Evans, Permutation modules for Ramsey structures, arXiv:2603.29606v2 (9 September 2026), Question 1.2, p.2; Jingjie Yang, Mikołaj Bojańczyk and Bartek Klin, The Finite Length Property of the Rado Graph and Friends, LICS 2026, §9, p.82:25. Q3865 is a restated question; Q3866 is explicitly newly asked there. Setup: A is countable, G=Aut(A), and F[A^d] is the free F-vector space on A^d with coordinatewise G-action. Finite length means a finite bound on lengths of strictly nested chains of G-invariant subspaces.
+
+**Source.** David M. Evans. *Permutation modules for Ramsey structures*. 2026. [primary source](https://arxiv.org/abs/2603.29606v2) Location: Question 1.2, p.2; Jingjie Yang, Mikołaj Bojańczyk and Bartek Klin, The Finite Length Property of the Rado Graph and Friends, LICS 2026, §9, p.82:25.
+
+**Literature check.** Status: No resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.mimuw.edu.pl/en/doctorates/arka-ghosh/) · [2](https://doi.org/10.4230/LIPIcs.LICS.2026.82)
+
+
+<a id="q3866"></a>
+
+## Q3866. Does this hold for every oligomorphic A and characteristic-zero F? Oligomorphic means finitely…
+
+**Status:** Open · **Kind:** open problem (Question 1.2) · **Collection** 39
+
+Does this hold for every oligomorphic A and characteristic-zero F? Oligomorphic means finitely many G-orbits on each A^d.
+
+**Context.** Doctoral route: Arka Ghosh, Linear Algebra in Orbit-finite Dimension, University of Warsaw doctorate awarded 27 November 2025; supervisor Sławomir Lasota, auxiliary supervisor Piotr Hofman. His Chapter 8 discusses the weaker Noetherian question. Primary formulations: David M. Evans, Permutation modules for Ramsey structures, arXiv:2603.29606v2 (9 September 2026), Question 1.2, p.2; Jingjie Yang, Mikołaj Bojańczyk and Bartek Klin, The Finite Length Property of the Rado Graph and Friends, LICS 2026, §9, p.82:25. Q3865 is a restated question; Q3866 is explicitly newly asked there. Setup: A is countable, G=Aut(A), and F[A^d] is the free F-vector space on A^d with coordinatewise G-action. Finite length means a finite bound on lengths of strictly nested chains of G-invariant subspaces.
+
+**Source.** David M. Evans. *Permutation modules for Ramsey structures*. 2026. [primary source](https://arxiv.org/abs/2603.29606v2) Location: Question 1.2, p.2; Jingjie Yang, Mikołaj Bojańczyk and Bartek Klin, The Finite Length Property of the Rado Graph and Friends, LICS 2026, §9, p.82:25.
+
+**Literature check.** Status: No resolution found through 10 October 2026.
+
+**Further links.** [1](https://www.mimuw.edu.pl/en/doctorates/arka-ghosh/) · [2](https://doi.org/10.4230/LIPIcs.LICS.2026.82)
+
+
+<a id="q4001"></a>
+
+## Q4001. Is derivability decidable in its fragment whose formulas are built only from propositional…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Is derivability decidable in its fragment whose formulas are built only from propositional variables, the left implication →, and !^s?
+
+**Context.** Take the intuitionistic calculus acLL_Σ of that paper, with exactly one label s and f(s)={C,W,E,A1,A2}. Antecedents are ordered binary trees, with empty subtrees erased. Sequents have one succedent formula; no global structural rules apply. The modality !^s has dereliction and promotion, and licenses weakening, nonlocal contraction, exchange and both specified associativity rules, exactly as in Figures 1–2; contraction can identify separated copies of an entirely !^s-marked subtree. Degree award was not independently established. Origin: The dissertation restates the joint paper’s minimal-fragment question. No resolution found through 10 October 2026. Undecidability with additives, or with a second associativity-only modality, does not settle this fragment. The 2026 Galatos–Sangalli deducibility result also uses additive join.
+
+**Source.** Eben Blaisdell. *Subexponentials in Nonassociative Lambek Calculus*. University of Pennsylvania, 2024. Advisor(s): Andre Scedrov. [primary source](https://repository.upenn.edu/bitstreams/c318a63b-b658-45b1-a8d3-ff6378032ab1/download) Location: Thesis §6.2.1, page 70; earlier IJCAR 2022 paper by Blaisdell, Max Kanovich, Stepan L. Kuznetsov, Elaine Pimentel and Scedrov, §§3–4.
+
+**Literature check.** Status: Origin: The dissertation restates the joint paper’s minimal-fragment question. No resolution found through 10 October 2026. Undecidability with additives, or with a second associativity-only modality, does not settle this fragment. The 2026 Galatos–Sangalli deducibility result also uses additive join.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-031-10769-6_27) · [2](https://iphils.uj.edu.pl/tacl/Booklet.pdf)
+
+
+<a id="q4044"></a>
+
+## Q4044. Is group isomorphism on finitely generated bi-orderable groups universal?
+
+**Status:** Open · **Kind:** open problem (Question 4.1) · **Collection** 41
+
+Is group isomorphism on finitely generated bi-orderable groups universal?
+
+**Context.** Represent finitely generated groups by normal subgroups N of the countably generated free group F∞ containing all but finitely many basis elements, with the inherited Borel structure from 2^{F∞}. Restrict to the indicated quotient groups F∞/N. Left/bi-orderability means existence of a total order invariant under left/both-sided multiplication. Amenability means existence of a left-invariant mean on bounded real functions. A countable Borel equivalence relation E is universal if every countable Borel equivalence relation F admits a Borel map f with xFy⇔f(x)Ef(y). Weak universality instead requires a countable-to-one Borel map with xFy⇒f(x)Ef(y). Origin: Paper questions. Status: Latest arXiv v2 and exact final journal formulations checked; no later resolution found, 10 October 2026.
+
+**Source.** Filippo Calderoni and Adam Clay. *The isomorphism problem for finitely generated bi-orderable groups*. 2027. [primary source](https://doi.org/10.1016/j.jalgebra.2026.07.005) Location: Question 4.1
+
+**Literature check.** Status: Origin: Paper questions. Status: Latest arXiv v2 and exact final journal formulations checked; no later resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2510.10673v2)
+
+
+<a id="q4045"></a>
+
+## Q4045. Is group isomorphism on finitely generated amenable left-orderable groups universal, or at least…
+
+**Status:** Open · **Kind:** open problem (Question 4.3) · **Collection** 41
+
+Is group isomorphism on finitely generated amenable left-orderable groups universal, or at least weakly universal?
+
+**Context.** Represent finitely generated groups by normal subgroups N of the countably generated free group F∞ containing all but finitely many basis elements, with the inherited Borel structure from 2^{F∞}. Restrict to the indicated quotient groups F∞/N. Left/bi-orderability means existence of a total order invariant under left/both-sided multiplication. Amenability means existence of a left-invariant mean on bounded real functions. A countable Borel equivalence relation E is universal if every countable Borel equivalence relation F admits a Borel map f with xFy⇔f(x)Ef(y). Weak universality instead requires a countable-to-one Borel map with xFy⇒f(x)Ef(y). Origin: Paper questions. Status: Latest arXiv v2 and exact final journal formulations checked; no later resolution found, 10 October 2026.
+
+**Source.** Filippo Calderoni and Adam Clay. *The isomorphism problem for finitely generated bi-orderable groups*. 2027. [primary source](https://doi.org/10.1016/j.jalgebra.2026.07.005) Location: Question 4.3; one combined question
+
+**Literature check.** Status: Origin: Paper questions. Status: Latest arXiv v2 and exact final journal formulations checked; no later resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2510.10673v2)
+
+
+<a id="q4046"></a>
+
+## Q4046. Does every computable bi-orderable metabelian group have a computable copy admitting a…
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 41
+
+Does every computable bi-orderable metabelian group have a computable copy admitting a computable bi-order? Here metabelian means its commutator subgroup is abelian.
+
+**Context.** A computable group has computable domain and multiplication; a computable copy is an isomorphic computable group. A bi-order is a two-sided invariant total order; computable orders have decidable comparison. Put X(G)={positive cones of bi-orders}, topologized inside {0,1}^G. Its Cantor–Bendixson rank is the first stage at which iteratively deleting isolated points stabilizes; limit stages take intersections. A computable ordinal has a computable well-order presentation.
+
+**Source.** Waseet Kazmi. *Ordered Groups, Computability and Cantor-Bendixson Rank*. University of Connecticut, 2023. Advisor(s): David Reed Solomon. [primary source](https://www2.math.uconn.edu/~solomon/WaseetKazmi_Dissertation_Final.pdf) Location: Origin: Arman Darbinyan, Computability, orders, and solvable groups, Question 1; restated in the thesis.
+
+**Literature check.** Status checked 10 October 2026: no resolution found; the later finite-Cantor–Bendixson-rank construction does not impose the computability condition.
+
+**Further links.** [1](https://arxiv.org/abs/1909.05720)
+
+
+<a id="q4047"></a>
+
+## Q4047. For every computable ordinal α≥1, is there a computable bi-orderable G with X(G) countable, of…
+
+**Status:** Open · **Kind:** open problem (Question 1.8.9) · **Collection** 41
+
+For every computable ordinal α≥1, is there a computable bi-orderable G with X(G) countable, of Cantor–Bendixson rank α+1, whose only computable orders are isolated?
+
+**Context.** A computable group has computable domain and multiplication; a computable copy is an isomorphic computable group. A bi-order is a two-sided invariant total order; computable orders have decidable comparison. Put X(G)={positive cones of bi-orders}, topologized inside {0,1}^G. Its Cantor–Bendixson rank is the first stage at which iteratively deleting isolated points stabilizes; limit stages take intersections. A computable ordinal has a computable well-order presentation.
+
+**Source.** Waseet Kazmi. *Ordered Groups, Computability and Cantor-Bendixson Rank*. University of Connecticut, 2023. Advisor(s): David Reed Solomon. [primary source](https://www2.math.uconn.edu/~solomon/WaseetKazmi_Dissertation_Final.pdf) Location: Origin: thesis Question 1.8.9.
+
+**Literature check.** Status checked 10 October 2026: no resolution found; the later finite-Cantor–Bendixson-rank construction does not impose the computability condition.
+
+**Further links.** [1](https://arxiv.org/abs/1909.05720)
+
+
+<a id="q4132"></a>
+
+## Q4132. Do such A,T exist for every x that is neither Schnorr random nor weakly 1-generic, with T…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Do such A,T exist for every x that is neither Schnorr random nor weakly 1-generic, with T additionally ergodic?
+
+**Context.** On Cantor space 2^N use fair-coin measure λ. Effectively open means a computably enumerable union of cylinders; Π⁰₁ means effectively closed. A Schnorr test is a uniformly effectively open sequence (Uₙ) with uniformly computable measures λ(Uₙ)≤2^(−n); Schnorr-random points avoid every such intersection. Weakly 1-generic points belong to every dense effectively open set; 1-generic points avoid the boundary of every effectively open set. A total map T is computable if cylinder preimages are uniformly effectively open. Seek a Π⁰₁ set A containing x with positive computable λ(A), and a total computable λ-preserving T:2^N→2^N with Tᵏ(x)∉A for every k≥1.
+
+**Source.** Joey Veltri. *Effective recurrence for computable measure-preserving transformations*. 2026. [primary source](https://arxiv.org/abs/2609.12402v1) Location: Questions 3.50–3.51, pp. 40–41.
+
+**Literature check.** Status: These are paper-origin questions. The larger point class in Q4133 and stronger dynamical requirement in Q4132 prevent either from being an immediate weaker formulation of the other. No matching resolution found, 10 October 2026.
+
+
+<a id="q4133"></a>
+
+## Q4133. Do such A,T exist for every x that is neither Schnorr random nor 1-generic, without requiring…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Do such A,T exist for every x that is neither Schnorr random nor 1-generic, without requiring ergodicity?
+
+**Context.** On Cantor space 2^N use fair-coin measure λ. Effectively open means a computably enumerable union of cylinders; Π⁰₁ means effectively closed. A Schnorr test is a uniformly effectively open sequence (Uₙ) with uniformly computable measures λ(Uₙ)≤2^(−n); Schnorr-random points avoid every such intersection. Weakly 1-generic points belong to every dense effectively open set; 1-generic points avoid the boundary of every effectively open set. A total map T is computable if cylinder preimages are uniformly effectively open. Seek a Π⁰₁ set A containing x with positive computable λ(A), and a total computable λ-preserving T:2^N→2^N with Tᵏ(x)∉A for every k≥1.
+
+**Source.** Joey Veltri. *Effective recurrence for computable measure-preserving transformations*. 2026. [primary source](https://arxiv.org/abs/2609.12402v1) Location: Questions 3.50–3.51, pp. 40–41.
+
+**Literature check.** Status: These are paper-origin questions. The larger point class in Q4133 and stronger dynamical requirement in Q4132 prevent either from being an immediate weaker formulation of the other. No matching resolution found, 10 October 2026.
+
+
+<a id="q4182"></a>
+
+## Q4182. For each n≥2, what is the exact computability-theoretic complexity of CP3(nV)?
+
+**Status:** Open · **Kind:** open problem (Question 7.7) · **Collection** 42
+
+For each n≥2, what is the exact computability-theoretic complexity of CP3(nV)?
+
+**Context.** Let C={0,1}^N. Brin's group nV consists of homeomorphisms of C^n given by finite coordinatewise prefix replacements between partitions into product cylinders. Inputs can be finite prefix tables, or equivalently words in a fixed finite generating set. Define CP3(nV) as the set of pairs (f,g) for which some h∈Homeo(C^n) satisfies hfh⁻¹=g; h need not belong to nV.
+
+**Source.** Ville Salo. *Conjugacy problems in higher-dimensional Thompson groups*. 2026. [primary source](https://arxiv.org/abs/2610.11124v1) Location: Question 7.7, p. 16.
+
+**Literature check.** Status checked 10 October 2026: The current paper proves undecidability and gives an analytic Σ¹₁ upper bound, but no sharper upper bound. Its Σ⁰₁-completeness results concern different conjugacy problems. No later resolution was found.
+

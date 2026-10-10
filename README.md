@@ -1,13 +1,13 @@
 # Open problems from doctoral theses and recent papers
 
-A catalog of **3787 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
+A catalog of **4187 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
 papers. Each comes with its source, its exact location in that source, a dated literature check, and every result
 obtained on it. Problems already solved elsewhere are left out.
 
 | | Count |
 |---|---:|
-| Problems in the catalog | 3787 |
-| Open | 3635 |
+| Problems in the catalog | 4187 |
+| Open | 4035 |
 | Open, with partial results here | 97 |
 | Solved here | 55 (39 proved, 16 disproved) |
 | Excluded as solved elsewhere | 13 |
@@ -15,7 +15,7 @@ obtained on it. Problems already solved elsewhere are left out.
 
 ## Where to start
 
-- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q3800)
+- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q4200)
   and an anchor, for example `problems/mathematics/combinatorics-graph-theory.md#q123`.
 - **[Index by number](problems/INDEX.md)**: every problem, its subject and status, in blocks of 500.
 - **[Solutions](solutions/README.md)**: proofs, counterexamples, partial results, research reports, scripts and

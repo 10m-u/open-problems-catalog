@@ -3879,3 +3879,503 @@ For every δ∈(0,1), is there c_δ>0, independent of G and p, such that 0&lt;m_
 
 **Further links.** [1](https://arcadia.sba.uniroma3.it/handle/2307/40879)
 
+
+<a id="q3857"></a>
+
+## Q3857. Let d≥1 and supp(μ)={g_i}, where g_i(x)=ρ\_iU_ix+b_i on Rᵈ, ρ\_i>0 and U_i are orthogonal. Assume…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.3) · **Collection** 39
+
+Let d≥1 and supp(μ)={g_i}, where g_i(x)=ρ\_iU_ix+b_i on Rᵈ, ρ\_i>0 and U_i are orthogonal. Assume χ=Σ\_i μ(g_i)logρ\_i<0, the U_i have no common proper nonzero invariant linear subspace, and the g_i have no common fixed point. Must the unique stationary probability ν be absolutely continuous with respect to Lebesgue measure whenever h(μ)>d|χ|?
+
+**Context.** For finitely supported probability μ, put h(μ)=lim_n H(μ^{\*n})/n, using Shannon entropy H(p)=−Σp log p, natural logarithms and composition convolution. Stationarity means ν=Σ\_g μ(g)g_\*ν.
+
+**Source.** Constantin Kogler. *Topics in Random Walks on Lie Groups*. University of Oxford, 2025. Advisor(s): Emmanuel Breuillard. [primary source](https://ora.ox.ac.uk/objects/uuid%3A258f6527-8424-4c22-8c79-da215bfdaf9e) Location: Kittle–Kogler’s folklore Conjecture 1.3, p.4, arXiv:2409.18936v4 (17 October 2025); also thesis Conjecture 7.0.3.
+
+**Literature check.** Status, 10 October 2026: no matching resolution found. Nearby dimension and discrete-subgroup singularity claims do not answer these targets.
+
+**Further links.** [1](https://arxiv.org/abs/2409.18936v4)
+
+*Also among the automatically extracted thesis statements: `a9bd4b2bf190482fb845`, `7d4674d734a33307fd80`.*
+
+
+<a id="q3858"></a>
+
+## Q3858. Let μ be finitely supported on SL₂(R), with support contained in no compact subgroup and…
+
+**Status:** Open · **Kind:** open problem · **Collection** 39
+
+Let μ be finitely supported on SL₂(R), with support contained in no compact subgroup and preserving no nonempty finite subset of P¹(R). Put χ=lim_n n⁻¹∫log||g||dμ^{\*n}(g), with Euclidean operator norm. If h(μ)>2χ, must its unique stationary probability ν be absolutely continuous relative to angular measure?
+
+**Context.** For finitely supported probability μ, put h(μ)=lim_n H(μ^{\*n})/n, using Shannon entropy H(p)=−Σp log p, natural logarithms and composition convolution. Stationarity means ν=Σ\_g μ(g)g_\*ν.
+
+**Source.** Constantin Kogler. *Topics in Random Walks on Lie Groups*. University of Oxford, 2025. Advisor(s): Emmanuel Breuillard. [primary source](https://ora.ox.ac.uk/objects/uuid%3A258f6527-8424-4c22-8c79-da215bfdaf9e) Location: thesis pp.17–18, conjecture following Theorem 1.4.11; no separation assumption is included.
+
+**Literature check.** Status, 10 October 2026: no matching resolution found. Nearby dimension and discrete-subgroup singularity claims do not answer these targets.
+
+**Further links.** [1](https://arxiv.org/abs/2409.18936v4)
+
+*Also among the automatically extracted thesis statements: `e04fbe1ae59cb5cb4607`.*
+
+
+<a id="q3874"></a>
+
+## Q3874. Does (L_n−C(log n)²)/(log n)^(3/2) converge in distribution to a nondegenerate random variable?
+
+**Status:** Open · **Kind:** open problem (Problem 1.2) · **Collection** 39
+
+Does (L_n−C(log n)²)/(log n)^(3/2) converge in distribution to a nondegenerate random variable?
+
+**Context.** Paper-origin: Heng Ma, The height of discrete-time critical beta-splitting trees, arXiv:2609.14329v2, revised 16 September 2026; Open Problem 1.2, p.6. No doctoral origin is claimed. Construct a rooted binary tree T_n recursively: each clade of m≥2 leaves independently splits into ordered sizes i,m−i with probability m/[2H_{m−1}i(m−i)], 1≤i&lt;m, where H_j=Σ\_{k=1}^j1/k; singletons stop. Let L_n be the maximum root-to-leaf edge count. Using natural logarithms, put C=min_{θ>1} θ/[2(ψ(θ)+γ)], where ψ=Γ′/Γ and γ is Euler’s constant. The Gaussian refinement and competing smaller correction scales are not counted separately.
+
+**Source.** Heng Ma. *The height of discrete-time critical beta-splitting trees*. 2026. [primary source](https://arxiv.org/abs/2609.14329v2) Location: Open Problem 1.2, p.6.
+
+**Literature check.** Status, 10 October 2026: no matching resolution found. The inspected v2 retains this exact question. Continuous-time extremal results in 2608.18320v1 and 2609.14325v2, and clade-shape results in 2609.24973v1 concern different observables.
+
+**Further links.** [1](https://arxiv.org/abs/2608.18320v1) · [2](https://arxiv.org/abs/2609.14325v2) · [3](https://arxiv.org/abs/2609.24973v1)
+
+
+<a id="q3966"></a>
+
+## Q3966. With nondegenerate edge law and finite second moments for both laws, does F_{G_n} satisfy the…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+With nondegenerate edge law and finite second moments for both laws, does F_{G_n} satisfy the CLT without any volume-growth assumption?
+
+**Context.** For finite simple G, mutually independent edge weights w_e and vertex weights ν\_x are iid within each family. Set Z_G=Σ\_M exp(Σ\_{e∈M}w_e+Σ\_{x unmatched}ν\_x), summing over matchings; F_G=log Z_G and A_G=E_{Gibbs}|M|. “CLT” means (X−EX)/√Var(X)⇒N(0,1), over disorder. Fix both laws across n. Take |V_n|→∞, maximum degree ≤D and |E_n|≥δ|V_n| eventually, δ>0.
+
+**Source.** Wai-Kit Lam and Arnab Sen. *Central limit theorem in disordered Monomer-Dimer model*. 2025. [primary source](https://doi.org/10.1002/rsa.21256) Location: §4(1,3).
+
+**Literature check.** Status: Paper-origin questions. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3967"></a>
+
+## Q3967. With standard Gaussian edges and finite-fourth-moment vertex law, does A_{G_n} satisfy the CLT…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+With standard Gaussian edges and finite-fourth-moment vertex law, does A_{G_n} satisfy the CLT without any volume-growth assumption?
+
+**Context.** For finite simple G, mutually independent edge weights w_e and vertex weights ν\_x are iid within each family. Set Z_G=Σ\_M exp(Σ\_{e∈M}w_e+Σ\_{x unmatched}ν\_x), summing over matchings; F_G=log Z_G and A_G=E_{Gibbs}|M|. “CLT” means (X−EX)/√Var(X)⇒N(0,1), over disorder. Fix both laws across n. Take |V_n|→∞, maximum degree ≤D and |E_n|≥δ|V_n| eventually, δ>0.
+
+**Source.** Wai-Kit Lam and Arnab Sen. *Central limit theorem in disordered Monomer-Dimer model*. 2025. [primary source](https://doi.org/10.1002/rsa.21256) Location: §4(1,3).
+
+**Literature check.** Status: Paper-origin questions. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3972"></a>
+
+## Q3972. Determine the exact leading asymptotics of E[W_2(μ\_n,μ∞)] as n→∞, including its leading constant.
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Determine the exact leading asymptotics of E[W_2(μ\_n,μ∞)] as n→∞, including its leading constant.
+
+**Context.** Let X_n have independent standard complex Gaussian entries, normalized by E|X_{ij}|²=1. Let μ\_n=n^−1Σ\_{i=1}^nδ\_{λ\_i}, where λ\_i are the eigenvalues of X_n/√n, and let μ∞ be uniform probability on the complex unit disk. Here W_2(μ,ν)=(inf_{π∈Π(μ,ν)}∫|x−y|²dπ)^{1/2}. Paper-origin question. The cited upper bound does not give this exact asymptotic. Butez–Dallaporta–García-Zelada, arXiv2404.09549v4 (22 September 2026), gives hyperuniform-process order bounds. García-Arias, arXiv2603.18313v2 (8 July 2026), Theorem 2, gives an O(n^−1/2) bound for random-normal-matrix spectra. Neither supplies this leading constant. https://arxiv.org/abs/2404.09549 https://arxiv.org/abs/2603.18313
+
+**Source.** Nicolas Clozeau and Francesco Mattesini. *Annealed quantitative estimates for the quadratic 2D-discrete random matching problem*. 2024. [primary source](https://doi.org/10.1007/s00440-023-01254-0) Location: §1.5(3), pp.496–497.
+
+**Literature check.** Status: No matching resolution found in the documented 10 October 2026 search.
+
+**Further links.** [1](https://arxiv.org/abs/2404.09549) · [2](https://arxiv.org/abs/2603.18313)
+
+
+<a id="q3973"></a>
+
+## Q3973. For every nonatomic weight law, does (J,M_n) converge weakly, with limiting M a measurable…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For every nonatomic weight law, does (J,M_n) converge weakly, with limiting M a measurable function of J?
+
+**Context.** On nearest-neighbor Z^d, d≥2, assign iid real J_x to vertices and edges. A monomer–dimer covering covers each vertex once. On (Z/nZ)^d, M_n minimizes Σ\_{x∈M_n}J_x; extend periodically.
+
+**Source.** Kesav Krishnan and Gourab Ray. *Uniqueness and CLT for the Ground State of the Disordered Monomer-Dimer Model on Z^d*. 2025. [primary source](https://doi.org/10.1093/imrn/rnaf169) Location: §7, p.27; final read.
+
+**Literature check.** Status: Paper-origin questions. Q3974 explicitly includes the support convention from the final introduction. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3974"></a>
+
+## Q3974. For ε=1−M(0), is |M△M_{0,ε}| finite almost surely?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For ε=1−M(0), is |M△M_{0,ε}| finite almost surely?
+
+**Context.** On nearest-neighbor Z^d, d≥2, assign iid real J_x to vertices and edges. A monomer–dimer covering covers each vertex once. On (Z/nZ)^d, M_n minimizes Σ\_{x∈M_n}J_x; extend periodically. Setup for question 3974: For Q3974 assume a law supported on [β,∞), β∈R∪{−∞}, with density p continuous there and positive on (β,∞); set p=0 below β. Require some α>1 such that C(z)=∫\_β^∞[p(x−z)/p(x)]^αp(x)dx is finite and continuous for z>0, where the ratio is the translation Radon–Nikodym derivative (Definition3.1). For any joint subsequential limit of unconstrained and constrained torus minimizers, denote the limits M and M_{0,ε}; the latter forces the origin’s monomer indicator to ε.
+
+**Source.** Kesav Krishnan and Gourab Ray. *Uniqueness and CLT for the Ground State of the Disordered Monomer-Dimer Model on Z^d*. 2025. [primary source](https://doi.org/10.1093/imrn/rnaf169) Location: Question7.1.
+
+**Literature check.** Status: Paper-origin questions. Q3974 explicitly includes the support convention from the final introduction. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3975"></a>
+
+## Q3975. Does there exist such a stationary field for which the counting measure Σ\_{k∈Z²}δ\_{k+ξ\_k} has…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does there exist such a stationary field for which the counting measure Σ\_{k∈Z²}δ\_{k+ξ\_k} has law Gin and E[exp(c|ξ\_0|²)]<∞ for some c>0?
+
+**Context.** Let Gin be the unit-intensity planar Ginibre determinantal process relative to Lebesgue area, with kernel K(z,w)=exp(πz conjugate(w)−π(|z|²+|w|²)/2). A C-valued displacement field (ξ\_k)\_{k∈Z²} is stationary if its joint law is invariant under integer index shifts. Normalization disclosed: §4.2 explicitly says unit intensity and Proposition8 uses Z², but its displayed kernel omits π scaling. The canonical definition above is independently specified by Bardenet–Flamant–Chainais, arXiv1708.00082v1, §2.4.2. https://arxiv.org/abs/1708.00082
+
+**Source.** Raphael Butez, Sandrine Dallaporta and David García-Zelada. *On the Wasserstein distance between a hyperuniform point process and its mean*. 2026. [primary source](https://arxiv.org/abs/2404.09549) Location: §4.2, pp.8–9.
+
+**Literature check.** Status: Paper-origin. Proposition8 gives separate finite-p-moment representations, not sub-Gaussian tails. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/1708.00082)
+
+
+<a id="q3982"></a>
+
+## Q3982. If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X_t/(2θ)dt, X_0=x?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X_t/(2θ)dt, X_0=x?
+
+**Context.** Fix x∈R and θ>0. For each T>0 let W_t^(T)=x+B_t+μ(T)t, where B is standard Brownian motion and μ(T)∈R is deterministic. Let Q_T be its path law conditioned on ∫\_0^T(W_s^(T))²ds≤θT. Path convergence means weak convergence in C([0,∞)) with uniform convergence on compact intervals.
+
+**Source.** Frank Aurzada, Yuvraj Dutta and Max Wiegand. *Brownian motion with drift conditioned to have restricted L²-norm*. 2026. [primary source](https://arxiv.org/abs/2610.12354) Location: §1.1, pp.4–5.
+
+**Literature check.** Status: Paper-origin. Theorem1 proves Q3982 only under μ(T)²≤MT^β for some M>0 and β<1/2. The source separately asks about the critical scale in Q3983; its exponential-threshold variant is not included. No matching resolution found on 10 October 2026.
+
+
+<a id="q3983"></a>
+
+## Q3983. For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exists.
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exists.
+
+**Context.** Fix x∈R and θ>0. For each T>0 let W_t^(T)=x+B_t+μ(T)t, where B is standard Brownian motion and μ(T)∈R is deterministic. Let Q_T be its path law conditioned on ∫\_0^T(W_s^(T))²ds≤θT. Path convergence means weak convergence in C([0,∞)) with uniform convergence on compact intervals.
+
+**Source.** Frank Aurzada, Yuvraj Dutta and Max Wiegand. *Brownian motion with drift conditioned to have restricted L²-norm*. 2026. [primary source](https://arxiv.org/abs/2610.12354) Location: §1.1, pp.4–5.
+
+**Literature check.** Status: Paper-origin. Theorem1 proves Q3982 only under μ(T)²≤MT^β for some M>0 and β<1/2. The source separately asks about the critical scale in Q3983; its exponential-threshold variant is not included. No matching resolution found on 10 October 2026.
+
+
+<a id="q3987"></a>
+
+## Q3987. For n×n matrices A_n with iid real entries having one fixed nondegenerate probability law, does…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 40
+
+For n×n matrices A_n with iid real entries having one fixed nondegenerate probability law, does n^{-1}Σ\_{j=1}^nδ\_{(j/n,π(A_n)(j)/n)} converge weakly in probability to Lebesgue measure on [0,1]²?
+
+**Context.** Use exact Gaussian elimination with partial pivoting. At step k select the smallest row index j≥k maximizing the absolute active-column entry, swap rows k,j, and eliminate below. For a zero active column skip elimination and take j=k. Denote the resulting permutation by π(A), the successive matrices by A^(k), and the final upper-triangular factor by U. Write ||A||max=max_{i,j}|A_ij|. Define B_0=[1] and recursively B_n=[[cosθ A_1,sinθ A_2],[−sinθ A_1,cosθ A_2]], with independent copies A_1,A_2 of B_{n−1} and an independent θ uniform on [0,2π).
+
+**Source.** Kenji Gunawan, John Peca-Medlin and Chenyang Zhong. *Random permutations using GEPP*. 2026. [primary source](https://arxiv.org/abs/2610.10481) Location: Conjecture 1, iid case.
+
+**Literature check.** Status: Paper-origin. Doctoral context: Peca-Medlin, UC Irvine Mathematics PhD 2021, advisors Michael Cranston and Thomas Trogdon; dissertation Numerical, spectral, and group properties of random butterfly matrices. No matching resolution found on 10 October 2026.
+
+
+<a id="q3988"></a>
+
+## Q3988. For every n≥1, is max_k||B_n^(k)||max=||U||max almost surely?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2) · **Collection** 40
+
+For every n≥1, is max_k||B_n^(k)||max=||U||max almost surely?
+
+**Context.** Use exact Gaussian elimination with partial pivoting. At step k select the smallest row index j≥k maximizing the absolute active-column entry, swap rows k,j, and eliminate below. For a zero active column skip elimination and take j=k. Denote the resulting permutation by π(A), the successive matrices by A^(k), and the final upper-triangular factor by U. Write ||A||max=max_{i,j}|A_ij|. Define B_0=[1] and recursively B_n=[[cosθ A_1,sinθ A_2],[−sinθ A_1,cosθ A_2]], with independent copies A_1,A_2 of B_{n−1} and an independent θ uniform on [0,2π).
+
+**Source.** Kenji Gunawan, John Peca-Medlin and Chenyang Zhong. *Random permutations using GEPP*. 2026. [primary source](https://arxiv.org/abs/2610.10481) Location: Conjecture 2.
+
+**Literature check.** Status: Paper-origin. Doctoral context: Peca-Medlin, UC Irvine Mathematics PhD 2021, advisors Michael Cranston and Thomas Trogdon; dissertation Numerical, spectral, and group properties of random butterfly matrices. No matching resolution found on 10 October 2026.
+
+
+<a id="q3989"></a>
+
+## Q3989. Does 2ζ(1+σ)C_c(σ)→1 as σ↓0?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does 2ζ(1+σ)C_c(σ)→1 as σ↓0?
+
+**Context.** For 0<σ<1 and 0≤C≤1, independently retain each unordered pair {x,y} of distinct integers as an edge with probability C/|x−y|^{1+σ}. Let C_c(σ)=inf{C∈[0,1]:P(0 belongs to an infinite connected component)>0}, and let ζ denote the Riemann zeta function.
+
+**Source.** Guy Amit. *Explicit upper bounds on the threshold of one-dimensional long-range percolation*. 2026. [primary source](https://arxiv.org/abs/2610.11872) Location: §7, p.19.
+
+**Literature check.** Status: Paper-origin. The lower bound is C_c(σ)≥[2ζ(1+σ)]^{-1}; this paper’s upper bound leaves a factor-two gap as σ↓0. Its sharp result for oriented paths does not settle this unoriented question. No matching resolution found in the documented 10 October 2026 search.
+
+
+<a id="q3991"></a>
+
+## Q3991. Determine the least k(n) for which A_n=A_{n,k(n)}, including its asymptotic growth as n→∞.
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Determine the least k(n) for which A_n=A_{n,k(n)}, including its asymptotic growth as n→∞.
+
+**Context.** For n≥2, let A_n be the set of probability vectors (P(X_{σ(1)}<⋯&lt;X_{σ(n)}))\_{σ∈S_n} obtained from independent real random variables X_1,…,X_n satisfying P(X_i=X_j)=0 for i≠j. Let A_{n,k} be the subset obtainable when each variable’s law has at most k atoms and no other mass, with pairwise disjoint supports. Dimension means real semialgebraic dimension.
+
+**Source.** Luke Turvey. *Permutations from ranking independent random variables*. 2026. [primary source](https://arxiv.org/abs/2610.11895) Location: §6, Problems 1–2.
+
+**Literature check.** Status: Paper-origin. Turvey is listed as a Bristol PhD student; advisor and dissertation metadata were not established. The paper reports the full dimension and dimension saturation for k≥⌊e(n−1)!⌋; neither determines these bounded-support targets. Finite universal support bounds do not give the optimal value in Q3991. No matching resolution found on 10 October 2026.
+
+
+<a id="q3992"></a>
+
+## Q3992. Determine dim A_{n,k} for all integers n≥2 and k≥1.
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Determine dim A_{n,k} for all integers n≥2 and k≥1.
+
+**Context.** For n≥2, let A_n be the set of probability vectors (P(X_{σ(1)}<⋯&lt;X_{σ(n)}))\_{σ∈S_n} obtained from independent real random variables X_1,…,X_n satisfying P(X_i=X_j)=0 for i≠j. Let A_{n,k} be the subset obtainable when each variable’s law has at most k atoms and no other mass, with pairwise disjoint supports. Dimension means real semialgebraic dimension.
+
+**Source.** Luke Turvey. *Permutations from ranking independent random variables*. 2026. [primary source](https://arxiv.org/abs/2610.11895) Location: §6, Problems 1–2.
+
+**Literature check.** Status: Paper-origin. Turvey is listed as a Bristol PhD student; advisor and dissertation metadata were not established. The paper reports the full dimension and dimension saturation for k≥⌊e(n−1)!⌋; neither determines these bounded-support targets. Finite universal support bounds do not give the optimal value in Q3991. No matching resolution found on 10 October 2026.
+
+
+<a id="q3993"></a>
+
+## Q3993. If v(0)>0, must p↦v(p) be nondecreasing on [0,1]?
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+If v(0)>0, must p↦v(p) be nondecreasing on [0,1]?
+
+**Context.** Fix a probability law ν on [0,1]. Start X_0=0 and sample iid right-jump probabilities (ω\_x)\_{x∈Z} with law ν. At each step, the walk jumps right from x with probability ω\_x and left otherwise. After each step, independently with probability p, replace the entire environment by a fresh iid sample, independent of the past. For p∈[0,1], write v(p)=lim_{m→∞}X_m/m for the deterministic almost-sure speed; p=0 is the static model.
+
+**Source.** Raphael Martin and Jan Nagel. *Random walk in a regenerating random environment*. 2026. [primary source](https://arxiv.org/abs/2610.11919) Location: §2, p.5.
+
+**Literature check.** Status: Paper-origin. This formulates the authors’ general positive-static-speed expectation following a two-point example; their moment assumptions concern a separate zero-speed theorem. Their nonmonotonicity examples have v(0)=0 and do not answer it; a local maximum at p=1 also does not establish global monotonicity. No matching resolution found on 10 October 2026.
+
+
+<a id="q3999"></a>
+
+## Q3999. Does Σ\_{j=1}^n δ\_{a_n(λ\_j(L_n)−b_n)} converge in distribution, in the vague topology on locally…
+
+**Status:** Open · **Kind:** open problem · **Collection** 40
+
+Does Σ\_{j=1}^n δ\_{a_n(λ\_j(L_n)−b_n)} converge in distribution, in the vague topology on locally finite measures on R, to the Poisson point process with intensity e^{−x}dx as n→∞?
+
+**Context.** Fix a real law ξ with Eξ=0, Eξ²=1 and E|ξ|⁴<∞. For each n≥2, let A_n be real symmetric with iid upper off-diagonal entries ξ/√n; its diagonal entries may be arbitrary and dependent. Set L_n=diag(A_n 1)−A_n, and write λ\_1(L_n),…,λ\_n(L_n) for its eigenvalues. Put a_n=√(2log n) and b_n=√(2log n)−[log log n+log(4π)−2]/[2√(2log n)]. Doctoral context: Andrew Campbell, Mathematics PhD, University of Colorado Boulder, May 2023; advisor Sean O’Rourke; dissertation Spectral Properties of Random Matrices with Dependent Entries. Primary records: https://math.colorado.edu/documents/primebits/PrimeBits2022-23.pdf https://math.colorado.edu/~seor3821/cv/cv.pdf
+
+**Source.** Andrew Campbell, Kyle Luh and Sean O’Rourke. *Universality for the extreme eigenvalues of Laplacian random matrices*. 2026. [primary source](https://arxiv.org/abs/2610.09076) Location: p.4.
+
+**Literature check.** Status: Paper-origin. The source proves this for sub-Gaussian ξ and explicitly conjectures extension under the fourth-moment assumption. No matching resolution found on 10 October 2026.
+
+**Further links.** [1](https://math.colorado.edu/documents/primebits/PrimeBits2022-23.pdf) · [2](https://math.colorado.edu/~seor3821/cv/cv.pdf)
+
+
+<a id="q4070"></a>
+
+## Q4070. If μ^{\*m}(0)=ν^{\*m}(0) for every integer m≥1, must the two shapes agree?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If μ^{\*m}(0)=ν^{\*m}(0) for every integer m≥1, must the two shapes agree?
+
+**Context.** Let μ and ν be finitely supported probability laws on Zᵈ, d≥1, with μ(v)=μ(−v), ν(v)=ν(−v), and supports spanning Rᵈ. Their walks start at zero and have independent identically distributed increments with the respective laws. Define their shapes as conv(supp μ) and conv(supp ν); shapes agree when an invertible real linear map carries one onto the other.
+
+**Source.** Pieter Belmans, Sergey Galkin and Swarnava Mukhopadhyay. *Can one hear the shape of a lattice random walk?*. 2026. [primary source](https://arxiv.org/abs/2610.08348v1) Location: Question6.10, p.18.
+
+**Literature check.** Status: Paper-origin. Symmetry forces zero mean, and spanning makes zero interior to each shape. Lattice-preserving equivalence and reconstruction of the step probabilities are not requested. The source’s nonsymmetric counterexamples and its equal-shape symmetric examples leave this question open. No matching resolution found on 10 October 2026.
+
+
+<a id="q4082"></a>
+
+## Q4082. Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X?
+
+**Context.** Fix −1/3<α<0. An integer-valued X with probabilities pₖ is discrete α-concave when its positive support is an integer interval and pₖ^α≤(pₖ₋₁^α+pₖ₊₁^α)/2 whenever pₖ₋₁pₖ₊₁>0. Put M(X)=supₖpₖ and k(α)=(1+2α)²(1+3α)/(1+α)³.
+
+**Source.** Abdulmajeed Alqasem, Heshan Aravinda and Arnaud Marsiglietti. *Majorization, Entropy and Concentration Inequalities for Discrete α-Concave Random Variables*. 2026. [primary source](https://arxiv.org/abs/2610.05439v1) Location: Conjecture4.7, p.17.
+
+**Literature check.** Status: Paper-origin. The stated α-range ensures a finite second moment. The paper proves a weaker constant; one-sided α-affine examples show that the proposed coefficient cannot be increased. No matching resolution found, 10October2026.
+
+
+<a id="q4091"></a>
+
+## Q4091. For every such G and α, does μₐ,Λ₁=μₐ,Λ₂ imply ∫q^(k−1)Λ₁(dq)/Λ₁([0,1])=∫q^(k−1)Λ₂(dq)/Λ₂([0,1])…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+For every such G and α, does μₐ,Λ₁=μₐ,Λ₂ imply ∫q^(k−1)Λ₁(dq)/Λ₁([0,1])=∫q^(k−1)Λ₂(dq)/Λ₂([0,1]) for all k=2,…,Δ?
+
+**Context.** Let G=(V,E) be a countably infinite connected simple undirected graph of maximum degree Δ<∞. Assume two independent continuous-time random walks, each jumping at rate 1 to each neighbor and started together at any vertex, have almost surely finitely many collision entrances {t:Xₜ₋≠Yₜ₋, Xₜ=Yₜ}. Let α:V→(0,1) satisfy α(x)=Σᵧ∼ₓα(y)/deg(x). For a finite nonzero nonnegative measure Λ on [0,1], the Λ-broadcast voter process has opinions in {0,1}. Each nonempty subset A of x's neighbors simultaneously adopts x's opinion at rate ∫q^(|A|−1)(1−q)^(deg(x)−|A|)Λ(dq), with endpoint values given by the polynomial. Write μₐ,Λ for its limiting distribution from independent Bernoulli(α(x)) opinions.
+
+**Source.** Jhon Astoquillca, Adrián González Casanova and Renato S. dos Santos. *The broadcast voter model: Stationary measures*. 2026. [primary source](https://arxiv.org/abs/2610.04530v1) Location: after Theorem 2.6, p.7.
+
+**Literature check.** Status: Paper-origin. The converse and the implication for trees and integer lattices are proved. No matching resolution found, 10 October 2026.
+
+
+<a id="q4093"></a>
+
+## Q4093. Assuming additionally Eξ²=0 when F=C, does (νₙ) satisfy a speed-n² large-deviation principle on…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+Assuming additionally Eξ²=0 when F=C, does (νₙ) satisfy a speed-n² large-deviation principle on probability measures on C with the weak topology? Namely, does some lower-semicontinuous I_μ:P(C)→[0,∞] satisfy −inf_A°I_μ≤liminf n^(−2)log P(νₙ∈A)≤limsup n^(−2)log P(νₙ∈A)≤−inf_cl(A)I_μ for every Borel A? If so, identify I_μ.
+
+**Context.** Let μ be a probability law on F∈{R,C}, with bounded Lebesgue density, Eξ=0, E|ξ|²=1 and Eexp(c|ξ|²)<∞ for some c>0. Let Xₙ=n^(−1/2)(ξᵢⱼ) have independent μ-distributed entries. Let νₙ=n^(−1)Σⱼδ\_λⱼ, counting eigenvalues with algebraic multiplicity, and ρ(Xₙ)=maxⱼ|λⱼ|.
+
+**Source.** Yi Han. *Large deviations of the spectral radius of iid subgaussian random matrices*. 2026. [primary source](https://arxiv.org/abs/2610.05498v1) Location: §1.1, p.4, and Remark 1.4, p.5.
+
+**Literature check.** Status: Paper-origin. No universal or Gaussian empirical-measure rate is prescribed. The second question removes a hypothesis retained by the first. No matching resolution found, 10 October 2026.
+
+
+<a id="q4094"></a>
+
+## Q4094. With F=C and no assumption Eξ²=0, is it true that for every 0&lt;r<1 there exist c_μ,r>0 and n₀…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+With F=C and no assumption Eξ²=0, is it true that for every 0&lt;r<1 there exist c_μ,r>0 and n₀ such that P(ρ(Xₙ)≤r)≤exp(−c_μ,r n²) for all n≥n₀?
+
+**Context.** Let μ be a probability law on F∈{R,C}, with bounded Lebesgue density, Eξ=0, E|ξ|²=1 and Eexp(c|ξ|²)<∞ for some c>0. Let Xₙ=n^(−1/2)(ξᵢⱼ) have independent μ-distributed entries. Let νₙ=n^(−1)Σⱼδ\_λⱼ, counting eigenvalues with algebraic multiplicity, and ρ(Xₙ)=maxⱼ|λⱼ|.
+
+**Source.** Yi Han. *Large deviations of the spectral radius of iid subgaussian random matrices*. 2026. [primary source](https://arxiv.org/abs/2610.05498v1) Location: §1.1, p.4, and Remark 1.4, p.5.
+
+**Literature check.** Status: Paper-origin. No universal or Gaussian empirical-measure rate is prescribed. The second question removes a hypothesis retained by the first. No matching resolution found, 10 October 2026.
+
+
+<a id="q4095"></a>
+
+## Q4095. For every δ>0, does this once-reinforced walk visit 0 infinitely often almost surely?
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+For every δ>0, does this once-reinforced walk visit 0 infinitely often almost surely?
+
+**Context.** Fix δ>0. On the nearest-neighbor undirected graph Z², start X₀=0 with every edge weight 1. Immediately after an edge's first traversal, change its weight permanently to 1+δ. At each step, choose a neighboring vertex with probability proportional to its connecting edge's current weight. Current all-parameter question: Bou-Rabee–Peres, arXiv:2610.00090v1, Problem 3, p.14. https://arxiv.org/abs/2610.00090v1 Keane’s introductory definition uses one-return wording; infinite returns are selected from the current recurrence question, without asserting equivalence to that older definition.
+
+**Source.** Michael Keane. *Reinforced Random Walk*. 2007. [primary source](https://doi.org/10.1007/978-3-540-32777-6_6) Location: pp.151–158, especially pp.152–153.
+
+**Literature check.** Status: Keane's chapter explicitly predicts recurrence for every reinforcement parameter θ>1, where θ=1+δ. Arvind Singh, A shape theorem for a radially excited random walk in dimensions d≥2, arXiv:2610.12138v1 (8 October 2026), introduction, p.2, reaffirms that planar once-reinforced recurrence remains open. https://arxiv.org/abs/2610.12138v1
+
+**Literature check.** Status: This is a classical paper-origin question, not a new dissertation conjecture. New range estimates and shape theorems for radially excited walks do not resolve it. No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2610.00090v1) · [2](https://arxiv.org/abs/2610.12138v1)
+
+
+<a id="q4108"></a>
+
+## Q4108. If Λ₁₁>1 and Λ₂₂>1, must uQ(u)=0 have a probability solution with u₀₀<1, for every γ≥0?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+If Λ₁₁>1 and Λ₂₂>1, must uQ(u)=0 have a probability solution with u₀₀<1, for every γ≥0?
+
+**Context.** Fix integer N≥3 and nonnegative λ₁,λ₂,φ₁,φ₂,γ. On S={(i,j)∈Z≥0²:i+j≤N}, let u be a probability row vector and b(u)=Σ\_(i,j)∈S(iλ₁+jλ₂)uᵢⱼ. Define the generator Q(u) by transitions (0,0)→(1,0) at rate b(u), (i,j)→(i+1,j) at rate iφ₁+jφ₂ when i+j&lt;N, (i,j)→(i−1,j+1) at rate iγ, and recovery transitions (i,j)→(i−1,j), (i,j)→(i,j−1) at rates i,j. Omit transitions outside S; all other off-diagonal rates vanish. Diagonal entries make row sums zero. The mean-field equation is u′=uQ(u). Put Λᵢⱼ=λᵢΣₖ₌₀ᴺ⁻¹φⱼᵏ.
+
+**Source.** Karima Belatreche, Lamia Belhadji and Nicolas Lanchier. *The contact process with social clusters and asymptomatic states*. 2026. [primary source](https://arxiv.org/abs/2610.04323v1) Location: p. 11.
+
+**Literature check.** Status: Paper-origin conjecture. The source proves the N=2 case; its spatial-process results do not establish this mean-field assertion for general N. No matching resolution found, 10 October 2026.
+
+
+<a id="q4126"></a>
+
+## Q4126. Does P(N(X)<∞)=1 imply P(N(Y)<∞)=1?
+
+**Status:** Open · **Kind:** open problem (Question 7.4) · **Collection** 42
+
+Does P(N(X)<∞)=1 imply P(N(Y)<∞)=1?
+
+**Context.** Setup for questions 4126, 4127: For Q4126–Q4127, let Gₙ⊆G′ₙ be deterministic undirected graphs on the same countable V, both increasing in edge sets and with uniformly bounded degrees. Let X,Y be their discrete-time simple random walks starting at v₀; an isolated walker waits. Put N(Z)=#{n≥0:Zₙ=v₀}.
+
+**Source.** Rupert Li and Jiyun Park. *Recurrence and transience of random walks in monotonically changing environments*. 2026. [primary source](https://arxiv.org/abs/2609.28848v2) Location: Conjectures 7.1/7.3 and Question 7.4, pp. 16–17.
+
+**Literature check.** Status: Q4126 restates Dembo–Huang–Sidoravicius’s 2014 conjecture; Q4127–Q4128 are paper-origin residuals. Q4126–Q4127 are distinct because no general recurrence zero-one law is available here. The proved increasing-network results and unbounded-ratio decreasing counterexample settle none of these. No matching resolution found, 10 October 2026.
+
+
+<a id="q4127"></a>
+
+## Q4127. Does P(N(Y)=∞)=1 imply P(N(X)=∞)=1?
+
+**Status:** Open · **Kind:** open problem (Question 7.4) · **Collection** 42
+
+Does P(N(Y)=∞)=1 imply P(N(X)=∞)=1?
+
+**Context.** Setup for questions 4126, 4127: For Q4126–Q4127, let Gₙ⊆G′ₙ be deterministic undirected graphs on the same countable V, both increasing in edge sets and with uniformly bounded degrees. Let X,Y be their discrete-time simple random walks starting at v₀; an isolated walker waits. Put N(Z)=#{n≥0:Zₙ=v₀}.
+
+**Source.** Rupert Li and Jiyun Park. *Recurrence and transience of random walks in monotonically changing environments*. 2026. [primary source](https://arxiv.org/abs/2609.28848v2) Location: Conjectures 7.1/7.3 and Question 7.4, pp. 16–17.
+
+**Literature check.** Status: Q4126 restates Dembo–Huang–Sidoravicius’s 2014 conjecture; Q4127–Q4128 are paper-origin residuals. Q4126–Q4127 are distinct because no general recurrence zero-one law is available here. The proved increasing-network results and unbounded-ratio decreasing counterexample settle none of these. No matching resolution found, 10 October 2026.
+
+
+<a id="q4128"></a>
+
+## Q4128. Must Z visit every vertex only finitely often almost surely?
+
+**Status:** Open · **Kind:** open problem (Question 7.4) · **Collection** 42
+
+Must Z visit every vertex only finitely often almost surely?
+
+**Context.** Setup for question 4128: For Q4128, let deterministic symmetric nonnegative conductances cₙ(x,y) decrease to c∞ on countable V, with πₙ(x)=Σᵧcₙ(x,y)<∞. Assume c∞≥αc₀ for some α>0 and the c∞ network is irreducible and transient. Start Z at any vertex with transition Pₙ(x,y)=cₙ(x,y)/πₙ(x).
+
+**Source.** Rupert Li and Jiyun Park. *Recurrence and transience of random walks in monotonically changing environments*. 2026. [primary source](https://arxiv.org/abs/2609.28848v2) Location: Conjectures 7.1/7.3 and Question 7.4, pp. 16–17.
+
+**Literature check.** Status: Q4126 restates Dembo–Huang–Sidoravicius’s 2014 conjecture; Q4127–Q4128 are paper-origin residuals. Q4126–Q4127 are distinct because no general recurrence zero-one law is available here. The proved increasing-network results and unbounded-ratio decreasing counterexample settle none of these. No matching resolution found, 10 October 2026.
+
+
+<a id="q4129"></a>
+
+## Q4129. For almost every H, do two independent discrete-time simple random walks X,Y on this graph, both…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For almost every H, do two independent discrete-time simple random walks X,Y on this graph, both starting at (0,0), satisfy #{n≥0:Xₙ=Yₙ}=∞ almost surely under their conditional law?
+
+**Context.** Let (Hₓ)ₓ∈Z be independent identically distributed nonnegative real random variables with P(H₀>z)∼Cz^(−1/3) as z→∞, for some C>0. Given H, form the graph with vertices (x,ℓ)∈Z×N₀ satisfying 0≤ℓ≤⌊Hₓ⌋. Edges join (x,0) to (x+1,0), and (x,ℓ) to (x,ℓ+1) whenever both vertices exist.
+
+**Source.** Umberto De Ambroggio, Jenson Ng, Maximilian Nitzschner and Carlo Scali. *On the phase transition for the number of collisions on comb graphs*. 2026. [primary source](https://arxiv.org/abs/2609.05343v1) Location: §4, p. 16.
+
+**Literature check.** Status: Paper-origin boundary-case conjecture, following Theorem 4.1. The graph and collision conventions are on pp. 2–3. The paper proves infinite pair collisions for tail exponents above 1/3 and finite pair collisions below 1/3; its finite triple-collision theorem at the boundary does not decide the pair question. No matching resolution found, 10 October 2026.
+
+
+<a id="q4130"></a>
+
+## Q4130. For each d∈{3,4}, determine whether λp<λ₂, λp=λ₂, or λp>λ₂.
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For each d∈{3,4}, determine whether λp<λ₂, λp=λ₂, or λp>λ₂.
+
+**Context.** On the infinite d-regular tree rooted at o, infected vertices recover at rate 1 and infect each healthy neighbor at rate λ. Let νλ be the limiting infection law from all vertices infected. Write θᵢ(λ),θₕ(λ) for its probabilities that o belongs to an infinite infected, respectively healthy, connected component. Define λp=sup{λ:θᵢ(λ)=0} and λh=inf{λ:θₕ(λ)=0}. Let λ₂=sup{λ:P(o is infected at arbitrarily large times, starting only o infected)=0}.
+
+**Source.** John Fernley and Emmanuel Jacob. *Percolation of the contact process on the regular tree*. 2026. [primary source](https://arxiv.org/abs/2609.09972v1) Location: Remarks 2.2 and 2.6, pp. 3–4.
+
+**Literature check.** Status: Paper-origin residual comparisons. The first inequality is proved for d≥5, and the second for d≥7. The authors do not conjecture a specific ordering in Q4130’s remaining degrees. These questions concern stationary spatial percolation versus local temporal survival, not finite-graph extinction times. No matching resolution found, 10 October 2026.
+
+
+<a id="q4131"></a>
+
+## Q4131. Does λ₂<λh hold for every d∈{3,4,5,6}?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does λ₂<λh hold for every d∈{3,4,5,6}?
+
+**Context.** On the infinite d-regular tree rooted at o, infected vertices recover at rate 1 and infect each healthy neighbor at rate λ. Let νλ be the limiting infection law from all vertices infected. Write θᵢ(λ),θₕ(λ) for its probabilities that o belongs to an infinite infected, respectively healthy, connected component. Define λp=sup{λ:θᵢ(λ)=0} and λh=inf{λ:θₕ(λ)=0}. Let λ₂=sup{λ:P(o is infected at arbitrarily large times, starting only o infected)=0}.
+
+**Source.** John Fernley and Emmanuel Jacob. *Percolation of the contact process on the regular tree*. 2026. [primary source](https://arxiv.org/abs/2609.09972v1) Location: Remarks 2.2 and 2.6, pp. 3–4.
+
+**Literature check.** Status: Paper-origin residual comparisons. The first inequality is proved for d≥5, and the second for d≥7. The authors do not conjecture a specific ordering in Q4130’s remaining degrees. These questions concern stationary spatial percolation versus local temporal survival, not finite-graph extinction times. No matching resolution found, 10 October 2026.
+
+
+<a id="q4134"></a>
+
+## Q4134. Is it true, for every such law and every integer n≥1, that supₓ∈R |P((X₁+⋯+Xₙ)/√n≤x)−Φ(x)|≤cEβ/√n?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Is it true, for every such law and every integer n≥1, that supₓ∈R |P((X₁+⋯+Xₙ)/√n≤x)−Φ(x)|≤cEβ/√n?
+
+**Context.** Let X₁,X₂,… be independent identically distributed real random variables with E[X₁]=0, E[X₁²]=1 and β=E[|X₁|³]<∞. Let Φ be the standard normal distribution function and cE=(3+√10)/(6√(2π)).
+
+**Source.** Hengzhi He and Guang Cheng. *The Berry-Esseen Constant Conjecture is Eventually True*. 2026. [primary source](https://arxiv.org/abs/2609.06358v3) Location: pp. 1–2, especially the paragraph after Theorem 1.1.
+
+**Literature check.** Status: This is the classical sharp-constant conjecture restated in a research paper, not a dissertation-origin question. Version 3 establishes the bound above a universal sample-size threshold, while explicitly leaving all sample sizes open. Its accompanying conditional Lean theorem has the same eventual quantifier. Bell’s September 2026 manuscripts address a weaker universal constant, restricted finite arrays, small Lyapunov ratios, and conditional extremizers; none states this unrestricted iid conclusion. No matching resolution found, 10 October 2026.
+

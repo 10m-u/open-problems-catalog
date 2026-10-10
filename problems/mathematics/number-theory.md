@@ -1,6 +1,6 @@
 # Number Theory
 
-140 problems: 131 open, 9 open, partial results.
+145 problems: 136 open, 9 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -146,6 +146,11 @@
 | [Q3750](number-theory.md#q3750) | For every integer k≥2, is L_{≤k}+L_{≥k}+Z=R? | Open |
 | [Q3751](number-theory.md#q3751) | For every integer k≥1, is F_{≤2k}+F_{≥k}+Z=R? | Open |
 | [Q3752](number-theory.md#q3752) | For every integer k≥2, does L_{≥k}+L_{≥k} contain an interval of positive length? | Open |
+| [Q3805](number-theory.md#q3805) | Is L_X^Ω[k]/L_X[k]=ν(Ω)+O_{k,Ω}(X^{-1/2}log X) as X→∞? | Open |
+| [Q3806](number-theory.md#q3806) | For every fixed odd k≥5 and continuous compactly supported K:F→R, does… | Open |
+| [Q3834](number-theory.md#q3834) | Algebraic projections of differential-equation solutions | Open |
+| [Q4190](number-theory.md#q4190) | Does every integer n admit integers u,v,w satisfying T(u)+T(v)+T(w)=n? | Open |
+| [Q4196](number-theory.md#q4196) | For every prime p₁≡1 mod 6, is there a finite sequence of pairwise distinct primes p₁,…,p_m,… | Open |
 
 <a id="q109"></a>
 
@@ -2524,4 +2529,87 @@ For every integer k≥2, does L_{≥k}+L_{≥k} contain an interval of positive 
 **Literature check.** Status checked October 9, 2026: no later exact resolution located.
 
 **Further links.** [1](https://math.au.dk/forskning/publikationer/instituttets-serier/phd/afhandling/publikation/1597?cHash=bf32082d406c42ebbdb2ef555252b8b4)
+
+
+<a id="q3805"></a>
+
+## Q3805. Is L_X^Ω[k]/L_X[k]=ν(Ω)+O_{k,Ω}(X^{-1/2}log X) as X→∞?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.5.3) · **Collection** 39
+
+Is L_X^Ω[k]/L_X[k]=ν(Ω)+O_{k,Ω}(X^{-1/2}log X) as X→∞?
+
+**Context.** Put F=PSL₂(Z)\H and dν=3dxdy/(πy²). Fix an odd prime k. Collect, with class multiplicity, oriented primitive closed geodesics corresponding to exact-order-k narrow ideal classes of real quadratic fields with fundamental discriminants 0&lt;D&lt;X. A primitive indefinite form [a,b,c] of discriminant D gives the projected geodesic joining the roots of at²+bt+c. Let L_X[k] sum their hyperbolic lengths, and L_X^Ω[k] sum their lengths inside Ω⊂F, with piecewise-smooth boundary.
+
+**Source.** Melanka Saroad Wedige. *Distribution of Prime Order Ideal Classes of Quadratic Class Groups*. University of Maryland, 2024. Advisor(s): Niranjan Ramachandran. [primary source](https://drum.lib.umd.edu/items/30e409b5-c66f-44c7-9744-882646752f0c) Location: thesis Conjecture 3.5.3, p.94; notation p.7; geodesic setup pp.78–80.
+
+**Literature check.** Status, 2026-10-10: no general resolution found in bounded searches.
+
+**Further links.** [1](https://api.drum.lib.umd.edu/server/api/core/bitstreams/1e88f894-e961-4f76-ace4-5ba1f8e7c6ea/content)
+
+
+<a id="q3806"></a>
+
+## Q3806. For every fixed odd k≥5 and continuous compactly supported K:F→R, does…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 39
+
+For every fixed odd k≥5 and continuous compactly supported K:F→R, does lim_{X→∞}(Σ\_{D∈D_X}Σ\_{a∈H_k(−D)}K(z_a))/|D_X|=∫\_F K dμ?
+
+**Context.** Let D_X={D:0&lt;D&lt;X, −D fundamental}. For an ideal class a of Q(√−D), let z_a∈F=PSL₂(Z)\H be its CM point: the ratio of an oriented integral basis of an ideal representative, chosen in H modulo PSL₂(Z). Let H_k(−D) contain exactly the order-k classes; dμ=3dxdy/(πy²).
+
+**Source.** Robert Hough. *Equidistribution of bounded torsion CM points*. 2019. [primary source](https://par.nsf.gov/servlets/purl/10123215) Location: Hough, Equidistribution of bounded torsion CM points, Conjecture 1, p.3.
+
+**Literature check.** Status, 2026-10-10: no general resolution found in bounded searches.
+
+**Further links.** [1](https://par.nsf.gov/biblio/10123215) · [2](https://doi.org/10.1007/s11854-019-0044-4) · [3](https://mathematics.stanford.edu/node/81/phd-alumni)
+
+
+<a id="q3834"></a>
+
+## Q3834. Algebraic projections of differential-equation solutions
+
+**Status:** Open · **Kind:** open problem (Question 3.1.1) · **Collection** 39
+
+For every order-n operator L∈F_p[x][∂], regular singular at 0 with local exponents in F_p, does Ly=0 admit a C_p-basis y_1,…,y_n∈F_p[z_1,z_2,…][[x]] such that setting z_(r+1)=z_(r+2)=⋯=0 gives a series algebraic over F_p(x,z_1,…,z_r) for every r≥0?
+
+**Context.** Origin: Fürnsinn–Hauser–Kawanoue, 2024, Problem 1.1; restated in the thesis. Setup: For prime p, set R_p=F_p(z_1,z_2,…) ((x)), with ∂x=1, ∂z_1=1/x and ∂z_i=1/(xz_1⋯z_(i−1)); its constants are C_p=R_p^p. Sources:
+
+**Source.** Florian Fürnsinn. *Arithmetic and Effective Aspects of Linear Differential Equations*. University of Vienna, 2026. Advisor(s): Alin Bostan and Christian Krattenthaler. [primary source](https://homepage.univie.ac.at/florian.fuernsinn/wp-content/uploads/2026/07/Final3.pdf) Location: Question 3.1.1, p. 50; §3.2
+
+**Literature check.** Status: Checked 10 October 2026: the final thesis retains the general question; no resolution found. Order one and y″=±y are known.
+
+**Further links.** [1](https://homepage.univie.ac.at/florian.fuernsinn/) · [2](https://arxiv.org/abs/2401.14154v2)
+
+
+<a id="q4190"></a>
+
+## Q4190. Does every integer n admit integers u,v,w satisfying T(u)+T(v)+T(w)=n?
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+Does every integer n admit integers u,v,w satisfying T(u)+T(v)+T(w)=n?
+
+**Context.** For any integer u, define the generalized tetrahedral number T(u)=u(u+1)(u+2)/6. Negative indices are allowed; the three indices need not be distinct.
+
+**Source.** Harkaran Uppal. *Integral points on surfaces*. University of Bath, 2025. Advisor(s): Daniel Loughran. [primary source](https://researchportal.bath.ac.uk/en/studentTheses/integral-points-on-surfaces/) Location: Introduction, equation (1.0.1), and §3.6, p.41; restates a question attributed to Zhi-Wei Sun
+
+**Literature check.** Status checked 10 October 2026: Uppal's published original, Integral points on symmetric affine cubic surfaces, manuscripta mathematica 173 (2024), §9.1, p. 1322, retains the question. Local solvability and absence of an integral Brauer–Manin obstruction do not establish global solvability. No later resolution was found.
+
+**Further links.** [1](https://doi.org/10.1007/s00229-023-01498-z)
+
+
+<a id="q4196"></a>
+
+## Q4196. For every prime p₁≡1 mod 6, is there a finite sequence of pairwise distinct primes p₁,…,p_m,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 42
+
+For every prime p₁≡1 mod 6, is there a finite sequence of pairwise distinct primes p₁,…,p_m, with m≥2, such that p_{i+1} divides g(p_i) for 1≤i&lt;m and p₁ divides g(p_m)?
+
+**Context.** Put g(t)=t²−t+1.
+
+**Source.** Jean-Marie De Koninck and Patrick Letendre. *The Integer Values of Σ\_{i=1}ⁿ1/gcd(n,i)*. 2026. [primary source](https://arxiv.org/abs/2610.10572v1) Location: §7, pp. 10–11.
+
+**Literature check.** Status checked 10 October 2026: Current v1 explicitly asks whether this return can always be achieved. Its probabilistic discussion is a heuristic, without a proof of universal existence. No later resolution was found. The sequence may choose any qualifying prime factor at each step; no smallest-factor rule or prescribed length bound is imposed.
 
