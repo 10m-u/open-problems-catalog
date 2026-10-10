@@ -1,0 +1,17 @@
+{
+  "problem": 964,
+  "date": "2026-10-09",
+  "all_passed": true,
+  "arithmetic": "Python standard-library Fraction; exact integer/rational comparisons",
+  "counts": {
+    "state_remainder_inequalities": 12096,
+    "matched_probe_offsets": 252,
+    "estimator_scenarios": 144,
+    "estimator_bounds_strictly_below_one": 96,
+    "independent_clipping_cases": 512,
+    "planners_against_exhaustive_optima": 108,
+    "tail_initial_state_comparisons": 324,
+    "callback_schedule_and_fallback_checks": 2
+  },
+  "evidence_limit": "Finite controls supplement the written uniform proof; no Monte Carlo rate certification or formal proof is claimed."
+}

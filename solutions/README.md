@@ -21,3 +21,4 @@ Each folder holds one round of work: the original report or proof, its statement
 | [catalog-research](catalog-research/README.md) | Proofs, counterexamples and checks on thesis statements | 20 | 7 |
 | [round-2026-10-09](round-2026-10-09/README.md) | Ten problems: five affirmative proofs, two counterexamples, two hardness results and one partial theorem | 10 | 7 |
 | [seven-problems-2026-10-09](seven-problems-2026-10-09/README.md) | Seven problems: three affirmative answers, one nonexistence theorem, and three partial results | 7 | 4 |
+| [seven-more-2026-10-09](seven-more-2026-10-09/README.md) | Seven further problems: two affirmative resolutions, two counterexamples and three partial results | 7 | 4 |

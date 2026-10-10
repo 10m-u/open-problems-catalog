@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-09",
+  "base_commit": "b75acbb7671a16ac38e8f41656b92f211dce5f4a",
+  "all_passed": true,
+  "problem_count": 7,
+  "arithmetic": "Exact integers/rationals; Python standard library only.",
+  "scope": "Computational proofs/controls at the scopes stated in each report; not formal or external peer review.",
+  "checks": [
+    {
+      "checker": "probability/verify_constant_freezing.py",
+      "checker_sha256": "a8a413a5ad817ed264954ab5326f383a24358fcf29c6cc62b5b303d55cd9c19b",
+      "exit_code": 0,
+      "certificates": {
+        "probability/constant_freezing_verification.json": "834cfb6ba87faa9a00208317b3a74a63955741a6d7c17980d3e16e1084b1d7ae"
+      }
+    },
+    {
+      "checker": "learning/check_q964.py",
+      "checker_sha256": "fee506b22b0e7522f204458b0518550fc6793b353247d4d4bf978d846461bde5",
+      "exit_code": 0,
+      "certificates": {
+        "learning/q964-checks.json": "0f15de4425e0cdd03a8644f98f8d6ae8b08fe19ffd67922a2356c88e4de603d7"
+      }
+    },
+    {
+      "checker": "algebra/check_q1715.py",
+      "checker_sha256": "f4153a40519c3c3091f30599437fdd281e4a1eb6b9938da1ac7000fb31947dbe",
+      "exit_code": 0,
+      "certificates": {
+        "algebra/q1715-certificate.json": "1a80a2c854a265fa94405a85f9888dd4d290200d389e7d5e57b8703e680be6e0"
+      }
+    },
+    {
+      "checker": "algebra/check_q2305.py",
+      "checker_sha256": "907d4a86b8b0d86f2f5544f0c3fdc38456be4a3c6ef652a34aa70f3f334ff794",
+      "exit_code": 0,
+      "certificates": {
+        "algebra/q2305-certificate.json": "f9a9a786058f6d188d600a7753505c8cb1007978da6db0c41d979fd645010c88"
+      }
+    },
+    {
+      "checker": "discrete/q3480_enumerate.py",
+      "checker_sha256": "7901332fca48e39d2de909665f0a0250fff78c63e270c594213d36a49c42d446",
+      "exit_code": 0,
+      "certificates": {
+        "discrete/q3480_certificate.json": "7c776e6d4b52e99a314c9b8f1c9d6b4f2177ff21b25c28fb5f71349537bb1fc9"
+      }
+    },
+    {
+      "checker": "discrete/q3480_verify.py",
+      "checker_sha256": "eb8982f27e37526c41ab1ca2b80df84b2aefe3aee0aa453071e7709a17000377",
+      "exit_code": 0,
+      "certificates": {
+        "discrete/q3480_certificate.json": "7c776e6d4b52e99a314c9b8f1c9d6b4f2177ff21b25c28fb5f71349537bb1fc9"
+      }
+    },
+    {
+      "checker": "discrete/q3499_generate.py",
+      "checker_sha256": "9d02988466ede7d7a1fd8a4e2197e83a7706769665e7eb8b22d0b2f3bfb0f985",
+      "exit_code": 0,
+      "certificates": {
+        "discrete/q3499_certificate.json": "afa879b615d73b6b2847e711dcf046fc15f934ab9d69d4709aa3b706fd7e098e"
+      }
+    },
+    {
+      "checker": "discrete/q3499_verify.py",
+      "checker_sha256": "f8f6dbdd147268ebf4f971e94f2e10a39ff11acd24b6ff339e507872f2b33cdb",
+      "exit_code": 0,
+      "certificates": {
+        "discrete/q3499_certificate.json": "afa879b615d73b6b2847e711dcf046fc15f934ab9d69d4709aa3b706fd7e098e"
+      }
+    },
+    {
+      "checker": "reviews/check_probability_enumeration.py",
+      "checker_sha256": "012492825397530ba7b24ba56c10af6454be7d858ce46010e57ae088c215ffda",
+      "exit_code": 0,
+      "certificates": {
+        "reviews/probability-enumeration-review.json": "47ff44f66a9eb9f9f476b573b58a14ee2995705bb993fa519241513fc75273f1"
+      }
+    }
+  ]
+}

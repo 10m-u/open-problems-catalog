@@ -1,0 +1,159 @@
+{
+  "problem": "Q3499",
+  "date": "2026-10-09",
+  "scope": "Counterexample to universal Ehrhart coefficient nonnegativity",
+  "arithmetic": "Python arbitrary-precision integers and fractions.Fraction",
+  "counterexample": {
+    "polygon_vertices": 13,
+    "poset_elements": 28,
+    "degree": 28,
+    "ehrhart_values_m_0_through_30": [
+      1,
+      271445,
+      1385949918,
+      877340735462,
+      156177488055984,
+      11902459615510642,
+      494757747455810373,
+      13051506551933907751,
+      241662482885323056727,
+      3369862390508482525631,
+      37245314403986060597342,
+      339021637403503530334586,
+      2617456221441086237760795,
+      17542474064630604110215663,
+      103973036245875639888053533,
+      553256064911103617131555697,
+      2676184061438384290441196324,
+      11890646833881739967235046600,
+      48955814303757390893220712585,
+      188172792250900373667177245665,
+      679594049491184276632036284501,
+      2318962343791437012659833840635,
+      7512595437210997038194502433428,
+      23204926597039568107974447244122,
+      68594301780443851631750127955540,
+      194693993410150139220877339235276,
+      532175840647708987551340966567875,
+      1404565332879944463336008286227951,
+      3587915312358916716605780580224674,
+      8889630433571731896796070033374794,
+      21404538744202171945527447631225062
+    ],
+    "coefficients_ascending": [
+      "1",
+      "-298495711/35302608",
+      "1329213400279301/5497008316800",
+      "208257974614891841683/280512334406304000",
+      "132512100632570548474939/78543453633765120000",
+      "2435263334361999797263/462382968801600000",
+      "25763866327953723267877/2055035416896000000",
+      "220571924434403165341703/10132218098956800000",
+      "12786710908580597278407781/405288723958272000000",
+      "39533317075402823852579/994799595170304000",
+      "1354436574953327322148121/31652714391782400000",
+      "20395704369903722491/519423347520000",
+      "28378170002785639347197/914185091635200000",
+      "50062274643258639299/2352682221120000",
+      "30913342859011208206081/2446789509964800000",
+      "4755840232341331500083/734036852989440000",
+      "588583082015517460287281/205530318837043200000",
+      "49714880320004362591/45709254581760000",
+      "80605844378553722399/228546272908800000",
+      "667837976992395821/6908330522016000",
+      "694446655736985911/31401502372800000",
+      "53910657866915789/12953119728780000",
+      "790345999091207987/1246737773895075000",
+      "5978561636208893/78027125985270000",
+      "11172960926603131/1560542519705400000",
+      "679917838293427/1365474704742225000",
+      "2151684549708527/88755855808244625000",
+      "14717667114151/19970067556855040625",
+      "14717667114151/1397904728979852843750"
+    ],
+    "negative_coefficient_degrees": [
+      1
+    ]
+  },
+  "family_controls": [
+    {
+      "polygon_vertices": 3,
+      "degree": 8,
+      "linear_coefficient": "313/84",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 4,
+      "degree": 10,
+      "linear_coefficient": "6133/1260",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 5,
+      "degree": 12,
+      "linear_coefficient": "33557/5544",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 6,
+      "degree": 14,
+      "linear_coefficient": "436003/60060",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 7,
+      "degree": 16,
+      "linear_coefficient": "1523/180",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 8,
+      "degree": 18,
+      "linear_coefficient": "898843/92820",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 9,
+      "degree": 20,
+      "linear_coefficient": "7654399/705432",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 10,
+      "degree": 22,
+      "linear_coefficient": "284483531/23279256",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 11,
+      "degree": 24,
+      "linear_coefficient": "385756663/30421755",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 12,
+      "degree": 26,
+      "linear_coefficient": "3458260001/191222460",
+      "negative_coefficient_degrees": [],
+      "all_coefficients_strictly_positive": true
+    },
+    {
+      "polygon_vertices": 13,
+      "degree": 28,
+      "linear_coefficient": "-298495711/35302608",
+      "negative_coefficient_degrees": [
+        1
+      ],
+      "all_coefficients_strictly_positive": false
+    }
+  ]
+}

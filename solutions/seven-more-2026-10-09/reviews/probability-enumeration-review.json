@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09",
+  "all_passed": true,
+  "labeled_connected_graphs_examined": 1685,
+  "isomorphism_classes_through_five_edges": 22,
+  "increasing_truth_table_counts_zero_through_four_bits": [
+    2,
+    3,
+    6,
+    20,
+    168
+  ],
+  "scope": "Coverage cross-check only; the original checker certifies every polynomial sign through its stated ranges."
+}
