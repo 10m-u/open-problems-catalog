@@ -604,3 +604,87 @@ Do a computable f and a polynomial-time independence-oracle algorithm exist that
 
 **Literature check.** Status: Latest v3 dated 2026-10-02 inspected; bounded 2026-10-09 check found no resolution.
 
+
+<a id="q3661"></a>
+
+## Q3661. Is satisfiability for PML(p,s,¬) EXPTIME-complete with unbounded input relation symbols and arities?
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Is satisfiability for PML(p,s,¬) EXPTIME-complete with unbounded input relation symbols and arities?
+
+**Context.** On nonempty W, Boolean formulas use ⟨R⟩(φ₁,…,φ\_k), true at w when some (w,w₁,…,w_k)∈R has φ\_i true at w_i. Relation operations p,s cyclically permute coordinates and swap the last two; ¬ complements in W^arity, and ∩ intersects equal-arity relations.
+
+**Source.** Reijo Jaakkola. *Complexity of Polyadic Boolean Modal Logics*. 2023. [primary source](https://doi.org/10.4230/LIPIcs.CSL.2023.26) Location: §6, p.26:16.
+
+**Literature check.** Status: These are distinct unsolved extensions of the paper’s theorems. Later work checked October 9, 2026; no resolution located.
+
+
+<a id="q3662"></a>
+
+## Q3662. For fixed c≥2, is satisfiability for PML(p,s,¬,∩) plus binary identity I={(w,w):w∈W}…
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For fixed c≥2, is satisfiability for PML(p,s,¬,∩) plus binary identity I={(w,w):w∈W} EXPTIME-complete, allowing at most c relation symbols of arity at most c?
+
+**Context.** On nonempty W, Boolean formulas use ⟨R⟩(φ₁,…,φ\_k), true at w when some (w,w₁,…,w_k)∈R has φ\_i true at w_i. Relation operations p,s cyclically permute coordinates and swap the last two; ¬ complements in W^arity, and ∩ intersects equal-arity relations.
+
+**Source.** Reijo Jaakkola. *Complexity of Polyadic Boolean Modal Logics*. 2023. [primary source](https://doi.org/10.4230/LIPIcs.CSL.2023.26) Location: §6, p.26:17.
+
+**Literature check.** Status: These are distinct unsolved extensions of the paper’s theorems. Later work checked October 9, 2026; no resolution located.
+
+
+<a id="q3666"></a>
+
+## Q3666. For every fixed finite nonbipartite simple graph H, is its oracular quantum homomorphism problem…
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For every fixed finite nonbipartite simple graph H, is its oracular quantum homomorphism problem recursively-enumerable-complete? Input: finite simple G. A solution consists of d≥1 and complex Hermitian projections P_{x,a}, indexed by x∈V(G),a∈V(H), with Σ\_a P_{x,a}=I_d; P_{x,a}P_{y,b}=0 whenever xy∈E(G),ab∉E(H); and [P_{x,a},P_{y,b}]=0 for every a,b whenever xy∈E(G).
+
+**Source.** Ciardo, Hebbeker, Joubert, Kreiß and Mottet. *Schrijver-Delsarte rigidity in association schemes and undecidability of quantum graph homomorphism*. 2026. [primary source](https://arxiv.org/abs/2609.20678) Location: §2, p.12; Definition 2.1, p.4.
+
+**Literature check.** Status: The latest paper proves special target families and explicitly leaves this classification open. Later-result check October 9, 2026 found no resolution.
+
+
+<a id="q3667"></a>
+
+## Q3667. Fix c≥1 and a finite family F of finite simple graphs with edges colored from [c]. Given a…
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 37
+
+Fix c≥1 and a finite family F of finite simple graphs with edges colored from [c]. Given a finite simple graph G, ask whether its edges admit a [c]-coloring such that no member of F has a color-preserving graph homomorphism into G. For every fixed c,F, is this decision problem in P or NP-complete?
+
+**Source.** Barsukov, Mottet and Perinti. *Edge-coloring problems with forbidden patterns and planted colors*. 2026. [primary source](https://arxiv.org/abs/2507.19000) Location: Problem 1, p.1; §1.1, p.2.
+
+**Literature check.** Status: This restates the earlier GMSNP dichotomy problem. The latest paper handles special forbidden families; current versions and later results checked October 9, 2026, with no general resolution located.
+
+
+<a id="q3668"></a>
+
+## Q3668. Are cyclic arithmetic and Peano arithmetic exponentially separated in shortest proof size?…
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Are cyclic arithmetic and Peano arithmetic exponentially separated in shortest proof size? Precisely, do ε>0 and arbitrarily large cyclic proofs π of sentences φ exist such that every PA proof of φ has size ≥2^{|π|^ε}? Use the ordinary sequent calculi with cut and symbol-count size. Cyclic arithmetic replaces induction by finite directed proof graphs over Robinson arithmetic; every infinite unfolded branch must admit, on some tail, a term trace respecting substitutions, nonincreasing at each step and strictly decreasing infinitely often through antecedent inequalities.
+
+**Source.** Dominik Wehr. *Cyclic Proof Theory*. University of Gothenburg, 2025. Advisor(s): Graham E. Leigh and Bahareh Afshari. [primary source](https://hdl.handle.net/2077/89733) Location: Dissertation §3.5, p.57; Das, On the logical complexity of cyclic arithmetic (2020), §§2–3,10.2.
+
+**Literature check.** Status: The dissertation reaffirms Das’s question. Leigh–Wehr’s September 2026 publisher final, §6.4, gives translation upper bounds and does not settle separation. Current sources checked October 9, 2026.
+
+
+<a id="q3684"></a>
+
+## Q3684. Subquadratic-logarithmic generating-set algorithm
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Does GENERATING SET admit an O\*(2^{o((log s)²)})-time algorithm?
+
+**Context.** Doctoral connection: Algorithms and Graph Structures for Splitting Network Flows, in Theory and Practice; University of Helsinki, 2025; advisers Alexandru I. Tomescu. Given a nonempty finite set A of positive integers and positive integer k, GENERATING SET asks whether some k-element set Z of positive integers has every a∈A as a subset sum. Put s=max A; O\*(·) suppresses polynomial factors in binary input length. Authors: Andreas Grigorjew, Wanchote Jiamjitrak, Brendan Mumey, Alexandru I. Tomescu. Explicit question in the conclusion; linked to minimum-flow-decomposition complexity.
+
+**Source.** Andreas Grigorjew, Wanchote Jiamjitrak, Brendan Mumey and Alexandru I. Tomescu. *Width Parameters for Minimum Flow Decomposition*. 2024. [primary source](https://arxiv.org/abs/2409.20278) Location: Section 6, p.17; Definition 10, p.6.
+
+**Literature check.** Status: v2, 2025-11-26; no later resolution found by 2026-10-09.
+

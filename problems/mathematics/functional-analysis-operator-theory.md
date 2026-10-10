@@ -1,6 +1,6 @@
 # Functional Analysis & Operator Theory
 
-225 problems: 223 open, 1 open, partial results, 1 solved here: proved.
+235 problems: 233 open, 1 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -231,6 +231,16 @@
 | [Q3548](functional-analysis-operator-theory.md#q3548) | Smooth norm away from countably many hyperplanes | Open |
 | [Q3549](functional-analysis-operator-theory.md#q3549) | Subspacewise differentiability forcing Asplundness | Open |
 | [Q3550](functional-analysis-operator-theory.md#q3550) | Pre-regular vector spaces without quasi-regularity | Open |
+| [Q3642](functional-analysis-operator-theory.md#q3642) | Generating cones in higher-order zero-boundary Sobolev spaces | Open |
+| [Q3643](functional-analysis-operator-theory.md#q3643) | Lattice structure from positive approximation | Open |
+| [Q3644](functional-analysis-operator-theory.md#q3644) | Mean ergodicity of positive kernel semigroups | Open |
+| [Q3646](functional-analysis-operator-theory.md#q3646) | Quarter-turn extremality for absolute symmetric plane norms | Open |
+| [Q3648](functional-analysis-operator-theory.md#q3648) | Diametral slices without diametral weak neighborhoods | Open |
+| [Q3651](functional-analysis-operator-theory.md#q3651) | Strong regularity with the super alternative Daugavet property | Open |
+| [Q3740](functional-analysis-operator-theory.md#q3740) | If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed? | Open |
+| [Q3743](functional-analysis-operator-theory.md#q3743) | If A∈C₁ and Ã vanishes at infinity, does some compact K satisfy K̃=Ã? | Open |
+| [Q3744](functional-analysis-operator-theory.md#q3744) | Is {T_a:a∈BUC(C)} norm-dense in C₁ for every k≥2? | Open |
+| [Q3747](functional-analysis-operator-theory.md#q3747) | For every reflexive Banach space X, every nonempty closed bounded convex C⊂X, and every… | Open |
 
 <a id="q370"></a>
 
@@ -3991,4 +4001,168 @@ Does a pre-regular real mixed lattice vector space exist which is not quasi-regu
 **Literature check.** Status: The 2026 final mixed-order paper was inspected; its discrete and irregular examples do not settle this question.
 
 **Further links.** [1](https://trepo.tuni.fi/handle/10024/155949)
+
+
+<a id="q3642"></a>
+
+## Q3642. Generating cones in higher-order zero-boundary Sobolev spaces
+
+**Status:** Open · **Kind:** open problem (Problem 3.7) · **Collection** 37
+
+For nonempty open Ω⊂R^d, p∈[1,∞] and integer k≥2, characterize when every f∈W₀^{k,p}(Ω) is a difference of two nonnegative members.
+
+**Context.** Paper: The lattice structure of negative Sobolev and extrapolation spaces; 2026 v4 Genealogy: Sahiba Arora, Long-term behaviour of operator semigroups and (anti-)maximum principles, Dresden doctoral dissertation submitted 2022; advisor Ralph Chill. Setup: Use real spaces. W₀^{k,p}(Ω) is the W^{k,p}-closure of C_c^∞(Ω), ordered almost everywhere. An ordered Banach space has a norm-closed proper convex cone. Positive operators preserve cones. Origin: Open Problems 3.7 and 5.1(a); follow-on from Arora’s doctoral work.
+
+**Source.** Sahiba Arora, Jochen Glück and Felix L. Schwenninger. *The lattice structure of negative Sobolev and extrapolation spaces*. 2026. [primary source](https://arxiv.org/abs/2404.02116v4) Location: Open Problem 3.7, p.13.
+
+**Literature check.** Status: June 2026 v4 explicitly retains these questions.
+
+
+<a id="q3643"></a>
+
+## Q3643. Lattice structure from positive approximation
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Let X be a Banach lattice, Z an ordered Banach space, S:Z→X a positive bounded linear bijection, J:X→Z positive and bounded, and R_n:Z→X positive and bounded with JR_n→I_Z strongly. Must span(Z₊) be a vector lattice in the inherited order?
+
+**Context.** Paper: The lattice structure of negative Sobolev and extrapolation spaces; 2026 v4 Genealogy: Sahiba Arora, Long-term behaviour of operator semigroups and (anti-)maximum principles, Dresden doctoral dissertation submitted 2022; advisor Ralph Chill. Setup: Use real spaces. W₀^{k,p}(Ω) is the W^{k,p}-closure of C_c^∞(Ω), ordered almost everywhere. An ordered Banach space has a norm-closed proper convex cone. Positive operators preserve cones. Origin: Open Problems 3.7 and 5.1(a); follow-on from Arora’s doctoral work.
+
+**Source.** Sahiba Arora, Jochen Glück and Felix L. Schwenninger. *The lattice structure of negative Sobolev and extrapolation spaces*. 2026. [primary source](https://arxiv.org/abs/2404.02116v4) Location: Open Problems 5.1(a), p.15.
+
+**Literature check.** Status: June 2026 v4 explicitly retains these questions.
+
+
+<a id="q3644"></a>
+
+## Q3644. Mean ergodicity of positive kernel semigroups
+
+**Status:** Open · **Kind:** open problem (Problem 12) · **Collection** 37
+
+Suppose X=L^p(Ω,μ), 1≤p≤∞, μ is σ-finite, and every T(t), t>0, has a nonnegative measurable integral kernel. If T is mean ergodic, must T(t)f converge in norm for every f as t→∞?
+
+**Context.** Paper: Open problems in one-parameter operator semigroups theory; 2024 v2 Setup: Let (T(t))\_{t≥0} be a strongly continuous semigroup on a Banach space X. Mean ergodicity means (1/R)∫₀ᴿT(t)fdt converges in norm for every f. Origin: Madou–Remizov–Vafadar’s problem list; Problem 12 communicated by Gerlach.
+
+**Source.** Kodjo Raphaël Madou, Ivan Remizov and Reihaneh Vafadar. *Open problems in one-parameter operator semigroups theory*. 2024. [primary source](https://arxiv.org/abs/2410.00416v2) Location: Open problems in one-parameter operator semigroups theory, Problem 12, p.9.
+
+**Literature check.** Status: Latest v2 inspected; bounded current searches found no general resolution.
+
+
+<a id="q3646"></a>
+
+## Q3646. Quarter-turn extremality for absolute symmetric plane norms
+
+**Status:** Open · **Kind:** open problem (Question 4.5) · **Collection** 37
+
+For X=(R²,N), assume N(1,0)=N(0,1)=1 and N(a,b)=N(|a|,|b|)=N(b,a). Must n(X)=v(J), where J(a,b)=(−b,a)?
+
+**Context.** Doctoral route: Geometric Structures in Banach Spaces: Differentiability, Operators and their Dynamics; Universitat Politècnica de València; 2025 Advisors: Antonio José Guirao Sánchez, Vicente Montesinos Santalucía, Alfred Peris Manguillot Setup: Work over R. For a normed space X, v(T)=sup{|x\*(Tx)|:||x||=||x\*||=x\*(x)=1} and n(X)=inf_{||T||=1}v(T). Origin: Dissertation Introduction Question 4.5.
+
+**Source.** Christian Cobollo Gómez. *Geometric Structures in Banach Spaces: Differentiability, Operators and their Dynamics*. Universitat Politècnica de València, 2025. Advisor(s): Antonio José Guirao Sánchez, Vicente Montesinos Santalucía, Alfred Peris Manguillot. [primary source](https://riunet.upv.es/server/api/core/bitstreams/e5608006-65bf-48d5-a31c-a0595dd95708/content) Location: Introduction, Question 4.5, p.23.
+
+**Literature check.** Status: June 2026 determines n(ℓp²); arbitrary absolute symmetric plane norms are a broader class.
+
+
+<a id="q3648"></a>
+
+## Q3648. Diametral slices without diametral weak neighborhoods
+
+**Status:** Open · **Kind:** open problem (Problem 2) · **Collection** 37
+
+Does a real Banach space with DLD2P but without DD2P exist?
+
+**Context.** Doctoral route: Diametral diameter two properties, Daugavet-, and Δ-points in Banach spaces; University of Tartu; 2020 Advisors: Trond Arnold Abrahamsen, Rainis Haller, Johann Langemets Setup: For a real Banach space X, let B_X and S_X denote its closed unit ball and unit sphere. Slices are S(x\*,α)={x∈B_X:x\*(x)>1−α}, where ||x\*||=1 and α>0. Say DLD2P holds if sup_{y∈S}||x−y||=2 for every slice S and x∈S∩S_X; DD2P replaces slices by all nonempty relatively weakly open subsets of B_X. Origin: Thesis Problem 2, restating Becerra Guerrero–López-Pérez–Rueda Zoca.
+
+**Source.** Katriin Pirk. *Diametral diameter two properties, Daugavet-, and Δ-points in Banach spaces*. University of Tartu, 2020. Advisor(s): Trond Arnold Abrahamsen, Rainis Haller, Johann Langemets. [primary source](https://dspace.ut.ee/server/api/core/bitstreams/10294299-6d8d-424c-b0e1-9b006462fd84/content) Location: Perspectives, Problem 2, p.46.
+
+**Literature check.** Status: Reaffirmed explicitly in July 2026 arXiv:2607.04370, p.2.
+
+
+<a id="q3651"></a>
+
+## Q3651. Strong regularity with the super alternative Daugavet property
+
+**Status:** Open · **Kind:** open problem (Question 6.2) · **Collection** 37
+
+Does an infinite-dimensional strongly regular Banach space with the super ADP exist?
+
+**Context.** Paper: The super Alternative Daugavet property for Banach spaces; 2026 final Setup: For a real or complex Banach space X, super ADP means sup_{y∈W}max_{|θ|=1}||x+θy||=2 for every x∈S_X and nonempty relatively weakly open W⊂B_X meeting S_X. Strong regularity means every nonempty closed bounded convex C⊂X has finite convex combinations of slices of arbitrarily small diameter. A slice is {x∈C:Re f(x)>sup_C Re f−α}, with 0≠f∈X\* and α>0. Origin: Final article Question 6.2; reached through Pirk’s advisor Langemets.
+
+**Source.** Johann Langemets, Marcus Lõo, Miguel Martín, Yoël Perreau and Abraham Rueda Zoca. *The super Alternative Daugavet property for Banach spaces*. 2026. [primary source](https://doi.org/10.1017/S0013091525101168) Location: Question 6.2, p.497; Definition 1.2, p.472.
+
+**Literature check.** Status: July 2026 unconditional-basis restrictions do not settle strong regularity.
+
+
+<a id="q3740"></a>
+
+## Q3740. If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed?
+
+**Status:** Open · **Kind:** open problem (Problem 25) · **Collection** 38
+
+If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed?
+
+**Context.** Madou, Remizov and Vafadar edit this problem list. Doctoral route: Sahiba Arora, Long-term behaviour of operator semigroups and (anti-)maximum principles, TU Dresden, submitted 2022; supervisor Ralph Chill. Origin: Yuri Latushkin, Bari 2003, as attributed in Problem 25. Let (T(t))\_{t≥0} be a strongly continuous semigroup of bounded linear operators on a Banach space X, with generator A.
+
+**Source.** Kodjo Raphaël Madou, Ivan Remizov and Reihaneh Vafadar. *Open problems in one-parameter operator semigroups theory*. 2024. [primary source](https://arxiv.org/abs/2410.00416v2) Location: Problem 25, p. 19
+
+**Literature check.** Status: October 2024 v2 inspected; latest record rechecked.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://d-nb.info/1281002844/34)
+
+
+<a id="q3743"></a>
+
+## Q3743. If A∈C₁ and Ã vanishes at infinity, does some compact K satisfy K̃=Ã?
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 38
+
+If A∈C₁ and Ã vanishes at infinity, does some compact K satisfy K̃=Ã?
+
+**Context.** Robert Fulsche: Hannover PhD, Toeplitz operators and generated algebras on non-Hilbertian spaces (2020); advisor Wolfram Bauer. Origin: Fulsche–Hagger, §5, refining Hagger’s earlier Questions 32–33. In L²(C,π⁻¹e^{−|z|²}dA), put F_k=ker(∂̄^k)⊖ker(∂̄^{k−1}), k≥2, with orthogonal projection P_k. Let W_zf(w)=e^{w z̄−|z|²/2}f(w−z), C₁={A∈B(F_k):||W_zAW_z\*−A||→0 as z→0}, and T_a=P_kM_a|\_{F_k}, where M_af=af. For normalized reproducing kernels k_z, write Ã(z)=⟨Ak_z,k_z⟩. BUC means bounded uniformly continuous functions.
+
+**Source.** Fulsche and Hagger. *Quantum Harmonic Analysis for Polyanalytic Fock Spaces*. 2024. [primary source](https://doi.org/10.1007/s00041-024-10124-9) Location: Question 1, p. 38
+
+**Literature check.** Status: Final JFAA 30:63 (2024) inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://research.uni-hannover.de/de/publications/toeplitz-operators-and-generated-algebras-on-non-hilbertian-space/)
+
+
+<a id="q3744"></a>
+
+## Q3744. Is {T_a:a∈BUC(C)} norm-dense in C₁ for every k≥2?
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 38
+
+Is {T_a:a∈BUC(C)} norm-dense in C₁ for every k≥2?
+
+**Context.** Robert Fulsche: Hannover PhD, Toeplitz operators and generated algebras on non-Hilbertian spaces (2020); advisor Wolfram Bauer. Origin: Fulsche–Hagger, §5, refining Hagger’s earlier Questions 32–33. In L²(C,π⁻¹e^{−|z|²}dA), put F_k=ker(∂̄^k)⊖ker(∂̄^{k−1}), k≥2, with orthogonal projection P_k. Let W_zf(w)=e^{w z̄−|z|²/2}f(w−z), C₁={A∈B(F_k):||W_zAW_z\*−A||→0 as z→0}, and T_a=P_kM_a|\_{F_k}, where M_af=af. For normalized reproducing kernels k_z, write Ã(z)=⟨Ak_z,k_z⟩. BUC means bounded uniformly continuous functions.
+
+**Source.** Fulsche and Hagger. *Quantum Harmonic Analysis for Polyanalytic Fock Spaces*. 2024. [primary source](https://doi.org/10.1007/s00041-024-10124-9) Location: Question 2, p. 40
+
+**Literature check.** Status: Final JFAA 30:63 (2024) inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://research.uni-hannover.de/de/publications/toeplitz-operators-and-generated-algebras-on-non-hilbertian-space/)
+
+
+<a id="q3747"></a>
+
+## Q3747. For every reflexive Banach space X, every nonempty closed bounded convex C⊂X, and every…
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+For every reflexive Banach space X, every nonempty closed bounded convex C⊂X, and every nonexpansive T:C→C, must T have a fixed point?
+
+**Context.** Enrique Llorens-Fuster–Elena Moreno Gálvez, Opuscula Mathematica (2026), DOI10.7494/OpMath.202511141. Origin: Classical reflexive fixed-point problem, reaffirmed in the introduction. Dissertation search did not authenticate Stawski’s doctoral metadata. A map T:C→C is nonexpansive when ||Tx−Ty||≤||x−y|| for all x,y∈C.
+
+**Source.** Enrique Llorens-Fuster and Elena Moreno Gálvez. *Fixed Point Theory for Jaggi L-type Mappings*. 2026. [primary source](https://www.opuscula.agh.edu.pl/onlinefirst-art/opuscula_math_202511141.pdf) Location: Introduction, p. 1
+
+**Literature check.** Status: Final online-first 2026 paper inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
 

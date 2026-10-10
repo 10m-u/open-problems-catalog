@@ -2,6 +2,44 @@
 
 [Subject overview](probability-stochastic-processes.md) · Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md)
 
+<a id="q2086"></a>
+
+## Q2086. Remove lacunarity from pairwise-independent means
+
+**Status:** Open · **Kind:** open problem (Problem 5.3) · **Collection** 21
+
+For pairwise independent identically distributed X_n with E X_n=0 and E|X_n|≤μ<∞, do Y_n=(X₁+⋯+X_n)/n have an explicit uniform learnable bound depending only on μ,λ,ε, without restrictions on b_k/a_k?
+
+**Context.** Origin for questions 2085, 2086: Remark 5.2 and the first question preceding Problem 5.3. Setup for questions 2085, 2086: For real random variables Y_n, put Cε(a,b)={max_{a≤i,j≤b}|Y_i−Y_j|>ε}. A uniform learnable bound ψ satisfies: for every a₀&lt;b₀≤a₁&lt;b₁≤⋯ and λ,ε∈(0,1], some k≤ψ(λ,ε) has P(Cε(a_k,b_k))≤λ. Let Jε be the supremum of k with i₁&lt;j₁≤⋯≤i_k&lt;j_k and |Y_{i_l}−Y_{j_l}|>ε for every l.
+
+**Source.** Morenikeji Neri. *Oscillations in the Strong Law of Large Numbers, 2026 preprint; Proceedings AMS forthcoming*. 2026. [primary source](https://kejineri.github.io/Papers/Oscillations_in_the_SLLN_submitted.pdf) Location: §5, p. 19, first question preceding Problem 5.3; Theorem 1.5.
+
+**Literature check.** Status for questions 2085, 2086, checked 6 October 2026: current author manuscript retains these questions.
+
+**Further links.** [1](https://arxiv.org/abs/2511.01676) · [2](https://arxiv.org/abs/2602.22741) · [3](https://arxiv.org/abs/2604.08078) · [4](https://nicholaspischke.github.io/bib/ref_name.html)
+
+
+<a id="q2087"></a>
+
+## Q2087. Small reinforcement in dimensions three to five
+
+**Status:** Open · **Kind:** open problem · **Collection** 21
+
+For every d∈{3,4,5}, is there a_d>0 such that this walk on Z^d is almost surely transient whenever 0&lt;a&lt;a_d?
+
+**Context.** Origin for questions 2087, 2088, 2089: Lattice phase conjecture: Vladas Sidoravicius, circa 2010; first printed in Beffara’s 2011 habilitation. Setup for questions 2087, 2088, 2089: A walk starts at 0. Each undirected edge initially has weight 1, permanently changed to 1+a after its first crossing, a>0. At every discrete step it selects an incident edge proportionally to its current weight. Recurrence means infinitely many returns to 0.
+
+**Source.** Dor Elboim and Gady Kozma. *Once-reinforced random walk in high dimensions, 2026*. 2026. [primary source](https://arxiv.org/abs/2601.17972) Location: Introduction and §1.1, pp. 1–2.
+
+**Literature check.** Status for questions 2087, 2088, 2089, checked 6 October 2026: September range paper still records the lattice gap; no strip resolution found.
+
+**Results.**
+
+- **Investigated, unresolved** (B5: submitted unresolved): No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation. Remaining/limits: The exact retained statement remains unresolved in this investigation. Intake: Scope and identity checked; no independent proof or renewed literature audit of this question. [Report](../../solutions/b5-2026-10-07/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2610.00090) · [2](https://arxiv.org/abs/1807.07167) · [3](https://doi.org/10.1214/21-AIHP1151)
+
+
 <a id="q2088"></a>
 
 ## Q2088. Large-reinforcement lattice recurrence
@@ -3370,4 +3408,474 @@ Is R_c^NN(∞)=R_c^dec=1?
 **Literature check.** Status: Explicitly open in July2026 v1; no later resolution located by 2026-10-09.
 
 **Further links.** [1](https://marcovici.perso.math.cnrs.fr/These/Marcovici_These2013.pdf)
+
+
+<a id="q3685"></a>
+
+## Q3685. Asymmetric capital and draw probability
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+When κ=3, is d_{1,2}(p)≥d_{2,1}(p) for every χ and every probability vector p?
+
+**Context.** Origin: Karmakar–Podder–Roy–Sadhukhan, Percolation games on rooted, edge-weighted random trees. Setup: A rooted Galton–Watson tree with fixed offspring law χ on ℕ₀, χ(0)<1 is revealed to both players. Independently, each edge has weight a∈{−1,0,1} with probability p_a. Starting at the root with capitals i,j∈{1,…,κ−1}, player 1 moves first; players alternate moving to a child and adding that edge’s weight to their own capital. Reaching κ wins; reaching 0 loses; a player with no move loses. Let d_{i,j}(p) be the probability neither player can force a win.
+
+**Source.** Karmakar, Podder, Roy and Sadhukhan. *Percolation games on rooted, edge-weighted random trees*. 2024. [primary source](https://arxiv.org/abs/2406.00831v2) Location: §5, second unnumbered conjecture, p.17.
+
+**Literature check.** Status: Current arXiv v2 (15 January 2025) retains this conjecture; no later resolution located in bounded checks on 9 October 2026.
+
+**Further links.** [1](https://cims.nyu.edu/newsletters/Spring2019.pdf)
+
+
+<a id="q3686"></a>
+
+## Q3686. Trap-density monotonicity of draws
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+On {x∈ℤ^d:Σ\_i x_i is even}, d≥3, with moves x→x+e_d±e_i, 1≤i&lt;d, is draw probability non-increasing in p?
+
+**Context.** Origin: Holroyd–Marcovici–Martin, Percolation games, probabilistic cellular automata, and the hard-core model. Setup: Independently mark each site of the specified lattice with probability p∈(0,1). Both players know the board and alternately move a token from 0 to an allowed unmarked site. A player with no legal move loses; a draw means neither player can force a win.
+
+**Source.** Alexander E. Holroyd, Irène Marcovici and James B. Martin. *Percolation games, probabilistic cellular automata, and the hard-core model*. 2019. [primary source](https://ora.ox.ac.uk/objects/uuid:c1fe26b5-b6bb-4493-8beb-cac3c0a99c6f) Location: §4.3, accepted manuscript pp.32–33 (arXiv v3 p.32).
+
+**Literature check.** Status: Full arXiv v3 and relevant October2018 accepted-manuscript passages were inspected; the latter reaffirm these questions. No resolution located by 2026-10-09.
+
+**Further links.** [1](https://marcovici.perso.math.cnrs.fr/These/Marcovici_These2013.pdf)
+
+
+<a id="q3687"></a>
+
+## Q3687. Uniqueness in lattice-conditioned continuum percolation
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For each p∈[1,∞] and either CN or NN, does every R>R_c give almost surely exactly one infinite connected component?
+
+**Context.** Origin: Casse–Marcovici–Poutrel, Gilbert’s disc model conditioned on the square lattice. Setup: Choose independent P_z uniformly in z+[0,1]², z∈ℤ². For p∈[1,∞], G^CN_{p,R} joins z≠w when ‖P_z−P_w‖\_p≤R; G^NN_{p,R} keeps only edges with ‖z−w‖₁=1. In each model R_c is the infimum of R for which the origin has positive probability of belonging to an infinite component.
+
+**Source.** Casse, Marcovici and Poutrel. *Gilbert’s disc model conditioned on the square lattice*. 2026. [primary source](https://arxiv.org/abs/2607.14062v1) Location: §5, unnumbered uniqueness conjecture, printed p.29.
+
+**Literature check.** Status: Explicitly open in July2026 v1; no later resolution located by 2026-10-09.
+
+
+<a id="q3690"></a>
+
+## Q3690. Is Δ\_{p_c}<∞ for every sufficiently large d?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.48) · **Collection** 37
+
+Is Δ\_{p_c}<∞ for every sufficiently large d?
+
+**Context.** Take intensity-λ Poisson–Voronoi percolation in ℝᵈ (d≥2), black-cell probability p, threshold p_c. Let τ\_p(x,y) be the connectivity probability after inserting x,y as black; Δ\_p=λ²∫\_{ℝᵈ}∫\_{ℝᵈ}τ\_p(0,x)τ\_p(x,y)τ\_p(y,0)dxdy. G(n,α) has n i.i.d. uniform unit-Sᵈ vertices, joined when geodesic distance>π−α. A_n sharply thresholds χ>k if probabilities at (1−ε)A_n and (1+ε)A_n tend to 0 and 1 for each ε∈(0,1). Let c₂=(σ\_dλ\_AB)¹ᐟᵈ, with σ\_d sphere area and λ\_AB the critical equal intensity of two independent Euclidean Poisson processes joined across types at distance≤1.
+
+**Source.** Matthias Irlbeck. *High-Dimensional Poisson–Voronoi Geometry and Threshold Phenomena*. University of Groningen, 2026. Advisor(s): Tobias Müller, Pieter Trapman. [primary source](https://www.matthiasirlbeck.com/documents/PhD_thesis_matthias_irlbeck.pdf) Location: Conjecture 3.48, p.77
+
+**Literature check.** Status: September 2026 thesis and March 2026 v2 inspected; no later resolution located.
+
+
+<a id="q3691"></a>
+
+## Q3691. For d≥2, does some c>0 make c(log n/n)¹ᐟᵈ a sharp threshold for χ>d+1?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 4.51) · **Collection** 37
+
+For d≥2, does some c>0 make c(log n/n)¹ᐟᵈ a sharp threshold for χ>d+1?
+
+**Context.** Take intensity-λ Poisson–Voronoi percolation in ℝᵈ (d≥2), black-cell probability p, threshold p_c. Let τ\_p(x,y) be the connectivity probability after inserting x,y as black; Δ\_p=λ²∫\_{ℝᵈ}∫\_{ℝᵈ}τ\_p(0,x)τ\_p(x,y)τ\_p(y,0)dxdy. G(n,α) has n i.i.d. uniform unit-Sᵈ vertices, joined when geodesic distance>π−α. A_n sharply thresholds χ>k if probabilities at (1−ε)A_n and (1+ε)A_n tend to 0 and 1 for each ε∈(0,1). Let c₂=(σ\_dλ\_AB)¹ᐟᵈ, with σ\_d sphere area and λ\_AB the critical equal intensity of two independent Euclidean Poisson processes joined across types at distance≤1.
+
+**Source.** Matthias Irlbeck. *High-Dimensional Poisson–Voronoi Geometry and Threshold Phenomena*. University of Groningen, 2026. Advisor(s): Tobias Müller, Pieter Trapman. [primary source](https://www.matthiasirlbeck.com/documents/PhD_thesis_matthias_irlbeck.pdf) Location: Conjecture 4.51, p.138
+
+**Literature check.** Status: September 2026 thesis and March 2026 v2 inspected; no later resolution located.
+
+
+<a id="q3692"></a>
+
+## Q3692. For d≥3, do c₂&lt;c₃<⋯&lt;c_d exist with c_kn⁻¹ᐟᵈ sharply thresholding χ>k for 3≤k≤d?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 4.52) · **Collection** 37
+
+For d≥3, do c₂&lt;c₃<⋯&lt;c_d exist with c_kn⁻¹ᐟᵈ sharply thresholding χ>k for 3≤k≤d?
+
+**Context.** Take intensity-λ Poisson–Voronoi percolation in ℝᵈ (d≥2), black-cell probability p, threshold p_c. Let τ\_p(x,y) be the connectivity probability after inserting x,y as black; Δ\_p=λ²∫\_{ℝᵈ}∫\_{ℝᵈ}τ\_p(0,x)τ\_p(x,y)τ\_p(y,0)dxdy. G(n,α) has n i.i.d. uniform unit-Sᵈ vertices, joined when geodesic distance>π−α. A_n sharply thresholds χ>k if probabilities at (1−ε)A_n and (1+ε)A_n tend to 0 and 1 for each ε∈(0,1). Let c₂=(σ\_dλ\_AB)¹ᐟᵈ, with σ\_d sphere area and λ\_AB the critical equal intensity of two independent Euclidean Poisson processes joined across types at distance≤1.
+
+**Source.** Matthias Irlbeck. *High-Dimensional Poisson–Voronoi Geometry and Threshold Phenomena*. University of Groningen, 2026. Advisor(s): Tobias Müller, Pieter Trapman. [primary source](https://www.matthiasirlbeck.com/documents/PhD_thesis_matthias_irlbeck.pdf) Location: Conjecture 4.52, p.138
+
+**Literature check.** Status: September 2026 thesis and March 2026 v2 inspected; no later resolution located.
+
+**Notes.** Earlier Borsuk-paper Conjectures 56–57, p.51: https://arxiv.org/abs/2603.05467v2
+
+**Further links.** [1](https://arxiv.org/abs/2603.05467v2)
+
+
+<a id="q3693"></a>
+
+## Q3693. Differentiability of the hyperbolic uniqueness threshold
+
+**Status:** Open · **Kind:** open problem (Question 25) · **Collection** 37
+
+Is λ↦p_u(λ) differentiable on (0,∞)?
+
+**Context.** Origin: Irlbeck–Müller, Non-vanishing uniqueness threshold for hyperbolic Poisson-Voronoi percolation in dimension at least three. Setup: On hyperbolic space ℍᵈ, d≥3, form the Voronoi tessellation of a homogeneous Poisson process with intensity λ>0 relative to hyperbolic volume. Color cells independently black with probability p. Black clusters are the connected components of their union. Let p_u(λ) be the infimum of p for which exactly one unbounded black cluster exists with positive probability.
+
+**Source.** Irlbeck and Müller. *Non-vanishing uniqueness threshold for hyperbolic Poisson-Voronoi percolation in dimension at least three*. 2026. [primary source](https://arxiv.org/abs/2607.17764v1) Location: Question 25, p.30.
+
+**Literature check.** Status: Full current v1 (20 July 2026) inspected. Author still lists it as a preprint; no later resolution located.
+
+
+<a id="q3694"></a>
+
+## Q3694. Maximum spread for four-wise independence
+
+**Status:** Open · **Kind:** conjecture (Conjecture 5.13) · **Collection** 37
+
+Is Msp(n,4)=⌊√(n−2)⌋+2 for every n≥6?
+
+**Context.** Origin: Berend–Ernst–Kontorovich–Kumar, Exact Expressions for the Maximal Probability that all k-wise Independent Bits are 1. Setup: For even 2≤k≤n−1, take I={a₁,a₁+1,…,a_{k/2},a_{k/2}+1,n}⊂{0,…,n}, with distinct increasing entries. For p∈[0,1], let (w_j(p))\_{j∈I} be the unique solution of Σ\_{j∈I}(j)\_r w_j=(n)\_r p^r, 0≤r≤k, where (x)\_r is the falling factorial. Call I realizable if all weights are nonnegative throughout some nondegenerate p-interval. Define Msp(n,k)=max_I(a_{k/2}+1−a₁) over realizable I.
+
+**Source.** Berend, Ernst, Kontorovich and Kumar. *Exact Expressions for the Maximal Probability that all k-wise Independent Bits are 1*. 2026. [primary source](https://doi.org/10.1007/s10959-026-01487-4) Location: Conjecture 5.13, p.41 of 45.
+
+**Literature check.** Status: The inspected May2026 version of record retains this conjecture. No later resolution located by 2026-10-09.
+
+**Further links.** [1](https://repository.rice.edu/items/dd3422cf-8733-4131-8155-edd1fad444c7)
+
+
+<a id="q3695"></a>
+
+## Q3695. Sharp temporal-connectivity radius
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Does some κ=κ(K,d)>0 give temporal-connectivity probability tending to 0 at r_n=(κ−ε)n^(−1/(d+1)) and to 1 at r_n=(κ+ε)n^(−1/(d+1)), for every 0<ε<κ?
+
+**Context.** Origin: Brandenberger–Donderwinkel–Kerriou–Lugosi–Mitchell, Temporal connectivity of random geometric graphs. Setup: Let d≥2 and K:[0,∞)→[0,1] be nonincreasing, with K(x)≥a>0 for x≤1 and K(x)≤b x^(−d)exp(−2(x+1)log(x+1)) for x>1, for constants a,b>0. Sample n independent uniform points on the unit d-torus. Conditionally independently join x,y with probability K(dist(x,y)/r_n), and give edges independent Uniform[0,1] timestamps. Temporal connectivity means every ordered vertex pair has a path with increasing timestamps.
+
+**Source.** Brandenberger, Donderwinkel, Kerriou, Lugosi and Mitchell. *Temporal connectivity of random geometric graphs*. 2026. [primary source](https://doi.org/10.1017/jpr.2026.10129) Location: Thesis §4.4 pp.183–184; final paper §1 p.4.
+
+**Literature check.** Status: September2026 final journal article reaffirms the thesis conjecture; no later resolution located by 2026-10-09.
+
+**Further links.** [1](https://kups.ub.uni-koeln.de/80375/)
+
+
+<a id="q3696"></a>
+
+## Q3696. Full ergodic-density relaxation
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For 1≤j≤min deg, suppose j<Φ\_E+1, or some o satisfies |N(x)∖B_k(o)|≥j whenever dist(o,x)=k. For each p,q∈(q_c,1], does some c>0 give |E_{µ\_p}f(η\_t)−µ\_qf|≤c⁻¹|supp f|‖f‖∞e^(−ct) for every local f and t≥0?
+
+**Context.** Origin: De Gaspari (2025), restated in Chapter 2. Setup: G is infinite, connected, simple, bounded-degree. µ\_p=Ber(p)^V; B_k(o) is a distance ball, N(x) its neighbour set, ∂\_EA its edge boundary, Φ\_E=inf_{0<|A|<∞}|∂\_EA|/|A|. FA-jf refreshes spins from Ber(q) at rate 1 if ≥j neighbours are 1; q_c is its L²(µ\_q) ergodicity threshold.
+
+**Source.** Damiano De Gaspari. *Out-of-equilibrium systems: stationary measures and superdiffusivity*. TU Wien, 2026. Advisor(s): Fabio Lucio Toninelli. [primary source](https://repositum.tuwien.at/handle/20.500.12708/231354?mode=full) Location: Thesis p.48 after Theorem 2.1.6.
+
+**Literature check.** Status: Reaffirmed in September2026; no later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2508.06935v1)
+
+
+<a id="q3697"></a>
+
+## Q3697. Noisy consensus on hyperbolic tilings
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+On the regular hyperbolic tiling with degree d and f-gonal faces, take 1≤j≤d−3 if f=3, or 1≤j≤d−2 if f≥4. Starting all 1, synchronously set each spin to 1 iff ≥j neighbours are 1, then independently force it to 0 with probability ε. For all sufficiently small ε>0, is sup_{x∈V,t∈ℕ₀}P(η\_t(x)=0)<1/2?
+
+**Context.** Origin: De Gaspari (2025), restated in Chapter 2. Setup: G is infinite, connected, simple, bounded-degree. µ\_p=Ber(p)^V; B_k(o) is a distance ball, N(x) its neighbour set, ∂\_EA its edge boundary, Φ\_E=inf_{0<|A|<∞}|∂\_EA|/|A|. FA-jf refreshes spins from Ber(q) at rate 1 if ≥j neighbours are 1; q_c is its L²(µ\_q) ergodicity threshold.
+
+**Source.** Damiano De Gaspari. *Out-of-equilibrium systems: stationary measures and superdiffusivity*. TU Wien, 2026. Advisor(s): Fabio Lucio Toninelli. [primary source](https://repositum.tuwien.at/handle/20.500.12708/231354?mode=full) Location: Thesis §2.2 pp.50–51.
+
+**Literature check.** Status: Reaffirmed in September2026; no later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2508.06935v1)
+
+
+<a id="q3698"></a>
+
+## Q3698. Velocity stability under rare anomalies
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 37
+
+For every ε>0, does some p\*∈(0,1) ensure ‖V_p−v_b‖<ε almost surely whenever p>p\*?
+
+**Context.** Origin: Slonim, Random Walks in Random Environments with Rare Anomalies. Setup: For nearest-neighbour walks on ℤ^d, d≥2, let µ\_b,µ\_r be laws of transition-probability vectors. Some κ>0 bounds every coordinate below under µ\_b and two fixed orthogonal directional coordinates below under µ\_r. Assume the i.i.d. µ\_b environment has deterministic limiting velocity v_b. Independently at every site choose its transition vector from µ\_b with probability p and µ\_r otherwise; write V_p=lim_n X_n/n.
+
+**Source.** Daniel J. Slonim. *Random Walks in Random Environments with Rare Anomalies*. 2023. [primary source](https://arxiv.org/abs/2311.00062v2) Location: Question 2, §7 p.34; assumptions §1.1 pp.5–7.
+
+**Literature check.** Status: The current January2025 v2 poses this question; no later publication or resolution located by 2026-10-09.
+
+**Further links.** [1](https://www.hillsdale.edu/wp-content/uploads/2024/08/CV_and_Applications.pdf)
+
+
+<a id="q3782"></a>
+
+## Q3782. For each fixed r≥3, does containing a K_r-factor have a sharp threshold as n→∞ through multiples…
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 38
+
+For each fixed r≥3, does containing a K_r-factor have a sharp threshold as n→∞ through multiples of r? A K_r-factor partitions vertices into r-cliques.
+
+**Context.** Origin: Joint chapter with Calum MacRury; clique-factor question restates Ben-Eliezer et al. Setup: Start empty on [n]. Each round offers an independent uniform vertex; an online strategy joins it to a distinct vertex. Repeated edges are allowed. Let m_P(θ,n) be the least number of rounds permitting success probability ≥θ. A sharp threshold means m_P(θ,n)/m_P(1/2,n)→1 for every fixed θ∈(0,1).
+
+**Source.** Erlang Surya. *Concentration and Sharp Thresholds in Random Graphs*. University of California San Diego, 2025. Advisor(s): Lutz Warnke. [primary source](https://mathweb.ucsd.edu/~lwarnke/PhD_Thesis_ErlangSurya.pdf) Location: Thesis §4.5, Question 1, p.171.
+
+**Literature check.** Status: Published chapter reaffirmed in 2025 thesis; fixed-degree constants remain unresolved.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lwarnke/)
+
+
+<a id="q3783"></a>
+
+## Q3783. Determine C_M=lim_{n→∞, 2∣n}m_M(1/2,n)/n, where M is containing a perfect matching.
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 38
+
+Determine C_M=lim_{n→∞, 2∣n}m_M(1/2,n)/n, where M is containing a perfect matching.
+
+**Context.** Origin: Joint chapter with Calum MacRury; clique-factor question restates Ben-Eliezer et al. Setup: Start empty on [n]. Each round offers an independent uniform vertex; an online strategy joins it to a distinct vertex. Repeated edges are allowed. Let m_P(θ,n) be the least number of rounds permitting success probability ≥θ. A sharp threshold means m_P(θ,n)/m_P(1/2,n)→1 for every fixed θ∈(0,1).
+
+**Source.** Erlang Surya. *Concentration and Sharp Thresholds in Random Graphs*. University of California San Diego, 2025. Advisor(s): Lutz Warnke. [primary source](https://mathweb.ucsd.edu/~lwarnke/PhD_Thesis_ErlangSurya.pdf) Location: Thesis §4.5, Question 2, p.171; Theorem 7.
+
+**Literature check.** Status: Published chapter reaffirmed in 2025 thesis; fixed-degree constants remain unresolved.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lwarnke/)
+
+
+<a id="q3784"></a>
+
+## Q3784. Determine C_H=lim_{n→∞}m_H(1/2,n)/n, where H is containing a Hamilton cycle.
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 38
+
+Determine C_H=lim_{n→∞}m_H(1/2,n)/n, where H is containing a Hamilton cycle.
+
+**Context.** Origin: Joint chapter with Calum MacRury; clique-factor question restates Ben-Eliezer et al. Setup: Start empty on [n]. Each round offers an independent uniform vertex; an online strategy joins it to a distinct vertex. Repeated edges are allowed. Let m_P(θ,n) be the least number of rounds permitting success probability ≥θ. A sharp threshold means m_P(θ,n)/m_P(1/2,n)→1 for every fixed θ∈(0,1).
+
+**Source.** Erlang Surya. *Concentration and Sharp Thresholds in Random Graphs*. University of California San Diego, 2025. Advisor(s): Lutz Warnke. [primary source](https://mathweb.ucsd.edu/~lwarnke/PhD_Thesis_ErlangSurya.pdf) Location: Thesis §4.5, Question 2, p.171; Theorem 7.
+
+**Literature check.** Status: Published chapter reaffirmed in 2025 thesis; fixed-degree constants remain unresolved.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lwarnke/)
+
+
+<a id="q3785"></a>
+
+## Q3785. For fixed integer r≥3 and c>0, determine the asymptotic value of χ(G(n,1−c n^{−2/r})) with…
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+For fixed integer r≥3 and c>0, determine the asymptotic value of χ(G(n,1−c n^{−2/r})) with probability tending to one.
+
+**Context.** Paper: On the concentration of the chromatic number of random graphs; Erlang Surya, Lutz Warnke. Origin: Explicit final-paper open problem, restricted to its unresolved r≥3 regime. Setup: G(n,p) has n vertices and each possible edge independently with probability p. Its chromatic number χ is the minimum number of colours in a proper vertex colouring.
+
+**Source.** Erlang Surya and Lutz Warnke. *On the concentration of the chromatic number of random graphs*. 2024. [primary source](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v31i1p44/pdf/) Location: Section 3.3, final paragraph, p.13.
+
+**Literature check.** Status: Final EJC 31(1) (2024), P1.44; September 2026 claimed interior results exclude this boundary.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lwarnke/PhD_Thesis_ErlangSurya.pdf)
+
+
+<a id="q3788"></a>
+
+## Q3788. Voronoi mean-field exponents from the triangle condition
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.47) · **Collection** 38
+
+Does Δ\_{p_c}<∞ imply E_p|C₀|≍(p_c−p)⁻¹ for 0≤p&lt;p_c, P_{p_c}(|C₀|≥n)≍n⁻¹ᐟ² for n≥1, and P_p(|C₀|=∞)≍p−p_c as p↓p_c?
+
+**Context.** Origin: Thesis Conjecture 3.47. Setup: In ℝᵈ, d≥2, independently color intensity-λ (λ>0) Poisson–Voronoi cells black with probability p; p_c is the threshold for an unbounded black component. Let C₀ be the set of nuclei in the origin’s black cluster after adding 0 as a black point. Let τ\_p(x,y) be the connection probability after adding x,y and forcing their cells black. Put Δ\_p=λ²∫∫τ\_p(0,x)τ\_p(x,y)τ\_p(y,0)dxdy. Here ≍ denotes two-sided constant-factor bounds.
+
+**Source.** Matthias Irlbeck. *High-Dimensional Poisson–Voronoi Geometry and Threshold Phenomena*. University of Groningen, 2026. Advisor(s): Tobias Müller, Pieter Trapman. [primary source](https://www.matthiasirlbeck.com/documents/PhD_thesis_matthias_irlbeck.pdf) Location: Conjecture 3.47, pp. 76–77; forced-black origin §3.2.2, p. 21.
+
+**Literature check.** Status checked 9 October 2026: Full September 2026 thesis inspected. Author currently lists the corresponding paper as forthcoming; no later resolution located.
+
+**Further links.** [1](https://research.rug.nl/en/publications/high-dimensional-poissonvoronoi-geometry-and-threshold-phenomena/)
+
+
+<a id="q3789"></a>
+
+## Q3789. Strict decrease of the hyperbolic uniqueness threshold
+
+**Status:** Open · **Kind:** open problem (Question 26) · **Collection** 38
+
+Is λ↦p_u(λ) strictly decreasing on (0,∞)?
+
+**Context.** Origin: Irlbeck–Müller, Non-vanishing uniqueness threshold for hyperbolic Poisson-Voronoi percolation in dimension at least three. Setup: On hyperbolic space ℍᵈ, d≥3, form the Voronoi tessellation of a homogeneous Poisson process with intensity λ>0 relative to hyperbolic volume. Color cells independently black with probability p. Black clusters are the connected components of their union. Let p_u(λ) be the infimum of p for which exactly one unbounded black cluster exists with positive probability.
+
+**Source.** Irlbeck and Müller. *Non-vanishing uniqueness threshold for hyperbolic Poisson-Voronoi percolation in dimension at least three*. 2026. [primary source](https://arxiv.org/abs/2607.17764v1) Location: Question 26, p. 30.
+
+**Literature check.** Status checked 9 October 2026: Full current v1 (20 July 2026) inspected. Author still lists it as a preprint; no later resolution located.
+
+**Further links.** [1](https://research.rug.nl/en/publications/high-dimensional-poissonvoronoi-geometry-and-threshold-phenomena/)
+
+
+<a id="q3790"></a>
+
+## Q3790. Monotonicity of realizable-basis spread
+
+**Status:** Open · **Kind:** conjecture (Conjecture 5.12) · **Collection** 38
+
+For every fixed even k, is Msp(n,k) nondecreasing in n≥k+1?
+
+**Context.** Origin: Berend–Ernst–Kontorovich–Kumar, Exact Expressions for the Maximal Probability that all k-wise Independent Bits are 1. Setup: For even 2≤k≤n−1, take I={a₁,a₁+1,…,a_{k/2},a_{k/2}+1,n}⊂{0,…,n}, with distinct increasing entries. For p∈[0,1], let (w_j(p))\_{j∈I} be the unique solution of Σ\_{j∈I}(j)\_r w_j=(n)\_r p^r, 0≤r≤k, where (x)\_r is the falling factorial. Call I realizable if all weights are nonnegative throughout some nondegenerate p-interval. Define Msp(n,k)=max_I(a_{k/2}+1−a₁) over realizable I.
+
+**Source.** Berend, Ernst, Kontorovich and Kumar. *Exact Expressions for the Maximal Probability that all k-wise Independent Bits are 1*. 2026. [primary source](https://doi.org/10.1007/s10959-026-01487-4) Location: Conjecture 5.12, p. 41 of 45.
+
+**Literature check.** Status checked 9 October 2026: May 2026 version of record inspected; no later resolution found in the bounded 9 October 2026 check.
+
+**Further links.** [1](https://repository.rice.edu/items/dd3422cf-8733-4131-8155-edd1fad444c7)
+
+
+<a id="q3792"></a>
+
+## Q3792. Polynomial growth from nonnegative discrete curvature
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 38
+
+If G has maximum degree D₀<∞ and satisfies CD(0,∞), must some D depending only on D₀ satisfy |{y:dist(x,y)&lt;r}|≤rᴰ for every x and integer r≥1?
+
+**Context.** Origin: Blachar–Pajot–Salez, Edge-regular graphs with non-negative curvature have polynomial growth: Conjecture 1 restates the growth conjecture; Conjecture 2 asks a regular-graph refinement. Setup: Let G be connected, simple and locally finite. Set Δf(x)=Σ\_{y∼x}(f(y)−f(x)), Γ₀(f,g)=fg, and Γᵢ(f,g)=[ΔΓᵢ₋₁(f,g)−Γᵢ₋₁(f,Δg)−Γᵢ₋₁(g,Δf)]/2 for i=1,2. Write CD(κ,n) when Γ₂(f,f)≥κΓ₁(f,f)+(Δf)²/n pointwise for all f, interpreting 1/∞=0.
+
+**Source.** Blachar, Pajot and Salez. *Edge-regular graphs with non-negative curvature have polynomial growth*. 2026. [primary source](https://arxiv.org/abs/2606.11094v1) Location: Conjecture 1, p. 2.
+
+**Literature check.** Status checked 9 October 2026: Current June 2026 v1 inspected; no later version or resolution found by 9 October 2026.
+
+**Further links.** [1](https://www.unige.ch/~tranh/these-version-240521.pdf)
+
+
+<a id="q3793"></a>
+
+## Q3793. Finite dimension for regular nonnegative-curvature graphs
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2) · **Collection** 38
+
+For every d≥1, does every d-regular G satisfying CD(0,∞) satisfy CD(0,d)?
+
+**Context.** Origin: Blachar–Pajot–Salez, Edge-regular graphs with non-negative curvature have polynomial growth: Conjecture 1 restates the growth conjecture; Conjecture 2 asks a regular-graph refinement. Setup: Let G be connected, simple and locally finite. Set Δf(x)=Σ\_{y∼x}(f(y)−f(x)), Γ₀(f,g)=fg, and Γᵢ(f,g)=[ΔΓᵢ₋₁(f,g)−Γᵢ₋₁(f,Δg)−Γᵢ₋₁(g,Δf)]/2 for i=1,2. Write CD(κ,n) when Γ₂(f,f)≥κΓ₁(f,f)+(Δf)²/n pointwise for all f, interpreting 1/∞=0.
+
+**Source.** Blachar, Pajot and Salez. *Edge-regular graphs with non-negative curvature have polynomial growth*. 2026. [primary source](https://arxiv.org/abs/2606.11094v1) Location: Conjecture 2, p. 4.
+
+**Literature check.** Status checked 9 October 2026: Current June 2026 v1 inspected; no later version or resolution found by 9 October 2026.
+
+**Further links.** [1](https://www.unige.ch/~tranh/these-version-240521.pdf)
+
+
+<a id="q3794"></a>
+
+## Q3794. Cooperative-contact thresholds
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Do δc′(α)=δc(α) for all sufficiently small α≥0 and δc′(α)<δc(α) for all α<1 sufficiently close to 1?
+
+**Context.** Origin: Latz–Swart, Monotone duality of interacting particle systems, §1.7. Setup: For α∈[0,1] and δ≥0, sites of ℤ² independently update: at rate 1−α choose a uniform neighbor and set xᵢ←max(xᵢ,xⱼ); at rate α choose two distinct uniform neighbors and set xᵢ←max(xᵢ,min(xⱼ,xₖ)); at rate δ reset to 0. Let ν̄ be the limit from all ones, ρ=ν̄(x₀=1), θ the survival probability from one occupied site, δc=sup{δ:ρ>0}, and δc′=sup{δ:θ>0}.
+
+**Source.** Latz and Swart. *Monotone duality of interacting particle systems*. 2023. [primary source](https://arxiv.org/abs/2312.00595v3) Location: §1.7, p. 11; Figure 1, p. 9.
+
+**Literature check.** Status checked 9 October 2026: Current v3 (3 November 2025) inspected; Swart lists AIHP acceptance. No later final or resolution located.
+
+**Further links.** [1](https://library.utia.cas.cz/separaty/2024/SI/latz-0598658.pdf)
+
+
+<a id="q3795"></a>
+
+## Q3795. Positive-density continuity
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Is (α,δ)↦ρ(α,δ) continuous on {(α,δ)∈[0,1]×[0,∞):ρ(α,δ)>0}?
+
+**Context.** Origin: Latz–Swart, Monotone duality of interacting particle systems, §1.7. Setup: For α∈[0,1] and δ≥0, sites of ℤ² independently update: at rate 1−α choose a uniform neighbor and set xᵢ←max(xᵢ,xⱼ); at rate α choose two distinct uniform neighbors and set xᵢ←max(xᵢ,min(xⱼ,xₖ)); at rate δ reset to 0. Let ν̄ be the limit from all ones, ρ=ν̄(x₀=1), θ the survival probability from one occupied site, δc=sup{δ:ρ>0}, and δc′=sup{δ:θ>0}.
+
+**Source.** Latz and Swart. *Monotone duality of interacting particle systems*. 2023. [primary source](https://arxiv.org/abs/2312.00595v3) Location: §1.7, p. 11.
+
+**Literature check.** Status checked 9 October 2026: Current v3 (3 November 2025) inspected; Swart lists AIHP acceptance. No later final or resolution located.
+
+**Further links.** [1](https://library.utia.cas.cz/separaty/2024/SI/latz-0598658.pdf)
+
+
+<a id="q3796"></a>
+
+## Q3796. Positive basin threshold
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Define η(α,δ)=inf{p∈[0,1]:the Bernoulli(p) product initial law converges weakly to ν̄}. Must η(α,δ)>0 whenever δc′(α)<δ≤δc(α)?
+
+**Context.** Origin: Latz–Swart, Monotone duality of interacting particle systems, §1.7. Setup: For α∈[0,1] and δ≥0, sites of ℤ² independently update: at rate 1−α choose a uniform neighbor and set xᵢ←max(xᵢ,xⱼ); at rate α choose two distinct uniform neighbors and set xᵢ←max(xᵢ,min(xⱼ,xₖ)); at rate δ reset to 0. Let ν̄ be the limit from all ones, ρ=ν̄(x₀=1), θ the survival probability from one occupied site, δc=sup{δ:ρ>0}, and δc′=sup{δ:θ>0}.
+
+**Source.** Latz and Swart. *Monotone duality of interacting particle systems*. 2023. [primary source](https://arxiv.org/abs/2312.00595v3) Location: §1.7, equation (1.57), p. 12.
+
+**Literature check.** Status checked 9 October 2026: Current v3 (3 November 2025) inspected; Swart lists AIHP acceptance. No later final or resolution located.
+
+**Further links.** [1](https://library.utia.cas.cz/separaty/2024/SI/latz-0598658.pdf)
+
+
+<a id="q3797"></a>
+
+## Q3797. Stability of randomly slowed shrinkers
+
+**Status:** Open · **Kind:** conjecture (Conjecture 12) · **Collection** 38
+
+For every d≥1, shrinker φ and r∈(0,1], is lim_{p↓0}ρ\_r(p)=1?
+
+**Context.** Origin: Swart–Szabó–Toninelli, Peierls bounds from random Toom contours, Conjecture 12. Setup: For a nonconstant monotone local map φ:{0,1}^{ℤᵈ}→{0,1}, let A(φ) be its finite inclusion-minimal sets A satisfying φ(1_A)=1. Put εφ(ℓ)=max_{A∈A(φ)}min_{i∈A}ℓ(i). Call φ a shrinker if linear forms L₁,…,Lσ, σ≥2, sum to 0, all εφ(Ls)≥0, and Σεφ(Ls)>0. At each discrete space-time site independently, update by zero with probability p, by the shifted φ with probability (1−p)r, and otherwise retain its value. Let ρ\_r(p) be the limiting occupied-site density from all ones.
+
+**Source.** Swart, Szabó and Toninelli. *Peierls bounds from random Toom contours*. 2025. [primary source](https://arxiv.org/abs/2501.09660v1) Location: Conjecture 12, p. 12; definitions (1.9), (1.11), (1.25), (1.42).
+
+**Literature check.** Status checked 9 October 2026: Current arXiv v1 (16 January 2025) inspected. The May 2026 final Toom paper is the distinct earlier arXiv 2202.10999. No resolution found.
+
+**Further links.** [1](https://library.utia.cas.cz/separaty/2024/SI/latz-0598658.pdf)
+
+
+<a id="q3798"></a>
+
+## Q3798. Irreducible Gaussian limits at arbitrary combinatorial dimensions
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+For every integer d≥3 and α∈(1,d), do such Eₙ of combinatorial dimension α exist for which Zₙ is irreducible and converges in distribution to N(0,1)?
+
+**Context.** Origin: Caravenna–Cottini–Peccati, On irreducible central limit theorems, Q2. Setup: Let Vₙ be finite sets with |Vₙ|→∞ and Eₙ⊂Vₙᵈ be permutation-invariant sets of distinct-coordinate tuples. They have combinatorial dimension α if constants c,C>0 satisfy |Eₙ|≥c|Vₙ|ᵅ and |Eₙ∩(A₁×⋯×A_d)|≤Cmaxᵢ|Aᵢ|ᵅ for all Aᵢ⊂Vₙ. For iid standard Gaussians Xᵥ put Zₙ=Σ\_{(v₁,…,v_d)∈Eₙ}∏ᵢXᵥᵢ/√(d!|Eₙ|). Call this sequence reducible if disjoint Bₙ,₁,…,Bₙ,mₙ⊂Vₙ exist with mₙ→∞, Σⱼ|Eₙ∩Bₙ,ⱼᵈ|/|Eₙ|→1 and maxⱼ|Eₙ∩Bₙ,ⱼᵈ|/|Eₙ|→0; otherwise irreducible.
+
+**Source.** Caravenna, Cottini and Peccati. *On irreducible central limit theorems*. 2025. [primary source](https://arxiv.org/abs/2510.00748v2) Location: Q2, p. 14; Definitions 2.1, p. 7, and 2.8, p. 10.
+
+**Literature check.** Status checked 9 October 2026: Latest arXiv v2 (16 December 2025) and current author copy both retain Q2. No later resolution located.
+
+**Further links.** [1](https://orbilu.uni.lu/handle/10993/63749)
+
+
+<a id="q3799"></a>
+
+## Q3799. Sharp noise sensitivity of Boolean percolation
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+For every t_L≥0 with t_LL²α₄(L)→∞, does Cov(f_L(η⁰),f_L(η^{t_L}))→0 as L→∞?
+
+**Context.** Origin: Bhattacharjee–Peccati–Yogeshwaran, Spectra of Poisson functionals and applications in continuum percolation; unfinished Boolean-model extension after Theorem 1.4. Setup: Let η be planar Poisson points at the critical intensity λc for percolation of their closed unit disks. Evolve stationarily by births with intensity λc dxdt and independent rate 1 deaths. Let f_L be +1 if the disk union has a left-right crossing of W_L=[−L,L]², and −1 otherwise. Let α₄(L) be the probability of four disjoint alternating occupied/vacant arms from ∂W₁ to ∂W_L inside W_L∖W₁.
+
+**Source.** Bhattacharjee, Peccati and Yogeshwaran. *Spectra of Poisson functionals and applications in continuum percolation*. 2024. [primary source](https://arxiv.org/abs/2407.13502v1) Location: §1.2, (1.1), p. 6; discussion after Theorem 1.4, pp. 8–9.
+
+**Literature check.** Status checked 9 October 2026: Current arXiv v1 (18 July 2024) and current author preprint listing checked; only the weaker sharp instability is proved for this model. No later resolution located.
+
+**Further links.** [1](https://orbilu.uni.lu/handle/10993/63749)
+
+
+<a id="q3800"></a>
+
+## Q3800. Fast nonlinear exchange up to the marginal threshold
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+For every δ∈(0,1), is there c_δ>0, independent of G and p, such that 0&lt;m_v≤(1−δ)/(Δ+1) for every v implies ||Tᵗ(p)−μ||\_TV≤n exp(−c_δ t/n) for all integers t≥0?
+
+**Context.** Origin: Abbaszadeh Minab–Caputo–Chen–Morellini–Sinclair, Nonlinear Exchange Dynamics for Independent Sets, §6(2). Setup: Let G be a finite simple graph with n vertices and maximum degree Δ. For a law p on its independent sets, obtain T(p) by drawing two independent configurations from p, choosing a uniform vertex, exchanging their bits there if both outputs remain independent sets, and keeping the first output. Write m_v=p(v is occupied). Under the marginal bound below, let μ be the unique hard-core law μ(σ)∝∏\_{v∈σ}λ\_v with these marginals.
+
+**Source.** Abbaszadeh Minab, Caputo, Chen, Morellini and Sinclair. *Nonlinear Exchange Dynamics for Independent Sets*. 2026. [primary source](https://arxiv.org/abs/2607.29016v1) Location: §6(2), p. 60; Theorem 4.3, p. 29; dynamics §2.5–2.6, pp. 11–13.
+
+**Literature check.** Status checked 9 October 2026: Current July 2026 v1 inspected; no later version or resolution located on 9 October 2026.
+
+**Further links.** [1](https://arcadia.sba.uniroma3.it/handle/2307/40879)
 

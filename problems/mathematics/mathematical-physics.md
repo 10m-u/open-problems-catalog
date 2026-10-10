@@ -1,6 +1,6 @@
 # Mathematical Physics
 
-20 problems: 20 open.
+23 problems: 23 open.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -26,6 +26,9 @@
 | [Q3099](mathematical-physics.md#q3099) | A sharp norm bound for anticommuting observables | Open |
 | [Q3190](mathematical-physics.md#q3190) | Quadrilateral spectrum of a nonnormal Lindbladian | Open |
 | [Q3191](mathematical-physics.md#q3191) | Second thermodynamic correction for a three-body Bose gas | Open |
+| [Q3699](mathematical-physics.md#q3699) | Attainment of maximal single-interval backflow | Open |
+| [Q3700](mathematical-physics.md#q3700) | Attainment of multiple-interval backflow and overflow | Open |
+| [Q3791](mathematical-physics.md#q3791) | Positive eigenvalues accumulating at zero | Open |
 
 <a id="q1484"></a>
 
@@ -355,4 +358,55 @@ Does a finite C(w)∈R satisfy e(ρ)=b(w)ρ³[1+C(w)ρ+o(ρ)]/6 as ρ↓0?
 **Literature check.** Status for question 3191, checked 8 October 2026: Final 2026 paper retains this thermodynamic question; the separate Gross–Pitaevskii second-order theorem does not settle it.
 
 **Further links.** [1](https://arxiv.org/abs/2202.13967) · [2](https://doi.org/10.1007/s11005-026-02067-7) · [3](https://doi.org/10.1017/fms.2025.10113) · [4](https://researchprofiles.ku.dk/en/publications/energies-of-dilute-bose-gases/)
+
+
+<a id="q3699"></a>
+
+## Q3699. Attainment of maximal single-interval backflow
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Is c_BM an eigenvalue of B?
+
+**Context.** Origin: Single-interval questions attributed to Bracken–Melloy (1994); multiple-interval extensions stated here. Setup: On L²(ℝ), let Π project onto H₊={ψ:supp ψ̂⊂[0,∞)}, Qψ=1_{x<0}ψ, and U_t=e^(−itP²), P=−i∂\_x. For t₁<⋯&lt;t_{2M}, define the bounded self-adjoint operator B_T=ΠΣ\_{j=1}^M(U\*\_{t_{2j}}QU_{t_{2j}}−U\*\_{t_{2j−1}}QU_{t_{2j−1}})Π restricted to H₊. Put B=B_(0,1) and c_BM=max σ(B).
+
+**Source.** Harkan J. Kirk-Karakaya. *The Quantum Backflow Phenomenon*. University of York, 2026. Advisor(s): Christopher J. Fewster. [primary source](https://etheses.whiterose.ac.uk/id/eprint/38105/8/Kirk-Karakaya_203026398_CorrectedThesisClean2.pdf) Location: Thesis Chapter 6 p.104.
+
+**Literature check.** Status: Full examined thesis and December2025 final related paper inspected; no resolution located by 2026-10-09.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/38105/)
+
+
+<a id="q3700"></a>
+
+## Q3700. Attainment of multiple-interval backflow and overflow
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For every M≥2 and strictly increasing T, are both max σ(B_T) and min σ(B_T) eigenvalues?
+
+**Context.** Origin: Single-interval questions attributed to Bracken–Melloy (1994); multiple-interval extensions stated here. Setup: On L²(ℝ), let Π project onto H₊={ψ:supp ψ̂⊂[0,∞)}, Qψ=1_{x<0}ψ, and U_t=e^(−itP²), P=−i∂\_x. For t₁<⋯&lt;t_{2M}, define the bounded self-adjoint operator B_T=ΠΣ\_{j=1}^M(U\*\_{t_{2j}}QU_{t_{2j}}−U\*\_{t_{2j−1}}QU_{t_{2j−1}})Π restricted to H₊. Put B=B_(0,1) and c_BM=max σ(B).
+
+**Source.** Harkan J. Kirk-Karakaya. *The Quantum Backflow Phenomenon*. University of York, 2026. Advisor(s): Christopher J. Fewster. [primary source](https://etheses.whiterose.ac.uk/id/eprint/38105/8/Kirk-Karakaya_203026398_CorrectedThesisClean2.pdf) Location: Thesis Chapter 6 p.104.
+
+**Literature check.** Status: Full examined thesis and December2025 final related paper inspected; no resolution located by 2026-10-09.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/38105/)
+
+
+<a id="q3791"></a>
+
+## Q3791. Positive eigenvalues accumulating at zero
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Does B have infinitely many distinct positive eigenvalues converging to 0?
+
+**Context.** Origin: Thesis Chapter 6 restates Bracken–Melloy’s 1994 single-interval spectral conjecture. Setup: On L²(ℝ), let Π project onto H₊={ψ:supp ψ̂⊂[0,∞)}, Qψ=1_{x<0}ψ, and U_t=e^(−itP²), P=−i∂\_x. Set B=Π(U₁\*QU₁−Q)Π restricted to H₊.
+
+**Source.** Harkan J. Kirk-Karakaya. *The Quantum Backflow Phenomenon*. University of York, 2026. Advisor(s): Christopher J. Fewster. [primary source](https://etheses.whiterose.ac.uk/id/eprint/38105/8/Kirk-Karakaya_203026398_CorrectedThesisClean2.pdf) Location: Thesis Chapter 6 p. 104.
+
+**Literature check.** Status checked 9 October 2026: Full examined thesis and December 2025 final related paper inspected; no resolution located by 2026-10-09.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/38105/)
 

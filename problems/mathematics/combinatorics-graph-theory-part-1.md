@@ -1,6 +1,6 @@
-# Combinatorics & Graph Theory (part 1 of 2)
+# Combinatorics & Graph Theory (part 1 of 3)
 
-[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md)
+[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
 
 <a id="q17"></a>
 
@@ -229,7 +229,7 @@ Write sat(F,H) for the fewest edges in an H-free spanning subgraph of F where ad
 
 **Further links.** [1](https://www.combinatorics.org/ojs/index.php/eljc/article/download/DS19/pdf/) · [2](https://garden.irmacs.sfu.ca/op/saturation_in_the_hypercube)
 
-*Duplicate of Qc7b833e7cef6d5bf67f5.*
+*Also among the automatically extracted thesis statements: `c7b833e7cef6d5bf67f5`.*
 
 
 <a id="q32"></a>
@@ -246,7 +246,7 @@ Let c_(m)=liminf_(d→∞)sat(Q_(d),Q_(m))/2^(d), with ordinary subgraph saturat
 
 **Further links.** [1](https://arxiv.org/abs/1408.5488) · [2](https://garden.irmacs.sfu.ca/op/saturation_in_the_hypercube)
 
-*Duplicate of Q6b7631ec9c984bce1be1.*
+*Also among the automatically extracted thesis statements: `6b7631ec9c984bce1be1`.*
 
 
 <a id="q33"></a>
@@ -263,7 +263,7 @@ Determine sat(Q_(d),C_(2ℓ)) for integers ℓ≥2 and d≥⌈log_(2)(2ℓ)⌉: 
 
 **Further links.** [1](https://www.combinatorics.org/ojs/index.php/eljc/article/download/DS19/pdf/) · [2](https://garden.irmacs.sfu.ca/op/saturation_in_the_hypercube)
 
-*Duplicate of Qef8efaf3625f4d7791c1.*
+*Also among the automatically extracted thesis statements: `ef8efaf3625f4d7791c1`.*
 
 
 <a id="q34"></a>
@@ -284,7 +284,7 @@ What is m(Q_(d),4) for every d≥4, where m(G,r) is the fewest initially infecte
 
 **Further links.** [1](https://arxiv.org/abs/2604.15534) · [2](https://arxiv.org/abs/1506.04686)
 
-*Duplicate of Q43e10d10544b09bd3194.*
+*Also among the automatically extracted thesis statements: `43e10d10544b09bd3194`.*
 
 
 <a id="q35"></a>
@@ -301,7 +301,7 @@ Place chips labeled 1,…,2m+1 at 0∈ℤ. A move sends the smaller of two co-lo
 
 **Further links.** [1](https://oeis.org/A282901) · [2](https://www.dam.brown.edu/people/cklivans/Confluence.pdf) · [3](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v24i3p13/pdf/)
 
-*Duplicate of Q95321f3cf4a0e8d9567c.*
+*Also among the automatically extracted thesis statements: `95321f3cf4a0e8d9567c`.*
 
 
 <a id="q36"></a>
@@ -318,7 +318,7 @@ In labeled chip-firing from 2m+1 distinct chips at the origin, does the probabil
 
 **Further links.** [1](https://escholarship.org/content/qt08z5b229/qt08z5b229_noSplash_7a675eca02878394c02566983be533a7.pdf) · [2](https://www.dam.brown.edu/people/cklivans/Confluence.pdf) · [3](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v24i3p13/pdf/)
 
-*Duplicate of Qb434a0aa4bef620d6c41.*
+*Also among the automatically extracted thesis statements: `b434a0aa4bef620d6c41`.*
 
 
 <a id="q164"></a>
@@ -583,7 +583,7 @@ For a k-by-n matrix whose ordered maximal minors Δ\_I are positive, let M index
 
 **Further links.** [1](https://arxiv.org/abs/1502.01434)
 
-*Duplicate of Q5f938b66c6e4f1df100b.*
+*Also among the automatically extracted thesis statements: `5f938b66c6e4f1df100b`.*
 
 
 <a id="q180"></a>
@@ -600,7 +600,7 @@ Let J be a maximal largest-minor arrangement in the positive Grassmannian Gr⁺(
 
 **Further links.** [1](https://arxiv.org/abs/1509.02600) · [2](https://math.mit.edu/research/highschool/primes/materials/2023/YD/Andriets-Holikov.pdf)
 
-*Duplicate of Q91a0715497710291ba5e.*
+*Also among the automatically extracted thesis statements: `91a0715497710291ba5e`.*
 
 
 <a id="q181"></a>
@@ -743,7 +743,7 @@ Fix \$m\ge2\$ and \$n\ge r\ge2\$. Must \$\operatorname{sat}(P_n^d,P_r^m)\$ and i
 
 **Further links.** [1](https://people.maths.ox.ac.uk/scott/Papers/cubesat.pdf) · [2](https://sites.miamioh.edu/millerz/files/2025/03/a-saturaion-problem-on-meshes-revision.pdf)
 
-*Duplicate of Q49f4843f04374a567625, Q5792ee3699c47020dff4.*
+*Also among the automatically extracted thesis statements: `49f4843f04374a567625`, `5792ee3699c47020dff4`.*
 
 
 <a id="q254"></a>
@@ -760,7 +760,7 @@ Let \$s(k)\$ be the eventual minimum size of a maximal family of subsets of \$[n
 
 **Further links.** [1](https://arxiv.org/abs/2402.14113) · [2](https://people.maths.ox.ac.uk/scott/Papers/saturatedsperner.pdf)
 
-*Duplicate of Q5d4697715681617aa7ef.*
+*Also among the automatically extracted thesis statements: `5d4697715681617aa7ef`.*
 
 
 <a id="q255"></a>
@@ -777,7 +777,7 @@ Determine \$\operatorname{wsat}(K_n,Q_d)\$ for fixed \$d\ge3\$ and \$n\ge2^d\$. 
 
 **Further links.** [1](https://www.openproblemgarden.org/op/weak_saturation_of_the_cube_in_the_clique) · [2](https://www.ias.edu/sites/default/files/Trakulthongchai_Xu_Zhu.pdf)
 
-*Duplicate of Q249dba66ca19dd92bd89.*
+*Also among the automatically extracted thesis statements: `249dba66ca19dd92bd89`.*
 
 
 <a id="q256"></a>
@@ -1029,7 +1029,7 @@ Alexander Postnikov → Richard P. Stanley: https://math.mit.edu/~apost/vita.htm
 
 **Further links.** [1](https://dspace.mit.edu/server/api/core/bitstreams/8aa6c8bb-6452-4944-9edc-d3e954ca0e83/content#page=1) · [2](https://www.researchwithrutgers.org/en/publications/positivity-determines-the-quantum-cohomology-of-grassmannians-2/) · [3](https://doi.org/10.2140/ant.2021.15.1505) · [4](https://arxiv.org/abs/2307.02418) · [5](https://math.mit.edu/~apost/papers/qschub_journal.pdf)
 
-*Duplicate of Q72bba1a84dc6bad78290.*
+*Also among the automatically extracted thesis statements: `72bba1a84dc6bad78290`.*
 
 
 <a id="q319"></a>
@@ -4161,49 +4161,4 @@ Does an absolute C>0 exist such that, for every integer t≥2, every graph of av
 **Literature check.** Status for question 2058, checked 6 October 2026: the proper-colouring disproof does not settle this density bound; no resolution found.
 
 **Further links.** [1](https://arxiv.org/abs/2609.35361)
-
-
-<a id="q2059"></a>
-
-## Q2059. Find high-girth high-dichromatic subdigraphs
-
-**Status:** Open · **Kind:** conjecture (Conjecture 3) · **Collection** 21
-
-For all integers k≥0 and ℓ≥3, is there f(k,ℓ) such that every tournament of dichromatic number at least f(k,ℓ) contains a subdigraph of dichromatic number greater than k and girth greater than ℓ?
-
-**Context.** Origin for question 2059: Charbit–Coulomb’s directed strengthening of the Erdős–Hajnal large-girth conjecture. Setup for question 2059: The dichromatic number of a finite digraph is the fewest vertex classes inducing acyclic digraphs. Its girth is the girth of its underlying undirected graph; a subdigraph need not be induced.
-
-**Source.** Pierre Charbit; Samuel Coulomb. *Digraphs of Large Girth and Dichromatic Number in Tournaments with Large Dichromatic Number*. 2026. [primary source](https://arxiv.org/abs/2609.21895) Location: Conjecture 3, p. 2.
-
-**Literature check.** Status for question 2059, checked 6 October 2026: no later resolution found.
-
-
-<a id="q2060"></a>
-
-## Q2060. Order edges to distinguish neighbours
-
-**Status:** Open · **Kind:** conjecture (Conjecture 10) · **Collection** 21
-
-For every finite simple connected graph G other than K₂ or an even cycle, and every proper edge colouring w, is there a total edge order making the resulting sequences different at the ends of every edge?
-
-**Context.** Origin for question 2060: Gorzkowska–Kwaśny, reversing the fixed-order sequence-colouring problem of Seamone–Stevens. Setup for question 2060: Given a proper edge colouring w and one total order of E(G), each vertex receives the sequence of colours on its incident edges in that order.
-
-**Source.** Aleksandra Gorzkowska; Jakub Kwaśny. *Distinguishing adjacent vertices by ordering edges*. 2026. [primary source](https://arxiv.org/abs/2609.11832) Location: Conjecture 10, p. 8.
-
-**Literature check.** Status for question 2060, checked 6 October 2026: no later resolution found.
-
-
-<a id="q2061"></a>
-
-## Q2061. Force non-nested monochromatic matchings
-
-**Status:** Open · **Kind:** open problem · **Collection** 21
-
-For every k≥1, does every red/blue edge-colouring of the ordered complete graph on 3k−1 vertices contain a monochromatic k-edge matching with no nested pair?
-
-**Context.** Origin for questions 2061, 2062: Ramsey conjecture: Barát–Gyárfás–Tóth (2024). Strong Turán conjecture: Barát–Freschi–Tóth. Setup for questions 2061, 2062: Vertices have a linear order. Disjoint edges ab,cd (a&lt;b,c&lt;d) are nested if a&lt;c&lt;d&lt;b or c&lt;a&lt;b&lt;d; crossing if a&lt;c&lt;b&lt;d or c&lt;a&lt;d&lt;b; otherwise separated. A strongly non-nested matching partitions into blocks, crossing within blocks and separated between blocks.
-
-**Source.** János Barát; Andrea Freschi; Géza Tóth. *Matchings avoiding ordered patterns*. 2025. [primary source](https://arxiv.org/abs/2512.15461) Location: §3.2, p. 14.
-
-**Literature check.** Status for questions 2061, 2062, checked 6 October 2026: both exact bounds remain unresolved.
 

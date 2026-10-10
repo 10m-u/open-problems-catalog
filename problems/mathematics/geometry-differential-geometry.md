@@ -1,6 +1,6 @@
 # Geometry & Differential Geometry
 
-215 problems: 212 open, 3 open, partial results.
+226 problems: 223 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -221,6 +221,17 @@
 | [Q3531](geometry-differential-geometry.md#q3531) | Almost-convex Cayley graphs for mapping class groups | Open |
 | [Q3532](geometry-differential-geometry.md#q3532) | Almost convexity of Teichmüller space | Open |
 | [Q3533](geometry-differential-geometry.md#q3533) | Square-integrable half-pipe width | Open |
+| [Q3618](geometry-differential-geometry.md#q3618) | Hamiltonian volume minimality of the product torus | Open |
+| [Q3619](geometry-differential-geometry.md#q3619) | Singularities of Legendrian minimizing currents | Open |
+| [Q3622](geometry-differential-geometry.md#q3622) | Optimal singular-set measure for weakly holomorphic maps | Open |
+| [Q3623](geometry-differential-geometry.md#q3623) | Unique tangent maps for almost-Kähler targets | Open |
+| [Q3631](geometry-differential-geometry.md#q3631) | Closed Hamiltonian-stationary surfaces with conical singularities | Open |
+| [Q3718](geometry-differential-geometry.md#q3718) | Grassmannian congruence | Open |
+| [Q3719](geometry-differential-geometry.md#q3719) | Exceptional hypersurface congruence | Open |
+| [Q3720](geometry-differential-geometry.md#q3720) | Solvable realization of complex-leaf foliations | Open |
+| [Q3721](geometry-differential-geometry.md#q3721) | CPC submanifolds in the solvable model | Open |
+| [Q3722](geometry-differential-geometry.md#q3722) | Cusps in hyperbolic-product complements | Open |
+| [Q3723](geometry-differential-geometry.md#q3723) | Curvature of hyperbolic-product branched covers | Open |
 
 <a id="q10"></a>
 
@@ -3832,4 +3843,191 @@ Must ∫\_D w_φ² dA_H be finite?
 **Literature check.** Status: Reaffirmed in the 2025 final paper. The inspected April and June 2026 follow-ups concern nonlinear minimal-Lagrangian/harmonic extensions; no resolution of this width criterion found by 2026-10-09.
 
 **Further links.** [1](https://sites.google.com/view/fariddiaf/home) · [2](https://arxiv.org/abs/2604.17804) · [3](https://arxiv.org/abs/2606.11141)
+
+
+<a id="q3618"></a>
+
+## Q3618. Hamiltonian volume minimality of the product torus
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 37
+
+For n≥2, is Vol_n(φ(T^n))≥Vol_n(T^n) for every compactly supported Hamiltonian diffeomorphism φ of C^n?
+
+**Context.** Advisor(s): Tristan Rivière; Joaquim Serra (second supervisor, thesis acknowledgments). Origin: Oh’s older torus conjecture; the student’s current-regularity conjecture. Setup: Equip C^n with standard Euclidean and symplectic structures; T^n={(z_1,…,z_n):|z_i|=1}. A Hamiltonian diffeomorphism is a smooth time-dependent Hamiltonian flow’s time-one map. Also let H²=R^5_{x,y,t}, θ=dt−½Σ\_{j=1}²(x_jdy_j−y_jdx_j), with horizontal metric Σ(dx_j²+dy_j²). An integral two-current is Legendrian when its approximate tangent planes lie in ker θ. Regular means locally an integer multiple of an oriented smooth embedded surface.
+
+**Source.** Gerard Orriols Giménez. *Variational problems for Lagrangian and Legendrian submanifolds*. ETH Zürich, 2025. Advisor(s): Tristan Rivière; Joaquim Serra. [primary source](https://www.research-collection.ethz.ch/bitstreams/218e70d8-d395-49df-8a0f-27ae17495932/download) Location: Thesis §1.4, Open Question 1, printed p.9.
+
+**Literature check.** Status: Open in thesis and, for currents, July2026 final.
+
+**Further links.** [1](https://link.springer.com/article/10.1007/s00205-026-02186-4) · [2](https://people.math.ethz.ch/~gorriols/) · [3](https://math.ethz.ch/news-and-events/news/d-math-news/2025/05/doctoral-exam-of-gerard-orriols.html)
+
+
+<a id="q3619"></a>
+
+## Q3619. Singularities of Legendrian minimizing currents
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+If a Legendrian integral two-current T in H² locally minimizes horizontal mass among Legendrian integral currents with the same boundary, must the nonregular points in spt(T) be locally finite away from spt(∂T)?
+
+**Context.** Advisor(s): Tristan Rivière; Joaquim Serra (second supervisor, thesis acknowledgments). Origin: Oh’s older torus conjecture; the student’s current-regularity conjecture. Setup: Equip C^n with standard Euclidean and symplectic structures; T^n={(z_1,…,z_n):|z_i|=1}. A Hamiltonian diffeomorphism is a smooth time-dependent Hamiltonian flow’s time-one map. Also let H²=R^5_{x,y,t}, θ=dt−½Σ\_{j=1}²(x_jdy_j−y_jdx_j), with horizontal metric Σ(dx_j²+dy_j²). An integral two-current is Legendrian when its approximate tangent planes lie in ker θ. Regular means locally an integer multiple of an oriented smooth embedded surface.
+
+**Source.** Gerard Orriols Giménez. *Variational problems for Lagrangian and Legendrian submanifolds*. ETH Zürich, 2025. Advisor(s): Tristan Rivière; Joaquim Serra. [primary source](https://www.research-collection.ethz.ch/bitstreams/218e70d8-d395-49df-8a0f-27ae17495932/download) Location: Thesis §4.1, p.76; final ARMA250:64 (2026), §1.1, pp.5–6.
+
+**Literature check.** Status: Open in thesis and, for currents, July2026 final.
+
+**Further links.** [1](https://link.springer.com/article/10.1007/s00205-026-02186-4) · [2](https://people.math.ethz.ch/~gorriols/) · [3](https://math.ethz.ch/news-and-events/news/d-math-news/2025/05/doctoral-exam-of-gerard-orriols.html)
+
+
+<a id="q3622"></a>
+
+## Q3622. Optimal singular-set measure for weakly holomorphic maps
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For m≥3 and smooth projective algebraic N⊂CP^n with induced complex structure, must H^{2m−4}(Sing(u)∩K)<∞ for every compact K⊂M?
+
+**Context.** Advisor(s): Tristan Rivière. Origin: Caniato–Rivière’s 2021 questions; Pumberger’s 2008 thesis §2.8, p.56, already conjectured the smooth-domain tangent-uniqueness extension. Setup: Let M be a smooth 2m-manifold without boundary with Lipschitz almost-complex structure J. Let u∈W_loc^{1,2}(M,N) satisfy du∘J=J_N∘du almost everywhere and be locally strongly W^{1,2}-approximable by smooth N-valued maps. Sing(u) consists of points with positive density lim_{r↓0}r^{2−2m}∫\_{B_r(x)}|du|², using a local compatible metric. Tangent maps are weak W_loc^{1,2} limits of chart rescalings u(x+ρ·), ρ↓0.
+
+**Source.** Riccardo Caniato. *Contributions to calibrated geometric analysis and analytical gauge theory in supercritical dimension*. ETH Zürich, 2023. Advisor(s): Tristan Rivière. [primary source](https://people.math.ethz.ch/~triviere/pdf/phd/caniato-thesis.pdf) Location: §2.1.4, p.10; bound (2.1.2), p.7.
+
+**Literature check.** Status: Open in inspected thesis and authenticated accepted v2; Duke final metadata matches, final text uninspected. Checked 2026-10-09.
+
+**Further links.** [1](https://arxiv.org/abs/2108.10371) · [2](https://people.math.ethz.ch/~riviere/pdf/phd/pumberger.pdf) · [3](https://sites.google.com/view/riccardocaniato) · [4](https://www.research-collection.ethz.ch/items/a264b361-2d93-423e-9b07-117ad9a20f3e)
+
+
+<a id="q3623"></a>
+
+## Q3623. Unique tangent maps for almost-Kähler targets
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For m≥2 and arbitrary closed smooth almost-Kähler N, does u have a unique tangent map at every point of M?
+
+**Context.** Advisor(s): Tristan Rivière. Origin: Caniato–Rivière’s 2021 questions; Pumberger’s 2008 thesis §2.8, p.56, already conjectured the smooth-domain tangent-uniqueness extension. Setup: Let M be a smooth 2m-manifold without boundary with Lipschitz almost-complex structure J. Let u∈W_loc^{1,2}(M,N) satisfy du∘J=J_N∘du almost everywhere and be locally strongly W^{1,2}-approximable by smooth N-valued maps. Sing(u) consists of points with positive density lim_{r↓0}r^{2−2m}∫\_{B_r(x)}|du|², using a local compatible metric. Tangent maps are weak W_loc^{1,2} limits of chart rescalings u(x+ρ·), ρ↓0.
+
+**Source.** Riccardo Caniato. *Contributions to calibrated geometric analysis and analytical gauge theory in supercritical dimension*. ETH Zürich, 2023. Advisor(s): Tristan Rivière. [primary source](https://people.math.ethz.ch/~triviere/pdf/phd/caniato-thesis.pdf) Location: §2.1.4, p.10.
+
+**Literature check.** Status: Open in inspected thesis and authenticated accepted v2; Duke final metadata matches, final text uninspected. Checked 2026-10-09.
+
+**Further links.** [1](https://arxiv.org/abs/2108.10371) · [2](https://people.math.ethz.ch/~riviere/pdf/phd/pumberger.pdf) · [3](https://sites.google.com/view/riccardocaniato) · [4](https://www.research-collection.ethz.ch/items/a264b361-2d93-423e-9b07-117ad9a20f3e)
+
+
+<a id="q3631"></a>
+
+## Q3631. Closed Hamiltonian-stationary surfaces with conical singularities
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 37
+
+Does some closed Riemann surface admit a weakly conformal Hamiltonian-stationary Lagrangian branched immersion into C² with at least one Schoen–Wolfson conical point?
+
+**Context.** Advisor(s): Tristan Rivière. Origin: Gaia–Orriols–Rivière construction; open closed-surface extension. Setup: Use standard C². A Lagrangian map, smooth outside finitely many branch/conical points, pulls back the standard symplectic form to zero and is immersed except at isolated branch or conical points. Hamiltonian stationary means stationary area under compactly supported Hamiltonian flows. A Schoen–Wolfson conical point has, up to unitary motion, tangent cone C_pq={r(√q e^(ipθ),i√p e^(−iqθ))/√(p+q):r≥0,θ∈R}, for coprime positive integers p≠q.
+
+**Source.** Filippo Gaia. *Singularities of Hamiltonian stationary surfaces and related questions*. ETH Zürich, 2025. Advisor(s): Tristan Rivière. [primary source](https://www.research-collection.ethz.ch/server/api/core/bitstreams/87ac430b-ac9d-49f4-9e3c-e3e61b63ec08/content) Location: §2.1.1, Open Question 1, printed p.29.
+
+**Literature check.** Status: Reaffirmed in the 2025 thesis; 2026 special-Lagrangian bridge examples have boundary.
+
+**Further links.** [1](https://sites.google.com/view/filippo-gaia) · [2](https://math.ethz.ch/news-and-events/news/d-math-news/2025/05/doctoral-exam-of-filippo-gaia.html)
+
+
+<a id="q3718"></a>
+
+## Q3718. Grassmannian congruence
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.2.13) · **Collection** 38
+
+For n≥3, is every homogeneous complex hypersurface in Gr(2,C^{2n}) congruent to the hypersurface of isotropic two-planes for the standard complex symplectic form?
+
+**Context.** Advisor(s): Jürgen Berndt. Origin: Thesis conjectures. Setup: Use standard symmetric metrics. Homogeneous means an orbit of an isometry subgroup; submanifolds are connected and properly embedded. Congruence means an ambient isometry.
+
+**Source.** Ivan Solonenko. *Homogeneous hypersurfaces in Riemannian symmetric spaces*. King’s College London, 2024. Advisor(s): Jürgen Berndt. [primary source](https://kclpure.kcl.ac.uk/ws/portalfiles/portal/250470179/2024_Solonenko_Ivan_19077922_ethesis.pdf) Location: Conjecture 6.2.13(a), p.187.
+
+**Literature check.** Status: Open in thesis; no later resolution located.
+
+**Further links.** [1](https://kclpure.kcl.ac.uk/portal/en/studentTheses/homogeneous-hypersurfaces-in-riemannian-symmetric-spaces/) · [2](https://sites.google.com/view/ivansolonenko/materials)
+
+
+<a id="q3719"></a>
+
+## Q3719. Exceptional hypersurface congruence
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.2.13) · **Collection** 38
+
+Are any two homogeneous complex hypersurfaces in E6/(Spin(10)U(1)) congruent?
+
+**Context.** Advisor(s): Jürgen Berndt. Origin: Thesis conjectures. Setup: Use standard symmetric metrics. Homogeneous means an orbit of an isometry subgroup; submanifolds are connected and properly embedded. Congruence means an ambient isometry.
+
+**Source.** Ivan Solonenko. *Homogeneous hypersurfaces in Riemannian symmetric spaces*. King’s College London, 2024. Advisor(s): Jürgen Berndt. [primary source](https://kclpure.kcl.ac.uk/ws/portalfiles/portal/250470179/2024_Solonenko_Ivan_19077922_ethesis.pdf) Location: Conjecture 6.2.13(b), p.187.
+
+**Literature check.** Status: Open in thesis; no later resolution located.
+
+**Further links.** [1](https://kclpure.kcl.ac.uk/portal/en/studentTheses/homogeneous-hypersurfaces-in-riemannian-symmetric-spaces/) · [2](https://sites.google.com/view/ivansolonenko/materials)
+
+
+<a id="q3720"></a>
+
+## Q3720. Solvable realization of complex-leaf foliations
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.3.23) · **Collection** 38
+
+On an irreducible noncompact Hermitian symmetric space G/K, must every homogeneous codimension-two foliation with a complex leaf be induced by a Lie subgroup with algebra contained in t⊕a⊕n, for some Iwasawa decomposition g=k⊕a⊕n and maximal abelian t⊂Z_k(a)?
+
+**Context.** Advisor(s): Jürgen Berndt. Origin: Thesis conjectures. Setup: Use standard symmetric metrics. Homogeneous means an orbit of an isometry subgroup; submanifolds are connected and properly embedded. Congruence means an ambient isometry.
+
+**Source.** Ivan Solonenko. *Homogeneous hypersurfaces in Riemannian symmetric spaces*. King’s College London, 2024. Advisor(s): Jürgen Berndt. [primary source](https://kclpure.kcl.ac.uk/ws/portalfiles/portal/250470179/2024_Solonenko_Ivan_19077922_ethesis.pdf) Location: Conjecture 6.3.23, p.210.
+
+**Literature check.** Status: Open in thesis; no later resolution located.
+
+**Further links.** [1](https://kclpure.kcl.ac.uk/portal/en/studentTheses/homogeneous-hypersurfaces-in-riemannian-symmetric-spaces/) · [2](https://sites.google.com/view/ivansolonenko/materials)
+
+
+<a id="q3721"></a>
+
+## Q3721. CPC submanifolds in the solvable model
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+If S has the CPC property, can it be written S=H·o for some Iwasawa decomposition G=KAN and connected Lie subgroup H⊆AN?
+
+**Context.** Advisor(s): Jürgen Berndt. Paper: Classification of cohomogeneity-one actions on symmetric spaces of noncompact type Origin: Authors’ closing question in §5. Setup: Let S be a connected homogeneous submanifold of a symmetric space M of noncompact type. Choose o∈S and write M=G/K with K the stabilizer of o. Homogeneous means an isometric Lie-group orbit. S has the CPC property if the spectra, including multiplicities, of its shape operators A_ξ are identical for all unit normal vectors ξ, even at different points.
+
+**Source.** Ivan Solonenko and coauthors. *Classification of cohomogeneity-one actions on symmetric spaces of noncompact type*. 2025. [primary source](https://arxiv.org/pdf/2501.05553v2) Location: Open question, end of §5, p.37; CPC definition p.15.
+
+**Literature check.** Status: March 2025 v2 remains current; no resolution located.
+
+**Further links.** [1](https://sites.google.com/view/ivansolonenko/materials) · [2](https://arxiv.org/abs/2501.05553)
+
+
+<a id="q3722"></a>
+
+## Q3722. Cusps in hyperbolic-product complements
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 38
+
+Does N admit a complete finite-volume Riemannian metric of sectional curvature ≤0, with every end created by removing S a cusp?
+
+**Context.** Advisor(s): Jean-François Lafont. Origin: Chapter 2 questions; joint project with Lafont, Miller and Minemyer. Setup: For m,n≥2, let M be a finite-volume Riemannian manifold universally covered by H^m×H^n. Let S⊂M be an embedded compact, possibly disconnected, totally geodesic codimension-two submanifold whose lifts are isometric copies of H^{m−1}×H^{n−1}. Put N=M\S; whenever it exists smoothly, let X_d be a d-fold ramified branched cover of M along S, d>2.
+
+**Source.** Hyeran Cho. *Aspects of Hyperbolicity in Groups and Spaces*. Ohio State University, 2025. Advisor(s): Jean-François Lafont. [primary source](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1752753416943883&disposition=inline) Location: §2.1, Question 1, p.43; setup p.42.
+
+**Literature check.** Status: General case remains open; follow-up listed in preparation.
+
+**Further links.** [1](https://etd.ohiolink.edu/acprod/odb_etd/r/etd/search/10?p10_accession_num=osu1752753416943883) · [2](https://hyeran131.wixsite.com/hyeran-cho/research) · [3](https://facstaff.bloomu.edu/bminemyer/)
+
+
+<a id="q3723"></a>
+
+## Q3723. Curvature of hyperbolic-product branched covers
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 38
+
+Does X_d admit a Riemannian metric of sectional curvature ≤0?
+
+**Context.** Advisor(s): Jean-François Lafont. Origin: Chapter 2 questions; joint project with Lafont, Miller and Minemyer. Setup: For m,n≥2, let M be a finite-volume Riemannian manifold universally covered by H^m×H^n. Let S⊂M be an embedded compact, possibly disconnected, totally geodesic codimension-two submanifold whose lifts are isometric copies of H^{m−1}×H^{n−1}. Put N=M\S; whenever it exists smoothly, let X_d be a d-fold ramified branched cover of M along S, d>2.
+
+**Source.** Hyeran Cho. *Aspects of Hyperbolicity in Groups and Spaces*. Ohio State University, 2025. Advisor(s): Jean-François Lafont. [primary source](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1752753416943883&disposition=inline) Location: §2.1, Question 2, p.43.
+
+**Literature check.** Status: General case remains open; follow-up listed in preparation.
+
+**Further links.** [1](https://etd.ohiolink.edu/acprod/odb_etd/r/etd/search/10?p10_accession_num=osu1752753416943883) · [2](https://hyeran131.wixsite.com/hyeran-cho/research) · [3](https://facstaff.bloomu.edu/bminemyer/)
 

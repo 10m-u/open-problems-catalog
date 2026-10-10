@@ -1,6 +1,6 @@
 # Analysis
 
-88 problems: 85 open, 3 open, partial results.
+103 problems: 100 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -94,6 +94,21 @@
 | [Q3538](analysis.md#q3538) | Strong maximal restriction without exponent loss | Open |
 | [Q3539](analysis.md#q3539) | Critical restriction on every fractal dimension | Open |
 | [Q3540](analysis.md#q3540) | Endpoint-corrected centered maximal variation | Open |
+| [Q3637](analysis.md#q3637) | Full modulation along the paraboloid | Open |
+| [Q3638](analysis.md#q3638) | Pointwise bilinear averages for commuting transformations | Open |
+| [Q3639](analysis.md#q3639) | Constant extremizers for circle extension | Open |
+| [Q3640](analysis.md#q3640) | Bounded hyperbolic gaps in Malmquist–Takenaka systems | Open |
+| [Q3641](analysis.md#q3641) | Almost-everywhere nonlinear phase unwinding | Open |
+| [Q3647](analysis.md#q3647) | Existence of diagonal sphere-extension extremizers | Open |
+| [Q3649](analysis.md#q3649) | Radial maximal norms in high dimension | Open |
+| [Q3650](analysis.md#q3650) | Full-scale discrete bounds for 1-symmetric bodies | Open |
+| [Q3733](analysis.md#q3733) | Does woven minimality imply woven completeness? | Open |
+| [Q3734](analysis.md#q3734) | If E(f) and E(g) are frames, does woven completeness imply woven minimality? | Open |
+| [Q3735](analysis.md#q3735) | If G is a Schauder basis of L²(R^d), must D⁻(Λ)=D⁺(Λ)=1? | Open |
+| [Q3741](analysis.md#q3741) | For every 1&lt;p<∞, is there C_p independent of d and G such that \|\|M_G f\|\|\_p≤C_p\|\|f\|\|\_p for all… | Open |
+| [Q3742](analysis.md#q3742) | For every K>0, do d≥1 and an origin-symmetric, coordinate-permutation-invariant convex body… | Open |
+| [Q3745](analysis.md#q3745) | Must there exist 0≠φ∈H with x↦⟨U_xφ,φ⟩ in L¹(Ξ)? | Open |
+| [Q3746](analysis.md#q3746) | If A is trace-class and F_UA has compact support, must F_σ(F_UA)∈L¹(Ξ)? | Open |
 
 <a id="q283"></a>
 
@@ -1596,4 +1611,257 @@ Must Var(Mf)≤Var(f)−½||f(+∞)|−|f(−∞)|| hold?
 **Literature check.** Status: Final 2025 article retains it. The inspected August 2026 claim proves special cases and explicitly leaves the general inequality open.
 
 **Further links.** [1](https://etheses.bham.ac.uk/id/eprint/13425/)
+
+
+<a id="q3637"></a>
+
+## Q3637. Full modulation along the paraboloid
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 37
+
+Is ||sup_{N∈R^{d+1}}|T M_N f|||₂≤C_K||f||₂ for every Schwartz f?
+
+**Context.** Doctoral route: Estimates for some rough operators with modulation symmetries; University of Bonn; 2025 Advisors: Christoph Thiele Setup: Let d≥2 and integer m≥1. Let K be an m-times differentiable kernel off 0 with |∂^αK(y)|≤|y|^{−d−|α|} for |α|≤m, bounded Fourier transform, and ∫\_{r<|y|&lt;R}K(y)dy=0 for every 0&lt;r&lt;R. Put Tf(x′,x_{d+1})=p.v.∫f(x′−y,x_{d+1}−|y|²)K(y)dy and M_Nf(x)=e^{iN·x}f(x). Origin: Dissertation Questions 1–2, restating classical problems.
+
+**Source.** Lars Becker. *Estimates for some rough operators with modulation symmetries*. University of Bonn, 2025. Advisor(s): Christoph Thiele. [primary source](https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/13142/8285.pdf?sequence=2&isAllowed=y) Location: Introduction, Question 1, p.5; kernel hypotheses pp.3–4.
+
+**Literature check.** Status: 2026 proper-modulation bounds and norm-variation results do not resolve these targets.
+
+
+<a id="q3638"></a>
+
+## Q3638. Pointwise bilinear averages for commuting transformations
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 37
+
+For commuting invertible probability-preserving transformations S,T on (X,μ) and f,g∈L²(X), must N^{−1}∑\_{n=1}^N f(Tⁿx)g(Sⁿx) converge for μ-almost every x?
+
+**Context.** Doctoral route: Estimates for some rough operators with modulation symmetries; University of Bonn; 2025 Advisors: Christoph Thiele Setup: Let d≥2 and integer m≥1. Let K be an m-times differentiable kernel off 0 with |∂^αK(y)|≤|y|^{−d−|α|} for |α|≤m, bounded Fourier transform, and ∫\_{r<|y|&lt;R}K(y)dy=0 for every 0&lt;r&lt;R. Put Tf(x′,x_{d+1})=p.v.∫f(x′−y,x_{d+1}−|y|²)K(y)dy and M_Nf(x)=e^{iN·x}f(x). Origin: Dissertation Questions 1–2, restating classical problems.
+
+**Source.** Lars Becker. *Estimates for some rough operators with modulation symmetries*. University of Bonn, 2025. Advisor(s): Christoph Thiele. [primary source](https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/13142/8285.pdf?sequence=2&isAllowed=y) Location: Introduction, Question 2, p.11; setup p.10.
+
+**Literature check.** Status: 2026 proper-modulation bounds and norm-variation results do not resolve these targets.
+
+
+<a id="q3639"></a>
+
+## Q3639. Constant extremizers for circle extension
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Does ||Ef||\_{L⁶(R²)}/||f||\_{L²(S¹)}≤||E1||₆/||1||₂ hold for every nonzero f∈L²(S¹)?
+
+**Context.** Doctoral route: Some sharp and endpoint inequalities in Harmonic Analysis; University of Bonn; 2024 Advisors: Christoph Thiele Setup: Let σ be arc length on S¹ and Ef(x)=∫\_{S¹}e^{-ix·ω}f(ω)dσ(ω). Origin: Classical circle-extremizer conjecture discussed in the dissertation.
+
+**Source.** Valentina Ciccone. *Some sharp and endpoint inequalities in Harmonic Analysis*. University of Bonn, 2024. Advisor(s): Christoph Thiele. [primary source](https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/12631/7993.pdf?sequence=2&isAllowed=y) Location: Chapter 2, p.19, (2.1); Appendix A, p.32.
+
+**Literature check.** Status: The October 2025 lacunary-spectrum result treats a restricted Fourier-support class.
+
+
+<a id="q3640"></a>
+
+## Q3640. Bounded hyperbolic gaps in Malmquist–Takenaka systems
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3) · **Collection** 37
+
+If every consecutive hyperbolic distance d_D(a_n,a_{n+1})≤D₀, is ||T^a||\_{L²(T)→L²(T)}≤C(D₀)?
+
+**Context.** Paper: Almost everywhere convergence of a wavelet-type Malmquist–Takenaka series; 2025 v2 Setup: Let D={z∈C:|z|<1}, T=∂D, and a_j∈D with ∑(1−|a_j|)=∞. Put B₀=1, B_n(z)=∏\_{j=1}^n(z−a_j)/(1−ā\_jz), φ\_n(z)=B_n(z)√(1−|a_{n+1}|²)/(1−ā\_{n+1}z), and T^af=sup_n|∑\_{j=0}^n⟨f,φ\_j⟩φ\_j|, using normalized arc length. Set d_D(a,b)=2artanh|(a−b)/(1−āb)|. H²(D) consists of holomorphic F with sup_{r<1}∫\_T|F(rζ)|²dζ<∞. Origin: Conjecture 3 and the question following (1.4); reached through Thiele’s doctoral network.
+
+**Source.** Gevorg Mnatsakanyan. *Almost everywhere convergence of a wavelet-type Malmquist–Takenaka series*. 2025. [primary source](https://arxiv.org/abs/2404.13296v2) Location: Conjecture 3, p.3; (1.1)–(1.5), pp.1–2.
+
+**Literature check.** Status: December 2025 v2 retains both questions.
+
+
+<a id="q3641"></a>
+
+## Q3641. Almost-everywhere nonlinear phase unwinding
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For F₀=F∈H²(D), let U_n be the Blaschke product of the zeros of F_{n−1}−F_{n−1}(0), and F_n=(F_{n−1}−F_{n−1}(0))/U_n. Must ∑\_{k=0}^N F_k(0)∏\_{j=1}^kU_j converge to F almost everywhere on T? Stop if a remainder is constant.
+
+**Context.** Paper: Almost everywhere convergence of a wavelet-type Malmquist–Takenaka series; 2025 v2 Setup: Let D={z∈C:|z|<1}, T=∂D, and a_j∈D with ∑(1−|a_j|)=∞. Put B₀=1, B_n(z)=∏\_{j=1}^n(z−a_j)/(1−ā\_jz), φ\_n(z)=B_n(z)√(1−|a_{n+1}|²)/(1−ā\_{n+1}z), and T^af=sup_n|∑\_{j=0}^n⟨f,φ\_j⟩φ\_j|, using normalized arc length. Set d_D(a,b)=2artanh|(a−b)/(1−āb)|. H²(D) consists of holomorphic F with sup_{r<1}∫\_T|F(rζ)|²dζ<∞. Origin: Conjecture 3 and the question following (1.4); reached through Thiele’s doctoral network.
+
+**Source.** Gevorg Mnatsakanyan. *Almost everywhere convergence of a wavelet-type Malmquist–Takenaka series*. 2025. [primary source](https://arxiv.org/abs/2404.13296v2) Location: Unnumbered open question after (1.4), p.2.
+
+**Literature check.** Status: December 2025 v2 retains both questions.
+
+
+<a id="q3647"></a>
+
+## Q3647. Existence of diagonal sphere-extension extremizers
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For every finite non-even p>2d/(d−1) such that E_d:L^p(S^{d−1})→L^p(R^d) is bounded, is its operator norm attained by some nonzero f?
+
+**Context.** Doctoral route: Some sharp and endpoint inequalities in Harmonic Analysis; University of Bonn; 2024 Advisors: Christoph Thiele Setup: For d≥2 let σ be surface measure on S^{d−1} and E_df(x)=∫e^{−ix·ω}f(ω)dσ(ω). Origin: Dissertation p.24; Ciccone–Sousa final article, discussion of (P4).
+
+**Source.** Ciccone and Sousa. *Global and local maximizers for some Fourier extension estimates on the sphere*. 2025. [primary source](https://doi.org/10.1007/s00041-025-10201-7) Location: Global and local maximizers for some Fourier extension estimates on the sphere, (P4) and following paragraph, p.5.
+
+**Literature check.** Status: The November 2025 final article explicitly leaves non-even diagonal extremizer existence open.
+
+
+<a id="q3649"></a>
+
+## Q3649. Radial maximal norms in high dimension
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For each 1&lt;p<∞, does lim_{d→∞} sup_K ||M_K||\_{p,rad}=1, where K ranges over all radial log-concave probability densities on R^d?
+
+**Context.** Paper: High-dimensional limits and extremizers for maximal functions associated with log-concave densities; 2026 Genealogy: Ciccone, above. Setup: For a probability density K on R^d, put K_t(x)=t^{-d}K(x/t) and M_Kf=sup_{t>0}|K_t\*f|. Write ||M_K||\_{p,rad} for the supremum of ||M_Kf||\_p/||f||\_p over nonzero radial f∈L^p(R^d). Log-concavity means K((1−s)x+sy)≥K(x)^{1−s}K(y)^s for 0&lt;s<1. Origin: Question (1.27) in the later joint paper.
+
+**Source.** Valentina Ciccone and Błażej Wróbel. *High-dimensional limits and extremizers for maximal functions associated with log-concave densities*. 2026. [primary source](https://arxiv.org/abs/2607.06041v1) Location: Question (1.27), p.8.
+
+**Literature check.** Status: July 2026 v1 inspected; later discrete maximal results concern lattice averages.
+
+
+<a id="q3650"></a>
+
+## Q3650. Full-scale discrete bounds for 1-symmetric bodies
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.7) · **Collection** 37
+
+Is sup_{d≥1} sup_{G 1-symmetric} ||M_G||\_{ℓ²(Z^d)→ℓ²(Z^d)} finite?
+
+**Context.** Paper: High-dimensional discrete 1-symmetric convex bodies and dimension-free estimates for maximal functions; 2026 Setup: For an origin-symmetric convex body G⊂R^d, define M_G f(n)=sup_{t>0}|( #(tG∩Z^d) )^{-1}∑\_{m∈tG∩Z^d}f(n−m)|. A body is 1-symmetric when invariant under all coordinate permutations and coordinate sign changes. Origin: Conjecture 1.7; reached through Wróbel’s master’s-student network.
+
+**Source.** Jakub Niksiński. *High-dimensional discrete 1-symmetric convex bodies and dimension-free estimates for maximal functions*. 2026. [primary source](https://arxiv.org/abs/2608.17302v1) Location: Conjecture 1.7, p.5; equivalent to its uniform 2≤p≤∞ formulation by interpolation.
+
+**Literature check.** Status: August 2026 v1 proves dyadic and small-scale bounds; the full-scale questions remain explicit.
+
+
+<a id="q3733"></a>
+
+## Q3733. Does woven minimality imply woven completeness?
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Does woven minimality imply woven completeness?
+
+**Context.** Rohit Pai: Georgia Tech PhD, 2026, Gabor Density Bounds, Woven Systems and Weighted Oblique Dual Frames; advisor Christopher Heil. Origin: Pai–Rocha–Yu, before Corollary 3.14; Q3734 also in Pai’s thesis §3.6.1, p. 118 (equivalent Riesz-basis wording). For nonzero f,g∈L²[0,1], let E(f)={fe^{2πint}:n∈Z} and W_J={fe^{2πint}:n∈J}∪{ge^{2πint}:n∈Z∖J}. A system is complete if its closed span is L²[0,1], and minimal if no member lies in the closed span of the others. “Wovenly” means for every J⊂Z. A frame (h_n) has constants 0&lt;A≤B<∞ with A||h||²≤Σ|⟨h,h_n⟩|²≤B||h||² for every h.
+
+**Source.** Pai, Rocha and Yu. *Woven weighted exponentials*. 2026. [primary source](https://arxiv.org/abs/2608.14393v1) Location: pp. 10–11, paragraph preceding Corollary 3.14
+
+**Literature check.** Status: August 2026 v1; thesis and paper inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://repository.gatech.edu/entities/publication/7e2de79e-641f-4b7f-bb16-7124d02e52e3)
+
+
+<a id="q3734"></a>
+
+## Q3734. If E(f) and E(g) are frames, does woven completeness imply woven minimality?
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+If E(f) and E(g) are frames, does woven completeness imply woven minimality?
+
+**Context.** Rohit Pai: Georgia Tech PhD, 2026, Gabor Density Bounds, Woven Systems and Weighted Oblique Dual Frames; advisor Christopher Heil. Origin: Pai–Rocha–Yu, before Corollary 3.14; Q3734 also in Pai’s thesis §3.6.1, p. 118 (equivalent Riesz-basis wording). For nonzero f,g∈L²[0,1], let E(f)={fe^{2πint}:n∈Z} and W_J={fe^{2πint}:n∈J}∪{ge^{2πint}:n∈Z∖J}. A system is complete if its closed span is L²[0,1], and minimal if no member lies in the closed span of the others. “Wovenly” means for every J⊂Z. A frame (h_n) has constants 0&lt;A≤B<∞ with A||h||²≤Σ|⟨h,h_n⟩|²≤B||h||² for every h.
+
+**Source.** Pai, Rocha and Yu. *Woven weighted exponentials*. 2026. [primary source](https://arxiv.org/abs/2608.14393v1) Location: p. 11, preceding Corollary 3.14
+
+**Literature check.** Status: August 2026 v1; thesis and paper inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://repository.gatech.edu/entities/publication/7e2de79e-641f-4b7f-bb16-7124d02e52e3)
+
+
+<a id="q3735"></a>
+
+## Q3735. If G is a Schauder basis of L²(R^d), must D⁻(Λ)=D⁺(Λ)=1?
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+If G is a Schauder basis of L²(R^d), must D⁻(Λ)=D⁺(Λ)=1?
+
+**Context.** Pu-Ting Yu: Georgia Tech PhD, Convergence of Frame Series: From Hilbert Spaces to Banach Spaces and ℓ1-Boundedness (2024); advisor Christopher Heil. Origin: Deng–Heil (2000) conjecture, restated after Theorem 4.6. For finitely many nonzero g_j∈L²(R^d) and discrete Λ\_j⊂R^{2d}, form G=⋃\_j{e^{2πiξ·t}g_j(t−x):(x,ξ)∈Λ\_j}. Count Λ=⊔\_jΛ\_j with multiplicity. Define D⁻(Λ)=liminf_{R→∞}inf_z #(Λ∩(z+[−R/2,R/2]^{2d}))/R^{2d}, and D⁺ using limsup and sup. A Schauder basis admits unique norm-convergent expansions in a fixed enumeration.
+
+**Source.** Pu-Ting Yu. *Every semi-normalized unconditional Schauder frame in Hilbert spaces contains a frame*. 2026. [primary source](https://arxiv.org/abs/2602.21616v3) Location: Section 4.2, p. 15, paragraph after Theorem 4.6
+
+**Literature check.** Status: March 2026 v3 inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://repository.gatech.edu/entities/publication/36f42a49-2e32-4cb4-9f3e-a6196c623a47)
+
+
+<a id="q3741"></a>
+
+## Q3741. For every 1&lt;p<∞, is there C_p independent of d and G such that ||M_G f||\_p≤C_p||f||\_p for all…
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+For every 1&lt;p<∞, is there C_p independent of d and G such that ||M_G f||\_p≤C_p||f||\_p for all f∈L^p(R^d)?
+
+**Context.** Valentina Ciccone: Bonn PhD, Some sharp and endpoint inequalities in Harmonic Analysis (2024); advisor Christoph Thiele. Joint 2026 maximal-function paper with Błażej Wróbel. Origin: Classical dimension-free problem, recalled in §1.1. For an origin-symmetric convex body G⊂R^d (compact, convex, with nonempty interior), define M_G f(x)=sup_{t>0}|tG|^{−1}|∫\_{tG}f(x−y)dy|.
+
+**Source.** Valentina Ciccone and Błażej Wróbel. *High-dimensional limits and extremizers for maximal functions associated with log-concave densities*. 2026. [primary source](https://arxiv.org/abs/2607.06041v1) Location: Section 1.1, first paragraph, p. 5
+
+**Literature check.** Status: July 2026 v1 inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/12631)
+
+
+<a id="q3742"></a>
+
+## Q3742. For every K>0, do d≥1 and an origin-symmetric, coordinate-permutation-invariant convex body…
+
+**Status:** Open · **Kind:** open problem (Question 1.9) · **Collection** 38
+
+For every K>0, do d≥1 and an origin-symmetric, coordinate-permutation-invariant convex body G⊂R^d exist with ||M_G||\_{ℓ²→ℓ²}≥K?
+
+**Context.** Research paper reached through Wróbel student network. Linked official University of Wrocław student document is a master’s thesis; no PhD or doctoral advisor claim is made. Origin: Jakub Niksiński, Question 1.9. For an origin-symmetric convex body G⊂R^d (compact, convex, with nonempty interior), set M_G f(n)=sup_{t>0}|Σ\_{m∈tG∩Z^d}f(n−m)|/#(tG∩Z^d).
+
+**Source.** Jakub Niksiński. *High-dimensional discrete 1-symmetric convex bodies and dimension-free estimates for maximal functions*. 2026. [primary source](https://arxiv.org/abs/2608.17302v1) Location: Question 1.9, p. 6
+
+**Literature check.** Status: August 2026 v1 inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://wmi.uwr.edu.pl/wp-content/uploads/sites/288/2024/12/Niksinski-Jakub-praca.pdf)
+
+
+<a id="q3745"></a>
+
+## Q3745. Must there exist 0≠φ∈H with x↦⟨U_xφ,φ⟩ in L¹(Ξ)?
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 38
+
+Must there exist 0≠φ∈H with x↦⟨U_xφ,φ⟩ in L¹(Ξ)?
+
+**Context.** Robert Fulsche: Hannover PhD, Toeplitz operators and generated algebras on non-Hilbertian spaces (2020); advisor Wolfram Bauer. Origin: Fulsche–Galke, §8, Questions 2–3. Let Ξ be a locally compact abelian group and m:Ξ²→{z∈C:|z|=1} separately continuous, with m(x,0)=m(0,x)=1 and m(x+y,z)m(x,y)=m(x,y+z)m(y,z), m(x,y)=m(−x,−y), such that σ(x,y)=m(x,y)/m(y,x) identifies Ξ topologically with its Pontryagin dual. Let U_xU_y=m(x,y)U_{x+y} be its irreducible strongly continuous square-integrable unitary representation on H. Put F_UA(x)=tr(AU_x\*) and F_σh(ξ)=∫σ(x,ξ)h(x)dx. Square-integrable means some nonzero matrix coefficient belongs to L²(Ξ).
+
+**Source.** Fulsche and Galke. *Quantum Harmonic Analysis on Locally Compact Abelian Groups*. 2025. [primary source](https://doi.org/10.1007/s00041-024-10140-9) Location: Question 2, p. 55; Theorem 2.11
+
+**Literature check.** Status: Final JFAA 31:13 (2025) inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://research.uni-hannover.de/de/publications/toeplitz-operators-and-generated-algebras-on-non-hilbertian-space/)
+
+
+<a id="q3746"></a>
+
+## Q3746. If A is trace-class and F_UA has compact support, must F_σ(F_UA)∈L¹(Ξ)?
+
+**Status:** Open · **Kind:** open problem (Question 3) · **Collection** 38
+
+If A is trace-class and F_UA has compact support, must F_σ(F_UA)∈L¹(Ξ)?
+
+**Context.** Robert Fulsche: Hannover PhD, Toeplitz operators and generated algebras on non-Hilbertian spaces (2020); advisor Wolfram Bauer. Origin: Fulsche–Galke, §8, Questions 2–3. Let Ξ be a locally compact abelian group and m:Ξ²→{z∈C:|z|=1} separately continuous, with m(x,0)=m(0,x)=1 and m(x+y,z)m(x,y)=m(x,y+z)m(y,z), m(x,y)=m(−x,−y), such that σ(x,y)=m(x,y)/m(y,x) identifies Ξ topologically with its Pontryagin dual. Let U_xU_y=m(x,y)U_{x+y} be its irreducible strongly continuous square-integrable unitary representation on H. Put F_UA(x)=tr(AU_x\*) and F_σh(ξ)=∫σ(x,ξ)h(x)dx. Square-integrable means some nonzero matrix coefficient belongs to L²(Ξ).
+
+**Source.** Fulsche and Galke. *Quantum Harmonic Analysis on Locally Compact Abelian Groups*. 2025. [primary source](https://doi.org/10.1007/s00041-024-10140-9) Location: Question 3, p. 55
+
+**Literature check.** Status: Final JFAA 31:13 (2025) inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://research.uni-hannover.de/de/publications/toeplitz-operators-and-generated-algebras-on-non-hilbertian-space/)
 

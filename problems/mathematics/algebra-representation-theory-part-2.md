@@ -2,6 +2,40 @@
 
 [Subject overview](algebra-representation-theory.md) · Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representation-theory-part-2.md)
 
+<a id="q3005"></a>
+
+## Q3005. Infinitely many power-cograph projective groups
+
+**Status:** Open · **Kind:** open problem · **Collection** 31
+
+Are there infinitely many prime powers q≥4 for which PSL₂(q) has a power graph that is a cograph?
+
+**Context.** Origin for questions 3005, 3006: Older infinitude problems of Manna–Cameron–Mehatari, retained by Kaja; not thesis-origin questions. Setup for questions 3005, 3006: For a group G, its undirected power graph joins distinct g,h if either is a positive integer power of the other. A cograph has no induced path on four vertices.
+
+**Source.** Eda Kaja. *Classifications at the intersection of group and graph theory*. TU Darmstadt, 2025. Advisor(s): Pascal Schweitzer. [primary source](https://d-nb.info/1361444797/34) Location: §2.6, p. 47.
+
+**Literature check.** Status for questions 3005, 3006, checked 8 October 2026: The structural classification does not settle infinitude; no later resolution located.
+
+**Further links.** [1](https://tuprints.ulb.tu-darmstadt.de/entities/publication/a9ce0a3f-7d38-4fce-a549-b27682c06fd8) · [2](https://arxiv.org/abs/2203.02362) · [3](https://doi.org/10.37236/9961) · [4](https://arxiv.org/abs/2010.05198) · [5](https://arxiv.org/abs/2106.14217) · [6](https://doi.org/10.1016/j.jalgebra.2021.09.034)
+
+
+<a id="q3006"></a>
+
+## Q3006. Infinitely many power-cograph Suzuki groups
+
+**Status:** Open · **Kind:** open problem · **Collection** 31
+
+Are there infinitely many integers e≥2 for which Sz(2^(2e+1)) has a power graph that is a cograph?
+
+**Context.** Origin for questions 3005, 3006: Older infinitude problems of Manna–Cameron–Mehatari, retained by Kaja; not thesis-origin questions. Setup for questions 3005, 3006: For a group G, its undirected power graph joins distinct g,h if either is a positive integer power of the other. A cograph has no induced path on four vertices.
+
+**Source.** Eda Kaja. *Classifications at the intersection of group and graph theory*. TU Darmstadt, 2025. Advisor(s): Pascal Schweitzer. [primary source](https://d-nb.info/1361444797/34) Location: After Theorem 2.2.4, pp. 18–19.
+
+**Literature check.** Status for questions 3005, 3006, checked 8 October 2026: The structural classification does not settle infinitude; no later resolution located.
+
+**Further links.** [1](https://tuprints.ulb.tu-darmstadt.de/entities/publication/a9ce0a3f-7d38-4fce-a549-b27682c06fd8) · [2](https://arxiv.org/abs/2203.02362) · [3](https://doi.org/10.37236/9961) · [4](https://arxiv.org/abs/2010.05198) · [5](https://arxiv.org/abs/2106.14217) · [6](https://doi.org/10.1016/j.jalgebra.2021.09.034)
+
+
 <a id="q3007"></a>
 
 ## Q3007. Four classes of closed full inverse monoids
@@ -1025,4 +1059,293 @@ For every prime p, does a function f_p on integers b>1 coprime to p exist such t
 **Source.** Liu and Gan. *The order of quasiprimitive permutation groups and the Isbell conjecture*. 2026. [primary source](https://doi.org/10.1360/SSM-2026-0094) Location: Fusari’s dissertation, Conjecture 1.6, p. 17, restates generalized Isbell. Latest exact reaffirmation: Liu–Gan, The order of quasiprimitive permutation groups and the Isbell conjecture, publisher-final, 1 July 2026, Conjecture 1.1, p. 2. The paper proves the p=2 quasiprimitive case, leaving the general conjecture.
 
 **Notes.** Latest exact reaffirmation: Liu–Gan, The order of quasiprimitive permutation groups and the Isbell conjecture, publisher-final, 1 July 2026, Conjecture 1.1, p. 2.
+
+
+<a id="q3602"></a>
+
+## Q3602. Symmetric rings with non-NR power series
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Does an associative unital ring R exist such that abc=0 implies acb=0 for every a,b,c in R, but the set {f in R[[x]]: f^m=0 for some integer m>=1} is not a possibly nonunital subring of R[[x]]? The indeterminate x is central.
+
+**Source.** Nolan Ison. *Power Series Rings over Noncommutative Rings: Symmetry, Reversibility, and Semicommutativity*. Brigham Young University, 2025. [primary source](https://scholarsarchive.byu.edu/etd/10816/) Location: Section 1.2, printed pp.4–5; definitions in Section 1.1
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3606"></a>
+
+## Q3606. Embedding quadratic Lie algebras into Koszul ones
+
+**Status:** Open · **Kind:** open problem (Question 2.19) · **Collection** 37
+
+Must every quadratic Lie algebra of finite cohomological dimension embed in a Koszul Lie algebra?
+
+**Context.** Setup: Work over a field k of characteristic !=2 with positively graded Lie algebras finitely generated in degree one. Quadratic means having quadratic relations; Koszul means Ext^{i,j}\_{U(L)}(k,k)=0 for i!=j.
+
+**Source.** Simone Blumer. *Koszul Lie algebras and their subalgebras*. 2026. [primary source](https://www.boa.unimib.it/retrieve/404582f4-d4eb-46a4-b395-e474a7d568ed/Blumer-2026-Journal%20of%20Algebra-VoR.pdf) Location: Question 2.19, p.19
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3607"></a>
+
+## Q3607. Separativity for exchange rings
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For exchange R and finitely generated projective right modules P,Q, must P⊕P≅P⊕Q≅Q⊕Q imply P≅Q?
+
+**Context.** Setup: A unital ring R is exchange if every a admits idempotent e∈aR with 1−e∈(1−a)R. V(R) denotes finitely generated projective right-module classes under ⊕.
+
+**Source.** Ara, Goodearl, Nielsen, O’Meara, Pardo and Perera. *Levels of cancellation for monoids and modules*. 2026. [primary source](https://mathdept.byu.edu/~pace/levels-of-cancellation-for-monoids-and-modules.pdf) Location: Problems 8.4, p.174; equation (8-1)
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3608"></a>
+
+## Q3608. Realizing countable refinement monoids
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Is every countable conical refinement commutative monoid with an order-unit isomorphic to V(R) for a unital exchange R? Conical means a+b=0⇒a=b=0; refinement means each a_1+a_2=b_1+b_2 admits c_ij with those row/column sums; order-unit u means every a satisfies a+b=nu for some b,n>=1.
+
+**Context.** Setup: A unital ring R is exchange if every a admits idempotent e∈aR with 1−e∈(1−a)R. V(R) denotes finitely generated projective right-module classes under ⊕.
+
+**Source.** Ara, Goodearl, Nielsen, O’Meara, Pardo and Perera. *Levels of cancellation for monoids and modules*. 2026. [primary source](https://mathdept.byu.edu/~pace/levels-of-cancellation-for-monoids-and-modules.pdf) Location: Problems 8.4, p.174
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3611"></a>
+
+## Q3611. Three-variable power-sum complete intersections
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.3) · **Collection** 37
+
+For n=3, 0&lt;a&lt;b&lt;c and gcd(a,b,c)=1, is the common zero locus of p_a,p_b,p_c just {0} iff 6|abc?
+
+**Context.** Setup: For integers n,a≥1, set p_a=sum_{j=1}^n x_j^a in C[x_1,...,x_n].
+
+**Source.** Conca, Singh and Soundararajan. *Ideals generated by power sums*. 2025. [primary source](https://imar.ro/journals/Revue_Mathematique/pdfs/2025/1-2/5.pdf) Location: Conjecture 1.3, p.50
+
+**Literature check.** Status: No later full resolution located, 9 October 2026. Q3611 is reaffirmed in https://arxiv.org/html/2609.07932v1, Section 1.
+
+**Further links.** [1](https://arxiv.org/html/2609.07932v1)
+
+
+<a id="q3612"></a>
+
+## Q3612. Four-variable power-sum complete intersections
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.4) · **Collection** 37
+
+For n=4 and A={a_1&lt;a_2&lt;a_3&lt;a_4} with gcd(A)=1, is the common zero locus of {p_a:a∈A} just {0} iff 24|product_i a_i, {v_2(a_i)} contains two distinct positive values, and A contains no {d,2d,5d} with integer d≥1? Here v_2 is the 2-adic valuation.
+
+**Context.** Setup: For integers n,a≥1, set p_a=sum_{j=1}^n x_j^a in C[x_1,...,x_n].
+
+**Source.** Conca, Singh and Soundararajan. *Ideals generated by power sums*. 2025. [primary source](https://imar.ro/journals/Revue_Mathematique/pdfs/2025/1-2/5.pdf) Location: Conjecture 1.4, p.51
+
+**Literature check.** Status: No later full resolution located, 9 October 2026. Q3611 is reaffirmed in https://arxiv.org/html/2609.07932v1, Section 1.
+
+**Further links.** [1](https://arxiv.org/html/2609.07932v1)
+
+
+<a id="q3614"></a>
+
+## Q3614. Zassenhaus algebras with mixed 2-adic labels
+
+**Status:** Open · **Kind:** open problem (Question 9.3) · **Collection** 37
+
+Let p be prime and Gamma a finite mixed graph without directed cycles; edges are plain or arrows, with arrow labels ell(a) in 1+pZ_p. Let G be the pro-p group with vertex generators and relations [v,u]=1 on plain edges and u^v=u^{ell(u,v)} on arrows, where u^v=v^{-1}uv. Let D_j={g:g-1 lies in omega^j} for the augmentation ideal omega of F_p[[G]]. Is direct_sum_{j>=1} D_j/D_{j+1} isomorphic to the graded restricted F_p-Lie algebra on degree-one vertex generators with defining relations [v,u]=u^[2] precisely on arrows u->v with p=2 and v_2(ell(u,v)-1)=1, and [v,u]=0 on every other edge?
+
+**Source.** Leoni, Martínez-Pérez and Weigel. *Generalising a Theorem of Lichtman*. 2026. [primary source](https://arxiv.org/abs/2606.27528) Location: Question 9.3, pp.21–22; equations (9.1),(9.2)
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3616"></a>
+
+## Q3616. Grassmannian prefixes of reflections
+
+**Status:** Open · **Kind:** open problem (Problem 2) · **Collection** 37
+
+For a finite-rank Coxeter system (W,S), let length be word length in S and T={wsw^{-1}:w in W,s in S}. Characterize the elements u with exactly one right descent, meaning exactly one s in S satisfies length(us)&lt;length(u), for which there is a reflection t of length 2\*length(u)-1 having a reduced word beginning with a reduced word for u.
+
+**Source.** Elisa Sasso. *Diagram calculus for affine Coxeter systems and properties of their associated root systems*. University of Bologna, 2026. [primary source](https://arxiv.org/abs/2602.16361) Location: Section 5, Problem 2, p.30; Proposition 3.1
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3617"></a>
+
+## Q3617. Realizability of strongly Koszul masks
+
+**Status:** Open · **Kind:** open problem (Question 2.16) · **Collection** 37
+
+Fix a field F, n>=1, put [n]={1,...,n}, and E={(A,k):A subset [n],k notin A}. Suppose M:E->2^[n] satisfies: A subset M(A,k); A subset B and k notin B imply M(A,k) subset M(B,k); j in M(A,k) iff k in M(A,j) for j,k notin A; and M(M(A,k),j)=M(M(A,j),k) whenever j notin M(A,k). Suppose functions F_A in Z[[z]] exist with F_[n]=1 and F_A=F_{A union {k}}+z F_{M(A,k)}. Must some standard graded commutative F-algebra R with F-basis x_1,...,x_n of R_1 satisfy (x_i:i in A):x_j=(x_i:i in M(A,j)) for every (A,j) in E?
+
+**Source.** Luca Fiorindo. *Perazzo algebras, strongly Koszulness, Arithmetic Complexes, and Vasconcelos invariant*. University of Genova, 2026. Advisor(s): Aldo Conca. [primary source](https://unige.iris.cineca.it/retrieve/9b01309f-fa18-40af-87dd-aae58f1137f2/phdunige_5530713.pdf) Location: Definition 2.13 and Question 2.16, pp.44–45
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3645"></a>
+
+## Q3645. Regular mixed groups without a specific lattice
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 37
+
+Does a regular mixed lattice group exist for which ≼ is not a lattice order?
+
+**Context.** Doctoral route: Mixed Lattice Structures; Tampere University; 2024 Advisors: Lassi Paunonen Setup: A mixed lattice group is an Abelian group with translation-invariant partial orders ≤,≼ for which x∧ₘy=max≤{z:z≼x,z≤y} and x∨ₘy=min≤{z:x≼z,y≤z} exist. It is regular if C={x:0≼x} is closed under both mixed operations and G=C−C. Origin: Dissertation Conclusions Question 2.
+
+**Source.** Jani Jokela. *Mixed Lattice Structures*. Tampere University, 2024. Advisor(s): Lassi Paunonen. [primary source](https://trepo.tuni.fi/bitstream/10024/155949/2/978-952-03-3407-9.pdf) Location: Conclusions Question 2, p.38; definitions pp.20–24.
+
+**Literature check.** Status: The 2026 final mixed-order paper’s discrete and irregular examples do not settle the regular case.
+
+
+<a id="q3653"></a>
+
+## Q3653. For a commutative monoid Π, let P(Π) be its multiplication-compatible total preorders, with the…
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For a commutative monoid Π, let P(Π) be its multiplication-compatible total preorders, with the coarsest topology making {≼:u≺v} closed for every u,v∈Π. Characterize Π for which every closed point of P(Π) is antisymmetric. Here u≺v means u≼v but not v≼u; a closed point has closed singleton. Compatibility means monotonicity under multiplication.
+
+**Source.** Draisma, Metcalfe and Santschi. *The space of preorders on a commutative monoid*. 2026. [primary source](https://arxiv.org/abs/2607.07473) Location: §7, p.40.
+
+**Literature check.** Status: Latest version and later-result searches checked October 9, 2026; no resolution located.
+
+
+<a id="q3701"></a>
+
+## Q3701. Left tensor-nilpotence and cones
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Does there exist an essentially small monoidal triangulated category K and a morphism f:x→y such that the full subcategory N_f={z∈K: f^{⊗n}⊗id_z=0 for some integer n≥1} is not triangulated?
+
+**Source.** Sam K. Miller. *On functoriality and the tensor product property in noncommutative tensor-triangular geometry*. 2025. [primary source](https://arxiv.org/abs/2505.01899v3) Location: Remark 10.2, p.25.
+
+**Literature check.** Status: Current v3 inspected; no later resolution located, 9 October 2026.
+
+**Further links.** [1](https://escholarship.org/content/qt9h73j2g4/qt9h73j2g4.pdf)
+
+
+<a id="q3706"></a>
+
+## Q3706. Quadratic filtrations of Koszul Lie algebras
+
+**Status:** Open · **Kind:** open problem (Question 3.24) · **Collection** 38
+
+Work over a field k with char(k)!=2. A quadratic Lie algebra is positively graded, generated by finitely many degree-one elements with degree-two defining relations. Call it Koszul if Ext^{i,j}\_{U(L)}(k,k)=0 for i!=j, where j is internal degree. Must every Koszul L have a chain L=L_0 ⊃ L_1 ⊃ ... ⊃ L_d=0 in which each L_i is quadratic, generated by its degree-one part, and dim_k (L_i)\_1=dim_k (L_{i+1})\_1+1?
+
+**Source.** Simone Blumer. *Koszul Lie algebras and their subalgebras*. 2026. [primary source](https://www.boa.unimib.it/retrieve/404582f4-d4eb-46a4-b395-e474a7d568ed/Blumer-2026-Journal%20of%20Algebra-VoR.pdf) Location: Question 3.24, p.31; filtration definition p.8
+
+**Literature check.** Status: Final re-inspected; no later resolution located, 9 October 2026.
+
+**Further links.** [1](https://zaguan.unizar.es/record/136232/files/TESIS-2024-335.pdf)
+
+
+<a id="q3707"></a>
+
+## Q3707. Prime ideals generated by power sums
+
+**Status:** Open · **Kind:** open problem (Question 2.1) · **Collection** 38
+
+For n>=1 and a finite nonempty set A of distinct positive integers, classify the pairs (n,A) for which (sum_{j=1}^n x_j^a : a in A) is a prime ideal of C[x_1,...,x_n].
+
+**Source.** Conca, Singh and Soundararajan. *Ideals generated by power sums*. 2025. [primary source](https://imar.ro/journals/Revue_Mathematique/pdfs/2025/1-2/5.pdf) Location: Question 2.1(5), p.51
+
+**Literature check.** Status: Final re-inspected; no later resolution located, 9 October 2026.
+
+**Further links.** [1](https://unige.iris.cineca.it/retrieve/9b01309f-fa18-40af-87dd-aae58f1137f2/phdunige_5530713.pdf) · [2](https://sites.google.com/view/fiorindo)
+
+
+<a id="q3708"></a>
+
+## Q3708. Positivity of the local conjugating function
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.5) · **Collection** 38
+
+For a finite group G and any set π of primes, write C_G(g)={h∈G:hg=gh} and define Π\_{π,G}(g)=|C_G(g)| when every prime divisor of the order of g lies in π, and Π\_{π,G}(g)=0 otherwise. Is Π\_{π,G} always the character of a finite-dimensional complex representation of G?
+
+**Context.** Genealogy: Invariants of finite groups, Binghamton PhD 2026, advisor Hung P. Tong-Viet; later-paper conjecture addressing a related question of Robinson. https://arxiv.org/abs/2609.26464v1
+
+**Source.** Christopher A. Schroeder. *Refining invariants of finite groups with class functions*. 2026. [primary source](https://arxiv.org/abs/2609.26464v1) Location: Example 2.6, p.4; Conjecture 3.5, p.7
+
+**Literature check.** Status: Explicit conjecture in the current version; π-separable groups and π=p′ are proved.
+
+**Further links.** [1](https://wiki.mathmig.binghamton.edu/doku.php?id=news:2026:0907_chris_schroeder)
+
+
+<a id="q3709"></a>
+
+## Q3709. Submultiplicativity of finite-group quantum invariants
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+For a finite group H and an integer h≥1 put q_h(H)=|H|^{-1}∑\_{χ∈Irr(H)}χ(1)^{2−2h}, where Irr(H) is the set of irreducible complex characters. For every finite group G, normal subgroup N, and h≥1, must q_h(G)≤q_h(N)q_h(G/N)?
+
+**Context.** Genealogy: Schroeder’s Binghamton PhD 2026, Invariants of finite groups, advisor Tong-Viet; question taken from their final paper. https://msp.org/pjm/2026/344-1/pjm-v344-n1-p07-s.pdf
+
+**Source.** Christopher A. Schroeder and Hung P. Tong-Viet. *On the invariants of finite groups arising in a topological quantum field theory*. 2026. [primary source](https://msp.org/pjm/2026/344-1/pjm-v344-n1-p07-s.pdf) Location: definition p.152, Remark 1.8, p.155
+
+**Literature check.** Status: Final source retains the unresolved inequality; h=1 is known.
+
+**Further links.** [1](https://wiki.mathmig.binghamton.edu/doku.php?id=news:2026:0907_chris_schroeder)
+
+
+<a id="q3710"></a>
+
+## Q3710. Prime-order elements with singular commutators
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Let G be a finite group, p a prime, and x∈G an element of order p. If every commutator [x,g]=x^{-1}g^{-1}xg, g∈G, is either the identity or has order divisible by p, must x belong to O_p(G), the largest normal p-subgroup of G?
+
+**Context.** Genealogy: Advisor follow-through from Christopher Schroeder’s Binghamton PhD (2026), Invariants of finite groups, supervised by Tong-Viet. This restates the Guralnick–Robinson conjecture. https://arxiv.org/abs/2507.10882v4
+
+**Source.** Hung P. Tong-Viet. *Orders of commutators and Products of conjugacy classes in finite groups*. 2025. [primary source](https://arxiv.org/abs/2507.10882v4) Location: Remark 1.3(ii), p.2
+
+**Literature check.** Status: Explicitly conjectural in the current version; known when O_p(G) is abelian.
+
+**Further links.** [1](https://wiki.mathmig.binghamton.edu/doku.php?id=news:2026:0907_chris_schroeder)
+
+
+<a id="q3711"></a>
+
+## Q3711. Full dualizability forces rigidity
+
+**Status:** Open · **Kind:** open problem (Question 5.8) · **Collection** 38
+
+Over a perfect field k, a finite pre-multitensor category is a finite k-linear abelian monoidal category with right-exact tensor product in each variable and with left and right duals for every projective object. Let B be such a category equipped with a braiding. In the symmetric monoidal Morita 4-category whose objects are braided finite pre-multitensor categories and whose 1-, 2-, 3-, and 4-morphisms are respectively finite central pre-multitensor categories, finite central bimodule categories, right-exact centered bimodule functors, and bimodule natural transformations, does full dualizability of B force every object of B to have left and right duals?
+
+**Context.** Genealogy: Stroiński, Uppsala PhD 2025, Module categories in absence of adjunctions; supervisors Volodymyr Mazorchuk and Julian Külshammer. Later-paper question. https://arxiv.org/abs/2604.10753v1
+
+**Source.** Thibault Décoppet and Mateusz Stroiński. *Finite Pre-Tensor Categories that are Morita Equivalent to Finite Tensor Categories*. 2026. [primary source](https://arxiv.org/abs/2604.10753v1) Location: Definition 2.8 and §5.2, Question 5.8
+
+**Literature check.** Status: Explicitly open in the current submitted version.
+
+**Further links.** [1](https://uu.diva-portal.org/smash/get/diva2%3A1947744/FULLTEXT01.pdf) · [2](https://sites.google.com/view/stroinski)
+
+
+<a id="q3712"></a>
+
+## Q3712. Products of iterated commutators detect the p-core
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 38
+
+Let G be finite, p a prime divisor of |G|, and x∈G have p-power order. Define [a,b]=a^{-1}b^{-1}ab and c_1(g)=[g,x], c_{j+1}(g)=[c_j(g),x]. If for some integer k≥1 every product c_k(g)c_k(h), with g,h∈G, has p-power order, must x lie in O_p(G), the largest normal p-subgroup?
+
+**Context.** Genealogy: Advisor follow-through from Christopher Schroeder’s Binghamton PhD (2026), Invariants of finite groups, supervised by Tong-Viet. https://doi.org/10.1112/jlms.70057
+
+**Source.** Robert M. Guralnick, Hung P. Tong-Viet and Gareth Tracey. *Weakly subnormal subgroups and variations of the Baer–Suzuki theorem*. 2025. [primary source](https://doi.org/10.1112/jlms.70057) Location: Conjecture 1, p.6
+
+**Literature check.** Status: Conjectural in the final version; pair-products cannot be replaced by individual commutators.
+
+**Further links.** [1](https://wiki.mathmig.binghamton.edu/doku.php?id=news:2026:0907_chris_schroeder)
 

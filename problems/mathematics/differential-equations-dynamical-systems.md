@@ -1,6 +1,6 @@
 # Differential Equations & Dynamical Systems
 
-102 problems: 99 open, 2 open, partial results, 1 solved here: proved.
+110 problems: 107 open, 2 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -108,6 +108,14 @@
 | [Q3544](differential-equations-dynamical-systems.md#q3544) | Every escaping dimension in the Speiser class | Open |
 | [Q3545](differential-equations-dynamical-systems.md#q3545) | Outer boundary of a bounded wandering domain | Open |
 | [Q3551](differential-equations-dynamical-systems.md#q3551) | Univalent iteration on a half-plane wandering domain | Open |
+| [Q3652](differential-equations-dynamical-systems.md#q3652) | Sharp square norm-variation for triple averages | Open |
+| [Q3724](differential-equations-dynamical-systems.md#q3724) | Periodic density in the essential set | Open |
+| [Q3731](differential-equations-dynamical-systems.md#q3731) | Uniformly finite convex decomposition | Open |
+| [Q3732](differential-equations-dynamical-systems.md#q3732) | Individual realization of rotation vectors | Open |
+| [Q3736](differential-equations-dynamical-systems.md#q3736) | Is every smooth K-diffeomorphism of a three-dimensional M Bernoulli? | Open |
+| [Q3737](differential-equations-dynamical-systems.md#q3737) | Does exponential 2-mixing of a smooth diffeomorphism imply exponential k-mixing for every k≥2? | Open |
+| [Q3738](differential-equations-dynamical-systems.md#q3738) | For a C² diffeomorphism f and arbitrary nonatomic invariant μ, does exponential 2-mixing imply… | Open |
+| [Q3739](differential-equations-dynamical-systems.md#q3739) | Does every compact smooth manifold M with dim M≥2 admit a C∞ diffeomorphism preserving a… | Open |
 
 <a id="q49"></a>
 
@@ -1835,4 +1843,146 @@ Does a transcendental entire f have an open half-plane H as a wandering domain w
 **Literature check.** Status: Latest v2, 28 August 2026, explicitly asks this; no later resolution located.
 
 **Further links.** [1](https://livrepository.liverpool.ac.uk/3060786/)
+
+
+<a id="q3652"></a>
+
+## Q3652. Sharp square norm-variation for triple averages
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Is there a universal C such that ∑\_{j=1}^J||A_{N_j}−A_{N_{j−1}}||₂²≤C for every J≥1 and positive integers N₀<⋯&lt;N_J?
+
+**Context.** Paper: Norm-variation of triple ergodic averages for commuting transformations; 2026 final Setup: Let T₀,T₁,T₂ be commuting measure-preserving transformations of a σ-finite measure space (X,μ). For f₀,f₁∈L⁸(X), f₂∈L⁴(X), each of norm one, set A_N=N^{−1}∑\_{i=0}^{N−1}∏\_{k=0}²f_k∘T_k^i. Origin: Explicit sharp-exponent problem in the abstract and introduction; reached through Becker’s advisor Thiele.
+
+**Source.** Polona Durcik, Lenka Slavíková and Christoph Thiele. *Norm-variation of triple ergodic averages for commuting transformations*. 2026. [primary source](https://msp.org/apde/2026/19-3/apde-v19-n3-p05-p.pdf) Location: Abstract and Theorem 1.1, p.539; open sharp-exponent discussion p.540.
+
+**Literature check.** Status: The August 2026 blueprint still gives only r>4 for three transformations.
+
+
+<a id="q3724"></a>
+
+## Q3724. Periodic density in the essential set
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Must Ess(f)⊆closure(Per(f))?
+
+**Context.** Advisor(s): Alejandro Passeggi, Fábio Armando Tal. Origin: García-Sassi–Tal’s April 2024 preprint §1.4(4), incorporated in thesis §1.5(5); retained in accepted v5. Setup: Let f:T²→T² be a nonwandering homeomorphism isotopic to the identity. For a lift F:R²→R², let ρ(F) comprise all limits (F^{n_k}(x_k)−x_k)/n_k with n_k→∞. Assume int ρ(F)≠∅. Define Ess(f) as the complement of points admitting a neighborhood U for which every loop in ⋃\_{j∈Z}f^j(U) is null-homotopic in T². Let Per(f) be the periodic points.
+
+**Source.** Alejo García-Sassi. *Fully chaotic conservative models for some torus homeomorphisms*. Universidad de la República / Universidade de São Paulo, 2024. [primary source](https://arxiv.org/pdf/2404.02341v5) Location: Thesis p.23; accepted v5 §1.5(4), p.10; Definition 2.14, pp.14–15.
+
+**Literature check.** Status: June 2026 v5, to appear in Memoirs of AMS; no later resolution located.
+
+**Further links.** [1](https://hdl.handle.net/20.500.12008/47058) · [2](https://arxiv.org/abs/2404.02341) · [3](https://alejo-garcia-sassi.github.io/)
+
+
+<a id="q3731"></a>
+
+## Q3731. Uniformly finite convex decomposition
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.5) · **Collection** 38
+
+Is rot(f) always a union of at most 2^(5g−5) convex sets?
+
+**Context.** Advisor(s): François Béguin. Paper: Surface homeomorphisms with big rotation set Origin: Later-paper conjecture and a restricted Pollicott problem; not thesis-origin claims. Setup: Let S be a closed oriented genus-g surface, g≥2, and a homeomorphism f:S→S isotopic to identity. Its preferred universal-cover lift F commutes with deck transformations. Fix a bounded measurable fundamental domain D. For x̃∈D lifting x, define a_n(x)=[γ]∈H₁(S;R) where Fⁿ(x̃)∈γD. Let rot(f) be all limits a_{n_k}(x_k)/n_k as n_k→∞.
+
+**Source.** Pierre-Antoine Guihéneuf. *Surface homeomorphisms with big rotation set*. 2025. [primary source](https://arxiv.org/pdf/2511.15220v2) Location: Conjecture 1.5, p.7; definitions pp.4–5.
+
+**Literature check.** Status: January 2026 v2 current; no later resolution located.
+
+**Further links.** [1](https://webusers.imj-prg.fr/~pierre-antoine.guiheneuf/RechercheEn.html) · [2](https://www.imo.universite-paris-saclay.fr/fr/activites/theses/)
+
+
+<a id="q3732"></a>
+
+## Q3732. Individual realization of rotation vectors
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+If int(conv(rot(f)))≠∅, does every v∈rot(f) equal lim_{n→∞}a_n(x)/n for some x∈S?
+
+**Context.** Advisor(s): François Béguin. Paper: Surface homeomorphisms with big rotation set Origin: Later-paper conjecture and a restricted Pollicott problem; not thesis-origin claims. Setup: Let S be a closed oriented genus-g surface, g≥2, and a homeomorphism f:S→S isotopic to identity. Its preferred universal-cover lift F commutes with deck transformations. Fix a bounded measurable fundamental domain D. For x̃∈D lifting x, define a_n(x)=[γ]∈H₁(S;R) where Fⁿ(x̃)∈γD. Let rot(f) be all limits a_{n_k}(x_k)/n_k as n_k→∞.
+
+**Source.** Pierre-Antoine Guihéneuf. *Surface homeomorphisms with big rotation set*. 2025. [primary source](https://arxiv.org/pdf/2511.15220v2) Location: Open-problem paragraph following Proposition H, p.9.
+
+**Literature check.** Status: January 2026 v2 current; no later resolution located.
+
+**Further links.** [1](https://webusers.imj-prg.fr/~pierre-antoine.guiheneuf/RechercheEn.html) · [2](https://www.imo.universite-paris-saclay.fr/fr/activites/theses/)
+
+
+<a id="q3736"></a>
+
+## Q3736. Is every smooth K-diffeomorphism of a three-dimensional M Bernoulli?
+
+**Status:** Open · **Kind:** open problem (Problem 5.1) · **Collection** 38
+
+Is every smooth K-diffeomorphism of a three-dimensional M Bernoulli?
+
+**Context.** Adam Kanigowski: IM PAN PhD, Ergodic properties of smooth flows on surfaces (2015); supervisor Mariusz Lemańczyk. Origin: Kanigowski’s final ICM 2026 open-problem section. Let f preserve a probability μ on a compact smooth manifold M. “Smooth” means C∞ f and smooth-density μ. K means every finite measurable partition nontrivial modulo null sets has positive entropy; Bernoulli means measurably isomorphic to a Bernoulli shift. Exponential k-mixing means |∫∏\_{j=1}^k φ\_j∘f^{n_j}dμ−∏\_j∫φ\_jdμ|≤C_k∏\_j||φ\_j||\_{C^r}e^{−δ\_k min_{i≠j}|n_i−n_j|}, for some r,C_k,δ\_k>0 and all C^r observables and distinct nonnegative times.
+
+**Source.** Adam Kanigowski. *Ergodic and Statistical Properties of Smooth Systems*. 2026. [primary source](https://epubs.siam.org/doi/10.1137/25M1804315) Location: Problem 5.1
+
+**Literature check.** Status: Final ICM 2026 proceedings inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://impan.pl/images/newsletter/newsletter_08_2015.pdf)
+
+
+<a id="q3737"></a>
+
+## Q3737. Does exponential 2-mixing of a smooth diffeomorphism imply exponential k-mixing for every k≥2?
+
+**Status:** Open · **Kind:** open problem (Problem 5.4) · **Collection** 38
+
+Does exponential 2-mixing of a smooth diffeomorphism imply exponential k-mixing for every k≥2?
+
+**Context.** Adam Kanigowski: IM PAN PhD, Ergodic properties of smooth flows on surfaces (2015); supervisor Mariusz Lemańczyk. Origin: Kanigowski’s final ICM 2026 open-problem section. Let f preserve a probability μ on a compact smooth manifold M. “Smooth” means C∞ f and smooth-density μ. K means every finite measurable partition nontrivial modulo null sets has positive entropy; Bernoulli means measurably isomorphic to a Bernoulli shift. Exponential k-mixing means |∫∏\_{j=1}^k φ\_j∘f^{n_j}dμ−∏\_j∫φ\_jdμ|≤C_k∏\_j||φ\_j||\_{C^r}e^{−δ\_k min_{i≠j}|n_i−n_j|}, for some r,C_k,δ\_k>0 and all C^r observables and distinct nonnegative times.
+
+**Source.** Adam Kanigowski. *Ergodic and Statistical Properties of Smooth Systems*. 2026. [primary source](https://epubs.siam.org/doi/10.1137/25M1804315) Location: Problem 5.4, first question
+
+**Literature check.** Status: Final ICM 2026 proceedings inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://impan.pl/images/newsletter/newsletter_08_2015.pdf)
+
+
+<a id="q3738"></a>
+
+## Q3738. For a C² diffeomorphism f and arbitrary nonatomic invariant μ, does exponential 2-mixing imply…
+
+**Status:** Open · **Kind:** open problem (Problem 5.8) · **Collection** 38
+
+For a C² diffeomorphism f and arbitrary nonatomic invariant μ, does exponential 2-mixing imply h_μ(f)>0?
+
+**Context.** Adam Kanigowski: IM PAN PhD, Ergodic properties of smooth flows on surfaces (2015); supervisor Mariusz Lemańczyk. Origin: Kanigowski’s final ICM 2026 open-problem section. Let f preserve a probability μ on a compact smooth manifold M. “Smooth” means C∞ f and smooth-density μ. K means every finite measurable partition nontrivial modulo null sets has positive entropy; Bernoulli means measurably isomorphic to a Bernoulli shift. Exponential k-mixing means |∫∏\_{j=1}^k φ\_j∘f^{n_j}dμ−∏\_j∫φ\_jdμ|≤C_k∏\_j||φ\_j||\_{C^r}e^{−δ\_k min_{i≠j}|n_i−n_j|}, for some r,C_k,δ\_k>0 and all C^r observables and distinct nonnegative times.
+
+**Source.** Adam Kanigowski. *Ergodic and Statistical Properties of Smooth Systems*. 2026. [primary source](https://epubs.siam.org/doi/10.1137/25M1804315) Location: Problem 5.8
+
+**Literature check.** Status: Final ICM 2026 proceedings inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://impan.pl/images/newsletter/newsletter_08_2015.pdf)
+
+
+<a id="q3739"></a>
+
+## Q3739. Does every compact smooth manifold M with dim M≥2 admit a C∞ diffeomorphism preserving a…
+
+**Status:** Open · **Kind:** open problem (Problem 5.5) · **Collection** 38
+
+Does every compact smooth manifold M with dim M≥2 admit a C∞ diffeomorphism preserving a smooth-density probability μ and exponentially 2-mixing with respect to μ?
+
+**Context.** Adam Kanigowski: IM PAN PhD, Ergodic properties of smooth flows on surfaces (2015); supervisor Mariusz Lemańczyk. Origin: Kanigowski’s final ICM 2026 open-problem section. Let f preserve a probability μ on a compact smooth manifold M. “Smooth” means C∞ f and smooth-density μ. K means every finite measurable partition nontrivial modulo null sets has positive entropy; Bernoulli means measurably isomorphic to a Bernoulli shift. Exponential k-mixing means |∫∏\_{j=1}^k φ\_j∘f^{n_j}dμ−∏\_j∫φ\_jdμ|≤C_k∏\_j||φ\_j||\_{C^r}e^{−δ\_k min_{i≠j}|n_i−n_j|}, for some r,C_k,δ\_k>0 and all C^r observables and distinct nonnegative times.
+
+**Source.** Adam Kanigowski. *Ergodic and Statistical Properties of Smooth Systems*. 2026. [primary source](https://epubs.siam.org/doi/10.1137/25M1804315) Location: Problem 5.5(a), final §5
+
+**Literature check.** Status: Final ICM 2026 proceedings inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://impan.pl/images/newsletter/newsletter_08_2015.pdf)
 

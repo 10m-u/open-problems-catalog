@@ -1,6 +1,6 @@
 # Theory of Computation & Algorithms
 
-294 problems: 287 open, 6 open, partial results, 1 solved here: proved.
+300 problems: 293 open, 6 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -302,3 +302,9 @@ Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computat
 | [Q3571](theory-of-computation-algorithms-part-2.md#q3571) | Forbidden-subgraph injective labelling | Open |
 | [Q3572](theory-of-computation-algorithms-part-2.md#q3572) | Mixed semibalanced targets | Open |
 | [Q3584](theory-of-computation-algorithms-part-2.md#q3584) | Polynomial-time functional approximation of matroid branch-depth | Open |
+| [Q3661](theory-of-computation-algorithms-part-2.md#q3661) | Is satisfiability for PML(p,s,¬) EXPTIME-complete with unbounded input relation symbols and arities? | Open |
+| [Q3662](theory-of-computation-algorithms-part-2.md#q3662) | For fixed c≥2, is satisfiability for PML(p,s,¬,∩) plus binary identity I={(w,w):w∈W}… | Open |
+| [Q3666](theory-of-computation-algorithms-part-2.md#q3666) | For every fixed finite nonbipartite simple graph H, is its oracular quantum homomorphism problem… | Open |
+| [Q3667](theory-of-computation-algorithms-part-2.md#q3667) | Fix c≥1 and a finite family F of finite simple graphs with edges colored from [c]. Given a… | Open |
+| [Q3668](theory-of-computation-algorithms-part-2.md#q3668) | Are cyclic arithmetic and Peano arithmetic exponentially separated in shortest proof size?… | Open |
+| [Q3684](theory-of-computation-algorithms-part-2.md#q3684) | Subquadratic-logarithmic generating-set algorithm | Open |

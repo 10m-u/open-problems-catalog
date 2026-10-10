@@ -1737,7 +1737,7 @@ Does some almost simple finite group G with exceptional Lie-type socle have a su
 
 ## Q1715. Characterize property-F Lie algebras
 
-**Status:** Open · **Kind:** open problem · **Collection** 18
+**Status:** Solved here: disproved · **Kind:** open problem · **Collection** 18
 
 For nilpotent g with dim(g/[g,g])=2, suppose every generating pair x,y and every u,v,w∈[g,g] satisfying [x,u]+[y,v]=[x,v]+[y,w]=0 has u,v,w∈Z(g). Is this equivalent to g≅F_{2,c} for some c≥1?
 
@@ -1748,6 +1748,11 @@ For nilpotent g with dim(g/[g,g])=2, suppose every generating pair x,y and every
 **Literature check.** Status for question 1715, checked 6 October 2026: Known in complex dimensions at most seven; no general characterization found.
 
 **Further links.** [1](https://arxiv.org/abs/1711.01964) · [2](https://arxiv.org/abs/2602.00614)
+
+
+**Result (2026-10-09).** An explicit 13-dimensional two-generated nilpotent Lie algebra of class five has property F for every generating pair over every characteristic-zero field, but is not free nilpotent. Its graded dimensions are 2,1,2,3,5 and its center has dimension five. Disproves the proposed equivalence. The universal generating-pair assertion follows from a symmetric-matrix change-of-generators argument and graded injectivity, not from a finite search. No smallest-dimension or full classification claim is made.
+
+[Proof](../../solutions/seven-more-2026-10-09/algebra/Q1715.md) · [Internal review](../../solutions/seven-more-2026-10-09/discrete/review-Q1715.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/algebra/q1715-certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/algebra/sources.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
 
 
 <a id="q1716"></a>
@@ -2901,7 +2906,7 @@ If S is finitely generated and residually finite, must Inn(S) be residually fini
 
 ## Q2305. Partial inner automorphisms of matrix monoids
 
-**Status:** Open · **Kind:** open problem (Problem 7.9) · **Collection** 24
+**Status:** Solved here: proved · **Kind:** open problem (Problem 7.9) · **Collection** 24
 
 For every field F and finite-dimensional F-vector space V, characterize Inn(End_F(V)) up to isomorphism.
 
@@ -2912,6 +2917,11 @@ For every field F and finite-dimensional F-vector space V, characterize Inn(End_
 **Literature check.** Status for questions 2304, 2305, checked 6 October 2026: April v1 explicitly retains both; no later resolution found.
 
 **Further links.** [1](https://arxiv.org/abs/2605.00041)
+
+
+**Result (2026-10-09).** For every field F and finite-dimensional V, Inn(End_F(V)) consists exactly of restrictions of invertible conjugations to the full domain, the zero-matrix singleton, and D(U,W)={a:im(a) is contained in U, W is contained in ker(a)} with U,W both proper nonzero subspaces. Explicit equality, multiplication and inversion formulas give an isomorphism description. The zero is the identity on the singleton {0}, not an empty partial map. All dimensions, nonsemisimple products and arbitrary fields are covered; the separate residual-finiteness question Q2304 is not addressed.
+
+[Proof](../../solutions/seven-more-2026-10-09/algebra/Q2305.md) · [Internal review](../../solutions/seven-more-2026-10-09/discrete/review-Q2305.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/algebra/q2305-certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/algebra/sources.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
 
 
 <a id="q2306"></a>
@@ -4550,38 +4560,4 @@ Does an algebraic group acting by morphisms on an irreducible affine K-variety h
 **Literature check.** Status for questions 3003, 3004, checked 8 October 2026: Thesis full text retains these questions; its counterexample concerns general monomial algebras, not invariant rings.
 
 **Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/36388/) · [2](https://pure.york.ac.uk/portal/en/publications/hilberts-fourteenth-problem-and-finite-generation-ideals) · [3](https://doi.org/10.1080/00927872.2024.2404704)
-
-
-<a id="q3005"></a>
-
-## Q3005. Infinitely many power-cograph projective groups
-
-**Status:** Open · **Kind:** open problem · **Collection** 31
-
-Are there infinitely many prime powers q≥4 for which PSL₂(q) has a power graph that is a cograph?
-
-**Context.** Origin for questions 3005, 3006: Older infinitude problems of Manna–Cameron–Mehatari, retained by Kaja; not thesis-origin questions. Setup for questions 3005, 3006: For a group G, its undirected power graph joins distinct g,h if either is a positive integer power of the other. A cograph has no induced path on four vertices.
-
-**Source.** Eda Kaja. *Classifications at the intersection of group and graph theory*. TU Darmstadt, 2025. Advisor(s): Pascal Schweitzer. [primary source](https://d-nb.info/1361444797/34) Location: §2.6, p. 47.
-
-**Literature check.** Status for questions 3005, 3006, checked 8 October 2026: The structural classification does not settle infinitude; no later resolution located.
-
-**Further links.** [1](https://tuprints.ulb.tu-darmstadt.de/entities/publication/a9ce0a3f-7d38-4fce-a549-b27682c06fd8) · [2](https://arxiv.org/abs/2203.02362) · [3](https://doi.org/10.37236/9961) · [4](https://arxiv.org/abs/2010.05198) · [5](https://arxiv.org/abs/2106.14217) · [6](https://doi.org/10.1016/j.jalgebra.2021.09.034)
-
-
-<a id="q3006"></a>
-
-## Q3006. Infinitely many power-cograph Suzuki groups
-
-**Status:** Open · **Kind:** open problem · **Collection** 31
-
-Are there infinitely many integers e≥2 for which Sz(2^(2e+1)) has a power graph that is a cograph?
-
-**Context.** Origin for questions 3005, 3006: Older infinitude problems of Manna–Cameron–Mehatari, retained by Kaja; not thesis-origin questions. Setup for questions 3005, 3006: For a group G, its undirected power graph joins distinct g,h if either is a positive integer power of the other. A cograph has no induced path on four vertices.
-
-**Source.** Eda Kaja. *Classifications at the intersection of group and graph theory*. TU Darmstadt, 2025. Advisor(s): Pascal Schweitzer. [primary source](https://d-nb.info/1361444797/34) Location: After Theorem 2.2.4, pp. 18–19.
-
-**Literature check.** Status for questions 3005, 3006, checked 8 October 2026: The structural classification does not settle infinitude; no later resolution located.
-
-**Further links.** [1](https://tuprints.ulb.tu-darmstadt.de/entities/publication/a9ce0a3f-7d38-4fce-a549-b27682c06fd8) · [2](https://arxiv.org/abs/2203.02362) · [3](https://doi.org/10.37236/9961) · [4](https://arxiv.org/abs/2010.05198) · [5](https://arxiv.org/abs/2106.14217) · [6](https://doi.org/10.1016/j.jalgebra.2021.09.034)
 

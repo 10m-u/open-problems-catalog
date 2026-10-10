@@ -1,21 +1,21 @@
 # Open problems from doctoral theses and recent papers
 
-A catalog of **3588 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
+A catalog of **3788 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
 papers. Each comes with its source, its exact location in that source, a dated literature check, and every result
 obtained on it. Problems already solved elsewhere are left out.
 
 | | Count |
 |---|---:|
-| Problems in the catalog | 3588 |
-| Open | 3449 |
-| Open, with partial results here | 93 |
-| Solved here | 46 (33 proved, 13 disproved) |
+| Problems in the catalog | 3788 |
+| Open | 3642 |
+| Open, with partial results here | 96 |
+| Solved here | 50 (35 proved, 15 disproved) |
 | Excluded as solved elsewhere | 12 |
 | Automatically extracted thesis statements (unreviewed) | 10001 |
 
 ## Where to start
 
-- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q3600)
+- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q3800)
   and an anchor, for example `problems/mathematics/combinatorics-graph-theory.md#q123`.
 - **[Index by number](problems/INDEX.md)**: every problem, its subject and status, in blocks of 500.
 - **[Solutions](solutions/README.md)**: proofs, counterexamples, partial results, research reports, scripts and
@@ -48,6 +48,7 @@ level. None of it is peer reviewed. Much of the work was done with AI research a
 - `catalog-research` contains written proofs with exact computational checks.
 - `round-2026-10-09` contains five proposed affirmative proofs, two counterexamples, two hardness theorems and one partial theorem, with separate internal AI reviews and exact computational controls. The two complexity questions retain partial status because their negative algorithmic consequences are conditional.
 - `seven-problems-2026-10-09` contains four proposed complete answers (three affirmative and one nonexistence theorem) and three proved partial results. Each has a separate internal AI review. Reproducible checks combine exact finite controls with supplementary numerical integration; the three unresolved general questions retain partial status.
+- `seven-more-2026-10-09` contains two proposed affirmative resolutions, two exact counterexamples and three partial results, each with a separate internal AI review and reproducible exact controls. The general freezing-process and unrestricted Cayley-word questions remain unresolved.
 
 "Solved here" means a result on this repository's own record at the scope stated on the problem page. It does not
 mean an independently verified theorem. Reports of errors are welcome.

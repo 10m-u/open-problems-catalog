@@ -102,6 +102,18 @@
   ]
  },
  {
+  "document_id": "8b3dfad51ea6ed01",
+  "role": "research-paper",
+  "author": "Abbaszadeh Minab, Caputo, Chen, Morellini and Sinclair",
+  "title": "Nonlinear Exchange Dynamics for Independent Sets",
+  "urls": [
+   "https://arxiv.org/abs/2607.29016v1"
+  ],
+  "questions": [
+   3800
+  ]
+ },
+ {
   "document_id": "fa84c280903dd4a0",
   "role": "dissertation",
   "author": "Abhishek T. Bharadwaj",
@@ -206,6 +218,21 @@
   ]
  },
  {
+  "document_id": "e989197d5bf1100b",
+  "role": "research-paper",
+  "author": "Adam Kanigowski",
+  "title": "Ergodic and Statistical Properties of Smooth Systems",
+  "urls": [
+   "https://epubs.siam.org/doi/10.1137/25M1804315"
+  ],
+  "questions": [
+   3736,
+   3737,
+   3738,
+   3739
+  ]
+ },
+ {
   "document_id": "5a8072cd6164c208",
   "role": "dissertation",
   "author": "Adam Van Tuyl",
@@ -215,6 +242,19 @@
   ],
   "questions": [
    391
+  ]
+ },
+ {
+  "document_id": "dc45822443afa874",
+  "role": "research-paper",
+  "author": "Adams, Lagoda, Moy, Sadovek and De Saha",
+  "title": "Persistent equivariant cohomology",
+  "urls": [
+   "https://arxiv.org/pdf/2408.17331v1"
+  ],
+  "questions": [
+   3632,
+   3633
   ]
  },
  {
@@ -670,6 +710,19 @@
   ]
  },
  {
+  "document_id": "9aa63aaad7bcb58b",
+  "role": "research-paper",
+  "author": "Alejo García-Sassi",
+  "title": "Fully chaotic conservative models for some torus homeomorphisms",
+  "urls": [
+   "https://arxiv.org/pdf/2404.02341v5",
+   "https://arxiv.org/abs/2404.02341"
+  ],
+  "questions": [
+   3724
+  ]
+ },
+ {
   "document_id": "bf5fbf3922abd3e0",
   "role": "research-paper",
   "author": "Aleksa Milojević and Benny Sudakov",
@@ -976,7 +1029,8 @@
   ],
   "questions": [
    3597,
-   3598
+   3598,
+   3686
   ]
  },
  {
@@ -1490,6 +1544,18 @@
   ]
  },
  {
+  "document_id": "2986bcecfd493c63",
+  "role": "research-paper",
+  "author": "Almeida, Bezhanishvili and Lemal",
+  "title": "Fischer-Servi logic does not have interpolation",
+  "urls": [
+   "https://arxiv.org/pdf/2604.02082v2"
+  ],
+  "questions": [
+   3760
+  ]
+ },
+ {
   "document_id": "d0be4335e4e1dfa1",
   "role": "research-paper",
   "author": "Amirhossein Akbar Tabatabai; Raheleh Jalali",
@@ -1712,6 +1778,18 @@
   ],
   "questions": [
    2534
+  ]
+ },
+ {
+  "document_id": "d477fa7ea0ac07e5",
+  "role": "research-paper",
+  "author": "Andreas Grigorjew, Wanchote Jiamjitrak, Brendan Mumey and Alexandru I. Tomescu",
+  "title": "Width Parameters for Minimum Flow Decomposition",
+  "urls": [
+   "https://arxiv.org/abs/2409.20278"
+  ],
+  "questions": [
+   3684
   ]
  },
  {
@@ -2443,6 +2521,19 @@
   ]
  },
  {
+  "document_id": "7831cd26aef05583",
+  "role": "research-paper",
+  "author": "Ara, Goodearl, Nielsen, O’Meara, Pardo and Perera",
+  "title": "Levels of cancellation for monoids and modules",
+  "urls": [
+   "https://mathdept.byu.edu/~pace/levels-of-cancellation-for-monoids-and-modules.pdf"
+  ],
+  "questions": [
+   3607,
+   3608
+  ]
+ },
+ {
   "document_id": "a66cd12e4092b948",
   "role": "research-paper",
   "author": "Aram Bingham; Lisa Johnston; Colin Lawson; Rosa Orellana; Jianping Pan; Chelsea Sato",
@@ -3055,6 +3146,19 @@
   ]
  },
  {
+  "document_id": "2b52229a115666e0",
+  "role": "research-paper",
+  "author": "Ballantine, Beck, Feigon and Maurischat",
+  "title": "Reciprocals of subsum polynomials",
+  "urls": [
+   "https://doi.org/10.1007/s11139-026-01419-0"
+  ],
+  "questions": [
+   3702,
+   3703
+  ]
+ },
+ {
   "document_id": "8ae0ddb62769cc33",
   "role": "research-paper",
   "author": "Balázs Ráth and Sándor Rokob",
@@ -3104,6 +3208,18 @@
   ],
   "questions": [
    1952
+  ]
+ },
+ {
+  "document_id": "5dd3fe7090babaee",
+  "role": "research-paper",
+  "author": "Barsukov, Mottet and Perinti",
+  "title": "Edge-coloring problems with forbidden patterns and planted colors",
+  "urls": [
+   "https://arxiv.org/abs/2507.19000"
+  ],
+  "questions": [
+   3667
   ]
  },
  {
@@ -3342,6 +3458,19 @@
   ]
  },
  {
+  "document_id": "13ec48218178f9bf",
+  "role": "research-paper",
+  "author": "Berend, Ernst, Kontorovich and Kumar",
+  "title": "Exact Expressions for the Maximal Probability that all k-wise Independent Bits are 1",
+  "urls": [
+   "https://doi.org/10.1007/s10959-026-01487-4"
+  ],
+  "questions": [
+   3694,
+   3790
+  ]
+ },
+ {
   "document_id": "80307715df2313a5",
   "role": "research-paper",
   "author": "Bernhard Heim; Johann Stumpenhusen",
@@ -3406,6 +3535,18 @@
   ]
  },
  {
+  "document_id": "b5836ba0d3f9f9ed",
+  "role": "research-paper",
+  "author": "Bhattacharjee, Peccati and Yogeshwaran",
+  "title": "Spectra of Poisson functionals and applications in continuum percolation",
+  "urls": [
+   "https://arxiv.org/abs/2407.13502v1"
+  ],
+  "questions": [
+   3799
+  ]
+ },
+ {
   "document_id": "8d0acb78da2c160f",
   "role": "research-paper",
   "author": "Binghui Peng",
@@ -3430,6 +3571,19 @@
    1159,
    1160,
    1161
+  ]
+ },
+ {
+  "document_id": "e80932835adebce7",
+  "role": "research-paper",
+  "author": "Blachar, Pajot and Salez",
+  "title": "Edge-regular graphs with non-negative curvature have polynomial growth",
+  "urls": [
+   "https://arxiv.org/abs/2606.11094v1"
+  ],
+  "questions": [
+   3792,
+   3793
   ]
  },
  {
@@ -3589,6 +3743,18 @@
    2441,
    2442,
    2443
+  ]
+ },
+ {
+  "document_id": "5fa6837b0dbce0fc",
+  "role": "research-paper",
+  "author": "Brandenberger, Donderwinkel, Kerriou, Lugosi and Mitchell",
+  "title": "Temporal connectivity of random geometric graphs",
+  "urls": [
+   "https://doi.org/10.1017/jpr.2026.10129"
+  ],
+  "questions": [
+   3695
   ]
  },
  {
@@ -3886,6 +4052,18 @@
   ]
  },
  {
+  "document_id": "c947d03624ce122f",
+  "role": "research-paper",
+  "author": "Caravenna, Cottini and Peccati",
+  "title": "On irreducible central limit theorems",
+  "urls": [
+   "https://arxiv.org/abs/2510.00748v2"
+  ],
+  "questions": [
+   3798
+  ]
+ },
+ {
   "document_id": "f3acffbaea1305ad",
   "role": "research-paper",
   "author": "Carlo Alberto De Bernardi; Tommaso Russo; Jacopo Somaglia",
@@ -3979,6 +4157,19 @@
   ]
  },
  {
+  "document_id": "ad29ecd2f5ef5d2c",
+  "role": "research-paper",
+  "author": "Carmen Arana, Thomas Bellitto, Hector Buffière, Quentin Chuet, Théo Pierron and Amadeus Reinald",
+  "title": "Inversion diameter and 2-edge-colored homomorphisms",
+  "urls": [
+   "https://arxiv.org/abs/2602.24171"
+  ],
+  "questions": [
+   3675,
+   3676
+  ]
+ },
+ {
   "document_id": "dd6acc9df63f4ba1",
   "role": "research-paper",
   "author": "Carolyn Abbott and Stefanie Zbinden",
@@ -4016,7 +4207,8 @@
    "https://arxiv.org/abs/2607.14062v1"
   ],
   "questions": [
-   3600
+   3600,
+   3687
   ]
  },
  {
@@ -4580,7 +4772,8 @@
   "questions": [
    2743,
    2744,
-   2745
+   2745,
+   3646
   ]
  },
  {
@@ -4788,6 +4981,30 @@
   ]
  },
  {
+  "document_id": "829765b67b061a0c",
+  "role": "research-paper",
+  "author": "Christopher A. Schroeder",
+  "title": "Refining invariants of finite groups with class functions",
+  "urls": [
+   "https://arxiv.org/abs/2609.26464v1"
+  ],
+  "questions": [
+   3708
+  ]
+ },
+ {
+  "document_id": "6da1510fb507f09b",
+  "role": "research-paper",
+  "author": "Christopher A. Schroeder and Hung P. Tong-Viet",
+  "title": "On the invariants of finite groups arising in a topological quantum field theory",
+  "urls": [
+   "https://msp.org/pjm/2026/344-1/pjm-v344-n1-p07-s.pdf"
+  ],
+  "questions": [
+   3709
+  ]
+ },
+ {
   "document_id": "6818ae9b18baa9a3",
   "role": "research-paper",
   "author": "Christopher Criscitiello, Andrew D. McRae, Quentin Rebjock and Nicolas Boumal",
@@ -4872,6 +5089,32 @@
   ],
   "questions": [
    1386
+  ]
+ },
+ {
+  "document_id": "9000b0bfd87ebe7d",
+  "role": "research-paper",
+  "author": "Ciardo, Hebbeker, Joubert, Kreiß and Mottet",
+  "title": "Schrijver-Delsarte rigidity in association schemes and undecidability of quantum graph homomorphism",
+  "urls": [
+   "https://arxiv.org/abs/2609.20678",
+   "https://arxiv.org/html/2609.20678v1"
+  ],
+  "questions": [
+   327,
+   3666
+  ]
+ },
+ {
+  "document_id": "c5c56b873bce68ec",
+  "role": "research-paper",
+  "author": "Ciccone and Sousa",
+  "title": "Global and local maximizers for some Fourier extension estimates on the sphere",
+  "urls": [
+   "https://doi.org/10.1007/s00041-025-10201-7"
+  ],
+  "questions": [
+   3647
   ]
  },
  {
@@ -5100,6 +5343,20 @@
   ],
   "questions": [
    2103
+  ]
+ },
+ {
+  "document_id": "31e8cd41cdbc1ff9",
+  "role": "research-paper",
+  "author": "Conca, Singh and Soundararajan",
+  "title": "Ideals generated by power sums",
+  "urls": [
+   "https://imar.ro/journals/Revue_Mathematique/pdfs/2025/1-2/5.pdf"
+  ],
+  "questions": [
+   3611,
+   3612,
+   3707
   ]
  },
  {
@@ -5385,6 +5642,19 @@
   ]
  },
  {
+  "document_id": "9b55e6fd7fc08f99",
+  "role": "dissertation",
+  "author": "Damiano De Gaspari",
+  "title": "Out-of-equilibrium systems: stationary measures and superdiffusivity",
+  "urls": [
+   "https://repositum.tuwien.at/handle/20.500.12708/231354?mode=full"
+  ],
+  "questions": [
+   3696,
+   3697
+  ]
+ },
+ {
   "document_id": "83d4a3816557a554",
   "role": "research-paper",
   "author": "Dan Li; Sergey Kitaev",
@@ -5563,6 +5833,18 @@
   ],
   "questions": [
    2253
+  ]
+ },
+ {
+  "document_id": "ecab6ade81193f25",
+  "role": "research-paper",
+  "author": "Daniel J. Slonim",
+  "title": "Random Walks in Random Environments with Rare Anomalies",
+  "urls": [
+   "https://arxiv.org/abs/2311.00062v2"
+  ],
+  "questions": [
+   3698
   ]
  },
  {
@@ -6790,6 +7072,19 @@
   ]
  },
  {
+  "document_id": "7ffdf302475c0548",
+  "role": "research-paper",
+  "author": "Domagoj Bradač and Oliver Janzer",
+  "title": "Hamiltonicity of regular sublinear expanders",
+  "urls": [
+   "https://arxiv.org/abs/2605.15043"
+  ],
+  "questions": [
+   3680,
+   3681
+  ]
+ },
+ {
   "document_id": "4686c5271726e68e",
   "role": "research-paper",
   "author": "Dominik Dürrschnabel; Jędrzej Hodor; Piotr Micek; Gerd Stumme; William T. Trotter",
@@ -6814,6 +7109,18 @@
   ],
   "questions": [
    2586
+  ]
+ },
+ {
+  "document_id": "5b517b8c700cac7d",
+  "role": "dissertation",
+  "author": "Dominik Wehr",
+  "title": "Cyclic Proof Theory",
+  "urls": [
+   "https://hdl.handle.net/2077/89733"
+  ],
+  "questions": [
+   3668
   ]
  },
  {
@@ -6947,6 +7254,18 @@
   ]
  },
  {
+  "document_id": "6ac32de696c4add8",
+  "role": "research-paper",
+  "author": "Draisma, Metcalfe and Santschi",
+  "title": "The space of preorders on a commutative monoid",
+  "urls": [
+   "https://arxiv.org/abs/2607.07473"
+  ],
+  "questions": [
+   3653
+  ]
+ },
+ {
   "document_id": "9dd57283d9623e16",
   "role": "dissertation",
   "author": "Drimit Pattanayak",
@@ -6956,6 +7275,18 @@
   ],
   "questions": [
    263
+  ]
+ },
+ {
+  "document_id": "3ac06e83304e930c",
+  "role": "research-paper",
+  "author": "Du, Lagarias and Yangjit",
+  "title": "Products of extended binomial coefficients and their partial factorizations",
+  "urls": [
+   "https://link.springer.com/content/pdf/10.1007/s11139-025-01128-0.pdf"
+  ],
+  "questions": [
+   3610
   ]
  },
  {
@@ -7342,6 +7673,31 @@
   ]
  },
  {
+  "document_id": "8234af1d6ff976bc",
+  "role": "research-paper",
+  "author": "Elisa Sasso",
+  "title": "Diagram calculus for affine Coxeter systems and properties of their associated root systems",
+  "urls": [
+   "https://arxiv.org/abs/2602.16361"
+  ],
+  "questions": [
+   3616
+  ]
+ },
+ {
+  "document_id": "b29aaf54e5e3b721",
+  "role": "dissertation",
+  "author": "Elle Najt",
+  "title": "Connected graph partitions from perspectives of complexity theory, statistical physics and probability theory, with applications to ensemble analysis of political redistricting plans and other statistical models",
+  "urls": [
+   "https://asset.library.wisc.edu/1711.dl/L3OLMTH4ESXZN8T/R/file-19c5d.pdf"
+  ],
+  "questions": [
+   3777,
+   3778
+  ]
+ },
+ {
   "document_id": "71ec3aafb7b223ee",
   "role": "dissertation",
   "author": "Ellen Hammatt",
@@ -7506,6 +7862,18 @@
   ]
  },
  {
+  "document_id": "0aa4f95ba16afea1",
+  "role": "research-paper",
+  "author": "Enrique Llorens-Fuster and Elena Moreno Gálvez",
+  "title": "Fixed Point Theory for Jaggi L-type Mappings",
+  "urls": [
+   "https://www.opuscula.agh.edu.pl/onlinefirst-art/opuscula_math_202511141.pdf"
+  ],
+  "questions": [
+   3747
+  ]
+ },
+ {
   "document_id": "65f9bd98e858af92",
   "role": "research-paper",
   "author": "Enzo Erlich; Mario Grobler; Shibashis Guha; Ismaël Jecker; Karoliina Lehtinen; Martin Zimmermann",
@@ -7614,7 +7982,11 @@
    172,
    173,
    320,
-   3577
+   3577,
+   3782,
+   3783,
+   3784,
+   3785
   ]
  },
  {
@@ -7627,6 +7999,18 @@
   ],
   "questions": [
    3577
+  ]
+ },
+ {
+  "document_id": "c7d652afaa59b046",
+  "role": "research-paper",
+  "author": "Erlang Surya and Lutz Warnke",
+  "title": "On the concentration of the chromatic number of random graphs",
+  "urls": [
+   "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v31i1p44/pdf/"
+  ],
+  "questions": [
+   3785
   ]
  },
  {
@@ -7847,6 +8231,18 @@
    538,
    539,
    541
+  ]
+ },
+ {
+  "document_id": "9a64cd7c58f02241",
+  "role": "dissertation",
+  "author": "Evgeniya Lagoda",
+  "title": "k-regular maps and cohomology theory of configuration spaces",
+  "urls": [
+   "https://d-nb.info/1370897782/34"
+  ],
+  "questions": [
+   3630
   ]
  },
  {
@@ -8170,6 +8566,19 @@
   ]
  },
  {
+  "document_id": "a0644cc693d0aa77",
+  "role": "research-paper",
+  "author": "Fernando and Kousik",
+  "title": "A further study of polynomial g_{n,q} over finite fields",
+  "urls": [
+   "https://arxiv.org/abs/2606.01037v1"
+  ],
+  "questions": [
+   3704,
+   3705
+  ]
+ },
+ {
   "document_id": "04b968053dc1ca40",
   "role": "research-paper",
   "author": "Feyza Duman Keles; Lisa Hellerstein; Kunal Marwaha; Christopher Musco; Xinchen Yang",
@@ -8284,6 +8693,18 @@
   ],
   "questions": [
    3562
+  ]
+ },
+ {
+  "document_id": "1a73705172760569",
+  "role": "dissertation",
+  "author": "Filippo Gaia",
+  "title": "Singularities of Hamiltonian stationary surfaces and related questions",
+  "urls": [
+   "https://www.research-collection.ethz.ch/server/api/core/bitstreams/87ac430b-ac9d-49f4-9e3c-e3e61b63ec08/content"
+  ],
+  "questions": [
+   3631
   ]
  },
  {
@@ -8677,6 +9098,19 @@
   ]
  },
  {
+  "document_id": "d8981260f5e9e188",
+  "role": "research-paper",
+  "author": "Franziska Jahnke and Jonas van der Schaaf",
+  "title": "AKE principles for deeply ramified fields",
+  "urls": [
+   "https://arxiv.org/pdf/2603.29528v1"
+  ],
+  "questions": [
+   3766,
+   3767
+  ]
+ },
+ {
   "document_id": "0fb198c0fb2c8438",
   "role": "research-paper",
   "author": "Fred Yu-Hsiang Lin; Lenka Slavíková",
@@ -8803,6 +9237,32 @@
    2847,
    2848,
    2849
+  ]
+ },
+ {
+  "document_id": "b81e7bd97d4cc87d",
+  "role": "research-paper",
+  "author": "Fulsche and Galke",
+  "title": "Quantum Harmonic Analysis on Locally Compact Abelian Groups",
+  "urls": [
+   "https://doi.org/10.1007/s00041-024-10140-9"
+  ],
+  "questions": [
+   3745,
+   3746
+  ]
+ },
+ {
+  "document_id": "d225dc2a59d89c44",
+  "role": "research-paper",
+  "author": "Fulsche and Hagger",
+  "title": "Quantum Harmonic Analysis for Polyanalytic Fock Spaces",
+  "urls": [
+   "https://doi.org/10.1007/s00041-024-10124-9"
+  ],
+  "questions": [
+   3743,
+   3744
   ]
  },
  {
@@ -8975,6 +9435,18 @@
   ],
   "questions": [
    1854
+  ]
+ },
+ {
+  "document_id": "ec96fef72988c059",
+  "role": "research-paper",
+  "author": "Galatos and Gallardo",
+  "title": "Weakening relations over duals of limit ordinals",
+  "urls": [
+   "https://doi.org/10.1016/j.jpaa.2026.108235"
+  ],
+  "questions": [
+   3654
   ]
  },
  {
@@ -9212,6 +9684,7 @@
   "title": "Open Problems in Mathematical Logic",
   "urls": [
    "https://arxiv.org/abs/2608.26628v2",
+   "https://arxiv.org/pdf/2608.26628v2",
    "https://arxiv.org/html/2608.26628v2#S2",
    "https://arxiv.org/html/2608.26628v2#S5",
    "https://arxiv.org/html/2608.26628v2#S1"
@@ -9225,7 +9698,9 @@
    1276,
    2481,
    2482,
-   2483
+   2483,
+   3761,
+   3762
   ]
  },
  {
@@ -9301,6 +9776,19 @@
   ],
   "questions": [
    3402
+  ]
+ },
+ {
+  "document_id": "3941343beb652a1d",
+  "role": "dissertation",
+  "author": "Gerard Orriols Giménez",
+  "title": "Variational problems for Lagrangian and Legendrian submanifolds",
+  "urls": [
+   "https://www.research-collection.ethz.ch/bitstreams/218e70d8-d395-49df-8a0f-27ae17495932/download"
+  ],
+  "questions": [
+   3618,
+   3619
   ]
  },
  {
@@ -9430,6 +9918,19 @@
   ],
   "questions": [
    2775
+  ]
+ },
+ {
+  "document_id": "d018f39e38eb9596",
+  "role": "research-paper",
+  "author": "Gevorg Mnatsakanyan",
+  "title": "Almost everywhere convergence of a wavelet-type Malmquist–Takenaka series",
+  "urls": [
+   "https://arxiv.org/abs/2404.13296v2"
+  ],
+  "questions": [
+   3640,
+   3641
   ]
  },
  {
@@ -10191,6 +10692,20 @@
   ]
  },
  {
+  "document_id": "87a5bc01b63a3bc1",
+  "role": "dissertation",
+  "author": "Hanul Jeon",
+  "title": "Proof theory for higher pointclasses",
+  "urls": [
+   "https://hanuljeon95.github.io/files/PhD_Thesis.pdf"
+  ],
+  "questions": [
+   3657,
+   3658,
+   3659
+  ]
+ },
+ {
   "document_id": "e354a9a7da19d0d9",
   "role": "research-paper",
   "author": "Hanul Jeon",
@@ -10292,6 +10807,20 @@
   ]
  },
  {
+  "document_id": "1f41ac9245f4e759",
+  "role": "dissertation",
+  "author": "Harkan J. Kirk-Karakaya",
+  "title": "The Quantum Backflow Phenomenon",
+  "urls": [
+   "https://etheses.whiterose.ac.uk/id/eprint/38105/8/Kirk-Karakaya_203026398_CorrectedThesisClean2.pdf"
+  ],
+  "questions": [
+   3699,
+   3700,
+   3791
+  ]
+ },
+ {
   "document_id": "e5add78a91010d7a",
   "role": "research-paper",
   "author": "Harry Petyt and Abdul Zalloum",
@@ -10302,6 +10831,19 @@
   "questions": [
    3531,
    3532
+  ]
+ },
+ {
+  "document_id": "f5934e09364cf57c",
+  "role": "dissertation",
+  "author": "Harry Vinall-Smeeth",
+  "title": "How Small Can You Go? Lower Bounds on Representations in Knowledge Compilation, Finite Model Theory, and Beyond",
+  "urls": [
+   "https://edoc.hu-berlin.de/items/c8b26866-fb73-4f4f-ba7d-e5bc583203fd"
+  ],
+  "questions": [
+   3664,
+   3665
   ]
  },
  {
@@ -10593,7 +11135,9 @@
   "questions": [
    1285,
    1286,
-   1589
+   1589,
+   3792,
+   3793
   ]
  },
  {
@@ -10747,6 +11291,31 @@
   ]
  },
  {
+  "document_id": "e65f7c1249db7757",
+  "role": "research-paper",
+  "author": "Hung P. Tong-Viet",
+  "title": "Orders of commutators and Products of conjugacy classes in finite groups",
+  "urls": [
+   "https://arxiv.org/abs/2507.10882v4"
+  ],
+  "questions": [
+   3710
+  ]
+ },
+ {
+  "document_id": "7c860e72c5fb1e47",
+  "role": "dissertation",
+  "author": "Hyeran Cho",
+  "title": "Aspects of Hyperbolicity in Groups and Spaces",
+  "urls": [
+   "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1752753416943883&disposition=inline"
+  ],
+  "questions": [
+   3722,
+   3723
+  ]
+ },
+ {
   "document_id": "da739d535c6ade10",
   "role": "research-paper",
   "author": "I. Arda Vurankaya; Ufuk Topcu",
@@ -10820,6 +11389,19 @@
   "questions": [
    357,
    358
+  ]
+ },
+ {
+  "document_id": "c35a0f24260b91b5",
+  "role": "dissertation",
+  "author": "Igor Grzelec",
+  "title": "Lokalna nieregularność grafów, multigrafów i digrafów",
+  "urls": [
+   "https://api.repo.agh.edu.pl/server/api/core/bitstreams/6ee88780-75a1-461f-858a-870bd1712e85/content"
+  ],
+  "questions": [
+   3775,
+   3776
   ]
  },
  {
@@ -11053,6 +11635,19 @@
   ],
   "questions": [
    1656
+  ]
+ },
+ {
+  "document_id": "f9c5c61462dbb194",
+  "role": "research-paper",
+  "author": "Irlbeck and Müller",
+  "title": "Non-vanishing uniqueness threshold for hyperbolic Poisson-Voronoi percolation in dimension at least three",
+  "urls": [
+   "https://arxiv.org/abs/2607.17764v1"
+  ],
+  "questions": [
+   3693,
+   3789
   ]
  },
  {
@@ -11336,6 +11931,19 @@
   ]
  },
  {
+  "document_id": "b8a757802919be24",
+  "role": "research-paper",
+  "author": "Ivan Novikov",
+  "title": "Asymptotic Value in Zero-Sum Stochastic Games with Vanishing Stage Duration and Public Signals",
+  "urls": [
+   "https://arxiv.org/abs/2403.07467v3"
+  ],
+  "questions": [
+   3688,
+   3689
+  ]
+ },
+ {
   "document_id": "6c98806624348a35",
   "role": "research-paper",
   "author": "Ivan Novikov",
@@ -11360,6 +11968,33 @@
    1213,
    1214,
    1215
+  ]
+ },
+ {
+  "document_id": "86ad111ce509e034",
+  "role": "dissertation",
+  "author": "Ivan Solonenko",
+  "title": "Homogeneous hypersurfaces in Riemannian symmetric spaces",
+  "urls": [
+   "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/250470179/2024_Solonenko_Ivan_19077922_ethesis.pdf"
+  ],
+  "questions": [
+   3718,
+   3719,
+   3720
+  ]
+ },
+ {
+  "document_id": "4ddbf6fdb41deed6",
+  "role": "research-paper",
+  "author": "Ivan Solonenko and coauthors",
+  "title": "Classification of cohomogeneity-one actions on symmetric spaces of noncompact type",
+  "urls": [
+   "https://arxiv.org/pdf/2501.05553v2",
+   "https://arxiv.org/abs/2501.05553"
+  ],
+  "questions": [
+   3721
   ]
  },
  {
@@ -11693,6 +12328,19 @@
   ]
  },
  {
+  "document_id": "1a2be9d172b0e5ec",
+  "role": "research-paper",
+  "author": "Jakub Niksiński",
+  "title": "High-dimensional discrete 1-symmetric convex bodies and dimension-free estimates for maximal functions",
+  "urls": [
+   "https://arxiv.org/abs/2608.17302v1"
+  ],
+  "questions": [
+   3650,
+   3742
+  ]
+ },
+ {
   "document_id": "c60048ed81dde832",
   "role": "dissertation",
   "author": "Jakub Svoboda",
@@ -12007,7 +12655,8 @@
    "https://trepo.tuni.fi/bitstream/10024/155949/2/978-952-03-3407-9.pdf"
   ],
   "questions": [
-   3550
+   3550,
+   3645
   ]
  },
  {
@@ -12919,6 +13568,46 @@
   ]
  },
  {
+  "document_id": "c84e5eb369c49afc",
+  "role": "research-paper",
+  "author": "Joe Boninger",
+  "title": "A quantum invariant of links in T²×I with volume conjecture behavior",
+  "urls": [
+   "https://msp.org/agt/2023/23-4/agt-v23-n4-p12-p.pdf"
+  ],
+  "questions": [
+   3634
+  ]
+ },
+ {
+  "document_id": "78e328f521f08099",
+  "role": "research-paper",
+  "author": "Joe Boninger",
+  "title": "An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties",
+  "urls": [
+   "https://arxiv.org/pdf/2608.28484v1"
+  ],
+  "questions": [
+   3626,
+   3627,
+   3726
+  ]
+ },
+ {
+  "document_id": "fa2694b7a838e93d",
+  "role": "research-paper",
+  "author": "Joe Boninger",
+  "title": "Positive knots and ribbon concordance",
+  "urls": [
+   "https://msp.org/pjm/2025/335-1/pjm-v335-n1-p04-p.pdf"
+  ],
+  "questions": [
+   3628,
+   3629,
+   3727
+  ]
+ },
+ {
   "document_id": "c7f1805556c635e0",
   "role": "research-paper",
   "author": "Joe Henson; Raymond Lal; Matthew F. Pusey",
@@ -13006,7 +13695,8 @@
    1941,
    1942,
    3139,
-   3140
+   3140,
+   3651
   ]
  },
  {
@@ -13137,6 +13827,19 @@
   "questions": [
    2957,
    2958
+  ]
+ },
+ {
+  "document_id": "46633b41abca04ac",
+  "role": "research-paper",
+  "author": "John Carney and Everett August Meike",
+  "title": "Constructing and Cataloging 2-Adjacent Knots",
+  "urls": [
+   "https://arxiv.org/pdf/2510.00291v1",
+   "https://arxiv.org/abs/2510.00291"
+  ],
+  "questions": [
+   3725
   ]
  },
  {
@@ -14006,6 +14709,33 @@
   ]
  },
  {
+  "document_id": "ca928b9833e454a1",
+  "role": "research-paper",
+  "author": "Julien Bensmail",
+  "title": "Maximising 1’s through Proper Labellings",
+  "urls": [
+   "https://bibliotekanauki.pl/articles/59945820.pdf"
+  ],
+  "questions": [
+   3786,
+   3787
+  ]
+ },
+ {
+  "document_id": "ecf81bdd4e7397b3",
+  "role": "research-paper",
+  "author": "Julien Bensmail, Clara Marcille and Mano Orenga",
+  "title": "Pushing Vertices to Make Graphs Irregular",
+  "urls": [
+   "https://dmtcs.episciences.org/16418/pdf"
+  ],
+  "questions": [
+   3769,
+   3770,
+   3771
+  ]
+ },
+ {
   "document_id": "675d319b282f7b53",
   "role": "research-paper",
   "author": "Julien Berestycki",
@@ -14624,7 +15354,8 @@
    "https://arxiv.org/abs/2406.00831v2"
   ],
   "questions": [
-   3596
+   3596,
+   3685
   ]
  },
  {
@@ -14718,6 +15449,18 @@
   ],
   "questions": [
    3053
+  ]
+ },
+ {
+  "document_id": "6f337a3711c44ee4",
+  "role": "dissertation",
+  "author": "Katriin Pirk",
+  "title": "Diametral diameter two properties, Daugavet-, and Δ-points in Banach spaces",
+  "urls": [
+   "https://dspace.ut.ee/server/api/core/bitstreams/10294299-6d8d-424c-b0e1-9b006462fd84/content"
+  ],
+  "questions": [
+   3648
   ]
  },
  {
@@ -14841,6 +15584,18 @@
   ]
  },
  {
+  "document_id": "adf2bb49314e233c",
+  "role": "research-paper",
+  "author": "Khawaja and Siksek",
+  "title": "New Algebraic Points on Curves",
+  "urls": [
+   "https://arxiv.org/abs/2511.15635"
+  ],
+  "questions": [
+   3615
+  ]
+ },
+ {
   "document_id": "635bd6229a1158eb",
   "role": "dissertation",
   "author": "Kie Seng Nge",
@@ -14926,7 +15681,9 @@
   ],
   "questions": [
    3141,
-   3242
+   3242,
+   3644,
+   3740
   ]
  },
  {
@@ -15275,6 +16032,18 @@
   ]
  },
  {
+  "document_id": "ef8dec4c9e715966",
+  "role": "research-paper",
+  "author": "Lafont, Miller and Ruffoni",
+  "title": "On signatures of the atoroidal bundles of Kent–Leininger",
+  "urls": [
+   "https://people.math.osu.edu/lafont.1/SignKL.pdf"
+  ],
+  "questions": [
+   3730
+  ]
+ },
+ {
   "document_id": "05e72420848d7cf3",
   "role": "research-paper",
   "author": "Lajos Győrffy",
@@ -15310,6 +16079,19 @@
   ],
   "questions": [
    3445
+  ]
+ },
+ {
+  "document_id": "0b8102223bfb81e7",
+  "role": "dissertation",
+  "author": "Lars Becker",
+  "title": "Estimates for some rough operators with modulation symmetries",
+  "urls": [
+   "https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/13142/8285.pdf?sequence=2&isAllowed=y"
+  ],
+  "questions": [
+   3637,
+   3638
   ]
  },
  {
@@ -15377,6 +16159,32 @@
    2600,
    2696,
    2697
+  ]
+ },
+ {
+  "document_id": "320ce610321ead0b",
+  "role": "research-paper",
+  "author": "Latz and Swart",
+  "title": "Monotone duality of interacting particle systems",
+  "urls": [
+   "https://arxiv.org/abs/2312.00595v3"
+  ],
+  "questions": [
+   3794,
+   3795,
+   3796
+  ]
+ },
+ {
+  "document_id": "32b28e2fe429b707",
+  "role": "research-paper",
+  "author": "Laura Escobar and Jodi McWhirter",
+  "title": "Oriented Matroid Circuit Polytopes",
+  "urls": [
+   "https://arxiv.org/abs/2501.00108"
+  ],
+  "questions": [
+   3678
   ]
  },
  {
@@ -15659,6 +16467,18 @@
   ],
   "questions": [
    2108
+  ]
+ },
+ {
+  "document_id": "41c144c06ef76044",
+  "role": "research-paper",
+  "author": "Leoni, Martínez-Pérez and Weigel",
+  "title": "Generalising a Theorem of Lichtman",
+  "urls": [
+   "https://arxiv.org/abs/2606.27528"
+  ],
+  "questions": [
+   3614
   ]
  },
  {
@@ -16083,6 +16903,19 @@
   ]
  },
  {
+  "document_id": "18257440eab976ab",
+  "role": "dissertation",
+  "author": "Luca Fiorindo",
+  "title": "Perazzo algebras, strongly Koszulness, Arithmetic Complexes, and Vasconcelos invariant",
+  "urls": [
+   "https://unige.iris.cineca.it/retrieve/9b01309f-fa18-40af-87dd-aae58f1137f2/phdunige_5530713.pdf"
+  ],
+  "questions": [
+   3617,
+   3707
+  ]
+ },
+ {
   "document_id": "884ab78be76d7b51",
   "role": "research-paper",
   "author": "Luca Makowiec",
@@ -16233,6 +17066,19 @@
   ],
   "questions": [
    493
+  ]
+ },
+ {
+  "document_id": "335b0854ebc51359",
+  "role": "dissertation",
+  "author": "Luis Alberto Rosa Ferrari",
+  "title": "Some Interactions Between Expansive Dynamics and Mathematical Logic",
+  "urls": [
+   "https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/53457"
+  ],
+  "questions": [
+   3635,
+   3636
   ]
  },
  {
@@ -16543,6 +17389,21 @@
   "questions": [
    1810,
    1811
+  ]
+ },
+ {
+  "document_id": "8e3f175dbdee923e",
+  "role": "dissertation",
+  "author": "Maiken Balman Gravgaard",
+  "title": "Metric Diophantine Approximation and Missing-Digits Sets",
+  "urls": [
+   "https://data.math.au.dk/publications/phd/2026/math-phd-2026-mbg.pdf"
+  ],
+  "questions": [
+   3749,
+   3750,
+   3751,
+   3752
   ]
  },
  {
@@ -17992,6 +18853,21 @@
   ],
   "questions": [
    1691
+  ]
+ },
+ {
+  "document_id": "ea9be7c7c87419bd",
+  "role": "dissertation",
+  "author": "Matthias Irlbeck",
+  "title": "High-Dimensional Poisson–Voronoi Geometry and Threshold Phenomena",
+  "urls": [
+   "https://www.matthiasirlbeck.com/documents/PhD_thesis_matthias_irlbeck.pdf"
+  ],
+  "questions": [
+   3690,
+   3691,
+   3692,
+   3788
   ]
  },
  {
@@ -19608,6 +20484,18 @@
   ]
  },
  {
+  "document_id": "83865bdecfc7a883",
+  "role": "research-paper",
+  "author": "Ni and Xue",
+  "title": "Twisted periods of modular forms",
+  "urls": [
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/48523420485D9E43A6A99E4D0214F15E/S0027763026100993a.pdf/twisted_periods_of_modular_forms.pdf"
+  ],
+  "questions": [
+   3613
+  ]
+ },
+ {
   "document_id": "795ac0f1a96db019",
   "role": "research-paper",
   "author": "Nicanor Carrasco-Vargas",
@@ -19734,6 +20622,18 @@
   ],
   "questions": [
    1271
+  ]
+ },
+ {
+  "document_id": "950b31bf0b9de37b",
+  "role": "dissertation",
+  "author": "Nicolas Banks",
+  "title": "Classification Results for Intersective Polynomials With No Integral Roots",
+  "urls": [
+   "https://uwspace.uwaterloo.ca/bitstreams/12f4d115-acaf-4739-81e0-98f2159189b3/download"
+  ],
+  "questions": [
+   3609
   ]
  },
  {
@@ -19896,6 +20796,19 @@
   "questions": [
    3571,
    3572
+  ]
+ },
+ {
+  "document_id": "41455257b993c275",
+  "role": "dissertation",
+  "author": "Nikola Sadovek",
+  "title": "Obstructions across geometry and topology",
+  "urls": [
+   "https://refubium.fu-berlin.de/bitstream/handle/fub188/51916/Sadovek%20-%20Doctoral%20dissertation.pdf?isAllowed=y&sequence=1"
+  ],
+  "questions": [
+   3620,
+   3621
   ]
  },
  {
@@ -20185,6 +21098,18 @@
   ],
   "questions": [
    445
+  ]
+ },
+ {
+  "document_id": "4585a8ef09feb8a9",
+  "role": "research-paper",
+  "author": "Nolan Ison",
+  "title": "Power Series Rings over Noncommutative Rings: Symmetry, Reversibility, and Semicommutativity",
+  "urls": [
+   "https://scholarsarchive.byu.edu/etd/10816/"
+  ],
+  "questions": [
+   3602
   ]
  },
  {
@@ -25375,18 +26300,6 @@
   "title": null,
   "urls": [
    "https://arxiv.org/abs/1910.07336"
-  ],
-  "questions": [
-   327
-  ]
- },
- {
-  "document_id": "9000b0bfd87ebe7d",
-  "role": "research-paper",
-  "author": null,
-  "title": null,
-  "urls": [
-   "https://arxiv.org/html/2609.20678v1"
   ],
   "questions": [
    327
@@ -52301,7 +53214,8 @@
    "https://cims.nyu.edu/newsletters/Spring2019.pdf"
   ],
   "questions": [
-   3596
+   3596,
+   3685
   ]
  },
  {
@@ -52315,7 +53229,338 @@
   "questions": [
    3597,
    3598,
-   3600
+   3600,
+   3686
+  ]
+ },
+ {
+  "document_id": "c3c004627313899b",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2609.07932v1"
+  ],
+  "questions": [
+   3611,
+   3612
+  ]
+ },
+ {
+  "document_id": "180e2f58083522ce",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://link.springer.com/article/10.1007/s00205-026-02186-4"
+  ],
+  "questions": [
+   3618,
+   3619
+  ]
+ },
+ {
+  "document_id": "288b5602fdda3fd4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2404.14320v3"
+  ],
+  "questions": [
+   3620,
+   3621
+  ]
+ },
+ {
+  "document_id": "cb1b4f2eac4feb45",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.mi.fu-berlin.de/fb/dates/disputationen/Sadovek_-Nikola---MI---Aushang.pdf"
+  ],
+  "questions": [
+   3620,
+   3621
+  ]
+ },
+ {
+  "document_id": "5df65e40bad6e0ff",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2108.10371"
+  ],
+  "questions": [
+   3622,
+   3623
+  ]
+ },
+ {
+  "document_id": "a27371805fd0df12",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://people.math.ethz.ch/~riviere/pdf/phd/pumberger.pdf"
+  ],
+  "questions": [
+   3622,
+   3623
+  ]
+ },
+ {
+  "document_id": "5a10498426acb150",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.mi.fu-berlin.de/fb/dates/disputationen/Levinson_-Tatiana---MI---Aushang.pdf"
+  ],
+  "questions": [
+   3624,
+   3625
+  ]
+ },
+ {
+  "document_id": "67e93f01d2ff4455",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2603.05467v2"
+  ],
+  "questions": [
+   3692
+  ]
+ },
+ {
+  "document_id": "dc5d6c1c9210c429",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2508.06935v1"
+  ],
+  "questions": [
+   3696,
+   3697
+  ]
+ },
+ {
+  "document_id": "7e3d336dedbd9c2c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.hillsdale.edu/wp-content/uploads/2024/08/CV_and_Applications.pdf"
+  ],
+  "questions": [
+   3698
+  ]
+ },
+ {
+  "document_id": "05c2024fe3763f90",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://zaguan.unizar.es/record/136232/files/TESIS-2024-335.pdf"
+  ],
+  "questions": [
+   3706
+  ]
+ },
+ {
+  "document_id": "810aa9cd3473d969",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://uu.diva-portal.org/smash/get/diva2%3A1947744/FULLTEXT01.pdf"
+  ],
+  "questions": [
+   3711
+  ]
+ },
+ {
+  "document_id": "dd161e56f4893bdb",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://link.springer.com/article/10.1007/s10711-018-00419-9"
+  ],
+  "questions": [
+   3729
+  ]
+ },
+ {
+  "document_id": "13fc747ae820c9de",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2410.18029"
+  ],
+  "questions": [
+   3730
+  ]
+ },
+ {
+  "document_id": "2b62226212d7f363",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://impan.pl/images/newsletter/newsletter_08_2015.pdf"
+  ],
+  "questions": [
+   3736,
+   3737,
+   3738,
+   3739
+  ]
+ },
+ {
+  "document_id": "4dee8468353cae47",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://wmi.uwr.edu.pl/wp-content/uploads/sites/288/2024/12/Niksinski-Jakub-praca.pdf"
+  ],
+  "questions": [
+   3742
+  ]
+ },
+ {
+  "document_id": "0e6b51eafba360f6",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.26686/wgtn.25573695"
+  ],
+  "questions": [
+   3761,
+   3762
+  ]
+ },
+ {
+  "document_id": "cb16ecd00d6ede4e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.1093/logcom/exag023"
+  ],
+  "questions": [
+   3763,
+   3764,
+   3765
+  ]
+ },
+ {
+  "document_id": "bebed3afb7bd3fad",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.1017/jsl.2026.10187"
+  ],
+  "questions": [
+   3763,
+   3764,
+   3765
+  ]
+ },
+ {
+  "document_id": "892090a4d91b41e2",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2511.19747v2"
+  ],
+  "questions": [
+   3763,
+   3764,
+   3765
+  ]
+ },
+ {
+  "document_id": "af539dc1de73c746",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.61091/ars167-10"
+  ],
+  "questions": [
+   3769,
+   3770,
+   3771
+  ]
+ },
+ {
+  "document_id": "5eed3f63447d4516",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://jbensmai.fr/datas/thesis/phd.pdf"
+  ],
+  "questions": [
+   3772,
+   3773,
+   3774,
+   3786,
+   3787
+  ]
+ },
+ {
+  "document_id": "98ac44dcb11ff06e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.1016/j.dam.2025.12.011"
+  ],
+  "questions": [
+   3772,
+   3773,
+   3774
+  ]
+ },
+ {
+  "document_id": "de0c280912d84f48",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2502.07933v1"
+  ],
+  "questions": [
+   3775,
+   3776
+  ]
+ },
+ {
+  "document_id": "dcb848ea26dacf55",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://library.utia.cas.cz/separaty/2024/SI/latz-0598658.pdf"
+  ],
+  "questions": [
+   3794,
+   3795,
+   3796,
+   3797
   ]
  },
  {
@@ -52561,6 +53806,20 @@
   ]
  },
  {
+  "document_id": "64bb1eae152a400b",
+  "role": "research-paper",
+  "author": "Olivier Baudon, Julien Bensmail and Lyn Vayssieres",
+  "title": "Some remarks and results on the Standard (2,2)-Conjecture",
+  "urls": [
+   "https://www.opuscula.agh.edu.pl/vol46/2/art/opuscula_math_4606.pdf"
+  ],
+  "questions": [
+   3772,
+   3773,
+   3774
+  ]
+ },
+ {
   "document_id": "1825d97bc6bff233",
   "role": "research-paper",
   "author": "Olivier Bournez; Johanne Cohen; Laura Cohen; Adrian Wurm",
@@ -52703,14 +53962,15 @@
  {
   "document_id": "bfa7881857a2606a",
   "role": "dissertation",
-  "author": "Ondrej Draganov",
+  "author": "Ondřej Draganov",
   "title": "Structures and computations in topological data analysis",
   "urls": [
    "https://research-explorer.ista.ac.at/download/18979/19000/Thesis.pdf"
   ],
   "questions": [
    2531,
-   2624
+   2624,
+   3728
   ]
  },
  {
@@ -52819,6 +54079,19 @@
   ]
  },
  {
+  "document_id": "14be74c11d484ead",
+  "role": "research-paper",
+  "author": "Pai, Rocha and Yu",
+  "title": "Woven weighted exponentials",
+  "urls": [
+   "https://arxiv.org/abs/2608.14393v1"
+  ],
+  "questions": [
+   3733,
+   3734
+  ]
+ },
+ {
   "document_id": "67a4d9da8e05216a",
   "role": "research-paper",
   "author": "Painos Chitanga",
@@ -52898,6 +54171,19 @@
   "questions": [
    621,
    622
+  ]
+ },
+ {
+  "document_id": "b8e7237bdac9ec6e",
+  "role": "research-paper",
+  "author": "Park, Visser, Yatsyna and Yoon",
+  "title": "Asymptotics of n-universal lattices over number fields",
+  "urls": [
+   "https://arxiv.org/abs/2510.26652"
+  ],
+  "questions": [
+   3604,
+   3605
   ]
  },
  {
@@ -53154,6 +54440,19 @@
   ],
   "questions": [
    2814
+  ]
+ },
+ {
+  "document_id": "3b73bfbb48851b2e",
+  "role": "research-paper",
+  "author": "Paul Terwilliger",
+  "title": "The S₃-symmetric tridiagonal algebra",
+  "urls": [
+   "https://doi.org/10.1007/s10801-025-01420-8"
+  ],
+  "questions": [
+   3716,
+   3717
   ]
  },
  {
@@ -53732,6 +55031,19 @@
   ]
  },
  {
+  "document_id": "faa94a668c5e8209",
+  "role": "research-paper",
+  "author": "Pierre-Antoine Guihéneuf",
+  "title": "Surface homeomorphisms with big rotation set",
+  "urls": [
+   "https://arxiv.org/pdf/2511.15220v2"
+  ],
+  "questions": [
+   3731,
+   3732
+  ]
+ },
+ {
   "document_id": "1a49a4734551cc85",
   "role": "research-paper",
   "author": "Piet Groeneboom",
@@ -53862,6 +55174,18 @@
   ]
  },
  {
+  "document_id": "0510ca7564b45582",
+  "role": "research-paper",
+  "author": "Polona Durcik, Lenka Slavíková and Christoph Thiele",
+  "title": "Norm-variation of triple ergodic averages for commuting transformations",
+  "urls": [
+   "https://msp.org/apde/2026/19-3/apde-v19-n3-p05-p.pdf"
+  ],
+  "questions": [
+   3652
+  ]
+ },
+ {
   "document_id": "6fe4adb07efe73f9",
   "role": "research-paper",
   "author": "Pradipta Bandyopadhyay; Deepak Gothwal",
@@ -53910,6 +55234,18 @@
   ],
   "questions": [
    3366
+  ]
+ },
+ {
+  "document_id": "6d752ba49a46fcbe",
+  "role": "research-paper",
+  "author": "Pu-Ting Yu",
+  "title": "Every semi-normalized unconditional Schauder frame in Hilbert spaces contains a frame",
+  "urls": [
+   "https://arxiv.org/abs/2602.21616v3"
+  ],
+  "questions": [
+   3735
   ]
  },
  {
@@ -54012,6 +55348,50 @@
   ],
   "questions": [
    1822
+  ]
+ },
+ {
+  "document_id": "cb655e29d08e4022",
+  "role": "research-paper",
+  "author": "Quentin Chuet",
+  "title": "Frugal colourings of graphs via sparse hypergraph colouring",
+  "urls": [
+   "https://arxiv.org/abs/2603.23379"
+  ],
+  "questions": [
+   3673,
+   3674
+  ]
+ },
+ {
+  "document_id": "18b6b975a4ed33df",
+  "role": "research-paper",
+  "author": "Quentin Chuet, Hugo Demaret, Hoang La and François Pirot",
+  "title": "Fractional domatic number and minimum degree",
+  "urls": [
+   "https://arxiv.org/abs/2508.19617",
+   "https://arxiv.org/pdf/2508.19617v1"
+  ],
+  "questions": [
+   3671,
+   3672,
+   3780,
+   3781
+  ]
+ },
+ {
+  "document_id": "890377d442eec3e6",
+  "role": "research-paper",
+  "author": "Quentin Chuet, Selma Djelloul, Hoang La, François Pirot and Hossein Zaredehabadi",
+  "title": "A Domatic Analogue of χ-Bounded Graph Classes and the Gyárfás–Sumner Conjecture",
+  "urls": [
+   "https://arxiv.org/abs/2606.02030",
+   "https://arxiv.org/pdf/2606.02030v1"
+  ],
+  "questions": [
+   3669,
+   3670,
+   3779
   ]
  },
  {
@@ -54404,6 +55784,19 @@
   ]
  },
  {
+  "document_id": "165a2d235cf5a793",
+  "role": "research-paper",
+  "author": "Reijo Jaakkola",
+  "title": "Complexity of Polyadic Boolean Modal Logics",
+  "urls": [
+   "https://doi.org/10.4230/LIPIcs.CSL.2023.26"
+  ],
+  "questions": [
+   3661,
+   3662
+  ]
+ },
+ {
   "document_id": "afd159b3a5dc65cc",
   "role": "research-paper",
   "author": "Renato Ferreira Pinto Jr.; Nathaniel Harms",
@@ -54451,6 +55844,19 @@
   ],
   "questions": [
    133
+  ]
+ },
+ {
+  "document_id": "cea465dae5b3b192",
+  "role": "dissertation",
+  "author": "Riccardo Caniato",
+  "title": "Contributions to calibrated geometric analysis and analytical gauge theory in supercritical dimension",
+  "urls": [
+   "https://people.math.ethz.ch/~triviere/pdf/phd/caniato-thesis.pdf"
+  ],
+  "questions": [
+   3622,
+   3623
   ]
  },
  {
@@ -54582,6 +55988,18 @@
   ]
  },
  {
+  "document_id": "2762fb9fdc8ddce8",
+  "role": "research-paper",
+  "author": "Ritabrato Chatterjee and Ping Zhang",
+  "title": "On Ramsey indexes of graphs",
+  "urls": [
+   "https://combinatorialpress.com/article/jcmcc/Volume%20129/on-ramsey-indexes-of-graphs.pdf"
+  ],
+  "questions": [
+   3768
+  ]
+ },
+ {
   "document_id": "c36e551473fdec1a",
   "role": "research-paper",
   "author": "Rob H. Eggermont; Emil Horobeț; Kaie Kubjas",
@@ -54643,6 +56061,18 @@
   "questions": [
    809,
    891
+  ]
+ },
+ {
+  "document_id": "a2f7ec1c33c668f0",
+  "role": "research-paper",
+  "author": "Robert M. Guralnick, Hung P. Tong-Viet and Gareth Tracey",
+  "title": "Weakly subnormal subgroups and variations of the Baer–Suzuki theorem",
+  "urls": [
+   "https://doi.org/10.1112/jlms.70057"
+  ],
+  "questions": [
+   3712
   ]
  },
  {
@@ -54832,6 +56262,21 @@
   ],
   "questions": [
    1218
+  ]
+ },
+ {
+  "document_id": "14bc9b75bbf38682",
+  "role": "dissertation",
+  "author": "Rodrigo Nicolau Almeida",
+  "title": "Representations and model theory of free Heyting algebras",
+  "urls": [
+   "https://eprints.illc.uva.nl/id/eprint/2448/1/DS-2026-14.text.pdf"
+  ],
+  "questions": [
+   3655,
+   3656,
+   3753,
+   3754
   ]
  },
  {
@@ -55158,6 +56603,18 @@
   ]
  },
  {
+  "document_id": "b762b9900cfb6893",
+  "role": "research-paper",
+  "author": "Ryan Kowalick, Jean-François Lafont and Barry Minemyer",
+  "title": "Filling triangulated surfaces",
+  "urls": [
+   "https://par.nsf.gov/servlets/purl/10121108"
+  ],
+  "questions": [
+   3729
+  ]
+ },
+ {
   "document_id": "ccb1d473cdad1186",
   "role": "research-paper",
   "author": "Ryan L. Acosta Babb",
@@ -55237,6 +56694,19 @@
   ]
  },
  {
+  "document_id": "796518ec8855c328",
+  "role": "research-paper",
+  "author": "Sahiba Arora, Jochen Glück and Felix L. Schwenninger",
+  "title": "The lattice structure of negative Sobolev and extrapolation spaces",
+  "urls": [
+   "https://arxiv.org/abs/2404.02116v4"
+  ],
+  "questions": [
+   3642,
+   3643
+  ]
+ },
+ {
   "document_id": "20c56aa5a17cb389",
   "role": "dissertation",
   "author": "Sahil Singla",
@@ -55259,6 +56729,18 @@
   "questions": [
    225,
    226
+  ]
+ },
+ {
+  "document_id": "e8235205c025cb5b",
+  "role": "research-paper",
+  "author": "Saieed Akbari, Jonathan Aloni, Maxwell Levit, Bojan Mohar and Steven Xia",
+  "title": "Spectrally symmetric orientations of graphs",
+  "urls": [
+   "https://arxiv.org/abs/2512.08049"
+  ],
+  "questions": [
+   3679
   ]
  },
  {
@@ -55355,6 +56837,18 @@
   ]
  },
  {
+  "document_id": "97c9e09dfd2a6081",
+  "role": "research-paper",
+  "author": "Sam K. Miller",
+  "title": "On functoriality and the tensor product property in noncommutative tensor-triangular geometry",
+  "urls": [
+   "https://arxiv.org/abs/2505.01899v3"
+  ],
+  "questions": [
+   3701
+  ]
+ },
+ {
   "document_id": "75ed0b07d6d4d4b1",
   "role": "research-paper",
   "author": "Sam Ketchell",
@@ -55378,7 +56872,8 @@
    "https://escholarship.org/content/qt9h73j2g4/qt9h73j2g4.pdf"
   ],
   "questions": [
-   2703
+   2703,
+   3701
   ]
  },
  {
@@ -56110,6 +57605,20 @@
   ]
  },
  {
+  "document_id": "6cc53401356f2878",
+  "role": "dissertation",
+  "author": "Sergey Yurkevich",
+  "title": "Integer sequences, algebraic series and differential operators",
+  "urls": [
+   "https://yurkevi.ch/thesis.pdf"
+  ],
+  "questions": [
+   3713,
+   3714,
+   3715
+  ]
+ },
+ {
   "document_id": "fbd2133a75b218ea",
   "role": "dissertation",
   "author": "Serina Hu",
@@ -56397,6 +57906,18 @@
   "questions": [
    1760,
    1761
+  ]
+ },
+ {
+  "document_id": "107c5944d932235b",
+  "role": "dissertation",
+  "author": "Shayla Redlin Hume",
+  "title": "Enumerating matroid extensions",
+  "urls": [
+   "https://uwspace.uwaterloo.ca/handle/10012/19829"
+  ],
+  "questions": [
+   3677
   ]
  },
  {
@@ -56689,6 +58210,18 @@
   ]
  },
  {
+  "document_id": "a810130a5de6efbd",
+  "role": "research-paper",
+  "author": "Simon Kreuzer",
+  "title": "Modal Logics of Tame Topologies",
+  "urls": [
+   "https://eprints.illc.uva.nl/id/eprint/2416/1/MoL-2026-04.text.pdf"
+  ],
+  "questions": [
+   3757
+  ]
+ },
+ {
   "document_id": "0ebb8035a1bdec67",
   "role": "research-paper",
   "author": "Simon R. Blackburn",
@@ -56734,6 +58267,19 @@
   ],
   "questions": [
    1953
+  ]
+ },
+ {
+  "document_id": "b96d6fbe1e6de34d",
+  "role": "research-paper",
+  "author": "Simone Blumer",
+  "title": "Koszul Lie algebras and their subalgebras",
+  "urls": [
+   "https://www.boa.unimib.it/retrieve/404582f4-d4eb-46a4-b395-e474a7d568ed/Blumer-2026-Journal%20of%20Algebra-VoR.pdf"
+  ],
+  "questions": [
+   3606,
+   3706
   ]
  },
  {
@@ -57061,6 +58607,19 @@
   ]
  },
  {
+  "document_id": "f0be95c6ca89e787",
+  "role": "research-paper",
+  "author": "Spyridon Dialiatsis and Yurii Khomskii",
+  "title": "Combinatorial Properties of the Raisonnier Filter",
+  "urls": [
+   "https://arxiv.org/pdf/2602.23340v1"
+  ],
+  "questions": [
+   3758,
+   3759
+  ]
+ },
+ {
   "document_id": "06711338352acf7e",
   "role": "dissertation",
   "author": "Spyridon Tzimas",
@@ -57350,7 +58909,9 @@
    "https://ujcontent.uj.ac.za/esploro/outputs/doctoral/Bounds-on-proximity-and-remoteness-in/9960708807691"
   ],
   "questions": [
-   3576
+   3576,
+   3682,
+   3683
   ]
  },
  {
@@ -57503,6 +59064,18 @@
   "questions": [
    1860,
    1861
+  ]
+ },
+ {
+  "document_id": "f22e8c16875e7df8",
+  "role": "research-paper",
+  "author": "Swart, Szabó and Toninelli",
+  "title": "Peierls bounds from random Toom contours",
+  "urls": [
+   "https://arxiv.org/abs/2501.09660v1"
+  ],
+  "questions": [
+   3797
   ]
  },
  {
@@ -57809,6 +59382,19 @@
   ]
  },
  {
+  "document_id": "1be3cab6b6becaff",
+  "role": "dissertation",
+  "author": "Tatiana Levinson",
+  "title": "Convex partitions of vector bundles and fibrewise configuration spaces",
+  "urls": [
+   "https://d-nb.info/1303907593/34"
+  ],
+  "questions": [
+   3624,
+   3625
+  ]
+ },
+ {
   "document_id": "375a78ffeb12d630",
   "role": "research-paper",
   "author": "Tatsuya Goto",
@@ -57905,6 +59491,20 @@
   ]
  },
  {
+  "document_id": "e6ed626848a966d3",
+  "role": "research-paper",
+  "author": "Tenyo Takahashi",
+  "title": "Union-splittings, the Axiomatization Problem, and the Rule Dichotomy Property in Modal Logic",
+  "urls": [
+   "https://eprints.illc.uva.nl/id/eprint/2386/1/MoL-2025-16.text.pdf"
+  ],
+  "questions": [
+   3763,
+   3764,
+   3765
+  ]
+ },
+ {
   "document_id": "0cdf2ef7a7dbb3c9",
   "role": "research-paper",
   "author": "Tesshu Fujinami; Bruce D. Lee; Nikolai Matni; George J. Pappas",
@@ -57987,10 +59587,12 @@
   "title": "Finite Pre-Tensor Categories that are Morita Equivalent to Finite Tensor Categories",
   "urls": [
    "https://arxiv.org/abs/2604.10753",
+   "https://arxiv.org/abs/2604.10753v1",
    "https://arxiv.org/pdf/2604.10753"
   ],
   "questions": [
-   2808
+   2808,
+   3711
   ]
  },
  {
@@ -58254,10 +59856,12 @@
   "author": "Tiago Royer",
   "title": "Kolmogorov Complexity of Attractive Degrees",
   "urls": [
-   "https://arxiv.org/abs/2505.02726v1"
+   "https://arxiv.org/abs/2505.02726v1",
+   "https://arxiv.org/abs/2505.02726"
   ],
   "questions": [
-   2367
+   2367,
+   3663
   ]
  },
  {
@@ -58892,6 +60496,18 @@
   ]
  },
  {
+  "document_id": "120151d25ac79111",
+  "role": "dissertation",
+  "author": "Trevor Vilardi",
+  "title": "Monomial Quadratic Identities of Hecke Eigenforms",
+  "urls": [
+   "https://open.clemson.edu/all_dissertations/4229/"
+  ],
+  "questions": [
+   3601
+  ]
+ },
+ {
   "document_id": "b8f3ae9eca16b5ed",
   "role": "research-paper",
   "author": "Triinu Veeorg",
@@ -59316,6 +60932,31 @@
   ]
  },
  {
+  "document_id": "c059343d5e0118ba",
+  "role": "dissertation",
+  "author": "Valentina Ciccone",
+  "title": "Some sharp and endpoint inequalities in Harmonic Analysis",
+  "urls": [
+   "https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/12631/7993.pdf?sequence=2&isAllowed=y"
+  ],
+  "questions": [
+   3639
+  ]
+ },
+ {
+  "document_id": "21fdc041fb6dc424",
+  "role": "research-paper",
+  "author": "Valentina Ciccone and Błażej Wróbel",
+  "title": "High-dimensional limits and extremizers for maximal functions associated with log-concave densities",
+  "urls": [
+   "https://arxiv.org/abs/2607.06041v1"
+  ],
+  "questions": [
+   3649,
+   3741
+  ]
+ },
+ {
   "document_id": "b61ce3f91a67e80c",
   "role": "research-paper",
   "author": "Van H. Vu",
@@ -59605,6 +61246,18 @@
   ],
   "questions": [
    1353
+  ]
+ },
+ {
+  "document_id": "ad658effefdc1a3b",
+  "role": "research-paper",
+  "author": "Visser and Ziegler",
+  "title": "On integers that are representable as the sum of two units",
+  "urls": [
+   "https://arxiv.org/abs/2608.15903"
+  ],
+  "questions": [
+   3603
   ]
  },
  {
@@ -60727,6 +62380,18 @@
   ]
  },
  {
+  "document_id": "600c45ec9f313a44",
+  "role": "research-paper",
+  "author": "Ying Wai Lee",
+  "title": "Lüroth Expansions in Diophantine Approximation: Metric Properties and Conjectures",
+  "urls": [
+   "https://math.colgate.edu/~integers/aa45/aa45.pdf"
+  ],
+  "questions": [
+   3748
+  ]
+ },
+ {
   "document_id": "78e8c7ab0e52102b",
   "role": "research-paper",
   "author": "Yinon Spinka",
@@ -60737,6 +62402,19 @@
   "questions": [
    3291,
    3292
+  ]
+ },
+ {
+  "document_id": "a06f2a5d33da2b46",
+  "role": "research-paper",
+  "author": "Yipu Li",
+  "title": "Complexity Reduction in Combinatorial Set Theory",
+  "urls": [
+   "https://eprints.illc.uva.nl/id/eprint/2440/1/MoL-2026-15.text.pdf"
+  ],
+  "questions": [
+   3755,
+   3756
   ]
  },
  {
@@ -61517,6 +63195,18 @@
   "questions": [
    828,
    829
+  ]
+ },
+ {
+  "document_id": "a9de223fc6f9c5e2",
+  "role": "research-paper",
+  "author": "Zoltan A. Kocsis",
+  "title": "Two applications of the point-free coderivative",
+  "urls": [
+   "https://arxiv.org/abs/2609.29436"
+  ],
+  "questions": [
+   3660
   ]
  },
  {

@@ -1,6 +1,51 @@
-# Combinatorics & Graph Theory (part 2 of 2)
+# Combinatorics & Graph Theory (part 2 of 3)
 
-[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md)
+[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
+
+<a id="q2059"></a>
+
+## Q2059. Find high-girth high-dichromatic subdigraphs
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3) · **Collection** 21
+
+For all integers k≥0 and ℓ≥3, is there f(k,ℓ) such that every tournament of dichromatic number at least f(k,ℓ) contains a subdigraph of dichromatic number greater than k and girth greater than ℓ?
+
+**Context.** Origin for question 2059: Charbit–Coulomb’s directed strengthening of the Erdős–Hajnal large-girth conjecture. Setup for question 2059: The dichromatic number of a finite digraph is the fewest vertex classes inducing acyclic digraphs. Its girth is the girth of its underlying undirected graph; a subdigraph need not be induced.
+
+**Source.** Pierre Charbit; Samuel Coulomb. *Digraphs of Large Girth and Dichromatic Number in Tournaments with Large Dichromatic Number*. 2026. [primary source](https://arxiv.org/abs/2609.21895) Location: Conjecture 3, p. 2.
+
+**Literature check.** Status for question 2059, checked 6 October 2026: no later resolution found.
+
+
+<a id="q2060"></a>
+
+## Q2060. Order edges to distinguish neighbours
+
+**Status:** Open · **Kind:** conjecture (Conjecture 10) · **Collection** 21
+
+For every finite simple connected graph G other than K₂ or an even cycle, and every proper edge colouring w, is there a total edge order making the resulting sequences different at the ends of every edge?
+
+**Context.** Origin for question 2060: Gorzkowska–Kwaśny, reversing the fixed-order sequence-colouring problem of Seamone–Stevens. Setup for question 2060: Given a proper edge colouring w and one total order of E(G), each vertex receives the sequence of colours on its incident edges in that order.
+
+**Source.** Aleksandra Gorzkowska; Jakub Kwaśny. *Distinguishing adjacent vertices by ordering edges*. 2026. [primary source](https://arxiv.org/abs/2609.11832) Location: Conjecture 10, p. 8.
+
+**Literature check.** Status for question 2060, checked 6 October 2026: no later resolution found.
+
+
+<a id="q2061"></a>
+
+## Q2061. Force non-nested monochromatic matchings
+
+**Status:** Open · **Kind:** open problem · **Collection** 21
+
+For every k≥1, does every red/blue edge-colouring of the ordered complete graph on 3k−1 vertices contain a monochromatic k-edge matching with no nested pair?
+
+**Context.** Origin for questions 2061, 2062: Ramsey conjecture: Barát–Gyárfás–Tóth (2024). Strong Turán conjecture: Barát–Freschi–Tóth. Setup for questions 2061, 2062: Vertices have a linear order. Disjoint edges ab,cd (a&lt;b,c&lt;d) are nested if a&lt;c&lt;d&lt;b or c&lt;a&lt;b&lt;d; crossing if a&lt;c&lt;b&lt;d or c&lt;a&lt;d&lt;b; otherwise separated. A strongly non-nested matching partitions into blocks, crossing within blocks and separated between blocks.
+
+**Source.** János Barát; Andrea Freschi; Géza Tóth. *Matchings avoiding ordered patterns*. 2025. [primary source](https://arxiv.org/abs/2512.15461) Location: §3.2, p. 14.
+
+**Literature check.** Status for questions 2061, 2062, checked 6 October 2026: both exact bounds remain unresolved.
+
 
 <a id="q2062"></a>
 
@@ -4178,7 +4223,7 @@ For every fixed ε∈(0,1) and p=p(n)∈[n^(−1/2+ε),1], does Walker have, wit
 
 ## Q3480. Two-pass hare-sortable Cayley words
 
-**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 35
+**Status:** Open, partial results · **Kind:** open problem (Problem 1) · **Collection** 35
 
 Determine, for each integer n≥1, the number of length-n Cayley words w for which h(h(w)) is weakly increasing.
 
@@ -4187,6 +4232,11 @@ Determine, for each integer n≥1, the number of length-n Cayley words w for whi
 **Source.** Giulio Cerbai. *Sorting Cayley permutations with pattern-avoiding machines*. 2021. [primary source](https://ajc.maths.uq.edu.au/pdf/80/ajc_v80_p322.pdf) Location: Open Problem 1, p. 330.
 
 **Literature check.** Status checked 9 October 2026: Current primary retains the question. A 2026 follow-up solves hare pop-stack enumeration, a different operation; targeted searches found no double-hare enumeration.
+
+
+**Result (2026-10-09).** A finite automaton gives exact counts for each fixed alphabet and a matrix/inclusion-exclusion formula for every length. For Cayley words using exactly four symbols, the generating function is z^4(22-119z+162z^2)/((1-z)(1-2z)(1-3z)^4), with asymptotic n^3*3^n/324. The explicit rational closed formula concerns the four-symbol slice. A closed generating function and useful uniform asymptotics for the unrestricted sum over alphabet sizes remain unresolved; the exponential-size general automaton is not presented as a complete resolution.
+
+[Proof](../../solutions/seven-more-2026-10-09/discrete/Q3480-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/algebra/review-Q3480.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/discrete/q3480_certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/discrete/SOURCES.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
 
 
 <a id="q3481"></a>
@@ -4338,7 +4388,7 @@ Does h\*\_{C₂ₙ}(t) have only real roots for every n≥2?
 
 ## Q3499. Polygon-face Ehrhart positivity
 
-**Status:** Open · **Kind:** open problem (Question 6.5) · **Collection** 35
+**Status:** Solved here: disproved · **Kind:** open problem (Question 6.5) · **Collection** 35
 
 Does E_{L(Pₙ)}(m), expanded in powers of m, have nonnegative coefficients for every n≥3?
 
@@ -4351,6 +4401,11 @@ Does E_{L(Pₙ)}(m), expanded in powers of m, have nonnegative coefficients for 
 **Literature check.** Status sources: https://arxiv.org/pdf/2609.23629v1; https://doi.org/10.1112/plms.70204.
 
 **Further links.** [1](https://arxiv.org/pdf/2609.23629v1) · [2](https://doi.org/10.1112/plms.70204)
+
+
+**Result (2026-10-09).** The full face lattice of a convex 13-gon, including the empty and full faces, has Ehrhart linear coefficient -298495711/35302608. This is the only negative coefficient of its degree-28 Ehrhart polynomial; every coefficient is positive for polygon sizes 3 through 12. This disproves the Ehrhart coefficient question, distinct from the source's earlier negative order-polynomial coefficient for a 7-gon. Two separate exact arithmetic derivations verify the counterexample; no claim about other poset families is made.
+
+[Proof](../../solutions/seven-more-2026-10-09/discrete/Q3499-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/algebra/review-Q3499.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/discrete/q3499_certificate.json) · [Source check](../../solutions/seven-more-2026-10-09/discrete/SOURCES.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
 
 
 <a id="q3500"></a>
@@ -4613,4 +4668,128 @@ Is there a function f such that every finite nonempty matroid M is a minor of so
 **Literature check.** Status: Reaffirmed in Measuring Depth of Matroids v3, p.36 (2026-10-02).
 
 **Further links.** [1](https://www.ucw.cz/~kral/cv-stud.html)
+
+
+<a id="q3620"></a>
+
+## Q3620. Parallel-hyperplane mass bisection
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.4) · **Collection** 37
+
+For all integers d,k≥1, can any d+k−1 absolutely continuous probability measures on R^d be simultaneously bisected by the chessboard coloring of at most k parallel hyperplanes?
+
+**Context.** Advisor(s): Pavle Blagojević. Origin: Older Soberón–Takahashi and Tverberg–Vrećica conjectures, restated in the thesis. Setup: For parallel affine hyperplanes, their chessboard coloring alternates black and white across consecutive slabs. A bisection gives each color half the measure. All partitions below have nonempty parts.
+
+**Source.** Nikola Sadovek. *Obstructions across geometry and topology*. Freie Universität Berlin, 2025. Advisor(s): Pavle Blagojević. [primary source](https://refubium.fu-berlin.de/bitstream/handle/fub188/51916/Sadovek%20-%20Doctoral%20dissertation.pdf?isAllowed=y&sequence=1) Location: Conjecture 2.4, printed p.18 (PDF p.30).
+
+**Literature check.** Status: Open in thesis; bisection is reaffirmed in June 2026 v3, Conjecture 1.5. No general resolution located, 2026-10-09.
+
+**Further links.** [1](https://arxiv.org/html/2404.14320v3) · [2](https://refubium.fu-berlin.de/handle/fub188/51916) · [3](https://www.mi.fu-berlin.de/fb/dates/disputationen/Sadovek_-Nikola---MI---Aushang.pdf)
+
+
+<a id="q3621"></a>
+
+## Q3621. Tverberg–Vrećica common affine transversal
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.6) · **Collection** 37
+
+Let 0≤k&lt;d and r_0,…,r_k≥1 be integers. Given A_i⊂R^d with |A_i|=(r_i−1)(d−k+1)+1, can each A_i be partitioned into r_i parts whose convex hulls all meet one common affine k-plane?
+
+**Context.** Advisor(s): Pavle Blagojević. Origin: Older Soberón–Takahashi and Tverberg–Vrećica conjectures, restated in the thesis. Setup: For parallel affine hyperplanes, their chessboard coloring alternates black and white across consecutive slabs. A bisection gives each color half the measure. All partitions below have nonempty parts.
+
+**Source.** Nikola Sadovek. *Obstructions across geometry and topology*. Freie Universität Berlin, 2025. Advisor(s): Pavle Blagojević. [primary source](https://refubium.fu-berlin.de/bitstream/handle/fub188/51916/Sadovek%20-%20Doctoral%20dissertation.pdf?isAllowed=y&sequence=1) Location: Conjecture 3.6, printed p.32 (PDF p.44).
+
+**Literature check.** Status: Open in thesis; bisection is reaffirmed in June 2026 v3, Conjecture 1.5. No general resolution located, 2026-10-09.
+
+**Further links.** [1](https://arxiv.org/html/2404.14320v3) · [2](https://refubium.fu-berlin.de/handle/fub188/51916) · [3](https://www.mi.fu-berlin.de/fb/dates/disputationen/Sadovek_-Nikola---MI---Aushang.pdf)
+
+
+<a id="q3669"></a>
+
+## Q3669. Double-star exclusions and domatic growth
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3) · **Collection** 37
+
+For every fixed s,t≥1, is the class with no induced S_{s,t} DOM-bounded?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite, nonempty and simple; δ is minimum degree. DOM(G) maximizes parts in a vertex partition each meeting every closed neighbourhood. DOM-bounded means DOM(G)≥f(δ(G)) for some unbounded f:Z_{≥0}→R_{>0}. S_{s,t} is an edge with s,t pendant leaves at its ends. Authors: Quentin Chuet, Selma Djelloul, Hoang La, François Pirot, Hossein Zaredehabadi. Remaining double-star conjecture; explicit problems.
+
+**Source.** Quentin Chuet, Selma Djelloul, Hoang La, François Pirot and Hossein Zaredehabadi. *A Domatic Analogue of χ-Bounded Graph Classes and the Gyárfás–Sumner Conjecture*. 2026. [primary source](https://arxiv.org/abs/2606.02030) Location: Conjecture 3, p.2; stars and P4 settled.
+
+**Literature check.** Status: v1, June 2026; no resolution found by 2026-10-09.
+
+
+<a id="q3670"></a>
+
+## Q3670. Linear domatic growth for unit disk graphs
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 37
+
+Does an absolute c>0 satisfy DOM(G)≥cδ(G) for every intersection graph G of equal-radius disks in the plane?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite, nonempty and simple; δ is minimum degree. DOM(G) maximizes parts in a vertex partition each meeting every closed neighbourhood. DOM-bounded means DOM(G)≥f(δ(G)) for some unbounded f:Z_{≥0}→R_{>0}. S_{s,t} is an edge with s,t pendant leaves at its ends. Authors: Quentin Chuet, Selma Djelloul, Hoang La, François Pirot, Hossein Zaredehabadi. Remaining double-star conjecture; explicit problems.
+
+**Source.** Quentin Chuet, Selma Djelloul, Hoang La, François Pirot and Hossein Zaredehabadi. *A Domatic Analogue of χ-Bounded Graph Classes and the Gyárfás–Sumner Conjecture*. 2026. [primary source](https://arxiv.org/abs/2606.02030) Location: Problem 1, p.19.
+
+**Literature check.** Status: v1, June 2026; no resolution found by 2026-10-09.
+
+
+<a id="q3671"></a>
+
+## Q3671. Fractional domatic spectrum
+
+**Status:** Open · **Kind:** open problem (Problem 3) · **Collection** 37
+
+Determine {FDOM(G):G is a nonempty finite simple graph}.
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. For nonempty finite simple G, δ is minimum degree and girth is shortest-cycle length. A dominating (p:q)-colouring assigns each vertex q colours from [p]={1,…,p}, with all p colours on each closed neighbourhood; p,q are positive integers. FDOM(G)=sup p/q over these colourings. Put F(g)=inf{FDOM(G):δ(G)=2,girth(G)≥g}; F_P(g) restricts this infimum to planar G. Authors: Quentin Chuet, Hugo Demaret, Hoang La, François Pirot. Explicit problems and conjecture.
+
+**Source.** Quentin Chuet, Hugo Demaret, Hoang La and François Pirot. *Fractional domatic number and minimum degree*. 2025. [primary source](https://arxiv.org/abs/2508.19617) Location: Problem 3, p.31.
+
+**Literature check.** Status: v1, 2025-08-27; no resolution found by 2026-10-09.
+
+
+<a id="q3672"></a>
+
+## Q3672. Sharp planar fractional domatic values
+
+**Status:** Open · **Kind:** conjecture (Conjecture 33) · **Collection** 37
+
+For integers k≥1 and g≥3 with 3k−1≤g≤3k+1, is F_P(g)=(3k+1)/(k+1)?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. For nonempty finite simple G, δ is minimum degree and girth is shortest-cycle length. A dominating (p:q)-colouring assigns each vertex q colours from [p]={1,…,p}, with all p colours on each closed neighbourhood; p,q are positive integers. FDOM(G)=sup p/q over these colourings. Put F(g)=inf{FDOM(G):δ(G)=2,girth(G)≥g}; F_P(g) restricts this infimum to planar G. Authors: Quentin Chuet, Hugo Demaret, Hoang La, François Pirot. Explicit problems and conjecture.
+
+**Source.** Quentin Chuet, Hugo Demaret, Hoang La and François Pirot. *Fractional domatic number and minimum degree*. 2025. [primary source](https://arxiv.org/abs/2508.19617) Location: Conjecture 33, p.32.
+
+**Literature check.** Status: v1, 2025-08-27; no resolution found by 2026-10-09.
+
+
+<a id="q3673"></a>
+
+## Q3673. Forbidden subgraphs reducing frugal colouring growth
+
+**Status:** Open · **Kind:** open problem (Problem A) · **Collection** 37
+
+For fixed β≥1, classify the bipartite graphs H satisfying χβ(Δ,H)=o(Δ^{1+1/β}) as Δ→∞.
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite and simple; β≥1 is integral. A β-frugal colouring is proper, with each colour used at most β times in each open neighbourhood. Let χβ(Δ,H) maximize the minimum such colour count over H-subgraph-free graphs of maximum degree at most Δ. Let χ\_{2,H}(Δ) maximize the minimum proper-colouring count avoiding bichromatic H, over all graphs of maximum degree at most Δ. Authors: Quentin Chuet. v3, 2026-10-04; Problem C has been solved.
+
+**Source.** Quentin Chuet. *Frugal colourings of graphs via sparse hypergraph colouring*. 2026. [primary source](https://arxiv.org/abs/2603.23379) Location: Problem A, p.3.
+
+**Literature check.** Status: Problems A–B; subsequently reaffirmed in arXiv:2609.39716.
+
+
+<a id="q3674"></a>
+
+## Q3674. Sharp avoiding-colouring exponent
+
+**Status:** Open · **Kind:** open problem (Problem B) · **Collection** 37
+
+For every fixed connected bipartite H with m≥2 edges, is χ\_{2,H}(Δ)=Θ(Δ^{1+1/(m−1)})?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite and simple; β≥1 is integral. A β-frugal colouring is proper, with each colour used at most β times in each open neighbourhood. Let χβ(Δ,H) maximize the minimum such colour count over H-subgraph-free graphs of maximum degree at most Δ. Let χ\_{2,H}(Δ) maximize the minimum proper-colouring count avoiding bichromatic H, over all graphs of maximum degree at most Δ. Authors: Quentin Chuet. v3, 2026-10-04; Problem C has been solved.
+
+**Source.** Quentin Chuet. *Frugal colourings of graphs via sparse hypergraph colouring*. 2026. [primary source](https://arxiv.org/abs/2603.23379) Location: Problem B, p.11.
+
+**Literature check.** Status: Problems A–B; subsequently reaffirmed in arXiv:2609.39716.
 

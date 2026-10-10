@@ -1,6 +1,6 @@
 # Logic, Foundations & Set Theory
 
-375 problems: 365 open, 9 open, partial results, 1 solved here: proved.
+402 problems: 392 open, 9 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -383,3 +383,30 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 | [Q3565](logic-foundations-set-theory-part-2.md#q3565) | Do commutative idempotent distributive lattice-ordered monoids have AP? Such an algebra… | Open |
 | [Q3566](logic-foundations-set-theory-part-2.md#q3566) | A lattice-ordered pregroup is a lattice-ordered monoid (L,∧,∨,·,1) with order-preserving… | Open |
 | [Q3567](logic-foundations-set-theory-part-2.md#q3567) | What is the exact consistency strength over ZFC of a weakly compact κ satisfying b_κ(∈\*)>κ+? | Open |
+| [Q3635](logic-foundations-set-theory-part-2.md#q3635) | A continuous group action on a metrizable space is metric-independently expansive if, for every… | Open |
+| [Q3636](logic-foundations-set-theory-part-2.md#q3636) | For every uncountable cardinal λ, is EGCH(λ) independent of ZFC? EGCH(λ) says that a group G of… | Open |
+| [Q3654](logic-foundations-set-theory-part-2.md#q3654) | For n≥1 put Ω\_n=ω·n+1. Let R_n comprise all arbitrary-join-preserving maps Ω\_n→Ω\_n, including… | Open |
+| [Q3655](logic-foundations-set-theory-part-2.md#q3655) | Is the positive Horn theory of the free Heyting algebra on countably many generators decidable?… | Open |
+| [Q3656](logic-foundations-set-theory-part-2.md#q3656) | Given a propositional axiom α, is it decidable whether IPC+α is uniformly locally tabular: some… | Open |
+| [Q3657](logic-foundations-set-theory-part-2.md#q3657) | Does ACA₀ prove Δ¹₂ₙ-Det⇒Π¹₂ₙ-Det for every n≥2? Boldface Γ-Det means determinacy of length-ω… | Open |
+| [Q3658](logic-foundations-set-theory-part-2.md#q3658) | Which α<δ¹₂ occur as the least ordinal with D(α) ill-founded for a recursive pseudodilator D? A… | Open |
+| [Q3659](logic-foundations-set-theory-part-2.md#q3659) | Is there a fixed c.e. operator W(A)=W_e^A satisfying A<\_T W(A)<\_T A′ for every A⊆N and… | Open |
+| [Q3660](logic-foundations-set-theory-part-2.md#q3660) | Is intuitionistic second-order propositional logic weakly complete for complete Heyting… | Open |
+| [Q3663](logic-foundations-set-theory-part-2.md#q3663) | Is every 1-generic A⊆N dispersive? Put δ(X,Y)=limsup_n \|(X△Y)∩[0,n)\|/n and… | Open |
+| [Q3664](logic-foundations-set-theory-part-2.md#q3664) | For every k≥3, are there ε>0 and arbitrarily large existential-positive FO^{k+1} sentences φ… | Open |
+| [Q3665](logic-foundations-set-theory-part-2.md#q3665) | Are there ε>0,n₀ such that, for every n>n₀, two FO²-distinguishable n-element relational… | Open |
+| [Q3753](logic-foundations-set-theory-part-2.md#q3753) | Omega-categorical Heyting theories | Open |
+| [Q3754](logic-foundations-set-theory-part-2.md#q3754) | Effective descent for finitely presented Heyting algebras | Open |
+| [Q3755](logic-foundations-set-theory-part-2.md#q3755) | Analytic maximal ideal-independent family | Open |
+| [Q3756](logic-foundations-set-theory-part-2.md#q3756) | A projective gap for MAD families | Open |
+| [Q3757](logic-foundations-set-theory-part-2.md#q3757) | Nonpolyhedral semialgebraic modal logic | Open |
+| [Q3758](logic-foundations-set-theory-part-2.md#q3758) | Rapid constructible Raisonnier filters and domination | Open |
+| [Q3759](logic-foundations-set-theory-part-2.md#q3759) | The covering number of the Raisonnier ideal | Open |
+| [Q3760](logic-foundations-set-theory-part-2.md#q3760) | Interpolation above Fischer–Servi logic with linearity | Open |
+| [Q3761](logic-foundations-set-theory-part-2.md#q3761) | Every point of a Kakeya set computes the halting problem | Open |
+| [Q3762](logic-foundations-set-theory-part-2.md#q3762) | Minimal subsets of Borel whole-line Kakeya sets | Open |
+| [Q3763](logic-foundations-set-theory-part-2.md#q3763) | Decidability of admissibility in K | Open |
+| [Q3764](logic-foundations-set-theory-part-2.md#q3764) | Kripke completeness of transitive union-splittings | Open |
+| [Q3765](logic-foundations-set-theory-part-2.md#q3765) | Recognizing a transitive union-splitting | Open |
+| [Q3766](logic-foundations-set-theory-part-2.md#q3766) | Henselized rational functions inside Laurent series | Open |
+| [Q3767](logic-foundations-set-theory-part-2.md#q3767) | Pointed AKE for imperfect deeply ramified fields | Open |

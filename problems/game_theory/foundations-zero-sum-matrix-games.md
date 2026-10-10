@@ -1,6 +1,6 @@
 # Foundations, Zero-Sum & Matrix Games
 
-3 problems: 3 open.
+5 problems: 5 open.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -9,6 +9,8 @@
 | [Q2597](foundations-zero-sum-matrix-games.md#q2597) | Random-first-player asymptotics | Open |
 | [Q2598](foundations-zero-sum-matrix-games.md#q2598) | Four flipped-game responses | Open |
 | [Q2700](foundations-zero-sum-matrix-games.md#q2700) | Normality of optimal-strategy density | Open |
+| [Q3688](foundations-zero-sum-matrix-games.md#q3688) | State-blind continuous-time asymptotic value | Open |
+| [Q3689](foundations-zero-sum-matrix-games.md#q3689) | Passing asymptotic existence to vanishing stages | Open |
 
 <a id="q2597"></a>
 
@@ -63,4 +65,38 @@ Let c_n count first-player strings maximizing the worst-case winning probability
 **Literature check.** Status for question 2700, checked 7 October 2026: No resolution located in the bounded 7 October 2026 search.
 
 **Further links.** [1](https://arxiv.org/abs/2107.06952)
+
+
+<a id="q3688"></a>
+
+## Q3688. State-blind continuous-time asymptotic value
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 37
+
+If c is constant, must lim_{λ→0}v_{0,λ} exist?
+
+**Context.** Origin: Novikov, Asymptotic Value in Zero-Sum Stochastic Games with Vanishing Stage Duration and Public Signals. Setup: A finite two-player zero-sum stochastic game has simultaneous actions, payoff g, transition kernel P and deterministic public state signal c(s). Only actions and signals are observed. For h,λ∈(0,1], replace P by (1−h)I+hP and use expected payoff Σₘ≥₁λh(1−λh)ᵐ⁻¹gₘ. Write v_{h,λ}(p) for its value at initial state law p and v_{0,λ}=lim_{h→0}v_{h,λ}, when defined.
+
+**Source.** Ivan Novikov. *Asymptotic Value in Zero-Sum Stochastic Games with Vanishing Stage Duration and Public Signals*. 2024. [primary source](https://arxiv.org/abs/2403.07467v3) Location: Question 1, p.20.
+
+**Literature check.** Status: Full current arXiv v3 (19 February 2026) inspected. The author still lists it as submitted; no subsequent resolution found.
+
+**Further links.** [1](https://ivan-novikov98.github.io/)
+
+
+<a id="q3689"></a>
+
+## Q3689. Passing asymptotic existence to vanishing stages
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 37
+
+For deterministic public signals, does existence of lim_{λ→0}v_{1,λ} imply existence of lim_{λ→0}v_{0,λ}?
+
+**Context.** Origin: Novikov, Asymptotic Value in Zero-Sum Stochastic Games with Vanishing Stage Duration and Public Signals. Setup: A finite two-player zero-sum stochastic game has simultaneous actions, payoff g, transition kernel P and deterministic public state signal c(s). Only actions and signals are observed. For h,λ∈(0,1], replace P by (1−h)I+hP and use expected payoff Σₘ≥₁λh(1−λh)ᵐ⁻¹gₘ. Write v_{h,λ}(p) for its value at initial state law p and v_{0,λ}=lim_{h→0}v_{h,λ}, when defined.
+
+**Source.** Ivan Novikov. *Asymptotic Value in Zero-Sum Stochastic Games with Vanishing Stage Duration and Public Signals*. 2024. [primary source](https://arxiv.org/abs/2403.07467v3) Location: Question 2, p.20.
+
+**Literature check.** Status: Full current arXiv v3 (19 February 2026) inspected. The author still lists it as submitted; no subsequent resolution found.
+
+**Further links.** [1](https://ivan-novikov98.github.io/)
 

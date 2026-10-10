@@ -1,6 +1,6 @@
 # Topology
 
-221 problems: 221 open.
+237 problems: 237 open.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -227,6 +227,22 @@
 | [Q3523](topology.md#q3523) | Welded alternation of a classical nonalternating knot | Open |
 | [Q3524](topology.md#q3524) | Motion planning for indistinguishable disks | Open |
 | [Q3525](topology.md#q3525) | Motion planning for hard squares | Open |
+| [Q3624](topology.md#q3624) | Prime-part equipartitions on codimension-variable sections | Open |
+| [Q3625](topology.md#q3625) | Even-rank unordered fibrewise configuration cohomology | Open |
+| [Q3626](topology.md#q3626) | Alexander-refinement support exchange | Open |
+| [Q3627](topology.md#q3627) | Alexander-refinement coefficient log-concavity | Open |
+| [Q3628](topology.md#q3628) | Positive ribbon minimality | Open |
+| [Q3629](topology.md#q3629) | Positive concordance uniqueness | Open |
+| [Q3630](topology.md#q3630) | Sharp dimensions for regular maps | Open |
+| [Q3632](topology.md#q3632) | Dihedral persistence of regular polygons | Open |
+| [Q3633](topology.md#q3633) | Hyperoctahedral persistence of hypercubes | Open |
+| [Q3634](topology.md#q3634) | Toroidal colored-Jones volume conjecture | Open |
+| [Q3725](topology.md#q3725) | Minimal diagrams detect two-adjacency | Open |
+| [Q3726](topology.md#q3726) | Refinement symmetry | Open |
+| [Q3727](topology.md#q3727) | Rational anisotropy of positive knots | Open |
+| [Q3728](topology.md#q3728) | Graphs with cocollapsible cotrees | Open |
+| [Q3729](topology.md#q3729) | Universal linear triangulated filling bound | Open |
+| [Q3730](topology.md#q3730) | Negative curvature of atoroidal surface bundles | Open |
 
 <a id="q5"></a>
 
@@ -650,7 +666,7 @@ Vigleik Angeltveit → Haynes Miller: https://dspace.mit.edu/server/api/core/bit
 
 **Further links.** [1](https://people.math.harvard.edu/~esukarto/) · [2](https://math.mit.edu/~hrm/thesis/senger-thesis.pdf) · [3](https://msp.org/gt/2008/12-2/gt-v12-n2-p08-p.pdf) · [4](https://arxiv.org/pdf/0810.5032) · [5](https://arxiv.org/html/2607.21567v1)
 
-*Duplicate of Qb1d06bfb03db97a92d57, Qc543268a2cfaa534af29.*
+*Also among the automatically extracted thesis statements: `b1d06bfb03db97a92d57`, `c543268a2cfaa534af29`.*
 
 
 <a id="q1118"></a>
@@ -3905,4 +3921,276 @@ Determine TC_r(F(n;p,q)) for positive integers p,q,n with n≤pq and r≥2.
 **Literature check.** Status: Questions remain in the July 2026 published version; checked 2026-10-09. Width-two unordered disks are already solved.
 
 **Further links.** [1](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70421) · [2](https://arxiv.org/abs/2412.19943)
+
+
+<a id="q3624"></a>
+
+## Q3624. Prime-part equipartitions on codimension-variable sections
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 37
+
+Given N≥p−1, a convex body K⊂R^N with 0∈int(K), and N−1 continuous real functions on full-dimensional compact convex bodies within linear (p−1)-planes, must some linear (p−1)-plane V admit a partition of K∩V into p convex pieces of equal volume and equal values of every function?
+
+**Context.** Advisor(s): Pavle Blagojević. Origin: Student’s Open Questions 1 and 6. Setup: Use F_p coefficients, p an odd prime. For a real vector bundle E→B over a CW-complex, let F_p(E)={(v_1,…,v_p):v_i are distinct and lie in one fibre}; S_p permutes coordinates. Cohomology is a module over H\*(B)⊗H\*(BS_p) through projection and the classifying map of the covering F_p(E)→F_p(E)/S_p. Convex-body spaces carry the fibrewise Hausdorff topology.
+
+**Source.** Tatiana Levinson. *Convex partitions of vector bundles and fibrewise configuration spaces*. Freie Universität Berlin, 2023. Advisor(s): Pavle Blagojević. [primary source](https://d-nb.info/1303907593/34) Location: §1.3, Open Question 1, p.17; formal setup §2.1.
+
+**Literature check.** Status: No subsequent general solution or newer publication located in bounded searches through 2026-10-09.
+
+**Further links.** [1](https://refubium.fu-berlin.de/handle/fub188/40883?locale-attribute=en) · [2](https://www.mi.fu-berlin.de/fb/dates/disputationen/Levinson_-Tatiana---MI---Aushang.pdf)
+
+
+<a id="q3625"></a>
+
+## Q3625. Even-rank unordered fibrewise configuration cohomology
+
+**Status:** Open · **Kind:** open problem (Question 6) · **Collection** 37
+
+For arbitrary even-rank E, determine H\*(F_p(E)/S_p) as an H\*(B)⊗H\*(BS_p)-module.
+
+**Context.** Advisor(s): Pavle Blagojević. Origin: Student’s Open Questions 1 and 6. Setup: Use F_p coefficients, p an odd prime. For a real vector bundle E→B over a CW-complex, let F_p(E)={(v_1,…,v_p):v_i are distinct and lie in one fibre}; S_p permutes coordinates. Cohomology is a module over H\*(B)⊗H\*(BS_p) through projection and the classifying map of the covering F_p(E)→F_p(E)/S_p. Convex-body spaces carry the fibrewise Hausdorff topology.
+
+**Source.** Tatiana Levinson. *Convex partitions of vector bundles and fibrewise configuration spaces*. Freie Universität Berlin, 2023. Advisor(s): Pavle Blagojević. [primary source](https://d-nb.info/1303907593/34) Location: §1.3, Open Question 6, p.18.
+
+**Literature check.** Status: No subsequent general solution or newer publication located in bounded searches through 2026-10-09.
+
+**Further links.** [1](https://refubium.fu-berlin.de/handle/fub188/40883?locale-attribute=en) · [2](https://www.mi.fu-berlin.de/fb/dates/disputationen/Levinson_-Tatiana---MI---Aushang.pdf)
+
+
+<a id="q3626"></a>
+
+## Q3626. Alexander-refinement support exchange
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.6) · **Collection** 37
+
+For α,β∈J and α\_i>β\_i, must some j with α\_j<β\_j satisfy α−e_i+e_j,β+e_i−e_j∈J, where e_i are standard basis vectors?
+
+**Context.** Advisor(s): Ilya Kofman. Paper: An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties Origin: Boninger’s Conjectures 1.6–1.7; definitions §§3–4. Setup: For a nonsplit oriented alternating link diagram, shade north/south sectors when the overstrand runs southwest–northeast. Direct Tait edges between shaded regions with the overstrand; choose a root vertex incident to the outer face, with basepoint there. For spanning tree T, count positive edges in T pointing away/toward root by a,b, and negative edges outside T agreeing/opposing clockwise fundamental-cycle orientation by c,d. Put P=Σ\_T x^(−a)y^(−b)z^cw^d, with coefficients c_α and support J.
+
+**Source.** Joe Boninger. *An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties*. 2026. [primary source](https://arxiv.org/pdf/2608.28484v1) Location: Conjecture 1.6, p.4.
+
+**Literature check.** Status: August 2026 v1 is current; no resolution located.
+
+**Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger)
+
+
+<a id="q3627"></a>
+
+## Q3627. Alexander-refinement coefficient log-concavity
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.7) · **Collection** 37
+
+Must c_α²≥c_(α+e_i−e_j)c_(α−e_i+e_j) for every α∈Z^4 and i,j∈{1,2,3,4}?
+
+**Context.** Advisor(s): Ilya Kofman. Paper: An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties Origin: Boninger’s Conjectures 1.6–1.7; definitions §§3–4. Setup: For a nonsplit oriented alternating link diagram, shade north/south sectors when the overstrand runs southwest–northeast. Direct Tait edges between shaded regions with the overstrand; choose a root vertex incident to the outer face, with basepoint there. For spanning tree T, count positive edges in T pointing away/toward root by a,b, and negative edges outside T agreeing/opposing clockwise fundamental-cycle orientation by c,d. Put P=Σ\_T x^(−a)y^(−b)z^cw^d, with coefficients c_α and support J.
+
+**Source.** Joe Boninger. *An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties*. 2026. [primary source](https://arxiv.org/pdf/2608.28484v1) Location: Conjecture 1.7, p.4.
+
+**Literature check.** Status: August 2026 v1 is current; no resolution located.
+
+**Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger)
+
+
+<a id="q3628"></a>
+
+## Q3628. Positive ribbon minimality
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.1) · **Collection** 37
+
+If K is positive and J≤K, must J be isotopic to K?
+
+**Context.** Advisor(s): Ilya Kofman. Paper: Positive knots and ribbon concordance, Pacific Journal of Mathematics 335 (2025), 81–95 Origin: Boninger–Greene and Tagami’s minimality conjecture; Stoimenow’s concordance conjecture. Setup: Knots lie in S³. Positive means admitting an all-positive crossing diagram. Smooth concordance is an embedded annulus in S³×[0,1]. Write J≤K if such an annulus joins J×{0} to K×{1} with Morse height having no index-two critical points.
+
+**Source.** Joe Boninger. *Positive knots and ribbon concordance*. 2025. [primary source](https://msp.org/pjm/2025/335-1/pjm-v335-n1-p04-p.pdf) Location: Conjecture 1.1, p.82.
+
+**Literature check.** Status: Final 2025 text; no general resolution found through 2026-10-09.
+
+**Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger/research)
+
+
+<a id="q3629"></a>
+
+## Q3629. Positive concordance uniqueness
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.5) · **Collection** 37
+
+If two positive knots are smoothly concordant, must they be isotopic?
+
+**Context.** Advisor(s): Ilya Kofman. Paper: Positive knots and ribbon concordance, Pacific Journal of Mathematics 335 (2025), 81–95 Origin: Boninger–Greene and Tagami’s minimality conjecture; Stoimenow’s concordance conjecture. Setup: Knots lie in S³. Positive means admitting an all-positive crossing diagram. Smooth concordance is an embedded annulus in S³×[0,1]. Write J≤K if such an annulus joins J×{0} to K×{1} with Morse height having no index-two critical points.
+
+**Source.** Joe Boninger. *Positive knots and ribbon concordance*. 2025. [primary source](https://msp.org/pjm/2025/335-1/pjm-v335-n1-p04-p.pdf) Location: Conjecture 1.5, p.83.
+
+**Literature check.** Status: Final 2025 text; no general resolution found through 2026-10-09.
+
+**Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger/research)
+
+
+<a id="q3630"></a>
+
+## Q3630. Sharp dimensions for regular maps
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Determine N(d,k,F) for all d,k and both fields.
+
+**Context.** Advisor(s): Pavle Blagojević. Origin: Borsuk’s older problem; the student proves new lower bounds. Setup: For integers d,k≥1 and F∈{R,C}, a continuous map f:R^d→F^N is k-regular if the images of every k distinct points are linearly independent over F. Define N(d,k,F) as the least such target dimension N.
+
+**Source.** Evgeniya Lagoda. *k-regular maps and cohomology theory of configuration spaces*. Freie Universität Berlin, 2025. Advisor(s): Pavle Blagojević. [primary source](https://d-nb.info/1370897782/34) Location: Summary p.i; Definition 1.2, p.49; N(d,k,F), p.50.
+
+**Literature check.** Status: The 2025 thesis leaves general sharp values undetermined; no general resolution located through 2026-10-09.
+
+**Further links.** [1](https://refubium.fu-berlin.de/handle/fub188/47773?show=full) · [2](https://elagoda.github.io/)
+
+
+<a id="q3632"></a>
+
+## Q3632. Dihedral persistence of regular polygons
+
+**Status:** Open · **Kind:** open problem (Question 3) · **Collection** 37
+
+For a regular k-gon X_k⊂S¹, k≥3, determine H_{D_{2k}}\*(VR(X_k;r)) under its order-2k dihedral symmetry, for all r≥0.
+
+**Context.** Advisor(s): Pavle Blagojević. Paper: Persistent equivariant cohomology — Adams, Lagoda, Moy, Sadovek, De Saha Origin: Joint-paper Questions 3 and 8. Setup: Write H_G\*(Y)=H\*(EG×\_G Y;Z), as graded rings, including every inclusion-induced persistence map. VR(X;r) has finite subsets of diameter≤r as simplices. S¹ is the unit circle with geodesic distance; Q_n={0,1}^n has Hamming distance.
+
+**Source.** Adams, Lagoda, Moy, Sadovek and De Saha. *Persistent equivariant cohomology*. 2024. [primary source](https://arxiv.org/pdf/2408.17331v1) Location: §8, Question 3, p.25.
+
+**Literature check.** Status: Current v1; no general solutions located.
+
+**Further links.** [1](https://d-nb.info/1370897782/34) · [2](https://elagoda.github.io/)
+
+
+<a id="q3633"></a>
+
+## Q3633. Hyperoctahedral persistence of hypercubes
+
+**Status:** Open · **Kind:** open problem (Question 8) · **Collection** 37
+
+For n≥1, determine H_{B_n}\*(VR(Q_n;r)), r≥0, where B_n=(Z/2)^n⋊S_n flips and permutes coordinates.
+
+**Context.** Advisor(s): Pavle Blagojević. Paper: Persistent equivariant cohomology — Adams, Lagoda, Moy, Sadovek, De Saha Origin: Joint-paper Questions 3 and 8. Setup: Write H_G\*(Y)=H\*(EG×\_G Y;Z), as graded rings, including every inclusion-induced persistence map. VR(X;r) has finite subsets of diameter≤r as simplices. S¹ is the unit circle with geodesic distance; Q_n={0,1}^n has Hamming distance.
+
+**Source.** Adams, Lagoda, Moy, Sadovek and De Saha. *Persistent equivariant cohomology*. 2024. [primary source](https://arxiv.org/pdf/2408.17331v1) Location: §8, Question 8, p.26.
+
+**Literature check.** Status: Current v1; no general solutions located.
+
+**Further links.** [1](https://d-nb.info/1370897782/34) · [2](https://elagoda.github.io/)
+
+
+<a id="q3634"></a>
+
+## Q3634. Toroidal colored-Jones volume conjecture
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.2) · **Collection** 37
+
+If (T²×[0,1])\L is hyperbolic, must lim_{n→∞}(2π/n)log|J_n^T(L;e^{2πi/n})| equal its hyperbolic volume?
+
+**Context.** Advisor(s): Ilya Kofman. Paper: A quantum invariant of links in T²×I with volume conjecture behavior, AGT 23, 1891–1934 Origin: Boninger’s 2020 preprint conjecture, incorporated into his 2022 thesis; retained in the 2023 final. Setup: For an oriented link L⊂T²×[0,1], let J_n^T(L;q) be Boninger’s toroidal colored Jones polynomial: color every strand by the n-dimensional U_q(sl₂)-module; cut a diagram along a fundamental square, evaluate the §4.1-normalized R-matrix/cup/cap operators, and take the ordinary trace over matching cut strands. Multiply by q^{−(n²−1)w(D)/4}, where w(D) is diagram writhe. There is no division by the quantum dimension [n]=(q^{n/2}−q^{−n/2})/(q^{1/2}−q^{−1/2}).
+
+**Source.** Joe Boninger. *A quantum invariant of links in T²×I with volume conjecture behavior*. 2023. [primary source](https://msp.org/agt/2023/23-4/agt-v23-n4-p12-p.pdf) Location: Conjecture 1.2, p.1892; definitions §§3–4, especially 4.4, p.1910.
+
+**Literature check.** Status: Verified for the 2×2 square weave; no general resolution located.
+
+**Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger/research)
+
+
+<a id="q3725"></a>
+
+## Q3725. Minimal diagrams detect two-adjacency
+
+**Status:** Open · **Kind:** conjecture (Conjecture 7.1) · **Collection** 38
+
+Does every minimal diagram of every nontrivial alternating 2-adjacent knot contain a 2-adjacency set?
+
+**Context.** Advisor(s): Tye Lidman. Paper: Constructing and Cataloging 2-Adjacent Knots, with John Carney Origin: Thesis §5.7; later paper §7. Setup: A 2-adjacency set in a knot diagram consists of two distinct crossings such that switching either crossing alone, or both, produces the unknot. A knot is 2-adjacent if some diagram has such a set. A minimal diagram realizes its crossing number. Alternating means admitting a diagram alternating over/under along the knot.
+
+**Source.** John Carney and Everett August Meike. *Constructing and Cataloging 2-Adjacent Knots*. 2025. [primary source](https://arxiv.org/pdf/2510.00291v1) Location: Paper Conjecture 7.1, p.19; thesis Conjecture 5.7.1, p.54.
+
+**Literature check.** Status: September 2025 v1 current; no resolution located.
+
+**Further links.** [1](https://repository.lib.ncsu.edu/items/9e1792b1-5564-482a-990a-722dbe576014) · [2](https://sites.google.com/ncsu.edu/tlid/home) · [3](https://arxiv.org/abs/2510.00291)
+
+
+<a id="q3726"></a>
+
+## Q3726. Refinement symmetry
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.1) · **Collection** 38
+
+Must P(x,y,z,w)=P(y,x,w,z)?
+
+**Context.** Advisor(s): Ilya Kofman. Paper: An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties Origin: Boninger’s Conjecture 1.1. Setup: For a nonsplit oriented alternating link diagram, shade north/south sectors when the overstrand runs southwest–northeast. Direct Tait edges between shaded regions with the overstrand; choose a root vertex incident to the outer face and a basepoint inside that face. For spanning tree T, count positive edges in T pointing away/toward root by a,b, and negative edges outside T agreeing/opposing clockwise fundamental-cycle orientation by c,d. Put P=Σ\_T x^(−a)y^(−b)z^cw^d.
+
+**Source.** Joe Boninger. *An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties*. 2026. [primary source](https://arxiv.org/pdf/2608.28484v1) Location: Conjecture 1.1, p.1.
+
+**Literature check.** Status: August 2026 v1 is current; no resolution located.
+
+**Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger/research)
+
+
+<a id="q3727"></a>
+
+## Q3727. Rational anisotropy of positive knots
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.8) · **Collection** 38
+
+Is every positive knot Q-anisotropic?
+
+**Context.** Advisor(s): Ilya Kofman. Paper: Positive knots and ribbon concordance, Pacific Journal of Mathematics 335 (2025), 81–95 Origin: Boninger’s Conjecture 1.8. Setup: Knots lie in S³. Positive means admitting an all-positive crossing diagram. For the infinite cyclic cover X of a knot exterior, Q-anisotropic means H¹(X;Q) has no nonzero deck-invariant subspace on which the cup pairing H¹(X;Q)×H¹(X,∂X;Q)→H²(X,∂X;Q)≅Q vanishes; identify absolute and relative H¹ naturally.
+
+**Source.** Joe Boninger. *Positive knots and ribbon concordance*. 2025. [primary source](https://msp.org/pjm/2025/335-1/pjm-v335-n1-p04-p.pdf) Location: Conjecture 1.8, p.84; definition §5, p.91.
+
+**Literature check.** Status: Final 2025 text; no general resolution found through 2026-10-09.
+
+**Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger/research)
+
+
+<a id="q3728"></a>
+
+## Q3728. Graphs with cocollapsible cotrees
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Find a structural graph-theoretic characterization of those G for which every 1-cotree of K is cocollapsible.
+
+**Context.** Advisor(s): Herbert Edelsbrunner. Origin: Thesis discussion question. Setup: For a finite connected simple graph G let K be its clique complex. Over F₂, call an edge set S a 1-cotree if its rows of the triangle-to-edge boundary matrix are linearly independent. Start L with all vertices and edges outside S. A cocollapse adds to L a missing edge e and triangle τ whose other two edges already belong to L. S is cocollapsible if successive such moves add every edge of S.
+
+**Source.** Ondřej Draganov. *Structures and computations in topological data analysis*. Institute of Science and Technology Austria, 2025. Advisor(s): Herbert Edelsbrunner. [primary source](https://research-explorer.ista.ac.at/download/18979/19000/Thesis.pdf) Location: §5.5 Discussion, p.126; definitions pp.116,121,123.
+
+**Literature check.** Status: Open in 2025 thesis; no later resolution located.
+
+**Further links.** [1](https://research-explorer.ista.ac.at/record/18979)
+
+
+<a id="q3729"></a>
+
+## Q3729. Universal linear triangulated filling bound
+
+**Status:** Open · **Kind:** open problem · **Collection** 38
+
+Is there an absolute constant C such that every (M,T) with n triangles admits a filling with at most Cn tetrahedra, independently of the genus?
+
+**Context.** Advisor(s): Jean-François Lafont. Paper: Filling triangulated surfaces, with Lafont and Barry Minemyer Origin: Paper’s genus-independent filling question; thesis supplies earlier systolic methods. Setup: A filling of a triangulated closed oriented surface (M,T) is a compact triangulated 3-manifold (W,U) with ∂W=M and boundary triangulation exactly T, without subdividing T. The filling manifold may depend on T.
+
+**Source.** Ryan Kowalick, Jean-François Lafont and Barry Minemyer. *Filling triangulated surfaces*. 2019. [primary source](https://par.nsf.gov/servlets/purl/10121108) Location: §1, paragraph following Theorem 2, p.1.
+
+**Literature check.** Status: Reaffirmed in October 2019 author manuscript; no later resolution located.
+
+**Further links.** [1](https://etd.ohiolink.edu/acprod/odb_etd/r/etd/search/10?p10_accession_num=osu1384873457) · [2](https://link.springer.com/article/10.1007/s10711-018-00419-9)
+
+
+<a id="q3730"></a>
+
+## Q3730. Negative curvature of atoroidal surface bundles
+
+**Status:** Open · **Kind:** open problem (Question 1.2) · **Collection** 38
+
+Must M admit a Riemannian metric whose sectional curvatures are everywhere strictly negative?
+
+**Context.** Advisor(s): Jean-François Lafont. Paper: Lafont–Miller–Ruffoni, On signatures of the atoroidal bundles of Kent–Leininger (2024) Origin: Widely circulated question, restated in advisor’s earlier paper, not attributed to Cho. Setup: Let M be the total space of an oriented bundle of closed surfaces S_g→M→S_h, with g,h≥2. Assume M is atoroidal: π₁(M) contains no subgroup isomorphic to Z².
+
+**Source.** Lafont, Miller and Ruffoni. *On signatures of the atoroidal bundles of Kent–Leininger*. 2024. [primary source](https://people.math.osu.edu/lafont.1/SignKL.pdf) Location: Question 1.2, second question, p.2; setup p.1.
+
+**Literature check.** Status: Current author preprint; no later resolution located.
+
+**Further links.** [1](https://people.math.osu.edu/lafont.1/) · [2](https://arxiv.org/abs/2410.18029)
 

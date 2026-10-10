@@ -1,6 +1,6 @@
 # Algebra & Representation Theory
 
-330 problems: 319 open, 10 open, partial results, 1 solved here: disproved.
+349 problems: 336 open, 10 open, partial results, 1 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -111,7 +111,7 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | [Q1712](algebra-representation-theory-part-1.md#q1712) | Five-generator type bound | Open |
 | [Q1713](algebra-representation-theory-part-1.md#q1713) | Solvable subgroup depth bound | Open |
 | [Q1714](algebra-representation-theory-part-1.md#q1714) | Exceptional subgroup depth above seven | Open |
-| [Q1715](algebra-representation-theory-part-1.md#q1715) | Characterize property-F Lie algebras | Open |
+| [Q1715](algebra-representation-theory-part-1.md#q1715) | Characterize property-F Lie algebras | Solved here: disproved |
 | [Q1716](algebra-representation-theory-part-1.md#q1716) | Existence of characteristic-zero F-invariant limits | Open |
 | [Q1717](algebra-representation-theory-part-1.md#q1717) | A Bergman gap for axial algebras | Open |
 | [Q1762](algebra-representation-theory-part-1.md#q1762) | Connect second neighbourhoods of covers | Open |
@@ -177,7 +177,7 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | [Q2302](algebra-representation-theory-part-1.md#q2302) | Local splitting forces complex multiplication | Open |
 | [Q2303](algebra-representation-theory-part-1.md#q2303) | Complete mappings of Rees zero-matrix semigroups | Open, partial results |
 | [Q2304](algebra-representation-theory-part-1.md#q2304) | Residual finiteness of partial inner automorphisms | Open |
-| [Q2305](algebra-representation-theory-part-1.md#q2305) | Partial inner automorphisms of matrix monoids | Open |
+| [Q2305](algebra-representation-theory-part-1.md#q2305) | Partial inner automorphisms of matrix monoids | Solved here: proved |
 | [Q2306](algebra-representation-theory-part-1.md#q2306) | Imaginary quadratic Diophantine quintuple | Open |
 | [Q2307](algebra-representation-theory-part-1.md#q2307) | Rank four with maximal rational two-power torsion | Open |
 | [Q2308](algebra-representation-theory-part-1.md#q2308) | Infinitely many rank-two C₂×C₈ curves | Open |
@@ -273,8 +273,8 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | [Q3002](algebra-representation-theory-part-1.md#q3002) | Exact affine diamond exception | Open |
 | [Q3003](algebra-representation-theory-part-1.md#q3003) | Finitely generated finite-generation ideal | Open |
 | [Q3004](algebra-representation-theory-part-1.md#q3004) | Invariant finite-generation ideal beyond finite radicals | Open |
-| [Q3005](algebra-representation-theory-part-1.md#q3005) | Infinitely many power-cograph projective groups | Open |
-| [Q3006](algebra-representation-theory-part-1.md#q3006) | Infinitely many power-cograph Suzuki groups | Open |
+| [Q3005](algebra-representation-theory-part-2.md#q3005) | Infinitely many power-cograph projective groups | Open |
+| [Q3006](algebra-representation-theory-part-2.md#q3006) | Infinitely many power-cograph Suzuki groups | Open |
 | [Q3007](algebra-representation-theory-part-2.md#q3007) | Four classes of closed full inverse monoids | Open |
 | [Q3008](algebra-representation-theory-part-2.md#q3008) | Asphericity of τ-cluster morphism categories | Open |
 | [Q3009](algebra-representation-theory-part-2.md#q3009) | Sharp square-modulus transversal differences | Open |
@@ -338,3 +338,22 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | [Q3515](algebra-representation-theory-part-2.md#q3515) | Let R be commutative Noetherian local and M,N nonzero finitely generated R-modules, both of… | Open |
 | [Q3516](algebra-representation-theory-part-2.md#q3516) | For every commutative Noetherian local (R,m) and nonzero finite-length R-module M of finite… | Open |
 | [Q3517](algebra-representation-theory-part-2.md#q3517) | For every prime p, does a function f_p on integers b>1 coprime to p exist such that every finite… | Open |
+| [Q3602](algebra-representation-theory-part-2.md#q3602) | Symmetric rings with non-NR power series | Open |
+| [Q3606](algebra-representation-theory-part-2.md#q3606) | Embedding quadratic Lie algebras into Koszul ones | Open |
+| [Q3607](algebra-representation-theory-part-2.md#q3607) | Separativity for exchange rings | Open |
+| [Q3608](algebra-representation-theory-part-2.md#q3608) | Realizing countable refinement monoids | Open |
+| [Q3611](algebra-representation-theory-part-2.md#q3611) | Three-variable power-sum complete intersections | Open |
+| [Q3612](algebra-representation-theory-part-2.md#q3612) | Four-variable power-sum complete intersections | Open |
+| [Q3614](algebra-representation-theory-part-2.md#q3614) | Zassenhaus algebras with mixed 2-adic labels | Open |
+| [Q3616](algebra-representation-theory-part-2.md#q3616) | Grassmannian prefixes of reflections | Open |
+| [Q3617](algebra-representation-theory-part-2.md#q3617) | Realizability of strongly Koszul masks | Open |
+| [Q3645](algebra-representation-theory-part-2.md#q3645) | Regular mixed groups without a specific lattice | Open |
+| [Q3653](algebra-representation-theory-part-2.md#q3653) | For a commutative monoid Π, let P(Π) be its multiplication-compatible total preorders, with the… | Open |
+| [Q3701](algebra-representation-theory-part-2.md#q3701) | Left tensor-nilpotence and cones | Open |
+| [Q3706](algebra-representation-theory-part-2.md#q3706) | Quadratic filtrations of Koszul Lie algebras | Open |
+| [Q3707](algebra-representation-theory-part-2.md#q3707) | Prime ideals generated by power sums | Open |
+| [Q3708](algebra-representation-theory-part-2.md#q3708) | Positivity of the local conjugating function | Open |
+| [Q3709](algebra-representation-theory-part-2.md#q3709) | Submultiplicativity of finite-group quantum invariants | Open |
+| [Q3710](algebra-representation-theory-part-2.md#q3710) | Prime-order elements with singular commutators | Open |
+| [Q3711](algebra-representation-theory-part-2.md#q3711) | Full dualizability forces rigidity | Open |
+| [Q3712](algebra-representation-theory-part-2.md#q3712) | Products of iterated commutators detect the p-core | Open |

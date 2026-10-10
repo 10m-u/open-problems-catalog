@@ -1,10 +1,10 @@
 # Combinatorics & Graph Theory
 
-516 problems: 492 open, 13 open, partial results, 10 solved here: proved, 1 solved here: disproved.
+553 problems: 527 open, 14 open, partial results, 10 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
-Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md)
+Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
 
 | Q | Title | Status |
 |---|---|---|
@@ -250,9 +250,9 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q2056](combinatorics-graph-theory-part-1.md#q2056) | Separate longest cycles efficiently | Open |
 | [Q2057](combinatorics-graph-theory-part-1.md#q2057) | Intersect three longest paths | Open |
 | [Q2058](combinatorics-graph-theory-part-1.md#q2058) | Force dominating models at optimal density | Open |
-| [Q2059](combinatorics-graph-theory-part-1.md#q2059) | Find high-girth high-dichromatic subdigraphs | Open |
-| [Q2060](combinatorics-graph-theory-part-1.md#q2060) | Order edges to distinguish neighbours | Open |
-| [Q2061](combinatorics-graph-theory-part-1.md#q2061) | Force non-nested monochromatic matchings | Open |
+| [Q2059](combinatorics-graph-theory-part-2.md#q2059) | Find high-girth high-dichromatic subdigraphs | Open |
+| [Q2060](combinatorics-graph-theory-part-2.md#q2060) | Order edges to distinguish neighbours | Open |
+| [Q2061](combinatorics-graph-theory-part-2.md#q2061) | Force non-nested monochromatic matchings | Open |
 | [Q2062](combinatorics-graph-theory-part-2.md#q2062) | Determine the strong non-nested Turán number | Open |
 | [Q2063](combinatorics-graph-theory-part-2.md#q2063) | Four-colour cycles with quartet constraints | Open |
 | [Q2064](combinatorics-graph-theory-part-2.md#q2064) | Use four homogeneous colours | Open |
@@ -498,7 +498,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q3471](combinatorics-graph-theory-part-2.md#q3471) | Constant-factor free-group difference bound | Open |
 | [Q3478](combinatorics-graph-theory-part-2.md#q3478) | Exact minimum-degree forcing time | Open |
 | [Q3479](combinatorics-graph-theory-part-2.md#q3479) | Walker’s spanning cycle square | Open |
-| [Q3480](combinatorics-graph-theory-part-2.md#q3480) | Two-pass hare-sortable Cayley words | Open |
+| [Q3480](combinatorics-graph-theory-part-2.md#q3480) | Two-pass hare-sortable Cayley words | Open, partial results |
 | [Q3481](combinatorics-graph-theory-part-2.md#q3481) | Counting machine Wilf classes | Open |
 | [Q3483](combinatorics-graph-theory-part-2.md#q3483) | Ten clean vertices with two cleaners | Open |
 | [Q3484](combinatorics-graph-theory-part-2.md#q3484) | Seeing versus unique-location inference | Open |
@@ -508,7 +508,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q3491](combinatorics-graph-theory-part-2.md#q3491) | Finite geodetic Cayley classification | Open |
 | [Q3492](combinatorics-graph-theory-part-2.md#q3492) | Transient sphere-packable subgraphs | Open |
 | [Q3498](combinatorics-graph-theory-part-2.md#q3498) | Crown real-rootedness | Open |
-| [Q3499](combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Open |
+| [Q3499](combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Solved here: disproved |
 | [Q3500](combinatorics-graph-theory-part-2.md#q3500) | Boolean real-rootedness | Open |
 | [Q3568](combinatorics-graph-theory-part-2.md#q3568) | Width-two order-polynomial positivity | Open |
 | [Q3569](combinatorics-graph-theory-part-2.md#q3569) | Periodic zero-extension | Solved here: proved |
@@ -524,3 +524,40 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q3581](combinatorics-graph-theory-part-2.md#q3581) | Euclidean realization counts | Open |
 | [Q3582](combinatorics-graph-theory-part-2.md#q3582) | Hamilton–Waterloo decompositions with one six-cycle factor and coprime other length | Open |
 | [Q3583](combinatorics-graph-theory-part-2.md#q3583) | Bounded-depth minor extensions of arbitrary matroids | Open |
+| [Q3620](combinatorics-graph-theory-part-2.md#q3620) | Parallel-hyperplane mass bisection | Open |
+| [Q3621](combinatorics-graph-theory-part-2.md#q3621) | Tverberg–Vrećica common affine transversal | Open |
+| [Q3669](combinatorics-graph-theory-part-2.md#q3669) | Double-star exclusions and domatic growth | Open |
+| [Q3670](combinatorics-graph-theory-part-2.md#q3670) | Linear domatic growth for unit disk graphs | Open |
+| [Q3671](combinatorics-graph-theory-part-2.md#q3671) | Fractional domatic spectrum | Open |
+| [Q3672](combinatorics-graph-theory-part-2.md#q3672) | Sharp planar fractional domatic values | Open |
+| [Q3673](combinatorics-graph-theory-part-2.md#q3673) | Forbidden subgraphs reducing frugal colouring growth | Open |
+| [Q3674](combinatorics-graph-theory-part-2.md#q3674) | Sharp avoiding-colouring exponent | Open |
+| [Q3675](combinatorics-graph-theory-part-3.md#q3675) | Maximum degree controls inversion diameter | Open |
+| [Q3676](combinatorics-graph-theory-part-3.md#q3676) | Bounded subdivision penalty for inversions | Open |
+| [Q3677](combinatorics-graph-theory-part-3.md#q3677) | Extensions of an almost-complete graphic matroid | Open |
+| [Q3678](combinatorics-graph-theory-part-3.md#q3678) | Log-concavity for oriented-matroid circuit polytopes | Open |
+| [Q3679](combinatorics-graph-theory-part-3.md#q3679) | Maximum density of spectrally symmetric orientations | Open |
+| [Q3680](combinatorics-graph-theory-part-3.md#q3680) | Constant-degree expanders far from bipartite | Open |
+| [Q3681](combinatorics-graph-theory-part-3.md#q3681) | Constant-degree bipartite expanders | Open |
+| [Q3682](combinatorics-graph-theory-part-3.md#q3682) | Remoteness under higher edge-connectivity and size constraints | Open |
+| [Q3683](combinatorics-graph-theory-part-3.md#q3683) | Remoteness with minimum degree and size prescribed | Open |
+| [Q3702](combinatorics-graph-theory-part-3.md#q3702) | Ordinary subsum-denominator log-concavity | Open |
+| [Q3703](combinatorics-graph-theory-part-3.md#q3703) | Binary subsum-numerator log-concavity | Open |
+| [Q3716](combinatorics-graph-theory-part-3.md#q3716) | For all 0≤h,i,j≤D, is (E_h⊗E_i⊗E_j)Λ={0} equivalent to q^h_{ij}=0? | Open |
+| [Q3717](combinatorics-graph-theory-part-3.md#q3717) | For every r∈{1,2,3}, are dim(F_rΛ)=dim(E₀^{(r)}Λ)=D+1? | Open |
+| [Q3768](combinatorics-graph-theory-part-3.md#q3768) | Full-length Ramsey chains in complete graphs | Open |
+| [Q3769](combinatorics-graph-theory-part-3.md#q3769) | Must Pl(G)≤Δ(G)? | Open |
+| [Q3770](combinatorics-graph-theory-part-3.md#q3770) | Determine the computational complexity of deciding Pl(G)≤1 for bipartite G. | Open |
+| [Q3771](combinatorics-graph-theory-part-3.md#q3771) | For every fixed integer k≥2, is deciding Pl(G)≤k NP-complete? | Open |
+| [Q3772](combinatorics-graph-theory-part-3.md#q3772) | Does every graph admit labels in {1,2} such that each subgraph induced by {v:σ(v)=x} is a forest? | Open |
+| [Q3773](combinatorics-graph-theory-part-3.md#q3773) | Does every nice graph admit a proper {1,2,3}-edge-labelling whose edges labelled 3 form a matching? | Open |
+| [Q3774](combinatorics-graph-theory-part-3.md#q3774) | Can every nicer graph receive red or blue edge labels of value 1 or 2 so that adjacent vertices… | Open |
+| [Q3775](combinatorics-graph-theory-part-3.md#q3775) | Can every oriented graph have its arcs coloured with three colours so that every arc uv has… | Open |
+| [Q3776](combinatorics-graph-theory-part-3.md#q3776) | Can every digraph have its arcs coloured with two colours so that every arc uv has… | Open |
+| [Q3777](combinatorics-graph-theory-part-3.md#q3777) | For a uniformly random connected partition Ψ of Gₙ, is E[max_{B∈Ψ}\|B\|]=Θ(n)? | Open |
+| [Q3778](combinatorics-graph-theory-part-3.md#q3778) | Determine the computational complexity of computing the number of connected partitions of an… | Open |
+| [Q3779](combinatorics-graph-theory-part-3.md#q3779) | For each fixed t≥3, are graphs of clique-width at most t DOM-bounded? | Open |
+| [Q3780](combinatorics-graph-theory-part-3.md#q3780) | For n≥5, determine the least q(n) such that every n-vertex G with FDOM(G)≥5/2 has a dominating… | Open |
+| [Q3781](combinatorics-graph-theory-part-3.md#q3781) | Determine lim_{g→∞}F(g). | Open |
+| [Q3786](combinatorics-graph-theory-part-3.md#q3786) | For every connected G as above, must maxOne(G)≥⌈\|E(G)\|/2⌉−1? | Open |
+| [Q3787](combinatorics-graph-theory-part-3.md#q3787) | Determine the computational complexity of computing maxOne(G) from G. | Open |

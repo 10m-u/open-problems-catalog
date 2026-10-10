@@ -1,6 +1,6 @@
 # Number Theory
 
-122 problems: 113 open, 9 open, partial results.
+140 problems: 131 open, 9 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -128,6 +128,24 @@
 | [Q3509](number-theory.md#q3509) | Call K p-rational when its maximal pro-p extension unramified outside primes above p has free… | Open |
 | [Q3510](number-theory.md#q3510) | For every odd prime ell and m>=2, are there infinitely many distinct tuples… | Open |
 | [Q3511](number-theory.md#q3511) | For every fixed number field K, is the Galois group of its maximal pro-p extension unramified… | Open |
+| [Q3601](number-theory.md#q3601) | Quadratic identities among cuspidal eigenforms | Open |
+| [Q3603](number-theory.md#q3603) | Effective bounds outside quadratic unit families | Open |
+| [Q3604](number-theory.md#q3604) | Asymptotics for universal lattice rank | Open |
+| [Q3605](number-theory.md#q3605) | Small gaps between universal lattice ranks | Open |
+| [Q3609](number-theory.md#q3609) | Even-degree intersective polynomials with two factors | Open |
+| [Q3610](number-theory.md#q3610) | Binomial-product error terms and zeta zeros | Open |
+| [Q3613](number-theory.md#q3613) | Twisted periods with a fixed character | Open |
+| [Q3615](number-theory.md#q3615) | Statistical absence of new points on curves | Open |
+| [Q3704](number-theory.md#q3704) | A half-extension exponent family | Open |
+| [Q3705](number-theory.md#q3705) | A four-term exponent family | Open |
+| [Q3713](number-theory.md#q3713) | Linear bit complexity for C-finite sequences | Open |
+| [Q3714](number-theory.md#q3714) | Recognizing a single hypergeometric definite sum | Open |
+| [Q3715](number-theory.md#q3715) | The final digit of large odd Catalan numbers | Open |
+| [Q3748](number-theory.md#q3748) | For every nonincreasing ψ, is dim_H L(ψ)=1/(1+τ), with value 0 when τ=∞? | Open |
+| [Q3749](number-theory.md#q3749) | Is L_{≤3}+L_{≤4}+Z=R? | Open |
+| [Q3750](number-theory.md#q3750) | For every integer k≥2, is L_{≤k}+L_{≥k}+Z=R? | Open |
+| [Q3751](number-theory.md#q3751) | For every integer k≥1, is F_{≤2k}+F_{≥k}+Z=R? | Open |
+| [Q3752](number-theory.md#q3752) | For every integer k≥2, does L_{≥k}+L_{≥k} contain an interval of positive length? | Open |
 
 <a id="q109"></a>
 
@@ -687,7 +705,7 @@ If M(f₁;X,Q)→∞ for every fixed Q≥1, must Σ\_{n≤X}∏\_{i=1}^k f_i(n+h
 
 **Further links.** [1](https://arxiv.org/abs/2111.08912) · [2](https://arxiv.org/abs/2609.14492)
 
-*Duplicate of Q94259d6c77d61ae0df95.*
+*Also among the automatically extracted thesis statements: `94259d6c77d61ae0df95`.*
 
 
 <a id="q1608"></a>
@@ -1620,7 +1638,7 @@ Do the sets r_N=1, r_N=2 and r_N=3 have respective densities 4/5, 4/25 and 1/25?
 
 **Further links.** [1](https://knowledge.uchicago.edu/records/wxc06-gjm84) · [2](https://ericstubley.github.io/schaefer_stubley_class_groups.pdf) · [3](https://arxiv.org/abs/1806.00517) · [4](https://arxiv.org/abs/2408.04481)
 
-*Duplicate of Q3e805d3b66fb6ac2a764.*
+*Also among the automatically extracted thesis statements: `3e805d3b66fb6ac2a764`.*
 
 
 <a id="q3017"></a>
@@ -2224,4 +2242,286 @@ For every fixed number field K, is the Galois group of its maximal pro-p extensi
 **Source.** Hofmann and Johnston. *Algorithms for p-rationality and for p-saturation of units*. 2026. [primary source](https://arxiv.org/abs/2609.15190) · [dissertation](https://dspace.ub.uni-siegen.de/entities/publication/4b05d0ff-24c3-4a63-bba4-385fc6f46467) Location: Scheima Sara Obeidi, Siegen Dr. rer. nat., oral examination 22 January 2026, advisor Tommy Hofmann; On p-adic regulators of number fields. Dissertation-first advisor follow-through: Hofmann–Johnston, Algorithms for p-rationality and for p-saturation of units, arXiv:2609.15190v1, Conjecture 3.5, p. 6. This exactly reaffirms Gras's 2016 conjecture.
 
 **Literature check.** Status: This exactly reaffirms Gras's 2016 conjecture.
+
+
+<a id="q3601"></a>
+
+## Q3601. Quadratic identities among cuspidal eigenforms
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Classify all quadruples (f_1,f_2,f_3,f_4) of normalized holomorphic cuspidal Hecke eigenforms for SL_2(Z), of arbitrary positive integral weights, satisfying f_1 f_2=f_3 f_4 with {f_1,f_2}!={f_3,f_4} as multisets. Normalized means the coefficient of q in the Fourier expansion is 1.
+
+**Source.** Trevor Vilardi. *Monomial Quadratic Identities of Hecke Eigenforms*. Clemson University, 2026. Advisor(s): Hui Xue. [primary source](https://open.clemson.edu/all_dissertations/4229/) Location: Section 8.1, printed p.63; Chapters 3 and 7
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3603"></a>
+
+## Q3603. Effective bounds outside quadratic unit families
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 37
+
+For every number field K, is there an effectively computable C_K such that max{log|n|,h(epsilon),h(delta)}<=C_K whenever n is a nonzero rational integer and epsilon,delta in O_K^\* satisfy epsilon+delta=n, except when Q(epsilon) is real quadratic and delta is its nontrivial Galois conjugate? Here h is the absolute logarithmic Weil height.
+
+**Source.** Visser and Ziegler. *On integers that are representable as the sum of two units*. 2026. [primary source](https://arxiv.org/abs/2608.15903) Location: Conjecture 1, printed p.2
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3604"></a>
+
+## Q3604. Asymptotics for universal lattice rank
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For fixed K, find an explicit asymptotic equivalent of U_K(n) as n tends to infinity.
+
+**Context.** Setup: For totally real K, an O_K-lattice is a finitely generated torsion-free module with symmetric O_K-valued bilinear form B, where B(v,v) is totally positive for v!=0. Let U_K(n) be the least rank representing every rank-n lattice isometrically.
+
+**Source.** Park, Visser, Yatsyna and Yoon. *Asymptotics of n-universal lattices over number fields*. 2025. [primary source](https://arxiv.org/abs/2510.26652) Location: Section 12, second bullet, p.26
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3605"></a>
+
+## Q3605. Small gaps between universal lattice ranks
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+For C>0 and n>=1, are only finitely many totally real fields K, up to isomorphism, such that U_K(n+1)-U_K(n)&lt;C? Can all be listed effectively?
+
+**Context.** Setup: For totally real K, an O_K-lattice is a finitely generated torsion-free module with symmetric O_K-valued bilinear form B, where B(v,v) is totally positive for v!=0. Let U_K(n) be the least rank representing every rank-n lattice isometrically.
+
+**Source.** Park, Visser, Yatsyna and Yoon. *Asymptotics of n-universal lattices over number fields*. 2025. [primary source](https://arxiv.org/abs/2510.26652) Location: Section 12, fifth bullet, p.26
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3609"></a>
+
+## Q3609. Even-degree intersective polynomials with two factors
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.1.1) · **Collection** 37
+
+For every even integer n>=6, is it impossible for P=fg in Z[x], with f,g irreducible over Q and deg(f)=2, deg(g)=n-2, to have no integer root yet a root modulo every positive integer?
+
+**Source.** Nicolas Banks. *Classification Results for Intersective Polynomials With No Integral Roots*. University of Waterloo, 2025. Advisor(s): David McKinnon. [primary source](https://uwspace.uwaterloo.ca/bitstreams/12f4d115-acaf-4739-81e0-98f2159189b3/download) Location: Conjecture 1.1.1, pp.4 and 32; Definition 1.1.1, p.1
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3610"></a>
+
+## Q3610. Binomial-product error terms and zeta zeros
+
+**Status:** Open · **Kind:** open problem · **Collection** 37
+
+Put B_n=product_{j=0}^n binom(n,j) and G(n,x)=product_{p<=x, p prime} p^{v_p(B_n)}. If log G(n,n/2)=n^2/4+O(n^{2-delta}) for some delta>0, must there exist h(delta)>0 such that the Riemann zeta function has no zeros with Re(s)>1-h(delta)?
+
+**Source.** Du, Lagarias and Yangjit. *Products of extended binomial coefficients and their partial factorizations*. 2025. [primary source](https://link.springer.com/content/pdf/10.1007/s11139-025-01128-0.pdf) Location: Section 1.3, final paragraph, p.8
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3613"></a>
+
+## Q3613. Twisted periods with a fixed character
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.1) · **Collection** 37
+
+For primitive χ modulo D>=1 and 3<=ℓ\_1<...<ℓ\_n<=(K−2)/2, with χ(−1)=(−1)^{ℓ\_i} and 1<=n<=dim S_K, are {r_{ℓ\_i−1,χ}} linearly independent?
+
+**Context.** Setup: Let S_K be the complex level-one cusp-form space, K even. Put r_{t,χ}(f)=t!(-2πi)^{-t-1}L(f,χ,t+1), with L(f,χ,s) the analytic continuation of Σ\_{m>=1}χ(m)a_f(m)m^{-s}.
+
+**Source.** Ni and Xue. *Twisted periods of modular forms*. 2026. [primary source](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/48523420485D9E43A6A99E4D0214F15E/S0027763026100993a.pdf/twisted_periods_of_modular_forms.pdf) Location: Conjecture 6.1, p.37; equation (2), p.2
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3615"></a>
+
+## Q3615. Statistical absence of new points on curves
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3) · **Collection** 37
+
+Let K be a number field, C/K a smooth projective geometrically integral curve of genus at least two, and n>=2. Among K-isomorphism classes of degree-n extensions L/K ordered by N_{K/Q}(Disc(L/K)), does the proportion for which some P in C(L) has K(P)=L tend to zero?
+
+**Source.** Khawaja and Siksek. *New Algebraic Points on Curves*. 2025. [primary source](https://arxiv.org/abs/2511.15635) Location: Conjecture 3, p.3, applied to the unrestricted degree-n family of Definition 2
+
+**Literature check.** Status: No later full resolution located, 9 October 2026.
+
+
+<a id="q3704"></a>
+
+## Q3704. A half-extension exponent family
+
+**Status:** Open · **Kind:** open problem (Question 6.1) · **Collection** 38
+
+Classify q>2 and positive even e for which g_{n,q} permutes F_{q^e}, with n=(q−1)+(q−1)q^{e/2}+q^e.
+
+**Context.** Setup: For q a power of 2, define g_{n,q}∈F_2[X] by ∑\_{a∈F_q}(X+a)^n=g_{n,q}(X^q−X).
+
+**Source.** Fernando and Kousik. *A further study of polynomial g_{n,q} over finite fields*. 2026. [primary source](https://arxiv.org/abs/2606.01037v1) Location: Question 6.1, p.17.
+
+**Literature check.** Status: Current v1 inspected; no later resolution located, 9 October 2026.
+
+**Further links.** [1](https://www.holycross.edu/academics/people/neranga-fernando)
+
+
+<a id="q3705"></a>
+
+## Q3705. A four-term exponent family
+
+**Status:** Open · **Kind:** open problem (Question 6.4) · **Collection** 38
+
+Classify q>2 and integers e>2 for which g_{n,q} permutes F_{q^e}, with n=(q−1)+(q−2)q²+q^e+q^{e+2}.
+
+**Context.** Setup: For q a power of 2, define g_{n,q}∈F_2[X] by ∑\_{a∈F_q}(X+a)^n=g_{n,q}(X^q−X).
+
+**Source.** Fernando and Kousik. *A further study of polynomial g_{n,q} over finite fields*. 2026. [primary source](https://arxiv.org/abs/2606.01037v1) Location: Question 6.4, p.17.
+
+**Literature check.** Status: Current v1 inspected; no later resolution located, 9 October 2026.
+
+**Further links.** [1](https://www.holycross.edu/academics/people/neranga-fernando)
+
+
+<a id="q3713"></a>
+
+## Q3713. Linear bit complexity for C-finite sequences
+
+**Status:** Open · **Kind:** open problem (Question 10.27) · **Collection** 38
+
+For every fixed rational sequence (u_n)\_{n≥0} satisfying a constant-coefficient linear recurrence, can u_N be computed exactly in binary using O(N) bit operations as N→∞?
+
+**Context.** Origin: The bit-complexity question follows Bostan–Neiger–Yurkevich (2023); the inverse-sum question follows Chen–Kauers; the Catalan conjecture is attributed to Bostan.
+
+**Source.** Sergey Yurkevich. *Integer sequences, algebraic series and differential operators*. University of Vienna / Université Paris-Saclay, 2023. Advisor(s): Alin Bostan, Herwig Hauser. [primary source](https://yurkevi.ch/thesis.pdf) Location: Question 10.27, printed p.172; PDF p.182.
+
+**Literature check.** Status: Author-hosted thesis and later literature checked 9 October 2026; no resolution located.
+
+**Further links.** [1](https://yurkevi.ch/me.html)
+
+
+<a id="q3714"></a>
+
+## Q3714. Recognizing a single hypergeometric definite sum
+
+**Status:** Open · **Kind:** open problem (Question 10.54) · **Collection** 38
+
+Given a rational P-recursive sequence (u_n)\_{n≥0} by a polynomial-coefficient linear recurrence and sufficient initial values, can one decide whether u_n=∑\_{k=0}^n a(n,k) for every n≥0, where a(n+1,k)/a(n,k),a(n,k+1)/a(n,k)∈Q(n,k)?
+
+**Context.** Origin: The bit-complexity question follows Bostan–Neiger–Yurkevich (2023); the inverse-sum question follows Chen–Kauers; the Catalan conjecture is attributed to Bostan.
+
+**Source.** Sergey Yurkevich. *Integer sequences, algebraic series and differential operators*. University of Vienna / Université Paris-Saclay, 2023. Advisor(s): Alin Bostan, Herwig Hauser. [primary source](https://yurkevi.ch/thesis.pdf) Location: Question 10.54, printed p.178; PDF p.188.
+
+**Literature check.** Status: Author-hosted thesis and later literature checked 9 October 2026; no resolution located.
+
+**Further links.** [1](https://yurkevi.ch/me.html)
+
+
+<a id="q3715"></a>
+
+## Q3715. The final digit of large odd Catalan numbers
+
+**Status:** Open · **Kind:** conjecture (Conjecture 10.56) · **Collection** 38
+
+For C_n=binom(2n,n)/(n+1), does every integer n>255 with C_n odd satisfy C_n≡5 (mod 10)?
+
+**Context.** Origin: The bit-complexity question follows Bostan–Neiger–Yurkevich (2023); the inverse-sum question follows Chen–Kauers; the Catalan conjecture is attributed to Bostan.
+
+**Source.** Sergey Yurkevich. *Integer sequences, algebraic series and differential operators*. University of Vienna / Université Paris-Saclay, 2023. Advisor(s): Alin Bostan, Herwig Hauser. [primary source](https://yurkevi.ch/thesis.pdf) Location: Conjecture 10.56(ii), printed p.179; PDF p.189.
+
+**Literature check.** Status: Author-hosted thesis and later literature checked 9 October 2026; no resolution located.
+
+**Further links.** [1](https://yurkevi.ch/me.html)
+
+
+<a id="q3748"></a>
+
+## Q3748. For every nonincreasing ψ, is dim_H L(ψ)=1/(1+τ), with value 0 when τ=∞?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2) · **Collection** 38
+
+For every nonincreasing ψ, is dim_H L(ψ)=1/(1+τ), with value 0 when τ=∞?
+
+**Context.** Ying Wai Lee: York PhD, Metric Number Theory of Diophantine Approximation (2025; examined version deposited 2026); supervisors Sanju Velani and Evgeniy Zorin. Origin: Thesis Conjecture 1.4.5; revised Tan–Zhou conjecture in the final paper. For x∈(0,1], write x=Σ\_{k≥1}[d_k∏\_{j&lt;k}d_j(d_j−1)]⁻¹ with integers d_k≥2. Let x_n be the n-term sum and Q_n=d_n∏\_{j&lt;n}d_j(d_j−1), without reducing denominators. For ψ:N→(0,1], set L(ψ)={x:|x−x_n|<ψ(Q_n)/Q_n infinitely often} and τ=liminf_{q→∞}(−logψ(q))/logq.
+
+**Source.** Ying Wai Lee. *Lüroth Expansions in Diophantine Approximation: Metric Properties and Conjectures*. 2026. [primary source](https://math.colgate.edu/~integers/aa45/aa45.pdf) Location: Final Conjecture 2, p. 7; definitions pp. 3–6
+
+**Literature check.** Status: Final Integers 26 (2026), A45, inspected.
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/38131/)
+
+
+<a id="q3749"></a>
+
+## Q3749. Is L_{≤3}+L_{≤4}+Z=R?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.2) · **Collection** 38
+
+Is L_{≤3}+L_{≤4}+Z=R?
+
+**Context.** Maiken Balman Gravgaard: Aarhus PhD thesis, Metric Diophantine Approximation and Missing-Digits Sets (July 2026 cover; October repository); supervisor Simon Kristensen. Let L_{≤k},L_{≥k} consist of infinite Lüroth sums Σ\_{n≥1}[d_n∏\_{j&lt;n}d_j(d_j−1)]⁻¹ with all 2≤d_n≤k, respectively d_n≥k. Let F_{≤k} be infinite continued fractions [0;a₁,a₂,…] with 1≤a_n≤k; F_{≥k} uses a_n≥k and includes finite expansions and 0. Write A+B={a+b:a∈A,b∈B}. Origin: Gravgaard–Lee, Decomposition of real numbers into sums of Lüroth sets, reproduced in chapter 4. Thesis pp. v, 63 authenticate the accepted manuscript; final DOI 10.1142/S1793042126500958 matches. Full journal final unread.
+
+**Source.** Maiken Balman Gravgaard. *Metric Diophantine Approximation and Missing-Digits Sets*. Aarhus University, 2026. Advisor(s): Simon Kristensen. [primary source](https://data.math.au.dk/publications/phd/2026/math-phd-2026-mbg.pdf) Location: Chapter 4, Conjecture 2.2, article p. 7
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://math.au.dk/forskning/publikationer/instituttets-serier/phd/afhandling/publikation/1597?cHash=bf32082d406c42ebbdb2ef555252b8b4)
+
+
+<a id="q3750"></a>
+
+## Q3750. For every integer k≥2, is L_{≤k}+L_{≥k}+Z=R?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.6) · **Collection** 38
+
+For every integer k≥2, is L_{≤k}+L_{≥k}+Z=R?
+
+**Context.** Maiken Balman Gravgaard: Aarhus PhD thesis, Metric Diophantine Approximation and Missing-Digits Sets (July 2026 cover; October repository); supervisor Simon Kristensen. Let L_{≤k},L_{≥k} consist of infinite Lüroth sums Σ\_{n≥1}[d_n∏\_{j&lt;n}d_j(d_j−1)]⁻¹ with all 2≤d_n≤k, respectively d_n≥k. Let F_{≤k} be infinite continued fractions [0;a₁,a₂,…] with 1≤a_n≤k; F_{≥k} uses a_n≥k and includes finite expansions and 0. Write A+B={a+b:a∈A,b∈B}. Origin: Gravgaard–Lee, Decomposition of real numbers into sums of Lüroth sets, reproduced in chapter 4. Thesis pp. v, 63 authenticate the accepted manuscript; final DOI 10.1142/S1793042126500958 matches. Full journal final unread.
+
+**Source.** Maiken Balman Gravgaard. *Metric Diophantine Approximation and Missing-Digits Sets*. Aarhus University, 2026. Advisor(s): Simon Kristensen. [primary source](https://data.math.au.dk/publications/phd/2026/math-phd-2026-mbg.pdf) Location: Chapter 4, Conjecture 2.6, article p. 8
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://math.au.dk/forskning/publikationer/instituttets-serier/phd/afhandling/publikation/1597?cHash=bf32082d406c42ebbdb2ef555252b8b4)
+
+
+<a id="q3751"></a>
+
+## Q3751. For every integer k≥1, is F_{≤2k}+F_{≥k}+Z=R?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.7) · **Collection** 38
+
+For every integer k≥1, is F_{≤2k}+F_{≥k}+Z=R?
+
+**Context.** Maiken Balman Gravgaard: Aarhus PhD thesis, Metric Diophantine Approximation and Missing-Digits Sets (July 2026 cover; October repository); supervisor Simon Kristensen. Let L_{≤k},L_{≥k} consist of infinite Lüroth sums Σ\_{n≥1}[d_n∏\_{j&lt;n}d_j(d_j−1)]⁻¹ with all 2≤d_n≤k, respectively d_n≥k. Let F_{≤k} be infinite continued fractions [0;a₁,a₂,…] with 1≤a_n≤k; F_{≥k} uses a_n≥k and includes finite expansions and 0. Write A+B={a+b:a∈A,b∈B}. Origin: Gravgaard–Lee, Decomposition of real numbers into sums of Lüroth sets, reproduced in chapter 4. Thesis pp. v, 63 authenticate the accepted manuscript; final DOI 10.1142/S1793042126500958 matches. Full journal final unread.
+
+**Source.** Maiken Balman Gravgaard. *Metric Diophantine Approximation and Missing-Digits Sets*. Aarhus University, 2026. Advisor(s): Simon Kristensen. [primary source](https://data.math.au.dk/publications/phd/2026/math-phd-2026-mbg.pdf) Location: Chapter 4, Conjecture 2.7, article p. 8
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://math.au.dk/forskning/publikationer/instituttets-serier/phd/afhandling/publikation/1597?cHash=bf32082d406c42ebbdb2ef555252b8b4)
+
+
+<a id="q3752"></a>
+
+## Q3752. For every integer k≥2, does L_{≥k}+L_{≥k} contain an interval of positive length?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.12) · **Collection** 38
+
+For every integer k≥2, does L_{≥k}+L_{≥k} contain an interval of positive length?
+
+**Context.** Maiken Balman Gravgaard: Aarhus PhD thesis, Metric Diophantine Approximation and Missing-Digits Sets (July 2026 cover; October repository); supervisor Simon Kristensen. Let L_{≤k},L_{≥k} consist of infinite Lüroth sums Σ\_{n≥1}[d_n∏\_{j&lt;n}d_j(d_j−1)]⁻¹ with all 2≤d_n≤k, respectively d_n≥k. Let F_{≤k} be infinite continued fractions [0;a₁,a₂,…] with 1≤a_n≤k; F_{≥k} uses a_n≥k and includes finite expansions and 0. Write A+B={a+b:a∈A,b∈B}. Origin: Gravgaard–Lee, Decomposition of real numbers into sums of Lüroth sets, reproduced in chapter 4. Thesis pp. v, 63 authenticate the accepted manuscript; final DOI 10.1142/S1793042126500958 matches. Full journal final unread.
+
+**Source.** Maiken Balman Gravgaard. *Metric Diophantine Approximation and Missing-Digits Sets*. Aarhus University, 2026. Advisor(s): Simon Kristensen. [primary source](https://data.math.au.dk/publications/phd/2026/math-phd-2026-mbg.pdf) Location: Chapter 4, Conjecture 2.12, article p. 10
+
+**Literature check.** Status checked October 9, 2026: no later exact resolution located.
+
+**Further links.** [1](https://math.au.dk/forskning/publikationer/instituttets-serier/phd/afhandling/publikation/1597?cHash=bf32082d406c42ebbdb2ef555252b8b4)
 

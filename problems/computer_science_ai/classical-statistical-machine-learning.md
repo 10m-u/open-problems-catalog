@@ -194,7 +194,7 @@ For finite simplices and V(x,y)=x^(T)Ry/(x^(T)Sy), with R real and S nonnegative
 
 **Further links.** [1](https://proceedings.neurips.cc/paper/2020/file/3b2acfe2e38102074656ed938abf4ac3-Paper.pdf)
 
-*Duplicate of Qc9757a96a30026468248.*
+*Also among the automatically extracted thesis statements: `c9757a96a30026468248`.*
 
 
 <a id="q70"></a>
@@ -211,7 +211,7 @@ Does ∥O_(h)b−O_(h)b^(′)∥\_(2)≥γ∥b−b^(′)∥\_(2) for all stages 
 
 **Further links.** [1](https://openreview.net/references/attachment?id=qsIDy-1Q8&name=supplementary_material) · [2](https://arxiv.org/abs/2201.04735)
 
-*Duplicate of Q4013f5ed7826825ba151.*
+*Also among the automatically extracted thesis statements: `4013f5ed7826825ba151`.*
 
 
 <a id="q292"></a>

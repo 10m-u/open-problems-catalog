@@ -818,7 +818,7 @@ Johan Håstad → Shafi Goldwasser: https://dspace.mit.edu/entities/publication/
 
 **Further links.** [1](https://blikstad.gitlab.io/thesis/thesis_blikstad.pdf) · [2](https://www.csc.kth.se/aktuellt/numero/2008/08.35.pdf) · [3](https://homes.cs.washington.edu/~ruzzo/papers/limits.pdf) · [4](https://www.wisdom.weizmann.ac.il/~bennyap/pubs/nc0-full.pdf) · [5](https://www.sciencedirect.com/science/article/pii/0020019087900536)
 
-*Duplicate of Qc601a0cd4bbfcd3dab6c.*
+*Also among the automatically extracted thesis statements: `c601a0cd4bbfcd3dab6c`.*
 
 
 <a id="q354"></a>

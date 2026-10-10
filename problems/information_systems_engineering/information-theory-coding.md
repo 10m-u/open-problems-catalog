@@ -52,7 +52,7 @@ Does truncating an 8×8 full-rate real orthogonal design, choosing the submatrix
 
 **Further links.** [1](https://arxiv.org/pdf/1704.06962#page=34) · [2](https://people.lids.mit.edu/yp/homepage/papers.shtml) · [3](https://arxiv.org/pdf/1704.06962)
 
-*Duplicate of Q528659910d2e23897833.*
+*Also among the automatically extracted thesis statements: `528659910d2e23897833`.*
 
 
 <a id="q116"></a>
@@ -69,7 +69,7 @@ Can one such code family satisfy log M≥ℓC/(1−ε)+O(log ℓ) and log(M/L)�
 
 **Further links.** [1](https://people.lids.mit.edu/yp/homepage/data/theses/2019_PHD_Collins.pdf#page=93) · [2](https://people.lids.mit.edu/yp/homepage/papers.shtml)
 
-*Duplicate of Q033b4bba22af8313006d.*
+*Also among the automatically extracted thesis statements: `033b4bba22af8313006d`.*
 
 
 <a id="q373"></a>

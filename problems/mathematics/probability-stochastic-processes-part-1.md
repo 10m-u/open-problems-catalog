@@ -167,7 +167,7 @@ Status source 2: https://warwick.ac.uk/fac/sci/statistics/staff/academic-researc
 
 **Further links.** [1](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.12384) · [2](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/habermann/publications/)
 
-*Duplicate of Q0095331cf464021a4a06.*
+*Also among the automatically extracted thesis statements: `0095331cf464021a4a06`.*
 
 
 <a id="q192"></a>
@@ -185,7 +185,7 @@ Status source 2: https://warwick.ac.uk/fac/sci/statistics/staff/academic-researc
 
 **Further links.** [1](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.12384) · [2](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/habermann/publications/)
 
-*Duplicate of Q11a52318057a76bc65a4.*
+*Also among the automatically extracted thesis statements: `11a52318057a76bc65a4`.*
 
 **Result (2026-10-09).** Under the canonical density disintegration, the Brownian path conditioned on one power integral being zero converges to the zero path in the uniform topology. Every fixed-radius escape probability decays faster than any prescribed exponential in the power. Exact single-integral question only; the full-signature and comparison questions Q191 and Q193 remain unresolved.
 
@@ -208,7 +208,7 @@ Status source 2: https://warwick.ac.uk/fac/sci/statistics/staff/academic-researc
 
 **Further links.** [1](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.12384) · [2](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/habermann/publications/)
 
-*Duplicate of Qe99a30c289f9df0832c9.*
+*Also among the automatically extracted thesis statements: `e99a30c289f9df0832c9`.*
 
 
 <a id="q196"></a>
@@ -225,7 +225,7 @@ Fix 0 < Q < 2 and a whole-plane GFF h normalized by h₁(0) = 0. For a dyadic sq
 
 **Further links.** [1](https://arxiv.org/abs/1903.09111) · [2](https://arxiv.org/html/2506.18827) · [3](https://math.uchicago.edu/~ewain/)
 
-*Duplicate of Qa5610ffcae627ea05f68.*
+*Also among the automatically extracted thesis statements: `a5610ffcae627ea05f68`.*
 
 
 <a id="q197"></a>
@@ -265,7 +265,7 @@ Is the infinite DLA tree X_∞ almost surely one-ended: after deleting any finit
 
 **Further links.** [1](https://arxiv.org/html/1901.06860) · [2](https://math.uchicago.edu/~ewain/)
 
-*Duplicate of Qc1a6ddcd43922d127073.*
+*Also among the automatically extracted thesis statements: `c1a6ddcd43922d127073`.*
 
 
 <a id="q266"></a>
@@ -362,14 +362,14 @@ On \$\mathbb Z^d\$, \$d\ge2\$, is there \$0<\alpha_c(d)<\infty\$ separating almo
 
 **Further links.** [1](https://arxiv.org/abs/1309.1752) · [2](https://doi.org/10.1007/s10955-014-0985-z)
 
-*Duplicate of Q0f96078e07b81ef090f2.*
+*Also among the automatically extracted thesis statements: `0f96078e07b81ef090f2`.*
 
 
 <a id="q276"></a>
 
 ## Q276. For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_…
 
-**Status:** Open · **Kind:** open problem · **Collection** 3
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 3
 
 For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_{G,\beta}(A)\le\mu_{G,\alpha}(A)\$?
 
@@ -380,11 +380,16 @@ For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is
 **Further links.** [1](https://arxiv.org/abs/1309.1752) · [2](https://doi.org/10.1007/s10955-014-0985-z)
 
 
+**Result (2026-10-09).** Stochastic decrease in the freezing rate holds for every finite simple graph whose connected components each have at most five edges, for all positive rates. Exact polynomial certificates cover all 91,881 increasing events on the 22 connected graph classes. The unrestricted finite-graph question remains unresolved. Larger connected graphs, multigraphs and infinite-volume processes are outside this result.
+
+[Proof](../../solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/probability/constant_freezing_verification.json) · [Source check](../../solutions/seven-more-2026-10-09/probability/source-log.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
+
+
 <a id="q277"></a>
 
 ## Q277. For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m…
 
-**Status:** Open · **Kind:** open problem · **Collection** 3
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 3
 
 For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\mu(A\cap B)\ge\mu(A)\mu(B)\$ for all increasing events \$A,B\$?
 
@@ -393,6 +398,11 @@ For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satis
 **Source.** Edward John Mottram. *The geometry of non-Markovian interacting systems*. University of Cambridge, 2015. Advisor(s): Nathanaël Berestycki. [primary source](https://www.repository.cam.ac.uk/bitstreams/72e98faf-8e12-4374-9a2e-c0c8ad6840e1/download) · [record](https://api.repository.cam.ac.uk/server/api/core/items/6b7c7424-511e-4174-bbe9-1ed148d79015) Location: Section 3.1.4 and Example 3.1.5, printed pp. 43–44 (PDF pp. 53–54).
 
 **Further links.** [1](https://arxiv.org/abs/1309.1752) · [2](https://doi.org/10.1007/s10955-014-0985-z)
+
+
+**Result (2026-10-09).** Positive association holds for every finite simple graph whose connected components each have at most four edges, for every positive freezing rate. All 71,637 unordered increasing-event-pair covariances have exact nonnegative polynomial certificates. The unrestricted finite-graph question remains unresolved. The stronger FKG lattice condition is not asserted; a four-vertex path fails that condition by exactly -1/525 at rate one.
+
+[Proof](../../solutions/seven-more-2026-10-09/probability/Q276-Q277-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/reviews/review-Q276-Q277.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/probability/constant_freezing_verification.json) · [Source check](../../solutions/seven-more-2026-10-09/probability/source-log.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
 
 
 <a id="q278"></a>
@@ -409,7 +419,7 @@ For every \$d\ge3\$, does sufficiently small \$\alpha>0\$ give positive probabil
 
 **Further links.** [1](https://arxiv.org/abs/1309.1752) · [2](https://doi.org/10.1007/s10955-014-0985-z)
 
-*Duplicate of Q1a2dd7e855ef512660ad.*
+*Also among the automatically extracted thesis statements: `1a2dd7e855ef512660ad`.*
 
 
 <a id="q280"></a>
@@ -4403,42 +4413,4 @@ Can one explicitly construct, solely from ψ, a bound Φ with P(Jε≥Φ(λ,ε))
 **Literature check.** Status for questions 2085, 2086, checked 6 October 2026: current author manuscript retains these questions.
 
 **Further links.** [1](https://arxiv.org/abs/2511.01676) · [2](https://arxiv.org/abs/2602.22741) · [3](https://arxiv.org/abs/2604.08078) · [4](https://nicholaspischke.github.io/bib/ref_name.html)
-
-
-<a id="q2086"></a>
-
-## Q2086. Remove lacunarity from pairwise-independent means
-
-**Status:** Open · **Kind:** open problem (Problem 5.3) · **Collection** 21
-
-For pairwise independent identically distributed X_n with E X_n=0 and E|X_n|≤μ<∞, do Y_n=(X₁+⋯+X_n)/n have an explicit uniform learnable bound depending only on μ,λ,ε, without restrictions on b_k/a_k?
-
-**Context.** Origin for questions 2085, 2086: Remark 5.2 and the first question preceding Problem 5.3. Setup for questions 2085, 2086: For real random variables Y_n, put Cε(a,b)={max_{a≤i,j≤b}|Y_i−Y_j|>ε}. A uniform learnable bound ψ satisfies: for every a₀&lt;b₀≤a₁&lt;b₁≤⋯ and λ,ε∈(0,1], some k≤ψ(λ,ε) has P(Cε(a_k,b_k))≤λ. Let Jε be the supremum of k with i₁&lt;j₁≤⋯≤i_k&lt;j_k and |Y_{i_l}−Y_{j_l}|>ε for every l.
-
-**Source.** Morenikeji Neri. *Oscillations in the Strong Law of Large Numbers, 2026 preprint; Proceedings AMS forthcoming*. 2026. [primary source](https://kejineri.github.io/Papers/Oscillations_in_the_SLLN_submitted.pdf) Location: §5, p. 19, first question preceding Problem 5.3; Theorem 1.5.
-
-**Literature check.** Status for questions 2085, 2086, checked 6 October 2026: current author manuscript retains these questions.
-
-**Further links.** [1](https://arxiv.org/abs/2511.01676) · [2](https://arxiv.org/abs/2602.22741) · [3](https://arxiv.org/abs/2604.08078) · [4](https://nicholaspischke.github.io/bib/ref_name.html)
-
-
-<a id="q2087"></a>
-
-## Q2087. Small reinforcement in dimensions three to five
-
-**Status:** Open · **Kind:** open problem · **Collection** 21
-
-For every d∈{3,4,5}, is there a_d>0 such that this walk on Z^d is almost surely transient whenever 0&lt;a&lt;a_d?
-
-**Context.** Origin for questions 2087, 2088, 2089: Lattice phase conjecture: Vladas Sidoravicius, circa 2010; first printed in Beffara’s 2011 habilitation. Setup for questions 2087, 2088, 2089: A walk starts at 0. Each undirected edge initially has weight 1, permanently changed to 1+a after its first crossing, a>0. At every discrete step it selects an incident edge proportionally to its current weight. Recurrence means infinitely many returns to 0.
-
-**Source.** Dor Elboim and Gady Kozma. *Once-reinforced random walk in high dimensions, 2026*. 2026. [primary source](https://arxiv.org/abs/2601.17972) Location: Introduction and §1.1, pp. 1–2.
-
-**Literature check.** Status for questions 2087, 2088, 2089, checked 6 October 2026: September range paper still records the lattice gap; no strip resolution found.
-
-**Results.**
-
-- **Investigated, unresolved** (B5: submitted unresolved): No new proof, counterexample, or independently validated exact-scope resolution was obtained in this investigation. Remaining/limits: The exact retained statement remains unresolved in this investigation. Intake: Scope and identity checked; no independent proof or renewed literature audit of this question. [Report](../../solutions/b5-2026-10-07/README.md).
-
-**Further links.** [1](https://arxiv.org/abs/2610.00090) · [2](https://arxiv.org/abs/1807.07167) · [3](https://doi.org/10.1214/21-AIHP1151)
 

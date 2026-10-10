@@ -16,7 +16,7 @@ If every ordinal-length Lipschitz game G_(δ)(U,W) between countably complete ul
 
 **Further links.** [1](https://arxiv.org/html/2512.12835v1#S5)
 
-*Duplicate of Qc5679e78d00747f41b60.*
+*Also among the automatically extracted thesis statements: `c5679e78d00747f41b60`.*
 
 
 <a id="q81"></a>
@@ -33,7 +33,7 @@ Under UA, are hereditarily uniform irreducible countably complete ultrafilters a
 
 **Further links.** [1](https://math.berkeley.edu/~goldberg/Papers/UABook.pdf#page=305) · [2](https://math.berkeley.edu/~goldberg/Papers/RudinFrolikOrder.pdf)
 
-*Duplicate of Qf6d5dc3d3f1f276813b9.*
+*Also among the automatically extracted thesis statements: `f6d5dc3d3f1f276813b9`.*
 
 
 <a id="q82"></a>
@@ -50,7 +50,7 @@ In ZFC, if countably complete ultrafilters U,W are mutually internal, must j_(U)
 
 **Further links.** [1](https://math.berkeley.edu/~goldberg/Papers/UABook.pdf#page=307) · [2](https://math.berkeley.edu/~goldberg/Papers/OnProductsOfUltrafilters.pdf)
 
-*Duplicate of Qa4bd82d718a74e328fc5.*
+*Also among the automatically extracted thesis statements: `a4bd82d718a74e328fc5`.*
 
 
 <a id="q83"></a>
@@ -82,7 +82,7 @@ Under UA, are isolated Fréchet cardinals exactly the measurables λ that are no
 
 **Further links.** [1](https://math.berkeley.edu/~goldberg/Papers/UABook.pdf#page=309) · [2](https://math.berkeley.edu/~goldberg/Papers/StrongCompactnessAndUA.pdf)
 
-*Duplicate of Qde5dd8f7c083ab087b35.*
+*Also among the automatically extracted thesis statements: `de5dd8f7c083ab087b35`.*
 
 
 <a id="q85"></a>
@@ -114,7 +114,7 @@ Which differential equations E(x,y) admit a nontrivial adequate, or strongly ade
 
 **Further links.** [1](https://doi.org/10.1016/j.apal.2021.103030) · [2](https://arxiv.org/abs/1803.04753) · [3](https://vahagn-aslanyan.github.io/research.html)
 
-*Duplicate of Q8d7565a0cc1f97a550cd.*
+*Also among the automatically extracted thesis statements: `8d7565a0cc1f97a550cd`.*
 
 
 <a id="q87"></a>
@@ -131,7 +131,7 @@ For a differentially closed field ℱ=(F;+,⋅,0,1,D) and a family R of ℱ-defi
 
 **Further links.** [1](https://arxiv.org/abs/1507.00971) · [2](https://doi.org/10.1017/JSL.2017.54) · [3](https://vahagn-aslanyan.github.io/research.html)
 
-*Duplicate of Q4105a501e4afe2dc0cb2.*
+*Also among the automatically extracted thesis statements: `4105a501e4afe2dc0cb2`.*
 
 
 <a id="q88"></a>
@@ -223,7 +223,7 @@ If an abstract linear space has irreducible algebraic base S and constant fibre 
 
 **Further links.** [1](https://www.math.uwaterloo.ca/~rmoosa/nontrivialH1-revised.pdf#page=15) · [2](https://arxiv.org/abs/2508.19524)
 
-*Duplicate of Q43421a0b6a8597f9ce15.*
+*Also among the automatically extracted thesis statements: `43421a0b6a8597f9ce15`.*
 
 
 <a id="q114"></a>
@@ -240,7 +240,7 @@ For rational step words u,v over a compact metric alphabet Σ with rational pair
 
 **Further links.** [1](https://ecommons.cornell.edu/server/api/core/bitstreams/e61833ea-c15d-40a3-8e93-e0310d91055d/content#page=46) · [2](https://doi.org/10.1007/978-3-319-27683-0_18)
 
-*Duplicate of Q105b31b8ffe4beb93bee.*
+*Also among the automatically extracted thesis statements: `105b31b8ffe4beb93bee`.*
 
 
 <a id="q146"></a>

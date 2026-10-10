@@ -1,6 +1,6 @@
 # Optimization & Operations Research
 
-110 problems: 103 open, 4 open, partial results, 1 solved here: proved, 2 solved here: disproved.
+110 problems: 102 open, 4 open, partial results, 2 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -84,7 +84,7 @@
 | [Q961](optimization-operations-research.md#q961) | High-dimensional minimax optimality of Firth utility estimation | Open |
 | [Q962](optimization-operations-research.md#q962) | Polynomial-time corruption-robust threshold search | Open |
 | [Q963](optimization-operations-research.md#q963) | Horizon-free absolute loss with corrupted comparisons | Open |
-| [Q964](optimization-operations-research.md#q964) | Learning when response memory spans the whole horizon | Open |
+| [Q964](optimization-operations-research.md#q964) | Learning when response memory spans the whole horizon | Solved here: proved |
 | [Q965](optimization-operations-research.md#q965) | Sharp statistical price of a narrow safe starting margin | Open |
 | [Q966](optimization-operations-research.md#q966) | Certified feasibility search with uninflated coupled perturbations | Open |
 | [Q967](optimization-operations-research.md#q967) | Remove safety slack from the ordinary learning term | Open |
@@ -1422,7 +1422,7 @@ Can corruption-agnostic learning attain Σ|y_t−v_t|=O(C₁+d), removing log T 
 
 ## Q964. Learning when response memory spans the whole horizon
 
-**Status:** Open · **Kind:** open problem · **Collection** 10
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 10
 
 For known λ=c/T, fixed c>0, K, can worst-case expected regret against the parameter-informed best length-T sequence be o(T), without discounting benchmark reward?
 
@@ -1433,6 +1433,11 @@ For known λ=c/T, fixed c>0, K, can worst-case expected regret against the param
 **Literature check.** Status for question 964, checked 5 October 2026: January 2025 revision retains this regime; no later resolution located.
 
 **Further links.** [1](https://www.renatoppl.com/) · [2](https://charapodimata.com/files/cv/cv-charapod-may24.pdf)
+
+
+**Result (2026-10-09).** An explicit policy attains worst-case expected regret O_{K,c}(T^(4/5)(log T)^(1/5)) for known lambda=c/T and fixed K,c>0, uniformly over all reward/end-state parameters in [0,1]^(2K). Transient reference-arm probes and a polynomial-time grid planner compare with the full informed length-T sequence optimum. No state observations, replenishing arm, positive reward lower bound or benchmark discount are assumed. The exponent is not claimed optimal; unknown lambda and growing K remain outside the theorem.
+
+[Proof](../../solutions/seven-more-2026-10-09/learning/Q964-proof.md) · [Internal review](../../solutions/seven-more-2026-10-09/learning/review-Q964.md) · [Exact computational controls](../../solutions/seven-more-2026-10-09/learning/q964-checks.json) · [Source check](../../solutions/seven-more-2026-10-09/learning/SOURCES.md). This is a research result with a separate internal AI review, not an externally peer-reviewed or formally certified theorem.
 
 
 <a id="q965"></a>

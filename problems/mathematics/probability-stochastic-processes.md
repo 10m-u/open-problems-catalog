@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-449 problems: 413 open, 18 open, partial results, 13 solved here: proved, 5 solved here: disproved.
+477 problems: 439 open, 20 open, partial results, 13 solved here: proved, 5 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -30,8 +30,8 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | [Q269](probability-stochastic-processes-part-1.md#q269) | For every integer \$d\ge3\$ and every finite sequence of unit vectors \$v_1,\ldots,… | Open |
 | [Q270](probability-stochastic-processes-part-1.md#q270) | Take two copies of \$T_n\$, the tournament on \$\\{1,\ldots,n\\}\$ with arc \$i\to j\$ e… | Solved here: proved |
 | [Q275](probability-stochastic-processes-part-1.md#q275) | On \$\mathbb Z^d\$, \$d\ge2\$, is there \$0<\alpha_c(d)<\infty\$ separating almost-sur… | Open |
-| [Q276](probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Open |
-| [Q277](probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Open |
+| [Q276](probability-stochastic-processes-part-1.md#q276) | For every finite graph \$G\$, \$0<\alpha<\beta\$, and increasing event \$A\$, is \$\mu_… | Open, partial results |
+| [Q277](probability-stochastic-processes-part-1.md#q277) | For every finite graph \$G\$ and \$\alpha>0\$, does \$\mu=\mu_{G,\alpha}\$ satisfy \$\m… | Open, partial results |
 | [Q278](probability-stochastic-processes-part-1.md#q278) | For every \$d\ge3\$, does sufficiently small \$\alpha>0\$ give positive probability … | Open |
 | [Q280](probability-stochastic-processes-part-1.md#q280) | Is \$q_{p,d}=\tilde q_{p,d}\$ for every \$p\ge1,d\ge3\$? | Open |
 | [Q281](probability-stochastic-processes-part-1.md#q281) | Let \$1\le p&lt;d\$ and let \$\mu\$ have a finite \$\theta\$-moment for some \$\theta>dp/(… | Open |
@@ -258,8 +258,8 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | [Q2000](probability-stochastic-processes-part-1.md#q2000) | Four-dimensional critical-tail worms | Open |
 | [Q2084](probability-stochastic-processes-part-1.md#q2084) | Uniqueness with two Markov marginals | Open |
 | [Q2085](probability-stochastic-processes-part-1.md#q2085) | Uniform learnability to fluctuation tails | Open |
-| [Q2086](probability-stochastic-processes-part-1.md#q2086) | Remove lacunarity from pairwise-independent means | Open |
-| [Q2087](probability-stochastic-processes-part-1.md#q2087) | Small reinforcement in dimensions three to five | Open |
+| [Q2086](probability-stochastic-processes-part-2.md#q2086) | Remove lacunarity from pairwise-independent means | Open |
+| [Q2087](probability-stochastic-processes-part-2.md#q2087) | Small reinforcement in dimensions three to five | Open |
 | [Q2088](probability-stochastic-processes-part-2.md#q2088) | Large-reinforcement lattice recurrence | Open |
 | [Q2089](probability-stochastic-processes-part-2.md#q2089) | Recurrence across strip reinforcements | Open |
 | [Q2090](probability-stochastic-processes-part-2.md#q2090) | Upper range bound for strong reinforcement | Open |
@@ -457,3 +457,31 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | [Q3598](probability-stochastic-processes-part-2.md#q3598) | Misère draws on the square lattice | Open |
 | [Q3599](probability-stochastic-processes-part-2.md#q3599) | A double-edge excursion asymptotic | Open |
 | [Q3600](probability-stochastic-processes-part-2.md#q3600) | Critical radius for coordinate-wise connections | Open |
+| [Q3685](probability-stochastic-processes-part-2.md#q3685) | Asymmetric capital and draw probability | Open |
+| [Q3686](probability-stochastic-processes-part-2.md#q3686) | Trap-density monotonicity of draws | Open |
+| [Q3687](probability-stochastic-processes-part-2.md#q3687) | Uniqueness in lattice-conditioned continuum percolation | Open |
+| [Q3690](probability-stochastic-processes-part-2.md#q3690) | Is Δ\_{p_c}<∞ for every sufficiently large d? | Open |
+| [Q3691](probability-stochastic-processes-part-2.md#q3691) | For d≥2, does some c>0 make c(log n/n)¹ᐟᵈ a sharp threshold for χ>d+1? | Open |
+| [Q3692](probability-stochastic-processes-part-2.md#q3692) | For d≥3, do c₂&lt;c₃<⋯&lt;c_d exist with c_kn⁻¹ᐟᵈ sharply thresholding χ>k for 3≤k≤d? | Open |
+| [Q3693](probability-stochastic-processes-part-2.md#q3693) | Differentiability of the hyperbolic uniqueness threshold | Open |
+| [Q3694](probability-stochastic-processes-part-2.md#q3694) | Maximum spread for four-wise independence | Open |
+| [Q3695](probability-stochastic-processes-part-2.md#q3695) | Sharp temporal-connectivity radius | Open |
+| [Q3696](probability-stochastic-processes-part-2.md#q3696) | Full ergodic-density relaxation | Open |
+| [Q3697](probability-stochastic-processes-part-2.md#q3697) | Noisy consensus on hyperbolic tilings | Open |
+| [Q3698](probability-stochastic-processes-part-2.md#q3698) | Velocity stability under rare anomalies | Open |
+| [Q3782](probability-stochastic-processes-part-2.md#q3782) | For each fixed r≥3, does containing a K_r-factor have a sharp threshold as n→∞ through multiples… | Open |
+| [Q3783](probability-stochastic-processes-part-2.md#q3783) | Determine C_M=lim_{n→∞, 2∣n}m_M(1/2,n)/n, where M is containing a perfect matching. | Open |
+| [Q3784](probability-stochastic-processes-part-2.md#q3784) | Determine C_H=lim_{n→∞}m_H(1/2,n)/n, where H is containing a Hamilton cycle. | Open |
+| [Q3785](probability-stochastic-processes-part-2.md#q3785) | For fixed integer r≥3 and c>0, determine the asymptotic value of χ(G(n,1−c n^{−2/r})) with… | Open |
+| [Q3788](probability-stochastic-processes-part-2.md#q3788) | Voronoi mean-field exponents from the triangle condition | Open |
+| [Q3789](probability-stochastic-processes-part-2.md#q3789) | Strict decrease of the hyperbolic uniqueness threshold | Open |
+| [Q3790](probability-stochastic-processes-part-2.md#q3790) | Monotonicity of realizable-basis spread | Open |
+| [Q3792](probability-stochastic-processes-part-2.md#q3792) | Polynomial growth from nonnegative discrete curvature | Open |
+| [Q3793](probability-stochastic-processes-part-2.md#q3793) | Finite dimension for regular nonnegative-curvature graphs | Open |
+| [Q3794](probability-stochastic-processes-part-2.md#q3794) | Cooperative-contact thresholds | Open |
+| [Q3795](probability-stochastic-processes-part-2.md#q3795) | Positive-density continuity | Open |
+| [Q3796](probability-stochastic-processes-part-2.md#q3796) | Positive basin threshold | Open |
+| [Q3797](probability-stochastic-processes-part-2.md#q3797) | Stability of randomly slowed shrinkers | Open |
+| [Q3798](probability-stochastic-processes-part-2.md#q3798) | Irreducible Gaussian limits at arbitrary combinatorial dimensions | Open |
+| [Q3799](probability-stochastic-processes-part-2.md#q3799) | Sharp noise sensitivity of Boolean percolation | Open |
+| [Q3800](probability-stochastic-processes-part-2.md#q3800) | Fast nonlinear exchange up to the marginal threshold | Open |
