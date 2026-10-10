@@ -7928,7 +7928,7 @@
  {
   "number": 187,
   "title": "Fix a partition λ=(λ₁,…,λₙ) with n=λ₁≥⋯≥λₙ>0 with λᵢ ≥ n+1−i. Replace every cell…",
-  "status": "open",
+  "status": "proved",
   "kind": "conjecture",
   "label": "Conjecture 3.4.9",
   "collection": 2,
@@ -7963,7 +7963,21 @@
   ],
   "duplicate_of": [],
   "results": [],
-  "ledger": [],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-10-q187",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Collection question 187: Fix a partition λ=(λ₁,…,λₙ) with n=λ₁≥⋯≥λₙ>0 with λᵢ ≥ n+1−i. Replace every cell",
+    "note": "Yes. Revealing rows in nested order, a swap coupling changes each antidiagonal count by at most one, so a martingale bound gives P(sup_t |X_N(t) − E X_N(t)| ≥ u) ≤ 2(2nN+1)exp(−nNu²/2). The source's marginal dilation identity (confirmed here by exact enumeration on small dilated boards) puts E X_N within 2/N of m_λ uniformly. This gives convergence in probability and, by Borel–Cantelli, almost surely. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10.",
+    "sources": [
+     {
+      "title": "Argument and precise scope",
+      "url": "solutions/seven-problems-2026-10-10/Q187.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -12636,7 +12650,7 @@
  {
   "number": 294,
   "title": "Let Pi be a prior on measurable binary classifiers, and let Q_star be a distribu…",
-  "status": "open",
+  "status": "proved",
   "kind": "open-problem",
   "label": null,
   "collection": 3,
@@ -12671,7 +12685,21 @@
   ],
   "duplicate_of": [],
   "results": [],
-  "ledger": [],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-10-q294",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Collection question 294: Let Pi be a prior on measurable binary classifiers, and let Q_star be a distribu",
+    "note": "Yes for the support-truncated profile posterior (3.16), which is the thesis formulation: for fixed r < 1/2 and KL bound K, E L_D(Q_m) ≤ r + 4ε plus terms that vanish uniformly once λ_m → ∞ and λ_m = o(m), so the logarithmic condition is not needed. Limits: uniform for fixed r, not as r → 1/2; without the truncation the Gibbs density fails (a two-classifier example has risk 1/2); the integrated-Bayesian comparison is not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10.",
+    "sources": [
+     {
+      "title": "Argument and precise scope",
+      "url": "solutions/seven-problems-2026-10-10/Q294.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -43607,7 +43635,7 @@
  {
   "number": 1013,
   "title": "Exact latent dynamics from periodically sampled reports",
-  "status": "open",
+  "status": "partial",
   "kind": "conjecture",
   "label": "Conjecture 1",
   "collection": 11,
@@ -43641,7 +43669,21 @@
   ],
   "duplicate_of": [],
   "results": [],
-  "ledger": [],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-10-q1013",
+    "status": "partial",
+    "scope": "statement",
+    "title": "Collection question 1013: Exact latent dynamics from periodically sampled reports",
+    "note": "Settled for order p = 2: a stable causal Gaussian AR(2) with nonzero roots and distinct sampled powers is identified by the law of x_{tq} for odd q, and exactly up to φ₁ ↦ −φ₁ for even q; four sampled covariances reconstruct it. Complex roots with q ≥ 3 are the case beyond the source's q ≤ 2 and real-root results. Limits: general order p remains open, and block aggregation (Q1014) is not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10.",
+    "sources": [
+     {
+      "title": "Argument and precise scope",
+      "url": "solutions/seven-problems-2026-10-10/Q1013.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -154774,7 +154816,7 @@
  {
   "number": 3617,
   "title": "Realizability of strongly Koszul masks",
-  "status": "open",
+  "status": "disproved",
   "kind": "open-problem",
   "label": "Question 2.16",
   "collection": 37,
@@ -154808,7 +154850,21 @@
   ],
   "duplicate_of": [],
   "results": [],
-  "ledger": [],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-10-q3617",
+    "status": "disproved",
+    "scope": "statement",
+    "title": "Collection question 3617: Realizability of strongly Koszul masks",
+    "note": "No. On n = 3 the mask with M(∅,k) = ∅; M({1},2) = {1,2}, M({1},3) = {1,3}; M({2},1) = M({3},1) = {2,3}, M({2},3) = {1,2}, M({3},2) = {1,3}; and M(A,k) = [3] for |A| = 2 satisfies every listed condition, with F_∅ = (1+z)²/(1−z). No algebra realizes it over any field: the forced Hilbert series leaves a two-dimensional space of quadric relations, the colon conditions remove x² from all of them, and M({2,3},1) = [3] needs x² ∈ (y,z). The catalog wording matches Definition 2.13 and Question 2.16 of the source; its follow-up (which properties to add) is not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10.",
+    "sources": [
+     {
+      "title": "Argument and precise scope",
+      "url": "solutions/seven-problems-2026-10-10/Q3617.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -158513,7 +158569,7 @@
  {
   "number": 3709,
   "title": "Submultiplicativity of finite-group quantum invariants",
-  "status": "open",
+  "status": "proved",
   "kind": "open-problem",
   "label": null,
   "collection": 38,
@@ -158548,7 +158604,21 @@
   ],
   "duplicate_of": [],
   "results": [],
-  "ledger": [],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-10-q3709",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Collection question 3709: Submultiplicativity of finite-group quantum invariants",
+    "note": "Yes for every integer genus h ≥ 1. Counting products of h commutators shows that each central-character sector has degree sum at most that of the quotient by the centre, so projective degree sums are at most ordinary ones; with an index bound for subgroups and Clifford theory this gives ζ(G) ≤ ζ(N)ζ(G/N) for ζ = Σ χ(1)^(2−2h). Limits: no claim for non-integer exponents. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10.",
+    "sources": [
+     {
+      "title": "Argument and precise scope",
+      "url": "solutions/seven-problems-2026-10-10/Q3709.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {
@@ -159799,48 +159869,6 @@
   ],
   "statement_ids": [
    "79b9e75f31c9f525069b"
-  ],
-  "duplicate_of": [],
-  "results": [],
-  "ledger": [],
-  "literature_partial": []
- },
- {
-  "number": 3740,
-  "title": "If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed?",
-  "status": "open",
-  "kind": "open-problem",
-  "label": "Problem 25",
-  "collection": 38,
-  "provisional": false,
-  "text": "If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed?",
-  "location": "Problem 25, p. 19",
-  "subject": "Functional Analysis & Operator Theory",
-  "subject_path": "mathematics/functional-analysis-operator-theory",
-  "discipline": "mathematics",
-  "source": {
-   "author": "Kodjo Raphaël Madou, Ivan Remizov and Reihaneh Vafadar",
-   "title": "Open problems in one-parameter operator semigroups theory",
-   "year": "2024",
-   "institution": null,
-   "advisors": null,
-   "field": "Operator semigroups",
-   "source_kind": "paper",
-   "primary_source": "https://arxiv.org/abs/2410.00416v2",
-   "dissertation": null,
-   "degree_evidence": null
-  },
-  "context": "Madou, Remizov and Vafadar edit this problem list. Doctoral route: Sahiba Arora, Long-term behaviour of operator semigroups and (anti-)maximum principles, TU Dresden, submitted 2022; supervisor Ralph Chill.\n\nField: Operator semigroups.\n\nOrigin: Yuri Latushkin, Bari 2003, as attributed in Problem 25.\n\nSource URL: https://arxiv.org/abs/2410.00416v2\n\nLet (T(t))_{t≥0} be a strongly continuous semigroup of bounded linear operators on a Banach space X, with generator A.\n\nMetadata: https://d-nb.info/1281002844/34",
-  "status_notes": [
-   "Status: October 2024 v2 inspected; latest record rechecked.",
-   "Status checked October 9, 2026: no later exact resolution located."
-  ],
-  "reference_urls": [
-   "https://arxiv.org/abs/2410.00416v2",
-   "https://d-nb.info/1281002844/34"
-  ],
-  "statement_ids": [
-   "31ea55d9856641f1e551"
   ],
   "duplicate_of": [],
   "results": [],
@@ -161380,7 +161408,7 @@
  {
   "number": 3778,
   "title": "Determine the computational complexity of computing the number of connected partitions of an…",
-  "status": "open",
+  "status": "proved",
   "kind": "open-problem",
   "label": "Question 4.1.2",
   "collection": 38,
@@ -161415,7 +161443,21 @@
   ],
   "duplicate_of": [],
   "results": [],
-  "ledger": [],
+  "ledger": [
+   {
+    "topic": "seven-problems-2026-10-10-q3778",
+    "status": "proved",
+    "scope": "statement",
+    "title": "Collection question 3778: Determine the computational complexity of computing the number of connected partitions of an…",
+    "note": "Exact counting is #P-complete under polynomial-time Turing reductions, already for connected bipartite simple graphs. Subdivisions satisfy C(G^(ℓ)) = P_G(2^ℓ−ℓ−1, 2^ℓ−1) for a two-variable polynomial whose value at (1,0) counts connected spanning edge subsets, a #P-hard Tutte evaluation (Jaeger–Vertigan–Welsh); polynomially many even subdivisions recover it by interpolation. Limits: no parsimonious reduction; approximate counting and sampling are not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10.",
+    "sources": [
+     {
+      "title": "Argument and precise scope",
+      "url": "solutions/seven-problems-2026-10-10/Q3778.md"
+     }
+    ]
+   }
+  ],
   "literature_partial": []
  },
  {

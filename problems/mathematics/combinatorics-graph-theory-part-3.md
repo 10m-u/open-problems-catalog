@@ -2,6 +2,21 @@
 
 [Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
 
+<a id="q3674"></a>
+
+## Q3674. Sharp avoiding-colouring exponent
+
+**Status:** Open · **Kind:** open problem (Problem B) · **Collection** 37
+
+For every fixed connected bipartite H with m≥2 edges, is χ\_{2,H}(Δ)=Θ(Δ^{1+1/(m−1)})?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite and simple; β≥1 is integral. A β-frugal colouring is proper, with each colour used at most β times in each open neighbourhood. Let χβ(Δ,H) maximize the minimum such colour count over H-subgraph-free graphs of maximum degree at most Δ. Let χ\_{2,H}(Δ) maximize the minimum proper-colouring count avoiding bichromatic H, over all graphs of maximum degree at most Δ. Authors: Quentin Chuet. v3, 2026-10-04; Problem C has been solved.
+
+**Source.** Quentin Chuet. *Frugal colourings of graphs via sparse hypergraph colouring*. 2026. [primary source](https://arxiv.org/abs/2603.23379) Location: Problem B, p.11.
+
+**Literature check.** Status: Problems A–B; subsequently reaffirmed in arXiv:2609.39716.
+
+
 <a id="q3675"></a>
 
 ## Q3675. Maximum degree controls inversion diameter
@@ -369,7 +384,7 @@ For a uniformly random connected partition Ψ of Gₙ, is E[max_{B∈Ψ}|B|]=Θ(
 
 ## Q3778. Determine the computational complexity of computing the number of connected partitions of an…
 
-**Status:** Open · **Kind:** open problem (Question 4.1.2) · **Collection** 38
+**Status:** Solved here: proved · **Kind:** open problem (Question 4.1.2) · **Collection** 38
 
 Determine the computational complexity of computing the number of connected partitions of an input graph.
 
@@ -378,6 +393,10 @@ Determine the computational complexity of computing the number of connected part
 **Source.** Elle Najt. *Connected graph partitions from perspectives of complexity theory, statistical physics and probability theory, with applications to ensemble analysis of political redistricting plans and other statistical models*. University of Wisconsin–Madison, 2021. Advisor(s): Jordan Ellenberg. [primary source](https://asset.library.wisc.edu/1711.dl/L3OLMTH4ESXZN8T/R/file-19c5d.pdf) Location: Question 4.1.2, p.82.
 
 **Literature check.** Status: 2021 thesis; bounded current search found no resolution.
+
+**Results.**
+
+- **Proved**: Exact counting is #P-complete under polynomial-time Turing reductions, already for connected bipartite simple graphs. Subdivisions satisfy C(G^(ℓ)) = P_G(2^ℓ−ℓ−1, 2^ℓ−1) for a two-variable polynomial whose value at (1,0) counts connected spanning edge subsets, a #P-hard Tutte evaluation (Jaeger–Vertigan–Welsh); polynomially many even subdivisions recover it by interpolation. Limits: no parsimonious reduction; approximate counting and sampling are not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10. [Details](../../solutions/seven-problems-2026-10-10/Q3778.md).
 
 **Further links.** [1](https://ifds.info/lorenzo-najt/)
 

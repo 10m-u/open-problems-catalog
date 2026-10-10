@@ -1,6 +1,6 @@
 # Classical Statistical Machine Learning
 
-169 problems: 159 open, 8 open, partial results, 2 solved here: proved.
+169 problems: 158 open, 8 open, partial results, 3 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -10,7 +10,7 @@
 | [Q70](classical-statistical-machine-learning.md#q70) | Does ∥O_(h)b−O_(h)b^(′)∥\_(2)≥γ∥b−b^(′)∥\_(2) for all stages h and belief distribu… | Open |
 | [Q292](classical-statistical-machine-learning.md#q292) | Is U(1,r)=r? | Open |
 | [Q293](classical-statistical-machine-learning.md#q293) | For every fixed r, is U(λ,r) nonincreasing and continuous for λ∈(0,1)? | Open |
-| [Q294](classical-statistical-machine-learning.md#q294) | Let Pi be a prior on measurable binary classifiers, and let Q_star be a distribu… | Open |
+| [Q294](classical-statistical-machine-learning.md#q294) | Let Pi be a prior on measurable binary classifiers, and let Q_star be a distribu… | Solved here: proved |
 | [Q347](classical-statistical-machine-learning.md#q347) | Let C(Π) be the maximum, over deterministic MDPs on the fixed layered state/acti… | Open |
 | [Q348](classical-statistical-machine-learning.md#q348) | Suppose the learner may start trajectories either from the initial distribution … | Open |
 | [Q407](classical-statistical-machine-learning.md#q407) | Exact minimax loss for two conditionally independent Bayesian forecasts | Open |
@@ -248,13 +248,17 @@ For every fixed r, is U(λ,r) nonincreasing and continuous for λ∈(0,1)?
 
 ## Q294. Let Pi be a prior on measurable binary classifiers, and let Q_star be a distribu…
 
-**Status:** Open · **Kind:** open problem · **Collection** 3
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 3
 
 Let Pi be a prior on measurable binary classifiers, and let Q_star be a distribution over classifiers with KL(Q_star||Pi) ≤ 10 and population error r < 1/2. From m independent examples define Q_m by density proportional to 1{L_S(h) ≤ 1/2} times 2^(−m H(L_S(h))/lambda_m) relative to Pi, where H is binary entropy and the normalizing constant is positive. If lambda_m tends to infinity and lambda_m log(m)/m tends to zero, does limsup E[L_D(Q_m)] ≤ r hold uniformly over all such priors and data distributions? Here L_S and L_D denote empirical and population classification errors.
 
 **Context.** Origin: MDL questions concern the thesis’s well-specified uniform bounds. Profile posterior is joint with Ohannessian and Srebro, preprinted in March 2026.
 
 **Source.** Xiaohan Zhu. *Overfitting and Generalizing with MDL and (PAC) Bayesian Learning in Supervised Classification*. University of Chicago, 2026. Advisor(s): Nathan Srebro. [primary source](https://knowledge.uchicago.edu/records/kre10-b0z32/files/PhD_Dissertation_XiaohanZhu_Final.pdf) · [record](https://knowledge.uchicago.edu/records/kre10-b0z32) Location: §3.5, equations (3.14)–(3.16), pp. 63–64; §3.6, Open Questions, p. 66.
+
+**Results.**
+
+- **Proved**: Yes for the support-truncated profile posterior (3.16), which is the thesis formulation: for fixed r < 1/2 and KL bound K, E L_D(Q_m) ≤ r + 4ε plus terms that vanish uniformly once λ\_m → ∞ and λ\_m = o(m), so the logarithmic condition is not needed. Limits: uniform for fixed r, not as r → 1/2; without the truncation the Gibbs density fails (a two-classifier example has risk 1/2); the integrated-Bayesian comparison is not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10. [Details](../../solutions/seven-problems-2026-10-10/Q294.md).
 
 **Further links.** [1](https://arxiv.org/abs/2603.22644) · [2](https://arxiv.org/abs/2502.18611)
 

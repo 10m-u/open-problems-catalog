@@ -22,3 +22,4 @@ Each folder holds one round of work: the original report or proof, its statement
 | [round-2026-10-09](round-2026-10-09/README.md) | Ten problems: five affirmative proofs, two counterexamples, two hardness results and one partial theorem | 10 | 7 |
 | [seven-problems-2026-10-09](seven-problems-2026-10-09/README.md) | Seven problems: three affirmative answers, one nonexistence theorem, and three partial results | 7 | 4 |
 | [seven-more-2026-10-09](seven-more-2026-10-09/README.md) | Seven further problems: two affirmative resolutions, two counterexamples and three partial results | 7 | 4 |
+| [seven-problems-2026-10-10](seven-problems-2026-10-10/README.md) | Seven problems, reconstructed checkpoint: four affirmative answers, one counterexample, one partial result and one earlier published resolution | 7 | 5 |

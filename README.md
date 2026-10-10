@@ -1,16 +1,16 @@
 # Open problems from doctoral theses and recent papers
 
-A catalog of **3788 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
+A catalog of **3787 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
 papers. Each comes with its source, its exact location in that source, a dated literature check, and every result
 obtained on it. Problems already solved elsewhere are left out.
 
 | | Count |
 |---|---:|
-| Problems in the catalog | 3788 |
-| Open | 3642 |
-| Open, with partial results here | 96 |
-| Solved here | 50 (35 proved, 15 disproved) |
-| Excluded as solved elsewhere | 12 |
+| Problems in the catalog | 3787 |
+| Open | 3635 |
+| Open, with partial results here | 97 |
+| Solved here | 55 (39 proved, 16 disproved) |
+| Excluded as solved elsewhere | 13 |
 | Automatically extracted thesis statements (unreviewed) | 10001 |
 
 ## Where to start
@@ -49,13 +49,14 @@ level. None of it is peer reviewed. Much of the work was done with AI research a
 - `round-2026-10-09` contains five proposed affirmative proofs, two counterexamples, two hardness theorems and one partial theorem, with separate internal AI reviews and exact computational controls. The two complexity questions retain partial status because their negative algorithmic consequences are conditional.
 - `seven-problems-2026-10-09` contains four proposed complete answers (three affirmative and one nonexistence theorem) and three proved partial results. Each has a separate internal AI review. Reproducible checks combine exact finite controls with supplementary numerical integration; the three unresolved general questions retain partial status.
 - `seven-more-2026-10-09` contains two proposed affirmative resolutions, two exact counterexamples and three partial results, each with a separate internal AI review and reproducible exact controls. The general freezing-process and unrestricted Cayley-word questions remain unresolved.
+- `seven-problems-2026-10-10` is a reconstructed checkpoint: its original checkers were lost, so the notes carry the arguments only. Before filing, each argument was re-derived by hand and spot-checked with independent exact computations: four affirmative answers (Q187, Q294, Q3709, Q3778), one counterexample (Q3617) and a partial AR(2) result (Q1013). Q3740 was already settled by Król (2011) and is listed as solved elsewhere.
 
 "Solved here" means a result on this repository's own record at the scope stated on the problem page. It does not
 mean an independently verified theorem. Reports of errors are welcome.
 
 ## What was excluded
 
-**12 numbered problems are excluded** ([list](problems/EXCLUDED.md)), for one of these reasons:
+**13 numbered problems are excluded** ([list](problems/EXCLUDED.md)), for one of these reasons:
 - the problem is resolved in the published literature;
 - a resolution is claimed in [openai/math](https://github.com/openai/math);
 - a recent preprint reports a closure;

@@ -2,6 +2,23 @@
 
 [Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
 
+<a id="q2058"></a>
+
+## Q2058. Force dominating models at optimal density
+
+**Status:** Open · **Kind:** open problem · **Collection** 21
+
+Does an absolute C>0 exist such that, for every integer t≥2, every graph of average degree at least Ct log t contains a dominating K_t-model?
+
+**Context.** Origin for question 2058: Density conjecture: Illingworth–Wood, restated here. Setup for question 2058: A dominating K_t-model in a finite simple graph is an ordered sequence of disjoint nonempty connected vertex sets X₁,…,X_t such that every vertex of X_j has a neighbour in X_i whenever i&lt;j.
+
+**Source.** António Girão; Sergey Norin; Youri Tamitegama; Jane Tan. *Two Relaxations of the Dominating Hadwiger’s Conjecture*. 2026. [primary source](https://arxiv.org/abs/2608.12126) Location: §5, first paragraph, p. 18.
+
+**Literature check.** Status for question 2058, checked 6 October 2026: the proper-colouring disproof does not settle this density bound; no resolution found.
+
+**Further links.** [1](https://arxiv.org/abs/2609.35361)
+
+
 <a id="q2059"></a>
 
 ## Q2059. Find high-girth high-dichromatic subdigraphs
@@ -4775,21 +4792,6 @@ For fixed β≥1, classify the bipartite graphs H satisfying χβ(Δ,H)=o(Δ^{1+
 **Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite and simple; β≥1 is integral. A β-frugal colouring is proper, with each colour used at most β times in each open neighbourhood. Let χβ(Δ,H) maximize the minimum such colour count over H-subgraph-free graphs of maximum degree at most Δ. Let χ\_{2,H}(Δ) maximize the minimum proper-colouring count avoiding bichromatic H, over all graphs of maximum degree at most Δ. Authors: Quentin Chuet. v3, 2026-10-04; Problem C has been solved.
 
 **Source.** Quentin Chuet. *Frugal colourings of graphs via sparse hypergraph colouring*. 2026. [primary source](https://arxiv.org/abs/2603.23379) Location: Problem A, p.3.
-
-**Literature check.** Status: Problems A–B; subsequently reaffirmed in arXiv:2609.39716.
-
-
-<a id="q3674"></a>
-
-## Q3674. Sharp avoiding-colouring exponent
-
-**Status:** Open · **Kind:** open problem (Problem B) · **Collection** 37
-
-For every fixed connected bipartite H with m≥2 edges, is χ\_{2,H}(Δ)=Θ(Δ^{1+1/(m−1)})?
-
-**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite and simple; β≥1 is integral. A β-frugal colouring is proper, with each colour used at most β times in each open neighbourhood. Let χβ(Δ,H) maximize the minimum such colour count over H-subgraph-free graphs of maximum degree at most Δ. Let χ\_{2,H}(Δ) maximize the minimum proper-colouring count avoiding bichromatic H, over all graphs of maximum degree at most Δ. Authors: Quentin Chuet. v3, 2026-10-04; Problem C has been solved.
-
-**Source.** Quentin Chuet. *Frugal colourings of graphs via sparse hypergraph colouring*. 2026. [primary source](https://arxiv.org/abs/2603.23379) Location: Problem B, p.11.
 
 **Literature check.** Status: Problems A–B; subsequently reaffirmed in arXiv:2609.39716.
 

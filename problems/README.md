@@ -4,7 +4,7 @@
 
 | Discipline | Subject | Problems | Open | Partial results | Solved here |
 |---|---|---:|---:|---:|---:|
-| Computer science & AI | [Classical Statistical Machine Learning](computer_science_ai/classical-statistical-machine-learning.md) | 169 | 159 | 8 | 2 |
+| Computer science & AI | [Classical Statistical Machine Learning](computer_science_ai/classical-statistical-machine-learning.md) | 169 | 158 | 8 | 3 |
 | Computer science & AI | [Theory of Computation & Algorithms](computer_science_ai/theory-of-computation-algorithms.md) | 300 | 293 | 6 | 1 |
 | Game theory | [Algorithmic Game Theory, Learning & Network Games](game_theory/algorithmic-game-theory-learning-network-games.md) | 81 | 78 | 0 | 3 |
 | Game theory | [Foundations, Zero-Sum & Matrix Games](game_theory/foundations-zero-sum-matrix-games.md) | 5 | 5 | 0 | 0 |
@@ -15,19 +15,19 @@
 | Game theory | [Social Choice & Voting Theory](game_theory/social-choice-voting-theory.md) | 13 | 12 | 1 | 0 |
 | Information systems & engineering | [Information Theory & Coding](information_systems_engineering/information-theory-coding.md) | 31 | 29 | 2 | 0 |
 | Linguistics | [Computational & Corpus Linguistics](linguistics/computational-corpus-linguistics.md) | 8 | 8 | 0 | 0 |
-| Mathematics | [Algebra & Representation Theory](mathematics/algebra-representation-theory.md) | 349 | 336 | 10 | 3 |
+| Mathematics | [Algebra & Representation Theory](mathematics/algebra-representation-theory.md) | 349 | 334 | 10 | 5 |
 | Mathematics | [Algebraic Geometry](mathematics/algebraic-geometry.md) | 12 | 12 | 0 | 0 |
 | Mathematics | [Analysis](mathematics/analysis.md) | 103 | 100 | 3 | 0 |
-| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 553 | 527 | 14 | 12 |
+| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 553 | 525 | 14 | 14 |
 | Mathematics | [Computational Statistics: Resampling, EM, Mixtures & MCMC](mathematics/computational-statistics-resampling-em-mixtures-mcmc.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Control, Estimation & Filtering](mathematics/control-estimation-filtering.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Differential Equations & Dynamical Systems](mathematics/differential-equations-dynamical-systems.md) | 110 | 107 | 2 | 1 |
-| Mathematics | [Functional Analysis & Operator Theory](mathematics/functional-analysis-operator-theory.md) | 235 | 233 | 1 | 1 |
+| Mathematics | [Functional Analysis & Operator Theory](mathematics/functional-analysis-operator-theory.md) | 234 | 232 | 1 | 1 |
 | Mathematics | [Geometry & Differential Geometry](mathematics/geometry-differential-geometry.md) | 226 | 223 | 3 | 0 |
 | Mathematics | [Logic, Foundations & Set Theory](mathematics/logic-foundations-set-theory.md) | 402 | 392 | 9 | 1 |
 | Mathematics | [Mathematical Biology & Epidemic Modeling](mathematics/mathematical-biology-epidemic-modeling.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Mathematical Physics](mathematics/mathematical-physics.md) | 23 | 23 | 0 | 0 |
-| Mathematics | [Mathematical Statistics](mathematics/mathematical-statistics.md) | 108 | 103 | 3 | 2 |
+| Mathematics | [Mathematical Statistics](mathematics/mathematical-statistics.md) | 108 | 102 | 4 | 2 |
 | Mathematics | [Number Theory](mathematics/number-theory.md) | 140 | 131 | 9 | 0 |
 | Mathematics | [Numerical Analysis & Scientific Computing](mathematics/numerical-analysis-scientific-computing.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Optimization & Operations Research](mathematics/optimization-operations-research.md) | 110 | 102 | 4 | 4 |

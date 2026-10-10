@@ -1,6 +1,6 @@
 # Mathematical Statistics
 
-108 problems: 103 open, 3 open, partial results, 1 solved here: proved, 1 solved here: disproved.
+108 problems: 102 open, 4 open, partial results, 1 solved here: proved, 1 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -90,7 +90,7 @@
 | [Q1010](mathematical-statistics.md#q1010) | Sharp sequential empirical-Bayes regret under a single unknown prior | Open |
 | [Q1011](mathematical-statistics.md#q1011) | The dimension cost of learning a joint Poisson reliability prior | Open |
 | [Q1012](mathematical-statistics.md#q1012) | Does the simple hierarchical source prior attain exact minimax regret? | Open |
-| [Q1013](mathematical-statistics.md#q1013) | Exact latent dynamics from periodically sampled reports | Open |
+| [Q1013](mathematical-statistics.md#q1013) | Exact latent dynamics from periodically sampled reports | Open, partial results |
 | [Q1014](mathematical-statistics.md#q1014) | Does temporal aggregation preserve latent dynamic identification? | Open |
 | [Q1042](mathematical-statistics.md#q1042) | Two unknown forecast laws in small memory | Open |
 | [Q1043](mathematical-statistics.md#q1043) | The memory floor at optimal diagnostic sample size | Open |
@@ -1513,7 +1513,7 @@ Does this specific posterior mean attain uniform average excess risk O_A(n⁻¹(
 
 ## Q1013. Exact latent dynamics from periodically sampled reports
 
-**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 11
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 1) · **Collection** 11
 
 Does the law of y_t=x_{tq} identify (φ,v) uniquely for odd q, and exactly up to φ\_j↦(−1)^jφ\_j for even q?
 
@@ -1522,6 +1522,10 @@ Does the law of y_t=x_{tq} identify (φ,v) uniquely for odd q, and exactly up to
 **Source.** Marko Mlikota. *Parameter Identification and Inference in Discretely Sampled or Temporally Aggregated Autoregressions*. 2026. [primary source](https://arxiv.org/abs/2608.13224v2) Location: Conjecture 1, p2.
 
 **Literature check.** Status for question 1013, checked 6 October 2026: Retained September 2026; q≤2 and real-root cases proved.
+
+**Results.**
+
+- **Partial result**: Settled for order p = 2: a stable causal Gaussian AR(2) with nonzero roots and distinct sampled powers is identified by the law of x_{tq} for odd q, and exactly up to φ₁ ↦ −φ₁ for even q; four sampled covariances reconstruct it. Complex roots with q ≥ 3 are the case beyond the source's q ≤ 2 and real-root results. Limits: general order p remains open, and block aggregation (Q1014) is not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10. [Details](../../solutions/seven-problems-2026-10-10/Q1013.md).
 
 
 <a id="q1014"></a>

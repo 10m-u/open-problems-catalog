@@ -1,6 +1,6 @@
 # Functional Analysis & Operator Theory
 
-235 problems: 233 open, 1 open, partial results, 1 solved here: proved.
+234 problems: 232 open, 1 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -237,7 +237,6 @@
 | [Q3646](functional-analysis-operator-theory.md#q3646) | Quarter-turn extremality for absolute symmetric plane norms | Open |
 | [Q3648](functional-analysis-operator-theory.md#q3648) | Diametral slices without diametral weak neighborhoods | Open |
 | [Q3651](functional-analysis-operator-theory.md#q3651) | Strong regularity with the super alternative Daugavet property | Open |
-| [Q3740](functional-analysis-operator-theory.md#q3740) | If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed? | Open |
 | [Q3743](functional-analysis-operator-theory.md#q3743) | If A∈C₁ and Ã vanishes at infinity, does some compact K satisfy K̃=Ã? | Open |
 | [Q3744](functional-analysis-operator-theory.md#q3744) | Is {T_a:a∈BUC(C)} norm-dense in C₁ for every k≥2? | Open |
 | [Q3747](functional-analysis-operator-theory.md#q3747) | For every reflexive Banach space X, every nonempty closed bounded convex C⊂X, and every… | Open |
@@ -4091,25 +4090,6 @@ Does an infinite-dimensional strongly regular Banach space with the super ADP ex
 **Source.** Johann Langemets, Marcus Lõo, Miguel Martín, Yoël Perreau and Abraham Rueda Zoca. *The super Alternative Daugavet property for Banach spaces*. 2026. [primary source](https://doi.org/10.1017/S0013091525101168) Location: Question 6.2, p.497; Definition 1.2, p.472.
 
 **Literature check.** Status: July 2026 unconditional-basis restrictions do not settle strong regularity.
-
-
-<a id="q3740"></a>
-
-## Q3740. If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed?
-
-**Status:** Open · **Kind:** open problem (Problem 25) · **Collection** 38
-
-If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed?
-
-**Context.** Madou, Remizov and Vafadar edit this problem list. Doctoral route: Sahiba Arora, Long-term behaviour of operator semigroups and (anti-)maximum principles, TU Dresden, submitted 2022; supervisor Ralph Chill. Origin: Yuri Latushkin, Bari 2003, as attributed in Problem 25. Let (T(t))\_{t≥0} be a strongly continuous semigroup of bounded linear operators on a Banach space X, with generator A.
-
-**Source.** Kodjo Raphaël Madou, Ivan Remizov and Reihaneh Vafadar. *Open problems in one-parameter operator semigroups theory*. 2024. [primary source](https://arxiv.org/abs/2410.00416v2) Location: Problem 25, p. 19
-
-**Literature check.** Status: October 2024 v2 inspected; latest record rechecked.
-
-**Literature check.** Status checked October 9, 2026: no later exact resolution located.
-
-**Further links.** [1](https://d-nb.info/1281002844/34)
 
 
 <a id="q3743"></a>

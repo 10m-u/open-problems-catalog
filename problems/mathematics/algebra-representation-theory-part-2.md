@@ -1183,13 +1183,17 @@ For a finite-rank Coxeter system (W,S), let length be word length in S and T={ws
 
 ## Q3617. Realizability of strongly Koszul masks
 
-**Status:** Open · **Kind:** open problem (Question 2.16) · **Collection** 37
+**Status:** Solved here: disproved · **Kind:** open problem (Question 2.16) · **Collection** 37
 
 Fix a field F, n>=1, put [n]={1,...,n}, and E={(A,k):A subset [n],k notin A}. Suppose M:E->2^[n] satisfies: A subset M(A,k); A subset B and k notin B imply M(A,k) subset M(B,k); j in M(A,k) iff k in M(A,j) for j,k notin A; and M(M(A,k),j)=M(M(A,j),k) whenever j notin M(A,k). Suppose functions F_A in Z[[z]] exist with F_[n]=1 and F_A=F_{A union {k}}+z F_{M(A,k)}. Must some standard graded commutative F-algebra R with F-basis x_1,...,x_n of R_1 satisfy (x_i:i in A):x_j=(x_i:i in M(A,j)) for every (A,j) in E?
 
 **Source.** Luca Fiorindo. *Perazzo algebras, strongly Koszulness, Arithmetic Complexes, and Vasconcelos invariant*. University of Genova, 2026. Advisor(s): Aldo Conca. [primary source](https://unige.iris.cineca.it/retrieve/9b01309f-fa18-40af-87dd-aae58f1137f2/phdunige_5530713.pdf) Location: Definition 2.13 and Question 2.16, pp.44–45
 
 **Literature check.** Status: No later full resolution located, 9 October 2026.
+
+**Results.**
+
+- **Disproved**: No. On n = 3 the mask with M(∅,k) = ∅; M({1},2) = {1,2}, M({1},3) = {1,3}; M({2},1) = M({3},1) = {2,3}, M({2},3) = {1,2}, M({3},2) = {1,3}; and M(A,k) = [3] for |A| = 2 satisfies every listed condition, with F_∅ = (1+z)²/(1−z). No algebra realizes it over any field: the forced Hilbert series leaves a two-dimensional space of quadric relations, the colon conditions remove x² from all of them, and M({2,3},1) = [3] needs x² ∈ (y,z). The catalog wording matches Definition 2.13 and Question 2.16 of the source; its follow-up (which properties to add) is not addressed. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10. [Details](../../solutions/seven-problems-2026-10-10/Q3617.md).
 
 
 <a id="q3645"></a>
@@ -1286,7 +1290,7 @@ For a finite group G and any set π of primes, write C_G(g)={h∈G:hg=gh} and de
 
 ## Q3709. Submultiplicativity of finite-group quantum invariants
 
-**Status:** Open · **Kind:** open problem · **Collection** 38
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 38
 
 For a finite group H and an integer h≥1 put q_h(H)=|H|^{-1}∑\_{χ∈Irr(H)}χ(1)^{2−2h}, where Irr(H) is the set of irreducible complex characters. For every finite group G, normal subgroup N, and h≥1, must q_h(G)≤q_h(N)q_h(G/N)?
 
@@ -1295,6 +1299,10 @@ For a finite group H and an integer h≥1 put q_h(H)=|H|^{-1}∑\_{χ∈Irr(H)}�
 **Source.** Christopher A. Schroeder and Hung P. Tong-Viet. *On the invariants of finite groups arising in a topological quantum field theory*. 2026. [primary source](https://msp.org/pjm/2026/344-1/pjm-v344-n1-p07-s.pdf) Location: definition p.152, Remark 1.8, p.155
 
 **Literature check.** Status: Final source retains the unresolved inequality; h=1 is known.
+
+**Results.**
+
+- **Proved**: Yes for every integer genus h ≥ 1. Counting products of h commutators shows that each central-character sector has degree sum at most that of the quotient by the centre, so projective degree sums are at most ordinary ones; with an index bound for subgroups and Clifford theory this gives ζ(G) ≤ ζ(N)ζ(G/N) for ζ = Σ χ(1)^(2−2h). Limits: no claim for non-integer exponents. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10. [Details](../../solutions/seven-problems-2026-10-10/Q3709.md).
 
 **Further links.** [1](https://wiki.mathmig.binghamton.edu/doku.php?id=news:2026:0907_chris_schroeder)
 

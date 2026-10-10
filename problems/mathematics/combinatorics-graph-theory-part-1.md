@@ -703,13 +703,17 @@ Status source 2: https://doi.org/10.1017/S0305004126102059
 
 ## Q187. Fix a partition λ=(λ₁,…,λₙ) with n=λ₁≥⋯≥λₙ>0 with λᵢ ≥ n+1−i. Replace every cell…
 
-**Status:** Open · **Kind:** conjecture (Conjecture 3.4.9) · **Collection** 2
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 3.4.9) · **Collection** 2
 
 Fix a partition λ=(λ₁,…,λₙ) with n=λ₁≥⋯≥λₙ>0 with λᵢ ≥ n+1−i. Replace every cell of its French Young diagram by an N-by-N block and choose uniformly a placement with one rook in each row and column. Let X_N(t) be the fraction of rooks at positions (i,j) with i+j ≤ nNt, indexing matrix rows from the top. The thesis proves that mλ(t) = lim E[X_N(t)] exists. Must sup{ |X_N(t)−mλ(t)| : 0 ≤ t ≤ 2 } tend to zero in probability as N tends to infinity?
 
 **Context.** Origin: Author’s own conjecture from his solo paper Large-scale Rook Placements, Conjecture 5.9, reproduced in the thesis; not an earlier third-party conjecture despite the citation label.
 
 **Source.** Pakawut Jiradilok. *Inequalities and Asymptotic Formulas in Algebraic Combinatorics*. Massachusetts Institute of Technology, 2022. Advisor(s): Alexander Postnikov. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/b1d4131f-6b27-4242-af21-637d52fb7e79/content) · [record](https://math.mit.edu/documents/integral/integral_2023.pdf) Location: Conjecture 3.4.9, printed pp.79–80; Proposition 3.4.8 and equation (3.22), pp.78–79. Status evidence, checked 5 October 2026: The source proves convergence for unrestricted random permutations (square diagrams), and convergence of expectations generally. Searches by author, title and limit-shape terminology located no full resolution of the fixed general-shape conjecture.
+
+**Results.**
+
+- **Proved**: Yes. Revealing rows in nested order, a swap coupling changes each antidiagonal count by at most one, so a martingale bound gives P(sup_t |X_N(t) − E X_N(t)| ≥ u) ≤ 2(2nN+1)exp(−nNu²/2). The source's marginal dilation identity (confirmed here by exact enumeration on small dilated boards) puts E X_N within 2/N of m_λ uniformly. This gives convergence in probability and, by Borel–Cantelli, almost surely. Reconstructed checkpoint without its original checkers; re-derived here by hand and spot-checked with independent exact computations on 10 October 2026. Not external peer review or a novelty certification. Filed from the public-repo research round seven-problems-2026-10-10. [Details](../../solutions/seven-problems-2026-10-10/Q187.md).
 
 **Further links.** [1](https://arxiv.org/abs/2204.00615) · [2](https://sites.google.com/view/pjcombin/research)
 
@@ -4144,21 +4148,4 @@ Does every triple of longest paths in a finite connected graph have a common ver
 **Literature check.** Status for questions 2055, 2056, 2057, checked 6 October 2026: these remain open in the September source. Sarkar’s triple-path proof claim was withdrawn as erroneous (May 2024).
 
 **Further links.** [1](https://arxiv.org/abs/2006.16245)
-
-
-<a id="q2058"></a>
-
-## Q2058. Force dominating models at optimal density
-
-**Status:** Open · **Kind:** open problem · **Collection** 21
-
-Does an absolute C>0 exist such that, for every integer t≥2, every graph of average degree at least Ct log t contains a dominating K_t-model?
-
-**Context.** Origin for question 2058: Density conjecture: Illingworth–Wood, restated here. Setup for question 2058: A dominating K_t-model in a finite simple graph is an ordered sequence of disjoint nonempty connected vertex sets X₁,…,X_t such that every vertex of X_j has a neighbour in X_i whenever i&lt;j.
-
-**Source.** António Girão; Sergey Norin; Youri Tamitegama; Jane Tan. *Two Relaxations of the Dominating Hadwiger’s Conjecture*. 2026. [primary source](https://arxiv.org/abs/2608.12126) Location: §5, first paragraph, p. 18.
-
-**Literature check.** Status for question 2058, checked 6 October 2026: the proper-colouring disproof does not settle this density bound; no resolution found.
-
-**Further links.** [1](https://arxiv.org/abs/2609.35361)
 

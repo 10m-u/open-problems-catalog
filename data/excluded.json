@@ -142,5 +142,17 @@
   "statement_ids": [
    "a5f34994d4ebe9df815b"
   ]
+ },
+ {
+  "number": 3740,
+  "title": "If range(I−T(t₀)) is closed for some t₀>0, must range(A) be closed?",
+  "solved_elsewhere": {
+   "how": "proved in the literature",
+   "what": "Closed range of the generator from closed range of I − T(t₀): Król, A complement to spectral mapping theorems for C0-semigroups, Bull. London Math. Soc. 43 (2011), 17–25",
+   "url": "https://doi.org/10.1112/blms/bdq076"
+  },
+  "statement_ids": [
+   "31ea55d9856641f1e551"
+  ]
  }
 ]

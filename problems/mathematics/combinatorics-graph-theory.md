@@ -1,6 +1,6 @@
 # Combinatorics & Graph Theory
 
-553 problems: 527 open, 14 open, partial results, 10 solved here: proved, 2 solved here: disproved.
+553 problems: 525 open, 14 open, partial results, 12 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -51,7 +51,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q184](combinatorics-graph-theory-part-1.md#q184) | For every full-dimensional centrally symmetric polytope P in Rᵈ, centered at 0, … | Open |
 | [Q185](combinatorics-graph-theory-part-1.md#q185) | Fix ε > 0 and let n tend to infinity through n congruent to 1 or 3 modulo 6. Doe… | Open |
 | [Q186](combinatorics-graph-theory-part-1.md#q186) | Reveal all triples of {1,…,n} in uniformly random order, where n is congruent to… | Open |
-| [Q187](combinatorics-graph-theory-part-1.md#q187) | Fix a partition λ=(λ₁,…,λₙ) with n=λ₁≥⋯≥λₙ>0 with λᵢ ≥ n+1−i. Replace every cell… | Open |
+| [Q187](combinatorics-graph-theory-part-1.md#q187) | Fix a partition λ=(λ₁,…,λₙ) with n=λ₁≥⋯≥λₙ>0 with λᵢ ≥ n+1−i. Replace every cell… | Solved here: proved |
 | [Q200](combinatorics-graph-theory-part-1.md#q200) | If X is a finite 3-connected planar graph, must its quantum automorphism group Q… | Open |
 | [Q253](combinatorics-graph-theory-part-1.md#q253) | Fix \$m\ge2\$ and \$n\ge r\ge2\$. Must \$\operatorname{sat}(P_n^d,P_r^m)\$ and its axi… | Open |
 | [Q254](combinatorics-graph-theory-part-1.md#q254) | Let \$s(k)\$ be the eventual minimum size of a maximal family of subsets of \$[n]\$ … | Open |
@@ -249,7 +249,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q2055](combinatorics-graph-theory-part-1.md#q2055) | Sharpen longest-cycle intersections | Open |
 | [Q2056](combinatorics-graph-theory-part-1.md#q2056) | Separate longest cycles efficiently | Open |
 | [Q2057](combinatorics-graph-theory-part-1.md#q2057) | Intersect three longest paths | Open |
-| [Q2058](combinatorics-graph-theory-part-1.md#q2058) | Force dominating models at optimal density | Open |
+| [Q2058](combinatorics-graph-theory-part-2.md#q2058) | Force dominating models at optimal density | Open |
 | [Q2059](combinatorics-graph-theory-part-2.md#q2059) | Find high-girth high-dichromatic subdigraphs | Open |
 | [Q2060](combinatorics-graph-theory-part-2.md#q2060) | Order edges to distinguish neighbours | Open |
 | [Q2061](combinatorics-graph-theory-part-2.md#q2061) | Force non-nested monochromatic matchings | Open |
@@ -531,7 +531,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q3671](combinatorics-graph-theory-part-2.md#q3671) | Fractional domatic spectrum | Open |
 | [Q3672](combinatorics-graph-theory-part-2.md#q3672) | Sharp planar fractional domatic values | Open |
 | [Q3673](combinatorics-graph-theory-part-2.md#q3673) | Forbidden subgraphs reducing frugal colouring growth | Open |
-| [Q3674](combinatorics-graph-theory-part-2.md#q3674) | Sharp avoiding-colouring exponent | Open |
+| [Q3674](combinatorics-graph-theory-part-3.md#q3674) | Sharp avoiding-colouring exponent | Open |
 | [Q3675](combinatorics-graph-theory-part-3.md#q3675) | Maximum degree controls inversion diameter | Open |
 | [Q3676](combinatorics-graph-theory-part-3.md#q3676) | Bounded subdivision penalty for inversions | Open |
 | [Q3677](combinatorics-graph-theory-part-3.md#q3677) | Extensions of an almost-complete graphic matroid | Open |
@@ -555,7 +555,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | [Q3775](combinatorics-graph-theory-part-3.md#q3775) | Can every oriented graph have its arcs coloured with three colours so that every arc uv has… | Open |
 | [Q3776](combinatorics-graph-theory-part-3.md#q3776) | Can every digraph have its arcs coloured with two colours so that every arc uv has… | Open |
 | [Q3777](combinatorics-graph-theory-part-3.md#q3777) | For a uniformly random connected partition Ψ of Gₙ, is E[max_{B∈Ψ}\|B\|]=Θ(n)? | Open |
-| [Q3778](combinatorics-graph-theory-part-3.md#q3778) | Determine the computational complexity of computing the number of connected partitions of an… | Open |
+| [Q3778](combinatorics-graph-theory-part-3.md#q3778) | Determine the computational complexity of computing the number of connected partitions of an… | Solved here: proved |
 | [Q3779](combinatorics-graph-theory-part-3.md#q3779) | For each fixed t≥3, are graphs of clique-width at most t DOM-bounded? | Open |
 | [Q3780](combinatorics-graph-theory-part-3.md#q3780) | For n≥5, determine the least q(n) such that every n-vertex G with FDOM(G)≥5/2 has a dominating… | Open |
 | [Q3781](combinatorics-graph-theory-part-3.md#q3781) | Determine lim_{g→∞}F(g). | Open |
