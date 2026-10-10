@@ -186,7 +186,7 @@ For rational \$q/p\ge1\$, determine monomial ideals with \$\widehat\alpha(I)=q/p
 
 ## Q212. Let \$A=\bigoplus_{d\ge0}A_d\$ be a unital associative algebra over an algebraical…
 
-**Status:** Open · **Kind:** open problem (Question 3.10) · **Collection** 3
+**Status:** Solved here: disproved · **Kind:** open problem (Question 3.10) · **Collection** 3
 
 Let \$A=\bigoplus_{d\ge0}A_d\$ be a unital associative algebra over an algebraically closed field \$k\$, with every \$A_d\$ finite-dimensional. Given primitive idempotents \$e_1,\ldots,e_m\$ satisfying \$e_ie_j=0\$ for \$i\ne j\$ and \$\sum e_i=1\$, must a \$k\$-algebra automorphism carry the entire set to homogeneous idempotents? Such nonzero homogeneous idempotents lie in \$A_0\$.
 
@@ -195,6 +195,11 @@ Let \$A=\bigoplus_{d\ge0}A_d\$ be a unital associative algebra over an algebraic
 **Source.** Darius Dramburg. *Higher representation infinite algebras from skew-group algebras: Higher preprojective gradings, Koszul gradings, and McKay quivers*. Uppsala University, 2025. Advisor(s): Martin Herschend. [primary source](https://uu.diva-portal.org/smash/get/diva2%3A1954180/FULLTEXT01.pdf) · [record](https://www.uu.se/en/department/mathematics/events/archive/2025-08-22-dissertation-higher-representation-infinite-algebras-from-skew-group-algebras) Location: §2.5.3, final unnumbered question, printed/PDF p. 31; associated Paper V, Question 3.10.
 
 **Further links.** [1](https://arxiv.org/html/2609.03288v1) · [2](https://arxiv.org/html/2411.13283) · [3](https://mathoverflow.net/questions/479788/are-idempotents-in-a-nonnegatively-graded-algebra-conjugate-to-homogeneous-idemp)
+
+**Result (2026-10-10).** An explicit complete primitive orthogonal set in M_2(k[t^2,t^3]), over an algebraically closed characteristic-zero field, cannot be carried to homogeneous idempotents by any algebra automorphism. Its nonfree cross-corner module over the center obstructs even automorphisms acting nontrivially on the center. This resolves the catalog's locally finite nonnegative-grading question negatively. The separate standard-grading variant remains outside the result; the example has degree-one component zero.
+
+[Proof](../../solutions/seven-selected-2026-10-10/algebra/212.md) · [Internal review](../../solutions/seven-selected-2026-10-10/discrete/review-Q212.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/verification.json) · [Source check](../../solutions/seven-selected-2026-10-10/algebra/SOURCES.md). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
+
 
 
 <a id="q326"></a>

@@ -1,0 +1,127 @@
+{
+  "scope": "Q3840/Q3841: circumference 5 classifications and covering families; general problems remain unresolved",
+  "arithmetic": "exact integers; Python standard library only",
+  "transfer_states": 4310,
+  "transfer_arcs": 10800,
+  "cylinder_reachability": [
+    {
+      "m": 1,
+      "reachable_states": 60,
+      "accepting_states": 0
+    },
+    {
+      "m": 2,
+      "reachable_states": 160,
+      "accepting_states": 0
+    },
+    {
+      "m": 3,
+      "reachable_states": 350,
+      "accepting_states": 10
+    },
+    {
+      "m": 4,
+      "reachable_states": 480,
+      "accepting_states": 0
+    },
+    {
+      "m": 5,
+      "reachable_states": 770,
+      "accepting_states": 20
+    },
+    {
+      "m": 6,
+      "reachable_states": 1150,
+      "accepting_states": 0
+    },
+    {
+      "m": 7,
+      "reachable_states": 1710,
+      "accepting_states": 50
+    },
+    {
+      "m": 8,
+      "reachable_states": 1910,
+      "accepting_states": 0
+    },
+    {
+      "m": 9,
+      "reachable_states": 2650,
+      "accepting_states": 50
+    },
+    {
+      "m": 10,
+      "reachable_states": 2770,
+      "accepting_states": 20
+    },
+    {
+      "m": 11,
+      "reachable_states": 3230,
+      "accepting_states": 50
+    },
+    {
+      "m": 12,
+      "reachable_states": 3320,
+      "accepting_states": 50
+    },
+    {
+      "m": 13,
+      "reachable_states": 3430,
+      "accepting_states": 50
+    },
+    {
+      "m": 14,
+      "reachable_states": 3440,
+      "accepting_states": 50
+    },
+    {
+      "m": 15,
+      "reachable_states": 3460,
+      "accepting_states": 50
+    },
+    {
+      "m": 16,
+      "reachable_states": 3460,
+      "accepting_states": 50
+    }
+  ],
+  "torus_closed_walk_start_counts": {
+    "1": 0,
+    "2": 20,
+    "3": 0,
+    "4": 60,
+    "5": 0
+  },
+  "constructive_certificates": {
+    "seed_sizes": {
+      "cylinder": {
+        "3": 10,
+        "5": 14,
+        "7": 20,
+        "10": 32,
+        "12": 36
+      },
+      "torus": {
+        "7": 21,
+        "9": 26,
+        "11": 33,
+        "13": 36
+      }
+    },
+    "checked_insertions": 12,
+    "insertion_sum_at_C": [
+      2,
+      3,
+      1,
+      2,
+      4
+    ],
+    "insertion_sum_at_D": [
+      4,
+      1,
+      2,
+      3,
+      2
+    ]
+  }
+}

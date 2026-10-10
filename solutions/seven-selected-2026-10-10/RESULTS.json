@@ -1,0 +1,99 @@
+{
+  "round": "seven-selected-2026-10-10",
+  "date": "2026-10-10",
+  "base_commit": "322939ded7f14279544590a46e7917abbcc96942",
+  "evidence": "Proposed research results with separate internal AI reviews and reproducible exact computational controls. These are not externally peer reviewed, formally certified, or claims of priority over all literature.",
+  "results": [
+    {
+      "number": 212,
+      "status": "disproved",
+      "title": "Primitive idempotents need not admit homogeneous images",
+      "scope": "An explicit complete primitive orthogonal set in M_2(k[t^2,t^3]), over an algebraically closed characteristic-zero field, cannot be carried to homogeneous idempotents by any algebra automorphism. Its nonfree cross-corner module over the center obstructs even automorphisms acting nontrivially on the center.",
+      "limits": "This resolves the catalog's locally finite nonnegative-grading question negatively. The separate standard-grading variant remains outside the result; the example has degree-one component zero.",
+      "proof": "solutions/seven-selected-2026-10-10/algebra/212.md",
+      "review": "solutions/seven-selected-2026-10-10/discrete/review-Q212.md",
+      "checks": "solutions/seven-selected-2026-10-10/verification.json",
+      "sources": "solutions/seven-selected-2026-10-10/algebra/SOURCES.md",
+      "page": "problems/mathematics/algebra-representation-theory-part-1.md",
+      "index": "problems/index/Q0001-Q0500.md"
+    },
+    {
+      "number": 726,
+      "status": "proved",
+      "title": "Unrestricted MaxMinLCB retains the anytime regret rate",
+      "scope": "With the source's prescribed bounded or projected RKHS estimator and confidence coefficients, exact MaxMinLCB optimization over X in both domains has anytime regret O_{B,lambda,kappa}(beta_T^D sqrt(T gamma_T^D)) with probability at least 1-delta. The proof covers every optimizing tie and uses the posterior pseudometric triangle inequality to control both played arms.",
+      "limits": "The norm bound on the estimator is the source's theoretical assumption, with its prescribed projection when needed. The result does not cover an unprojected estimate outside that bound, approximate optimization, or an efficient implementation of continuous max-min optimization.",
+      "proof": "solutions/seven-selected-2026-10-10/learning/Q726.md",
+      "review": "solutions/seven-selected-2026-10-10/algebra/review-Q726.md",
+      "checks": "solutions/seven-selected-2026-10-10/learning/checks.json",
+      "sources": "solutions/seven-selected-2026-10-10/learning/SOURCES.md",
+      "page": "problems/mathematics/optimization-operations-research.md",
+      "index": "problems/index/Q0501-Q1001.md"
+    },
+    {
+      "number": 3840,
+      "status": "partial",
+      "title": "Proper total domination on circumference-five cylinders",
+      "scope": "C_5 square P_m has a proper total dominating set exactly for m in {3,5,7} or m>=9. In the catalog's requested range, the circumference-five failures are precisely m=6 and m=8. Explicit two-row insertions prove the infinite positive families, and covering pullbacks supply positive families for every odd circumference divisible by five.",
+      "limits": "The full classification at all odd circumferences n>=7 remains unresolved. Exact exhaustive certificates prove the finitely many negative cases; nonexistence is not asserted to pull back to graph covers.",
+      "proof": "solutions/seven-selected-2026-10-10/discrete/Q3840.md",
+      "review": "solutions/seven-selected-2026-10-10/probability/review-Q3840-Q3841.md",
+      "checks": "solutions/seven-selected-2026-10-10/discrete/verification.json",
+      "sources": "solutions/seven-selected-2026-10-10/discrete/sources.md",
+      "page": "problems/mathematics/combinatorics-graph-theory-part-3.md",
+      "index": "problems/index/Q3513-Q4013.md"
+    },
+    {
+      "number": 3841,
+      "status": "partial",
+      "title": "Proper total domination on circumference-five tori",
+      "scope": "For odd m>=5, C_5 square C_m has a proper total dominating set if and only if m>=7. An exact exhaustive certificate excludes C_5 square C_5; explicit seeds and two-row insertions cover all positive lengths. Covering pullbacks extend the positive families to odd circumferences divisible by five.",
+      "limits": "The full classification when both odd circumferences are at least seven remains unresolved. The covering argument is sufficient for existence and makes no assertion that nonexistence persists under covers.",
+      "proof": "solutions/seven-selected-2026-10-10/discrete/Q3841.md",
+      "review": "solutions/seven-selected-2026-10-10/probability/review-Q3840-Q3841.md",
+      "checks": "solutions/seven-selected-2026-10-10/discrete/verification.json",
+      "sources": "solutions/seven-selected-2026-10-10/discrete/sources.md",
+      "page": "problems/mathematics/combinatorics-graph-theory-part-3.md",
+      "index": "problems/index/Q3513-Q4013.md"
+    },
+    {
+      "number": 3893,
+      "status": "proved",
+      "title": "Whiskering forces Lefschetz failure over every field",
+      "scope": "For every graph G on n vertices with an independent triple, the square-truncated algebra of its fully whiskered graph fails the weak Lefschetz property over every field. Every linear form fails maximal rank from degree ceil(n/2) to degree ceil(n/2)+1. A shear yields invariant summands forcing a kernel and a cokernel in the same map.",
+      "limits": "The statement uses the exact square relations and complete whiskering in the source conjecture. It makes no extension to arbitrary higher truncation powers or general very-well-covered graphs.",
+      "proof": "solutions/seven-selected-2026-10-10/algebra/3893.md",
+      "review": "solutions/seven-selected-2026-10-10/discrete/review-Q3893.md",
+      "checks": "solutions/seven-selected-2026-10-10/verification.json",
+      "sources": "solutions/seven-selected-2026-10-10/algebra/SOURCES.md",
+      "page": "problems/mathematics/algebra-representation-theory-part-2.md",
+      "index": "problems/index/Q3513-Q4013.md"
+    },
+    {
+      "number": 3982,
+      "status": "proved",
+      "title": "Conditioned Brownian motion for every subcritical drift",
+      "scope": "For every deterministic drift with mu(T)^2=o(T), Brownian motion conditioned on its squared L2 norm being at most theta T converges to dX_t=dB_t-X_t/(2 theta) dt, X_0=x. Convergence holds in total variation on every fixed initial interval and weakly on C([0,infinity)) with uniform convergence on compact intervals.",
+      "limits": "The proof treats a drift constant in time within each path and the source's deterministic norm threshold. It does not address observation windows growing to the terminal horizon or arbitrary time-inhomogeneous drifts.",
+      "proof": "solutions/seven-selected-2026-10-10/probability/brownian_l2_drift.md",
+      "review": "solutions/seven-selected-2026-10-10/reviews/Q3982-Q3983.md",
+      "checks": "solutions/seven-selected-2026-10-10/probability/checks.json",
+      "sources": "solutions/seven-selected-2026-10-10/probability/sources.json",
+      "page": "problems/mathematics/probability-stochastic-processes-part-2.md",
+      "index": "problems/index/Q3513-Q4013.md"
+    },
+    {
+      "number": 3983,
+      "status": "proved",
+      "title": "The critical-drift Ornstein-Uhlenbeck limit",
+      "scope": "If mu(T) is asymptotic to c sqrt(T), the conditioned law converges to dX_t=dB_t-lambda_c X_t dt, X_0=x, where lambda_c is the unique positive root of 2 theta lambda_c^3-lambda_c^2-c^2=0. The sign of c does not affect the limit. The unified proof covers every finite limit mu(T)^2/T -> r>=0 and gives total variation convergence on fixed initial intervals.",
+      "limits": "The result includes weak convergence in the source's compact-uniform path topology. It does not cover mu(T)^2/T diverging, a random norm threshold, or observation windows reaching the terminal horizon.",
+      "proof": "solutions/seven-selected-2026-10-10/probability/brownian_l2_drift.md",
+      "review": "solutions/seven-selected-2026-10-10/reviews/Q3982-Q3983.md",
+      "checks": "solutions/seven-selected-2026-10-10/probability/checks.json",
+      "sources": "solutions/seven-selected-2026-10-10/probability/sources.json",
+      "page": "problems/mathematics/probability-stochastic-processes-part-2.md",
+      "index": "problems/index/Q3513-Q4013.md"
+    }
+  ]
+}

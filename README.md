@@ -7,9 +7,9 @@ obtained on it. Problems already solved elsewhere are left out.
 | | Count |
 |---|---:|
 | Problems in the catalog | 4187 |
-| Open | 4035 |
-| Open, with partial results here | 97 |
-| Solved here | 55 (39 proved, 16 disproved) |
+| Open | 4028 |
+| Open, with partial results here | 99 |
+| Solved here | 60 (43 proved, 17 disproved) |
 | Excluded as solved elsewhere | 13 |
 | Automatically extracted thesis statements (unreviewed) | 10001 |
 
@@ -50,6 +50,7 @@ level. None of it is peer reviewed. Much of the work was done with AI research a
 - `seven-problems-2026-10-09` contains four proposed complete answers (three affirmative and one nonexistence theorem) and three proved partial results. Each has a separate internal AI review. Reproducible checks combine exact finite controls with supplementary numerical integration; the three unresolved general questions retain partial status.
 - `seven-more-2026-10-09` contains two proposed affirmative resolutions, two exact counterexamples and three partial results, each with a separate internal AI review and reproducible exact controls. The general freezing-process and unrestricted Cayley-word questions remain unresolved.
 - `seven-problems-2026-10-10` is a reconstructed checkpoint: its original checkers were lost, so the notes carry the arguments only. Before filing, each argument was re-derived by hand and spot-checked with independent exact computations: four affirmative answers (Q187, Q294, Q3709, Q3778), one counterexample (Q3617) and a partial AR(2) result (Q1013). Q3740 was already settled by Król (2011) and is listed as solved elsewhere.
+- `seven-selected-2026-10-10` contains four proposed affirmative resolutions, one primitive-idempotent counterexample and two partial graph-product classifications. Each has a separate internal AI review and reproducible exact controls; Brownian numerical diagnostics are supplementary. The two unrestricted graph classifications retain partial status, and every result records its assumptions and remaining scope.
 
 "Solved here" means a result on this repository's own record at the scope stated on the problem page. It does not
 mean an independently verified theorem. Reports of errors are welcome.
@@ -73,4 +74,4 @@ the public domain under [CC0 1.0](LICENSE). The problem statements are quoted or
 cited theses and papers; their wording remains with those authors and is included for identification and
 reference. CC0 does not extend to it.
 
-Snapshot date: 2026-10-09.
+Snapshot date: 2026-10-10.

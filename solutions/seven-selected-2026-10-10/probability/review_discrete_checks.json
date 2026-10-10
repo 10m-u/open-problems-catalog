@@ -1,0 +1,53 @@
+{
+  "arithmetic": "exact integers, standard library only",
+  "independence": "No imports from discrete/verify.py; explicit row words for the torus",
+  "torus_word_counts_at_lengths_3_4_5": [
+    4310,
+    10800,
+    25170
+  ],
+  "closed_torus_5_by_5_membership_words": 0,
+  "cylinder_counts": [
+    {
+      "length": 1,
+      "frontier_size": 60,
+      "accepting_frontiers": 0
+    },
+    {
+      "length": 2,
+      "frontier_size": 160,
+      "accepting_frontiers": 0
+    },
+    {
+      "length": 3,
+      "frontier_size": 350,
+      "accepting_frontiers": 10
+    },
+    {
+      "length": 4,
+      "frontier_size": 480,
+      "accepting_frontiers": 0
+    },
+    {
+      "length": 5,
+      "frontier_size": 770,
+      "accepting_frontiers": 20
+    },
+    {
+      "length": 6,
+      "frontier_size": 1150,
+      "accepting_frontiers": 0
+    },
+    {
+      "length": 7,
+      "frontier_size": 1710,
+      "accepting_frontiers": 50
+    },
+    {
+      "length": 8,
+      "frontier_size": 1910,
+      "accepting_frontiers": 0
+    }
+  ],
+  "all_passed": true
+}

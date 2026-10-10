@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "base_commit": "322939ded7f14279544590a46e7917abbcc96942",
+  "round": "seven-selected-2026-10-10",
+  "catalog_entries": 4187,
+  "changed_ids": [
+    212,
+    726,
+    3840,
+    3841,
+    3893,
+    3982,
+    3983
+  ],
+  "changed_fields": {
+    "212": [
+      "ledger",
+      "results",
+      "status",
+      "status_notes"
+    ],
+    "726": [
+      "ledger",
+      "results",
+      "status",
+      "status_notes"
+    ],
+    "3840": [
+      "ledger",
+      "results",
+      "status",
+      "status_notes"
+    ],
+    "3841": [
+      "ledger",
+      "results",
+      "status",
+      "status_notes"
+    ],
+    "3893": [
+      "ledger",
+      "results",
+      "status",
+      "status_notes"
+    ],
+    "3982": [
+      "ledger",
+      "results",
+      "status",
+      "status_notes"
+    ],
+    "3983": [
+      "ledger",
+      "results",
+      "status",
+      "status_notes"
+    ]
+  },
+  "global_status_counts": {
+    "disproved": 17,
+    "open": 4028,
+    "partial": 99,
+    "proved": 43
+  },
+  "subject_counts_checked": 35,
+  "detail_statuses_checked": 4187,
+  "overview_statuses_checked": 4187,
+  "index_statuses_checked": 4187,
+  "manifest_artifacts_checked": 27,
+  "round_markdown_files_checked": 16,
+  "local_markdown_links_checked": 54,
+  "checks": [
+    "exact seven-ID JSON change boundary",
+    "immutable problem statements and metadata",
+    "CSV statuses and unchanged other fields",
+    "all rendered catalog statuses",
+    "global and subject count recomputation",
+    "exact full-page and index routing",
+    "manifest artifact existence",
+    "local Markdown files and fragment targets"
+  ]
+}

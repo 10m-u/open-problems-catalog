@@ -1,0 +1,262 @@
+{
+  "problem_numbers": [
+    3982,
+    3983
+  ],
+  "exact_checks": {
+    "arithmetic": "fractions.Fraction, exact",
+    "saddle_series_cases": 25,
+    "whole_contour_identity_cases": 150,
+    "killed_generator_identity_cases": 125,
+    "all_passed": true
+  },
+  "numerical_checks": {
+    "arithmetic": "floating point; diagnostic, not certified interval bounds",
+    "numpy_version": "2.3.5",
+    "scipy_version": "1.17.0",
+    "independent_Karhunen_Loeve_product_checks": [
+      {
+        "length": 1.3,
+        "start": 0.2,
+        "tilt": 0.7,
+        "s": [
+          0.8,
+          0.35
+        ],
+        "modes": [
+          4000,
+          8000
+        ],
+        "relative_errors": [
+          2.350554353087009e-05,
+          1.175271853355462e-05
+        ]
+      },
+      {
+        "length": 0.8,
+        "start": -0.7,
+        "tilt": -1.1,
+        "s": [
+          0.4,
+          0.9
+        ],
+        "modes": [
+          4000,
+          8000
+        ],
+        "relative_errors": [
+          2.3197695620727573e-05,
+          1.1598900126101124e-05
+        ]
+      },
+      {
+        "length": 1.0,
+        "start": 0.5,
+        "tilt": -0.9,
+        "s": [
+          1.2,
+          0.0
+        ],
+        "modes": [
+          4000,
+          8000
+        ],
+        "relative_errors": [
+          9.87886355563461e-06,
+          4.939419819827151e-06
+        ]
+      }
+    ],
+    "exact_transform_contour_ratio_checks": [
+      {
+        "regime": "zero",
+        "checks": [
+          {
+            "T": 32,
+            "tilt": 0.0,
+            "lambda_T": 0.5,
+            "exact_transform_density_ratio": 1.1376940025203799,
+            "moving_saddle_prediction": 1.1239789235436426,
+            "relative_error_to_moving_saddle": 0.01220225636749217,
+            "limiting_density_ratio": 1.1239789235436426,
+            "relative_error_to_limit": 0.01220225636749217,
+            "quadrature_estimated_absolute_errors": [
+              4.8926039187018196e-12,
+              4.279406117021102e-12
+            ]
+          },
+          {
+            "T": 128,
+            "tilt": 0.0,
+            "lambda_T": 0.5,
+            "exact_transform_density_ratio": 1.1278212631306364,
+            "moving_saddle_prediction": 1.1239789235436426,
+            "relative_error_to_moving_saddle": 0.0034185156914505743,
+            "limiting_density_ratio": 1.1239789235436426,
+            "relative_error_to_limit": 0.0034185156914505743,
+            "quadrature_estimated_absolute_errors": [
+              1.854288739647722e-11,
+              1.2740816965287365e-11
+            ]
+          },
+          {
+            "T": 512,
+            "tilt": 0.0,
+            "lambda_T": 0.5,
+            "exact_transform_density_ratio": 1.124977086754146,
+            "moving_saddle_prediction": 1.1239789235436426,
+            "relative_error_to_moving_saddle": 0.0008880622132632077,
+            "limiting_density_ratio": 1.1239789235436426,
+            "relative_error_to_limit": 0.0008880622132632077,
+            "quadrature_estimated_absolute_errors": [
+              1.0139902847670443e-11,
+              9.88277006169624e-12
+            ]
+          }
+        ]
+      },
+      {
+        "regime": "subcritical_T_to_3_over_8",
+        "checks": [
+          {
+            "T": 32,
+            "tilt": 3.668016172818685,
+            "lambda_T": 0.8158422090951281,
+            "exact_transform_density_ratio": 1.153575690172442,
+            "moving_saddle_prediction": 1.1493167498647308,
+            "relative_error_to_moving_saddle": 0.0037056279813312276,
+            "limiting_density_ratio": 1.1239789235436426,
+            "relative_error_to_limit": 0.026332136669865447,
+            "quadrature_estimated_absolute_errors": [
+              1.8241062240179712e-11,
+              1.7338495687804123e-11
+            ]
+          },
+          {
+            "T": 128,
+            "tilt": 6.168843301631763,
+            "lambda_T": 0.7584277272078324,
+            "exact_transform_density_ratio": 1.1492338931975525,
+            "moving_saddle_prediction": 1.1480705267666595,
+            "relative_error_to_moving_saddle": 0.0010133231397981834,
+            "limiting_density_ratio": 1.1239789235436426,
+            "relative_error_to_limit": 0.022469255539318223,
+            "quadrature_estimated_absolute_errors": [
+              1.2747708560973268e-11,
+              1.1560856622038854e-11
+            ]
+          },
+          {
+            "T": 512,
+            "tilt": 10.374716437208077,
+            "lambda_T": 0.7090647225379973,
+            "exact_transform_density_ratio": 1.1461179550629752,
+            "moving_saddle_prediction": 1.1457916494459175,
+            "relative_error_to_moving_saddle": 0.0002847861713912714,
+            "limiting_density_ratio": 1.1239789235436426,
+            "relative_error_to_limit": 0.01969701660377532,
+            "quadrature_estimated_absolute_errors": [
+              6.2541295217725895e-12,
+              5.3696097537505524e-12
+            ]
+          }
+        ]
+      },
+      {
+        "regime": "critical_plus",
+        "checks": [
+          {
+            "T": 32,
+            "tilt": 5.656854249492381,
+            "lambda_T": 1.0,
+            "exact_transform_density_ratio": 1.1463908985307383,
+            "moving_saddle_prediction": 1.143107007167784,
+            "relative_error_to_moving_saddle": 0.002872776863725557,
+            "limiting_density_ratio": 1.143107007167784,
+            "relative_error_to_limit": 0.002872776863725557,
+            "quadrature_estimated_absolute_errors": [
+              4.9568631329977825e-12,
+              1.7909054773327374e-11
+            ]
+          },
+          {
+            "T": 128,
+            "tilt": 11.313708498984761,
+            "lambda_T": 1.0,
+            "exact_transform_density_ratio": 1.1439147323206635,
+            "moving_saddle_prediction": 1.143107007167784,
+            "relative_error_to_moving_saddle": 0.0007066050228148324,
+            "limiting_density_ratio": 1.143107007167784,
+            "relative_error_to_limit": 0.0007066050228148324,
+            "quadrature_estimated_absolute_errors": [
+              3.165537019099603e-12,
+              2.6018591474453996e-12
+            ]
+          },
+          {
+            "T": 512,
+            "tilt": 22.627416997969522,
+            "lambda_T": 1.0,
+            "exact_transform_density_ratio": 1.1433081229897653,
+            "moving_saddle_prediction": 1.143107007167784,
+            "relative_error_to_moving_saddle": 0.00017593787871139632,
+            "limiting_density_ratio": 1.143107007167784,
+            "relative_error_to_limit": 0.00017593787871139632,
+            "quadrature_estimated_absolute_errors": [
+              2.126113948745979e-12,
+              1.8331629366784246e-12
+            ]
+          }
+        ]
+      },
+      {
+        "regime": "critical_minus",
+        "checks": [
+          {
+            "T": 32,
+            "tilt": -5.656854249492381,
+            "lambda_T": 1.0,
+            "exact_transform_density_ratio": 1.1463908985307372,
+            "moving_saddle_prediction": 1.143107007167784,
+            "relative_error_to_moving_saddle": 0.0028727768637246687,
+            "limiting_density_ratio": 1.143107007167784,
+            "relative_error_to_limit": 0.0028727768637246687,
+            "quadrature_estimated_absolute_errors": [
+              4.956857930957041e-12,
+              1.7909025430412015e-11
+            ]
+          },
+          {
+            "T": 128,
+            "tilt": -11.313708498984761,
+            "lambda_T": 1.0,
+            "exact_transform_density_ratio": 1.1439147323206635,
+            "moving_saddle_prediction": 1.143107007167784,
+            "relative_error_to_moving_saddle": 0.0007066050228148324,
+            "limiting_density_ratio": 1.143107007167784,
+            "relative_error_to_limit": 0.0007066050228148324,
+            "quadrature_estimated_absolute_errors": [
+              3.165537019099603e-12,
+              2.6018591474453996e-12
+            ]
+          },
+          {
+            "T": 512,
+            "tilt": -22.627416997969522,
+            "lambda_T": 1.0,
+            "exact_transform_density_ratio": 1.1433081229897653,
+            "moving_saddle_prediction": 1.143107007167784,
+            "relative_error_to_moving_saddle": 0.00017593787871139632,
+            "limiting_density_ratio": 1.143107007167784,
+            "relative_error_to_limit": 0.00017593787871139632,
+            "quadrature_estimated_absolute_errors": [
+              2.126113948745979e-12,
+              1.8331629366784246e-12
+            ]
+          }
+        ]
+      }
+    ],
+    "all_passed": true
+  }
+}
