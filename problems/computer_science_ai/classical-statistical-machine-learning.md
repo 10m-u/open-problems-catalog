@@ -1,6 +1,6 @@
 # Classical Statistical Machine Learning
 
-170 problems: 159 open, 8 open, partial results, 3 solved here: proved.
+171 problems: 160 open, 8 open, partial results, 3 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -176,6 +176,7 @@
 | [Q1086](classical-statistical-machine-learning.md#q1086) | Exact repair with two separately penalized semantic dependencies | Open |
 | [Q1722](classical-statistical-machine-learning.md#q1722) | Qualitative quasicircle preservation forces quasiconformality | Open |
 | [Q3856](classical-statistical-machine-learning.md#q3856) | For every such pair of means, is sup_{T≥1} R_exp(T)<∞? | Open |
+| [Q4249](classical-statistical-machine-learning.md#q4249) | For N,M≥2, is there an absolute K with lr(C)≤K log N log M for every N×M sign matrix A, whose… | Open |
 
 <a id="q68"></a>
 
@@ -2995,4 +2996,19 @@ For every such pair of means, is sup_{T≥1} R_exp(T)<∞?
 **Literature check.** Status, 10 October 2026: no matching resolution found. Boone–Gaujal’s final COLT 2025 result gives logarithmic exploration regret for episodic MDP algorithms, not this constant UCB bound. The exact defense date is omitted because primary records disagree.
 
 **Further links.** [1](https://arxiv.org/abs/2311.18437v1) · [2](https://proceedings.mlr.press/v291/boone25a.html)
+
+
+<a id="q4249"></a>
+
+## Q4249. For N,M≥2, is there an absolute K with lr(C)≤K log N log M for every N×M sign matrix A, whose…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.17) · **Collection** 43
+
+For N,M≥2, is there an absolute K with lr(C)≤K log N log M for every N×M sign matrix A, whose rows form C on its M columns?
+
+**Context.** For a finite binary concept class C on X, define lr(C) as the least L such that, for every ε>0, a possibly randomized learner exists with this property: for every δ>0 some sample size n works for every C-realizable distribution μ on X×{±1}, meaning y=c(x) almost surely for some c∈C; there is a list of at most L hypotheses, each having μ-error at most ε, that contains the learner's output on n independent μ-samples with probability at least 1−δ over samples and learner randomness. Hypotheses need not belong to C. Origin and location: Conjecture 1.17, p.13; Definition 2.10, p.17. Version: arXiv v2, 21 July 2026. September's topological index result is weaker; Zhang's September preprint reports a partial bound and retains the conjecture.
+
+**Source.** Ari Blondal, Hamed Hatami, Pooya Hatami, Chavdar Lalov and Sivan Tretiak. *Sign-Rank, Index, and List Replicability: Connections and Separations*. 2026. [primary source](https://arxiv.org/abs/2606.18236v2) Location: Conjecture 1.17, p.13; Definition 2.10, p.17.
+
+**Further links.** [1](https://doi.org/10.5281/zenodo.22702817)
 

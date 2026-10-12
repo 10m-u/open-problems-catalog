@@ -941,6 +941,8 @@ Does MaxMinLCB retain anytime regret O(β\_Tᴰ(δ)√(Tγ\_Tᴰ)) with probabil
 
 **Literature check.** Status for question 726, checked 5 October 2026: Retained in December 2025 v3; no later resolution located.
 
+**Literature check.** Research update, 10 October 2026: proposed complete proof recorded in seven-selected-2026-10-10. The norm bound on the estimator is the source's theoretical assumption, with its prescribed projection when needed. The result does not cover an unprojected estimate outside that bound, approximate optimization, or an efficient implementation of continuous max-min optimization.
+
 **Result (2026-10-10).** With the source's prescribed bounded or projected RKHS estimator and confidence coefficients, exact MaxMinLCB optimization over X in both domains has anytime regret O_{B,lambda,kappa}(beta_T^D sqrt(T gamma_T^D)) with probability at least 1-delta. The proof covers every optimizing tie and uses the posterior pseudometric triangle inequality to control both played arms. The norm bound on the estimator is the source's theoretical assumption, with its prescribed projection when needed. The result does not cover an unprojected estimate outside that bound, approximate optimization, or an efficient implementation of continuous max-min optimization.
 
 [Proof](../../solutions/seven-selected-2026-10-10/learning/Q726.md) · [Internal review](../../solutions/seven-selected-2026-10-10/algebra/review-Q726.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/learning/checks.json) · [Source check](../../solutions/seven-selected-2026-10-10/learning/SOURCES.md). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.

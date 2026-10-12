@@ -1,6 +1,6 @@
 # Algorithmic Game Theory, Learning & Network Games
 
-84 problems: 81 open, 3 solved here: disproved.
+86 problems: 83 open, 3 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -90,6 +90,8 @@
 | [Q4167](algorithmic-game-theory-learning-network-games.md#q4167) | Is there an absolute α>0 guaranteeing an α-MMS allocation for every G, n and these utilities? | Open |
 | [Q4168](algorithmic-game-theory-learning-network-games.md#q4168) | What is the largest universal α guaranteeing such allocations when G is a cactus, meaning each… | Open |
 | [Q4171](algorithmic-game-theory-learning-network-games.md#q4171) | In the preceding connected MMS model, what is the largest constant c that guarantees a c-MMS… | Open |
+| [Q4307](algorithmic-game-theory-learning-network-games.md#q4307) | Determine the computational complexity of finding a minimum-cardinality S⊆V for which G−S is… | Open |
+| [Q4637](algorithmic-game-theory-learning-network-games.md#q4637) | Suppose lim_{λ↓0}V_λ(h,·) exists pointwise on Δ(Ω) for every sufficiently small h. Must… | Open |
 
 <a id="q62"></a>
 
@@ -1483,4 +1485,36 @@ In the preceding connected MMS model, what is the largest constant c that guaran
 **Source.** Zbigniew Lonc. *Approximating Proportional and Maximin Allocations on D-Claw-Free Graphs*. 2026. [primary source](https://www.jair.org/index.php/jair/article/download/17263/27278) Location: Problem 2 p. 23:25; definitions pp. 23:5–7.
 
 **Literature check.** Status: The question was already posed in Lonc’s IJCAI 2023 paper, Problem 1 p. 2832. Read the JAIR publisher final; no matching resolution found, 10 October 2026.
+
+
+<a id="q4307"></a>
+
+## Q4307. Determine the computational complexity of finding a minimum-cardinality S⊆V for which G−S is…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Determine the computational complexity of finding a minimum-cardinality S⊆V for which G−S is stable, when every c_v≤2; surviving vertices retain their capacities and edges retain their weights.
+
+**Context.** For a finite graph G=(V,E) with nonnegative edge weights w and nonnegative integer vertex capacities c, a c-matching is M⊆E with deg_M(v)≤c_v. Write ν^c(G)=max_M ∑\_{e∈M}w_e and ν\_f^c(G)=max{∑\_e w_ex_e: 0≤x_e≤1, ∑\_{e∋v}x_e≤c_v}. Call G stable when these two optima agree.
+
+**Source.** Lucy Petronella Antonia Verberk. *Stabilization and the Core of Matching Games*. Eindhoven University of Technology, 2025. Advisor(s): Laura Sanità; second promotor Frits Spieksma. [primary source](https://pure.tue.nl/ws/portalfiles/portal/367328374/20251013_Verberk_hf.pdf) Location: dissertation §3.1, Open Problems, p.31 (PDF37); definitions pp.11–13,27.
+
+**Literature check.** Status checked 11 October 2026: the dissertation explicitly retains this question after the related paper's November 2024 final publication; no later resolution located.
+
+**Further links.** [1](https://doi.org/10.1007/s10107-024-02169-x)
+
+
+<a id="q4637"></a>
+
+## Q4637. Suppose lim_{λ↓0}V_λ(h,·) exists pointwise on Δ(Ω) for every sufficiently small h. Must…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Suppose lim_{λ↓0}V_λ(h,·) exists pointwise on Δ(Ω) for every sufficiently small h. Must lim_{λ↓0}lim_{h↓0}V_λ(h,·) and lim_{h↓0}lim_{λ↓0}V_λ(h,·) both exist pointwise and be equal?
+
+**Context.** Ivan Novikov, primary talk,29June2026: Zero-Sum Stochastic Games with Frequent Actions and Vanishing Discount Factors. Let Ω,I,J,A be finite nonempty sets, with states Ω, simultaneous action sets I,J, signal map f:Ω→A, payoff g:Ω×I×J→R, transition kernel P:Ω×I×J→Δ(Ω), and initial law p∈Δ(Ω). Both players observe the signals and past actions, but neither states nor payoffs. Behavioural strategies use that public history. For h,λ∈(0,1), replace P by P_h=(1−h)Id+hP, where Id denotes the identity kernel, and let V_λ(h,p)=sup_σ inf_τ E_{p,σ,τ}[Σ\_{n≥1}λh(1−λh)^{n−1}g(ω\_n,i_n,j_n)]. Audited provenance and status: Subject: Stochastic games Author homepage verifies Paris-Dauphine–PSL doctorate,3December2025, advisor Guillaume Vigeral; links the June29 talk and still labels the two relevant preprints submitted. 10.1007/s13235-024-00599-y,Dynamic Games and Applications15,1094–1115,2025; arXiv2401.10572. Fixed-discount state-blind limit results precede the explicit June2026 question. Publisher text was not retrieved; later primary reaffirmation is the status basis. 2403.07467v3,19February2026: §4.4.5,p.20 asks existence, not conditional interchange. Conjecture1 asserts all-h inner-limit failure; this is not a verified counterexample satisfying the selected premise. 2407.16282v2 is a technical duplicate withdrawal explicitly redirected here. The official thesis access was blocked by an Anubis challenge; thesis text was not read.
+
+**Source.** Ivan Novikov. *Zero-Sum Stochastic Games with Frequent Actions and Vanishing Discount Factors*. 2026. [primary source](https://ivan-novikov98.github.io/files/pdf/additional%20materials/defense/present-ihp.pdf) Location: Question6,p.25; model,pp.4–5,10,14.
+
+**Further links.** [1](https://arxiv.org/abs/2401.10572) · [2](https://arxiv.org/abs/2403.07467v3) · [3](https://arxiv.org/abs/2407.16282v2)
 

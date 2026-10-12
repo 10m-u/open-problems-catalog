@@ -1,10 +1,10 @@
 # Probability & Stochastic Processes
 
-509 problems: 469 open, 20 open, partial results, 15 solved here: proved, 5 solved here: disproved.
+559 problems: 519 open, 20 open, partial results, 15 solved here: proved, 5 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
-Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md)
+Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md) · [3](probability-stochastic-processes-part-3.md)
 
 | Q | Title | Status |
 |---|---|---|
@@ -517,3 +517,53 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q4130"></a>[Q4130](probability-stochastic-processes-part-2.md#q4130) | For each d∈{3,4}, determine whether λp<λ₂, λp=λ₂, or λp>λ₂. | Open |
 | <a id="q4131"></a>[Q4131](probability-stochastic-processes-part-2.md#q4131) | Does λ₂<λh hold for every d∈{3,4,5,6}? | Open |
 | <a id="q4134"></a>[Q4134](probability-stochastic-processes-part-2.md#q4134) | Is it true, for every such law and every integer n≥1, that supₓ∈R \|P((X₁+⋯+Xₙ)/√n≤x)−Φ(x)\|≤cEβ/√n? | Open |
+| <a id="q4202"></a>[Q4202](probability-stochastic-processes-part-2.md#q4202) | For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p)… | Open |
+| <a id="q4203"></a>[Q4203](probability-stochastic-processes-part-2.md#q4203) | Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a… | Open |
+| <a id="q4218"></a>[Q4218](probability-stochastic-processes-part-2.md#q4218) | For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant? | Open |
+| <a id="q4219"></a>[Q4219](probability-stochastic-processes-part-2.md#q4219) | For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some… | Open |
+| <a id="q4220"></a>[Q4220](probability-stochastic-processes-part-2.md#q4220) | For d=2 and p∈[5/8,1), does (log n)\|R_n\|/n converge as n→∞ in probability to some r(p)>0? If so,… | Open |
+| <a id="q4221"></a>[Q4221](probability-stochastic-processes-part-2.md#q4221) | For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor… | Open |
+| <a id="q4222"></a>[Q4222](probability-stochastic-processes-part-2.md#q4222) | For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of… | Open |
+| <a id="q4223"></a>[Q4223](probability-stochastic-processes-part-3.md#q4223) | For every N≥1,t≥1,x∈B_N and i∈{1,2}, is −3≤v_t(x+e_i)−2v_t(x)+v_t(x−e_i)≤2? This is the source's… | Open |
+| <a id="q4224"></a>[Q4224](probability-stochastic-processes-part-3.md#q4224) | Must p_c^site(T)≤1/2? | Open |
+| <a id="q4227"></a>[Q4227](probability-stochastic-processes-part-3.md#q4227) | Does some deterministic sequence ε\_n→0 satisfy P(X_n≥n^(1−ε\_n))→1 as n→∞? | Open |
+| <a id="q4228"></a>[Q4228](probability-stochastic-processes-part-3.md#q4228) | Does X_n/n→0 in probability as n→∞? | Open |
+| <a id="q4229"></a>[Q4229](probability-stochastic-processes-part-3.md#q4229) | Does X_n/E[X_n] converge in distribution as n→∞, and, if so, is its limit constant or nondegenerate? | Open |
+| <a id="q4230"></a>[Q4230](probability-stochastic-processes-part-3.md#q4230) | Instead start from one edge and attach each new vertex with probabilities proportional to… | Open |
+| <a id="q4371"></a>[Q4371](probability-stochastic-processes-part-3.md#q4371) | For every integer k≥3 and p>p_c(Z^k), does Eμ\_C have a nonzero nonatomic part, where C is the… | Open |
+| <a id="q4372"></a>[Q4372](probability-stochastic-processes-part-3.md#q4372) | Determine inf{a≥1: for every d>a, A_{T_d} has nontrivial absolutely continuous spectrum almost… | Open |
+| <a id="q4373"></a>[Q4373](probability-stochastic-processes-part-3.md#q4373) | For which d>1 does m_d have a nonzero singular-continuous part? | Open |
+| <a id="q4374"></a>[Q4374](probability-stochastic-processes-part-3.md#q4374) | For which d>1 does A_{T_d} have a nonzero singular-continuous spectral subspace with positive… | Open |
+| <a id="q4375"></a>[Q4375](probability-stochastic-processes-part-3.md#q4375) | Do constants 0&lt;c_r≤C_r<∞, depending only on r, satisfy c_rF(T)≤E\|\|T\|\|\_inj≤C_rF(T) for every such… | Open |
+| <a id="q4376"></a>[Q4376](probability-stochastic-processes-part-3.md#q4376) | For ξ>0 with Q(ξ)>√(2d), do all subsequential distributional limits of λ\_n^{−1}D_n have the same… | Open |
+| <a id="q4377"></a>[Q4377](probability-stochastic-processes-part-3.md#q4377) | Determine the sharp asymptotics of 1−ξQ(ξ) as ξ↓0. | Open |
+| <a id="q4378"></a>[Q4378](probability-stochastic-processes-part-3.md#q4378) | For any subcritical subsequential limit D and each deterministic x, almost surely do every two… | Open |
+| <a id="q4379"></a>[Q4379](probability-stochastic-processes-part-3.md#q4379) | Determine the least integer d_c≥3 such that, for every d≥d_c, some α>0 makes T_α almost surely… | Open |
+| <a id="q4380"></a>[Q4380](probability-stochastic-processes-part-3.md#q4380) | Which of these nonempty-component regimes occur for some d≥3 and α>0: only bounded non-singleton… | Open |
+| <a id="q4382"></a>[Q4382](probability-stochastic-processes-part-3.md#q4382) | For p>2, determine the smallest C_p such that \|\|Y\|\|\_p≤C_p\|\|X\|\|\_p for all zero-start R²-valued… | Open |
+| <a id="q4383"></a>[Q4383](probability-stochastic-processes-part-3.md#q4383) | For each 2&lt;p<3, is there c_p>0, independent of n,a, such that | Open |
+| <a id="q4384"></a>[Q4384](probability-stochastic-processes-part-3.md#q4384) | For each d≥3 and 0&lt;p<2, is there c_{p,d}>0, independent of n,a, such that | Open |
+| <a id="q4394"></a>[Q4394](probability-stochastic-processes-part-3.md#q4394) | For every d≥2, q>0 and p∈[0,1], does every μ∈FK(p,q) have at most one infinite open cluster… | Open |
+| <a id="q4395"></a>[Q4395](probability-stochastic-processes-part-3.md#q4395) | Is Aβ a singleton for every d≥2 and β>0? | Open |
+| <a id="q4396"></a>[Q4396](probability-stochastic-processes-part-3.md#q4396) | Does every monomial coefficient of Z_ab,cd Z−Z_ab Z_cd vanish or exceed zero? | Open |
+| <a id="q4397"></a>[Q4397](probability-stochastic-processes-part-3.md#q4397) | For every finite G, four distinct vertices a,b,c,d, q∈(0,1) and z_g≥0, does the law… | Open |
+| <a id="q4398"></a>[Q4398](probability-stochastic-processes-part-3.md#q4398) | Must Cov(1_{e∈cl_M(A)},1_{f∈cl_M(A)})≥0? | Open |
+| <a id="q4400"></a>[Q4400](probability-stochastic-processes-part-3.md#q4400) | For every noncommutative complex \*-polynomial P in r variables, must \|\|P(U_1^N,…,U_r^N)\|\|… | Open |
+| <a id="q4477"></a>[Q4477](probability-stochastic-processes-part-3.md#q4477) | For each fixed integer k≥2, are X_n^k and X_n^{k+1} almost surely of the same asymptotic order?… | Open |
+| <a id="q4478"></a>[Q4478](probability-stochastic-processes-part-3.md#q4478) | Do these correlations extend holomorphically to a complex neighbourhood of b²∈(0,1/2), with… | Open |
+| <a id="q4479"></a>[Q4479](probability-stochastic-processes-part-3.md#q4479) | Are these correlations real analytic in b² throughout (0,1)? | Open |
+| <a id="q4480"></a>[Q4480](probability-stochastic-processes-part-3.md#q4480) | For every b²∈[1/2,1), does a constant C_b<∞, independent of μ,L,ε, make… | Open |
+| <a id="q4490"></a>[Q4490](probability-stochastic-processes-part-3.md#q4490) | In the model that doubles when the root is chosen and otherwise attaches one new leaf to the… | Open |
+| <a id="q4491"></a>[Q4491](probability-stochastic-processes-part-3.md#q4491) | In the model that doubles at every chosen vertex, determine the asymptotic order of E\|T_n\| as… | Open |
+| <a id="q4505"></a>[Q4505](probability-stochastic-processes-part-3.md#q4505) | Is μ(W_p(H_d))=0 for every prime p and both ranks d=2,3? | Open |
+| <a id="q4515"></a>[Q4515](probability-stochastic-processes-part-3.md#q4515) | Does this inequality hold for the uniform distribution on spanning forests with exactly k… | Open |
+| <a id="q4516"></a>[Q4516](probability-stochastic-processes-part-3.md#q4516) | Does it hold for the uniform distribution on connected spanning subgraphs with exactly n+k… | Open |
+| <a id="q4569"></a>[Q4569](probability-stochastic-processes-part-3.md#q4569) | If some κ>0 satisfies ν(η\_x=1 for every x∈[−l,l]∩Z)=O(e^{−κl}) as l→∞, must there exist C,c>0,… | Open |
+| <a id="q4589"></a>[Q4589](probability-stochastic-processes-part-3.md#q4589) | For κ=5, is there almost surely at least one immortal particle? | Open |
+| <a id="q4590"></a>[Q4590](probability-stochastic-processes-part-3.md#q4590) | What is the long-time asymptotic behavior of ρ\_κ(t), as a function of κ≥3? | Open |
+| <a id="q4608"></a>[Q4608](probability-stochastic-processes-part-3.md#q4608) | Almost surely, characterize all pairs (b₁,b₂)∈B² for which their pointwise minimum… | Open |
+| <a id="q4649"></a>[Q4649](probability-stochastic-processes-part-3.md#q4649) | Almost surely, does every pair x,y∈Z^d admit a finite path attaining T(x,y)? | Open |
+| <a id="q4650"></a>[Q4650](probability-stochastic-processes-part-3.md#q4650) | Must L_n/f_n→1 almost surely as n→∞ for every such p? | Open |
+| <a id="q4664"></a>[Q4664](probability-stochastic-processes-part-3.md#q4664) | Does there exist σ\_d²≥0 such that (Z_n−E Z_n)/√n converges in distribution to N(0,σ\_d²) and… | Open |
+| <a id="q4666"></a>[Q4666](probability-stochastic-processes-part-3.md#q4666) | If trees T_n with laws P_n can be coupled so that T_n⊆T_{n+1} almost surely for all n≥1, must μ… | Open |
+| <a id="q4683"></a>[Q4683](probability-stochastic-processes-part-3.md#q4683) | Do there exist two such attractors X₊ and X₋ with p_X₊(c_\*(X₊))=1 and p_X₋(c_\*(X₋))=0? | Open |

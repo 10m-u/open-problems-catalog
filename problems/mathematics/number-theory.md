@@ -1,6 +1,6 @@
 # Number Theory
 
-145 problems: 136 open, 9 open, partial results.
+156 problems: 147 open, 9 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -151,6 +151,17 @@
 | [Q3834](number-theory.md#q3834) | Algebraic projections of differential-equation solutions | Open |
 | [Q4190](number-theory.md#q4190) | Does every integer n admit integers u,v,w satisfying T(u)+T(v)+T(w)=n? | Open |
 | [Q4196](number-theory.md#q4196) | For every prime p₁≡1 mod 6, is there a finite sequence of pairwise distinct primes p₁,…,p_m,… | Open |
+| [Q4267](number-theory.md#q4267) | Let A be a simple abelian variety of dimension g over a number field K with a fixed real… | Open |
+| [Q4347](number-theory.md#q4347) | Elliptic Lehmer lower bound | Open |
+| [Q4555](number-theory.md#q4555) | Effective verbal widths | Open |
+| [Q4556](number-theory.md#q4556) | Arithmetic definability | Open |
+| [Q4557](number-theory.md#q4557) | Pro-p conjugacy widths | Open |
+| [Q4580](number-theory.md#q4580) | Single-prime Wilson quotients | Open |
+| [Q4585](number-theory.md#q4585) | Seven positive divisors | Open |
+| [Q4586](number-theory.md#q4586) | Divisor search in non-Euclidean quadratic PIDs | Open |
+| [Q4642](number-theory.md#q4642) | For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m? | Open |
+| [Q4643](number-theory.md#q4643) | For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd… | Open |
+| [Q4663](number-theory.md#q4663) | Pseudo-algebraic closedness of the solvable closure | Open |
 
 <a id="q109"></a>
 
@@ -2612,4 +2623,179 @@ For every prime p₁≡1 mod 6, is there a finite sequence of pairwise distinct 
 **Source.** Jean-Marie De Koninck and Patrick Letendre. *The Integer Values of Σ\_{i=1}ⁿ1/gcd(n,i)*. 2026. [primary source](https://arxiv.org/abs/2610.10572v1) Location: §7, pp. 10–11.
 
 **Literature check.** Status checked 10 October 2026: Current v1 explicitly asks whether this return can always be achieved. Its probabilistic discussion is a heuristic, without a proof of universal existence. No later resolution was found. The sequence may choose any qualifying prime factor at each step; no smallest-factor rule or prescribed length bound is imposed.
+
+
+<a id="q4267"></a>
+
+## Q4267. Let A be a simple abelian variety of dimension g over a number field K with a fixed real…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.1) · **Collection** 43
+
+Let A be a simple abelian variety of dimension g over a number field K with a fixed real embedding, and r=rank A(K). Fix a projective embedding over K, its Néron–Tate height ĥ, and projective distance d(x,y)=maxᵢⱼ|xᵢyⱼ−xⱼyᵢ|/(maxᵢ|xᵢ|maxⱼ|yⱼ|). Let η(h) be the infimum of δ>0 such that every ζ in the identity component A(ℝ)⁰ has some γ∈A(K) with ĥ(γ)≤h and d(ζ,γ)≤δ. For every ε>0, is η(h)≤h^(−r/(2g)+ε) for all sufficiently large h?
+
+**Context.** Doctoral occurrence: David Robert Lambert, A Dirichlet Theorem for Rank-1 Elliptic Curves, University of North Texas, Mathematics PhD, July 2025; primary advisor Lior Fishman; Conjecture 1.4, p.5. Reaffirmed in Fishman–Lambert–Merrill–Simmons, arXiv:2506.19060v1, Conjecture 1.4, p.3. The original uniform question remains open beyond the known cases; no matching resolution located through 10 October 2026.
+
+**Source.** Michel Waldschmidt. *Density measure of rational points on Abelian varieties*. 1999. [primary source](https://doi.org/10.1017/S002776300000698X) Location: Conjecture 1.1, p.29.
+
+**Literature check.** Status: Doctoral occurrence: David Robert Lambert, A Dirichlet Theorem for Rank-1 Elliptic Curves, University of North Texas, Mathematics PhD, July 2025; primary advisor Lior Fishman; Conjecture 1.4, p.5. Reaffirmed in Fishman–Lambert–Merrill–Simmons, arXiv:2506.19060v1, Conjecture 1.4, p.3. The original uniform question remains open beyond the known cases; no matching resolution located through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2506.19060v1)
+
+
+<a id="q4347"></a>
+
+## Q4347. Elliptic Lehmer lower bound
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Fix an elliptic curve E over a number field K. For the absolute logarithmic Weil height h, use ĥ(P)=limₙ4⁻ⁿh(x(2ⁿP)). Is inf{ĥ(P)[K(P):K]:P∈E(K̄) non-torsion} strictly positive?
+
+**Context.** Doctoral connection: W. Eli Orvis, University of Colorado Boulder PhD, 2026; primary advisor Katherine Stange; thesis Orientations and Zeta Functions on Supersingular Isogeny Graphs. Deposit date unverified. This is a classical conjecture restated in a coauthored paper, not a verified thesis-origin question.
+
+**Source.** Sven Cats, John Michael Clark, Charlotte Dombrowsky, Mar Curcó Iranzo, Krystal Maughan and Eli Orvis. *Experimental investigations on Lehmer’s conjecture for elliptic curves*. [primary source](https://doi.org/10.1090/conm/840/16810) Location: Sven Cats, John Michael Clark, Charlotte Dombrowsky, Mar Curcó Iranzo, Krystal Maughan and Eli Orvis, Experimental investigations on Lehmer’s conjecture for elliptic curves, arXiv:2510.08871v1, Conjecture1.1 and Definition2.1, pp.1–2.
+
+**Literature check.** Status checked 11 October 2026: the arXiv copy explicitly says accepted for LuCaNTII. The 2026 final is Contemporary Mathematics840,111–117, DOI10.1090/conm/840/16810; its full text was inaccessible. Computations over bounded-degree extensions do not establish the unrestricted degree bound; no matching resolution found.
+
+**Further links.** [1](https://arxiv.org/abs/2510.08871v1) · [2](https://www.colorado.edu/math/graduate-program/cu-boulder-mathematics-theses)
+
+
+<a id="q4555"></a>
+
+## Q4555. Effective verbal widths
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+For every word w in a finitely generated free group, give an explicit finite upper bound for wid_Γ(w(Γ)), where w(Γ) comprises its evaluations on Γ.
+
+**Context.** For X⊂H, wid_H(X) is the least N allowing every element of ⟨X⟩ to be expressed using ≤N factors from X∪X⁻¹. Set wid_H(X)=∞ if none exists. Let K be a number field, S a finite set of places including all Archimedean ones, O_S its S-integers, D/K a central division algebra, and Λ an O_S-order in D. Put G=SL₁(D), Γ={a∈Λ:Nrd(a)=1}; assume ∑\_{v∈S}rank_{K_v}G≥2, with rank the maximal dimension of a split torus. Checked 11 October 2026: final retains these questions; no subsequent resolution located.
+
+**Source.** Nir Avni and Chen Meiri. *Conjugacy Width in Higher-Rank Arithmetic Groups*. [primary source](https://doi.org/10.1137/25M1804352) Location: Question4.2(b); Definition4.1.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no subsequent resolution located.
+
+
+<a id="q4556"></a>
+
+## Q4556. Arithmetic definability
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Do group-language definable subsets of Γ^r, allowing parameters from Γ, equal ring-language definable subsets induced from O_S in a fixed matrix realization, allowing parameters from O_S, for every r≥1?
+
+**Context.** For X⊂H, wid_H(X) is the least N allowing every element of ⟨X⟩ to be expressed using ≤N factors from X∪X⁻¹. Set wid_H(X)=∞ if none exists. Let K be a number field, S a finite set of places including all Archimedean ones, O_S its S-integers, D/K a central division algebra, and Λ an O_S-order in D. Put G=SL₁(D), Γ={a∈Λ:Nrd(a)=1}; assume ∑\_{v∈S}rank_{K_v}G≥2, with rank the maximal dimension of a split torus. Checked 11 October 2026: final retains these questions; no subsequent resolution located.
+
+**Source.** Nir Avni and Chen Meiri. *Conjugacy Width in Higher-Rank Arithmetic Groups*. [primary source](https://doi.org/10.1137/25M1804352) Location: Question4.3; Definition2.7.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no subsequent resolution located.
+
+
+<a id="q4557"></a>
+
+## Q4557. Pro-p conjugacy widths
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Classify pro-p groups P with sup_{g∈P}wid_P({hgh⁻¹:h∈P})<∞; pro-p means an inverse limit of finite p-groups.
+
+**Context.** For X⊂H, wid_H(X) is the least N allowing every element of ⟨X⟩ to be expressed using ≤N factors from X∪X⁻¹. Set wid_H(X)=∞ if none exists. Let K be a number field, S a finite set of places including all Archimedean ones, O_S its S-integers, D/K a central division algebra, and Λ an O_S-order in D. Put G=SL₁(D), Γ={a∈Λ:Nrd(a)=1}; assume ∑\_{v∈S}rank_{K_v}G≥2, with rank the maximal dimension of a split torus. Checked 11 October 2026: final retains these questions; no subsequent resolution located.
+
+**Source.** Nir Avni and Chen Meiri. *Conjugacy Width in Higher-Rank Arithmetic Groups*. [primary source](https://doi.org/10.1137/25M1804352) Location: Question4.10, uniform version.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no subsequent resolution located.
+
+
+<a id="q4580"></a>
+
+## Q4580. Single-prime Wilson quotients
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Is there a fixed ε>0 and an algorithm which, given any prime p in binary, computes w_p in O(p^{1/2−ε}) time?
+
+**Context.** For a prime p, define w_p as the least nonnegative residue modulo p of the integer ((p−1)!+1)/p. Running time means bit operations in the multitape Turing-machine model. Checked 11 October 2026: full published chapter poses this target. No classical resolution located; the source's amortized bound does not give this single-input bound.
+
+**Source.** David Harvey. *The Accumulating Remainder Tree and Its Impact in Number Theory*. 2026. [primary source](https://doi.org/10.1137/25M1803139) Location: §2, paragraph immediately before Theorem 2.1; computational model in §1.
+
+**Literature check.** Status: Checked 11 October 2026: full published chapter poses this target. No classical resolution located; the source's amortized bound does not give this single-input bound.
+
+
+<a id="q4585"></a>
+
+## Q4585. Seven positive divisors
+
+**Status:** Open · **Kind:** open problem (Question 3.4.11) · **Collection** 46
+
+Do positive integers N,S,r exist with gcd(N,S)=gcd(S,r)=1 and S³>N such that at least seven distinct positive divisors of N are congruent to r modulo S?
+
+**Context.** Later paper: Divisors in Residue Classes Revisited, Journal of Number Theory 290, 310–330 (2027 issue; online 2026). Number theory. AG41 restates a longstanding problem; AG42 originates in the later paper. Checked 12 October 2026: the published paper retains both questions; no later resolution located.
+
+**Source.** Jonathon Hales. *Factoring With Partial Information in Z and Imaginary Quadratic Euclidean Domains*. Ohio State University, 2025. Advisor(s): Ghaith Hiary. [primary source](https://rave.ohiolink.edu/etdc/view?acc_num=osu1744036466436946) Location: thesis Question 3.4.11, p55; final paper §5(4).
+
+**Literature check.** Status: Checked 12 October 2026: the published paper retains both questions; no later resolution located.
+
+**Further links.** [1](https://doi.org/10.1016/j.jnt.2026.03.014)
+
+
+<a id="q4586"></a>
+
+## Q4586. Divisor search in non-Euclidean quadratic PIDs
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+For d∈{19,43,67,163}, let O_d be the ring of integers of Q(√−d). Given N,S,r∈O_d with N,S nonzero, gcd(N,S)=gcd(S,r)=1 and |S|³>|N|, can every D∈O_d with D|N and D≡r modulo S be listed in O(log|N|) elementary operations in O_d? Here |·| is complex absolute value; operations are addition, subtraction, multiplication, integer division and square-root extraction.
+
+**Context.** Later paper: Divisors in Residue Classes Revisited, Journal of Number Theory 290, 310–330 (2027 issue; online 2026). Number theory. AG41 restates a longstanding problem; AG42 originates in the later paper. Checked 12 October 2026: the published paper retains both questions; no later resolution located.
+
+**Source.** Jonathon Hales. *Factoring With Partial Information in Z and Imaginary Quadratic Euclidean Domains*. Ohio State University, 2025. Advisor(s): Ghaith Hiary. [primary source](https://rave.ohiolink.edu/etdc/view?acc_num=osu1744036466436946) Location: final paper §5(2), Theorem 1.1 and Remark 1.2.
+
+**Literature check.** Status: Checked 12 October 2026: the published paper retains both questions; no later resolution located.
+
+**Further links.** [1](https://doi.org/10.1016/j.jnt.2026.03.014)
+
+
+<a id="q4642"></a>
+
+## Q4642. For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m?
+
+**Context.** Setup: For squarefree D≥2, put K=Q(√D). Let O_K⁺ comprise algebraic integers positive under both real embeddings; p_K(α) counts unordered finite sums of elements of O_K⁺ equalling α, allowing repeated parts. Origins: Zindulka, Totally positive elements with m partitions exist in almost all real quadratic fields, p705; Stern–Zindulka, Partitions in real quadratic fields, after Theorem 2, p549. Audited provenance and status: Subject: Algebraic number theory Cambridge final 69(2026), 701–734; Wiley final 298(2025), 548–566, early-view p2. Latest arXiv versions: v3 November2025; v1 October2023. Dubickas’s June2025 referee report describes three minimally modified thesis papers and explicitly notes that the Stern–Zindulka Mathematische Nachrichten paper was excluded. The thesis full text remains unread after technical timeouts. The September23,2026 advisor publication list names a submitted Pěchoučková–Stern–Zindulka paper, Extending integer partition identities to semigroups. No date, abstract, link or full text was located; relevance remains unverified.
+
+**Source.** Mikuláš Zindulka. *Totally positive elements with m partitions exist in almost all real quadratic fields*. 2026. [primary source](https://arxiv.org/abs/2409.18080v3) Location: Totally positive elements with m partitions exist in almost all real quadratic fields, p.705.
+
+**Literature check.** Status: The second is proved for D≡2,3(mod4). Both final-paper questions are explicit; checked 12 October 2026; no matching resolution located.
+
+
+<a id="q4643"></a>
+
+## Q4643. For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd and infinitely many with p_K(n) even?
+
+**Context.** Setup: For squarefree D≥2, put K=Q(√D). Let O_K⁺ comprise algebraic integers positive under both real embeddings; p_K(α) counts unordered finite sums of elements of O_K⁺ equalling α, allowing repeated parts. Origins: Zindulka, Totally positive elements with m partitions exist in almost all real quadratic fields, p705; Stern–Zindulka, Partitions in real quadratic fields, after Theorem 2, p549. Audited provenance and status: Subject: Algebraic number theory Cambridge final 69(2026), 701–734; Wiley final 298(2025), 548–566, early-view p2. Latest arXiv versions: v3 November2025; v1 October2023. Dubickas’s June2025 referee report describes three minimally modified thesis papers and explicitly notes that the Stern–Zindulka Mathematische Nachrichten paper was excluded. The thesis full text remains unread after technical timeouts. The September23,2026 advisor publication list names a submitted Pěchoučková–Stern–Zindulka paper, Extending integer partition identities to semigroups. No date, abstract, link or full text was located; relevance remains unverified.
+
+**Source.** David Stern and Mikuláš Zindulka. *Partitions in real quadratic fields*. 2024. [primary source](https://arxiv.org/abs/2310.09980v1) Location: Partitions in real quadratic fields, after Theorem 2, p.549.
+
+**Literature check.** Status: The second is proved for D≡2,3(mod4). Both final-paper questions are explicit; checked 12 October 2026; no matching resolution located.
+
+
+<a id="q4663"></a>
+
+## Q4663. Pseudo-algebraic closedness of the solvable closure
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Is Q^Sol pseudo-algebraically closed?
+
+**Context.** Field arithmetic. Gómez-Gonzáles–Wolfson, Solvable points on intersections of quadrics, cubics, and quartics, arXiv2508.00215v2, 19June2026. https://arxiv.org/abs/2508.00215 Inside a fixed algebraic closure of Q, let Q^Sol be the compositum of all finite Galois extensions of Q with solvable Galois group. A field F is pseudo-algebraically closed if every nonempty geometrically integral variety over F has an F-rational point; geometrically integral means remaining reduced and irreducible after extension to an algebraic closure. Audited provenance and status: Subject: Field arithmetic Original book unread; June2026 paper explicitly reaffirms Problem11.5.9(a). Checked 12 October 2026: no matching resolution was located.
+
+**Source.** Claudio Gómez-Gonzáles and Wolfson. *Solvable points on intersections of quadrics, cubics, and quartics*. 2026. [primary source](https://arxiv.org/abs/2508.00215v2) Location: Problem1.5, p2. This explicitly restates Fried–Jarden, Field Arithmetic (2008), Problem11.5.9(a); it does not originate in Gómez-Gonzáles’s dissertation. The June2026 source still labels this precise field-theoretic problem open.
+
+**Literature check.** Status: Checked 12 October 2026: no matching resolution was located.
+
+**Further links.** [1](https://arxiv.org/abs/2508.00215)
 

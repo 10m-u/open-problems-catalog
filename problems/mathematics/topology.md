@@ -1,6 +1,6 @@
 # Topology
 
-283 problems: 283 open.
+320 problems: 320 open.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -291,3 +291,40 @@ Parts: [1](topology-part-1.md) · [2](topology-part-2.md)
 | <a id="q4194"></a>[Q4194](topology-part-2.md#q4194) | Determine the abelian groups π\_i(Φ^{C₂}TCR(Z/4;2)) exactly for all integers i, including all… | Open |
 | <a id="q4199"></a>[Q4199](topology-part-2.md#q4199) | For every closed connected aspherical manifold X, with G=π₁(X), is cat_Am(X)=sup{k∈ℤ≥0:∃V,… | Open |
 | <a id="q4200"></a>[Q4200](topology-part-2.md#q4200) | For every continuous degree-one map f:M→N between oriented closed connected manifolds of equal… | Open |
+| <a id="q4281"></a>[Q4281](topology-part-2.md#q4281) | With CP² normalized to line area 1, is sup{p²αβ:α/β=t, E_(p,q)(α,β) symplectically embeds into… | Open |
+| <a id="q4336"></a>[Q4336](topology-part-2.md#q4336) | If X is a normal connected complex algebraic variety and its topological fundamental group π₁(X)… | Open |
+| <a id="q4338"></a>[Q4338](topology-part-2.md#q4338) | For every compact Kähler manifold X with contractible universal cover and every… | Open |
+| <a id="q4354"></a>[Q4354](topology-part-2.md#q4354) | Completing surface links to fibered links | Open |
+| <a id="q4355"></a>[Q4355](topology-part-2.md#q4355) | Fibrations of prescribed homotopy-ribbon disk exteriors | Open |
+| <a id="q4356"></a>[Q4356](topology-part-2.md#q4356) | Can two homotopy-ribbon disks for the same K be LK-equivalent without being ambiently isotopic… | Open |
+| <a id="q4357"></a>[Q4357](topology-part-2.md#q4357) | Does some knot K admit slice disks D_n, n≥1, whose pairwise generalized stabilization distances… | Open |
+| <a id="q4360"></a>[Q4360](topology-part-2.md#q4360) | Common fibered successors under ribbon concordance | Open |
+| <a id="q4437"></a>[Q4437](topology-part-2.md#q4437) | Integral odd classes on a Lagrangian mapping class group | Open |
+| <a id="q4460"></a>[Q4460](topology-part-2.md#q4460) | Coarse homotopy of ladders | Open |
+| <a id="q4473"></a>[Q4473](topology-part-2.md#q4473) | Does F(S) imply F(S_r) for every semitopological group? | Open |
+| <a id="q4474"></a>[Q4474](topology-part-2.md#q4474) | Does F(L) imply F(L_r), or even F(L_t), for every semitopological group? | Open |
+| <a id="q4475"></a>[Q4475](topology-part-2.md#q4475) | Does every Hausdorff σ-compact semitopological group have F(S)? | Open |
+| <a id="q4530"></a>[Q4530](topology-part-2.md#q4530) | Arborescent targets | Open |
+| <a id="q4531"></a>[Q4531](topology-part-2.md#q4531) | Finite domination | Open |
+| <a id="q4532"></a>[Q4532](topology-part-2.md#q4532) | Infinitely many prime targets | Open |
+| <a id="q4533"></a>[Q4533](topology-part-2.md#q4533) | Orbifold meridional rank | Open |
+| <a id="q4534"></a>[Q4534](topology-part-2.md#q4534) | Positive fibered knots | Open |
+| <a id="q4535"></a>[Q4535](topology-part-2.md#q4535) | Trefoil-plumbing distinction | Open |
+| <a id="q4542"></a>[Q4542](topology-part-2.md#q4542) | Rational and integral asphericity | Open |
+| <a id="q4543"></a>[Q4543](topology-part-2.md#q4543) | Rational asphericity and freeness | Open |
+| <a id="q4544"></a>[Q4544](topology-part-2.md#q4544) | Koszul beyond G-quadratic | Open |
+| <a id="q4558"></a>[Q4558](topology-part-2.md#q4558) | Recognizing the topological four-sphere | Open |
+| <a id="q4559"></a>[Q4559](topology-part-2.md#q4559) | Homeomorphism with fixed fundamental group | Open |
+| <a id="q4560"></a>[Q4560](topology-part-2.md#q4560) | Diffeomorphism under a homeomorphism promise | Open |
+| <a id="q4564"></a>[Q4564](topology-part-2.md#q4564) | Unrestricted sliceness in K3 | Open |
+| <a id="q4565"></a>[Q4565](topology-part-2.md#q4565) | Topological versus smooth H-sliceness | Open |
+| <a id="q4606"></a>[Q4606](topology-part-2.md#q4606) | Relative connectivity above the first critical radius | Open |
+| <a id="q4609"></a>[Q4609](topology-part-2.md#q4609) | Assuming 0♯ exists, must there be (X,τ)∈L and x∈X such that L has a winning strategy for II in… | Open |
+| <a id="q4610"></a>[Q4610](topology-part-2.md#q4610) | Assuming 0♯ exists, must there be (X,τ)∈L such that L has a winning strategy for II in R, but V… | Open |
+| <a id="q4629"></a>[Q4629](topology-part-2.md#q4629) | For regular Hausdorff feebly compact X, must wL(Xδ)≤2^ℵ0 if II has a winning strategy in the… | Open |
+| <a id="q4630"></a>[Q4630](topology-part-2.md#q4630) | Is there a countably compact Hausdorff nonregular ccc X with c(Xδ)>2^ℵ0? | Open |
+| <a id="q4631"></a>[Q4631](topology-part-2.md#q4631) | For every cardinal κ≥2^ℵ0, does ZFC prove existence of a regular Hausdorff Lindelöf ccc X with… | Open |
+| <a id="q4653"></a>[Q4653](topology-part-2.md#q4653) | If π₁(Γ) has free rank one, does the abstract group MCG(Γ) have exactly one Polish group topology? | Open |
+| <a id="q4675"></a>[Q4675](topology-part-2.md#q4675) | Compactness versus finiteness for categorical spectra | Open |
+| <a id="q4693"></a>[Q4693](topology-part-2.md#q4693) | Weak topological rigidity of SL₂-quotients | Open |
+| <a id="q4697"></a>[Q4697](topology-part-2.md#q4697) | The undirected discrete homotopy hypothesis | Open |

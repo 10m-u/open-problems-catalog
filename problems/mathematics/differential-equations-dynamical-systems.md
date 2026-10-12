@@ -1,6 +1,6 @@
 # Differential Equations & Dynamical Systems
 
-136 problems: 133 open, 2 open, partial results, 1 solved here: proved.
+167 problems: 164 open, 2 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -142,6 +142,37 @@
 | [Q4113](differential-equations-dynamical-systems.md#q4113) | Must Eφ be infinite-dimensional? | Open |
 | [Q4114](differential-equations-dynamical-systems.md#q4114) | If ψ is another C² expanding map commuting with φ and preserving μ, must Eφ∩Eψ contain a nonzero… | Open |
 | [Q4180](differential-equations-dynamical-systems.md#q4180) | Are any two transitive Anosov flows on closed orientable three-manifolds with orientable… | Open |
+| [Q4204](differential-equations-dynamical-systems.md#q4204) | Given a minimal, respectively strictly ergodic, subshift Y⊂A^ℤ, must some permutative block code… | Open |
+| [Q4212](differential-equations-dynamical-systems.md#q4212) | Does a nonsingular action of some countable group exist that is boundedly chaining but not… | Open |
+| [Q4213](differential-equations-dynamical-systems.md#q4213) | Does a nonsingular weakly mixing Z-action exist that is not boundedly chaining? These are… | Open |
+| [Q4214](differential-equations-dynamical-systems.md#q4214) | For every fixed a,b∈A, does f_n(a,b) converge as n→∞, with its limit independent of finite b∈N₀… | Open |
+| [Q4215](differential-equations-dynamical-systems.md#q4215) | Is there an algorithm that always terminates and decides whether two given finite square… | Open |
+| [Q4216](differential-equations-dynamical-systems.md#q4216) | If primitive 2×2 matrices A,B over Z₊ satisfy B=PAP⁻¹ for an integer matrix P with determinant… | Open |
+| [Q4217](differential-equations-dynamical-systems.md#q4217) | Must every finite square matrix over Z₊ whose only nonzero eigenvalue is 2, with algebraic… | Open |
+| [Q4225](differential-equations-dynamical-systems.md#q4225) | Can there exist a compact connected set C⊆Sⁿ containing at least two points, with f(x)=x for… | Open |
+| [Q4226](differential-equations-dynamical-systems.md#q4226) | Must J(f)=J(g)? | Open |
+| [Q4284](differential-equations-dynamical-systems.md#q4284) | Is λ\_p^B=(2/p)^(p/2)\|B\|^(p/2) for every p>2 and every constant B∈ℝ? | Open |
+| [Q4366](differential-equations-dynamical-systems.md#q4366) | Does a four-dimensional such manifold admit an uncountable family of pairwise nonisomorphic C^∞… | Open |
+| [Q4367](differential-equations-dynamical-systems.md#q4367) | On a standard nonatomic probability space, is isomorphism E of invertible ergodic… | Open |
+| [Q4390](differential-equations-dynamical-systems.md#q4390) | For every 5≤n≤8, does a constant C_n, independent of f,u, satisfy \|\|u\|\|\_{L^∞(B_{1/2})}≤C_n N(u)? | Open |
+| [Q4391](differential-equations-dynamical-systems.md#q4391) | Do α,C>0 depending only on n,p exist such that \|\|u\|\|C^α(closure(B_{1/2}))≤C\|\|u\|\|L¹(B₁) for all… | Open |
+| [Q4392](differential-equations-dynamical-systems.md#q4392) | Must \|\|u\*\|\|L∞(Ω)<1 hold without any Crandall–Rabinowitz condition on f? | Open |
+| [Q4393](differential-equations-dynamical-systems.md#q4393) | Is \|\|u\|\|L∞(B_{1/2})≤C_n\|\|u\|\|W^{1,2}(B₁), with C_n independent of f,u? | Open |
+| [Q4464](differential-equations-dynamical-systems.md#q4464) | Let G be an infinite finitely generated polycyclic group, meaning it has a finite subnormal… | Open |
+| [Q4465](differential-equations-dynamical-systems.md#q4465) | Let A∞ be the group of even finitely supported permutations of N. For every… | Open |
+| [Q4467](differential-equations-dynamical-systems.md#q4467) | Can a collision map in this class have a nonreal Ruelle resonance, or a resonance different from… | Open |
+| [Q4468](differential-equations-dynamical-systems.md#q4468) | Does some billiard in this class have a flow-generator Ruelle resonance different from 0? | Open |
+| [Q4476](differential-equations-dynamical-systems.md#q4476) | For every integer d≥2, let B be the unit ball in R^d and let u be a nonzero eigenfunction… | Open |
+| [Q4481](differential-equations-dynamical-systems.md#q4481) | Does a rational map possess a real-analytic degenerate Herman ring? | Open |
+| [Q4482](differential-equations-dynamical-systems.md#q4482) | Is there a finite bound N(d) such that every rational map of degree d has at most N(d)… | Open |
+| [Q4484](differential-equations-dynamical-systems.md#q4484) | Let f be a rational map of the Riemann sphere of degree at least two. If a Fatou component D… | Open |
+| [Q4485](differential-equations-dynamical-systems.md#q4485) | Must every transcendental entire function f:C→C have at most one completely invariant Fatou… | Open |
+| [Q4492](differential-equations-dynamical-systems.md#q4492) | Characterize, without restricting the continued-fraction coefficients, the α for which… | Open |
+| [Q4493](differential-equations-dynamical-systems.md#q4493) | Characterize the irrational α such that, for Lebesgue-almost every r∈(0,1), there are an… | Open |
+| [Q4498](differential-equations-dynamical-systems.md#q4498) | Determine exactly those pairs (m,p) for which the subset of S_{m,p} consisting of triples… | Open |
+| [Q4570](differential-equations-dynamical-systems.md#q4570) | For every x∈M, is this characteristic with γ(0)=x unique? | Open |
+| [Q4571](differential-equations-dynamical-systems.md#q4571) | Must every such characteristic starting where φ is nondifferentiable remain in that… | Open |
+| [Q4621](differential-equations-dynamical-systems.md#q4621) | Does such a system exist with partial shadowing but without Besicovitch completeness? | Open |
 
 <a id="q49"></a>
 
@@ -2415,4 +2446,473 @@ Are any two transitive Anosov flows on closed orientable three-manifolds with or
 **Source.** Pierre Dehornoy and Mario Shannon. *Almost equivalence of suspension Anosov flows*. 2026. [primary source](https://arxiv.org/abs/1910.08457v3) Location: Problem 1.1, p. 2.
 
 **Literature check.** Status checked 10 October 2026: Current v3 proves the result for suspensions of positive-trace hyperbolic torus automorphisms, while retaining the general problem. No later resolution was found.
+
+
+<a id="q4204"></a>
+
+## Q4204. Given a minimal, respectively strictly ergodic, subshift Y⊂A^ℤ, must some permutative block code…
+
+**Status:** Open · **Kind:** open problem (Question 1.10) · **Collection** 43
+
+Given a minimal, respectively strictly ergodic, subshift Y⊂A^ℤ, must some permutative block code of length ℓ≥2 have η\_h⁻¹(Y) minimal, respectively strictly ergodic?
+
+**Context.** Let A={0,…,κ−1}, κ≥2, and let σ be the shift on A^ℤ. A subshift is a nonempty closed σ-invariant subset. Minimal means every orbit is dense; strictly ergodic means minimal with exactly one invariant Borel probability measure. A block code h:A^ℓ→A is permutative if, for every u∈A^(ℓ−1), both a↦h(au) and a↦h(ua) permute A. Define η\_h(x)\_n=h(x_n,…,x_(n+ℓ−1)).
+
+**Source.** Zeyu Kang and Tobias Jäger. *Lifts of strictly ergodic subshifts by permutative sliding block codes*. 2026. [primary source](https://arxiv.org/abs/2609.01140v1) Location: Question 1.10, p.5.
+
+**Literature check.** Status: Paper-recorded. The general question includes Toeplitz subshifts; its narrower Toeplitz version is not counted separately. No matching resolution found, 10 October 2026.
+
+
+<a id="q4212"></a>
+
+## Q4212. Does a nonsingular action of some countable group exist that is boundedly chaining but not…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Does a nonsingular action of some countable group exist that is boundedly chaining but not 1-chaining?
+
+**Context.** Consider Borel actions Γ↷(X,μ) of countable groups on standard probability spaces. Nonsingular means μ(gA)=0 iff μ(A)=0. For k≥1, k-chaining means that for every positive-measure measurable A,B, some g₁,…,g_k∈Γ make A∩g₁A, each g_iA∩g_(i+1)A (1≤i&lt;k), and g_kA∩B have positive measure. Boundedly chaining means k-chaining for some k. An action is ergodic if invariant measurable sets are null or conull; weakly mixing means its diagonal product with every ergodic probability-preserving Γ-action on a standard probability space is ergodic.
+
+**Source.** Anush Tserunyan and Jenna Zomback. *Bounded chaining in measurable dynamics*. 2026. [primary source](https://arxiv.org/abs/2609.18061v2) Location: Questions 1.4–1.5, pp.4–5.
+
+**Literature check.** Status: No matching resolution found, 10 October 2026.
+
+
+<a id="q4213"></a>
+
+## Q4213. Does a nonsingular weakly mixing Z-action exist that is not boundedly chaining? These are…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Does a nonsingular weakly mixing Z-action exist that is not boundedly chaining? These are explicitly posed branches of the paper's questions.
+
+**Context.** Consider Borel actions Γ↷(X,μ) of countable groups on standard probability spaces. Nonsingular means μ(gA)=0 iff μ(A)=0. For k≥1, k-chaining means that for every positive-measure measurable A,B, some g₁,…,g_k∈Γ make A∩g₁A, each g_iA∩g_(i+1)A (1≤i&lt;k), and g_kA∩B have positive measure. Boundedly chaining means k-chaining for some k. An action is ergodic if invariant measurable sets are null or conull; weakly mixing means its diagonal product with every ergodic probability-preserving Γ-action on a standard probability space is ergodic.
+
+**Source.** Anush Tserunyan and Jenna Zomback. *Bounded chaining in measurable dynamics*. 2026. [primary source](https://arxiv.org/abs/2609.18061v2) Location: Questions 1.4–1.5, pp.4–5.
+
+**Literature check.** Status: No matching resolution found, 10 October 2026.
+
+
+<a id="q4214"></a>
+
+## Q4214. For every fixed a,b∈A, does f_n(a,b) converge as n→∞, with its limit independent of finite b∈N₀…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 4.2) · **Collection** 43
+
+For every fixed a,b∈A, does f_n(a,b) converge as n→∞, with its limit independent of finite b∈N₀ for each fixed a?
+
+**Context.** Let A=N₀∪{∞}, the one-point compactification of the nonnegative integers. Define the substitution ρ(0)=1, ρ(1)=2, ρ(n)=0(n−2)(n+1) for n≥2, and ρ(∞)=0∞∞; juxtaposition denotes word concatenation. Extend ρ to finite words by concatenation. Let f_n(a,b) be the number of occurrences of a in ρ^n(b), divided by the word length |ρ^n(b)|.
+
+**Source.** James J. Walton. *Unique ergodicity, and not, for primitive substitutions on compact alphabets containing isolated points*. 2026. [primary source](https://arxiv.org/abs/2609.07550v1) Location: Conjecture 4.2, p.14.
+
+**Literature check.** Status: Paper-recorded. Its preceding paragraph identifies Theorem 4.1’s example; the conjecture’s reference to Theorem 1.1 is erroneous. No matching resolution found, 10 October 2026.
+
+
+<a id="q4215"></a>
+
+## Q4215. Is there an algorithm that always terminates and decides whether two given finite square…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Is there an algorithm that always terminates and decides whether two given finite square matrices over Z₊ are SSE?
+
+**Context.** Square matrices over Z₊ (nonnegative integers) are elementary strong shift equivalent if A=RS and B=SR for rectangular matrices R,S over Z₊. Strong shift equivalence (SSE) is the equivalence relation generated by these steps, permitting changing matrix sizes.
+
+**Source.** Emmanuel Jeandel. *Combinatorial search for strong shift equivalence*. 2026. [primary source](https://arxiv.org/abs/2609.03567v1) Location: Problems 1, 2 and 4, pp.2–4.
+
+**Literature check.** Status: Paper-recorded classical questions; Q4217 is the n=2 Little Shift Equivalence Conjecture. No matching resolution found, 10 October 2026.
+
+
+<a id="q4216"></a>
+
+## Q4216. If primitive 2×2 matrices A,B over Z₊ satisfy B=PAP⁻¹ for an integer matrix P with determinant…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+If primitive 2×2 matrices A,B over Z₊ satisfy B=PAP⁻¹ for an integer matrix P with determinant ±1, must they be SSE? Primitive means that some positive power has strictly positive entries.
+
+**Context.** Square matrices over Z₊ (nonnegative integers) are elementary strong shift equivalent if A=RS and B=SR for rectangular matrices R,S over Z₊. Strong shift equivalence (SSE) is the equivalence relation generated by these steps, permitting changing matrix sizes.
+
+**Source.** Emmanuel Jeandel. *Combinatorial search for strong shift equivalence*. 2026. [primary source](https://arxiv.org/abs/2609.03567v1) Location: Problems 1, 2 and 4, pp.2–4.
+
+**Literature check.** Status: Paper-recorded classical questions; Q4217 is the n=2 Little Shift Equivalence Conjecture. No matching resolution found, 10 October 2026.
+
+
+<a id="q4217"></a>
+
+## Q4217. Must every finite square matrix over Z₊ whose only nonzero eigenvalue is 2, with algebraic…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Must every finite square matrix over Z₊ whose only nonzero eigenvalue is 2, with algebraic multiplicity one, be SSE to the 1×1 matrix [2]?
+
+**Context.** Square matrices over Z₊ (nonnegative integers) are elementary strong shift equivalent if A=RS and B=SR for rectangular matrices R,S over Z₊. Strong shift equivalence (SSE) is the equivalence relation generated by these steps, permitting changing matrix sizes.
+
+**Source.** Emmanuel Jeandel. *Combinatorial search for strong shift equivalence*. 2026. [primary source](https://arxiv.org/abs/2609.03567v1) Location: Problems 1, 2 and 4, pp.2–4.
+
+**Literature check.** Status: Paper-recorded classical questions; Q4217 is the n=2 Little Shift Equivalence Conjecture. No matching resolution found, 10 October 2026.
+
+
+<a id="q4225"></a>
+
+## Q4225. Can there exist a compact connected set C⊆Sⁿ containing at least two points, with f(x)=x for…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Can there exist a compact connected set C⊆Sⁿ containing at least two points, with f(x)=x for every x∈C and C∩J(f)≠∅?
+
+**Context.** Let n≥2 and f:Sⁿ→Sⁿ be nonidentity and uniformly quasiregular: all iterates h=fᵐ, m≥1, are continuous, locally W¹,ⁿ in conformal charts, with ||Dh||ⁿ≤K det(Dh) and det(Dh)≤K(inf_|v|=1|Dh v|)ⁿ almost everywhere, for one finite K≥1; ||·|| denotes operator norm. Define J(f) as the points with no neighborhood on which the iterates form a normal family, meaning every sequence has a locally uniformly convergent subsequence in the spherical metric.
+
+**Source.** Alastair N. Fletcher. *Schwarz-Pick and Denjoy-Wolff for uniformly quasiregular maps*. 2026. [primary source](https://arxiv.org/abs/2610.00312v1) Location: §10, item 4, p.27.
+
+**Literature check.** Status: Paper-recorded; attributed to G.J. Martin (2002), and raised to Fletcher by Aimo Hinkkanen. No matching resolution found, 10 October 2026.
+
+
+<a id="q4226"></a>
+
+## Q4226. Must J(f)=J(g)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Must J(f)=J(g)?
+
+**Context.** Let f,g:ℂ→ℂ be transcendental entire functions, meaning holomorphic everywhere and not polynomials, with f∘g=g∘f. For h=f or g, define J(h) as the set of points having no neighborhood on which {hⁿ:n≥1} is a normal family: every sequence in a normal family has a subsequence converging locally uniformly in the spherical metric.
+
+**Source.** Athanasios Tsantaris. *Permutable quasiregular maps*. 2022. [primary source](https://doi.org/10.1017/S0305004121000438) Location: §1, p.106.
+
+**Literature check.** Status: Classical question recorded during doctoral research, not first proposed by Tsantaris. Tsantaris: PhD, Nottingham, 2022; supervisor Daniel Nicks. Reaffirmed by Kumari–Kumar, arXiv:2605.22244v2, Question 1, p.2 (equivalently, equality of Fatou complements). No matching resolution found, 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2605.22244v2)
+
+
+<a id="q4284"></a>
+
+## Q4284. Is λ\_p^B=(2/p)^(p/2)|B|^(p/2) for every p>2 and every constant B∈ℝ?
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Is λ\_p^B=(2/p)^(p/2)|B|^(p/2) for every p>2 and every constant B∈ℝ?
+
+**Context.** For B∈ℝ, let A_B(x₁,x₂)=B(−x₂,x₁)/2. For p>2, let W be the completion of C_c^∞(ℝ²;ℂ) under (||u||\_p^p+||(∇+iA_B)u||\_p^p)^(1/p), and set λ\_p^B=inf_{u∈W∖{0}}||(∇+iA_B)u||\_p^p/||u||\_p^p; all norms use Lebesgue measure on ℝ².
+
+**Source.** David Krejčiřík and Rossano Sannipoli. *Spectral geometry of the magnetic p-Laplacian*. 2026. [primary source](https://arxiv.org/abs/2609.37313v1) Location: §5(1), p.25.
+
+**Literature check.** Status: Paper-origin. Current v1 retains the question; no matching later resolution located, 11 October 2026.
+
+
+<a id="q4366"></a>
+
+## Q4366. Does a four-dimensional such manifold admit an uncountable family of pairwise nonisomorphic C^∞…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Does a four-dimensional such manifold admit an uncountable family of pairwise nonisomorphic C^∞ K-diffeomorphisms with equal entropy?
+
+**Context.** Here K means completely positive Kolmogorov–Sinai entropy; Bernoulli means measurably isomorphic to a two-sided independent product shift. Smooth diffeomorphisms preserve a smooth probability measure on a compact manifold; isomorphism is invertible measure-preserving conjugacy modulo null sets. Origins: §5.1 for Q4366; Sabok’s conjecture, §5.2, for Q4367. Definitions: §§2.1,3.2. Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+**Source.** Marlies Gerber and Philipp Kunde. *Anticlassification Results in Ergodic Theory*. 2026. [primary source](https://doi.org/10.1137/25M1806004) Location: pp.57–75.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+
+<a id="q4367"></a>
+
+## Q4367. On a standard nonatomic probability space, is isomorphism E of invertible ergodic…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+On a standard nonatomic probability space, is isomorphism E of invertible ergodic measure-preserving transformations a complete orbit equivalence relation: for every Borel action of a Polish group on a standard Borel space Y, does a Borel map f:Y→dom(E) satisfy y and z share an orbit iff f(y) E f(z)?
+
+**Context.** Here K means completely positive Kolmogorov–Sinai entropy; Bernoulli means measurably isomorphic to a two-sided independent product shift. Smooth diffeomorphisms preserve a smooth probability measure on a compact manifold; isomorphism is invertible measure-preserving conjugacy modulo null sets. Origins: §5.1 for Q4366; Sabok’s conjecture, §5.2, for Q4367. Definitions: §§2.1,3.2. Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+**Source.** Marlies Gerber and Philipp Kunde. *Anticlassification Results in Ergodic Theory*. 2026. [primary source](https://doi.org/10.1137/25M1806004) Location: pp.57–75.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+
+<a id="q4390"></a>
+
+## Q4390. For every 5≤n≤8, does a constant C_n, independent of f,u, satisfy ||u||\_{L^∞(B_{1/2})}≤C_n N(u)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+For every 5≤n≤8, does a constant C_n, independent of f,u, satisfy ||u||\_{L^∞(B_{1/2})}≤C_n N(u)?
+
+**Context.** Genealogy: Sanz-Perela, Stable solutions of nonlinear fractional elliptic problems, UPC PhD June2019; primary advisor Xavier Cabré; original deposit date unverified. Let Λ=(−Δ)^{1/2} on R^n, with Fourier symbol |ξ|, and N(u)=∫\_{R^n}|u(x)|(1+|x|²)^{−(n+1)/2}dx. Take f∈C^{1,γ}(R), γ>0, nonnegative and convex, and real u∈C²(B₁) with N(u)<∞ satisfying Λu=f(u) in B₁ and ∫\_{B₁}f′(u)φ²≤∫\_{R^n}φΛφ for every φ∈C_c^∞(B₁). Checked 11 October 2026: Cabré’s published ICM2026 §3.5(1) retains the unresolved5–8 range.
+
+**Source.** Xavier Cabré and Tomás Sanz-Perela. *A universal Hölder estimate up to dimension 4 for stable solutions to half-Laplacian semilinear equations*. 2022. [primary source](https://doi.org/10.1016/j.jde.2022.02.001) Location: abstract; pp.155–156, conjecture and Theorem1.1; stability(1.3), tail norm(1.4).
+
+**Further links.** [1](https://upcommons.upc.edu/server/api/core/bitstreams/045ff616-dd35-4ab5-9c44-99fc8124c451/content)
+
+
+<a id="q4391"></a>
+
+## Q4391. Do α,C>0 depending only on n,p exist such that ||u||C^α(closure(B_{1/2}))≤C||u||L¹(B₁) for all…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Do α,C>0 depending only on n,p exist such that ||u||C^α(closure(B_{1/2}))≤C||u||L¹(B₁) for all such f,u?
+
+**Context.** Genealogy: Miraglio, joint UPC/Milan PhD2020; primary advisors Xavier Cabré and Enrico Valdinoci; thesis Estimates and rigidity for stable solutions to some nonlinear elliptic problems; deposit unverified. Let 1&lt;p<2, n&lt;p+4p/(p−1), f∈C¹(R) be nonnegative, and u∈W^{1,p}(B₁) weakly solve −div(|∇u|^{p−2}∇u)=f(u), with f(u)∈L∞(B₁). Put T_u={ξ∈W₀^{1,2}(B₁):∫B₁|∇u|^{p−2}|∇ξ|²<∞}. Here |∇u|^{p−2}=∞ on {∇u=0}, forcing ∇ξ=0 there almost everywhere. Assume, for every ξ∈T_u, ∫{∇u≠0}[|∇u|^{p−2}|∇ξ|²+(p−2)|∇u|^{p−4}(∇u·∇ξ)²]≥∫B₁f′(u)ξ². Checked 11 October 2026: correctedv3 and later claims inspected; the sharp interior extension remains explicitly open.
+
+**Source.** Xavier Cabré, Pietro Miraglio and Manel Sanchón. *Optimal regularity of stable solutions to nonlinear equations involving the p-Laplacian*. 2022. [primary source](https://arxiv.org/abs/2006.01445v3) Location: (1.3)–(1.4),Theorem1.1,§1.4; Cabré ICM2026,§3.5(2), https://doi.org/10.1137/25M1803978.
+
+**Further links.** [1](https://doi.org/10.1137/25M1803978)
+
+
+<a id="q4392"></a>
+
+## Q4392. Must ||u\*||L∞(Ω)<1 hold without any Crandall–Rabinowitz condition on f?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Must ||u\*||L∞(Ω)<1 hold without any Crandall–Rabinowitz condition on f?
+
+**Context.** Let Ω⊂R^n be smooth and bounded, 3≤n≤6. Let f∈C²([0,1)) satisfy f(0)>0, f′≥0, f″≥0 and ∫₀¹f(s)ds=∞. For −Δu=λf(u) in Ω with u=0 on ∂Ω, let λ\*>0 be the extremal parameter and u_λ the minimal classical solution for 0<λ<λ\*. Define u\*=lim_{λ↑λ\*}u_λ. Checked 11 October 2026: the August2026 final retains the nonradial residual after discussing the radial solution and newer partial regularity.
+
+**Source.** Renzo Bruera and Xavier Cabré. *Regularity of stable solutions to the MEMS problem up to the optimal dimension 6*. 2026. [primary source](https://doi.org/10.1007/s00526-026-03419-w) Location: §1.1,(1.4), extremal-solution definition and Open problem; §1.3.
+
+
+<a id="q4393"></a>
+
+## Q4393. Is ||u||L∞(B_{1/2})≤C_n||u||W^{1,2}(B₁), with C_n independent of f,u?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Is ||u||L∞(B_{1/2})≤C_n||u||W^{1,2}(B₁), with C_n independent of f,u?
+
+**Context.** Let 6≤n≤9, f∈C∞(R) with no sign assumption, and u∈C∞(closure(B₁)) solve −Δu=f(u). Require stability: ∫B₁ f′(u)φ²≤∫B₁|∇φ|² for every φ∈C_c∞(B₁). Checked 11 October 2026: the new counterexamples rule out Lp-to-Lq bounds, while explicitly leaving the W^{1,2}-controlled6–9 question open.
+
+**Source.** Salvador Villegas. *Lack of interior Lq bounds for stable solutions to elliptic equations*. 2026. [primary source](https://arxiv.org/abs/2603.20427v1) Location: p.2, paragraphs preceding Theorem1.2; comparison2204.06345v3,Theorem1.1.
+
+
+<a id="q4464"></a>
+
+## Q4464. Let G be an infinite finitely generated polycyclic group, meaning it has a finite subnormal…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Let G be an infinite finitely generated polycyclic group, meaning it has a finite subnormal series with cyclic factors. For every unitary representation π on a complex Hilbert space V with V^H={0} for each finite-index H≤G, and every v∈V, must inf_C∥P_Cv∥=0, where C ranges over infinite cyclic subgroups and P_C projects orthogonally onto V^C?
+
+**Context.** Doctoral connection: Fish, Hebrew University of Jerusalem, PhD defended in 2007, advisor Hillel Furstenberg; thesis Ramsey properties of subsets of N. Locators: §1.4 conjecture, p. 3; §1.7 question, p. 6; Definitions 1.1–1.2, pp. 1–2. Checked 11 October 2026: current v1 retains both; author's publication page lists the paper as submitted. Infinite finitely generated nilpotent groups are proved; the polycyclic and infinite-alternating questions remain posed.
+
+**Source.** Michael Björklund and Alexander Fish. *Directional expansion in ergodic actions of countable groups*. 2026. [primary source](https://arxiv.org/abs/2607.00781) Location: §1.4 conjecture, p. 3; §1.7 question, p. 6; Definitions 1.1–1.2, pp. 1–2.
+
+**Further links.** [1](https://www.maths.usyd.edu.au/u/afish/)
+
+
+<a id="q4465"></a>
+
+## Q4465. Let A∞ be the group of even finitely supported permutations of N. For every…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Let A∞ be the group of even finitely supported permutations of N. For every probability-measure-preserving action A∞↷(X,μ) whose restriction to each finite-index subgroup is ergodic, every measurable B with μ(B)>0, and every ε>0, must some cyclic subgroup C≤A∞ satisfy μ(⋃\_{c∈C}cB)>1−ε?
+
+**Context.** Doctoral connection: Fish, Hebrew University of Jerusalem, PhD defended in 2007, advisor Hillel Furstenberg; thesis Ramsey properties of subsets of N. Locators: §1.4 conjecture, p. 3; §1.7 question, p. 6; Definitions 1.1–1.2, pp. 1–2. Checked 11 October 2026: current v1 retains both; author's publication page lists the paper as submitted. Infinite finitely generated nilpotent groups are proved; the polycyclic and infinite-alternating questions remain posed.
+
+**Source.** Michael Björklund and Alexander Fish. *Directional expansion in ergodic actions of countable groups*. 2026. [primary source](https://arxiv.org/abs/2607.00781) Location: §1.4 conjecture, p. 3; §1.7 question, p. 6; Definitions 1.1–1.2, pp. 1–2.
+
+**Further links.** [1](https://www.maths.usyd.edu.au/u/afish/)
+
+
+<a id="q4467"></a>
+
+## Q4467. Can a collision map in this class have a nonreal Ruelle resonance, or a resonance different from…
+
+**Status:** Open · **Kind:** open problem (Question 5.10) · **Collection** 45
+
+Can a collision map in this class have a nonreal Ruelle resonance, or a resonance different from 1 with algebraic multiplicity 1?
+
+**Context.** Consider finite-horizon planar Sinai billiards: unit-speed elastic motion on a flat two-torus outside finitely many pairwise disjoint convex scatterers with C³ boundaries with strictly positive boundary curvature; free-flight times are uniformly bounded. For the collision map, Ruelle resonances are transfer-operator eigenvalues outside the essential spectral disk on the Demers–Zhang anisotropic spaces. For the flow, use isolated eigenvalues of its generator on the Baladi–Demers–Liverani anisotropic spaces. Locators: §2.4.5,pp32–33; Definition3.6,p38; §5.4–5.5,Questions5.10–5.11,p70. Checked 11 October 2026: the author-hosted habilitation explicitly asks both; constructed map resonances are real with even multiplicity. No matching later resolution located.
+
+**Source.** Damien Thomine. *Théorie ergodique, théorie du potentiel: Étude d’extensions abéliennes*. 2025. [primary source](https://www.imo.universite-paris-saclay.fr/~damien.thomine/divers/HDR.pdf) Location: Question 5.10, p.70; §2.4.5, pp.32–33.
+
+**Literature check.** Status: Checked 11 October 2026: the author-hosted habilitation explicitly asks both; constructed map resonances are real with even multiplicity. No matching later resolution located.
+
+
+<a id="q4468"></a>
+
+## Q4468. Does some billiard in this class have a flow-generator Ruelle resonance different from 0?
+
+**Status:** Open · **Kind:** open problem (Question 5.11) · **Collection** 45
+
+Does some billiard in this class have a flow-generator Ruelle resonance different from 0?
+
+**Context.** Consider finite-horizon planar Sinai billiards: unit-speed elastic motion on a flat two-torus outside finitely many pairwise disjoint convex scatterers with C³ boundaries with strictly positive boundary curvature; free-flight times are uniformly bounded. For the collision map, Ruelle resonances are transfer-operator eigenvalues outside the essential spectral disk on the Demers–Zhang anisotropic spaces. For the flow, use isolated eigenvalues of its generator on the Baladi–Demers–Liverani anisotropic spaces. Locators: §2.4.5,pp32–33; Definition3.6,p38; §5.4–5.5,Questions5.10–5.11,p70. Checked 11 October 2026: the author-hosted habilitation explicitly asks both; constructed map resonances are real with even multiplicity. No matching later resolution located.
+
+**Source.** Damien Thomine. *Théorie ergodique, théorie du potentiel: Étude d’extensions abéliennes*. 2025. [primary source](https://www.imo.universite-paris-saclay.fr/~damien.thomine/divers/HDR.pdf) Location: Question 5.11, p.70; Definition 3.6, p.38.
+
+**Literature check.** Status: Checked 11 October 2026: the author-hosted habilitation explicitly asks both; constructed map resonances are real with even multiplicity. No matching later resolution located.
+
+
+<a id="q4476"></a>
+
+## Q4476. For every integer d≥2, let B be the unit ball in R^d and let u be a nonzero eigenfunction…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.3) · **Collection** 45
+
+For every integer d≥2, let B be the unit ball in R^d and let u be a nonzero eigenfunction satisfying Δ²u=λu in B and u=∂ₙu=0 on ∂B, where ∂ₙ is the outward normal derivative. Must u have the separated form u(r,ω)=R(r)Y(ω), with Y a spherical harmonic of one degree on S^{d−1}?
+
+**Context.** AP45-S06 — Spectral theory / mathematical physics.
+
+**Source.** Dan Mangoubi and Daniel Rosenblatt. *On multiplicity bounds for eigenvalues of the clamped round plate*. 2026. [primary source](https://doi.org/10.4171/JST/588) Location: Conjecture 1.3, pp. 183–185; (final published 17 December 2025).
+
+**Literature check.** Status: retained in the inspected final; its theorem gives a sum of at most two separated eigenfunctions, not one. Checked 11 October 2026; targeted later-claim searches found no matching resolution.
+
+
+<a id="q4481"></a>
+
+## Q4481. Does a rational map possess a real-analytic degenerate Herman ring?
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 45
+
+Does a rational map possess a real-analytic degenerate Herman ring?
+
+**Context.** AP45-S10 — Complex dynamics. For a rational map f of degree d≥2, J(f) is the complement of the domain where its iterates form a normal family. A degenerate Herman ring is a Jordan curve C⊂J(f) which is neither a spherical circle nor a boundary component of a Siegel disk or Herman ring, and for which f|\_C is topologically conjugate to an irrational rotation.
+
+**Source.** Alexandre Eremenko. *Analytic invariant curves for rational functions,*. 2025. [primary source](https://www.math.purdue.edu/~eremenko/dvi/invariant.pdf) Location: Question 1, author note.
+
+**Literature check.** Status: the inspected note retains both questions and distinguishes known smooth examples from the analytic problem. Checked 11 October 2026; targeted later searches found no matching resolution.
+
+
+<a id="q4482"></a>
+
+## Q4482. Is there a finite bound N(d) such that every rational map of degree d has at most N(d)…
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 45
+
+Is there a finite bound N(d) such that every rational map of degree d has at most N(d) degenerate Herman rings?
+
+**Context.** AP45-S10 — Complex dynamics. For a rational map f of degree d≥2, J(f) is the complement of the domain where its iterates form a normal family. A degenerate Herman ring is a Jordan curve C⊂J(f) which is neither a spherical circle nor a boundary component of a Siegel disk or Herman ring, and for which f|\_C is topologically conjugate to an irrational rotation.
+
+**Source.** Alexandre Eremenko. *Analytic invariant curves for rational functions,*. 2025. [primary source](https://www.math.purdue.edu/~eremenko/dvi/invariant.pdf) Location: Question 2, author note.
+
+**Literature check.** Status: the inspected note retains both questions and distinguishes known smooth examples from the analytic problem. Checked 11 October 2026; targeted later searches found no matching resolution.
+
+
+<a id="q4484"></a>
+
+## Q4484. Let f be a rational map of the Riemann sphere of degree at least two. If a Fatou component D…
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 45
+
+Let f be a rational map of the Riemann sphere of degree at least two. If a Fatou component D satisfies ∂D=J(f), must f^{-2}(D)=D, where f^{-2}(D) denotes the full preimage under the second iterate?
+
+**Context.** AP45-S12 — Holomorphic dynamics / Fatou components. The Fatou set F(f) is the open set on which the iterates form a normal family; its complement is the Julia set J(f). A Fatou component is a connected component of F(f).
+
+**Source.** Alexandre Eremenko. *Two questions on completely invariant domains,*. [primary source](https://www.math.purdue.edu/~eremenko/dvi/conjectures.pdf) Location: Question 1, author note.
+
+**Literature check.** Status: both questions remain posed in the inspected note. Checked 11 October 2026; matching historical proof claims and later literature were examined without finding a valid resolution.
+
+
+<a id="q4485"></a>
+
+## Q4485. Must every transcendental entire function f:C→C have at most one completely invariant Fatou…
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 45
+
+Must every transcendental entire function f:C→C have at most one completely invariant Fatou component, meaning a component D with f^{-1}(D)=D?
+
+**Context.** AP45-S12 — Holomorphic dynamics / Fatou components. The Fatou set F(f) is the open set on which the iterates form a normal family; its complement is the Julia set J(f). A Fatou component is a connected component of F(f).
+
+**Source.** Alexandre Eremenko. *Two questions on completely invariant domains,*. [primary source](https://www.math.purdue.edu/~eremenko/dvi/conjectures.pdf) Location: Question 2, author note.
+
+**Literature check.** Status: both questions remain posed in the inspected note. Checked 11 October 2026; matching historical proof claims and later literature were examined without finding a valid resolution.
+
+
+<a id="q4492"></a>
+
+## Q4492. Characterize, without restricting the continued-fraction coefficients, the α for which…
+
+**Status:** Open · **Kind:** open problem (Problem 2.2) · **Collection** 45
+
+Characterize, without restricting the continued-fraction coefficients, the α for which C_N^−/C_N^+→1 (global balance), and those for which C_N(u)/C_N(v)→1 for every u,v∈(1/2)Z (local balance), as N→∞.
+
+**Context.** AP45-S17 — Dynamical systems / discrepancy. For irrational α, x∈R/Z and 0&lt;r<1, set D_n(x,α,r)=#{0≤k&lt;n:{x+kα}≤r}−nr, where braces denote fractional parts. Write d_k=D_k(0,α,1/2), C_N(t)=#{1≤k≤N:d_k=t}, and C_N^±=#{1≤k≤N:±d_k>0}.
+
+**Source.** Dmitry Dolgopyat. *Randomness, Rotations, Renormalization, and Resonances*. 2026. [primary source](https://doi.org/10.1137/25M1806971) Location: pp. 35–50, §2.3, Problem 2.2(a,b); Primary lecture-paper origin; no dissertation attribution.
+
+**Literature check.** Status: both questions remain posed in the final chapter. Checked 11 October 2026; the September staircase preprint's relevant classification remains restricted to bounded type.
+
+
+<a id="q4493"></a>
+
+## Q4493. Characterize the irrational α such that, for Lebesgue-almost every r∈(0,1), there are an…
+
+**Status:** Open · **Kind:** open problem (Problem 2.2) · **Collection** 45
+
+Characterize the irrational α such that, for Lebesgue-almost every r∈(0,1), there are an increasing sequence n_j with #{j:n_j≤N}/N→1 and positive numbers σ\_j for which D_{n_j}(x,α,r)/σ\_j converges in distribution to N(0,1) as j→∞ when x is uniform on R/Z.
+
+**Context.** AP45-S17 — Dynamical systems / discrepancy. For irrational α, x∈R/Z and 0&lt;r<1, set D_n(x,α,r)=#{0≤k&lt;n:{x+kα}≤r}−nr, where braces denote fractional parts. Write d_k=D_k(0,α,1/2), C_N(t)=#{1≤k≤N:d_k=t}, and C_N^±=#{1≤k≤N:±d_k>0}.
+
+**Source.** Dmitry Dolgopyat. *Randomness, Rotations, Renormalization, and Resonances*. 2026. [primary source](https://doi.org/10.1137/25M1806971) Location: pp. 35–50, §2.3, Problem 2.2(a,b); Primary lecture-paper origin; no dissertation attribution.
+
+**Literature check.** Status: both questions remain posed in the final chapter. Checked 11 October 2026; the September staircase preprint's relevant classification remains restricted to bounded type.
+
+
+<a id="q4498"></a>
+
+## Q4498. Determine exactly those pairs (m,p) for which the subset of S_{m,p} consisting of triples…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Determine exactly those pairs (m,p) for which the subset of S_{m,p} consisting of triples admitting such a K with every eigenvalue of A+BKC in {z∈C:Re z<0} is dense in S_{m,p}, with its Euclidean topology. This is generic stabilizability; the stabilizable subset is open. The target is the dimension-pair classification, with n=mp fixed, rather than a decision procedure for one given triple.
+
+**Context.** AP45-S21 — Linear systems / control theory. For positive integers m,p put n=mp and S_{m,p}=R^{n×n}×R^{n×p}×R^{m×n}. A triple (A,B,C) represents ẋ=Ax+Bu, y=Cx. Real static output feedback u=Ky, K∈R^{p×m}, yields the matrix A+BKC.
+
+**Source.** Alexandre Eremenko. *Stabilizability by static output feedback,*. 2026. [primary source](https://www.math.purdue.edu/~eremenko/dvi/gpolep.pdf) Location: pp. 1–2, Question; Author-hosted formulation; no dissertation attribution.
+
+**Literature check.** Status: explicitly asked in the current note. Checked 11 October 2026; no complete classification located.
+
+
+<a id="q4570"></a>
+
+## Q4570. For every x∈M, is this characteristic with γ(0)=x unique?
+
+**Status:** Open · **Kind:** open problem (Problem 5.1) · **Collection** 46
+
+For every x∈M, is this characteristic with γ(0)=x unique?
+
+**Context.** AP46-S04 — Hamilton–Jacobi equations / weak KAM dynamics. Let M be compact, connected, smooth and boundaryless; H:T\*M→R be C², uniformly superlinear in momentum, with positive-definite H_pp. Let φ be a semiconcave viscosity solution of H(x,Dφ)=0. Write D⁺φ(x) for its superdifferential, locally characterized by φ(y)≤φ(x)+p·(y−x)+o(|y−x|), and p#(x)=argmin_{p∈D⁺φ(x)}H(x,p). A strict singular characteristic is a locally Lipschitz curve γ:[0,∞)→M satisfying γ′(t)=H_p(γ(t),p#(γ(t))) almost everywhere.
+
+**Source.** Piermarco Cannarsa, Wei Cheng, Jiahui Hong and Kaizhi Wang. *Variational construction of singular characteristics and propagation of singularities*. 2024. [primary source](https://arxiv.org/abs/2409.00961v1) Location: “Variational construction of singular characteristics and propagation of singularities,” §5.4(A),(C), p.40, v1 (2 September 2024), Renewed by Cheng–Hong (2026), Problem 5.1(1),(2), v1 (6 May 2026), Paper-origin; dissertation/advisor attribution unverified.
+
+**Literature check.** Status: explicitly open in May2026; later cut-locus and intrinsic-curve results do not settle these targets; checked 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2409.00961) · [2](https://arxiv.org/abs/2605.04658)
+
+
+<a id="q4571"></a>
+
+## Q4571. Must every such characteristic starting where φ is nondifferentiable remain in that…
+
+**Status:** Open · **Kind:** open problem (Problem 5.1) · **Collection** 46
+
+Must every such characteristic starting where φ is nondifferentiable remain in that nondifferentiability set for all t≥0?
+
+**Context.** AP46-S04 — Hamilton–Jacobi equations / weak KAM dynamics. Let M be compact, connected, smooth and boundaryless; H:T\*M→R be C², uniformly superlinear in momentum, with positive-definite H_pp. Let φ be a semiconcave viscosity solution of H(x,Dφ)=0. Write D⁺φ(x) for its superdifferential, locally characterized by φ(y)≤φ(x)+p·(y−x)+o(|y−x|), and p#(x)=argmin_{p∈D⁺φ(x)}H(x,p). A strict singular characteristic is a locally Lipschitz curve γ:[0,∞)→M satisfying γ′(t)=H_p(γ(t),p#(γ(t))) almost everywhere.
+
+**Source.** Piermarco Cannarsa, Wei Cheng, Jiahui Hong and Kaizhi Wang. *Variational construction of singular characteristics and propagation of singularities*. 2024. [primary source](https://arxiv.org/abs/2409.00961v1) Location: “Variational construction of singular characteristics and propagation of singularities,” §5.4(A),(C), p.40, v1 (2 September 2024), Renewed by Cheng–Hong (2026), Problem 5.1(1),(2), v1 (6 May 2026), Paper-origin; dissertation/advisor attribution unverified.
+
+**Literature check.** Status: explicitly open in May2026; later cut-locus and intrinsic-curve results do not settle these targets; checked 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2409.00961) · [2](https://arxiv.org/abs/2605.04658)
+
+
+<a id="q4621"></a>
+
+## Q4621. Does such a system exist with partial shadowing but without Besicovitch completeness?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Does such a system exist with partial shadowing but without Besicovitch completeness?
+
+**Context.** AP47-S06 — Dynamical systems. Let (X,ρ) be compact metric with diameter1 and T:X→X continuous. Define D(x,y)=limsupₙ n⁻¹Σⱼ₌₀ⁿ⁻¹ρ(Tʲx,Tʲy). Besicovitch completeness means every D-Cauchy sequence in X converges in D to some point of X. Partial shadowing means: for every ε>0 there is δ>0 such that, for every integer r≥1 and x₀,…,xᵣ∈X satisfying r⁻¹#{0≤i&lt;r:ρ(Txᵢ,xᵢ₊₁)<δ}>1−δ, some z∈X satisfies (r+1)⁻¹#{0≤i≤r:ρ(Tⁱz,xᵢ)<ε}>1−ε. Discovery: Can’s 2024 Jagiellonian doctoral manuscript, supervised by Dominik Kwietniak with auxiliary supervisor Borys Kuca; the selected question is from the later paper. Audited provenance and status: Subject: Dynamical systems https://ruj.uj.edu.pl/server/api/core/bitstreams/eff1bd43-f79f-4ac3-81e8-53f480da7468/content Cover: Melih Emin Can; PhD Thesis; Dominik Kwietniak; auxiliary Borys Kuca; Kraków2024. Institutional repository identifies Jagiellonian. Manuscript date is not claimed as award date.
+
+**Source.** Melih Emin Can and Marcin Kulczycki. *The interplay between partial specification, average shadowing, and Besicovitch completeness*. 2026. [primary source](https://arxiv.org/abs/2604.13189v1) Location: Question3.15, p.10; definitions pp.2–4.
+
+**Literature check.** Status: checked 12 October 2026. The latest inspected version explicitly asks this; no matching later resolution located.
+
+**Further links.** [1](https://ruj.uj.edu.pl/server/api/core/bitstreams/eff1bd43-f79f-4ac3-81e8-53f480da7468/content)
 

@@ -2718,3 +2718,472 @@ For each n≥2, what is the exact computability-theoretic complexity of CP3(nV)?
 
 **Literature check.** Status checked 10 October 2026: The current paper proves undecidability and gives an analytic Σ¹₁ upper bound, but no sharper upper bound. Its Σ⁰₁-completeness results concern different conjugacy problems. No later resolution was found.
 
+
+<a id="q4252"></a>
+
+## Q4252. Does every highly computable graph have a computable (Δ+1)-edge-coloring?
+
+**Status:** Open · **Kind:** open problem (Question 2.3.19) · **Collection** 43
+
+Does every highly computable graph have a computable (Δ+1)-edge-coloring?
+
+**Context.** Thesis: https://kilthub.cmu.edu/articles/thesis/27307407 , Questions 2.3.19, p.39, and 3.4.17, p.89. First: unambiguous Qian–Weilacher (2022) formulation (arXiv:2206.08426, p.4); thesis attribution to Kierstead (1981). Second: Bernshteyn–Bowen–Weilacher’s joint question, reaffirmed by arXiv:2606.11558, Conjecture 7.6. Checked 10 October 2026; no matching resolution located.
+
+**Source.** Felix Weilacher. *Definable Combinatorics in Descriptive Set Theory, Computability Theory, and Beyond*. Carnegie Mellon University, 2024. Advisor(s): Clinton Conley. [primary source](https://kilthub.cmu.edu/articles/thesis/27307407) Location: Thesis Question 2.3.19, p.39.
+
+**Literature check.** Status: Thesis: https://kilthub.cmu.edu/articles/thesis/27307407 , Questions 2.3.19, p.39, and 3.4.17, p.89. First: unambiguous Qian–Weilacher (2022) formulation (arXiv:2206.08426, p.4); thesis attribution to Kierstead (1981). Second: Bernshteyn–Bowen–Weilacher’s joint question, reaffirmed by arXiv:2606.11558, Conjecture 7.6. Checked 10 October 2026; no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2206.08426) · [2](https://arxiv.org/abs/2606.11558)
+
+
+<a id="q4253"></a>
+
+## Q4253. If its degree-Δ vertices are independent, does every Borel graph have a μ-measurable…
+
+**Status:** Open · **Kind:** open problem (Question 3.4.17) · **Collection** 43
+
+If its degree-Δ vertices are independent, does every Borel graph have a μ-measurable Δ-edge-coloring for every Borel probability measure μ on its vertices?
+
+**Context.** Thesis: https://kilthub.cmu.edu/articles/thesis/27307407 , Questions 2.3.19, p.39, and 3.4.17, p.89. First: unambiguous Qian–Weilacher (2022) formulation (arXiv:2206.08426, p.4); thesis attribution to Kierstead (1981). Second: Bernshteyn–Bowen–Weilacher’s joint question, reaffirmed by arXiv:2606.11558, Conjecture 7.6. Checked 10 October 2026; no matching resolution located.
+
+**Source.** Felix Weilacher. *Definable Combinatorics in Descriptive Set Theory, Computability Theory, and Beyond*. Carnegie Mellon University, 2024. Advisor(s): Clinton Conley. [primary source](https://kilthub.cmu.edu/articles/thesis/27307407) Location: Thesis Question 3.4.17, p.89.
+
+**Literature check.** Status: Thesis: https://kilthub.cmu.edu/articles/thesis/27307407 , Questions 2.3.19, p.39, and 3.4.17, p.89. First: unambiguous Qian–Weilacher (2022) formulation (arXiv:2206.08426, p.4); thesis attribution to Kierstead (1981). Second: Bernshteyn–Bowen–Weilacher’s joint question, reaffirmed by arXiv:2606.11558, Conjecture 7.6. Checked 10 October 2026; no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2206.08426) · [2](https://arxiv.org/abs/2606.11558)
+
+
+<a id="q4254"></a>
+
+## Q4254. What is the least countable ordinal α with BAIRE_α(F₂)=BOREL(F₂)?
+
+**Status:** Open · **Kind:** open problem (Question 2) · **Collection** 43
+
+What is the least countable ordinal α with BAIRE_α(F₂)=BOREL(F₂)?
+
+**Context.** Primary: https://arxiv.org/abs/2601.19046v1 , Questions 2–4, p.10; definitions pp.1–3. Q4254 was already recorded in Weilacher’s 19 February 2025 Caltech talk (https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292); Q4255–33 are paper questions. Current v1: 27 January 2026. Checked 10 October 2026; no matching resolution located.
+
+**Source.** Felix Weilacher. *LCLs in the Borel Hierarchy*. 2026. [primary source](https://arxiv.org/abs/2601.19046v1) Location: Question 2, p.10.
+
+**Literature check.** Status: Primary: https://arxiv.org/abs/2601.19046v1 , Questions 2–4, p.10; definitions pp.1–3. Q4254 was already recorded in Weilacher’s 19 February 2025 Caltech talk (https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292); Q4255–33 are paper questions. Current v1: 27 January 2026. Checked 10 October 2026; no matching resolution located.
+
+**Further links.** [1](https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292)
+
+
+<a id="q4255"></a>
+
+## Q4255. For every n≥2, is BOREL(Z^n)=BAIRE_1(Z^n)?
+
+**Status:** Open · **Kind:** open problem (Question 3) · **Collection** 43
+
+For every n≥2, is BOREL(Z^n)=BAIRE_1(Z^n)?
+
+**Context.** Primary: https://arxiv.org/abs/2601.19046v1 , Questions 2–4, p.10; definitions pp.1–3. Q4254 was already recorded in Weilacher’s 19 February 2025 Caltech talk (https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292); Q4255–33 are paper questions. Current v1: 27 January 2026. Checked 10 October 2026; no matching resolution located.
+
+**Source.** Felix Weilacher. *LCLs in the Borel Hierarchy*. 2026. [primary source](https://arxiv.org/abs/2601.19046v1) Location: Question 3, p.10.
+
+**Literature check.** Status: Primary: https://arxiv.org/abs/2601.19046v1 , Questions 2–4, p.10; definitions pp.1–3. Q4254 was already recorded in Weilacher’s 19 February 2025 Caltech talk (https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292); Q4255–33 are paper questions. Current v1: 27 January 2026. Checked 10 October 2026; no matching resolution located.
+
+**Further links.** [1](https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292)
+
+
+<a id="q4256"></a>
+
+## Q4256. For every countable ordinal α, does some countable group Γ satisfy BOREL(Γ)≠BAIRE_α(Γ)?
+
+**Status:** Open · **Kind:** open problem (Question 4) · **Collection** 43
+
+For every countable ordinal α, does some countable group Γ satisfy BOREL(Γ)≠BAIRE_α(Γ)?
+
+**Context.** Primary: https://arxiv.org/abs/2601.19046v1 , Questions 2–4, p.10; definitions pp.1–3. Q4254 was already recorded in Weilacher’s 19 February 2025 Caltech talk (https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292); Q4255–33 are paper questions. Current v1: 27 January 2026. Checked 10 October 2026; no matching resolution located.
+
+**Source.** Felix Weilacher. *LCLs in the Borel Hierarchy*. 2026. [primary source](https://arxiv.org/abs/2601.19046v1) Location: Question 4, p.10.
+
+**Literature check.** Status: Primary: https://arxiv.org/abs/2601.19046v1 , Questions 2–4, p.10; definitions pp.1–3. Q4254 was already recorded in Weilacher’s 19 February 2025 Caltech talk (https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292); Q4255–33 are paper questions. Current v1: 27 January 2026. Checked 10 October 2026; no matching resolution located.
+
+**Further links.** [1](https://www.caltech.edu/campus-life-events/calendar/logic-seminar-90292)
+
+
+<a id="q4323"></a>
+
+## Q4323. Is there an algorithm deciding whether such a sentence has a nonempty model, finite or infinite?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Is there an algorithm deciding whether such a sentence has a nonempty model, finite or infinite?
+
+**Context.** An input is a finite first-order sentence with equality over a finite unary/binary relational signature, no constants or function symbols, and only two reusable variable names. One distinguished binary predicate < must be interpreted as a strict partial order, meaning transitive and irreflexive; the other predicates are unrestricted.
+
+**Source.** Dariusz Marzec and Lidia Tendera. *On two-variable first-order logic with a partial order*. [primary source](https://arxiv.org/abs/1804.09447) Location: §2.2 and final Discussion.
+
+**Literature check.** Status checked 11 October2026: the final retains this question. The authors of a2013 general decidability claim acknowledged its failure in2018; finite-model decidability and restricted-fragment results do not settle this target.
+
+**Further links.** [1](https://doi.org/10.1093/logcom/exaf068)
+
+
+<a id="q4420"></a>
+
+## Q4420. For every g∈F(P)\H, must some homomorphism φ from F(P) to a finite nilpotent group satisfy…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+For every g∈F(P)\H, must some homomorphism φ from F(P) to a finite nilpotent group satisfy φ(g)∉φ(H)? Equivalently, is H closed in the pro-nilpotent topology?
+
+**Context.** Genealogy: Etedadialiabadi's Generic behaviour of a measure preserving transformation, Illinois Urbana-Champaign PhD, December2017; research director Slawomir Solecki. This is background, not the question's origin. Setup: Let X be a finite nonempty set and P a set of bijections between subsets of X. Assume the undirected graph joining x to p(x), whenever defined, is connected. Fix x0∈X. In the free group F(P), let H consist of reduced words whose successive partial-permutation actions are defined at x0 and return it to x0. Suppose the maps in P have pairwise distinct permutation extensions on a common finite superset of X, generating a nilpotent group.
+
+**Source.** Mahmood Etedadialiabadi and Su Gao. *Extension properties for partial permutations*. 2026. [primary source](https://arxiv.org/abs/2610.04870v1) Location: Problem4.31, p.37; definitions §§4.1,4.4.
+
+**Literature check.** Status: Posed in the current version; no resolution located through11October2026.
+
+**Further links.** [1](https://hdl.handle.net/2142/99247)
+
+
+<a id="q4502"></a>
+
+## Q4502. Does there exist a complete first-order theory T in the language consisting solely of one binary…
+
+**Status:** Open · **Kind:** open problem (Question 4.2) · **Collection** 46
+
+Does there exist a complete first-order theory T in the language consisting solely of one binary relation ≤, whose models are partially ordered sets, such that the number of countably infinite models of T up to isomorphism is finite and greater than one? Such a theory is called an Ehrenfeucht theory.
+
+**Context.** DL-S04 — Model theory / partially ordered sets Primary-paper source: Miloš S. Kurilić, Vaught's Conjecture for Sums of Products of Rooted Trees, arXiv:2609.28606v1 (23 September 2026), Question 4.2, p.11. https://arxiv.org/abs/2609.28606 Origin: Explicit question in this paper; no doctoral attribution or first-origin priority asserted.
+
+**Source.** Miloš S. Kurilić. *Vaught's Conjecture for Sums of Products of Rooted Trees*. 2026. [primary source](https://arxiv.org/abs/2609.28606v1) Location: Question 4.2, p.11.
+
+**Literature check.** Status checked 11 October 2026: The current primary asks this question. Its results for sums of products of rooted trees do not answer the unrestricted partial-order question; no later matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2609.28606)
+
+
+<a id="q4503"></a>
+
+## Q4503. For every n>1, does T_n have a model companion if and only if every finitely generated group…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.1) · **Collection** 46
+
+For every n>1, does T_n have a model companion if and only if every finitely generated group satisfying x^n=1 is finite?
+
+**Context.** DL-S05 — Model theory / group theory Primary-paper source: Yawara Ishida, Ryosuke Mizuno and Kota Takeuchi, Existence of a Model Companion for Groups of Exponent 3, arXiv:2609.30061v1 (24 September 2026), Conjecture 1.1, p.2. https://arxiv.org/abs/2609.30061 Origin: Conjecture attributed explicitly to Takeuchi; the paper notes his earlier 2022 discussion of the connection. No doctoral attribution. Setup: For each integer n>1, T_n is the group theory with identity x^n=1, so exponents divide n. A model companion T_n\* is model-complete, and every model of either theory embeds into a model of the other; model-complete means every embedding between its models is elementary.
+
+**Source.** Yawara Ishida, Ryosuke Mizuno and Kota Takeuchi. *Existence of a Model Companion for Groups of Exponent 3*. 2026. [primary source](https://arxiv.org/abs/2609.30061v1) Location: Conjecture 1.1, p.2.
+
+**Literature check.** Status checked 11 October 2026: The primary retains the full conjecture, proves n=3, and reports n=2 and sufficiently large prime cases. No resolution of the full equivalence located.
+
+**Further links.** [1](https://arxiv.org/abs/2609.30061)
+
+
+<a id="q4504"></a>
+
+## Q4504. Must there be a definable equivalence relation E on M with infinitely many classes and a…
+
+**Status:** Open · **Kind:** open problem (Question 2.7) · **Collection** 46
+
+Must there be a definable equivalence relation E on M with infinitely many classes and a definable binary relation R on M inducing a strict linear order on M/E? Both relations may use parameters; the interpretation domain is M itself.
+
+**Context.** DL-S06 — Model theory / definable orders Primary-paper source: Grzegorz Jagiella, On canonicity of almost linear minimal orders, arXiv:2609.36313v2 (30 September 2026), Question 2.7, p.5; interpretation convention §§1.1–1.3. https://arxiv.org/abs/2609.36313 Origin: Tanović's earlier question, explicitly retained here; no doctoral attribution. Setup: (M,<) is an infinite partially ordered structure, with < irreflexive and transitive, containing an infinite chain. It is minimal: every subset of M definable using parameters is finite or cofinite.
+
+**Source.** Grzegorz Jagiella. *On canonicity of almost linear minimal orders*. 2026. [primary source](https://arxiv.org/abs/2609.36313v2) Location: Question 2.7, p.5; interpretation convention §§1.1–1.3.
+
+**Literature check.** Status checked 11 October 2026: The current primary explicitly leaves the question unsettled. Its canonicity results assume the existence of such an interpreted order; no later matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2609.36313)
+
+
+<a id="q4522"></a>
+
+## Q4522. Is T(C_n,H)<∞ for every n≥2, where C_n is the cyclic group of order n?
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Is T(C_n,H)<∞ for every n≥2, where C_n is the cyclic group of order n?
+
+**Context.** Setup: H is the countable locally finite universal homogeneous group: it contains every finite group, and every isomorphism between finite subgroups extends to an automorphism. Emb(A,B) denotes injective group homomorphisms. Define T(A,H) as the least positive integer t such that every finite coloring χ of Emb(A,H) admits w∈Emb(H,H) with |χ(w∘Emb(A,H))|≤t; put T(A,H)=∞ if none exists. Checked 11 October 2026: current v3 retains this cyclic-group target while proving infinite degrees for noncyclic finite abelian groups; no later resolution located.
+
+**Source.** Dragan Mašulović and Veljko Toljić. *Hall’s universal group does not have finite big Ramsey degrees*. 2026. [primary source](https://arxiv.org/abs/2607.23618) Location: Open problem 1, p.11; definitions pp.2–3.
+
+**Literature check.** Status: Checked 11 October 2026: current v3 retains this cyclic-group target while proving infinite degrees for noncyclic finite abelian groups; no later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2607.23618v3)
+
+
+<a id="q4578"></a>
+
+## Q4578. If B is connected and bisoluble with left chief length three, must it be strongly left soluble,…
+
+**Status:** Open · **Kind:** open problem (Question 6.1) · **Collection** 46
+
+If B is connected and bisoluble with left chief length three, must it be strongly left soluble, or even soluble?
+
+**Context.** Setup: B=(B,+,∘) has finite Morley rank, two group laws and a∘(b+c)=a∘b−a+a∘c. It is connected if (B,+) has no proper definable finite-index subgroup, and bisoluble if both groups are soluble. Put λ\_a(b)=−a+a∘b and a\*b=λ\_a(b)−b. A strong left ideal is an additive normal subgroup invariant under every λ\_a; an ideal is additionally multiplicatively normal. Weak/strong-left/ordinary solubility means a finite series B=L₀≥⋯≥L_s=0 of subbraces/strong-left-ideals/ideals, respectively, with [L_i,L_i]\_+ and L_i\*L_i contained in L_{i+1}; subbraces are subgroups for both laws. Left chief length is the length of a maximal chain of definable connected strong left ideals from B to 0. Checked 11 October 2026: current primary retains both targets; bounded-rank results do not settle them.
+
+**Source.** Maria Ferrara, Moreno Invitti, Marco Trombetti and Frank Olaf Wagner. *Bisoluble and Binilpotent Skew Braces of Finite Morley Rank*. 2026. [primary source](https://arxiv.org/abs/2609.27999) Location: Question 6.1, p.28.
+
+**Further links.** [1](https://arxiv.org/abs/2609.27999v1)
+
+
+<a id="q4579"></a>
+
+## Q4579. Is every connected bisoluble B weakly soluble?
+
+**Status:** Open · **Kind:** open problem (Question 6.2) · **Collection** 46
+
+Is every connected bisoluble B weakly soluble?
+
+**Context.** Setup: B=(B,+,∘) has finite Morley rank, two group laws and a∘(b+c)=a∘b−a+a∘c. It is connected if (B,+) has no proper definable finite-index subgroup, and bisoluble if both groups are soluble. Put λ\_a(b)=−a+a∘b and a\*b=λ\_a(b)−b. A strong left ideal is an additive normal subgroup invariant under every λ\_a; an ideal is additionally multiplicatively normal. Weak/strong-left/ordinary solubility means a finite series B=L₀≥⋯≥L_s=0 of subbraces/strong-left-ideals/ideals, respectively, with [L_i,L_i]\_+ and L_i\*L_i contained in L_{i+1}; subbraces are subgroups for both laws. Left chief length is the length of a maximal chain of definable connected strong left ideals from B to 0. Checked 11 October 2026: current primary retains both targets; bounded-rank results do not settle them.
+
+**Source.** Maria Ferrara, Moreno Invitti, Marco Trombetti and Frank Olaf Wagner. *Bisoluble and Binilpotent Skew Braces of Finite Morley Rank*. 2026. [primary source](https://arxiv.org/abs/2609.27999) Location: Question 6.2, p.28.
+
+**Further links.** [1](https://arxiv.org/abs/2609.27999v1)
+
+
+<a id="q4603"></a>
+
+## Q4603. Which lengths δ of strong chains of subsets of ω₁ are consistent? Such a chain is (X_α)\_{α<δ},…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Which lengths δ of strong chains of subsets of ω₁ are consistent? Such a chain is (X_α)\_{α<δ}, X_α⊆ω₁, with X_α∖X_β finite and |X_β∖X_α|=ℵ₁ whenever α<β<δ.
+
+**Context.** DL47-RS29 — Set theory Origin: longstanding strong-chain problems, restated in thesis Questions3.0.9–10, p120; Asperó–Gallart https://arxiv.org/abs/2604.15894v1, Question1.11. Setup: δ is a limit ordinal; consistency is with ZFC, without assuming CH or GCH in the resulting model. Checked 12 October 2026: latest paper retains both classifications; subset-chain length ω₃ is consistent, while the corresponding function construction remains proposed. Function-chain length ω₂ is known consistent. Audited provenance and status: Subject: Set theory
+
+**Source.** Curial Gallart Rodríguez. *Side Conditions of Models of Two Types and High Forcing Axioms*. University of East Anglia, 2024. Advisor(s): David Asperó. [primary source](https://ueaeprints.uea.ac.uk/id/eprint/97643/) Location: longstanding strong-chain problems, restated in thesis Questions3.0.9–10, p120; Asperó–Gallart  Question1.11.
+
+**Further links.** [1](https://arxiv.org/abs/2604.15894v1)
+
+
+<a id="q4604"></a>
+
+## Q4604. Which lengths δ of strong chains of functions ω₁→ω₁ are consistent? Such a chain is (f_α)\_{α<δ}…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Which lengths δ of strong chains of functions ω₁→ω₁ are consistent? Such a chain is (f_α)\_{α<δ} with {ξ<ω₁:f_α(ξ)≥f_β(ξ)} finite whenever α<β<δ.
+
+**Context.** DL47-RS29 — Set theory Origin: longstanding strong-chain problems, restated in thesis Questions3.0.9–10, p120; Asperó–Gallart https://arxiv.org/abs/2604.15894v1, Question1.11. Setup: δ is a limit ordinal; consistency is with ZFC, without assuming CH or GCH in the resulting model. Checked 12 October 2026: latest paper retains both classifications; subset-chain length ω₃ is consistent, while the corresponding function construction remains proposed. Function-chain length ω₂ is known consistent. Audited provenance and status: Subject: Set theory
+
+**Source.** Curial Gallart Rodríguez. *Side Conditions of Models of Two Types and High Forcing Axioms*. University of East Anglia, 2024. Advisor(s): David Asperó. [primary source](https://ueaeprints.uea.ac.uk/id/eprint/97643/) Location: longstanding strong-chain problems, restated in thesis Questions3.0.9–10, p120; Asperó–Gallart  Question1.11.
+
+**Further links.** [1](https://arxiv.org/abs/2604.15894v1)
+
+
+<a id="q4614"></a>
+
+## Q4614. For every infinite λ≥LS(K), does I(K,λ)=1 and 1≤I(K,λ⁺)<2^(λ⁺) imply that K has a model of…
+
+**Status:** Open · **Kind:** open problem (Question 1.1) · **Collection** 47
+
+For every infinite λ≥LS(K), does I(K,λ)=1 and 1≤I(K,λ⁺)<2^(λ⁺) imply that K has a model of cardinality λ⁺⁺?
+
+**Context.** Primary: https://www.math.cmu.edu/users/rami/Wentao.final_thesis.pdf, Chapter1;Question37,p11; Mazari-Armida–Yang, https://doi.org/10.1017/jsl.2024.32, Questions1.1,2.7,pp1009,1013. Origin: Grossberg’s existence question, in the paper’s broader formulation; locality question from Mazari-Armida–Yang’s preprint2310.14474. Setup: K is an abstract elementary class, ≤\_K its strong-submodel order, LS(K) its Löwenheim–Skolem number. I(K,κ) counts isomorphism classes of κ-sized models. S(M) denotes one-element Galois types, defined by the equivalence relation generated by joint embeddings fixing the base and identifying the realizing elements. No amalgamation assumption is imposed. Checked 12 October 2026: publisher final and latest related2406.15263v2 inspected; only additional-hypothesis results located. Audited provenance and status: Subject: Model theory https://doi.org/10.1017/jsl.2025.10145 https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/an-niplike-notion-in-abstract-elementary-classes/8526FFAA92AE64BF4EC908538F3669AC Final abstract: NIP/frame characterization under additional set theory; full text unread.
+
+**Source.** Wentao Yang. *On successive categoricity, stability and NIP in abstract elementary classes*. Carnegie Mellon University, 2024. Advisor(s): Rami Grossberg. [primary source](https://www.math.cmu.edu/users/rami/Wentao.final_thesis.pdf) Location: Thesis Chapter 1; Mazari-Armida–Yang Question 1.1, p.1009 (broader formulation).
+
+**Further links.** [1](https://doi.org/10.1017/jsl.2024.32) · [2](https://doi.org/10.1017/jsl.2025.10145) · [3](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/an-niplike-notion-in-abstract-elementary-classes/8526FFAA92AE64BF4EC908538F3669AC)
+
+
+<a id="q4615"></a>
+
+## Q4615. Suppose, whenever M=⋃\_{n<ω}M_n is countable with M_n increasing under ≤\_K, types p,q∈S(M)…
+
+**Status:** Open · **Kind:** open problem (Question 37) · **Collection** 47
+
+Suppose, whenever M=⋃\_{n<ω}M_n is countable with M_n increasing under ≤\_K, types p,q∈S(M) agreeing on every M_n are equal. Must any distinct p,q∈S(M), for countable M, differ on some finite A⊆|M|?
+
+**Context.** Primary: https://www.math.cmu.edu/users/rami/Wentao.final_thesis.pdf, Chapter1;Question37,p11; Mazari-Armida–Yang, https://doi.org/10.1017/jsl.2024.32, Questions1.1,2.7,pp1009,1013. Origin: Grossberg’s existence question, in the paper’s broader formulation; locality question from Mazari-Armida–Yang’s preprint2310.14474. Setup: K is an abstract elementary class, ≤\_K its strong-submodel order, LS(K) its Löwenheim–Skolem number. I(K,κ) counts isomorphism classes of κ-sized models. S(M) denotes one-element Galois types, defined by the equivalence relation generated by joint embeddings fixing the base and identifying the realizing elements. No amalgamation assumption is imposed. Checked 12 October 2026: publisher final and latest related2406.15263v2 inspected; only additional-hypothesis results located. Audited provenance and status: Subject: Model theory https://doi.org/10.1017/jsl.2025.10145 https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/an-niplike-notion-in-abstract-elementary-classes/8526FFAA92AE64BF4EC908538F3669AC Final abstract: NIP/frame characterization under additional set theory; full text unread.
+
+**Source.** Wentao Yang. *On successive categoricity, stability and NIP in abstract elementary classes*. Carnegie Mellon University, 2024. Advisor(s): Rami Grossberg. [primary source](https://www.math.cmu.edu/users/rami/Wentao.final_thesis.pdf) Location: Thesis Question 37, p.11; Mazari-Armida–Yang Question 2.7, p.1013.
+
+**Further links.** [1](https://doi.org/10.1017/jsl.2024.32) · [2](https://doi.org/10.1017/jsl.2025.10145) · [3](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/an-niplike-notion-in-abstract-elementary-classes/8526FFAA92AE64BF4EC908538F3669AC)
+
+
+<a id="q4616"></a>
+
+## Q4616. Is it impossible to find M∈Ktf and tuples (a_i)\_{i<ℵω}, each of length ℵ₁, such that gtp(a_i…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Is it impossible to find M∈Ktf and tuples (a_i)\_{i<ℵω}, each of length ℵ₁, such that gtp(a_i a_j/∅)≠gtp(a_l a_k/∅) whenever i&lt;j<ℵω and k&lt;l<ℵω?
+
+**Context.** Origin: thesis Question5.8.8,p153 reproduces the author's paper question; publisher-final DOI10.1017/jsl.2023.57, Question8.8,p423. Setup: Ktf consists of all torsion-free abelian groups with pure subgroup embeddings; A≤B is pure when nA=A∩nB for every positive integer n. Galois types over ∅ are automorphism orbits in a sufficiently large homogeneous universal model for these embeddings. Audited provenance and status: Subject: Model theory
+
+**Source.** Samson Leung. *Stability, Categoricity and Axiomatization of Abstract Elementary Classes*. Carnegie Mellon University, 2023. Advisor(s): Rami Grossberg. [primary source](https://www.math.cmu.edu/~wangchil/Thesis_Final_Samson.pdf) Location: thesis Question5.8.8,p153 reproduces the author's paper question; publisher-final DOI10.1017/jsl.2023.57, Question8.8,p423.
+
+**Literature check.** Status2026-10-12: publisher final retains the question; no matching later resolution located.
+
+**Notes.** Status2026-10-12: publisher final retains the question; no matching later resolution located.
+
+**Further links.** [1](https://doi.org/10.1017/jsl.2023.57)
+
+
+<a id="q4620"></a>
+
+## Q4620. Does every countable Borel equivalence relation E on an uncountable standard Borel space X, with…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Does every countable Borel equivalence relation E on an uncountable standard Borel space X, with every class infinite, admit a Borel bijection f:X→Y onto a compact Polish space Y and a compact irreflexive symmetric graph G⊆Y² such that xEy exactly when f(x) and f(y) belong to the same connected component of G?
+
+**Context.** Origin: Frisch–Kechris–Shinko–Vidnyánszky, Realizations of Countable Borel Equivalence Relations, Problem6.8,p68; author-labelled final arXiv:2109.12486v10. Wang's March2026 note,p1 restates it and proves a special case. Audited provenance and status: Subject: Descriptive set theory
+
+**Source.** Frisch, Kechris, Shinko and Vidnyánszky. *Realizations of Countable Borel Equivalence Relations*. 2026. [primary source](https://doi.org/10.1090/memo/1632) Location: final §6.1,pp67–68; standing hypotheses,p1; repeated Problem9.20,p80.
+
+**Literature check.** Status2026-10-12: Wang's dated September16,2026 ELTE abstract retains this full question after the May2026 Memoirs publication, DOI10.1090/memo/1632. Publisher PDF unavailable; final-labelled manuscript and post-publication primary reaffirmation read.
+
+**Notes.** Status2026-10-12: Wang's dated September16,2026 ELTE abstract retains this full question after the May2026 Memoirs publication, DOI10.1090/memo/1632. Publisher PDF unavailable; final-labelled manuscript and post-publication primary reaffirmation read.
+
+**Further links.** [1](https://www.allisonwang.org/) · [2](https://arxiv.org/abs/2109.12486v10)
+
+
+<a id="q4644"></a>
+
+## Q4644. Assume no polynomial-size Boolean-circuit family factors a constant positive fraction of all…
+
+**Status:** Open · **Kind:** open problem (Question 2.5.2) · **Collection** 47
+
+Assume no polynomial-size Boolean-circuit family factors a constant positive fraction of all products of two n-bit primes for every n. Does S₂¹⊊T₂¹ follow?
+
+**Context.** Setup: In Buss’s bounded arithmetic, S₂ⁱ=BASIC+Σᵇᵢ-length-induction and T₂ⁱ=BASIC+Σᵇᵢ-induction. BB(Γ) is the sharply bounded replacement scheme (∀j≤|x| ∃y≤t φ(j,y))⇒(∃w ∀j≤|x| φ(j,(w)ⱼ)), for φ∈Γ; w codes a sequence and |x| is binary length. Origins: Thesis Question2.5.2 p73 and Problem3.1.16 p88, from Ježil’s Prime Factorization in Models of PV₁, final Question5.2 p1:12, and Ježil–Tsintsilidas’s Parallelism and Adaptivity in Student-Teacher Witnessing, §1.3 p13. Audited provenance and status: Subject: Proof theory Honzik–Ježil–Narusevych, Forcing in bounded arithmetic and set theory: analogies and differences, October2026 v1. Theorems concern forcing-framework comparisons and models; §6 retains forcing-method questions, without either conditional separation claimed.
+
+**Source.** Ondřej Ježil. *Primes and Witnessing in Bounded Arithmetic*. Charles University, 2026. Advisor(s): Jan Krajíček. [primary source](https://dspace.cuni.cz/bitstream/handle/20.500.11956/209690/140145951.pdf?isAllowed=y&sequence=1) Location: Thesis Question 2.5.2, p.73.
+
+**Literature check.** Status: Explicit residual questions; current sources checked 12 October 2026, no matching resolution located.
+
+
+<a id="q4645"></a>
+
+## Q4645. Does noncollapse of the polynomial hierarchy imply T₂ⁱ⊈S₂ⁱ+BB(Σᵇᵢ₊₁) for every integer i≥1?
+
+**Status:** Open · **Kind:** open problem (Problem 3.1.16) · **Collection** 47
+
+Does noncollapse of the polynomial hierarchy imply T₂ⁱ⊈S₂ⁱ+BB(Σᵇᵢ₊₁) for every integer i≥1?
+
+**Context.** Setup: In Buss’s bounded arithmetic, S₂ⁱ=BASIC+Σᵇᵢ-length-induction and T₂ⁱ=BASIC+Σᵇᵢ-induction. BB(Γ) is the sharply bounded replacement scheme (∀j≤|x| ∃y≤t φ(j,y))⇒(∃w ∀j≤|x| φ(j,(w)ⱼ)), for φ∈Γ; w codes a sequence and |x| is binary length. Origins: Thesis Question2.5.2 p73 and Problem3.1.16 p88, from Ježil’s Prime Factorization in Models of PV₁, final Question5.2 p1:12, and Ježil–Tsintsilidas’s Parallelism and Adaptivity in Student-Teacher Witnessing, §1.3 p13. Audited provenance and status: Subject: Proof theory Honzik–Ježil–Narusevych, Forcing in bounded arithmetic and set theory: analogies and differences, October2026 v1. Theorems concern forcing-framework comparisons and models; §6 retains forcing-method questions, without either conditional separation claimed.
+
+**Source.** Ondřej Ježil. *Primes and Witnessing in Bounded Arithmetic*. Charles University, 2026. Advisor(s): Jan Krajíček. [primary source](https://dspace.cuni.cz/bitstream/handle/20.500.11956/209690/140145951.pdf?isAllowed=y&sequence=1) Location: Thesis Problem 3.1.16, p.88.
+
+**Literature check.** Status: Explicit residual questions; current sources checked 12 October 2026, no matching resolution located.
+
+
+<a id="q4651"></a>
+
+## Q4651. Does Ab+(Arch) equal ⊨R?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Does Ab+(Arch) equal ⊨R?
+
+**Context.** Setup: Use countably-many variables; N={0,1,…}. Ab is the finitary logic of ordered additive reals: a→b is interpreted as b−a, & as addition, ∧ minimum, ∨ maximum, t=0, with nonnegative designated values. Let ⊨A denote consequence from arbitrary premise sets under valuations into A=R or Z. Put n·φ=φ&⋯&φ, 0·φ=t. Rule (Arch) is {ψ→n·φ:n∈N}▶φ; (IDC) is {2·φₙ₊₁→φₙ,φₙ→4·φₙ₊₁:n∈N}▶φ₀→t. For any rule Γ▶φ, its ∨-form comprises {γ∨χ:γ∈Γ}▶φ∨χ for every formula χ. Origins: Cintula–Jankovec–Noguera, Superabelian logics, final p229 after Theorem3.4 and Conjecture3.8 p231; retained in thesis pp20,22. Audited provenance and status: Subject: Mathematical logic Publisher final 19(2):218–244, June2026; latest arXiv v5 April2026. Thesis title-page distinguishes supervisor Cintula and advisor Noguera.
+
+**Source.** Petr Cintula, Filip Jankovec and Carles Noguera. *Superabelian logics*. 2026. [primary source](https://arxiv.org/abs/2409.20170v5) Location: Cintula–Jankovec–Noguera, Superabelian logics, final p229 after Theorem3.4 and Conjecture3.8 p231; retained in thesis pp20,22.
+
+**Literature check.** Status: Final and September2026 thesis retain both questions; checked 12 October 2026, no matching resolution located.
+
+
+<a id="q4652"></a>
+
+## Q4652. Does Ab+(Arch)∨+(IDC)∨ equal ⊨Z?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Does Ab+(Arch)∨+(IDC)∨ equal ⊨Z?
+
+**Context.** Setup: Use countably-many variables; N={0,1,…}. Ab is the finitary logic of ordered additive reals: a→b is interpreted as b−a, & as addition, ∧ minimum, ∨ maximum, t=0, with nonnegative designated values. Let ⊨A denote consequence from arbitrary premise sets under valuations into A=R or Z. Put n·φ=φ&⋯&φ, 0·φ=t. Rule (Arch) is {ψ→n·φ:n∈N}▶φ; (IDC) is {2·φₙ₊₁→φₙ,φₙ→4·φₙ₊₁:n∈N}▶φ₀→t. For any rule Γ▶φ, its ∨-form comprises {γ∨χ:γ∈Γ}▶φ∨χ for every formula χ. Origins: Cintula–Jankovec–Noguera, Superabelian logics, final p229 after Theorem3.4 and Conjecture3.8 p231; retained in thesis pp20,22. Audited provenance and status: Subject: Mathematical logic Publisher final 19(2):218–244, June2026; latest arXiv v5 April2026. Thesis title-page distinguishes supervisor Cintula and advisor Noguera.
+
+**Source.** Petr Cintula, Filip Jankovec and Carles Noguera. *Superabelian logics*. 2026. [primary source](https://arxiv.org/abs/2409.20170v5) Location: Cintula–Jankovec–Noguera, Superabelian logics, final p229 after Theorem3.4 and Conjecture3.8 p231; retained in thesis pp20,22.
+
+**Literature check.** Status: Final and September2026 thesis retain both questions; checked 12 October 2026, no matching resolution located.
+
+
+<a id="q4670"></a>
+
+## Q4670. What is the exact consistency strength of ZF plus the assertion that Θ is both the least…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+What is the exact consistency strength of ZF plus the assertion that Θ is both the least inaccessible cardinal and the least measurable cardinal?
+
+**Context.** Setup: Work in ZF. Use the standard Θ=sup{α: there is a surjection R→α}. A cardinal κ is inaccessible here if κ>ω and every map f:x→κ, for every x∈Vκ, has bounded range. Measurability means carrying a nonprincipal normal κ-complete ultrafilter. Audited provenance and status: Subject: Set theory
+
+**Source.** Mohammadpour, Otto Rajala and Thei. *A Note on a Theorem of Apter*. 2026. [primary source](https://arxiv.org/abs/2603.08915v1) Location: Question4.1 p7.
+
+**Literature check.** Status: Latest target version:9March2026v1. Theorem1.1 proves only strong regularity. Gitik–Hayut–Karagila2401.02757v2, author-labelled final, Question4.6, leaves exact strength open without specifying Θ. Thesis route challenged; genealogy web-readable, local request403.
+
+**Literature check.** Status: Checked12October2026; no matching resolution located.
+
+
+<a id="q4686"></a>
+
+## Q4686. Is it consistent with ZFC that an entangled set exists and every 2-entangled subset of R is…
+
+**Status:** Open · **Kind:** open problem (Problem 0.6) · **Collection** 47
+
+Is it consistent with ZFC that an entangled set exists and every 2-entangled subset of R is entangled?
+
+**Context.** Setup: An uncountable E⊆R is n-entangled if, for every τ:n→{0,1} and every uncountable family A of pairwise-disjoint n-element subsets of E, some distinct a,b∈A satisfy a(i)&lt;b(i) iff τ(i)=0 for every i&lt;n; a,b are increasingly enumerated. Entangled means n-entangled for every integer n≥1. Audited provenance and status: Subject: Set theory Forcing Axioms and Construction Schemes: author preprint inspected; listed 2026 journal final unread. No target selected.
+
+**Source.** Jorge Antonio Cruz Chapital. *There may be an n-entangled set but no n+1-entangled sets*. 2026. [primary source](https://arxiv.org/abs/2509.01029) Location: Cruz-Chapital’s paper Problem 0.6, July 2026 journal final p3, following doctoral discovery.
+
+**Literature check.** Status: Origin: Cruz-Chapital’s paper Problem 0.6, July 2026 journal final p3, following doctoral discovery. Checked 12 October 2026; no matching resolution located.
+
+
+<a id="q4692"></a>
+
+## Q4692. Is there a poset (Σ,≤) such that, for every complete consistent first-order T, T has TP exactly…
+
+**Status:** Open · **Kind:** open problem (Question 4.4) · **Collection** 47
+
+Is there a poset (Σ,≤) such that, for every complete consistent first-order T, T has TP exactly when some model M⊨T has a formula φ(x;y) and tuples (b_s)\_{s∈Σ} satisfying M⊨∀x(φ(x;b_s)→φ(x;b_t)) iff s≤t?
+
+**Context.** Setup: A complete consistent first-order theory T has TP if some formula θ(x;y), integer k≥2 and tuples (a_η)\_{η∈ω^{<ω}} in a model satisfy: along each infinite branch, the corresponding θ-instances are consistent; at each node η, every k distinct members of {θ(x;a_{η⌢i}):i<ω} are inconsistent. Variables and parameters are finite tuples. Audited provenance and status: Subject: Model theory Thesis unlocated; paper postdates Spring doctorate. Colored-tree equivalences concern instability, TP₁ and IP; no TP poset characterization is stated. Accepted manuscript listed; published final unlocated.
+
+**Source.** Gabriel Day and Scott Mutchnik. *On the notion of a patterning property in model theory*. 2026. [primary source](https://arxiv.org/abs/2606.18533v2) Location: García–Mennuni, Question 4.4(1), restated in Day–Mutchnik, June 2026 v2, Question 3, p27.
+
+**Literature check.** Status: Chernikov’s August 2026 Theorem 1.1 proves SOP₂=SOP₃, settling Day–Mutchnik Question 1. These remain strictly stronger than TP; Question 3 is not resolved.
+
+
+<a id="q4698"></a>
+
+## Q4698. Is it consistent with ZFC that some κ⁺-supercompact cardinal κ admits a normal ideal I on κ⁺…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Is it consistent with ZFC that some κ⁺-supercompact cardinal κ admits a normal ideal I on κ⁺ with a dense family D of cardinality κ⁺?
+
+**Context.** Setup: A cardinal κ is κ⁺-supercompact if there is an elementary embedding j:V→M into a transitive class with critical point κ, j(κ)>κ⁺ and M closed under κ⁺-sequences. A normal ideal I on κ⁺ is proper, contains every bounded subset, and is closed under diagonal unions {α<κ⁺:∃ξ<α(α∈A_ξ)} for sequences (A_ξ)\_{ξ<κ⁺} in I. Put I⁺=P(κ⁺)∖I and A≤\_I B iff A∖B∈I. A family D⊆I⁺ is dense if every A∈I⁺ has B∈D with B≤\_I A. Audited provenance and status: Subject: Set theory Original October2025 v1 Question2.23 p12; final Question3.23 p12, 19May2026. Dense ideals, latest v1: Main Theorem constructs regular-successor ideals but does not assert preservation of predecessor supercompactness. https://arxiv.org/abs/2410.14359 https://arxiv.org/pdf/2410.14359v1
+
+**Source.** Tom Benhamou and Ben-Zion Weltsch. *Supercompact Measures and the Galvin Property*. 2026. [primary source](https://doi.org/10.1017/jsl.2026.10216) Location: Benhamou–Weltsch, Supercompact Measures and the Galvin Property, May2026 publisher final, Question3.23; density footnote3.
+
+**Literature check.** Status: Origin: Benhamou–Weltsch, Supercompact Measures and the Galvin Property, May2026 publisher final, Question3.23; density footnote3. Checked12October2026; no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2410.14359) · [2](https://arxiv.org/pdf/2410.14359v1) · [3](https://arxiv.org/abs/2410.14359v1)
+
+
+<a id="q4699"></a>
+
+## Q4699. Is it consistent with ZFC that such κ,U admit a projection P_U→Add(κ⁺,1)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Is it consistent with ZFC that such κ,U admit a projection P_U→Add(κ⁺,1)?
+
+**Context.** Setup: Let κ be an uncountable cardinal and U a κ-complete fine normal ultrafilter on Pκ(κ⁺)={x⊆κ⁺:|x|<κ}. Fine means {x:α∈x}∈U for α<κ⁺; normal means closure under diagonal intersections {x:∀α∈x,x∈A_α}, with all A_α∈U. Write x≺y when x⊆y and |x|<|κ∩y|. Supercompact Prikry conditions (s,A) have finite ≺-increasing stem s, A∈U above its last element; strengthening end-extends s using A and shrinks A. A projection π:P_U→Q is order-preserving, sends 1 to 1, and satisfies ∀p∀q≤π(p)∃p′≤p(π(p′)≤q). Add(κ⁺,1) consists of partial functions κ⁺→2 of size <κ⁺; Col(κ,κ⁺) consists of partial functions κ→κ⁺ of size <κ, both ordered by extension. Origin: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3. Checked12October2026; no matching resolution located. Audited provenance and status: Subject: Set theory Latest arXiv v2: 3 June2026. Author PDF retains Question6.6 p37.
+
+**Source.** Tom Benhamou, S. Thei and Ben-Zion Weltsch. *On the Intermediate Models of Strongly Compact Prikry Forcing*. 2026. [primary source](https://arxiv.org/abs/2605.09161v2) Location: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3.
+
+**Literature check.** Status: Origin: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3. Checked12October2026; no matching resolution located.
+
+
+<a id="q4700"></a>
+
+## Q4700. Is it consistent with ZFC that such κ,U admit a projection P_U→Col(κ,κ⁺)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Is it consistent with ZFC that such κ,U admit a projection P_U→Col(κ,κ⁺)?
+
+**Context.** Setup: Let κ be an uncountable cardinal and U a κ-complete fine normal ultrafilter on Pκ(κ⁺)={x⊆κ⁺:|x|<κ}. Fine means {x:α∈x}∈U for α<κ⁺; normal means closure under diagonal intersections {x:∀α∈x,x∈A_α}, with all A_α∈U. Write x≺y when x⊆y and |x|<|κ∩y|. Supercompact Prikry conditions (s,A) have finite ≺-increasing stem s, A∈U above its last element; strengthening end-extends s using A and shrinks A. A projection π:P_U→Q is order-preserving, sends 1 to 1, and satisfies ∀p∀q≤π(p)∃p′≤p(π(p′)≤q). Add(κ⁺,1) consists of partial functions κ⁺→2 of size <κ⁺; Col(κ,κ⁺) consists of partial functions κ→κ⁺ of size <κ, both ordered by extension. Origin: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3. Checked12October2026; no matching resolution located. Audited provenance and status: Subject: Set theory Latest arXiv v2: 3 June2026. Author PDF retains Question6.6 p37.
+
+**Source.** Tom Benhamou, S. Thei and Ben-Zion Weltsch. *On the Intermediate Models of Strongly Compact Prikry Forcing*. 2026. [primary source](https://arxiv.org/abs/2605.09161v2) Location: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3.
+
+**Literature check.** Status: Origin: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3. Checked12October2026; no matching resolution located.
+

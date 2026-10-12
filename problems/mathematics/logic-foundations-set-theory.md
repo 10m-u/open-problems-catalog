@@ -1,6 +1,6 @@
 # Logic, Foundations & Set Theory
 
-417 problems: 407 open, 9 open, partial results, 1 solved here: proved.
+446 problems: 436 open, 9 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -425,3 +425,32 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 | <a id="q4132"></a>[Q4132](logic-foundations-set-theory-part-2.md#q4132) | Do such A,T exist for every x that is neither Schnorr random nor weakly 1-generic, with T… | Open |
 | <a id="q4133"></a>[Q4133](logic-foundations-set-theory-part-2.md#q4133) | Do such A,T exist for every x that is neither Schnorr random nor 1-generic, without requiring… | Open |
 | <a id="q4182"></a>[Q4182](logic-foundations-set-theory-part-2.md#q4182) | For each n≥2, what is the exact computability-theoretic complexity of CP3(nV)? | Open |
+| <a id="q4252"></a>[Q4252](logic-foundations-set-theory-part-2.md#q4252) | Does every highly computable graph have a computable (Δ+1)-edge-coloring? | Open |
+| <a id="q4253"></a>[Q4253](logic-foundations-set-theory-part-2.md#q4253) | If its degree-Δ vertices are independent, does every Borel graph have a μ-measurable… | Open |
+| <a id="q4254"></a>[Q4254](logic-foundations-set-theory-part-2.md#q4254) | What is the least countable ordinal α with BAIRE_α(F₂)=BOREL(F₂)? | Open |
+| <a id="q4255"></a>[Q4255](logic-foundations-set-theory-part-2.md#q4255) | For every n≥2, is BOREL(Z^n)=BAIRE_1(Z^n)? | Open |
+| <a id="q4256"></a>[Q4256](logic-foundations-set-theory-part-2.md#q4256) | For every countable ordinal α, does some countable group Γ satisfy BOREL(Γ)≠BAIRE_α(Γ)? | Open |
+| <a id="q4323"></a>[Q4323](logic-foundations-set-theory-part-2.md#q4323) | Is there an algorithm deciding whether such a sentence has a nonempty model, finite or infinite? | Open |
+| <a id="q4420"></a>[Q4420](logic-foundations-set-theory-part-2.md#q4420) | For every g∈F(P)\H, must some homomorphism φ from F(P) to a finite nilpotent group satisfy… | Open |
+| <a id="q4502"></a>[Q4502](logic-foundations-set-theory-part-2.md#q4502) | Does there exist a complete first-order theory T in the language consisting solely of one binary… | Open |
+| <a id="q4503"></a>[Q4503](logic-foundations-set-theory-part-2.md#q4503) | For every n>1, does T_n have a model companion if and only if every finitely generated group… | Open |
+| <a id="q4504"></a>[Q4504](logic-foundations-set-theory-part-2.md#q4504) | Must there be a definable equivalence relation E on M with infinitely many classes and a… | Open |
+| <a id="q4522"></a>[Q4522](logic-foundations-set-theory-part-2.md#q4522) | Is T(C_n,H)<∞ for every n≥2, where C_n is the cyclic group of order n? | Open |
+| <a id="q4578"></a>[Q4578](logic-foundations-set-theory-part-2.md#q4578) | If B is connected and bisoluble with left chief length three, must it be strongly left soluble,… | Open |
+| <a id="q4579"></a>[Q4579](logic-foundations-set-theory-part-2.md#q4579) | Is every connected bisoluble B weakly soluble? | Open |
+| <a id="q4603"></a>[Q4603](logic-foundations-set-theory-part-2.md#q4603) | Which lengths δ of strong chains of subsets of ω₁ are consistent? Such a chain is (X_α)\_{α<δ},… | Open |
+| <a id="q4604"></a>[Q4604](logic-foundations-set-theory-part-2.md#q4604) | Which lengths δ of strong chains of functions ω₁→ω₁ are consistent? Such a chain is (f_α)\_{α<δ}… | Open |
+| <a id="q4614"></a>[Q4614](logic-foundations-set-theory-part-2.md#q4614) | For every infinite λ≥LS(K), does I(K,λ)=1 and 1≤I(K,λ⁺)<2^(λ⁺) imply that K has a model of… | Open |
+| <a id="q4615"></a>[Q4615](logic-foundations-set-theory-part-2.md#q4615) | Suppose, whenever M=⋃\_{n<ω}M_n is countable with M_n increasing under ≤\_K, types p,q∈S(M)… | Open |
+| <a id="q4616"></a>[Q4616](logic-foundations-set-theory-part-2.md#q4616) | Is it impossible to find M∈Ktf and tuples (a_i)\_{i<ℵω}, each of length ℵ₁, such that gtp(a_i… | Open |
+| <a id="q4620"></a>[Q4620](logic-foundations-set-theory-part-2.md#q4620) | Does every countable Borel equivalence relation E on an uncountable standard Borel space X, with… | Open |
+| <a id="q4644"></a>[Q4644](logic-foundations-set-theory-part-2.md#q4644) | Assume no polynomial-size Boolean-circuit family factors a constant positive fraction of all… | Open |
+| <a id="q4645"></a>[Q4645](logic-foundations-set-theory-part-2.md#q4645) | Does noncollapse of the polynomial hierarchy imply T₂ⁱ⊈S₂ⁱ+BB(Σᵇᵢ₊₁) for every integer i≥1? | Open |
+| <a id="q4651"></a>[Q4651](logic-foundations-set-theory-part-2.md#q4651) | Does Ab+(Arch) equal ⊨R? | Open |
+| <a id="q4652"></a>[Q4652](logic-foundations-set-theory-part-2.md#q4652) | Does Ab+(Arch)∨+(IDC)∨ equal ⊨Z? | Open |
+| <a id="q4670"></a>[Q4670](logic-foundations-set-theory-part-2.md#q4670) | What is the exact consistency strength of ZF plus the assertion that Θ is both the least… | Open |
+| <a id="q4686"></a>[Q4686](logic-foundations-set-theory-part-2.md#q4686) | Is it consistent with ZFC that an entangled set exists and every 2-entangled subset of R is… | Open |
+| <a id="q4692"></a>[Q4692](logic-foundations-set-theory-part-2.md#q4692) | Is there a poset (Σ,≤) such that, for every complete consistent first-order T, T has TP exactly… | Open |
+| <a id="q4698"></a>[Q4698](logic-foundations-set-theory-part-2.md#q4698) | Is it consistent with ZFC that some κ⁺-supercompact cardinal κ admits a normal ideal I on κ⁺… | Open |
+| <a id="q4699"></a>[Q4699](logic-foundations-set-theory-part-2.md#q4699) | Is it consistent with ZFC that such κ,U admit a projection P_U→Add(κ⁺,1)? | Open |
+| <a id="q4700"></a>[Q4700](logic-foundations-set-theory-part-2.md#q4700) | Is it consistent with ZFC that such κ,U admit a projection P_U→Col(κ,κ⁺)? | Open |

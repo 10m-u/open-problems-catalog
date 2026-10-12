@@ -1,6 +1,6 @@
-# Probability & Stochastic Processes (part 2 of 2)
+# Probability & Stochastic Processes (part 2 of 3)
 
-[Subject overview](probability-stochastic-processes.md) · Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md)
+[Subject overview](probability-stochastic-processes.md) · Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md) · [3](probability-stochastic-processes-part-3.md)
 
 <a id="q2086"></a>
 
@@ -4043,6 +4043,8 @@ If μ(T)²=o(T), must Q_T converge to the Ornstein–Uhlenbeck law dX_t=dB_t−X
 
 **Literature check.** Status: Paper-origin. Theorem1 proves Q3982 only under μ(T)²≤MT^β for some M>0 and β<1/2. The source separately asks about the critical scale in Q3983; its exponential-threshold variant is not included. No matching resolution found on 10 October 2026.
 
+**Literature check.** Research update, 10 October 2026: proposed complete proof recorded in seven-selected-2026-10-10. The proof treats a drift constant in time within each path and the source's deterministic norm threshold. It does not address observation windows growing to the terminal horizon or arbitrary time-inhomogeneous drifts.
+
 **Result (2026-10-10).** For every deterministic drift with mu(T)^2=o(T), Brownian motion conditioned on its squared L2 norm being at most theta T converges to dX_t=dB_t-X_t/(2 theta) dt, X_0=x. Convergence holds in total variation on every fixed initial interval and weakly on C([0,infinity)) with uniform convergence on compact intervals. The proof treats a drift constant in time within each path and the source's deterministic norm threshold. It does not address observation windows growing to the terminal horizon or arbitrary time-inhomogeneous drifts.
 
 [Proof](../../solutions/seven-selected-2026-10-10/probability/brownian_l2_drift.md) · [Internal review](../../solutions/seven-selected-2026-10-10/reviews/Q3982-Q3983.md) · [Computational controls](../../solutions/seven-selected-2026-10-10/probability/checks.json) · [Source check](../../solutions/seven-selected-2026-10-10/probability/sources.json). Separate internal AI review found no blocking defect; not external peer review, formal certification, or a novelty certification.
@@ -4062,6 +4064,8 @@ For μ(T)∼c√T with fixed c≠0, determine the weak limit of Q_T, if it exist
 **Source.** Frank Aurzada, Yuvraj Dutta and Max Wiegand. *Brownian motion with drift conditioned to have restricted L²-norm*. 2026. [primary source](https://arxiv.org/abs/2610.12354) Location: §1.1, pp.4–5.
 
 **Literature check.** Status: Paper-origin. Theorem1 proves Q3982 only under μ(T)²≤MT^β for some M>0 and β<1/2. The source separately asks about the critical scale in Q3983; its exponential-threshold variant is not included. No matching resolution found on 10 October 2026.
+
+**Literature check.** Research update, 10 October 2026: proposed complete proof recorded in seven-selected-2026-10-10. The result includes weak convergence in the source's compact-uniform path topology. It does not cover mu(T)^2/T diverging, a random norm threshold, or observation windows reaching the terminal horizon.
 
 **Result (2026-10-10).** If mu(T) is asymptotic to c sqrt(T), the conditioned law converges to dX_t=dB_t-lambda_c X_t dt, X_0=x, where lambda_c is the unique positive root of 2 theta lambda_c^3-lambda_c^2-c^2=0. The sign of c does not affect the limit. The unified proof covers every finite limit mu(T)^2/T -> r>=0 and gives total variation convergence on fixed initial intervals. The result includes weak convergence in the source's compact-uniform path topology. It does not cover mu(T)^2/T diverging, a random norm threshold, or observation windows reaching the terminal horizon.
 
@@ -4388,4 +4392,109 @@ Is it true, for every such law and every integer n≥1, that supₓ∈R |P((X₁
 **Source.** Hengzhi He and Guang Cheng. *The Berry-Esseen Constant Conjecture is Eventually True*. 2026. [primary source](https://arxiv.org/abs/2609.06358v3) Location: pp. 1–2, especially the paragraph after Theorem 1.1.
 
 **Literature check.** Status: This is the classical sharp-constant conjecture restated in a research paper, not a dissertation-origin question. Version 3 establishes the bound above a universal sample-size threshold, while explicitly leaving all sample sizes open. Its accompanying conditional Lean theorem has the same eventual quantifier. Bell’s September 2026 manuscripts address a weaker universal constant, restricted finite arrays, small Lyapunov ratios, and conditional extremizers; none states this unrestricted iid conclusion. No matching resolution found, 10 October 2026.
+
+
+<a id="q4202"></a>
+
+## Q4202. For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p)…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p) differentiable, smooth, or analytic throughout the supercritical phase?
+
+**Context.** On a Cayley graph of a finitely generated group Γ with finite symmetric generating set, retain each edge independently with probability p. Let p_c be the infinite-cluster threshold. For p>p_c, condition the identity's cluster on being infinite and run simple random walk X_n from the identity. Write P_p^ω for its law in the fixed cluster, and |g| for ambient word length. For almost every cluster and trajectory x=(x_n), drift ℓ(p) and entropy h(p) are the deterministic limits of |x_n|/n and −n⁻¹log P_p^ω(X_n=x_n), respectively.
+
+**Source.** Kohki Sakamoto. *Continuity for random walks in hyperbolic percolation: drift, entropy, and dimension*. 2026. [primary source](https://arxiv.org/abs/2609.08519v1) Location: Questions 1.3–1.4, p.3.
+
+**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
+
+
+<a id="q4203"></a>
+
+## Q4203. Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a supercritical parameter?
+
+**Context.** On a Cayley graph of a finitely generated group Γ with finite symmetric generating set, retain each edge independently with probability p. Let p_c be the infinite-cluster threshold. For p>p_c, condition the identity's cluster on being infinite and run simple random walk X_n from the identity. Write P_p^ω for its law in the fixed cluster, and |g| for ambient word length. For almost every cluster and trajectory x=(x_n), drift ℓ(p) and entropy h(p) are the deterministic limits of |x_n|/n and −n⁻¹log P_p^ω(X_n=x_n), respectively.
+
+**Source.** Kohki Sakamoto. *Continuity for random walks in hyperbolic percolation: drift, entropy, and dimension*. 2026. [primary source](https://arxiv.org/abs/2609.08519v1) Location: Questions 1.3–1.4, p.3.
+
+**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
+
+
+<a id="q4218"></a>
+
+## Q4218. For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant?
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant?
+
+**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
+
+**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4219"></a>
+
+## Q4219. For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some c(p,d)∈(0,∞)? If so, is c(p,d) the simple-random-walk constant (p=1/(2d))?
+
+**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
+
+**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4220"></a>
+
+## Q4220. For d=2 and p∈[5/8,1), does (log n)|R_n|/n converge as n→∞ in probability to some r(p)>0? If so,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=2 and p∈[5/8,1), does (log n)|R_n|/n converge as n→∞ in probability to some r(p)>0? If so, also in L¹, and how does r(p) depend on p?
+
+**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
+
+**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4221"></a>
+
+## Q4221. For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor component almost surely}. For every 0≤ρ<ρ\_c, does some c(ρ,d)>0 satisfy P(K₀⊆[−R,R]^d)≥1−exp(−cR) for all R≥1, where K₀ is the component of 0 in T, empty when 0∉T?
+
+**Context.** On Z^d, define u₀=0 and u_(t+1)(x)=max{0,(σ(x)−1+Σ\_(y∼x)u_t(y))/(2d)}, where y∼x means nearest neighbors. The toppled set is T={x:lim_t u_t(x)>0}.
+
+**Source.** Ahmed Bou-Rabee and Christoforos Panagiotis. *Quantitative explosion and percolation of the divisible sandpile*. 2026. [primary source](https://arxiv.org/abs/2609.02829v1) Location: Problems 1.4–1.5, pp.10–11.
+
+**Literature check.** Status: Paper-recorded. Bou-Rabee: statistics PhD, Chicago, 2022; advisor Charles K. Smart. Panagiotis: PhD, Warwick, 2020; advisor Agelos Georgakopoulos. No matching resolution found, 10 October 2026.
+
+
+<a id="q4222"></a>
+
+## Q4222. For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of positive variance, do Z_R(z)=u_⌊TR²⌋(⌊Rz⌋)−E u_⌊TR²⌋(0) converge in law as R→∞, for every T>0 and s>0, in H⁻ˢ\_loc(R⁴)? Identify the limit. Here H⁻ˢ\_loc convergence means H⁻ˢ(D) convergence on every bounded smooth domain D, where H⁻ˢ(D)=(H₀ˢ(D))\* and H₀ˢ(D) is the Hˢ-closure of smooth compactly supported functions.
+
+**Context.** On Z^d, define u₀=0 and u_(t+1)(x)=max{0,(σ(x)−1+Σ\_(y∼x)u_t(y))/(2d)}, where y∼x means nearest neighbors. The toppled set is T={x:lim_t u_t(x)>0}.
+
+**Source.** Ahmed Bou-Rabee and Christoforos Panagiotis. *Quantitative explosion and percolation of the divisible sandpile*. 2026. [primary source](https://arxiv.org/abs/2609.02829v1) Location: Problems 1.4–1.5, pp.10–11.
+
+**Literature check.** Status: Paper-recorded. Bou-Rabee: statistics PhD, Chicago, 2022; advisor Charles K. Smart. Panagiotis: PhD, Warwick, 2020; advisor Agelos Georgakopoulos. No matching resolution found, 10 October 2026.
 

@@ -1724,3 +1724,569 @@ Assuming the Exponential-Time Hypothesis, does maximum-cardinality independent s
 
 **Further links.** [1](https://www.bip.pw.edu.pl/index.php/content/download/74183/706088/file/M.PIECYK_phd-main.pdf)
 
+
+<a id="q4231"></a>
+
+## Q4231. Does an atom-minimal CRPQ exist that is not variable-minimal?
+
+**Status:** Open · **Kind:** open problem (Question IV.6.1) · **Collection** 43
+
+Does an atom-minimal CRPQ exist that is not variable-minimal?
+
+**Context.** Over a finite alphabet, a CRPQ is an existentially quantified conjunction of atoms L(x,y), where L is regular and holds when a directed walk from x to y has label in L. Equivalent queries give identical answers on every finite edge-labelled directed graph. Boolean queries have no free variables. Minimality means minimum size among equivalent CRPQs, measured by atoms or variables respectively. Forest-shaped means the graph on variables, with x→y for each occurring endpoint pair, is a disjoint union of outward-rooted trees. Locations: Conjecture IV.6.1, p.135; Question VI.1.1, p.198. Origin: Q4231 repeats Figueira–Morvan–Romero, Conjecture 7.1 (2025); Q4232 is posed in the thesis. No matching resolution located through 10 October 2026.
+
+**Source.** Rémi Morvan. *Homomorphism Problems in Graph Databases and Automatic Structures*. Université de Bordeaux, 2025. Advisor(s): Diego Figueira; co-supervisor Nathanaël Fijalkow. [primary source](https://arxiv.org/abs/2510.07422v1) Location: Thesis Question IV.6.1, p.135 (restating Figueira–Morvan–Romero Conjecture 7.1).
+
+**Literature check.** Status: Origin: Q4231 repeats Figueira–Morvan–Romero, Conjecture 7.1 (2025); Q4232 is posed in the thesis. No matching resolution located through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2504.00612v1)
+
+
+<a id="q4232"></a>
+
+## Q4232. For k∈N, if a Boolean CRPQ has a forest-shaped equivalent and an equivalent with at most k…
+
+**Status:** Open · **Kind:** open problem (Question VI.1.1) · **Collection** 43
+
+For k∈N, if a Boolean CRPQ has a forest-shaped equivalent and an equivalent with at most k atoms, must it have a forest-shaped equivalent with at most k atoms?
+
+**Context.** Over a finite alphabet, a CRPQ is an existentially quantified conjunction of atoms L(x,y), where L is regular and holds when a directed walk from x to y has label in L. Equivalent queries give identical answers on every finite edge-labelled directed graph. Boolean queries have no free variables. Minimality means minimum size among equivalent CRPQs, measured by atoms or variables respectively. Forest-shaped means the graph on variables, with x→y for each occurring endpoint pair, is a disjoint union of outward-rooted trees. Locations: Conjecture IV.6.1, p.135; Question VI.1.1, p.198. Origin: Q4231 repeats Figueira–Morvan–Romero, Conjecture 7.1 (2025); Q4232 is posed in the thesis. No matching resolution located through 10 October 2026.
+
+**Source.** Rémi Morvan. *Homomorphism Problems in Graph Databases and Automatic Structures*. Université de Bordeaux, 2025. Advisor(s): Diego Figueira; co-supervisor Nathanaël Fijalkow. [primary source](https://arxiv.org/abs/2510.07422v1) Location: Thesis Question VI.1.1, p.198.
+
+**Literature check.** Status: Origin: Q4231 repeats Figueira–Morvan–Romero, Conjecture 7.1 (2025); Q4232 is posed in the thesis. No matching resolution located through 10 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2504.00612v1)
+
+
+<a id="q4233"></a>
+
+## Q4233. Characterize F admitting adjacency sketches with constant-length labels.
+
+**Status:** Open · **Kind:** open problem (Question 1.3.8) · **Collection** 43
+
+Characterize F admitting adjacency sketches with constant-length labels.
+
+**Context.** Let F be an induced-subgraph-closed class of finite simple undirected graphs. A sketch assigns jointly random binary labels to each graph's vertices. A decoder, fixed for F and any threshold r, answers from two labels with error at most 1/3 for each vertex pair. Disconnected vertices have infinite distance. Locations: Questions 1.3.8–10, p.27; definitions pp.25–27. Origin: Harms–Wild–Zamaraev (2021/2022) for Q4233; Esperet–Harms–Kupavskii (2022) for Q4234–05. Full hereditary classifications remain unresolved in sources checked through 10 October 2026; monotone subclasses are partly classified.
+
+**Source.** Nathaniel Harms. *Testing, Learning, Sampling, Sketching*. University of Waterloo, 2022. Advisor(s): Eric Blais. [primary source](https://uwspace.uwaterloo.ca/bitstreams/0c75e8dc-b49f-4682-b440-737430f4269f/download) Location: Thesis Question 1.3.8, p.27.
+
+**Literature check.** Status: Origin: Harms–Wild–Zamaraev (2021/2022) for Q4233; Esperet–Harms–Kupavskii (2022) for Q4234–05. Full hereditary classifications remain unresolved in sources checked through 10 October 2026; monotone subclasses are partly classified.
+
+**Further links.** [1](https://theoretics.episciences.org/16611/pdf) · [2](https://arxiv.org/abs/2202.09253v3)
+
+
+<a id="q4234"></a>
+
+## Q4234. Characterize F for which, for every r∈N, distance≤r has sketches with label length bounded…
+
+**Status:** Open · **Kind:** open problem (Question 1.3.9) · **Collection** 43
+
+Characterize F for which, for every r∈N, distance≤r has sketches with label length bounded solely by r.
+
+**Context.** Let F be an induced-subgraph-closed class of finite simple undirected graphs. A sketch assigns jointly random binary labels to each graph's vertices. A decoder, fixed for F and any threshold r, answers from two labels with error at most 1/3 for each vertex pair. Disconnected vertices have infinite distance. Locations: Questions 1.3.8–10, p.27; definitions pp.25–27. Origin: Harms–Wild–Zamaraev (2021/2022) for Q4233; Esperet–Harms–Kupavskii (2022) for Q4234–05. Full hereditary classifications remain unresolved in sources checked through 10 October 2026; monotone subclasses are partly classified.
+
+**Source.** Nathaniel Harms. *Testing, Learning, Sampling, Sketching*. University of Waterloo, 2022. Advisor(s): Eric Blais. [primary source](https://uwspace.uwaterloo.ca/bitstreams/0c75e8dc-b49f-4682-b440-737430f4269f/download) Location: Thesis Question 1.3.9, p.27.
+
+**Literature check.** Status: Origin: Harms–Wild–Zamaraev (2021/2022) for Q4233; Esperet–Harms–Kupavskii (2022) for Q4234–05. Full hereditary classifications remain unresolved in sources checked through 10 October 2026; monotone subclasses are partly classified.
+
+**Further links.** [1](https://theoretics.episciences.org/16611/pdf) · [2](https://arxiv.org/abs/2202.09253v3)
+
+
+<a id="q4235"></a>
+
+## Q4235. Characterize F for which some fixed α>1 permits, for every r∈N, sketches distinguishing…
+
+**Status:** Open · **Kind:** open problem (Question 1.3.10) · **Collection** 43
+
+Characterize F for which some fixed α>1 permits, for every r∈N, sketches distinguishing distance≤r from distance>αr, with label length bounded independently of r and graph order.
+
+**Context.** Let F be an induced-subgraph-closed class of finite simple undirected graphs. A sketch assigns jointly random binary labels to each graph's vertices. A decoder, fixed for F and any threshold r, answers from two labels with error at most 1/3 for each vertex pair. Disconnected vertices have infinite distance. Locations: Questions 1.3.8–10, p.27; definitions pp.25–27. Origin: Harms–Wild–Zamaraev (2021/2022) for Q4233; Esperet–Harms–Kupavskii (2022) for Q4234–05. Full hereditary classifications remain unresolved in sources checked through 10 October 2026; monotone subclasses are partly classified.
+
+**Source.** Nathaniel Harms. *Testing, Learning, Sampling, Sketching*. University of Waterloo, 2022. Advisor(s): Eric Blais. [primary source](https://uwspace.uwaterloo.ca/bitstreams/0c75e8dc-b49f-4682-b440-737430f4269f/download) Location: Thesis Question 1.3.10, p.27.
+
+**Literature check.** Status: Origin: Harms–Wild–Zamaraev (2021/2022) for Q4233; Esperet–Harms–Kupavskii (2022) for Q4234–05. Full hereditary classifications remain unresolved in sources checked through 10 October 2026; monotone subclasses are partly classified.
+
+**Further links.** [1](https://theoretics.episciences.org/16611/pdf) · [2](https://arxiv.org/abs/2202.09253v3)
+
+
+<a id="q4244"></a>
+
+## Q4244. Does there exist a family with n→∞, support-rank bounded by a constant, and R(f)≥n^c for some…
+
+**Status:** Open · **Kind:** open problem (Problem 3) · **Collection** 43
+
+Does there exist a family with n→∞, support-rank bounded by a constant, and R(f)≥n^c for some fixed c>0?
+
+**Context.** For a total Boolean function f:X×Y→{0,1}, put n=⌈log₂max(|X|,|Y|)⌉. Its support-rank is the least rank of a real matrix M with M_xy=0 exactly when f(x,y)=0. R(f) is the minimum worst-case number of communicated bits in a two-party public-randomness protocol computing f with error at most 1/3 on each input pair. Origin and location: Open Problem 3, p.3; definitions p.2. Version: 4 April 2026, v1. No matching resolution located through 10 October 2026.
+
+**Source.** Mika Göös, Nathaniel Harms, Florian K. Richter and Anastasia Sofronova. *No Constant-Cost Protocol for Point–Line Incidence*. 2026. [primary source](https://arxiv.org/abs/2604.03805v1) Location: Open Problem 3, p.3; definitions p.2.
+
+**Literature check.** Status: Origin and location: Open Problem 3, p.3; definitions p.2. Version: 4 April 2026, v1. No matching resolution located through 10 October 2026.
+
+
+<a id="q4248"></a>
+
+## Q4248. Does a function h:N→N exist such that signrank(F)≤h(R(F)) for every finite total sign matrix F?
+
+**Status:** Open · **Kind:** open problem (Question 12) · **Collection** 43
+
+Does a function h:N→N exist such that signrank(F)≤h(R(F)) for every finite total sign matrix F?
+
+**Context.** For a finite total sign matrix F, let signrank(F) be the minimum real rank among matrices with the same entrywise signs. Let R(F) be the least worst-case number of bits exchanged by two parties, knowing respectively a row and a column, in a public-coin protocol outputting their entry with error at most 1/3 on each input.
+
+**Source.** Hamed Hatami and Pooya Hatami. *Structure in Communication Complexity and Constant-Cost Complexity Classes*. 2024. [primary source](https://arxiv.org/abs/2401.14623v2) Location: Hatami–Hatami's 2024 Question 12; the quantitative margin-complexity question of Linial–Mendelson–Schechtman–Shraibman (2004/2007) is its antecedent. Location: survey Question 12, p.20 of arXiv v2, 29 July 2026.
+
+**Literature check.** Status: Origin: Hatami–Hatami's 2024 Question 12; the quantitative margin-complexity question of Linial–Mendelson–Schechtman–Shraibman (2004/2007) is its antecedent. Location: survey Question 12, p.20 of arXiv v2, 29 July 2026. This update retains the question while recording the refutation of the narrower hypercube conjecture. No matching later resolution located through 10 October 2026.
+
+**Further links.** [1](https://doi.org/10.1007/s00493-007-2160-5)
+
+
+<a id="q4304"></a>
+
+## Q4304. On graphs whose maximum degree always stays at most 3, does every ε>0 admit a…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+On graphs whose maximum degree always stays at most 3, does every ε>0 admit a (1+ε)-approximation algorithm with stability k(ε) independent of graph size?
+
+**Context.** Start with an empty finite simple graph; vertices arrive individually with their edges to earlier vertices. D_t dominates G_t if every vertex lies in D_t or has a neighbour there. An algorithm is k-stable if |D_t△D_{t−1}|≤k after each arrival. Computation time is unrestricted; approximation compares |D_t| with the current minimum dominating-set size. Origin: joint de Berg–Sadhukhan–Spieksma paper questions, APPROX 2023 §5, p.27:17; retained in thesis §8, p.151, and SIAM final §5, p.944.
+
+**Source.** Arpan Sadhukhan. *Stable Approximation Algorithms and Graph Coloring*. Eindhoven University of Technology, 2025. Advisor(s): Mark de Berg; second promotor Frits Spieksma. [primary source](https://pure.tue.nl/ws/portalfiles/portal/349450979/20250131_Sadhukhan_hf.pdf) Location: joint de Berg–Sadhukhan–Spieksma paper questions, APPROX 2023 §5, p.27:17; retained in thesis §8, p.151, and SIAM final §5, p.944.
+
+**Literature check.** Status checked 11 October 2026: final and later searches read; no matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1137/24M1644079)
+
+
+<a id="q4305"></a>
+
+## Q4305. If every arriving vertex has at most d earlier neighbours, is there a 1-stable…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+If every arriving vertex has at most d earlier neighbours, is there a 1-stable O(d)-approximation algorithm?
+
+**Context.** Start with an empty finite simple graph; vertices arrive individually with their edges to earlier vertices. D_t dominates G_t if every vertex lies in D_t or has a neighbour there. An algorithm is k-stable if |D_t△D_{t−1}|≤k after each arrival. Computation time is unrestricted; approximation compares |D_t| with the current minimum dominating-set size. Origin: joint de Berg–Sadhukhan–Spieksma paper questions, APPROX 2023 §5, p.27:17; retained in thesis §8, p.151, and SIAM final §5, p.944.
+
+**Source.** Arpan Sadhukhan. *Stable Approximation Algorithms and Graph Coloring*. Eindhoven University of Technology, 2025. Advisor(s): Mark de Berg; second promotor Frits Spieksma. [primary source](https://pure.tue.nl/ws/portalfiles/portal/349450979/20250131_Sadhukhan_hf.pdf) Location: joint de Berg–Sadhukhan–Spieksma paper questions, APPROX 2023 §5, p.27:17; retained in thesis §8, p.151, and SIAM final §5, p.944.
+
+**Literature check.** Status checked 11 October 2026: final and later searches read; no matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1137/24M1644079)
+
+
+<a id="q4309"></a>
+
+## Q4309. Is there an algorithm that decides termination for every such one-rule system?
+
+**Status:** Open · **Kind:** open problem (Problem 8) · **Collection** 44
+
+Is there an algorithm that decides termination for every such one-rule system?
+
+**Context.** Assaf Kfoury, String Rewriting Systems: Brief Introduction and Sample of Open Problems, arXiv:2608.19397v2, revised 5 September 2026, Problems8 and16, pp.11 and14. Paper-origin; no doctoral attribution. A one-rule system consists of a finite nonempty alphabet Σ and words ℓ,r∈Σ\*. A step replaces an occurrence of ℓ by r inside any word, leaving its surrounding context unchanged. Termination means that no word begins an infinite rewrite sequence. A loop is a positive-length derivation x→+uxv, where x∈Σ+ and u,v∈Σ\*. Historical attribution: the string-termination problem predates the1991 RTA list (Problem21, remark); the nonlooping existence question is Zantema's RTA Problem95 (1999), opposing McNaughton's earlier conjecture. Origin records: https://www.cs.tau.ac.il/~nachum/rtaloop/problems/21.pdf and https://www.cs.tau.ac.il/~nachum/rtaloop/problems/95.pdf
+
+**Source.** Assaf Kfoury. *String Rewriting Systems: Brief Introduction and Sample of Open Problems*. [primary source](https://arxiv.org/abs/2608.19397v2) Location: Problem 8, p.11.
+
+**Literature check.** Status checked 11 October 2026: current v2 explicitly retains both problems; no matching later resolution located. Results about tree-term rewrite rules do not settle these string-rule questions.
+
+**Further links.** [1](https://www.cs.tau.ac.il/~nachum/rtaloop/problems/21.pdf) · [2](https://www.cs.tau.ac.il/~nachum/rtaloop/problems/95.pdf)
+
+
+<a id="q4310"></a>
+
+## Q4310. Does a nonterminating one-rule system exist that admits no loop?
+
+**Status:** Open · **Kind:** open problem (Problem 16) · **Collection** 44
+
+Does a nonterminating one-rule system exist that admits no loop?
+
+**Context.** Assaf Kfoury, String Rewriting Systems: Brief Introduction and Sample of Open Problems, arXiv:2608.19397v2, revised 5 September 2026, Problems8 and16, pp.11 and14. Paper-origin; no doctoral attribution. A one-rule system consists of a finite nonempty alphabet Σ and words ℓ,r∈Σ\*. A step replaces an occurrence of ℓ by r inside any word, leaving its surrounding context unchanged. Termination means that no word begins an infinite rewrite sequence. A loop is a positive-length derivation x→+uxv, where x∈Σ+ and u,v∈Σ\*. Historical attribution: the string-termination problem predates the1991 RTA list (Problem21, remark); the nonlooping existence question is Zantema's RTA Problem95 (1999), opposing McNaughton's earlier conjecture. Origin records: https://www.cs.tau.ac.il/~nachum/rtaloop/problems/21.pdf and https://www.cs.tau.ac.il/~nachum/rtaloop/problems/95.pdf
+
+**Source.** Assaf Kfoury. *String Rewriting Systems: Brief Introduction and Sample of Open Problems*. [primary source](https://arxiv.org/abs/2608.19397v2) Location: Problem 16, p.14.
+
+**Literature check.** Status checked 11 October 2026: current v2 explicitly retains both problems; no matching later resolution located. Results about tree-term rewrite rules do not settle these string-rule questions.
+
+**Further links.** [1](https://www.cs.tau.ac.il/~nachum/rtaloop/problems/21.pdf) · [2](https://www.cs.tau.ac.il/~nachum/rtaloop/problems/95.pdf)
+
+
+<a id="q4311"></a>
+
+## Q4311. For every fixed positive integer k and every sequence (P_n) whose largest part has size O(n^k),…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+For every fixed positive integer k and every sequence (P_n) whose largest part has size O(n^k), must |Orb(P_n)|/2^{cn} tend to infinity for every constant c>0 as n→∞?
+
+**Context.** For each positive integer n, let P_n be an ordered partition of {0,1}^n. The symmetric group S_n acts by permuting coordinates of every binary word, preserving the order of the parts when transporting the partition. Write Orb(P_n) for its orbit.
+
+**Source.** Benedikt Pago. *Limitations of Choiceless Computation*. RWTH Aachen University, 2023. Advisor(s): Erich Grädel. [primary source](https://logic.rwth-aachen.de/pub/pago/diss.pdf) Location: the thesis's proposed polylogarithmic-color-class extension in §7.3, pp.136–137; action and existing linear-class theorem on pp.113–114.
+
+**Literature check.** Status checked 11 October 2026: no matching resolution located; the known logarithmic-color-class bound does not establish this extension.
+
+**Further links.** [1](https://doi.org/10.18154/RWTH-2023-08153) · [2](https://doi.org/10.4230/LIPIcs.CSL.2021.33)
+
+
+<a id="q4312"></a>
+
+## Q4312. For every fixed h,m as above, can such circuits compute AND_n with depth at most h+1 and size…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+For every fixed h,m as above, can such circuits compute AND_n with depth at most h+1 and size 2^{O(n^{1/(hr)}log n)}? This asks whether the source's optimal-size depth-2h construction can reach depth h+1 without increasing its asymptotic size.
+
+**Context.** Fix integers h≥2 and m≥6, with exactly r≥2 distinct prime divisors. For integers t→∞, let n=t^h and let T_t be the rooted complete t-ary tree of height h, with its n leaves labeling Boolean inputs. Circuits are rooted directed acyclic multigraphs whose internal gates output 1 exactly when the input-sum modulo m belongs to a gate-specific subset of Z_m. Size counts gates plus wires with multiplicity; depth counts internal gates along the longest input-output path. Every automorphism of T_t must extend to a circuit automorphism preserving the output, gate operations and wire multiplicities.
+
+**Source.** Benedikt Pago. *Optimal Lower Bounds for Symmetric Modular Circuits*. [primary source](https://arxiv.org/abs/2604.04760v1) Location: §1 after Corollary3, pp.187:3–4; §6, p.187:15.
+
+**Literature check.** Status checked 11 October 2026: final read; no matching later resolution located.
+
+**Further links.** [1](https://doi.org/10.4230/LIPIcs.ICALP.2026.187)
+
+
+<a id="q4313"></a>
+
+## Q4313. If max_{x∈{0,1}^n} min_{z∈Z}|P_n(x)−z−αAND_n(x)|≤1/(20n) for every n, must deg(P_n)/log n→∞ as…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+If max_{x∈{0,1}^n} min_{z∈Z}|P_n(x)−z−αAND_n(x)|≤1/(20n) for every n, must deg(P_n)/log n→∞ as n→∞? The displayed minimum is distance modulo one. The constant α is fixed before the sequence, not allowed to shrink with n.
+
+**Context.** Genealogy: Krishan's IIT Bombay Computer Science and Engineering PhD period ends May2024 in his CV; advisers Sundar Vishwanathan and Nutan Limaye, without a stated hierarchy. Thesis title, award date and deposit date were not established. Fix a real constant α∈(0,1). For each integer n≥2 let P_n∈R[x_1,…,x_n], with no symmetry restriction, and define AND_n(x)=∏\_{i=1}^n x_i for x∈{0,1}^n.
+
+**Source.** Vaibhav Krishan and Jayalal Sarma. *On CC⁰ Lower Bounds for AND via Torus Polynomials*. [primary source](https://arxiv.org/abs/2607.10236v2) Location: Definition21 and Conjecture24, pp.62:11–12.
+
+**Literature check.** Status checked 11 October 2026: published final read; no matching later resolution located.
+
+**Further links.** [1](https://doi.org/10.4230/LIPIcs.MFCS.2026.62) · [2](https://vaibhkrishan.github.io/files/CV/CV.pdf)
+
+
+<a id="q4314"></a>
+
+## Q4314. Is there an absolute c>0 such that d_n≥c√(n/log n) for all sufficiently large n?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Is there an absolute c>0 such that d_n≥c√(n/log n) for all sufficiently large n?
+
+**Context.** For integers n≥2 define MAJ_n(x)=1 when Σ\_i x_i≥n/2, and 0 otherwise. Let d_n be the minimum total degree of P∈R[x_1,…,x_n] satisfying max_{x∈{0,1}^n} min_{z∈Z}|P(x)−z−MAJ_n(x)/2|≤1/(20n). Reaffirmation: Krishan–Vishwanathan, ITCS2026, Conjecture5, p.88:4, https://doi.org/10.4230/LIPIcs.ITCS.2026.88
+
+**Source.** Abhishek Bhrushundi, Kaave Hosseini, Shachar Lovett and Sankeerth Rao. *Torus Polynomials: An Algebraic Approach to ACC Lower Bounds*. 2019. [primary source](https://doi.org/10.4230/LIPIcs.ITCS.2019.13) Location: Conjecture5, p.13:4; definitions pp.13:3,13:13.
+
+**Literature check.** Status checked 11 October 2026: both finals and July2026 full version read; no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/1804.08176v3) · [2](https://doi.org/10.4230/LIPIcs.ITCS.2026.88)
+
+
+<a id="q4321"></a>
+
+## Q4321. Determine the asymptotic order, as integer q→∞, of A(q)=max{nsep(w,x):|w|=|x|, w≠x, nsep(x,w)≤q}.
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Determine the asymptotic order, as integer q→∞, of A(q)=max{nsep(w,x):|w|=|x|, w≠x, nsep(x,w)≤q}.
+
+**Context.** For distinct finite binary words w,x, let sep(w,x) be the minimum state count of a complete deterministic finite automaton accepting w and rejecting x. Let nsep(w,x) be the corresponding minimum for a possibly partial nondeterministic automaton, with one initial state, arbitrary accepting states, and no ε-transitions.
+
+**Source.** John W. Nicol. *Further Remarks on Separating Words*. 2026. [primary source](https://arxiv.org/abs/2608.30928v1) Location: §§4.1–4.2, pp.3–4; §6, p.7.
+
+**Literature check.** Status checked 11 October 2026: the current preprint explicitly leaves both growth rates open; no newer publication or matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-642-22600-7_12)
+
+
+<a id="q4322"></a>
+
+## Q4322. Determine the asymptotic order, as integer L→∞, of H(L)=max{sep(w,x)/nsep(w,x):w,x∈{0,1}^L, w≠x}.
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Determine the asymptotic order, as integer L→∞, of H(L)=max{sep(w,x)/nsep(w,x):w,x∈{0,1}^L, w≠x}.
+
+**Context.** For distinct finite binary words w,x, let sep(w,x) be the minimum state count of a complete deterministic finite automaton accepting w and rejecting x. Let nsep(w,x) be the corresponding minimum for a possibly partial nondeterministic automaton, with one initial state, arbitrary accepting states, and no ε-transitions.
+
+**Source.** John W. Nicol. *Further Remarks on Separating Words*. 2026. [primary source](https://arxiv.org/abs/2608.30928v1) Location: §§4.1–4.2, pp.3–4; §6, p.7.
+
+**Literature check.** Status checked 11 October 2026: the current preprint explicitly leaves both growth rates open; no newer publication or matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1007/978-3-642-22600-7_12)
+
+
+<a id="q4349"></a>
+
+## Q4349. Given two such systems, each promised to present a plain group and to be inverse-closed (each…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Given two such systems, each promised to present a plain group and to be inverse-closed (each letter has a one-letter inverse), is group isomorphism decidable in Σ₂^P, with input size the sum of |Σ|+Σ\_(ℓ,r)∈R(|ℓ|+|r|) for both systems?
+
+**Context.** Fields: combinatorial group theory; computational complexity. Setup: Σ is finite and R⊂Σ\*×Σ\* is finite, with |ℓ|>|r| for every rule ℓ→r. Assume contextual rewriting has a unique irreducible normal form for every word and the quotient monoid is a group G. A plain group is a free product of finitely many finite groups and a finite-rank free group.
+
+**Source.** Heiko Dietrich, Murray Elder, Adam Piggott, Youming Qiao and Armin Weiß. *The Isomorphism Problem for Plain Groups Is in Σ₃^P*. 2022. [primary source](https://doi.org/10.4230/LIPIcs.STACS.2022.26) Location: Heiko Dietrich, Elder, Piggott, Youming Qiao and Armin Weiß, The Isomorphism Problem for Plain Groups Is in Σ₃^P, STACS2022 final, §6 p.26:13.
+
+**Literature check.** Status: Paper-origin formulations; no dissertation attribution. Status checked 11 October 2026: Σ₃^P is established; no matching general resolution found. The inverse-closed restriction belongs only to Q4349.
+
+**Further links.** [1](https://doi.org/10.1016/j.jalgebra.2023.03.022)
+
+
+<a id="q4364"></a>
+
+## Q4364. Given Γ\_0 explicitly on d=|Q| points, can h(X) be computed in subexponential time in d?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Given Γ\_0 explicitly on d=|Q| points, can h(X) be computed in subexponential time in d?
+
+**Context.** Manuel Arora: association-scheme extensibility For finite nonempty Q, for integer t≥0, a t-prescheme consists of partitions Γ\_s of Q^{s+2}, 0≤s≤t, with the diagonal a Γ\_0-cell; at positive levels, deleting the last coordinate maps each cell onto a cell; coordinate permutations permute cells; and, for m,n≥0 with m+n≤t, A∈Γ\_m,B∈Γ\_n,C∈Γ\_{m+n}, \#{z∈Q:(x_0,…,x_m,z)∈A,(z,y_0,…,y_n)∈B} is constant on (x_0,…,x_m,y_0,…,y_n)∈C. An association scheme X=(Q,Γ\_0) is a 0-prescheme. Its maximal height h(X) is the supremum of extendible t, allowing ∞; h=∞ exactly for Schurian schemes (orbitals of transitive permutation groups). Source: thesis p.97; Definition 5.1.1 pp.75–76. Both questions already occur in Arora–Zieschang arXiv 1209.6312v2, §5 p.10. https://www.cse.iitk.ac.in/users/nitin/theses/arora-2013.pdf https://arxiv.org/abs/1209.6312
+
+**Source.** Manuel Arora. *Extensibility of Association Schemes and GRH-Based Deterministic Polynomial Factoring*. University of Bonn, 2013. Advisor(s): Nitin Saxena and Marek Karpinski. [primary source](https://www.cse.iitk.ac.in/users/nitin/theses/arora-2013.pdf) Location: thesis p.97; Definition 5.1.1 pp.75–76.
+
+**Literature check.** Status: no matching resolution found; d≤26 has no finite positive height. Later Schurity algorithms do not compute all finite heights.
+
+**Further links.** [1](https://arxiv.org/abs/1209.6312) · [2](https://arxiv.org/abs/1209.6312v2)
+
+
+<a id="q4365"></a>
+
+## Q4365. What is the least d admitting 0&lt;h(X)<∞?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+What is the least d admitting 0&lt;h(X)<∞?
+
+**Context.** Manuel Arora: association-scheme extensibility For finite nonempty Q, for integer t≥0, a t-prescheme consists of partitions Γ\_s of Q^{s+2}, 0≤s≤t, with the diagonal a Γ\_0-cell; at positive levels, deleting the last coordinate maps each cell onto a cell; coordinate permutations permute cells; and, for m,n≥0 with m+n≤t, A∈Γ\_m,B∈Γ\_n,C∈Γ\_{m+n}, \#{z∈Q:(x_0,…,x_m,z)∈A,(z,y_0,…,y_n)∈B} is constant on (x_0,…,x_m,y_0,…,y_n)∈C. An association scheme X=(Q,Γ\_0) is a 0-prescheme. Its maximal height h(X) is the supremum of extendible t, allowing ∞; h=∞ exactly for Schurian schemes (orbitals of transitive permutation groups). Source: thesis p.97; Definition 5.1.1 pp.75–76. Both questions already occur in Arora–Zieschang arXiv 1209.6312v2, §5 p.10. https://www.cse.iitk.ac.in/users/nitin/theses/arora-2013.pdf https://arxiv.org/abs/1209.6312
+
+**Source.** Manuel Arora. *Extensibility of Association Schemes and GRH-Based Deterministic Polynomial Factoring*. University of Bonn, 2013. Advisor(s): Nitin Saxena and Marek Karpinski. [primary source](https://www.cse.iitk.ac.in/users/nitin/theses/arora-2013.pdf) Location: thesis p.97; Definition 5.1.1 pp.75–76.
+
+**Literature check.** Status: no matching resolution found; d≤26 has no finite positive height. Later Schurity algorithms do not compute all finite heights.
+
+**Further links.** [1](https://arxiv.org/abs/1209.6312) · [2](https://arxiv.org/abs/1209.6312v2)
+
+
+<a id="q4421"></a>
+
+## Q4421. Determine the computational complexity of computing the number of distinct s-covers of an input…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Determine the computational complexity of computing the number of distinct s-covers of an input word S over an unrestricted alphabet, represented by integer symbols1,…,|S|. Count different words C, not their embeddings.
+
+**Context.** Genealogy: Wiktor Zuba, Efficient enumerations in words, Warsaw PhD; defended19October2021, awarded28October2021; supervisor Wojciech Rytter. The selected questions are from the subsequent paper. Setup: An s-cover C of a nonempty finite word S is a word whose occurrences as order-preserving, not necessarily contiguous subsequences collectively cover every position of S. A word is s-primitive if it has no shorter s-cover. Let γ(k) be the maximum length of an s-primitive word over a k-letter alphabet.
+
+**Source.** P. Charalampopoulos, S. Pissis, J. Radoszewski, W. Rytter, T. Waleń and W. Zuba. *Subsequence covers of words*. 2025. [primary source](https://doi.org/10.1016/j.tcs.2025.115216) Location: §9,p.13; definitions §1.1.
+
+**Literature check.** Status: Both questions are explicitly retained in the published final; no matching later resolution located through11October2026.
+
+**Further links.** [1](https://www.mimuw.edu.pl/en/doctorates/?page=6)
+
+
+<a id="q4422"></a>
+
+## Q4422. What is γ(5)?
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+What is γ(5)?
+
+**Context.** Genealogy: Wiktor Zuba, Efficient enumerations in words, Warsaw PhD; defended19October2021, awarded28October2021; supervisor Wojciech Rytter. The selected questions are from the subsequent paper. Setup: An s-cover C of a nonempty finite word S is a word whose occurrences as order-preserving, not necessarily contiguous subsequences collectively cover every position of S. A word is s-primitive if it has no shorter s-cover. Let γ(k) be the maximum length of an s-primitive word over a k-letter alphabet.
+
+**Source.** P. Charalampopoulos, S. Pissis, J. Radoszewski, W. Rytter, T. Waleń and W. Zuba. *Subsequence covers of words*. 2025. [primary source](https://doi.org/10.1016/j.tcs.2025.115216) Location: §9,p.13; definitions §1.1.
+
+**Literature check.** Status: Both questions are explicitly retained in the published final; no matching later resolution located through11October2026.
+
+**Further links.** [1](https://www.mimuw.edu.pl/en/doctorates/?page=6)
+
+
+<a id="q4423"></a>
+
+## Q4423. Combinatorics on words. For an n×n array A over an arbitrary finite alphabet, a rectangular…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Combinatorics on words. For an n×n array A over an arbitrary finite alphabet, a rectangular subarray R of height h and width w is a 2D run if its least horizontal and vertical periods p,q satisfy 2p≤w and 2q≤h, and no extension by one adjacent row or column within A preserves both periods. A horizontal period p means columns j and j+p agree whenever both exist; vertical periods are defined analogously using rows. Let r(n) be the maximum number of such subarray occurrences, distinguished by their boundaries, over all A. Determine the asymptotic order of r(n), closing the gap Ω(n²log n)≤r(n)≤O(n²log²n).
+
+**Source.** Charalampopoulos, Gawrychowski and Ghazawi. *Optimal Bounds for Distinct Quartics*. 2024. [primary source](https://doi.org/10.4230/LIPIcs.ICALP.2024.39) Location: Charalampopoulos–Gawrychowski–Ghazawi, “Optimal Bounds for Distinct Quartics,” ICALP 2024, Open Problem p.39:5; definitions also in Gawrychowski–Ghazawi–Landau, “Lower Bounds for the Number of Repetitions in 2D Strings,” §2.
+
+**Literature check.** Status checked: 2026-10-11; the published 2024 final explicitly retains this logarithmic gap, and no later matching resolution was located.
+
+**Further links.** [1](https://arxiv.org/abs/2105.14903)
+
+
+<a id="q4488"></a>
+
+## Q4488. For every fixed k≥1, is this promise problem in NP for n-qubit Hamiltonians H=Σ\_A h_A whose…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+For every fixed k≥1, is this promise problem in NP for n-qubit Hamiltonians H=Σ\_A h_A whose Hermitian terms act on at most k qubits, have operator norm ≤1, have polynomial-bit rational real and imaginary entries, and commute pairwise? There is one term per subset A⊆{1,…,n}, |A|≤k, without spatial geometry restrictions.
+
+**Context.** AP45-S15 — Quantum Hamiltonian complexity. For each problem, α<β are polynomial-bit rational thresholds with β−α≥1/poly(n). Decide whether λ\_min(H)≤α or λ\_min(H)≥β, promised one alternative.
+
+**Source.** Dylan Harley. *Analogue quantum simulation and perturbation theory*. University of Copenhagen, 2026. Advisor(s): Matthias Christandl. [primary source](https://www.math.ku.dk/bibliotek/arkivet/phd-theses/2026/PhD_thesis-Dylan-Harley.pdf) Location: Source: Dylan Harley, “Analogue quantum simulation and perturbation theory,” Copenhagen PhD thesis, submitted 12 June 2026; advisor Matthias Christandl. Sections 2.2–2.4 reaffirm earlier questions;
+
+**Literature check.** Status: the thesis explicitly leaves these two general questions open. Current versions and later claims checked 11 October 2026.
+
+
+<a id="q4489"></a>
+
+## Q4489. Is this promise problem QMA-hard under polynomial-time classical many-one reductions when the…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Is this promise problem QMA-hard under polynomial-time classical many-one reductions when the input is a finite simple undirected graph G on n vertices and H=Σ\_{ij∈E(G)}(X_iX_j+Y_iY_j+Z_iZ_j), where X,Y,Z are the Pauli matrices? Every edge has coefficient +1; loops, parallel edges and extra terms are excluded. Each interaction has norm 3.
+
+**Context.** AP45-S15 — Quantum Hamiltonian complexity. For each problem, α<β are polynomial-bit rational thresholds with β−α≥1/poly(n). Decide whether λ\_min(H)≤α or λ\_min(H)≥β, promised one alternative.
+
+**Source.** Dylan Harley. *Analogue quantum simulation and perturbation theory*. University of Copenhagen, 2026. Advisor(s): Matthias Christandl. [primary source](https://www.math.ku.dk/bibliotek/arkivet/phd-theses/2026/PhD_thesis-Dylan-Harley.pdf) Location: Source: Dylan Harley, “Analogue quantum simulation and perturbation theory,” Copenhagen PhD thesis, submitted 12 June 2026; advisor Matthias Christandl. Sections 2.2–2.4 reaffirm earlier questions;
+
+**Literature check.** Status: the thesis explicitly leaves these two general questions open. Current versions and later claims checked 11 October 2026.
+
+
+<a id="q4501"></a>
+
+## Q4501. Is there an absolute constant C and a polynomial-time algorithm that, for every (G,s),…
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Is there an absolute constant C and a polynomial-time algorithm that, for every (G,s), constructs a valid broadcast schedule taking at most C b(G,s) rounds?
+
+**Context.** DL-S01 — Approximation algorithms / graph communication Primary-paper source: Jeffrey Bringolf, Hovhannes A. Harutyunyan, Shahin Kamali and Seyed-Mohammad Seyed-Javadi, On Hardness and Approximation of Broadcasting in Structured Graphs, arXiv:2510.20026v2 (12 February 2026), §7, p.30. https://arxiv.org/abs/2510.20026 Origin: A longstanding question explicitly retained here; no doctoral-origin claim. Setup: G is a finite connected simple undirected unweighted graph with designated source s. Initially only s knows a message. In each synchronous round an informed vertex may transmit it to at most one uninformed neighbour; newly informed vertices can transmit from the next round. Let b(G,s) be the minimum rounds needed to inform every vertex.
+
+**Source.** Jeffrey Bringolf, Hovhannes A. Harutyunyan, Shahin Kamali and Seyed-Mohammad Seyed-Javadi. *On Hardness and Approximation of Broadcasting in Structured Graphs*. 2026. [primary source](https://arxiv.org/abs/2510.20026v2) Location: §7, p.30.
+
+**Literature check.** Status checked 11 October 2026: The current primary explicitly retains the question. Later parameterized and restricted-class algorithms located do not settle this unrestricted approximation guarantee.
+
+**Further links.** [1](https://arxiv.org/abs/2510.20026)
+
+
+<a id="q4509"></a>
+
+## Q4509. Does this decision problem remain NP-hard on grids under the additional restriction S∩T=∅?
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Does this decision problem remain NP-hard on grids under the additional restriction S∩T=∅?
+
+**Context.** DL-S09 — Computational complexity and reconfiguration Primary-paper source: Nicolas Bousquet, Remy El Sabeh, Amer E. Mouawad and Naomi Nishimura, On the complexity of the single-move labeled token routing problem, arXiv:2610.09084v1 (6 October 2026), §7 p.49; Theorem 3 and §4.2. Setup: A grid is a rectangular Cartesian product of two finite paths. Initially one token occupies each source s∈S. A specified bijection S→T gives distinct destinations. Tokens move one at a time, each at most once, along simple paths having no other occupied vertex. Decide whether all tokens can reach their destinations. Consider restricted instances for which every yes-instance admits a solution with pairwise edge-disjoint routes.
+
+**Source.** Nicolas Bousquet, Remy El Sabeh, Amer E. Mouawad and Naomi Nishimura. *On the complexity of the single-move labeled token routing problem*. 2026. [primary source](https://arxiv.org/abs/2610.09084) Location: §7 p.49; Theorem 3 and §4.2.
+
+**Literature check.** Status checked 11 October 2026: the current paper leaves both restrictions open; its unrestricted grid hardness does not settle them.
+
+**Further links.** [1](https://arxiv.org/abs/2610.09084v1)
+
+
+<a id="q4510"></a>
+
+## Q4510. Does it remain NP-hard on grids when, for some fixed absolute constant c, every yes-instance…
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Does it remain NP-hard on grids when, for some fixed absolute constant c, every yes-instance admits pairwise edge-disjoint solution routes each containing at most c vertices of S∪T other than its endpoints?
+
+**Context.** DL-S09 — Computational complexity and reconfiguration Primary-paper source: Nicolas Bousquet, Remy El Sabeh, Amer E. Mouawad and Naomi Nishimura, On the complexity of the single-move labeled token routing problem, arXiv:2610.09084v1 (6 October 2026), §7 p.49; Theorem 3 and §4.2. Setup: A grid is a rectangular Cartesian product of two finite paths. Initially one token occupies each source s∈S. A specified bijection S→T gives distinct destinations. Tokens move one at a time, each at most once, along simple paths having no other occupied vertex. Decide whether all tokens can reach their destinations. Consider restricted instances for which every yes-instance admits a solution with pairwise edge-disjoint routes.
+
+**Source.** Nicolas Bousquet, Remy El Sabeh, Amer E. Mouawad and Naomi Nishimura. *On the complexity of the single-move labeled token routing problem*. 2026. [primary source](https://arxiv.org/abs/2610.09084) Location: §7 p.49; Theorem 3 and §4.2.
+
+**Literature check.** Status checked 11 October 2026: the current paper leaves both restrictions open; its unrestricted grid hardness does not settle them.
+
+**Further links.** [1](https://arxiv.org/abs/2610.09084v1)
+
+
+<a id="q4576"></a>
+
+## Q4576. Determine asymptotically optimal spectral-sparsifier sizes for random Boolean CSPs in these two…
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Determine asymptotically optimal spectral-sparsifier sizes for random Boolean CSPs in these two models, with probability tending to one as n→∞, as functions of R,n,m,ε.
+
+**Context.** Setup: Fix finite D, R⊆D^r and ε∈(0,1). Draw m independent uniform constraints with replacement, either ordered distinct r-tuples from n variables or one variable from each of r parts of size n. A sparsifier retains nonnegatively reweighted constraints, preserving total satisfied weight within 1±ε for every assignment; size counts retained constraints. For Boolean R and x∈[0,1]^V, spectral energy sums (Pr_{θ∼Uniform[0,1]}[R((1_{x_v≥θ})\_{v∈c})=1])² over constraints c, using retained constraint weights; spectral sparsification preserves this energy for every x. Checked 12 October 2026: the current authenticated full conference version retains both questions; no matching later resolution located.
+
+**Source.** Joshua Brakensiek, Venkatesan Guruswami and Aaron Putterman. *Tight Bounds for Sparsifying Random CSPs*. 2027. [primary source](https://arxiv.org/abs/2508.13345v3) Location: §1.4 items 3–4, p.13 (full SODA 2027 version, October 2026).
+
+**Literature check.** Status: Checked 12 October 2026: the current authenticated full conference version retains both questions; no matching later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2508.13345)
+
+
+<a id="q4577"></a>
+
+## Q4577. If an adversary sees the random instance and adds pm constraints, where 0&lt;p<1 and pm is…
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+If an adversary sees the random instance and adds pm constraints, where 0&lt;p<1 and pm is integral, what is the asymptotically optimal sparsifier size with high probability, uniformly over such additions, as a function of p,R,m,n,ε?
+
+**Context.** Setup: Fix finite D, R⊆D^r and ε∈(0,1). Draw m independent uniform constraints with replacement, either ordered distinct r-tuples from n variables or one variable from each of r parts of size n. A sparsifier retains nonnegatively reweighted constraints, preserving total satisfied weight within 1±ε for every assignment; size counts retained constraints. For Boolean R and x∈[0,1]^V, spectral energy sums (Pr_{θ∼Uniform[0,1]}[R((1_{x_v≥θ})\_{v∈c})=1])² over constraints c, using retained constraint weights; spectral sparsification preserves this energy for every x. Checked 12 October 2026: the current authenticated full conference version retains both questions; no matching later resolution located.
+
+**Source.** Joshua Brakensiek, Venkatesan Guruswami and Aaron Putterman. *Tight Bounds for Sparsifying Random CSPs*. 2027. [primary source](https://arxiv.org/abs/2508.13345v3) Location: §1.4 items 3–4, p.13 (full SODA 2027 version, October 2026).
+
+**Literature check.** Status: Checked 12 October 2026: the current authenticated full conference version retains both questions; no matching later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2508.13345)
+
+
+<a id="q4597"></a>
+
+## Q4597. Is there a randomized algorithm finding the global sink of every such USO using polynomially…
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Is there a randomized algorithm finding the global sink of every such USO using polynomially many vertex queries in worst-case expectation? A query at v returns all n incident edge directions; no acyclicity or realizability is assumed.
+
+**Context.** DL-S27 — Discrete mathematics Origin: The classical oracle problem is restated on thesis p.2. Setup: A USO orients the labeled hypercube Q_n on {0,1}^n so every nonempty face has exactly one sink within that face. Checked 12 October 2026: primary final sources and later related results reveal no resolution.
+
+**Source.** Simon Lukas Weber. *Complementarity and Division Problems Reducible to Unique Sink Orientations*. ETH Zürich, 2025. Advisor(s): Bernd Gärtner. [primary source](https://doi.org/10.3929/ethz-b-000738057) Location: The classical oracle problem is restated on thesis p.2.
+
+**Literature check.** Status: Checked 12 October 2026: primary final sources and later related results reveal no resolution.
+
+
+<a id="q4628"></a>
+
+## Q4628. Is there a PRAM algorithm, with polynomially many processors sharing memory, computing a proper…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Is there a PRAM algorithm, with polynomially many processors sharing memory, computing a proper (Δ+1)-edge-coloring of every G in polylog(n) depth and Õ(m) total work?
+
+**Context.** Setup: G is a finite simple undirected graph with n vertices, m edges and maximum degree Δ. A proper edge-coloring assigns different colors to edges sharing an endpoint. Õ suppresses polylogarithmic factors in n. Audited provenance and status: Subject: Graph algorithms Literal questions do not specify PRAM concurrency or randomized success convention. No stronger convention silently imposed. Elkin–Khuzman, SPAA2026,pp62–74, DOI10.1145/3816782.3819181. Final abstract: O(Δ⁴ log⁴n) PRAM time using O(mΔ) processors. January arXiv full text read; July final abstract read, final PDF unread.
+
+**Source.** Martín Costa. *Fast Algorithms for Edge Coloring Graphs*. University of Warwick, 2025. Advisor(s): Sayan Bhattacharya. [primary source](https://wrap.warwick.ac.uk/id/eprint/200926/) Location: thesis Chapter6, Open Problems1–2, pp85–86; graph conventions,p2.
+
+**Literature check.** Status2026-10-12: thesis questions read; June2026 JACM result retains a logarithmic factor, and July2026 SPAA parallel bounds remain degree-dependent. Later exact-target searches located no resolution.
+
+**Notes.** Status2026-10-12: thesis questions read; June2026 JACM result retains a logarithmic factor, and July2026 SPAA parallel bounds remain degree-dependent. Later exact-target searches located no resolution.
+
+**Further links.** [1](https://doi.org/10.1145/3816782.3819181)
+
+
+<a id="q4671"></a>
+
+## Q4671. Does this collision-free robot-scheduling problem admit a polynomial-time exact algorithm?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Does this collision-free robot-scheduling problem admit a polynomial-time exact algorithm?
+
+**Context.** Setup: On a finite undirected path, k robots have specified distinct starting vertices. Each timestep permits an edge traversal or waiting. A task (v,d), d∈N positive, requires one robot to stay continuously at v for d timesteps. Each robot performs tasks sequentially; durations are binary-encoded. All tasks must be completed; robots cannot share vertices or traverse an edge in opposite directions simultaneously. Robots remain at their final vertices. Minimize the maximum schedule length, with unrestricted k and task durations. Audited provenance and status: Subject: Graph algorithms Published final unread; newer thesis explicitly retains questions. Experimental2502.07851v2 §6 claims grid hardness; paths remain heuristic.
+
+**Source.** Nathan Flaherty. *Graph Theoretic Concepts and Algorithms Motivated by Chemistry Applications*. University of Liverpool, 2026. Advisor(s): Paul Spirakis, Igor Potapov and Duncan Adamson. [primary source](https://livrepository.liverpool.ac.uk/3197680/1/201596770_Mar2026.pdf) Location: Thesis §7.1.2 p88 retains the path question from Adamson–Flaherty–Potapov–Spirakis, Collision-Free Robot Scheduling, §5.
+
+**Literature check.** Status: Checked12October2026; no matching resolution located.
+
+
+<a id="q4672"></a>
+
+## Q4672. What is the computational complexity of the same optimization problem when the graph is a finite…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+What is the computational complexity of the same optimization problem when the graph is a finite cycle?
+
+**Context.** Setup: On a finite undirected path, k robots have specified distinct starting vertices. Each timestep permits an edge traversal or waiting. A task (v,d), d∈N positive, requires one robot to stay continuously at v for d timesteps. Each robot performs tasks sequentially; durations are binary-encoded. All tasks must be completed; robots cannot share vertices or traverse an edge in opposite directions simultaneously. Robots remain at their final vertices. Minimize the maximum schedule length, with unrestricted k and task durations. Audited provenance and status: Subject: Graph algorithms Published final unread; newer thesis explicitly retains questions. Experimental2502.07851v2 §6 claims grid hardness; paths remain heuristic.
+
+**Source.** Nathan Flaherty. *Graph Theoretic Concepts and Algorithms Motivated by Chemistry Applications*. University of Liverpool, 2026. Advisor(s): Paul Spirakis, Igor Potapov and Duncan Adamson. [primary source](https://livrepository.liverpool.ac.uk/3197680/1/201596770_Mar2026.pdf) Location: Thesis §7.1.2 p88 retains the path question from Adamson–Flaherty–Potapov–Spirakis, Collision-Free Robot Scheduling, §5.
+
+**Literature check.** Status: Checked12October2026; no matching resolution located.
+

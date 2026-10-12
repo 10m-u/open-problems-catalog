@@ -1,6 +1,6 @@
 # Functional Analysis & Operator Theory
 
-275 problems: 273 open, 1 open, partial results, 1 solved here: proved.
+298 problems: 296 open, 1 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -283,3 +283,26 @@ Parts: [1](functional-analysis-operator-theory-part-1.md) · [2](functional-anal
 | <a id="q4123"></a>[Q4123](functional-analysis-operator-theory-part-2.md#q4123) | Does F(ℓ₁) have the Dunford–Pettis property: whenever xₙ→0 weakly in F(ℓ₁) and fₙ→0 weakly in… | Open |
 | <a id="q4124"></a>[Q4124](functional-analysis-operator-theory-part-2.md#q4124) | Does X have the strong ball-covering property: are there xₙ∈X and radii rₙ>0 with supₙrₙ<∞,… | Open |
 | <a id="q4125"></a>[Q4125](functional-analysis-operator-theory-part-2.md#q4125) | Characterize, in terms of d and f, exactly which such self-maps f have hypercyclic T_f. | Open |
+| <a id="q4201"></a>[Q4201](functional-analysis-operator-theory-part-2.md#q4201) | If every disjoint D⊂F₊ with D∨⊂B has an upper bound in F, must every directed P⊂B∩F₊ have an… | Open |
+| <a id="q4205"></a>[Q4205](functional-analysis-operator-theory-part-2.md#q4205) | Does there exist x∈X such that {B_(a,b)^n x:n≥0} is dense in X for every (a,b)∈(0,1]²? | Open |
+| <a id="q4206"></a>[Q4206](functional-analysis-operator-theory-part-2.md#q4206) | For 1&lt;p<2, is every absolutely Cesàro bounded operator on a real or complex L^p(Ω,μ), over an… | Open |
+| <a id="q4207"></a>[Q4207](functional-analysis-operator-theory-part-2.md#q4207) | For 1&lt;p<∞, if T is positive and absolutely Cesàro bounded on complex L^p(Ω,μ) and… | Open |
+| <a id="q4210"></a>[Q4210](functional-analysis-operator-theory-part-2.md#q4210) | Does an infinite-dimensional real Banach space X exist such that every bounded linear T:X→X has… | Open |
+| <a id="q4211"></a>[Q4211](functional-analysis-operator-theory-part-2.md#q4211) | Is it provable in ZFC that some masa of Q is \*-isomorphic to C(K_A) for a Boolean algebra A… | Open |
+| <a id="q4399"></a>[Q4399](functional-analysis-operator-theory-part-2.md#q4399) | Does every such system embed as closed subspaces H_k⊆K_k of a normal system (K_k,Δ\_i^(n)) with… | Open |
+| <a id="q4469"></a>[Q4469](functional-analysis-operator-theory-part-2.md#q4469) | Is every weak Fraïssé X Fraïssé? | Open |
+| <a id="q4470"></a>[Q4470](functional-analysis-operator-theory-part-2.md#q4470) | If every linear isometry E→X, for every finite-dimensional E⊂X, extends to an element of Iso(X),… | Open |
+| <a id="q4471"></a>[Q4471](functional-analysis-operator-theory-part-2.md#q4471) | Is B_X plastic for every real Banach space X? | Open |
+| <a id="q4472"></a>[Q4472](functional-analysis-operator-theory-part-2.md#q4472) | If G is plastic, must K(G) be plastic? | Open |
+| <a id="q4587"></a>[Q4587](functional-analysis-operator-theory-part-2.md#q4587) | Characterize the positive Borel measures μ for which T_μ:A¹→A¹ is absolutely 1-summing. | Open |
+| <a id="q4595"></a>[Q4595](functional-analysis-operator-theory-part-2.md#q4595) | For N=2, does boundedness of H_φ always imply existence of a bounded symbol? | Open |
+| <a id="q4596"></a>[Q4596](functional-analysis-operator-theory-part-2.md#q4596) | For N=∞, determine which exponents 2&lt;p≤4 ensure that every H_φ∈Sᵖ has a bounded symbol. | Open |
+| <a id="q4602"></a>[Q4602](functional-analysis-operator-theory-part-2.md#q4602) | Does a universal C>0 satisfy c_n(S,F)≤Cn b_n(S,F) for every such X,Y,S,F,n? | Open |
+| <a id="q4618"></a>[Q4618](functional-analysis-operator-theory-part-2.md#q4618) | If every u∈E has a representation with Σᵢ\|\|xᵢ\*\|\|\|\|yᵢ\|\|=\|\|u\|\|π, must every nuclear T:X→Y have a… | Open |
+| <a id="q4635"></a>[Q4635](functional-analysis-operator-theory-part-2.md#q4635) | Can X have an unconditional Schauder basis while B_X contains no SCD point? | Open |
+| <a id="q4654"></a>[Q4654](functional-analysis-operator-theory-part-2.md#q4654) | For every such D_Q and k≥1, does left cyclicity of F∈M_k(A) imply right cyclicity? | Open |
+| <a id="q4655"></a>[Q4655](functional-analysis-operator-theory-part-2.md#q4655) | Do some D_Q and scalar NC rational F∈A with D_Q⊂dom F and F(X) invertible for every X∈D_Q fail… | Open |
+| <a id="q4687"></a>[Q4687](functional-analysis-operator-theory-part-2.md#q4687) | Does some X admit two closed ideals J₁,J₂⊂K(X), neither an ideal of L(X), which are not… | Open |
+| <a id="q4688"></a>[Q4688](functional-analysis-operator-theory-part-2.md#q4688) | Do some X and M∈SI₃(L(X)) satisfy I(M)³⊄M? | Open |
+| <a id="q4689"></a>[Q4689](functional-analysis-operator-theory-part-2.md#q4689) | For every n≥1 and 1≤p₁<⋯&lt;pₙ₊₁≤∞, put X=⊕ⱼ₌₁ⁿ⁺¹ℓ^{pⱼ} with max norm, interpreting ℓ^∞ as c₀. Does… | Open |
+| <a id="q4691"></a>[Q4691](functional-analysis-operator-theory-part-2.md#q4691) | Must there exist a Hilbert space H over the same field and an injective bounded linear… | Open |

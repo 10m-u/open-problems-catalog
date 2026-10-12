@@ -1,6 +1,6 @@
 # Information Theory & Coding
 
-31 problems: 29 open, 2 open, partial results.
+36 problems: 34 open, 2 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -37,6 +37,11 @@
 | [Q842](information-theory-coding.md#q842) | Do pairwise queries achieve the best nested Bayesian policy? | Open |
 | [Q843](information-theory-coding.md#q843) | Exact eleven-query capacity for two hidden failures | Open |
 | [Q844](information-theory-coding.md#q844) | Does imbalance reduce two-failure query complexity? | Open |
+| [Q4368](information-theory-coding.md#q4368) | Can limsup be replaced by liminf in h⁰(ν), without changing its value? | Open |
+| [Q4369](information-theory-coding.md#q4369) | Is h⁰(T×S)=h⁰(T)+h⁰(S) for arbitrary probability-preserving F-actions T,S on standard… | Open |
+| [Q4370](information-theory-coding.md#q4370) | Can limsup be replaced by liminf in h^q(ν), without changing its value? | Open |
+| [Q4659](information-theory-coding.md#q4659) | For every ε>0, does there exist h_ε<∞ such that every such X with H(X)≥h_ε satisfies… | Open |
+| [Q4660](information-theory-coding.md#q4660) | Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X? | Open |
 
 <a id="q115"></a>
 
@@ -560,4 +565,75 @@ For all n≥m>1 and integers k≥0, does M(K_{n, m})≤k imply M(K_{n+1, m−1})
 **Source.** Fedor Karpelevitch. *Certified exact bounds for adaptive quantitative group testing with two defectives*. 2026. [primary source](https://arxiv.org/abs/2609.38489v1) Location: Conjecture 5.1.
 
 **Literature check.** Status for questions 843, 844, checked 5 October 2026: Checked 2026-10-05: still open in v1.
+
+
+<a id="q4368"></a>
+
+## Q4368. Can limsup be replaced by liminf in h⁰(ν), without changing its value?
+
+**Status:** Open · **Kind:** open problem (Question 3.17) · **Collection** 44
+
+Can limsup be replaced by liminf in h⁰(ν), without changing its value?
+
+**Context.** Let F=F_r be free of rank r≥2, A finite, ν a shift-invariant probability on A^F, and σ\_n uniform in Hom(F,Sym([n])). Set P_a^σ=n^−1∑\_{v=1}^n δ\_{(a_{σ(g^−1)v})\_{g∈F}} and X(σ,O)={a∈A^[n]:P_a^σ∈O}. Infima below range over weak-\* neighborhoods O of ν. Define h⁰(ν)=inf_O limsup_n n^−1 log Pr(X(σ\_n,O)≠∅). For a probability-preserving F-action T, define h⁰(T)=inf_ν h⁰(ν), over distributions of its finite-valued observable processes (α(T^{g^−1}x))\_{g∈F}. When h⁰(ν)=0, put h^q(ν)=inf_O limsup_n n^−1 E log⁺|X(σ\_n,O)|, where log⁺t=log max{1,t}. Origins/locators: Questions 3.17,3.21,3.22; definitions 3.12,3.14,(3.3),(3.4),(3.9). Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+**Source.** Tim Austin. *Some Recent Developments in Structural Ergodic Theory*. 2026. [primary source](https://doi.org/10.1137/25M1805564) Location: Question 3.17, ICM 2026 pp.3–23.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+
+<a id="q4369"></a>
+
+## Q4369. Is h⁰(T×S)=h⁰(T)+h⁰(S) for arbitrary probability-preserving F-actions T,S on standard…
+
+**Status:** Open · **Kind:** open problem (Question 3.21) · **Collection** 44
+
+Is h⁰(T×S)=h⁰(T)+h⁰(S) for arbitrary probability-preserving F-actions T,S on standard probability spaces?
+
+**Context.** Let F=F_r be free of rank r≥2, A finite, ν a shift-invariant probability on A^F, and σ\_n uniform in Hom(F,Sym([n])). Set P_a^σ=n^−1∑\_{v=1}^n δ\_{(a_{σ(g^−1)v})\_{g∈F}} and X(σ,O)={a∈A^[n]:P_a^σ∈O}. Infima below range over weak-\* neighborhoods O of ν. Define h⁰(ν)=inf_O limsup_n n^−1 log Pr(X(σ\_n,O)≠∅). For a probability-preserving F-action T, define h⁰(T)=inf_ν h⁰(ν), over distributions of its finite-valued observable processes (α(T^{g^−1}x))\_{g∈F}. When h⁰(ν)=0, put h^q(ν)=inf_O limsup_n n^−1 E log⁺|X(σ\_n,O)|, where log⁺t=log max{1,t}. Origins/locators: Questions 3.17,3.21,3.22; definitions 3.12,3.14,(3.3),(3.4),(3.9). Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+**Source.** Tim Austin. *Some Recent Developments in Structural Ergodic Theory*. 2026. [primary source](https://doi.org/10.1137/25M1805564) Location: Question 3.21, ICM 2026 pp.3–23.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+
+<a id="q4370"></a>
+
+## Q4370. Can limsup be replaced by liminf in h^q(ν), without changing its value?
+
+**Status:** Open · **Kind:** open problem (Question 3.22) · **Collection** 44
+
+Can limsup be replaced by liminf in h^q(ν), without changing its value?
+
+**Context.** Let F=F_r be free of rank r≥2, A finite, ν a shift-invariant probability on A^F, and σ\_n uniform in Hom(F,Sym([n])). Set P_a^σ=n^−1∑\_{v=1}^n δ\_{(a_{σ(g^−1)v})\_{g∈F}} and X(σ,O)={a∈A^[n]:P_a^σ∈O}. Infima below range over weak-\* neighborhoods O of ν. Define h⁰(ν)=inf_O limsup_n n^−1 log Pr(X(σ\_n,O)≠∅). For a probability-preserving F-action T, define h⁰(T)=inf_ν h⁰(ν), over distributions of its finite-valued observable processes (α(T^{g^−1}x))\_{g∈F}. When h⁰(ν)=0, put h^q(ν)=inf_O limsup_n n^−1 E log⁺|X(σ\_n,O)|, where log⁺t=log max{1,t}. Origins/locators: Questions 3.17,3.21,3.22; definitions 3.12,3.14,(3.3),(3.4),(3.9). Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+**Source.** Tim Austin. *Some Recent Developments in Structural Ergodic Theory*. 2026. [primary source](https://doi.org/10.1137/25M1805564) Location: Question 3.22, ICM 2026 pp.3–23.
+
+**Literature check.** Status: Checked 11 October 2026: final retains these questions; no matching later resolution found.
+
+
+<a id="q4659"></a>
+
+## Q4659. For every ε>0, does there exist h_ε<∞ such that every such X with H(X)≥h_ε satisfies…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.10) · **Collection** 47
+
+For every ε>0, does there exist h_ε<∞ such that every such X with H(X)≥h_ε satisfies 2H(X+X′)+H(XX′)≥(4−ε)H(X)?
+
+**Context.** AP47-S15 — Probability and information theory Paper-origin: arXiv:2607.29042v1, Conjecture 1.10, p.4 and §8, p.38. For a discrete real random variable Z, let H(Z)=−Σ\_z P(Z=z)log₂P(Z=z), with 0log₂0=0. Throughout, X′ is an independent copy of X and H(X)<∞. Audited provenance and status: Subject: Probability and information theory Advisor not verified Li’s primary homepage lists this paper without journal metadata and identifies current Stanford doctoral study; no doctoral award or thesis origin is asserted. v1 only,31July2026; no journal reference. Bounded current homepage check identifies no dissertation advisor. Official Stanford mathematics profile identifies Li; no dissertation advisor is named. Dembo’s profile lists Li under Doctoral(Program), separately from dissertation advisees. This does not verify a dissertation advisor.
+
+**Source.** Rupert Li. *The Entropic Sum-Product Phenomenon*. 2026. [primary source](https://arxiv.org/abs/2607.29042v1) Location: Conjecture 1.10, p.4 and §8, p.38.
+
+
+<a id="q4660"></a>
+
+## Q4660. Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.10) · **Collection** 47
+
+Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X?
+
+**Context.** AP47-S15 — Probability and information theory Paper-origin: arXiv:2607.29042v1, Conjecture 1.10, p.4 and §8, p.38. For a discrete real random variable Z, let H(Z)=−Σ\_z P(Z=z)log₂P(Z=z), with 0log₂0=0. Throughout, X′ is an independent copy of X and H(X)<∞. Audited provenance and status: Subject: Probability and information theory Advisor not verified Li’s primary homepage lists this paper without journal metadata and identifies current Stanford doctoral study; no doctoral award or thesis origin is asserted. v1 only,31July2026; no journal reference. Bounded current homepage check identifies no dissertation advisor. Official Stanford mathematics profile identifies Li; no dissertation advisor is named. Dembo’s profile lists Li under Doctoral(Program), separately from dissertation advisees. This does not verify a dissertation advisor.
+
+**Source.** Rupert Li. *The Entropic Sum-Product Phenomenon*. 2026. [primary source](https://arxiv.org/abs/2607.29042v1) Location: Conjecture 1.10, p.4 and §8, p.38.
 

@@ -1,6 +1,6 @@
 # Combinatorics & Graph Theory
 
-621 problems: 591 open, 16 open, partial results, 12 solved here: proved, 2 solved here: disproved.
+734 problems: 704 open, 16 open, partial results, 12 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -629,3 +629,116 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q4146"></a>[Q4146](combinatorics-graph-theory-part-3.md#q4146) | As integer d→∞, is 2−c_d=Θ(2^(−d))? | Open |
 | <a id="q4147"></a>[Q4147](combinatorics-graph-theory-part-3.md#q4147) | If g is even and d≤g, must every (k;g,d)-cage be bipartite? | Open |
 | <a id="q4195"></a>[Q4195](combinatorics-graph-theory-part-3.md#q4195) | For each integer d≥2, determine max(S_F(d)∩{q∈Q:q&lt;d−1}), the next endpoint below d−1 in the Fine… | Open |
+| <a id="q4236"></a>[Q4236](combinatorics-graph-theory-part-3.md#q4236) | Does every element of L have a unique factorisation into atoms, up to permutation? | Open |
+| <a id="q4237"></a>[Q4237](combinatorics-graph-theory-part-3.md#q4237) | For each finite S⊆{1,2,...}, how many atoms and molecules G∈L have T(G)=S? | Open |
+| <a id="q4238"></a>[Q4238](combinatorics-graph-theory-part-3.md#q4238) | For all G,H,J∈B, does G+J≥B H+J imply G≥B H? | Open |
+| <a id="q4239"></a>[Q4239](combinatorics-graph-theory-part-3.md#q4239) | Can U× be nontrivial while U contains no U-invertible form of formal birthday 1? | Open |
+| <a id="q4240"></a>[Q4240](combinatorics-graph-theory-part-3.md#q4240) | Determine the group structure of U× for each universe U. | Open |
+| <a id="q4241"></a>[Q4241](combinatorics-graph-theory-part-3.md#q4241) | For which n can S_n\A_n be partitioned as M⊔N, where M and N are unions of entire S_n-conjugacy… | Open |
+| <a id="q4242"></a>[Q4242](combinatorics-graph-theory-part-3.md#q4242) | Which 2n×2m Queen graphs are almost opposable, for positive integers n,m? | Open |
+| <a id="q4243"></a>[Q4243](combinatorics-graph-theory-part-3.md#q4243) | Can the second player win Snort on any 2n×2m Queen graph, for positive integers n,m? | Open |
+| <a id="q4245"></a>[Q4245](combinatorics-graph-theory-part-3.md#q4245) | For each integer k≥4, find a structural characterization of the graphs with cat number k. | Open |
+| <a id="q4246"></a>[Q4246](combinatorics-graph-theory-part-3.md#q4246) | Determine the additive quotient monoid U/≡ together with its four outcome classes (Left always… | Open |
+| <a id="q4247"></a>[Q4247](combinatorics-graph-theory-part-3.md#q4247) | Is QP(A) a polytope for every finite simple graph? | Open |
+| <a id="q4250"></a>[Q4250](combinatorics-graph-theory-part-3.md#q4250) | Is every minimal obstruction to S_a an induced subgraph of some minimal obstruction to N_a, for… | Open |
+| <a id="q4251"></a>[Q4251](combinatorics-graph-theory-part-3.md#q4251) | For each d≥3, can all coordinate 2-colorings exist while no Borel 2^d-polychromatic coloring exists? | Open |
+| <a id="q4257"></a>[Q4257](combinatorics-graph-theory-part-3.md#q4257) | If χB is finite, must χB≤2n+1? | Open |
+| <a id="q4288"></a>[Q4288](combinatorics-graph-theory-part-3.md#q4288) | Is p_n(2431)=p_n(3241) for every n≥1? For m≥0, let a_m count ordered pairs (P,Q) of length-m… | Open |
+| <a id="q4289"></a>[Q4289](combinatorics-graph-theory-part-3.md#q4289) | Is p_n(2341)=a_{n−1} for every n≥1? | Open |
+| <a id="q4290"></a>[Q4290](combinatorics-graph-theory-part-3.md#q4290) | Determine π(C₅(r)) within a multiplicative constant as r→∞. | Open |
+| <a id="q4291"></a>[Q4291](combinatorics-graph-theory-part-3.md#q4291) | Determine the asymptotic value of π(H₃ʳ) as r→∞. (Unnumbered open problem preceding 6.1.) | Open |
+| <a id="q4292"></a>[Q4292](combinatorics-graph-theory-part-3.md#q4292) | For each integer d≥2, are there infinitely many n admitting a symmetric abstract d-rigidity… | Open |
+| <a id="q4293"></a>[Q4293](combinatorics-graph-theory-part-3.md#q4293) | Is there a universal C with χ\_ℓ(M₁,M₂)≤χ(M₁,M₂)+C for every pair? In particular, does C=1 work?… | Open |
+| <a id="q4294"></a>[Q4294](combinatorics-graph-theory-part-3.md#q4294) | If both M₁ and M₂ are strongly base-orderable, must χ\_ℓ(M₁,M₂)=χ(M₁,M₂)? | Open |
+| <a id="q4295"></a>[Q4295](combinatorics-graph-theory-part-3.md#q4295) | As a function of positive integers N,k for which admissible partitions of [N]={1,…,N} exist,… | Open |
+| <a id="q4296"></a>[Q4296](combinatorics-graph-theory-part-3.md#q4296) | As a function of positive integers n,k for which admissible partitions of 𝔽₃ⁿ exist, determine… | Open |
+| <a id="q4297"></a>[Q4297](combinatorics-graph-theory-part-3.md#q4297) | If \|α\|=1 and α is algebraic but not an algebraic integer, must χ(Γ\_α)≤3? | Open |
+| <a id="q4298"></a>[Q4298](combinatorics-graph-theory-part-3.md#q4298) | For every \|α\|=1, must χ(Γ\_α)≤4? | Open |
+| <a id="q4299"></a>[Q4299](combinatorics-graph-theory-part-3.md#q4299) | For a unit-modulus root α of x⁶−x⁴−x³−x²+1, is χ\_c(Γ\_α)=7/2? | Open |
+| <a id="q4300"></a>[Q4300](combinatorics-graph-theory-part-3.md#q4300) | Do unit complex numbers α,β exist with χ(Γ\_{ {α,β} })≥5? | Open |
+| <a id="q4301"></a>[Q4301](combinatorics-graph-theory-part-3.md#q4301) | Must \|diam(O(P))−diam(C(P))\|≤1 for every such P? | Open |
+| <a id="q4302"></a>[Q4302](combinatorics-graph-theory-part-3.md#q4302) | Is f_k(Γ)=Θ̃(n^(1/k)) as n→∞? Here Θ̃ permits multiplicative powers of log n, with constants… | Open |
+| <a id="q4303"></a>[Q4303](combinatorics-graph-theory-part-3.md#q4303) | Determine explicit formulas for γ(J(n,k)) and γ\_t(J(n,k)) in terms of n,k for k≥4 and n>k. | Open |
+| <a id="q4306"></a>[Q4306](combinatorics-graph-theory-part-3.md#q4306) | Classify all such G for which A has exactly three distinct eigenvalues. | Open |
+| <a id="q4308"></a>[Q4308](combinatorics-graph-theory-part-3.md#q4308) | If G^L&lt;G for every immediate Left option and G&lt;G^R for every immediate Right option, must G be… | Open |
+| <a id="q4315"></a>[Q4315](combinatorics-graph-theory-part-3.md#q4315) | For every integer k≥1, is there an H with clique number at least k on which Alice has a winning… | Open |
+| <a id="q4316"></a>[Q4316](combinatorics-graph-theory-part-3.md#q4316) | For every fixed pair of positive integers p,q, does the larger-bias player win on K_n for all… | Open |
+| <a id="q4317"></a>[Q4317](combinatorics-graph-theory-part-3.md#q4317) | Taking the difference Δ(A)−Δ(B), is s=0 for every regular G other than K_2 and K_3, where Δ… | Open |
+| <a id="q4318"></a>[Q4318](combinatorics-graph-theory-part-3.md#q4318) | On G=K_n for every integer n≥1, is s=2 if n=2, s=1 if n≡3 mod4, and s=0 otherwise? | Open |
+| <a id="q4319"></a>[Q4319](combinatorics-graph-theory-part-3.md#q4319) | Is it impossible for w, w⟨5⟩ and w⟨8⟩ all to be square-free? | Open |
+| <a id="q4320"></a>[Q4320](combinatorics-graph-theory-part-3.md#q4320) | Do positive integers p,k exist such that, for every strictly increasing sequence (p_i)\_{i≥0} of… | Open |
+| <a id="q4324"></a>[Q4324](combinatorics-graph-theory-part-3.md#q4324) | Is ultimate abelian periodicity of s decidable from f(a),f(b)? | Open |
+| <a id="q4325"></a>[Q4325](combinatorics-graph-theory-part-3.md#q4325) | Are e_5(n)=O(n^{1/3}) and e_6(n)=O(n^{1/4}) as n→∞? These are the matching upper bounds sought… | Open |
+| <a id="q4326"></a>[Q4326](combinatorics-graph-theory-part-3.md#q4326) | For every integer k≥3, is there n_0(k) such that, for every n≥n_0(k), the second player wins by… | Open |
+| <a id="q4327"></a>[Q4327](combinatorics-graph-theory-part-3.md#q4327) | Must every nonempty losing position have even rank \|λ\_1−r\|? | Open |
+| <a id="q4328"></a>[Q4328](combinatorics-graph-theory-part-3.md#q4328) | For all finite nonempty posets P,Q, does E(P)≅E(Q) imply P≅Q, where ≅ means order-isomorphism? | Open |
+| <a id="q4329"></a>[Q4329](combinatorics-graph-theory-part-3.md#q4329) | For a=1, winning sets all triangles, and q=⌈√(2n−2)−3/2⌉, are there winning Breaker strategies… | Open |
+| <a id="q4330"></a>[Q4330](combinatorics-graph-theory-part-3.md#q4330) | When the winning sets are all Hamilton cycles, determine the threshold bias q_H(n,a), the least… | Open |
+| <a id="q4331"></a>[Q4331](combinatorics-graph-theory-part-3.md#q4331) | Do both polynomials have ultra-log-concave coefficients for every n≥1, meaning c_i/binom(d,i) is… | Open |
+| <a id="q4332"></a>[Q4332](combinatorics-graph-theory-part-3.md#q4332) | For every l≥0, are the coefficients of both M_l and R_l log-concave, meaning c_i²≥c_{i−1}c_{i+1}? | Open |
+| <a id="q4333"></a>[Q4333](combinatorics-graph-theory-part-3.md#q4333) | Does every finite square-free word over A have a square-free extension? | Open |
+| <a id="q4348"></a>[Q4348](combinatorics-graph-theory-part-3.md#q4348) | Must G be plain? | Open |
+| <a id="q4363"></a>[Q4363](combinatorics-graph-theory-part-3.md#q4363) | Let I,J be the identity and all-ones matrices of size 40, and C=I_10⊗(J_4−I_4). Does a matrix A∈{0,1}^{40×40} exist with | Open |
+| <a id="q4401"></a>[Q4401](combinatorics-graph-theory-part-3.md#q4401) | If every edge-colouring of G with b+1 colours contains a monochromatic copy of H, must Maker… | Open |
+| <a id="q4402"></a>[Q4402](combinatorics-graph-theory-part-3.md#q4402) | Determine r̂\_MB(P_n) for every positive integer n, where P_n is the n-vertex path. | Open |
+| <a id="q4403"></a>[Q4403](combinatorics-graph-theory-part-3.md#q4403) | Is there a connected n-vertex graph H with 4≤n≤121 and f(H)=n? | Open |
+| <a id="q4404"></a>[Q4404](combinatorics-graph-theory-part-3.md#q4404) | Determine f(n,K_3) for n≥6. | Open |
+| <a id="q4405"></a>[Q4405](combinatorics-graph-theory-part-3.md#q4405) | Do connected graphs H of arbitrarily large order exist such that every three-colouring of… | Open |
+| <a id="q4406"></a>[Q4406](combinatorics-graph-theory-part-3.md#q4406) | Characterize the outerplanar graphs H for which some N≥\|V(H)\| guarantees that every maximal… | Open |
+| <a id="q4407"></a>[Q4407](combinatorics-graph-theory-part-3.md#q4407) | Characterize all pairs of graphs (H,F) for which some N guarantees that every red/blue… | Open |
+| <a id="q4408"></a>[Q4408](combinatorics-graph-theory-part-3.md#q4408) | Characterize all such G with RC(G)=C(G). | Open |
+| <a id="q4409"></a>[Q4409](combinatorics-graph-theory-part-3.md#q4409) | Characterize all graphs obtained from a restrained-domination partition of a cycle by making its… | Open |
+| <a id="q4410"></a>[Q4410](combinatorics-graph-theory-part-3.md#q4410) | Characterize all G satisfying C_tr(G)=C(G). | Open |
+| <a id="q4411"></a>[Q4411](combinatorics-graph-theory-part-3.md#q4411) | Can C_tr(T) be computed in polynomial time for every tree T with at least two vertices? | Open |
+| <a id="q4412"></a>[Q4412](combinatorics-graph-theory-part-3.md#q4412) | Does γ∞(G)=θ(G) hold for every planar G? | Open |
+| <a id="q4413"></a>[Q4413](combinatorics-graph-theory-part-3.md#q4413) | If G is triangle-free and vertex-critical, n=\|V(G)\| and \|E(G)\|≤2n−3, is γ∞(G)=θ(G) equivalent to… | Open |
+| <a id="q4414"></a>[Q4414](combinatorics-graph-theory-part-3.md#q4414) | Is R_{Γ(G)+2}(G) connected for every planar G? | Open |
+| <a id="q4415"></a>[Q4415](combinatorics-graph-theory-part-3.md#q4415) | Is R_{Γ(G)+tw(G)}(G) connected for every G? | Open |
+| <a id="q4416"></a>[Q4416](combinatorics-graph-theory-part-3.md#q4416) | Is there an absolute constant c such that R_k(G) is connected whenever k≥Γ(G)+pw(G)/2+c? | Open |
+| <a id="q4417"></a>[Q4417](combinatorics-graph-theory-part-3.md#q4417) | For every l-stem v with l≥1, is a_v(G)≤(4n+1)/6, with equality exactly when l=1 and G is star-like? | Open |
+| <a id="q4418"></a>[Q4418](combinatorics-graph-theory-part-3.md#q4418) | Characterize all graphs H such that, for every integer k≥1, only finitely many k-vertex-critical… | Open |
+| <a id="q4419"></a>[Q4419](combinatorics-graph-theory-part-3.md#q4419) | For every fixed k≥4, does there exist a finite nonempty family F of pairwise nonisomorphic… | Open |
+| <a id="q4424"></a>[Q4424](combinatorics-graph-theory-part-3.md#q4424) | Fractional graph coloring. Let D be a finite loopless digraph with no parallel arcs; opposite… | Open |
+| <a id="q4425"></a>[Q4425](combinatorics-graph-theory-part-3.md#q4425) | Does restricting the defining test for stack(G) to almost stacked configurations leave its value… | Open |
+| <a id="q4426"></a>[Q4426](combinatorics-graph-theory-part-3.md#q4426) | Does the analogous restriction leave clear(G) unchanged for every non-bipartite G? | Open |
+| <a id="q4427"></a>[Q4427](combinatorics-graph-theory-part-3.md#q4427) | Determine a threshold function for G(n,p) to be connected, non-bipartite and satisfy… | Open |
+| <a id="q4428"></a>[Q4428](combinatorics-graph-theory-part-3.md#q4428) | For every positive integer r and every nonempty n-vertex 2r-regular simple graph G, is… | Open |
+| <a id="q4429"></a>[Q4429](combinatorics-graph-theory-part-3.md#q4429) | For T=C^{(r)} with integer r≥6, or T=S^{(r)} with integer r≥7, does every integer n≥3 admit… | Open |
+| <a id="q4430"></a>[Q4430](combinatorics-graph-theory-part-3.md#q4430) | For every integer i≥1, does a polynomial P_i(x)∈ℤ[x] of degree exactly 3i−2 satisfy… | Open |
+| <a id="q4431"></a>[Q4431](combinatorics-graph-theory-part-3.md#q4431) | If a graph class C has the property that G≡\_C H implies G≅H whenever G and H have simple… | Open |
+| <a id="q4432"></a>[Q4432](combinatorics-graph-theory-part-3.md#q4432) | If G has nullity two and H is arbitrary, does G≡\_{D_3}H imply G≅H? | Open |
+| <a id="q4433"></a>[Q4433](combinatorics-graph-theory-part-3.md#q4433) | Determine inf{c∈ℝ\_{>0}: for every integer ℓ≥1, every ⌈cℓ⌉-connected G admits V(G)=S⊔T with… | Open |
+| <a id="q4434"></a>[Q4434](combinatorics-graph-theory-part-3.md#q4434) | Does some g:ℕ\_{≥1}→ℕ\_{≥1} ensure that every strongly g(k)-connected D admits V(D)=A⊔B with… | Open |
+| <a id="q4443"></a>[Q4443](combinatorics-graph-theory-part-3.md#q4443) | Unimodality of the shuffle eigenvalue polynomials | Open |
+| <a id="q4511"></a>[Q4511](combinatorics-graph-theory-part-3.md#q4511) | For which (δ,k) is MP(n,δ,k)−c_{δ,k}n bounded, and for which is this difference eventually… | Open |
+| <a id="q4512"></a>[Q4512](combinatorics-graph-theory-part-3.md#q4512) | Is MP(n,3,k)≤MP(n,4,k)≤MP(n,5,k) whenever all three are defined? | Open |
+| <a id="q4513"></a>[Q4513](combinatorics-graph-theory-part-3.md#q4513) | Determine an asymptotic formula, for fixed integers d≥1,k≥0, for min_G sp(G,k) over n-vertex… | Open |
+| <a id="q4514"></a>[Q4514](combinatorics-graph-theory-part-3.md#q4514) | Must p(G)=c(G) hold for every perfect graph G? | Open |
+| <a id="q4517"></a>[Q4517](combinatorics-graph-theory-part-3.md#q4517) | Must s_{k,F}(n)=O_{k,F}(n) as n→∞ for every such k and F? | Open |
+| <a id="q4519"></a>[Q4519](combinatorics-graph-theory-part-3.md#q4519) | Is there a universal integer R≥1 such that every Q_n, n>1, contains an R-dense induced cycle? | Open |
+| <a id="q4520"></a>[Q4520](combinatorics-graph-theory-part-3.md#q4520) | For which t>0 does some integer R≥1 ensure an R-dense cycle in every finite t-tough graph?… | Open |
+| <a id="q4521"></a>[Q4521](combinatorics-graph-theory-part-3.md#q4521) | For every Cayley graph G of a group with a finite symmetric generating set excluding the… | Open |
+| <a id="q4523"></a>[Q4523](combinatorics-graph-theory-part-3.md#q4523) | Does κ(D)≥α₂(D)+1 force a directed cycle through every vertex? | Open |
+| <a id="q4524"></a>[Q4524](combinatorics-graph-theory-part-3.md#q4524) | Characterize the connected bipartite graphs B admitting a perfect matching for which… | Open |
+| <a id="q4525"></a>[Q4525](combinatorics-graph-theory-part-3.md#q4525) | Is f₂(Q₉) equal to 3 or 4? | Open |
+| <a id="q4526"></a>[Q4526](combinatorics-graph-theory-part-3.md#q4526) | What is the computational complexity of computing χFAT(G) exactly? | Open |
+| <a id="q4547"></a>[Q4547](combinatorics-graph-theory-part-3.md#q4547) | Higher resonance linearity | Open |
+| <a id="q4548"></a>[Q4548](combinatorics-graph-theory-part-3.md#q4548) | Holonomy Chen ranks | Open |
+| <a id="q4591"></a>[Q4591](combinatorics-graph-theory-part-3.md#q4591) | Find a positive combinatorial Littlewood–Richardson rule for O_{λμ}^ν in ξ\_λξ\_μ=Σ\_ν O_{λμ}^ν ξ\_ν… | Open |
+| <a id="q4592"></a>[Q4592](combinatorics-graph-theory-part-3.md#q4592) | Find a cancellation-free combinatorial rule for (−1)^{\|ν\|−\|λ\|−\|μ\|}c_{λμ}^ν, where… | Open |
+| <a id="q4593"></a>[Q4593](combinatorics-graph-theory-part-3.md#q4593) | Fix d≥3. Sample n independent uniform points P⊂[0,1]^d. Join comparable points in coordinatewise… | Open |
+| <a id="q4636"></a>[Q4636](combinatorics-graph-theory-part-3.md#q4636) | For every integer n≥2, must every set S⊂S^{n−1}⊂R^n of 2(n+1) unit vectors, such that every… | Open |
+| <a id="q4638"></a>[Q4638](combinatorics-graph-theory-part-3.md#q4638) | Does a universal constant C exist such that, for every matroid M on [n], nonnegative weights… | Open |
+| <a id="q4639"></a>[Q4639](combinatorics-graph-theory-part-3.md#q4639) | Let D=(V,A) be a finite acyclic digraph with source s, sink terminals t_1,…,t_n, and demands… | Open |
+| <a id="q4646"></a>[Q4646](combinatorics-graph-theory-part-3.md#q4646) | Diameter and cube dimension | Open |
+| <a id="q4647"></a>[Q4647](combinatorics-graph-theory-part-3.md#q4647) | Classifying braid graphs | Open |
+| <a id="q4648"></a>[Q4648](combinatorics-graph-theory-part-3.md#q4648) | Removing triangle-freeness | Open |
+| <a id="q4656"></a>[Q4656](combinatorics-graph-theory-part-3.md#q4656) | If a+b is odd, does every x∈X_A contain every word of L_A? | Open |
+| <a id="q4657"></a>[Q4657](combinatorics-graph-theory-part-3.md#q4657) | For all integers 1≤a&lt;b, is p_A(n)=Θ(n^ρ), where ρ=log(a+b)/log((a+b)/2)? | Open |
+| <a id="q4665"></a>[Q4665](combinatorics-graph-theory-part-3.md#q4665) | Must (Σ\_λ c(λ)s_λ)(Σ\_λ d(λ)s_λ)−(Σ\_λ a(λ)s_λ)(Σ\_λ b(λ)s_λ), with all sums over P^ℓ, have… | Open |
+| <a id="q4667"></a>[Q4667](combinatorics-graph-theory-part-3.md#q4667) | For every integer r≥1, is F_{r,ω} independent of ω, as a formal series in T and p with… | Open |
+| <a id="q4676"></a>[Q4676](combinatorics-graph-theory-part-3.md#q4676) | Is there no nonplanar such G with n≥17, c(G)>binom(n−1,2), and ceil(√n)≤Δ(G)≤(n+1)/2? | Open |
+| <a id="q4678"></a>[Q4678](combinatorics-graph-theory-part-3.md#q4678) | Maximum 2-scattered subspaces in dimension four | Open |
+| <a id="q4682"></a>[Q4682](combinatorics-graph-theory-part-3.md#q4682) | Is the number of intervals [u,v] in P_{m,n}, including singleton intervals, always… | Open |
+| <a id="q4694"></a>[Q4694](combinatorics-graph-theory-part-3.md#q4694) | For infinitely many integers n≥4, does an (n−2,2)-factorisation exist that is not a… | Open |
+| <a id="q4695"></a>[Q4695](combinatorics-graph-theory-part-3.md#q4695) | Does some integer n≥4 admit ∅≠D⊊Mₙ such that every triple of pairwise disjoint edges belongs to… | Open |

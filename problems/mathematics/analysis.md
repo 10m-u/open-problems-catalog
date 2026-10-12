@@ -1,6 +1,6 @@
 # Analysis
 
-115 problems: 112 open, 3 open, partial results.
+152 problems: 149 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -121,6 +121,43 @@
 | [Q4099](analysis.md#q4099) | If 1&lt;p<∞ and w∈Lᵖ\_loc(μ) is positive μ-almost everywhere and satisfies ⟨wᵖ⟩Δ^(1/p)≤C⟨w⟩Δ for… | Open |
 | [Q4100](analysis.md#q4100) | Determine Cₙ exactly for every n∈{5,6,…}∪{∞}. | Open |
 | [Q4110](analysis.md#q4110) | For every c∈(0,1), does D_(A_c),c have exactly one zero t_c∈(0,∞), with D″\_(A_c),c(t_c)>0? | Open |
+| [Q4208](analysis.md#q4208) | For SU(1,1), does a universal C satisfy \|\|F\|\|₁≤C\|\|b_F\|\|\_A? | Open |
+| [Q4209](analysis.md#q4209) | For SU(2), what is the largest τ such that, for every η>0, all F with a_F exterior-outer and… | Open |
+| [Q4381](analysis.md#q4381) | For 1&lt;p<∞, p≠2, determine the least dimension-independent C_p satisfying… | Open |
+| [Q4385](analysis.md#q4385) | Does Fav(E)>0 imply γ(E)>0 for every compact E⊂C? | Open |
+| [Q4483](analysis.md#q4483) | For every finite collection A of distinct points in P²(C), no three collinear, must ∑\_{a∈A}δ(a,f)≤1? | Open |
+| [Q4486](analysis.md#q4486) | Does there exist a sequence of real-valued subharmonic functions u_k on Q={x+iy:\|x\|<1,\|y\|<1}… | Open |
+| [Q4487](analysis.md#q4487) | Characterize precisely those assignments a↦h_a for which there exist entire f₁,…,f_n of order ρ… | Open |
+| [Q4494](analysis.md#q4494) | Is p↦C_p/p strictly decreasing on (0,∞)? | Open |
+| [Q4495](analysis.md#q4495) | For every p>0 and every minimizer φ, is its distributional Fourier transform, with convention… | Open |
+| [Q4496](analysis.md#q4496) | For every integer n≥2, let (x_k)\_{k≥1} be distinct nonzero points of R^n with \|x_k\|→∞, and let… | Open |
+| [Q4497](analysis.md#q4497) | Must there be a differential subfield K_φ⊆B⊆E(A), finitely generated of transcendence degree 1… | Open |
+| [Q4500](analysis.md#q4500) | Is B(1)=1/4? | Open |
+| [Q4506](analysis.md#q4506) | For every positive integer n≡3 (mod 4), is there a conference signal f satisfying Ff=−if? | Open |
+| [Q4507](analysis.md#q4507) | Are conference signals absent on Z/nZ for every positive even n? | Open |
+| [Q4508](analysis.md#q4508) | For each n, are there only finitely many normalized conference signals on Z/nZ? | Open |
+| [Q4566](analysis.md#q4566) | For every integer n≥6 and g(x)=Σ\_{i=0}^n b_i x^i with all b_i>0, suppose x^(−m)[g\*(x^m Q_k)] is… | Open |
+| [Q4567](analysis.md#q4567) | If every complex geodesic D→Ω extends continuously to the closed disk, must Ω be visible? Say Ω… | Open |
+| [Q4568](analysis.md#q4568) | Suppose Ω=D₁×⋯×D_l, where each D_j⊂C^{N_j} is bounded, convex and has this property, with… | Open |
+| [Q4572](analysis.md#q4572) | Let n≥3 and p be a polynomial without zeros in B_n. Suppose d∈{1,…,n−1} is the largest dimension… | Open |
+| [Q4573](analysis.md#q4573) | For compact K⊂C\\{0}, suppose every f holomorphic near K belongs, for some sequence τ\_n>1 tending… | Open |
+| [Q4574](analysis.md#q4574) | Is F(K) nonempty for every compact K⊂C\D with connected complement? | Open |
+| [Q4575](analysis.md#q4575) | For every 1≤r&lt;R<∞, is ∩\_K F(K) empty, where K ranges over compact subsets of {r≤\|z\|≤R} with… | Open |
+| [Q4581](analysis.md#q4581) | Must {a_n:n≥0} be dense in C whenever f∈U_T? | Open |
+| [Q4582](analysis.md#q4582) | Is every f∈U_A bounded along some continuous spiral γ(t)=r(t)e^{iθ(t)}∈D, where r(t)→1 and… | Open |
+| [Q4583](analysis.md#q4583) | For every f∈U_A, does some ζ∈T make {S_nf(ζ):n≥0} dense in C? | Open |
+| [Q4584](analysis.md#q4584) | For every increasing w:[0,1)→[1,∞) with ∫₀¹log⁺log⁺w(r)dr=∞, is there f∈U_A satisfying… | Open |
+| [Q4601](analysis.md#q4601) | Determine \|\|B\|\|\_{Hᵖ→Hᵖ}=sup_{f≠0}\|\|Bf\|\|\_p/\|\|f\|\|\_p for every p∈(1,∞)\\{2,4}. | Open |
+| [Q4605](analysis.md#q4605) | If DF(Ω)=1, is G_q bounded Wˢ\_{(0,q)}(∂Ω)→Wˢ\_{(0,q)}(∂Ω) for every real s≥0 and integer 1≤q≤n−2,… | Open |
+| [Q4612](analysis.md#q4612) | For which parameters α>0 and p>0 satisfying α+p≤1/2 is Aᵖ\_α a complex vector space? | Open |
+| [Q4613](analysis.md#q4613) | For every p>0 and 0&lt;r≤1, with 1/q=1/p+1/r, does some C_{p,r}<∞ satisfy… | Open |
+| [Q4624](analysis.md#q4624) | If either (r,s)=(1,∞) or p&lt;r≤s≤∞ with s>q, does Aᵣ,ₛ(w)<∞ imply boundedness Mα:Lwᵖ,ʳ→Lwᑫ,ˢ? | Open |
+| [Q4625](analysis.md#q4625) | For q&lt;s≤∞, determine the optimal exponent Γ\_s in \|\|Mα\|\|Lwᵖ,ᵖ→Lwᑫ,ˢ≤C Aₚ,ₛ(w)^Γ\_s uniformly over… | Open |
+| [Q4632](analysis.md#q4632) | Determine all 1≤p,q≤∞ for which, almost surely, there is C<∞ such that ‖(fμ)̂‖Lᑫ(ℝᵏ⁺¹)≤C‖f‖Lᵖ(μ)… | Open |
+| [Q4633](analysis.md#q4633) | For every k≥3, is dim_F G=k almost surely? | Open |
+| [Q4674](analysis.md#q4674) | For every s>s_E(p,q), is there C<∞ such that… | Open |
+| [Q4680](analysis.md#q4680) | Must every f∈ℱ satisfying \|f(x)−f(y)\|≤C\|x−y\| for some C<∞ and all x,y∈K be constant? | Open |
+| [Q4681](analysis.md#q4681) | Does D(Δ) contain a nonconstant f such that \|f(x)−f(y)\|≤C\|x−y\|^κ for some C<∞ and every x,y∈K? | Open |
 
 <a id="q283"></a>
 
@@ -2060,4 +2097,599 @@ For every c∈(0,1), does D_(A_c),c have exactly one zero t_c∈(0,∞), with D�
 **Source.** Valmir Krasniqi. *On the Alzer–Berg problem: an optimal Bernstein boundary and a uniqueness conjecture*. 2026. [primary source](https://arxiv.org/abs/2609.28707v1) Location: Conjecture 23, pp. 35–36.
 
 **Literature check.** Status: This is the source’s combined uniqueness-and-quadratic-contact conjecture, with c=−b. The proved boundary theorem gives a finite nonempty set of positive zeros of even order, but neither uniqueness nor order two. The parameter-domain classification is already established and is not asked again. No matching resolution found, 10 October 2026.
+
+
+<a id="q4208"></a>
+
+## Q4208. For SU(1,1), does a universal C satisfy ||F||₁≤C||b_F||\_A?
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For SU(1,1), does a universal C satisfy ||F||₁≤C||b_F||\_A?
+
+**Context.** For F∈ℓ²(ℤ), its nonlinear Fourier transform has first row (a_F,b_F) in the increasing-index product G_F(z)=∏\_k(1−σ|F_k|²)^(-1/2)[[1,F_kz^k],[σconj(F_k)z^(-k),1]], interpreted by limits of finite products. Here |z|=1; σ=1 gives SU(1,1), requiring |F_k|<1; σ=−1 gives SU(2). Write ||g||\_A=Σ\_(j∈ℤ)|ĝ(j)|. Exterior-outer means a_F\*(z)=conj(a_F(1/conj(z))) is outer on the unit disk.
+
+**Source.** Michel Alexis, Gevorg Mnatsakanyan and Kristina Oganesyan. *Quantitative possibilities for Baxter's theorem in nonlinear Fourier analysis*. 2026. [primary source](https://arxiv.org/abs/2610.01711v1) Location: Questions 1 and 3, pp.4–5.
+
+**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
+
+
+<a id="q4209"></a>
+
+## Q4209. For SU(2), what is the largest τ such that, for every η>0, all F with a_F exterior-outer and…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For SU(2), what is the largest τ such that, for every η>0, all F with a_F exterior-outer and ||b_F||\_A<τ−η satisfy ||F||₁≤C_η, with C_η independent of F?
+
+**Context.** For F∈ℓ²(ℤ), its nonlinear Fourier transform has first row (a_F,b_F) in the increasing-index product G_F(z)=∏\_k(1−σ|F_k|²)^(-1/2)[[1,F_kz^k],[σconj(F_k)z^(-k),1]], interpreted by limits of finite products. Here |z|=1; σ=1 gives SU(1,1), requiring |F_k|<1; σ=−1 gives SU(2). Write ||g||\_A=Σ\_(j∈ℤ)|ĝ(j)|. Exterior-outer means a_F\*(z)=conj(a_F(1/conj(z))) is outer on the unit disk.
+
+**Source.** Michel Alexis, Gevorg Mnatsakanyan and Kristina Oganesyan. *Quantitative possibilities for Baxter's theorem in nonlinear Fourier analysis*. 2026. [primary source](https://arxiv.org/abs/2610.01711v1) Location: Questions 1 and 3, pp.4–5.
+
+**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
+
+
+<a id="q4381"></a>
+
+## Q4381. For 1&lt;p<∞, p≠2, determine the least dimension-independent C_p satisfying…
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+For 1&lt;p<∞, p≠2, determine the least dimension-independent C_p satisfying ||(∑\_{j=1}^d|R_jf|²)^{1/2}||\_{L^p(R^d)}≤C_p||f||\_{L^p(R^d)} for every d≥1 and real Schwartz function f, where (R_jf)^∧(ξ)=−iξ\_j|ξ|^{−1}f̂(ξ).
+
+**Context.** Checked 11 October 2026: still posed in https://arxiv.org/abs/2604.09365v2,§5.
+
+**Source.** Maciej Kucharski. *Norm estimates for Riesz transforms*. University of Wrocław, 2024. Advisor(s): Błażej Wróbel. [primary source](https://bip.uni.wroc.pl/download/attachment/42450/rozprawa-doktorska-maciej-kucharski.pdf) Location: §1.3.1,p.4,(1.3.1) and following paragraph.
+
+**Further links.** [1](https://arxiv.org/abs/2604.09365v2,§5) · [2](https://arxiv.org/abs/2604.09365v2)
+
+
+<a id="q4385"></a>
+
+## Q4385. Does Fav(E)>0 imply γ(E)>0 for every compact E⊂C?
+
+**Status:** Open · **Kind:** open problem · **Collection** 44
+
+Does Fav(E)>0 imply γ(E)>0 for every compact E⊂C?
+
+**Context.** For compact E⊂C, put Fav(E)=∫₀^π H¹(P_θE)dθ, where P_θ projects orthogonally onto e^{iθ}R. Define γ(E)=sup_f|lim_{z→∞}z(f(z)−f(∞))|, over analytic f:C∖E→C with |f|≤1. Checked 11 October 2026: reaffirmed in https://arxiv.org/abs/2609.33557v1, §1.5, (1.14), pp.9–10.
+
+**Source.** Alan Chang. *Besicovitch Sets, Rectifiability, and Projections*. University of Chicago, 2020. Advisor(s): Marianna Csörnyei. [primary source](https://doi.org/10.6082/uchicago.2270) Location: §4.1, pp.87–88, definitions (4.1)–(4.2) and explicit question.
+
+**Further links.** [1](https://arxiv.org/abs/2609.33557v1)
+
+
+<a id="q4483"></a>
+
+## Q4483. For every finite collection A of distinct points in P²(C), no three collinear, must ∑\_{a∈A}δ(a,f)≤1?
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+For every finite collection A of distinct points in P²(C), no three collinear, must ∑\_{a∈A}δ(a,f)≤1?
+
+**Context.** AP45-S11 — Complex analysis / value distribution. Let f:C→P²(C) be holomorphic with image contained in no projective line. Choose entire homogeneous coordinates F=(f₀,f₁,f₂) without a common zero, and set T(r,f)=(2π)^{-1}∫₀^{2π}log‖F(re^{it})‖dt−log‖F(0)‖. For a∈P²(C), define m(r,a,f)=(2π)^{-1}∫₀^{2π}log(1/d_FS(f(re^{it}),a))dt and δ(a,f)=liminf_{r→∞}m(r,a,f)/T(r,f), where d_FS is Fubini–Study distance.
+
+**Source.** Alexandre Eremenko. *Defect relation for targets of large codimension,*. 2026. [primary source](https://www.math.purdue.edu/~eremenko/dvi/points.pdf) Location: Source: Alexandre Eremenko, “Defect relation for targets of large codimension,” author-hosted note dated 3 February 2026, Conjecture;  Author-posed question; no dissertation attribution.
+
+**Literature check.** Status: the inspected note retains this conjecture and records the known bound 3/2. Checked 11 October 2026; targeted later searches and relevant September work found no matching resolution.
+
+
+<a id="q4486"></a>
+
+## Q4486. Does there exist a sequence of real-valued subharmonic functions u_k on Q={x+iy:|x|<1,|y|<1}…
+
+**Status:** Open · **Kind:** open problem (Problem 2) · **Collection** 45
+
+Does there exist a sequence of real-valued subharmonic functions u_k on Q={x+iy:|x|<1,|y|<1} with sup_Q|u_k(x+iy)−x|→0, such that, for every sufficiently large k, the following holds? Put D_k={z∈Q:u_k(z)<0}, and let D_k\* be its connected component containing −1/2. For every −1&lt;t<1, does (D_k∖D_k\*) intersect {x+it:−1&lt;x<1}?
+
+**Context.** AP45-S13 — Potential theory / value distribution.
+
+**Source.** Alexandre Eremenko. *Problems of potential theory arising in the value distribution theory of meromorphic functions,*. 2008. [primary source](https://www.math.purdue.edu/~eremenko/dvi/potvd.pdf) Location: Problem 2; Author-posed potential-theoretic problem motivated by an Edrei–Fuchs question; no dissertation attribution.
+
+**Literature check.** Status: the inspected primary retains this question. Checked 11 October 2026; targeted later searches found no matching resolution.
+
+
+<a id="q4487"></a>
+
+## Q4487. Characterize precisely those assignments a↦h_a for which there exist entire f₁,…,f_n of order ρ…
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 45
+
+Characterize precisely those assignments a↦h_a for which there exist entire f₁,…,f_n of order ρ and normal type satisfying h_{a₁f₁+⋯+a_nf_n}=h_a for every a=(a₁,…,a_n)∈A.
+
+**Context.** AP45-S14 — Entire functions / growth indicators. Fix ρ>0 and n≥2. Let A⊂C^n contain at least n vectors, every n of them linearly independent. Assign each a∈A a continuous real 2π-periodic function h_a satisfying h_a''+ρ²h_a≥0 in the distributional sense. For an entire g define h_g(θ)=limsup_{r→∞}r^{-ρ}log|g(re^{iθ})|. Order ρ and normal type mean 0&lt;limsup_{r→∞}r^{-ρ}log M_g(r)<∞, where M_g(r)=max_{|z|=r}|g(z)|.
+
+**Source.** Alexandre Eremenko. *Indicators of linear combinations,*. 2026. [primary source](https://www.math.purdue.edu/~eremenko/dvi/indi2.pdf) Location: Problem 1; Author-posed problem; no dissertation attribution.
+
+**Literature check.** Status: the inspected note poses this realization problem, records special solvable cases, and says its elementary maximum condition fails in higher dimension. Checked 11 October 2026; targeted later searches found no general resolution.
+
+
+<a id="q4494"></a>
+
+## Q4494. Is p↦C_p/p strictly decreasing on (0,∞)?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 9.1) · **Collection** 45
+
+Is p↦C_p/p strictly decreasing on (0,∞)?
+
+**Context.** AP45-S18 — Complex and harmonic analysis. For p>0, let PW^p consist of entire functions of exponential type at most π whose restrictions belong to L^p(R). Put C_p=1/inf{∫\_R|f(x)|^p dx:f∈PW^p,f(0)=1}.
+
+**Source.** Ole Fredrik Brevig, Andrés Chirre, Joaquim Ortega-Cerdà and Kristian Seip. *Point evaluation in Paley–Wiener spaces,*. 2024. [primary source](https://doi.org/10.1007/s11854-024-0338-z) Location: Conjecture 9.1, 2024 final.
+
+**Literature check.** Status: the general-p conjectures remain explicit in the 2026 final chapter. Checked 11 October 2026.
+
+**Further links.** [1](https://doi.org/10.1137/25M1804261)
+
+
+<a id="q4495"></a>
+
+## Q4495. For every p>0 and every minimizer φ, is its distributional Fourier transform, with convention…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 9.14) · **Collection** 45
+
+For every p>0 and every minimizer φ, is its distributional Fourier transform, with convention φ̂(ξ)=∫\_Rφ(x)e^(−ixξ)dx when integrable, represented by a nonnegative function g supported on [−π,π], such that on (0,π): for p<2, g is nonincreasing and lim_{ξ↑π}g(ξ)=0; for p>2, g is nondecreasing and lim_{ξ↑π}g(ξ)=∞? The inequalities and limits concern a function representative.
+
+**Context.** AP45-S18 — Complex and harmonic analysis. For p>0, let PW^p consist of entire functions of exponential type at most π whose restrictions belong to L^p(R). Put C_p=1/inf{∫\_R|f(x)|^p dx:f∈PW^p,f(0)=1}.
+
+**Source.** Ole Fredrik Brevig, Andrés Chirre, Joaquim Ortega-Cerdà and Kristian Seip. *Point evaluation in Paley–Wiener spaces,*. 2024. [primary source](https://doi.org/10.1007/s11854-024-0338-z) Location: Conjecture 9.14, 2024 final.
+
+**Literature check.** Status: the general-p conjectures remain explicit in the 2026 final chapter. Checked 11 October 2026.
+
+**Further links.** [1](https://doi.org/10.1137/25M1804261)
+
+
+<a id="q4496"></a>
+
+## Q4496. For every integer n≥2, let (x_k)\_{k≥1} be distinct nonzero points of R^n with |x_k|→∞, and let…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+For every integer n≥2, let (x_k)\_{k≥1} be distinct nonzero points of R^n with |x_k|→∞, and let a_k>0 satisfy Σ\_{k≥1}a_k/|x_k|^(n−1)<∞. Must there exist x∈R^n∖{x_k:k≥1} such that Σ\_{k≥1} a_k(x_k−x)/|x−x_k|^n=0? The series is the absolutely convergent force field off the masses; no uniform positive lower bound on the a_k is assumed.
+
+**Context.** AP45-S19 — Potential theory.
+
+**Source.** Alexandre Eremenko. *Equilibrium points of logarithmic and Newtonian potentials,*. 2015. [primary source](https://www.math.purdue.edu/~eremenko/dvi/equil.pdf) Location: pp. 1–2; Author-hosted formulation extending Lee Rubel’s question; no dissertation attribution.
+
+**Literature check.** Status: the author’s current problem index retains this infinite-mass question. Checked 11 October 2026; no matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1112/jlms/s2-47.2.309)
+
+
+<a id="q4497"></a>
+
+## Q4497. Must there be a differential subfield K_φ⊆B⊆E(A), finitely generated of transcendence degree 1…
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Must there be a differential subfield K_φ⊆B⊆E(A), finitely generated of transcendence degree 1 over K_φ, such that D(O_{X,b})⊂O_{X,b} for every point b of the smooth projective curve X/K_φ with function field B? This is the source’s Fuchsian condition.
+
+**Context.** AP45-S20 — Complex differential equations / differential algebra. Let k be the field of meromorphic functions on C, with derivation D=d/dz, and K an algebraic closure, with the extended derivation. Fix a positive nondecreasing continuous φ:[0,∞)→(0,∞) satisfying φ(r+1/φ(r))=O(φ(r)) as r→∞. Let k_φ={f∈k:T(r,f)=O(φ(r))}, where T is the Nevanlinna characteristic, and let K_φ be its algebraic closure inside K. Let A/K_φ be a finitely generated function field of transcendence degree 1, equipped with a derivation extending D on K_φ, and E:A→K a differential-field embedding fixing K_φ.
+
+**Source.** Alexandre Eremenko. *A generalization of Malmquist’s Theorem of 1941,*. 1941. [primary source](https://www.math.purdue.edu/~eremenko/dvi/malm1.pdf) Location: §§1–2, final Conjecture; Author-hosted conjecture; no dissertation attribution.
+
+**Literature check.** Status: explicitly conjectural in the current note. Checked 11 October 2026; no matching subsequent resolution located.
+
+
+<a id="q4500"></a>
+
+## Q4500. Is B(1)=1/4?
+
+**Status:** Open · **Kind:** open problem · **Collection** 45
+
+Is B(1)=1/4?
+
+**Context.** AP45-S23 — Geometric function theory / harmonic measure. Let D={z∈C:|z|<1}. For each injective holomorphic h:D→C whose image is bounded, define b_h(1)=limsup_{r↑1} log(∫\_{|z|=r}|h′(z)| |dz|)/log(1/(1−r)), and set B(1)=sup_h b_h(1), taking the supremum after each individual limsup. Boundedness is required separately for each h; there is no common image-size bound or boundary-regularity assumption.
+
+**Source.** Bertrand Duplantier, Véronique Gayrard and Eero Saksman. *Integral Means Spectrum for the Random Riemann Zeta Function,*. 2026. [primary source](https://arxiv.org/abs/2603.26507) Location: §§1.1–1.2 and §6.1, equation (6.16); This restates the Carleson–Jones conjecture; no dissertation attribution or claim of a new 2026 origin.
+
+**Literature check.** Status: explicitly conjectural in the inspected 2026 primary restatement. Checked 11 October 2026; no matching resolution of this positive-parameter equality located.
+
+**Further links.** [1](https://arxiv.org/abs/2603.26507v1)
+
+
+<a id="q4506"></a>
+
+## Q4506. For every positive integer n≡3 (mod 4), is there a conference signal f satisfying Ff=−if?
+
+**Status:** Open · **Kind:** open problem (Problem 3.2) · **Collection** 46
+
+For every positive integer n≡3 (mod 4), is there a conference signal f satisfying Ff=−if?
+
+**Context.** DL-S08 — Harmonic analysis and algebraic combinatorics Primary-paper source: Kean Fallon and Joseph W. Iverson, Conference signals: Applications, existence, and constructions, arXiv:2610.09169v1 (6 October 2026), Problem 3.2(a,c,d), p. 6; definitions pp. 1,5. The project grew from Fallon’s cited 2026 Iowa State thesis; exact question origin is unverified. Setup: On Z/nZ, put Ff(s)=n^{-1/2}∑\_{t=0}^{n-1}f(t)e^{-2πist/n}. A conference signal f satisfies f(0)=Ff(0)=0 and |f(t)|=|Ff(t)|=1 for t≠0. It is normalized when f(1)=1, with 1≠0.
+
+**Source.** Kean Fallon and Joseph W. Iverson. *Conference signals: Applications, existence, and constructions*. 2026. [primary source](https://arxiv.org/abs/2610.09169) Location: Problem 3.2(a), p.6.
+
+**Literature check.** Status checked 11 October 2026: all three remain explicit open questions in current v1. Prime-order instances of the first and third are known; the general questions remain.
+
+**Further links.** [1](https://arxiv.org/abs/2610.09169v1)
+
+
+<a id="q4507"></a>
+
+## Q4507. Are conference signals absent on Z/nZ for every positive even n?
+
+**Status:** Open · **Kind:** open problem (Problem 3.2) · **Collection** 46
+
+Are conference signals absent on Z/nZ for every positive even n?
+
+**Context.** DL-S08 — Harmonic analysis and algebraic combinatorics Primary-paper source: Kean Fallon and Joseph W. Iverson, Conference signals: Applications, existence, and constructions, arXiv:2610.09169v1 (6 October 2026), Problem 3.2(a,c,d), p. 6; definitions pp. 1,5. The project grew from Fallon’s cited 2026 Iowa State thesis; exact question origin is unverified. Setup: On Z/nZ, put Ff(s)=n^{-1/2}∑\_{t=0}^{n-1}f(t)e^{-2πist/n}. A conference signal f satisfies f(0)=Ff(0)=0 and |f(t)|=|Ff(t)|=1 for t≠0. It is normalized when f(1)=1, with 1≠0.
+
+**Source.** Kean Fallon and Joseph W. Iverson. *Conference signals: Applications, existence, and constructions*. 2026. [primary source](https://arxiv.org/abs/2610.09169) Location: Problem 3.2(c), p.6.
+
+**Literature check.** Status checked 11 October 2026: all three remain explicit open questions in current v1. Prime-order instances of the first and third are known; the general questions remain.
+
+**Further links.** [1](https://arxiv.org/abs/2610.09169v1)
+
+
+<a id="q4508"></a>
+
+## Q4508. For each n, are there only finitely many normalized conference signals on Z/nZ?
+
+**Status:** Open · **Kind:** open problem (Problem 3.2) · **Collection** 46
+
+For each n, are there only finitely many normalized conference signals on Z/nZ?
+
+**Context.** DL-S08 — Harmonic analysis and algebraic combinatorics Primary-paper source: Kean Fallon and Joseph W. Iverson, Conference signals: Applications, existence, and constructions, arXiv:2610.09169v1 (6 October 2026), Problem 3.2(a,c,d), p. 6; definitions pp. 1,5. The project grew from Fallon’s cited 2026 Iowa State thesis; exact question origin is unverified. Setup: On Z/nZ, put Ff(s)=n^{-1/2}∑\_{t=0}^{n-1}f(t)e^{-2πist/n}. A conference signal f satisfies f(0)=Ff(0)=0 and |f(t)|=|Ff(t)|=1 for t≠0. It is normalized when f(1)=1, with 1≠0.
+
+**Source.** Kean Fallon and Joseph W. Iverson. *Conference signals: Applications, existence, and constructions*. 2026. [primary source](https://arxiv.org/abs/2610.09169) Location: Problem 3.2(d), p.6.
+
+**Literature check.** Status checked 11 October 2026: all three remain explicit open questions in current v1. Prime-order instances of the first and third are known; the general questions remain.
+
+**Further links.** [1](https://arxiv.org/abs/2610.09169v1)
+
+
+<a id="q4566"></a>
+
+## Q4566. For every integer n≥6 and g(x)=Σ\_{i=0}^n b_i x^i with all b_i>0, suppose x^(−m)[g\*(x^m Q_k)] is…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 46
+
+For every integer n≥6 and g(x)=Σ\_{i=0}^n b_i x^i with all b_i>0, suppose x^(−m)[g\*(x^m Q_k)] is quasi-stable whenever integers k≥2, m≥0 satisfy k+m≤n. Must f\*g be stable for every stable polynomial f of degree at most n with positive coefficients?
+
+**Context.** AP46-S01 — Complex analysis / stability-preserving operators. For polynomials, \* denotes coefficientwise multiplication, treating absent coefficients as zero. A real polynomial is stable if every zero has negative real part, and quasi-stable if every zero has nonpositive real part. Put Q_{2l}(x)=(1+x²)^l and Q_{2l+1}(x)=(1+x)(1+x²)^l.
+
+**Source.** Michał Kudra. *The idealizer of the semigroup of stable polynomials,*. 2026. [primary source](https://arxiv.org/abs/2605.07628) Location: Conjecture 1 and §3; Paper-origin; author affiliated with Jagiellonian University's doctoral school; no verified dissertation or primary advisor attribution.
+
+**Literature check.** Status: the current primary version proves necessity and degrees≤5, retaining general sufficiency as conjectural. Checked 11 October 2026; no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2605.07628v2)
+
+
+<a id="q4567"></a>
+
+## Q4567. If every complex geodesic D→Ω extends continuously to the closed disk, must Ω be visible? Say Ω…
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+If every complex geodesic D→Ω extends continuously to the closed disk, must Ω be visible? Say Ω has the Denjoy–Wolff property if every fixed-point-free holomorphic self-map has all its orbits converging to one common boundary point.
+
+**Context.** AP46-S02 — Several complex variables / holomorphic dynamics. A bounded convex domain Ω⊂C^N is visible if every distinct p,q∈∂Ω admit compact K⊂Ω meeting, eventually, every sequence of Kobayashi geodesic segments whose endpoints approach p,q. A complex geodesic is a holomorphic Kobayashi-isometric embedding of the unit disk D.
+
+**Source.** Filippo Bracci and Ahmed Yekta Ökten. *Some open questions and conjectures about visibility and iteration in bounded convex domains in C^N*. 2025. [primary source](https://arxiv.org/abs/2507.19967v2) Location: “Some open questions and conjectures about visibility and iteration in bounded convex domains in C^N,” Questions 3.7 and 5.5; accepted final arXiv:2507.19967v2 (2 October 2025), Paper-origin; dissertation/advisor attribution unverified.
+
+**Literature check.** Status: retained in the accepted final version; no matching resolution found, 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2507.19967)
+
+
+<a id="q4568"></a>
+
+## Q4568. Suppose Ω=D₁×⋯×D_l, where each D_j⊂C^{N_j} is bounded, convex and has this property, with…
+
+**Status:** Open · **Kind:** open problem · **Collection** 46
+
+Suppose Ω=D₁×⋯×D_l, where each D_j⊂C^{N_j} is bounded, convex and has this property, with ΣN_j≥2. For every fixed-point-free holomorphic F:Ω→Ω, must some coordinate projection π\_j(F^m(z)) converge, as m→∞, to one common p_j∈∂D_j for all z∈Ω?
+
+**Context.** AP46-S02 — Several complex variables / holomorphic dynamics. A bounded convex domain Ω⊂C^N is visible if every distinct p,q∈∂Ω admit compact K⊂Ω meeting, eventually, every sequence of Kobayashi geodesic segments whose endpoints approach p,q. A complex geodesic is a holomorphic Kobayashi-isometric embedding of the unit disk D.
+
+**Source.** Filippo Bracci and Ahmed Yekta Ökten. *Some open questions and conjectures about visibility and iteration in bounded convex domains in C^N*. 2025. [primary source](https://arxiv.org/abs/2507.19967v2) Location: “Some open questions and conjectures about visibility and iteration in bounded convex domains in C^N,” Questions 3.7 and 5.5; accepted final arXiv:2507.19967v2 (2 October 2025), Paper-origin; dissertation/advisor attribution unverified.
+
+**Literature check.** Status: retained in the accepted final version; no matching resolution found, 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2507.19967)
+
+
+<a id="q4572"></a>
+
+## Q4572. Let n≥3 and p be a polynomial without zeros in B_n. Suppose d∈{1,…,n−1} is the largest dimension…
+
+**Status:** Open · **Kind:** open problem (Problem 2.1) · **Collection** 46
+
+Let n≥3 and p be a polynomial without zeros in B_n. Suppose d∈{1,…,n−1} is the largest dimension of a real submanifold contained in {p=0}∩∂B_n. For every real α≤n−d/2, are polynomial multiples of p dense in D_α(B_n)?
+
+**Context.** AP46-S05 — Complex analysis / operator theory. For the Euclidean unit ball B_n⊂Cⁿ, let D_α(B_n) contain holomorphic f(z)=Σ\_k a_k z^k with norm squared Σ\_k(n+|k|)^α (n−1)!k!/(n−1+|k|)! |a_k|²<∞; k ranges over nonnegative multi-indices, |k|=Σ\_i k_i and k!=Π\_i k_i!.
+
+**Source.** Dimitrios Vavitsas. *Cyclic vectors in Dirichlet-type spaces in the unit ball of Cⁿ*. Jagiellonian University, 2023. Advisor(s): Łukasz Kosiński. [primary source](https://ruj.uj.edu.pl/handle/item/322553) Location: Source: Remark 11.0.2, Open Problem, p.64, Restated by Vavitsas–Zarvalis (2024), §1.3, and Vavitsas (2026), Problem 2.1, pp.3–4,
+
+**Literature check.** Status: remaining sufficiency direction; necessity established in 2024. The July2026 final retains this question; September2026 results treat restricted zero-set geometries. Checked 11 October 2026.
+
+**Further links.** [1](https://doi.org/10.1112/blms.13176) · [2](https://doi.org/10.1515/conop-2025-0025)
+
+
+<a id="q4573"></a>
+
+## Q4573. For compact K⊂C\\{0}, suppose every f holomorphic near K belongs, for some sequence τ\_n>1 tending…
+
+**Status:** Open · **Kind:** open problem (Question 3.17) · **Collection** 46
+
+For compact K⊂C\\{0}, suppose every f holomorphic near K belongs, for some sequence τ\_n>1 tending to 1, to the uniform closure on K of {Σ\_{k=⌊n/τ\_n⌋}^n a_kz^k:n≥1,a_k∈C}. Must K have zero logarithmic capacity? Zero capacity means every probability measure μ on K has ∫∫log|z−w|dμ(z)dμ(w)=−∞. Write D={|z|<1}, A(K)=C(K)∩Hol(intK). Set d_\*(E)=liminf_{N→∞}|E∩{1,…,N}|/N. For f∈Hol(D), let S_nf be its nth Taylor partial sum at 0; f∈F(K) means {n:||S_nf−g||\_K<ε} has d_\*>0 for every g∈A(K), ε>0.
+
+**Context.** AP46-S06 — Complex approximation / linear dynamics.
+
+**Source.** Stéphane Charpentier and Konstantinos Maronikolakis. *Quantitative incomplete polynomial approximation and frequently universal Taylor series*. 2025. [primary source](https://arxiv.org/abs/2504.20240v2) Location: Question 3.17, Conjecture 4, and “Approximation by strongly incomplete polynomials on compact sets,” final (20 April 2026), Question 2, Paper-origin; dissertation/advisors unverified.
+
+**Literature check.** Status: explicit open targets; no matching resolution located; checked 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2504.20240) · [2](https://doi.org/10.1515/conop-2025-0015) · [3](https://doi.org/10.1007/s00209-016-1679-9)
+
+
+<a id="q4574"></a>
+
+## Q4574. Is F(K) nonempty for every compact K⊂C\D with connected complement?
+
+**Status:** Open · **Kind:** open problem (Question 3.17) · **Collection** 46
+
+Is F(K) nonempty for every compact K⊂C\D with connected complement?
+
+**Context.** AP46-S06 — Complex approximation / linear dynamics.
+
+**Source.** Stéphane Charpentier and Konstantinos Maronikolakis. *Quantitative incomplete polynomial approximation and frequently universal Taylor series*. 2025. [primary source](https://arxiv.org/abs/2504.20240v2) Location: Question 3.17, Conjecture 4, and “Approximation by strongly incomplete polynomials on compact sets,” final (20 April 2026), Question 2, Paper-origin; dissertation/advisors unverified.
+
+**Literature check.** Status: explicit open targets; no matching resolution located; checked 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2504.20240) · [2](https://doi.org/10.1515/conop-2025-0015) · [3](https://doi.org/10.1007/s00209-016-1679-9)
+
+
+<a id="q4575"></a>
+
+## Q4575. For every 1≤r&lt;R<∞, is ∩\_K F(K) empty, where K ranges over compact subsets of {r≤|z|≤R} with…
+
+**Status:** Open · **Kind:** open problem (Question 3.17) · **Collection** 46
+
+For every 1≤r&lt;R<∞, is ∩\_K F(K) empty, where K ranges over compact subsets of {r≤|z|≤R} with connected complement?
+
+**Context.** AP46-S06 — Complex approximation / linear dynamics.
+
+**Source.** Stéphane Charpentier and Konstantinos Maronikolakis. *Quantitative incomplete polynomial approximation and frequently universal Taylor series*. 2025. [primary source](https://arxiv.org/abs/2504.20240v2) Location: Question 3.17, Conjecture 4, and “Approximation by strongly incomplete polynomials on compact sets,” final (20 April 2026), Question 2, Paper-origin; dissertation/advisors unverified.
+
+**Literature check.** Status: explicit open targets; no matching resolution located; checked 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2504.20240) · [2](https://doi.org/10.1515/conop-2025-0015) · [3](https://doi.org/10.1007/s00209-016-1679-9)
+
+
+<a id="q4581"></a>
+
+## Q4581. Must {a_n:n≥0} be dense in C whenever f∈U_T?
+
+**Status:** Open · **Kind:** open problem (Question 8.1.1) · **Collection** 46
+
+Must {a_n:n≥0} be dense in C whenever f∈U_T?
+
+**Context.** AP46-S07 — Complex analysis / universality. Let D={|z|<1}, T=∂D, f(z)=Σa_nz^n∈Hol(D), S_nf=Σ\_{k=0}^na_kz^k. Write f∈U_T when {S_nf|\_K} is uniformly dense in C(K)∩Hol(intK) for every compact K⊂C\D with connected complement. Fix any increasing ρ=(r_n)⊂[0,1) tending to 1. Write f∈U_A when {f(r_n·)|\_K} is uniformly dense in C(K) for every proper compact K⊂T.
+
+**Source.** Konstantinos Maronikolakis. *Universality and Boundary Behaviour of Holomorphic Functions*. University College Dublin, 2024. Advisor(s): Myrto Manolaki. [primary source](https://hdl.handle.net/10197/29402) Location: Thesis Question 8.1.1, p.98 (also p.103).
+
+**Literature check.** Status: explicit open questions; no matching resolution located through 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2506.20224) · [2](https://doi.org/10.4171/RMI/1514)
+
+
+<a id="q4582"></a>
+
+## Q4582. Is every f∈U_A bounded along some continuous spiral γ(t)=r(t)e^{iθ(t)}∈D, where r(t)→1 and…
+
+**Status:** Open · **Kind:** open problem (Question 3.3.7) · **Collection** 46
+
+Is every f∈U_A bounded along some continuous spiral γ(t)=r(t)e^{iθ(t)}∈D, where r(t)→1 and θ(t)→+∞ or −∞ as t→∞?
+
+**Context.** AP46-S07 — Complex analysis / universality. Let D={|z|<1}, T=∂D, f(z)=Σa_nz^n∈Hol(D), S_nf=Σ\_{k=0}^na_kz^k. Write f∈U_T when {S_nf|\_K} is uniformly dense in C(K)∩Hol(intK) for every compact K⊂C\D with connected complement. Fix any increasing ρ=(r_n)⊂[0,1) tending to 1. Write f∈U_A when {f(r_n·)|\_K} is uniformly dense in C(K) for every proper compact K⊂T.
+
+**Source.** Konstantinos Maronikolakis. *Universality and Boundary Behaviour of Holomorphic Functions*. University College Dublin, 2024. Advisor(s): Myrto Manolaki. [primary source](https://hdl.handle.net/10197/29402) Location: Thesis Question 3.3.7, p.37.
+
+**Literature check.** Status: explicit open questions; no matching resolution located through 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2506.20224) · [2](https://doi.org/10.4171/RMI/1514)
+
+
+<a id="q4583"></a>
+
+## Q4583. For every f∈U_A, does some ζ∈T make {S_nf(ζ):n≥0} dense in C?
+
+**Status:** Open · **Kind:** open problem (Question 4.3.10) · **Collection** 46
+
+For every f∈U_A, does some ζ∈T make {S_nf(ζ):n≥0} dense in C?
+
+**Context.** AP46-S07 — Complex analysis / universality. Let D={|z|<1}, T=∂D, f(z)=Σa_nz^n∈Hol(D), S_nf=Σ\_{k=0}^na_kz^k. Write f∈U_T when {S_nf|\_K} is uniformly dense in C(K)∩Hol(intK) for every compact K⊂C\D with connected complement. Fix any increasing ρ=(r_n)⊂[0,1) tending to 1. Write f∈U_A when {f(r_n·)|\_K} is uniformly dense in C(K) for every proper compact K⊂T.
+
+**Source.** Konstantinos Maronikolakis. *Universality and Boundary Behaviour of Holomorphic Functions*. University College Dublin, 2024. Advisor(s): Myrto Manolaki. [primary source](https://hdl.handle.net/10197/29402) Location: Thesis Question 4.3.10(i), p.53.
+
+**Literature check.** Status: explicit open questions; no matching resolution located through 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2506.20224) · [2](https://doi.org/10.4171/RMI/1514)
+
+
+<a id="q4584"></a>
+
+## Q4584. For every increasing w:[0,1)→[1,∞) with ∫₀¹log⁺log⁺w(r)dr=∞, is there f∈U_A satisfying…
+
+**Status:** Open · **Kind:** open problem (Question 3.2.11) · **Collection** 46
+
+For every increasing w:[0,1)→[1,∞) with ∫₀¹log⁺log⁺w(r)dr=∞, is there f∈U_A satisfying max_{|z|=r}|f(z)|≤w(r) for all r<1? Here log⁺x=max{log x,0}.
+
+**Context.** AP46-S07 — Complex analysis / universality. Let D={|z|<1}, T=∂D, f(z)=Σa_nz^n∈Hol(D), S_nf=Σ\_{k=0}^na_kz^k. Write f∈U_T when {S_nf|\_K} is uniformly dense in C(K)∩Hol(intK) for every compact K⊂C\D with connected complement. Fix any increasing ρ=(r_n)⊂[0,1) tending to 1. Write f∈U_A when {f(r_n·)|\_K} is uniformly dense in C(K) for every proper compact K⊂T.
+
+**Source.** Konstantinos Maronikolakis. *Universality and Boundary Behaviour of Holomorphic Functions*. University College Dublin, 2024. Advisor(s): Myrto Manolaki. [primary source](https://hdl.handle.net/10197/29402) Location: Thesis Question 3.2.11, p.34.
+
+**Literature check.** Status: explicit open questions; no matching resolution located through 11 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2506.20224) · [2](https://doi.org/10.4171/RMI/1514)
+
+
+<a id="q4601"></a>
+
+## Q4601. Determine ||B||\_{Hᵖ→Hᵖ}=sup_{f≠0}||Bf||\_p/||f||\_p for every p∈(1,∞)\\{2,4}.
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Determine ||B||\_{Hᵖ→Hᵖ}=sup_{f≠0}||Bf||\_p/||f||\_p for every p∈(1,∞)\\{2,4}.
+
+**Context.** AP47-RS25 — Analysis / Hardy-space operator norms. For 1&lt;p<∞, let Hᵖ consist of holomorphic functions on D={z∈C:|z|<1}, with ||f||\_p=sup_{0&lt;r<1}((2π)⁻¹∫₀²π|f(re^{it})|ᵖdt)^{1/p}. Define Bf(z)=(f(z)−f(0))/z for z≠0 and Bf(0)=f′(0). Audited provenance and status: Subject: Analysis / Hardy-space operator norms https://sites.google.com/view/adrian-llinares/research Current author list retains preprint status.
+
+**Source.** Konstantinos Bampouras and Adrián Llinares. *The norm of the backward shift on H⁴ is the fourth root of the golden ratio*. 2026. [primary source](https://arxiv.org/abs/2605.10469) Location: §1 pp.1–2.
+
+**Literature check.** Status: checked 12 October 2026. The paper settles p=4; p=1,2,∞ are also known. No matching general resolution located.
+
+**Further links.** [1](https://sites.google.com/view/adrian-llinares/research)
+
+
+<a id="q4605"></a>
+
+## Q4605. If DF(Ω)=1, is G_q bounded Wˢ\_{(0,q)}(∂Ω)→Wˢ\_{(0,q)}(∂Ω) for every real s≥0 and integer 1≤q≤n−2,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+If DF(Ω)=1, is G_q bounded Wˢ\_{(0,q)}(∂Ω)→Wˢ\_{(0,q)}(∂Ω) for every real s≥0 and integer 1≤q≤n−2, where Wˢ denotes the L² Sobolev space?
+
+**Context.** AP47-S01 — Analysis / several complex variables. Let Ω⊂Cⁿ, n≥3, be a bounded pseudoconvex domain with C∞ boundary. Define DF(Ω) as the supremum of η∈(0,1] admitting a smooth defining function ρ, with Ω={ρ<0} and dρ≠0 on ∂Ω, for which −(−ρ)^η is plurisubharmonic inside Ω near its boundary. On boundary (0,q)-forms, let G_q=(∂̄\_b∂̄\_b\*+∂̄\_b\*∂̄\_b)⁻¹, using the tangential Cauchy–Riemann operator and its L² adjoint for the induced Euclidean metric. Audited provenance and status: Subject: Several complex variables https://tanujmath.github.io/research/ Author bibliography, updated June 2026, lists the work as a preprint. https://link.springer.com/article/10.1007/s12220-026-02387-z https://arxiv.org/abs/2504.10614 Publisher final abstract, 19 March 2026: finite commutator type is required. This proper-subclass result does not settle the unrestricted target; full final not read.
+
+**Source.** Tanuj Gupta and Emil J. Straube. *Diederich–Fornæss index and global regularity of the complex Green operator: domains with comparable Levi eigenvalues*. 2026. [primary source](https://arxiv.org/abs/2512.11698v2) Location: §1 p.2; definitions pp.2–4.
+
+**Literature check.** Status: checked 12 October 2026. The source proves this with an additional Levi-eigenvalue comparability hypothesis; the unrestricted case remains conjectural.
+
+**Further links.** [1](https://tanujmath.github.io/research/) · [2](https://link.springer.com/article/10.1007/s12220-026-02387-z) · [3](https://arxiv.org/abs/2504.10614)
+
+
+<a id="q4612"></a>
+
+## Q4612. For which parameters α>0 and p>0 satisfying α+p≤1/2 is Aᵖ\_α a complex vector space?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+For which parameters α>0 and p>0 satisfying α+p≤1/2 is Aᵖ\_α a complex vector space?
+
+**Context.** AP47-S03 — Analysis / holomorphic function classes. Let D={z∈C:|z|<1}. For holomorphic f on D, put M_p(r,f)ᵖ=(2π)⁻¹∫₀²π|f(re^{it})|ᵖdt and Aᵖ\_α={f:|f(0)|ᵖ+∫₀¹(d/dr)M_p(r,f)ᵖ(1−r²)^{α−1}dr<∞}. Audited provenance and status: Subject: Holomorphic function spaces Dirichlet-range paper likewise appears under preprints; inspected12October2026.
+
+**Source.** Alberto Dayan, Adrián Llinares and Miguel Monsalve-López. *Aᵖ\_α classes in the Dirichlet range: inner-outer factorization, Carleson measures and weak products*. 2026. [primary source](https://arxiv.org/abs/2604.21347v2) Location: Question1.1 and Theorem1.3, p.3; definitions p.2.
+
+**Literature check.** Status: checked 12 October 2026. The cited theorem proves nonlinearity when 0<α<1, α+p>1/2 and p≠2; the selected parameter triangle remains unresolved in the inspected sources.
+
+**Further links.** [1](https://arxiv.org/abs/2510.14333v1)
+
+
+<a id="q4613"></a>
+
+## Q4613. For every p>0 and 0&lt;r≤1, with 1/q=1/p+1/r, does some C_{p,r}<∞ satisfy…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+For every p>0 and 0&lt;r≤1, with 1/q=1/p+1/r, does some C_{p,r}<∞ satisfy ||g||\_{H_dʳ}≤C_{p,r}||T_g||\_{H_dᵖ→H_dᑫ} for every g∈H_dʳ?
+
+**Context.** AP47-S04 — Analysis / dyadic product Hardy spaces. Let D be the standard dyadic intervals of R, a_I=1_I/|I|, and h_I the L²-normalized Haar function. For s>0, define H_dˢ as the completion of real finite rectangular Haar series under ||f||\_{H_dˢ}=||(Σ\_{I,J∈D}|⟨f,h_I⊗h_J⟩|²1_{I×J}/|I×J|)^{1/2}||\_{Lˢ(R²)}. Initially on such series put T_gf=Σ\_{I,J∈D}⟨f,a_I⊗h_J⟩⟨g,h_I⊗a_J⟩h_I⊗h_J. Audited provenance and status: Subject: Harmonic analysis / product Hardy spaces Publisher final abstract, 30 July 2025; explicit double-average operator. The 2026 question cites this earlier result. Publisher final abstract, 19 May 2025; single-scale Fourier operator. Later v5 still concerns one-parameter paraproducts.
+
+**Source.** Shahaboddin Shaabani. *Notes on Bi-parameter Paraproducts*. 2026. [primary source](https://arxiv.org/abs/2511.02789v2) Location: Question3.1 pp.7–8; definitions pp.1–4.
+
+**Literature check.** Status: checked 12 October 2026. The reverse estimate is known; the source explicitly leaves this range open while settling r>1.
+
+
+<a id="q4624"></a>
+
+## Q4624. If either (r,s)=(1,∞) or p&lt;r≤s≤∞ with s>q, does Aᵣ,ₛ(w)<∞ imply boundedness Mα:Lwᵖ,ʳ→Lwᑫ,ˢ?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+If either (r,s)=(1,∞) or p&lt;r≤s≤∞ with s>q, does Aᵣ,ₛ(w)<∞ imply boundedness Mα:Lwᵖ,ʳ→Lwᑫ,ˢ?
+
+**Context.** AP47-S07 — Harmonic analysis. Fix d≥1, 0≤α&lt;d, 1&lt;p<∞ and 1/q=1/p−α/d>0. For Lebesgue decreasing rearrangement h\*, set ||h||ₐ,ᵦ=((b/a)∫₀∞[t¹/ᵃh\*(t)]ᵇdt/t)¹/ᵇ for b<∞, and ||h||ₐ,∞=supₜ>₀t¹/ᵃh\*(t). For 1≤r,s≤∞, put ||f||Lwᵃ,ᵦ=||wf||ₐ,ᵦ and Aᵣ,ₛ(w)=sup_Q |Q|⁻¹/ᵖ′⁻¹/ᑫ||w1_Q||q,s||w⁻¹1_Q||p′,r′, using Hölder conjugates and axis-parallel cubes Q⊂ℝᵈ. Weights w are measurable and positive finite almost everywhere. Define Mαf(x)=sup_Q∋x |Q|ᵅ/ᵈ⁻¹∫\_Q|f|. Locators: Remarks4.15/4.17 for AP07; paragraph following Theorem4.13 for AP08. Audited provenance and status: Subject: Harmonic analysis / weighted Lorentz spaces Dissertation provenance/advisor not established https://arxiv.org/abs/2410.04031 10.1090/proc/17427 v1 full text inspected; later Proc.AMS154(2026)155–167 DOI10.1090/proc/17427 identified. Theorems1.2–1.3 characterize strong-Lp input to weak-Lq, i.e. secondary input index r=p. SourceAugust2026 expressly retains the different residual questions after this publication. https://arxiv.org/abs/2402.00506 10.2422/2036-2145.202407_012 https://journals.sns.it/index.php/annaliscienze/article/view/6714 v1 full text; Annali online DOI10.2422/2036-2145.202407_012 identified2024. Theorem1.1 sharpness uses classical A_p characteristic, not the larger Lorentz characteristic. SourceAugust2026 cites it while expressly retaining Γ\_s gap. Publisher date:20December2024. https://arxiv.org/abs/2405.20907 https://arxiv.org/html/2405.20907v3 10.1016/j.jfa.2025.111209 Author-labelled final v3,15September2025; JFA290(2026)111209. TheoremB treats stronger general-space conditions, with an additional structural assumption for converse implications; no residual Lorentz sufficiency asserted. Journal final predates the August2026 explicit questions; publisher fulltext unavailable. 10.1016/j.jmaa.2022.126844 https://www.sciencedirect.com/science/article/pii/S0022247X22008587 JMAA519(2023)126844 preview: classical weighted Lorentz maximal estimates, earlier than the selected August2026 questions. No assertion that publisher fulltext was read.
+
+**Source.** Dinghuai Wang and Qian Zhang. *Properties and applications of Lorentz–Muckenhoupt classes*. 2026. [primary source](https://arxiv.org/abs/2608.17918v1) Location: Remarks4.15/4.17 for AP07; paragraph following Theorem4.13 for AP08.
+
+**Literature check.** Status: checked12October2026; no matching later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2410.04031) · [2](https://arxiv.org/abs/2402.00506) · [3](https://journals.sns.it/index.php/annaliscienze/article/view/6714) · [4](https://arxiv.org/abs/2405.20907) · [5](https://arxiv.org/html/2405.20907v3) · [6](https://www.sciencedirect.com/science/article/pii/S0022247X22008587) · [7](https://doi.org/10.1090/proc/17427) · [8](https://doi.org/10.2422/2036-2145.202407_012) · [9](https://arxiv.org/abs/2405.20907v3)
+
+
+<a id="q4625"></a>
+
+## Q4625. For q&lt;s≤∞, determine the optimal exponent Γ\_s in ||Mα||Lwᵖ,ᵖ→Lwᑫ,ˢ≤C Aₚ,ₛ(w)^Γ\_s uniformly over…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+For q&lt;s≤∞, determine the optimal exponent Γ\_s in ||Mα||Lwᵖ,ᵖ→Lwᑫ,ˢ≤C Aₚ,ₛ(w)^Γ\_s uniformly over weights with finite characteristic, with C independent of w.
+
+**Context.** AP47-S07 — Harmonic analysis. Fix d≥1, 0≤α&lt;d, 1&lt;p<∞ and 1/q=1/p−α/d>0. For Lebesgue decreasing rearrangement h\*, set ||h||ₐ,ᵦ=((b/a)∫₀∞[t¹/ᵃh\*(t)]ᵇdt/t)¹/ᵇ for b<∞, and ||h||ₐ,∞=supₜ>₀t¹/ᵃh\*(t). For 1≤r,s≤∞, put ||f||Lwᵃ,ᵦ=||wf||ₐ,ᵦ and Aᵣ,ₛ(w)=sup_Q |Q|⁻¹/ᵖ′⁻¹/ᑫ||w1_Q||q,s||w⁻¹1_Q||p′,r′, using Hölder conjugates and axis-parallel cubes Q⊂ℝᵈ. Weights w are measurable and positive finite almost everywhere. Define Mαf(x)=sup_Q∋x |Q|ᵅ/ᵈ⁻¹∫\_Q|f|. Locators: Remarks4.15/4.17 for AP07; paragraph following Theorem4.13 for AP08. Audited provenance and status: Subject: Harmonic analysis / weighted Lorentz spaces Dissertation provenance/advisor not established https://arxiv.org/abs/2410.04031 10.1090/proc/17427 v1 full text inspected; later Proc.AMS154(2026)155–167 DOI10.1090/proc/17427 identified. Theorems1.2–1.3 characterize strong-Lp input to weak-Lq, i.e. secondary input index r=p. SourceAugust2026 expressly retains the different residual questions after this publication. https://arxiv.org/abs/2402.00506 10.2422/2036-2145.202407_012 https://journals.sns.it/index.php/annaliscienze/article/view/6714 v1 full text; Annali online DOI10.2422/2036-2145.202407_012 identified2024. Theorem1.1 sharpness uses classical A_p characteristic, not the larger Lorentz characteristic. SourceAugust2026 cites it while expressly retaining Γ\_s gap. Publisher date:20December2024. https://arxiv.org/abs/2405.20907 https://arxiv.org/html/2405.20907v3 10.1016/j.jfa.2025.111209 Author-labelled final v3,15September2025; JFA290(2026)111209. TheoremB treats stronger general-space conditions, with an additional structural assumption for converse implications; no residual Lorentz sufficiency asserted. Journal final predates the August2026 explicit questions; publisher fulltext unavailable. 10.1016/j.jmaa.2022.126844 https://www.sciencedirect.com/science/article/pii/S0022247X22008587 JMAA519(2023)126844 preview: classical weighted Lorentz maximal estimates, earlier than the selected August2026 questions. No assertion that publisher fulltext was read.
+
+**Source.** Dinghuai Wang and Qian Zhang. *Properties and applications of Lorentz–Muckenhoupt classes*. 2026. [primary source](https://arxiv.org/abs/2608.17918v1) Location: Remarks4.15/4.17 for AP07; paragraph following Theorem4.13 for AP08.
+
+**Literature check.** Status: checked12October2026; no matching later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2410.04031) · [2](https://arxiv.org/abs/2402.00506) · [3](https://journals.sns.it/index.php/annaliscienze/article/view/6714) · [4](https://arxiv.org/abs/2405.20907) · [5](https://arxiv.org/html/2405.20907v3) · [6](https://www.sciencedirect.com/science/article/pii/S0022247X22008587) · [7](https://doi.org/10.1090/proc/17427) · [8](https://doi.org/10.2422/2036-2145.202407_012) · [9](https://arxiv.org/abs/2405.20907v3)
+
+
+<a id="q4632"></a>
+
+## Q4632. Determine all 1≤p,q≤∞ for which, almost surely, there is C<∞ such that ‖(fμ)̂‖Lᑫ(ℝᵏ⁺¹)≤C‖f‖Lᵖ(μ)…
+
+**Status:** Open · **Kind:** open problem (Question 1.1) · **Collection** 47
+
+Determine all 1≤p,q≤∞ for which, almost surely, there is C<∞ such that ‖(fμ)̂‖Lᑫ(ℝᵏ⁺¹)≤C‖f‖Lᵖ(μ) for every f∈Lᵖ(μ). Define dim_F G=sup{s∈[0,k+1]: some Borel probability ν supported on G satisfies |ν̂(ξ)|≤C(1+|ξ|)⁻ˢ/² for some C<∞ and all ξ}.
+
+**Context.** AP47-S08 — Harmonic analysis and probability. Let k≥1 be an integer, B₁,…,Bₖ independent standard real Brownian motions on [0,1], W(t)=ΣᵢBᵢ(tᵢ), G={(t,W(t)):t∈[0,1]ᵏ}, and μ the pushforward of Lebesgue measure under t↦(t,W(t)). Write ν̂(ξ)=∫e⁻²πⁱξ·ˣdν(x). Audited provenance and status: Subject: Harmonic analysis and probability Current CV lists PhD September2023–May2026 and advisors Fraser/Falconer. Repository date1December2026 is future; canonical claims manuscript year only.
+
+**Source.** Jonathan M. Fraser and Ana E. de Orellana. *Fourier restriction for the additive Brownian sheet*. 2026. [primary source](https://arxiv.org/abs/2601.05802v1) Location: Primary paper Question 1.1, p.3; thesis Chapter 4.
+
+**Literature check.** Status: checked 12 October 2026; no matching resolution located.
+
+
+<a id="q4633"></a>
+
+## Q4633. For every k≥3, is dim_F G=k almost surely?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+For every k≥3, is dim_F G=k almost surely?
+
+**Context.** AP47-S08 — Harmonic analysis and probability. Let k≥1 be an integer, B₁,…,Bₖ independent standard real Brownian motions on [0,1], W(t)=ΣᵢBᵢ(tᵢ), G={(t,W(t)):t∈[0,1]ᵏ}, and μ the pushforward of Lebesgue measure under t↦(t,W(t)). Write ν̂(ξ)=∫e⁻²πⁱξ·ˣdν(x). Audited provenance and status: Subject: Harmonic analysis and probability Current CV lists PhD September2023–May2026 and advisors Fraser/Falconer. Repository date1December2026 is future; canonical claims manuscript year only.
+
+**Source.** Jonathan M. Fraser and Ana E. de Orellana. *Fourier restriction for the additive Brownian sheet*. 2026. [primary source](https://arxiv.org/abs/2601.05802v1) Location: Primary paper unnumbered conjecture, p.4; thesis Chapter 4.
+
+**Literature check.** Status: checked 12 October 2026; no matching resolution located.
+
+
+<a id="q4674"></a>
+
+## Q4674. For every s>s_E(p,q), is there C<∞ such that…
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+For every s>s_E(p,q), is there C<∞ such that (∑\_{t∈E_j}||U_tP_jf||\_{L^q(ℝ^d)}^q)^{1/q}≤C2^{js}||f||\_{L^p(ℝ^d)} for every j≥1, every maximal 2^{-j}-separated subset E_j⊆E, and every f∈L^p(ℝ^d)?
+
+**Context.** Fix an integer d≥1, nonempty E⊆[1,2] and nonzero φ∈C_c^∞((1/4,4)). Define Fourier multipliers P_j by φ(2^{-j}|ξ|), and U_t by e^{it|ξ|}. Write N(A,δ) for the least number of length-δ intervals covering A, and ν\_E(α)=limsup_{δ↓0} log(sup_{δ≤|I|≤1}|I|^{-α}N(E∩I,δ))/log(1/δ), with I ranging over intervals. For 1&lt;p≤q<∞ and q>p/(p−1), put s_E(p,q)=(d+1)(1/p−1/q)/2+ν\_E(q(d−1)(1−1/p−1/q)/2)/q. Audited provenance and status: Subject: Harmonic analysis / wave equation Rutar’s homepage confirms doctoral study at StAndrews with Jonathan Fraser and Kenneth Falconer; thesis route led to later paper questions. Conjecture1.6 retained; published10October2025. Current author file labelled2-18-26 retains Conjecture1.6; filename is not independently certified revision date. Beltran–Hickman2505.07788v1, Equations1.1–1.2/Theorem1.1, treats convolution with measures on nondegenerate curves. The same-title AMS final10.1090/proc/17834 returned403; unread. No identified target-covering claim or reduction to the selected half-wave operator; no final-scope inspection asserted. OpenAI, Critical local smoothing for the three-dimensional wave equation,24September2026: Theorem1.1/Corollary10.6 concern d=3 and continuous Lebesgue time[1,2], diagonal Lp norms. This partial classical claim does not assert arbitrary fractal-time ℓq bounds. Current main PDF equals pinned adc7f1241b42e322a6451854ab7e4b4c146bf78a. Publisher final read; a later access attempt returned HTTP403.
+
+**Source.** Beltran, Roos, Rutar and Seeger. *A fractal local smoothing problem for the wave equation*. 2025. [primary source](https://doi.org/10.1112/blms.70214) Location: Conjecture1.6; DOI10.1112/blms.70214.
+
+
+<a id="q4680"></a>
+
+## Q4680. Must every f∈ℱ satisfying |f(x)−f(y)|≤C|x−y| for some C<∞ and all x,y∈K be constant?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Must every f∈ℱ satisfying |f(x)−f(y)|≤C|x−y| for some C<∞ and all x,y∈K be constant?
+
+**Context.** Let q₀,q₁,q₂ be the vertices of a unit equilateral triangle, F_i(x)=(x+q_i)/2, and K=⋃\_{i=0}²F_i(K) the unique nonempty compact attractor. For words w∈{0,1,2}^m put F_w=F_{w₁}∘⋯∘F_{w_m} with F_∅=id, and E_m(f)=(5/3)^mΣ\_{|w|=m}Σ\_{0≤i&lt;j≤2}|f(F_wq_i)−f(F_wq_j)|². The standard energy domain is ℱ={f∈C(K;ℝ):sup_{m≥0}E_m(f)<∞}. Audited provenance and status: Subject: Analysis on fractals / Dirichlet forms Doctoral discovery route: Roope Anttila, Assouad dimensions and local structure of fractal sets and measures (Oulu doctoral thesis,2025) Doctoral discovery route: supervisors Ville Suomala and Antti Käenmäki. Murugan, Heat kernel for reflected diffusion and extension property on uniform domains,2024,§6.3, is the attributed origin. Publisher final10.1007/s00440-024-01266-4 is paywalled; the exact conjecture is explicitly restated by both2026 primary sources. The September arXiv record is v1; manuscript title-page date14September differs from submission10September. Introductory Q1–Q3 are treated by the paper’s constructions, not admitted. The selected gasket question concerns the full energy domain, without generator membership or boundary restrictions.
+
+**Source.** Riku Anttila and Roope Anttila. *One-dimensional Dirichlet forms with prescribed Hölder regularity*. 2026. [primary source](https://arxiv.org/abs/2609.12186v1) Location: p.3: Murugan’s conjecture, explicitly restated as open.
+
+
+<a id="q4681"></a>
+
+## Q4681. Does D(Δ) contain a nonconstant f such that |f(x)−f(y)|≤C|x−y|^κ for some C<∞ and every x,y∈K?
+
+**Status:** Open · **Kind:** open problem · **Collection** 47
+
+Does D(Δ) contain a nonconstant f such that |f(x)−f(y)|≤C|x−y|^κ for some C<∞ and every x,y∈K?
+
+**Context.** Let K be the standard planar Sierpiński carpet, obtained by repeatedly deleting the open central ninth from each surviving square. Equip K with Euclidean distance, m=ℋ^{log8/log3}|\_K, and its canonical Brownian Dirichlet form (E,ℱ). If F₁,…,F₈ are its eight standard ratio-1/3 similarities, define σ by E(f,f)=3^σΣ\_iE(f∘F_i,f∘F_i). Put κ=σ+log2/log3 and D(Δ)={f∈ℱ:∃g∈L²(m) ∀v∈ℱ, E(f,v)=−∫gv dm}. Audited provenance and status: Subject: Analysis on fractals / Dirichlet forms Doctoral discovery route: Roope Anttila, Assouad dimensions and local structure of fractal sets and measures (Oulu doctoral thesis,2025) Doctoral discovery route: supervisors Ville Suomala and Antti Käenmäki. Qiu’s current primary bibliography lists the inverse-regularity paper as a2026 preprint and links the inspected32-page file. Gao–Yang2407.20789v3, author-labelled final version, Theorem2.1/§9, proves exponent β−α estimates and cable-system regularity, not the carpet endpoint β−α+log2/log3. Equation9.1 defines the standard carpet consistently. The Gao–Yang publisher final was not retrieved; its author-labelled final version was read.
+
+**Source.** Hua Qiu and Yizhou Wang. *An inverse regularity theorem on the domain of the infinitesimal generator of Dirichlet forms*. 2026. [primary source](https://math.nju.edu.cn/DFS//file/2026/09/02/20260902201229539d4bgcl.pdf) Location: An inverse regularity theorem on the domain of the infinitesimal generator of Dirichlet forms (2026 author preprint), Conjecture1.4,p.5; definitions pp.7,19.
 

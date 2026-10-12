@@ -1,6 +1,6 @@
 # Theory of Computation & Algorithms
 
-362 problems: 355 open, 6 open, partial results, 1 solved here: proved.
+396 problems: 389 open, 6 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -370,3 +370,37 @@ Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computat
 | <a id="q4166"></a>[Q4166](theory-of-computation-algorithms-part-2.md#q4166) | Does List 4-Coloring on n-vertex N-free ordered graphs admit a 2^{o(n)}-time algorithm? | Open |
 | <a id="q4169"></a>[Q4169](theory-of-computation-algorithms-part-2.md#q4169) | For every fixed integer k≥0, is MWIS quasipolynomial-time solvable on H_k-free graphs, where H_k… | Open |
 | <a id="q4170"></a>[Q4170](theory-of-computation-algorithms-part-2.md#q4170) | Assuming the Exponential-Time Hypothesis, does maximum-cardinality independent set on F-free… | Open |
+| <a id="q4231"></a>[Q4231](theory-of-computation-algorithms-part-2.md#q4231) | Does an atom-minimal CRPQ exist that is not variable-minimal? | Open |
+| <a id="q4232"></a>[Q4232](theory-of-computation-algorithms-part-2.md#q4232) | For k∈N, if a Boolean CRPQ has a forest-shaped equivalent and an equivalent with at most k… | Open |
+| <a id="q4233"></a>[Q4233](theory-of-computation-algorithms-part-2.md#q4233) | Characterize F admitting adjacency sketches with constant-length labels. | Open |
+| <a id="q4234"></a>[Q4234](theory-of-computation-algorithms-part-2.md#q4234) | Characterize F for which, for every r∈N, distance≤r has sketches with label length bounded… | Open |
+| <a id="q4235"></a>[Q4235](theory-of-computation-algorithms-part-2.md#q4235) | Characterize F for which some fixed α>1 permits, for every r∈N, sketches distinguishing… | Open |
+| <a id="q4244"></a>[Q4244](theory-of-computation-algorithms-part-2.md#q4244) | Does there exist a family with n→∞, support-rank bounded by a constant, and R(f)≥n^c for some… | Open |
+| <a id="q4248"></a>[Q4248](theory-of-computation-algorithms-part-2.md#q4248) | Does a function h:N→N exist such that signrank(F)≤h(R(F)) for every finite total sign matrix F? | Open |
+| <a id="q4304"></a>[Q4304](theory-of-computation-algorithms-part-2.md#q4304) | On graphs whose maximum degree always stays at most 3, does every ε>0 admit a… | Open |
+| <a id="q4305"></a>[Q4305](theory-of-computation-algorithms-part-2.md#q4305) | If every arriving vertex has at most d earlier neighbours, is there a 1-stable… | Open |
+| <a id="q4309"></a>[Q4309](theory-of-computation-algorithms-part-2.md#q4309) | Is there an algorithm that decides termination for every such one-rule system? | Open |
+| <a id="q4310"></a>[Q4310](theory-of-computation-algorithms-part-2.md#q4310) | Does a nonterminating one-rule system exist that admits no loop? | Open |
+| <a id="q4311"></a>[Q4311](theory-of-computation-algorithms-part-2.md#q4311) | For every fixed positive integer k and every sequence (P_n) whose largest part has size O(n^k),… | Open |
+| <a id="q4312"></a>[Q4312](theory-of-computation-algorithms-part-2.md#q4312) | For every fixed h,m as above, can such circuits compute AND_n with depth at most h+1 and size… | Open |
+| <a id="q4313"></a>[Q4313](theory-of-computation-algorithms-part-2.md#q4313) | If max_{x∈{0,1}^n} min_{z∈Z}\|P_n(x)−z−αAND_n(x)\|≤1/(20n) for every n, must deg(P_n)/log n→∞ as… | Open |
+| <a id="q4314"></a>[Q4314](theory-of-computation-algorithms-part-2.md#q4314) | Is there an absolute c>0 such that d_n≥c√(n/log n) for all sufficiently large n? | Open |
+| <a id="q4321"></a>[Q4321](theory-of-computation-algorithms-part-2.md#q4321) | Determine the asymptotic order, as integer q→∞, of A(q)=max{nsep(w,x):\|w\|=\|x\|, w≠x, nsep(x,w)≤q}. | Open |
+| <a id="q4322"></a>[Q4322](theory-of-computation-algorithms-part-2.md#q4322) | Determine the asymptotic order, as integer L→∞, of H(L)=max{sep(w,x)/nsep(w,x):w,x∈{0,1}^L, w≠x}. | Open |
+| <a id="q4349"></a>[Q4349](theory-of-computation-algorithms-part-2.md#q4349) | Given two such systems, each promised to present a plain group and to be inverse-closed (each… | Open |
+| <a id="q4364"></a>[Q4364](theory-of-computation-algorithms-part-2.md#q4364) | Given Γ\_0 explicitly on d=\|Q\| points, can h(X) be computed in subexponential time in d? | Open |
+| <a id="q4365"></a>[Q4365](theory-of-computation-algorithms-part-2.md#q4365) | What is the least d admitting 0&lt;h(X)<∞? | Open |
+| <a id="q4421"></a>[Q4421](theory-of-computation-algorithms-part-2.md#q4421) | Determine the computational complexity of computing the number of distinct s-covers of an input… | Open |
+| <a id="q4422"></a>[Q4422](theory-of-computation-algorithms-part-2.md#q4422) | What is γ(5)? | Open |
+| <a id="q4423"></a>[Q4423](theory-of-computation-algorithms-part-2.md#q4423) | Combinatorics on words. For an n×n array A over an arbitrary finite alphabet, a rectangular… | Open |
+| <a id="q4488"></a>[Q4488](theory-of-computation-algorithms-part-2.md#q4488) | For every fixed k≥1, is this promise problem in NP for n-qubit Hamiltonians H=Σ\_A h_A whose… | Open |
+| <a id="q4489"></a>[Q4489](theory-of-computation-algorithms-part-2.md#q4489) | Is this promise problem QMA-hard under polynomial-time classical many-one reductions when the… | Open |
+| <a id="q4501"></a>[Q4501](theory-of-computation-algorithms-part-2.md#q4501) | Is there an absolute constant C and a polynomial-time algorithm that, for every (G,s),… | Open |
+| <a id="q4509"></a>[Q4509](theory-of-computation-algorithms-part-2.md#q4509) | Does this decision problem remain NP-hard on grids under the additional restriction S∩T=∅? | Open |
+| <a id="q4510"></a>[Q4510](theory-of-computation-algorithms-part-2.md#q4510) | Does it remain NP-hard on grids when, for some fixed absolute constant c, every yes-instance… | Open |
+| <a id="q4576"></a>[Q4576](theory-of-computation-algorithms-part-2.md#q4576) | Determine asymptotically optimal spectral-sparsifier sizes for random Boolean CSPs in these two… | Open |
+| <a id="q4577"></a>[Q4577](theory-of-computation-algorithms-part-2.md#q4577) | If an adversary sees the random instance and adds pm constraints, where 0&lt;p<1 and pm is… | Open |
+| <a id="q4597"></a>[Q4597](theory-of-computation-algorithms-part-2.md#q4597) | Is there a randomized algorithm finding the global sink of every such USO using polynomially… | Open |
+| <a id="q4628"></a>[Q4628](theory-of-computation-algorithms-part-2.md#q4628) | Is there a PRAM algorithm, with polynomially many processors sharing memory, computing a proper… | Open |
+| <a id="q4671"></a>[Q4671](theory-of-computation-algorithms-part-2.md#q4671) | Does this collision-free robot-scheduling problem admit a polynomial-time exact algorithm? | Open |
+| <a id="q4672"></a>[Q4672](theory-of-computation-algorithms-part-2.md#q4672) | What is the computational complexity of the same optimization problem when the graph is a finite… | Open |

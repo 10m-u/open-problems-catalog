@@ -1,6 +1,6 @@
-# Probability & Stochastic Processes (part 1 of 2)
+# Probability & Stochastic Processes (part 1 of 3)
 
-[Subject overview](probability-stochastic-processes.md) · Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md)
+[Subject overview](probability-stochastic-processes.md) · Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md) · [3](probability-stochastic-processes-part-3.md)
 
 <a id="q37"></a>
 
