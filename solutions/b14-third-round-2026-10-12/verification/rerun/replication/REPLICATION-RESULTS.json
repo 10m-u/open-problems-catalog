@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "archive_sha256": "8b1155feb74ec60f77e8c9b61a119a48fe8aeff06966edd33047766ce06bff50",
+  "manifest_payload_files_verified": 614,
+  "archive_entries": 615,
+  "archive_unchanged": true,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "jobs": [
+    {
+      "name": "count",
+      "script": "solutions/b14-first-round-2026-10-12/audit_count.py",
+      "receipt": "solutions/b14-first-round-2026-10-12/COUNT-CHECK-RESULTS.json",
+      "exit_code": 0,
+      "semantic_receipt_match": true,
+      "elapsed_seconds": 0.9927336379998906
+    },
+    {
+      "name": "elimination",
+      "script": "solutions/b14-first-round-2026-10-12/local-optima/check_elimination.py",
+      "receipt": "solutions/b14-first-round-2026-10-12/local-optima/ELIMINATION-CHECK-RESULTS.json",
+      "exit_code": 0,
+      "semantic_receipt_match": true,
+      "elapsed_seconds": 0.9628724829999555
+    },
+    {
+      "name": "p2",
+      "script": "solutions/b14-second-round-2026-10-12/residual-search/check_exponential.py",
+      "receipt": "solutions/b14-second-round-2026-10-12/residual-search/EXPONENTIAL-CHECK-RESULTS.json",
+      "exit_code": 0,
+      "semantic_receipt_match": true,
+      "elapsed_seconds": 6.861391830000002
+    },
+    {
+      "name": "p3",
+      "script": "solutions/b14-second-round-2026-10-12/audit_p3_gain.py",
+      "receipt": "solutions/b14-second-round-2026-10-12/P3-INDEPENDENT-CHECK-RESULTS.json",
+      "exit_code": 0,
+      "semantic_receipt_match": true,
+      "elapsed_seconds": 1.7600046259999544
+    }
+  ],
+  "scope": "Four finite checker replications, not an independent review of every handoff theorem."
+}

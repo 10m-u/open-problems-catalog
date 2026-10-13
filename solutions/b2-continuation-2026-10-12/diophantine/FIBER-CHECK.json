@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "coordinate_bound": 5000,
+  "odd_fixed_coordinates": 5000,
+  "complete_fibre_candidates": 34713,
+  "integer_solutions": [],
+  "other_coordinates": "unrestricted",
+  "scope": "Every solution has all coordinates odd and absolute value >5000"
+}

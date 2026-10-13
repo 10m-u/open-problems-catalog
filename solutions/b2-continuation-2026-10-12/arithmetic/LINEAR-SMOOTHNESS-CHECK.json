@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "exact_congruence_and_value_controls": 1800,
+  "examples": [
+    {
+      "a": -7,
+      "b": 4,
+      "B": 3,
+      "fixed_prime_support": [
+        3
+      ]
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "B": 2,
+      "fixed_prime_support": [
+        2
+      ]
+    },
+    {
+      "a": 6,
+      "b": 0,
+      "B": 2,
+      "fixed_prime_support": [
+        2,
+        3
+      ]
+    }
+  ],
+  "scope": "Finite controls of the all-linear proof; no verification of the all-degree conjecture"
+}

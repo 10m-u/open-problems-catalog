@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-12",
+  "stopping_rule": "full target solved, or five consecutive substantive failed routes per target",
+  "targets": [
+    {
+      "target": "Q1979",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "divisible-hull transfer",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "quotient-and-fibre induction",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "dimension/rank arrangement lower bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "VC upper bounds force a pure power",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "standard-instance elementary transfer",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "foundations/Q1979-ATTEMPTS.md",
+        "foundations/Q1979-CHECK-RESULTS.json"
+      ]
+    },
+    {
+      "target": "Q1377",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "finite valuation and order core",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "finite digit Boolean algebra",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "universal bounded-formula evaluator",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "incompleteness through arithmetic coding",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "elementary proof-search bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "foundations/Q1377-ATTEMPTS.md",
+        "foundations/Q1377-CHECK-RESULTS.json"
+      ]
+    },
+    {
+      "target": "Q1378",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "universal automata-recognition predicate",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "finite residues and quotient functions",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "existentially universal sparse K predicate",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "strict alternation hierarchy",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "aperiodicity under function substitution",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "foundations/Q1378-ATTEMPTS.md",
+        "foundations/Q1378-CHECK-RESULTS.json"
+      ]
+    }
+  ]
+}

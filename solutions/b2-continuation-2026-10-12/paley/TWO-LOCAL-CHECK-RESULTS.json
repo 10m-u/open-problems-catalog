@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "exact_cubic_degree_controls": 165,
+  "projective_graph_symmetry_controls": 6090,
+  "exact_rational_corrected_theta_duals": 12,
+  "degree_two_signed_square_controls": 343,
+  "degree_two_conditional_first_moment": "-1/2",
+  "p37_witness": {
+    "vertices": [
+      4,
+      10,
+      11,
+      12,
+      26,
+      27,
+      28,
+      34
+    ],
+    "H_degrees": {
+      "4": 5,
+      "10": 5,
+      "11": 3,
+      "12": 5,
+      "26": 5,
+      "27": 3,
+      "28": 5,
+      "34": 5
+    },
+    "S3_orbits": [
+      [
+        4,
+        10,
+        12,
+        26,
+        28,
+        34
+      ],
+      [
+        11,
+        27
+      ]
+    ],
+    "commutator_entry_4_11": 1
+  },
+  "scope": "Finite exact controls of identities, invariant directions and corrected PSD duals; no asymptotic theta upper bound at the requested constant."
+}

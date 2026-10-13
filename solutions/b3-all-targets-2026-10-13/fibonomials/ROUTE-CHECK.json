@@ -1,0 +1,281 @@
+{
+  "status": "PASS",
+  "fresh_asymmetric_cases": [
+    {
+      "m": 16,
+      "n": 5,
+      "degree": 26061,
+      "mass": 42587248616222024,
+      "central_coefficient": 3837781103970
+    },
+    {
+      "m": 15,
+      "n": 6,
+      "degree": 27040,
+      "mass": 5254201798026392211,
+      "central_coefficient": 472797438323731
+    },
+    {
+      "m": 14,
+      "n": 7,
+      "degree": 27637,
+      "mass": 246543315138161480670,
+      "central_coefficient": 22172769734979343
+    },
+    {
+      "m": 13,
+      "n": 8,
+      "degree": 27993,
+      "mass": 4426039514623184676790,
+      "central_coefficient": 397969610750988754
+    },
+    {
+      "m": 12,
+      "n": 9,
+      "degree": 28192,
+      "mass": 30331388438447118520355,
+      "central_coefficient": 2727045453524057733
+    },
+    {
+      "m": 11,
+      "n": 10,
+      "degree": 28281,
+      "mass": 79413089729752455762384,
+      "central_coefficient": 7139711504825259373
+    },
+    {
+      "m": 17,
+      "n": 5,
+      "degree": 42175,
+      "mass": 472299787252290712,
+      "central_coefficient": 26304540090035
+    },
+    {
+      "m": 16,
+      "n": 6,
+      "degree": 43764,
+      "mass": 94282845030238533383,
+      "central_coefficient": 5243404516048493
+    },
+    {
+      "m": 15,
+      "n": 7,
+      "degree": 44738,
+      "mass": 7158243695757340957617,
+      "central_coefficient": 397873897200820535
+    },
+    {
+      "m": 14,
+      "n": 8,
+      "degree": 45327,
+      "mass": 207929935924379904006970,
+      "central_coefficient": 11554834190729129892
+    },
+    {
+      "m": 13,
+      "n": 9,
+      "degree": 45670,
+      "mass": 2305576054220330112077285,
+      "central_coefficient": 128112394375430884025
+    },
+    {
+      "m": 12,
+      "n": 10,
+      "degree": 45848,
+      "mass": 9767258556969762111163771,
+      "central_coefficient": 542714781191755483857
+    },
+    {
+      "m": 18,
+      "n": 5,
+      "degree": 68248,
+      "mass": 5237885063192296801,
+      "central_coefficient": 180294003013153
+    },
+    {
+      "m": 17,
+      "n": 6,
+      "degree": 70824,
+      "mass": 1691836875411111866723,
+      "central_coefficient": 58150240456124867
+    },
+    {
+      "m": 16,
+      "n": 7,
+      "degree": 72408,
+      "mass": 207835653079349665473587,
+      "central_coefficient": 7139558170364619133
+    },
+    {
+      "m": 15,
+      "n": 8,
+      "degree": 73374,
+      "mass": 9768275694729434277258589,
+      "central_coefficient": 335487896968852743373
+    },
+    {
+      "m": 14,
+      "n": 9,
+      "degree": 73950,
+      "mass": 175254358052498673797874685,
+      "central_coefficient": 6018559993591282907043
+    },
+    {
+      "m": 13,
+      "n": 10,
+      "degree": 74272,
+      "mass": 1201288963378036364032704659,
+      "central_coefficient": 41253239771296959306935
+    },
+    {
+      "m": 12,
+      "n": 11,
+      "degree": 74416,
+      "mass": 3144947510866095200220451523,
+      "central_coefficient": 107998960999634337905747
+    },
+    {
+      "m": 19,
+      "n": 5,
+      "degree": 110435,
+      "mass": 58089034826620525728,
+      "central_coefficient": 1235753459728788
+    },
+    {
+      "m": 18,
+      "n": 6,
+      "degree": 114608,
+      "mass": 30358781826262552258596,
+      "central_coefficient": 644896059265478064
+    },
+    {
+      "m": 17,
+      "n": 7,
+      "degree": 117179,
+      "mass": 6034391710697110387400928,
+      "central_coefficient": 128114158356647680470
+    },
+    {
+      "m": 16,
+      "n": 8,
+      "degree": 118755,
+      "mass": 458901121999204061365680096,
+      "central_coefficient": 9740704896866494742975
+    },
+    {
+      "m": 15,
+      "n": 9,
+      "degree": 119708,
+      "mass": 13321629629800423781409595728,
+      "central_coefficient": 282743983934327530655256
+    },
+    {
+      "m": 14,
+      "n": 10,
+      "degree": 120263,
+      "mass": 147748983166877427393815516256,
+      "central_coefficient": 3135791274714056258029441
+    },
+    {
+      "m": 13,
+      "n": 11,
+      "degree": 120551,
+      "mass": 625858052291154945252454490208,
+      "central_coefficient": 13282922191598250006005305
+    }
+  ],
+  "fresh_count": 26,
+  "fresh_actual_counterexample": null,
+  "whole_q_integer_divisor_Hall_obstruction": {
+    "m": 10,
+    "n": 10,
+    "demand_indices": [
+      4,
+      6,
+      8,
+      9,
+      10
+    ],
+    "neighbors": {
+      "4": [
+        12,
+        16,
+        20
+      ],
+      "6": [
+        12,
+        18
+      ],
+      "8": [
+        16
+      ],
+      "9": [
+        18
+      ],
+      "10": [
+        20
+      ]
+    },
+    "union": [
+      12,
+      16,
+      18,
+      20
+    ]
+  },
+  "constrained_recursion_obstruction": {
+    "synthetic_predecessors": [
+      1,
+      1,
+      1,
+      9,
+      1,
+      1,
+      1
+    ],
+    "actual_predecessor": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      1
+    ],
+    "output": [
+      1,
+      1,
+      2,
+      10,
+      3,
+      11,
+      4,
+      11,
+      3,
+      10,
+      2,
+      1,
+      1
+    ]
+  },
+  "actual_fixed_path_obstruction": {
+    "m": 2,
+    "n": 3,
+    "path": "NNEEN",
+    "forced_vertical_weights": [
+      1,
+      2
+    ],
+    "optional_horizontal_weight": 2,
+    "polynomial": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "checker_sha256": "13a515f80c16606e594864f8bb01866b454e47f0b7b6d48d0e704cdd23d83d16",
+  "scope": "Finite actual construction and distinct sufficient-method failures; not a counterexample to Q2751."
+}

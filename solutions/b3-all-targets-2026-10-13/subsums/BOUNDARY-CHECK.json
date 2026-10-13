@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "binary_boundary_controls": 9997,
+  "literal_binary_sum_controls": 31,
+  "product_controls_through_n": 40,
+  "actual_ULC_obstructions": [
+    {
+      "n": 4,
+      "degree": 8,
+      "variance": "61/15",
+      "ULC_variance_ceiling": "2"
+    },
+    {
+      "n": 8,
+      "degree": 24,
+      "variance": "1793/93",
+      "ULC_variance_ceiling": "6"
+    },
+    {
+      "n": 16,
+      "degree": 64,
+      "variance": "6676631/79671",
+      "ULC_variance_ceiling": "16"
+    },
+    {
+      "n": 32,
+      "degree": 160,
+      "variance": "1987887071839/5669226807",
+      "ULC_variance_ceiling": "40"
+    }
+  ],
+  "same_moment_control": {
+    "actual_H6": [
+      6,
+      22,
+      54,
+      80,
+      100,
+      100,
+      100,
+      80,
+      54,
+      22,
+      6
+    ],
+    "altered_auxiliary_array": [
+      6,
+      22,
+      54,
+      90,
+      60,
+      160,
+      60,
+      90,
+      54,
+      22,
+      6
+    ],
+    "degree": 10,
+    "variance": "176/39"
+  },
+  "generic_gapped_convolution_control": [
+    1,
+    100,
+    2,
+    100,
+    1
+  ],
+  "extended_support_convolution_control": [
+    1,
+    100,
+    10001,
+    1000100,
+    20000,
+    1000100,
+    10001,
+    100,
+    1
+  ],
+  "uniform_geometric_control": [
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+  ],
+  "regrouping_and_n_recurrence_controls": 20,
+  "same_normal_limit_obstruction_controls": 31,
+  "scope": "All-size boundary inequalities, binary ULC obstruction and product CLT rely on written proofs; finite full-array LC is only evidence."
+}

@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "independent_Boolean_ideal_multichains": [
+    {
+      "n": 0,
+      "ideal_multichain_hstar_agrees": true,
+      "Omega2": 2
+    },
+    {
+      "n": 1,
+      "ideal_multichain_hstar_agrees": true,
+      "Omega2": 3
+    },
+    {
+      "n": 2,
+      "ideal_multichain_hstar_agrees": true,
+      "Omega2": 6
+    },
+    {
+      "n": 3,
+      "ideal_multichain_hstar_agrees": true,
+      "Omega2": 20
+    },
+    {
+      "n": 4,
+      "ideal_multichain_hstar_agrees": true,
+      "Omega2": 168
+    }
+  ],
+  "independent_Boolean_gamma_Sturm": [
+    {
+      "n": 0,
+      "negative_gamma_roots": 0
+    },
+    {
+      "n": 1,
+      "negative_gamma_roots": 0
+    },
+    {
+      "n": 2,
+      "negative_gamma_roots": 0
+    },
+    {
+      "n": 3,
+      "negative_gamma_roots": 2
+    },
+    {
+      "n": 4,
+      "negative_gamma_roots": 5
+    },
+    {
+      "n": 5,
+      "negative_gamma_roots": 13
+    }
+  ],
+  "actual_B3_brute_refinement": [
+    -1,
+    -1,
+    3,
+    1
+  ],
+  "actual_same_input_doubling_outputs": [
+    [
+      1,
+      27,
+      116,
+      116,
+      27,
+      1
+    ],
+    [
+      1,
+      27,
+      112,
+      112,
+      27,
+      1
+    ]
+  ],
+  "formal_gamma_negative_roots": 3,
+  "two_chain_cases_independent_ideal_multichain_and_Newton_reconstruction": 394,
+  "rectangle_weak_maps_at2": [
+    9,
+    6
+  ],
+  "counts_accepted": {
+    "Q3500": 5,
+    "Q3568": 5
+  },
+  "scope": "Independent exact scope/contract review; neither full conjecture is resolved.",
+  "checker_sha256": "29b4210b8375a971142f871aa228b4e231cbadcda53833f1265a2080cca1eda3"
+}

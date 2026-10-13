@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "n": 0,
+      "hstar": [
+        1
+      ],
+      "gamma": [
+        1
+      ],
+      "negative_gamma_roots": 0,
+      "internal_elements": 0,
+      "ideal_states": 1
+    },
+    {
+      "n": 1,
+      "hstar": [
+        1
+      ],
+      "gamma": [
+        1
+      ],
+      "negative_gamma_roots": 0,
+      "internal_elements": 0,
+      "ideal_states": 1
+    },
+    {
+      "n": 2,
+      "hstar": [
+        1,
+        1
+      ],
+      "gamma": [
+        1
+      ],
+      "negative_gamma_roots": 0,
+      "internal_elements": 2,
+      "ideal_states": 4,
+      "append_transitions": 4
+    },
+    {
+      "n": 3,
+      "hstar": [
+        1,
+        11,
+        24,
+        11,
+        1
+      ],
+      "gamma": [
+        1,
+        7,
+        4
+      ],
+      "negative_gamma_roots": 2,
+      "internal_elements": 6,
+      "ideal_states": 18,
+      "append_transitions": 30
+    },
+    {
+      "n": 4,
+      "hstar": [
+        1,
+        151,
+        4861,
+        54239,
+        251264,
+        529676,
+        529676,
+        251264,
+        54239,
+        4861,
+        151,
+        1
+      ],
+      "gamma": [
+        1,
+        140,
+        3546,
+        24212,
+        43648,
+        14400
+      ],
+      "negative_gamma_roots": 5,
+      "internal_elements": 14,
+      "ideal_states": 166,
+      "append_transitions": 452
+    },
+    {
+      "n": 5,
+      "hstar": [
+        1,
+        7548,
+        7578709,
+        1953663254,
+        194036888014,
+        9128133483324,
+        230110273156554,
+        3371893865943894,
+        30396218942472299,
+        175547062903688424,
+        668734575544594239,
+        1715195415251917844,
+        3002585303067004264,
+        3615664227696562624,
+        3002585303067004264,
+        1715195415251917844,
+        668734575544594239,
+        175547062903688424,
+        30396218942472299,
+        3371893865943894,
+        230110273156554,
+        9128133483324,
+        194036888014,
+        1953663254,
+        7578709,
+        7548,
+        1
+      ],
+      "gamma": [
+        1,
+        7522,
+        7397856,
+        1788831750,
+        156536108800,
+        5959132799632,
+        108720420259084,
+        998115863522512,
+        4680866847265300,
+        11031089074793340,
+        12355750082427576,
+        5829390865696192,
+        885835268772736,
+        18428170583040
+      ],
+      "negative_gamma_roots": 13,
+      "internal_elements": 30,
+      "ideal_states": 7579,
+      "append_transitions": 35510
+    }
+  ],
+  "checker_sha256": "8a1c79c76e9eca49dcd01568baaefdab3557a04bd5cbb04aeb6f09c38444e419",
+  "scope": "Actual Boolean lattices n<=5 only; no induction to arbitrary n."
+}

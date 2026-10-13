@@ -1,0 +1,574 @@
+[
+  {
+    "coefficients": [
+      1,
+      1
+    ],
+    "terms": 20000,
+    "tau": 2,
+    "kappa": 5,
+    "defect_range": [
+      -2,
+      -1
+    ],
+    "first_outside_own_interval": null,
+    "first_progression_failure_parent": null,
+    "residue_substitution_counterexample": null,
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 2
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 3
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 3
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 3
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 2,
+        "conflict": null
+      },
+      {
+        "radius": 1,
+        "observed_states": 5,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 8,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 11,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 14,
+        "conflict": null
+      }
+    ]
+  },
+  {
+    "coefficients": [
+      1,
+      2
+    ],
+    "terms": 20000,
+    "tau": 3,
+    "kappa": 7,
+    "defect_range": [
+      -3,
+      -1
+    ],
+    "first_outside_own_interval": null,
+    "first_progression_failure_parent": null,
+    "residue_substitution_counterexample": null,
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 3
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 6
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 6
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 6
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 3,
+        "conflict": null
+      },
+      {
+        "radius": 1,
+        "observed_states": 9,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 16,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 24,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 28,
+        "conflict": null
+      }
+    ]
+  },
+  {
+    "coefficients": [
+      2,
+      1
+    ],
+    "terms": 20000,
+    "tau": 3,
+    "kappa": 7,
+    "defect_range": [
+      -4,
+      -1
+    ],
+    "first_outside_own_interval": null,
+    "first_progression_failure_parent": null,
+    "residue_substitution_counterexample": null,
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 3
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 5
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 8
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 10
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 4,
+        "conflict": null
+      },
+      {
+        "radius": 1,
+        "observed_states": 12,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 22,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 31,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 39,
+        "conflict": null
+      }
+    ]
+  },
+  {
+    "coefficients": [
+      1,
+      3
+    ],
+    "terms": 20000,
+    "tau": 4,
+    "kappa": 9,
+    "defect_range": [
+      -5,
+      0
+    ],
+    "first_outside_own_interval": null,
+    "first_progression_failure_parent": null,
+    "residue_substitution_counterexample": null,
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 4
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 11
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 17
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 22
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 6,
+        "conflict": null
+      },
+      {
+        "radius": 1,
+        "observed_states": 19,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 31,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 47,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 64,
+        "conflict": null
+      }
+    ]
+  },
+  {
+    "coefficients": [
+      1,
+      4
+    ],
+    "terms": 20000,
+    "tau": 5,
+    "kappa": 11,
+    "defect_range": [
+      -6,
+      1
+    ],
+    "first_outside_own_interval": 348,
+    "first_progression_failure_parent": 348,
+    "residue_substitution_counterexample": {
+      "residue": 0,
+      "parent_indices": [
+        344,
+        349
+      ],
+      "child_defects": [
+        [
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        [
+          -3,
+          -3,
+          -4,
+          -5,
+          -6
+        ]
+      ]
+    },
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 5
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 13
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 22
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 0
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 8,
+        "conflict": {
+          "parents": [
+            344,
+            349
+          ],
+          "state": [
+            0,
+            [
+              0
+            ]
+          ],
+          "outputs": [
+            [
+              -2,
+              -3,
+              -4,
+              -5,
+              -6
+            ],
+            [
+              -3,
+              -3,
+              -4,
+              -5,
+              -6
+            ]
+          ]
+        }
+      },
+      {
+        "radius": 1,
+        "observed_states": 26,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 40,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 58,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 76,
+        "conflict": null
+      }
+    ]
+  },
+  {
+    "coefficients": [
+      1,
+      1,
+      4
+    ],
+    "terms": 20000,
+    "tau": 6,
+    "kappa": 19,
+    "defect_range": [
+      -8,
+      -2
+    ],
+    "first_outside_own_interval": null,
+    "first_progression_failure_parent": null,
+    "residue_substitution_counterexample": null,
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 6
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 13
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 20
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 0
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 7,
+        "conflict": null
+      },
+      {
+        "radius": 1,
+        "observed_states": 24,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 36,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 50,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 71,
+        "conflict": null
+      }
+    ]
+  },
+  {
+    "coefficients": [
+      1,
+      4,
+      1
+    ],
+    "terms": 20000,
+    "tau": 6,
+    "kappa": 19,
+    "defect_range": [
+      -10,
+      -4
+    ],
+    "first_outside_own_interval": null,
+    "first_progression_failure_parent": null,
+    "residue_substitution_counterexample": null,
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 6
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 13
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 20
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 0
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 7,
+        "conflict": null
+      },
+      {
+        "radius": 1,
+        "observed_states": 24,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 36,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 51,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 69,
+        "conflict": null
+      }
+    ]
+  },
+  {
+    "coefficients": [
+      4,
+      1,
+      1
+    ],
+    "terms": 20000,
+    "tau": 6,
+    "kappa": 19,
+    "defect_range": [
+      -13,
+      -6
+    ],
+    "first_outside_own_interval": null,
+    "first_progression_failure_parent": null,
+    "residue_substitution_counterexample": null,
+    "kernel_prefix_counts": [
+      {
+        "exponent": 0,
+        "distinct_available_prefixes": 1
+      },
+      {
+        "exponent": 1,
+        "distinct_available_prefixes": 6
+      },
+      {
+        "exponent": 2,
+        "distinct_available_prefixes": 10
+      },
+      {
+        "exponent": 3,
+        "distinct_available_prefixes": 16
+      },
+      {
+        "exponent": 4,
+        "distinct_available_prefixes": 0
+      }
+    ],
+    "context_tests": [
+      {
+        "radius": 0,
+        "observed_states": 8,
+        "conflict": null
+      },
+      {
+        "radius": 1,
+        "observed_states": 24,
+        "conflict": null
+      },
+      {
+        "radius": 2,
+        "observed_states": 36,
+        "conflict": null
+      },
+      {
+        "radius": 3,
+        "observed_states": 50,
+        "conflict": null
+      },
+      {
+        "radius": 4,
+        "observed_states": 68,
+        "conflict": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "exact_product_reciprocity_controls": 190,
+  "seed_template_factorization": "(t - 6)*(t**5 + 2*t**4 + 11*t**3 + 13*t**2 + 16*t + 4)",
+  "resonance_positive_difference": "9*A**3*B + 18*A**3 + 14*A**2*B**2 + 118*A**2*B + 188*A**2 + 9*A*B**3 + 118*A*B**2 + 504*A*B + 648*A + 18*B**3 + 188*B**2 + 648*B + 720",
+  "powered_shift_unique_prime": 13,
+  "scope": "Algebraic identities and individual failed-template controls; no full conjecture closures"
+}

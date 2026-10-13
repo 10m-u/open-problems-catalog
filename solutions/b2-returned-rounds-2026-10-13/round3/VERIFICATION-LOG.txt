@@ -1,0 +1,28 @@
+B2 continuation III verification
+Python:
+Python 3.13.5
+
+{
+  "status": "passed",
+  "arithmetic": "integer arithmetic and exact sets only",
+  "scope": "Finite controls; general theorems are proved in RESEARCH-NOTE.tex.",
+  "labelled_plane_partitions_examined": 19683,
+  "admissible_labelled_plane_partitions": 1371,
+  "three_dimensional_product_partitions": 35,
+  "maximal_direction_fibre_audits": 1159,
+  "occupied_quotient_audits": 1159,
+  "plane_free_projection_audits": 640,
+  "six_point_blocker_checks": 296010,
+  "five_point_affinely_spanning_sets": 75816,
+  "minimum_sumset_size_in_five_point_spanning_check": 12,
+  "four_point_classification_counts": {
+    "line_and_point": 2808,
+    "plane_cap": 2106,
+    "affine_basis": 12636
+  }
+}
+Wrote MIDPOINT-CHECKS.json
+
+Passed 963 formal first-variation identities.
+Finite diagnostic ascent: 1.2166978238640320404615923100720695439214 -> 1.2166978239078707611433493013650720647926
+Wrote ENTROPY-VARIATION-CHECKS.json

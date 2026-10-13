@@ -154,5 +154,17 @@
   "statement_ids": [
    "31ea55d9856641f1e551"
   ]
+ },
+ {
+  "number": 3902,
+  "title": "For every reflexive P_Δ or P^Δ, does h*_P(t)=Σ_{i=0}^{⌊m/2⌋}γ_i t^i(1+t)^{m−2i} hold with all γ_i≥0?",
+  "solved_elsewhere": {
+   "how": "disproved in the literature",
+   "what": "Literature counterexample to reflexive boundary-polytope gamma positivity: Attributed primary literature counterexample",
+   "url": "https://arxiv.org/html/2607.02424v1"
+  },
+  "statement_ids": [
+   "ede55ed8ecc1ee3fb171"
+  ]
  }
 ]

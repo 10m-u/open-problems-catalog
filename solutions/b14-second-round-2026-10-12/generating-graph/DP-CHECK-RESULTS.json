@@ -1,0 +1,4459 @@
+{
+  "status": "passed",
+  "instances_checked": 40,
+  "exhaustive_small_graphs": 3,
+  "all_three_optimum_methods_agree": true,
+  "totals": {
+    "path": {
+      "instances": 8,
+      "compressed_states": 72,
+      "raw_degree_states": 72,
+      "compressed_transitions": 192,
+      "metric_subset_transitions": 134080,
+      "max_frontier": 2
+    },
+    "star": {
+      "instances": 8,
+      "compressed_states": 72,
+      "raw_degree_states": 72,
+      "compressed_transitions": 192,
+      "metric_subset_transitions": 134080,
+      "max_frontier": 2
+    },
+    "cycle": {
+      "instances": 8,
+      "compressed_states": 312,
+      "raw_degree_states": 312,
+      "compressed_transitions": 912,
+      "metric_subset_transitions": 134080,
+      "max_frontier": 3
+    },
+    "ladder": {
+      "instances": 8,
+      "compressed_states": 412,
+      "raw_degree_states": 592,
+      "compressed_transitions": 1212,
+      "metric_subset_transitions": 134080,
+      "max_frontier": 3
+    },
+    "triangles": {
+      "instances": 8,
+      "compressed_states": 240,
+      "raw_degree_states": 328,
+      "compressed_transitions": 696,
+      "metric_subset_transitions": 134080,
+      "max_frontier": 3
+    }
+  },
+  "elapsed_seconds": 0.4225326331797987,
+  "instances": [
+    {
+      "family": "path",
+      "n": 6,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ]
+      ],
+      "metric_optimum": 52,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "compressed": {
+        "optimum": 52,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 52,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "path",
+      "n": 6,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          9
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          4,
+          5,
+          1
+        ]
+      ],
+      "metric_optimum": 56,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "compressed": {
+        "optimum": 56,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 56,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "path",
+      "n": 8,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          7,
+          3
+        ]
+      ],
+      "metric_optimum": 60,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "compressed": {
+        "optimum": 60,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 60,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "path",
+      "n": 8,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          9
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          6,
+          7,
+          2
+        ]
+      ],
+      "metric_optimum": 78,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "compressed": {
+        "optimum": 78,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 78,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "path",
+      "n": 10,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          7,
+          3
+        ],
+        [
+          7,
+          8,
+          9
+        ],
+        [
+          8,
+          9,
+          6
+        ]
+      ],
+      "metric_optimum": 90,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "compressed": {
+        "optimum": 90,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 90,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "path",
+      "n": 10,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          9
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          6,
+          7,
+          2
+        ],
+        [
+          7,
+          8,
+          3
+        ],
+        [
+          8,
+          9,
+          6
+        ]
+      ],
+      "metric_optimum": 96,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "compressed": {
+        "optimum": 96,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 96,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "path",
+      "n": 12,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          7,
+          3
+        ],
+        [
+          7,
+          8,
+          9
+        ],
+        [
+          8,
+          9,
+          6
+        ],
+        [
+          9,
+          10,
+          6
+        ],
+        [
+          10,
+          11,
+          4
+        ]
+      ],
+      "metric_optimum": 110,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "compressed": {
+        "optimum": 110,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 110,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "path",
+      "n": 12,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          9
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          6,
+          7,
+          2
+        ],
+        [
+          7,
+          8,
+          3
+        ],
+        [
+          8,
+          9,
+          6
+        ],
+        [
+          9,
+          10,
+          8
+        ],
+        [
+          10,
+          11,
+          1
+        ]
+      ],
+      "metric_optimum": 114,
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "compressed": {
+        "optimum": 114,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 114,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "star",
+      "n": 6,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          5,
+          2
+        ]
+      ],
+      "metric_optimum": 52,
+      "tour": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 52,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 52,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "star",
+      "n": 6,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          5,
+          1
+        ]
+      ],
+      "metric_optimum": 56,
+      "tour": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 56,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 56,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 6,
+        "transitions": 15,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "star",
+      "n": 8,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          7,
+          3
+        ]
+      ],
+      "metric_optimum": 60,
+      "tour": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 60,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 60,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "star",
+      "n": 8,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          9
+        ],
+        [
+          0,
+          7,
+          2
+        ]
+      ],
+      "metric_optimum": 78,
+      "tour": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 78,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 78,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 8,
+        "transitions": 21,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "star",
+      "n": 10,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          0,
+          8,
+          9
+        ],
+        [
+          0,
+          9,
+          6
+        ]
+      ],
+      "metric_optimum": 90,
+      "tour": [
+        0,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 90,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 90,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "star",
+      "n": 10,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          9
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          0,
+          9,
+          6
+        ]
+      ],
+      "metric_optimum": 96,
+      "tour": [
+        0,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 96,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 96,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 10,
+        "transitions": 27,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "star",
+      "n": 12,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          0,
+          8,
+          9
+        ],
+        [
+          0,
+          9,
+          6
+        ],
+        [
+          0,
+          10,
+          6
+        ],
+        [
+          0,
+          11,
+          4
+        ]
+      ],
+      "metric_optimum": 110,
+      "tour": [
+        0,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 110,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 110,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "star",
+      "n": 12,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          9
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          0,
+          9,
+          6
+        ],
+        [
+          0,
+          10,
+          8
+        ],
+        [
+          0,
+          11,
+          1
+        ]
+      ],
+      "metric_optimum": 114,
+      "tour": [
+        0,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 114,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 114,
+        "multiplicities": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "states": 12,
+        "transitions": 33,
+        "max_layer_states": 1,
+        "max_frontier": 2,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 6,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          3,
+          4,
+          2
+        ],
+        [
+          4,
+          5,
+          1
+        ]
+      ],
+      "metric_optimum": 27,
+      "tour": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 27,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 24,
+        "transitions": 69,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 27,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 24,
+        "transitions": 69,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 6,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          5,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          9
+        ]
+      ],
+      "metric_optimum": 37,
+      "tour": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 37,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 24,
+        "transitions": 69,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 37,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 24,
+        "transitions": 69,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 8,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          3,
+          4,
+          2
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          6,
+          3
+        ],
+        [
+          6,
+          7,
+          9
+        ]
+      ],
+      "metric_optimum": 39,
+      "tour": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 39,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 34,
+        "transitions": 99,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 39,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 34,
+        "transitions": 99,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 8,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          7,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          9
+        ],
+        [
+          5,
+          6,
+          2
+        ],
+        [
+          6,
+          7,
+          3
+        ]
+      ],
+      "metric_optimum": 42,
+      "tour": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 42,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 34,
+        "transitions": 99,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 42,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 34,
+        "transitions": 99,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 10,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          9,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          3,
+          4,
+          2
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          6,
+          3
+        ],
+        [
+          6,
+          7,
+          9
+        ],
+        [
+          7,
+          8,
+          6
+        ],
+        [
+          8,
+          9,
+          6
+        ]
+      ],
+      "metric_optimum": 51,
+      "tour": [
+        0,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 51,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 44,
+        "transitions": 129,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 51,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 44,
+        "transitions": 129,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 10,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          9,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          9
+        ],
+        [
+          5,
+          6,
+          2
+        ],
+        [
+          6,
+          7,
+          3
+        ],
+        [
+          7,
+          8,
+          6
+        ],
+        [
+          8,
+          9,
+          8
+        ]
+      ],
+      "metric_optimum": 56,
+      "tour": [
+        0,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 56,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 44,
+        "transitions": 129,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 56,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 44,
+        "transitions": 129,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 12,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          11,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          3,
+          4,
+          2
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          6,
+          3
+        ],
+        [
+          6,
+          7,
+          9
+        ],
+        [
+          7,
+          8,
+          6
+        ],
+        [
+          8,
+          9,
+          6
+        ],
+        [
+          9,
+          10,
+          4
+        ],
+        [
+          10,
+          11,
+          1
+        ]
+      ],
+      "metric_optimum": 56,
+      "tour": [
+        0,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 56,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 54,
+        "transitions": 159,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 56,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 54,
+        "transitions": 159,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "cycle",
+      "n": 12,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          11,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          9
+        ],
+        [
+          5,
+          6,
+          2
+        ],
+        [
+          6,
+          7,
+          3
+        ],
+        [
+          7,
+          8,
+          6
+        ],
+        [
+          8,
+          9,
+          8
+        ],
+        [
+          9,
+          10,
+          1
+        ],
+        [
+          10,
+          11,
+          7
+        ]
+      ],
+      "metric_optimum": 64,
+      "tour": [
+        0,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "compressed": {
+        "optimum": 64,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 54,
+        "transitions": 159,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 64,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "states": 54,
+        "transitions": 159,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 6,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ]
+      ],
+      "metric_optimum": 21,
+      "tour": [
+        0,
+        2,
+        4,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 21,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 29,
+        "transitions": 84,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 21,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 38,
+        "transitions": 111,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 6,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          5,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ]
+      ],
+      "metric_optimum": 32,
+      "tour": [
+        0,
+        2,
+        4,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 32,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 29,
+        "transitions": 84,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 32,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 38,
+        "transitions": 111,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 8,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          5,
+          7,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ]
+      ],
+      "metric_optimum": 39,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 39,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 44,
+        "transitions": 129,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 39,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 62,
+        "transitions": 183,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 8,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          5,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          4,
+          6,
+          3
+        ],
+        [
+          5,
+          7,
+          6
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "metric_optimum": 47,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 47,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 44,
+        "transitions": 129,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 47,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 62,
+        "transitions": 183,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 10,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          5,
+          7,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          4
+        ],
+        [
+          7,
+          9,
+          1
+        ],
+        [
+          8,
+          9,
+          4
+        ]
+      ],
+      "metric_optimum": 42,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 42,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 59,
+        "transitions": 174,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 42,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 86,
+        "transitions": 255,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 10,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          5,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          4,
+          6,
+          3
+        ],
+        [
+          5,
+          7,
+          6
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          1
+        ],
+        [
+          7,
+          9,
+          7
+        ],
+        [
+          8,
+          9,
+          3
+        ]
+      ],
+      "metric_optimum": 50,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 50,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 59,
+        "transitions": 174,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 50,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 86,
+        "transitions": 255,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 12,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          5,
+          7,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          4
+        ],
+        [
+          7,
+          9,
+          1
+        ],
+        [
+          8,
+          9,
+          4
+        ],
+        [
+          8,
+          10,
+          5
+        ],
+        [
+          9,
+          11,
+          5
+        ],
+        [
+          10,
+          11,
+          3
+        ]
+      ],
+      "metric_optimum": 51,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 51,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 74,
+        "transitions": 219,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 51,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 110,
+        "transitions": 327,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "ladder",
+      "n": 12,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          5,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          4,
+          6,
+          3
+        ],
+        [
+          5,
+          7,
+          6
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          1
+        ],
+        [
+          7,
+          9,
+          7
+        ],
+        [
+          8,
+          9,
+          3
+        ],
+        [
+          8,
+          10,
+          4
+        ],
+        [
+          9,
+          11,
+          6
+        ],
+        [
+          10,
+          11,
+          6
+        ]
+      ],
+      "metric_optimum": 63,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 63,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 74,
+        "transitions": 219,
+        "max_layer_states": 5,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 63,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "states": 110,
+        "transitions": 327,
+        "max_layer_states": 11,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 6,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ]
+      ],
+      "metric_optimum": 27,
+      "tour": [
+        0,
+        2,
+        4,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 27,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          2
+        ],
+        "states": 18,
+        "transitions": 51,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 27,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          2
+        ],
+        "states": 23,
+        "transitions": 66,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 6,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ]
+      ],
+      "metric_optimum": 40,
+      "tour": [
+        0,
+        2,
+        4,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 40,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2
+        ],
+        "states": 18,
+        "transitions": 51,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 40,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2
+        ],
+        "states": 23,
+        "transitions": 66,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 80,
+        "transitions": 160
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 8,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ]
+      ],
+      "metric_optimum": 51,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 51,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "states": 26,
+        "transitions": 75,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 51,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "states": 35,
+        "transitions": 102,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 8,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          4,
+          6,
+          3
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "metric_optimum": 62,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 62,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          2
+        ],
+        "states": 26,
+        "transitions": 75,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 62,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          2
+        ],
+        "states": 35,
+        "transitions": 102,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 448,
+        "transitions": 1344
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 10,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          4
+        ],
+        [
+          7,
+          8,
+          1
+        ],
+        [
+          8,
+          9,
+          4
+        ]
+      ],
+      "metric_optimum": 57,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 57,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          2
+        ],
+        "states": 34,
+        "transitions": 99,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 57,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          2
+        ],
+        "states": 47,
+        "transitions": 138,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 10,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          4,
+          6,
+          3
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          1
+        ],
+        [
+          7,
+          8,
+          7
+        ],
+        [
+          8,
+          9,
+          3
+        ]
+      ],
+      "metric_optimum": 68,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 68,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          2
+        ],
+        "states": 34,
+        "transitions": 99,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 68,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          2
+        ],
+        "states": 47,
+        "transitions": 138,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 2304,
+        "transitions": 9216
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 12,
+      "seed": 0,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          5,
+          3
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          4
+        ],
+        [
+          7,
+          8,
+          1
+        ],
+        [
+          8,
+          9,
+          4
+        ],
+        [
+          8,
+          10,
+          5
+        ],
+        [
+          9,
+          10,
+          5
+        ],
+        [
+          10,
+          11,
+          3
+        ]
+      ],
+      "metric_optimum": 69,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 69,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "states": 42,
+        "transitions": 123,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 69,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "states": 59,
+        "transitions": 174,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    },
+    {
+      "family": "triangles",
+      "n": 12,
+      "seed": 1,
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          4,
+          5,
+          2
+        ],
+        [
+          4,
+          6,
+          3
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          1
+        ],
+        [
+          7,
+          8,
+          7
+        ],
+        [
+          8,
+          9,
+          3
+        ],
+        [
+          8,
+          10,
+          4
+        ],
+        [
+          9,
+          10,
+          6
+        ],
+        [
+          10,
+          11,
+          6
+        ]
+      ],
+      "metric_optimum": 87,
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1
+      ],
+      "compressed": {
+        "optimum": 87,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "states": 42,
+        "transitions": 123,
+        "max_layer_states": 4,
+        "max_frontier": 3,
+        "state_mode": "covered-parity-partition"
+      },
+      "raw_degrees": {
+        "optimum": 87,
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "states": 59,
+        "transitions": 174,
+        "max_layer_states": 6,
+        "max_frontier": 3,
+        "state_mode": "degree-partition"
+      },
+      "metric_subset_work": {
+        "states": 11264,
+        "transitions": 56320
+      }
+    }
+  ]
+}

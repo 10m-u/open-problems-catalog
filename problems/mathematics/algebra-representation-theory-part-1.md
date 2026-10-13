@@ -2556,7 +2556,7 @@ Is lim_(B→∞)|F_B|^(−1)Σ\_(K∈F_B)|Cl_K(m)[ℓ]|=ℓ^(|P(1,ℓ)|+δ)[1+�
 
 ## Q2203. Uniform color bounds for linear equations
 
-**Status:** Open · **Kind:** conjecture (Conjecture 1.2.1) · **Collection** 23
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 1.2.1) · **Collection** 23
 
 For every m≥1, does an integer r(m) exist such that every r(m)-regular E in m variables is regular?
 
@@ -2568,7 +2568,10 @@ For every m≥1, does an integer r(m) exist such that every r(m)-regular E in m 
 
 **Results.**
 
+- **Partial result**: The minimal threshold is r(1)=1 vacuously and r(2)=2. A nonregular two-variable equation with opposite signs has unequal coefficient ratio; a nonzero prime valuation of that ratio gives a two-coloring by valuation bands with no monochromatic solution. No threshold proof for every number of variables. Same-sign coefficients have no positive solution. Internally reviewed at this scope; no external peer-review claim. Five failed full-target routes leave the catalog question unresolved. [Details](../../solutions/b2-continuation-2026-10-12/arithmetic/RAMSEY-ATTEMPTS.md).
 - **Investigated, unresolved** (B2: submitted unresolved): No new result supplied. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-RADO-BOUNDARY: Two-variable regularity threshold): The minimal threshold is r(1)=1 vacuously and r(2)=2. A nonregular two-variable equation with opposite signs has unequal coefficient ratio; a nonzero prime valuation of that ratio gives a two-coloring by valuation bands with no monochromatic solution. Remaining/limits: No threshold proof for every number of variables. Same-sign coefficients have no positive solution. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/RAMSEY-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://math.mit.edu/~fox/paper-FoxKleitman.pdf) · [2](https://egrove.olemiss.edu/etd/3405/) · [3](https://doi.org/10.1016/j.jcta.2005.07.004)
 
@@ -2693,6 +2696,8 @@ For every finite nonempty L⊆{2,3,…}, does some A∈P satisfy L(A)=L?
 
 - **Partial result**: Every singleton length set{k} realized by a base-three Boolean cube. Exact exhaustive search of all65536 sets containing0 in[0,16] gives seven displayed length-set witnesses, independently checked. Restricted scope: Universal claim restricted to singleton L; bounded computation does not rule out witnesses beyond maximum16. Remaining: Arbitrary finite nonempty length sets remain unresolved; the exhaustive computation is restricted to sets in [0,16]. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A6: auxiliary proof submission): Every singleton length set {k}, k>=2, is realized; all65536 finite subsets of [0,16] containing0 were exhausted and seven displayed length-set witnesses independently checked. Location: Part C, section 5. Restricted scope: Finite search bound max(A)<=16; general theorem treats singleton length sets. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-TWO-LENGTH-SETS: Known realization of every two-element length set): The reviewed primary Theorem 1.1 realizes every {a,b}, 2<=a&lt;b, by the length-family expression {2,b-a+2}+(a-2){1}. The new complete finite power-set enumeration covers all 4096 normalized sets through maximum twelve. Remaining/limits: The two-element theorem is sourced prior work. General finite length sets and a uniform witness-size bound remain open; the old partial/archive issue is retained. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q2211"></a>
@@ -2720,7 +2725,7 @@ For finite semigroups H,K, does P(H)≅P(K) imply H≅K?
 
 ## Q2212. Unimodality of indecomposable subset counts
 
-**Status:** Open · **Kind:** conjecture (Conjecture 5.4) · **Collection** 23
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 5.4) · **Collection** 23
 
 For every numerical monoid H and integer l≥0, is α\_(0,l)(H),…,α\_(l,l)(H) unimodal?
 
@@ -2732,7 +2737,10 @@ For every numerical monoid H and integer l≥0, is α\_(0,l)(H),…,α\_(l,l)(H)
 
 **Results.**
 
+- **Partial result**: For every numerical monoid H, let m be its least positive element and h=|H intersect [1,l]|. At every cutoff l<2m the nonunit atom counts are binom(h,k-1); at l=2m they are binom(h,k-1)-1_(k=3). Both rows are log-concave with no internal zeros and hence unimodal. Cutoffs greater than 2m remain unresolved. The exact screen at cutoff 18 covers that one cutoff. Source asymptotic quantifiers are kept separate from the stronger survey attribution. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/power-monoids/RESULTS.md).
 - **Investigated, unresolved** (B3: submitted unresolved): Exhaustive over every numerical monoid for every cutoff ell=0,...,22: all atom-count rows are unimodal and in fact log-concave. At ell=22 there are 7257 possible truncations. Independent literal-set verification through ell=8. Remaining/limits: No conclusion for ell>=23. Clarified that the cited almost-unimodality result concerns most positions within a row, not almost every cutoff. [Report](../../solutions/b3-2026-10-06/README.md).
+- **Partial result** (B3-ALL-TARGETS-Q2212-BOUNDARY: Atom log-concavity through twice the monoid multiplicity): For every numerical monoid H, let m be its least positive element and h=|H intersect [1,l]|. At every cutoff l<2m the nonunit atom counts are binom(h,k-1); at l=2m they are binom(h,k-1)-1_(k=3). Both rows are log-concave with no internal zeros and hence unimodal. Remaining/limits: Cutoffs greater than 2m remain unresolved. The exact screen at cutoff 18 covers that one cutoff. Source asymptotic quantifiers are kept separate from the stronger survey attribution. [Report](../../solutions/b3-all-targets-2026-10-13/power-monoids/RESULTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/html/2412.05857v1)
 
@@ -2755,6 +2763,8 @@ Is E(G)=d(G)+|G| for every finite nonabelian group G?
 
 - **Partial result**: Universal lower bound E(G)≥d(G)+|G| proved by adding |G|−1 identities to a product-one-free sequence. Restricted scope: Remaining universal direction is E(G)≤d(G)+|G|. This is a standard necessary bound. Remaining: The reverse inequality E(G)<=d(G)+|G| remains the substantive universal target. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A9: auxiliary proof submission): E(G)>=d(G)+|G| for every finite group. Location: Part C, section 6. Restricted scope: Only one inequality. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-S3-THRESHOLD: Complete product-one threshold verification for S3): All possible ordering products of multiplicity vectors prove d(S3)=3 and E(S3)=9: all 126 length-four and 2002 length-nine multisets pass the respective tests, with exact length-three and length-eight lower witnesses. Remaining/limits: One finite group, already in known dihedral results; arbitrary groups remain open. The earlier universal lower-bound partial remains unchanged. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q2214"></a>
@@ -2792,6 +2802,8 @@ If R⊆N satisfies |(R△Q)∩[1,X]|=o(√X) as X→∞, is it impossible to hav
 
 - **Partial result**: Any decomposition under the retained hypotheses has both summands infinite, A(X),B(X)=o(√X), liminf |(R\Q)∩[1,X]|/X^(1/4)≥1, and the stronger bound E(X)≫\_η X^(1/3−η) for every η>0. Thus irreducibility holds for perturbations O(X^(1/3−δ)) for any fixed δ>0. Restricted scope: The full o(√X) perturbation class remains unresolved. Remaining: The necessary error lower bound is X^(1/3-o(1)); it does not exclude every o(sqrt(X)) perturbation, nor every o(X^(1/3)) perturbation. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A3: auxiliary proof submission): Any retained near-square decomposition has E(X)>>\_eta X^(1/3-eta) for every eta>0; hence perturbations O(X^(1/3-delta)) with delta>0 cannot decompose. Location: Part C, section 3. Restricted scope: Stronger error restriction for the irreducibility corollary. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-FINITE-SUMMAND: Finite-summand exclusion near the squares): With the source o(sqrt(X)) cumulative square-perturbation error, a sumset decomposition cannot have a finite summand of size at least two; two fixed shifts give the counting bound and a necessary error scale Omega(X^(1/4)). Remaining/limits: Sparse infinite/infinite decompositions are not excluded. Original partial mark is retained. [Report](../../solutions/b2-continuation-2026-10-12/diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2608.02568)
 
@@ -2800,7 +2812,7 @@ If R⊆N satisfies |(R△Q)∩[1,X]|=o(√X) as X→∞, is it impossible to hav
 
 ## Q2216. Uniform bipartite square-tuple bound
 
-**Status:** Open · **Kind:** open problem · **Collection** 23
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 23
 
 Does an absolute C exist such that min(|A|,|B|)≤C for every ε∈{−1,1} and every pair with BD₂(ε)?
 
@@ -2813,6 +2825,8 @@ Does an absolute C exist such that min(|A|,|B|)≤C for every ε∈{−1,1} and 
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): No new result in this lane. Remaining/limits: No exact closure established in this session. Restricted scope: None. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-BIPARTITE-COVER: Genus-five four-row cover and a two-row Pell boundary): Four distinct fixed square-sum rows produce the specified degree-sixteen genus-five cover. Two fixed rows allow unbounded Pell-based extensions with both signs permitted. Remaining/limits: Uniformity on the four-row cover is conditional; the unrestricted bipartite minimum problem is not reduced to a clique theorem. [Report](../../solutions/b2-continuation-2026-10-12/diophantine/BIPARTITE-SQUARE-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q2217"></a>
@@ -2833,6 +2847,8 @@ Does a cancellative torsion-free commutative monoid M with rank-one Grothendieck
 
 - **Partial result**: Any counterexample must be a proper Puiseux monoid with positive elements accumulating at0. Groups and monoids with positive lower gap have atomic power monoids. Restricted scope: Necessary restriction; no rank-one counterexample or ascent theorem for accumulating Puiseux monoids. Remaining: The case of a proper nonnegative rational monoid with positive elements accumulating at zero remains unresolved. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A10: auxiliary proof submission): Groups and nonnegative rank-one monoids with a positive lower gap have atomic finite power monoids. A counterexample must be a proper Puiseux monoid accumulating at0. Location: Part C, section 6. Restricted scope: Excludes only the specified cases. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-RECIPROCAL-MCD: Atomic power monoid for all odd-prime reciprocal generators): In M generated by 1/p for every odd prime, a zero-integer-part element has only finitely many divisors by the canonical residue form. Subtracting the minimum integer part proves every finite set has an MCD. M is atomic, so the sourced atomic-MCD theorem makes its finitary power monoid atomic. Remaining/limits: This rules out one accumulating rank-one candidate, not all almost-atomic Puiseux monoids. Prior necessary-condition partial is preserved. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://math.mit.edu/research/highschool/primes/materials/2024/Dani-et-al.pdf)
 
@@ -2948,6 +2964,7 @@ Does some imaginary quadratic field K have a D(1)-quintuple in its ring of integ
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2608.01057) · [2](https://web.math.pmf.unizg.hr/~duje/tors/z2z8.html)
 
@@ -2969,6 +2986,7 @@ Does an elliptic curve E/Q exist with E(Q)\_tors≅C₂×C₈ and rank E(Q)=4?
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2608.01057) · [2](https://web.math.pmf.unizg.hr/~duje/tors/z2z8.html)
 
@@ -2990,6 +3008,7 @@ Are there infinitely many elliptic curves E/Q with E(Q)\_tors≅C₂×C₈ and r
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2608.01057) · [2](https://web.math.pmf.unizg.hr/~duje/tors/z2z8.html)
 
@@ -3011,6 +3030,7 @@ Does a Diophantine triple {a,b,c} exist whose curve y²=(ax+1)(bx+1)(cx+1) has r
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2608.01057) · [2](https://web.math.pmf.unizg.hr/~duje/tors/z2z8.html)
 
@@ -3101,6 +3121,7 @@ Is {(x,y,z,t):xyz+t²+1=0} a finite union of polynomial families?
 
 - **Partial result**: Constructed a Zariski-dense integer polynomial family with three parameters; gave an exact integer solution outside it and every sign/permutation copy. This is a limitation of that family, not a disproof of finite polynomial parametrization. Restricted scope: One explicit polynomial family and its sign/permutation copies are studied, not every possible finite union. Remaining: The displayed dense family and its symmetries are incomplete; a different finite union of polynomial families is neither constructed nor excluded. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-D3: auxiliary proof submission): The displayed three-parameter polynomial family is Zariski dense but misses (-13,13,29,70), as do all of its sign/permutation copies. Location: Part D, section 4. Restricted scope: One specified family, not arbitrary finite unions. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2404.08518)
 
@@ -3123,6 +3144,7 @@ Does x⁴+x³y−y⁴+y³z+z⁴=0 have a solution (x,y,z)≠(0,0,0)?
 
 - **Partial result**: The projective quartic is smooth of genus 3 over Q and has a real point and a primitive Z_p point for every prime p. Therefore no finite modulus supplies a primitive local obstruction. Global nonzero integer existence remains unresolved. Restricted scope: The proved solvability statement is over R and every Z_p, not over Z or Q. Remaining: Everywhere local solubility is proved; a nonzero rational/projective point, equivalently nonzero integer point, is not supplied. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-D1: auxiliary proof submission): The quartic has a primitive Z_p point for every prime and a real point. Thus no modulus obstructs primitive solvability. Location: Part D, section 2. Restricted scope: Local and real solvability; global rational/integer existence not established. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2404.08518)
 
@@ -3145,6 +3167,8 @@ Does x³+x+y³+y+z³+z=xyz+1 have an integer solution?
 
 - **Partial result**: Found exact rational point (-13/20,-79/20,21/5), proved Z_p-solubility for every prime, and ruled out any integer coordinate 0 or +/-1. Integer existence remains unresolved. Restricted scope: The explicit global point is rational; the proved integral solvability is over each Z_p separately. Remaining: The rational point and every-p-adic integral points do not supply an integer point. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-D2: auxiliary proof submission): (-13/20,-79/20,21/5) is a rational point; integral local points exist for every prime; any integer point has every coordinate odd and none 0,+1,-1. Location: Part D, section 3. Restricted scope: Rational and local solvability; no integer point supplied. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-COORDINATE-FIBERS: Unrestricted two-coordinate exclusion for a bounded third coordinate): Exact signed-divisor and discriminant certificates exclude every integer solution of the source symmetric cubic with any coordinate of absolute value at most 5000; the other coordinates are unrestricted. Symmetry transfers the complete fiber exclusion. Remaining/limits: No bound on all coordinates or full integer nonexistence theorem. Prior partial mark preserved. [Report](../../solutions/b2-continuation-2026-10-12/diophantine/Q2316-FIBERS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2404.08518)
 
@@ -3641,6 +3665,10 @@ For every integer n>39, does the partition number p(n) fail to divide n!?
 
 **Literature check.** Status for questions 2610, 2611, 2612, 2613, checked 7 October 2026: All four remain unmarked in October 6 v48; starred and unverified-proof entries were excluded.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 
 <a id="q2614"></a>
 
@@ -3685,6 +3713,11 @@ Does a not-necessarily-commutative domain R exist, finitely presented as an alge
 **Source.** Jason P. Bell, Ken Brown, Zahra Nazemian and Daniel Smertnig. *On noncommutative bounded factorization domains and prime rings*. 2023. [primary source](https://doi.org/10.1016/j.jalgebra.2023.01.023) Location: Question 7.7, p. 444.
 
 **Literature check.** Status for question 2617, checked 7 October 2026: Published source leaves this open; its finitely presented example fails ACCP. Bounded later searches found no resolution.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-GRADED-BF-BOUNDARY: Graded BF exclusion and a well-founded non-BF monoid): Connected N-graded domains are BF by additive degree; the filtered case with a domain leading ring has the same degree argument. An explicit infinite-rank cancellative monoid has ACCP and all lengths n>=2 for x, using a canonical integer budget and disjoint atom families. Remaining/limits: The graded result is known background. The illustrative monoid is not finitely generated; no ring ACCP or finite-presentation counterexample is claimed. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q2618"></a>
@@ -4329,225 +4362,4 @@ Must there be a bijection ε:Irr₀(B)→Irr₀(b) satisfying ε(χ)(1)≤χ(1) 
 **Literature check.** Status for question 2910, checked 7 October 2026: The final 2026 article retains it. Known p-solvable, cyclic-defect and Klein-four-defect cases do not settle arbitrary blocks.
 
 **Further links.** [1](https://doi.org/10.1016/j.aim.2026.111029) · [2](https://arxiv.org/abs/2509.01394) · [3](https://arxiv.org/abs/2609.27042) · [4](https://eugeniomaths.wordpress.com/wp-content/uploads/2026/05/1-s2.0-s0001870826002513-main.pdf)
-
-
-<a id="q2911"></a>
-
-## Q2911. Normal Sylow subgroups from degree-square sums
-
-**Status:** Open · **Kind:** open problem · **Collection** 30
-
-Does G have a normal Sylow p-subgroup if and only if S_p(G)\_(p′)=|G|\_(p′)?
-
-**Context.** Origin for question 2911: Navarro’s 2004 proposed character-degree test, explicitly recalled here. Setup for question 2911: For a finite group G and prime p, put S_p(G)=Σ\_(χ∈Irr(G),p∤χ(1))χ(1)². For a positive integer n, n_(p′)=n/p^(v_p(n)).
-
-**Source.** Nguyen N. Hung, J. Miquel Martínez, Gabriel Navarro. *Sum of the squares of the p′-character degrees*. 2026. [primary source](https://msp.org/pjm/2026/342-2/pjm-v342-n2-p07-p.pdf) Location: Introduction, p. 353, final displayed condition.
-
-**Literature check.** Status for question 2911, checked 7 October 2026: The 2026 paper leaves the test open; no later proof or counterexample located.
-
-**Further links.** [1](https://arxiv.org/abs/2505.21267) · [2](https://sites.google.com/view/nguyen-ngoc-hung/publications)
-
-
-<a id="q2912"></a>
-
-## Q2912. Representation dimension of an idempotent corner
-
-**Status:** Open · **Kind:** open problem · **Collection** 30
-
-For every Artin algebra A and idempotent e∈A, must rep.dim(eAe)≤rep.dim(A)?
-
-**Context.** Origin for question 2912: Xi’s idempotent-corner conjecture. Setup for question 2912: For an Artin algebra A, rep.dim(A)=inf_M gl.dim End_A(M), where M ranges over finitely generated generator-cogenerators of A-mod.
-
-**Source.** Changchang Xi. *The relative Auslander–Reiten theory of modules (undated revised preprint)*. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/rart.pdf) Location: Closing conjecture after Theorem 7.2, author p. 25.
-
-**Literature check.** Status for question 2912, checked 7 October 2026: The source states the conjecture; later searches found no general resolution.
-
-**Further links.** [1](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [2](https://www.wemath.cn/~ccxi/Papers/EngshowArt.php?Artmode=3)
-
-
-<a id="q2913"></a>
-
-## Q2913. Rationality level under Lusztig induction
-
-**Status:** Open · **Kind:** conjecture (Conjecture C) · **Collection** 30
-
-For every prime p with p∤χ(1), does max{lev_p(ψ),lev_p(χ)}≥2 imply lev_p(χ)=lev_p(ψ)?
-
-**Context.** Origin for question 2913: Hung’s August 2026 extension from maximal tori to arbitrary Levi subgroups. Setup for question 2913: For a virtual character ξ, let c(ξ)=min{m:Q(ξ)⊆Q(ζ\_m)} and lev_p(ξ)=v_p(c(ξ)). Let G be a connected reductive algebraic group over an algebraic closure of F_r, F a Steinberg endomorphism, L an F-stable Levi subgroup of a parabolic P≤G, and ψ∈Irr(L^F). Write χ=R^G_(L≤P)(ψ) for Lusztig induction.
-
-**Source.** Nguyen N. Hung. *On the p-rationality of Deligne–Lusztig characters*. 2026. [primary source](https://arxiv.org/abs/2608.17871) Location: Conjecture C, pp. 3–4.
-
-**Literature check.** Status for question 2913, checked 7 October 2026: The defining-characteristic and certain solvable-Levi cases are proved; no general resolution located.
-
-**Further links.** [1](https://arxiv.org/html/2608.17871v1) · [2](https://sites.google.com/view/nguyen-ngoc-hung/publications)
-
-
-<a id="q2914"></a>
-
-## Q2914. Recovering derived equivalence from mirrors
-
-**Status:** Open · **Kind:** open problem · **Collection** 30
-
-If (R(A,e),e) and (R(B,f),f) are derived equivalent as pairs, must A and B be derived equivalent?
-
-**Context.** Origin for questions 2914, 2915: Authors’ concluding questions. Setup for questions 2914, 2915: A,B are finite-dimensional gendo-symmetric k-algebras: each is End_Λ(Λ⊕M) for symmetric Λ. Choose idempotents e,f with Ae,Bf faithful projective-injective. Put X=Ae⊗\_(eAe)eA and R(A,e)=A⊕X, with (a,x)(b,y)=(ab,ay+xb+xy), where (u⊗v)(u′⊗v′)=uvu′⊗v′; define R(B,f) similarly. Pairs (C,c),(D,d) are derived equivalent if a triangle equivalence D(C-Mod)→D(D-Mod) restricts to K^b(add Cc)→K^b(add Dd). Stable equivalence of Morita type means finite-dimensional bimodules, projective on both sides, whose tensor composites are the regular bimodules plus projective bimodules.
-
-**Source.** Hongxing Chen, Changchang Xi. *Derived equivalences for mirror-reflective algebras*. 2023. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/defmra.pdf) Location: Concluding question (1), author p. 15; Definition 2.3.
-
-**Literature check.** Status for questions 2914, 2915, checked 7 October 2026: The concluding questions remain unanswered in later searches.
-
-**Further links.** [1](https://arxiv.org/abs/2309.13964) · [2](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [3](https://pnp.mathematik.uni-stuttgart.de/iaz/iaz1/Oberseminar/abstracts/yipingchen26082025.html)
-
-
-<a id="q2915"></a>
-
-## Q2915. Stable Morita equivalence of mirrors
-
-**Status:** Open · **Kind:** open problem · **Collection** 30
-
-If A and B are stably equivalent of Morita type, must R(A,e) and R(B,f) be stably equivalent of Morita type?
-
-**Context.** Origin for questions 2914, 2915: Authors’ concluding questions. Setup for questions 2914, 2915: A,B are finite-dimensional gendo-symmetric k-algebras: each is End_Λ(Λ⊕M) for symmetric Λ. Choose idempotents e,f with Ae,Bf faithful projective-injective. Put X=Ae⊗\_(eAe)eA and R(A,e)=A⊕X, with (a,x)(b,y)=(ab,ay+xb+xy), where (u⊗v)(u′⊗v′)=uvu′⊗v′; define R(B,f) similarly. Pairs (C,c),(D,d) are derived equivalent if a triangle equivalence D(C-Mod)→D(D-Mod) restricts to K^b(add Cc)→K^b(add Dd). Stable equivalence of Morita type means finite-dimensional bimodules, projective on both sides, whose tensor composites are the regular bimodules plus projective bimodules.
-
-**Source.** Hongxing Chen, Changchang Xi. *Derived equivalences for mirror-reflective algebras*. 2023. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/defmra.pdf) Location: Concluding question (2), author p. 15.
-
-**Literature check.** Status for questions 2914, 2915, checked 7 October 2026: The concluding questions remain unanswered in later searches.
-
-**Further links.** [1](https://arxiv.org/abs/2309.13964) · [2](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [3](https://pnp.mathematik.uni-stuttgart.de/iaz/iaz1/Oberseminar/abstracts/yipingchen26082025.html)
-
-
-<a id="q2916"></a>
-
-## Q2916. Hochschild cohomology algebras of matrix centralizers
-
-**Status:** Open · **Kind:** open problem · **Collection** 30
-
-Determine the graded k-algebra HH\*(C(c)) for arbitrary fields k, integers n≥1 and matrices c∈M_n(k).
-
-**Context.** Origin for question 2916: Xi’s February 2026 problem-page question, not a dissertation-origin problem. Setup for question 2916: For a field k and c∈M_n(k), set C(c)={X∈M_n(k):Xc=cX}. Write HH\*(C(c))=Ext\*\_(C(c)⊗\_k C(c)^op)(C(c),C(c)), with its cup product.
-
-**Source.** Changchang Xi. *Open problems*. 2026. [primary source](https://www.wemath.cn/~ccxi/EngOpenProblem.php) Location: February 2026 entry, third bullet.
-
-**Literature check.** Status for question 2916, checked 7 October 2026: August–September 2026 work computes the center and HH₀, not the full cohomology algebra; no complete answer located.
-
-**Further links.** [1](https://arxiv.org/abs/2608.15460) · [2](https://arxiv.org/abs/2608.21922)
-
-
-<a id="q2917"></a>
-
-## Q2917. Stable equivalences preserve the number of nonprojective simples
-
-**Status:** Open · **Kind:** open problem · **Collection** 30
-
-Must stably equivalent Artin algebras have the same number of isomorphism classes of nonprojective simple modules?
-
-**Context.** Origin for question 2917: Auslander–Reiten’s conjecture on stable equivalences, restated by Xi–Zhang. Setup for question 2917: A,B are Artin algebras over a commutative Artin ring k. The stable category of A has finitely generated left A-modules and morphisms modulo maps factoring through projectives. Stable equivalence means a k-linear equivalence of these categories.
-
-**Source.** Changchang Xi, Jinbi Zhang. *New invariants of stable equivalences and Auslander–Reiten conjecture*. 2026. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/xz3online.pdf) Location: Introduction (ARC), p. 2; §2.1.
-
-**Literature check.** Status for question 2917, checked 7 October 2026: The 2026 article proves special classes only; later searches found no general answer.
-
-**Further links.** [1](https://doi.org/10.1007/s00208-026-03422-8) · [2](https://arxiv.org/abs/2207.10848) · [3](https://arxiv.org/abs/2511.19051)
-
-
-<a id="q2918"></a>
-
-## Q2918. Signed Cartan determinants under stable Morita equivalence
-
-**Status:** Open · **Kind:** open problem (Question 3) · **Collection** 30
-
-If A and B are stably equivalent of Morita type, must det(C_A)=det(C_B)?
-
-**Context.** Origin for question 2918: Xi’s Question 3. Setup for question 2918: A,B are Artin algebras over a commutative Artin ring k. C_A has entries [P_j:S_i], the composition multiplicities in projective covers P_j of the simple modules S_j; define C_B similarly. Stable Morita equivalence uses finitely generated bimodules projective on both sides whose tensor products are the regular bimodules plus projective bimodules.
-
-**Source.** Changchang Xi. *Stable equivalences of adjoint type*. 2008. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/staadj_FM.pdf) Location: Question 3, p. 95; standing conventions p. 82.
-
-**Literature check.** Status for question 2918, checked 7 October 2026: Only equality of absolute determinants is proved in Proposition 5.1; no later general sign-preservation result located.
-
-**Further links.** [1](https://doi.org/10.1515/FORUM.2008.004) · [2](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [3](https://arxiv.org/abs/2603.20643)
-
-
-<a id="q2929"></a>
-
-## Q2929. Profinite invariance of rational solvable filtrations
-
-**Status:** Open · **Kind:** open problem (Question 10.3) · **Collection** 30
-
-If finitely generated residually finite Γ,Λ have isomorphic profinite completions and Γ is RFRS, must Λ be RFRS?
-
-**Context.** Doctoral context for question 2929: Ismael Morales López. L2-invariants in abstract and profinite group theory. DPhil, University of Oxford, 2025; supervisors Dawid Kielak and Richard Wade. Origin for question 2929: Morales’s question on profinite invariance of RFRS. Setup for question 2929: Write Ĝ for the inverse limit of G’s finite quotients. A group is RFRS if G=G₀≥G₁≥⋯ are finite-index normal subgroups of G, ⋂Gᵢ=1, and ker(Gᵢ→H₁(Gᵢ;Q))⊂Gᵢ₊₁.
-
-**Source.** Ismael Morales. *On the profinite rigidity of free and surface groups*. 2024. [primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC11424743/) Location: Question 10.3, preprint p. 33.
-
-**Literature check.** Status for question 2929, checked 7 October 2026: The 2024 article explicitly poses this; later rigidity results impose extra hypotheses. No general resolution found.
-
-**Further links.** [1](https://arxiv.org/abs/2211.12390) · [2](https://sites.google.com/view/ismaelmorales/home) · [3](https://arxiv.org/abs/2312.12293) · [4](https://arxiv.org/abs/2608.07350) · [5](https://arxiv.org/abs/2603.16763) · [6](https://ora.ox.ac.uk/objects/uuid%3Acaa81b48-6ada-4b87-8703-51bb482a4aae)
-
-
-<a id="q2933"></a>
-
-## Q2933. An infinite group of transitivity degree four
-
-**Status:** Open · **Kind:** open problem · **Collection** 30
-
-Does an infinite group G with td(G)=4 exist?
-
-**Context.** Origin for question 2933: Previously open group-theoretic question explicitly recalled by Rybak. Setup for question 2933: The transitivity degree td(G) is the supremum of integers k for which G admits a faithful k-transitive permutation action. k-transitive means transitive on ordered k-tuples of distinct points.
-
-**Source.** Ekaterina Rybak. *Boundary dynamics, triple transitivity, and mixed identities in weakly hyperbolic groups*. 2026. [primary source](https://arxiv.org/pdf/2605.14159v3) Location: §1.3, paragraph before Corollary J, p. 7.
-
-**Literature check.** Status for question 2933, checked 7 October 2026: The current paper excludes certain weakly hyperbolic groups, not all infinite groups; no general resolution located.
-
-**Further links.** [1](https://sites.google.com/view/ekaterinarybak/home) · [2](https://arxiv.org/abs/2605.14159)
-
-
-<a id="q3001"></a>
-
-## Q3001. Unique shortest-path weights
-
-**Status:** Open · **Kind:** open problem · **Collection** 31
-
-For every u,v∈W, do all shortest directed paths from u to v have equal weight?
-
-**Context.** Origin for questions 3001, 3002: General affine extension of Postnikov’s finite-type theorem; the diamond exception is Dean’s conjecture. Setup for questions 3001, 3002: Let W be an affine Weyl group, Φ⁺ its positive real roots, ℓ its Coxeter length, and ρ the sum of fundamental weights. QBG(W) has vertices W and edges w→ws_α of weight 0 when ℓ(ws_α)=ℓ(w)+1, or weight α∨ when ℓ(ws_α)=ℓ(w)+1−⟨α∨,2ρ⟩. Path weight is the sum of edge weights.
-
-**Source.** Lewis Dean. *Affine quantum Bruhat graphs and double affine Demazure products*. University of Glasgow, 2026. Advisor(s): Dinakar Muthiah and Misha Feigin. [primary source](https://theses.gla.ac.uk/86179/2/2026DeanPhD.pdf) Location: §1.1.3, p. 4; §2.5.1, pp. 27–29.
-
-**Literature check.** Status for questions 3001, 3002, checked 8 October 2026: The 2026 thesis retains both targets; the final 2025 paper proves shortest-weight uniqueness only in affine A₁.
-
-**Further links.** [1](https://theses.gla.ac.uk/86179/) · [2](https://doi.org/10.1007/s00209-025-03832-5) · [3](https://arxiv.org/abs/2411.14170)
-
-
-<a id="q3002"></a>
-
-## Q3002. Exact affine diamond exception
-
-**Status:** Open · **Kind:** conjecture (Conjecture 2.5.7) · **Collection** 31
-
-For every two-edge path u→us_α→v with u≠v, is it the unique two-edge path from u to v exactly when its weight is nonzero and purely imaginary, with exactly two such paths otherwise?
-
-**Context.** Origin for questions 3001, 3002: General affine extension of Postnikov’s finite-type theorem; the diamond exception is Dean’s conjecture. Setup for questions 3001, 3002: Let W be an affine Weyl group, Φ⁺ its positive real roots, ℓ its Coxeter length, and ρ the sum of fundamental weights. QBG(W) has vertices W and edges w→ws_α of weight 0 when ℓ(ws_α)=ℓ(w)+1, or weight α∨ when ℓ(ws_α)=ℓ(w)+1−⟨α∨,2ρ⟩. Path weight is the sum of edge weights.
-
-**Source.** Lewis Dean. *Affine quantum Bruhat graphs and double affine Demazure products*. University of Glasgow, 2026. Advisor(s): Dinakar Muthiah and Misha Feigin. [primary source](https://theses.gla.ac.uk/86179/2/2026DeanPhD.pdf) Location: Conjecture 2.5.7, p. 29; Proposition 2.5.6.
-
-**Literature check.** Status for questions 3001, 3002, checked 8 October 2026: The 2026 thesis retains both targets; the final 2025 paper proves shortest-weight uniqueness only in affine A₁.
-
-**Further links.** [1](https://theses.gla.ac.uk/86179/) · [2](https://doi.org/10.1007/s00209-025-03832-5) · [3](https://arxiv.org/abs/2411.14170)
-
-
-<a id="q3003"></a>
-
-## Q3003. Finitely generated finite-generation ideal
-
-**Status:** Open · **Kind:** open problem (Question 6.3.4) · **Collection** 31
-
-Does there exist a non-finitely generated monomial K-subalgebra R⊂K[x₁,…,x_n], for some finite n, whose ideal f_R is finitely generated as an R-ideal?
-
-**Context.** Origin for questions 3003, 3004: Hart’s concluding questions, motivated by computations of non-finitely generated invariant rings. Setup for questions 3003, 3004: Let K be an algebraically closed field of characteristic zero. For a K-domain R, let f_R={0}∪{f∈R\\{0}:R[1/f] is finitely generated over K}; this is its finite-generation ideal. A monomial subalgebra is generated by monomials.
-
-**Source.** Simon Hart. *Hilbert’s fourteenth problem and finite generation ideals*. University of York, 2025. Advisor(s): Emilie Dufresne and Michael Bate. [primary source](https://etheses.whiterose.ac.uk/id/eprint/36388/1/Thesis__Final_SH_09_24.pdf) Location: Question 6.3.4, p. 127.
-
-**Literature check.** Status for questions 3003, 3004, checked 8 October 2026: Thesis full text retains these questions; its counterexample concerns general monomial algebras, not invariant rings.
-
-**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/36388/) · [2](https://pure.york.ac.uk/portal/en/publications/hilberts-fourteenth-problem-and-finite-generation-ideals) · [3](https://doi.org/10.1080/00927872.2024.2404704)
 

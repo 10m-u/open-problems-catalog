@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "Independent finite controls only; analytic review is ROUND3-REVIEW.md.",
+  "submission_code_imported": false,
+  "plane_labelings_examined": 19683,
+  "admissible_plane_labelings": 1371,
+  "plane_maximum_flat_directions_checked": 1129,
+  "three_space_lifted_partitions_checked": 1371,
+  "lifted_maximum_flat_directions_checked": 1129,
+  "sharp_construction_size": 16,
+  "sharp_construction_maximum_flat_size": 3,
+  "sharp_maximum_flat_directions_checked": 4,
+  "normalized_spanning_five_sets_checked": 23,
+  "normalized_spanning_five_set_minimum_sumset_size": 12,
+  "independent_gradient_controls": 80,
+  "entropy_interval_method": "35 atanh terms, geometric upper remainder, unrounded fractions",
+  "finite_ascent_certified": true,
+  "finite_ascent_gap_lower_rational": "219193603408784956464944298939/5000000000000000000000000000000000000000",
+  "submission_files_preserved": true,
+  "submission_file_count": 19,
+  "copied_replay_receipts": {
+    "MIDPOINT-CHECKS.json": "identical JSON content",
+    "ENTROPY-VARIATION-CHECKS.json": "identical JSON content"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "colored_cases_literal_word_and_exact_recognizer": 36,
+  "known_uniform_color_cases_are_controls_not_new_attempts": true,
+  "new_colored_RR_exclusion": {
+    "m": [
+      1,
+      2
+    ],
+    "r": [
+      3,
+      2
+    ],
+    "h": [
+      1,
+      20,
+      15
+    ],
+    "all_length_candidates": 27
+  },
+  "separated_single_component_rows": [
+    1,
+    5,
+    6
+  ],
+  "heterogeneous_scaled_known_vector_row": [
+    1,
+    16,
+    7
+  ],
+  "multiplicity_operator_actual_input": [
+    1,
+    9,
+    2
+  ],
+  "multiplicity_operator_actual_output": [
+    1,
+    20,
+    15
+  ],
+  "append_volume_denominator_actual_output": [
+    1,
+    19,
+    16
+  ],
+  "gamma_actual_colored_two_letter": {
+    "h": [
+      1,
+      13,
+      4
+    ],
+    "a": [
+      1,
+      10,
+      1
+    ],
+    "b": [
+      3,
+      3
+    ],
+    "gamma": [
+      1,
+      8
+    ],
+    "eta": [
+      3
+    ],
+    "frozen_classical_pair_row": [
+      1,
+      1,
+      0
+    ],
+    "last_color_rows": [
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        0,
+        5,
+        1
+      ]
+    ],
+    "underlying_order_rows": [
+      [
+        1,
+        7,
+        1
+      ],
+      [
+        0,
+        6,
+        3
+      ]
+    ]
+  },
+  "root_factor_integer_decoration_obstruction": {
+    "actual_B4_h": [
+      1,
+      76,
+      230,
+      76,
+      1
+    ],
+    "gamma": [
+      1,
+      72,
+      80
+    ],
+    "discriminant": 4864
+  },
+  "formal_gamma_growth_negative_eta": [
+    "-1/2",
+    "-1",
+    "-1/2"
+  ],
+  "actual_gamma_growth_positive": {
+    "after": [
+      1,
+      36,
+      42,
+      2
+    ],
+    "gamma": [
+      1,
+      32
+    ],
+    "eta": [
+      1,
+      5
+    ]
+  },
+  "endpoint_partition_exact_controls": 16,
+  "two_letter_gamma_orbit_controls": 4,
+  "actual_repeated_letter_endpoint_failure": [
+    1,
+    31,
+    22,
+    0
+  ],
+  "checker_sha256": "a3ed0791d0201177d379ef1c9d7b01ca710b0e16c8d01ed4ec11759d0d55f1a9",
+  "probe_sha256": "7877059d3fe45295a6f6b77d38675dd5aed4be02214cf834c33c10976385a6f8",
+  "scope": "Finite exact decisions/actual method obstructions and a labelled formal gamma transition; no full structural classification or interpretation."
+}

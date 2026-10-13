@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13",
+  "final_archive": "projects/thesis-catalog/data/archive/before-b3-final-filing-2026-10-13",
+  "result_records": 30,
+  "compiled_records": 462,
+  "previous_compiled_records_preserved": 433,
+  "prior_ledger_decisions_preserved": 419,
+  "prior_ledger_topics_preserved_unchanged": 235,
+  "prior_topic_extended_with_preserved_history": "b3-return-q1443",
+  "new_statement_decisions": [
+    "e69abf86443507ce94c1",
+    "ede55ed8ecc1ee3fb171",
+    "bc41aa82edde5fa04288",
+    "1019289850b68fa9a39d",
+    "5c6116ffa807a6eec932",
+    "38ee4eff0fa06bac5bff",
+    "e72b53411c22fbff5f8d",
+    "5bb8850a675fa7b8f178",
+    "e99f4af73e39dc10e13e",
+    "4c4220934cbe880eed2a",
+    "a6c90946f4a09ac5cc25",
+    "c7b37a4f023d3108799f",
+    "447e759afd7b59ff5bc8",
+    "78ec95f39163b4d48c33",
+    "a31c9277487bff39e87f",
+    "c57f9ad1b958503cc283",
+    "dbeb90554cf5c006f41c",
+    "6543aaa40ba45a5c2797",
+    "4b99311cd3fe6261d814",
+    "a11e18c8c4efdd11d5f8"
+  ],
+  "new_exact_catalog_closures": [
+    "Q1443",
+    "Q3902",
+    "Q4082",
+    "Q4666"
+  ],
+  "completed_broader_targets": [
+    "B3C-Q02",
+    "B3C-Q06",
+    "B3C-Q07"
+  ],
+  "all_original_corpus_fields_preserved": true,
+  "public_write": false,
+  "final_validation_pending": false,
+  "final_validation": "FINAL-VALIDATION.json"
+}

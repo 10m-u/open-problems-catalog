@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "power_equations": {
+    "cubic_bound": 5000,
+    "solutions": {
+      "1": [
+        [
+          1,
+          23,
+          156,
+          2
+        ],
+        [
+          6,
+          26,
+          1953,
+          217
+        ],
+        [
+          20,
+          362,
+          616077,
+          889
+        ]
+      ],
+      "-1": [
+        [
+          2,
+          4,
+          21,
+          7
+        ],
+        [
+          2,
+          22,
+          273,
+          7
+        ],
+        [
+          3,
+          313,
+          28236,
+          26
+        ],
+        [
+          4,
+          22,
+          819,
+          7
+        ]
+      ]
+    },
+    "quartic_minus_exception": [
+      13,
+      239,
+      9653280
+    ],
+    "Terai_hits": 99
+  },
+  "factorizations": {
+    "n_m_max": 30,
+    "polynomials_checked": 870
+  },
+  "cyclotomic_heights": [
+    {
+      "n": 15,
+      "degree": 8,
+      "height": 1,
+      "inverse_height": 1
+    },
+    {
+      "n": 105,
+      "degree": 48,
+      "height": 2,
+      "inverse_height": 1
+    },
+    {
+      "n": 465,
+      "degree": 240,
+      "height": 1,
+      "inverse_height": 1
+    },
+    {
+      "n": 15015,
+      "degree": 5760,
+      "height": 23,
+      "inverse_height": 11
+    }
+  ],
+  "scope": "Replay of declared finite controls; no expanded search or full closure."
+}

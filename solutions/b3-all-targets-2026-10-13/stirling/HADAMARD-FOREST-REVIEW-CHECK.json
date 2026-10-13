@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cycle_base_identities_matched": 3,
+  "cycle_and_cactus_pair_controls": 141,
+  "cactus_forests": 49,
+  "shifted_repeated_pole_controls": 256,
+  "exact_discriminants_checked": 4,
+  "checker_sha256": "5a3fc7f17cedb1b3c02742675019ec7e6bb68553fd2ef4bfbc43e1633f6b1490",
+  "scope": "Independent tuple-coefficient/BFS bases and bounded cactus controls; all-size proof is analytical. No K6 replay and no full catalog closure."
+}

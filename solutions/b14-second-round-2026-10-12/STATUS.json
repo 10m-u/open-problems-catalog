@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-12",
+  "overall_state": "complete_under_stopping_rule",
+  "stop_rule": "per problem: solved or five consecutive substantive failures; stop overall only when every target terminal",
+  "programme_completion_clarification": "User selected broader research ambitions; first deliverables do not close full targets.",
+  "continuing_agent": "/root/b14_local_optima",
+  "targets": {
+    "Q3817": {
+      "scope": "all sparse generating graphs",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": true
+    },
+    "Q3818": {
+      "scope": "exact iid Uniform count question",
+      "consecutive_failures": 0,
+      "state": "solved_locally",
+      "first_deliverable_met": true
+    },
+    "Q549": {
+      "scope": "general split proof discovery",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": false
+    },
+    "Q550": {
+      "scope": "matching variable proof discovery f(treewidth)poly(input,deficiency,T)",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": false
+    },
+    "Q1852": {
+      "scope": "path-power degree conjecture",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": false
+    },
+    "Q1853": {
+      "scope": "cycle-power degree conjecture",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": false
+    },
+    "Q1953": {
+      "scope": "all bicirculants with stated exceptions",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": false
+    },
+    "Q3819": {
+      "scope": "existence of polynomial improving clustering paths",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": false
+    },
+    "P1": {
+      "scope": "certified elimination and residual structure",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": true,
+      "review": "BROADER-ROUTE-REVIEW.md: final programme counts reviewed by main thread; independent base-result audits retained"
+    },
+    "P2": {
+      "scope": "existential substantial endpoint-state reduction, including a certified residual family; no universal speed claim",
+      "consecutive_failures": 0,
+      "state": "solved_locally",
+      "first_deliverable_met": true
+    },
+    "P3": {
+      "scope": "full sparse Exp expected 2-opt move-count model, any initializer/strict pivot, real-arithmetic work",
+      "consecutive_failures": 0,
+      "state": "solved_locally",
+      "first_deliverable_met": true
+    },
+    "P4": {
+      "scope": "LP supports and scoped rounding",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": true,
+      "review": "BROADER-ROUTE-REVIEW.md: final programme counts reviewed by main thread; independent base-result audits retained"
+    },
+    "P5": {
+      "scope": "remove exponential count loss",
+      "consecutive_failures": 0,
+      "state": "solved_locally",
+      "first_deliverable_met": true
+    },
+    "P6": {
+      "scope": "learned guidance under controlled certified-solver comparisons",
+      "consecutive_failures": 5,
+      "state": "failure_limit",
+      "first_deliverable_met": true,
+      "review": "BROADER-ROUTE-REVIEW.md: final programme counts reviewed by main thread; independent base-result audits retained"
+    }
+  },
+  "completion_note": "Broader ambitions: Q3818/P5 count, P2 existential state reduction and P3 full sparse expected descent solved locally; seven catalog targets and P1/P4/P6 stopped at five reviewed failed routes each."
+}

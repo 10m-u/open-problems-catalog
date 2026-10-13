@@ -1,0 +1,662 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\hypersetup{pdftitle={Two-colour rigidity and boundary obstructions for entropy extremizers},pdfauthor={B2 research continuation},pdfsubject={Further results for Q4296 and Q4660},pdfkeywords={midpoint colouring, affine cap, entropy, support perturbation, exact certificate}}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small B2 research continuation II}
+\fancyhead[R]{\small 13 October 2026}
+\fancyfoot[C]{\thepage}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\F}{\mathbb F_3}
+\newcommand{\Fp}{\mathbb F_p}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\aff}{\operatorname{aff}}
+\newcommand{\codim}{\operatorname{codim}}
+\newcommand{\Dplus}{\Delta_+}
+\newcommand{\Dminus}{\Delta_-}
+\title{\vspace{-12mm}\textbf{Two-colour rigidity and boundary obstructions\\for entropy extremizers}\\[4pt]\large Further results for the B2 midpoint and entropy programs}
+\author{Research continuation from the supplied handoff}
+\date{13 October 2026}
+\begin{document}
+\maketitle\vspace{-6mm}
+\begin{abstract}
+An admissible two-colour partition of $\F^n$ has a line-free remainder only
+when that remainder is empty, a singleton, two points, or a four-point affine
+parallelogram. An elementary plane-incidence proof establishes this
+classification in every dimension. A full-fibre inheritance lemma then shows
+that, in any fixed direction, the number of parallel maximal affine subspaces
+in a nonempty two-colour remainder is $1$, $2$, or $4$, with parallelogram
+structure in the last case. Colour-reusing ambient extension gives density
+$1/10$ examples whose largest affine subspace has dimension exactly $n-k-2$.
+For the sum--difference entropy ratio, a support-boundary expansion gives a
+finite test for leading-order support enlargement. In particular, no finite
+law of ratio greater than one that fully occupies an arithmetic progression
+can be globally extremal. Exact rational arithmetic also certifies the
+improved bound $C_*>1.4051810329$. These results do not remove the general
+$O(k\log k)$ codimension loss or settle whether $C_*=2$.
+\end{abstract}
+
+\section{Scope and relation to the previous results}
+
+The two targets and their stable statement identifiers are
+\begin{center}
+\begin{tabular}{ll}
+Q4296 & \texttt{67d9a47fe0b199024fdb}\\
+Q4660 & \texttt{4e69214fdfaf0bc4e852}.
+\end{tabular}
+\end{center}
+The previous continuation \cite{previous} proved an all-dimension midpoint
+bound of codimension
+\[
+ O_p\!\left(k[\log(2k)+\log(1/\alpha)]\right)
+\]
+using the established bounded-torsion PFR theorem \cite{pfr}, and certified an entropy ratio of
+$1.4051809660756335725\ldots$. The present note adds structural theorems,
+exact small-parameter values, a stronger explicit obstruction, and a support
+perturbation method. The primary midpoint paper gives the quadratic bound
+and asks for the exact extremal function \cite{midpoint}.
+
+\textbf{Source-location correction.} The catalog attaches ``Conjecture 1.10''
+to Q4660. In the primary source \cite{li}, Conjecture 1.10 is the separate
+sum--product conjecture. The sum--difference sharpness question stated in
+Q4660 occurs in Section 8. This note addresses Q4660's mathematical statement,
+not Conjecture 1.10. The original catalog record is preserved unmodified;
+the correction is recorded separately in the accompanying provenance.
+
+\textbf{Status.} The general statements below have complete written proofs.
+The numerical lower bound has an exact rational certificate. The programs
+provide independent finite controls, not a formal verification of the
+all-dimension arguments. No external peer review, proof-assistant
+verification, or worldwide-priority claim is made. Neither complete catalog
+target is marked solved. The other targets and the earlier attempt counters
+are unchanged.
+
+\section{Exact classification of two-colour cap remainders}
+
+A partition
+\[
+ \F^n=A\sqcup B\sqcup R
+\]
+is \emph{admissible} when two points in either one of the colour classes
+$A,B$ never have their midpoint in $R$. Empty colour classes are permitted.
+No density assumption is imposed in this section. A \emph{cap} is a set
+containing no affine line; over $\F$, a line has three points. An affine
+parallelogram means a set $a+\{0,u,v,u+v\}$ with $u,v$ linearly independent.
+
+\begin{theorem}[Two-colour cap classification]\label{thm:cap}
+For every $n\geq0$, if an admissible two-colour remainder $R\subseteq\F^n$
+is a cap, then $R$ is empty, a singleton, two distinct points, or an affine
+parallelogram. Conversely, each of these configurations is the remainder
+of an admissible partition in every ambient space containing it.
+In particular, $|R|\leq4$ and a nonempty $R$ has affine dimension at most two.
+\end{theorem}
+
+\begin{lemma}[No three-point plane section]\label{lem:three}
+Under the hypotheses of Theorem~\ref{thm:cap}, no affine plane meets $R$
+in exactly three points.
+\end{lemma}
+\begin{proof}
+Such three points would be noncollinear. Affine coordinates on their plane
+therefore put them at $0,e_1,e_2$. The three points
+\[
+ e_1+e_2,\qquad e_1-e_2,\qquad -e_1+e_2
+\]
+are outside $R$, and their pairwise midpoints are $e_1,e_2,0$.
+They must be pairwise differently coloured, which is impossible with two
+colours. The argument only uses points in the plane, so it applies to every
+plane section of the full ambient partition.
+\end{proof}
+
+\begin{lemma}[Caps in an affine plane]\label{lem:planecap}
+A cap in $\F^2$ has at most four points. Every four-point cap is an affine
+parallelogram.
+\end{lemma}
+\begin{proof}
+Fixing a point of a nonempty cap, the four lines through it contain at most
+one other cap point each. The cap therefore has size at most five.
+If it had size five, this argument at each cap point would show that no line
+meets the cap in exactly one point. But any parallel class of three lines
+partitions the five points into parts of size at most two, necessarily of
+sizes $2,2,1$. This is a contradiction.
+
+For a four-point cap, put three of its points at $0,e_1,e_2$. The fourth
+point can only be $e_1+e_2$, $e_1-e_2$, or $-e_1+e_2$: the other unused
+points complete a line through two of the first three. Each of the three
+possibilities is a parallelogram, possibly with a different choice of
+opposite vertices.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:cap}: the dimension bound]
+Let $W$ be any affine three-space and set $S=R\cap W$, $s=|S|$.
+By Lemmas~\ref{lem:three} and \ref{lem:planecap}, every affine plane of $W$
+meets $S$ in $0$, $1$, $2$, or $4$ points. Write $n_j$ for the number of
+planes with intersection size $j$.
+
+There are $39$ affine planes in $\F^3$: the nonzero linear functionals,
+up to their two nonzero scalar multiples, give $13$ plane directions,
+each with three translates. A point lies on $13$ planes. A pair lies on
+four planes, because the linear functionals vanishing on its one-dimensional
+difference space form a two-dimensional space, with four projective classes.
+Every triple in the cap is noncollinear and determines one plane. Counting
+planes, point incidences, pair incidences, and triple incidences gives
+\begin{align}
+ n_0+n_1+n_2+n_4&=39,\label{eq:mom0}\\
+ n_1+2n_2+4n_4&=13s,\label{eq:mom1}\\
+ n_2+6n_4&=4\binom{s}{2},\label{eq:mom2}\\
+ 4n_4&=\binom{s}{3}.\label{eq:mom3}
+\end{align}
+Consequently,
+\begin{align*}
+ n_4&=\frac14\binom{s}{3},&
+ n_2&=4\binom{s}{2}-\frac32\binom{s}{3},\\
+ n_1&=13s-8\binom{s}{2}+2\binom{s}{3},&
+ n_0&=39-13s+4\binom{s}{2}-\frac34\binom{s}{3}.
+\end{align*}
+Three parallel planes cover $W$, and each contains at most four cap points,
+so $s\leq12$. For $s=3$, equation~\eqref{eq:mom3} is already impossible.
+For $5\leq s\leq12$, the following table rules out nonnegative integral
+values of all the counts.
+\begin{center}
+\begin{tabular}{rrrrr}
+\toprule
+$s$ & $n_0$ & $n_1$ & $n_2$ & $n_4$\\
+\midrule
+5 & $13/2$ & 5 & 25 & $5/2$\\
+6 & 6 & $-2$ & 30 & 5\\
+7 & $23/4$ & $-7$ & $63/2$ & $35/4$\\
+8 & 5 & $-8$ & 28 & 14\\
+9 & 3 & $-3$ & 18 & 21\\
+10 & $-1$ & 10 & 0 & 30\\
+11 & $-31/4$ & 33 & $-55/2$ & $165/4$\\
+12 & $-18$ & 68 & $-66$ & 55\\
+\bottomrule
+\end{tabular}
+\end{center}
+The only possible sizes are therefore $0,1,2,4$. If $s=4$, then $n_4=1$,
+so the four points lie in one affine plane.
+
+If $R$ contained four affinely independent points, their affine span would
+be a three-space $W$. Its section $S$ would have at least four points and
+would not be contained in a plane, contradicting the preceding conclusion.
+Thus $\dim\aff(R)\leq2$ when $R$ is nonempty. The plane lemmas now give
+the claimed list, including the exclusion of three points. For ambient
+dimension less than three the same plane lemmas apply directly.
+\end{proof}
+
+\subsection{Extension without spending another colour}
+
+The converse and the later constructions use an elementary extension
+principle that is useful independently of the classification.
+
+\begin{lemma}[Colour-reusing ambient extension]\label{lem:extension}
+Let $p$ be an odd prime and $k\geq2$. An admissible $k$-colour partition
+of an affine subspace $U\subseteq\Fp^n$ extends to an admissible partition
+of $\Fp^n$ with the same remainder and no additional colour labels.
+\end{lemma}
+\begin{proof}
+Translate $U$ to a linear subspace. In $\Fp^n/U$, pair each nonzero quotient
+point $q$ with $-q$ and arbitrarily orient each pair. Colour every point of
+the positively oriented fibre with colour $1$, and every point of the
+opposite fibre with colour $2$. Retain the original partition on $U$.
+
+Two outside points can have midpoint in $U$ only if their nonzero quotient
+points are opposites, in which case the colours differ. A pair with exactly
+one endpoint in $U$ has midpoint outside $U$. Pairs wholly in $U$ obey the
+original condition. Since the remainder is unchanged and contained in $U$,
+these observations prove admissibility.
+\end{proof}
+
+\begin{proof}[Completion of Theorem~\ref{thm:cap}: realizability]
+The empty remainder is immediate. A singleton is the remainder of the
+zero-dimensional partition and extends by Lemma~\ref{lem:extension}.
+Two points are realized on their three-point affine line by colouring the
+third point, and then extending. For the square
+$Q=\{1,2\}\times\{1,2\}\subseteq\F^2$, colour points with first coordinate
+zero by colour $1$, and points with second coordinate zero and first
+coordinate nonzero by colour $2$. A monochromatic midpoint has a zero
+coordinate and cannot belong to $Q$. Affine invariance and extension give
+every required parallelogram in every containing ambient space.
+\end{proof}
+
+\section{Parallel maximal subspaces and extremal consequences}
+
+\begin{lemma}[Inheritance by full fibres]\label{lem:fibre}
+Let $G=\Fp^n=A_1\sqcup\cdots\sqcup A_k\sqcup R$ be admissible, with $p$
+odd, and let $\pi:G\to G/V$ be a linear quotient. Set
+\[
+ R_V=\{q\in G/V:\pi^{-1}(q)\subseteq R\}.
+\]
+Then $R_V$ is an admissible $k$-colour remainder in the quotient. For each
+$q\notin R_V$, any chosen point of $\pi^{-1}(q)\setminus R$ can supply
+$q$'s colour.
+\end{lemma}
+\begin{proof}
+Suppose two chosen representatives $x,y$ have the same colour. If the
+midpoint of their quotient points belonged to $R_V$, its entire fibre
+would lie in $R$, including $(x+y)/2$. This contradicts admissibility in
+$G$. The proof does not require a partially occupied fibre to be
+monochromatic and does not assert preservation of remainder density.
+\end{proof}
+
+\begin{corollary}[Rigidity of parallel maximal flats]\label{cor:parallel}
+Suppose an admissible two-colour remainder $R\subseteq\F^n$ contains no
+affine $(d+1)$-subspace. For every $d$-dimensional linear subspace $V$, the
+number of complete cosets of $V$ contained in $R$ is $0,1,2$, or $4$.
+In the four-coset case, their quotient points form an affine parallelogram.
+In particular, if $V$ is the direction of a largest affine subspace of a
+nonempty $R$, the number is $1,2$, or $4$, and never three.
+\end{corollary}
+\begin{proof}
+An affine line in $R_V$ would lift to an affine $(d+1)$-subspace wholly
+inside $R$. Thus $R_V$ is a cap. Apply Lemma~\ref{lem:fibre} and
+Theorem~\ref{thm:cap}.
+\end{proof}
+The four-coset case is sharp in every $d$: take
+$R=Q\times\F^d$, with $Q$ the four-point cap, and lift its two-colour
+partition by Cartesian product. Projection of any affine subspace of $R$
+into $Q$ must be a point, since a positive-dimensional affine image would
+contain a line. The largest affine dimension is therefore exactly $d$.
+Ambient extension is again allowed.
+
+\begin{corollary}[Exact first two-colour values]\label{cor:small}
+Let $f(n,2)$ be the minimum, over admissible two-colour partitions with
+$|R|\geq3^n/10$, of the largest affine dimension in $R$. Then
+\[
+ f(1,2)=f(2,2)=f(3,2)=0,\qquad f(4,2)=1.
+\]
+For every $n\geq4$, a remainder of density at least $1/10$ contains a line.
+In dimension three, every line-free remainder meeting the density threshold
+is a four-point parallelogram.
+\end{corollary}
+\begin{proof}
+Singletons give the first two examples: their densities are $1/3$ and $1/9$.
+A four-point cap embedded in $\F^3$ has density $4/27$ and largest affine
+dimension zero. In dimension four the density condition requires at least
+nine points, exceeding the cap bound of four, and hence forces a line.
+The example $Q\times\F\times\{0\}\subseteq\F^4$, extended from its
+three-dimensional affine span, has density $12/81$ and largest affine
+dimension one. The same cap bound forces a line in all higher dimensions.
+\end{proof}
+
+\begin{proposition}[A $k+2$ codimension obstruction]\label{prop:block}
+Let $k\geq2$, $b=\lceil\log_3(10k)\rceil$, and $n\geq kb+2$.
+There is an admissible $k$-colour partition of $\F^n$ with density
+$|R|/3^n\geq1/10$ for which the largest affine subspace in $R$ has dimension
+exactly $n-k-2$. In particular,
+\[
+ f(n,k)\leq n-k-2\qquad
+ \text{for }n\geq k\lceil\log_3(10k)\rceil+2.
+\]
+\end{proposition}
+\begin{proof}
+Write coordinates as $(z_1,\ldots,z_k,t,y)$, with
+$z_i\in\F^b$, $t\in\F^2$, and $y\in\F^{n-kb-2}$. Define
+\[
+ R=\{(z_1,\ldots,z_k,t,y):z_i\neq0\ \text{for all }i,\ t=0\}.
+\]
+Inside $t=0$, colour every point outside $R$ by its first zero block.
+A pair of colour $i$ has a zero $i$th block at its midpoint, so cannot have
+midpoint in $R$. Extend to the whole ambient space by
+Lemma~\ref{lem:extension}, reusing colours $1,2$. Explicitly, for $t\neq0$
+use its first nonzero coordinate as colour $1$ or $2$.
+
+The density is
+\[
+ \frac{|R|}{3^n}=\frac19(1-3^{-b})^k
+ \geq\frac19(1-k3^{-b})\geq\frac1{10}.
+\]
+Every affine subspace $L\subseteq R$ satisfies the two independent
+constraints $t=0$. Its image in block $i$ is an affine space $a_i+W_i$
+avoiding zero, so $a_i\notin W_i$. Some linear functional $\ell_i$ has
+$\ell_i(W_i)=0$ and $\ell_i(a_i)=1$. The $k$ resulting block constraints
+are independent of one another and of the two $t$-constraints, because
+their coordinate supports are disjoint. Hence $\dim L\leq n-k-2$.
+Equality is attained by setting the first coordinate of each $z_i$ to one
+and $t=0$, while leaving all other coordinates free.
+\end{proof}
+
+\begin{remark}[What these conclusions do not imply]
+The proposition strengthens the previous $k$-codimension construction by
+two and rules out a universal exact guarantee of dimension $n-k$. It does
+not change the order of the lower obstruction or improve the general
+$O(k\log k)$ upper codimension bound from the previous continuation.
+Full-fibre inheritance does not preserve density and cannot by itself be
+iterated into a linear-codimension theorem.
+\end{remark}
+
+\section{A support-boundary calculus for the entropy ratio}
+
+Let $P$ be a nondegenerate probability law on a finite set $A\subseteq\mathbb R$,
+and let $X,X'$ be independent with law $P$. Use natural logarithms and write
+\[
+ \Dplus(P)=H(X+X')-H(X),\qquad
+ \Dminus(P)=H(X-X')-H(X),\qquad
+ \rho(P)=\frac{\Dminus(P)}{\Dplus(P)}.
+\]
+The denominator is positive. Indeed, the law of $X+X'$ is a nontrivial
+mixture of distinct translates of $P$, all with entropy $H(P)$, and entropy
+is strictly concave. The translates are distinct because a finite
+nonempty support cannot be invariant under a nonzero real translation.
+The ratio does not depend on the logarithm base.
+
+Write $C_*$ for the least universal sum--difference constant in Q4660.
+The bound $C_*\leq2$ is established in the literature; sharpness is the
+question recorded in Section 8 of \cite{li}. The dimension equivalence in
+\cite{makkuva} is also relevant: independent tensor products preserve a
+ratio rather than increasing it. No new tensorization theorem is claimed
+here.
+
+\begin{theorem}[Support-boundary expansion]\label{thm:boundary}
+For $z\notin A$, put $P_\varepsilon=(1-\varepsilon)P+\varepsilon\delta_z$,
+and define the two escape masses
+\[
+ u_+(z)=\Prob(z+X\notin A+A),\qquad
+ u_-(z)=\Prob(z-X\notin A-A).
+\]
+As $\varepsilon\downarrow0$,
+\begin{equation}\label{eq:boundary}
+ \rho(P_\varepsilon)=\rho(P)+
+ \frac{L_P(z)}{\Dplus(P)}\varepsilon\log(1/\varepsilon)
+ +O_{P,z}(\varepsilon),
+\end{equation}
+where
+\begin{equation}\label{eq:L}
+ L_P(z)=2u_-(z)-1-\rho(P)\bigl(2u_+(z)-1\bigr).
+\end{equation}
+In particular, $L_P(z)>0$ implies strict ascent for every sufficiently
+small positive $\varepsilon$. A finitely supported global maximizer must
+have $L_P(z)\leq0$ for every $z\notin A$.
+\end{theorem}
+\begin{proof}
+Adding a new input atom gives
+\[
+ H(P_\varepsilon)=H(P)+\varepsilon\log(1/\varepsilon)+O_P(\varepsilon).
+\]
+For a finite output law depending polynomially on $\varepsilon$, an atom
+whose mass is positive at $\varepsilon=0$ contributes a change of order
+$O(\varepsilon)$ to entropy. A previously zero atom whose mass is
+$c\varepsilon+O(\varepsilon^2)$, $c>0$, contributes
+$c\varepsilon\log(1/\varepsilon)+O(\varepsilon)$. An atom first appearing
+at order $\varepsilon^2$ contributes only
+$O(\varepsilon^2\log(1/\varepsilon))=o(\varepsilon)$.
+
+In the sum law, the two input cross terms have total first-order mass
+$2\varepsilon$, and the part landing outside $A+A$ is
+$2u_+(z)\varepsilon$. In the difference law the cross terms are supported
+on $z-A$ and $A-z$. Symmetry of $A-A$ shows that each has escape mass
+$u_-(z)\varepsilon$. Coincident output atoms are aggregated; no
+disjointness or independence between these escape events is assumed.
+Thus
+\begin{align*}
+ \Dplus(P_\varepsilon)&=\Dplus(P)
+ +(2u_+(z)-1)\varepsilon\log(1/\varepsilon)+O_{P,z}(\varepsilon),\\
+ \Dminus(P_\varepsilon)&=\Dminus(P)
+ +(2u_-(z)-1)\varepsilon\log(1/\varepsilon)+O_{P,z}(\varepsilon).
+\end{align*}
+Divide the two expansions. Since $\Dplus(P)>0$ and
+$(\varepsilon\log(1/\varepsilon))^2=o(\varepsilon)$, the quotient error
+remains $O_{P,z}(\varepsilon)$, proving~\eqref{eq:boundary}. Its positive
+leading term dominates that error when $L_P(z)>0$.
+\end{proof}
+
+\begin{corollary}[A finite boundary test]\label{cor:finite}
+Suppose $\rho(P)>1$. Any atom $z$ with $L_P(z)>0$ belongs to
+\[
+ (A+A-A)\setminus A.
+\]
+Consequently, testing all leading-order support-enlargement directions
+requires at most $|A|^3$ candidate locations. Passing the test is a
+necessary condition for global optimality, not a sufficient condition.
+\end{corollary}
+\begin{proof}
+If $z\notin A+A-A$, then $z+x\notin A+A$ and $z-x\notin A-A$ for
+every $x\in A$. Thus $u_+(z)=u_-(z)=1$ and
+$L_P(z)=1-\rho(P)<0$. The displayed finite set includes every other
+possible new atom with nonnegative leading coefficient.
+\end{proof}
+
+\begin{corollary}[No finite full-AP global maximizer]\label{cor:AP}
+Suppose the support of $P$ is a nontrivial finite arithmetic progression,
+with positive probability at every one of its points, and $\rho(P)>1$.
+Then $P$ is not a global maximizer of the sum--difference ratio. One of
+the two adjacent endpoint atoms gives strict ascent at all sufficiently
+small positive masses.
+\end{corollary}
+\begin{proof}
+Affine changes of the random variable preserve the ratio. Normalize the
+support to $A=\{0,\ldots,N\}$, with probabilities $p_j>0$. For a new
+right-hand atom $z=N+1$, the only input producing a sum outside $A+A$ is
+$X=N$, and the only input producing a difference outside $A-A$ is $X=0$.
+Therefore
+\[
+ L_R=2p_0-1+\rho(1-2p_N).
+\]
+At the left-hand atom $z=-1$ the roles reverse:
+\[
+ L_L=2p_N-1+\rho(1-2p_0).
+\]
+Their sum is
+\begin{equation}\label{eq:endpointsum}
+ L_R+L_L=2(\rho-1)(1-p_0-p_N).
+\end{equation}
+For $N\geq2$, the right side is strictly positive. If $N=1$, then
+$L_R=(1+\rho)(p_0-p_1)$ and $L_L=-L_R$. Equality of the endpoint masses
+would give the symmetric two-point law with $\rho=1$, contrary to the
+hypothesis. Hence at least one endpoint has positive coefficient in every
+case. Apply Theorem~\ref{thm:boundary}.
+\end{proof}
+The same argument can be repeated after each addition: every finite
+full-AP law of ratio above one admits an infinite chain of strictly
+improving finite full-AP extensions. If the initial probabilities are
+rational, the added masses can all be chosen rational. This does not
+identify the limiting ratio or assert that it approaches two.
+
+\begin{corollary}[Heavy endpoint obstruction]\label{cor:heavy}
+A finitely supported real law with ratio greater than one and probability
+at least $1/2$ at its minimum or its maximum cannot be globally extremal.
+\end{corollary}
+\begin{proof}
+By reflection consider $a=\min A$, $b=\max A$, and $p_a\geq1/2$.
+At $z=2b-a>b$, the only old sum reached by $z+X$ occurs at $X=a$, and
+the only old difference reached by $z-X$ occurs at $X=b$. Hence
+\[
+ u_+(z)=1-p_a,\qquad u_-(z)=1-p_b,
+ \qquad L_P(z)=1-2p_b-\rho(1-2p_a).
+\]
+This is positive: $p_b\leq1-p_a\leq1/2$, and equality in both terms
+could only be the fair two-point law, whose ratio is one. Apply the
+support-boundary theorem.
+\end{proof}
+
+\begin{remark}[The boundary test is not an optimality certificate]
+For the uniform law on $A=\{0,1,4\}$,
+\[
+ \rho=\frac{(2/3)\log3}{\log3-(2/3)\log2}>1.
+\]
+The candidate set $(A+A-A)\setminus A$ is
+$\{-4,-3,-2,-1,2,3,5,7,8\}$. At each candidate, the old-support capture
+mass $1-u_+$ is $1/3$, while $1-u_-$ is either $1/3$ or $2/3$.
+The corresponding coefficients are $(1-\rho)/3$ or $-(1+\rho)/3$,
+both strictly negative; all other atoms also have negative coefficient.
+This law nevertheless has ratio less than $6/5$, well below the witness
+in the next section. Thus failure to find a positive leading coefficient
+does not prove global optimality, and the preceding corollaries do not
+exclude every finite support. The bound $\rho<6/5$ follows from
+$8\log3>12\log2$, equivalently $3^2>2^3$.
+\end{remark}
+
+\section{A stronger exact entropy certificate}
+
+\begin{proposition}[Twelve-point witness]\label{prop:witness}
+Let $X$ have support $\{0,1,\ldots,11\}$ and probability numerators
+\[
+\begin{array}{rrrr}
+88162313713840,&10154514342618,&1485728499913,&177389643984,\\
+18240191721,&1665031585,&137417507,&10383619,\\
+725058,&47123,&2867,&165
+\end{array}
+\]
+with common denominator $10^{14}$. Then
+\begin{gather*}
+1.4051810329220149462009831947934829507300<\rho(X),\\
+\rho(X)<1.4051810329220149462009831947934829507301.
+\end{gather*}
+In particular,
+\[
+ C_*>\frac{14051810329}{10^{10}}=1.4051810329.
+\]
+\end{proposition}
+
+\begin{proof}[Exact certificate]
+For integer input weights $w_i$ of total $D$, compute output weights by
+integer convolution,
+\[
+ s_t=\sum_{i+j=t}w_iw_j,\qquad d_t=\sum_{i-j=t}w_iw_j.
+\]
+Their common total is $D^2$. For a nonnegative count vector $c$ of positive
+total $N$, entropy is
+\[
+ H(c)=\log N-\frac1N\sum_{c_i>0}c_i\log c_i.
+\]
+The included program \texttt{certify\_entropy.py} uses only exact integers
+and fractions. It encloses each logarithm by range reduction to $r\in[1,2]$,
+followed by $t=(r-1)/(r+1)\in[0,1/3]$ and
+\[
+ L_J(r)=2\sum_{j=0}^{J-1}\frac{t^{2j+1}}{2j+1},\qquad
+ 0\leq\log r-L_J(r)\leq
+ \frac{2t^{2J+1}}{(2J+1)(1-t^2)}.
+\]
+It takes $J=90$ and rounds the resulting rational bounds outward to the
+$10^{-65}$ grid before subsequent entropy arithmetic. It proves positivity
+of both increments, bounds their quotient with the correct monotone
+endpoints, and directly proves
+\[
+ \underline{\Dminus}
+ -\frac{14051810329}{10^{10}}\,\overline{\Dplus}>0.
+\]
+The file \texttt{ENTROPY-CERTIFICATE.json} records all convolution weights,
+interval endpoints, and the positive-gap certificate. The unrounded
+rational bounds lie strictly inside the displayed decimal endpoints,
+which are outward-rounded to forty decimal places. This finite rational
+calculation proves the stated inequalities.
+\end{proof}
+
+The improvement over the preceding eight-point certificate is approximately
+$6.68464\cdot10^{-8}$ in the ratio. It is a numerical increment, not a
+large change in the known universal range. The more substantial entropy
+conclusion is Corollary~\ref{cor:AP}: the displayed law itself, and every
+other finite full-AP candidate with ratio above one, still admits a
+strictly improving extension.
+
+As a concrete check on the perturbation mechanism, start with weights
+$(8830,1009,143,16,2)$ of total $10^4$, multiply each weight by $999999$,
+and append a sixth weight $10000$. This realizes
+$\varepsilon=10^{-6}$ at the next endpoint. Exact certification gives
+\[
+ 1.405025826013192214095918\ldots
+ \quad\longrightarrow\quad
+ 1.405056049166641606653721\ldots.
+\]
+The complete before-and-after certificates appear in
+\texttt{BOUNDARY-CHECKS.json}; this is a demonstrative ascent, not the
+strongest witness in the package.
+
+\section{Verification, negative controls, and remaining gaps}
+
+The three proof-control programs require only Python's standard library:
+\begin{verbatim}
+python certify_entropy.py
+python verify_midpoint.py
+python verify_entropy_boundary.py
+\end{verbatim}
+The entropy verifier recomputes the exact twelve-point certificate and
+checks the previous eight-point law as a baseline control. The midpoint
+verifier enumerates all $512$ plane subsets, confirming cap counts
+$1,9,36,72,54$ at sizes $0,1,2,3,4$ and admissible cap counts
+$1,9,36,54$ at sizes $0,1,2,4$. It independently constructs the $39$
+planes of $\F^3$, checks point, pair, and noncollinear-triple incidences,
+and evaluates every possible moment row for $0\leq s\leq12$.
+It also examines all $19683$ two-colour labelled plane partitions,
+finds $1371$ admissible ones, and checks all $23196$ inherited quotient
+colour assignments generated by arbitrary allowed representative colours.
+The entropy-boundary controls check $2238$ new-output mass identities,
+$16$ AP endpoint identities, $120$ heavy-endpoint instances, and the exact
+finite ascent above. Complete boundary reports find eleven positive leading
+directions among the twenty-two candidates for the twelve-point law, and
+strictly negative coefficients at every candidate for the uniform
+$\{0,1,4\}$ negative control.
+
+The package preserves a negative control against an overstrong midpoint
+strategy. In $\F^3$, let
+\begin{align*}
+ A=\{&(0,1,2),(0,2,2),(1,1,0),\\
+     &(1,2,1),(2,0,0),(2,0,1)\},\qquad
+ B=\{(x,y,z):y+z=2\},
+\end{align*}
+and let $R$ be the complement. This is an admissible partition; both $A$
+and $R$ affinely span the ambient space, while $R$ contains no affine plane.
+The verifier checks these statements exactly. In particular, a removal
+argument that assumes every colour has proper affine span whenever the
+remainder spans the ambient space is invalid.
+
+Floating-point stationary searches on longer consecutive supports,
+correlated grids, and other support patterns are retained separately in
+\texttt{exploratory/}. They suggested the rational witness but supply no
+global upper bound. MILP outputs in that directory are exploratory solver
+records, not certificates of dimension-free statements. The elementary
+classification proof does not depend on the search that first suggested it.
+
+\textbf{Remaining gaps.} The exact general function $f(n,k)$ is not
+determined. In particular, the prior $O(k\log(2k))$ upper codimension bound
+has not been improved to $O(k)$ here. The full-fibre result counts parallel
+complete subspaces but does not control partially occupied fibres.
+For entropy, the universal upper bound remains two. Finite-support
+boundary tests impose necessary conditions and eliminate full-AP and
+heavy-endpoint candidates; they neither certify a global optimum nor
+exclude all finite supports. There is no claim of a solution to the
+separate entropic sum--product conjecture.
+
+\begingroup\small
+\begin{thebibliography}{9}\setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}
+\bibitem{midpoint}
+Tomasz Ko\'sciuszko, \emph{Arithmetic Progressions in Midpoint Colourings},
+arXiv:2610.11847v1 (8 October 2026), Problem 4 and Theorem 3.
+\url{https://arxiv.org/html/2610.11847v1}.
+\bibitem{li}
+Rupert Li, \emph{The Entropic Sum-Product Phenomenon},
+arXiv:2607.29042v1 (2026), Conjecture 1.10 and Section 8.
+\url{https://arxiv.org/html/2607.29042v1}.
+\bibitem{makkuva}
+Ashok Vardhan Makkuva and Yihong Wu,
+\emph{Equivalence of additive-combinatorial linear inequalities for Shannon
+entropy and differential entropy}, arXiv:1601.07498v2, Proposition 1.
+\url{https://arxiv.org/html/1601.07498v2}.
+\bibitem{pfr}
+W. T. Gowers, Ben Green, Freddie Manners, and Terence Tao,
+\emph{Marton's conjecture in abelian groups with bounded torsion},
+arXiv:2404.02244v2, Theorem 1.1.
+\url{https://arxiv.org/html/2404.02244v2}.
+\bibitem{previous}
+\emph{Logarithmic codimension bounds for midpoint colourings and certified
+improvements for the entropic sum--difference problem}, previous B2
+continuation (13 October 2026), supplied as
+\texttt{B2-new-results-2026-10-13.zip}. This is a local research manuscript,
+not a claim of independent publication.
+\end{thebibliography}
+\endgroup
+\end{document}

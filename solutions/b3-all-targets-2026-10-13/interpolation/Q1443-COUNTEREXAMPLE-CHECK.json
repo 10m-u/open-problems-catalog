@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "certificates": [
+    {
+      "a": 7,
+      "b": 5,
+      "M": 32,
+      "degree": 36,
+      "gap": "14/5",
+      "exact_disjoint_negative_sign_changes": 36,
+      "positive_coefficients": 37,
+      "independent_newton_numerator": true
+    }
+  ],
+  "certificate_sha256": "939bd1044c18af3727c90a89604e25b7a2e49c317bd8c3d77d3c05e989896709",
+  "checker_sha256": "aa7cb704f1344688932267c10880b84d9457826ec86f87e1d12ba21ab5c7841d",
+  "scope": "Exact IVT certificates prove these bases in U_n. Their consecutive root gap is 2a/b. The base (a,b,M)=(7,5,32) disproves Q1443 with gap 14/5. Product closure also gives each fixed-gap family for every M at least its certified base."
+}

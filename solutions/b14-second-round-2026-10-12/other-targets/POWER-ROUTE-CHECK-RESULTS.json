@@ -1,0 +1,669 @@
+{
+  "status": "passed",
+  "attempt_controls": [
+    {
+      "target": "Q1852",
+      "attempt": 1,
+      "n": 20,
+      "k": 6,
+      "degrees": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11,
+        11,
+        10,
+        9,
+        8,
+        7,
+        5
+      ],
+      "theorem5_failures": [
+        {
+          "orientation": "forward",
+          "violations": [
+            19
+          ]
+        },
+        {
+          "orientation": "reverse",
+          "violations": [
+            19
+          ]
+        }
+      ],
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        19,
+        17,
+        15,
+        13,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1
+      ]
+    },
+    {
+      "target": "Q1852",
+      "attempt": 2,
+      "n": 25,
+      "k": 4,
+      "minimum_degree": 4,
+      "maximum_degree": 8,
+      "closure_additions": 0
+    },
+    {
+      "target": "Q1853",
+      "attempt": 2,
+      "n": 25,
+      "k": 4,
+      "minimum_degree": 8,
+      "maximum_degree": 8,
+      "closure_additions": 0
+    },
+    {
+      "target": "Q1852",
+      "attempt": 3,
+      "n": 12,
+      "k": 4,
+      "separator": [
+        5,
+        6
+      ],
+      "component_sizes": [
+        5,
+        5
+      ],
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1
+      ]
+    },
+    {
+      "target": "Q1853",
+      "attempt": 3,
+      "n": 9,
+      "k": 3,
+      "separator": [
+        0,
+        4
+      ],
+      "component_sizes": [
+        3,
+        4
+      ],
+      "tour": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "target": "Q1852",
+      "attempt": 4,
+      "n": 10,
+      "k": 9,
+      "fractional_extreme_point": "unit spokes, half outer/inner 5-cycles"
+    },
+    {
+      "target": "Q1853",
+      "attempt": 4,
+      "n": 10,
+      "k": 5,
+      "fractional_extreme_point": "unit spokes, half outer/inner 5-cycles"
+    },
+    {
+      "target": "Q1852",
+      "attempt": 5,
+      "n": 12,
+      "k": 4,
+      "endpoint_deletion_failures": [
+        {
+          "removed_endpoint": 0,
+          "violations": [
+            {
+              "new_vertex": 3,
+              "degree": 5,
+              "required": 6
+            }
+          ]
+        },
+        {
+          "removed_endpoint": 11,
+          "violations": [
+            {
+              "new_vertex": 7,
+              "degree": 5,
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "tour": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1
+      ]
+    },
+    {
+      "target": "Q1853",
+      "attempt": 1,
+      "n": 20,
+      "k": 3,
+      "added_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          10,
+          13
+        ]
+      ],
+      "all_cuts": [
+        {
+          "start": 0,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        },
+        {
+          "start": 1,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 18
+        },
+        {
+          "start": 2,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 18
+        },
+        {
+          "start": 3,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 18
+        },
+        {
+          "start": 4,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        },
+        {
+          "start": 5,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        },
+        {
+          "start": 6,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 16
+        },
+        {
+          "start": 7,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 16
+        },
+        {
+          "start": 8,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 16
+        },
+        {
+          "start": 9,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        },
+        {
+          "start": 10,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        },
+        {
+          "start": 11,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 18
+        },
+        {
+          "start": 12,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 18
+        },
+        {
+          "start": 13,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 18
+        },
+        {
+          "start": 14,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        },
+        {
+          "start": 15,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        },
+        {
+          "start": 16,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 16
+        },
+        {
+          "start": 17,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 16
+        },
+        {
+          "start": 18,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 16
+        },
+        {
+          "start": 19,
+          "maximum_degree": 5,
+          "vertices_degree_at_most_4": 17
+        }
+      ],
+      "all_20_cyclic_cuts_fail": true
+    },
+    {
+      "target": "Q1853",
+      "attempt": 5,
+      "forward_orientation_obstructions": [
+        {
+          "n": 7,
+          "undirected_tour": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required_all_forward_steps": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "removed_edge_in_each_type": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "n": 9,
+          "undirected_tour": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "required_all_forward_steps": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "removed_edge_in_each_type": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "n": 11,
+          "undirected_tour": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "required_all_forward_steps": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "removed_edge_in_each_type": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "n": 13,
+          "undirected_tour": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "required_all_forward_steps": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "removed_edge_in_each_type": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "fractional_vertex": {
+    "doubled_nonzero_edges": [
+      [
+        [
+          0,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        2
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          6
+        ],
+        2
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          7
+        ],
+        2
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          8
+        ],
+        2
+      ],
+      [
+        [
+          4,
+          9
+        ],
+        2
+      ],
+      [
+        [
+          5,
+          7
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          6,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          6,
+          9
+        ],
+        1
+      ],
+      [
+        [
+          7,
+          9
+        ],
+        1
+      ]
+    ],
+    "proper_cuts_checked": 1022,
+    "tight_cuts": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      33,
+      64,
+      66,
+      128,
+      132,
+      256,
+      264,
+      495,
+      511,
+      512,
+      528,
+      759,
+      767,
+      891,
+      895,
+      957,
+      959,
+      990,
+      991,
+      1007,
+      1015,
+      1019,
+      1021,
+      1022
+    ],
+    "vertex_argument": "Five tight spoke upper bounds plus two odd-cycle degree systems uniquely determine all 15 supported variables."
+  },
+  "scope": "Every graph is Hamiltonian; the examples refute proposed reductions, not Q1852/Q1853."
+}

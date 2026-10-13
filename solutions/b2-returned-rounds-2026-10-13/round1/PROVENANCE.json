@@ -1,0 +1,53 @@
+{
+  "continuation_date": "2026-10-13",
+  "input_archive": {
+    "name": "B2-complete-handoff-2026-10-13.zip",
+    "sha256": "951fd4245984b94ead7f24767c8af9867115609c847ddcb5b8df9ffa8c4dfa59",
+    "bytes": 32439359
+  },
+  "original_files": [
+    {
+      "path_in_archive": "projects/thesis-catalog/exports/b2-handoff-2026-10-13/CATALOG-SNAPSHOT.json",
+      "sha256": "d5311d88a119d20669765ef9f9a94121a31961f6671a02b13251c4a0d56c969d"
+    },
+    {
+      "path_in_archive": "projects/thesis-catalog/exports/b2-handoff-2026-10-13/HANDOFF.md",
+      "sha256": "63d757059b543044b605c9657e99f93415ceaebce3722c26ac3a67fc368cfc9b"
+    },
+    {
+      "path_in_archive": "solutions/b2-continuation-2026-10-12/arithmetic/UNCOLOURED-ATTEMPTS.md",
+      "sha256": "b7b67694c641ce1e30efbde9a9da003d94395fe7a3aef71962d8e233b44255d6"
+    },
+    {
+      "path_in_archive": "solutions/b2-continuation-2026-10-12/arithmetic/ENTROPY-ATTEMPTS.md",
+      "sha256": "a8c53842a7c75c7cac97bf2fdc9f98c05558b9f09df01fa163659cfce9cf7c68"
+    },
+    {
+      "path_in_archive": "solutions/b2-continuation-2026-10-12/arithmetic/CERTIFIED-LAW-CHECK.json",
+      "sha256": "c872362cc7ec3f4095b60cff44e9b24526571eea466ed523b2e876a77d486f1d"
+    }
+  ],
+  "catalog_targets_in_input": 81,
+  "targets_advanced": [
+    "Q4296",
+    "Q4660"
+  ],
+  "untouched_other_targets": 79,
+  "original_catalog_modified": false,
+  "primary_sources_checked": [
+    "arXiv:2610.11847v1",
+    "arXiv:2404.02244v2",
+    "arXiv:2607.29042v1"
+  ],
+  "external_peer_review": false,
+  "formal_proof_assistant_verification": false,
+  "priority_scope": "New relative to the supplied handoff and checked primary statements; no literature-wide novelty guarantee.",
+  "verification_environment": {
+    "python": "3.13.5",
+    "certificate_dependencies": "standard library only"
+  },
+  "optional_search_environment": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "entropy_blocks": 21,
+  "mixed_block_identities": 15,
+  "saved_candidate_costs": [
+    {
+      "t": 1,
+      "cost": 1.0
+    },
+    {
+      "t": 2,
+      "cost": 1.4666532573018696
+    },
+    {
+      "t": 3,
+      "cost": 1.6470796606750346
+    },
+    {
+      "t": 4,
+      "cost": 1.7139709984002496
+    }
+  ],
+  "analytic_two_character_control": true,
+  "saved_generic_packets": 5,
+  "saved_specialized_packets": 2,
+  "altered_packets_rejected": 3,
+  "generated_circuits": 20,
+  "bounded_circuit_semantics": 27280,
+  "direct_counterexample_checks": 16,
+  "complement_basefour_controls": 131072,
+  "scope": "independent finite controls; no new optimization, proof search or unbounded definability claim"
+}

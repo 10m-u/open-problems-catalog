@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "incremental_scope": "Q4082 full proof only",
+  "previous_compiled_records_preserved": 432,
+  "compiled_records": 433,
+  "prior_ledger_decisions_preserved": 418,
+  "prior_ledger_topics_preserved": 235,
+  "corpus_records_preserved": 28601,
+  "statement_id": "e5a1b7c117f783defc9e",
+  "new_exact_catalog_closures": 1,
+  "run_complete": false,
+  "public_write": false
+}

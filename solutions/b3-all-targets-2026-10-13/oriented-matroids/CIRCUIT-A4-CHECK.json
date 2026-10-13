@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "base": "dual graphical K5 minus edge01",
+  "actual_direct_sum_ground_set_size": 18,
+  "dimension": 8,
+  "twice_gauge_shells": {
+    "0": 1,
+    "2": 28,
+    "3": 2,
+    "4": 168,
+    "5": 10,
+    "6": 532,
+    "7": 28,
+    "8": 1232,
+    "9": 60,
+    "10": 2380,
+    "11": 110,
+    "12": 4088,
+    "13": 182,
+    "14": 6468,
+    "15": 280,
+    "16": 9632
+  },
+  "actual_free_sum_lattice_counts": [
+    1,
+    57,
+    1181,
+    11789,
+    73597,
+    333489,
+    1201277,
+    3646729,
+    9702697
+  ],
+  "integer_split_prediction": [
+    1,
+    57,
+    1181,
+    11785,
+    73557,
+    333277,
+    1200477,
+    3644305,
+    9696409
+  ],
+  "actual_h_star": [
+    1,
+    48,
+    704,
+    3128,
+    5350,
+    3372,
+    800,
+    52,
+    1
+  ],
+  "incorrect_product_h_star": [
+    1,
+    48,
+    704,
+    3124,
+    5346,
+    3376,
+    804,
+    52,
+    1
+  ],
+  "log_concavity_defects": [
+    1600,
+    345472,
+    6017984,
+    18074884,
+    7090384,
+    464656,
+    1904
+  ],
+  "scope": "Actual free-sum row and fractional-carry obstruction, not a universal non-LC claim.",
+  "facet_input_sha256": "518cc319e7251c15da87770cfa1437279502fcf315bb7d100dca649509ba4dc9",
+  "checker_sha256": "bf5cfe74291ba2f7248f2dca4986ecb94d01a27bbbd4dd78c295c7675e0025ca"
+}

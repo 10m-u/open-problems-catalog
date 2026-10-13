@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "received_files_preserved": 64,
+  "earlier_round_files_preserved": 599,
+  "earlier_failed_attempts_and_counts_preserved": true,
+  "handoff_zip_unchanged": true,
+  "prior_compiled_results_preserved": 397,
+  "new_routes": 6,
+  "original_ledger_and_corpus_bytes_unchanged": true,
+  "candidate_membership_unchanged": true,
+  "new_exact_catalog_closures": 0,
+  "local_links_checked": 20,
+  "all_selected_replays_passed": true,
+  "public_publication": "none"
+}

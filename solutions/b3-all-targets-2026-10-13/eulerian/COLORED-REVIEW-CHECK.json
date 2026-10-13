@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "independent_implementations": [
+    "recursive colored multiset words",
+    "literal inversion-sequence products",
+    "direct canonical factor/unit strings",
+    "Fraction growth coefficients",
+    "wordwise endpoint involution and Boolean square"
+  ],
+  "recorded_colored_cases": 36,
+  "literal_colored_words": 2087,
+  "canonical_candidates_recomputed": 4012,
+  "actual_multiplicity_growth_controls": 86,
+  "endpoint_cases": 22,
+  "endpoint_wordwise_checks": 90416,
+  "two_letter_r_range": [
+    2,
+    10
+  ],
+  "explicit_four_word_orbits": 9,
+  "explicit_interior_pair_orbits": 276,
+  "one_letter_gamma_controls": 19,
+  "constant_case_checked_separately": true,
+  "repeated_letter_extreme_row": [
+    1,
+    31,
+    22,
+    0
+  ],
+  "formal_basis_negative_gamma_eta0": "-1/2",
+  "all_length_exclusions_depend_on_previously_reviewed_compression_theorem": true,
+  "finite_checks_do_not_prove_full_classification_or_gamma_interpretation": true,
+  "reviewed_sha256": {
+    "COLORED-RESULTS.md": "7486afa4f10f37b50be86d3b62f333f6a32782c11c18fe8c83e217fec756c9f2",
+    "Q1262-ATTEMPTS.md": "5e20376e1f8a7f1b1c460e60ba03d6ee12ce477d3763789724babe57132a8681",
+    "Q1263-ATTEMPTS.md": "9a77618e1aa7b0b97e14f70321019a61bdcd280e065358528b9acde1faa38805",
+    "ENDPOINT-COLORS.md": "d4947c2b1db05bc22dceaeef40126c6cfdb35f799e8be54fe2d8eeb2680e015f",
+    "colored_probe.py": "7877059d3fe45295a6f6b77d38675dd5aed4be02214cf834c33c10976385a6f8",
+    "check_colored_routes.py": "a3ed0791d0201177d379ef1c9d7b01ca710b0e16c8d01ed4ec11759d0d55f1a9",
+    "COLORED-PROBE.json": "bd7c94f3b99f3eae97cb02150baa85c86f4861c9b36a39d74bbc4d50092d9e61",
+    "COLORED-ROUTES-CHECK.json": "53decac5f005f462c312a9a26760b66933a7ada146c157f06ce00ec209180bb2"
+  },
+  "checker_sha256": "7c501847877f458f17c2058f8f2e253bdc961d656f67ec8d89cfb46b6efa04ee"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-13",
+  "schema": "b3-triangle-routes-v1",
+  "passed": true,
+  "counts": {
+    "lift_witnesses": 19,
+    "original_staircase_minors": 329,
+    "atom_toeplitz_witnesses": 38,
+    "hadamard_input_minors": 38,
+    "recurrence_extensions": 38,
+    "tn_prefix_minors": 69,
+    "symbolic_three_minor_substitutions": 38,
+    "rank_three_perturbation_minors": 68
+  },
+  "perturbed_order_four_determinant": "-1/250",
+  "source_sha256": "fc85e091984572b24457679f556ecddeef0ac66782c59fd4b2ca79384c5f1358",
+  "scope": "Route obstructions and all-r formula transcription controls; no catalog counterexample."
+}

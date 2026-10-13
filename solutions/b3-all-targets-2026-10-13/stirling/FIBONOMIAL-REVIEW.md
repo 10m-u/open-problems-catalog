@@ -1,0 +1,19 @@
+# Independent Q2751 theorem and count review — 2026-10-13
+
+The [parameter-four proof](../fibonomials/N4-PROOF.md) passes at its exact all-m scope. It extends the known min(m,n)<=3 boundary to min(m,n)<=4, without settling the full conjecture. I read the frozen Küstner Conjecture 4.6, its actual Chapter 4 tiling weights/recursion, and [Connelly–Ito–Martinez–Shevchenko–Yang](https://arxiv.org/html/2605.12822v1), Theorem 1.2, Section 2 and the reported computational range.
+
+With A=F_(m+1), B=F_(m+2), the quotient, degree D=3A+4B-7 and eight-term numerator cancellation are correct. In the lower half, A+3B>D/2 since its doubled difference is 2B-A+7>0. Every omitted term is at least that large. Thus the four-term difference identity is exact, including boundaries. Direct summation gives the partition123 quadratic and six error values 0,7/12,1/3,1/4,1/3,7/12.
+
+On [B,2A+B], the three-term quadratic G is concave. Its right endpoint is smaller than its left endpoint by exactly A, so the stated lower bound is valid. At A>=21 it exceeds the largest possible negative floor error. On the remaining interval the four-term quadratic is H=A(3A+4B-6-2i)/12, with H>=A/12 at the half-degree cutoff. Its negative floor error is at most 7/6, yielding the claimed positive margin. Empty intervals cause no problem. The initial two ranges follow from partition monotonicity. The six smaller Fibonacci pairs are finitely checked with exact quotient reconvolution. These facts give a complete proof, rather than extrapolation from m<=18.
+
+The [independent checker](check_fibonomial_review.py) uses ordinary polynomial convolution and coefficient-by-coefficient formal division instead of root's sliding q-integer division. It reproduces all six base rows and 136 lower-half differences, independently expands the signed two-variable numerator, checks the residues, actual Fibonacci Hall neighbors, synthetic recursion output, and the literal fixed-path coordinates. See [receipt](FIBONOMIAL-REVIEW-CHECK.json).
+
+I accept the five contracts in [ATTEMPTS](../fibonomials/ATTEMPTS.md) as substantive distinct failed full-target attempts:
+
+1. F01 is a fresh actual asymmetric valley construction beyond the primary's m+n<=20 range and its diagonal range; the 26 cases are one attempt, not 26.
+2. F02 works the exact general vector-partition reduction and completes an all-size boundary. The uniform-in-n sign estimate remains missing; the growing periods and cancellation regions are stated explicitly. This is a failed full-scope analytical extension with genuine proved progress, not an additional count for each checked n.
+3. F03 fails at actual m=n=10 because five denominator demands have only four divisible numerator neighbors. Actual Fibonacci divisibility was checked. It does not rule out cyclotomic splitting/grouping, or assert that successful matching alone would suffice for unimodality.
+4. F04's relaxed inputs preserve actual predecessor degrees, masses, symmetry, unimodality and unit endpoints, yet the exact actual-parameter recursion has valleys. This refutes a precise induction contract, not actual q-Fibonomials.
+5. F05 fails within an actual fixed path. The two special vertical dominoes have top-right corners (1,2),(2,2), hence degrees F2F2=1 and F3F2=2. The optional top-row horizontal domino at (2,3) has degree F2F3=2. The fiber is exactly q³+q⁵ and cannot decompose into consecutive-weight chains while keeping the path fixed. Root's checker hardcodes this fiber; the independent coordinate reconstruction and primary weights justify it.
+
+F03's multiplicative pairing, F02's additive lower-half estimate, F04's recurrence contract and F05's fiber chains are different obligations. The source-known non-log-concavity control is not counted again. The all-m partial does not reset the full-target counter. No conjecture refutation, general-n proof, novelty or external-review claim is made.

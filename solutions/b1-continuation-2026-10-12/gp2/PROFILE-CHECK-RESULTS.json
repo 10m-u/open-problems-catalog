@@ -1,0 +1,15 @@
+{
+  "question": "Q2777",
+  "status": "passed",
+  "structures": 92,
+  "exhaustive_loop_free_structures_n1_n2": 68,
+  "additional_looped_structures": 24,
+  "formulas": 10,
+  "ordered_structure_pairs": 8464,
+  "same_profile_formula_pairs": 43124,
+  "subformula_assignment_preservation_checks": 1709720,
+  "quadratic_vector_addition_checks": 14400,
+  "residue_minimum_membership_checks": 25200,
+  "unequal_profile_and_global_counting_controls": "passed",
+  "scope": "Finite semantic regression controls; all-size theorem requires proof review."
+}

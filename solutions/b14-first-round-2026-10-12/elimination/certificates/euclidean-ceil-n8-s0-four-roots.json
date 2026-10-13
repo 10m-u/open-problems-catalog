@@ -1,0 +1,923 @@
+{
+  "schema": "b14-one-tree-certificate-v1",
+  "instance": {
+    "id": "euclidean-ceil-n8-s0",
+    "family": "euclidean-ceil",
+    "seed": 0,
+    "costs": [
+      [
+        0,
+        81,
+        94,
+        79,
+        103,
+        66,
+        52,
+        96
+      ],
+      [
+        81,
+        0,
+        55,
+        21,
+        42,
+        84,
+        38,
+        69
+      ],
+      [
+        94,
+        55,
+        0,
+        75,
+        25,
+        54,
+        45,
+        16
+      ],
+      [
+        79,
+        21,
+        75,
+        0,
+        63,
+        97,
+        49,
+        89
+      ],
+      [
+        103,
+        42,
+        25,
+        63,
+        0,
+        76,
+        52,
+        40
+      ],
+      [
+        66,
+        84,
+        54,
+        97,
+        76,
+        0,
+        49,
+        45
+      ],
+      [
+        52,
+        38,
+        45,
+        49,
+        52,
+        49,
+        0,
+        52
+      ],
+      [
+        96,
+        69,
+        16,
+        89,
+        40,
+        45,
+        52,
+        0
+      ]
+    ]
+  },
+  "method": "four-roots",
+  "incumbent": {
+    "tour": [
+      0,
+      6,
+      3,
+      1,
+      4,
+      2,
+      7,
+      5
+    ],
+    "cost": 316
+  },
+  "certificates": [
+    {
+      "root": 0,
+      "potentials": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "root_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "bound_numerator": 4880
+    },
+    {
+      "root": 0,
+      "potentials": [
+        0,
+        176,
+        0,
+        -176,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "root_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "bound_numerator": 4928
+    },
+    {
+      "root": 0,
+      "potentials": [
+        0,
+        112,
+        64,
+        -176,
+        -64,
+        0,
+        64,
+        0
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "root_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "bound_numerator": 5056
+    },
+    {
+      "root": 2,
+      "potentials": [
+        -197,
+        197,
+        0,
+        -197,
+        197,
+        -197,
+        0,
+        197
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "root_edges": [
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "bound_numerator": 4923
+    },
+    {
+      "root": 2,
+      "potentials": [
+        -263,
+        131,
+        0,
+        -131,
+        197,
+        -197,
+        66,
+        197
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "root_edges": [
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "bound_numerator": 5056
+    },
+    {
+      "root": 4,
+      "potentials": [
+        -181,
+        0,
+        181,
+        -181,
+        0,
+        -181,
+        181,
+        181
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "root_edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "bound_numerator": 5008
+    },
+    {
+      "root": 4,
+      "potentials": [
+        -229,
+        0,
+        181,
+        -181,
+        0,
+        -133,
+        181,
+        181
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "root_edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "bound_numerator": 5056
+    },
+    {
+      "root": 6,
+      "potentials": [
+        -144,
+        144,
+        144,
+        -144,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "root_edges": [
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "bound_numerator": 5056
+    }
+  ],
+  "global_lower_bound": {
+    "numerator": 5056,
+    "scale": 16,
+    "certificate": 2
+  },
+  "forced_bounds": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "numerator": 5584,
+      "scale": 16,
+      "certificate": 3
+    },
+    {
+      "edge": [
+        0,
+        2
+      ],
+      "numerator": 5792,
+      "scale": 16,
+      "certificate": 5
+    },
+    {
+      "edge": [
+        0,
+        3
+      ],
+      "numerator": 5207,
+      "scale": 16,
+      "certificate": 4
+    },
+    {
+      "edge": [
+        0,
+        4
+      ],
+      "numerator": 5803,
+      "scale": 16,
+      "certificate": 5
+    },
+    {
+      "edge": [
+        0,
+        5
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        0,
+        6
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        0,
+        7
+      ],
+      "numerator": 5824,
+      "scale": 16,
+      "certificate": 5
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "numerator": 5470,
+      "scale": 16,
+      "certificate": 4
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        1,
+        4
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 1
+    },
+    {
+      "edge": [
+        1,
+        5
+      ],
+      "numerator": 5792,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        1,
+        6
+      ],
+      "numerator": 5168,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        1,
+        7
+      ],
+      "numerator": 5768,
+      "scale": 16,
+      "certificate": 4
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "numerator": 5528,
+      "scale": 16,
+      "certificate": 4
+    },
+    {
+      "edge": [
+        2,
+        4
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        2,
+        5
+      ],
+      "numerator": 5344,
+      "scale": 16,
+      "certificate": 7
+    },
+    {
+      "edge": [
+        2,
+        6
+      ],
+      "numerator": 5354,
+      "scale": 16,
+      "certificate": 6
+    },
+    {
+      "edge": [
+        2,
+        7
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "numerator": 5216,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        5
+      ],
+      "numerator": 5712,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        6
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        7
+      ],
+      "numerator": 5826,
+      "scale": 16,
+      "certificate": 4
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "numerator": 5552,
+      "scale": 16,
+      "certificate": 7
+    },
+    {
+      "edge": [
+        4,
+        6
+      ],
+      "numerator": 5397,
+      "scale": 16,
+      "certificate": 6
+    },
+    {
+      "edge": [
+        4,
+        7
+      ],
+      "numerator": 5232,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        5,
+        6
+      ],
+      "numerator": 5184,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        5,
+        7
+      ],
+      "numerator": 5056,
+      "scale": 16,
+      "certificate": 2
+    },
+    {
+      "edge": [
+        6,
+        7
+      ],
+      "numerator": 5466,
+      "scale": 16,
+      "certificate": 6
+    }
+  ],
+  "eliminated_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "residual_edges": [
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5,
+      7
+    ]
+  ],
+  "measurements": {
+    "snapshot_calls": 48,
+    "retained_certificates": 8,
+    "min_fill_width_upper_bound": 2,
+    "min_fill_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "optimal_cost": 316,
+    "optimal_tour": [
+      0,
+      6,
+      3,
+      1,
+      4,
+      2,
+      7,
+      5
+    ],
+    "full_dp": {
+      "states": 448,
+      "transitions": 1344
+    },
+    "residual_dp": {
+      "states": 14,
+      "transitions": 12
+    }
+  }
+}

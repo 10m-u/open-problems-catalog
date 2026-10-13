@@ -2,6 +2,57 @@
 
 [Subject overview](topology.md) · Parts: [1](topology-part-1.md) · [2](topology-part-2.md)
 
+<a id="q4062"></a>
+
+## Q4062. Is b_i(φ)=0 for every i≠n and every φ, with b_n extending to a finite seminorm on H¹(M;R), so…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 7.9) · **Collection** 41
+
+Is b_i(φ)=0 for every i≠n and every φ, with b_n extending to a finite seminorm on H¹(M;R), so χ⁽²⁾(M̃;φ)=Σ\_i(−1)^i b_i(φ)=(−1)^n b_n(φ)? A seminorm is nonnegative, absolutely homogeneous and subadditive.
+
+**Context.** Let M be a closed connected aspherical (2n+1)-manifold, n≥0, G=π₁(M), and M̃ its universal cover. For φ:G→Z, set Cφ=C_\*(M̃;Z)⊗Z Z[t,t⁻¹], with diagonal action g(c⊗p)=gc⊗t^{φ(g)}p. Write b_i(φ)=dim_{N(G)}H_i(N(G)⊗\_{ZG}Cφ), using group von Neumann algebra N(G) and its von Neumann dimension.
+
+**Source.** Jacopo G. Chen. *Computing the twisted L²-Euler characteristic*. 2025. [primary source](https://arxiv.org/abs/2310.07024v3) Location: Conjecture 7.9, p.41; reaffirmed as Conjecture 1.2, p.1, On a twisted Singer conjecture (2026).
+
+**Literature check.** Status checked 10 October 2026: no general resolution found; Chen proves the statement for closed congruence arithmetic hyperbolic manifolds of simplest type. The algebraic seminorm theorem assumes Atiyah’s conjecture.
+
+**Further links.** [1](https://arxiv.org/abs/2607.25615v1)
+
+
+<a id="q4065"></a>
+
+## Q4065. Characterize the ideal points x for which A extends tautologically: there exist g,h∈π₁(M) such…
+
+**Status:** Open · **Kind:** open problem (Question 3.4.1) · **Collection** 41
+
+Characterize the ideal points x for which A extends tautologically: there exist g,h∈π₁(M) such that span_{O_x}{I,ρ(g),ρ(h),ρ(gh)} is an Azumaya O_x-algebra with generic fiber A, meaning rank-four free with central-simple residue algebra.
+
+**Context.** Let M be a complete oriented finite-volume one-cusped hyperbolic 3-manifold. Let C be a canonical SL₂(ℂ)-character norm curve containing a lifted holonomy character, defined over its minimal number field k⊂ℂ. Let C̃ be its smooth projective model, K=k(C) its arithmetic function field, and ρ:π₁(M)→SL₂(F) the generic tautological representation over a representation-curve function field F extending K. Put A=span_Kρ(π₁M). An ideal point x lies over the projective boundary of C; O_x is its local ring.
+
+**Source.** Yi Wang. *Punctured JSJ tori and tautological extensions of Azumaya algebras*. University of Pennsylvania, 2024. Advisor(s): Ted Chinburg. [primary source](https://repository.upenn.edu/bitstreams/46d63ed3-11d0-4917-80d6-3f03fba8c2b6/download) Location: Question 3.4.1, p.28; paper-origin 2023, retained in AGT 26 (2026), Question 2.11, p.2055.
+
+**Literature check.** Status checked 10 October 2026: no complete characterization found. Later twice-punctured-torus detection supplies particular cases.
+
+**Further links.** [1](https://doi.org/10.2140/agt.2026.26.2049)
+
+
+<a id="q4072"></a>
+
+## Q4072. If the respective negative and positive components of two bi-contact structures are isotopic,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 41
+
+If the respective negative and positive components of two bi-contact structures are isotopic, must the pairs be bi-contact homotopic?
+
+**Context.** On a closed connected oriented smooth three-manifold M, a bi-contact structure is an everywhere-transverse pair ξ₋=kerα₋, ξ₊=kerα₊ of C¹ plane fields, where α₋∧dα₋<0 and α₊∧dα₊>0. Two contact structures are isotopic if an ambient isotopy carries one to the other; bi-contact homotopy is a continuous path of such transverse pairs. A contact structure is overtwisted if an embedded disk is tangent to its planes along its boundary, and tight otherwise. Degree/advisor verification: https://math.gatech.edu/graduate-programs/dissertations https://etnyre.math.gatech.edu/professionalstuff/gradstudents.html
+
+**Source.** Surena Hozoori. *Contact Geometric Theory of Anosov Flows in Dimension Three and Related Topics*. Georgia Institute of Technology, 2022. Advisor(s): John Etnyre. [primary source](https://etnyre.math.gatech.edu/professionalstuff/HozooriThesis.pdf) Location: Questions2.5.4/2.5.6, p.47.
+
+**Literature check.** Status: Hozoori’s earlier paper-origin questions are retained in his dissertation and in the final 2024 article, Questions7.4/7.6, p.29. No matching resolution found, 10October2026. https://arxiv.org/abs/2009.02768v6
+
+**Further links.** [1](https://math.gatech.edu/graduate-programs/dissertations) · [2](https://etnyre.math.gatech.edu/professionalstuff/gradstudents.html) · [3](https://arxiv.org/abs/2009.02768v6)
+
+
 <a id="q4073"></a>
 
 ## Q4073. Does some bi-contact structure have ξ₋ tight and ξ₊ overtwisted?
@@ -788,4 +839,55 @@ Let Graph be the category of sets with reflexive symmetric adjacency and adjacen
 **Literature check.** Status: Arakawa’s upcoming October 14 talk advertises a contribution, without a resolution claim. His current paper list contains no later discrete-homotopy manuscript; a June talk had the same programme.
 
 **Further links.** [1](https://arxiv.org/abs/2605.04959) · [2](https://arxiv.org/abs/2602.19293) · [3](https://arxiv.org/abs/2602.19293v1)
+
+
+<a id="q4715"></a>
+
+## Q4715. Torsion primes for complex commuting varieties
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Let g be a finite-dimensional complex reductive Lie algebra and m≥2. Give C_m(g)={(x₁,…,x_m)∈gᵐ:[xᵢ,xⱼ]=0 for all i,j} its classical topology. Determine, for every g and m, exactly which primes p occur as orders of nonzero torsion classes in H⁎\_c(C_m(g),Z), singular cohomology with compact supports.
+
+**Context.** Audited provenance and status: Subject: Algebraic topology Christopher Hone: Sydney PhD2025; primary supervisor Geordie Williamson, auxiliary supervisor Oded Yacobi. The current author list retains the torsion paper as a preprint; the other2026 cohomology paper concerns commuting group elements.
+
+**Source.** Simon Gritschacher; Chris Hone. *Torsion primes for spaces of commuting elements in Lie groups*. 2026. [primary source](https://arxiv.org/abs/2608.21191) Location: final paragraph of §6.
+
+**Literature check.** Status: Independent paper-origin question, August2026 v1. Full text read. Theorems1.1–1.3 settle the group and compact-real-Lie-algebra cases, while §6 expressly leaves complex Lie algebras open.
+
+**Literature check.** Status: The current author list links both selected2026 preprints. Announced affine-Grassmannian and equivariant-K-theory projects do not claim either selected programme resolved.
+
+
+<a id="q4792"></a>
+
+## Q4792. For which S does T(S) admit a compatible metric invariant under MCG(S)=Homeo⁺(S)/isotopy, acting…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For which S does T(S) admit a compatible metric invariant under MCG(S)=Homeo⁺(S)/isotopy, acting by precomposition on markings?
+
+**Context.** Let S be a connected oriented surface without boundary and with infinitely generated fundamental group. T(S) consists of pairs (X,f), where X is a complete hyperbolic surface equal to its convex core and f:S→X is an orientation-preserving homeomorphism; identify (X,f) and (Y,g) when an isometry h:X→Y satisfies h∘f≃g. Give T(S) the topology of pointwise convergence of marked geodesic lengths of essential nonperipheral closed curves. Audited provenance and status: Subject: Geometric topology Chaitanya Tappu; Cornell PhD2025. Advisor: Jason Manning. Geometric topology. Chapter7 is joint work with Assaf Bar-Natan. Negative when some complete Nielsen-convex structure admits an infinite-order isometry (Theorem7.7). Scope inference: Euler-class results do not classify these metrics. https://arxiv.org/abs/2509.21093 Earlier broader Question2.6: https://pi.math.cornell.edu/~tappu/research/marked_moduli_space.pdf Coauthor lists nonmetrizability work in progress; scope unspecified.
+
+**Source.** Chaitanya Tappu. *A moduli space of marked hyperbolic structures for big surfaces*. Cornell University, 2025. Advisor(s): Jason Manning. [primary source](https://ecommons.cornell.edu/server/api/core/bitstreams/51c467ba-bfc2-4288-ac2d-13c366532804/content) Location: Thesis Chapter7 opening, p82; Remark7.9 p86. https://ecommons.cornell.edu/server/api/core/bitstreams/51c467ba-bfc2-4288-ac2d-13c366532804/content
+
+**Literature check.** Status: Checked 2026-10-13; no matching general resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2509.21093) · [2](https://pi.math.cornell.edu/~tappu/research/marked_moduli_space.pdf)
+
+
+<a id="q4794"></a>
+
+## Q4794. Does every object of Mack(C_p) admit an eventually 4-periodic projective resolution, with its…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 5.2) · **Collection** 48
+
+Does every object of Mack(C_p) admit an eventually 4-periodic projective resolution, with its tail repeating every four degrees as a chain complex?
+
+**Context.** Let p be prime. The category Mack(C_p) has objects consisting of abelian groups U,F and homomorphisms R:F→U, T:U→F, c:U→U satisfying cR=R, Tc=T, c^p=1 and RT=∑\_{i=0}^{p−1}c^i; morphisms are pairs of homomorphisms commuting with R,T,c. Audited provenance and status: Subject: Algebraic topology Chase Vogeli; Cornell PhD2026. Advisor: Inna Zakharevich. Algebraic topology. Joint-paper fallback: Brazelton–Chan–Mudrak–Spitz–Vogeli–Wang–Zeng–Zotine, Conjecture5.2 p94; Definitions2.1/2.8 pp80/84. Doctoral provenance: thesis cover, biography p.iii. https://ecommons.cornell.edu/server/api/core/bitstreams/21a73f51-5b9d-4ee1-800c-3d77e296dfb2/content Scope inference: derived-permutation periodic loci do not settle integral Mackey resolutions. Scope inference: displayed periodic examples do not prove the universal claim. https://krizigor.github.io/pushforward202506.pdf Other scope checks: arXiv:2510.25763v1, arXiv:2608.11376v1, arXiv:1503.03955; package documentation.
+
+**Source.** Thomas Brazelton; David Chan; Benjamin Mudrak; Ben Spitz; Chase Vogeli; Chenglu Wang; Michael R. Zeng; Sasha Zotine. *Cp-Mackey functors in Macaulay2*. 2026. [primary source](https://msp.org/jsag/2026/16-1/jsag-v16-n1-p06-s.pdf) Location: Conjecture 5.2, p.94; Definitions 2.1/2.8, pp.80/84.
+
+**Literature check.** Status: Checked 2026-10-13; no matching general resolution located.
+
+**Further links.** [1](https://ecommons.cornell.edu/server/api/core/bitstreams/21a73f51-5b9d-4ee1-800c-3d77e296dfb2/content) · [2](https://krizigor.github.io/pushforward202506.pdf) · [3](https://arxiv.org/abs/2511.14325v2) · [4](https://arxiv.org/abs/2510.25763v1) · [5](https://arxiv.org/abs/2608.11376v1) · [6](https://arxiv.org/abs/1503.03955)
 

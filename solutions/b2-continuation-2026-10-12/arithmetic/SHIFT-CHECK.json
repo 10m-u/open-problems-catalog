@@ -1,0 +1,194 @@
+{
+  "status": "passed",
+  "exact_examples": [
+    {
+      "triple": [
+        2,
+        4,
+        14
+      ],
+      "shifts": [
+        "2-dependent",
+        "3-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "triple": [
+        3,
+        6,
+        48
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "3-dependent"
+      ]
+    },
+    {
+      "triple": [
+        6,
+        8,
+        48
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "3-dependent"
+      ]
+    },
+    {
+      "triple": [
+        6,
+        18,
+        48
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "3-dependent"
+      ]
+    },
+    {
+      "triple": [
+        6,
+        30,
+        216
+      ],
+      "shifts": [
+        "2-dependent",
+        "3-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "triple": [
+        7,
+        15,
+        49
+      ],
+      "shifts": [
+        "2-dependent",
+        "2-dependent",
+        "3-dependent"
+      ]
+    },
+    {
+      "triple": [
+        7,
+        49,
+        79
+      ],
+      "shifts": [
+        "2-dependent",
+        "3-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "triple": [
+        8,
+        32,
+        98
+      ],
+      "shifts": [
+        "2-dependent",
+        "3-dependent",
+        "2-dependent"
+      ]
+    }
+  ],
+  "rejected_source_case": {
+    "triple": [
+      2,
+      6,
+      16
+    ],
+    "shifts": [
+      "2-dependent",
+      "independent",
+      "2-dependent"
+    ]
+  },
+  "excluded_family_controls": [
+    {
+      "exponent": 3,
+      "triple": [
+        2,
+        6,
+        48
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "exponent": 4,
+      "triple": [
+        2,
+        14,
+        224
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "exponent": 5,
+      "triple": [
+        2,
+        30,
+        960
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "exponent": 6,
+      "triple": [
+        2,
+        62,
+        3968
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "exponent": 7,
+      "triple": [
+        2,
+        126,
+        16128
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "2-dependent"
+      ]
+    },
+    {
+      "exponent": 8,
+      "triple": [
+        2,
+        254,
+        65024
+      ],
+      "shifts": [
+        "3-dependent",
+        "2-dependent",
+        "2-dependent"
+      ]
+    }
+  ],
+  "scope": "Exact example rank classification; no infinite family outside exclusions and no all-three-minimal witness"
+}

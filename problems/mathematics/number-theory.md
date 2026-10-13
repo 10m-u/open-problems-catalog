@@ -1,6 +1,6 @@
 # Number Theory
 
-156 problems: 147 open, 9 open, partial results.
+157 problems: 140 open, 17 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -59,7 +59,7 @@
 | [Q1903](number-theory.md#q1903) | Rational septuples | Open |
 | [Q1904](number-theory.md#q1904) | Two integral entries | Open |
 | [Q1905](number-theory.md#q1905) | Strong rational quadruples | Open |
-| [Q1906](number-theory.md#q1906) | A Diophantine K₃,₃ | Open |
+| [Q1906](number-theory.md#q1906) | A Diophantine K₃,₃ | Open, partial results |
 | [Q1907](number-theory.md#q1907) | Six positive integral solutions | Open |
 | [Q1908](number-theory.md#q1908) | Mixed-sign extension identity | Open |
 | [Q1913](number-theory.md#q1913) | Regular inverse Galois realization | Open |
@@ -85,7 +85,7 @@
 | [Q2814](number-theory.md#q2814) | Maximal elasticity in real quadratic fields | Open |
 | [Q2815](number-theory.md#q2815) | Large inert divisors of unit coefficients | Open |
 | [Q2816](number-theory.md#q2816) | Maximal shifted-prime divisor order | Open |
-| [Q2817](number-theory.md#q2817) | Asymptotic shifted-prime moments | Open |
+| [Q2817](number-theory.md#q2817) | Asymptotic shifted-prime moments | Open, partial results |
 | [Q2904](number-theory.md#q2904) | Squarefree binary-digit integers in larger bases | Open |
 | [Q2905](number-theory.md#q2905) | Squarefree Mersenne infinitude | Open |
 | [Q2906](number-theory.md#q2906) | Zero-density preimages under aliquot sums | Open |
@@ -99,21 +99,21 @@
 | [Q3109](number-theory.md#q3109) | Infinitely many three-shift dependent triples | Open |
 | [Q3110](number-theory.md#q3110) | Three consecutive fully dependent triples | Open |
 | [Q3112](number-theory.md#q3112) | Finite logarithm transcendence | Open |
-| [Q3113](number-theory.md#q3113) | Arbitrarily smooth values of every integer polynomial | Open |
+| [Q3113](number-theory.md#q3113) | Arbitrarily smooth values of every integer polynomial | Open, partial results |
 | [Q3114](number-theory.md#q3114) | Rational fourth-power taxicab number | Open |
 | [Q3115](number-theory.md#q3115) | Four-term geometric progressions of binomial values | Open |
-| [Q3116](number-theory.md#q3116) | Relative Davenport constants along cyclic coset subgroups | Open |
+| [Q3116](number-theory.md#q3116) | Relative Davenport constants along cyclic coset subgroups | Open, partial results |
 | [Q3117](number-theory.md#q3117) | Elasticity decreases along overorders | Open |
 | [Q3206](number-theory.md#q3206) | Automatic deviations of arbitrary anti-recurrences | Open |
 | [Q3207](number-theory.md#q3207) | Eventual exactness of rational pseudo-greedy expansions | Open |
-| [Q3208](number-theory.md#q3208) | A five-by-five integer square sumset | Open |
+| [Q3208](number-theory.md#q3208) | A five-by-five integer square sumset | Open, partial results |
 | [Q3307](number-theory.md#q3307) | Constant eventual Ruzsa number | Open |
 | [Q3308](number-theory.md#q3308) | Different optimal basis sizes | Open |
 | [Q3309](number-theory.md#q3309) | Vanishing relative cyclic gaps | Open |
 | [Q3310](number-theory.md#q3310) | Parity balance of optimal bases | Open |
 | [Q3311](number-theory.md#q3311) | Eventual growth of the optimal family | Open |
 | [Q3312](number-theory.md#q3312) | Long progressions in optimal bases | Open |
-| [Q3314](number-theory.md#q3314) | Distinct signed-prime Lehmer factorizations | Open |
+| [Q3314](number-theory.md#q3314) | Distinct signed-prime Lehmer factorizations | Open, partial results |
 | [Q3315](number-theory.md#q3315) | Power-saving error for five-isogenies | Open |
 | [Q3446](number-theory.md#q3446) | Higher-depth quasimodular zero bound | Open |
 | [Q3447](number-theory.md#q3447) | Exceptional-domain odd Eisenstein zeros | Open |
@@ -159,9 +159,10 @@
 | [Q4580](number-theory.md#q4580) | Single-prime Wilson quotients | Open |
 | [Q4585](number-theory.md#q4585) | Seven positive divisors | Open |
 | [Q4586](number-theory.md#q4586) | Divisor search in non-Euclidean quadratic PIDs | Open |
-| [Q4642](number-theory.md#q4642) | For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m? | Open |
-| [Q4643](number-theory.md#q4643) | For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd… | Open |
+| [Q4642](number-theory.md#q4642) | For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m? | Open, partial results |
+| [Q4643](number-theory.md#q4643) | For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd… | Open, partial results |
 | [Q4663](number-theory.md#q4663) | Pseudo-algebraic closedness of the solvable closure | Open |
+| [Q4771](number-theory.md#q4771) | Is Gₚ connected for every prime p>2? | Open |
 
 <a id="q109"></a>
 
@@ -534,6 +535,7 @@ For every ε>0, does some C_ε>0 satisfy c&lt;C_ε H(abc)^{1+ε} for all coprime
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): No new result supplied. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q1315"></a>
@@ -657,6 +659,7 @@ For every separable f∈Z[x] of degree≥4 with no fixed prime-square divisor, i
 - **Partial result**: Correct Euler-product squarefree asymptotics transfer to finite products of pairwise coprime separable factors. Unconditional factor-degree≤3 class; conditional imported quartic theorem expands cutoff to4. Restricted scope: Constituent factor asymptotics required; irreducible factors of degree≥5 remain unresolved. Remaining: A product-transfer theorem is proved. Factor degrees<=3 are unconditional using classical input. Factor degrees<=4 are conditional on the unverified imported quartic theorem; irreducible factors of degree>=5 remain outside this consequence. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A1: auxiliary proof submission): Correct squarefree Euler-product asymptotics for pairwise coprime separable factors imply the correct asymptotic for their finite product. Location: Part C, section 1. Restricted scope: Constituent asymptotics are hypotheses; the transfer implication is unconditional. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Investigated, unresolved** (B2-SCOPE-020: scope comparison): The pinned comparator allDegrees ends in by sorry; it is not a local completed formal proof. The d-2-free scope specializes to squarefree only for d=4. Location: Part C, section 1. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://www.imsc.res.in/xmlui/handle/123456789/920) · [2](https://doi.org/10.1007/s40993-016-0068-0) · [3](https://arxiv.org/abs/2608.10335) · [4](https://doi.org/10.1155/S1073792898000592)
 
@@ -679,6 +682,7 @@ For every separable f∈Z[x] of degree≥4 with c_f>0, is N_f(X)∼c_f X/log X?
 
 - **Partial result**: Prime-argument constituent asymptotics transfer to finite products. Integer-argument asymptotic does not supply this hypothesis. Explicit f=x(x+1)(x²+1) is integer-admissible but has only prime argument2 yielding a squarefree value. Restricted scope: Constituent asymptotics must hold at prime arguments; the explicit example has prime local constant0 and is not a counterexample to retained statement. Remaining: Constituent prime-argument asymptotics are still required. Integer-argument statements do not supply them; general higher irreducible degrees remain unresolved. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A2: auxiliary proof submission): The analogous transfer holds at prime arguments using constituent prime asymptotics; f=x(x+1)(x^2+1) has no fixed square divisor but only prime argument2 gives a squarefree value. Location: Part C, section 2. Restricted scope: Prime constituent asymptotics are required. The example has zero prime local constant and is not a Q1510 counterexample. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1142/S1793042115500396) · [2](https://www.imsc.res.in/xmlui/bitstream/handle/123456789/920/HBNI-TH-279-ArunabhaMukhopadhyay.pdf?isAllowed=y&sequence=1)
 
@@ -701,6 +705,7 @@ For every integer k>1, is (x,y,z)=(k−1,1,2) the only positive-integer solution
 
 - **Partial result**: No positive-integer solution exists when y is 3 or 5 and either z is even or k is a square. Repaired a false eventual-positivity threshold in source Lemma 2.3; verified all eight polynomial gap arguments and necessary small-base cases. Restricted scope: Proved subcase y in {3,5} and (z even or k a square); the full uniqueness conclusion is not asserted. Remaining: All other y, and y=3 or 5 with nonsquare k and odd z, remain outside the repaired partial theorem. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-D5: auxiliary proof submission): No positive solution exists for y in {3,5} and either even z or square k; the source gap-polynomial threshold is repaired and fully checked. Location: Part D, section 6. Restricted scope: The specified partial subcase; already claimed in the source. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/pdf/2301.05431) · [2](https://arxiv.org/abs/2210.04758) · [3](https://acikerisim.uludag.edu.tr/server/api/core/bitstreams/91dc4cc2-6ce5-460e-89b9-0a6d0486a22d/content)
 
@@ -741,6 +746,7 @@ Is (a^n+1)(b^n+1)=x² impossible for every n≥4?
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Primary source retains the full conjecture; its 4-divides-n theorem is correctly scoped. Diagonal a=b examples are inadmissible. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2606.31223) · [2](https://doi.org/10.1023/A:1019688312555)
 
@@ -763,6 +769,7 @@ Are the only solutions of (a³+1)(b³+1)=x² the triples (1,23,156), (6,26, 1953
 
 - **Partial result**: The listed three triples are exactly all admissible solutions with b<=10000000. Restricted scope: Retained source setup 1<=a&lt;b and positive x; additional finite bound b<=10000000. Remaining: All b>10000000 remain outside the exact search. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-D4: auxiliary proof submission): For b<=10000000 the retained lists are complete under 1<=a&lt;b (plus) and 1&lt;a&lt;b (minus). Location: Part D, section 5. Restricted scope: Additional bound b<=10000000. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2606.31223) · [2](https://doi.org/10.1023/A:1019688312555)
 
@@ -784,6 +791,7 @@ Is (a^n−1)(b^n−1)=x² impossible for every n≥5?
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Primary source retains the full conjecture. Diagonal or a=1 examples are inadmissible. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2606.31223) · [2](https://doi.org/10.1023/A:1019688312555)
 
@@ -806,6 +814,7 @@ Are the only solutions of (a³−1)(b³−1)=x² the triples (2,4,21), (2,22,273
 
 - **Partial result**: The listed four triples are exactly all admissible solutions with b<=10000000. Restricted scope: Retained source setup 1&lt;a&lt;b and positive x; additional finite bound b<=10000000. Remaining: All b>10000000 remain outside the exact search. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-D4: auxiliary proof submission): For b<=10000000 the retained lists are complete under 1<=a&lt;b (plus) and 1&lt;a&lt;b (minus). Location: Part D, section 5. Restricted scope: Additional bound b<=10000000. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2606.31223) · [2](https://doi.org/10.1023/A:1019688312555)
 
@@ -827,6 +836,7 @@ For every finite S, is there N(S) such that every S-polynomial f∈ℤ[x] splitt
 **Results.**
 
 - **Partial result**: The checked primary source gives degree≤3 whenever2,3 are both absent from S. Restricted scope: Restrict S to finite prime sets excluding2 and3; this is a known source theorem, not a new proof. Remaining: General finite S, especially those containing 2 or 3, remains unresolved. The reported degree<=3 subcase is a source result. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1112/mtk.12209) · [2](https://cs.uwaterloo.ca/journals/JIS/VOL28/Fokkink/fokkink9.pdf)
 
@@ -849,6 +859,8 @@ For every prime p, does a constant c(p) bound the number of nonzero base-p digit
 
 - **Partial result**: Exact equivalence to split finite-field polynomials with all coefficients nonzero. If all roots reduce to the same nonzero class, deg(f)+1 has one nonzero digit; entire p=2 case follows. Primary-source comparison confirms reported p=3,5 cases. Restricted scope: One-root-class restriction for arbitrary primes; p=3,5 computations/proofs were not rerun locally. Remaining: General primes with more than one nonzero root residue class, and the proposed universal p-1 digit bound, are not proved. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A7: auxiliary proof submission): Exact reduction to split finite-field polynomials with every coefficient nonzero; if all roots have one nonzero residue class, degree+1 has exactly one nonzero base-p digit. This includes all of p=2. Location: Part C, section 6. Restricted scope: One root residue class, or p=2. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-FIXED-PRIME-DIGITS: Fixed-prime good degrees are automatic): For each fixed prime p, rationally split integral polynomials with all coefficients nonzero modulo p have an effectively p-automatic set of degrees. Weighted-cycle analysis decides whether the nonzero base-p digit counts of degree+1 are bounded, and their maximum if bounded. Remaining/limits: No uniform all-prime cycle exclusion or c(p)=p-1 proof. Prior partial mark is retained. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1112/mtk.12209) · [2](https://cs.uwaterloo.ca/journals/JIS/VOL28/Fokkink/fokkink9.pdf)
 
@@ -1057,6 +1069,7 @@ Does a rational Diophantine septuple exist?
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q1904"></a>
@@ -1076,6 +1089,7 @@ Does a rational Diophantine sextuple with at least two integer elements exist?
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q1905"></a>
@@ -1095,13 +1109,14 @@ Do four distinct nonzero rationals a₁,…,a₄ exist with a_i a_j+1 a rational
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q1906"></a>
 
 ## Q1906. A Diophantine K₃,₃
 
-**Status:** Open · **Kind:** open problem (Problem 1.4) · **Collection** 20
+**Status:** Open, partial results · **Kind:** open problem (Problem 1.4) · **Collection** 20
 
 Do six distinct positive integers a₁,a₂,a₃,b₁,b₂,b₃ exist with a_i b_j+1 square for every i,j?
 
@@ -1114,6 +1129,8 @@ Do six distinct positive integers a₁,a₂,a₃,b₁,b₂,b₃ exist with a_i b
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-INTEGRAL-RESCALING: Exact two-sided integral rescaling criterion): A positive rational two-sided product tuple admits a rational scale making both sides integral exactly when all cross-products are integral; the valuation intervals give a simultaneous scale. Source tuple splits were checked against this condition. Remaining/limits: Positivity/distinctness and the full requested tuple construction remain separate. This is a reduction, not a catalog existence proof. [Report](../../solutions/b2-continuation-2026-10-12/diophantine/TUPLE-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q1907"></a>
@@ -1133,6 +1150,7 @@ Do distinct positive integers a₁,a₂,a₃ exist such that ∏\_{i=1}³(a_i x+
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q1908"></a>
@@ -1152,6 +1170,7 @@ For every D(−1)-triple {a,b,c} and positive integer d with ad+1,bd+1,cd+1 squa
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Checked against Dujella's dated open-problem source; no construction or proof at the retained scope was established. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q1913"></a>
@@ -1188,6 +1207,8 @@ Is every abelian group isomorphic to the ideal class group of a half-factorial D
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): No new result in this lane. Remaining/limits: No exact closure established in this session. Restricted scope: None. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-COUNTABLE-CLASS-GROUPS: Known half-factorial class groups for countable groups): The reviewed Geroldinger-Gobel theorem supplies half-factorial monoid-generating subsets for Warfield groups, including all countable groups, and the cited prime-class realization theorem yields corresponding Dedekind domains. Remaining/limits: This is known literature. Arbitrary abelian groups require compatible prime-class selection; unions, quotients and compact limits can lose the needed properties. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q2401"></a>
@@ -1293,6 +1314,8 @@ For every n,m>1, is the non-cyclotomic part of Φ\_n(x)+Φ\_m(x) either 2 or irr
 
 - **Partial result**: For n=2^r,m=2^s with r,s≥1, equal indices leave2 and unequal indices give an irreducible entire sum. Restricted scope: Both indices restricted to powers of2; numbering provisional. Remaining: Indices not both powers of two remain outside the proved subfamily. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A4: auxiliary proof submission): The retained noncyclotomic-sum conclusion holds whenever n and m are powers of two. Location: Part C, section 4. Restricted scope: n=2^r,m=2^s,r,s>=1. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-RECIPROCAL-FACTORS: Reciprocal factors in shifted cyclotomic families): Reciprocal irreducible factors in the source product-plus-one family and unequal-degree sum family are cyclotomic. Exact finite factor controls retain their degree conditions. Remaining/limits: Irreducibility of the remaining noncyclotomic factor is not established. The original two partial marks and scopes remain unchanged. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/FACTOR-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2610.05568)
 
@@ -1315,6 +1338,8 @@ For every n,m>1, is the non-cyclotomic part of Φ\_n(x)Φ\_m(x)+1 irreducible?
 
 - **Partial result**: For n=m=2^r, r≥1, the polynomial is Eisenstein at2 and therefore irreducible. Restricted scope: Equal indices restricted to powers of2; numbering provisional. Remaining: Pairs other than equal powers of two remain outside the proved subfamily. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A5: auxiliary proof submission): Phi_n(x)^2+1 is irreducible when n is a power of two. Location: Part C, section 4. Restricted scope: n=m=2^r,r>=1. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-RECIPROCAL-FACTORS: Reciprocal factors in shifted cyclotomic families): Reciprocal irreducible factors in the source product-plus-one family and unequal-degree sum family are cyclotomic. Exact finite factor controls retain their degree conditions. Remaining/limits: Irreducibility of the remaining noncyclotomic factor is not established. The original two partial marks and scopes remain unchanged. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/FACTOR-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2610.05568)
 
@@ -1467,6 +1492,10 @@ For each i∈{0,1,2}, are there constants 0&lt;c_i≤C_i<∞ with c_i log X≤|A
 
 **Literature check.** Status for question 2616, checked 7 October 2026: May v1 presents this as heuristic, supported only by limited data; bounded later searches found no resolution.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 
 <a id="q2706"></a>
 
@@ -1516,6 +1545,11 @@ For every real quadratic K of class number 1 with fundamental unit of norm −1,
 
 **Literature check.** Status for question 2814, checked 7 October 2026: Known maximal-elasticity results are conditional; no unconditional resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-ELASTICITY-INFINITY: Known infinite elasticity in quadratic orders): The sourced split-prime-dividing-conductor criterion realizes infinite elasticity in the retained real-quadratic setup, using all powers of a suitable split prime. Remaining/limits: This is a prior literature subcase; the finite prescribed elasticities in all fields remain unresolved. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/NUMBER-THEORY-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://doi.org/10.1016/j.jnt.2024.08.003) · [2](https://www.pollack-math.net/research.html) · [3](https://arxiv.org/abs/2508.08472) · [4](https://arxiv.org/abs/2601.12753)
 
 
@@ -1532,6 +1566,10 @@ Does every such K admit δ>0 such that, for infinitely many m≥1, v_m has a rat
 **Source.** Kai (Steve) Fan, Paul Pollack. *Extremal elasticity of quadratic orders*. 2026. [primary source](https://www.pollack-math.net/AMS-UMI-elasticity.pdf) Location: Remark following Theorem 1.3 proof, (6.4), author p. 17.
 
 **Literature check.** Status for question 2815, checked 7 October 2026: The 2026 author version retains the conjecture; later bounded searches found no resolution.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2503.07801) · [2](https://www.pollack-math.net/research.html)
 
@@ -1550,6 +1588,10 @@ Is limsup_(n→∞) [log ω\*(n)·log log n/log n]=log 2?
 
 **Literature check.** Status for questions 2816, 2817, checked 7 October 2026: Known results give weaker maximal constants and correct moment orders, not the proposed limit/asymptotics; no resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://www.pollack-math.net/maxomegastar.pdf) · [2](https://arxiv.org/abs/2505.24050) · [3](https://arxiv.org/abs/2607.08985) · [4](https://arxiv.org/abs/2401.10427)
 
 
@@ -1557,7 +1599,7 @@ Is limsup_(n→∞) [log ω\*(n)·log log n/log n]=log 2?
 
 ## Q2817. Asymptotic shifted-prime moments
 
-**Status:** Open · **Kind:** open problem · **Collection** 29
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 29
 
 For every fixed integer k≥2, does a constant C_k>0 satisfy M_k(x)∼C_k(log x)^(2^k−k−1) as x→∞?
 
@@ -1566,6 +1608,11 @@ For every fixed integer k≥2, does a constant C_k>0 satisfy M_k(x)∼C_k(log x)
 **Source.** Kai (Steve) Fan, Paul Pollack. *The maximal order of the shifted-prime divisor function*. 2025. [primary source](https://arxiv.org/abs/2510.14167) Location: Introduction, author p. 3; Fan–Pomerance §4, p. 11.
 
 **Literature check.** Status for questions 2816, 2817, checked 7 October 2026: Known results give weaker maximal constants and correct moment orders, not the proposed limit/asymptotics; no resolution located.
+
+**Results.**
+
+- **Partial result** (B2-CONTINUATION-SHIFTED-PRIME-MOMENTS: Exact least-common-multiple identity for divisor moments): The kth shifted-prime divisor moment equals the exact sum over ordered prime tuples of floor(X/lcm(p1-1,...,pk-1)). Coincidences and gcd factors are retained. Remaining/limits: No asymptotic constant or uniform error after summing the floor terms is proved. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/NUMBER-THEORY-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://www.pollack-math.net/maxomegastar.pdf) · [2](https://arxiv.org/abs/2505.24050) · [3](https://arxiv.org/abs/2607.08985) · [4](https://arxiv.org/abs/2401.10427)
 
@@ -1584,6 +1631,10 @@ For every integer b≥6, are there infinitely many positive squarefree integers 
 
 **Literature check.** Status for questions 2904, 2905, checked 7 October 2026: August 2025 v2 leaves both open; later searches found no resolution.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://research-portal.uu.nl/en/publications/eisenstein-series-and-powerfree-integers/) · [2](https://www.lolathompson.com/supervision.html) · [3](https://sites.google.com/view/sebastiancarrillosantana/research) · [4](https://arxiv.org/abs/2609.00039)
 
 
@@ -1600,6 +1651,10 @@ Are there infinitely many integers n≥1 for which 2^n−1 is squarefree?
 **Source.** Sebastián Carrillo Santana. *Powerfree integers and Fourier bounds*. 2025. [primary source](https://arxiv.org/abs/2504.08502) Location: §1.3 closing remark, p. 5.
 
 **Literature check.** Status for questions 2904, 2905, checked 7 October 2026: August 2025 v2 leaves both open; later searches found no resolution.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://research-portal.uu.nl/en/publications/eisenstein-series-and-powerfree-integers/) · [2](https://www.lolathompson.com/supervision.html) · [3](https://sites.google.com/view/sebastiancarrillosantana/research) · [4](https://arxiv.org/abs/2609.00039)
 
@@ -1618,6 +1673,10 @@ If A⊆N has natural density zero, must {n≥1:s(n)∈A} also have natural densi
 
 **Literature check.** Status for question 2906, checked 7 October 2026: The July 2026 paper explicitly retains the full conjecture; no later resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://www.lolathompson.com/uploads/1/1/0/6/110629329/s_n_digitsarxiv.pdf) · [2](https://www.lolathompson.com/research.html)
 
 
@@ -1634,6 +1693,10 @@ Do distinct odd primes p₁,…,p₅ exist for which Φ\_(p₁p₂p₃p₄p₅)(
 **Source.** Lola Thompson. *Cyclotomic statistics*. 2025. [primary source](https://www.lolathompson.com/uploads/1/1/0/6/110629329/cyclotomic_survey_final.pdf) Location: §2, p. 5; §5, p. 11.
 
 **Literature check.** Status for question 2907, checked 7 October 2026: Still listed in Thompson’s survey; later searches found no example or impossibility proof.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://www.lolathompson.com/research.html) · [2](https://arxiv.org/abs/2602.07727)
 
@@ -1722,6 +1785,10 @@ Are there infinitely many integer triples 1&lt;a&lt;b&lt;c for which both (a,b,c
 
 **Literature check.** Status for questions 3106, 3107, 3108, checked 8 October 2026: Updated list retains these targets; September 2026 counting work leaves two-triple infinitude open.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://mathoverflow.net/questions/478688/we-have-binom62262-binom62272-binom62282-how-many-other-pyt) · [2](https://arxiv.org/abs/2609.29408) · [3](https://mathoverflow.net/questions/462321/5n1-sequence-starting-at-7)
 
 
@@ -1756,6 +1823,10 @@ Are there infinitely many integer triples 1&lt;a&lt;b&lt;c with (a,b)≠(2,8) an
 
 **Literature check.** Status for questions 3109, 3110, checked 8 October 2026: Final 2026 article retains both targets; September 2026 two-shift counting bounds do not settle them.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://doi.org/10.5802/jtnb.1359) · [2](https://arxiv.org/abs/2609.29408) · [3](https://www.plus.ac.at/mathematics/department/awards/?lang=en) · [4](https://www.york.ac.uk/maths/people/ingrid-vukusic/)
 
 
@@ -1772,6 +1843,10 @@ Does any integer triple 1&lt;a&lt;b&lt;c make (a+j,b+j,c+j) 3-dependent for ever
 **Source.** Michael A. Bennett, István Pink and Ingrid Vukusic. *More on consecutive multiplicatively dependent triples of integers*. 2026. [primary source](https://jtnb.centre-mersenne.org/item/10.5802/jtnb.1359.pdf) Location: Unnumbered open paragraph before Problem 1.6, p. 182.
 
 **Literature check.** Status for questions 3109, 3110, checked 8 October 2026: Final 2026 article retains both targets; September 2026 two-shift counting bounds do not settle them.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.5802/jtnb.1359) · [2](https://arxiv.org/abs/2609.29408) · [3](https://www.plus.ac.at/mathematics/department/awards/?lang=en) · [4](https://www.york.ac.uk/maths/people/ingrid-vukusic/)
 
@@ -1797,7 +1872,7 @@ Is the element (Σ\_{k=1}^{p−1} (−1)^k/k mod p)\_p of A not A-algebraic?
 
 ## Q3113. Arbitrarily smooth values of every integer polynomial
 
-**Status:** Open · **Kind:** open problem (Question 6.4) · **Collection** 32
+**Status:** Open, partial results · **Kind:** open problem (Question 6.4) · **Collection** 32
 
 For every nonconstant f∈ℤ[x] and every ε>0, are there infinitely many positive integers n with f(n)≠0 for which f(n) is n^ε-smooth?
 
@@ -1806,6 +1881,12 @@ For every nonconstant f∈ℤ[x] and every ε>0, are there infinitely many posit
 **Source.** Toshiki Matsusaka and Shin-ichiro Seki. *Some results on naive transcendence in the ring of integers modulo infinitely large primes*. 2026. [primary source](https://arxiv.org/abs/2604.25566v1) Location: Question 6.4, p. 12; Theorem 6.3.
 
 **Literature check.** Status for question 3113, checked 8 October 2026: Current April 2026 v1 retains the general question. August 2026 Seki solves its adèle consequence, not this stronger statement.
+
+**Results.**
+
+- **Partial result**: For every f(n)=an+b with a nonzero integer and every epsilon>0, an explicit positive integer exponential subsequence has f(n) nonzero and supported on one fixed finite set of primes. Consequently infinitely many values are n^epsilon-smooth, including a<0 and b=0. Higher-degree polynomials remain unresolved. No originality claim. Internally reviewed at this scope; no external peer-review claim. Five failed full-target routes leave the catalog question unresolved. [Details](../../solutions/b2-continuation-2026-10-12/arithmetic/SMOOTHNESS-ATTEMPTS.md).
+- **Partial result** (B2-CONTINUATION-LINEAR-SMOOTHNESS: Constructive smooth values for every linear polynomial): For every f(n)=an+b with a nonzero integer and every epsilon>0, an explicit positive integer exponential subsequence has f(n) nonzero and supported on one fixed finite set of primes. Consequently infinitely many values are n^epsilon-smooth, including a<0 and b=0. Remaining/limits: Higher-degree polynomials remain unresolved. No originality claim. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/SMOOTHNESS-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2604.25566) · [2](https://doi.org/10.1017/S1446788718000320) · [3](https://arxiv.org/abs/2607.19337v2)
 
@@ -1848,7 +1929,7 @@ Are (55,165,495,1485) and (286,1716,10296,61776) the only strictly increasing fo
 
 ## Q3116. Relative Davenport constants along cyclic coset subgroups
 
-**Status:** Open · **Kind:** conjecture (Conjecture 2.16) · **Collection** 32
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 2.16) · **Collection** 32
 
 For every H≤G and cosets α,β∈G/H with β∈⟨α⟩, must d_α(G)≥d_β(G)?
 
@@ -1857,6 +1938,11 @@ For every H≤G and cosets α,β∈G/H with β∈⟨α⟩, must d_α(G)≥d_β(G
 **Source.** Jared Kettinger and Grant Moles. *Elasticity of Orders from the S-relative Davenport Constant: an Arithmetic Application of a Number-Theoretic Investigation*. 2026. [primary source](https://arxiv.org/abs/2605.17595v2) Location: Conjecture 2.16, p. 7.
 
 **Literature check.** Status for questions 3116, 3117, checked 8 October 2026: July 2026 v2 retains these targets; a separate conjecture has an elementary counterexample.
+
+**Results.**
+
+- **Partial result** (B2-CONTINUATION-RELATIVE-DAVENPORT-DAG: Exact finite subset-sum state algorithm): For a finite abelian group and g nonzero, sequences avoiding g have an exact subset-sum DAG: every permitted appended term strictly increases the reachable-sum set. Longest paths determine the relative Davenport constant. Remaining/limits: The universal monotonicity target is not proved. This is a finite exact method. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2605.17595v1) · [2](https://arxiv.org/abs/2605.17595) · [3](https://arxiv.org/abs/2608.07741) · [4](https://doi.org/10.1016/j.jalgebra.2026.02.045) · [5](https://open.clemson.edu/all_dissertations/3750/) · [6](https://open.clemson.edu/all_dissertations/4284/)
 
@@ -1875,6 +1961,10 @@ For every number field K and orders R⊆T⊆𝒪\_K, must ρ(R)≥ρ(T)≥ρ(�
 
 **Literature check.** Status for questions 3116, 3117, checked 8 October 2026: July 2026 v2 retains these targets; a separate conjecture has an elementary counterexample.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://arxiv.org/abs/2605.17595v1) · [2](https://arxiv.org/abs/2605.17595) · [3](https://arxiv.org/abs/2608.07741) · [4](https://doi.org/10.1016/j.jalgebra.2026.02.045) · [5](https://open.clemson.edu/all_dissertations/3750/) · [6](https://open.clemson.edu/all_dissertations/4284/)
 
 
@@ -1891,6 +1981,10 @@ Is (A_n−κn)\_{n≥1} always τ-automatic?
 **Source.** Robbert Fokkink and Gandhar Joshi. *Anti-recurrence sequences*. 2025. [primary source](https://math.colgate.edu/~integers/aa24/aa24.pdf) Location: Conjecture 2, p. 6.
 
 **Literature check.** Status for question 3206, checked 8 October 2026: January 2026 final article proves restricted coefficient cases only; no full resolution located.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2506.13337) · [2](https://oro.open.ac.uk/109142/1/109142.pdf) · [3](https://oro.open.ac.uk/106631/1/GandharJoshiPhDThesis.pdf) · [4](https://orcid.org/0000-0002-6960-182X)
 
@@ -1916,7 +2010,7 @@ For every positive rational r, is ε\_n=0 for all sufficiently large n?
 
 ## Q3208. A five-by-five integer square sumset
 
-**Status:** Open · **Kind:** open problem · **Collection** 33
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 33
 
 Do sets A,B⊂ℤ with |A|=|B|=5 exist such that a+b is a perfect square for every a∈A and b∈B?
 
@@ -1925,6 +2019,12 @@ Do sets A,B⊂ℤ with |A|=|B|=5 exist such that a+b is a perfect square for eve
 **Source.** Ajai Choudhry. *Two sets of integers such that all elements of the sumset of the two sets are perfect squares*. [primary source](https://math.colgate.edu/~integers/aa66/aa66.pdf) Location: Section 6, p. 17.
 
 **Literature check.** Status for question 3208, checked 8 October 2026: June 2026 final article constructs4-by4 and5-by3 examples, leaving5-by5 open; no later construction located.
+
+**Results.**
+
+- **Partial result**: The specified four-by-four square-sum seed has no new integer neighbor on either side, with the new integer unrestricted. Opposite integer translations preserve this fact. This does not exclude all five-by-five square-sum sets or rational neighbors. Squared scaling preserves equations but need not preserve integer nonextension. Internally reviewed at this scope; no external peer-review claim. Five failed full-target routes leave the catalog question unresolved. [Details](../../solutions/b2-continuation-2026-10-12/diophantine/SQUARE-SUM-ATTEMPTS.md).
+- **Partial result** (B2-CONTINUATION-SQUARE-SUM-SEED: Complete integer nonextension of a specified square-sum seed): The specified four-by-four square-sum seed has no new integer neighbor on either side, with the new integer unrestricted. Opposite integer translations preserve this fact. Remaining/limits: This does not exclude all five-by-five square-sum sets or rational neighbors. Squared scaling preserves equations but need not preserve integer nonextension. [Report](../../solutions/b2-continuation-2026-10-12/diophantine/SQUARE-SUM-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2508.07806) · [2](https://sites.google.com/view/dr-ajai-choudhry-maths/research-papers)
 
@@ -2023,7 +2123,7 @@ For infinitely many m, does some A∈𝒜\_m contain an arithmetic progression o
 
 ## Q3314. Distinct signed-prime Lehmer factorizations
 
-**Status:** Open · **Kind:** open problem · **Collection** 34
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 34
 
 Do r≥2 pairwise distinct signed primes x₁,…,x_r and an integer k≥2 exist with k∏\_{i=1}^r(x_i−1)=∏\_{i=1}^r x_i−1?
 
@@ -2032,6 +2132,11 @@ Do r≥2 pairwise distinct signed primes x₁,…,x_r and an integer k≥2 exist
 **Source.** Grant Molnar and Guntas Singh. *Spoof Lehmer Factorizations*. 2023. [primary source](https://math.colgate.edu/~integers/aa33/aa33.pdf) Location: §5, p. 12, final paragraph on signed-prime examples.
 
 **Literature check.** Status for question 3314, checked 8 October 2026: Final February article reports no examples; July follow-up adds negative-base examples with repeated or composite factors, not this target.
+
+**Results.**
+
+- **Partial result** (B2-CONTINUATION-LEHMER-TWO: Two-factor signed-distinct Lehmer exclusion): The signed distinct two-factor case reduces to the retained exact factor identity, which forces equality of the two parameters and violates distinctness. Remaining/limits: Larger factor counts and the full Lehmer-style equation remain unresolved. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/SEQUENCE-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://math.colgate.edu/~integers/aa100/aa100.pdf) · [2](https://grantmolnar.com/research.html) · [3](https://grantmolnar.com/pdfs/Counting_elliptic_curves_with_a_cyclic_m_isogeny_over_Q.pdf)
 
@@ -2119,6 +2224,10 @@ Does ρ(𝒪\_{K_i})/ρ(N_{K_i}) tend to infinity as i→∞?
 **Source.** Jim Coykendall and Jared Kettinger. *Galois Action and Localization in Number Fields*. 2026. [primary source](https://arxiv.org/pdf/2510.10018v5) Location: Conjecture 6.4, p. 16; §6 for normset conventions.
 
 **Literature check.** Status checked 9 October 2026: Latest v5 (2026-06-02) retains the conjecture; no later resolution or correction located through 2026-10-09.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q3468"></a>
@@ -2284,6 +2393,10 @@ For every number field K, is there an effectively computable C_K such that max{l
 **Source.** Visser and Ziegler. *On integers that are representable as the sum of two units*. 2026. [primary source](https://arxiv.org/abs/2608.15903) Location: Conjecture 1, printed p.2
 
 **Literature check.** Status: No later full resolution located, 9 October 2026.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q3604"></a>
@@ -2452,6 +2565,10 @@ For C_n=binom(2n,n)/(n+1), does every integer n>255 with C_n odd satisfy C_n≡5
 
 **Literature check.** Status: Author-hosted thesis and later literature checked 9 October 2026; no resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://yurkevi.ch/me.html)
 
 
@@ -2607,6 +2724,10 @@ Does every integer n admit integers u,v,w satisfying T(u)+T(v)+T(w)=n?
 
 **Literature check.** Status checked 10 October 2026: Uppal's published original, Integral points on symmetric affine cubic surfaces, manuscripta mathematica 173 (2024), §9.1, p. 1322, retains the question. Local solvability and absence of an integral Brauer–Manin obstruction do not establish global solvability. No later resolution was found.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://doi.org/10.1007/s00229-023-01498-z)
 
 
@@ -2623,6 +2744,10 @@ For every prime p₁≡1 mod 6, is there a finite sequence of pairwise distinct 
 **Source.** Jean-Marie De Koninck and Patrick Letendre. *The Integer Values of Σ\_{i=1}ⁿ1/gcd(n,i)*. 2026. [primary source](https://arxiv.org/abs/2610.10572v1) Location: §7, pp. 10–11.
 
 **Literature check.** Status checked 10 October 2026: Current v1 explicitly asks whether this return can always be achieved. Its probabilistic discussion is a heuristic, without a proof of universal existence. No later resolution was found. The sequence may choose any qualifying prime factor at each step; no smallest-factor rule or prescribed length bound is imposed.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q4267"></a>
@@ -2718,6 +2843,10 @@ Is there a fixed ε>0 and an algorithm which, given any prime p in binary, compu
 
 **Literature check.** Status: Checked 11 October 2026: full published chapter poses this target. No classical resolution located; the source's amortized bound does not give this single-input bound.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 
 <a id="q4585"></a>
 
@@ -2732,6 +2861,10 @@ Do positive integers N,S,r exist with gcd(N,S)=gcd(S,r)=1 and S³>N such that at
 **Source.** Jonathon Hales. *Factoring With Partial Information in Z and Imaginary Quadratic Euclidean Domains*. Ohio State University, 2025. Advisor(s): Ghaith Hiary. [primary source](https://rave.ohiolink.edu/etdc/view?acc_num=osu1744036466436946) Location: thesis Question 3.4.11, p55; final paper §5(4).
 
 **Literature check.** Status: Checked 12 October 2026: the published paper retains both questions; no later resolution located.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1016/j.jnt.2026.03.014)
 
@@ -2757,7 +2890,7 @@ For d∈{19,43,67,163}, let O_d be the ring of integers of Q(√−d). Given N,S
 
 ## Q4642. For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m?
 
-**Status:** Open · **Kind:** open problem · **Collection** 47
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 47
 
 For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m?
 
@@ -2767,12 +2900,17 @@ For every such K and every integer m≥2, are infinitely many distinct values of
 
 **Literature check.** Status: The second is proved for D≡2,3(mod4). Both final-paper questions are explicit; checked 12 October 2026; no matching resolution located.
 
+**Results.**
+
+- **Partial result** (B2-CONTINUATION-PARTITION-PARITY: Conjugation-fixed partition parity product): Conjugation pairs nonfixed partitions. The integer-input partition count modulo two equals the coefficient of the locally finite product over positive integer parts and unordered positive nonintegral conjugate pairs, with pair weight its trace. Remaining/limits: Distinct-value divisibility and the all-field parity targets are unresolved. Unit orbits alone repeat one partition count. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/PARTITION-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 
 <a id="q4643"></a>
 
 ## Q4643. For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd…
 
-**Status:** Open · **Kind:** open problem · **Collection** 47
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 47
 
 For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd and infinitely many with p_K(n) even?
 
@@ -2781,6 +2919,11 @@ For every squarefree D≡1(mod4), are there infinitely many positive integers n 
 **Source.** David Stern and Mikuláš Zindulka. *Partitions in real quadratic fields*. 2024. [primary source](https://arxiv.org/abs/2310.09980v1) Location: Partitions in real quadratic fields, after Theorem 2, p.549.
 
 **Literature check.** Status: The second is proved for D≡2,3(mod4). Both final-paper questions are explicit; checked 12 October 2026; no matching resolution located.
+
+**Results.**
+
+- **Partial result** (B2-CONTINUATION-PARTITION-PARITY: Conjugation-fixed partition parity product): Conjugation pairs nonfixed partitions. The integer-input partition count modulo two equals the coefficient of the locally finite product over positive integer parts and unordered positive nonintegral conjugate pairs, with pair weight its trace. Remaining/limits: Distinct-value divisibility and the all-field parity targets are unresolved. Unit orbits alone repeat one partition count. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/PARTITION-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q4663"></a>
@@ -2798,4 +2941,19 @@ Is Q^Sol pseudo-algebraically closed?
 **Literature check.** Status: Checked 12 October 2026: no matching resolution was located.
 
 **Further links.** [1](https://arxiv.org/abs/2508.00215)
+
+
+<a id="q4771"></a>
+
+## Q4771. Is Gₚ connected for every prime p>2?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.4) · **Collection** 48
+
+Is Gₚ connected for every prime p>2?
+
+**Context.** Setup: For a prime p>2, let Gₚ have vertices (x,y,z)∈𝔽ₚ³∖{(0,0,0)} satisfying x²+y²+z²=xyz. Distinct vertices are adjacent when one coordinate is replaced by the product of the other two minus itself. Connected means every pair of vertices admits a walk. Audited provenance and status: Subject: Number theory and arithmetic graphs Colby Austin Brown; UC Davis PhD, 2026; advisor Elena Fuchs. Open on 2026-10-13; arXiv:2608.07880v2 §1 retains it; Theorem 1.1 proves conditional 2-connectivity. https://arxiv.org/abs/2608.07880 Known for p<10⁶ and p>3.449·10³⁹²; a finite range remains. Thesis convention includes the empty graph. Conj.5.12: HOLD_LITERAL_DIRECT_PROOF. Other scope checks: 2603.04096v3 Theorems 1.1/4.3; 2610.13528v1 Theorem 1.1 excludes m=0. Earlier final: Conjecture 1. https://doi.org/10.1007/s40993-024-00592-9
+
+**Source.** Colby Austin Brown. *Markoff Numbers and Computations on the Markoff Graph*. UC Davis, 2026. Advisor(s): Elena Fuchs. [primary source](https://www.math.ucdavis.edu/~webfiles/dissertations/202603_Colby_Brown_Dissertation.pdf) Location: Thesis Conjecture 2.4, p.13; setup pp.8,10–12. Baragar’s earlier conjecture, restated. https://www.math.ucdavis.edu/~webfiles/dissertations/202603_Colby_Brown_Dissertation.pdf
+
+**Further links.** [1](https://arxiv.org/abs/2608.07880) · [2](https://doi.org/10.1007/s40993-024-00592-9) · [3](https://www.math.ucdavis.edu/grad/degrees_award) · [4](https://arxiv.org/abs/2603.04096) · [5](https://arxiv.org/abs/2610.13528) · [6](https://arxiv.org/abs/2608.07880v2) · [7](https://arxiv.org/abs/2603.04096v3) · [8](https://arxiv.org/abs/2610.13528v1)
 

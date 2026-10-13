@@ -1,0 +1,16 @@
+{
+  "schema": "b3-stability-routes-v1",
+  "date": "2026-10-13",
+  "passed": true,
+  "counts": {
+    "operator_transcriptions": 46,
+    "strict_LC_controls": 512,
+    "instability_witnesses": 3,
+    "hypergeometric_fit_controls": 2,
+    "symbolic_all_n_identities": 2,
+    "excess_recurrence_comparisons": 190,
+    "actual_first_three_hurwitz": 132
+  },
+  "scope": "Exact auxiliary obstructions and symbolic all-n first-three determinants; no actual-row instability or all-order closure claimed.",
+  "checker_sha256": "693bf37051a14216e1b187d10c975d91fc6a2d773c299385149f8430f6d00ff0"
+}

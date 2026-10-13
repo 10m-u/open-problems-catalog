@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "all_tail_cubic_exact_root_counts": [
+    3,
+    2,
+    1,
+    0
+  ],
+  "single_pole_operator_identities": 64,
+  "exact_auxiliary_counterexamples": 3,
+  "checker_sha256": "d8c50b4c5142a99634536ec4793bc7a531ba76fad6df5ba7cf49b17870d2d871",
+  "scope": "Controls for RESULTS.md; no full conjecture closure."
+}

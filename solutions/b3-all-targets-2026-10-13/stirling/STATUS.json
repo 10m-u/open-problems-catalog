@@ -1,0 +1,308 @@
+{
+  "schema": "b3-stirling-status-v1",
+  "date": "2026-10-13",
+  "targets": [
+    {
+      "target": "Q1158",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Associated-triangle column lifting",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1158-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Natural convolution path network",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1158-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Normalized TN plus factorial-kernel TN",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1158-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "TN-prefix recurrence extension",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1158-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Symbolic Neville closure",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1158-a5"
+        }
+      ],
+      "evidence": [
+        "stirling/TRIANGLE-ATTEMPTS.md",
+        "stirling/TRIANGLE-CHECK-RESULTS.json",
+        "ROOT-REVIEW.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q1159",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Associated-triangle column lifting",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1159-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Natural convolution path network",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1159-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Normalized TN plus factorial-kernel TN",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1159-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "TN-prefix recurrence extension",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1159-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Symbolic Neville closure",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/TRIANGLE-ATTEMPTS.md#q1159-a5"
+        }
+      ],
+      "evidence": [
+        "stirling/TRIANGLE-ATTEMPTS.md",
+        "stirling/TRIANGLE-CHECK-RESULTS.json",
+        "ROOT-REVIEW.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q1160",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Weighted compound-Poisson moment representation",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q1160-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Positive S-fraction construction",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q1160-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Degree-isolated positive moment kernels",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q1160-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "TN2 pairing extended to triples",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q1160-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Symbolic shifted triple closure",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q1160-a5"
+        }
+      ],
+      "evidence": [
+        "stirling/CYCLE-HANKEL-ATTEMPTS.md",
+        "stirling/CYCLE-HANKEL-CHECK-RESULTS.json",
+        "ROOT-REVIEW.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q1161",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Stable strictly-LC input operator preservation",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q1161-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Strict-LC row to Hurwitz stability",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q1161-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Numerical moment to polynomial stability transfer",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q1161-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Two-parameter Bessel-type representation",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q1161-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "All-order Routh closure from fixed-excess formulas",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q1161-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "stirling/Q1161-ATTEMPTS.md",
+        "stirling/STABILITY-CHECK-RESULTS.json",
+        "ROOT-REVIEW.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q4429",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Single convex-zone recurrence preservation",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q4429-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Normalized LC plus factorial curvature",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q4429-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Fixed-r endpoint and bulk saddle asymptotics",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q4429-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Fixed-n large-r curvature control",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q4429-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Actual curvature monotonicity in row size",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q4429-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "stirling/Q4429-ATTEMPTS.md",
+        "stirling/ROW-PATTERN-CHECK-RESULTS.json",
+        "ROOT-REVIEW.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "B3C-Q02",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [
+        "stirling/HANKEL-TN2.md",
+        "stirling/HANKEL-TN2-CHECK-RESULTS.json",
+        "ROOT-REVIEW.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "B3C-Q03",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Weighted compound-Poisson moment representation",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q03-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Positive S-fraction construction",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q03-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Degree-isolated positive moment kernels",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q03-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "TN2 pairing extended to triples",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q03-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Symbolic shifted triple closure",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/CYCLE-HANKEL-ATTEMPTS.md#q03-a5"
+        }
+      ],
+      "evidence": [
+        "stirling/CYCLE-HANKEL-ATTEMPTS.md",
+        "stirling/CYCLE-HANKEL-CHECK-RESULTS.json",
+        "ROOT-REVIEW.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q4666",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "root_review_accepted": true,
+      "result": "counterexample",
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Root-star necessary support and local-ratio proof",
+          "outcome": "full_target_failure",
+          "evidence": "trees/ATTEMPTS.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Corollary2.9 all-size certificate for non-LC cubic",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q4666-RESULT.md#t02"
+        },
+        {
+          "attempt": 3,
+          "route": "Two-step forest TN2 and exact composition size-lag criterion",
+          "outcome": "full_target_solution",
+          "evidence": "stirling/Q4666-RESULT.md#t03"
+        }
+      ],
+      "evidence": [
+        "stirling/Q4666-RESULT.md",
+        "stirling/Q4666-CHECK.json",
+        "ROOT-REVIEW.md"
+      ]
+    }
+  ]
+}

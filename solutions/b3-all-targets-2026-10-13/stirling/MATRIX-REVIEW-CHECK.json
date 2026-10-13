@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "symbolic_boundary_minors": 21,
+  "forced_P_2_1": "-a*e*(a*e + c*d)/c**3",
+  "scope": "Independent small symbolic controls support MATRIX-REVIEW.md; all-size boundary conclusion rests on explicit sum identity."
+}

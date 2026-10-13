@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "p29_generator": 4,
+  "p29_primal": [
+    "1",
+    "0",
+    "0",
+    "2953/4004",
+    "4899/77000",
+    "0",
+    "927/2600",
+    "0",
+    "927/2600",
+    "0",
+    "4899/77000",
+    "2953/4004",
+    "0",
+    "0"
+  ],
+  "p29_anchor_objective": "539958/125125",
+  "smallest_certified_fourier_lower_bound": 0.0009992443862345984,
+  "trig_arithmetic": "Machin arctangent and alternating cosine bounds with rational arithmetic",
+  "p17_exact_anchor_optimum": "9-4*sqrt(2)",
+  "nonnegative_fejer_convolution_controls": 36,
+  "bounded_rank_gap_controls": 6,
+  "scope": "Feasible rational counter-witness to universal HP LP lift, exact n8 integrality gap, bounded-rank proof controls; no infinite-prime conclusion."
+}

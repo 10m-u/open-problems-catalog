@@ -1,0 +1,1180 @@
+{
+  "schema": "b14-one-tree-certificate-v1",
+  "instance": {
+    "id": "clustered-euclidean-ceil-n12-s3",
+    "family": "clustered-euclidean-ceil",
+    "seed": 3,
+    "costs": [
+      [
+        0,
+        262,
+        540,
+        52,
+        231,
+        580,
+        105,
+        216,
+        518,
+        21,
+        287,
+        558
+      ],
+      [
+        262,
+        0,
+        284,
+        296,
+        64,
+        323,
+        339,
+        49,
+        260,
+        282,
+        87,
+        307
+      ],
+      [
+        540,
+        284,
+        0,
+        578,
+        311,
+        41,
+        622,
+        327,
+        28,
+        561,
+        262,
+        45
+      ],
+      [
+        52,
+        296,
+        578,
+        0,
+        273,
+        617,
+        54,
+        252,
+        554,
+        40,
+        330,
+        597
+      ],
+      [
+        231,
+        64,
+        311,
+        273,
+        0,
+        351,
+        321,
+        42,
+        290,
+        252,
+        60,
+        327
+      ],
+      [
+        580,
+        323,
+        41,
+        617,
+        351,
+        0,
+        661,
+        366,
+        64,
+        600,
+        302,
+        53
+      ],
+      [
+        105,
+        339,
+        622,
+        54,
+        321,
+        661,
+        0,
+        297,
+        598,
+        92,
+        379,
+        643
+      ],
+      [
+        216,
+        49,
+        327,
+        252,
+        42,
+        366,
+        297,
+        0,
+        303,
+        236,
+        95,
+        347
+      ],
+      [
+        518,
+        260,
+        28,
+        554,
+        290,
+        64,
+        598,
+        303,
+        0,
+        538,
+        243,
+        70
+      ],
+      [
+        21,
+        282,
+        561,
+        40,
+        252,
+        600,
+        92,
+        236,
+        538,
+        0,
+        307,
+        578
+      ],
+      [
+        287,
+        87,
+        262,
+        330,
+        60,
+        302,
+        379,
+        95,
+        243,
+        307,
+        0,
+        273
+      ],
+      [
+        558,
+        307,
+        45,
+        597,
+        327,
+        53,
+        643,
+        347,
+        70,
+        578,
+        273,
+        0
+      ]
+    ]
+  },
+  "method": "zero",
+  "incumbent": {
+    "tour": [
+      0,
+      9,
+      3,
+      6,
+      7,
+      1,
+      8,
+      2,
+      5,
+      11,
+      10,
+      4
+    ],
+    "cost": 1407
+  },
+  "certificates": [
+    {
+      "root": 0,
+      "potentials": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scale": 16,
+      "tree_edges": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          11
+        ]
+      ],
+      "root_edges": [
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "bound_numerator": 14576
+    }
+  ],
+  "global_lower_bound": {
+    "numerator": 14576,
+    "scale": 16,
+    "certificate": 0
+  },
+  "forced_bounds": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "numerator": 17936,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        2
+      ],
+      "numerator": 22384,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        3
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        4
+      ],
+      "numerator": 17440,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        5
+      ],
+      "numerator": 23024,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        6
+      ],
+      "numerator": 15424,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        7
+      ],
+      "numerator": 17200,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        8
+      ],
+      "numerator": 22032,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        9
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        10
+      ],
+      "numerator": 18336,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        0,
+        11
+      ],
+      "numerator": 22672,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "numerator": 15232,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "numerator": 15536,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        4
+      ],
+      "numerator": 14816,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        5
+      ],
+      "numerator": 15856,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        6
+      ],
+      "numerator": 16224,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        7
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        8
+      ],
+      "numerator": 14848,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        9
+      ],
+      "numerator": 15312,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        10
+      ],
+      "numerator": 15008,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        1,
+        11
+      ],
+      "numerator": 15600,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "numerator": 19936,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        4
+      ],
+      "numerator": 15664,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        5
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        6
+      ],
+      "numerator": 20640,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        7
+      ],
+      "numerator": 15920,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        8
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        9
+      ],
+      "numerator": 19664,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        10
+      ],
+      "numerator": 14880,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        2,
+        11
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "numerator": 15168,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        5
+      ],
+      "numerator": 20560,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        6
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        7
+      ],
+      "numerator": 14832,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        8
+      ],
+      "numerator": 19552,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        9
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        10
+      ],
+      "numerator": 16080,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        3,
+        11
+      ],
+      "numerator": 20240,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "numerator": 16304,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        4,
+        6
+      ],
+      "numerator": 15936,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        4,
+        7
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        4,
+        8
+      ],
+      "numerator": 15328,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        4,
+        9
+      ],
+      "numerator": 14832,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        4,
+        10
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        4,
+        11
+      ],
+      "numerator": 15920,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        5,
+        6
+      ],
+      "numerator": 21264,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        5,
+        7
+      ],
+      "numerator": 16544,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        5,
+        8
+      ],
+      "numerator": 14944,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        5,
+        9
+      ],
+      "numerator": 20288,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        5,
+        10
+      ],
+      "numerator": 15520,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        5,
+        11
+      ],
+      "numerator": 14704,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        6,
+        7
+      ],
+      "numerator": 15552,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        6,
+        8
+      ],
+      "numerator": 20256,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        6,
+        9
+      ],
+      "numerator": 15184,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        6,
+        10
+      ],
+      "numerator": 16864,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        6,
+        11
+      ],
+      "numerator": 20976,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        7,
+        8
+      ],
+      "numerator": 15536,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        7,
+        9
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        7,
+        10
+      ],
+      "numerator": 15136,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        7,
+        11
+      ],
+      "numerator": 16240,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        8,
+        9
+      ],
+      "numerator": 19296,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        8,
+        10
+      ],
+      "numerator": 14576,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        8,
+        11
+      ],
+      "numerator": 14976,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        9,
+        10
+      ],
+      "numerator": 15712,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        9,
+        11
+      ],
+      "numerator": 19936,
+      "scale": 16,
+      "certificate": 0
+    },
+    {
+      "edge": [
+        10,
+        11
+      ],
+      "numerator": 15056,
+      "scale": 16,
+      "certificate": 0
+    }
+  ],
+  "eliminated_edges": [
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "residual_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      11
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      11
+    ]
+  ],
+  "measurements": {
+    "snapshot_calls": 1,
+    "retained_certificates": 1,
+    "min_fill_width_upper_bound": 10,
+    "min_fill_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "optimal_cost": 1407,
+    "optimal_tour": [
+      0,
+      9,
+      3,
+      6,
+      7,
+      1,
+      8,
+      2,
+      5,
+      11,
+      10,
+      4
+    ],
+    "full_dp": {
+      "states": 11264,
+      "transitions": 56320
+    },
+    "residual_dp": {
+      "states": 11233,
+      "transitions": 56048
+    }
+  }
+}

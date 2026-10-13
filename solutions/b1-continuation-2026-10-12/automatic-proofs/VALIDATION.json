@@ -1,0 +1,10 @@
+{
+  "all_width_certificates_verified": true,
+  "states": {
+    "carry_and_low_bit": 6,
+    "top_toggle": 11
+  },
+  "arithmetic_controls": 87380,
+  "walnut_run": false,
+  "scope": "three uniform arithmetic identities, every positive width"
+}

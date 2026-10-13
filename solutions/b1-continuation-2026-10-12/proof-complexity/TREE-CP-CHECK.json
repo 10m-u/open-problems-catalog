@@ -1,0 +1,13 @@
+{
+  "odd_charge_tree_refutations_checked": 762,
+  "vertices": [
+    2,
+    8
+  ],
+  "largest_line_count": 78,
+  "rules_used": [
+    "input_CNF_inequality",
+    "addition"
+  ],
+  "all_graph_polynomial_line_bound": false
+}

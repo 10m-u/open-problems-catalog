@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-12",
+  "round": "B14 third round",
+  "basis": "User-provided programme and complete two-round handoff",
+  "results": [
+    {
+      "id": "B14-R3-COUNT-RATE",
+      "targets": [
+        "Q3818",
+        "P5"
+      ],
+      "stable_statement_id": "1ab793013b1b4b6d4773",
+      "status": "written proof with supporting finite checks; no external peer review or formal verification",
+      "model": "Fixed iid Uniform[0,1] costs on edges of undirected K_n; tours modulo rotation and reversal; strictly improving cycle-preserving 2-opt exchanges",
+      "statement": "lim_{n->infinity} (E[M_n]/sqrt(n!))^(1/n) = rho",
+      "rho_definition": "rho = exp(-1/2) min_{a>=0} exp(a*a/2) integral_0^infinity exp(-y*y/2-a*y)dy",
+      "rho_decimal": "0.59758697855134505279185720272972086121440266433686921325917921232",
+      "corollary": "E[M_n] = O((3/5)^n sqrt(n!))",
+      "not_claimed": [
+        "asymptotic equivalence to rho^n sqrt(n!)",
+        "O(rho^n sqrt(n!))",
+        "count concentration",
+        "typical-instance count",
+        "basin size or tour quality",
+        "search or exact-solver runtime"
+      ],
+      "proof": "REPORT.md, equations (1)-(24)",
+      "checks": "checks/EXACT-CHECK-RESULTS.json"
+    },
+    {
+      "id": "B14-R3-REGULAR-ENDPOINT",
+      "targets": [
+        "P5 transfer"
+      ],
+      "status": "written proof",
+      "statement": "The same exponential rate holds for a fixed iid absolutely continuous edge-cost law supported above a finite lower endpoint, with finite positive limiting density at that endpoint.",
+      "examples": [
+        "uniform on a nondegenerate bounded interval",
+        "exponential weights assigned directly to complete-graph edges"
+      ],
+      "exclusions": [
+        "dependent shortest-path distances",
+        "Euclidean distances",
+        "density zero or infinite at lower endpoint",
+        "atom at lower endpoint",
+        "n-dependent distribution"
+      ],
+      "proof": "REPORT.md, equations (25)-(27)"
+    },
+    {
+      "id": "B14-R3-REPLICATION",
+      "targets": [
+        "Q3818/P5 predecessor",
+        "P1 finite certificates",
+        "P2 finite residual examples",
+        "P3 finite gain pieces"
+      ],
+      "status": "four finite checkers passed; recomputed receipts agree with originals",
+      "archive_payloads_verified": 614,
+      "archive_entries": 615,
+      "receipt": "replication/REPLICATION-RESULTS.json",
+      "not_claimed": "An independent all-size validation of every theorem in the handoff, or new solver-performance improvements"
+    }
+  ],
+  "no_new_resolution_here": [
+    "Q3817",
+    "Q549",
+    "Q550",
+    "Q1852",
+    "Q1853",
+    "Q1953",
+    "Q3819",
+    "P4",
+    "P6"
+  ],
+  "original_attachments_changed": false,
+  "live_catalog_modified": false,
+  "public_publication": false,
+  "next_mathematical_target": "Subexponential correction to the expected local-optimum count; distinct cost and basin questions need new arguments."
+}

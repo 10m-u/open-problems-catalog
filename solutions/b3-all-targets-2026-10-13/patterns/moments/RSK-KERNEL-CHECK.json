@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "n_range": [
+    2,
+    6
+  ],
+  "nonmonotone_beta_first_rank_controls": 862,
+  "noninvolution_nonsymmetric_kernels": 754,
+  "involution_negative_principal_minors": 108,
+  "actual_1324_witness": {
+    "beta": [
+      1,
+      3,
+      2,
+      4
+    ],
+    "shape": [
+      3,
+      1
+    ],
+    "tableau_T": [
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        3
+      ]
+    ],
+    "tableau_S": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "four_permutations": {
+      "TT": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "TS": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "ST": [
+        1,
+        4,
+        2,
+        3
+      ],
+      "SS": [
+        1,
+        2,
+        4,
+        3
+      ]
+    },
+    "principal_avoidance_kernel": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "determinant": -1
+  },
+  "scope": "Failure of the literal RSK positive-kernel construction; not a negative avoidance Hankel minor.",
+  "checker_sha256": "4691505af2b0955548c8a0cb2aa7d198c51ff2406870d0def84467f54d7d61c2"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "term_controls": 2869,
+  "terms": 19,
+  "refinements": 4,
+  "progression_slope": 120,
+  "progression_offset": 3,
+  "graph_controls": 25600,
+  "quotient_graph_monoid_size": 13,
+  "nontrivial_residue_cycle": [
+    1,
+    2,
+    0
+  ],
+  "sparse_count_lengths": 16,
+  "sparse_counts": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    15,
+    23,
+    31,
+    47,
+    63,
+    95,
+    127,
+    191,
+    255,
+    383,
+    511
+  ],
+  "scope": "finite route controls; no unrestricted finite-QE decision"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "predecessor_copies_match": 3,
+  "original_programme_hash_matches": true,
+  "receipts_reproduced_except_elapsed_times": [
+    "MODULE-RESULTS.json",
+    "CONTRACTED-RESULTS.json",
+    "SEPARATION-RESULTS.json",
+    "BLOCK-RESULTS.json",
+    "INDEPENDENT-CERTIFICATE-RESULTS.json",
+    "REJECTION-CONTROLS.json"
+  ]
+}

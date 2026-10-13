@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "n": 3,
+      "k": 2,
+      "f": 0,
+      "represented_sets": 5,
+      "first_bad_complement": [
+        2
+      ]
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "f": 0,
+      "represented_sets": 17,
+      "first_bad_complement": [
+        4
+      ]
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "f": 2,
+      "represented_sets": 58,
+      "first_bad_complement": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "n": 9,
+      "k": 2,
+      "f": 2,
+      "represented_sets": 167,
+      "first_bad_complement": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "n": 11,
+      "k": 2,
+      "f": 2,
+      "represented_sets": 464,
+      "first_bad_complement": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "n": 13,
+      "k": 2,
+      "f": 2,
+      "represented_sets": 1263,
+      "first_bad_complement": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "f": 0,
+      "represented_sets": 8,
+      "first_bad_complement": [
+        3
+      ]
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "f": 1,
+      "represented_sets": 12,
+      "first_bad_complement": [
+        3,
+        4
+      ]
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "f": 0,
+      "represented_sets": 30,
+      "first_bad_complement": [
+        6
+      ]
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "f": 1,
+      "represented_sets": 40,
+      "first_bad_complement": [
+        6,
+        7
+      ]
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "f": 1,
+      "represented_sets": 124,
+      "first_bad_complement": [
+        8,
+        9
+      ]
+    },
+    {
+      "n": 11,
+      "k": 3,
+      "f": 2,
+      "represented_sets": 189,
+      "first_bad_complement": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "n": 13,
+      "k": 3,
+      "f": 1,
+      "represented_sets": 470,
+      "first_bad_complement": [
+        11,
+        12
+      ]
+    }
+  ],
+  "max_order": 13,
+  "scope": "Complete small cyclic-group tables, no uniform asymptotic upper bound"
+}

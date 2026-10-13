@@ -1,0 +1,120 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational",
+  "legal_transfers_with_independent_cost_recomputation": 440,
+  "unlabeled_global_partitions": 90,
+  "unique_global_objective": "5",
+  "four_point_threshold_controls": [
+    {
+      "digits": 1,
+      "gain": "11/600"
+    },
+    {
+      "digits": 2,
+      "gain": "71/60000"
+    },
+    {
+      "digits": 3,
+      "gain": "11/375000"
+    },
+    {
+      "digits": 4,
+      "gain": "11/375000"
+    },
+    {
+      "digits": 5,
+      "gain": "373/800000000"
+    },
+    {
+      "digits": 6,
+      "gain": "373/800000000"
+    },
+    {
+      "digits": 7,
+      "gain": "163871/37500000000000"
+    },
+    {
+      "digits": 8,
+      "gain": "163871/37500000000000"
+    },
+    {
+      "digits": 9,
+      "gain": "656882917/2000000000000000000"
+    },
+    {
+      "digits": 10,
+      "gain": "38175671/960000000000000000"
+    },
+    {
+      "digits": 11,
+      "gain": "19219904279/3750000000000000000000"
+    },
+    {
+      "digits": 12,
+      "gain": "11871226271/23437500000000000000000"
+    }
+  ],
+  "eight_point_smoothing_controls": [
+    {
+      "digits": 1,
+      "coordinate_shift": "101/6000",
+      "smallest_worsening_increment_after_shift": "71407/15000000"
+    },
+    {
+      "digits": 2,
+      "coordinate_shift": "101/60000",
+      "smallest_worsening_increment_after_shift": "173417/140625000"
+    },
+    {
+      "digits": 3,
+      "coordinate_shift": "101/600000",
+      "smallest_worsening_increment_after_shift": "438643/150000000000"
+    },
+    {
+      "digits": 4,
+      "coordinate_shift": "101/6000000",
+      "smallest_worsening_increment_after_shift": "438643/150000000000"
+    },
+    {
+      "digits": 5,
+      "coordinate_shift": "101/60000000",
+      "smallest_worsening_increment_after_shift": "5257605601/4500000000000000"
+    },
+    {
+      "digits": 6,
+      "coordinate_shift": "101/600000000",
+      "smallest_worsening_increment_after_shift": "807194929/7031250000000000"
+    },
+    {
+      "digits": 7,
+      "coordinate_shift": "101/6000000000",
+      "smallest_worsening_increment_after_shift": "106262684689/11250000000000000000"
+    },
+    {
+      "digits": 8,
+      "coordinate_shift": "101/60000000000",
+      "smallest_worsening_increment_after_shift": "39956939563/60000000000000000000"
+    },
+    {
+      "digits": 9,
+      "coordinate_shift": "101/600000000000",
+      "smallest_worsening_increment_after_shift": "20875742631403/150000000000000000000000"
+    },
+    {
+      "digits": 10,
+      "coordinate_shift": "101/6000000000000",
+      "smallest_worsening_increment_after_shift": "731560352736169/45000000000000000000000000"
+    },
+    {
+      "digits": 11,
+      "coordinate_shift": "101/60000000000000",
+      "smallest_worsening_increment_after_shift": "2041089666351841/4500000000000000000000000000"
+    },
+    {
+      "digits": 12,
+      "coordinate_shift": "101/600000000000000",
+      "smallest_worsening_increment_after_shift": "14998617895987/146484375000000000000000000"
+    }
+  ],
+  "scope": "specified route obstructions only; no Q3819 shortest-path lower bound"
+}

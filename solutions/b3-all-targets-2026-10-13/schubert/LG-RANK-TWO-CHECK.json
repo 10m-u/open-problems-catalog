@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "associativity_basis_triples": 64,
+  "Euler_Gram": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "Euler_dual_columns": [
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      -1,
+      0,
+      0
+    ]
+  ],
+  "ordinary_complement_pairing": 1,
+  "correct_K_dual_pairing": -1,
+  "checker_sha256": "e211eadbf2af1e8e08e700e83af4bc961ad6df64c437e80cf30ea8cc9c22f697",
+  "scope": "Rank-two geometry and proved Pieri supply the table; this checker controls algebraic consistency and dual pairing."
+}

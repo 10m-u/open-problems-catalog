@@ -1,0 +1,635 @@
+{
+  "date": "2026-10-13",
+  "new_exact_catalog_closures": 0,
+  "records": [
+    {
+      "id": "B2-RETURN-R1-B2-NEW-Q4296-LOG-CODIMENSION",
+      "title": "all-dimension theorem using established external PFR",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "Every admissible k-colour midpoint partition of F_3^n with remainder density at least 1/10 has an affine subspace in R of codimension O(k log(2k)).",
+      "remaining": "The exact extremal function and removal of the logarithmic factor are not determined. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-NEW-Q4296-LOG-CODIMENSION",
+      "submitted_record": {
+        "result_id": "B2-NEW-Q4296-LOG-CODIMENSION",
+        "question": "Q4296",
+        "statement_id": "67d9a47fe0b199024fdb",
+        "type": "all-dimension theorem using established external PFR",
+        "statement": "Every admissible k-colour midpoint partition of F_3^n with remainder density at least 1/10 has an affine subspace in R of codimension O(k log(2k)).",
+        "extension": "Over each fixed odd prime p, density alpha>0 gives codimension O_p(k(log(2k)+log(1/alpha))).",
+        "explicit_bound": "M=M_p(k); s=ceil(log_p(2kM)); T=ceil((2k+1)ln(4p^s/alpha)); codimension <= min(n,T+ks).",
+        "source_comparison": "Theorem 3 of arXiv:2610.11847v1 gives O(k^2) at p=3 and alpha=1/10.",
+        "proof": "RESEARCH-NOTE.pdf, Theorem 2.1 and Corollary 2.2",
+        "remaining": "The exact extremal function and removal of the logarithmic factor are not determined."
+      },
+      "submitted_round": 1,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R1-B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE",
+      "title": "auxiliary general lemma",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "If A is covered by M cosets of H, s <= dim(W/H), and M p^(-s)<1, then an affine codimension-s subspace avoiding A exists on which any nonnegative function has average at most its ambient average divided by 1-M p^(-s).",
+      "remaining": "No small-doubling or midpoint hypothesis is required for this standalone lemma. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE",
+      "submitted_record": {
+        "result_id": "B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE",
+        "question": "Q4296",
+        "type": "auxiliary general lemma",
+        "statement": "If A is covered by M cosets of H, s <= dim(W/H), and M p^(-s)<1, then an affine codimension-s subspace avoiding A exists on which any nonnegative function has average at most its ambient average divided by 1-M p^(-s).",
+        "proof": "RESEARCH-NOTE.pdf, Lemma 2.3",
+        "scope": "No small-doubling or midpoint hypothesis is required for this standalone lemma."
+      },
+      "submitted_round": 1,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R1-B2-NEW-Q4296-BLOCK-CONSTRUCTION",
+      "title": "explicit companion construction",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "For n>=kb, the remainder with every one of k disjoint b-dimensional blocks nonzero admits k midpoint colours on its complement and has largest affine subspace dimension exactly n-k; density is (1-p^(-b))^k.",
+      "remaining": "The primary source already notes linear-loss constructions; no priority claim for necessity of linear loss. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-NEW-Q4296-BLOCK-CONSTRUCTION",
+      "submitted_record": {
+        "result_id": "B2-NEW-Q4296-BLOCK-CONSTRUCTION",
+        "question": "Q4296",
+        "type": "explicit companion construction",
+        "statement": "For n>=kb, the remainder with every one of k disjoint b-dimensional blocks nonzero admits k midpoint colours on its complement and has largest affine subspace dimension exactly n-k; density is (1-p^(-b))^k.",
+        "high_density_choice": "b=ceil(log_p(10k)) gives density at least 9/10.",
+        "proof": "RESEARCH-NOTE.pdf, Proposition 3.1",
+        "priority_note": "The primary source already notes linear-loss constructions; no priority claim for necessity of linear loss."
+      },
+      "submitted_round": 1,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R1-B2-NEW-Q4660-EXACT-1.40518",
+      "title": "exact finite-law lower-bound certificate",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4660",
+      "statement": "The least universal entropy sum-difference constant is strictly greater than 70259/50000 = 1.40518.",
+      "remaining": "No proof of the sharp universal constant, no global optimizer, and no improvement to Q4659. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-NEW-Q4660-EXACT-1.40518",
+      "submitted_record": {
+        "result_id": "B2-NEW-Q4660-EXACT-1.40518",
+        "question": "Q4660",
+        "statement_id": "4e69214fdfaf0bc4e852",
+        "type": "exact finite-law lower-bound certificate",
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "weights": [
+          88162304,
+          10154519,
+          1485728,
+          177393,
+          18242,
+          1665,
+          138,
+          11
+        ],
+        "denominator": 100000000,
+        "ratio_interval": [
+          "1.4051809660756335725451283471012647256861",
+          "1.4051809660756335725451283471012647256862"
+        ],
+        "consequence": "The least universal entropy sum-difference constant is strictly greater than 70259/50000 = 1.40518.",
+        "high_entropy_extension": "Independent digit copies encoded in base 16 preserve the ratio and have arbitrarily large entropy.",
+        "proof": "RESEARCH-NOTE.pdf, Proposition 4.1 and Corollary 4.2; ENTROPY-CERTIFICATE.json",
+        "remaining": "No proof of the sharp universal constant, no global optimizer, and no improvement to Q4659."
+      },
+      "submitted_round": 1,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R2-Q4296-two-colour-cap",
+      "title": "Q4296-two-colour-cap",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "For every n, line-free admissible two-colour remainders in F_3^n are exactly the empty set, a singleton, two points, or an affine parallelogram.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+      "submitted_result_id": "Q4296-two-colour-cap",
+      "submitted_record": {
+        "result_id": "Q4296-two-colour-cap",
+        "target": "Q4296",
+        "manuscript_location": "Theorem 2.1",
+        "statement": "For every n, line-free admissible two-colour remainders in F_3^n are exactly the empty set, a singleton, two points, or an affine parallelogram.",
+        "evidence": "written_proof"
+      },
+      "submitted_round": 2,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R2-Q4296-full-fibre",
+      "title": "Q4296-full-fibre",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "Full fibres inherit admissibility for any k over odd prime fields. For two colours the number of complete parallel maximal flats is 1, 2, or 4, with parallelogram quotient structure for four.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+      "submitted_result_id": "Q4296-full-fibre",
+      "submitted_record": {
+        "result_id": "Q4296-full-fibre",
+        "target": "Q4296",
+        "manuscript_location": "Lemma 3.1 and Corollary 3.2",
+        "statement": "Full fibres inherit admissibility for any k over odd prime fields. For two colours the number of complete parallel maximal flats is 1, 2, or 4, with parallelogram quotient structure for four.",
+        "evidence": "written_proof"
+      },
+      "submitted_round": 2,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R2-Q4296-initial-values",
+      "title": "Q4296-initial-values",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "At density >=1/10, f(1,2)=f(2,2)=f(3,2)=0 and f(4,2)=1.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+      "submitted_result_id": "Q4296-initial-values",
+      "submitted_record": {
+        "result_id": "Q4296-initial-values",
+        "target": "Q4296",
+        "manuscript_location": "Corollary 3.3",
+        "statement": "At density >=1/10, f(1,2)=f(2,2)=f(3,2)=0 and f(4,2)=1.",
+        "evidence": "written_proof"
+      },
+      "submitted_round": 2,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R2-Q4296-k-plus-two-obstruction",
+      "title": "Q4296-k-plus-two-obstruction",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "For k>=2, n>=k ceil(log_3(10k))+2, there is an admissible density-1/10 partition with largest affine dimension exactly n-k-2.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+      "submitted_result_id": "Q4296-k-plus-two-obstruction",
+      "submitted_record": {
+        "result_id": "Q4296-k-plus-two-obstruction",
+        "target": "Q4296",
+        "manuscript_location": "Lemma 2.4 and Proposition 3.4",
+        "statement": "For k>=2, n>=k ceil(log_3(10k))+2, there is an admissible density-1/10 partition with largest affine dimension exactly n-k-2.",
+        "evidence": "written_proof"
+      },
+      "submitted_round": 2,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R2-Q4660-support-boundary",
+      "title": "Q4660-support-boundary",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4660",
+      "statement": "The epsilon log(1/epsilon) coefficient of the ratio under adding an atom is [2u_minus-1-rho(2u_plus-1)]/Delta_plus; for rho>1 only (A+A-A)\\A can give positive leading coefficients.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+      "submitted_result_id": "Q4660-support-boundary",
+      "submitted_record": {
+        "result_id": "Q4660-support-boundary",
+        "target": "Q4660",
+        "manuscript_location": "Theorem 4.1 and Corollary 4.2",
+        "statement": "The epsilon log(1/epsilon) coefficient of the ratio under adding an atom is [2u_minus-1-rho(2u_plus-1)]/Delta_plus; for rho>1 only (A+A-A)\\A can give positive leading coefficients.",
+        "evidence": "written_proof"
+      },
+      "submitted_round": 2,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R2-Q4660-finite-AP-nonattainment",
+      "title": "Q4660-finite-AP-nonattainment",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4660",
+      "statement": "A finite real law of ratio >1 cannot be globally extremal if it fully occupies an arithmetic progression, or if either support endpoint has probability >=1/2.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+      "submitted_result_id": "Q4660-finite-AP-nonattainment",
+      "submitted_record": {
+        "result_id": "Q4660-finite-AP-nonattainment",
+        "target": "Q4660",
+        "manuscript_location": "Corollaries 4.3 and 4.4",
+        "statement": "A finite real law of ratio >1 cannot be globally extremal if it fully occupies an arithmetic progression, or if either support endpoint has probability >=1/2.",
+        "evidence": "written_proof"
+      },
+      "submitted_round": 2,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R2-Q4660-twelve-point-certificate",
+      "title": "Q4660-twelve-point-certificate",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4660",
+      "statement": "The displayed twelve-point rational law has ratio 1.4051810329220149462009831947934829507300... and proves C_*>14051810329/10^10.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+      "submitted_result_id": "Q4660-twelve-point-certificate",
+      "submitted_record": {
+        "result_id": "Q4660-twelve-point-certificate",
+        "target": "Q4660",
+        "manuscript_location": "Proposition 5.1",
+        "statement": "The displayed twelve-point rational law has ratio 1.4051810329220149462009831947934829507300... and proves C_*>14051810329/10^10.",
+        "evidence": "exact_rational_certificate_passed"
+      },
+      "submitted_round": 2,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND1-2-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R3-B2-III-M1",
+      "title": "Maximal-flat fibre rigidity",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "In an admissible two-colour partition of F_3^n, quotient in the direction of a maximum-dimensional affine subspace contained in R. The full remainder fibres form a cap of size 1,2,4; all but at most one nonfull fibre have a monochromatic affine coloured complement.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-III-M1",
+      "submitted_record": {
+        "id": "B2-III-M1",
+        "target": "Q4296",
+        "statement_id": "67d9a47fe0b199024fdb",
+        "name": "Maximal-flat fibre rigidity",
+        "statement": "In an admissible two-colour partition of F_3^n, quotient in the direction of a maximum-dimensional affine subspace contained in R. The full remainder fibres form a cap of size 1,2,4; all but at most one nonfull fibre have a monochromatic affine coloured complement.",
+        "proof": "RESEARCH-NOTE.pdf, Theorem 2.2",
+        "status": "written proof; finite controls passed"
+      },
+      "submitted_round": 3,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND3-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R3-B2-III-M2",
+      "title": "Occupied-fibre inheritance",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "Under the hypotheses of M1, the quotient set of fibres meeting R inherits an admissible two-colouring.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-III-M2",
+      "submitted_record": {
+        "id": "B2-III-M2",
+        "target": "Q4296",
+        "statement_id": "67d9a47fe0b199024fdb",
+        "name": "Occupied-fibre inheritance",
+        "statement": "Under the hypotheses of M1, the quotient set of fibres meeting R inherits an admissible two-colouring.",
+        "proof": "RESEARCH-NOTE.pdf, Theorem 2.3",
+        "status": "written proof; finite controls passed"
+      },
+      "submitted_round": 3,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND3-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R3-B2-III-M3",
+      "title": "Sharp plane-free threshold in F_3^3",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "The maximum cardinality of a plane-free admissible two-colour remainder in F_3^3 is exactly 16.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-III-M3",
+      "submitted_record": {
+        "id": "B2-III-M3",
+        "target": "Q4296",
+        "statement_id": "67d9a47fe0b199024fdb",
+        "name": "Sharp plane-free threshold in F_3^3",
+        "statement": "The maximum cardinality of a plane-free admissible two-colour remainder in F_3^3 is exactly 16.",
+        "proof": "RESEARCH-NOTE.pdf, Theorem 3.3",
+        "status": "written proof and explicit sharp construction; finite controls passed"
+      },
+      "submitted_round": 3,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND3-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R3-B2-III-M4",
+      "title": "All-dimension plane-free bound",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4296",
+      "statement": "For n>=3, a plane-free admissible two-colour remainder in F_3^n has cardinality at most (5/2)*2^n-4. At density >=1/10, an affine plane is forced for n>=8.",
+      "remaining": "No sharpness claim beyond dimension 3; no improvement to general O(k log k) codimension. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-III-M4",
+      "submitted_record": {
+        "id": "B2-III-M4",
+        "target": "Q4296",
+        "statement_id": "67d9a47fe0b199024fdb",
+        "name": "All-dimension plane-free bound",
+        "statement": "For n>=3, a plane-free admissible two-colour remainder in F_3^n has cardinality at most (5/2)*2^n-4. At density >=1/10, an affine plane is forced for n>=8.",
+        "proof": "RESEARCH-NOTE.pdf, Theorem 4.1 and Corollary 4.2",
+        "status": "written proof; finite controls passed",
+        "limitations": "No sharpness claim beyond dimension 3; no improvement to general O(k log k) codimension."
+      },
+      "submitted_round": 3,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND3-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R3-B2-III-E1",
+      "title": "Tail exponent rigidity and ascent",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4660",
+      "statement": "For a law with full support on N_0 and -log p_n=c*n^beta+o(n^beta), its coordinate ratio-gradient G_n/(c*n^beta) tends to 1+rho-2*rho*min(1,2^(1-beta)). Stationarity at rho>1 therefore requires beta=log_2(4*rho/(1+rho)). Nonzero coefficient gives a strict finite-coordinate ascent direction.",
+      "remaining": "One-sided full support and stated regular tail required; no existence or sufficiency claim. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-III-E1",
+      "submitted_record": {
+        "id": "B2-III-E1",
+        "target": "Q4660",
+        "statement_id": "4e69214fdfaf0bc4e852",
+        "name": "Tail exponent rigidity and ascent",
+        "statement": "For a law with full support on N_0 and -log p_n=c*n^beta+o(n^beta), its coordinate ratio-gradient G_n/(c*n^beta) tends to 1+rho-2*rho*min(1,2^(1-beta)). Stationarity at rho>1 therefore requires beta=log_2(4*rho/(1+rho)). Nonzero coefficient gives a strict finite-coordinate ascent direction.",
+        "proof": "RESEARCH-NOTE.pdf, Lemmas 5.1-5.2 and Theorem 5.3",
+        "status": "written proof; exact formal finite controls passed",
+        "limitations": "One-sided full support and stated regular tail required; no existence or sufficiency claim."
+      },
+      "submitted_round": 3,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND3-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R3-B2-III-E2",
+      "title": "Prescribed-tail supremum equality",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4660",
+      "statement": "For every fixed beta,c>0, the supremum of rho over full N_0 laws with -log p_n~c*n^beta equals the unrestricted finite-entropy discrete-real supremum C_*. Finite rational nonnegative-integer laws have the same supremum.",
+      "remaining": "Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-III-E2",
+      "submitted_record": {
+        "id": "B2-III-E2",
+        "target": "Q4660",
+        "statement_id": "4e69214fdfaf0bc4e852",
+        "name": "Prescribed-tail supremum equality",
+        "statement": "For every fixed beta,c>0, the supremum of rho over full N_0 laws with -log p_n~c*n^beta equals the unrestricted finite-entropy discrete-real supremum C_*. Finite rational nonnegative-integer laws have the same supremum.",
+        "proof": "RESEARCH-NOTE.pdf, Theorem 6.1",
+        "status": "written proof"
+      },
+      "submitted_round": 3,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND3-REVIEW.md"
+    },
+    {
+      "id": "B2-RETURN-R3-B2-III-E3",
+      "title": "Gaussian-tail nonattainment",
+      "status": "partial",
+      "relationship": "reviewed-partial-catalog-advance",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "ledger_topic": "b2-continuation-q4660",
+      "statement": "Every fixed one-sided full-support Gaussian-log-tail class (-log p_n~c*n^2) has supremum C_* but no maximizer. An attainer with any regular exponent beta must satisfy log_2(4*L/(1+L))<beta<=log_2(8/3), where L=1.4051810329.",
+      "remaining": "Does not rule out arbitrary irregular or sparse extremizers; numerical bounds unchanged. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+      "proof_location": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+      "submitted_result_id": "B2-III-E3",
+      "submitted_record": {
+        "id": "B2-III-E3",
+        "target": "Q4660",
+        "statement_id": "4e69214fdfaf0bc4e852",
+        "name": "Gaussian-tail nonattainment",
+        "statement": "Every fixed one-sided full-support Gaussian-log-tail class (-log p_n~c*n^2) has supremum C_* but no maximizer. An attainer with any regular exponent beta must satisfy log_2(4*L/(1+L))<beta<=log_2(8/3), where L=1.4051810329.",
+        "proof": "RESEARCH-NOTE.pdf, Corollary 6.2",
+        "status": "written proof",
+        "limitations": "Does not rule out arbitrary irregular or sparse extremizers; numerical bounds unchanged."
+      },
+      "submitted_round": 3,
+      "evidence_labels": [
+        "submitted-written-proof",
+        "internal-intake-mathematical-review",
+        "replayed-exact-controls"
+      ],
+      "review_location": "solutions/b2-returned-rounds-2026-10-13/verification/ROUND3-REVIEW.md"
+    }
+  ]
+}

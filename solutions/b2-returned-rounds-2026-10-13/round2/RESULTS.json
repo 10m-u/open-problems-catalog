@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-13",
+  "target_statuses": {
+    "Q4296": "partial",
+    "Q4660": "partial"
+  },
+  "scope": "Scoped new results only; no full-target resolution and no catalog writeback.",
+  "external_peer_review": false,
+  "formal_proof_assistant_verification": false,
+  "worldwide_priority_established": false,
+  "results": [
+    {
+      "result_id": "Q4296-two-colour-cap",
+      "target": "Q4296",
+      "manuscript_location": "Theorem 2.1",
+      "statement": "For every n, line-free admissible two-colour remainders in F_3^n are exactly the empty set, a singleton, two points, or an affine parallelogram.",
+      "evidence": "written_proof"
+    },
+    {
+      "result_id": "Q4296-full-fibre",
+      "target": "Q4296",
+      "manuscript_location": "Lemma 3.1 and Corollary 3.2",
+      "statement": "Full fibres inherit admissibility for any k over odd prime fields. For two colours the number of complete parallel maximal flats is 1, 2, or 4, with parallelogram quotient structure for four.",
+      "evidence": "written_proof"
+    },
+    {
+      "result_id": "Q4296-initial-values",
+      "target": "Q4296",
+      "manuscript_location": "Corollary 3.3",
+      "statement": "At density >=1/10, f(1,2)=f(2,2)=f(3,2)=0 and f(4,2)=1.",
+      "evidence": "written_proof"
+    },
+    {
+      "result_id": "Q4296-k-plus-two-obstruction",
+      "target": "Q4296",
+      "manuscript_location": "Lemma 2.4 and Proposition 3.4",
+      "statement": "For k>=2, n>=k ceil(log_3(10k))+2, there is an admissible density-1/10 partition with largest affine dimension exactly n-k-2.",
+      "evidence": "written_proof"
+    },
+    {
+      "result_id": "Q4660-support-boundary",
+      "target": "Q4660",
+      "manuscript_location": "Theorem 4.1 and Corollary 4.2",
+      "statement": "The epsilon log(1/epsilon) coefficient of the ratio under adding an atom is [2u_minus-1-rho(2u_plus-1)]/Delta_plus; for rho>1 only (A+A-A)\\A can give positive leading coefficients.",
+      "evidence": "written_proof"
+    },
+    {
+      "result_id": "Q4660-finite-AP-nonattainment",
+      "target": "Q4660",
+      "manuscript_location": "Corollaries 4.3 and 4.4",
+      "statement": "A finite real law of ratio >1 cannot be globally extremal if it fully occupies an arithmetic progression, or if either support endpoint has probability >=1/2.",
+      "evidence": "written_proof"
+    },
+    {
+      "result_id": "Q4660-twelve-point-certificate",
+      "target": "Q4660",
+      "manuscript_location": "Proposition 5.1",
+      "statement": "The displayed twelve-point rational law has ratio 1.4051810329220149462009831947934829507300... and proves C_*>14051810329/10^10.",
+      "evidence": "exact_rational_certificate_passed"
+    }
+  ],
+  "unresolved": [
+    "General exact f(n,k).",
+    "Removal of the prior O(k log k) logarithmic gap.",
+    "Whether the universal entropy constant is 2.",
+    "Global entropy optimality over arbitrary supports and laws."
+  ],
+  "not_claimed": [
+    "A solution to Li Conjecture 1.10 (sum-product).",
+    "A finite boundary screen is sufficient for optimality.",
+    "Full-fibre inheritance preserves remainder density.",
+    "Finite tests prove an arbitrary-dimensional theorem."
+  ],
+  "untouched_other_targets": 79,
+  "prior_attempt_counters_changed": false
+}

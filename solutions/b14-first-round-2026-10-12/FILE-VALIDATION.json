@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "corpus_records": 28601,
+  "corpus_fields_except_resolution_unchanged": true,
+  "prior_ledger_topics_preserved": 224,
+  "prior_ledger_decisions_preserved": 407,
+  "new_exact_catalog_resolutions": [
+    {
+      "question": 3818,
+      "statement_id": "1ab793013b1b4b6d4773",
+      "status": "proved"
+    }
+  ],
+  "prior_result_routes_and_compiled_records_preserved": 376,
+  "new_result_routes": 4,
+  "total_result_routes": 380,
+  "previous_candidate_programmes_preserved": 13,
+  "b14_membership_count": 8,
+  "live_programmes": 58,
+  "question_matches": 1627,
+  "local_document_links_checked": 59,
+  "publication": "private catalog only; public GitHub repository not updated in this round"
+}

@@ -1,0 +1,55 @@
+{
+  "targets": [
+    {
+      "target": "Q3678",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "root_review_accepted": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Connected lattice-zonotope reduction",
+          "outcome": "full_target_failure",
+          "evidence": "oriented-matroids/Q3678-ATTEMPTS.md#q3678-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Actual cographic full-row counterexample construction beyond seven elements",
+          "outcome": "full_target_failure",
+          "evidence": "oriented-matroids/Q3678-ATTEMPTS.md#q3678-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Universal reflexive reciprocal-gamma certificate",
+          "outcome": "full_target_failure",
+          "evidence": "oriented-matroids/Q3678-ATTEMPTS.md#q3678-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Connected-component h* multiplication via free sums",
+          "outcome": "full_target_failure",
+          "evidence": "oriented-matroids/Q3678-ATTEMPTS.md#q3678-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Universal realization-flow lattice identification",
+          "outcome": "full_target_failure",
+          "evidence": "oriented-matroids/Q3678-ATTEMPTS.md#q3678-a5"
+        }
+      ],
+      "partials": [
+        "Rank-one uniform family: h* is the binomial-square row in the saturated root lattice.",
+        "All N>=5: cographic K_N minus one edge has primitive facet distance N-3 and is nonreflexive.",
+        "Exact fractional-gauge carry identity for free-sum h*, with multiplicativity for an integer-gauge factor.",
+        "Rank-two uniform moment-curve family: sign circuits span full Z^N for every N>=4, exceeding realization kernel dimension N-2."
+      ],
+      "review_evidence": "ROOT-REVIEW.md#circuit-final"
+    },
+    {
+      "target": "Q3902",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": []
+    }
+  ]
+}

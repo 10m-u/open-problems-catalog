@@ -1,6 +1,6 @@
 # Differential Equations & Dynamical Systems
 
-167 problems: 164 open, 2 open, partial results, 1 solved here: proved.
+171 problems: 168 open, 2 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -173,6 +173,10 @@
 | [Q4570](differential-equations-dynamical-systems.md#q4570) | For every x∈M, is this characteristic with γ(0)=x unique? | Open |
 | [Q4571](differential-equations-dynamical-systems.md#q4571) | Must every such characteristic starting where φ is nondifferentiable remain in that… | Open |
 | [Q4621](differential-equations-dynamical-systems.md#q4621) | Does such a system exist with partial shadowing but without Besicovitch completeness? | Open |
+| [Q4711](differential-equations-dynamical-systems.md#q4711) | Let d≥1, 0&lt;s<1, 1&lt;p<∞, 1/(1−s)≤p<2/(1−s), and let Ω⊂Rᵈ be open with 0∈Ω. Suppose real u∈Wˢ,ᵖ(Ω)… | Open |
+| [Q4786](differential-equations-dynamical-systems.md#q4786) | Does some Q admit an unbounded forward orbit {Tⁿ(x):n≥0}? | Open |
+| [Q4788](differential-equations-dynamical-systems.md#q4788) | Does there exist an integer M such that, for every μ∈{0,…,5}∪{M,M+1,…}, j∈{0,…,5}, and integer… | Open |
+| [Q4793](differential-equations-dynamical-systems.md#q4793) | Uniform anisotropic well-posedness. Let Σ²(ℝⁿ)={u∈H²(ℝⁿ):\|z\|²u∈L²}, with norm… | Open |
 
 <a id="q49"></a>
 
@@ -190,6 +194,7 @@ Set F(n)=n(n−1)(n+2). Are there only finitely many integer triples n_(1),n_(2)
 
 - **Partial result**: Common-squarefree-kernel reduction and elementary effective inequalities b<4F(a)/9 and c&lt;a+b for sorted resonances. Exact exhaustion with all three indices in [2,1000000] gives only sorted triples (5,5,8) and (10,10,16). The cited source already treats minimum index<=10000 with other indices unbounded; the new box is a different domain. Restricted scope: All three indices<=1000000 for the finite exhaustion. Remaining: No argument bounds the minimum index of every resonance; global finiteness is unresolved. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-R4: auxiliary proof submission): For sorted resonances, b<4F(a)/9 and c&lt;a+b. In the box 2<=a<=b&lt;c<=1000000 exactly (5,5,8),(10,10,16) occur. Location: Part A, section 4. Restricted scope: All indices bounded by 1000000 for the finite classification. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2301.00115) · [2](https://arxiv.org/abs/2310.07113) · [3](https://sites.google.com/view/shao-chy-homepage/research)
 
@@ -914,6 +919,7 @@ For prime N≥29, if E/K has a K-rational point of order N and N∤c(E/K), must 
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): No new result in this lane. Remaining/limits: No exact closure established in this session. Restricted scope: None. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.4064/aa231009-24-6) · [2](https://arxiv.org/html/2609.31910v1)
 
@@ -936,6 +942,7 @@ Are there only finitely many Q-isomorphism classes of fields K with [K:Q]∈{6,7
 
 - **Partial result**: M(K)>7 forces no residue field of order≤7. Exact possible factorization types of2 are classified for degree6 and7; in degree7,2 must be unramified. Restricted scope: Necessary local restrictions only; no finiteness proof. Remaining: Necessary residue-degree restrictions do not establish finiteness of the field isomorphism classes. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-A8: auxiliary proof submission): M(K)<=#(O_K/p) for every prime ideal; resulting residue-degree restrictions above2,3,5,7 are necessary for M(K)>7, including unramified2 in degree7. Location: Part C, section 6. Restricted scope: Necessary conditions, not field finiteness. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.4064/aa231009-24-6) · [2](https://arxiv.org/html/2609.31910v1)
 
@@ -2915,4 +2922,70 @@ Does such a system exist with partial shadowing but without Besicovitch complete
 **Literature check.** Status: checked 12 October 2026. The latest inspected version explicitly asks this; no matching later resolution located.
 
 **Further links.** [1](https://ruj.uj.edu.pl/server/api/core/bitstreams/eff1bd43-f79f-4ac3-81e8-53f480da7468/content)
+
+
+<a id="q4711"></a>
+
+## Q4711. Let d≥1, 0&lt;s<1, 1&lt;p<∞, 1/(1−s)≤p<2/(1−s), and let Ω⊂Rᵈ be open with 0∈Ω. Suppose real u∈Wˢ,ᵖ(Ω)…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Let d≥1, 0&lt;s<1, 1&lt;p<∞, 1/(1−s)≤p<2/(1−s), and let Ω⊂Rᵈ be open with 0∈Ω. Suppose real u∈Wˢ,ᵖ(Ω) satisfies ∫Rᵈ|u(x)|ᵖ⁻¹(1+|x|)⁻ᵈ⁻ˢᵖdx<∞ and, for every φ∈C∞c(Ω), extended by zero, ∬Rᵈ×Rᵈ Jₚ(u(x)−u(y))(φ(x)−φ(y))|x−y|⁻ᵈ⁻ˢᵖdxdy=0, where Jₚ(t)=|t|ᵖ⁻²t and Jₚ(0)=0. If ∫B_R(0)|u(y)|ᵖ⁻¹dy=O(Rᵐ) as R↓0 for every integer m≥1, must u=0 almost everywhere on Rᵈ?
+
+**Context.** Audited provenance and status: Subject: Partial differential equations Doctoral discovery route: Doctoral discovery route: Florian Grube, Bielefeld University, PhD 2025; supervisor Moritz Kaßmann. This question comes from a later paper. Current status: Current arXiv v2, 28 April 2026, expressly corrects a proof error by strengthening assumptions; the earlier broad claim is superseded. No newer version or publisher final identified. The current v2 paper and related primary preprints were read. The doctoral thesis remains unread after an Anubis challenge; the selected question is paper-origin.
+
+**Source.** Florian Grube. *A strong-type unique continuation principle for the fractional p-Laplacian*. 2026. [primary source](https://arxiv.org/abs/2604.18571v2) Location: https://arxiv.org/abs/2604.18571v2, Corollary1.3,p.2 and Remark1.4,p.3; definitions pp.4–5.
+
+**Literature check.** Status: Bounded current checks found no matching resolution after the explicit v2 correction.
+
+
+<a id="q4786"></a>
+
+## Q4786. Does some Q admit an unbounded forward orbit {Tⁿ(x):n≥0}?
+
+**Status:** Open · **Kind:** open problem (Question 5.2) · **Collection** 48
+
+Does some Q admit an unbounded forward orbit {Tⁿ(x):n≥0}?
+
+**Context.** For a convex polygon Q⊂ℝ², define T(x) outside Q as follows. Label its supporting lines through x by ℓ₁,ℓ₂, with Q left when travelling toward x along ℓ₁. Let C be the circle tangent to both lines, tangent to ℓ₂ at ℓ₂∩Q, and lying opposite Q across ℓ₂. If ℓ₃ is the third common support line of C and Q, set T(x)=ℓ₂∩ℓ₃; omit clockwise side extensions and their iterated preimages. Audited provenance and status: Subject: Discrete dynamical systems and convex geometry Lael Edwards-Costa; Penn State PhD2026; advisor Sergei Tabachnikov. Paper fallback; full thesis not retrieved. Question5.2,p23; Definition1.2,§2.1,pp2–3. https://arxiv.org/abs/2510.11869v1 Checked2026-10-13: no matching resolution located. Scope inference: smooth-table results do not settle polygonal escape.
+
+**Source.** Lael Edwards-Costa. *Outer length billiards on polygons*. 2025. [primary source](https://arxiv.org/abs/2510.11869v1) Location: Question 5.2, p.23; Definition 1.2, §2.1, pp.2–3.
+
+**Literature check.** Status: https://arxiv.org/abs/2510.08370v1 §4.2; https://arxiv.org/abs/2603.05998v1 §§1–5; https://doi.org/10.2140/pjm.2025.339.201 §§1,3–6.
+
+**Further links.** [1](https://science.psu.edu/math/graduate/phd-alumni) · [2](https://arxiv.org/abs/2510.08370v1) · [3](https://arxiv.org/abs/2603.05998v1) · [4](https://doi.org/10.2140/pjm.2025.339.201)
+
+
+<a id="q4788"></a>
+
+## Q4788. Does there exist an integer M such that, for every μ∈{0,…,5}∪{M,M+1,…}, j∈{0,…,5}, and integer…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Does there exist an integer M such that, for every μ∈{0,…,5}∪{M,M+1,…}, j∈{0,…,5}, and integer s≥2, the equation ∂ₜₜφ−Δ\_{S³}φ+φ+|φ|²φ=0 has a family of even-in-time Hopf-plane solutions φ\_ω(t,η,ξ₁,ξ₂)=u_ω(t,η)e^{iμ(ξ₁+ξ₂)}, with real u_ω, indexed by B⊂(1,1+δ) for some δ>0, satisfying lim_{h↓0}|B∩(1,1+h)|/h=1? Require φ\_ω∈H¹([0,2π/ω];H^s(S³)), period 2π/ω, and sup_t‖φ\_ω(t)−a(ω)cos((2j+2μ+1)ωt)E_j‖\_{H^s}=O(a(ω)²), where a(ω)>0 tends to zero as ω↓1, E_j=(sinη cosη)^μ P_j^{(μ,μ)}(cos2η)e^{iμ(ξ₁+ξ₂)}, and P_j^{(μ,μ)} is the Jacobi polynomial.
+
+**Context.** Audited provenance and status: Subject: Hamiltonian PDEs. Doctoral-discovery route: thesis p.26, comment6; definitions pp.21–23,29. Earlier families: Chatzikaleas–Smulevici, final Assumptions1.1(CH), Theorem1.3. Diego Silimbani; SISSA PhD, 4 March 2025. Primary advisor: Massimiliano Berti; co-advisor: Beatrice Langella. Field: Hamiltonian PDEs. Ficek–Maliborski, final §1: spherical symmetry; the Hopf-plane enlargement is not proved.
+
+**Source.** Diego Silimbani. *Time-periodic solutions of completely resonant Hamiltonian PDEs related to negative cosmological constant spacetimes*. SISSA, 2025. Advisor(s): Massimiliano Berti; Beatrice Langella. [primary source](https://iris.sissa.it/handle/20.500.11767/145450) Location: thesis p.26, comment6; definitions pp.21–23,29.
+
+**Literature check.** Status: Source-reported open in the thesis and 2409.14845v1, §1.2 final paragraph; checked 13 October 2026. No later resolution located.
+
+**Further links.** [1](https://tesidottorato.depositolegale.it/bitstream/20.500.14242/194766/1/Tesi%20Diego%20Silimbani.pdf) · [2](https://iris.sissa.it/retrieve/29787ffb-7371-49e2-b6ce-a326b26b63be/Tesi%20Diego%20Silimbani.pdf) · [3](https://arxiv.org/abs/2409.14845) · [4](https://arxiv.org/html/2409.14845v1) · [5](https://content.ems.press/assets/public/full-texts/serials/aihpc/42/5/14297768/online/10.4171-aihpc-125.pdf) · [6](https://ems.press/content/serial-article-files/47539) · [7](https://arxiv.org/abs/2308.05678) · [8](https://arxiv.org/abs/2201.05447) · [9](https://arxiv.org/html/2201.05447v2) · [10](https://doi.org/10.2140/apde.2024.17.2311) · [11](https://msp.org/apde/2024/17-7/p04.xhtml) · [12](https://msp.org/apde/2024/17-7/apde-v17-n7-p04-s.pdf) · [13](https://www.math.sissa.it/publications/?f%5Bauthor%5D=2247&f%5Bkeyword%5D=589&o=asc&s=title) · [14](https://sites.google.com/view/athanasios-chatzikaleas) · [15](https://homepage.univie.ac.at/filip.ficek/papers/Ficek_2025_PhysicaD.pdf) · [16](https://www.sciencedirect.com/science/article/abs/pii/S0167278925003410) · [17](https://doi.org/10.1016/j.physd.2025.134864) · [18](https://arxiv.org/abs/2409.14845v1) · [19](https://arxiv.org/abs/2201.05447v2)
+
+
+<a id="q4793"></a>
+
+## Q4793. Uniform anisotropic well-posedness. Let Σ²(ℝⁿ)={u∈H²(ℝⁿ):|z|²u∈L²}, with norm…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Uniform anisotropic well-posedness. Let Σ²(ℝⁿ)={u∈H²(ℝⁿ):|z|²u∈L²}, with norm (‖u‖²\_H²+‖|z|²u‖²₂)¹ᐟ². Fix β∈ℝ. For convolution on ℝ², set K(x,y)=−πsgn(y)δ₀(x), a_u=K\*|u|², j_u=Im(ū∂ₓu), and F(u)=β²a_u²u−iβa_u∂ₓu−iβ∂ₓ(a_u u)−2β[K\*(j_u+βa_u|u|²)]u. Let Hₓ=−∂ₓ²+x², Hᵧ=−∂ᵧ²+y², and u₁(y)=π⁻¹ᐟ⁴e^(−y²/2). For every φ₀∈Σ²(ℝ) with ‖φ₀‖₂=1 and ∫ℝ(|φ₀′|²+x²|φ₀|²+(π²β²/3)|φ₀|⁶)dx<∞, do T,ε₀,C>0 exist, independent of ε, such that for every 0<ε≤ε₀ the problem i∂ₜu_ε=ε⁻¹Hᵧu_ε+Hₓu_ε+F(u_ε),  u_ε(0,x,y)=φ₀(x)u₁(y), has a unique solution in C([0,T],Σ²(ℝ²)) satisfying sup_{0≤t≤T}‖u_ε(t)‖\_Σ²≤C?
+
+**Context.** Audited provenance and status: Subject: analysis of PDEs. Qiyun Yang; ENS de Lyon PhD in Mathematics, defended 10 March 2026. Advisor: Nicolas Rougerie. Field: analysis of PDEs. Paper-origin fallback after doctoral discovery. The EPL final derives an effective equation; current v2 still assumes uniform well-posedness. Thesis cover indexed; full text access denied. Assumption1.5,pp.5–7;AppendixC.
+
+**Source.** Qiyun Yang. *Dimensional reduction for anyons in the average-field approximation*. 2026. [primary source](https://arxiv.org/abs/2511.03491) Location: Assumption1.5,pp.5–7;AppendixC.
+
+**Literature check.** Status: Source-reported unresolved, checked 13 October 2026; arXiv v2, 5 June 2026.
+
+**Further links.** [1](https://arxiv.org/pdf/2511.03491) · [2](https://arxiv.org/pdf/2511.03491v2) · [3](https://arxiv.org/html/2511.03491v1) · [4](https://theses.hal.science/tel-05568078v1/document) · [5](https://academic.oup.com/epl/article/153/6/ae508b/8766451) · [6](https://oup.silverchair-cdn.com/article-minimal/8766451) · [7](https://doi.org/10.1209/0295-5075/ae508b) · [8](https://arxiv.org/abs/2508.21464) · [9](https://arxiv.org/abs/2511.03491v2) · [10](https://arxiv.org/abs/2511.03491v1)
 

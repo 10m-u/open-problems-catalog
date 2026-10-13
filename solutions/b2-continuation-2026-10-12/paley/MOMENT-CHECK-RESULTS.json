@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "exact_clique_controls": 3994,
+  "controls_with_quartic_terms": 852,
+  "by_prime": {
+    "5": 10,
+    "13": 78,
+    "17": 153,
+    "29": 841,
+    "37": 444,
+    "41": 943,
+    "61": 1525
+  },
+  "scale_controls": 4,
+  "scope": "Exact finite identities and compatibility of the individual-Weil envelope; not an asymptotic theorem or recovery of old certificates."
+}

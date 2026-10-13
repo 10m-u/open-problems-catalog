@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "bases": [
+    {
+      "a": 19,
+      "b": 10,
+      "power": 128,
+      "degree": 256,
+      "exact_reciprocal_root_brackets": 128,
+      "negative_numerator_roots": 256,
+      "nearest_root_modulus_squared": "19/10"
+    },
+    {
+      "a": 19,
+      "b": 10,
+      "power": 129,
+      "degree": 258,
+      "exact_reciprocal_root_brackets": 129,
+      "negative_numerator_roots": 258,
+      "nearest_root_modulus_squared": "19/10"
+    }
+  ],
+  "all_even_degrees_from": 32512,
+  "certificate_sha256": "281aa3bf85c0db4adf4b6fcbf43ce878169779130a8f2fb3c96737fb9bd16194",
+  "checker_sha256": "4362ea3536c12bb18f8c25ad2de8ffa0f48edf7e25339724b69439db1d80d5b0",
+  "scope": "Exact finite bases and product closure give r_n>=sqrt(19/10) for every even n>=32512, and for each nonzero nonnegative combination of256 and258. This is a lower bound, not the requested uniform upper bound."
+}

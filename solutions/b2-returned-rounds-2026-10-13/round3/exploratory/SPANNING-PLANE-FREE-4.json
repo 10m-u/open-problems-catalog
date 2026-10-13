@@ -1,0 +1,6 @@
+{
+  "n": 4,
+  "status": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "seconds": 25.013040781021118,
+  "objective": null
+}

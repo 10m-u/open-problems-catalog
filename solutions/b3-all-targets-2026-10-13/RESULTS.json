@@ -1,0 +1,890 @@
+{
+  "date": "2026-10-13",
+  "records": [
+    {
+      "id": "B3-ALL-TARGETS-Q4082",
+      "title": "Sharp variance bound for every discrete alpha-concave law",
+      "status": "proved",
+      "relationship": "completed-exact-catalog-target",
+      "targets": [
+        {
+          "q": 4082,
+          "stable_statement_id": "e5a1b7c117f783defc9e"
+        }
+      ],
+      "exact_question_closed": true,
+      "ledger_topic": "b3-all-targets-q4082",
+      "statement": "For every alpha in (-1/3,0) and every discrete alpha-concave law X on an integer interval, M(X)^2 [1+k(alpha) Var(X)] <=1, with k(alpha)=(1+2alpha)^2(1+3alpha)/(1+alpha)^3. The exact coefficient is sharp by the source one-sided asymptotic example. Mean-matched convex order, all-slope one-sided bounds, a Gamma moment inequality and two-tail gluing prove the full frozen assertion.",
+      "remaining": "No remaining obligation at the catalog scope. Internally reviewed local proof; no novelty or external peer-review claim. The rest of the B3 run remains in progress.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/concave-laws/FULL-PROOF.md",
+      "evidence_labels": [
+        "written-full-proof",
+        "primary-source-scope-review",
+        "main-thread-mathematical-review",
+        "retained-agent-independent-proof-review",
+        "independent-exact-rational-certificate-reconstruction"
+      ]
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q1443",
+      "title": "Degree-36 counterexample to the proposed root-gap bound",
+      "status": "disproved",
+      "relationship": "completed-exact-catalog-target",
+      "targets": [
+        {
+          "q": 1443,
+          "stable_statement_id": "6c25aadb176292f25ffa"
+        }
+      ],
+      "exact_question_closed": true,
+      "statement": "The degree-36 polynomial (2z+1)^32(5z+2)^2(5z-12)^2 belongs to U_36, as certified by its sampled-value generating function, positive numerator coefficients and exact negative-root brackets. Its consecutive distinct roots -2/5 and 12/5 have gap 14/5. This refutes the frozen proposed universal bound 1<=d<2.",
+      "remaining": "Whether any finite dimension-free gap bound exists remains unresolved. The earlier lower-bound result and its evidence are preserved. No novelty or external peer-review claim.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/interpolation/Q1443-RESULT.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-return-q1443"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q4666",
+      "title": "A non-log-concave offspring law admits nested conditioned trees",
+      "status": "disproved",
+      "relationship": "completed-exact-catalog-target",
+      "targets": [
+        {
+          "q": 4666,
+          "stable_statement_id": "e69abf86443507ce94c1"
+        }
+      ],
+      "exact_question_closed": true,
+      "statement": "The offspring law mu=(1,2,3,5)/11, zero beyond three, has no internal zeros and fails log-concavity because 3^2<2*5. Nevertheless its entire conditioned Bienayme tree sequence admits a simultaneous nested Markov coupling preserving literal Ulam-Harris parents and left siblings. An all-size TN2 forest-array argument verifies the source composition-coupling hypotheses.",
+      "remaining": "This refutes the log-concavity necessity clause, while the support-necessity partial theorem remains valid. No novelty or external peer-review claim.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/stirling/Q4666-RESULT.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q4666"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q3902",
+      "title": "Literature counterexample to reflexive boundary-polytope gamma positivity",
+      "status": "disproved",
+      "relationship": "completed-exact-catalog-target",
+      "targets": [
+        {
+          "q": 3902,
+          "stable_statement_id": "ede55ed8ecc1ee3fb171"
+        }
+      ],
+      "exact_question_closed": true,
+      "statement": "Ferroni, arXiv:2607.02424v1, Corollary 2.2, gives the graph G(8,8,8,8,8): five internally disjoint paths of length eight between two vertices. Its reflexive symmetric edge polytope has dimension 36 and gamma_16=-9799680. As a one-dimensional simplicial complex it is exactly a homology boundary polytope in the saturated root lattice, refuting the frozen universal assertion.",
+      "remaining": "This is an attributed July 2026 literature closure, not a newly discovered counterexample. The standalone cohomology branch and the separate source Question 9.3 about subcomplex reflexivity are not settled by this example. Local checks reconstruct the published formula and gamma certificate.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/boundary-polytopes/Q3902-LITERATURE-CLOSURE.md",
+      "evidence_labels": [
+        "primary-literature-theorem-and-certificate",
+        "exact-target-lattice-embedding-review",
+        "independent-formula-and-gamma-reconstruction",
+        "main-thread-source-and-scope-review"
+      ],
+      "completed_programme_targets": [],
+      "resolution_origin": "attributed-primary-literature-closure",
+      "source_url": "https://arxiv.org/html/2607.02424v1",
+      "ledger_topic": "b3-all-targets-q3902"
+    },
+    {
+      "id": "B3-ALL-TARGETS-REFLEXIVE-CROSSPOLYTOPES",
+      "title": "Binary-code gamma formula for every reflexive crosspolytope",
+      "status": "proved",
+      "relationship": "restricted-family-theorem",
+      "targets": [
+        {
+          "q": 3902,
+          "stable_statement_id": "ede55ed8ecc1ee3fb171"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Pulling a reflexive centrally symmetric crosspolytope back to the unit l1 ball gives lattice Z^m+C/2 for an even binary linear code C. Its numerator is sum_(c in C) 2^wt(c)*t^(wt(c)/2)*(1+t)^(m-wt(c)), so gamma_j=4^j*#{c:wt(c)=2j}. This covers all reflexive homology polytopes with vanishing top homology, including torsion cases.",
+      "remaining": "This restricted family remains valid despite the literature counterexample to the full assertion. Whole spanning-forest numerators alone cannot assemble every boundary-polytope numerator. No novelty claim.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/boundary-polytopes/CROSSPOLYTOPES.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": []
+    },
+    {
+      "id": "B3-ALL-TARGETS-HANKEL-TN2",
+      "title": "Coefficientwise Hankel minors of order two for both Stirling families",
+      "status": "proved",
+      "relationship": "completed-broader-programme-target",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For either shifted cycle or subset family, every integer r>=1 and arbitrary nonnegative i1<i2, j1<j2, the polynomial f_(i1+j1)f_(i2+j2)-f_(i1+j2)f_(i2+j1) has nonnegative coefficients. Zero indices and arbitrary gaps are included.",
+      "remaining": "This completes B3C-Q02. Higher-order Hankel minors and the other Stirling catalog targets remain unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/stirling/HANKEL-TN2.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [
+        "B3C-Q02"
+      ]
+    },
+    {
+      "id": "B3-ALL-TARGETS-SHARP-REPRESENTATION",
+      "title": "Sharp length for powers of a linear s-Eulerian polynomial",
+      "status": "proved",
+      "relationship": "completed-broader-programme-target",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For every pair of positive integers d,u, the shortest positive integer vector s with E_s(x)=(1+u*x)^d has length exactly 2d-1. Nonunit blocks have simple roots, so each block has degree one; single unit separators give the attaining construction.",
+      "remaining": "This completes B3C-Q06. It does not classify all colored multiset Eulerian polynomials or all representing vectors.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/eulerian/SIMPLE-ROOTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [
+        "B3C-Q06"
+      ]
+    },
+    {
+      "id": "B3-ALL-TARGETS-SIMPLE-NONUNIT-ROOTS",
+      "title": "Simple negative roots in every nonunit s-Eulerian block",
+      "status": "proved",
+      "relationship": "completed-broader-programme-target",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "If every denominator in s is at least two, E_s has simple strictly negative roots. Consecutive prefix polynomials have no common root and strictly interlace wherever their published weak interlacing compares roots. Arbitrary denominator order and degree-preserving steps are included.",
+      "remaining": "This completes B3C-Q07. Unit separators can introduce repeated roots in a general vector; the full colored classification remains unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/eulerian/SIMPLE-ROOTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [
+        "B3C-Q07"
+      ]
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q1160-TN2",
+      "title": "All-size partial scope of the cycle Hankel conjecture",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 1160,
+          "stable_statement_id": "0aded4f0c2d209554604"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Every coefficientwise Hankel minor of order two is nonnegative, for all integer r>=1 and arbitrary row and column gaps, by the separate B3C-Q02 proof.",
+      "remaining": "The catalog assertion requires every order. Its existing partial ledger topic and earlier proofs remain unchanged.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/stirling/HANKEL-TN2.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": []
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q167-DEGREE-FIVE",
+      "title": "Complete integer coefficient ordering in degree five",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 167,
+          "stable_statement_id": "7afbebef21fca209eac3"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For products of five linear factors 1+r_i*x with positive integer r_i, exactly fourteen coefficient orders occur, including every ordering allowed by ties. Three reciprocal dominance implications prove exhaustion and exact integer tuples witness every order.",
+      "remaining": "Arbitrary degree remains unresolved. The earlier complete degrees one through four and their existing partial topic are preserved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/coefficient-orders/DEGREE-FIVE.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": []
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q1263-ENDPOINTS",
+      "title": "Colored endpoint subsets and small gamma orbits",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 1263,
+          "stable_statement_id": "bc41aa82edde5fa04288"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For permutations of N distinct symbols with a common color count r>=2, the last-color endpoint partition gives actual word subsets for both ordinary symmetric parts in every N. For N=1,2 and every r, explicit word orbits interpret both gamma vectors.",
+      "remaining": "The general colored-multiset gamma interpretation remains unresolved; repeated symbols invalidate the literal endpoint involution.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/eulerian/ENDPOINT-COLORS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q1263-endpoints"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q1366-LAYERS",
+      "title": "All-size layered permutation interval rank inequalities",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 1366,
+          "stable_statement_id": "1019289850b68fa9a39d"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Classical pattern intervals with layered endpoints and the same layer count are products of chains and have log-concave rank rows. Layered two-layer tops with a one-layer bottom have positive arithmetically concave, hence log-concave, rank rows. Occurrence fibers are included rather than treating occurrences as distinct permutations.",
+      "remaining": "General intervals between arbitrary permutations remain unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/patterns/LAYERED-INTERVALS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q1366-layers"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q2212-BOUNDARY",
+      "title": "Atom log-concavity through twice the monoid multiplicity",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2212,
+          "stable_statement_id": "5c6116ffa807a6eec932"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every numerical monoid H, let m be its least positive element and h=|H intersect [1,l]|. At every cutoff l<2m the nonunit atom counts are binom(h,k-1); at l=2m they are binom(h,k-1)-1_(k=3). Both rows are log-concave with no internal zeros and hence unimodal.",
+      "remaining": "Cutoffs greater than 2m remain unresolved. The exact screen at cutoff 18 covers that one cutoff. Source asymptotic quantifiers are kept separate from the stronger survey attribution.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/power-monoids/RESULTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q2212-boundary"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q2400-PREFIX",
+      "title": "A fixed-density random graph log-concavity prefix",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2400,
+          "stable_statement_id": "87d450a8d0f34344d141"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every fixed d>0, G(n,d/n) has a log-concave independent-set count prefix through K=floor((n^2/(384*d^2))^(1/5))-1 with probability tending to one, under the explicit eventual size conditions. Exact second Bonferroni bounds prove the all-size criterion. Every fixed tree T is absent as an isolated component with probability O_(T,d)(1/n).",
+      "remaining": "The complete rank row remains unresolved; real-rootedness and all-weight claims are stronger properties and their failures do not refute it. The existing partial topic is preserved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/random-graphs/BONFERRONI-PREFIX.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": []
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q2508-RANKS",
+      "title": "Exact Perazzo derivative ranks and quartic subfamilies",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2508,
+          "stable_statement_id": "38ee4eff0fa06bac5bff"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every F=sum X_j p_j(U)+G(U), put W=span(p_j), J=Ann(W), r_i=dim(D/J)_i and B_i(a,b)=(ab)G on J_i by J_(d-i). Then h_F(i)=r_i+r_(d-i)+rank(B_i). An all-degree family has flat internal row e+5 for e=d-1>=3 and W=S_e(U,V)+span(Z^e). In the all-r>=3 quartic family consisting of all cubics in r variables plus Z^3 and G=Z^4+Z^2 Q, unimodality holds exactly when rank(Q)>=binom(r,3).",
+      "remaining": "The complete Perazzo unimodality classification remains unresolved. The correction depends on G modulo S_1 W; it cannot be discarded.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/perazzo/DERIVATIVE-RANKS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q2508-ranks"
+    },
+    {
+      "id": "B3-ALL-TARGETS-PERAZZO-SOURCE-CORRECTIONS",
+      "title": "Legal counterexamples to auxiliary published Perazzo claims",
+      "status": "reviewed-auxiliary-counterexamples",
+      "relationship": "auxiliary-source-corrections",
+      "targets": [
+        {
+          "q": 2508,
+          "stable_statement_id": "38ee4eff0fa06bac5bff"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "At d=4,m=3,n=4 the legal Perazzo example in the written proof has Hilbert row (1,8,8,8,1), contradicting the final source universal middle minimum 10 as printed. Its all-degree family also contradicts the fixed-presentation general-derivative independence assertion.",
+      "remaining": "These are auxiliary source corrections, not a solution of Q2508. No smaller deconed presentation is excluded. No external communication, novelty or peer-review claim.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/perazzo/DERIVATIVE-RANKS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": []
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q2751-FOUR",
+      "title": "Unimodality for all parameter-four q-Fibonomial rows",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2751,
+          "stable_statement_id": "e72b53411c22fbff5f8d"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Every q-Fibonomial row in the source normalization is unimodal when min(m,n)<=4. The new all-m parameter-four argument uses exact residue-class differences and positive base expressions.",
+      "remaining": "The full conjecture at min(m,n)>=5 remains unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/fibonomials/N4-PROOF.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q2751-four"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q2924-TWO-STRANDS",
+      "title": "Two-strand ruling inequalities and the exact composition correction",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2924,
+          "stable_statement_id": "5bb8850a675fa7b8f178"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For beta=sigma_1^m, write m=2d+e with e in {0,1}. The normalized ruling coefficients are binom(d+j+e,d-j), positive and log-concave for every m. The returning-walk polynomials satisfy F_(a+b)=F_a F_b+F_(a-1)F_(b-1) for all positive a,b, with the written parity correction after normalization.",
+      "remaining": "This derives a source-known subfamily and explains the composition obstruction. General positive braids remain unresolved; no novelty claim.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/knots/TWO-STRAND-RESULT.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q2924-two-strands"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q3437-LOW-DEGREE",
+      "title": "All permitted parameters in rectangular degrees one and two",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3437,
+          "stable_statement_id": "e99f4af73e39dc10e13e"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The rectangular finite free additive convolution preserves nonnegative real roots at degrees m<=2 for every alpha>-1, including zero and repeated input roots. In every m>=2 its normalized derivative is the convolution of the normalized input derivatives in degree m-1 with parameter alpha+1.",
+      "remaining": "The derivative identity does not control the required antiderivative signs; the all-degree question remains unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/finite-convolutions/RECTANGULAR-RESULTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q3437-low-degree"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q3568-WEAK-LAYERS",
+      "title": "Order-polynomial positivity for all weak orders of width two",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3568,
+          "stable_statement_id": "4c4220934cbe880eed2a"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Every ordinal sum of singleton or two-element antichain layers has nonnegative ordinary order-polynomial coefficients. Its exact factorization is a rising factorial times a residual polynomial whose roots lie on a vertical line with nonpositive real part. Empty and chain cases are included.",
+      "remaining": "General width-two posets with incomplete cross-layer comparisons remain unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/posets/WIDTH-TWO-WEAK-ORDERS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q3568-weak-layers"
+    },
+    {
+      "id": "B3-ALL-TARGETS-CYCLE-PRODUCTS",
+      "title": "Boninger coefficient inequalities for arbitrary cycle connected sums",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3626,
+          "stable_statement_id": "a6c90946f4a09ac5cc25"
+        },
+        {
+          "q": 3627,
+          "stable_statement_id": "c7b37a4f023d3108799f"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Arbitrary oriented connected sums of canonical positive directed-cycle Tait diagrams and their mirrors have M-convex Laurent support and satisfy every root-direction coefficient log-concavity inequality. The proof handles arbitrary sizes, numbers of factors, missing midpoints and cross-group directions.",
+      "remaining": "Mixed-sign prime links and both full catalog conjectures remain unresolved. Source multiplicativity and the broader known unmixed results are explicitly attributed.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/knots/CYCLE-PRODUCTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-cycle-products"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q3702-ENDPOINTS",
+      "title": "First two subsum-product inequalities and a central limit",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3702,
+          "stable_statement_id": "447e759afd7b59ff5bc8"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every n>=8, the first two nontrivial log-concavity inequalities of F_n and their reflected counterparts are strict. Its normalized coefficient law has variance asymptotic to 2*n^3/21 and converges after centering and standardization to the normal law.",
+      "remaining": "The finite permitted small endpoints are treated separately. A central limit does not determine exact interior curvature signs; the full conjecture remains unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q3702-endpoints"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q3703-ENDPOINTS",
+      "title": "Strict binary-partition sum boundary inequalities",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3703,
+          "stable_statement_id": "78ec95f39163b4d48c33"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every n>=4, the first and final nontrivial log-concavity inequalities of H_n are strict. Exact mixture moments also prove that H_(2^s) is not ultra-log-concave for every s>=2.",
+      "remaining": "Ultra-log-concavity is stronger than the frozen ordinary log-concavity question. All interior inequalities remain unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q3703-endpoints"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q3846-TWO-COLUMNS",
+      "title": "Coefficientwise total positivity in the first two Eulerian columns",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3846,
+          "stable_statement_id": "a31c9277487bff39e87f"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Every minor using only columns zero and one of the source four-parameter generalized Eulerian triangle has nonnegative coefficients in a,c,d,e, for arbitrary row gaps. The displayed formula proves this without polynomial division.",
+      "remaining": "Higher columns and arbitrary-order minors remain unresolved. The negative forced production entry is not a negative actual triangle minor.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/matrices/Q3846-ATTEMPTS.md#a5",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q3846-two-columns"
+    },
+    {
+      "id": "B3-ALL-TARGETS-PATH-ENDPOINTS",
+      "title": "All-length upper inequalities for path-height rows",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 4331,
+          "stable_statement_id": "c57f9ad1b958503cc283"
+        },
+        {
+          "q": 4332,
+          "stable_statement_id": "dbeb90554cf5c006f41c"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For d=ceil(n/2), A_n coefficients divided by binom(d,i) are log-concave at ceil((n+2)/4)<i<d; B_n has the same assertion at floor((n+2)/4)+1<i<d. The i=1 zero-boundary inequalities hold as well. For Motzkin and Riordan paths at every length, the final nontrivial ordinary log-concavity inequality holds.",
+      "remaining": "Arbitrary interior heights in all four families remain unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/paths/UPPER-TAIL.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-path-endpoints"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q4443-ENDPOINTS",
+      "title": "Every horizontal-strip eigenvalue at endpoint ranks",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 4443,
+          "stable_statement_id": "6543aaa40ba45a5c2797"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every horizontal strip and ambient size, E(1) is unimodal because its interval summands share an integer center. E(N) is a product of positive q-integers and is palindromic unimodal. Together with E(0)=1 this covers every rank when N<=2.",
+      "remaining": "General intermediate ranks 2<=k<N remain unresolved. The fresh bounded construction beyond source size 28 supplies no full proof.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/shuffle-eigenvalues/RESULTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q4443-endpoints"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q3892-DESCENDING",
+      "title": "Every socle degree admits a descending Koszul half-row",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3892,
+          "stable_statement_id": "4b99311cd3fe6261d814"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every d>=3, the flag join of q=d-1 discrete sets of common size s>=2q+1 gives a characteristic-zero Artinian Gorenstein Koszul algebra with h_i=binom(q,i)s^i+binom(q,i-1)s^(d-i) and h_1>...>h_floor(d/2).",
+      "remaining": "Other arbitrary permutations in every sufficiently large degree remain unresolved. The flag-join algebra family is source-known; the all-degree ordering inequality is proved in the local packet.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/koszul/Q3892-RESULTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q3892-descending"
+    },
+    {
+      "id": "B3-ALL-TARGETS-Q4665-INJECTIVE",
+      "title": "Schur midpoint positivity with injective output fibers",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 4665,
+          "stable_statement_id": "a11e18c8c4efdd11d5f8"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The full weighted Schur difference is Schur-positive whenever each summed midpoint-output fiber has total input weight at most its c(u)d(v) budget. In particular the frozen pairwise weight hypothesis suffices for injective midpoint support pairs, including either singleton input support. For all legal finite supports the difference has nonnegative values on every nonnegative alphabet.",
+      "remaining": "Colliding midpoint fibers need additional compensation. Nonnegative evaluations alone do not imply Schur positivity; the full question remains unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/schur-midpoints/Q4665-RESULTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "ledger_topic": "b3-all-targets-q4665-injective"
+    },
+    {
+      "id": "B3-ALL-TARGETS-CIRCUIT-GAUGES",
+      "title": "Circuit-polytope lattice reductions and fractional carries",
+      "status": "reviewed-method-results",
+      "relationship": "auxiliary-lattice-and-ehrhart-reductions",
+      "targets": [
+        {
+          "q": 3678,
+          "stable_statement_id": "cb6335b6f3fa2c658fa4"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Rank-one root circuit polytopes have binomial-square Ehrhart numerators in every size. The cographic K_N-minus-one-edge family is nonreflexive for every N>=5. The exact free-sum Ehrhart correction counts pairs of nonintegral gauges with fractional parts summing to at most one. A represented uniform rank-two family has sign-circuit span and saturated lattice equal to R^N and Z^N despite its flow-kernel dimension N-2.",
+      "remaining": "The root family is known and rederived here. The new structural obstructions are not counterexamples to full h* log-concavity. The complete conjecture remains unresolved.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/oriented-matroids/Q3678-ATTEMPTS.md",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": []
+    },
+    {
+      "id": "B3-ALL-TARGETS-STOP-REGISTER",
+      "title": "Reviewed B3 failed routes and per-target stopping decisions",
+      "status": "reviewed-unsuccessful-routes",
+      "relationship": "failed-route-evidence",
+      "targets": [
+        {
+          "q": 164,
+          "stable_statement_id": "03789661191001d42523"
+        },
+        {
+          "q": 167,
+          "stable_statement_id": "7afbebef21fca209eac3"
+        },
+        {
+          "q": 183,
+          "stable_statement_id": "d82e9ba586cec149bb0f"
+        },
+        {
+          "q": 1158,
+          "stable_statement_id": "9956ab4a985ffbd2fdb0"
+        },
+        {
+          "q": 1159,
+          "stable_statement_id": "046b83f433f0f897bebf"
+        },
+        {
+          "q": 1160,
+          "stable_statement_id": "0aded4f0c2d209554604"
+        },
+        {
+          "q": 1161,
+          "stable_statement_id": "abb14a59ea452c80cc77"
+        },
+        {
+          "q": 1249,
+          "stable_statement_id": "a07435dae46e9241cc2a"
+        },
+        {
+          "q": 1262,
+          "stable_statement_id": "b1ba78271e207b25e0d3"
+        },
+        {
+          "q": 1263,
+          "stable_statement_id": "bc41aa82edde5fa04288"
+        },
+        {
+          "q": 1366,
+          "stable_statement_id": "1019289850b68fa9a39d"
+        },
+        {
+          "q": 1441,
+          "stable_statement_id": "60c1fcde2d3a853de2a4"
+        },
+        {
+          "q": 1442,
+          "stable_statement_id": "137dfefda1eae06911d7"
+        },
+        {
+          "q": 1454,
+          "stable_statement_id": "6ef0a2abf8519bc3a655"
+        },
+        {
+          "q": 2212,
+          "stable_statement_id": "5c6116ffa807a6eec932"
+        },
+        {
+          "q": 2400,
+          "stable_statement_id": "87d450a8d0f34344d141"
+        },
+        {
+          "q": 2508,
+          "stable_statement_id": "38ee4eff0fa06bac5bff"
+        },
+        {
+          "q": 2731,
+          "stable_statement_id": "25baab31898eb1272205"
+        },
+        {
+          "q": 2751,
+          "stable_statement_id": "e72b53411c22fbff5f8d"
+        },
+        {
+          "q": 2924,
+          "stable_statement_id": "5bb8850a675fa7b8f178"
+        },
+        {
+          "q": 3436,
+          "stable_statement_id": "103d7119b3013946e655"
+        },
+        {
+          "q": 3437,
+          "stable_statement_id": "e99f4af73e39dc10e13e"
+        },
+        {
+          "q": 3498,
+          "stable_statement_id": "2562de55f853c521b5ae"
+        },
+        {
+          "q": 3500,
+          "stable_statement_id": "b2c0e72c191a0e381ff8"
+        },
+        {
+          "q": 3568,
+          "stable_statement_id": "4c4220934cbe880eed2a"
+        },
+        {
+          "q": 3579,
+          "stable_statement_id": "c19d35eac63099d2b01b"
+        },
+        {
+          "q": 3626,
+          "stable_statement_id": "a6c90946f4a09ac5cc25"
+        },
+        {
+          "q": 3627,
+          "stable_statement_id": "c7b37a4f023d3108799f"
+        },
+        {
+          "q": 3678,
+          "stable_statement_id": "cb6335b6f3fa2c658fa4"
+        },
+        {
+          "q": 3702,
+          "stable_statement_id": "447e759afd7b59ff5bc8"
+        },
+        {
+          "q": 3703,
+          "stable_statement_id": "78ec95f39163b4d48c33"
+        },
+        {
+          "q": 3846,
+          "stable_statement_id": "a31c9277487bff39e87f"
+        },
+        {
+          "q": 3892,
+          "stable_statement_id": "4b99311cd3fe6261d814"
+        },
+        {
+          "q": 4331,
+          "stable_statement_id": "c57f9ad1b958503cc283"
+        },
+        {
+          "q": 4332,
+          "stable_statement_id": "dbeb90554cf5c006f41c"
+        },
+        {
+          "q": 4396,
+          "stable_statement_id": "813af0c40a72e55e58b5"
+        },
+        {
+          "q": 4429,
+          "stable_statement_id": "21c6d66dcad6f8c682ca"
+        },
+        {
+          "q": 4443,
+          "stable_statement_id": "6543aaa40ba45a5c2797"
+        },
+        {
+          "q": 4591,
+          "stable_statement_id": "bc3a6d517ae78c07fa91"
+        },
+        {
+          "q": 4592,
+          "stable_statement_id": "b4906830656cda98aebc"
+        },
+        {
+          "q": 4665,
+          "stable_statement_id": "a11e18c8c4efdd11d5f8"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts.",
+      "remaining": "These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues.",
+      "proof_location": "solutions/b3-all-targets-2026-10-13/STATUS.json",
+      "evidence_labels": [
+        "written-local-proof-or-analysis",
+        "main-thread-proof-count-and-scope-review",
+        "retained-agent-review-provenance-in-ROOT-REVIEW",
+        "exact-controls-at-their-declared-scopes"
+      ],
+      "completed_programme_targets": [],
+      "failed_programme_targets": [
+        "B3C-Q01",
+        "B3C-Q03",
+        "B3C-Q04",
+        "B3C-Q05"
+      ]
+    }
+  ],
+  "review_policy": "Internal per-result mathematical, source, scope and count review; no novelty or external peer-review claim.",
+  "new_exact_catalog_closures": 4,
+  "completed_broader_targets": [
+    "B3C-Q02",
+    "B3C-Q06",
+    "B3C-Q07"
+  ],
+  "canonical_filing_requires_all_targets_terminal_and_reviewed": true
+}

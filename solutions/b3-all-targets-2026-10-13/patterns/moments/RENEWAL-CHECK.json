@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "direct_and_skew_indec_counts_n1_to3": {
+    "direct": [
+      1,
+      1,
+      3
+    ],
+    "skew": [
+      1,
+      1,
+      3
+    ]
+  },
+  "no_pattern_both_direct_and_skew_decomposable_controls": 872,
+  "actual_beta": [
+    1,
+    3,
+    2,
+    4
+  ],
+  "closed_operation": "skew sum",
+  "avoidance_counts_n0_to7": [
+    1,
+    1,
+    2,
+    6,
+    23,
+    103,
+    513,
+    2762
+  ],
+  "actual_indec_counts_n1_to7": [
+    1,
+    1,
+    3,
+    12,
+    56,
+    289,
+    1604
+  ],
+  "actual_renewal_coefficient_identities": 7,
+  "nonprincipal_positive_component_control": {
+    "basis": [
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "counts": [
+      1,
+      1,
+      2,
+      3,
+      5,
+      8,
+      13,
+      21
+    ],
+    "indec_counts": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "negative_shifted_Hankel_det2": -1
+  },
+  "scope": "Exact renewal reduction/failed inductive family closure; no principal-class Hankel counterexample.",
+  "checker_sha256": "68b167387b93421be83dba1b8131efc2d4fa2093025a5e20c136cb1580a31423"
+}

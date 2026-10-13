@@ -1,0 +1,15 @@
+# Independent review of one-spoke Petersen subdivisions
+
+**Verdict:** the named-family theorem and scoped rounding lemma in [lp-supports/RESULT.md](../lp-supports/RESULT.md) pass internal review: the half-integral point is an extreme feasible subtour point, LP=n and OPT=n+1 for every subdivision length. This supplies a restricted P4 result and exact parity controls; it does not settle P4's broader 4/3 ambition.
+
+The original Petersen cut verification is an adequate finite base. Replacing a unit-x edge by a unit-x path preserves every cut inequality: opposite-side endpoints need at least one crossing; same-side endpoints with separated internal vertices need at least two. A cut with a nontrivial original restriction inherits the original capacity. A cut containing no original vertex is a nonempty proper selection of internal path vertices and has at least two boundary crossings; complements cover the remaining case. Degree equations remain exact.
+
+For extremality, fix all zero complete-graph coordinates and all unit support coordinates. Unit upper bounds are valid even if omitted from the written LP: the two-vertex cut and the two degree equations imply x_ab≤1 for n≥3. The remaining two five-cycles have equations x_previous+x_next=1. Odd closure uniquely forces one half. These active constraints therefore determine every coordinate and prove extremality.
+
+The degree equations give Σx_e=n and all distinct-city distances are at least one, so every feasible LP point costs at least n. The displayed point uses support edges of unit metric cost and attains n. A tour of cost n could use only support edges; every internal subdivision vertex has support degree two, so contraction would yield a Hamiltonian Petersen cycle. The verified absence of that cycle gives OPT≥n+1 because costs are integral.
+
+The retained base Hamilton path 0,5,7,2,1,6,8,3,4,9 contains the chosen spoke 0–5. Its endpoints connect in two steps through vertex 4 using 0–4 and 4–9, avoiding the subdivided spoke. Inserting its subdivision vertices keeps a unit-cost Hamilton path of n−1 edges, and closing costs two for every length. This proves the matching upper bound n+1. The general path-closing lemma follows from the same degree lower bound; it explicitly assumes a supplied Hamilton path and does not find one on arbitrary supports.
+
+[check_programme_reviews.py](check_programme_reviews.py) independently reconstructs each support and BFS metric for n=10,...,14, checks 15,867 cuts up to complement, verifies active-support ranks 15,...,19 with rational elimination, computes OPT=n+1 by a separate subset DP, recosts the constructive paths, and exhaustively verifies each retained odd-set minimum perfect matching. The shortcut tours have the stated costs and do not exceed tree-plus-parity costs. [Receipt](PROGRAMME-REVIEW-CHECK-RESULTS.json).
+
+The gaps (n+1)/n tend to one. Unit subdivision preserves this fractional obstruction but does not yield an asymptotic 4/3 gap family. Dataset representatives were not reproduced; the report correctly describes a separately generated family. No novelty or external peer-review claim.

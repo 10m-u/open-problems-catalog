@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "grid_elements": 221,
+  "core_single_checks": 221,
+  "core_pair_checks": 48841,
+  "boolean_shift_checks": 2500,
+  "alternating_finite_atoms": 100,
+  "infinite_atom_nondivision_controls": 61,
+  "residue_distinctions": 2900,
+  "scope": "bounded exact controls; no finite-axiomatizability decision"
+}

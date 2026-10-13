@@ -1,0 +1,90 @@
+{
+  "program": "B2",
+  "continuation": 3,
+  "date": "2026-10-13",
+  "scope": "New results relative to supplied record; no worldwide-priority claim.",
+  "overall_target_status": {
+    "Q4296": "partial; exact target unresolved",
+    "Q4660": "partial; exact constant unresolved"
+  },
+  "results": [
+    {
+      "id": "B2-III-M1",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "name": "Maximal-flat fibre rigidity",
+      "statement": "In an admissible two-colour partition of F_3^n, quotient in the direction of a maximum-dimensional affine subspace contained in R. The full remainder fibres form a cap of size 1,2,4; all but at most one nonfull fibre have a monochromatic affine coloured complement.",
+      "proof": "RESEARCH-NOTE.pdf, Theorem 2.2",
+      "status": "written proof; finite controls passed"
+    },
+    {
+      "id": "B2-III-M2",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "name": "Occupied-fibre inheritance",
+      "statement": "Under the hypotheses of M1, the quotient set of fibres meeting R inherits an admissible two-colouring.",
+      "proof": "RESEARCH-NOTE.pdf, Theorem 2.3",
+      "status": "written proof; finite controls passed"
+    },
+    {
+      "id": "B2-III-M3",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "name": "Sharp plane-free threshold in F_3^3",
+      "statement": "The maximum cardinality of a plane-free admissible two-colour remainder in F_3^3 is exactly 16.",
+      "proof": "RESEARCH-NOTE.pdf, Theorem 3.3",
+      "status": "written proof and explicit sharp construction; finite controls passed"
+    },
+    {
+      "id": "B2-III-M4",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "name": "All-dimension plane-free bound",
+      "statement": "For n>=3, a plane-free admissible two-colour remainder in F_3^n has cardinality at most (5/2)*2^n-4. At density >=1/10, an affine plane is forced for n>=8.",
+      "proof": "RESEARCH-NOTE.pdf, Theorem 4.1 and Corollary 4.2",
+      "status": "written proof; finite controls passed",
+      "limitations": "No sharpness claim beyond dimension 3; no improvement to general O(k log k) codimension."
+    },
+    {
+      "id": "B2-III-E1",
+      "target": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "name": "Tail exponent rigidity and ascent",
+      "statement": "For a law with full support on N_0 and -log p_n=c*n^beta+o(n^beta), its coordinate ratio-gradient G_n/(c*n^beta) tends to 1+rho-2*rho*min(1,2^(1-beta)). Stationarity at rho>1 therefore requires beta=log_2(4*rho/(1+rho)). Nonzero coefficient gives a strict finite-coordinate ascent direction.",
+      "proof": "RESEARCH-NOTE.pdf, Lemmas 5.1-5.2 and Theorem 5.3",
+      "status": "written proof; exact formal finite controls passed",
+      "limitations": "One-sided full support and stated regular tail required; no existence or sufficiency claim."
+    },
+    {
+      "id": "B2-III-E2",
+      "target": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "name": "Prescribed-tail supremum equality",
+      "statement": "For every fixed beta,c>0, the supremum of rho over full N_0 laws with -log p_n~c*n^beta equals the unrestricted finite-entropy discrete-real supremum C_*. Finite rational nonnegative-integer laws have the same supremum.",
+      "proof": "RESEARCH-NOTE.pdf, Theorem 6.1",
+      "status": "written proof"
+    },
+    {
+      "id": "B2-III-E3",
+      "target": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "name": "Gaussian-tail nonattainment",
+      "statement": "Every fixed one-sided full-support Gaussian-log-tail class (-log p_n~c*n^2) has supremum C_* but no maximizer. An attainer with any regular exponent beta must satisfy log_2(4*L/(1+L))<beta<=log_2(8/3), where L=1.4051810329.",
+      "proof": "RESEARCH-NOTE.pdf, Corollary 6.2",
+      "status": "written proof",
+      "limitations": "Does not rule out arbitrary irregular or sparse extremizers; numerical bounds unchanged."
+    }
+  ],
+  "unchanged_bounds": {
+    "midpoint_general_codimension": "O(k log(2k)) at fixed density 1/10",
+    "entropy_constant": "1.4051810329 < C_* <= 2"
+  },
+  "not_counted_as_new": [
+    "prior cap classification",
+    "prior full-fibre inheritance",
+    "classical affine blocking theorem",
+    "prior entropy lower bound",
+    "standard approximation ingredients taken separately"
+  ],
+  "certification_scope": "No proof assistant or external peer review. Exact finite controls do not establish infinite/general theorems by themselves."
+}

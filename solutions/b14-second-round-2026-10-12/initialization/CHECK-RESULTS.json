@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "random_seed_for_case_selection": 3817,
+  "checks": {
+    "exhaustive_path_accounting": {
+      "n_range": [
+        3,
+        7
+      ],
+      "edge_weights": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_starts": true,
+      "cases": 36400,
+      "maximum_ratio_on_this_finite_set": "9/7",
+      "bound": "3/2",
+      "switch_cost_accounting_checked": true
+    },
+    "tight_family": [
+      {
+        "k": 2,
+        "ratio": "23/19",
+        "strict_nearest_choices": true
+      },
+      {
+        "k": 3,
+        "ratio": "35/27",
+        "strict_nearest_choices": true
+      },
+      {
+        "k": 8,
+        "ratio": "95/67",
+        "strict_nearest_choices": true
+      },
+      {
+        "k": 32,
+        "ratio": "383/259",
+        "strict_nearest_choices": true
+      },
+      {
+        "k": 128,
+        "ratio": "1535/1027",
+        "strict_nearest_choices": true
+      }
+    ],
+    "stars_all_tours_optimal": {
+      "n_range": [
+        3,
+        7
+      ],
+      "tours_checked": 436
+    },
+    "tree_exchange_monotonicity_and_optimum": {
+      "n_range": [
+        3,
+        7
+      ],
+      "all_labeled_tree_topologies_through_n": 5,
+      "selected_pruefer_topologies_each_larger_n": 24,
+      "positive_weight_assignments_per_tree": 2,
+      "tree_instances": 382,
+      "tours": 23142,
+      "exchange_tests": 281952,
+      "strict_improvements": 73656,
+      "local_optimum_cost": "2W",
+      "cut_vectors_componentwise_nonincreasing": true
+    },
+    "actual_nearest_neighbor_initialized_descents": {
+      "pivot_rules": [
+        "lexicographic first improvement",
+        "best improvement"
+      ],
+      "descents": 564,
+      "maximum_observed_steps_in_this_finite_set": 1,
+      "starting_potential_bound_and_family_bound_checked": true
+    },
+    "four_city_exponential_exact_integral": {
+      "strict_choice_region_cases": 276,
+      "expected_ratio_interior_start": "97/96",
+      "expected_excess_cost": "1/16",
+      "expected_optimum": 6,
+      "expected_nn_cost": "97/16",
+      "integration": "exact rational polynomial on normalized simplex; exponential first moment"
+    }
+  }
+}

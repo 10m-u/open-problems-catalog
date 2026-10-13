@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "odd_pentagon_edge_subsets": 32,
+  "perfect_matchings": 0,
+  "uniform_metric_lp": 10,
+  "minimum_tree_plus_parity": 14,
+  "uniform_optimum": 10,
+  "three_gadget_necklace_min_cut_twice_x": 4,
+  "source_only_control": "non-half-integral class at n=8: primary enumeration Table 4, not locally reproduced",
+  "scope": "route obstructions only; no 4/3 counterexample"
+}

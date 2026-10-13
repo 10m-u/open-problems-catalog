@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "bernoulli_ratio": 1.3532436508177395,
+  "exact_integer_comparison_proves_ratio_above": "4/3",
+  "uniform_interval_and_power_progression_controls": 126,
+  "weighted_laws_tested": 12000,
+  "best_numerical_witness": {
+    "ratio": 1.3974584632476015,
+    "law": [
+      [
+        1,
+        0.9130829728661338
+      ],
+      [
+        3,
+        0.078577361501355
+      ],
+      [
+        5,
+        0.008339665632511139
+      ]
+    ]
+  },
+  "scope": "Exact analytic Bernoulli lower bound plus finite floating-point controls; no global numerical optimum or sharp constant"
+}

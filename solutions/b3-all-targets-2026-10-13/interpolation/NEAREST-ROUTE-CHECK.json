@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "endpoint_controls": 20,
+  "quadratic_power_ceiling_controls": 40,
+  "negative_endpoint_minors": 20,
+  "actual_no_real_root_and_difference_controls": true,
+  "degree_at_most_six_factor_obstructions": 3,
+  "files_sha256": {
+    "NEAREST-RESULTS.md": "baca41708c0f7cd6597a5a8657b0eedfced4feab043ef159eac9d13ee8b739d7",
+    "ATTEMPTS.md": "221afee94fddd579476283e3d1d84a1e2f3fefdba6b8f739d3e64f9ea6b0ec30",
+    "check_nearest_routes.py": "7a2e146b64f21928a30b300692a3fbc5e6f825a123dc150dba48fc3a5fe8699d",
+    "NEAREST-CERTIFICATES.json": "281aa3bf85c0db4adf4b6fcbf43ce878169779130a8f2fb3c96737fb9bd16194",
+    "NEAREST-CHECK.json": "2f3ed84a80a0dbd4aece857c6c31dd95abeecdcf0070cf952fcc148f337c5425"
+  },
+  "scope": "Finite controls support all-size algebra and explicit proof-route failures; no uniform upper bound is asserted."
+}

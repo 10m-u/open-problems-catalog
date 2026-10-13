@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "boundary_minor_controls": 36,
+  "production_P_2_1": "-a*e*(a*e + c*d)/c**3",
+  "TN_prefix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      2
+    ]
+  ],
+  "recurrence_extension": [
+    1,
+    5,
+    8,
+    2
+  ],
+  "negative_adjacent_minor": -2,
+  "bounded_coefficient_minor_controls": 271,
+  "scope": "All-size leading-two-column theorem has a written proof; finite higher-minor checks do not solve Q3846."
+}

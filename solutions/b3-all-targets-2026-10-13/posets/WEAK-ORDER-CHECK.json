@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "exact_factor_and_recurrence_controls": 168,
+  "N_range": [
+    1,
+    24
+  ],
+  "k_range": "0,...,floor(N/2)",
+  "examples": [
+    {
+      "N": 2,
+      "k": 1,
+      "factorization": "2*t**2"
+    },
+    {
+      "N": 4,
+      "k": 2,
+      "factorization": "4*t*(t + 1)*(t**2 + t + 1)"
+    },
+    {
+      "N": 6,
+      "k": 3,
+      "factorization": "4*t*(t + 1)**2*(t + 2)*(2*t**2 + 4*t + 9)"
+    },
+    {
+      "N": 10,
+      "k": 5,
+      "factorization": "32*t*(t + 1)*(t + 2)**2*(t + 3)*(t + 4)*(t**4 + 8*t**3 + 44*t**2 + 112*t + 150)"
+    }
+  ],
+  "checker_sha256": "4ad649d46f1ac2059f9ddfa4d012374d054b6cb2d8d1d53a16586555bb72b7d4",
+  "scope": "Bounded exact controls for a separately proved all-size weak-order theorem; not all width-two posets."
+}

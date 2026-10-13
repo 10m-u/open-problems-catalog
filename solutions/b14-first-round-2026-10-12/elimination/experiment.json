@@ -1,0 +1,4029 @@
+{
+  "schema": "b14-elimination-experiment-v1",
+  "configuration": {
+    "sizes": [
+      8,
+      10,
+      12
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "potentials_scale": 16,
+    "single_root_calls": 48,
+    "four_root_total_calls": 48,
+    "model": "exact integer costs; ceil-Euclidean or integer shortest-path metrics",
+    "timing_limit": "Times include oracle DP; work counters are the main comparison."
+  },
+  "instances": 49,
+  "runs": 147,
+  "rows": [
+    {
+      "id": "euclidean-ceil-n8-s0",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 0,
+      "method": "zero",
+      "upper": 316,
+      "lower_numerator": 4880,
+      "scale": 16,
+      "eliminated": 14,
+      "residual": 14,
+      "width_upper_bound": 3,
+      "optimal_cost": 316,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 110,
+        "transitions": 128
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0020667158532887697,
+      "verification_seconds": 0.0007606570143252611,
+      "certificate": "certificates/euclidean-ceil-n8-s0-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s0",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 316,
+      "lower_numerator": 5056,
+      "scale": 16,
+      "eliminated": 20,
+      "residual": 8,
+      "width_upper_bound": 2,
+      "optimal_cost": 316,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 14,
+        "transitions": 12
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005561784841120243,
+      "verification_seconds": 0.0008096869569271803,
+      "certificate": "certificates/euclidean-ceil-n8-s0-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s0",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 316,
+      "lower_numerator": 5056,
+      "scale": 16,
+      "eliminated": 20,
+      "residual": 8,
+      "width_upper_bound": 2,
+      "optimal_cost": 316,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 14,
+        "transitions": 12
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005609766114503145,
+      "verification_seconds": 0.0010621680412441492,
+      "certificate": "certificates/euclidean-ceil-n8-s0-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 0,
+      "method": "zero",
+      "upper": 1415,
+      "lower_numerator": 13968,
+      "scale": 16,
+      "eliminated": 1,
+      "residual": 27,
+      "width_upper_bound": 6,
+      "optimal_cost": 1415,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 441,
+        "transitions": 1308
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0028046041261404753,
+      "verification_seconds": 0.000703456113114953,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s0-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 1415,
+      "lower_numerator": 22640,
+      "scale": 16,
+      "eliminated": 20,
+      "residual": 8,
+      "width_upper_bound": 2,
+      "optimal_cost": 1415,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 14,
+        "transitions": 12
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005751478020101786,
+      "verification_seconds": 0.0007894330192357302,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s0-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 1415,
+      "lower_numerator": 22208,
+      "scale": 16,
+      "eliminated": 9,
+      "residual": 19,
+      "width_upper_bound": 4,
+      "optimal_cost": 1415,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 280,
+        "transitions": 498
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.00644641206599772,
+      "verification_seconds": 0.0010560217779129744,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s0-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s0",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 0,
+      "method": "zero",
+      "upper": 164,
+      "lower_numerator": 2096,
+      "scale": 16,
+      "eliminated": 2,
+      "residual": 26,
+      "width_upper_bound": 6,
+      "optimal_cost": 164,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 429,
+        "transitions": 1252
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0024501520674675703,
+      "verification_seconds": 0.0006983568891882896,
+      "certificate": "certificates/random-shortest-path-n8-s0-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s0",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 164,
+      "lower_numerator": 2622,
+      "scale": 16,
+      "eliminated": 13,
+      "residual": 15,
+      "width_upper_bound": 4,
+      "optimal_cost": 164,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 150,
+        "transitions": 204
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005836406024172902,
+      "verification_seconds": 0.0009038338903337717,
+      "certificate": "certificates/random-shortest-path-n8-s0-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s0",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 164,
+      "lower_numerator": 2622,
+      "scale": 16,
+      "eliminated": 13,
+      "residual": 15,
+      "width_upper_bound": 4,
+      "optimal_cost": 164,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 150,
+        "transitions": 204
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.0059355818666517735,
+      "verification_seconds": 0.0009673908352851868,
+      "certificate": "certificates/random-shortest-path-n8-s0-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n8-s0",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 0,
+      "method": "zero",
+      "upper": 300,
+      "lower_numerator": 2864,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 300,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0025451378896832466,
+      "verification_seconds": 0.000724828103557229,
+      "certificate": "certificates/tree-metric-n8-s0-zero.json"
+    },
+    {
+      "id": "tree-metric-n8-s0",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 300,
+      "lower_numerator": 4778,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 300,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006734302965924144,
+      "verification_seconds": 0.0007889431435614824,
+      "certificate": "certificates/tree-metric-n8-s0-single-root.json"
+    },
+    {
+      "id": "tree-metric-n8-s0",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 300,
+      "lower_numerator": 4523,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 300,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006742197088897228,
+      "verification_seconds": 0.0008584370370954275,
+      "certificate": "certificates/tree-metric-n8-s0-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s1",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 1,
+      "method": "zero",
+      "upper": 248,
+      "lower_numerator": 3568,
+      "scale": 16,
+      "eliminated": 5,
+      "residual": 23,
+      "width_upper_bound": 5,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 400,
+        "transitions": 970
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0024088050704449415,
+      "verification_seconds": 0.0007193100173026323,
+      "certificate": "certificates/euclidean-ceil-n8-s1-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s1",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 248,
+      "lower_numerator": 3968,
+      "scale": 16,
+      "eliminated": 17,
+      "residual": 11,
+      "width_upper_bound": 3,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 50,
+        "transitions": 52
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.0056048070546239614,
+      "verification_seconds": 0.0009467180352658033,
+      "certificate": "certificates/euclidean-ceil-n8-s1-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s1",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 248,
+      "lower_numerator": 3968,
+      "scale": 16,
+      "eliminated": 17,
+      "residual": 11,
+      "width_upper_bound": 3,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 50,
+        "transitions": 52
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.0057509178295731544,
+      "verification_seconds": 0.0011510078329592943,
+      "certificate": "certificates/euclidean-ceil-n8-s1-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 1,
+      "method": "zero",
+      "upper": 1354,
+      "lower_numerator": 11328,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 1354,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0027407680172473192,
+      "verification_seconds": 0.0006878108251839876,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s1-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 1354,
+      "lower_numerator": 21663,
+      "scale": 16,
+      "eliminated": 14,
+      "residual": 14,
+      "width_upper_bound": 3,
+      "optimal_cost": 1354,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 124,
+        "transitions": 140
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005939145106822252,
+      "verification_seconds": 0.0009964460041373968,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s1-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 1354,
+      "lower_numerator": 19263,
+      "scale": 16,
+      "eliminated": 1,
+      "residual": 27,
+      "width_upper_bound": 6,
+      "optimal_cost": 1354,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 441,
+        "transitions": 1308
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006933494936674833,
+      "verification_seconds": 0.0011405309196561575,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s1-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s1",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 1,
+      "method": "zero",
+      "upper": 232,
+      "lower_numerator": 2496,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 232,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.002542064990848303,
+      "verification_seconds": 0.0007056212052702904,
+      "certificate": "certificates/random-shortest-path-n8-s1-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s1",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 232,
+      "lower_numerator": 3710,
+      "scale": 16,
+      "eliminated": 13,
+      "residual": 15,
+      "width_upper_bound": 4,
+      "optimal_cost": 232,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 167,
+        "transitions": 250
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005902546923607588,
+      "verification_seconds": 0.0008854661136865616,
+      "certificate": "certificates/random-shortest-path-n8-s1-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s1",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 232,
+      "lower_numerator": 3711,
+      "scale": 16,
+      "eliminated": 13,
+      "residual": 15,
+      "width_upper_bound": 4,
+      "optimal_cost": 232,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 167,
+        "transitions": 250
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.0059633101336658,
+      "verification_seconds": 0.0008566200267523527,
+      "certificate": "certificates/random-shortest-path-n8-s1-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n8-s1",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 1,
+      "method": "zero",
+      "upper": 200,
+      "lower_numerator": 1792,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 200,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0024920578580349684,
+      "verification_seconds": 0.0007065979298204184,
+      "certificate": "certificates/tree-metric-n8-s1-zero.json"
+    },
+    {
+      "id": "tree-metric-n8-s1",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 200,
+      "lower_numerator": 3184,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 200,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006705389125272632,
+      "verification_seconds": 0.0006924900226294994,
+      "certificate": "certificates/tree-metric-n8-s1-single-root.json"
+    },
+    {
+      "id": "tree-metric-n8-s1",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 200,
+      "lower_numerator": 2997,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 200,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.00671872915700078,
+      "verification_seconds": 0.0007964158430695534,
+      "certificate": "certificates/tree-metric-n8-s1-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s2",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 2,
+      "method": "zero",
+      "upper": 243,
+      "lower_numerator": 3312,
+      "scale": 16,
+      "eliminated": 3,
+      "residual": 25,
+      "width_upper_bound": 5,
+      "optimal_cost": 243,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 419,
+        "transitions": 1101
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0025555449537932873,
+      "verification_seconds": 0.0006983568891882896,
+      "certificate": "certificates/euclidean-ceil-n8-s2-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s2",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 243,
+      "lower_numerator": 3888,
+      "scale": 16,
+      "eliminated": 20,
+      "residual": 8,
+      "width_upper_bound": 2,
+      "optimal_cost": 243,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 14,
+        "transitions": 12
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.00558336591348052,
+      "verification_seconds": 0.0007846830412745476,
+      "certificate": "certificates/euclidean-ceil-n8-s2-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s2",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 243,
+      "lower_numerator": 3888,
+      "scale": 16,
+      "eliminated": 20,
+      "residual": 8,
+      "width_upper_bound": 2,
+      "optimal_cost": 243,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 14,
+        "transitions": 12
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005566114792600274,
+      "verification_seconds": 0.0009051610250025988,
+      "certificate": "certificates/euclidean-ceil-n8-s2-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 2,
+      "method": "zero",
+      "upper": 1353,
+      "lower_numerator": 12352,
+      "scale": 16,
+      "eliminated": 1,
+      "residual": 27,
+      "width_upper_bound": 6,
+      "optimal_cost": 1353,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 441,
+        "transitions": 1308
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0028436460997909307,
+      "verification_seconds": 0.0007010810077190399,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s2-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 1353,
+      "lower_numerator": 21647,
+      "scale": 16,
+      "eliminated": 15,
+      "residual": 13,
+      "width_upper_bound": 3,
+      "optimal_cost": 1353,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 105,
+        "transitions": 118
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006040904903784394,
+      "verification_seconds": 0.0009319810196757317,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s2-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 1353,
+      "lower_numerator": 21180,
+      "scale": 16,
+      "eliminated": 6,
+      "residual": 22,
+      "width_upper_bound": 5,
+      "optimal_cost": 1353,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 348,
+        "transitions": 768
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.00666858209297061,
+      "verification_seconds": 0.0007988610304892063,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s2-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s2",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 2,
+      "method": "zero",
+      "upper": 96,
+      "lower_numerator": 1136,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 96,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0025579899083822966,
+      "verification_seconds": 0.0006806871388107538,
+      "certificate": "certificates/random-shortest-path-n8-s2-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s2",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 96,
+      "lower_numerator": 1534,
+      "scale": 16,
+      "eliminated": 6,
+      "residual": 22,
+      "width_upper_bound": 6,
+      "optimal_cost": 96,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 349,
+        "transitions": 736
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006438589887693524,
+      "verification_seconds": 0.0010399578604847193,
+      "certificate": "certificates/random-shortest-path-n8-s2-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s2",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 96,
+      "lower_numerator": 1520,
+      "scale": 16,
+      "eliminated": 6,
+      "residual": 22,
+      "width_upper_bound": 6,
+      "optimal_cost": 96,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 349,
+        "transitions": 736
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006516812834888697,
+      "verification_seconds": 0.0008724748622626066,
+      "certificate": "certificates/random-shortest-path-n8-s2-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n8-s2",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 2,
+      "method": "zero",
+      "upper": 208,
+      "lower_numerator": 2336,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 208,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0025062360800802708,
+      "verification_seconds": 0.000691862078383565,
+      "certificate": "certificates/tree-metric-n8-s2-zero.json"
+    },
+    {
+      "id": "tree-metric-n8-s2",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 208,
+      "lower_numerator": 3324,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 208,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006713001988828182,
+      "verification_seconds": 0.0008668170776218176,
+      "certificate": "certificates/tree-metric-n8-s2-single-root.json"
+    },
+    {
+      "id": "tree-metric-n8-s2",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 208,
+      "lower_numerator": 3130,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 208,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.0067597972229123116,
+      "verification_seconds": 0.0008992250077426434,
+      "certificate": "certificates/tree-metric-n8-s2-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s3",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 3,
+      "method": "zero",
+      "upper": 275,
+      "lower_numerator": 3840,
+      "scale": 16,
+      "eliminated": 6,
+      "residual": 22,
+      "width_upper_bound": 5,
+      "optimal_cost": 275,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 354,
+        "transitions": 834
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.002335749100893736,
+      "verification_seconds": 0.0007063201628625393,
+      "certificate": "certificates/euclidean-ceil-n8-s3-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s3",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 275,
+      "lower_numerator": 4400,
+      "scale": 16,
+      "eliminated": 20,
+      "residual": 8,
+      "width_upper_bound": 2,
+      "optimal_cost": 275,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 14,
+        "transitions": 12
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005489288130775094,
+      "verification_seconds": 0.0007969050202518702,
+      "certificate": "certificates/euclidean-ceil-n8-s3-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n8-s3",
+      "family": "euclidean-ceil",
+      "n": 8,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 275,
+      "lower_numerator": 4400,
+      "scale": 16,
+      "eliminated": 20,
+      "residual": 8,
+      "width_upper_bound": 2,
+      "optimal_cost": 275,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 14,
+        "transitions": 12
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005608299048617482,
+      "verification_seconds": 0.0011551291681826115,
+      "certificate": "certificates/euclidean-ceil-n8-s3-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 3,
+      "method": "zero",
+      "upper": 1337,
+      "lower_numerator": 13488,
+      "scale": 16,
+      "eliminated": 1,
+      "residual": 27,
+      "width_upper_bound": 6,
+      "optimal_cost": 1337,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 441,
+        "transitions": 1308
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.002866484224796295,
+      "verification_seconds": 0.0006721660029143095,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s3-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 1337,
+      "lower_numerator": 21392,
+      "scale": 16,
+      "eliminated": 18,
+      "residual": 10,
+      "width_upper_bound": 2,
+      "optimal_cost": 1337,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 36,
+        "transitions": 34
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.00587852206081152,
+      "verification_seconds": 0.0008403479587286711,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s3-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n8-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 8,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 1337,
+      "lower_numerator": 21208,
+      "scale": 16,
+      "eliminated": 15,
+      "residual": 13,
+      "width_upper_bound": 3,
+      "optimal_cost": 1337,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 83,
+        "transitions": 99
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006016949191689491,
+      "verification_seconds": 0.000997423892840743,
+      "certificate": "certificates/clustered-euclidean-ceil-n8-s3-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s3",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 3,
+      "method": "zero",
+      "upper": 88,
+      "lower_numerator": 1296,
+      "scale": 16,
+      "eliminated": 8,
+      "residual": 20,
+      "width_upper_bound": 4,
+      "optimal_cost": 88,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 309,
+        "transitions": 548
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.002057706005871296,
+      "verification_seconds": 0.0007169360760599375,
+      "certificate": "certificates/random-shortest-path-n8-s3-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s3",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 88,
+      "lower_numerator": 1407,
+      "scale": 16,
+      "eliminated": 18,
+      "residual": 10,
+      "width_upper_bound": 3,
+      "optimal_cost": 88,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 32,
+        "transitions": 32
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005562064005061984,
+      "verification_seconds": 0.0009349149186164141,
+      "certificate": "certificates/random-shortest-path-n8-s3-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n8-s3",
+      "family": "random-shortest-path",
+      "n": 8,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 88,
+      "lower_numerator": 1408,
+      "scale": 16,
+      "eliminated": 18,
+      "residual": 10,
+      "width_upper_bound": 3,
+      "optimal_cost": 88,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 32,
+        "transitions": 32
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.005685125943273306,
+      "verification_seconds": 0.001018306938931346,
+      "certificate": "certificates/random-shortest-path-n8-s3-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n8-s3",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 3,
+      "method": "zero",
+      "upper": 248,
+      "lower_numerator": 2224,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.002537664957344532,
+      "verification_seconds": 0.0007050619460642338,
+      "certificate": "certificates/tree-metric-n8-s3-zero.json"
+    },
+    {
+      "id": "tree-metric-n8-s3",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 248,
+      "lower_numerator": 3958,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.00681266700848937,
+      "verification_seconds": 0.0008502649143338203,
+      "certificate": "certificates/tree-metric-n8-s3-single-root.json"
+    },
+    {
+      "id": "tree-metric-n8-s3",
+      "family": "tree-metric",
+      "n": 8,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 248,
+      "lower_numerator": 3878,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 28,
+      "width_upper_bound": 7,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "residual_dp": {
+        "states": 448,
+        "transitions": 1344
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.006848775781691074,
+      "verification_seconds": 0.0007920160423964262,
+      "certificate": "certificates/tree-metric-n8-s3-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s0",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 0,
+      "method": "zero",
+      "upper": 325,
+      "lower_numerator": 4544,
+      "scale": 16,
+      "eliminated": 9,
+      "residual": 36,
+      "width_upper_bound": 6,
+      "optimal_cost": 325,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 1860,
+        "transitions": 5522
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.013486067997291684,
+      "verification_seconds": 0.0016832789406180382,
+      "certificate": "certificates/euclidean-ceil-n10-s0-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s0",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 325,
+      "lower_numerator": 5200,
+      "scale": 16,
+      "eliminated": 35,
+      "residual": 10,
+      "width_upper_bound": 2,
+      "optimal_cost": 325,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 18,
+        "transitions": 16
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.014133231015875936,
+      "verification_seconds": 0.0017214131075888872,
+      "certificate": "certificates/euclidean-ceil-n10-s0-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s0",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 325,
+      "lower_numerator": 5200,
+      "scale": 16,
+      "eliminated": 35,
+      "residual": 10,
+      "width_upper_bound": 2,
+      "optimal_cost": 325,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 18,
+        "transitions": 16
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01421208307147026,
+      "verification_seconds": 0.0019387630745768547,
+      "certificate": "certificates/euclidean-ceil-n10-s0-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 0,
+      "method": "zero",
+      "upper": 1494,
+      "lower_numerator": 14848,
+      "scale": 16,
+      "eliminated": 2,
+      "residual": 43,
+      "width_upper_bound": 8,
+      "optimal_cost": 1494,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2279,
+        "transitions": 9046
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.016331879887729883,
+      "verification_seconds": 0.0016420031897723675,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s0-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 1494,
+      "lower_numerator": 23904,
+      "scale": 16,
+      "eliminated": 33,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 1494,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 42,
+        "transitions": 39
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.014702589018270373,
+      "verification_seconds": 0.0019651639740914106,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s0-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 1494,
+      "lower_numerator": 22985,
+      "scale": 16,
+      "eliminated": 14,
+      "residual": 31,
+      "width_upper_bound": 5,
+      "optimal_cost": 1494,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 1602,
+        "transitions": 3724
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01924746297299862,
+      "verification_seconds": 0.0020051838364452124,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s0-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s0",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 0,
+      "method": "zero",
+      "upper": 142,
+      "lower_numerator": 1440,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 142,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.01494019408710301,
+      "verification_seconds": 0.0016332019586116076,
+      "certificate": "certificates/random-shortest-path-n10-s0-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s0",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 142,
+      "lower_numerator": 2271,
+      "scale": 16,
+      "eliminated": 24,
+      "residual": 21,
+      "width_upper_bound": 5,
+      "optimal_cost": 142,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 500,
+        "transitions": 716
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.014930625911802053,
+      "verification_seconds": 0.0018326030112802982,
+      "certificate": "certificates/random-shortest-path-n10-s0-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s0",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 142,
+      "lower_numerator": 2262,
+      "scale": 16,
+      "eliminated": 24,
+      "residual": 21,
+      "width_upper_bound": 5,
+      "optimal_cost": 142,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 500,
+        "transitions": 716
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.014886833960190415,
+      "verification_seconds": 0.002032353077083826,
+      "certificate": "certificates/random-shortest-path-n10-s0-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n10-s0",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 0,
+      "method": "zero",
+      "upper": 250,
+      "lower_numerator": 2496,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 250,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.01487244595773518,
+      "verification_seconds": 0.0016438879538327456,
+      "certificate": "certificates/tree-metric-n10-s0-zero.json"
+    },
+    {
+      "id": "tree-metric-n10-s0",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 250,
+      "lower_numerator": 3951,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 250,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.021562329959124327,
+      "verification_seconds": 0.0017962148413062096,
+      "certificate": "certificates/tree-metric-n10-s0-single-root.json"
+    },
+    {
+      "id": "tree-metric-n10-s0",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 250,
+      "lower_numerator": 3872,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 250,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.021533414954319596,
+      "verification_seconds": 0.001825129147619009,
+      "certificate": "certificates/tree-metric-n10-s0-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s1",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 1,
+      "method": "zero",
+      "upper": 281,
+      "lower_numerator": 3616,
+      "scale": 16,
+      "eliminated": 3,
+      "residual": 42,
+      "width_upper_bound": 8,
+      "optimal_cost": 281,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2250,
+        "transitions": 8868
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.01507918001152575,
+      "verification_seconds": 0.001662885071709752,
+      "certificate": "certificates/euclidean-ceil-n10-s1-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s1",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 281,
+      "lower_numerator": 4496,
+      "scale": 16,
+      "eliminated": 35,
+      "residual": 10,
+      "width_upper_bound": 2,
+      "optimal_cost": 281,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 18,
+        "transitions": 16
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.013881796970963478,
+      "verification_seconds": 0.0016632340848445892,
+      "certificate": "certificates/euclidean-ceil-n10-s1-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s1",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 281,
+      "lower_numerator": 4496,
+      "scale": 16,
+      "eliminated": 35,
+      "residual": 10,
+      "width_upper_bound": 2,
+      "optimal_cost": 281,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 18,
+        "transitions": 16
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.013996687950566411,
+      "verification_seconds": 0.002145427977666259,
+      "certificate": "certificates/euclidean-ceil-n10-s1-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 1,
+      "method": "zero",
+      "upper": 1388,
+      "lower_numerator": 13744,
+      "scale": 16,
+      "eliminated": 3,
+      "residual": 42,
+      "width_upper_bound": 8,
+      "optimal_cost": 1388,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2250,
+        "transitions": 8868
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.01553448592312634,
+      "verification_seconds": 0.0015991891268640757,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s1-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 1388,
+      "lower_numerator": 22208,
+      "scale": 16,
+      "eliminated": 35,
+      "residual": 10,
+      "width_upper_bound": 2,
+      "optimal_cost": 1388,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 18,
+        "transitions": 16
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01375342602841556,
+      "verification_seconds": 0.0017138710245490074,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s1-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 1388,
+      "lower_numerator": 21673,
+      "scale": 16,
+      "eliminated": 14,
+      "residual": 31,
+      "width_upper_bound": 5,
+      "optimal_cost": 1388,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 1596,
+        "transitions": 4212
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01778621389530599,
+      "verification_seconds": 0.0016120399814099073,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s1-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s1",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 1,
+      "method": "zero",
+      "upper": 120,
+      "lower_numerator": 1472,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 120,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.013292883988469839,
+      "verification_seconds": 0.0014732619747519493,
+      "certificate": "certificates/random-shortest-path-n10-s1-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s1",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 120,
+      "lower_numerator": 1919,
+      "scale": 16,
+      "eliminated": 33,
+      "residual": 12,
+      "width_upper_bound": 3,
+      "optimal_cost": 120,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 40,
+        "transitions": 40
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.011809912975877523,
+      "verification_seconds": 0.0017256729770451784,
+      "certificate": "certificates/random-shortest-path-n10-s1-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s1",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 120,
+      "lower_numerator": 1920,
+      "scale": 16,
+      "eliminated": 33,
+      "residual": 12,
+      "width_upper_bound": 3,
+      "optimal_cost": 120,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 40,
+        "transitions": 40
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.011793918907642365,
+      "verification_seconds": 0.0019885620567947626,
+      "certificate": "certificates/random-shortest-path-n10-s1-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n10-s1",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 1,
+      "method": "zero",
+      "upper": 226,
+      "lower_numerator": 2176,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 226,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.012348958989605308,
+      "verification_seconds": 0.0013734570238739252,
+      "certificate": "certificates/tree-metric-n10-s1-zero.json"
+    },
+    {
+      "id": "tree-metric-n10-s1",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 226,
+      "lower_numerator": 3554,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 226,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.017740397015586495,
+      "verification_seconds": 0.001513141905888915,
+      "certificate": "certificates/tree-metric-n10-s1-single-root.json"
+    },
+    {
+      "id": "tree-metric-n10-s1",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 226,
+      "lower_numerator": 3543,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 226,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01793141709640622,
+      "verification_seconds": 0.0013640979304909706,
+      "certificate": "certificates/tree-metric-n10-s1-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s2",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 2,
+      "method": "zero",
+      "upper": 281,
+      "lower_numerator": 4144,
+      "scale": 16,
+      "eliminated": 16,
+      "residual": 29,
+      "width_upper_bound": 5,
+      "optimal_cost": 281,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 1466,
+        "transitions": 3263
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.009602884063497186,
+      "verification_seconds": 0.0013476849999278784,
+      "certificate": "certificates/euclidean-ceil-n10-s2-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s2",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 281,
+      "lower_numerator": 4496,
+      "scale": 16,
+      "eliminated": 34,
+      "residual": 11,
+      "width_upper_bound": 2,
+      "optimal_cost": 281,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 28,
+        "transitions": 26
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.011586626060307026,
+      "verification_seconds": 0.0014992430806159973,
+      "certificate": "certificates/euclidean-ceil-n10-s2-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s2",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 281,
+      "lower_numerator": 4496,
+      "scale": 16,
+      "eliminated": 35,
+      "residual": 10,
+      "width_upper_bound": 2,
+      "optimal_cost": 281,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 18,
+        "transitions": 16
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.011731201084330678,
+      "verification_seconds": 0.001923257950693369,
+      "certificate": "certificates/euclidean-ceil-n10-s2-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 2,
+      "method": "zero",
+      "upper": 1402,
+      "lower_numerator": 14000,
+      "scale": 16,
+      "eliminated": 1,
+      "residual": 44,
+      "width_upper_bound": 8,
+      "optimal_cost": 1402,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2295,
+        "transitions": 9152
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.013603682862594724,
+      "verification_seconds": 0.0013752030208706856,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s2-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 1402,
+      "lower_numerator": 22426,
+      "scale": 16,
+      "eliminated": 29,
+      "residual": 16,
+      "width_upper_bound": 3,
+      "optimal_cost": 1402,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 216,
+        "transitions": 226
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.012649073963984847,
+      "verification_seconds": 0.0018581650219857693,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s2-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 1402,
+      "lower_numerator": 21597,
+      "scale": 16,
+      "eliminated": 12,
+      "residual": 33,
+      "width_upper_bound": 6,
+      "optimal_cost": 1402,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 1704,
+        "transitions": 4632
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.016521641984581947,
+      "verification_seconds": 0.0015952079556882381,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s2-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s2",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 2,
+      "method": "zero",
+      "upper": 251,
+      "lower_numerator": 3152,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 251,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.012810969026759267,
+      "verification_seconds": 0.001372339902445674,
+      "certificate": "certificates/random-shortest-path-n10-s2-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s2",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 251,
+      "lower_numerator": 4003,
+      "scale": 16,
+      "eliminated": 24,
+      "residual": 21,
+      "width_upper_bound": 3,
+      "optimal_cost": 251,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 585,
+        "transitions": 749
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.012767666019499302,
+      "verification_seconds": 0.0015160059556365013,
+      "certificate": "certificates/random-shortest-path-n10-s2-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s2",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 251,
+      "lower_numerator": 3980,
+      "scale": 16,
+      "eliminated": 25,
+      "residual": 20,
+      "width_upper_bound": 3,
+      "optimal_cost": 251,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 525,
+        "transitions": 665
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.012539209797978401,
+      "verification_seconds": 0.0017928620800375938,
+      "certificate": "certificates/random-shortest-path-n10-s2-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n10-s2",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 2,
+      "method": "zero",
+      "upper": 338,
+      "lower_numerator": 3456,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 338,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.012690908974036574,
+      "verification_seconds": 0.0013905679807066917,
+      "certificate": "certificates/tree-metric-n10-s2-zero.json"
+    },
+    {
+      "id": "tree-metric-n10-s2",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 338,
+      "lower_numerator": 5380,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 338,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01819821703247726,
+      "verification_seconds": 0.0014698398299515247,
+      "certificate": "certificates/tree-metric-n10-s2-single-root.json"
+    },
+    {
+      "id": "tree-metric-n10-s2",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 338,
+      "lower_numerator": 5027,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 338,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01838022586889565,
+      "verification_seconds": 0.0014432300813496113,
+      "certificate": "certificates/tree-metric-n10-s2-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s3",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 3,
+      "method": "zero",
+      "upper": 268,
+      "lower_numerator": 2768,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 268,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.012545007979497313,
+      "verification_seconds": 0.001360395923256874,
+      "certificate": "certificates/euclidean-ceil-n10-s3-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s3",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 268,
+      "lower_numerator": 4288,
+      "scale": 16,
+      "eliminated": 28,
+      "residual": 17,
+      "width_upper_bound": 4,
+      "optimal_cost": 268,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 195,
+        "transitions": 259
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.011785048991441727,
+      "verification_seconds": 0.002025228925049305,
+      "certificate": "certificates/euclidean-ceil-n10-s3-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n10-s3",
+      "family": "euclidean-ceil",
+      "n": 10,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 268,
+      "lower_numerator": 4273,
+      "scale": 16,
+      "eliminated": 27,
+      "residual": 18,
+      "width_upper_bound": 4,
+      "optimal_cost": 268,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 323,
+        "transitions": 414
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.012156822020187974,
+      "verification_seconds": 0.0017366388346999884,
+      "certificate": "certificates/euclidean-ceil-n10-s3-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 3,
+      "method": "zero",
+      "upper": 1421,
+      "lower_numerator": 14352,
+      "scale": 16,
+      "eliminated": 2,
+      "residual": 43,
+      "width_upper_bound": 8,
+      "optimal_cost": 1421,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2279,
+        "transitions": 9046
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.013633855152875185,
+      "verification_seconds": 0.0013571139425039291,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s3-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 1421,
+      "lower_numerator": 22733,
+      "scale": 16,
+      "eliminated": 30,
+      "residual": 15,
+      "width_upper_bound": 3,
+      "optimal_cost": 1421,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 180,
+        "transitions": 183
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01267980388365686,
+      "verification_seconds": 0.0018241521902382374,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s3-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n10-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 10,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 1421,
+      "lower_numerator": 22108,
+      "scale": 16,
+      "eliminated": 11,
+      "residual": 34,
+      "width_upper_bound": 5,
+      "optimal_cost": 1421,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 1918,
+        "transitions": 5563
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.017416886053979397,
+      "verification_seconds": 0.0017354509327560663,
+      "certificate": "certificates/clustered-euclidean-ceil-n10-s3-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s3",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 3,
+      "method": "zero",
+      "upper": 113,
+      "lower_numerator": 1488,
+      "scale": 16,
+      "eliminated": 3,
+      "residual": 42,
+      "width_upper_bound": 7,
+      "optimal_cost": 113,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2263,
+        "transitions": 8216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.012037809938192368,
+      "verification_seconds": 0.0014069110620766878,
+      "certificate": "certificates/random-shortest-path-n10-s3-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s3",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 113,
+      "lower_numerator": 1806,
+      "scale": 16,
+      "eliminated": 28,
+      "residual": 17,
+      "width_upper_bound": 4,
+      "optimal_cost": 113,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 170,
+        "transitions": 224
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.011607090011239052,
+      "verification_seconds": 0.0016568091232329607,
+      "certificate": "certificates/random-shortest-path-n10-s3-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n10-s3",
+      "family": "random-shortest-path",
+      "n": 10,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 113,
+      "lower_numerator": 1808,
+      "scale": 16,
+      "eliminated": 28,
+      "residual": 17,
+      "width_upper_bound": 4,
+      "optimal_cost": 113,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 170,
+        "transitions": 224
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.01188052399083972,
+      "verification_seconds": 0.0017513749189674854,
+      "certificate": "certificates/random-shortest-path-n10-s3-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n10-s3",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 3,
+      "method": "zero",
+      "upper": 254,
+      "lower_numerator": 2240,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 254,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.012583001982420683,
+      "verification_seconds": 0.0013650760520249605,
+      "certificate": "certificates/tree-metric-n10-s3-zero.json"
+    },
+    {
+      "id": "tree-metric-n10-s3",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 254,
+      "lower_numerator": 4048,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 254,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.018010198837146163,
+      "verification_seconds": 0.0016369738150388002,
+      "certificate": "certificates/tree-metric-n10-s3-single-root.json"
+    },
+    {
+      "id": "tree-metric-n10-s3",
+      "family": "tree-metric",
+      "n": 10,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 254,
+      "lower_numerator": 3754,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 254,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.018631031969562173,
+      "verification_seconds": 0.001703882124274969,
+      "certificate": "certificates/tree-metric-n10-s3-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s0",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 0,
+      "method": "zero",
+      "upper": 323,
+      "lower_numerator": 4688,
+      "scale": 16,
+      "eliminated": 28,
+      "residual": 38,
+      "width_upper_bound": 6,
+      "optimal_cost": 323,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 6155,
+        "transitions": 15283
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.056924670934677124,
+      "verification_seconds": 0.0028539830818772316,
+      "certificate": "certificates/euclidean-ceil-n12-s0-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s0",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 323,
+      "lower_numerator": 5168,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 323,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04532959498465061,
+      "verification_seconds": 0.0031433410476893187,
+      "certificate": "certificates/euclidean-ceil-n12-s0-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s0",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 323,
+      "lower_numerator": 5168,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 323,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04490166809409857,
+      "verification_seconds": 0.0036022081039845943,
+      "certificate": "certificates/euclidean-ceil-n12-s0-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 0,
+      "method": "zero",
+      "upper": 1467,
+      "lower_numerator": 15104,
+      "scale": 16,
+      "eliminated": 4,
+      "residual": 62,
+      "width_upper_bound": 10,
+      "optimal_cost": 1467,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11127,
+        "transitions": 55222
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.08275229600258172,
+      "verification_seconds": 0.00281207705847919,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s0-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 1467,
+      "lower_numerator": 23472,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 1467,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.047263819025829434,
+      "verification_seconds": 0.0032284099142998457,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s0-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s0",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 1467,
+      "lower_numerator": 21375,
+      "scale": 16,
+      "eliminated": 16,
+      "residual": 50,
+      "width_upper_bound": 7,
+      "optimal_cost": 1467,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 9628,
+        "transitions": 35788
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.07956257998012006,
+      "verification_seconds": 0.003498001955449581,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s0-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s0",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 0,
+      "method": "zero",
+      "upper": 219,
+      "lower_numerator": 2816,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 219,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.07695800415240228,
+      "verification_seconds": 0.002965800929814577,
+      "certificate": "certificates/random-shortest-path-n12-s0-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s0",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 219,
+      "lower_numerator": 3502,
+      "scale": 16,
+      "eliminated": 44,
+      "residual": 22,
+      "width_upper_bound": 4,
+      "optimal_cost": 219,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 679,
+        "transitions": 909
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.044588912976905704,
+      "verification_seconds": 0.0033477009274065495,
+      "certificate": "certificates/random-shortest-path-n12-s0-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s0",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 219,
+      "lower_numerator": 3482,
+      "scale": 16,
+      "eliminated": 41,
+      "residual": 25,
+      "width_upper_bound": 4,
+      "optimal_cost": 219,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 2289,
+        "transitions": 3394
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04834128194488585,
+      "verification_seconds": 0.0034290680196136236,
+      "certificate": "certificates/random-shortest-path-n12-s0-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n12-s0",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 0,
+      "method": "zero",
+      "upper": 306,
+      "lower_numerator": 2720,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 306,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.07685952703468502,
+      "verification_seconds": 0.0029172608628869057,
+      "certificate": "certificates/tree-metric-n12-s0-zero.json"
+    },
+    {
+      "id": "tree-metric-n12-s0",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 0,
+      "method": "single-root",
+      "upper": 306,
+      "lower_numerator": 4862,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 306,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08551674010232091,
+      "verification_seconds": 0.0032214948441833258,
+      "certificate": "certificates/tree-metric-n12-s0-single-root.json"
+    },
+    {
+      "id": "tree-metric-n12-s0",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 0,
+      "method": "four-roots",
+      "upper": 306,
+      "lower_numerator": 4484,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 306,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08574477583169937,
+      "verification_seconds": 0.00317574804648757,
+      "certificate": "certificates/tree-metric-n12-s0-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s1",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 1,
+      "method": "zero",
+      "upper": 332,
+      "lower_numerator": 4480,
+      "scale": 16,
+      "eliminated": 6,
+      "residual": 60,
+      "width_upper_bound": 9,
+      "optimal_cost": 332,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11053,
+        "transitions": 51682
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0780993748921901,
+      "verification_seconds": 0.0028546121902763844,
+      "certificate": "certificates/euclidean-ceil-n12-s1-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s1",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 332,
+      "lower_numerator": 5258,
+      "scale": 16,
+      "eliminated": 45,
+      "residual": 21,
+      "width_upper_bound": 3,
+      "optimal_cost": 332,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 728,
+        "transitions": 825
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04636906390078366,
+      "verification_seconds": 0.003670862875878811,
+      "certificate": "certificates/euclidean-ceil-n12-s1-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s1",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 332,
+      "lower_numerator": 5258,
+      "scale": 16,
+      "eliminated": 45,
+      "residual": 21,
+      "width_upper_bound": 3,
+      "optimal_cost": 332,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 700,
+        "transitions": 780
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04686313006095588,
+      "verification_seconds": 0.0038936608470976353,
+      "certificate": "certificates/euclidean-ceil-n12-s1-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 1,
+      "method": "zero",
+      "upper": 1394,
+      "lower_numerator": 15552,
+      "scale": 16,
+      "eliminated": 4,
+      "residual": 62,
+      "width_upper_bound": 10,
+      "optimal_cost": 1394,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11127,
+        "transitions": 55222
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.08267875178717077,
+      "verification_seconds": 0.002856635954231024,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s1-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 1394,
+      "lower_numerator": 22304,
+      "scale": 16,
+      "eliminated": 53,
+      "residual": 13,
+      "width_upper_bound": 2,
+      "optimal_cost": 1394,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 33,
+        "transitions": 30
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04711177106946707,
+      "verification_seconds": 0.0033153630793094635,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s1-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s1",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 1394,
+      "lower_numerator": 20454,
+      "scale": 16,
+      "eliminated": 18,
+      "residual": 48,
+      "width_upper_bound": 7,
+      "optimal_cost": 1394,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 9378,
+        "transitions": 33039
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.07778096082620323,
+      "verification_seconds": 0.0032068281434476376,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s1-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s1",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 1,
+      "method": "zero",
+      "upper": 100,
+      "lower_numerator": 1360,
+      "scale": 16,
+      "eliminated": 8,
+      "residual": 58,
+      "width_upper_bound": 8,
+      "optimal_cost": 100,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11032,
+        "transitions": 47576
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.07612024201080203,
+      "verification_seconds": 0.0028798950370401144,
+      "certificate": "certificates/random-shortest-path-n12-s1-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s1",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 100,
+      "lower_numerator": 1600,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 100,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04287113109603524,
+      "verification_seconds": 0.0029479910153895617,
+      "certificate": "certificates/random-shortest-path-n12-s1-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s1",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 100,
+      "lower_numerator": 1600,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 100,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.043282085098326206,
+      "verification_seconds": 0.0035811150446534157,
+      "certificate": "certificates/random-shortest-path-n12-s1-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n12-s1",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 1,
+      "method": "zero",
+      "upper": 292,
+      "lower_numerator": 2416,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 292,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.07572821411304176,
+      "verification_seconds": 0.0029311589896678925,
+      "certificate": "certificates/tree-metric-n12-s1-zero.json"
+    },
+    {
+      "id": "tree-metric-n12-s1",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 1,
+      "method": "single-root",
+      "upper": 292,
+      "lower_numerator": 4621,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 292,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08437390392646194,
+      "verification_seconds": 0.0031069531105458736,
+      "certificate": "certificates/tree-metric-n12-s1-single-root.json"
+    },
+    {
+      "id": "tree-metric-n12-s1",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 1,
+      "method": "four-roots",
+      "upper": 292,
+      "lower_numerator": 4319,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 292,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08417191915214062,
+      "verification_seconds": 0.003018392948433757,
+      "certificate": "certificates/tree-metric-n12-s1-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s2",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 2,
+      "method": "zero",
+      "upper": 317,
+      "lower_numerator": 4064,
+      "scale": 16,
+      "eliminated": 2,
+      "residual": 64,
+      "width_upper_bound": 10,
+      "optimal_cost": 317,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11234,
+        "transitions": 55044
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.08018620498478413,
+      "verification_seconds": 0.0028757040854543447,
+      "certificate": "certificates/euclidean-ceil-n12-s2-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s2",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 317,
+      "lower_numerator": 5072,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 317,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04522196692414582,
+      "verification_seconds": 0.00297481007874012,
+      "certificate": "certificates/euclidean-ceil-n12-s2-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s2",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 317,
+      "lower_numerator": 5072,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 317,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04515324183739722,
+      "verification_seconds": 0.0038311518728733063,
+      "certificate": "certificates/euclidean-ceil-n12-s2-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 2,
+      "method": "zero",
+      "upper": 1421,
+      "lower_numerator": 14192,
+      "scale": 16,
+      "eliminated": 1,
+      "residual": 65,
+      "width_upper_bound": 10,
+      "optimal_cost": 1421,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11253,
+        "transitions": 56220
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.08362805400975049,
+      "verification_seconds": 0.002819341141730547,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s2-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 1421,
+      "lower_numerator": 22730,
+      "scale": 16,
+      "eliminated": 48,
+      "residual": 18,
+      "width_upper_bound": 3,
+      "optimal_cost": 1421,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 362,
+        "transitions": 369
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04741977690719068,
+      "verification_seconds": 0.0033850669860839844,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s2-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s2",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 1421,
+      "lower_numerator": 20886,
+      "scale": 16,
+      "eliminated": 9,
+      "residual": 57,
+      "width_upper_bound": 8,
+      "optimal_cost": 1421,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 10854,
+        "transitions": 45540
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08575986186042428,
+      "verification_seconds": 0.0032414000015705824,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s2-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s2",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 2,
+      "method": "zero",
+      "upper": 210,
+      "lower_numerator": 2224,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 210,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.0767560200765729,
+      "verification_seconds": 0.0028675319626927376,
+      "certificate": "certificates/random-shortest-path-n12-s2-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s2",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 210,
+      "lower_numerator": 3359,
+      "scale": 16,
+      "eliminated": 48,
+      "residual": 18,
+      "width_upper_bound": 3,
+      "optimal_cost": 210,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 364,
+        "transitions": 387
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04394174995832145,
+      "verification_seconds": 0.002924594096839428,
+      "certificate": "certificates/random-shortest-path-n12-s2-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s2",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 210,
+      "lower_numerator": 3346,
+      "scale": 16,
+      "eliminated": 47,
+      "residual": 19,
+      "width_upper_bound": 3,
+      "optimal_cost": 210,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 607,
+        "transitions": 670
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04473460419103503,
+      "verification_seconds": 0.003232389921322465,
+      "certificate": "certificates/random-shortest-path-n12-s2-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n12-s2",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 2,
+      "method": "zero",
+      "upper": 370,
+      "lower_numerator": 3664,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 370,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.07720329309813678,
+      "verification_seconds": 0.002960911951959133,
+      "certificate": "certificates/tree-metric-n12-s2-zero.json"
+    },
+    {
+      "id": "tree-metric-n12-s2",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 2,
+      "method": "single-root",
+      "upper": 370,
+      "lower_numerator": 5849,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 370,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08595954207703471,
+      "verification_seconds": 0.0028432270046323538,
+      "certificate": "certificates/tree-metric-n12-s2-single-root.json"
+    },
+    {
+      "id": "tree-metric-n12-s2",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 2,
+      "method": "four-roots",
+      "upper": 370,
+      "lower_numerator": 5432,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 370,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08554830914363265,
+      "verification_seconds": 0.0028769609052687883,
+      "certificate": "certificates/tree-metric-n12-s2-four-roots.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s3",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 3,
+      "method": "zero",
+      "upper": 348,
+      "lower_numerator": 4240,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 348,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.08086270093917847,
+      "verification_seconds": 0.0028143119998276234,
+      "certificate": "certificates/euclidean-ceil-n12-s3-zero.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s3",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 348,
+      "lower_numerator": 5568,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 348,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04689127812162042,
+      "verification_seconds": 0.0028991708531975746,
+      "certificate": "certificates/euclidean-ceil-n12-s3-single-root.json"
+    },
+    {
+      "id": "euclidean-ceil-n12-s3",
+      "family": "euclidean-ceil",
+      "n": 12,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 348,
+      "lower_numerator": 5568,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 348,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.045811439864337444,
+      "verification_seconds": 0.003620786126703024,
+      "certificate": "certificates/euclidean-ceil-n12-s3-four-roots.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 3,
+      "method": "zero",
+      "upper": 1407,
+      "lower_numerator": 14576,
+      "scale": 16,
+      "eliminated": 2,
+      "residual": 64,
+      "width_upper_bound": 10,
+      "optimal_cost": 1407,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11233,
+        "transitions": 56048
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.08321081404574215,
+      "verification_seconds": 0.002866974100470543,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s3-zero.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 1407,
+      "lower_numerator": 22512,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 1407,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04662692197598517,
+      "verification_seconds": 0.0029321371112018824,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s3-single-root.json"
+    },
+    {
+      "id": "clustered-euclidean-ceil-n12-s3",
+      "family": "clustered-euclidean-ceil",
+      "n": 12,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 1407,
+      "lower_numerator": 21096,
+      "scale": 16,
+      "eliminated": 23,
+      "residual": 43,
+      "width_upper_bound": 6,
+      "optimal_cost": 1407,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 7704,
+        "transitions": 23346
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.0708498409949243,
+      "verification_seconds": 0.003133073914796114,
+      "certificate": "certificates/clustered-euclidean-ceil-n12-s3-four-roots.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s3",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 3,
+      "method": "zero",
+      "upper": 232,
+      "lower_numerator": 2768,
+      "scale": 16,
+      "eliminated": 1,
+      "residual": 65,
+      "width_upper_bound": 10,
+      "optimal_cost": 232,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11253,
+        "transitions": 56220
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.07600681716576219,
+      "verification_seconds": 0.002857545157894492,
+      "certificate": "certificates/random-shortest-path-n12-s3-zero.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s3",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 232,
+      "lower_numerator": 3712,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 232,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04318898590281606,
+      "verification_seconds": 0.0029786520171910524,
+      "certificate": "certificates/random-shortest-path-n12-s3-single-root.json"
+    },
+    {
+      "id": "random-shortest-path-n12-s3",
+      "family": "random-shortest-path",
+      "n": 12,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 232,
+      "lower_numerator": 3712,
+      "scale": 16,
+      "eliminated": 54,
+      "residual": 12,
+      "width_upper_bound": 2,
+      "optimal_cost": 232,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 22,
+        "transitions": 20
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.04351626802235842,
+      "verification_seconds": 0.003454000921919942,
+      "certificate": "certificates/random-shortest-path-n12-s3-four-roots.json"
+    },
+    {
+      "id": "tree-metric-n12-s3",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 3,
+      "method": "zero",
+      "upper": 248,
+      "lower_numerator": 2064,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.07539764884859324,
+      "verification_seconds": 0.0030275420285761356,
+      "certificate": "certificates/tree-metric-n12-s3-zero.json"
+    },
+    {
+      "id": "tree-metric-n12-s3",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 3,
+      "method": "single-root",
+      "upper": 248,
+      "lower_numerator": 3941,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08309913403354585,
+      "verification_seconds": 0.003082229057326913,
+      "certificate": "certificates/tree-metric-n12-s3-single-root.json"
+    },
+    {
+      "id": "tree-metric-n12-s3",
+      "family": "tree-metric",
+      "n": 12,
+      "seed": 3,
+      "method": "four-roots",
+      "upper": 248,
+      "lower_numerator": 3551,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 66,
+      "width_upper_bound": 11,
+      "optimal_cost": 248,
+      "full_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "residual_dp": {
+        "states": 11264,
+        "transitions": 56320
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.08285831683315337,
+      "verification_seconds": 0.003346443874761462,
+      "certificate": "certificates/tree-metric-n12-s3-four-roots.json"
+    },
+    {
+      "id": "petersen-1-2",
+      "family": "petersen-1-2",
+      "n": 10,
+      "seed": null,
+      "method": "zero",
+      "upper": 11,
+      "lower_numerator": 160,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 11,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 1,
+      "production_including_dp_seconds": 0.012239027069881558,
+      "verification_seconds": 0.0014108228497207165,
+      "certificate": "certificates/petersen-1-2-zero.json"
+    },
+    {
+      "id": "petersen-1-2",
+      "family": "petersen-1-2",
+      "n": 10,
+      "seed": null,
+      "method": "single-root",
+      "upper": 11,
+      "lower_numerator": 160,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 11,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.017448385013267398,
+      "verification_seconds": 0.001419692998751998,
+      "certificate": "certificates/petersen-1-2-single-root.json"
+    },
+    {
+      "id": "petersen-1-2",
+      "family": "petersen-1-2",
+      "n": 10,
+      "seed": null,
+      "method": "four-roots",
+      "upper": 11,
+      "lower_numerator": 160,
+      "scale": 16,
+      "eliminated": 0,
+      "residual": 45,
+      "width_upper_bound": 9,
+      "optimal_cost": 11,
+      "full_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "residual_dp": {
+        "states": 2304,
+        "transitions": 9216
+      },
+      "snapshot_calls": 48,
+      "production_including_dp_seconds": 0.0172775499522686,
+      "verification_seconds": 0.0014102640561759472,
+      "certificate": "certificates/petersen-1-2-four-roots.json"
+    }
+  ],
+  "aggregates": [
+    {
+      "family": "clustered-euclidean-ceil",
+      "method": "four-roots",
+      "instances": 12,
+      "eliminated_total": 148,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 5.583333333333333,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 158517,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "clustered-euclidean-ceil",
+      "method": "single-root",
+      "instances": 12,
+      "eliminated_total": 403,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 2.4166666666666665,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 1207,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 7
+    },
+    {
+      "family": "clustered-euclidean-ceil",
+      "method": "zero",
+      "instances": 12,
+      "eliminated_total": 22,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 8.083333333333334,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 264092,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "euclidean-ceil",
+      "method": "four-roots",
+      "instances": 12,
+      "eliminated_total": 416,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 2.3333333333333335,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 1390,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 10
+    },
+    {
+      "family": "euclidean-ceil",
+      "method": "single-root",
+      "instances": 12,
+      "eliminated_total": 416,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 2.3333333333333335,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 1290,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 11
+    },
+    {
+      "family": "euclidean-ceil",
+      "method": "zero",
+      "instances": 12,
+      "eliminated_total": 92,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 6.833333333333333,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 208231,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "petersen-1-2",
+      "method": "four-roots",
+      "instances": 1,
+      "eliminated_total": 0,
+      "complete_edges_total": 45,
+      "mean_width_upper_bound": 9.0,
+      "full_dp_transitions": 9216,
+      "residual_dp_transitions": 9216,
+      "incumbents_optimal": 1,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "petersen-1-2",
+      "method": "single-root",
+      "instances": 1,
+      "eliminated_total": 0,
+      "complete_edges_total": 45,
+      "mean_width_upper_bound": 9.0,
+      "full_dp_transitions": 9216,
+      "residual_dp_transitions": 9216,
+      "incumbents_optimal": 1,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "petersen-1-2",
+      "method": "zero",
+      "instances": 1,
+      "eliminated_total": 0,
+      "complete_edges_total": 45,
+      "mean_width_upper_bound": 9.0,
+      "full_dp_transitions": 9216,
+      "residual_dp_transitions": 9216,
+      "incumbents_optimal": 1,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "random-shortest-path",
+      "method": "four-roots",
+      "instances": 12,
+      "eliminated_total": 356,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 3.5833333333333335,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 6971,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 5
+    },
+    {
+      "family": "random-shortest-path",
+      "method": "single-root",
+      "instances": 12,
+      "eliminated_total": 359,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 3.5833333333333335,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 4287,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 2
+    },
+    {
+      "family": "random-shortest-path",
+      "method": "zero",
+      "instances": 12,
+      "eliminated_total": 22,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 8.166666666666666,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 256788,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "tree-metric",
+      "method": "four-roots",
+      "instances": 12,
+      "eliminated_total": 0,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 9.0,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 267520,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "tree-metric",
+      "method": "single-root",
+      "instances": 12,
+      "eliminated_total": 0,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 9.0,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 267520,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 0
+    },
+    {
+      "family": "tree-metric",
+      "method": "zero",
+      "instances": 12,
+      "eliminated_total": 0,
+      "complete_edges_total": 556,
+      "mean_width_upper_bound": 9.0,
+      "full_dp_transitions": 267520,
+      "residual_dp_transitions": 267520,
+      "incumbents_optimal": 12,
+      "bound_closes_incumbent": 0
+    }
+  ]
+}

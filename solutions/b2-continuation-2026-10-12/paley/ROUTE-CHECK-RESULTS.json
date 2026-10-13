@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "integer_sidon_sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "prime_sidon_examples": [
+    {
+      "k": 1,
+      "modulus": 8,
+      "prime": 17
+    },
+    {
+      "k": 2,
+      "modulus": 24,
+      "prime": 73
+    },
+    {
+      "k": 3,
+      "modulus": 120,
+      "prime": 241
+    },
+    {
+      "k": 4,
+      "modulus": 840,
+      "prime": 2521
+    },
+    {
+      "k": 5,
+      "modulus": 14280,
+      "prime": 14281
+    }
+  ],
+  "signed_pseudo_square_controls": 2187,
+  "signed_pair_conditional_first_moment": "-1/6",
+  "noncommuting_union_moment_witness": {
+    "p": 37,
+    "edge_count": 333,
+    "A_key": [
+      0,
+      1,
+      4,
+      11
+    ],
+    "B_key": [
+      0,
+      1,
+      4
+    ],
+    "row": [
+      0,
+      1
+    ],
+    "column": [
+      0,
+      4
+    ],
+    "AB_entry": 1,
+    "BA_entry": 0
+  },
+  "triangle_orbit_size": 666,
+  "affine_key_controls": 1332,
+  "exact_quadratic_character_matrix_entries": 8095,
+  "scope": "Bounded exact controls; infinite claims use the written proofs and stated external inputs, not extrapolation."
+}

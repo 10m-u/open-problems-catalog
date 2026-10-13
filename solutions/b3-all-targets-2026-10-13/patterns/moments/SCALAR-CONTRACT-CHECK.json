@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "formal_sequence_not_actual_avoidance": true,
+  "known_1342_prefix_used_as_calibration_only": [
+    1,
+    1,
+    2,
+    6,
+    23,
+    103,
+    512
+  ],
+  "adjacent_logconvexity_defects_before_geometric_tail": [
+    1,
+    2,
+    10,
+    89,
+    1167,
+    159744
+  ],
+  "finite_pairs_sufficient_for_all_n_supermultiplicativity_proof": 36,
+  "negative_polynomial_coefficients": [
+    0,
+    1,
+    0,
+    -8,
+    1
+  ],
+  "negative_quadratic_form": -160,
+  "H0_size5_determinant": -5959888,
+  "scope": "Exact obstruction to the stated scalar sufficient criterion; Q1454 not refuted.",
+  "checker_sha256": "da2e7c7dec5456b9b676cad59f7aa26f59461c181061f5682701a8e9ed32a197"
+}

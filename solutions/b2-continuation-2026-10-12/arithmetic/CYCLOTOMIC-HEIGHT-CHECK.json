@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "n": 15,
+      "degree": 8,
+      "height": 1,
+      "inverse_height": 1
+    },
+    {
+      "n": 105,
+      "degree": 48,
+      "height": 2,
+      "inverse_height": 1
+    },
+    {
+      "n": 465,
+      "degree": 240,
+      "height": 1,
+      "inverse_height": 1
+    },
+    {
+      "n": 15015,
+      "degree": 5760,
+      "height": 23,
+      "inverse_height": 11
+    }
+  ],
+  "scope": "Exact height controls; not all five-prime polynomials"
+}

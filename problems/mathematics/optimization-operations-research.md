@@ -1,6 +1,6 @@
 # Optimization & Operations Research
 
-116 problems: 107 open, 4 open, partial results, 3 solved here: proved, 2 solved here: disproved.
+116 problems: 105 open, 5 open, partial results, 4 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -118,8 +118,8 @@
 | [Q3392](optimization-operations-research.md#q3392) | Inner-ball obstruction for all convex domains | Open |
 | [Q3815](optimization-operations-research.md#q3815) | With k∈{0,…,n} supplied as input, is minimizing W(S)+p(S)w(N∖S) over \|S\|=k weakly NP-hard? | Open |
 | [Q3816](optimization-operations-research.md#q3816) | With k∈{0,…,n} and e≥0 supplied as integer inputs, is minimizing W(S)+e w(N∖S) over \|N∖S\|=k… | Open |
-| [Q3817](optimization-operations-research.md#q3817) | For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G with n≥3 vertices,… | Open |
-| [Q3818](optimization-operations-research.md#q3818) | Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles modulo… | Open |
+| [Q3817](optimization-operations-research.md#q3817) | For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G with n≥3 vertices,… | Open, partial results |
+| [Q3818](optimization-operations-research.md#q3818) | Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles modulo… | Solved here: proved |
 | [Q3819](optimization-operations-research.md#q3819) | Let X⊂R contain n points, partitioned into k nonempty clusters C_i. Put… | Open |
 | [Q3878](optimization-operations-research.md#q3878) | Given S,T⊆[n], is deciding conv(P∩M_S)=conv(P∩M_{S∪T}) Π₂^p-complete under polynomial-time… | Open |
 
@@ -363,6 +363,10 @@ Is general-disjunction branch-and-bound automatable on integer-free rational pol
 
 **Literature check.** Status for questions 549, 550, checked 5 October 2026: No resolution located beyond the 2024 thesis. Variable-only hardness, shortest-tree optimization hardness and stronger cutting-plane systems do not resolve these targets.
 
+**Results.**
+
+- **Investigated, unresolved** (B14-STOP-REGISTER: Per-problem failed-route register): The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing. [Report](../../solutions/b14-second-round-2026-10-12/CONTROL.md).
+
 **Further links.** [1](https://link.springer.com/article/10.1007/s10107-023-01968-y)
 
 
@@ -379,6 +383,10 @@ For the matching relaxation Σ\_{e∋v}x_e≤1, 0≤x≤1, Σ\_e x_e≥(|V|−δ
 **Source.** Maximilian Gläser. *On the Proof Complexity of Linear Programming Based Branch-and-Bound*. 2024. Advisor(s): Marc E. Pfetsch (primary advisor). [primary source](https://tuprints.ulb.tu-darmstadt.de/server/api/core/bitstreams/3c676d11-8374-4609-b9d5-8f98004ba917/content) · [record](https://tuprints.ulb.tu-darmstadt.de/entities/publicationzv/c8b65f71-7956-4b82-b622-5f28a1026982) Location: Question 5.26; Theorem 5.27.
 
 **Literature check.** Status for questions 549, 550, checked 5 October 2026: No resolution located beyond the 2024 thesis. Variable-only hardness, shortest-tree optimization hardness and stronger cutting-plane systems do not resolve these targets.
+
+**Results.**
+
+- **Investigated, unresolved** (B14-STOP-REGISTER: Per-problem failed-route register): The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing. [Report](../../solutions/b14-second-round-2026-10-12/CONTROL.md).
 
 **Further links.** [1](https://link.springer.com/article/10.1007/s10107-023-01968-y)
 
@@ -1991,7 +1999,7 @@ With k∈{0,…,n} and e≥0 supplied as integer inputs, is minimizing W(S)+e w(
 
 ## Q3817. For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G with n≥3 vertices,…
 
-**Status:** Open · **Kind:** open problem · **Collection** 39
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 39
 
 For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G with n≥3 vertices, |E(G)|≤cn, and every start v?
 
@@ -2001,6 +2009,12 @@ For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G wi
 
 **Literature check.** Status, 10 October 2026: full publisher final independently inspected; no general resolution found. Its fast-growing-cut hypothesis proves a restricted case only. Its all-sparse-graph result for 2-opt concerns a different algorithm.
 
+**Results.**
+
+- **Partial result**: Internally reviewed restricted results: nearest neighbor on every positive weighted path has ratio at most 3/2, for every start and tie rule, and every star tour is optimal. On weighted tree metrics every 2-opt local optimum is optimal and every strictly improving descent has at most (n-1)(floor(n/2)-1) moves. These deterministic tree results apply to the corresponding exponential models. Five failed general NN-ratio routes do not disprove the catalog question; arbitrary sparse generating graphs remain unresolved. No originality or external peer-review claim. [Details](../../solutions/b14-second-round-2026-10-12/initialization/RESULT.md). Related: [Original sparse-random-metric question](https://doi.org/10.1007/s00453-023-01167-3).
+- **Partial result** (B14-TREE-DESCENT: Path/star guarantees and polynomial tree-metric descent): NN on positive weighted paths is at most 3/2 OPT; stars are optimal. Every tree-metric 2-opt local optimum is optimal and any strict descent takes at most (n-1)(floor(n/2)-1) moves. Remaining/limits: Q3817 remains unresolved and stops after five reviewed NN-ratio routes. The full sparse expected-descent result is filed separately. [Report](../../solutions/b14-second-round-2026-10-12/initialization/RESULT.md).
+- **Investigated, unresolved** (B14-STOP-REGISTER: Per-problem failed-route register): The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing. [Report](../../solutions/b14-second-round-2026-10-12/CONTROL.md).
+
 **Further links.** [1](https://doi.org/10.3990/1.9789036552493)
 
 
@@ -2008,7 +2022,7 @@ For every fixed c≥1, does some C_c satisfy E[NN_v/OPT]≤C_c for all such G wi
 
 ## Q3818. Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles modulo…
 
-**Status:** Open · **Kind:** conjecture (Conjecture 17) · **Collection** 39
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 17) · **Collection** 39
 
 Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles modulo rotation/reversal for which no cycle-preserving two-edge replacement decreases length. Is E[M_n]=O(√(n!))?
 
@@ -2017,6 +2031,13 @@ Give K_n independent uniform[0,1] edge weights. Let M_n count Hamiltonian cycles
 **Source.** Jesse van Rhijn and Bodo Manthey. *Counting Locally Optimal Tours in the TSP (MFCS 2025); Worst-Case and Smoothed Analysis of the Hartigan–Wong Method for k-Means Clustering (STACS 2024)*. 2025. [primary source](https://doi.org/10.4230/LIPIcs.MFCS.2025.73) Location: Counting Locally Optimal Tours in the TSP, MFCS 2025, Conjecture 17, p.73:15; cycle-count convention §4.
 
 **Literature check.** Status, 10 October 2026: no later resolution found. Higher-dimensional PLS-hardness does not settle Q3819's one-dimensional path question.
+
+**Results.**
+
+- **Proved**: Locally proved for the exact independent-uniform complete-graph model: E[M_n] = O((6/7)^n sqrt(n!)), identifying rotations and reversals. The proof retains every exchange via conditional chord cycles and a Frobenius/read-two inequality, then bounds the full quadratic integral. It applies to all integer n >= 3, with an explicit estimate for n >= 12 and finite exceptions absorbed into the constant. A separate main-thread mathematical review and independent exact finite checks passed. This is an internally reviewed local result, not external peer review or an originality claim. It gives no approximation ratio, basin-size bound, descent-time bound, or exact TSP algorithm. [Details](../../solutions/b14-first-round-2026-10-12/local-optima/RESULT.md). Related: [Original Conjecture 17, MFCS 2025](https://doi.org/10.4230/LIPIcs.MFCS.2025.73).
+- **Proved** (B14-Q3818: Exponential improvement in the local-optimum count): For independent uniform[0,1] costs on K_n, E[M_n] = O((6/7)^n sqrt(n!)), where undirected tours are identified up to rotation and reversal. Remaining/limits: Originality and external peer review are not established. No tour-quality, basin-size, descent-time, or efficient exact-solving conclusion follows. [Report](../../solutions/b14-first-round-2026-10-12/local-optima/RESULT.md).
+- **Related result** (B14-R3-COUNT-RATE: Sharp exponential expected local-optimum count): For fixed iid Uniform[0,1] complete-graph edge costs, tours modulo rotation/reversal, lim (E[M_n]/sqrt(n!))^(1/n) = rho = exp(-1/2) min_{a>=0} exp(a^2/2) integral_0^infinity exp(-y^2/2-a\*y)dy, approximately 0.597586978551345. An exact rational certificate gives rho<3/5 and E[M_n]=O((3/5)^n sqrt(n!)). Remaining/limits: Q3818 was already proved locally; no new catalog closure. This is a matching exponential rate, not asymptotic equivalence, a bounded correction at rho, count concentration or a runtime result. Wider literature priority is not established. [Report](../../solutions/b14-third-round-2026-10-12/submission/REPORT.md).
+- **Related result** (B14-R3-REGULAR-ENDPOINT: Expected-count rate at a regular lower endpoint): The same exponential rate holds for a fixed iid absolutely continuous edge-cost law supported above a finite lower endpoint, with finite positive limiting density there; no upper-tail moment assumption is required. Remaining/limits: Dependent shortest-path and Euclidean distances, endpoint atoms, zero/infinite endpoint density and size-dependent laws are outside the theorem. No novelty claim. [Report](../../solutions/b14-third-round-2026-10-12/submission/REPORT.md).
 
 **Further links.** [1](https://doi.org/10.4230/LIPIcs.STACS.2024.52) · [2](https://doi.org/10.3990/1.9789036563277)
 
@@ -2034,6 +2055,10 @@ Let X⊂R contain n points, partitioned into k nonempty clusters C_i. Put Φ=Σ\
 **Source.** Jesse van Rhijn and Bodo Manthey. *Counting Locally Optimal Tours in the TSP (MFCS 2025); Worst-Case and Smoothed Analysis of the Hartigan–Wong Method for k-Means Clustering (STACS 2024)*. 2025. [primary source](https://doi.org/10.4230/LIPIcs.MFCS.2025.73) Location: Worst-Case and Smoothed Analysis of the Hartigan–Wong Method for k-Means Clustering, STACS 2024, §5, p.52:14.
 
 **Literature check.** Status, 10 October 2026: no later resolution found. Higher-dimensional PLS-hardness does not settle Q3819's one-dimensional path question.
+
+**Results.**
+
+- **Investigated, unresolved** (B14-STOP-REGISTER: Per-problem failed-route register): The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing. [Report](../../solutions/b14-second-round-2026-10-12/CONTROL.md).
 
 **Further links.** [1](https://doi.org/10.4230/LIPIcs.STACS.2024.52) · [2](https://doi.org/10.3990/1.9789036563277)
 

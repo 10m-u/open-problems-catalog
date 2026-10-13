@@ -1,0 +1,23 @@
+{
+  "schema": "b3-independent-interval-path-audit-v1",
+  "passed": true,
+  "counts": {
+    "interval_rounding_pairs": 4096,
+    "single_interval_band_controls": 1,
+    "actual_root_controls": 4,
+    "tail_formula_controls": 248,
+    "symbolic_tail_ratios": 4,
+    "endpoint_formula_controls": 32,
+    "dyck_component_controls": 4
+  },
+  "midpoint_output_count": 1,
+  "single_band_intersection_rank_counts": [
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "scope": "Independent bounded arithmetic/transcription controls; all-size proofs reviewed in INTERVAL-PATH-REVIEW.md.",
+  "checker_sha256": "7d6a49eeb1598ad60b13368952047b6945d64cb4d3ca628ab68d893a7e85c82c"
+}

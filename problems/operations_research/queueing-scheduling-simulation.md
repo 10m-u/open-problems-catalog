@@ -1,6 +1,6 @@
 # Queueing, Scheduling & Simulation
 
-5 problems: 5 open.
+6 problems: 6 open.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -11,6 +11,7 @@
 | [Q657](queueing-scheduling-simulation.md#q657) | Variance-independent sublinear-machine approximation for general jobs | Open |
 | [Q3094](queueing-scheduling-simulation.md#q3094) | Uniqueness of the overloaded zero-initial-state reneging fluid model | Open |
 | [Q3095](queueing-scheduling-simulation.md#q3095) | Asymptotic optimality of GRAND(0) packing | Open |
+| [Q4762](queueing-scheduling-simulation.md#q4762) | Does d≤5m/6 always guarantee such an assignment and valid schedule? | Open |
 
 <a id="q345"></a>
 
@@ -90,4 +91,21 @@ Does dist(x^r,X\*) converge in probability to zero as r→∞?
 **Source.** Alexander L. Stolyar; Yuan Zhong. *Asymptotic optimality of a greedy randomized algorithm in a large-scale service system with general packing constraints*. 2015. [primary source](https://arxiv.org/abs/1306.4991) Location: Conjecture 10, p. 22; retained in Stolyar (2025), §7,p. 22.
 
 **Literature check.** Status for question 3095, checked 8 October 2026: Explicitly retained in Stolyar’s 2025 ranked-server paper.
+
+
+<a id="q4762"></a>
+
+## Q4762. Does d≤5m/6 always guarantee such an assignment and valid schedule?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 8.1.1) · **Collection** 48
+
+Does d≤5m/6 always guarantee such an assignment and valid schedule?
+
+**Context.** Benjamin Mark Smith: Liverpool PhD2025; primary supervisor Sebastian Wild, secondary supervisor Leszek Gąsieniec. Setup: For integers m,k≥1 and positive integer deadlines f₁,…,f_k, permanently assign each of k tasks to one of m workers. On each day 0,1,2,…, every worker executes at most one assigned task. A valid infinite schedule executes task i at least once in every block of f_i consecutive days. Put d=Σᵢ1/f_i. Audited provenance and status: Subject: Discrete scheduling Periodic Scheduling: Pinwheels, Pareto Surfaces, and Polycules (and Powersort), August2025; thesis Conjecture8.1.1 p141, definitions pp18–20. Checked12October2026: no matching resolution located; finite-visits and single-worker results have different scope. Agarwal2609.10641v2,11September2026, Theorem1: polyamorous heat approximation4G\*; no fixed-partition bin-density result. https://arxiv.org/abs/2609.10641 Kawamura2606.27104v2,10August2026, Theorems1–2: single-worker density and two-period results. PNAS accepted version read; publisher final unread. https://arxiv.org/abs/2606.27104 https://doi.org/10.1073/pnas.2530214123 https://www.kurims.kyoto-u.ac.jp/~kawamura/pinwheel/ Publisher abstract read: online7August2026, issue11August2026; one-task-per-day scope. August10 accepted-version cover binds identical theorem numbering; full final body unread. https://www.pnas.org/doi/10.1073/pnas.2530214123 Kawamura proves the m=1 case; the all-m fixed-partition question remains the selected target.
+
+**Source.** Benjamin Mark Smith. *Periodic Scheduling: Pinwheels, Pareto Surfaces, and Polycules (and Powersort)*. University of Liverpool, 2025. Advisor(s): Sebastian Wild; Leszek Gąsieniec. [primary source](https://livrepository.liverpool.ac.uk/3194461/) Location: Thesis Conjecture 8.1.1, p.141; definitions pp.18–20.
+
+**Literature check.** Status: Checked12October2026: no matching resolution located; finite-visits and single-worker results have different scope.
+
+**Further links.** [1](https://livrepository.liverpool.ac.uk/3194461/1/201381305_Aug2025.pdf) · [2](https://www.wild-inter.net/cv.html) · [3](https://arxiv.org/abs/2411.06292) · [4](https://livrepository.liverpool.ac.uk/3186293/1/SOSA%20-%20paper%20126.pdf) · [5](https://epubs.siam.org/doi/10.1137/1.9781611978315.23) · [6](https://arxiv.org/abs/2609.10641) · [7](https://arxiv.org/abs/2606.27104) · [8](https://doi.org/10.1073/pnas.2530214123) · [9](https://www.kurims.kyoto-u.ac.jp/~kawamura/pinwheel/) · [10](https://www.pnas.org/doi/10.1073/pnas.2530214123)
 

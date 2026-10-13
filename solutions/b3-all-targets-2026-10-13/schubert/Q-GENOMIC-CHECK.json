@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "alphabet": "1prime,1,2prime,2 encoded 1,2,3,4",
+  "positions": [
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "semistandard_q_fillings": 24,
+  "content_21_gene_partitions": 20,
+  "q_ballot_count": 6,
+  "p_ballot_count": 1,
+  "q_ballot_objects": [
+    {
+      "letters": [
+        2,
+        1,
+        3,
+        2
+      ],
+      "genes": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "letters": [
+        2,
+        1,
+        3,
+        4
+      ],
+      "genes": [
+        [
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "letters": [
+        2,
+        1,
+        4,
+        2
+      ],
+      "genes": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "letters": [
+        2,
+        1,
+        4,
+        4
+      ],
+      "genes": [
+        [
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "letters": [
+        2,
+        2,
+        3,
+        4
+      ],
+      "genes": [
+        [
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "letters": [
+        2,
+        2,
+        4,
+        4
+      ],
+      "genes": [
+        [
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      ]
+    }
+  ],
+  "checker_sha256": "21ed7b6876f852b32e35ac922f9ec7f7475fb8034d5c8deabb0bfd4c2a83b516",
+  "scope": "Literal Example 8.5 enumeration. Actual LG coefficient -5 is primary-source evidence, not computed by this enumerator."
+}

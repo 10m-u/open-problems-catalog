@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational",
+  "near_unit_tree_weightings": 2140,
+  "near_unit_start_cases": 10548,
+  "all_tied_nn_orders": 17922,
+  "retained_original_distance_pairs": 42933,
+  "subdivided_families": [
+    {
+      "k": 1,
+      "old_cities": 3,
+      "all_cities": 3,
+      "nn_ratio": "1"
+    },
+    {
+      "k": 2,
+      "old_cities": 7,
+      "all_cities": 8,
+      "nn_ratio": "1"
+    },
+    {
+      "k": 3,
+      "old_cities": 15,
+      "all_cities": 19,
+      "nn_ratio": "1"
+    },
+    {
+      "k": 4,
+      "old_cities": 31,
+      "all_cities": 42,
+      "nn_ratio": "1"
+    },
+    {
+      "k": 5,
+      "old_cities": 63,
+      "all_cities": 89,
+      "nn_ratio": "1"
+    },
+    {
+      "k": 6,
+      "old_cities": 127,
+      "all_cities": 184,
+      "nn_ratio": "1"
+    },
+    {
+      "k": 7,
+      "old_cities": 255,
+      "all_cities": 375,
+      "nn_ratio": "1"
+    }
+  ],
+  "gamma_controls": [
+    {
+      "M": 48,
+      "order_disagreement_lower": "1/16"
+    },
+    {
+      "M": 64,
+      "order_disagreement_lower": "5/64"
+    },
+    {
+      "M": 96,
+      "order_disagreement_lower": "3/32"
+    },
+    {
+      "M": 128,
+      "order_disagreement_lower": "13/128"
+    },
+    {
+      "M": 256,
+      "order_disagreement_lower": "29/256"
+    }
+  ],
+  "scope": "finite controls support the independent all-size proof; not an exponential-tree expected-ratio resolution"
+}

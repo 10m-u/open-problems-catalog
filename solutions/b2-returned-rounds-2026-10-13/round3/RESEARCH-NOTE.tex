@@ -1,0 +1,694 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\hypersetup{pdftitle={Occupied-fibre rigidity and entropy tail nonattainment},pdfauthor={B2 research continuation},pdfsubject={Continuation III for Q4296 and Q4660}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small B2 research continuation III}
+\fancyhead[R]{\small 13 October 2026}
+\fancyfoot[C]{\thepage}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\newcommand{\F}{\mathbb F_3}
+\newcommand{\N}{\mathbb N_0}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\E}{\mathbb E}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\Dplus}{\Delta_+}
+\newcommand{\Dminus}{\Delta_-}
+\title{\vspace{-12mm}\textbf{Occupied-fibre rigidity and\ entropy tail nonattainment}\\[4pt]\large New structural results for the B2 midpoint and entropy programs}
+\author{Research continuation from the supplied handoff}
+\date{13 October 2026}
+\begin{document}
+\maketitle\vspace{-6mm}
+\begin{abstract}
+An admissible two-colour remainder in $\F^n$ containing no affine plane has
+at most $\frac52\,2^n-4$ points for $n\geq3$. The three-dimensional bound of
+$16$ is sharp. The proof establishes a normal form relative to a
+maximum-dimensional remainder flat: all but at most one nonfull fibre
+have monochromatic affine coloured complements, and the set of occupied
+fibres inherits an admissible two-colouring. For the sum--difference entropy
+ratio, a full-support law on $\N$ with
+$-\log p_n=c n^\beta+o(n^\beta)$ can be stationary at ratio $\rho>1$ only if
+$\beta=\log_2(4\rho/(1+\rho))$. Every prescribed positive tail exponent and
+coefficient nevertheless give a class with the same supremum as the
+unrestricted problem. In particular the one-sided Gaussian-tail class has
+the full sharp supremum but no maximizer. No new numerical entropy lower
+bound or general many-colour codimension improvement is claimed.
+\end{abstract}
+
+\section{Scope and baselines}
+
+A partition $\F^n=A\sqcup B\sqcup R$ is \emph{admissible} if
+\[
+ x,y\in A\ \text{or}\ x,y\in B \quad\Longrightarrow\quad (x+y)/2\notin R.
+\]
+An affine plane has dimension two and nine points. A cap contains no affine
+line. Empty colour classes are allowed. Density assumptions will be stated
+separately rather than built into this definition.
+
+The targets are Q4296 (midpoint colourings) and Q4660 (entropy ratio);
+their stable identifiers are retained in the result ledger. The primary
+midpoint paper gives an
+$O(k^2)$ codimension guarantee at density $1/10$ \cite{midpoint}.
+Continuation I \cite{first} establishes $O(k\log(2k))$ using polynomial
+Freiman--Ruzsa covering. That general bound is unchanged here.
+Continuation II \cite{previous} establishes the two-colour cap classification
+and the entropy lower bound
+\begin{equation}\label{eq:knownrange}
+ 1.4051810329<C_*\leq2.
+\end{equation}
+The upper bound is the established entropic Ruzsa triangle inequality;
+its sharpness is the question in Section 8 of \cite{li}. The catalog's
+reference to Conjecture 1.10 concerns a different, sum--product statement.
+That provenance correction is retained separately without modifying the
+original records.
+
+The present results have complete written proofs. Exact finite tests are
+controls on their elementary components, not formal proofs of the
+all-dimension or infinite-support theorems. Worldwide priority, external
+peer review, and proof-assistant verification have not been established.
+Neither complete catalog problem is declared solved.
+
+\section{Normal form along a maximum-dimensional remainder flat}
+
+We use the following result of Continuation II. A short proof is reproduced
+in Appendix~\ref{app:cap} to make the present midpoint arguments self-contained.
+
+\begin{lemma}[Prior cap classification]\label{lem:cap}
+A cap that is an admissible two-colour remainder in $\F^n$ is empty, a
+singleton, two points, or a four-point affine parallelogram. In particular,
+its size is at most four. Here an affine parallelogram is
+$a+\{0,u,v,u+v\}$ with $u,v$ linearly independent.
+\end{lemma}
+
+Suppose $R\ne\varnothing$, and let $d$ be the largest dimension of an affine
+subspace contained in $R$. Fix the direction $V\leq\F^n$ of one such
+$d$-dimensional subspace. Let $\pi:\F^n\to Q=\F^n/V$, and write
+\[
+ F_q=\pi^{-1}(q),\qquad R_q=R\cap F_q,\qquad C_q=F_q\setminus R.
+\]
+The full and occupied quotient sets are respectively
+\[
+ S=\{q:F_q\subseteq R\},\qquad D=\{q:R_q\ne\varnothing\}.
+\]
+Thus $S\subseteq D$, and $S$ is nonempty.
+
+\begin{theorem}[Maximal-flat fibre rigidity]\label{thm:normal}
+In the notation above, $S$ has size $1$, $2$, or $4$, and in the last case
+is an affine parallelogram. All but at most one fibre outside $S$ have a
+nonempty monochromatic coloured part $C_q$, and that part is an affine
+subspace of $F_q$. Consequently, in every such regular fibre,
+\begin{equation}\label{eq:fibresize}
+ |R_q|=3^d-3^j \quad\text{for some }0\leq j\leq d.
+\end{equation}
+If $|S|=1$ there is no exceptional fibre. If $|S|=2$ or $4$, the only
+possible exception is the fibre over the unique centre of symmetry of $S$.
+\end{theorem}
+\begin{proof}
+First, $S$ inherits an admissible colouring: for every $q\notin S$, choose a
+representative $x_q\in F_q\setminus R$ and assign its colour to $q$. A
+same-colour pair whose quotient midpoint lies in $S$ would have its actual
+midpoint in a fibre entirely contained in $R$, a contradiction. A line in
+$S$ would lift to a $(d+1)$-dimensional affine subspace in $R$. Thus $S$ is
+a cap and Lemma~\ref{lem:cap} applies.
+
+On $Q\setminus S$, join distinct $q,t$ when $(q+t)/2\in S$. In that case
+every point of $C_q$ must have colour different from every point of $C_t$.
+Both sets are nonempty. With only two available colours, both are therefore
+monochromatic.
+
+A vertex $q\notin S$ is isolated precisely when $2s-q\in S$ for all $s\in S$.
+In characteristic three, $2s-q=2q-s$, so this says
+\[
+ \sigma_q(S)=S,\qquad \sigma_q(s)=2q-s.
+\]
+Two distinct symmetry centres would give a nonzero translation period of
+$S$, by composing the reflections. Its three-point orbits would be affine
+lines in $S$, contrary to the cap property. There is at most one isolated
+vertex. A singleton's centre is its own point, not an exterior vertex;
+a two-point set or parallelogram has exactly one centre, lying outside it.
+
+Every non-isolated $C_q$ is monochromatic. The midpoint of two of its points
+is in the same fibre and cannot be in $R$, so $C_q$ is midpoint-closed. A
+nonempty midpoint-closed subset of a vector space over $\F$ is affine:
+translate a member to zero, use midpoint$(0,x)=-x$ to obtain negatives, and
+then midpoint$(x,y)=-x-y$ to obtain addition. This proves
+\eqref{eq:fibresize} and the theorem.
+\end{proof}
+
+\begin{theorem}[Occupied-fibre inheritance]\label{thm:occupied}
+The occupied set $D$ is itself the remainder of an admissible two-colour
+partition of $Q$.
+\end{theorem}
+\begin{proof}
+For $q\notin D$ the entire fibre $F_q$ is coloured. If it is regular,
+Theorem~\ref{thm:normal} says that it is monochromatic; use that colour for
+$q$. In the possible exceptional fibre use any colour that occurs there.
+
+Suppose distinct $q,t\notin D$ receive the same colour $i$. At most one is
+exceptional, so one of their entire fibres has colour $i$ and the other has
+at least one point of colour $i$. Midpoints of that point with the entire
+first fibre fill $F_{(q+t)/2}$. Hence the whole midpoint fibre avoids $R$,
+and $(q+t)/2\notin D$. When $q=t$ the conclusion is automatic. This is the
+required admissibility.
+\end{proof}
+
+\begin{remark}
+The occupied-fibre conclusion is stronger than inheritance for full fibres.
+It uses both the two-colour hypothesis and a maximum-dimensional remainder
+direction. No assertion of occupied-fibre inheritance for arbitrary
+quotients or arbitrary numbers of colours is made.
+\end{remark}
+
+\section{The sharp plane-free bound in three dimensions}
+
+We record two elementary ingredients, distinguishing the classical one from
+the present deductions.
+
+\begin{lemma}[Classical affine blocking bound]\label{lem:block}
+A set $C\subseteq\F^m$ meeting every affine hyperplane has at least $2m+1$
+points. In particular, six points in $\F^3$ miss some affine plane.
+\end{lemma}
+\begin{proof}
+This is the $q=3$ case of the Jamison--Brouwer--Schrijver blocking theorem
+\cite{jamison,brouwer}; the polynomial proof is included for completeness.
+Translate a point of $C$ to zero and define, over $\F$,
+\[
+ P(u)=\prod_{c\in C\setminus\{0\}}(1-u\cdot c).
+\]
+For $u\ne0$, the hyperplane $u\cdot x=1$ contains a point of
+$C\setminus\{0\}$, so $P(u)=0$, whereas $P(0)=1$. Reduce $P$ modulo
+$u_i^3-u_i$ in each variable. Reduced polynomials of degree at most two
+in each variable represent functions on $\F^m$ uniquely, as follows by
+successive one-variable interpolation. The reduced polynomial must be
+$\prod_i(1-u_i^2)$, the indicator of zero. It has total degree $2m$;
+reduction cannot increase total degree. Hence $|C|-1\geq2m$.
+\end{proof}
+
+\begin{lemma}[Small spanning sumsets in $\F^3$]\label{lem:sumset}
+Four affinely independent points have sumset size ten. Five points spanning
+$\F^3$ have sumset size at least eleven. A four-point planar cap has sumset
+size nine, and an affine line together with an off-line point has sumset
+size seven.
+\end{lemma}
+\begin{proof}
+An affine change of coordinates puts an affine basis at
+$E=\{0,e_1,e_2,e_3\}$. Its ten sums are
+\[
+ T=\{0,e_i,2e_i:1\leq i\leq3\}\ \cup\ \{e_i+e_j:i<j\}.
+\]
+For an additional point $v\notin E$, either $2v\notin T$, already adding a
+new sum, or $v=-e_i$ or $v=-e_i-e_j$. In the first case $v+e_j\notin T$
+for $j\ne i$, and in the second $v+e_k\notin T$ for the remaining index $k$.
+This proves the five-point assertion. A four-point planar cap is a
+parallelogram (Appendix~\ref{app:cap}); its sumset fills its plane. Finally,
+for a line $L$ and $v\notin L$, the three parts $L+L$, $v+L$, and $\{2v\}$
+are disjoint, of sizes three, three, and one.
+\end{proof}
+
+\begin{theorem}[Sharp three-dimensional threshold]\label{thm:three}
+In an admissible two-colour partition of $\F^3$, a remainder of size at
+least seventeen contains an affine plane. There is a plane-free remainder
+of size sixteen.
+\end{theorem}
+\begin{proof}
+Assume $|R|\geq17$, and put $C=A\sqcup B$. Then $|C|\leq10$. Relabel so
+$a=|A|\geq|B|$. Admissibility gives
+\[
+ (A+A)/2\subseteq C.
+\]
+If $a\leq3$, then $|C|\leq6$, and Lemma~\ref{lem:block} gives a plane in $R$.
+
+If $a=4$, then $|C|\leq8$. The affine-basis and planar-cap possibilities for
+$A$ are excluded by Lemma~\ref{lem:sumset}, since their sumsets have sizes
+ten and nine. Thus $A$ is a line together with an off-line point. Its
+midpoint set gives seven points of $C$ in a plane $H$. At most one point
+of $C$ lies outside $H$, so at least one of the other two planes parallel
+to $H$ lies wholly in $R$.
+
+If $a\geq5$ and $A$ spans three dimensions, it contains five spanning
+points. Their sumset has size at least eleven, contradicting $|C|\leq10$.
+Otherwise $A$ lies in a plane $H$ and has size at least five. Any two subsets
+of $H$ with more than half its points intersect, so $(A+A)/2=H$.
+Again $C$ has at most one point outside $H$, yielding a parallel plane in $R$.
+
+For sharpness take
+\[
+ R=(\F\setminus\{0\})\times(\F^2\setminus\{0\}).
+\]
+Colour points with first coordinate zero by $A$, and the remaining points
+with their last two coordinates zero by $B$. The partition is admissible,
+and $|R|=2\cdot8=16$. If $L\subseteq R$ is affine, each of its two block
+projections is an affine subspace avoiding zero. Such a projection lies in
+a level set $\ell=1$ of a nonzero linear functional: write it as $a+W$
+with $a\notin W$ and choose $\ell(W)=0$, $\ell(a)=1$. The two pulled-back
+functionals have disjoint coordinate supports and are independent.
+Consequently $\dim L\leq3-2=1$. A line is obtained by fixing the first
+coordinate and one coordinate of the second block to one.
+\end{proof}
+
+\section{An all-dimension plane-free bound}
+
+\begin{theorem}\label{thm:global}
+For every $n\geq3$, an admissible two-colour remainder $R\subseteq\F^n$
+containing no affine plane satisfies
+\begin{equation}\label{eq:main}
+ \boxed{\ |R|\leq20\,2^{n-3}-4=\frac52\,2^n-4.\ }
+\end{equation}
+\end{theorem}
+\begin{proof}
+Let $M_n$ be the maximum size of a plane-free admissible two-colour
+remainder. Theorem~\ref{thm:three} gives $M_3=16$.
+
+If $R$ has no line, Lemma~\ref{lem:cap} gives $|R|\leq4$. Otherwise a line
+in $R$ is a maximum-dimensional remainder flat, since $R$ has no plane.
+Choose its direction $V$. In the preceding notation $d=1$. Every regular
+nonfull fibre has either zero or two remainder points, by
+\eqref{eq:fibresize}, and full fibres have three. At most one occupied
+fibre can have just one remainder point.
+
+The occupied quotient $D\subseteq\F^{n-1}$ is admissible by
+Theorem~\ref{thm:occupied}. It is also plane-free. Indeed, if a quotient
+plane $U$ lay in $D$, its preimage would be an affine three-space containing
+nine occupied line fibres. At least eight would contain at least two
+remainder points and the possible exceptional fibre at least one. The
+three-space would therefore contain at least seventeen remainder points,
+contradicting Theorem~\ref{thm:three}.
+
+Every nonfull fibre has at most two remainder points, and there are at most
+four full fibres. Hence, for $n\geq4$,
+\[
+ |R|\leq2|D|+|S|\leq2M_{n-1}+4.
+\]
+The cap case is smaller as well. Iterating the recurrence from $M_3=16$
+yields $M_n+4\leq2^{n-3}(16+4)$, proving \eqref{eq:main}.
+\end{proof}
+
+\begin{corollary}[Explicit density consequence]\label{cor:density}
+An admissible two-colour remainder with $|R|\geq3^n/10$ contains an affine
+plane whenever $n\geq8$. More generally a plane is forced when
+\[
+ |R|/3^n>\frac52\left(\frac23\right)^n-\frac4{3^n}.
+\]
+\end{corollary}
+\begin{proof}
+At $n=8$, the upper bound in \eqref{eq:main} is $636$, below
+$3^8/10=656.1$. The bound divided by $3^n$ decreases for $n\geq3$:
+its successive ratio is $2/3+4/(3B_n)<1$, where $B_n=20\,2^{n-3}-4\geq16$.
+\end{proof}
+
+\begin{remark}
+The theorem gives a quantitative extension from line-free to plane-free
+remainders. It neither determines $M_n$ for $n\geq4$ nor proves that eight
+is the smallest dimension forcing a plane at density $1/10$. Its proof is
+independent of polynomial Freiman--Ruzsa theory.
+\end{remark}
+
+\section{Entropy first variations and tail exponent rigidity}
+
+All entropies in this note use natural logarithms; the ratio does not depend
+on the logarithm base. For independent identically distributed $X,X'$,
+write
+\[
+ \Dplus=H(X+X')-H(X),\quad \Dminus=H(X-X')-H(X),\quad
+ \rho=\Dminus/\Dplus.
+\]
+For every nondegenerate discrete real law of finite entropy,
+$\Dplus>0$. Indeed, $\Dplus=I(X;X+X')\geq0$. Equality would imply that the
+conditional translated laws of $X+X'$ given any two distinct support points
+of $X$ coincide, making the law of $X'$ invariant under a nonzero
+translation. The translates of any positive atom would then give infinite
+total mass.
+
+Throughout this section the support is \emph{all} of $\N=\{0,1,2,\ldots\}$.
+Put $p_n=\Prob(X=n)>0$, and assume
+\begin{equation}\label{eq:tail}
+ -\log p_n=c n^\beta+o(n^\beta),\qquad c>0,\quad\beta>0.
+\end{equation}
+This assumption implies finiteness of all polynomial moments and of entropy.
+Define the sum and difference laws by
+\[
+ q_s=\sum_{j=0}^s p_jp_{s-j}\quad(s\geq0),\qquad
+ r_m=\sum_{j\geq0}p_jp_{j+|m|}\quad(m\in\mathbb Z).
+\]
+All these probabilities are positive; $r_{-m}=r_m$.
+
+\begin{lemma}[Coordinate first variation]\label{lem:variation}
+For $n\geq1$, let $p^{(t)}=p+t(e_n-e_0)$, with
+$|t|<\min(p_0,p_n)$ sufficiently small, where $e_j$ denotes unit mass at $j$.
+Define
+\begin{equation}\label{eq:gradient}
+ G_n=-2\sum_{j\geq0}p_j\log r_{n-j}
+       +2\rho\sum_{j\geq0}p_j\log q_{n+j}
+       -(\rho-1)\log p_n.
+\end{equation}
+Then
+\begin{equation}\label{eq:derivative}
+ \left.\frac{d}{dt}\rho(p^{(t)})\right|_{t=0}
+ =\frac{G_n-G_0}{\Dplus(p)}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+Holding $\rho=\rho(p)$ fixed while differentiating gives
+\[
+ \Dplus(p)\,\rho'(0)
+ =\left.\frac{d}{dt}\right|_{t=0}
+ \bigl[H(r^{(t)})-\rho H(q^{(t)})+(\rho-1)H(p^{(t)})\bigr].
+\]
+The contribution of varying the $n$th coordinate to the difference entropy
+is $-2\sum_jp_j(\log r_{n-j}+1)$, since the two placements of the varied
+coordinate give $r_{n-j}$ and $r_{j-n}$, which agree. For the sum entropy
+it is $-2\sum_jp_j(\log q_{n+j}+1)$. The input term contributes
+$-(\rho-1)(\log p_n+1)$. The coordinate-independent constants cancel
+between $n$ and $0$, leaving \eqref{eq:derivative}.
+
+These infinite differentiations are justified as follows. For small enough
+$|t|$, $p^{(t)}$ is coordinatewise between $p/2$ and $3p/2$; the output laws
+are correspondingly comparable to $q,r$. From \eqref{eq:tail} and the
+endpoint terms $p_0p_s$, their negative logarithms are bounded by
+$K(1+|s|^\beta)$, uniformly for these $t$. First derivatives of the output
+laws are finite linear combinations of translates or reflected translates
+of $p$, plus finitely supported terms. They are summable against these
+polynomial bounds, since all polynomial moments of $p$ are finite.
+Dominated differentiation therefore applies to all three entropy sums.
+\end{proof}
+
+\begin{lemma}[Convolution tails]\label{lem:tails}
+Under \eqref{eq:tail}, set $\kappa_\beta=\min\{1,2^{1-\beta}\}$. Then
+\begin{align}
+ \frac{-\log q_n}{c n^\beta}&\longrightarrow\kappa_\beta,
+ &\frac{-\log r_n}{c n^\beta}&\longrightarrow1,\label{eq:convtails}\\
+ \frac{-\sum_{j\geq0}p_j\log q_{n+j}}{c n^\beta}
+ &\longrightarrow\kappa_\beta,
+ &\frac{-\sum_{j\geq0}p_j\log r_{n-j}}{c n^\beta}
+ &\longrightarrow1.\label{eq:avtails}
+\end{align}
+\end{lemma}
+\begin{proof}
+For each $0<\varepsilon<c$, positive constants $a_\varepsilon,b_\varepsilon$
+exist such that for every $j\geq0$,
+\[
+ a_\varepsilon e^{-(c+\varepsilon)j^\beta}
+ \leq p_j\leq
+ b_\varepsilon e^{-(c-\varepsilon)j^\beta}.
+\]
+The minimum of $j^\beta+(n-j)^\beta$ over integer $0\leq j\leq n$ is
+asymptotic to $\kappa_\beta n^\beta$. For $\beta\leq1$ it occurs at an
+endpoint; for $\beta>1$ it occurs at one of the two central integers.
+Using one minimizing summand for a lower bound on $q_n$ and all $n+1$
+summands for an upper bound gives the first limit in \eqref{eq:convtails},
+since $\log(n+1)=o(n^\beta)$ and $\varepsilon$ is arbitrary.
+
+For the difference law,
+\[
+ p_0p_n\leq r_n=\sum_{j\geq0}p_jp_{n+j}
+ \leq b_\varepsilon e^{-(c-\varepsilon)n^\beta}\sum_jp_j.
+\]
+This proves its claimed tail limit. Also $q_s,r_s\geq p_0p_s$ for $s\geq0$,
+so their negative logarithms are bounded by $K(1+s^\beta)$. The integrands
+in \eqref{eq:avtails}, after division by $n^\beta$ for $n\geq1$, are
+bounded by $K'(1+j^\beta)$, using $|n-j|\leq n+j$ and
+$(n+j)^\beta\leq K_\beta(n^\beta+j^\beta)$. This is integrable under $p$.
+For each fixed $j$ the required limit follows from \eqref{eq:convtails}.
+Dominated convergence gives \eqref{eq:avtails}.
+\end{proof}
+
+\begin{theorem}[Tail exponent rigidity and explicit ascent]\label{thm:tail}
+For a law satisfying \eqref{eq:tail}, its first-variation coefficients obey
+\begin{equation}\label{eq:tailcoefficient}
+ \boxed{\ \frac{G_n}{c n^\beta}\longrightarrow
+ 1+\rho-2\rho\min\{1,2^{1-\beta}\}.\ }
+\end{equation}
+If this limit is positive, moving sufficiently small positive mass from
+zero to any sufficiently distant atom increases $\rho$. If it is negative,
+moving sufficiently small positive mass from any sufficiently distant atom
+to zero increases $\rho$.
+
+In particular, if $\rho>1$ and the law is stationary under all finite
+coordinate mass transfers---as any local maximum under these transfers must
+be---then necessarily
+\begin{equation}\label{eq:beta}
+ \boxed{\ \beta=\log_2\!\left(\frac{4\rho}{1+\rho}\right)>1.\ }
+\end{equation}
+\end{theorem}
+\begin{proof}
+Substitute \eqref{eq:avtails} and \eqref{eq:tail} into \eqref{eq:gradient}.
+The three coefficients are $2$, $-2\rho\kappa_\beta$, and $\rho-1$;
+their sum is the limit in \eqref{eq:tailcoefficient}. Because $G_0$ is fixed
+and finite, a nonzero limit determines the eventual sign of $G_n-G_0$.
+Equation~\eqref{eq:derivative} gives the two ascent directions. For each
+chosen $n$ the transfer can be small enough to preserve positive mass at
+both atoms, and it does not change the tail asymptotic.
+
+At a stationary law, $G_n=G_0$ for every $n$. Therefore the limit must
+vanish. If $\beta\leq1$ it equals $1-\rho<0$, which is impossible.
+For $\beta>1$, solving
+$1+\rho=2\rho\,2^{1-\beta}$ gives \eqref{eq:beta}.
+\end{proof}
+
+\begin{corollary}[Gaussian tails are never stationary]\label{cor:gaussian}
+A full-support law on $\N$ satisfying $-\log p_n\sim c n^2$ has a strict
+ratio-increasing finite-coordinate perturbation whenever $\rho>1$.
+Its coefficient in \eqref{eq:tailcoefficient} is exactly one.
+\end{corollary}
+\begin{proof}
+For $\beta=2$, $\kappa_\beta=1/2$, so $1+\rho-2\rho\kappa_\beta=1$.
+\end{proof}
+
+\begin{remark}
+The result concerns \emph{one-sided} full support and the specified
+logarithmic tail law. It makes no claim about two-sided Gaussian laws,
+finite supports, arbitrary sparse supports, or the existence of an
+extremizer having a power-law logarithmic tail. In particular, the
+necessary exponent is not a prediction that a global optimizer exists.
+\end{remark}
+
+\section{The full sharp constant in prescribed tail classes}
+
+Let $C_*$ be the supremum of $\rho(P)$ over all nondegenerate discrete
+real-valued laws with finite entropy. For fixed $\beta,c>0$, let
+\[
+ \mathcal T_{\beta,c}=
+ \{P:p_n>0\ (n\in\N),\ -\log p_n\sim c n^\beta\}.
+\]
+
+\begin{theorem}[Universality of each prescribed tail class]\label{thm:universal}
+For every $\beta,c>0$,
+\begin{equation}\label{eq:sup}
+ \boxed{\ C_*=\sup_{P\in\mathcal T_{\beta,c}}\rho(P).\ }
+\end{equation}
+The same $C_*$ is the supremum over finitely supported nonnegative-integer
+laws with rational probabilities.
+\end{theorem}
+\begin{proof}
+We give all approximation steps, since pointwise convergence alone would
+not justify entropy convergence.
+
+\emph{Finite truncation.} Given a finite-entropy law $X$, let $F_m$ be an
+increasing finite exhaustion of its support and let $X_m$ have the
+conditional law given $X\in F_m$. The formula
+\[
+ H(X_m)=\Prob(X\in F_m)^{-1}
+ \sum_{x\in F_m}p_x\log(1/p_x)+\log\Prob(X\in F_m)
+\]
+shows $H(X_m)\to H(X)$. Let $Z=(X,X')$, and let $E_m$ be the event that both
+coordinates lie in $F_m$, of probability $1-\delta_m\to1$. Since $H(Z)<\infty$,
+\[
+ \delta_m H(Z\mid E_m^c)
+ =\sum_{z\in E_m^c}\Prob(Z=z)\log\frac1{\Prob(Z=z)}
+   +\delta_m\log\delta_m\longrightarrow0.
+\]
+For either $W=X+X'$ or $W=X-X'$, entropy decomposition gives
+\[
+ H(W)=(1-\delta_m)H(W\mid E_m)+\delta_m H(W\mid E_m^c)
+       +I(W;\mathbf1_{E_m}).
+\]
+The second term is bounded by $\delta_m H(Z\mid E_m^c)$, and the last by
+the binary entropy $h(\delta_m)$. Thus $H(W\mid E_m)\to H(W)$; the conditional
+law is exactly $X_m\pm X'_m$. Positivity of $\Dplus$ gives convergence of
+the entropy ratios. This strengthens the elementary truncation principle
+used in \cite[Lemma 7.5]{li} to two-sided convergence for the present outputs.
+
+\emph{Integer modelling and rational probabilities.} For a finite real
+support $A$, take a basis of its rational linear span, express all its
+members in rational coordinates, and clear denominators. This identifies
+$A$ additively with a finite subset of $\mathbb Z^r$. An integer linear
+form can be chosen injective on the union of this set, its sumset, and
+its difference set: finitely many nonzero difference vectors must have
+nonzero image, so avoid their finitely many linear hyperplanes. Explicitly,
+a form with coefficients $1,M,\ldots,M^{r-1}$ works for any integer $M$
+avoiding finitely many polynomial roots. Its image preserves all sum and
+difference collisions and hence all three entropies. Translation makes
+the support nonnegative. Approximate its positive probabilities by positive
+rational probabilities. Entropy is continuous on each relevant finite
+simplex, and $\Dplus>0$, so the ratios converge.
+
+\emph{Adding an arbitrarily prescribed tail.} Let $P$ be any finite
+nonnegative-integer law. Define a full-support law $Q$ by
+\[
+ Q(n)=Z^{-1}\exp[-c(n+1)^\beta],\qquad n\geq0.
+\]
+Its entropy and all moments are finite. For $0<\varepsilon<1$ put
+$P_\varepsilon=(1-\varepsilon)P+\varepsilon Q$. Beyond the finite support
+of $P$, its logarithmic tail is
+\[
+ -\log P_\varepsilon(n)=c(n+1)^\beta+\log Z-\log\varepsilon
+ =c n^\beta+o(n^\beta).
+\]
+Hence $P_\varepsilon\in\mathcal T_{\beta,c}$. For a finite mixture of
+finite-entropy laws with mixing weights $w_i$, its entropy lies between
+$\sum_iw_iH_i$ and $\sum_iw_iH_i+H(w)$. Apply this to the input mixture and
+the four-component mixtures describing its sum and difference outputs.
+All component entropies are finite, since $H(U\pm V)\leq H(U)+H(V)$.
+It follows that all three entropies converge to those of $P$ as
+$\varepsilon\downarrow0$, and so do the ratios. Combining the three steps
+proves the theorem; the reverse supremum inequality is immediate.
+\end{proof}
+
+\begin{corollary}[Same supremum, no Gaussian-tail maximizer]\label{cor:nonattain}
+For every $c>0$, the class $\mathcal T_{2,c}$ has supremum $C_*$ but no
+member attaining it. More generally, an extremizer in any
+$\mathcal T_{\beta,c}$ can exist only when
+\begin{equation}\label{eq:betaband}
+ \log_2\!\left(\frac{4L}{1+L}\right)<\beta\leq\log_2(8/3),
+ \qquad L=1.4051810329.
+\end{equation}
+The endpoints are approximately $1.224610521648$ and $1.415037499279$.
+\end{corollary}
+\begin{proof}
+The supremum equality is Theorem~\ref{thm:universal}. An attainer would have
+$\rho=C_*>L>1$, by \eqref{eq:knownrange}. Finite-coordinate perturbations
+remain inside the same class, so Theorem~\ref{thm:tail} forces
+$\beta=\log_2(4C_* /(1+C_*))$. This expression is strictly increasing in
+$C_*>0$. The known range \eqref{eq:knownrange} gives \eqref{eq:betaband},
+which excludes $\beta=2$.
+\end{proof}
+
+The supremum theorem does not force any particular tail shape: every
+prescribed tail can be added with arbitrarily small mass to an almost
+optimal finite law. The stationarity theorem, in contrast, restricts a
+single law that actually attains a local maximum. Keeping these two
+quantifiers distinct avoids an unjustified existence claim.
+
+\section{Verification record and remaining limitations}
+
+The package contains two standard-library verification programs:
+\begin{verbatim}
+python verify_midpoint.py
+python verify_entropy_variation.py
+\end{verbatim}
+The first checks all $19{,}683$ labelled two-colour plane partitions,
+including the $1{,}371$ admissible ones; $1{,}159$ maximal-direction fibre
+and occupied-quotient instances; $640$ plane-free projection instances;
+all $296{,}010$ six-point subsets of $\F^3$ for the blocking claim; all
+$75{,}816$ spanning five-point subsets for the sumset claim; and all
+$17{,}550$ four-point subsets for the stated classification. It also verifies
+the sharp sixteen-point construction and the recurrence arithmetic.
+Some three-dimensional fibre checks are sampled products, not an
+exhaustion of all three-dimensional colourings. The exact five-point check
+finds a minimum sumset size of twelve; the written proof uses only eleven.
+
+The entropy program checks $963$ formal first-variation identities using
+exact rational coefficients of formal logarithms. It also certifies a
+finite fixed-support ascent: on $\{0,\ldots,8\}$, start with integer weights
+$2^{64-n^2}$ and transfer probability $10^{-12}$ from zero to six. The ratio
+increases from $1.2166978238640320\ldots$ to $1.2166978239078707\ldots$.
+This is a finite diagnostic, not a new bound for $C_*$ or a certificate for
+an infinite Gaussian-tail law. Rational logarithm enclosures use the
+positive atanh series, ninety terms, its geometric tail bound, and outward
+rounding. The receipts retain the full weights, intervals, and positive gap.
+The infinite-support assertions rest on the proofs of dominated
+differentiation and convergence above, not numerical truncation.
+
+The exploratory directory records a time-limited four-dimensional
+mixed-integer search that found no feasible point. That outcome is neither
+an infeasibility proof nor evidence of an exact extremal value.
+
+The general $O(k\log k)$ midpoint codimension bound and the entropy range
+\eqref{eq:knownrange} remain unchanged. The new midpoint theorem does not
+settle higher-flat-free remainders or the exact two-colour extremal
+function. The tail condition is necessary, not sufficient, and does not
+establish an entropy maximizer or rule out irregular or sparse extremizers.
+
+\appendix
+\section{Proof of the prior cap classification}\label{app:cap}
+
+A plane cap has at most four points. Through a fixed cap point there are
+four lines, each containing at most one further cap point, so initially the
+bound is five. Equality would make every line through any cap point meet
+the cap twice; no line could meet it once. But three parallel lines would
+partition five points into sizes $2,2,1$, a contradiction. For a four-point
+cap, put three points at $0,e_1,e_2$. The fourth can only be $e_1+e_2$,
+$e_1-e_2$, or $-e_1+e_2$, each giving an affine parallelogram.
+
+No plane section of an admissible two-colour cap remainder can have exactly
+three points. Put such points at $0,e_1,e_2$. The coloured points
+$e_1+e_2,e_1-e_2,-e_1+e_2$ have these three points as their pairwise
+midpoints, forcing three colours.
+
+Now let $W$ be an affine three-space, $s=|R\cap W|$, and let $n_j$ count its
+planes with $j$ remainder points. Possible section sizes are $0,1,2,4$.
+The $39$ planes, $13$ planes through each point, four planes through a pair,
+and one plane through a noncollinear triple give
+\begin{align*}
+ n_0+n_1+n_2+n_4&=39,& n_1+2n_2+4n_4&=13s,\\
+ n_2+6n_4&=4\binom{s}{2},&4n_4&=\binom{s}{3}.
+\end{align*}
+Three parallel planes show $s\leq12$. Solving gives
+\[
+ n_4=\tfrac14\binom{s}{3},\quad
+ n_1=13s-8\binom{s}{2}+2\binom{s}{3},\quad
+ n_0=39-13s+4\binom{s}{2}-\tfrac34\binom{s}{3}.
+\]
+For $s=3,5,7,11$, $n_4$ is not an integer. For $s=6,8,9$, the value of
+$n_1$ is respectively $-2,-8,-3$. For $s=10,12$, the value of $n_0$ is
+respectively $-1,-18$. The only possibilities are $s=0,1,2,4$, with
+$n_4=1$ in the last case. Thus any four remainder points in a three-space
+are coplanar. Four affinely independent remainder points in the original
+ambient space would contradict this conclusion in their affine span.
+Therefore the whole remainder has affine dimension at most two, and the
+plane classification proves Lemma~\ref{lem:cap}. This rederives the
+necessary classification from \cite{previous}; no new priority is claimed
+for this appendix.
+
+\begin{thebibliography}{9}
+\small\setlength{\itemsep}{3pt}
+\bibitem{midpoint}
+T. Ko\'sciuszko, \emph{Arithmetic Progressions in Midpoint Colourings},
+arXiv:2610.11847v1 (2026), Problem 4 and Theorem 3.
+\url{https://arxiv.org/html/2610.11847v1}.
+\bibitem{li}
+R. Li, \emph{The Entropic Sum-Product Phenomenon}, arXiv:2607.29042v1
+(2026), Lemma 7.5 and Section 8.
+\url{https://arxiv.org/html/2607.29042v1}.
+\bibitem{brouwer}
+A. E. Brouwer and A. Schrijver, \emph{The blocking number of an affine
+space}, Journal of Combinatorial Theory, Series A \textbf{24} (1978),
+251--253. \url{https://ir.cwi.nl/pub/9858/9858D.pdf}.
+\bibitem{jamison}
+R. E. Jamison, \emph{Covering finite fields with cosets of subspaces},
+Journal of Combinatorial Theory, Series A \textbf{22} (1977), 253--266.
+\url{https://doi.org/10.1016/0097-3165(77)90001-2}.
+\bibitem{first}
+B2 research continuation I, \emph{Research note}, 13 October 2026.
+Supplied artifact \texttt{B2-new-results-2026-10-13.zip}.
+\bibitem{previous}
+B2 research continuation II, \emph{Two-colour rigidity and boundary
+obstructions for entropy extremizers}, 13 October 2026, Theorem 2.1,
+Lemma 3.1, and exact entropy certificate. Supplied artifact
+\texttt{B2-further-results-2026-10-13.zip}.
+\end{thebibliography}
+\end{document}

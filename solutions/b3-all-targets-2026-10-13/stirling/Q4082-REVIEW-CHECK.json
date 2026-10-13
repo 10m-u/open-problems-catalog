@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "review_contract": "Independent exact certificate and algebra controls; analytic arguments reviewed separately.",
+  "method": "stdlib Fraction Laurent-polynomial convolution; direct Bernstein-basis expansion",
+  "positive_bernstein_coefficients": 221,
+  "power_coefficient_slots_compared": 221,
+  "nonzero_power_coefficients": 221,
+  "minimum_bernstein_coefficient": "386066666641/268738560000",
+  "exact_exponential_bounds": [
+    {
+      "argument": "165/64",
+      "bound": "53/4"
+    },
+    {
+      "argument": "45/16",
+      "bound": "50/3"
+    },
+    {
+      "argument": "15/4",
+      "bound": "43"
+    },
+    {
+      "argument": "9/2",
+      "bound": "100"
+    }
+  ],
+  "parameter_comparisons": 5,
+  "kernel_coefficient_controls_including_three_zeros": 41,
+  "exact_gluing_controls": 36,
+  "source_certificate_sha256": "156a070bf0f80bd52e7fe685338b5e65c65d9686c7368d1d6557e2284984bdc1",
+  "checker_sha256": "b36124bbccb23bf597c39a8dc60d6bff186aefede4297434fbfc4adc16c7d0b8",
+  "scope": "Full Q4082 proof passes mathematical review at alpha in (-1/3,0), subject to the companion review."
+}

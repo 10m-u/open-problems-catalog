@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "exact_supports": 2498,
+  "exact_leakage_entries": 27890,
+  "positive_integer_norm_determinants": 2498,
+  "random_support_fourth_moments": [
+    {
+      "p": 5,
+      "k": 1,
+      "exact_expectation": "0"
+    },
+    {
+      "p": 5,
+      "k": 2,
+      "exact_expectation": "2"
+    },
+    {
+      "p": 5,
+      "k": 3,
+      "exact_expectation": "18"
+    },
+    {
+      "p": 13,
+      "k": 1,
+      "exact_expectation": "0"
+    },
+    {
+      "p": 13,
+      "k": 2,
+      "exact_expectation": "2"
+    },
+    {
+      "p": 13,
+      "k": 3,
+      "exact_expectation": "18"
+    },
+    {
+      "p": 13,
+      "k": 4,
+      "exact_expectation": "636/11"
+    },
+    {
+      "p": 17,
+      "k": 1,
+      "exact_expectation": "0"
+    },
+    {
+      "p": 17,
+      "k": 2,
+      "exact_expectation": "2"
+    },
+    {
+      "p": 17,
+      "k": 3,
+      "exact_expectation": "18"
+    }
+  ],
+  "scope": "Exact finite algebraic identities and determinant controls; no uniform asymptotic RIP certification."
+}

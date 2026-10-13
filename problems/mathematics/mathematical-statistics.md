@@ -1,6 +1,6 @@
 # Mathematical Statistics
 
-108 problems: 102 open, 4 open, partial results, 1 solved here: proved, 1 solved here: disproved.
+109 problems: 103 open, 4 open, partial results, 1 solved here: proved, 1 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -114,6 +114,7 @@
 | [Q1100](mathematical-statistics.md#q1100) | Sharp Gaussian landscape complexity | Open |
 | [Q2016](mathematical-statistics.md#q2016) | Goldfeld’s analytic-rank proportions | Open |
 | [Q2800](mathematical-statistics.md#q2800) | Optimal efficient geometric matching | Open |
+| [Q4791](mathematical-statistics.md#q4791) | Let E be a separable real Banach space and Σ≠0 a Gaussian covariance with ‖Σ‖≤1. For n… | Open |
 
 <a id="q207"></a>
 
@@ -1875,4 +1876,19 @@ Is there an algorithm using polynomially many arithmetic operations in n that re
 **Literature check.** Status for question 2800, checked 7 October 2026: The known Umeyama guarantee loses d³ in noise tolerance; no full-threshold polynomial algorithm located.
 
 **Further links.** [1](https://proceedings.mlr.press/v178/wang22a.html) · [2](https://arxiv.org/abs/2402.15095) · [3](https://elischolar.library.yale.edu/gsas_dissertations/1875/)
+
+
+<a id="q4791"></a>
+
+## Q4791. Let E be a separable real Banach space and Σ≠0 a Gaussian covariance with ‖Σ‖≤1. For n…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Let E be a separable real Banach space and Σ≠0 a Gaussian covariance with ‖Σ‖≤1. For n independent N(0,Σ) observations set Σ̂=n⁻¹∑ᵢXᵢ⊗Xᵢ and r(Σ)=E‖X₁‖²/‖Σ‖. On Gaussian covariances define (Tₙg)(A)=E_A g(Σ̂), and f_k=∑\_{j=0}^k(I−Tₙ)^j f. For each s>2, does some k=k(s) yield E_Σ|f_k(Σ̂)−f(Σ)|²≤C_s[n⁻¹∨(r(Σ)/n)^s] uniformly in E,n,Σ and f with r(Σ)≤n and ‖f‖\_{C^s}≤1, where f is real-valued on bounded symmetric operators E\*→E and C^s is the Hölder norm using operator-norm Fréchet derivatives?
+
+**Context.** Audited provenance and status: Subject: mathematical statistics. Thesis-reported open; checked 13 October 2026. Bernoulli final unread; thesis postdates it. Schäfer: nonparametric resampling bias; final abstract read, body unread. C^s: s=m+ρ, m≥0 integer, 0<ρ≤1; thesis p.12. https://repository.gatech.edu/bitstreams/c6edbca5-3ec1-47b0-aeb7-c56acbdac507/download Remark6.3,pp.95–96,first-residual; Introduction,pp.7–9. https://arxiv.org/html/2310.16129v1 §1,paragraph-before-equation(1.1); thesis p.7,preceding-Neumann-series. The exact alternating Neumann series is printed before the inconsistent sum. The publisher record dates the final May 2026; the target-bearing thesis is August 2026. Minghao Li; Georgia Tech PhD in Mathematics, August 2026. Primary advisor: Vladimir Koltchinskii. Field: mathematical statistics. Doctoral-discovery route.
+
+**Source.** Minghao Li. *Functional estimation in high-dimensional and infinite-dimensional models*. Georgia Tech, 2026. Advisor(s): Vladimir Koltchinskii. [primary source](https://repository.gatech.edu/bitstreams/c6edbca5-3ec1-47b0-aeb7-c56acbdac507/download) Location: thesis p.12.
+
+**Further links.** [1](https://arxiv.org/html/2310.16129v1) · [2](https://arxiv.org/abs/2310.16129) · [3](https://www.imstat.org/publications/bej/bej_32_2/bej_32_2.pdf) · [4](https://doi.org/10.3150/25-BEJ1882) · [5](https://projecteuclid.org/journals/bernoulli/volume-32/issue-2/Functional-estimation-in-high-dimensional-and-infinite-dimensional-models/10.3150/25-BEJ1882.full) · [6](https://hdl.handle.net/1853/82197) · [7](https://repository.gatech.edu/entities/publication/1ef4c14e-42d6-4207-9a6b-45b15a56939b) · [8](https://math.gatech.edu/seminars-colloquia/series/dissertation-defense/minghao-li-20260716) · [9](https://arxiv.org/abs/2408.05826) · [10](https://arxiv.org/html/2408.05826v2) · [11](https://epubs.siam.org/doi/full/10.1137/24M1712667) · [12](https://epubs.siam.org/doi/abs/10.1137/24M1712667?journalCode=sjmdaq) · [13](https://doi.org/10.1137/24M1712667) · [14](https://arxiv.org/abs/2310.16129v1) · [15](https://arxiv.org/abs/2408.05826v2)
 

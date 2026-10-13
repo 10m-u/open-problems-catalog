@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "graphs": [
+    {
+      "vertices": 4,
+      "edges": 6,
+      "forests": 38,
+      "ordered_forest_pairs": 1222,
+      "nonzero_coefficients": 65,
+      "negative_coefficients": {},
+      "scope": "Exact ternary exponent arithmetic. Deletion of edge variables proves all simple subgraphs on this vertex set."
+    },
+    {
+      "vertices": 5,
+      "edges": 10,
+      "forests": 291,
+      "ordered_forest_pairs": 82272,
+      "nonzero_coefficients": 2237,
+      "negative_coefficients": {},
+      "scope": "Exact ternary exponent arithmetic. Deletion of edge variables proves all simple subgraphs on this vertex set."
+    },
+    {
+      "vertices": 6,
+      "edges": 15,
+      "forests": 2932,
+      "ordered_forest_pairs": 9266444,
+      "nonzero_coefficients": 120622,
+      "negative_coefficients": {},
+      "scope": "Exact ternary exponent arithmetic. Deletion of edge variables proves all simple subgraphs on this vertex set."
+    }
+  ],
+  "checker_sha256": "14cdef204e090290df355075bc764cd16430333dbe5f2857dddac19603b15e05",
+  "scope": "Exact bounded graph control, not an arbitrary-order proof."
+}

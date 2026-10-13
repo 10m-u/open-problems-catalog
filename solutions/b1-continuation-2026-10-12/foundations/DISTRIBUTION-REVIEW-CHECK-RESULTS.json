@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "finite widths 1 through 7; no tail claim",
+  "entries": 21844,
+  "checks": [
+    {
+      "width": 1,
+      "entries": 4,
+      "nonzero": 2,
+      "multiset_error": 6.123233995736766e-17,
+      "second": 0.5,
+      "fourth": 0.5
+    },
+    {
+      "width": 2,
+      "entries": 16,
+      "nonzero": 6,
+      "multiset_error": 1.29893408435324e-16,
+      "second": 0.25,
+      "fourth": 0.1875
+    },
+    {
+      "width": 3,
+      "entries": 64,
+      "nonzero": 22,
+      "multiset_error": 7.404045666131907e-16,
+      "second": 0.125,
+      "fourth": 0.0703125
+    },
+    {
+      "width": 4,
+      "entries": 256,
+      "nonzero": 86,
+      "multiset_error": 1.8395329413517767e-15,
+      "second": 0.0625,
+      "fourth": 0.026367187499999997
+    },
+    {
+      "width": 5,
+      "entries": 1024,
+      "nonzero": 342,
+      "multiset_error": 3.829139882002563e-15,
+      "second": 0.03125,
+      "fourth": 0.009887695312499998
+    },
+    {
+      "width": 6,
+      "entries": 4096,
+      "nonzero": 1366,
+      "multiset_error": 7.645795062290946e-15,
+      "second": 0.015625,
+      "fourth": 0.0037078857421875
+    },
+    {
+      "width": 7,
+      "entries": 16384,
+      "nonzero": 5462,
+      "multiset_error": 1.4195550565264012e-14,
+      "second": 0.0078125,
+      "fourth": 0.0013904571533203127
+    }
+  ]
+}

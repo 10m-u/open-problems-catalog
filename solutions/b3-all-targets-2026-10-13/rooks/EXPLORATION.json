@@ -1,0 +1,60 @@
+{
+  "status": "NO_COUNTEREXAMPLE_FOUND",
+  "seed": 183,
+  "sampled_shapes": 1600,
+  "avoiding_shapes_checked": 1359,
+  "counterexamples": [],
+  "weighted_obstruction": {
+    "lambda": [
+      6,
+      6,
+      6,
+      3,
+      3,
+      3
+    ],
+    "mu": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "basis_count": 662,
+    "ordinary_nn_coefficients": [
+      1,
+      27,
+      162,
+      282,
+      162,
+      27,
+      1
+    ],
+    "assignment": {
+      "t_elements": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "coefficients": [
+        0,
+        0,
+        0,
+        400,
+        225,
+        36,
+        1
+      ]
+    },
+    "reduced_discriminant": "-602100",
+    "reduced_real_root_count": 1,
+    "reduced_degree": 3,
+    "scope": "Weighted basis specialization fails; ordinary unweighted target is not refuted."
+  },
+  "checker_sha256": "35778496cde23309928cef8c63fb5b1e90ccc973a32c3d0e7b7444f00ff9b120",
+  "scope": "Actual-shape bounded search; candidate exact controls do not prove the all-size assertion."
+}

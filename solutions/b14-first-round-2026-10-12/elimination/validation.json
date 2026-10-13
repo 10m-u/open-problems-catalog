@@ -1,0 +1,18 @@
+{
+  "certificate_runs_checked": 147,
+  "forced_edge_bounds_checked": 6807,
+  "corruptions_rejected": [
+    "inflated_forced_bound",
+    "wrong_incumbent_cost",
+    "fake_root_pair",
+    "missing_edge_bound",
+    "invalid_scale"
+  ],
+  "toy_certificate_controls": 24,
+  "petersen_enumerated": 181440,
+  "petersen_optimal_cost": 11,
+  "petersen_optimal_tours": 120,
+  "petersen_optimal_edge_witnesses": 45,
+  "full_and_residual_dp_agree": true,
+  "elapsed_seconds": 4.786468154983595
+}

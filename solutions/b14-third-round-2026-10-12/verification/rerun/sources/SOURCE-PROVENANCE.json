@@ -1,0 +1,17 @@
+[
+  {
+    "original_path": "projects/thesis-catalog/exports/b14-handoff-2026-10-12/HANDOFF.md",
+    "copied_to": "sources/handoff-overview.md",
+    "sha256": "9cf884b7a3015b281cd795c99f7117db26ff0b227cb89d353d14c3c9ae6bba37"
+  },
+  {
+    "original_path": "solutions/b14-first-round-2026-10-12/local-optima/RESULT.md",
+    "copied_to": "sources/predecessor-count-proof.md",
+    "sha256": "1c5297b1e06bf50ae8b4ff80e7358d74658946a65b3433ed7e01ab114ed3a678"
+  },
+  {
+    "original_path": "solutions/b14-first-round-2026-10-12/COUNT-REVIEW.md",
+    "copied_to": "sources/predecessor-count-review.md",
+    "sha256": "6e22c05cb0dcc6489af5cef1b3432d500cca10d0f0804097354bf2e87b550e67"
+  }
+]

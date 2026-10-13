@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-12",
+  "completion_scope": "broader ambitions and per-target failure limits",
+  "review_policy": "independent internal reviews, not external peer review",
+  "records": [
+    {
+      "id": "B14-UNIQUE-OBSTRUCTION",
+      "title": "Unique optimum does not make forced-1-tree elimination sparse",
+      "status": "proved",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For every k>=17 a strict integer metric on 10k cities has a unique optimal tour, while every forced rooted 1-tree bound, at any root and real potentials, is below OPT.",
+      "remaining": "This concerns this relaxation family only; stronger cuts and other elimination rules remain possible.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/generating-graph/RESULT.md"
+    },
+    {
+      "id": "B14-GRAPHICAL-DP",
+      "title": "Exact graphical TSP on the sparse generating graph",
+      "status": "proved",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "Metric TSP on all generating vertices equals a minimum connected spanning positive-even multigraph with multiplicities 0/1/2. Frontier parity-and-partition DP is exact.",
+      "remaining": "Width is that of the generating graph/order, not of the complete metric; no universal fast runtime.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/generating-graph/DP-RESULT.md"
+    },
+    {
+      "id": "B14-ENDPOINT-COMPRESSION",
+      "title": "Exponential endpoint-state quotient on certified residuals",
+      "status": "proved",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "Dropping component labels on saturated boundary vertices preserves all suffix behavior. An explicit certified residual family collapses 2^(n-6) realizable full-partition states to one.",
+      "remaining": "Existential representation reduction, not a total-runtime factor or universal superiority. The family is dense; existing controls can remain slower than subset DP.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/residual-search/EXPONENTIAL-RESULT.md"
+    },
+    {
+      "id": "B14-TREE-DESCENT",
+      "title": "Path/star guarantees and polynomial tree-metric descent",
+      "status": "partial",
+      "relationship": "restricted-catalog-subcases",
+      "targets": [
+        {
+          "q": 3817,
+          "stable_statement_id": "5be5b12412c27b8f10e5"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "NN on positive weighted paths is at most 3/2 OPT; stars are optimal. Every tree-metric 2-opt local optimum is optimal and any strict descent takes at most (n-1)(floor(n/2)-1) moves.",
+      "remaining": "Q3817 remains unresolved and stops after five reviewed NN-ratio routes. The full sparse expected-descent result is filed separately.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/initialization/RESULT.md",
+      "ledger_topic": "b14-local-q3817-partial"
+    },
+    {
+      "id": "B14-SPARSE-DESCENT",
+      "title": "Polynomial expected 2-opt descent in the full sparse exponential model",
+      "status": "proved",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For every connected simple generating graph with m independent Exp(1) weights, any initializer and strictly improving pivot have E[moves] <= 10m(m-1)n^5(1+log(n!)). For m<=cn this is O_c(n^8 log n).",
+      "remaining": "Polynomial convergence was already established in TCS 2021 Theorem 20. The normalized local proof gives a cut-free bound; originality is not established. This counts real-arithmetic moves/scans and does not resolve NN quality or exact TSP.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/P3-REVIEW.md"
+    },
+    {
+      "id": "B14-GUIDANCE-COMPARISON",
+      "title": "Five learned policies without a supported advantage",
+      "status": "reviewed-bounded-experiment",
+      "relationship": "negative-controlled-comparison",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "Controlled held-family and held-size comparisons retain 320 independently checked original-cost packets. Five distinct learned objectives/estimators establish no practically meaningful advantage over ordinary/random/manual allocation after charging training and inference.",
+      "remaining": "A bounded negative experiment, not a proof that useful learning is impossible. Time-budget overruns and iterative use of the test suite are disclosed.",
+      "evidence_labels": [
+        "reproducible-bounded-experiment",
+        "independent-original-cost-check",
+        "independent-internal-review-of-baseline",
+        "main-thread-review-of-extensions"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/guidance/P6-ATTEMPTS.md"
+    },
+    {
+      "id": "B14-SUBDIVIDED-PETERSEN",
+      "title": "Exact fractional gaps and scoped path rounding",
+      "status": "proved",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "One-spoke Petersen subdivisions on n=l+9 cities have a half-integral extreme subtour-LP point with LP=n and metric OPT=n+1 for every l>=1; an explicit path attains the optimum.",
+      "remaining": "This restricted gap tends to one. It does not prove the unrestricted 4/3 conjecture; P4 stops at five reviewed broader failed routes.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/lp-supports/RESULT.md"
+    },
+    {
+      "id": "B14-STOP-REGISTER",
+      "title": "Per-problem failed-route register",
+      "status": "reviewed-unsuccessful-routes",
+      "relationship": "failed-route-evidence",
+      "targets": [
+        {
+          "q": 3817,
+          "stable_statement_id": "5be5b12412c27b8f10e5"
+        },
+        {
+          "q": 549,
+          "stable_statement_id": "b9a6eb3295c70a2650fa"
+        },
+        {
+          "q": 550,
+          "stable_statement_id": "b2c816fbbf814f26e51a"
+        },
+        {
+          "q": 1852,
+          "stable_statement_id": "485e3db2ff80a9c3f88c"
+        },
+        {
+          "q": 1853,
+          "stable_statement_id": "b0595805fe9a6a579e48"
+        },
+        {
+          "q": 1953,
+          "stable_statement_id": "acaff2fff07a60387e2d"
+        },
+        {
+          "q": 3819,
+          "stable_statement_id": "86957b46ff680574e1f7"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition.",
+      "remaining": "Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing.",
+      "evidence_labels": [
+        "written-route-analyses",
+        "independent-internal-review-of-catalogue-routes",
+        "main-thread-review-of-programme-routes",
+        "exact-finite-controls"
+      ],
+      "proof_location": "solutions/b14-second-round-2026-10-12/CONTROL.md"
+    }
+  ]
+}

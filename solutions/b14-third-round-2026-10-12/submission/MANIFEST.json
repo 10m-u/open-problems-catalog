@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2955,
+      "sha256": "a3ec0d72b141659912a273e99f24cf4d05c5a68671571394767b4ba705547661"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 22329,
+      "sha256": "706a461b45df0d6a8ba015495d911e281c463e734b58d46e4372f26b9aeb81f8"
+    },
+    {
+      "path": "REPORT.pdf",
+      "bytes": 182339,
+      "sha256": "62373c0ccad9b79d838df0fbaf24db6e72a6b87a2170e80c2e486e624d3859c9"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 2976,
+      "sha256": "01f77bd382153b8c8b707b3e05a79caeb76670db727adae1faabfe338dfab68d"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 583,
+      "sha256": "790cc355494945d6e06d1490dc129b05215b282708b5ae90ceac5bd4a53e437f"
+    },
+    {
+      "path": "checks/EXACT-CHECK-RESULTS.json",
+      "bytes": 32455,
+      "sha256": "8735aba2df1379b4471ada6fd868115451347b7a5e8cc659357152b1c1d33072"
+    },
+    {
+      "path": "checks/NUMERICAL-RESULTS.json",
+      "bytes": 2571,
+      "sha256": "eac242a1045a9f9caf264b3ddff93754eb614741f4521372266e04949fb06c8d"
+    },
+    {
+      "path": "checks/check_sharp_rate.py",
+      "bytes": 8842,
+      "sha256": "3be7d5719652aba4bde5af8582e7d88b55379e952b613adab4b134a784835c70"
+    },
+    {
+      "path": "checks/evaluate_bounds.py",
+      "bytes": 3915,
+      "sha256": "55a3d59958306669e102c46ce11adda3b9fcfd232dde2c9af20654beb856335f"
+    },
+    {
+      "path": "pdf-header.tex",
+      "bytes": 167,
+      "sha256": "8023ab88a0eb961046ce8256a57ab15821aa12862fe5359f94310447ca91b365"
+    },
+    {
+      "path": "replicate_handoff.py",
+      "bytes": 4441,
+      "sha256": "320661b16c835a7e5cf52869019f4386d53737564e104327b89dde39e19ba97c"
+    },
+    {
+      "path": "replication/REPLICATION-RESULTS.json",
+      "bytes": 1896,
+      "sha256": "698bd3a73c96604e5155ddf25985fe889c0396d6edb02a4b058feed5543a157a"
+    },
+    {
+      "path": "replication/count_recomputed.json",
+      "bytes": 681,
+      "sha256": "14cd022b94c2088ec20c4e466bd37d6c04d8533939ca70e0c0c51b2c2be57c4a"
+    },
+    {
+      "path": "replication/count_stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "replication/count_stdout.txt",
+      "bytes": 681,
+      "sha256": "14cd022b94c2088ec20c4e466bd37d6c04d8533939ca70e0c0c51b2c2be57c4a"
+    },
+    {
+      "path": "replication/elimination_recomputed.json",
+      "bytes": 17277,
+      "sha256": "81711feae3be51a01f6f05d857a7aa80f64138fd5101e6aea8f97e206cd3c4b6"
+    },
+    {
+      "path": "replication/elimination_stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "replication/elimination_stdout.txt",
+      "bytes": 598,
+      "sha256": "a48fbb3ab4c57035de0ca1439cf8e5e1c2456828ecd731af321682159ad7cce6"
+    },
+    {
+      "path": "replication/p2_recomputed.json",
+      "bytes": 2639,
+      "sha256": "4ab015310ba9df61d12ba3607663b54ee5b27bc6b20a9b74e8ed47a8d3514812"
+    },
+    {
+      "path": "replication/p2_stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "replication/p2_stdout.txt",
+      "bytes": 2639,
+      "sha256": "4ab015310ba9df61d12ba3607663b54ee5b27bc6b20a9b74e8ed47a8d3514812"
+    },
+    {
+      "path": "replication/p3_recomputed.json",
+      "bytes": 2196,
+      "sha256": "fe070ae371f68c828a3edf50334a6ef2c9a13435716f578860454e1bdf975de8"
+    },
+    {
+      "path": "replication/p3_stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "replication/p3_stdout.txt",
+      "bytes": 172,
+      "sha256": "73e3eabc24df921589b5bc10d36fde15f59bbdf1f4585cd1c74bd6d4d52c2e9b"
+    },
+    {
+      "path": "sources/SOURCE-PROVENANCE.json",
+      "bytes": 729,
+      "sha256": "e73934cde89699c2e92efd4af8b5d52e5580ae73edc82bef32047e8d5f32f984"
+    },
+    {
+      "path": "sources/handoff-overview.md",
+      "bytes": 2984,
+      "sha256": "9cf884b7a3015b281cd795c99f7117db26ff0b227cb89d353d14c3c9ae6bba37"
+    },
+    {
+      "path": "sources/predecessor-count-proof.md",
+      "bytes": 12487,
+      "sha256": "1c5297b1e06bf50ae8b4ff80e7358d74658946a65b3433ed7e01ab114ed3a678"
+    },
+    {
+      "path": "sources/predecessor-count-review.md",
+      "bytes": 5498,
+      "sha256": "6e22c05cb0dcc6489af5cef1b3432d500cca10d0f0804097354bf2e87b550e67"
+    }
+  ]
+}

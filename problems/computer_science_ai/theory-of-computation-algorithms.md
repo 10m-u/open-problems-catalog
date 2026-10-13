@@ -1,6 +1,6 @@
 # Theory of Computation & Algorithms
 
-396 problems: 389 open, 6 open, partial results, 1 solved here: proved.
+404 problems: 397 open, 6 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -265,7 +265,7 @@ Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computat
 | <a id="q3075"></a>[Q3075](theory-of-computation-algorithms-part-1.md#q3075) | Finite regular colourability | Open |
 | <a id="q3076"></a>[Q3076](theory-of-computation-algorithms-part-1.md#q3076) | Finite colourability complexity | Open |
 | <a id="q3077"></a>[Q3077](theory-of-computation-algorithms-part-1.md#q3077) | Bounded clique size | Open |
-| <a id="q3079"></a>[Q3079](theory-of-computation-algorithms-part-1.md#q3079) | Semilinear diagonal predecessors | Open |
+| <a id="q3079"></a>[Q3079](theory-of-computation-algorithms-part-2.md#q3079) | Semilinear diagonal predecessors | Open |
 | <a id="q3080"></a>[Q3080](theory-of-computation-algorithms-part-2.md#q3080) | Three additive clocks | Open |
 | <a id="q3082"></a>[Q3082](theory-of-computation-algorithms-part-2.md#q3082) | Maximal order type of graph minors | Open |
 | <a id="q3083"></a>[Q3083](theory-of-computation-algorithms-part-2.md#q3083) | Minimizing visible pebbles | Open |
@@ -404,3 +404,11 @@ Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computat
 | <a id="q4628"></a>[Q4628](theory-of-computation-algorithms-part-2.md#q4628) | Is there a PRAM algorithm, with polynomially many processors sharing memory, computing a proper… | Open |
 | <a id="q4671"></a>[Q4671](theory-of-computation-algorithms-part-2.md#q4671) | Does this collision-free robot-scheduling problem admit a polynomial-time exact algorithm? | Open |
 | <a id="q4672"></a>[Q4672](theory-of-computation-algorithms-part-2.md#q4672) | What is the computational complexity of the same optimization problem when the graph is a finite… | Open |
+| <a id="q4732"></a>[Q4732](theory-of-computation-algorithms-part-2.md#q4732) | Is ECL=CL? | Open |
+| <a id="q4737"></a>[Q4737](theory-of-computation-algorithms-part-2.md#q4737) | Does every promise problem admitting such an adaptive verifier admit a nonadaptive verifier with… | Open |
+| <a id="q4741"></a>[Q4741](theory-of-computation-algorithms-part-2.md#q4741) | Does some such T produce, up to isomorphism, every graph embeddable without crossings in the… | Open |
+| <a id="q4750"></a>[Q4750](theory-of-computation-algorithms-part-2.md#q4750) | Determine the computational complexity of deciding truth of Q.(φ₁∨φ₂) when each φᵢ is a… | Open |
+| <a id="q4751"></a>[Q4751](theory-of-computation-algorithms-part-2.md#q4751) | Determine the computational complexity of deciding truth of Q.(φ₁∨φ₂) when each φᵢ is a finite… | Open |
+| <a id="q4752"></a>[Q4752](theory-of-computation-algorithms-part-2.md#q4752) | Can one decide in polynomial time whether a finite simple planar graph has a vertex ordering and… | Open |
+| <a id="q4756"></a>[Q4756](theory-of-computation-algorithms-part-2.md#q4756) | Is t≼u equivalent to LL(t)≤LL(u) for all t,u? | Open |
+| <a id="q4787"></a>[Q4787](theory-of-computation-algorithms-part-2.md#q4787) | Is there a constant δ>0 such that, for every sufficiently large n, some nonnegative integer… | Open |

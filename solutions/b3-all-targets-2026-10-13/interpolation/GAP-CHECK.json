@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "certificates": [
+    {
+      "a": 9,
+      "b": 10,
+      "M": 64,
+      "degree": 68,
+      "gap": "9/5",
+      "exact_disjoint_negative_sign_changes": 68,
+      "positive_coefficients": 69,
+      "independent_newton_numerator": true
+    },
+    {
+      "a": 19,
+      "b": 20,
+      "M": 96,
+      "degree": 100,
+      "gap": "19/10",
+      "exact_disjoint_negative_sign_changes": 100,
+      "positive_coefficients": 101,
+      "independent_newton_numerator": true
+    },
+    {
+      "a": 99,
+      "b": 100,
+      "M": 160,
+      "degree": 164,
+      "gap": "99/50",
+      "exact_disjoint_negative_sign_changes": 164,
+      "positive_coefficients": 165,
+      "independent_newton_numerator": true
+    },
+    {
+      "a": 999,
+      "b": 1000,
+      "M": 256,
+      "degree": 260,
+      "gap": "999/500",
+      "exact_disjoint_negative_sign_changes": 260,
+      "positive_coefficients": 261,
+      "independent_newton_numerator": true
+    }
+  ],
+  "certificate_sha256": "61c939cd3d7c3a46e84a72c18a50c0ac23a8ae0546d652fd934febfc44f70306",
+  "checker_sha256": "aa7cb704f1344688932267c10880b84d9457826ec86f87e1d12ba21ab5c7841d",
+  "scope": "Exact IVT certificates prove these bases in U_n. Product closure gives each fixed-gap family for every M at least its certified base; no limit as a/b tends to one is asserted."
+}

@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "certificates": {
+    "restricted_normal_checks": 1619,
+    "independent_matching_proofs": [
+      {
+        "n": 5,
+        "delta": 1,
+        "vertices_enumerated": 12,
+        "minimum_leaves": 2,
+        "minimum_depth": 1,
+        "proof_states": 11
+      },
+      {
+        "n": 5,
+        "delta": 1,
+        "vertices_enumerated": 16,
+        "minimum_leaves": 3,
+        "minimum_depth": 2,
+        "proof_states": 114
+      },
+      {
+        "n": 3,
+        "delta": 1,
+        "vertices_enumerated": 5,
+        "minimum_leaves": 2,
+        "minimum_depth": 1,
+        "proof_states": 7
+      },
+      {
+        "n": 3,
+        "delta": 1,
+        "vertices_enumerated": 5,
+        "minimum_leaves": 2,
+        "minimum_depth": 1,
+        "proof_states": 7
+      },
+      {
+        "n": 3,
+        "delta": 1,
+        "vertices_enumerated": 5,
+        "minimum_leaves": 2,
+        "minimum_depth": 1,
+        "proof_states": 7
+      },
+      {
+        "n": 5,
+        "delta": 1,
+        "vertices_enumerated": 16,
+        "minimum_leaves": 3,
+        "minimum_depth": 2,
+        "proof_states": 114
+      },
+      {
+        "n": 6,
+        "delta": 1,
+        "vertices_enumerated": 25,
+        "minimum_leaves": 2,
+        "minimum_depth": 1,
+        "proof_states": 13
+      },
+      {
+        "n": 6,
+        "delta": 2,
+        "vertices_enumerated": 25,
+        "minimum_leaves": 4,
+        "minimum_depth": 2,
+        "proof_states": 231
+      },
+      {
+        "n": 7,
+        "delta": 1,
+        "vertices_enumerated": 44,
+        "minimum_leaves": 4,
+        "minimum_depth": 3,
+        "proof_states": 1429
+      },
+      {
+        "n": 9,
+        "delta": 1,
+        "vertices_enumerated": 125,
+        "minimum_leaves": 2,
+        "minimum_depth": 1,
+        "proof_states": 19
+      },
+      {
+        "n": 9,
+        "delta": 3,
+        "vertices_enumerated": 125,
+        "minimum_leaves": 8,
+        "minimum_depth": 3,
+        "proof_states": 5908
+      }
+    ]
+  },
+  "haar": {
+    "selection_controls": [
+      {
+        "m": 105,
+        "connected": true,
+        "extraction_arity": 2,
+        "failed_selections": 6
+      },
+      {
+        "m": 1155,
+        "connected": true,
+        "extraction_arity": 3,
+        "failed_selections": 10
+      }
+    ],
+    "two_edge_switches_rejected": 5544,
+    "nonclosing_hamilton_path": [
+      0,
+      5,
+      3,
+      8,
+      2,
+      7,
+      1,
+      6,
+      4,
+      9
+    ],
+    "quotient_lift_controls": 2
+  },
+  "frontier": {
+    "all_five_vertex_graphs": 1024,
+    "literal_equivalence": [
+      {
+        "n": 5,
+        "edges": 10,
+        "collision_groups": 15,
+        "distinct_saturated_partitions": 0,
+        "literal_suffix_comparisons": 131
+      },
+      {
+        "n": 6,
+        "edges": 15,
+        "collision_groups": 122,
+        "distinct_saturated_partitions": 12,
+        "literal_suffix_comparisons": 6387
+      }
+    ],
+    "checked_receipt_states": [
+      14808,
+      13932
+    ],
+    "scope": "Nonnegative costs; bounded exact correctness, no speed claim."
+  },
+  "scope": "Independent controls on failed intermediate routes and exact frontier quotient."
+}

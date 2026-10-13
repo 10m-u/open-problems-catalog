@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "checker": "certify_entropy.py",
+      "sha256": "f62586bb75bb4b4c98b01a83179a1306138cb74ae368aaba58e270bc8dcc8790",
+      "status": "PASS",
+      "seconds": 0.609
+    },
+    {
+      "checker": "verify_midpoint.py",
+      "sha256": "30bc2e2462528d082aee1c2f4ced25d148d7a4623a4b5dbfceda8582cd0c1f98",
+      "status": "PASS",
+      "seconds": 0.387
+    },
+    {
+      "checker": "verify_entropy_boundary.py",
+      "sha256": "eb8e43bb03ccc9544864ae5b2ba3ed483b8bb331c7ba786c8d77cc6cd79b795f",
+      "status": "PASS",
+      "seconds": 0.827
+    }
+  ]
+}

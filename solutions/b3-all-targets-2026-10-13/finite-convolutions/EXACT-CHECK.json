@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "seed": 34363437,
+  "moment_identity_controls": 420,
+  "rectangular_derivative_controls": 528,
+  "exact_obstructions": {
+    "transfer_discriminant": "-4/((alpha + 1)*(alpha + 2)**2)",
+    "unrestricted_real_input_output_e": [
+      "1",
+      "0",
+      "8/5"
+    ],
+    "commutator_kernel_e": [
+      "1",
+      "16/15",
+      "3/5"
+    ],
+    "hermite_quotient_e": [
+      "1",
+      "8/3",
+      "32/9"
+    ],
+    "generic_average": "x**4 - 10*x**2 + 41"
+  },
+  "file_sha256": {
+    "check_exact.py": "25c95ff8c2e54b34719b85c22ccb7c9a5d88382656d76e4db3ef28d828b0e1c8",
+    "MOMENT-RESULTS.md": "a606aee2a1988e106857193189f3d3e5e24b9856c5f7fc3c5392a8a7e95ad91a",
+    "RECTANGULAR-RESULTS.md": "6881f65e527765ba6e0a1a57bfd4e22ace21b31f8642bb537102cd20b270124c"
+  },
+  "scope": "Exact coefficient controls and route obstructions. All-size partial theorem proofs are in the result notes; no full conjecture closure."
+}

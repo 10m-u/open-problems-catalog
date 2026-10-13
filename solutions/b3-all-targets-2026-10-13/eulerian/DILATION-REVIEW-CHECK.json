@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "canonical_volume40_candidate_count": 22,
+  "primitive_input_unrepresentable_dependency": "Previously reviewed all-length degree-two compression theorem.",
+  "primitive_row_by_literal_words": [
+    1,
+    27,
+    12
+  ],
+  "two_coordinate_formula_literal_controls": 1296,
+  "family_literal_controls": [
+    {
+      "t": 1,
+      "row": [
+        1,
+        205,
+        154
+      ]
+    },
+    {
+      "t": 2,
+      "row": [
+        1,
+        772,
+        667
+      ]
+    },
+    {
+      "t": 3,
+      "row": [
+        1,
+        1699,
+        1540
+      ]
+    },
+    {
+      "t": 4,
+      "row": [
+        1,
+        2986,
+        2773
+      ]
+    },
+    {
+      "t": 5,
+      "row": [
+        1,
+        4633,
+        4366
+      ]
+    },
+    {
+      "t": 6,
+      "row": [
+        1,
+        6640,
+        6319
+      ]
+    },
+    {
+      "t": 7,
+      "row": [
+        1,
+        9007,
+        8632
+      ]
+    },
+    {
+      "t": 8,
+      "row": [
+        1,
+        11734,
+        11305
+      ]
+    }
+  ],
+  "leading_units_dilate_into_genuine_coordinates_checked": true,
+  "all_size_forward_dilation_and_family_proved_in_review": true,
+  "accepted_new_failed_route": "E06 primitive-ray equivalence",
+  "rejected_route_stays_rejected": "E01 finite recognizer rerun",
+  "reviewed_sha256": {
+    "DILATION-FAMILIES.md": "c19647faae6d265583907a9715e6867cfc8ada32e80ef3e3629cfd786a20c56a",
+    "Q1262-ATTEMPTS.md": "4bbccb312664d2f630378e758599cab980889c722c92dee944eefe4051e14344",
+    "check_dilation.py": "5255bd9858350fad8b7618413263288effcb7b057c464b147ca5602b6676b0e3",
+    "DILATION-CHECK.json": "bebe142cd016be71d0500ff6574a350ee5dd37d9a13e89487e7053e95659b7af",
+    "check_colored_review.py": "7c501847877f458f17c2058f8f2e253bdc961d656f67ec8d89cfb46b6efa04ee"
+  },
+  "checker_sha256": "ae2387d5dd74d7a56563d462185eee9179ec35bac6fb6bca8d97b982d2d0fca6"
+}

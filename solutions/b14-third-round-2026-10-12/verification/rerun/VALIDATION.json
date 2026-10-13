@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "report_pdf_pages": 11,
+  "pdf_visual_review": "All 11 rendered pages inspected in a contact sheet; equations additionally inspected at full size. Tables are not split; bibliography starts on a separate page.",
+  "pdf_text_outside_safe_page_box": [],
+  "python_sources_syntax_checked": 3,
+  "new_exact_checks": "passed",
+  "numerical_checks": "passed",
+  "predecessor_replication": "passed",
+  "original_zip_unchanged": true,
+  "proof_status": "Written mathematical proof with supporting finite checks; not externally peer-reviewed or formally verified."
+}

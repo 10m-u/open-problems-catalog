@@ -1,0 +1,674 @@
+{
+  "updated": "2026-10-12",
+  "scope": "Full current B2 questions; partial results do not reset counters; root reviews each route.",
+  "targets": [
+    {
+      "target": "Q1860",
+      "status": "pending_failure_limit_review",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Full parity-class optimization plus unrestricted reduction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Cyclic rainbow-triangle certificate coefficient",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Consecutive-block scaling carry",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Class-size-only correlation bound",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Uniform one-step rainbow increment induction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/colouring/Q1860-ATTEMPTS.md",
+        "paley/colouring/COLOUR-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": false
+    },
+    {
+      "target": "Q1861",
+      "status": "pending_failure_limit_review",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Universal consecutive-block convergence lift",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Prefix increment inequalities imply convergence",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Translated-copy Fekete assembly",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Two-prefix two-tail palette construction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Uniform random refinement of parity optimum",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/colouring/Q1861-ATTEMPTS.md",
+        "paley/colouring/COLOUR-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": false
+    },
+    {
+      "target": "Q1959",
+      "status": "pending_failure_limit_review",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Almost lossless modular embedding",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Smallest doubled-pair translation estimate",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Full basic cube-hyperedge LP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Density-only seven-form correlation factorization",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Upward order compression",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/cubes/Q1959-ATTEMPTS.md",
+        "paley/cubes/CUBE-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": false
+    },
+    {
+      "target": "Q1960",
+      "status": "pending_failure_limit_review",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Meng diagonal-progression sufficient theorem",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "CRT fiber preservation induction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Dimension induction through translated links",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Density-only joint-form counting",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Maximum-cardinality quotient-fiber classification",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/cubes/Q1960-ATTEMPTS.md",
+        "paley/cubes/CUBE-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": false
+    },
+    {
+      "target": "Q1961",
+      "status": "pending_failure_limit_review",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Largest-layer deterministic compression",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Parity induction with intermediate density gap",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Lowering four-translate intersection threshold",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Unit-averaged linear cube marginal relaxation",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Pure diagonal weakening of source Conjecture5.2",
+          "outcome": "full_target_failure",
+          "root_review_accepted": false,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/cubes/Q1961-ATTEMPTS.md",
+        "paley/cubes/CUBE-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": false
+    },
+    {
+      "target": "Q2008",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2187",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Collective fourth-moment bootstrap with individual Weil estimates",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Moving-degree localization to polylogarithmic scale",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Optimized full degree-four SOS certificate",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Size-only small-doubling precursor to sum-product",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Approximate multiplicative concentration from residue membership",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2187-ATTEMPTS.md",
+        "paley/ROUTE-CHECK-RESULTS.json"
+      ]
+    },
+    {
+      "target": "Q2188",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "One-local theta power-saving transfer",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Two-anchor conditional positivity from degree-four moments",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Affine averaging to identify full and FK optima",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Project constants away in graph-matrix analysis",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Simultaneous scalar Fourier diagonalization of orbit moments",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2188-ATTEMPTS.md",
+        "paley/ROUTE-CHECK-RESULTS.json"
+      ]
+    },
+    {
+      "target": "Q2189",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Adjacency-only Hoffman/Jacobi spectral magic dual",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Bounded Fourier-rank positive magic function",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Lift combinatorial Hanson-Petridis bound to theta LP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Integralize the cyclic theta LP before rounding",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Tensor-amplify a finite seed certificate",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2189-ATTEMPTS.md",
+        "paley/THETA-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q2190",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Predicted edge plus scalar Hoffman ratio",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Inherited multiplicative circulant diagonalization",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Iterative degree-two theta pseudo-conditioning",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Elliptic degree regularization and corrected dual",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Projective S3 averaging to scalar LP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2190-ATTEMPTS.md",
+        "paley/TWO-LOCAL-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q2191",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Exact conference powers after support compression",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Symmetry randomization to random-row sampling",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Algebraic norm quantification of full spark",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Individual uncertainty to flat joint phase cancellation",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Random-support fourth moment to worst-support RIP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2191-ATTEMPTS.md",
+        "paley/RIP-CHECK-RESULTS.json"
+      ]
+    },
+    {
+      "target": "Q2203",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2210",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2213",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2215",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2216",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2217",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2462",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2468",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2469",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2616",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2617",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2814",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2815",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2816",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q2817",
+      "status": "queued",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": []
+    },
+    {
+      "target": "Q3116",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q3117",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q3466",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q4295",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q4296",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q4302",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q4642",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q4643",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q4659",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    },
+    {
+      "target": "Q4660",
+      "status": "transferred_to_root",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [],
+      "ownership": "root"
+    }
+  ],
+  "broader_transfer": {
+    "status": "solved_locally",
+    "evidence": [
+      "paley/INDICATOR-CONCENTRATION.md",
+      "paley/INDICATOR-CHECK-RESULTS.json"
+    ],
+    "scope": "Uniform size-sensitive approximate concentration theorem for centered indicators, completion direction separated; anchored clique transform support consequence; no clique upper bound.",
+    "root_review_accepted": true
+  }
+}

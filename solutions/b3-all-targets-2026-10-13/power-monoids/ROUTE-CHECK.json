@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "multiplicity_formula_controls": 316,
+  "boundary_controls": 63,
+  "all_boundary_defect_identity_controls": 98,
+  "N_cutoff4_row": [
+    0,
+    0,
+    4,
+    4,
+    2,
+    0
+  ],
+  "nonzero_factor_discriminant": -4,
+  "distinct_decomposable_rank_counts": {
+    "3": 2,
+    "4": 2,
+    "5": 1
+  },
+  "factor_pair_rank_counts": {
+    "3": 2,
+    "4": 3,
+    "5": 5
+  },
+  "rank_state_transition_rows": [
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      0
+    ]
+  ],
+  "checker_sha256": "b44c928eb935542b79ace1e7703aace607f889c80f94701a71d5b8eaaf18f3a4",
+  "scope": "Finite controls through12 and exact in-class route obstructions; all-size l<=2m proof is separate."
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "b3-cycle-hankel-routes-v1",
+  "date": "2026-10-13",
+  "passed": true,
+  "counts": {
+    "compound_poisson_moment_coefficients": 726,
+    "shifted_row_formulas": 23,
+    "shifted_triple_coefficient_formulas": 69,
+    "ratio_lower_bounds": 46,
+    "coefficient_isolation_controls": 23
+  },
+  "subset_scope_control": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    -16,
+    19110,
+    938700,
+    15309000,
+    79380000
+  ],
+  "source_sha256": "7098c818dc515a075561ed87ed603c2d4ab6a698c91d2f20cf9c85014c54b92c",
+  "scope": "Universal partials rest on written proof; finite controls and route obstructions do not close cycle conjectures."
+}

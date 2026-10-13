@@ -1,6 +1,6 @@
-# Combinatorics & Graph Theory (part 1 of 3)
+# Combinatorics & Graph Theory (part 1 of 4)
 
-[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
+[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md) · [4](combinatorics-graph-theory-part-4.md)
 
 <a id="q17"></a>
 
@@ -341,6 +341,7 @@ For every path or cycle G on n vertices and integer ℓ ≥ 1, is the sequence �
 - **Related result** (B3C-03: Laminar interval ULC): For every integer m>=0, every laminar family of integer-bounded linear intervals on m binary positions, and all nonnegative position weights, the weighted feasible-word ranks are ULC of order m. Limits: Typical overlapping path neighborhoods are not laminar. Convolution closure is published, not claimed new. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
 - **Counterexample (to a stronger or nearby claim)** (B3C-10: One-bit inclusion matching fails): In dimension six, equations x1+x2=x2+x3=x4+x5=x5+x6=1 give rank counts (0,0,1,2,1,0,0). The unique rank-two word 010010 has no feasible rank-three superset. Limits: Refutes the stated stronger matching route, not APP or ULC. The stalled agent matching definition was not supplied. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
 - **Counterexample (to a stronger or nearby claim)** (B3C-11: Coefficientwise ULC fails): The unrestricted two-variable family has central normalized ULC defect w1^2-2\*w1\*w2+w2^2, whose mixed coefficient is -2. Limits: Numerical nonnegativity survives, since the defect is (w1-w2)^2. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2408.12731) · [2](https://www3.nd.edu/~dgalvin1/pdf/journal/domination-arxiv.pdf)
 
@@ -398,6 +399,8 @@ Which permutations π of {0,…,n} satisfy c[π(0)] ≤ ⋯ ≤ c[π(n)] for the
 **Results.**
 
 - **Partial result**: Complete all-integer classification, including every ordering compatible with ties, for n=1,2,3,4. Counts are 2,3,6,8; all orders have exact witnesses and exhaustiveness proofs. Remaining: General degree n remains unresolved. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
+- **Partial result** (B3-ALL-TARGETS-Q167-DEGREE-FIVE: Complete integer coefficient ordering in degree five): For products of five linear factors 1+r_i\*x with positive integer r_i, exactly fourteen coefficient orders occur, including every ordering allowed by ties. Three reciprocal dominance implications prove exhaustion and exact integer tuples witness every order. Remaining/limits: Arbitrary degree remains unresolved. The earlier complete degrees one through four and their existing partial topic are preserved. [Report](../../solutions/b3-all-targets-2026-10-13/coefficient-orders/DEGREE-FIVE.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 
 <a id="q168"></a>
@@ -648,6 +651,7 @@ For a skew Ferrers board λ/μ, let rₖ count placements of k rooks with distin
 **Results.**
 
 - **Investigated, unresolved** (B3: submitted unresolved): Every board with at most two rows or at most two columns has a real-rooted non-nesting rook polynomial, by a quadratic discriminant bound. Remaining/limits: Only an elementary control subclass. The entire forbidden-board avoidance class is unresolved. [Report](../../solutions/b3-2026-10-06/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2607.00922) · [2](https://arxiv.org/abs/2410.00127)
 
@@ -1518,6 +1522,7 @@ Is C^(r) totally positive for every integer r≥2?
 **Results.**
 
 - **Partial result**: Every cycle-triangle minor of order at most two is nonnegative for every r>=1. Exact Neville factors certify all minors of the 25x25 blocks for r=2,3,11,12,16,32. Remaining: Infinite minors of order at least three remain unresolved. Source already reports larger finite blocks for r<=10. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://bishaldeb.com/research.html) · [2](https://discovery.ucl.ac.uk/10179955/1/BishalDeb_PhDThesis_Final.pdf) · [3](https://github.com/Carptopus/MathExplore-Notes/blob/master/research/higher-order-stirling-cycle-logconcavity/higher-order-stirling-cycle-logconcavity.tex) · [4](https://bishaldeb.com/CV.pdf)
 
@@ -1539,6 +1544,7 @@ Is S^(r) totally positive for every integer r≥2?
 **Results.**
 
 - **Partial result**: Every subset-triangle minor of order at most two is nonnegative for every r>=1. Exact Neville factors certify all minors of the 25x25 blocks for r=2,3,11,12,16,32. Remaining: Infinite minors of order at least three remain unresolved. Source already reports larger finite blocks for r<=10. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://bishaldeb.com/research.html) · [2](https://discovery.ucl.ac.uk/10179955/1/BishalDeb_PhDThesis_Final.pdf) · [3](https://github.com/Carptopus/MathExplore-Notes/blob/master/research/higher-order-stirling-cycle-logconcavity/higher-order-stirling-cycle-logconcavity.tex) · [4](https://bishaldeb.com/CV.pdf)
 
@@ -1561,6 +1567,8 @@ For every integer r≥3, does every minor of (c_(r,i+j)(x))\_(i,j≥0) have nonn
 
 - **Partial result**: For every r>=2 and every cycle Hankel minor on increasing nonnegative index sets I,J, the degree is sum(I)+sum(J), the vanishing order is |I|-1_{0 in I and 0 in J}, and both extreme coefficients are strictly positive. Remaining: Interior coefficient positivity remains unresolved. A negative coefficient in a related subset Hankel minor is not a counterexample to this cycle question. B3 continuation (7 Oct): B3C-04 Leading cycle Hankel block; none closes the question. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
 - **Related result** (B3C-04: Leading cycle Hankel block): For every integer r>=2, all nonempty minors of (c_(r,i+j)(x))\_(i,j=0)^2 are coefficientwise nonnegative, with positive coefficients throughout each stated nonzero support. The 3x3 determinant has support exactly degrees 2 through 6. Limits: Only row and column indices 0,1,2. Universal Hankel TN2 for either family and arbitrary cycle order-three minors remain unproved here. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
+- **Partial result** (B3-ALL-TARGETS-Q1160-TN2: All-size partial scope of the cycle Hankel conjecture): Every coefficientwise Hankel minor of order two is nonnegative, for all integer r>=1 and arbitrary row and column gaps, by the separate B3C-Q02 proof. Remaining/limits: The catalog assertion requires every order. Its existing partial ledger topic and earlier proofs remain unchanged. [Report](../../solutions/b3-all-targets-2026-10-13/stirling/HANKEL-TN2.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://bishaldeb.com/research.html) · [2](https://discovery.ucl.ac.uk/10179955/1/BishalDeb_PhDThesis_Final.pdf) · [3](https://github.com/Carptopus/MathExplore-Notes/blob/master/research/higher-order-stirling-cycle-logconcavity/higher-order-stirling-cycle-logconcavity.tex) · [4](https://bishaldeb.com/CV.pdf)
 
@@ -1582,6 +1590,7 @@ For every n≥1, do all zeros of c_(3,n)(x) and s_(3,n)(x) satisfy Re z≤0?
 **Results.**
 
 - **Investigated, unresolved** (B3: submitted unresolved): Both third-order row families, for each n=1,...,80, have a simple zero at 0 and all other roots strictly in the left half-plane, certified by exact rational Routh pivots. Remaining/limits: No all-n stability proof. Failure of generic differential-operator stability preservation does not refute stability of the actual rows. [Report](../../solutions/b3-2026-10-06/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://bishaldeb.com/research.html) · [2](https://discovery.ucl.ac.uk/10179955/1/BishalDeb_PhDThesis_Final.pdf) · [3](https://github.com/Carptopus/MathExplore-Notes/blob/master/research/higher-order-stirling-cycle-logconcavity/higher-order-stirling-cycle-logconcavity.tex) · [4](https://bishaldeb.com/CV.pdf)
 
@@ -1895,6 +1904,7 @@ Characterize all positive integer vectors m,r for which A_m^r equals an s-Euleri
 - **Related result** (B3C-07: Degree-dependent s-Eulerian representation bound): Every nonconstant s-Eulerian polynomial of integer degree d>=1 has a representing positive integer vector of length at most 2d-1. Limits: Existential bound after deleting units and contracting all-two blocks; all-degree sharpness for (1+ux)^d is not recovered. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
 - **Related result** (B3C-08: Connected quadratic s-Eulerian inequality): For every positive integer vector s with all entries >=2, if E_s(x)=1+h_1 x+h_2 x^2 has degree exactly two, then h_1>h_2>0. Limits: Degree-two blocks only; does not establish simple roots for every nonunit block. Exceptional (2,6,3) coefficients corrected to (1,19,16). [Report](../../solutions/b3-continuation-2026-10-07/README.md).
 - **Related result** (B3C-09: Exact uncoloured multiplicity (2,b) classification): For every positive integer b, A_(2,b)(x)=1+2b x+binom(b,2)x^2 is s-Eulerian for some positive integer vector of arbitrary length iff b=2 or b(b+1)/2 is an integer square. Limits: Exact subfamily of general coloured multiset question Q1262; not full classification. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2407.12076) · [2](https://escholarship.org/content/qt135937h5/qt135937h5_noSplash_af6056425c67947c0d921d43ba376183.pdf) · [3](https://arxiv.org/abs/2608.15682) · [4](https://diva-portal.org/smash/get/diva2%3A1961783/FULLTEXT01.pdf) · [5](https://www.kth.se/files/view/danaide/672b8fdbd5a5635b8db995c5/cv-nov-2024.pdf)
 
@@ -1903,7 +1913,7 @@ Characterize all positive integer vectors m,r for which A_m^r equals an s-Euleri
 
 ## Q1263. Interpret the two gamma vectors of colored multiset polynomials
 
-**Status:** Open · **Kind:** open problem (Question 4.7) · **Collection** 13
+**Status:** Open, partial results · **Kind:** open problem (Question 4.7) · **Collection** 13
 
 When A_m^r=a+xb is bi-γ-positive, give combinatorial interpretations of both γ-vectors: a=Σγ\_i x^i(1+x)^(d−2i), b=Ση\_i x^i(1+x)^(d−1−2i), where d=deg A_m^r and all γ\_i,η\_i≥0.
 
@@ -1915,7 +1925,10 @@ When A_m^r=a+xb is bi-γ-positive, give combinatorial interpretations of both γ
 
 **Results.**
 
+- **Partial result**: For permutations of N distinct symbols with a common color count r>=2, the last-color endpoint partition gives actual word subsets for both ordinary symmetric parts in every N. For N=1,2 and every r, explicit word orbits interpret both gamma vectors. The general colored-multiset gamma interpretation remains unresolved; repeated symbols invalidate the literal endpoint involution. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/eulerian/ENDPOINT-COLORS.md).
 - **Investigated, unresolved** (B3: submitted unresolved): Exact symmetric decomposition and gamma conversion implemented. Closed gamma formulas for two singleton symbols with color counts u,v>=2. Remaining/limits: No general combinatorial interpretation of both gamma vectors. [Report](../../solutions/b3-2026-10-06/README.md).
+- **Partial result** (B3-ALL-TARGETS-Q1263-ENDPOINTS: Colored endpoint subsets and small gamma orbits): For permutations of N distinct symbols with a common color count r>=2, the last-color endpoint partition gives actual word subsets for both ordinary symmetric parts in every N. For N=1,2 and every r, explicit word orbits interpret both gamma vectors. Remaining/limits: The general colored-multiset gamma interpretation remains unresolved; repeated symbols invalidate the literal endpoint involution. [Report](../../solutions/b3-all-targets-2026-10-13/eulerian/ENDPOINT-COLORS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2407.12076) · [2](https://escholarship.org/content/qt135937h5/qt135937h5_noSplash_af6056425c67947c0d921d43ba376183.pdf) · [3](https://arxiv.org/abs/2608.15682) · [4](https://diva-portal.org/smash/get/diva2%3A1961783/FULLTEXT01.pdf) · [5](https://www.kth.se/files/view/danaide/672b8fdbd5a5635b8db995c5/cv-nov-2024.pdf)
 
@@ -2260,7 +2273,7 @@ Determine the enumeration, by length n≥0, of Baxter king permutations.
 
 ## Q1366. Unimodality of pattern intervals
 
-**Status:** Open · **Kind:** conjecture (Conjecture 9.4) · **Collection** 14
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 9.4) · **Collection** 14
 
 For every interval [σ,τ], is (a₀,…,a_(|τ|−|σ|)) unimodal, meaning weakly increasing up to some index and weakly decreasing thereafter?
 
@@ -2272,7 +2285,10 @@ For every interval [σ,τ], is (a₀,…,a_(|τ|−|σ|)) unimodal, meaning weak
 
 **Results.**
 
+- **Partial result**: Classical pattern intervals with layered endpoints and the same layer count are products of chains and have log-concave rank rows. Layered two-layer tops with a one-layer bottom have positive arithmetically concave, hence log-concave, rank rows. Occurrence fibers are included rather than treating occurrences as distinct permutations. General intervals between arbitrary permutations remain unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/patterns/LAYERED-INTERVALS.md).
 - **Investigated, unresolved** (B3: submitted unresolved): All 200523 classical-pattern intervals with nonempty bottom and top length<=7 are unimodal; 206436 if the empty bottom is included. Literal subset enumeration independently checks downsets through length5. Remaining/limits: The infinite interval conjecture remains unresolved. The rank vector (1,2,5,5,1) is a log-concavity failure, not a unimodality failure. [Report](../../solutions/b3-2026-10-06/README.md).
+- **Partial result** (B3-ALL-TARGETS-Q1366-LAYERS: All-size layered permutation interval rank inequalities): Classical pattern intervals with layered endpoints and the same layer count are products of chains and have log-concave rank rows. Layered two-layer tops with a one-layer bottom have positive arithmetically concave, hence log-concave, rank rows. Occurrence fibers are included rather than treating occurrences as distinct permutations. Remaining/limits: General intervals between arbitrary permutations remain unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/patterns/LAYERED-INTERVALS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/1305.5569) · [2](https://arxiv.org/abs/2602.16355)
 
@@ -2362,6 +2378,7 @@ For every permutation β of length at least two, let a_n count permutations of [
 **Results.**
 
 - **Investigated, unresolved** (B3: submitted unresolved): Known Catalan and finite-atomic moment cases supply explicit nonnegative measures and exact PSD/rank controls for the toolkit. Remaining/limits: No general principal-pattern avoidance moment theorem. These are calibration cases, not claimed new family results. [Report](../../solutions/b3-2026-10-06/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.37236/9402) · [2](https://arxiv.org/abs/2602.16355) · [3](https://hdl.handle.net/11343/219277) · [4](https://www.idpoisson.fr/elveyprice/en/) · [5](https://ms.unimelb.edu.au/__data/assets/pdf_file/0004/3265447/Issue-14-January-2020.pdf)
 
@@ -3446,6 +3463,10 @@ For integers n≥4 and k≥2, must every spanning G⊆P_n^k satisfying deg_G(v)�
 
 **Literature check.** Status for questions 1852, 1853, checked 6 October 2026: Explicitly conjectured in January 2026; no later resolution found by 6 October.
 
+**Results.**
+
+- **Investigated, unresolved** (B14-STOP-REGISTER: Per-problem failed-route register): The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing. [Report](../../solutions/b14-second-round-2026-10-12/CONTROL.md).
+
 **Further links.** [1](https://arxiv.org/abs/2407.05889) · [2](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i1p21/pdf/)
 
 
@@ -3462,6 +3483,10 @@ For integers n≥3 and 1≤k≤floor(n/2), must every spanning G⊆C_n^k with mi
 **Source.** Alberto Espuny Díaz; Pranshu Gupta; Domenico Mergoni Cecchelli; Olaf Parczyk; Amedeo Sgueglia. *Dirac’s Theorem for Graphs of Bounded Bandwidth*. 2026. [primary source](https://doi.org/10.37236/13474) Location: Conjecture 1, p. 2.
 
 **Literature check.** Status for questions 1852, 1853, checked 6 October 2026: Explicitly conjectured in January 2026; no later resolution found by 6 October.
+
+**Results.**
+
+- **Investigated, unresolved** (B14-STOP-REGISTER: Per-problem failed-route register): The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing. [Report](../../solutions/b14-second-round-2026-10-12/CONTROL.md).
 
 **Further links.** [1](https://arxiv.org/abs/2407.05889) · [2](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i1p21/pdf/)
 
@@ -3572,7 +3597,7 @@ Is there no unbalanced distance-biregular graph of diameter d≥8 and girth 2d�
 
 ## Q1860. Settle the rainbow Schur density
 
-**Status:** Open · **Kind:** open problem (Problem 1.2) · **Collection** 19
+**Status:** Open, partial results · **Kind:** open problem (Problem 1.2) · **Collection** 19
 
 Is lim_(n→∞) Λ\_(n,3)=9/22?
 
@@ -3585,6 +3610,8 @@ Is lim_(n→∞) Λ\_(n,3)=9/22?
 **Results.**
 
 - **Investigated, unresolved** (B2: submitted unresolved): Exploratory three-color interval/residue searches did not beat 9/22; no certificate of optimality was produced. Remaining/limits: The claimed limiting value 9/22 is neither proved nor disproved. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-RAINBOW-PARITY: Exact rainbow optimum with one monochromatic parity class): When all even integers have the same color, the maximum asymptotic normalized rainbow-Schur count is 9/22, with uniform discretization control for the odd coloring. Remaining/limits: No reduction of unrestricted colorings to this subclass. Prior return bound and mark retained. [Report](../../solutions/b2-continuation-2026-10-12/paley/colouring/PARITY-OPTIMUM.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/html/2609.18474v1) · [2](https://doi.org/10.37236/13554)
 
@@ -3607,6 +3634,8 @@ Determine liminf_(n→∞) Λ\_(n,4) and limsup_(n→∞) Λ\_(n,4), including w
 
 - **Partial result**: Independently verified root-agent construction giving density50368/90905 by exact integer lattice counts at n=t·90905 for t=1,2,3,10,100; checked rectangle counting formula in2548 small cases. Proved liminf Lambda_(n,4)>=50368/90905 with an explicit nine-interval coloring. For all integers t>=1, R_(90905t)=2289351520t^2+25184t; an integer inclusion-exclusion identity certifies every scale. Restricted scope: No hypothesis restriction for the lower-bound theorem; only a one-sided conclusion from the retained determination problem is proved. Remaining: The exact liminf, limsup, and their equality remain unresolved; the cited upper bound 3/4 remains. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-R1: auxiliary proof submission): liminf Lambda_(n,4)>=50368/90905; exact nine-interval count R_(90905t)=2289351520t^2+25184t for every integer t>=1. Location: Part A, section 1. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-RAINBOW-PREFIX: Exact optimum in the two-prefix palette family): The specified two-prefix three-color template has exact asymptotic optimum 3/7; the checked uniform parity refinements give at most 60/121. Remaining/limits: These are restricted templates, below the preserved return bound 50368/90905. No proof of convergence for all unrestricted maxima. [Report](../../solutions/b2-continuation-2026-10-12/paley/colouring/TWO-PREFIX.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/html/2609.18474v1) · [2](https://doi.org/10.37236/13554)
 
@@ -3778,6 +3807,10 @@ Is every connected bicirculant Hamiltonian, except K₂ and G(m,2) for m≡5 (mo
 
 **Literature check.** Status for question 1953, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
 
+**Results.**
+
+- **Investigated, unresolved** (B14-STOP-REGISTER: Per-problem failed-route register): The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing. [Report](../../solutions/b14-second-round-2026-10-12/CONTROL.md).
+
 **Further links.** [1](https://doi.org/10.1007/s00373-026-03016-w) · [2](https://doi.org/10.1007/s00009-026-03160-w)
 
 
@@ -3864,288 +3897,4 @@ Does a finite simple planar graph G exist with (ch_sep(G),ch_ad(G),χ\_sc(G))=(3
 **Literature check.** Status for questions 1957, 1958, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
 
 **Further links.** [1](https://arxiv.org/abs/2601.06990)
-
-
-<a id="q1959"></a>
-
-## Q1959. Bound projective-cube-free integer sets
-
-**Status:** Open · **Kind:** conjecture (Conjecture 3) · **Collection** 20
-
-Is the maximum size of a 3-cube-free subset of {1,…,N} at most (2/3+o(1))N as N→∞?
-
-**Context.** Origin for questions 1959, 1960: Integer question: Sean Eberhard and Cosmin Pohoata; cyclic question: Meng. Setup for questions 1959, 1960: A projective d-cube generated by a multiset a₁,…,a_d consists of all nonempty subset sums ∑\_(i∈I)a_i. Generators may repeat, and coincident sums are allowed. A set is d-cube-free if it contains no such cube.
-
-**Source.** Yuchen Meng. *On Cube-Free Problems*. 2026. [primary source](https://doi.org/10.37236/14052) Location: Conjecture 3, p. 2.
-
-**Literature check.** Status for questions 1959, 1960, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Results.**
-
-- **Investigated, unresolved** (B2: submitted unresolved): No new result supplied. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
-
-**Further links.** [1](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i1p16/pdf/) · [2](https://seaneberhard.com/2020/01/17/the-avoidance-density-of-kl-sum-free-sets/) · [3](https://gist.github.com/hypnopump/8a369af584796b25c9af586b4fe39385)
-
-
-<a id="q1960"></a>
-
-## Q1960. Bound projective-cube-free cyclic sets
-
-**Status:** Open · **Kind:** conjecture (Conjecture 4) · **Collection** 20
-
-For all integers d≥2 and N divisible by d, must every d-cube-free A⊆Z/NZ satisfy |A|≤(d−1)N/d?
-
-**Context.** Origin for questions 1959, 1960: Integer question: Sean Eberhard and Cosmin Pohoata; cyclic question: Meng. Setup for questions 1959, 1960: A projective d-cube generated by a multiset a₁,…,a_d consists of all nonempty subset sums ∑\_(i∈I)a_i. Generators may repeat, and coincident sums are allowed. A set is d-cube-free if it contains no such cube.
-
-**Source.** Yuchen Meng. *On Cube-Free Problems*. 2026. [primary source](https://doi.org/10.37236/14052) Location: Conjecture 4, p. 2.
-
-**Literature check.** Status for questions 1959, 1960, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Results.**
-
-- **Investigated, unresolved** (B2: submitted unresolved): No new result supplied. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
-
-**Further links.** [1](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i1p16/pdf/) · [2](https://seaneberhard.com/2020/01/17/the-avoidance-density-of-kl-sum-free-sets/) · [3](https://gist.github.com/hypnopump/8a369af584796b25c9af586b4fe39385)
-
-
-<a id="q1961"></a>
-
-## Q1961. Prove the five-eighths projective-cube bound
-
-**Status:** Open · **Kind:** conjecture (Conjecture 5.1) · **Collection** 20
-
-For every integer n≥3, must a projective-3-cube-free subset of Z/(2^n)Z have at most 5·2^(n−3) elements?
-
-**Context.** Origin for question 1961: Long–Wagner, Conjecture 5.1 (2018 preprint). Setup for question 1961: In Z/(2^n)Z, a projective 3-cube is {x,y,z,x+y,x+z,y+z,x+y+z}, with repetitions and degeneracies allowed.
-
-**Source.** Jason Long; Adam Zsolt Wagner. *The largest projective cube-free subsets of Z_(2^n)*. 2019. [primary source](https://arxiv.org/abs/1810.01225) Location: Conjecture 5.1, preprint p. 21.
-
-**Literature check.** Status for question 1961, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Results.**
-
-- **Investigated, unresolved** (B2: submitted unresolved): No new result supplied. Remaining/limits: No exact closure established in this session. [Report](../../solutions/b2-2026-10-07/README.md).
-
-**Further links.** [1](https://doi.org/10.1016/j.ejc.2019.05.005) · [2](https://doi.org/10.37236/14052) · [3](https://prove2.me/f/combinatorics?status=all)
-
-
-<a id="q1962"></a>
-
-## Q1962. Force increasing subsequences with few zero entries
-
-**Status:** Open · **Kind:** conjecture (Conjecture 1.2) · **Collection** 20
-
-For all integers 2≤k≤n, must every 12…k-permutation-forcing n×n matrix have at least n(k−2)−k(k−3)/2 zero entries?
-
-**Context.** Origin for question 1962: Brualdi–Cao–Goldwasser, Conjecture 1.2. Setup for question 1962: An n×n (0,1)-matrix A with nonzero permanent is 12…k-permutation forcing if every permutation matrix P≤A corresponds to a permutation containing an increasing subsequence of length k.
-
-**Source.** Richard A. Brualdi; Lei Cao; John L. Goldwasser. *Permutation forcing (0,1)-matrices*. 2026. [primary source](https://ajc.maths.uq.edu.au/pdf/95/ajc_v95_p201.pdf) Location: Conjecture 1.2, p. 203.
-
-**Literature check.** Status for question 1962, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Further links.** [1](https://scholars.nova.edu/en/publications/permutation-forcing-0-1-matrices/)
-
-
-<a id="q1963"></a>
-
-## Q1963. Find induced cycles on half the cubic vertices
-
-**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 20
-
-Must every finite simple cubic graph G on n vertices satisfy c_ind(G)≥n/2?
-
-**Context.** Origin for question 1963: Michael A. Henning, Felix Joos, Christian Löwenstein and Thomas Sasse, Induced cycles in graphs (2016). Setup for question 1963: For a finite simple graph G, c_ind(G) is the largest size of S⊆V(G) for which every vertex of the induced graph G[S] has degree two.
-
-**Source.** Martin Knor; Jelena Sedlar; Riste Škrekovski. *Counterexamples to two conjectures on (1,2)-domination in cubic graphs*. 2026. [primary source](https://arxiv.org/abs/2608.17851) Location: Conjecture 1, p. 2.
-
-**Literature check.** Status for question 1963, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Further links.** [1](https://arxiv.org/html/2608.17851v2)
-
-
-<a id="q1964"></a>
-
-## Q1964. Acyclically edge-colour with two extra colours
-
-**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 20
-
-Does every finite simple graph G have an acyclic edge colouring with at most Δ(G)+2 colours?
-
-**Context.** Origin for question 1964: J. Fiamčík (1978); independently Alon–Sudakov–Zaks (2001). Setup for question 1964: An acyclic edge colouring is a proper edge colouring in which no cycle uses only two colours. Δ(G) denotes maximum degree.
-
-**Source.** Nevil Anto; Manu Basavaraju; Shashanka Kulamarva. *Acyclic edge coloring of 3-sparse graphs*. 2026. [primary source](https://doi.org/10.1016/j.disc.2026.115135) Location: Conjecture 1, introduction; preprint p. 2.
-
-**Literature check.** Status for question 1964, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Further links.** [1](https://arxiv.org/abs/2501.11281) · [2](https://www.sciencedirect.com/science/article/pii/S0012365X26001597)
-
-
-<a id="q1965"></a>
-
-## Q1965. Classify maximum independent sets of folded cubes
-
-**Status:** Open · **Kind:** open problem · **Collection** 20
-
-For every odd n≥11, is every maximum independent set of F_n canonical?
-
-**Context.** Doctoral context for questions 1952, 1965: given in the source heading above. Origin for question 1965: Rooney’s maximum-coclique question. Setup for question 1965: For n=2r+1≥3, let F_n be the n-cube with antipodal vertices identified. Put Γ\_i(v)={u:d(u,v)=i}. Its canonical independent sets are ⋃\_{0≤i&lt;r, i≢r (mod 2)} Γ\_i(v).
-
-**Source.** Brendan Rooney. *Spectral Aspects of Cocliques in Graphs*. 2014. Advisor(s): Chris Godsil. [primary source](https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/9e341e30-a231-4891-a7ea-38cc3144dc7c/content) Location: §4.4, pp. 67–68; §4.12, p. 89.
-
-**Literature check.** Status for question 1965, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Further links.** [1](https://uwspace.uwaterloo.ca/items/8228cdbf-5228-4edd-84cc-c90661cae564/full) · [2](https://www.math.uwaterloo.ca/~cgodsil/mine/students.html)
-
-
-<a id="q1966"></a>
-
-## Q1966. Force chords in longest cycles
-
-**Status:** Open · **Kind:** conjecture (Conjecture 1.4) · **Collection** 20
-
-In every 2-connected graph of minimum degree at least three, does every longest cycle have a chord?
-
-**Context.** Origin for question 1966: Daniel J. Harvey’s conjecture, restated by Wu–Zhang. Setup for question 1966: A chord of a cycle joins two nonconsecutive vertices of that cycle. All graphs are finite and simple.
-
-**Source.** Haidong Wu; Shunzhe Zhang. *Chords of longest cycles in graphs with large circumferences*. 2025. [primary source](https://arxiv.org/abs/2511.03422) Location: Conjecture 1.4, preprint p. 2.
-
-**Literature check.** Status for question 1966, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Further links.** [1](https://doi.org/10.1016/j.dam.2026.07.025) · [2](https://arxiv.org/abs/2410.19005)
-
-
-<a id="q1967"></a>
-
-## Q1967. Partition twin-free graphs into locating-dominating sets
-
-**Status:** Open · **Kind:** open problem (Problem 3) · **Collection** 20
-
-Can the vertices of every finite simple isolate-free, twin-free graph be partitioned into two locating-dominating sets?
-
-**Context.** Origin for question 1967: Garijo–González–Márquez; Foucaud–Henning; Foucaud–Henning–Löwenstein–Sasse. Restated as Problem 3. Setup for question 1967: A locating-dominating set S satisfies: every vertex outside S has a neighbour in S, and distinct vertices outside S have distinct neighbourhoods in S. A graph is twin-free if no two vertices have equal open or equal closed neighbourhoods.
-
-**Source.** Dipayan Chakraborty; Florent Foucaud; Michael A. Henning; Tero Laihonen. *A note on partitioning the vertex set of a graph into a dominating set and a locating dominating set*. 2026. [primary source](https://doi.org/10.37236/14049) Location: Problem 3 and following paragraph, pp. 3–4.
-
-**Literature check.** Status for question 1967, checked 6 October 2026: Checked 6 October 2026; no later resolution found.
-
-**Further links.** [1](https://arxiv.org/abs/2610.03131) · [2](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i1p51/pdf/)
-
-
-<a id="q2051"></a>
-
-## Q2051. Odd five-colour all planar graphs
-
-**Status:** Open · **Kind:** conjecture (Conjecture 1.3.1) · **Collection** 21
-
-Does every finite simple planar graph admit an odd colouring with at most five colours?
-
-**Context.** Origin for question 2051: Petruševski–Škrekovski (2021), restated by Petr. Setup for question 2051: An odd colouring is a proper vertex colouring in which every non-isolated vertex has some colour occurring an odd number of times in its open neighbourhood. Graphs are finite and simple.
-
-**Source.** Jan Petr. *Colourings, dominating sets and wreaths*. 2025. Advisor(s): Béla Bollobás. [primary source](https://www.repository.cam.ac.uk/bitstreams/6cb328d0-6f50-4e7b-9c7e-25c7f12d4d57/download) Location: Conjecture 1.3.1, p. 17.
-
-**Literature check.** Status for question 2051, checked 6 October 2026: no later resolution found.
-
-**Further links.** [1](https://www.repository.cam.ac.uk/items/09faf321-7438-442a-9ed1-6487b62ab783) · [2](https://web.xidian.edu.cn/zhangxin/files/68ca43b142f7e.pdf)
-
-
-<a id="q2052"></a>
-
-## Q2052. Find spines in finite-width posets
-
-**Status:** Open · **Kind:** open problem (Question 2.6.1) · **Collection** 21
-
-Does every finite-width poset P admit a chain C and a partition of P into antichains such that C meets every part?
-
-**Context.** Origin for question 2052: Hollom’s finite-width refinement of Aharoni–Korman (1992). Setup for question 2052: A poset has finite width if some integer bounds the sizes of all its antichains. Its cardinality need not be countable.
-
-**Source.** Lawrence Albert Hollom. *Extremal, Probabilistic, and Infinitary Problems in Combinatorics*. 2025. Advisor(s): Béla Bollobás. [primary source](https://api.repository.cam.ac.uk/server/api/core/bitstreams/a0069f85-e810-476b-ba41-c2babc9c2f0b/content) Location: Question 2.6.1, p. 74.
-
-**Literature check.** Status for question 2052, checked 6 October 2026: no later resolution found.
-
-**Further links.** [1](https://www.repository.cam.ac.uk/items/d9fa2d8e-7393-49d3-933e-0dc3229c2efa) · [2](https://arxiv.org/abs/2411.16844) · [3](https://doi.org/10.37236/14948)
-
-
-<a id="q2053"></a>
-
-## Q2053. Avoid one-for-two matching improvements
-
-**Status:** Open · **Kind:** open problem (Question 14) · **Collection** 21
-
-Does every such hypergraph have a matching M for which no matching M′ satisfies |M∖M′|=1 and |M′∖M|=2?
-
-**Context.** Origin for questions 2053, 2054: Hollom–Randall Shaw; matching question refines Tardos’s disproved unbounded-edge question. Setup for questions 2053, 2054: Hypergraphs may be infinite, but one finite integer bounds every edge size. A matching consists of disjoint edges; an edge-cover is a set of edges whose union is the vertex set.
-
-**Source.** Lawrence Hollom; Benedict Randall Shaw. *Counterexamples to Conjectures on Strong Maximality and Minimality*. 2026. [primary source](https://doi.org/10.37236/14948) Location: Question 14, p. 11 (preprint Question 4.1).
-
-**Literature check.** Status for questions 2053, 2054, checked 6 October 2026: no later resolution found.
-
-**Further links.** [1](https://arxiv.org/abs/2511.13709) · [2](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i2p11/pdf/)
-
-
-<a id="q2054"></a>
-
-## Q2054. Avoid two-for-one cover improvements
-
-**Status:** Open · **Kind:** open problem (Question 15) · **Collection** 21
-
-Does every such hypergraph without isolated vertices have an edge-cover C for which no edge-cover C′ satisfies |C∖C′|=2 and |C′∖C|=1?
-
-**Context.** Origin for questions 2053, 2054: Hollom–Randall Shaw; matching question refines Tardos’s disproved unbounded-edge question. Setup for questions 2053, 2054: Hypergraphs may be infinite, but one finite integer bounds every edge size. A matching consists of disjoint edges; an edge-cover is a set of edges whose union is the vertex set.
-
-**Source.** Lawrence Hollom; Benedict Randall Shaw. *Counterexamples to Conjectures on Strong Maximality and Minimality*. 2026. [primary source](https://doi.org/10.37236/14948) Location: Question 15, p. 11 (preprint Question 4.2).
-
-**Literature check.** Status for questions 2053, 2054, checked 6 October 2026: no later resolution found.
-
-**Further links.** [1](https://arxiv.org/abs/2511.13709) · [2](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i2p11/pdf/)
-
-
-<a id="q2055"></a>
-
-## Q2055. Sharpen longest-cycle intersections
-
-**Status:** Open · **Kind:** conjecture (Conjecture 1.1) · **Collection** 21
-
-For every integer k≥9, do any two longest cycles in a k-connected graph have at least k common vertices?
-
-**Context.** Origin for questions 2055, 2056, 2057: Smith (1984); separator refinement: these authors and Bucić–Christoph–Pokrovskiy–Steiner; triple-path question: Gallai (BCC15.6, 1997). Setup for questions 2055, 2056, 2057: Graphs are finite and simple. A set S separates subgraphs X,Y if every path from V(X) to V(Y), including trivial paths at their common vertices, meets S.
-
-**Source.** Jie Ma; Bo Ning; Ziyuan Zhao. *Longest cycles intersect linearly in highly connected graphs*. 2026. [primary source](https://arxiv.org/abs/2609.20724) Location: Conjecture 1.1, p. 1; known k≤8 removed.
-
-**Literature check.** Status for questions 2055, 2056, 2057, checked 6 October 2026: these remain open in the September source. Sarkar’s triple-path proof claim was withdrawn as erroneous (May 2024).
-
-**Further links.** [1](https://arxiv.org/abs/2006.16245)
-
-
-<a id="q2056"></a>
-
-## Q2056. Separate longest cycles efficiently
-
-**Status:** Open · **Kind:** conjecture (Conjecture 9.4) · **Collection** 21
-
-Is there an absolute C>0 such that any two longest cycles X,Y of any 2-connected graph G can be separated by a vertex set of size at most C|V(X)∩V(Y)|?
-
-**Context.** Origin for questions 2055, 2056, 2057: Smith (1984); separator refinement: these authors and Bucić–Christoph–Pokrovskiy–Steiner; triple-path question: Gallai (BCC15.6, 1997). Setup for questions 2055, 2056, 2057: Graphs are finite and simple. A set S separates subgraphs X,Y if every path from V(X) to V(Y), including trivial paths at their common vertices, meets S.
-
-**Source.** Jie Ma; Bo Ning; Ziyuan Zhao. *Longest cycles intersect linearly in highly connected graphs*. 2026. [primary source](https://arxiv.org/abs/2609.20724) Location: Conjecture 9.4, p. 17.
-
-**Literature check.** Status for questions 2055, 2056, 2057, checked 6 October 2026: these remain open in the September source. Sarkar’s triple-path proof claim was withdrawn as erroneous (May 2024).
-
-**Further links.** [1](https://arxiv.org/abs/2006.16245)
-
-
-<a id="q2057"></a>
-
-## Q2057. Intersect three longest paths
-
-**Status:** Open · **Kind:** open problem · **Collection** 21
-
-Does every triple of longest paths in a finite connected graph have a common vertex?
-
-**Context.** Origin for questions 2055, 2056, 2057: Smith (1984); separator refinement: these authors and Bucić–Christoph–Pokrovskiy–Steiner; triple-path question: Gallai (BCC15.6, 1997). Setup for questions 2055, 2056, 2057: Graphs are finite and simple. A set S separates subgraphs X,Y if every path from V(X) to V(Y), including trivial paths at their common vertices, meets S.
-
-**Source.** Jie Ma; Bo Ning; Ziyuan Zhao. *Longest cycles intersect linearly in highly connected graphs*. 2026. [primary source](https://arxiv.org/abs/2609.20724) Location: §9.4, final paragraph, p. 17.
-
-**Literature check.** Status for questions 2055, 2056, 2057, checked 6 October 2026: these remain open in the September source. Sarkar’s triple-path proof claim was withdrawn as erroneous (May 2024).
-
-**Further links.** [1](https://arxiv.org/abs/2006.16245)
 

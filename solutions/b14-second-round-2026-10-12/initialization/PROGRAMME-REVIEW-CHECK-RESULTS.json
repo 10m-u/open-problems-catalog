@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "p2": {
+    "rows": [
+      {
+        "t": 1,
+        "partition_class": 2,
+        "residual_edges": 11
+      },
+      {
+        "t": 2,
+        "partition_class": 4,
+        "residual_edges": 17
+      },
+      {
+        "t": 3,
+        "partition_class": 8,
+        "residual_edges": 24
+      },
+      {
+        "t": 4,
+        "partition_class": 16,
+        "residual_edges": 32
+      }
+    ],
+    "all_root_forced_bounds": 1145,
+    "path_forests": 30,
+    "literal_suffixes": 2720,
+    "scope": "One exponential class; dense residuals, no universal runtime factor."
+  },
+  "p4": {
+    "rows": [
+      {
+        "n": 10,
+        "active_support_rank": 15,
+        "optimum": 11,
+        "matching_cost": 4
+      },
+      {
+        "n": 11,
+        "active_support_rank": 16,
+        "optimum": 12,
+        "matching_cost": 4
+      },
+      {
+        "n": 12,
+        "active_support_rank": 17,
+        "optimum": 13,
+        "matching_cost": 5
+      },
+      {
+        "n": 13,
+        "active_support_rank": 18,
+        "optimum": 14,
+        "matching_cost": 5
+      },
+      {
+        "n": 14,
+        "active_support_rank": 19,
+        "optimum": 15,
+        "matching_cost": 5
+      }
+    ],
+    "cut_checks_up_to_complement": 15867
+  },
+  "guidance": {
+    "queries": 160,
+    "policies": 4,
+    "independent_complete_metric_optima": 20,
+    "certificates_checked": 2270,
+    "forced_bounds_checked": 7728,
+    "amortized_training_debit_correct": true,
+    "timing_scope": "Corrected outer query timer includes setup and packet construction; amortized training charged once."
+  }
+}

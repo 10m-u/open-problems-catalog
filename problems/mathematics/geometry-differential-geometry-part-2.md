@@ -347,3 +347,105 @@ For every 1/2<λ<1, is there y∈ℝ satisfying dim_A L_y=dim_A Γ\_λ−1?
 
 **Further links.** [1](https://arxiv.org/abs/2412.06579v1)
 
+
+<a id="q4754"></a>
+
+## Q4754. Simple curves detect maximal flat length ratios
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every q₁,q₂∈Flat(Σ), is sup_{γ∈C} ℓ\_{q₁}(γ)/ℓ\_{q₂}(γ) = sup_{γ∈S} ℓ\_{q₁}(γ)/ℓ\_{q₂}(γ)?
+
+**Context.** Let Σ be a closed connected orientable surface of genus at least two. Let Flat(Σ) consist of unit-area flat cone metrics induced by nonzero holomorphic quadratic differentials on complex structures on Σ, modulo isometries isotopic to the identity. Let C be the nontrivial free homotopy classes of closed curves and S⊂C the classes represented by simple closed curves. Write ℓ\_q(γ) for the minimum q-length in the class γ. Audited provenance and status: Subject: Geometry of surfaces Jiajun Shi: Leipzig doctorate, defended25August2026; primary supervisor Anna Wienhard, external supervisor Beatrice Pozzetti. The full deposited thesis retains this question from the earlier paper; both sources were inspected. The August thesis and current August5 v2 retain the closed-surface question; the displayed counterexample uses a surface with boundary. The September12 publisher final uses fixed-triangulation edge coordinates for its metric; its full text gives no comparison of these curve suprema. January’s entropy-normalized filling-current metric uses all curves. Its horoboundary and rigidity results precede the exact August reaffirmation. May’s current-duality characterization uses smoothing and additivity, and precedes the exact August reaffirmation.
+
+**Source.** Jiajun Shi. *Geodesic Currents, Rigidity, and Finsler Metrics on Flat Surfaces*. Leipzig University, 2026. Advisor(s): Anna Wienhard; Beatrice Pozzetti. [primary source](https://ul.qucosa.de/id/qucosa:106750) Location: §3.1, p30; also arXiv:2510.16852v2, §3.3.
+
+**Literature check.** Status: October2 results concern large-scale rank of filling currents, finite simplices and hyperbolic Teichmüller space; no matching flat-supremum resolution is claimed.
+
+**Further links.** [1](https://arxiv.org/abs/2510.16852v2)
+
+
+<a id="q4765"></a>
+
+## Q4765. Is every nonconstant, degree-zero homogeneous minimizing U, up to orthogonal changes of domain…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is every nonconstant, degree-zero homogeneous minimizing U, up to orthogonal changes of domain and target coordinates, either the radial extension of the Hopf map H(z₀,z₁)=[z₀:z₁], or the cylindrical map U(x₁,x₂,x₃,x₄)=(x₁,x₂,x₃)/√(x₁²+x₂²+x₃²)?
+
+**Context.** Let B⁴⊂R⁴ be the unit ball and identify CP¹ with the round unit sphere S². Call U∈W¹,²(B⁴,S²) minimizing if it minimizes E(V)=½∫\_{B⁴}|∇V|² against every Sobolev competitor with the same boundary trace. Audited provenance and status: Subject: Geometric analysis and harmonic maps Current status: Paper fallback, 9 October 2026, Remark 1.6: the singular-link classification is conjectural; Theorems 1.2–1.3 settle smooth links only. No later matching resolution located through 13 October 2026. Doctoral discovery route: Doctoral discovery: Matilde Gianocca, Contributions to harmonic maps and related problems, ETH Zürich, defended March 2026; primary supervisor Tristan Rivière. The selected question is from a later paper. Access status: Thesis body not inspected. Current status: Lara, arXiv:2610.07815v1, 6 October 2026, Theorem 1.1 and §2.1: the low-index factorization concerns smooth maps; it does not classify singular minimizing links.
+
+**Source.** Matilde Gianocca; André Guerra; David Ziener. *Minimizing tangent maps into complex projective space*. 2026. [primary source](https://arxiv.org/abs/2610.13214v1) Location: arXiv:2610.13214v1, Remark 1.6, p.4; definitions §2.1, p.5; cylindrical formula, p.10; metric §3.1, p.11.
+
+**Literature check.** Status: Current status: Paper fallback, 9 October 2026, Remark 1.6: the singular-link classification is conjectural; Theorems 1.2–1.3 settle smooth links only. No later matching resolution located through 13 October 2026.
+
+**Further links.** [1](https://people.math.ethz.ch/~gimatild/) · [2](https://math.ethz.ch/news-and-events/news/d-math-news/2026/03/doctoral-exam-of-matilde-gianocca.html) · [3](https://arxiv.org/abs/2610.07815v1)
+
+
+<a id="q4770"></a>
+
+## Q4770. Characterize the convex cones whose conical semigroups are (R,G)-finitely generated.
+
+**Status:** Open · **Kind:** open problem (Question 2.5.2) · **Collection** 48
+
+Characterize the convex cones whose conical semigroups are (R,G)-finitely generated.
+
+**Context.** Setup: For N≥1 and a convex cone C⊆ℝᴺ, put S=C∩ℤᴺ. Call S (R,G)-finitely generated if there exist finite R⊆S and a finitely generated subgroup G≤GL(N,ℤ), acting linearly, with gC=C and gS=S for every g∈G, such that every s∈S is a finite sum Σᵢaᵢgᵢrᵢ with aᵢ∈ℤ≥0, gᵢ∈G, rᵢ∈R. Audited provenance and status: Subject: Discrete geometry and semigroups Brittney Maye Marsters, UC Davis PhD 2026; advisor Jesús A. De Loera. Lattice Point Problems: Semigroups, Cones, and Convex Sets, Question 2.5.2, pp.81–82; Definition 2.1.1, p.46. Thesis restates earlier joint question, arXiv:2403.09927v3; January 2025 journal final unread. Checked 13 October 2026: planar case resolved; general classification retained in March 2026 thesis. Later arXiv:2504.15537v1 accepted, Algebra & Number Theory; full preprint checked. Three-dimensional pointed polyhedral cones also classified (§3.4).
+
+**Source.** Brittney Maye Marsters. *Lattice Point Problems: Semigroups, Cones, and Convex Sets*. UC Davis, 2026. Advisor(s): Jesús A. De Loera. [primary source](https://www.math.ucdavis.edu/~webfiles/dissertations/202603_Brittney_Marsters_Dissertation.pdf) Location: Question 2.5.2, pp.81–82; Definition 2.1.1, p.46.
+
+**Literature check.** Status: Checked 13 October 2026: planar case resolved; general classification retained in March 2026 thesis. Later arXiv:2504.15537v1 accepted, Algebra & Number Theory; full preprint checked.
+
+**Further links.** [1](https://escholarship.org/uc/item/6gt2g206) · [2](https://arxiv.org/abs/2403.09927) · [3](https://doi.org/10.1007/s10107-024-02188-8) · [4](https://arxiv.org/abs/2504.15537) · [5](https://msp.org/soon/coming.php?jpath=ant) · [6](https://arxiv.org/abs/2403.09927v3) · [7](https://arxiv.org/abs/2504.15537v1)
+
+
+<a id="q4776"></a>
+
+## Q4776. Is h³(g) independent of g?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is h³(g) independent of g?
+
+**Context.** Setup: For a compact almost complex four-manifold (M,J), let dᶜ=J⁻¹dJ on complex-valued differential forms. For each J-compatible Riemannian metric g, set h³(g)=dim_C{α∈Ω³(M;C):dα=dᶜα=(ddᶜ)⁎\_gα=0}, where ⁎\_g denotes the formal adjoint. Audited provenance and status: Subject: Differential geometry Lorenzo Sillari; SISSA PhD, 2024; advisors Adriano Tomassini and Jacopo Stoppa. Differential geometry. Earlier joint-paper Question3.4, d+dᶜ component, p.10. https://arxiv.org/abs/2312.12366v1 https://doi.org/10.1142/S0129167X24420035 Online final2024-07-27 predates thesis; print2026-05. Full final unread.
+
+**Source.** Lorenzo Sillari. *Invariants of almost complex and almost symplectic manifolds*. SISSA, 2024. Advisor(s): Adriano Tomassini; Jacopo Stoppa. [primary source](https://iris.sissa.it/handle/20.500.11767/141690) Location: Thesis p.xv (PDF17), setup pp.8,80. https://iris.sissa.it/handle/20.500.11767/141690
+
+**Literature check.** Status: Known when metrics are restricted to almost Kähler metrics. No matching resolution located in later primary checks.
+
+**Further links.** [1](https://arxiv.org/abs/2312.12366v1) · [2](https://doi.org/10.1142/S0129167X24420035)
+
+
+<a id="q4777"></a>
+
+## Q4777. Is sup{c>0: R_B(t)=O(e^(−c/t)) as t↓0}=L²/4 for both Dirichlet and Neumann boundary conditions?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.2) · **Collection** 48
+
+Is sup{c>0: R_B(t)=O(e^(−c/t)) as t↓0}=L²/4 for both Dirichlet and Neumann boundary conditions?
+
+**Context.** Let L be the shortest positive length of a closed piecewise-linear trajectory reflecting specularly at edges: at π/N corners, N≥2, use half-plane unfolding; at other corners, allow arbitrary diffraction. Sources: licentiate thesis p.17 after Theorem 2.2.2; journal final Conjecture 6.2. Trajectories: Hezari–Lu–Rowlett, Definition 3, p.4. Audited provenance and status: Subject: Spectral geometry Licentiate source (2025): Gustav Mårdby, Geometric Spectral Invariants and Isospectrality, Chalmers/Gothenburg. Principal supervisor: Julie Rowlett; co-supervisor: Simon Larson. Looi–Sher v6 computes the t^(1/2) curved-corner coefficient, not the polygonal exponential rate.
+
+**Source.** Gustav Mårdby. *Geometric Spectral Invariants and Isospectrality*. Chalmers / University of Gothenburg, 2025. Advisor(s): Julie Rowlett; Simon Larson. [primary source](https://research.chalmers.se/publication/549283/file/549283_Fulltext.pdf) Location: licentiate thesis p.17 after Theorem 2.2.2; journal final Conjecture 6.2.
+
+**Literature check.** Status checked 13 October 2026: the licentiate p.17 and 2025 final Conjecture 6.2 pose this question. Theorem 1.1 of 2606.04937v1 gives a weaker exponent; no matching resolution located.
+
+**Further links.** [1](https://research.chalmers.se/publication/549109/file/549109_Fulltext.pdf) · [2](https://arxiv.org/abs/2409.14391) · [3](https://arxiv.org/html/2409.14391v1) · [4](https://doi.org/10.1007/s00041-025-10202-6) · [5](https://link.springer.com/article/10.1007/s00041-025-10202-6) · [6](https://arxiv.org/abs/2606.04937) · [7](https://arxiv.org/html/2606.04937v1) · [8](https://research.chalmers.se/publication/524218/file/524218_Fulltext.pdf) · [9](https://doi.org/10.1063/5.0036384) · [10](https://sites.google.com/view/gustavmardby) · [11](https://arxiv.org/abs/2512.04422) · [12](https://arxiv.org/html/2512.04422v6) · [13](https://research.chalmers.se/en/publication/549109) · [14](https://arxiv.org/abs/2606.04937v1) · [15](https://arxiv.org/abs/2409.14391v1) · [16](https://arxiv.org/abs/2512.04422v6)
+
+
+<a id="q4782"></a>
+
+## Q4782. For every integer d≥1, does there exist v_d>0 such that, for every integer r≥1, some positive…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every integer d≥1, does there exist v_d>0 such that, for every integer r≥1, some positive integer N guarantees the following? Any 2d families of N volume-one convex sets in ℝᵈ admit pairwise disjoint transversals T₁,…,Tᵣ with vol_d(⋂ⱼconv(⋃Tⱼ))≥v_d. Each transversal contains exactly one set from each family.
+
+**Context.** Audited provenance and status: Subject: Discrete geometry Travis Dillon; MIT PhD2026; advisers Henry Cohn and Yufei Zhao. Paper fallback: Conjecture1, p.18; transversal convention p.9. Full thesis unread. Current author page lists submitted(2025). Theorem10 treats d(d+3)/2 ellipsoid families. Later-scope inference: checked results give no matching uniform-volume conclusion. Combinatorica final abstract and v3 §1 checked; full final unread.
+
+**Source.** Travis Dillon. *Quantitative selection theorems*. 2025. [primary source](https://arxiv.org/abs/2508.16965v1) Location: Conjecture1, p.18; transversal convention p.9.
+
+**Literature check.** Status: No matching resolution located through October13,2026.
+
+**Further links.** [1](https://dspace.mit.edu/entities/publication/4679800c-86c2-4144-95b5-48be71ec4592) · [2](https://travisadillon.com/math) · [3](https://arxiv.org/abs/2607.10496v1) · [4](https://arxiv.org/abs/2607.29403v1) · [5](https://arxiv.org/abs/2608.06437v2) · [6](https://doi.org/10.5070/C66165693) · [7](https://doi.org/10.1007/s00493-026-00219-w)
+

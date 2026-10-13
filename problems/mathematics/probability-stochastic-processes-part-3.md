@@ -2,6 +2,111 @@
 
 [Subject overview](probability-stochastic-processes.md) · Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stochastic-processes-part-2.md) · [3](probability-stochastic-processes-part-3.md)
 
+<a id="q4202"></a>
+
+## Q4202. For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p)…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p) differentiable, smooth, or analytic throughout the supercritical phase?
+
+**Context.** On a Cayley graph of a finitely generated group Γ with finite symmetric generating set, retain each edge independently with probability p. Let p_c be the infinite-cluster threshold. For p>p_c, condition the identity's cluster on being infinite and run simple random walk X_n from the identity. Write P_p^ω for its law in the fixed cluster, and |g| for ambient word length. For almost every cluster and trajectory x=(x_n), drift ℓ(p) and entropy h(p) are the deterministic limits of |x_n|/n and −n⁻¹log P_p^ω(X_n=x_n), respectively.
+
+**Source.** Kohki Sakamoto. *Continuity for random walks in hyperbolic percolation: drift, entropy, and dimension*. 2026. [primary source](https://arxiv.org/abs/2609.08519v1) Location: Questions 1.3–1.4, p.3.
+
+**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
+
+
+<a id="q4203"></a>
+
+## Q4203. Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a supercritical parameter?
+
+**Context.** On a Cayley graph of a finitely generated group Γ with finite symmetric generating set, retain each edge independently with probability p. Let p_c be the infinite-cluster threshold. For p>p_c, condition the identity's cluster on being infinite and run simple random walk X_n from the identity. Write P_p^ω for its law in the fixed cluster, and |g| for ambient word length. For almost every cluster and trajectory x=(x_n), drift ℓ(p) and entropy h(p) are the deterministic limits of |x_n|/n and −n⁻¹log P_p^ω(X_n=x_n), respectively.
+
+**Source.** Kohki Sakamoto. *Continuity for random walks in hyperbolic percolation: drift, entropy, and dimension*. 2026. [primary source](https://arxiv.org/abs/2609.08519v1) Location: Questions 1.3–1.4, p.3.
+
+**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
+
+
+<a id="q4218"></a>
+
+## Q4218. For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant?
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant?
+
+**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
+
+**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4219"></a>
+
+## Q4219. For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some c(p,d)∈(0,∞)? If so, is c(p,d) the simple-random-walk constant (p=1/(2d))?
+
+**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
+
+**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4220"></a>
+
+## Q4220. For d=2 and p∈[5/8,1), does (log n)|R_n|/n converge as n→∞ in probability to some r(p)>0? If so,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=2 and p∈[5/8,1), does (log n)|R_n|/n converge as n→∞ in probability to some r(p)>0? If so, also in L¹, and how does r(p) depend on p?
+
+**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
+
+**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
+
+
+<a id="q4221"></a>
+
+## Q4221. For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor component almost surely}. For every 0≤ρ<ρ\_c, does some c(ρ,d)>0 satisfy P(K₀⊆[−R,R]^d)≥1−exp(−cR) for all R≥1, where K₀ is the component of 0 in T, empty when 0∉T?
+
+**Context.** On Z^d, define u₀=0 and u_(t+1)(x)=max{0,(σ(x)−1+Σ\_(y∼x)u_t(y))/(2d)}, where y∼x means nearest neighbors. The toppled set is T={x:lim_t u_t(x)>0}.
+
+**Source.** Ahmed Bou-Rabee and Christoforos Panagiotis. *Quantitative explosion and percolation of the divisible sandpile*. 2026. [primary source](https://arxiv.org/abs/2609.02829v1) Location: Problems 1.4–1.5, pp.10–11.
+
+**Literature check.** Status: Paper-recorded. Bou-Rabee: statistics PhD, Chicago, 2022; advisor Charles K. Smart. Panagiotis: PhD, Warwick, 2020; advisor Agelos Georgakopoulos. No matching resolution found, 10 October 2026.
+
+
+<a id="q4222"></a>
+
+## Q4222. For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of…
+
+**Status:** Open · **Kind:** open problem · **Collection** 43
+
+For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of positive variance, do Z_R(z)=u_⌊TR²⌋(⌊Rz⌋)−E u_⌊TR²⌋(0) converge in law as R→∞, for every T>0 and s>0, in H⁻ˢ\_loc(R⁴)? Identify the limit. Here H⁻ˢ\_loc convergence means H⁻ˢ(D) convergence on every bounded smooth domain D, where H⁻ˢ(D)=(H₀ˢ(D))\* and H₀ˢ(D) is the Hˢ-closure of smooth compactly supported functions.
+
+**Context.** On Z^d, define u₀=0 and u_(t+1)(x)=max{0,(σ(x)−1+Σ\_(y∼x)u_t(y))/(2d)}, where y∼x means nearest neighbors. The toppled set is T={x:lim_t u_t(x)>0}.
+
+**Source.** Ahmed Bou-Rabee and Christoforos Panagiotis. *Quantitative explosion and percolation of the divisible sandpile*. 2026. [primary source](https://arxiv.org/abs/2609.02829v1) Location: Problems 1.4–1.5, pp.10–11.
+
+**Literature check.** Status: Paper-recorded. Bou-Rabee: statistics PhD, Chicago, 2022; advisor Charles K. Smart. Panagiotis: PhD, Warwick, 2020; advisor Agelos Georgakopoulos. No matching resolution found, 10 October 2026.
+
+
 <a id="q4223"></a>
 
 ## Q4223. For every N≥1,t≥1,x∈B_N and i∈{1,2}, is −3≤v_t(x+e_i)−2v_t(x)+v_t(x−e_i)≤2? This is the source's…
@@ -343,6 +448,10 @@ Does every monomial coefficient of Z_ab,cd Z−Z_ab Z_cd vanish or exceed zero?
 
 **Literature check.** Status: Checked 11 October 2026: current v1 retains these; high-fugacity and special-graph results are partial. No matching resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 
 <a id="q4397"></a>
 
@@ -649,7 +758,7 @@ Does there exist σ\_d²≥0 such that (Z_n−E Z_n)/√n converges in distribut
 
 ## Q4666. If trees T_n with laws P_n can be coupled so that T_n⊆T_{n+1} almost surely for all n≥1, must μ…
 
-**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 47
+**Status:** Solved here: disproved · **Kind:** open problem (Problem 1) · **Collection** 47
 
 If trees T_n with laws P_n can be coupled so that T_n⊆T_{n+1} almost surely for all n≥1, must μ have no internal zeros and satisfy μ(k)²≥μ(k−1)μ(k+1) for every k≥1?
 
@@ -658,6 +767,11 @@ If trees T_n with laws P_n can be coupled so that T_n⊆T_{n+1} almost surely fo
 **Source.** William Fleurat. *Growing conditioned BGW trees with log-concave offspring distributions*. 2025. [primary source](https://arxiv.org/abs/2411.03065v3) Location: Problem 1, §1.3,p.11; definitions §§1.1–1.2,pp.3–7.
 
 **Literature check.** Status: Fleurat’s CV confirms ENSdeLyon doctorate, Grégory Miermont, defense19May2025. It lists Conditioned Bienaymé trees almost grow as in preparation, without theorem or concrete resolution claim.
+
+**Results.**
+
+- **Disproved**: The offspring law mu=(1,2,3,5)/11, zero beyond three, has no internal zeros and fails log-concavity because 3^2<2\*5. Nevertheless its entire conditioned Bienayme tree sequence admits a simultaneous nested Markov coupling preserving literal Ulam-Harris parents and left siblings. An all-size TN2 forest-array argument verifies the source composition-coupling hypotheses. This refutes the log-concavity necessity clause, while the support-necessity partial theorem remains valid. No novelty or external peer-review claim. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/stirling/Q4666-RESULT.md).
+- **Disproved** (B3-ALL-TARGETS-Q4666: A non-log-concave offspring law admits nested conditioned trees): The offspring law mu=(1,2,3,5)/11, zero beyond three, has no internal zeros and fails log-concavity because 3^2<2\*5. Nevertheless its entire conditioned Bienayme tree sequence admits a simultaneous nested Markov coupling preserving literal Ulam-Harris parents and left siblings. An all-size TN2 forest-array argument verifies the source composition-coupling hypotheses. Remaining/limits: This refutes the log-concavity necessity clause, while the support-necessity partial theorem remains valid. No novelty or external peer-review claim. [Report](../../solutions/b3-all-targets-2026-10-13/stirling/Q4666-RESULT.md).
 
 
 <a id="q4683"></a>
@@ -671,4 +785,115 @@ Do there exist two such attractors X₊ and X₋ with p_X₊(c_\*(X₊))=1 and p
 **Context.** Let X⊂[0,1] be the nonempty compact attractor X=⋃ᵢgᵢ(X) of finitely many, at least two, C¹⁺ε contractions gᵢ:[0,1]→[0,1], ε>0, with nonvanishing derivatives and pairwise disjoint gᵢ(X). Put s=dim_HX>0 and μ=ℋˢ|X/ℋˢ(X). For independent μ-distributed centers ωₙ define E_c=limsupₙB(ωₙ,cn⁻¹⁄ˢ), using open Euclidean balls. Set p_X(c)=P[X⊂E_c] and c_\*(X)=inf{c>0:p_X(c)=1}. Audited provenance and status: Subject: Probability / random covering sets Markus Myllyoja, Dimensional properties of random covering sets, Oulu2026; defense10January2026; supervisors Esa Järvenpää and Maarit Järvenpää, preliminary pages. Sections3.1.4/3.2.5 offer broad extensions, not selected questions. Listed articles exclude2601.11470: the selected paper is later-paper origin, not a copied thesis article. The current bibliography also labels the Dvoretzky paper a preprint. Theorem2.7’s strict branches identify the positive finite threshold. The June11,2026 FARF slides define it by infimum on slide6/PDFp.7 and leave equality unknown on slide10/PDFp.11.
 
 **Source.** Anttila–Myllyoja. *Dvoretzky covering problem for general measures*. [primary source](https://arxiv.org/abs/2601.11470v1) Location: paragraph after Theorem2.7,p.10; later-paper origin.
+
+
+<a id="q4705"></a>
+
+## Q4705. For every fixed α∈(1/2,1] and finite abelian 2-group A, if Γ\_n has part sizes n,⌈αn⌉, does…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.1.3) · **Collection** 48
+
+For every fixed α∈(1/2,1] and finite abelian 2-group A, if Γ\_n has part sizes n,⌈αn⌉, does lim_{n→∞}Pr[K(Γ\_n)\_2≅A]=|A/2A|μ\_2(A)/2?
+
+**Context.** Setup: For a graph Γ, set K(Γ)=ker(Σ:Z^{V(Γ)}→Z)/L_ΓZ^{V(Γ)}, with L_Γ its Laplacian; K_p denotes its Sylow p-subgroup. For finite abelian p-groups A, let μ\_p(A)=b(A)∏\_{j≥0}(1−p^{−1−2j})/(|A||Aut(A)|), where b(A) counts perfect symmetric bilinear pairings A×A→C×. All graphs below are simple, undirected; edges between distinct parts occur independently with fixed probability u∈(0,1), and no edges lie within parts. Audited provenance and status: Subject: Probabilistic combinatorics Origins: thesis Conjectures 3.1.3(2),4.1.1, pp.97,170–171; bipartite claim from Fulman–Kaplan–Singhal–Warnaar. July2026 v1 papers retain the p=2 residual. Checked12October2026: no matching resolution located.
+
+**Source.** Deepesh Singhal. *Distribution of sandpile groups of directed and undirected bipartite graphs*. UC Irvine, 2026. Advisor(s): Nathan Kaplan. [primary source](https://escholarship.org/uc/item/3f60f3nf) Location: Thesis Conjecture 3.1.3(2), p.97.
+
+**Literature check.** Status: Origins: thesis Conjectures 3.1.3(2),4.1.1, pp.97,170–171; bipartite claim from Fulman–Kaplan–Singhal–Warnaar. July2026 v1 papers retain the p=2 residual. Checked12October2026: no matching resolution located.
+
+**Further links.** [1](https://escholarship.org/content/qt3f60f3nf/qt3f60f3nf_noSplash_32e3a2da227ebbab7ccb7f22f8f9f093.pdf) · [2](https://arxiv.org/abs/2607.10056) · [3](https://arxiv.org/pdf/2607.10056v1) · [4](https://arxiv.org/abs/2607.08607) · [5](https://arxiv.org/pdf/2607.08607v1) · [6](https://arxiv.org/abs/2607.10056v1) · [7](https://arxiv.org/abs/2607.08607v1)
+
+
+<a id="q4706"></a>
+
+## Q4706. For every fixed integer k≥3, prime p and finite abelian p-group A, if Γ\_n has k parts each of…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 4.1.1) · **Collection** 48
+
+For every fixed integer k≥3, prime p and finite abelian p-group A, if Γ\_n has k parts each of size n, does lim_{n→∞}Pr[K(Γ\_n)\_p≅A]=μ\_p(A)?
+
+**Context.** Setup: For a graph Γ, set K(Γ)=ker(Σ:Z^{V(Γ)}→Z)/L_ΓZ^{V(Γ)}, with L_Γ its Laplacian; K_p denotes its Sylow p-subgroup. For finite abelian p-groups A, let μ\_p(A)=b(A)∏\_{j≥0}(1−p^{−1−2j})/(|A||Aut(A)|), where b(A) counts perfect symmetric bilinear pairings A×A→C×. All graphs below are simple, undirected; edges between distinct parts occur independently with fixed probability u∈(0,1), and no edges lie within parts. Audited provenance and status: Subject: Probabilistic combinatorics Origins: thesis Conjectures 3.1.3(2),4.1.1, pp.97,170–171; bipartite claim from Fulman–Kaplan–Singhal–Warnaar. July2026 v1 papers retain the p=2 residual. Checked12October2026: no matching resolution located.
+
+**Source.** Deepesh Singhal. *Distribution of sandpile groups of directed and undirected bipartite graphs*. UC Irvine, 2026. Advisor(s): Nathan Kaplan. [primary source](https://escholarship.org/uc/item/3f60f3nf) Location: Thesis Conjecture 4.1.1, pp.170–171.
+
+**Literature check.** Status: Origins: thesis Conjectures 3.1.3(2),4.1.1, pp.97,170–171; bipartite claim from Fulman–Kaplan–Singhal–Warnaar. July2026 v1 papers retain the p=2 residual. Checked12October2026: no matching resolution located.
+
+**Further links.** [1](https://escholarship.org/content/qt3f60f3nf/qt3f60f3nf_noSplash_32e3a2da227ebbab7ccb7f22f8f9f093.pdf) · [2](https://arxiv.org/abs/2607.10056) · [3](https://arxiv.org/pdf/2607.10056v1) · [4](https://arxiv.org/abs/2607.08607) · [5](https://arxiv.org/pdf/2607.08607v1) · [6](https://arxiv.org/abs/2607.10056v1) · [7](https://arxiv.org/abs/2607.08607v1)
+
+
+<a id="q4707"></a>
+
+## Q4707. Does the Itô equation dXₜ=γ(|Xₜ|)σ(Xₜ)dBₜ−g(|Xₜ|)Xₜdt have pathwise uniqueness for every X₀=x∈E,…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Does the Itô equation dXₜ=γ(|Xₜ|)σ(Xₜ)dBₜ−g(|Xₜ|)Xₜdt have pathwise uniqueness for every X₀=x∈E, meaning that any two continuous E-valued adapted solutions on the same filtered probability space, with the same n-dimensional Brownian motion and initial point, agree almost surely for all t≥0?
+
+**Context.** Let n≥2, E={x∈ℝⁿ:|x|≤1}, and let γ:[0,1]→(0,∞), g:[0,1]→ℝ be Lipschitz with 0&lt;g(1)/γ(1)²−(n−1)/2≤√2−1. Put σ(0)=I and σ(x)=I−(1−√(1−|x|²))xxᵀ/|x|² for x≠0. Audited provenance and status: Subject: Probability; stochastic differential equations Doctoral discovery route: Veno Mramor, Stochastic processes on curved spaces, Warwick, March2021 manuscript; Aleksandar Mijatović supervisor, acknowledgments p.iv. Current status: Thesis2021 explicitly reaffirms the precise residual after ECP2018 publication; no final-gap inference rests on abstract wording. The thesis and source preprint were read. The ECP final was unavailable through the tool; the later thesis explicitly retains this question. Related Nakagawa and Larsson finals were not read in full.
+
+**Source.** Veno Mramor. *Stochastic processes on curved spaces*. University of Warwick, 2021. Advisor(s): Aleksandar Mijatović. [primary source](https://wrap.warwick.ac.uk/id/eprint/162640/1/WRAP_Theses_Mramor_2021.pdf) Location: §2.1, pp.18–19, equation(2.2) and paragraph after Theorem2.1.7; thesis-stated, copied-paper origin.
+
+**Literature check.** Status: Bounded current primary-source and full-history checks found no matching resolution for this anisotropic equation.
+
+
+<a id="q4718"></a>
+
+## Q4718. For every α>2 and Borel probability μ on Ω, if μ-almost every f is β-Hölder for some β∈(0,1) and…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every α>2 and Borel probability μ on Ω, if μ-almost every f is β-Hölder for some β∈(0,1) and satisfies LW(f)=α, must O\*(μ)≤1+α/2?
+
+**Context.** On Ω={f∈C([0,1];R):f(0)=0} use ||·||∞ and open balls B(f,r). Set Lν(f)=limᵣ↓₀log(−logν(B(f,r)))/log(1/r) when this limit exists. For a>0 let gₐ(r)=exp(−r⁻ᵃ), gₐ(0)=0, ℋᵍₐ(A)=limδ↓₀inf{Σᵢgₐ(diam Uᵢ):A⊂⋃ᵢUᵢ, diam Uᵢ≤δ}, with countable covers. Put O(A)=inf{a>0:ℋᵍₐ(A)=0} and O\*(ν)=inf{O(A):A Borel,ν(A)=1}. Let Wᴴ be the law of centered continuous Gaussian Bᴴ with covariance E[BᴴₛBᴴₜ]=(s²ᴴ+t²ᴴ−|t−s|²ᴴ)/2; write W=W¹ᐟ². Source: https://arxiv.org/abs/2512.06984v2, Questions5.1–5.2,pp.37–38; definitions pp.6,8,10–13. Audited provenance and status: Subject: Probability and geometric measure theory Doctoral discovery route: Doctoral discovery route: Mathieu Helfter, Sorbonne Université, defended 7 October 2024; advisor Pierre Berger. These questions originate in the later Fan–Helfter paper. Current status: Current v2, 13 February 2026, retains Questions 5.1–5.2. No newer version or publisher final identified.
+
+**Source.** Aihua Fan; Mathieu Helfter. *Infinite Dimensional Multifractal Analysis of the Wiener measure*. 2026. [primary source](https://arxiv.org/abs/2512.06984v2) Location: https://arxiv.org/abs/2512.06984v2, Questions5.1–5.2,pp.37–38; definitions pp.6,8,10–13.
+
+**Literature check.** Status: The current v2 paper, official doctoral metadata and author bibliography were read. A later talk is a related lead without an identified target-level resolution claim; this audit’s direct abstract fetch timed out.
+
+**Literature check.** Status: Bounded current checks found no matching resolution of either selected question.
+
+
+<a id="q4719"></a>
+
+## Q4719. For every H,H\*∈(0,1), does LWᴴ\*(Bᴴ) exist Wᴴ-almost surely and equal [1+2(H\*−H)]/H if H&lt;H\*, and…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every H,H\*∈(0,1), does LWᴴ\*(Bᴴ) exist Wᴴ-almost surely and equal [1+2(H\*−H)]/H if H&lt;H\*, and 1/H\* otherwise?
+
+**Context.** On Ω={f∈C([0,1];R):f(0)=0} use ||·||∞ and open balls B(f,r). Set Lν(f)=limᵣ↓₀log(−logν(B(f,r)))/log(1/r) when this limit exists. For a>0 let gₐ(r)=exp(−r⁻ᵃ), gₐ(0)=0, ℋᵍₐ(A)=limδ↓₀inf{Σᵢgₐ(diam Uᵢ):A⊂⋃ᵢUᵢ, diam Uᵢ≤δ}, with countable covers. Put O(A)=inf{a>0:ℋᵍₐ(A)=0} and O\*(ν)=inf{O(A):A Borel,ν(A)=1}. Let Wᴴ be the law of centered continuous Gaussian Bᴴ with covariance E[BᴴₛBᴴₜ]=(s²ᴴ+t²ᴴ−|t−s|²ᴴ)/2; write W=W¹ᐟ². Source: https://arxiv.org/abs/2512.06984v2, Questions5.1–5.2,pp.37–38; definitions pp.6,8,10–13. Audited provenance and status: Subject: Probability and geometric measure theory Doctoral discovery route: Doctoral discovery route: Mathieu Helfter, Sorbonne Université, defended 7 October 2024; advisor Pierre Berger. These questions originate in the later Fan–Helfter paper. Current status: Current v2, 13 February 2026, retains Questions 5.1–5.2. No newer version or publisher final identified.
+
+**Source.** Aihua Fan; Mathieu Helfter. *Infinite Dimensional Multifractal Analysis of the Wiener measure*. 2026. [primary source](https://arxiv.org/abs/2512.06984v2) Location: https://arxiv.org/abs/2512.06984v2, Questions5.1–5.2,pp.37–38; definitions pp.6,8,10–13.
+
+**Literature check.** Status: The current v2 paper, official doctoral metadata and author bibliography were read. A later talk is a related lead without an identified target-level resolution claim; this audit’s direct abstract fetch timed out.
+
+**Literature check.** Status: Bounded current checks found no matching resolution of either selected question.
+
+
+<a id="q4736"></a>
+
+## Q4736. Must Y have the law of Φ(X), for an i.i.d. field X over a standard Borel alphabet and measurable…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Must Y have the law of Φ(X), for an i.i.d. field X over a standard Borel alphabet and measurable translation-equivariant Φ, with E[R]<∞? Here R is the least nonnegative integer such that changing X outside {i:||i||∞≤R} cannot change Φ(X)\_0, and R=∞ if none exists.
+
+**Context.** Let integer d≥1 and Y=(Y_i)\_{i∈ℤ^d} be a translation-invariant, finite-valued nearest-neighbor Markov random field: conditional laws inside finite Λ, given its exterior, depend only on the external nearest-neighbor boundary ∂Λ. For nonempty U⊆Λ, write μ^τ\_{Λ,U}=Law(Y_U|Y_{∂Λ}=τ), using positive-probability boundary configurations τ. Suppose constants c,C>0 satisfy ||μ^τ\_{Λ,U}−μ^{τ′}\_{Λ,U}||\_TV≤C|U|exp(−c·dist₁(U,∂Λ)) for every finite Λ,U and feasible τ,τ′; TV denotes total-variation distance. Audited provenance and status: Subject: Probability and ergodic theory Current status: Paper-origin; dissertation provenance/advisor not established. V2 submitted26March2026, PDF dated27March. Current status: Spinka2019v2,§1.2,p.13,problem(1); definitionspp.1–2. Publisher2020final unread after security iframe. March2026Question3 explicitly reaffirms target. The current CGT preprint and original Spinka preprint were read. The Spinka publisher route encountered a security challenge and was stopped; its final text remains unread. The explicit March2026 question is later than that2020 publication. Current version records and author bibliographies were checked. The transport-paper abstract has a different conclusion; no current source inspected asserts the selected general finite-mean-radius coding result.
+
+**Source.** Jean-René Chazottes; Sandro Gallo; Daniel Y. Takahashi. *Finitary coding and Gaussian concentration for random fields*. 2026. [primary source](https://arxiv.org/abs/2602.14618v2) Location: arXiv2602.14618v2, Question3,p.32; definitions pp.4,23.
+
+
+<a id="q4753"></a>
+
+## Q4753. For every ε∈(0,1), does τ\_n(ε)/n→0 in probability over the initial matching and subsequent…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every ε∈(0,1), does τ\_n(ε)/n→0 in probability over the initial matching and subsequent rewirings?
+
+**Context.** Give each vertex of [n], n≥2, two labelled half-edges, initially paired by a uniform perfect matching. At each integer step choose two distinct edges uniformly and replace them uniformly by one of the two other pairings of their four half-edges; all other edges remain. Let C_t(v) be the component containing v. Set μ₀ uniform on C₀(1), and μ\_t(v)=|C_t(v)|⁻¹Σ\_{u∈C_t(v)}μ\_{t−1}(u). Define τ\_n(ε)=inf{t≥0:½Σ\_v|μ\_t(v)−1/n|≤ε}. Audited provenance and status: Subject: Probability and random graph dynamics Doctoral discovery route: Doctoral discovery route: Oliver Nagy, Leiden, defense16January2025; supervisors Frank den Hollander, Remco van der Hofstad and Luca Avena. Official individual defense announcement verified. Current status: Paper-origin; final published24April2025. Equation(161) writes v instead of v₀; Definition1.6,Eq(4) and E.1’s stated starting vertex bind the initial component. TheoremE.3 instead starts with self-loops. Current status: Avena’s teaching page lists Nagy’s defense as19November2025, conflicting with the individual Leiden announcement’s16January2025. The latter is used for genealogy. The publisher-final text was read from the public DNB copy. The thesis and propositions were not read after a CAPTCHA page was returned. Official individual defense metadata was read through the public primary index.
+
+**Source.** Luca Avena; Remco van der Hofstad; Frank den Hollander; Oliver Nagy. *Mixing of fast random walks on dynamic random permutations*. 2026. [primary source](https://doi.org/10.1007/s00440-025-01375-8) Location: final DOI10.1007/s00440-025-01375-8, RemarkE.4,PDFp.50; Definitions1.6/E.1/E.2,PDFpp.7,49.
+
+**Literature check.** Status: Exact-title, source-identity and target searches found no matching later resolution or erratum. This is a bounded search observation, not proof of absence.
 

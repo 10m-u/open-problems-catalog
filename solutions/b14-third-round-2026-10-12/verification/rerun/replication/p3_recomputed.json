@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "n": 4,
+      "m": 3,
+      "quadruples": 24,
+      "positive_gains": 8,
+      "conditional_pieces": 72,
+      "nonflat_pieces": 16,
+      "normalized_pieces": 72,
+      "eligible_normalized_pieces": 16
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "quadruples": 24,
+      "positive_gains": 12,
+      "conditional_pieces": 288,
+      "nonflat_pieces": 144,
+      "normalized_pieces": 288,
+      "eligible_normalized_pieces": 144
+    },
+    {
+      "n": 4,
+      "m": 6,
+      "quadruples": 24,
+      "positive_gains": 12,
+      "conditional_pieces": 456,
+      "nonflat_pieces": 248,
+      "normalized_pieces": 456,
+      "eligible_normalized_pieces": 248
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "quadruples": 120,
+      "positive_gains": 40,
+      "conditional_pieces": 480,
+      "nonflat_pieces": 96,
+      "normalized_pieces": 480,
+      "eligible_normalized_pieces": 96
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "quadruples": 120,
+      "positive_gains": 60,
+      "conditional_pieces": 1704,
+      "nonflat_pieces": 816,
+      "normalized_pieces": 1704,
+      "eligible_normalized_pieces": 816
+    },
+    {
+      "n": 5,
+      "m": 7,
+      "quadruples": 120,
+      "positive_gains": 48,
+      "conditional_pieces": 2168,
+      "nonflat_pieces": 896,
+      "normalized_pieces": 2168,
+      "eligible_normalized_pieces": 896
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "quadruples": 360,
+      "positive_gains": 120,
+      "conditional_pieces": 1800,
+      "nonflat_pieces": 336,
+      "normalized_pieces": 1800,
+      "eligible_normalized_pieces": 336
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "quadruples": 360,
+      "positive_gains": 156,
+      "conditional_pieces": 5904,
+      "nonflat_pieces": 2584,
+      "normalized_pieces": 5904,
+      "eligible_normalized_pieces": 2584
+    },
+    {
+      "n": 6,
+      "m": 8,
+      "quadruples": 360,
+      "positive_gains": 172,
+      "conditional_pieces": 7504,
+      "nonflat_pieces": 3208,
+      "normalized_pieces": 7504,
+      "eligible_normalized_pieces": 3208
+    }
+  ],
+  "scope": "exact finite conditional-piece controls; expectation theorem audited analytically"
+}

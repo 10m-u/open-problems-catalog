@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-559 problems: 519 open, 20 open, partial results, 15 solved here: proved, 5 solved here: disproved.
+566 problems: 523 open, 21 open, partial results, 16 solved here: proved, 6 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -436,7 +436,7 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q3398"></a>[Q3398](probability-stochastic-processes-part-2.md#q3398) | Unbounded arrivals on recursive trees | Open |
 | <a id="q3399"></a>[Q3399](probability-stochastic-processes-part-2.md#q3399) | Fluctuations of the first parking flux | Open |
 | <a id="q3436"></a>[Q3436](probability-stochastic-processes-part-2.md#q3436) | Real-rooted finite commutators | Open |
-| <a id="q3437"></a>[Q3437](probability-stochastic-processes-part-2.md#q3437) | Generalized rectangular positivity | Open |
+| <a id="q3437"></a>[Q3437](probability-stochastic-processes-part-2.md#q3437) | Generalized rectangular positivity | Open, partial results |
 | <a id="q3438"></a>[Q3438](probability-stochastic-processes-part-2.md#q3438) | Integrable initial opinions | Open |
 | <a id="q3439"></a>[Q3439](probability-stochastic-processes-part-2.md#q3439) | Ergodic initial opinions | Open |
 | <a id="q3440"></a>[Q3440](probability-stochastic-processes-part-2.md#q3440) | Markovian segregation above 1/e | Open |
@@ -504,7 +504,7 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q3993"></a>[Q3993](probability-stochastic-processes-part-2.md#q3993) | If v(0)>0, must p↦v(p) be nondecreasing on [0,1]? | Open |
 | <a id="q3999"></a>[Q3999](probability-stochastic-processes-part-2.md#q3999) | Does Σ\_{j=1}^n δ\_{a_n(λ\_j(L_n)−b_n)} converge in distribution, in the vague topology on locally… | Open |
 | <a id="q4070"></a>[Q4070](probability-stochastic-processes-part-2.md#q4070) | If μ^{\*m}(0)=ν^{\*m}(0) for every integer m≥1, must the two shapes agree? | Open |
-| <a id="q4082"></a>[Q4082](probability-stochastic-processes-part-2.md#q4082) | Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X? | Open |
+| <a id="q4082"></a>[Q4082](probability-stochastic-processes-part-2.md#q4082) | Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X? | Solved here: proved |
 | <a id="q4091"></a>[Q4091](probability-stochastic-processes-part-2.md#q4091) | For every such G and α, does μₐ,Λ₁=μₐ,Λ₂ imply ∫q^(k−1)Λ₁(dq)/Λ₁([0,1])=∫q^(k−1)Λ₂(dq)/Λ₂([0,1])… | Open |
 | <a id="q4093"></a>[Q4093](probability-stochastic-processes-part-2.md#q4093) | Assuming additionally Eξ²=0 when F=C, does (νₙ) satisfy a speed-n² large-deviation principle on… | Open |
 | <a id="q4094"></a>[Q4094](probability-stochastic-processes-part-2.md#q4094) | With F=C and no assumption Eξ²=0, is it true that for every 0&lt;r<1 there exist c_μ,r>0 and n₀… | Open |
@@ -517,13 +517,13 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q4130"></a>[Q4130](probability-stochastic-processes-part-2.md#q4130) | For each d∈{3,4}, determine whether λp<λ₂, λp=λ₂, or λp>λ₂. | Open |
 | <a id="q4131"></a>[Q4131](probability-stochastic-processes-part-2.md#q4131) | Does λ₂<λh hold for every d∈{3,4,5,6}? | Open |
 | <a id="q4134"></a>[Q4134](probability-stochastic-processes-part-2.md#q4134) | Is it true, for every such law and every integer n≥1, that supₓ∈R \|P((X₁+⋯+Xₙ)/√n≤x)−Φ(x)\|≤cEβ/√n? | Open |
-| <a id="q4202"></a>[Q4202](probability-stochastic-processes-part-2.md#q4202) | For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p)… | Open |
-| <a id="q4203"></a>[Q4203](probability-stochastic-processes-part-2.md#q4203) | Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a… | Open |
-| <a id="q4218"></a>[Q4218](probability-stochastic-processes-part-2.md#q4218) | For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant? | Open |
-| <a id="q4219"></a>[Q4219](probability-stochastic-processes-part-2.md#q4219) | For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some… | Open |
-| <a id="q4220"></a>[Q4220](probability-stochastic-processes-part-2.md#q4220) | For d=2 and p∈[5/8,1), does (log n)\|R_n\|/n converge as n→∞ in probability to some r(p)>0? If so,… | Open |
-| <a id="q4221"></a>[Q4221](probability-stochastic-processes-part-2.md#q4221) | For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor… | Open |
-| <a id="q4222"></a>[Q4222](probability-stochastic-processes-part-2.md#q4222) | For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of… | Open |
+| <a id="q4202"></a>[Q4202](probability-stochastic-processes-part-3.md#q4202) | For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p)… | Open |
+| <a id="q4203"></a>[Q4203](probability-stochastic-processes-part-3.md#q4203) | Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a… | Open |
+| <a id="q4218"></a>[Q4218](probability-stochastic-processes-part-3.md#q4218) | For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant? | Open |
+| <a id="q4219"></a>[Q4219](probability-stochastic-processes-part-3.md#q4219) | For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some… | Open |
+| <a id="q4220"></a>[Q4220](probability-stochastic-processes-part-3.md#q4220) | For d=2 and p∈[5/8,1), does (log n)\|R_n\|/n converge as n→∞ in probability to some r(p)>0? If so,… | Open |
+| <a id="q4221"></a>[Q4221](probability-stochastic-processes-part-3.md#q4221) | For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor… | Open |
+| <a id="q4222"></a>[Q4222](probability-stochastic-processes-part-3.md#q4222) | For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of… | Open |
 | <a id="q4223"></a>[Q4223](probability-stochastic-processes-part-3.md#q4223) | For every N≥1,t≥1,x∈B_N and i∈{1,2}, is −3≤v_t(x+e_i)−2v_t(x)+v_t(x−e_i)≤2? This is the source's… | Open |
 | <a id="q4224"></a>[Q4224](probability-stochastic-processes-part-3.md#q4224) | Must p_c^site(T)≤1/2? | Open |
 | <a id="q4227"></a>[Q4227](probability-stochastic-processes-part-3.md#q4227) | Does some deterministic sequence ε\_n→0 satisfy P(X_n≥n^(1−ε\_n))→1 as n→∞? | Open |
@@ -565,5 +565,12 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q4649"></a>[Q4649](probability-stochastic-processes-part-3.md#q4649) | Almost surely, does every pair x,y∈Z^d admit a finite path attaining T(x,y)? | Open |
 | <a id="q4650"></a>[Q4650](probability-stochastic-processes-part-3.md#q4650) | Must L_n/f_n→1 almost surely as n→∞ for every such p? | Open |
 | <a id="q4664"></a>[Q4664](probability-stochastic-processes-part-3.md#q4664) | Does there exist σ\_d²≥0 such that (Z_n−E Z_n)/√n converges in distribution to N(0,σ\_d²) and… | Open |
-| <a id="q4666"></a>[Q4666](probability-stochastic-processes-part-3.md#q4666) | If trees T_n with laws P_n can be coupled so that T_n⊆T_{n+1} almost surely for all n≥1, must μ… | Open |
+| <a id="q4666"></a>[Q4666](probability-stochastic-processes-part-3.md#q4666) | If trees T_n with laws P_n can be coupled so that T_n⊆T_{n+1} almost surely for all n≥1, must μ… | Solved here: disproved |
 | <a id="q4683"></a>[Q4683](probability-stochastic-processes-part-3.md#q4683) | Do there exist two such attractors X₊ and X₋ with p_X₊(c_\*(X₊))=1 and p_X₋(c_\*(X₋))=0? | Open |
+| <a id="q4705"></a>[Q4705](probability-stochastic-processes-part-3.md#q4705) | For every fixed α∈(1/2,1] and finite abelian 2-group A, if Γ\_n has part sizes n,⌈αn⌉, does… | Open |
+| <a id="q4706"></a>[Q4706](probability-stochastic-processes-part-3.md#q4706) | For every fixed integer k≥3, prime p and finite abelian p-group A, if Γ\_n has k parts each of… | Open |
+| <a id="q4707"></a>[Q4707](probability-stochastic-processes-part-3.md#q4707) | Does the Itô equation dXₜ=γ(\|Xₜ\|)σ(Xₜ)dBₜ−g(\|Xₜ\|)Xₜdt have pathwise uniqueness for every X₀=x∈E,… | Open |
+| <a id="q4718"></a>[Q4718](probability-stochastic-processes-part-3.md#q4718) | For every α>2 and Borel probability μ on Ω, if μ-almost every f is β-Hölder for some β∈(0,1) and… | Open |
+| <a id="q4719"></a>[Q4719](probability-stochastic-processes-part-3.md#q4719) | For every H,H\*∈(0,1), does LWᴴ\*(Bᴴ) exist Wᴴ-almost surely and equal [1+2(H\*−H)]/H if H&lt;H\*, and… | Open |
+| <a id="q4736"></a>[Q4736](probability-stochastic-processes-part-3.md#q4736) | Must Y have the law of Φ(X), for an i.i.d. field X over a standard Borel alphabet and measurable… | Open |
+| <a id="q4753"></a>[Q4753](probability-stochastic-processes-part-3.md#q4753) | For every ε∈(0,1), does τ\_n(ε)/n→0 in probability over the initial matching and subsequent… | Open |

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "independent_root_imports": false,
+  "literal_top_subset_controls": 136192,
+  "fresh_records_recomputed": 1573,
+  "actual_top_count": 80,
+  "actual_tops_above_original_published_length8_range": 66,
+  "Hall_rank_row": [
+    1,
+    3,
+    7,
+    7,
+    1
+  ],
+  "Hall_subset_size": 5,
+  "Hall_neighbor_size": 4,
+  "Hall_maximum_matching_by_subset_DP": 6,
+  "equal_layer_literal_controls": 933,
+  "two_layer_formula_controls": 9455,
+  "two_layer_literal_controls": 90,
+  "unique_inversion_individual_fibers_checked": 225,
+  "both_fixed_occurrences_of2143_fail_coverage": true,
+  "all_pairwise_deletion_intersections_of2413_checked": 6,
+  "formal_gluing_row_not_claimed_actual": true,
+  "scope": "Independent bounded controls; written all-size proofs and route contracts reviewed separately.",
+  "reviewed_sha256": {
+    "Q1366-ATTEMPTS.md": "f8b24da5c89fcfe34708989be9ea59b1696fadeee98a081f4d847485fd2d38c9",
+    "LAYERED-INTERVALS.md": "2ce11d68a33326c6c2e08dbca9dbd8ae79af8e5473b8be6460dc1febeed0f7eb",
+    "pattern_probe.py": "7a5d3b46818d0daf584a93615b9bcc705577ca75f4db97113111ffca21156efa",
+    "PATTERN-PROBE.json": "062256c6b21638c61291476ebcf1cf4928a313e63e11a88470eb17ab329c1382",
+    "check_pattern_routes.py": "f4f84543f217115e98a2050af4734973ac290a1bce286aa7e92cfcfb846e5723",
+    "PATTERN-ROUTES-CHECK.json": "916bdc465162fb1281a559435afa682bd2137effaeb3cc76c477fd7c4c86a96f"
+  },
+  "checker_sha256": "64f0b8772218c8fe2d95adf4808145c2259458d5420cc6101835d31e6f61d052"
+}

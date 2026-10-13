@@ -592,6 +592,7 @@ Does some predicate R⊆ℕ make (ℤ,<,+,R) NIP but non-distal? NIP means every
 **Results.**
 
 - **Partial result**: If R⊆N is k-automatic for some k≥2 and (Z,<,+,R) is NIP, then it is distal; so no automatic predicate is a witness. Uses the Bell–Block Gorman–Schulz dichotomy and Tong's Theorem 3.4.8. Scope: Nonautomatic R remains open. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2607.19202) · [2](https://doi.org/10.1017/jsl.2025.10125) · [3](https://arxiv.org/abs/2603.19786) · [4](https://sites.google.com/view/mervyntong)
 
@@ -1563,6 +1564,7 @@ For each fixed k≥1, what is the exact decision complexity of BA_p sentences wi
 **Results.**
 
 - **Partial result**: Conservative fixed-block automata bound exp_(r+1)(poly(n)) for r prenex blocks; no elementary-time normalization of arbitrary BA_p sentences to equivalent Σ2 sentences. Scope: Exact complexity of each fixed-alternation fragment remains open; blocks vs switches convention left as in the question. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1007/978-3-032-01475-7_1) · [2](https://arxiv.org/abs/2608.24410)
 
@@ -1584,6 +1586,7 @@ Given regular L⊆Σ\*, is it decidable whether [L] is definable by an existenti
 **Results.**
 
 - **Partial result**: Uniform affirmative semidecision; sound YES/NO/UNKNOWN triage of the automaton by SCC growth (polynomial growth: yes; intermediate exponential growth: no); an explicit full-growth regular set that is not existentially definable shows the triage is incomplete. Scope: A terminating algorithm or undecidability proof for all regular sets remains open. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1007/978-3-032-01475-7_1) · [2](https://arxiv.org/abs/2608.24410)
 
@@ -1605,6 +1608,7 @@ Is BA_k finitely axiomatizable?
 **Results.**
 
 - **Partial result**: No axiomatization by universally quantified quantifier-free sentences, even infinitely many, in the language (0,S,+,V_k,≤). Scope: Finite axiomatizability with unrestricted quantifiers remains open. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://link.springer.com/chapter/10.1007/978-3-032-33486-2_6)
 
@@ -1626,6 +1630,7 @@ Does BA_k have an expansion by finitely many definable functions or predicates w
 **Results.**
 
 - **Partial result**: No QE expansion in which every added predicate and its complement are existentially definable and every added total function has an existentially definable graph. Scope: Expansions by arbitrary definable predicates or functions remain open. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://link.springer.com/chapter/10.1007/978-3-032-33486-2_6)
 
@@ -1698,6 +1703,7 @@ Is it decidable, given finite automata for regular L₁,L₂⊆Σ\*, whether [L�
 **Results.**
 
 - **Partial result**: Uniform affirmative semidecision; complete decision when [L2] is ultimately periodic (then [L1] is existentially definable iff it is ultimately periodic); yes whenever [L1] is ultimately periodic. Scope: Arbitrary regular [L2] remains open. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1007/978-3-032-01475-7_1) · [2](https://arxiv.org/abs/2608.24410)
 
@@ -2833,6 +2839,7 @@ For every definable S in every model of Presburger arithmetic, is π\_S(t) asymp
 **Results.**
 
 - **Partial result**: Exact shatter functions in every Presburger model for unions of at most r intervals (Σ\_j binom(t+1,2j) ~ t^(2r)/(2r)!) and for independent residue-class interval families, with leading constants; each π\_φ(t) is computable and model-independent for parameter-free φ. Scope: Arbitrary definable families with coupled parameters, residues and coordinates remain open. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/35815/1/mtcifc.pdf) · [2](https://arispapadopoulos.github.io/) · [3](https://etheses.whiterose.ac.uk/id/eprint/35815/)
 
@@ -3249,6 +3256,7 @@ For every nonzero countable divisible ordered abelian group V, is DgSp(V)=DgSp(V
 **Results.**
 
 - **Partial result**: DgSp(V)=DgSp(V×Z) whenever V has a least nonzero Archimedean class, which covers Archimedean V, finite Archimedean rank and finite dimension; plus a presentation-level criterion for computing the quotient. Scope: V without a least Archimedean class remains open. Not independently re-derived. [Details](../../solutions/b1-2026-10-07/B1-research-report-2026-10-07.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://academicworks.cuny.edu/gc_etds/6293/)
 
@@ -3270,6 +3278,7 @@ Does every countable non-automorphically-trivial structure have the same degree 
 **Results.**
 
 - **Investigated, unresolved** (B1: unresolved): No universality theorem or forbidden degree spectrum obtained. Remaining/limits: The full degree-spectrum universality assertion. [Report](../../solutions/b1-2026-10-07/README.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://academicworks.cuny.edu/gc_etds/6293/)
 
@@ -4137,77 +4146,4 @@ For every finitely bounded relational B, is CSP(B) exactly definable by a connec
 **Literature check.** Status for questions 2382, 2383, checked 6 October 2026: July proceedings retain both; no later resolution located.
 
 **Further links.** [1](https://arxiv.org/abs/2511.08515)
-
-
-<a id="q2469"></a>
-
-## Q2469. Strength of inhomogeneous ring regularity
-
-**Status:** Open, partial results · **Kind:** open problem (Question 3) · **Collection** 25 · *provisional entry*
-
-What is the reverse-mathematical strength over RCA₀ of the assertion: for every commutative ring R, finite m×n matrix A over R and nonzero b∈R^m, if Ax=b has no constant solution, some finite coloring of R has no monochromatic solution?
-
-**Context.** Doctoral context for question 2469: Gabriela Laboska. PhD, University of Chicago, 2025. Advisors: Maryanthe Malliaris; Denis Hirschfeldt. Origin for question 2469: Leader–Russell 2020; effective questions Laboska 2025. Setup for question 2469: A monochromatic solution has all coordinates the same color; a constant solution has all coordinates equal. Rings and algebraic operations are countable coded structures.
-
-**Source.** Gabriela Laboska. *On the Effectiveness of Partition Regularity over Algebraic Structures*. 2026. [primary source](https://doi.org/10.1017/jsl.2025.10178) Location: Open Question 3, p. 5; §2.1.
-
-**Literature check.** Status for question 2469, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
-
-**Results.**
-
-- **Partial result**: WKL0 proves the retained ring-coloring assertion over RCA0, with at most [3(n-1)]^(n-1) colors for n>=2 and one color for n<=1. A finite-presentation construction avoids comprehension of the range sR; supplied finite integer matrices are diagonalized by an explicit primitive-recursive algorithm. Every PA degree relative to the input can compute a witnessing coloring. Restricted scope: Countable coded commutative rings, as required for the retained second-order arithmetic statement; no additional ring hypothesis. Only an upper bound on logical strength is proved. Remaining: No WKL0 reversal, lower bound on the optimal color count, or exact reverse-mathematical classification is proved. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
-- **Related result** (B2-R5: auxiliary proof submission): Over RCA0, WKL0 implies the ring-coloring assertion, with q(n)=[3(n-1)]^(n-1) colors for n>=2. The finite feasibility lemma is proved by explicit integer-matrix diagonalization. Location: Part E. Restricted scope: Only the upper logical bound is proved. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
-
-**Further links.** [1](https://knowledge.uchicago.edu/records/7rfhc-ymn78)
-
-
-<a id="q2470"></a>
-
-## Q2470. Maximal complexity of hyperfiniteness
-
-**Status:** Open · **Kind:** open problem (Question 3.2.3) · **Collection** 25 · *provisional entry*
-
-Is the set of Borel codes for hyperfinite CBERs on Baire space Σ¹₂-complete?
-
-**Context.** Doctoral context for questions 2470, 2471: Cecelia Higgins. PhD, University of California, Los Angeles, 2025. Advisors: Andrew Marks; Anton Bernshteyn. Origin for questions 2470, 2471: Dougherty–Jackson–Kechris 1994; Weiss 1984. Setup for questions 2470, 2471: A CBER is a countable Borel equivalence relation on a standard Borel space. It is hyperfinite if it is an increasing countable union of Borel equivalence relations with finite classes.
-
-**Source.** Cecelia Higgins. *Measurable Brooks’s Theorem for Directed Graphs and the Complexity of Finite Borel Asymptotic Dimension*. University of California, Los Angeles, 2025. Advisor(s): Andrew Marks; Anton Bernshteyn. [primary source](https://escholarship.org/uc/item/7w93q45v) Location: Question 3.2.3, p. 54.
-
-**Literature check.** Status for questions 2470, 2471, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
-
-**Further links.** [1](https://doi.org/10.1017/fms.2026.10180) · [2](https://arxiv.org/abs/2608.18439v2)
-
-
-<a id="q2471"></a>
-
-## Q2471. Hyperfiniteness of amenable actions
-
-**Status:** Open · **Kind:** open problem (Question 3.3.1) · **Collection** 25 · *provisional entry*
-
-For every Borel action of a countable amenable group on a standard Borel space, is its orbit equivalence relation hyperfinite?
-
-**Context.** Doctoral context for questions 2470, 2471: Cecelia Higgins. PhD, University of California, Los Angeles, 2025. Advisors: Andrew Marks; Anton Bernshteyn. Origin for questions 2470, 2471: Dougherty–Jackson–Kechris 1994; Weiss 1984. Setup for questions 2470, 2471: A CBER is a countable Borel equivalence relation on a standard Borel space. It is hyperfinite if it is an increasing countable union of Borel equivalence relations with finite classes.
-
-**Source.** Cecelia Higgins. *Measurable Brooks’s Theorem for Directed Graphs and the Complexity of Finite Borel Asymptotic Dimension*. University of California, Los Angeles, 2025. Advisor(s): Andrew Marks; Anton Bernshteyn. [primary source](https://escholarship.org/uc/item/7w93q45v) Location: Question 3.3.1, p. 55.
-
-**Literature check.** Status for questions 2470, 2471, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
-
-**Further links.** [1](https://doi.org/10.1017/fms.2026.10180) · [2](https://arxiv.org/abs/2608.18439v2)
-
-
-<a id="q2472"></a>
-
-## Q2472. Bounded-degree dimension complexity
-
-**Status:** Open · **Kind:** open problem (Question 6.1) · **Collection** 25 · *provisional entry*
-
-Is the set of codes for bounded-degree Borel graphs with finite Borel asymptotic dimension Σ¹₂-complete?
-
-**Context.** Doctoral context for question 2472: see question 2470. Origin for question 2472: Preprint 2024; Question 6.1. Setup for question 2472: For a Borel graph G, asdim_B(G)≤d means: for every integer r≥1 there is a Borel partition into d+1 sets whose components in the distance≤r graph have uniformly bounded G-diameter.
-
-**Source.** Jan Grebík; Cecelia Higgins. *Complexity of Finite Borel Asymptotic Dimension*. 2026. [primary source](https://doi.org/10.1017/fms.2026.10180) Location: Question 6.1, p. 15.
-
-**Literature check.** Status for question 2472, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
-
-**Further links.** [1](https://arxiv.org/abs/2411.08797v3) · [2](https://escholarship.org/uc/item/7w93q45v)
 

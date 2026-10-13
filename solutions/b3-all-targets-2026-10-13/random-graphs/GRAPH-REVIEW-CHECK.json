@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "actual_full_rows_independently_recomputed": 144,
+  "minimum_element_recursion_total_states": 593165,
+  "all_five_vertex_graphs_literal_checked": 1024,
+  "Bonferroni_sufficient_indices": 651,
+  "exact_curvature_identities": 4096,
+  "isolated_claw_expectation_and_variance_literal_random_graph_controls": [
+    {
+      "n": 5,
+      "graphs": 1024,
+      "expectation": "10935/262144",
+      "second_moment": "10935/262144"
+    },
+    {
+      "n": 6,
+      "graphs": 32768,
+      "expectation": "2657205/67108864",
+      "second_moment": "2657205/67108864"
+    }
+  ],
+  "claw_discriminant": -31,
+  "weighted_claw_defect": -4,
+  "actual_exchange_support_failure": true,
+  "tree26_automorphism_count_by_rooted_types": 6912,
+  "tree26_row_by_included_excluded_tree_DP": [
+    1,
+    26,
+    300,
+    2040,
+    9142,
+    28551,
+    63933,
+    103736,
+    121376,
+    100144,
+    55499,
+    18683,
+    2979,
+    51,
+    1
+  ],
+  "scope": "Independent finite witnesses; all-size probability/prefix arguments audited in Q2400-INDEPENDENT-REVIEW.md.",
+  "reviewed_sha256": {
+    "Q2400-ATTEMPTS.md": "d57ea053b4cb2a7b6b03947c78a74c3a36e6fc60664b5d2849018bd0300167a5",
+    "BONFERRONI-PREFIX.md": "cd96e4b85b31055e447b5b8d8709a97efb936f6b04c5ea761a246099ff33a5de",
+    "ISOLATED-TREES.md": "c55add23995c2e6556d9220fcc1711b032ec284032d7610be22b4fef59407cf7",
+    "graph_probe.py": "681b66dde461d6d8289ba32f85294c9d27958e43796f18b17007e88f99841387",
+    "GRAPH-PROBE.json": "e149abbfa0449476f14babb0cfbe83b791aac21d1cb9d99944c08fa530363211",
+    "check_graph_routes.py": "0f4af9bdb3b1af2e53a6da678f3c4151b2123f2fba7dcc97c5aad51c22f19ea5",
+    "GRAPH-ROUTES-CHECK.json": "4d19ce5f582cbbfcd7a77d5e3ad7c869498971602c71522ece2870c5035ef24a"
+  },
+  "checker_sha256": "8ff24509f1453a0a9b5bf5eb72ca7c8a46180082d01b7ac590f73158e7031d5b"
+}

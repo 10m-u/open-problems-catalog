@@ -1,0 +1,50 @@
+{
+  "target": "Q1454",
+  "statement_id": "6ef0a2abf8519bc3a655",
+  "status": "failure_limit_reached",
+  "consecutive_failures": 5,
+  "root_review_accepted": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "route": "Literal RSK avoidance kernel as positive tableau Gram kernel",
+      "outcome": "full_target_failure",
+      "evidence": "Q1454-ATTEMPTS.md#q1454-a1",
+      "checker": "check_rsk_kernel.py",
+      "receipt": "RSK-KERNEL-CHECK.json"
+    },
+    {
+      "attempt": 2,
+      "route": "Uniform active-site maximum-insertion production quotient",
+      "outcome": "full_target_failure",
+      "evidence": "Q1454-ATTEMPTS.md#q1454-a2",
+      "checker": "check_insertion_state.py",
+      "receipt": "INSERTION-STATE-CHECK.json"
+    },
+    {
+      "attempt": 3,
+      "route": "Scalar enumeration bounds and log-convexity imply all Hankel forms",
+      "outcome": "full_target_failure",
+      "evidence": "Q1454-ATTEMPTS.md#q1454-a3",
+      "checker": "check_scalar_contract.py",
+      "receipt": "SCALAR-CONTRACT-CHECK.json"
+    },
+    {
+      "attempt": 4,
+      "route": "Normal extension of the exact full-state insertion creation operator",
+      "outcome": "full_target_failure",
+      "evidence": "Q1454-ATTEMPTS.md#q1454-a4",
+      "checker": "check_tree_operator.py",
+      "receipt": "TREE-OPERATOR-CHECK.json"
+    },
+    {
+      "attempt": 5,
+      "route": "Direct/skew component renewal and induction on principal avoidance classes",
+      "outcome": "full_target_failure",
+      "evidence": "Q1454-ATTEMPTS.md#q1454-a5",
+      "checker": "check_renewal.py",
+      "receipt": "RENEWAL-CHECK.json"
+    }
+  ],
+  "scope": "Five reviewed distinct full-target failures; exact partials retained; full conjecture unresolved. No sixth route."
+}

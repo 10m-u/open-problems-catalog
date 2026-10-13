@@ -1,0 +1,44 @@
+{
+  "three_cubes": {
+    "n": 114,
+    "root_bound": 1000,
+    "witness": null,
+    "cube_residues_mod9": [
+      0,
+      1,
+      8
+    ],
+    "n_locally_admissible_mod9": true
+  },
+  "one_variable_polynomial_images": {
+    "curve": "3(u^5+u)-2(v^4+v)=7",
+    "root_box": [
+      -40,
+      40
+    ],
+    "witnesses": [],
+    "unbounded_decision": false
+  },
+  "predicate_vs_function_false_pair": {
+    "index": 1,
+    "power_value": 4,
+    "P2_value_true": true,
+    "power_function_graph_true": false
+  },
+  "U_power_of_two_exponents": [
+    1,
+    3,
+    6,
+    11,
+    20,
+    37,
+    70,
+    135,
+    264,
+    521,
+    1034,
+    2059,
+    4108,
+    8205
+  ]
+}

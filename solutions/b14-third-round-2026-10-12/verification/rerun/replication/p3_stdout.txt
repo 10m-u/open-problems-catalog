@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "quadruples": 1512,
+  "conditional_pieces": 20376,
+  "nonflat_pieces": 8344,
+  "normalized_pieces": 20376,
+  "eligible_normalized_pieces": 8344
+}

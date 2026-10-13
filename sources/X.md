@@ -4,11 +4,11 @@
 
 | Author | Title | Role | Problems | Link |
 |---|---|---|---|---|
-| Changchang Xi, Jinbi Zhang | New invariants of stable equivalences and Auslander–Reiten conjecture | research-paper | [Q2917](../problems/mathematics/algebra-representation-theory-part-1.md#q2917) | [link](https://www.wemath.cn/~ccxi/Papers/Articles/xz3online.pdf) |
+| Changchang Xi, Jinbi Zhang | New invariants of stable equivalences and Auslander–Reiten conjecture | research-paper | [Q2917](../problems/mathematics/algebra-representation-theory-part-2.md#q2917) | [link](https://www.wemath.cn/~ccxi/Papers/Articles/xz3online.pdf) |
 | Changchang Xi | On the finitistic dimension conjecture I: related to representation-finite algebras | research-paper | [Q2901](../problems/mathematics/algebra-representation-theory-part-1.md#q2901) | [link](https://www.wemath.cn/~ccxi/Papers/Articles/findim-I.pdf) |
-| Changchang Xi | Open problems | research-paper | [Q2916](../problems/mathematics/algebra-representation-theory-part-1.md#q2916) | [link](https://www.wemath.cn/~ccxi/EngOpenProblem.php) |
-| Changchang Xi | Stable equivalences of adjoint type | research-paper | [Q2918](../problems/mathematics/algebra-representation-theory-part-1.md#q2918) | [link](https://www.wemath.cn/~ccxi/Papers/Articles/staadj_FM.pdf) |
-| Changchang Xi | The relative Auslander–Reiten theory of modules (undated revised preprint) | research-paper | [Q2912](../problems/mathematics/algebra-representation-theory-part-1.md#q2912) | [link](https://www.wemath.cn/~ccxi/Papers/Articles/rart.pdf) |
+| Changchang Xi | Open problems | research-paper | [Q2916](../problems/mathematics/algebra-representation-theory-part-2.md#q2916) | [link](https://www.wemath.cn/~ccxi/EngOpenProblem.php) |
+| Changchang Xi | Stable equivalences of adjoint type | research-paper | [Q2918](../problems/mathematics/algebra-representation-theory-part-2.md#q2918) | [link](https://www.wemath.cn/~ccxi/Papers/Articles/staadj_FM.pdf) |
+| Changchang Xi | The relative Auslander–Reiten theory of modules (undated revised preprint) | research-paper | [Q2912](../problems/mathematics/algebra-representation-theory-part-2.md#q2912) | [link](https://www.wemath.cn/~ccxi/Papers/Articles/rart.pdf) |
 | Tianying Xie | A linear upper bound for Berge saturation numbers | research-paper | [Q4517](../problems/mathematics/combinatorics-graph-theory-part-3.md#q4517) | [link](https://arxiv.org/abs/2610.11409) |
 | Ruofei Xie | Computability, Randomness, and Analysis | dissertation | [Q1176](../problems/mathematics/logic-foundations-set-theory-part-1.md#q1176) | [link](https://ndownloader.figshare.com/files/50090367) |
 | Zikai Xiong | New Theory and New Practical Methods for Solving Large-Scale Linear and Conic Optimization | dissertation | [Q54](../problems/computer_science_ai/theory-of-computation-algorithms-part-1.md#q54) | [link](https://dspace.mit.edu/server/api/core/bitstreams/fb10c17d-9822-4423-acfd-e0b53fef979f/content) |

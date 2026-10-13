@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "exact_degree_four_obstruction_controls": 17550,
+  "scope": "The exhaustive proof is in LOW-DEGREES.md; bounded checks are controls."
+}

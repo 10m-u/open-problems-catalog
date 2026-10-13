@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "all_nonconstant_indicators": 10398,
+  "projection_prefix_controls": 338088,
+  "zero_completion_exceptions": 10,
+  "largest_basis_energy_error": 5.662137425588298e-15,
+  "arithmetic": "Exact rational coefficient caps; double-precision character coefficients with 2e-12 tolerance.",
+  "scope": "Finite controls of the all-prime algebraic proof, not an asymptotic empirical claim."
+}

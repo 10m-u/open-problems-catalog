@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "predecessor_copies_match": 3,
+  "receipts_reproduced_except_elapsed_times": [
+    "EXACT-CHECK-RESULTS.json",
+    "NUMERICAL-RESULTS.json"
+  ]
+}

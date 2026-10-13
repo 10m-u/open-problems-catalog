@@ -1,0 +1,268 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "moduli": [
+        2
+      ],
+      "order": 2,
+      "singleton_values": [
+        0,
+        1
+      ],
+      "exact_states": 2,
+      "coset_monotonicity_controls": 8
+    },
+    {
+      "moduli": [
+        3
+      ],
+      "order": 3,
+      "singleton_values": [
+        0,
+        2,
+        2
+      ],
+      "exact_states": 5,
+      "coset_monotonicity_controls": 18
+    },
+    {
+      "moduli": [
+        4
+      ],
+      "order": 4,
+      "singleton_values": [
+        0,
+        3,
+        2,
+        3
+      ],
+      "exact_states": 8,
+      "coset_monotonicity_controls": 48
+    },
+    {
+      "moduli": [
+        5
+      ],
+      "order": 5,
+      "singleton_values": [
+        0,
+        4,
+        4,
+        4,
+        4
+      ],
+      "exact_states": 17,
+      "coset_monotonicity_controls": 50
+    },
+    {
+      "moduli": [
+        6
+      ],
+      "order": 6,
+      "singleton_values": [
+        0,
+        5,
+        4,
+        3,
+        4,
+        5
+      ],
+      "exact_states": 25,
+      "coset_monotonicity_controls": 144
+    },
+    {
+      "moduli": [
+        7
+      ],
+      "order": 7,
+      "singleton_values": [
+        0,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "exact_states": 43,
+      "coset_monotonicity_controls": 98
+    },
+    {
+      "moduli": [
+        8
+      ],
+      "order": 8,
+      "singleton_values": [
+        0,
+        7,
+        6,
+        7,
+        4,
+        7,
+        6,
+        7
+      ],
+      "exact_states": 65,
+      "coset_monotonicity_controls": 256
+    },
+    {
+      "moduli": [
+        9
+      ],
+      "order": 9,
+      "singleton_values": [
+        0,
+        8,
+        8,
+        6,
+        8,
+        8,
+        6,
+        8,
+        8
+      ],
+      "exact_states": 105,
+      "coset_monotonicity_controls": 243
+    },
+    {
+      "moduli": [
+        10
+      ],
+      "order": 10,
+      "singleton_values": [
+        0,
+        9,
+        8,
+        9,
+        8,
+        5,
+        8,
+        9,
+        8,
+        9
+      ],
+      "exact_states": 151,
+      "coset_monotonicity_controls": 400
+    },
+    {
+      "moduli": [
+        11
+      ],
+      "order": 11,
+      "singleton_values": [
+        0,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "exact_states": 241,
+      "coset_monotonicity_controls": 242
+    },
+    {
+      "moduli": [
+        12
+      ],
+      "order": 12,
+      "singleton_values": [
+        0,
+        11,
+        10,
+        9,
+        8,
+        11,
+        6,
+        11,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exact_states": 312,
+      "coset_monotonicity_controls": 864
+    },
+    {
+      "moduli": [
+        2,
+        2
+      ],
+      "order": 4,
+      "singleton_values": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "exact_states": 7,
+      "coset_monotonicity_controls": 80
+    },
+    {
+      "moduli": [
+        2,
+        4
+      ],
+      "order": 8,
+      "singleton_values": [
+        0,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "exact_states": 53,
+      "coset_monotonicity_controls": 512
+    },
+    {
+      "moduli": [
+        3,
+        3
+      ],
+      "order": 9,
+      "singleton_values": [
+        0,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "exact_states": 97,
+      "coset_monotonicity_controls": 486
+    },
+    {
+      "moduli": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "singleton_values": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "exact_states": 36,
+      "coset_monotonicity_controls": 1024
+    }
+  ],
+  "max_order": 12,
+  "scope": "Complete sequences and cosets in the named finite groups, not all-group monotonicity"
+}

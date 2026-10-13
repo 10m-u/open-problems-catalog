@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "actual_path5_coefficients": [
+    0,
+    0,
+    3,
+    8,
+    5,
+    1
+  ],
+  "actual_path5_reduced_discriminant": -31,
+  "symmetric_global_band_coefficients": [
+    0,
+    0,
+    15,
+    20,
+    15,
+    0,
+    0
+  ],
+  "symmetric_band_quadratic_discriminant": -500,
+  "matroid_circuit_elimination_witness": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "symmetric_interval_basis_exchange_failures": [
+    [
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      3
+    ],
+    [
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      5
+    ],
+    [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      0
+    ],
+    [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      2
+    ],
+    [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      4
+    ]
+  ],
+  "antipodal_midpoint_rank2_preimages": 15,
+  "antipodal_midpoint_outputs": 1,
+  "generic_APP_intersection_counts": [
+    [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "generic_recurrence_output": [
+    0,
+    10,
+    11,
+    11,
+    1
+  ],
+  "generic_cut_output": [
+    1,
+    2,
+    1,
+    1
+  ],
+  "actual_domination_ULC_examples": 100,
+  "maximum_graph_size": 14,
+  "scope": "Proof-method obstructions and finite unweighted controls, not counterexamples to either full target."
+}

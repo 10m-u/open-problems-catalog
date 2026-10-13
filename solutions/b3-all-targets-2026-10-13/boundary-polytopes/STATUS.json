@@ -1,0 +1,35 @@
+{
+  "targets": [
+    {
+      "target": "Q3902",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "failed_routes_before_resolution": 1,
+      "root_review_accepted": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Binary-code crosspolytope formula and nonnegative full-rank forest assembly",
+          "outcome": "full_target_failure",
+          "evidence": "boundary-polytopes/Q3902-ATTEMPTS.md#q3902-a1"
+        }
+      ],
+      "retained_partials": [
+        "Every reflexive centrally symmetric crosspolytope is gamma-positive; covers all reflexive homology polytopes with vanishing top homology"
+      ],
+      "resolution": {
+        "outcome": "full_target_counterexample_via_audited_literature",
+        "attribution": "Luis Ferroni, arXiv:2607.02424v1, Proposition 2.1 / Corollary 2.2",
+        "scope": "Universal Q3902 refuted through homology branch; standalone cohomology and Question 9.3 not closed",
+        "evidence": "boundary-polytopes/Q3902-LITERATURE-CLOSURE.md"
+      },
+      "evidence": [
+        "boundary-polytopes/CROSSPOLYTOPES.md",
+        "boundary-polytopes/CROSSPOLYTOPE-CHECK.json",
+        "boundary-polytopes/Q3902-LITERATURE-CLOSURE.md",
+        "boundary-polytopes/FERRONI-CHECK.json"
+      ],
+      "review_evidence": "ROOT-REVIEW.md#boundary-final"
+    }
+  ]
+}

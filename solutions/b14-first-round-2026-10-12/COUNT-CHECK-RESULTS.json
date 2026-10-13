@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "exchange_accounting": {
+    "n_range": [
+      3,
+      30
+    ],
+    "constraints": 4032,
+    "chord_occurrences": 2
+  },
+  "full_grid_joint_inequality": {
+    "cases": 388,
+    "sizes_and_grids": [
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        2
+      ]
+    ]
+  },
+  "quadratic_identity_and_lower_bound": {
+    "cases": 784,
+    "n_range": [
+      3,
+      100
+    ]
+  },
+  "petersen_subtour_lp": {
+    "proper_cuts": 1022,
+    "minimum_cheap_cut": 3,
+    "lp_value": 10,
+    "tour_optimum": 11
+  },
+  "scope": "finite checks support a separate mathematical review; no formal proof assistant"
+}

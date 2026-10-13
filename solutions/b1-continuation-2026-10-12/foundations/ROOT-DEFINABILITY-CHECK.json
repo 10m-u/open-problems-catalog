@@ -1,0 +1,23 @@
+{
+  "complement_formula_controls": 65536,
+  "masked_slice_controls": 65536,
+  "affine_coefficient_cutoff": 16,
+  "mask_prime": 17,
+  "affine_periodic_density_controls": 272,
+  "whole_integer_quantifiers_false_online_bit_game_true": true,
+  "monoid_image_control": {
+    "DFA_states": 9,
+    "monoid_elements": 20,
+    "finite_representatives": [
+      "0",
+      "1",
+      "10",
+      "1001",
+      "101",
+      "110"
+    ],
+    "accepted_word_missing_from_finite_representatives": "1010101010",
+    "same_accepting_monoid_image": true
+  },
+  "scope": "Finite exact obstructions; no unbounded definability decision."
+}

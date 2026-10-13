@@ -1,0 +1,139 @@
+{
+  "review_date": "2026-10-13",
+  "round": 3,
+  "reviewer": "same retained research subagent; independent of returned submission",
+  "status": "accepted_at_stated_scope",
+  "mathematical_gaps_found": [],
+  "report": "ROUND3-REVIEW.md",
+  "report_sha256": "c5a3477223a00a4f84ab3e07023b4ae13b20e2b0e52cd6648644bdf6cb90594d",
+  "read_proofs_before_code_execution": true,
+  "primary_sources_checked": [
+    {
+      "url": "https://arxiv.org/html/2610.11847v1",
+      "locations": "Problem 4; Theorem 3",
+      "local_text": "texts/papers/collections-5b89ab34d74dca89.txt.gz"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.29042v1",
+      "locations": "Section 8; Conjecture 1.10; Lemma 7.5",
+      "local_text": "texts/papers/collections-d817f7a73f6a21bd.txt.gz"
+    },
+    {
+      "url": "https://ir.cwi.nl/pub/9858/9858D.pdf",
+      "locations": "Theorem and polynomial proof; Jamison attribution"
+    }
+  ],
+  "accepted_result_records": [
+    {
+      "id": "B2-III-M1",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "disposition": "accept_scoped_written_proof",
+      "scope": "Nonempty R; maximum-dimensional flat direction, two colours, F_3; boundary cases included.",
+      "submitted_proof": "RESEARCH-NOTE.pdf, Theorem 2.2"
+    },
+    {
+      "id": "B2-III-M2",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "disposition": "accept_scoped_written_proof",
+      "scope": "Occupied-fibre inheritance follows from at most one non-monochromatic exceptional fibre.",
+      "submitted_proof": "RESEARCH-NOTE.pdf, Theorem 2.3"
+    },
+    {
+      "id": "B2-III-M3",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "disposition": "accept_scoped_written_proof",
+      "scope": "Exact extremal cardinality 16 in F_3^3; proved threshold and explicit construction.",
+      "submitted_proof": "RESEARCH-NOTE.pdf, Theorem 3.3"
+    },
+    {
+      "id": "B2-III-M4",
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "disposition": "accept_scoped_written_proof",
+      "scope": "Upper bound (5/2)*2^n-4 for n>=3; density>=1/10 forces plane at n>=8; no further sharpness.",
+      "submitted_proof": "RESEARCH-NOTE.pdf, Theorem 4.1 and Corollary 4.2"
+    },
+    {
+      "id": "B2-III-E1",
+      "target": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "disposition": "accept_scoped_written_proof",
+      "scope": "Full one-sided N_0 support; regular positive coefficient/exponent log tail; dominated differentiation and expectation limits audited.",
+      "submitted_proof": "RESEARCH-NOTE.pdf, Lemmas 5.1-5.2 and Theorem 5.3"
+    },
+    {
+      "id": "B2-III-E2",
+      "target": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "disposition": "accept_scoped_written_proof",
+      "scope": "Every fixed beta,c>0 tail class has unrestricted ratio supremum; finite-entropy truncation, integer modelling and mixtures audited.",
+      "submitted_proof": "RESEARCH-NOTE.pdf, Theorem 6.1"
+    },
+    {
+      "id": "B2-III-E3",
+      "target": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "disposition": "accept_scoped_written_proof",
+      "scope": "Gaussian-tail nonattainment accepted; displayed exponent lower endpoint uses the inherited round2 L certificate.",
+      "submitted_proof": "RESEARCH-NOTE.pdf, Corollary 6.2"
+    }
+  ],
+  "full_target_closures": [],
+  "new_full_target_failed_attempts": 0,
+  "full_target_status": {
+    "Q4296": "unresolved; two-colour partial advances only",
+    "Q4660": "unresolved; least universal constant not determined"
+  },
+  "source_location_correction": {
+    "target": "Q4660",
+    "catalog_label": "Conjecture 1.10",
+    "actual_location": "Section 8 sum-difference sharpness paragraph; keep catalog original plus correction"
+  },
+  "dependencies_not_recounted": [
+    "prior cap classification",
+    "prior full-fibre inheritance",
+    "classical blocking theorem",
+    "prior general codimension bound",
+    "prior round2 entropy lower bound"
+  ],
+  "numerical_exponent_lower_endpoint_dependency": "Inherited L=1.4051810329 certificate is in root round2 audit; no fresh universal witness claimed.",
+  "copied_replay_checks": [
+    {
+      "receipt": "round3/MIDPOINT-CHECKS.json",
+      "status": "passed",
+      "matches_submission_json": true,
+      "sha256": "9eb50db619771eb1c55e4b66a132946419dac6fbaea8a45b2557fd50c82fab9c"
+    },
+    {
+      "receipt": "round3/ENTROPY-VARIATION-CHECKS.json",
+      "status": "passed",
+      "matches_submission_json": true,
+      "sha256": "e95267590398a01791ab3562eebbbeca94485517929ad17836aa101a53bdd689"
+    }
+  ],
+  "independent_check": {
+    "script": "round3/independent_check.py",
+    "receipt": "round3/INDEPENDENT-CHECK.json",
+    "status": "passed",
+    "imports_submission_code": false,
+    "finite_controls_only": true,
+    "sha256": "90094bd7eb0f0fbf41a4e121beea3037bd19359c043c684b9b6405f4e7fc5c7a"
+  },
+  "python_version": "3.14.8",
+  "submission_preservation": {
+    "file_count": 19,
+    "all_bytes_unchanged": true,
+    "manifest_before": "passed",
+    "hashes": "round3/PRESERVATION.json"
+  },
+  "excluded_exploratory_run": "4D MILP time limit is not infeasibility; not replayed.",
+  "external_peer_review": false,
+  "formal_proof_assistant": false,
+  "worldwide_novelty_checked": false,
+  "canonical_catalog_modified": false,
+  "exporter_modified": false,
+  "public_repository_modified": false
+}

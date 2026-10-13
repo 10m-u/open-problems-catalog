@@ -1,0 +1,365 @@
+{
+  "status": "passed",
+  "arithmetic": "integers and exact fractions",
+  "scope": "Finite independent controls; general theorems use the manuscript proofs.",
+  "plane": {
+    "subsets_checked": 512,
+    "cap_histogram": {
+      "0": 1,
+      "1": 9,
+      "2": 36,
+      "3": 72,
+      "4": 54
+    },
+    "two_colour_cap_histogram": {
+      "0": 1,
+      "1": 9,
+      "2": 36,
+      "4": 54
+    },
+    "three_point_triangle": "passed"
+  },
+  "incidence": {
+    "planes": 39,
+    "planes_per_point": 13,
+    "planes_per_pair": 4,
+    "noncollinear_triples_checked": 2808,
+    "moment_feasible_sizes": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "moment_table": [
+      {
+        "s": 0,
+        "n0_n1_n2_n4": [
+          "39",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonnegative_integral": true
+      },
+      {
+        "s": 1,
+        "n0_n1_n2_n4": [
+          "26",
+          "13",
+          "0",
+          "0"
+        ],
+        "nonnegative_integral": true
+      },
+      {
+        "s": 2,
+        "n0_n1_n2_n4": [
+          "17",
+          "18",
+          "4",
+          "0"
+        ],
+        "nonnegative_integral": true
+      },
+      {
+        "s": 3,
+        "n0_n1_n2_n4": [
+          "45/4",
+          "17",
+          "21/2",
+          "1/4"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 4,
+        "n0_n1_n2_n4": [
+          "8",
+          "12",
+          "18",
+          "1"
+        ],
+        "nonnegative_integral": true
+      },
+      {
+        "s": 5,
+        "n0_n1_n2_n4": [
+          "13/2",
+          "5",
+          "25",
+          "5/2"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 6,
+        "n0_n1_n2_n4": [
+          "6",
+          "-2",
+          "30",
+          "5"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 7,
+        "n0_n1_n2_n4": [
+          "23/4",
+          "-7",
+          "63/2",
+          "35/4"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 8,
+        "n0_n1_n2_n4": [
+          "5",
+          "-8",
+          "28",
+          "14"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 9,
+        "n0_n1_n2_n4": [
+          "3",
+          "-3",
+          "18",
+          "21"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 10,
+        "n0_n1_n2_n4": [
+          "-1",
+          "10",
+          "0",
+          "30"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 11,
+        "n0_n1_n2_n4": [
+          "-31/4",
+          "33",
+          "-55/2",
+          "165/4"
+        ],
+        "nonnegative_integral": false
+      },
+      {
+        "s": 12,
+        "n0_n1_n2_n4": [
+          "-18",
+          "68",
+          "-66",
+          "55"
+        ],
+        "nonnegative_integral": false
+      }
+    ]
+  },
+  "quotient": {
+    "labelled_partitions_tested": 19683,
+    "admissible_partitions": 1371,
+    "quotient_assignments_tested": 23196,
+    "status": "passed"
+  },
+  "constructions": {
+    "embedded_examples": [
+      {
+        "ambient_dimension": 1,
+        "remainder_size": 1,
+        "density": "1/3",
+        "largest_affine_dimension": 0
+      },
+      {
+        "ambient_dimension": 2,
+        "remainder_size": 1,
+        "density": "1/9",
+        "largest_affine_dimension": 0
+      },
+      {
+        "ambient_dimension": 3,
+        "remainder_size": 2,
+        "density": "2/27",
+        "largest_affine_dimension": 0
+      },
+      {
+        "ambient_dimension": 3,
+        "remainder_size": 4,
+        "density": "4/27",
+        "largest_affine_dimension": 0
+      },
+      {
+        "ambient_dimension": 4,
+        "remainder_size": 12,
+        "density": "4/27",
+        "largest_affine_dimension": 1
+      }
+    ],
+    "embedded_midpoint_pairs_checked": 3981,
+    "block_test": {
+      "k": 2,
+      "b": 2,
+      "added_codimension": 2,
+      "points": 729,
+      "midpoint_pairs_checked": 265356
+    },
+    "density_formula_integer_checks_k": [
+      2,
+      100
+    ],
+    "density_formula_instances": 99
+  },
+  "negative_control": {
+    "status": "passed",
+    "A": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "B": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        0
+      ]
+    ],
+    "R": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "A_and_R_affinely_span_ambient": true,
+    "R_contains_no_affine_plane": true
+  }
+}

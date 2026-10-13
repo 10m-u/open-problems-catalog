@@ -329,6 +329,7 @@ Do absolute C,K>0 satisfy ω(G_p)≤C(log p)^K for every prime p≡1 mod 4?
 - **Related result** (B2-R3: auxiliary proof submission): The two completed orthonormal character bases on the (p-1)-dimensional mean-zero space have overlap magnitude 1/sqrt(p-1); rs>=p-1. Every nonconstant rational function has full nonzero additive Fourier support. Location: Part A, section 3. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Related result** (B2-PAL-1: auxiliary proof submission): For every prime p congruent to 1 mod 4, global clique theta, global Schrijver clique theta, and degree-2 SOS all equal sqrt(p). Location: Part B; paley_report.md, section 2. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Related result** (B2-PAL-4: auxiliary proof submission): Exact finite results for all 29 primes p<=300, p congruent to 1 mod4, as enumerated in verification.json. Location: Part B; finite experiment. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2603.29571) · [2](https://www.kunisky.com/publications/) · [3](https://d-nb.info/1379325129/34)
 
@@ -353,6 +354,7 @@ Does some ε>0 satisfy SOS₄(G_p)=O(p^{1/2−ε}) as p→∞ through primes p�
 - **Related result** (B2-R3: auxiliary proof submission): The two completed orthonormal character bases on the (p-1)-dimensional mean-zero space have overlap magnitude 1/sqrt(p-1); rs>=p-1. Every nonconstant rational function has full nonzero additive Fourier support. Location: Part A, section 3. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Related result** (B2-PAL-2: auxiliary proof submission): For every finite vertex-transitive graph G, SOS4(G)<=1+theta(complement of its neighborhood graph). In particular this holds for every Paley G_p. Location: Part B; paley_report.md, section 3. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Related result** (B2-PAL-4: auxiliary proof submission): Exact finite results for all 29 primes p<=300, p congruent to 1 mod4, as enumerated in verification.json. Location: Part B; finite experiment. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2603.29571) · [2](https://www.kunisky.com/publications/) · [3](https://d-nb.info/1379325129/34)
 
@@ -376,6 +378,7 @@ Are there infinitely many such p with 1+τ₊(H_p)<⌊(1+√(2p−1))/2⌋?
 - **Partial result**: Exactly p=61 and p=281 satisfy the strict inequality among eligible primes p<=300, with both directions certified. The two examples are already present numerically in the source and are not claimed new. On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators. Restricted scope: Finite computations restrict p to all primes <=300 congruent to 1 modulo 4. Remaining: The original asymptotic quantifiers are not established. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-R3: auxiliary proof submission): The two completed orthonormal character bases on the (p-1)-dimensional mean-zero space have overlap magnitude 1/sqrt(p-1); rs>=p-1. Every nonconstant rational function has full nonzero additive Fourier support. Location: Part A, section 3. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Related result** (B2-PAL-4: auxiliary proof submission): Exact finite results for all 29 primes p<=300, p congruent to 1 mod4, as enumerated in verification.json. Location: Part B; finite experiment. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2603.29571)
 
@@ -399,6 +402,7 @@ Does there exist ε>0 such that θ(H_p)≤(1/√2−ε)√p for all sufficiently
 - **Partial result**: Rational theta dual upper bounds certified on all 29 eligible primes p<=300. After adding two and taking floors, 18/29 match the exact clique number and 21/29 improve the HP floor. On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators. Restricted scope: Finite computations restrict p to all primes <=300 congruent to 1 modulo 4. Remaining: The original asymptotic quantifiers are not established. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
 - **Related result** (B2-R3: auxiliary proof submission): The two completed orthonormal character bases on the (p-1)-dimensional mean-zero space have overlap magnitude 1/sqrt(p-1); rs>=p-1. Every nonconstant rational function has full nonzero additive Fourier support. Location: Part A, section 3. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Related result** (B2-PAL-4: auxiliary proof submission): Exact finite results for all 29 primes p<=300, p congruent to 1 mod4, as enumerated in verification.json. Location: Part B; finite experiment. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://www.kunisky.com/publications/) · [2](https://arxiv.org/abs/2603.29571)
 
@@ -423,6 +427,7 @@ Do absolute C,α>0 and 0<δ<√2−1 exist such that (1−δ)||x||₂²≤||Φ\_
 - **Related result** (B2-R3: auxiliary proof submission): The two completed orthonormal character bases on the (p-1)-dimensional mean-zero space have overlap magnitude 1/sqrt(p-1); rs>=p-1. Every nonconstant rational function has full nonzero additive Fourier support. Location: Part A, section 3. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Related result** (B2-PAL-3: auxiliary proof submission): For every eligible p and integer 1<=k<=p+1, delta_k=(k-1)/sqrt(p) iff k<=omega(G_p)+1. If k>=omega+2 then delta_k<=min(1,(k-4+sqrt(k^2+4k-12))/(2sqrt(p))). Location: Part B; paley_report.md, section 4. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
 - **Investigated, unresolved** (B2-PAL-5: scope comparison): Theorem 18 and the quantitative Conjecture29 in Satake2405.08608v2 have stronger RIP-constant hypotheses than retained Q2191 and cannot be imported merely by citation substitution. Location: Part B; paley_report.md, section 4. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://people.math.ethz.ch/~abandeira/MathofSNLnotes2026.pdf) · [2](https://arxiv.org/abs/2405.08608)
 
@@ -1182,6 +1187,8 @@ For every sufficiently large fixed d, does P(x_k(G)²≥x_{k−1}(G)x_{k+1}(G) f
 **Results.**
 
 - **Partial result**: For fixed d>0 and n>=max(2,d), simultaneously x_k^2>=x_(k-1)x_(k+1) for 1<=k<=min(n-1,floor(((n-1)/(2d))^(1/3))) with probability at least 1-exp(-d(n-1)/6). Also an exact positive expectation formula for every defect. Remaining: The full coefficient row with high probability remains unresolved. Positive expectation alone does not imply a high-probability sign. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
+- **Partial result** (B3-ALL-TARGETS-Q2400-PREFIX: A fixed-density random graph log-concavity prefix): For every fixed d>0, G(n,d/n) has a log-concave independent-set count prefix through K=floor((n^2/(384\*d^2))^(1/5))-1 with probability tending to one, under the explicit eventual size conditions. Exact second Bonferroni bounds prove the all-size criterion. Every fixed tree T is absent as an isolated component with probability O_(T,d)(1/n). Remaining/limits: The complete rank row remains unresolved; real-rootedness and all-weight claims are stronger properties and their failures do not refute it. The existing partial topic is preserved. [Report](../../solutions/b3-all-targets-2026-10-13/random-graphs/BONFERRONI-PREFIX.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2006.04756)
 
@@ -3056,6 +3063,10 @@ For every n≥1 and Hermitian A,B, does E[det(xI−C)] have only real zeros?
 
 **Literature check.** Status: Checked 9 October 2026; no later resolution located. Rectangular α=−1/2 and nonnegative integers are proved.
 
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 **Further links.** [1](https://arxiv.org/abs/2605.31356v1) · [2](https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/aac8c03b-e3b1-470b-b3d7-e8a1018b45d2/content) · [3](https://uwaterloo.ca/pure-mathematics/events/phd-thesis-defence-30)
 
 
@@ -3063,7 +3074,7 @@ For every n≥1 and Hermitian A,B, does E[det(xI−C)] have only real zeros?
 
 ## Q3437. Generalized rectangular positivity
 
-**Status:** Open · **Kind:** conjecture (Conjecture 3.13) · **Collection** 35
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 3.13) · **Collection** 35
 
 For every m≥1, α>−1 and monic degree-m p,q with nonnegative real zeros, must p⊞ᵅ\_m q have nonnegative real zeros?
 
@@ -3072,6 +3083,12 @@ For every m≥1, α>−1 and monic degree-m p,q with nonnegative real zeros, mus
 **Source.** Jacob Campbell, Rafael Morales and Daniel Perales. *Even Hypergeometric Polynomials and Finite Free Commutators*. 2025. [primary source](https://sigma-journal.com/2025/108/sigma25-108.pdf) Location: Definition 3.10, p. 12; Conjecture 3.13, p. 13.
 
 **Literature check.** Status: Checked 9 October 2026; no later resolution located. Rectangular α=−1/2 and nonnegative integers are proved.
+
+**Results.**
+
+- **Partial result**: The rectangular finite free additive convolution preserves nonnegative real roots at degrees m<=2 for every alpha>-1, including zero and repeated input roots. In every m>=2 its normalized derivative is the convolution of the normalized input derivatives in degree m-1 with parameter alpha+1. The derivative identity does not control the required antiderivative signs; the all-degree question remains unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/finite-convolutions/RECTANGULAR-RESULTS.md).
+- **Partial result** (B3-ALL-TARGETS-Q3437-LOW-DEGREE: All permitted parameters in rectangular degrees one and two): The rectangular finite free additive convolution preserves nonnegative real roots at degrees m<=2 for every alpha>-1, including zero and repeated input roots. In every m>=2 its normalized derivative is the convolution of the normalized input derivatives in degree m-1 with parameter alpha+1. Remaining/limits: The derivative identity does not control the required antiderivative signs; the all-degree question remains unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/finite-convolutions/RECTANGULAR-RESULTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2605.31356v1) · [2](https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/aac8c03b-e3b1-470b-b3d7-e8a1018b45d2/content) · [3](https://uwaterloo.ca/pure-mathematics/events/phd-thesis-defence-30)
 
@@ -4199,7 +4216,7 @@ If μ^{\*m}(0)=ν^{\*m}(0) for every integer m≥1, must the two shapes agree?
 
 ## Q4082. Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X?
 
-**Status:** Open · **Kind:** open problem · **Collection** 41
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 41
 
 Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X?
 
@@ -4208,6 +4225,11 @@ Does M(X)²[1+k(α)Var(X)]≤1 hold for every such X?
 **Source.** Abdulmajeed Alqasem, Heshan Aravinda and Arnaud Marsiglietti. *Majorization, Entropy and Concentration Inequalities for Discrete α-Concave Random Variables*. 2026. [primary source](https://arxiv.org/abs/2610.05439v1) Location: Conjecture4.7, p.17.
 
 **Literature check.** Status: Paper-origin. The stated α-range ensures a finite second moment. The paper proves a weaker constant; one-sided α-affine examples show that the proposed coefficient cannot be increased. No matching resolution found, 10October2026.
+
+**Results.**
+
+- **Proved**: For every alpha in (-1/3,0) and every discrete alpha-concave law X on an integer interval, M(X)^2 [1+k(alpha) Var(X)] <=1, with k(alpha)=(1+2alpha)^2(1+3alpha)/(1+alpha)^3. The exact coefficient is sharp by the source one-sided asymptotic example. Mean-matched convex order, all-slope one-sided bounds, a Gamma moment inequality and two-tail gluing prove the full frozen assertion. No remaining obligation at the catalog scope. Internally reviewed local proof; no novelty or external peer-review claim. The rest of the B3 run remains in progress. [Details](../../solutions/b3-all-targets-2026-10-13/concave-laws/FULL-PROOF.md). Related: [Original Conjecture 4.7](https://arxiv.org/html/2610.05439v1).
+- **Proved** (B3-ALL-TARGETS-Q4082: Sharp variance bound for every discrete alpha-concave law): For every alpha in (-1/3,0) and every discrete alpha-concave law X on an integer interval, M(X)^2 [1+k(alpha) Var(X)] <=1, with k(alpha)=(1+2alpha)^2(1+3alpha)/(1+alpha)^3. The exact coefficient is sharp by the source one-sided asymptotic example. Mean-matched convex order, all-slope one-sided bounds, a Gamma moment inequality and two-tail gluing prove the full frozen assertion. Remaining/limits: No remaining obligation at the catalog scope. Internally reviewed local proof; no novelty or external peer-review claim. The rest of the B3 run remains in progress. [Report](../../solutions/b3-all-targets-2026-10-13/concave-laws/FULL-PROOF.md).
 
 
 <a id="q4091"></a>
@@ -4392,109 +4414,4 @@ Is it true, for every such law and every integer n≥1, that supₓ∈R |P((X₁
 **Source.** Hengzhi He and Guang Cheng. *The Berry-Esseen Constant Conjecture is Eventually True*. 2026. [primary source](https://arxiv.org/abs/2609.06358v3) Location: pp. 1–2, especially the paragraph after Theorem 1.1.
 
 **Literature check.** Status: This is the classical sharp-constant conjecture restated in a research paper, not a dissertation-origin question. Version 3 establishes the bound above a universal sample-size threshold, while explicitly leaving all sample sizes open. Its accompanying conditional Lean theorem has the same eventual quantifier. Bell’s September 2026 manuscripts address a weaker universal constant, restricted finite arrays, small Lyapunov ratios, and conditional extremizers; none states this unrestricted iid conclusion. No matching resolution found, 10 October 2026.
-
-
-<a id="q4202"></a>
-
-## Q4202. For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p)…
-
-**Status:** Open · **Kind:** open problem · **Collection** 43
-
-For every non-elementary word-hyperbolic Γ and every Cayley graph, are ℓ(p) and h(p) differentiable, smooth, or analytic throughout the supercritical phase?
-
-**Context.** On a Cayley graph of a finitely generated group Γ with finite symmetric generating set, retain each edge independently with probability p. Let p_c be the infinite-cluster threshold. For p>p_c, condition the identity's cluster on being infinite and run simple random walk X_n from the identity. Write P_p^ω for its law in the fixed cluster, and |g| for ambient word length. For almost every cluster and trajectory x=(x_n), drift ℓ(p) and entropy h(p) are the deterministic limits of |x_n|/n and −n⁻¹log P_p^ω(X_n=x_n), respectively.
-
-**Source.** Kohki Sakamoto. *Continuity for random walks in hyperbolic percolation: drift, entropy, and dimension*. 2026. [primary source](https://arxiv.org/abs/2609.08519v1) Location: Questions 1.3–1.4, p.3.
-
-**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
-
-
-<a id="q4203"></a>
-
-## Q4203. Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a…
-
-**Status:** Open · **Kind:** open problem · **Collection** 43
-
-Does some finitely generated Γ admit a Cayley graph where ℓ(p) or h(p) is discontinuous at a supercritical parameter?
-
-**Context.** On a Cayley graph of a finitely generated group Γ with finite symmetric generating set, retain each edge independently with probability p. Let p_c be the infinite-cluster threshold. For p>p_c, condition the identity's cluster on being infinite and run simple random walk X_n from the identity. Write P_p^ω for its law in the fixed cluster, and |g| for ambient word length. For almost every cluster and trajectory x=(x_n), drift ℓ(p) and entropy h(p) are the deterministic limits of |x_n|/n and −n⁻¹log P_p^ω(X_n=x_n), respectively.
-
-**Source.** Kohki Sakamoto. *Continuity for random walks in hyperbolic percolation: drift, entropy, and dimension*. 2026. [primary source](https://arxiv.org/abs/2609.08519v1) Location: Questions 1.3–1.4, p.3.
-
-**Literature check.** Status: Paper-recorded; no matching resolution found, 10 October 2026.
-
-
-<a id="q4218"></a>
-
-## Q4218. For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant?
-
-**Status:** Open · **Kind:** open problem · **Collection** 43
-
-For d=1 and p=3/4, does √(log L) Eτ\_L/L² converge as L→∞ to a finite positive constant?
-
-**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
-
-**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
-
-**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
-
-
-<a id="q4219"></a>
-
-## Q4219. For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some…
-
-**Status:** Open · **Kind:** open problem · **Collection** 43
-
-For d=2, α∈[1/2,1), or d≥3, α∈(1/2,1), does τ\_L/H(d,L) converge as L→∞ in L¹ to some c(p,d)∈(0,∞)? If so, is c(p,d) the simple-random-walk constant (p=1/(2d))?
-
-**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
-
-**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
-
-**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
-
-
-<a id="q4220"></a>
-
-## Q4220. For d=2 and p∈[5/8,1), does (log n)|R_n|/n converge as n→∞ in probability to some r(p)>0? If so,…
-
-**Status:** Open · **Kind:** open problem · **Collection** 43
-
-For d=2 and p∈[5/8,1), does (log n)|R_n|/n converge as n→∞ in probability to some r(p)>0? If so, also in L¹, and how does r(p) depend on p?
-
-**Context.** For integers d≥1,L≥2 and p∈[0,1), start X₀=0 in Z^d with a uniformly chosen nearest-neighbor first increment. Subsequently choose a previous increment uniformly, repeat it with probability p, otherwise choose uniformly among the other 2d−1 directions. Let τ\_L=min{n:{X₀,…,X_n} mod L=(Z/LZ)^d}, R_n={X₀,…,X_n}, and α=(2dp−1)/(2d−1). Set H(2,L)=L²(log L)² and H(d,L)=L^d log L for d≥3. Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
-
-**Source.** Shuo Qin. *Cover times and ranges of elephant random walks*. 2026. [primary source](https://arxiv.org/abs/2609.17264v1) Location: Questions 1–3, pp.15,23,25.
-
-**Literature check.** Status: Qin: mathematics PhD, New York University, 2024; supervisor Pierre Tarrès. These are paper-recorded questions. No matching resolution found, 10 October 2026.
-
-
-<a id="q4221"></a>
-
-## Q4221. For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor…
-
-**Status:** Open · **Kind:** open problem · **Collection** 43
-
-For d≥2 and independent σ(x)∼Pois(ρ), set ρ\_c=inf{ρ∈(0,1]:T has an infinite nearest-neighbor component almost surely}. For every 0≤ρ<ρ\_c, does some c(ρ,d)>0 satisfy P(K₀⊆[−R,R]^d)≥1−exp(−cR) for all R≥1, where K₀ is the component of 0 in T, empty when 0∉T?
-
-**Context.** On Z^d, define u₀=0 and u_(t+1)(x)=max{0,(σ(x)−1+Σ\_(y∼x)u_t(y))/(2d)}, where y∼x means nearest neighbors. The toppled set is T={x:lim_t u_t(x)>0}.
-
-**Source.** Ahmed Bou-Rabee and Christoforos Panagiotis. *Quantitative explosion and percolation of the divisible sandpile*. 2026. [primary source](https://arxiv.org/abs/2609.02829v1) Location: Problems 1.4–1.5, pp.10–11.
-
-**Literature check.** Status: Paper-recorded. Bou-Rabee: statistics PhD, Chicago, 2022; advisor Charles K. Smart. Panagiotis: PhD, Warwick, 2020; advisor Agelos Georgakopoulos. No matching resolution found, 10 October 2026.
-
-
-<a id="q4222"></a>
-
-## Q4222. For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of…
-
-**Status:** Open · **Kind:** open problem · **Collection** 43
-
-For d=4 and σ(x)=1+8ζ(x), with independent identically distributed centered Gaussian ζ(x) of positive variance, do Z_R(z)=u_⌊TR²⌋(⌊Rz⌋)−E u_⌊TR²⌋(0) converge in law as R→∞, for every T>0 and s>0, in H⁻ˢ\_loc(R⁴)? Identify the limit. Here H⁻ˢ\_loc convergence means H⁻ˢ(D) convergence on every bounded smooth domain D, where H⁻ˢ(D)=(H₀ˢ(D))\* and H₀ˢ(D) is the Hˢ-closure of smooth compactly supported functions.
-
-**Context.** On Z^d, define u₀=0 and u_(t+1)(x)=max{0,(σ(x)−1+Σ\_(y∼x)u_t(y))/(2d)}, where y∼x means nearest neighbors. The toppled set is T={x:lim_t u_t(x)>0}.
-
-**Source.** Ahmed Bou-Rabee and Christoforos Panagiotis. *Quantitative explosion and percolation of the divisible sandpile*. 2026. [primary source](https://arxiv.org/abs/2609.02829v1) Location: Problems 1.4–1.5, pp.10–11.
-
-**Literature check.** Status: Paper-recorded. Bou-Rabee: statistics PhD, Chicago, 2022; advisor Charles K. Smart. Panagiotis: PhD, Warwick, 2020; advisor Agelos Georgakopoulos. No matching resolution found, 10 October 2026.
 

@@ -1,6 +1,6 @@
 # Logic, Foundations & Set Theory
 
-446 problems: 436 open, 9 open, partial results, 1 solved here: proved.
+451 problems: 437 open, 12 open, partial results, 2 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -254,10 +254,10 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 | <a id="q2381"></a>[Q2381](logic-foundations-set-theory-part-1.md#q2381) | Universal-cover component as truncation | Open |
 | <a id="q2382"></a>[Q2382](logic-foundations-set-theory-part-1.md#q2382) | Finitely bounded CSP representatives | Open |
 | <a id="q2383"></a>[Q2383](logic-foundations-set-theory-part-1.md#q2383) | Connected extensional definitions | Open |
-| <a id="q2469"></a>[Q2469](logic-foundations-set-theory-part-1.md#q2469) | Strength of inhomogeneous ring regularity | Open, partial results |
-| <a id="q2470"></a>[Q2470](logic-foundations-set-theory-part-1.md#q2470) | Maximal complexity of hyperfiniteness | Open |
-| <a id="q2471"></a>[Q2471](logic-foundations-set-theory-part-1.md#q2471) | Hyperfiniteness of amenable actions | Open |
-| <a id="q2472"></a>[Q2472](logic-foundations-set-theory-part-1.md#q2472) | Bounded-degree dimension complexity | Open |
+| <a id="q2469"></a>[Q2469](logic-foundations-set-theory-part-2.md#q2469) | Strength of inhomogeneous ring regularity | Open, partial results |
+| <a id="q2470"></a>[Q2470](logic-foundations-set-theory-part-2.md#q2470) | Maximal complexity of hyperfiniteness | Open |
+| <a id="q2471"></a>[Q2471](logic-foundations-set-theory-part-2.md#q2471) | Hyperfiniteness of amenable actions | Open |
+| <a id="q2472"></a>[Q2472](logic-foundations-set-theory-part-2.md#q2472) | Bounded-degree dimension complexity | Open |
 | <a id="q2473"></a>[Q2473](logic-foundations-set-theory-part-2.md#q2473) | Two colors on dihedral orbits | Open |
 | <a id="q2474"></a>[Q2474](logic-foundations-set-theory-part-2.md#q2474) | Hypersmoothness for commuting functions | Open |
 | <a id="q2475"></a>[Q2475](logic-foundations-set-theory-part-2.md#q2475) | Subcountability forces anti-complements | Open |
@@ -307,8 +307,8 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 | <a id="q2773"></a>[Q2773](logic-foundations-set-theory-part-2.md#q2773) | ω-stable bounded theory with unbounded type | Open |
 | <a id="q2774"></a>[Q2774](logic-foundations-set-theory-part-2.md#q2774) | Few countable models with unbounded types | Open |
 | <a id="q2775"></a>[Q2775](logic-foundations-set-theory-part-2.md#q2775) | Existential definitions under tilting | Open |
-| <a id="q2777"></a>[Q2777](logic-foundations-set-theory-part-2.md#q2777) | One-dimensional spectra of GP² | Open |
-| <a id="q2778"></a>[Q2778](logic-foundations-set-theory-part-2.md#q2778) | Global cardinality constraints for GP² | Open |
+| <a id="q2777"></a>[Q2777](logic-foundations-set-theory-part-2.md#q2777) | One-dimensional spectra of GP² | Solved here: proved |
+| <a id="q2778"></a>[Q2778](logic-foundations-set-theory-part-2.md#q2778) | Global cardinality constraints for GP² | Open, partial results |
 | <a id="q2779"></a>[Q2779](logic-foundations-set-theory-part-2.md#q2779) | Higher-dependence composition lemma | Open |
 | <a id="q2877"></a>[Q2877](logic-foundations-set-theory-part-2.md#q2877) | Clopen finite-index layers | Open |
 | <a id="q2880"></a>[Q2880](logic-foundations-set-theory-part-2.md#q2880) | Compact frame points and choice | Open |
@@ -316,9 +316,9 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 | <a id="q2975"></a>[Q2975](logic-foundations-set-theory-part-2.md#q2975) | Alternation-free two-way interpolation | Open |
 | <a id="q2976"></a>[Q2976](logic-foundations-set-theory-part-2.md#q2976) | Finite-model two-way interpolation | Open |
 | <a id="q2977"></a>[Q2977](logic-foundations-set-theory-part-2.md#q2977) | Uniform two-way interpolation | Open |
-| <a id="q2978"></a>[Q2978](logic-foundations-set-theory-part-2.md#q2978) | Two quantifier blocks with two power predicates | Open |
+| <a id="q2978"></a>[Q2978](logic-foundations-set-theory-part-2.md#q2978) | Two quantifier blocks with two power predicates | Open, partial results |
 | <a id="q2979"></a>[Q2979](logic-foundations-set-theory-part-2.md#q2979) | Existential arithmetic with two exponential functions | Open |
-| <a id="q2980"></a>[Q2980](logic-foundations-set-theory-part-2.md#q2980) | Repeated-root recurrence predicate | Open |
+| <a id="q2980"></a>[Q2980](logic-foundations-set-theory-part-2.md#q2980) | Repeated-root recurrence predicate | Open, partial results |
 | <a id="q2981"></a>[Q2981](logic-foundations-set-theory-part-2.md#q2981) | Presburger arithmetic with primes | Open |
 | <a id="q2982"></a>[Q2982](logic-foundations-set-theory-part-2.md#q2982) | Order with power-free predicates | Open |
 | <a id="q2990"></a>[Q2990](logic-foundations-set-theory-part-2.md#q2990) | One-variable arithmetic with general polynomial predicates | Open |
@@ -454,3 +454,8 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 | <a id="q4698"></a>[Q4698](logic-foundations-set-theory-part-2.md#q4698) | Is it consistent with ZFC that some κ⁺-supercompact cardinal κ admits a normal ideal I on κ⁺… | Open |
 | <a id="q4699"></a>[Q4699](logic-foundations-set-theory-part-2.md#q4699) | Is it consistent with ZFC that such κ,U admit a projection P_U→Add(κ⁺,1)? | Open |
 | <a id="q4700"></a>[Q4700](logic-foundations-set-theory-part-2.md#q4700) | Is it consistent with ZFC that such κ,U admit a projection P_U→Col(κ,κ⁺)? | Open |
+| <a id="q4717"></a>[Q4717](logic-foundations-set-theory-part-2.md#q4717) | Are ZFC+“some such λ has λ-PSP for every lightface λ-Π¹₁ set” and ZFC+“a measurable cardinal… | Open |
+| <a id="q4723"></a>[Q4723](logic-foundations-set-theory-part-2.md#q4723) | Over RCA₀, is this principle equivalent to ATR₀, the system of arithmetical transfinite recursion? | Open |
+| <a id="q4742"></a>[Q4742](logic-foundations-set-theory-part-2.md#q4742) | For every admissible α, is there an injective group homomorphism Aut(D_(αe))→Aut(D_α)? | Open |
+| <a id="q4743"></a>[Q4743](logic-foundations-set-theory-part-2.md#q4743) | Assuming V=L, is Aut(D_(αe)) trivial for every infinite regular cardinal α? | Open |
+| <a id="q4745"></a>[Q4745](logic-foundations-set-theory-part-2.md#q4745) | Is there an algorithm deciding, given K and a concept C₀, whether some minimal K-model I… | Open |

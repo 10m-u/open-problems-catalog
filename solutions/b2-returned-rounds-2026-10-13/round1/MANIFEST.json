@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-13",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "file": "BASELINE-TARGETS.json",
+      "bytes": 6687,
+      "sha256": "155aea53fec10b94962bec340a405e546a43223422862d06c015ba477cc2cd6e"
+    },
+    {
+      "file": "BLOCK-CONSTRUCTION-CHECKS.json",
+      "bytes": 2249,
+      "sha256": "e671f5797417e32e815763b6dcc07bb09dc06334c40df28976ee0080e6cafc3f"
+    },
+    {
+      "file": "ENTROPY-CERTIFICATE.json",
+      "bytes": 6410,
+      "sha256": "c84cea615ada7e99b514f584b68ac6a7a5954298f15e38665eb13b4d8af8e0fd"
+    },
+    {
+      "file": "MIDPOINT-CHECKS.json",
+      "bytes": 1575,
+      "sha256": "ba354de67c0065e4958f73334e245149c8c86e059b673d4339ce7b7ad89b8bfa"
+    },
+    {
+      "file": "PROVENANCE.json",
+      "bytes": 1972,
+      "sha256": "87db16ac74c58746f9a02a9a0d87c4bb7c5061101f9484633cec0e96f494ba3b"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3574,
+      "sha256": "22fba2b642031d376e8fb98562a0a8f30737f96ad2b737361f168a7589c26d02"
+    },
+    {
+      "file": "RESEARCH-NOTE.pdf",
+      "bytes": 332049,
+      "sha256": "6b3181fd25aa1c6ad73e6e35ee2d22740e4a3675a180b2924a2b46f20eb1939b"
+    },
+    {
+      "file": "RESEARCH-NOTE.tex",
+      "bytes": 24875,
+      "sha256": "2309d5c4a0aa69a79000450f36ca4b404a66e0d9e40108bcdfea552cd368304f"
+    },
+    {
+      "file": "RESULTS.json",
+      "bytes": 3475,
+      "sha256": "fe9e13298df100c3ba6bdd04b18147cf2054fcdc1684263c9a39d4bd0586d790"
+    },
+    {
+      "file": "SOURCES.md",
+      "bytes": 2059,
+      "sha256": "fbe0f9b2558917ee69cada8b2e4b5e62d694551c26d790396cfb88512c13b7bb"
+    },
+    {
+      "file": "certify_entropy.py",
+      "bytes": 5054,
+      "sha256": "d9bef5e00343e6666e364f4c82b37f1c9be65cb1808a07f902171abd0762414f"
+    },
+    {
+      "file": "check_block_construction.py",
+      "bytes": 3075,
+      "sha256": "2d94d29a95732e4251dce675e087980feac61f329f938983688146bb2ae34626"
+    },
+    {
+      "file": "check_midpoint_lemmas.py",
+      "bytes": 5545,
+      "sha256": "6f3ff2efe664cdc7d25a1e58e5c531bd4a5f29b8ed4e2e9c4cbfb994be549efb"
+    },
+    {
+      "file": "explore_entropy.py",
+      "bytes": 929,
+      "sha256": "c55a1d34d97c562b31a61ed4e7ef98af1253f48939d74c5e2312eafdbb95726e"
+    }
+  ],
+  "manifest_excludes_itself": true
+}

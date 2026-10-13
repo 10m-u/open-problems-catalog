@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "additional_packets": 160,
+  "additional_certificates": 1862,
+  "additional_forced_bounds": 7728,
+  "matched_queries_per_policy": 40,
+  "scope": "certification/protocol checks, not wall-time replication or learning impossibility"
+}

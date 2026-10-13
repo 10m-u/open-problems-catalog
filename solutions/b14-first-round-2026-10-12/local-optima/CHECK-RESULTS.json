@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "random_seed": 3818,
+  "checks": {
+    "exchange_accounting": {
+      "n_range": [
+        3,
+        40
+      ],
+      "total_exchanges_checked": 9842,
+      "includes_even_diameter_and_n4_parallel_constraints": true
+    },
+    "direct_enumeration_vs_cycle_product": [
+      {
+        "n": 3,
+        "grid_size": 3,
+        "probability": "1"
+      },
+      {
+        "n": 3,
+        "grid_size": 3,
+        "probability": "1"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "2/3"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "1/3"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "1/3"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "1/9"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "1/9"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "2/3"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "1/3"
+      },
+      {
+        "n": 4,
+        "grid_size": 3,
+        "probability": "1/9"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "40/81"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "11/27"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "26/243"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "11/27"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "22/243"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "26/243"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "64/81"
+      },
+      {
+        "n": 5,
+        "grid_size": 3,
+        "probability": "164/243"
+      },
+      {
+        "n": 6,
+        "grid_size": 3,
+        "probability": "1/6561"
+      },
+      {
+        "n": 6,
+        "grid_size": 3,
+        "probability": "280/19683"
+      },
+      {
+        "n": 6,
+        "grid_size": 3,
+        "probability": "14/6561"
+      },
+      {
+        "n": 6,
+        "grid_size": 3,
+        "probability": "31/6561"
+      },
+      {
+        "n": 6,
+        "grid_size": 3,
+        "probability": "25/6561"
+      },
+      {
+        "n": 7,
+        "grid_size": 2,
+        "probability": "5/8192"
+      },
+      {
+        "n": 7,
+        "grid_size": 2,
+        "probability": "15/8192"
+      },
+      {
+        "n": 7,
+        "grid_size": 2,
+        "probability": "1/16384"
+      }
+    ],
+    "read_two_exact_rational_inequality": {
+      "n_range": [
+        3,
+        24
+      ],
+      "grid_size": 7,
+      "cases": 352,
+      "comparison": "conditional_probability^2 <= product(single_exchange_probability)"
+    },
+    "quadratic_identity_and_lower_bound": {
+      "cases": 352
+    },
+    "homogeneous_volume_certified_grid_bounds": [
+      {
+        "cycle_length": 2,
+        "target_exact": "1/2",
+        "certified_lower": "63/128",
+        "certified_upper": "2143/4096",
+        "grid_size": 64
+      },
+      {
+        "cycle_length": 3,
+        "target_exact": "1/4",
+        "certified_lower": "4001/16384",
+        "certified_upper": "35127/131072",
+        "grid_size": 64
+      },
+      {
+        "cycle_length": 4,
+        "target_exact": "1/6",
+        "certified_lower": "84693/524288",
+        "certified_upper": "3067807/16777216",
+        "grid_size": 64
+      },
+      {
+        "cycle_length": 5,
+        "target_exact": "5/48",
+        "certified_lower": "6722507/67108864",
+        "certified_upper": "125588193/1073741824",
+        "grid_size": 64
+      },
+      {
+        "cycle_length": 6,
+        "target_exact": "1/15",
+        "certified_lower": "273211155/4294967296",
+        "certified_upper": "2632349129/34359738368",
+        "grid_size": 64
+      }
+    ],
+    "independent_event_upper_bound_counterexample": {
+      "cycle_length": 5,
+      "true_conditional_volume": "5/48",
+      "independent_product": "1/32"
+    },
+    "constant_below_one_rational_certificate": {
+      "gaussian_integral_lower_bound": "11/24",
+      "squared_pi_upper_bound_comparison_margin": "25/7056",
+      "c_upper_bound": "6/7",
+      "c_float_for_orientation_only": 0.8498918380799311
+    }
+  },
+  "illustrative_upper_bounds_E_M_over_sqrt_factorial": {
+    "12": 13.63507138350086,
+    "20": 2.8750295268790387,
+    "40": 0.07859600686260208,
+    "80": 8.306763097919627e-05,
+    "160": 1.3122286296996238e-10
+  }
+}

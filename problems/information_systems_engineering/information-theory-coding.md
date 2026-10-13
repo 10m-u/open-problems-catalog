@@ -1,6 +1,6 @@
 # Information Theory & Coding
 
-36 problems: 34 open, 2 open, partial results.
+36 problems: 33 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -41,7 +41,7 @@
 | [Q4369](information-theory-coding.md#q4369) | Is h⁰(T×S)=h⁰(T)+h⁰(S) for arbitrary probability-preserving F-actions T,S on standard… | Open |
 | [Q4370](information-theory-coding.md#q4370) | Can limsup be replaced by liminf in h^q(ν), without changing its value? | Open |
 | [Q4659](information-theory-coding.md#q4659) | For every ε>0, does there exist h_ε<∞ such that every such X with H(X)≥h_ε satisfies… | Open |
-| [Q4660](information-theory-coding.md#q4660) | Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X? | Open |
+| [Q4660](information-theory-coding.md#q4660) | Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X? | Open, partial results |
 
 <a id="q115"></a>
 
@@ -624,16 +624,33 @@ For every ε>0, does there exist h_ε<∞ such that every such X with H(X)≥h_�
 
 **Source.** Rupert Li. *The Entropic Sum-Product Phenomenon*. 2026. [primary source](https://arxiv.org/abs/2607.29042v1) Location: Conjecture 1.10, p.4 and §8, p.38.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 
 <a id="q4660"></a>
 
 ## Q4660. Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X?
 
-**Status:** Open · **Kind:** conjecture (Conjecture 1.10) · **Collection** 47
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 1.10) · **Collection** 47
 
 Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X?
 
 **Context.** AP47-S15 — Probability and information theory Paper-origin: arXiv:2607.29042v1, Conjecture 1.10, p.4 and §8, p.38. For a discrete real random variable Z, let H(Z)=−Σ\_z P(Z=z)log₂P(Z=z), with 0log₂0=0. Throughout, X′ is an independent copy of X and H(X)<∞. Audited provenance and status: Subject: Probability and information theory Advisor not verified Li’s primary homepage lists this paper without journal metadata and identifies current Stanford doctoral study; no doctoral award or thesis origin is asserted. v1 only,31July2026; no journal reference. Bounded current homepage check identifies no dissertation advisor. Official Stanford mathematics profile identifies Li; no dissertation advisor is named. Dembo’s profile lists Li under Doctoral(Program), separately from dissertation advisees. This does not verify a dissertation advisor.
 
 **Source.** Rupert Li. *The Entropic Sum-Product Phenomenon*. 2026. [primary source](https://arxiv.org/abs/2607.29042v1) Location: Conjecture 1.10, p.4 and §8, p.38.
+
+**Results.**
+
+- **Partial result**: The rational law on {1,3,5} with probabilities (913,79,8)/1000 has (H(X-Xprime)-H(X))/(H(X+Xprime)-H(X)) strictly between 1.39778460678578706484097027537185551 and 1.39778460678578706484097027537185552. Exact rational logarithm bounds certify that the least universal constant exceeds 139/100. The exact universal constant, its equality to two, and global optimization are unresolved. This certifies an existing counted construction; no sixth attempt or novelty claim. Internally reviewed at this scope; no external peer-review claim. Five failed full-target routes leave the catalog question unresolved. Later results (13 October 2026): Later external rounds certify C_\*>1.4051810329, prove specified finite-support nonattainment criteria, a regular one-sided full-support tail stationarity condition, prescribed-tail supremum equality, and Gaussian-tail nonattainment. The exact constant, equality to two and existence of unrestricted extremizers remain open. The sum-difference source is Section 8; Conjecture 1.10 is sum-product. [Details](../../solutions/b2-continuation-2026-10-12/arithmetic/ENTROPY-ATTEMPTS.md).
+- **Partial result** (B2-CONTINUATION-ENTROPY-LOWER: Certified lower bound for the sum-difference entropy constant): The rational law on {1,3,5} with probabilities (913,79,8)/1000 has (H(X-Xprime)-H(X))/(H(X+Xprime)-H(X)) strictly between 1.39778460678578706484097027537185551 and 1.39778460678578706484097027537185552. Exact rational logarithm bounds certify that the least universal constant exceeds 139/100. Remaining/limits: The exact universal constant, its equality to two, and global optimization are unresolved. This certifies an existing counted construction; no sixth attempt or novelty claim. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/ENTROPY-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+- **Partial result** (B2-RETURN-R1-B2-NEW-Q4660-EXACT-1.40518: exact finite-law lower-bound certificate): The least universal entropy sum-difference constant is strictly greater than 70259/50000 = 1.40518. Remaining/limits: No proof of the sharp universal constant, no global optimizer, and no improvement to Q4659. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled. [Report](../../solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R2-Q4660-support-boundary: Q4660-support-boundary): The epsilon log(1/epsilon) coefficient of the ratio under adding an atom is [2u_minus-1-rho(2u_plus-1)]/Delta_plus; for rho>1 only (A+A-A)\A can give positive leading coefficients. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled. [Report](../../solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R2-Q4660-finite-AP-nonattainment: Q4660-finite-AP-nonattainment): A finite real law of ratio >1 cannot be globally extremal if it fully occupies an arithmetic progression, or if either support endpoint has probability >=1/2. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled. [Report](../../solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R2-Q4660-twelve-point-certificate: Q4660-twelve-point-certificate): The displayed twelve-point rational law has ratio 1.4051810329220149462009831947934829507300... and proves C_\*>14051810329/10^10. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled. [Report](../../solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R3-B2-III-E1: Tail exponent rigidity and ascent): For a law with full support on N_0 and -log p_n=c\*n^beta+o(n^beta), its coordinate ratio-gradient G_n/(c\*n^beta) tends to 1+rho-2\*rho\*min(1,2^(1-beta)). Stationarity at rho>1 therefore requires beta=log_2(4\*rho/(1+rho)). Nonzero coefficient gives a strict finite-coordinate ascent direction. Remaining/limits: One-sided full support and stated regular tail required; no existence or sufficiency claim. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled. [Report](../../solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R3-B2-III-E2: Prescribed-tail supremum equality): For every fixed beta,c>0, the supremum of rho over full N_0 laws with -log p_n~c\*n^beta equals the unrestricted finite-entropy discrete-real supremum C_\*. Finite rational nonnegative-integer laws have the same supremum. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled. [Report](../../solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R3-B2-III-E3: Gaussian-tail nonattainment): Every fixed one-sided full-support Gaussian-log-tail class (-log p_n~c\*n^2) has supremum C_\* but no maximizer. An attainer with any regular exponent beta must satisfy log_2(4\*L/(1+L))&lt;beta<=log_2(8/3), where L=1.4051810329. Remaining/limits: Does not rule out arbitrary irregular or sparse extremizers; numerical bounds unchanged. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled. [Report](../../solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex).
 

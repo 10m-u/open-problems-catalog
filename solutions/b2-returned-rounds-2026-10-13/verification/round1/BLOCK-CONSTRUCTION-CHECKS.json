@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "field": 3,
+  "cases": [
+    {
+      "n": 3,
+      "k": 1,
+      "block_dimension": 1,
+      "ambient_size": 27,
+      "remainder_size": 18,
+      "all_affine_subspaces_examined": 184,
+      "monochromatic_ordered_pair_checks": 81,
+      "largest_affine_subspace_dimension": 2
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "block_dimension": 1,
+      "ambient_size": 27,
+      "remainder_size": 12,
+      "all_affine_subspaces_examined": 184,
+      "monochromatic_ordered_pair_checks": 117,
+      "largest_affine_subspace_dimension": 1
+    },
+    {
+      "n": 3,
+      "k": 3,
+      "block_dimension": 1,
+      "ambient_size": 27,
+      "remainder_size": 8,
+      "all_affine_subspaces_examined": 184,
+      "monochromatic_ordered_pair_checks": 133,
+      "largest_affine_subspace_dimension": 0
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "block_dimension": 1,
+      "ambient_size": 81,
+      "remainder_size": 54,
+      "all_affine_subspaces_examined": 2452,
+      "monochromatic_ordered_pair_checks": 729,
+      "largest_affine_subspace_dimension": 3
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "block_dimension": 1,
+      "ambient_size": 81,
+      "remainder_size": 36,
+      "all_affine_subspaces_examined": 2452,
+      "monochromatic_ordered_pair_checks": 1053,
+      "largest_affine_subspace_dimension": 2
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "block_dimension": 1,
+      "ambient_size": 81,
+      "remainder_size": 24,
+      "all_affine_subspaces_examined": 2452,
+      "monochromatic_ordered_pair_checks": 1197,
+      "largest_affine_subspace_dimension": 1
+    },
+    {
+      "n": 4,
+      "k": 4,
+      "block_dimension": 1,
+      "ambient_size": 81,
+      "remainder_size": 16,
+      "all_affine_subspaces_examined": 2452,
+      "monochromatic_ordered_pair_checks": 1261,
+      "largest_affine_subspace_dimension": 0
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "block_dimension": 2,
+      "ambient_size": 81,
+      "remainder_size": 64,
+      "all_affine_subspaces_examined": 2452,
+      "monochromatic_ordered_pair_checks": 145,
+      "largest_affine_subspace_dimension": 2
+    }
+  ],
+  "scope": "Finite controls only. The manuscript proves the block construction for all admissible n,k,d."
+}

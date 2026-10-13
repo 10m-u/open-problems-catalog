@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "allocation_witness": {
+    "3": [
+      22652,
+      8
+    ],
+    "5": [
+      22966,
+      7
+    ]
+  },
+  "original_cost_audit": {
+    "instance": "clustered-euclidean-ceil-n10-s0",
+    "method": "four-roots",
+    "certificates_checked": 6,
+    "forced_bounds_checked": 45,
+    "edges_eliminated": 14
+  },
+  "frontier_vs_subset_transitions": {
+    "clustered-euclidean-ceil": [
+      7671,
+      2673
+    ],
+    "euclidean-ceil": [
+      101,
+      88
+    ],
+    "random-shortest-path": [
+      2512,
+      1222
+    ],
+    "tree-metric": [
+      19268,
+      5376
+    ]
+  },
+  "unchanged_tree_fallback_runs": 48,
+  "scope": "specified failed sufficient routes, no universal elimination impossibility"
+}

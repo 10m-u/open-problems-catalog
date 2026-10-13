@@ -1,0 +1,2439 @@
+[
+  {
+    "id": "b14:B14-Q3818",
+    "source_record_id": "B14-Q3818",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [
+      3818
+    ],
+    "status": "proved",
+    "exact_question_closed": true,
+    "label": "B14-Q3818: Exponential improvement in the local-optimum count",
+    "scope": "For independent uniform[0,1] costs on K_n, E[M_n] = O((6/7)^n sqrt(n!)), where undirected tours are identified up to rotation and reversal. Remaining/limits: Originality and external peer review are not established. No tour-quality, basin-size, descent-time, or efficient exact-solving conclusion follows.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks"
+    ],
+    "proof": "solutions/b14-first-round-2026-10-12/local-optima/RESULT.md",
+    "review": "solutions/b14-first-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14:B14-P1-BASELINE",
+    "source_record_id": "B14-P1-BASELINE",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved-and-implemented-baseline",
+    "exact_question_closed": false,
+    "label": "B14-P1-BASELINE: Exact forced-edge 1-tree certificates",
+    "scope": "Exact forced-edge rooted 1-tree lower bounds justify strict deletion L_e > U. An integer-arithmetic implementation and independent Kruskal checker agree on 147 packets; a separate exhaustive audit verifies 1,280 forced bounds. Remaining/limits: Known sensitivity mathematics; no novelty claim. The 48-instance metric experiment has sizes 8, 10, 12; no scalable solver benchmark.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks",
+      "reproducible-bounded-experiment"
+    ],
+    "proof": "solutions/b14-first-round-2026-10-12/elimination/RESULT.md",
+    "review": "solutions/b14-first-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14:B14-P1-TREE",
+    "source_record_id": "B14-P1-TREE",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-P1-TREE: Complete residual graph on every tree metric",
+    "scope": "For a nonnegative weighted tree on all n tour vertices, every metric edge belongs to some optimum of cost twice the total tree weight. Any elimination preserving all optimal tours must retain K_n, of treewidth n-1. Remaining/limits: Preserving one selected optimum and using the sparse generating tree remain possible. No general structural guarantee follows for other metric families.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review"
+    ],
+    "proof": "solutions/b14-first-round-2026-10-12/elimination/RESULT.md",
+    "review": "solutions/b14-first-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14:B14-P1-PETERSEN",
+    "source_record_id": "B14-P1-PETERSEN",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved-by-finite-certificate",
+    "exact_question_closed": false,
+    "label": "B14-P1-PETERSEN: Complete residual density with a positive LP gap",
+    "scope": "The Petersen (1,2)-metric has optimum 11 and subtour-LP value 10; all 45 metric edges occur in optimal tours, so all-optima preservation retains K_10. Remaining/limits: Finite example with explicit tour witnesses and every proper cut checked; it supplies no asymptotic gap theorem.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks",
+      "exhaustive-tour-enumeration",
+      "all-cut-check"
+    ],
+    "proof": "solutions/b14-first-round-2026-10-12/elimination/RESULT.md",
+    "review": "solutions/b14-first-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-UNIQUE-OBSTRUCTION",
+    "source_record_id": "B14-UNIQUE-OBSTRUCTION",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-UNIQUE-OBSTRUCTION: Unique optimum does not make forced-1-tree elimination sparse",
+    "scope": "For every k>=17 a strict integer metric on 10k cities has a unique optimal tour, while every forced rooted 1-tree bound, at any root and real potentials, is below OPT. Remaining/limits: This concerns this relaxation family only; stronger cuts and other elimination rules remain possible.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/generating-graph/RESULT.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-GRAPHICAL-DP",
+    "source_record_id": "B14-GRAPHICAL-DP",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-GRAPHICAL-DP: Exact graphical TSP on the sparse generating graph",
+    "scope": "Metric TSP on all generating vertices equals a minimum connected spanning positive-even multigraph with multiplicities 0/1/2. Frontier parity-and-partition DP is exact. Remaining/limits: Width is that of the generating graph/order, not of the complete metric; no universal fast runtime.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/generating-graph/DP-RESULT.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-ENDPOINT-COMPRESSION",
+    "source_record_id": "B14-ENDPOINT-COMPRESSION",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-ENDPOINT-COMPRESSION: Exponential endpoint-state quotient on certified residuals",
+    "scope": "Dropping component labels on saturated boundary vertices preserves all suffix behavior. An explicit certified residual family collapses 2^(n-6) realizable full-partition states to one. Remaining/limits: Existential representation reduction, not a total-runtime factor or universal superiority. The family is dense; existing controls can remain slower than subset DP.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/residual-search/EXPONENTIAL-RESULT.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-TREE-DESCENT",
+    "source_record_id": "B14-TREE-DESCENT",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [
+      3817
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B14-TREE-DESCENT: Path/star guarantees and polynomial tree-metric descent",
+    "scope": "NN on positive weighted paths is at most 3/2 OPT; stars are optimal. Every tree-metric 2-opt local optimum is optimal and any strict descent takes at most (n-1)(floor(n/2)-1) moves. Remaining/limits: Q3817 remains unresolved and stops after five reviewed NN-ratio routes. The full sparse expected-descent result is filed separately.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/initialization/RESULT.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-SPARSE-DESCENT",
+    "source_record_id": "B14-SPARSE-DESCENT",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-SPARSE-DESCENT: Polynomial expected 2-opt descent in the full sparse exponential model",
+    "scope": "For every connected simple generating graph with m independent Exp(1) weights, any initializer and strictly improving pivot have E[moves] <= 10m(m-1)n^5(1+log(n!)). For m<=cn this is O_c(n^8 log n). Remaining/limits: Polynomial convergence was already established in TCS 2021 Theorem 20. The normalized local proof gives a cut-free bound; originality is not established. This counts real-arithmetic moves/scans and does not resolve NN quality or exact TSP.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/P3-REVIEW.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-GUIDANCE-COMPARISON",
+    "source_record_id": "B14-GUIDANCE-COMPARISON",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "reviewed-bounded-experiment",
+    "exact_question_closed": false,
+    "label": "B14-GUIDANCE-COMPARISON: Five learned policies without a supported advantage",
+    "scope": "Controlled held-family and held-size comparisons retain 320 independently checked original-cost packets. Five distinct learned objectives/estimators establish no practically meaningful advantage over ordinary/random/manual allocation after charging training and inference. Remaining/limits: A bounded negative experiment, not a proof that useful learning is impossible. Time-budget overruns and iterative use of the test suite are disclosed.",
+    "evidence_labels": [
+      "reproducible-bounded-experiment",
+      "independent-original-cost-check",
+      "independent-internal-review-of-baseline",
+      "main-thread-review-of-extensions"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/guidance/P6-ATTEMPTS.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-SUBDIVIDED-PETERSEN",
+    "source_record_id": "B14-SUBDIVIDED-PETERSEN",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-SUBDIVIDED-PETERSEN: Exact fractional gaps and scoped path rounding",
+    "scope": "One-spoke Petersen subdivisions on n=l+9 cities have a half-integral extreme subtour-LP point with LP=n and metric OPT=n+1 for every l>=1; an explicit path attains the optimum. Remaining/limits: This restricted gap tends to one. It does not prove the unrestricted 4/3 conjecture; P4 stops at five reviewed broader failed routes.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "exact-finite-checks"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/lp-supports/RESULT.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-second:B14-STOP-REGISTER",
+    "source_record_id": "B14-STOP-REGISTER",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [
+      3817,
+      549,
+      550,
+      1852,
+      1853,
+      1953,
+      3819
+    ],
+    "status": "reviewed-unsuccessful-routes",
+    "exact_question_closed": false,
+    "label": "B14-STOP-REGISTER: Per-problem failed-route register",
+    "scope": "The seven unresolved catalog questions and P1/P4/P6 each reach their own five reviewed failed routes. Q3818/P5 are locally solved; P2 attains its existential state-reduction ambition and P3 its full sparse expected-descent ambition. Remaining/limits: Stopping a research run does not settle an unresolved mathematical question. The same subagent was retained; no public publication is part of this filing.",
+    "evidence_labels": [
+      "written-route-analyses",
+      "independent-internal-review-of-catalogue-routes",
+      "main-thread-review-of-programme-routes",
+      "exact-finite-controls"
+    ],
+    "proof": "solutions/b14-second-round-2026-10-12/CONTROL.md",
+    "review": "solutions/b14-second-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-Q2777",
+    "source_record_id": "B1-CONTINUATION-Q2777",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [
+      2777
+    ],
+    "status": "proved",
+    "exact_question_closed": true,
+    "label": "B1-CONTINUATION-Q2777: Finite total-size spectra of GP² are semilinear",
+    "scope": "For every GP² sentence in the local positive binary-guard syntax, finite models split into finitely many closed-subformula truth profiles. Each profile is closed under disjoint union, so its positive size set is additive and is a finite union of arithmetic progressions. This proves ordinary one-dimensional semilinearity, without an effective construction or a multivariate/global-cardinality conclusion. Independently reviewed internally; finite checks support the proof. No novelty or external-review claim. Remaining/limits: No effective spectrum representation or novelty claim.",
+    "evidence_labels": [
+      "local-written-proof",
+      "main-thread-proof-and-scope-review",
+      "independent-internal-review",
+      "exact-finite-semantic-controls"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/gp2/Q2777-RESULT.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-Q2778",
+    "source_record_id": "B1-CONTINUATION-Q2778",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [
+      2778
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-Q2778: Decidable homogeneous globals; arbitrary affine globals unresolved",
+    "scope": "Finite satisfiability is decidable for GP² conjoined with homogeneous integer linear comparisons of unary definable cardinalities, and with one-sided L>=k for k>=0 (equivalently L<=k for k<=0). Relativized token ownership, injections, bijections and local surplus centers reduce these cases to ordinary GP². Fixed affine equalities and the full catalog question remain unresolved after five distinct failed routes. This is a restricted theorem, not decidability or undecidability of Q2778. Remaining/limits: The full target remains unresolved; five-failure limit reached.",
+    "evidence_labels": [
+      "local-written-proof",
+      "main-thread-proof-and-scope-review",
+      "independent-internal-review",
+      "exact-finite-semantic-controls"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/gp2/Q2778-ATTEMPTS.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-Q2978",
+    "source_record_id": "B1-CONTINUATION-Q2978",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [
+      2978
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-Q2978: Two-block two-power truth is computably enumerable",
+    "scope": "For every fixed source-admissible pair of power bases, truth in the existential-universal predicate fragment is uniformly computably enumerable: enumerate outer integer tuples and decide the existential complement of each instantiated universal block with the two-base existential decision theorem. No effective outer-witness bound or terminating negative test is supplied. Full decidability remains unresolved. Remaining/limits: The full target remains unresolved; five-failure limit reached.",
+    "evidence_labels": [
+      "local-written-proof",
+      "main-thread-proof-and-scope-review"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-Q2980",
+    "source_record_id": "B1-CONTINUATION-Q2980",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [
+      2980
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-Q2980: The predicate {n 2^n} is not binary automatic",
+    "scope": "Intersecting U={n 2^n} with powers of two gives exactly {2^(2^k+k):k>=0}. Its binary zero-run lengths have unbounded gaps and are not ultimately periodic, contradicting unary regularity. This obstructs a synchronous binary-automata method; it does not settle the first-order theory with U. Remaining/limits: The full target remains unresolved; five-failure limit reached.",
+    "evidence_labels": [
+      "local-written-proof",
+      "main-thread-proof-and-scope-review"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-ALL-ONES",
+    "source_record_id": "B1-CONTINUATION-ALL-ONES",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-ALL-ONES: Exact all-ones Walsh column maximum",
+    "scope": "For P=2^w, max over a!=0 of normalized |M[a,P-1]| equals the product over j=1..w of sin(pi[1/3+(-1)^(j-1)/(3*2^j)]), attained at a=(2^w+(-1)^(w-1))/3 and P-a. Its rate is K(sqrt(3)/2)^w(1+O(2^-w)) with finite positive K. Remaining/limits: No uniqueness or novelty claim. This settles the all-ones target only.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "direct-Fourier-and-dynamic-program-controls"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/fourier/ALL-ONES.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-DISTRIBUTION",
+    "source_record_id": "B1-CONTINUATION-DISTRIBUTION",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-DISTRIBUTION: Exact overlap law and fourth moment",
+    "scope": "The exact finite law is a zero atom plus explicit dyadic block mixtures of sine/cosine products. E|M|^4=(4/3)(3/8)^w; second/fourth-moment upper tail bounds and a Paley-Zygmund lower bound follow. Remaining/limits: A sharp large-width moving-threshold tail law is unresolved after five routes.",
+    "evidence_labels": [
+      "local-written-proof",
+      "independent-internal-review",
+      "all-entry-small-width-controls"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/fourier/DISTRIBUTION.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-ENTROPY",
+    "source_record_id": "B1-CONTINUATION-ENTROPY",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-ENTROPY: Quotiented entropy reduces to individual blocks",
+    "scope": "If b_m is the sharp entropy sum in block m, B_t(w)=min_{t<=m<w}b_m. Cross-block weights contribute 2H(lambda). Coherence lower bounds, character upper bounds and exact B_1=1 remain; saved complex-vector optimizations give candidate upper bounds for t=2..4. Remaining/limits: No monotonicity of b_m, global B_2 certificate or all-t closed form is asserted. Five full-ambition routes fail.",
+    "evidence_labels": [
+      "local-written-proof",
+      "main-thread-review",
+      "independent-internal-review",
+      "uncertified-bounded-numerical-upper-bounds"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/fourier/ENTROPY.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-AUTOMATIC-LANE",
+    "source_record_id": "B1-CONTINUATION-AUTOMATIC-LANE",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-AUTOMATIC-LANE: Executable all-width fixed-circuit proof lane",
+    "scope": "A finite carry-state compiler decides equality at every positive word width for arbitrary fixed acyclic circuits of modular addition, XOR, AND, OR, NOT and zero. It emits complete transition certificates or counterexample words. Separate certificates prove the carry/AND criterion, low-bit identity and top-mask toggle. Remaining/limits: A focused circuit and identity lane, without a general FO compiler, Walnut replay or compiled proof-assistant formalization. Encoding impossibilities from the original return remain.",
+    "evidence_labels": [
+      "finite-state-construction",
+      "serialized-certificate-check",
+      "independent-internal-review",
+      "independent-integer-counterexample-check"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/automatic-proofs/RESULT.md",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b1-continuation:B1-CONTINUATION-STOP-REGISTER",
+    "source_record_id": "B1-CONTINUATION-STOP-REGISTER",
+    "programmes": [
+      "B1"
+    ],
+    "question_numbers": [
+      246,
+      1375,
+      1376,
+      1377,
+      1378,
+      1481,
+      1979,
+      2169,
+      2170,
+      2778,
+      2978,
+      2979,
+      2980,
+      2981,
+      2982,
+      2990,
+      2991,
+      2992,
+      2993,
+      3075,
+      3076,
+      3077,
+      3079,
+      3206,
+      3268,
+      3482,
+      3668,
+      3824
+    ],
+    "status": "reviewed-unsuccessful-routes",
+    "exact_question_closed": false,
+    "label": "B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record",
+    "scope": "Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing.",
+    "evidence_labels": [
+      "written-constructions-and-missing-lemmas",
+      "main-thread-route-and-scope-review"
+    ],
+    "proof": "solutions/b1-continuation-2026-10-12/STATUS.json",
+    "review": "solutions/b1-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-third:B14-R3-COUNT-RATE",
+    "source_record_id": "B14-R3-COUNT-RATE",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [
+      3818
+    ],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-R3-COUNT-RATE: Sharp exponential expected local-optimum count",
+    "scope": "For fixed iid Uniform[0,1] complete-graph edge costs, tours modulo rotation/reversal, lim (E[M_n]/sqrt(n!))^(1/n) = rho = exp(-1/2) min_{a>=0} exp(a^2/2) integral_0^infinity exp(-y^2/2-a*y)dy, approximately 0.597586978551345. An exact rational certificate gives rho<3/5 and E[M_n]=O((3/5)^n sqrt(n!)). Remaining/limits: Q3818 was already proved locally; no new catalog closure. This is a matching exponential rate, not asymptotic equivalence, a bounded correction at rho, count concentration or a runtime result. Wider literature priority is not established.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "main-thread-intake-mathematical-review",
+      "reproduced-exact-checks"
+    ],
+    "proof": "solutions/b14-third-round-2026-10-12/submission/REPORT.md",
+    "review": "solutions/b14-third-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-third:B14-R3-REGULAR-ENDPOINT",
+    "source_record_id": "B14-R3-REGULAR-ENDPOINT",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [
+      3818
+    ],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-R3-REGULAR-ENDPOINT: Expected-count rate at a regular lower endpoint",
+    "scope": "The same exponential rate holds for a fixed iid absolutely continuous edge-cost law supported above a finite lower endpoint, with finite positive limiting density there; no upper-tail moment assumption is required. Remaining/limits: Dependent shortest-path and Euclidean distances, endpoint atoms, zero/infinite endpoint density and size-dependent laws are outside the theorem. No novelty claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "main-thread-intake-mathematical-review",
+      "reproduced-exact-checks"
+    ],
+    "proof": "solutions/b14-third-round-2026-10-12/submission/REPORT.md",
+    "review": "solutions/b14-third-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-third:B14-R3-REPLICATION",
+    "source_record_id": "B14-R3-REPLICATION",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "reviewed-submitted-replication",
+    "exact_question_closed": false,
+    "label": "B14-R3-REPLICATION: Submitted bounded replication of the handoff",
+    "scope": "The return reports matching reruns of four finite predecessor checkers after verifying all 614 handoff payloads: count, forced-edge elimination, residual compression and gain pieces. Remaining/limits: This is submitted replication evidence, not a new P1/P2/P3 theorem or an all-size audit of the full handoff. New intake reruns cover the sharp-rate checks.",
+    "evidence_labels": [
+      "submitted-replication-receipts",
+      "predecessor-provenance-hash-check"
+    ],
+    "proof": "solutions/b14-third-round-2026-10-12/submission/replication/REPLICATION-RESULTS.json",
+    "review": "solutions/b14-third-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-fourth:B14-R4-COMPLETION",
+    "source_record_id": "B14-R4-COMPLETION",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-R4-COMPLETION: Minimum-repair structure and exact contracted solving",
+    "scope": "Even two-port module necklaces with no spanning port-to-port path, port-starting paths and costs B(2+repair_indicator)+s, 0<=s<=W, B>nW, have k/2 repairs in every optimum. Two alternating connector patterns characterize that face. Endpoint-separable repairs give an exact local-table formula; arbitrary secondary repairs have an exact subset DP on m=k/2 paired path units. Forced-edge completion bounds are safe. Remaining/limits: The module representation and primary gap are input promises. The optimized local-table complexity is O(n^2+kb^2 2^b+m^2b^3 2^m); the prototype enumerates local paths. No universal TSP runtime or practical benchmark improvement is established.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "main-thread-intake-mathematical-review",
+      "reproduced-exact-checks"
+    ],
+    "proof": "solutions/b14-fourth-round-2026-10-12/submission/proofs/COMPLETION-CERTIFICATES.md",
+    "review": "solutions/b14-fourth-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-fourth:B14-R4-SEPARATION",
+    "source_record_id": "B14-R4-SEPARATION",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-R4-SEPARATION: Completion separates from all rooted forced 1-tree bounds",
+    "scope": "For every even k>=18, a strict four-cost integer metric on n=10k cities has a unique optimum T. All forced rooted 1-tree bounds at every root and real vertex potential are below OPT; completion bounds delete every non-T edge. The retained 180-city instance has OPT=66789 and retains 180 of 16110 edges. Remaining/limits: This is a constructed separating family, not a blinded benchmark or a comparison against all LP cuts, local elimination methods or complete solvers. Earlier fractional-witness ingredients remain attributed to the handoff.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "main-thread-intake-mathematical-review",
+      "reproduced-exact-checks"
+    ],
+    "proof": "solutions/b14-fourth-round-2026-10-12/submission/proofs/COMPLETION-CERTIFICATES.md",
+    "review": "solutions/b14-fourth-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b14-fourth:B14-R4-BLOCK-DESCENT",
+    "source_record_id": "B14-R4-BLOCK-DESCENT",
+    "programmes": [
+      "B14"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B14-R4-BLOCK-DESCENT: Deterministic quadratic 2-opt descent on bounded blocks",
+    "scope": "On positive weighted shortest-path metrics with all generating vertices as cities, all nonzero 2-opt block gains share a sign. Every strict descent has at most n sum_B D_B 2^(D_B-1) moves, D_B=binom(|B|,2). Maximum block size b gives n(n-1)b 2^(binom(b,2)-2); b=4 gives 64n(n-1), from any initializer/pivot. Remaining/limits: This is a move-count result with real-arithmetic scope, not nearest-neighbor quality, global optimality on cyclic blocks, bounded-treewidth generality or a 3-opt theorem. REVIEW.md corrects a repeated-label triangle witness without changing the result. General weight compression is established background.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "main-thread-intake-mathematical-review",
+      "reproduced-exact-checks"
+    ],
+    "proof": "solutions/b14-fourth-round-2026-10-12/submission/proofs/BLOCKWISE-DESCENT.md",
+    "review": "solutions/b14-fourth-round-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-INDICATOR-CONCENTRATION",
+    "source_record_id": "B2-CONTINUATION-INDICATOR-CONCENTRATION",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-INDICATOR-CONCENTRATION: Uniform additive and multiplicative indicator concentration",
+    "scope": "For every nonconstant centered indicator over a prime field, simultaneous additive and multiplicative basis concentration obeys the proved size/origin caps, including constant character and point-mass cases. For S subset F_p^*, approximate supports of sizes r,s with projection norm errors epsilon,eta satisfy rs >= (1-epsilon^2)(1-eta^2)(p-1)(p-|S|)^2/(p|S|^2). This completes A-TRANSFER. Remaining/limits: No Paley clique asymptotic, metric or original word-model classification follows. Origin point masses are explicit degeneracies. No novelty or external-review claim.",
+    "evidence_labels": [
+      "local-written-proof",
+      "main-thread-mathematical-review",
+      "exact-finite-energy-controls"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/paley/INDICATOR-CONCENTRATION.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-FIXED-PRIME-DIGITS",
+    "source_record_id": "B2-CONTINUATION-FIXED-PRIME-DIGITS",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      1613
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-FIXED-PRIME-DIGITS: Fixed-prime good degrees are automatic",
+    "scope": "For each fixed prime p, rationally split integral polynomials with all coefficients nonzero modulo p have an effectively p-automatic set of degrees. Weighted-cycle analysis decides whether the nonzero base-p digit counts of degree+1 are bounded, and their maximum if bounded. Remaining/limits: No uniform all-prime cycle exclusion or c(p)=p-1 proof. Prior partial mark is retained.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-COORDINATE-FIBERS",
+    "source_record_id": "B2-CONTINUATION-COORDINATE-FIBERS",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2316
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-COORDINATE-FIBERS: Unrestricted two-coordinate exclusion for a bounded third coordinate",
+    "scope": "Exact signed-divisor and discriminant certificates exclude every integer solution of the source symmetric cubic with any coordinate of absolute value at most 5000; the other coordinates are unrestricted. Symmetry transfers the complete fiber exclusion. Remaining/limits: No bound on all coordinates or full integer nonexistence theorem. Prior partial mark preserved.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/diophantine/Q2316-FIBERS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-LINEAR-SMOOTHNESS",
+    "source_record_id": "B2-CONTINUATION-LINEAR-SMOOTHNESS",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      3113
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-LINEAR-SMOOTHNESS: Constructive smooth values for every linear polynomial",
+    "scope": "For every f(n)=an+b with a nonzero integer and every epsilon>0, an explicit positive integer exponential subsequence has f(n) nonzero and supported on one fixed finite set of primes. Consequently infinitely many values are n^epsilon-smooth, including a<0 and b=0. Remaining/limits: Higher-degree polynomials remain unresolved. No originality claim.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/SMOOTHNESS-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-SQUARE-SUM-SEED",
+    "source_record_id": "B2-CONTINUATION-SQUARE-SUM-SEED",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      3208
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-SQUARE-SUM-SEED: Complete integer nonextension of a specified square-sum seed",
+    "scope": "The specified four-by-four square-sum seed has no new integer neighbor on either side, with the new integer unrestricted. Opposite integer translations preserve this fact. Remaining/limits: This does not exclude all five-by-five square-sum sets or rational neighbors. Squared scaling preserves equations but need not preserve integer nonextension.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/diophantine/SQUARE-SUM-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-INTEGRAL-RESCALING",
+    "source_record_id": "B2-CONTINUATION-INTEGRAL-RESCALING",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      1906
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-INTEGRAL-RESCALING: Exact two-sided integral rescaling criterion",
+    "scope": "A positive rational two-sided product tuple admits a rational scale making both sides integral exactly when all cross-products are integral; the valuation intervals give a simultaneous scale. Source tuple splits were checked against this condition. Remaining/limits: Positivity/distinctness and the full requested tuple construction remain separate. This is a reduction, not a catalog existence proof.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/diophantine/TUPLE-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-ONE-COLOUR-DIMENSION",
+    "source_record_id": "B2-CONTINUATION-ONE-COLOUR-DIMENSION",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-ONE-COLOUR-DIMENSION: Exact one-colour finite-field remainder dimension",
+    "scope": "For every positive n, the minimum largest affine-subspace dimension of R under the source admissibility condition with k=1 is n-1. A nonempty complement is midpoint-closed and affine; a hyperplane complement attains the bound. Remaining/limits: The general sharp function for k>=2 remains unresolved.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/UNCOLOURED-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-PARTITION-PARITY",
+    "source_record_id": "B2-CONTINUATION-PARTITION-PARITY",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4642,
+      4643
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-PARTITION-PARITY: Conjugation-fixed partition parity product",
+    "scope": "Conjugation pairs nonfixed partitions. The integer-input partition count modulo two equals the coefficient of the locally finite product over positive integer parts and unordered positive nonintegral conjugate pairs, with pair weight its trace. Remaining/limits: Distinct-value divisibility and the all-field parity targets are unresolved. Unit orbits alone repeat one partition count.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/PARTITION-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-RELATIVE-DAVENPORT-DAG",
+    "source_record_id": "B2-CONTINUATION-RELATIVE-DAVENPORT-DAG",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      3116
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-RELATIVE-DAVENPORT-DAG: Exact finite subset-sum state algorithm",
+    "scope": "For a finite abelian group and g nonzero, sequences avoiding g have an exact subset-sum DAG: every permitted appended term strictly increases the reachable-sum set. Longest paths determine the relative Davenport constant. Remaining/limits: The universal monotonicity target is not proved. This is a finite exact method.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-ENTROPY-LOWER",
+    "source_record_id": "B2-CONTINUATION-ENTROPY-LOWER",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-ENTROPY-LOWER: Certified lower bound for the sum-difference entropy constant",
+    "scope": "The rational law on {1,3,5} with probabilities (913,79,8)/1000 has (H(X-Xprime)-H(X))/(H(X+Xprime)-H(X)) strictly between 1.39778460678578706484097027537185551 and 1.39778460678578706484097027537185552. Exact rational logarithm bounds certify that the least universal constant exceeds 139/100. Remaining/limits: The exact universal constant, its equality to two, and global optimization are unresolved. This certifies an existing counted construction; no sixth attempt or novelty claim.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/ENTROPY-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-RAINBOW-PARITY",
+    "source_record_id": "B2-CONTINUATION-RAINBOW-PARITY",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      1860
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-RAINBOW-PARITY: Exact rainbow optimum with one monochromatic parity class",
+    "scope": "When all even integers have the same color, the maximum asymptotic normalized rainbow-Schur count is 9/22, with uniform discretization control for the odd coloring. Remaining/limits: No reduction of unrestricted colorings to this subclass. Prior return bound and mark retained.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/paley/colouring/PARITY-OPTIMUM.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-RAINBOW-PREFIX",
+    "source_record_id": "B2-CONTINUATION-RAINBOW-PREFIX",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      1861
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-RAINBOW-PREFIX: Exact optimum in the two-prefix palette family",
+    "scope": "The specified two-prefix three-color template has exact asymptotic optimum 3/7; the checked uniform parity refinements give at most 60/121. Remaining/limits: These are restricted templates, below the preserved return bound 50368/90905. No proof of convergence for all unrestricted maxima.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/paley/colouring/TWO-PREFIX.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-CUBE-LP",
+    "source_record_id": "B2-CONTINUATION-CUBE-LP",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      1959
+    ],
+    "status": "reviewed-method-obstruction",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-CUBE-LP: Fractional obstruction to the first cube relaxation",
+    "scope": "The retained all-size fractional cube-hyperedge construction has density 17/24, showing that the specified linear relaxation cannot prove the desired sharp density. Remaining/limits: A fractional model obstruction, not an actual cube-free set counterexample.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/paley/cubes/Q1959-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-CUBE-AUXILIARY",
+    "source_record_id": "B2-CONTINUATION-CUBE-AUXILIARY",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      1960
+    ],
+    "status": "reviewed-method-obstruction",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-CUBE-AUXILIARY: Counterexample to a diagonal-progression sufficient lemma",
+    "scope": "The explicit retained set defeats the proposed auxiliary diagonal-progressions criterion while containing a genuine mixed cube. Remaining/limits: It refutes the auxiliary proof lemma, not Q1960 or a cube-free density bound.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/paley/cubes/Q1960-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-CUBE-DENSITY-BRANCH",
+    "source_record_id": "B2-CONTINUATION-CUBE-DENSITY-BRANCH",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      1961
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-CUBE-DENSITY-BRANCH: Five-eighths bound in the high-odd-density branch",
+    "scope": "The high-odd-density branch of the cube-free analysis proves the five-eighths density bound under its stated branch assumptions. Remaining/limits: The intermediate-density regime and the universal bound remain unresolved.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/paley/cubes/Q1961-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-FINITE-SUMMAND",
+    "source_record_id": "B2-CONTINUATION-FINITE-SUMMAND",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2215
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-FINITE-SUMMAND: Finite-summand exclusion near the squares",
+    "scope": "With the source o(sqrt(X)) cumulative square-perturbation error, a sumset decomposition cannot have a finite summand of size at least two; two fixed shifts give the counting bound and a necessary error scale Omega(X^(1/4)). Remaining/limits: Sparse infinite/infinite decompositions are not excluded. Original partial mark is retained.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-BIPARTITE-COVER",
+    "source_record_id": "B2-CONTINUATION-BIPARTITE-COVER",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2216
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-BIPARTITE-COVER: Genus-five four-row cover and a two-row Pell boundary",
+    "scope": "Four distinct fixed square-sum rows produce the specified degree-sixteen genus-five cover. Two fixed rows allow unbounded Pell-based extensions with both signs permitted. Remaining/limits: Uniformity on the four-row cover is conditional; the unrestricted bipartite minimum problem is not reduced to a clique theorem.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/diophantine/BIPARTITE-SQUARE-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-RECIPROCAL-FACTORS",
+    "source_record_id": "B2-CONTINUATION-RECIPROCAL-FACTORS",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2414,
+      2415
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-RECIPROCAL-FACTORS: Reciprocal factors in shifted cyclotomic families",
+    "scope": "Reciprocal irreducible factors in the source product-plus-one family and unequal-degree sum family are cyclotomic. Exact finite factor controls retain their degree conditions. Remaining/limits: Irreducibility of the remaining noncyclotomic factor is not established. The original two partial marks and scopes remain unchanged.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/FACTOR-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-LEHMER-TWO",
+    "source_record_id": "B2-CONTINUATION-LEHMER-TWO",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      3314
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-LEHMER-TWO: Two-factor signed-distinct Lehmer exclusion",
+    "scope": "The signed distinct two-factor case reduces to the retained exact factor identity, which forces equality of the two parameters and violates distinctness. Remaining/limits: Larger factor counts and the full Lehmer-style equation remain unresolved.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/SEQUENCE-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-RADO-BOUNDARY",
+    "source_record_id": "B2-CONTINUATION-RADO-BOUNDARY",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2203
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-RADO-BOUNDARY: Two-variable regularity threshold",
+    "scope": "The minimal threshold is r(1)=1 vacuously and r(2)=2. A nonregular two-variable equation with opposite signs has unequal coefficient ratio; a nonzero prime valuation of that ratio gives a two-coloring by valuation bands with no monochromatic solution. Remaining/limits: No threshold proof for every number of variables. Same-sign coefficients have no positive solution.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/RAMSEY-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-RCA0-SINGLE-DIFFERENCE",
+    "source_record_id": "B2-CONTINUATION-RCA0-SINGLE-DIFFERENCE",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2469
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-RCA0-SINGLE-DIFFERENCE: RCA0 three-color single-difference avoidance",
+    "scope": "For every coded countable abelian group and nonzero b, the translation graph of x-y=b has degree at most two. Greedy coloring in the enumeration gives a three-color avoidance proof in RCA0. Remaining/limits: This is a single-equation subcase. It does not classify the ring/matrix assertion or imply a two-color reversal. Prior partial mark retained.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/RAMSEY-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-ELASTICITY-INFINITY",
+    "source_record_id": "B2-CONTINUATION-ELASTICITY-INFINITY",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2814
+    ],
+    "status": "known-literature-subcase",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-ELASTICITY-INFINITY: Known infinite elasticity in quadratic orders",
+    "scope": "The sourced split-prime-dividing-conductor criterion realizes infinite elasticity in the retained real-quadratic setup, using all powers of a suitable split prime. Remaining/limits: This is a prior literature subcase; the finite prescribed elasticities in all fields remain unresolved.",
+    "evidence_labels": [
+      "primary-source-review",
+      "exact-finite-controls"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/NUMBER-THEORY-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-SHIFTED-PRIME-MOMENTS",
+    "source_record_id": "B2-CONTINUATION-SHIFTED-PRIME-MOMENTS",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2817
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-SHIFTED-PRIME-MOMENTS: Exact least-common-multiple identity for divisor moments",
+    "scope": "The kth shifted-prime divisor moment equals the exact sum over ordered prime tuples of floor(X/lcm(p1-1,...,pk-1)). Coincidences and gcd factors are retained. Remaining/limits: No asymptotic constant or uniform error after summing the floor terms is proved.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/NUMBER-THEORY-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-RECIPROCAL-MCD",
+    "source_record_id": "B2-CONTINUATION-RECIPROCAL-MCD",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2217
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-RECIPROCAL-MCD: Atomic power monoid for all odd-prime reciprocal generators",
+    "scope": "In M generated by 1/p for every odd prime, a zero-integer-part element has only finitely many divisors by the canonical residue form. Subtracting the minimum integer part proves every finite set has an MCD. M is atomic, so the sourced atomic-MCD theorem makes its finitary power monoid atomic. Remaining/limits: This rules out one accumulating rank-one candidate, not all almost-atomic Puiseux monoids. Prior necessary-condition partial is preserved.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-S3-THRESHOLD",
+    "source_record_id": "B2-CONTINUATION-S3-THRESHOLD",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2213
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-S3-THRESHOLD: Complete product-one threshold verification for S3",
+    "scope": "All possible ordering products of multiplicity vectors prove d(S3)=3 and E(S3)=9: all 126 length-four and 2002 length-nine multisets pass the respective tests, with exact length-three and length-eight lower witnesses. Remaining/limits: One finite group, already in known dihedral results; arbitrary groups remain open. The earlier universal lower-bound partial remains unchanged.",
+    "evidence_labels": [
+      "complete-finite-enumeration",
+      "all-ordering-product-dynamic-program",
+      "main-thread-scope-review"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-TWO-LENGTH-SETS",
+    "source_record_id": "B2-CONTINUATION-TWO-LENGTH-SETS",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2210
+    ],
+    "status": "known-literature-subcase",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-TWO-LENGTH-SETS: Known realization of every two-element length set",
+    "scope": "The reviewed primary Theorem 1.1 realizes every {a,b}, 2<=a<b, by the length-family expression {2,b-a+2}+(a-2){1}. The new complete finite power-set enumeration covers all 4096 normalized sets through maximum twelve. Remaining/limits: The two-element theorem is sourced prior work. General finite length sets and a uniform witness-size bound remain open; the old partial/archive issue is retained.",
+    "evidence_labels": [
+      "primary-source-review",
+      "complete-bounded-enumeration"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-COUNTABLE-CLASS-GROUPS",
+    "source_record_id": "B2-CONTINUATION-COUNTABLE-CLASS-GROUPS",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2008
+    ],
+    "status": "known-literature-subcase",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-COUNTABLE-CLASS-GROUPS: Known half-factorial class groups for countable groups",
+    "scope": "The reviewed Geroldinger-Gobel theorem supplies half-factorial monoid-generating subsets for Warfield groups, including all countable groups, and the cited prime-class realization theorem yields corresponding Dedekind domains. Remaining/limits: This is known literature. Arbitrary abelian groups require compatible prime-class selection; unions, quotients and compact limits can lose the needed properties.",
+    "evidence_labels": [
+      "primary-source-review",
+      "explicit-zero-sum-countercontrols"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-GRADED-BF-BOUNDARY",
+    "source_record_id": "B2-CONTINUATION-GRADED-BF-BOUNDARY",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      2617
+    ],
+    "status": "reviewed-method-boundary",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-GRADED-BF-BOUNDARY: Graded BF exclusion and a well-founded non-BF monoid",
+    "scope": "Connected N-graded domains are BF by additive degree; the filtered case with a domain leading ring has the same degree argument. An explicit infinite-rank cancellative monoid has ACCP and all lengths n>=2 for x, using a canonical integer budget and disjoint atom families. Remaining/limits: The graded result is known background. The illustrative monoid is not finitely generated; no ring ACCP or finite-presentation counterexample is claimed.",
+    "evidence_labels": [
+      "local-written-analysis",
+      "main-thread-proof-and-scope-review",
+      "exact-or-bounded-controls-as-declared"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-continuation:B2-CONTINUATION-STOP-REGISTER",
+    "source_record_id": "B2-CONTINUATION-STOP-REGISTER",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      49,
+      1312,
+      1509,
+      1510,
+      1511,
+      1608,
+      1609,
+      1610,
+      1611,
+      1612,
+      1613,
+      1860,
+      1861,
+      1903,
+      1904,
+      1905,
+      1906,
+      1907,
+      1908,
+      1959,
+      1960,
+      1961,
+      2008,
+      2010,
+      2011,
+      2187,
+      2188,
+      2189,
+      2190,
+      2191,
+      2203,
+      2210,
+      2213,
+      2215,
+      2216,
+      2217,
+      2306,
+      2307,
+      2308,
+      2309,
+      2314,
+      2315,
+      2316,
+      2414,
+      2415,
+      2462,
+      2468,
+      2469,
+      2613,
+      2616,
+      2617,
+      2814,
+      2815,
+      2816,
+      2817,
+      2904,
+      2905,
+      2906,
+      2907,
+      3107,
+      3109,
+      3110,
+      3113,
+      3116,
+      3117,
+      3208,
+      3314,
+      3466,
+      3603,
+      3715,
+      4190,
+      4196,
+      4295,
+      4296,
+      4302,
+      4580,
+      4585,
+      4642,
+      4643,
+      4659,
+      4660
+    ],
+    "status": "reviewed-unsuccessful-routes",
+    "exact_question_closed": false,
+    "label": "B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition",
+    "scope": "All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive.",
+    "evidence_labels": [
+      "written-route-analyses",
+      "main-thread-count-and-scope-review",
+      "retained-agent-prior-reviews-with-provenance"
+    ],
+    "proof": "solutions/b2-continuation-2026-10-12/STATUS.json",
+    "review": "solutions/b2-continuation-2026-10-12/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q4082",
+    "source_record_id": "B3-ALL-TARGETS-Q4082",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      4082
+    ],
+    "status": "proved",
+    "exact_question_closed": true,
+    "label": "B3-ALL-TARGETS-Q4082: Sharp variance bound for every discrete alpha-concave law",
+    "scope": "For every alpha in (-1/3,0) and every discrete alpha-concave law X on an integer interval, M(X)^2 [1+k(alpha) Var(X)] <=1, with k(alpha)=(1+2alpha)^2(1+3alpha)/(1+alpha)^3. The exact coefficient is sharp by the source one-sided asymptotic example. Mean-matched convex order, all-slope one-sided bounds, a Gamma moment inequality and two-tail gluing prove the full frozen assertion. Remaining/limits: No remaining obligation at the catalog scope. Internally reviewed local proof; no novelty or external peer-review claim. The rest of the B3 run remains in progress.",
+    "evidence_labels": [
+      "written-full-proof",
+      "primary-source-scope-review",
+      "main-thread-mathematical-review",
+      "retained-agent-independent-proof-review",
+      "independent-exact-rational-certificate-reconstruction"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/concave-laws/FULL-PROOF.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q1443",
+    "source_record_id": "B3-ALL-TARGETS-Q1443",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      1443
+    ],
+    "status": "disproved",
+    "exact_question_closed": true,
+    "label": "B3-ALL-TARGETS-Q1443: Degree-36 counterexample to the proposed root-gap bound",
+    "scope": "The degree-36 polynomial (2z+1)^32(5z+2)^2(5z-12)^2 belongs to U_36, as certified by its sampled-value generating function, positive numerator coefficients and exact negative-root brackets. Its consecutive distinct roots -2/5 and 12/5 have gap 14/5. This refutes the frozen proposed universal bound 1<=d<2. Remaining/limits: Whether any finite dimension-free gap bound exists remains unresolved. The earlier lower-bound result and its evidence are preserved. No novelty or external peer-review claim.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/interpolation/Q1443-RESULT.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q4666",
+    "source_record_id": "B3-ALL-TARGETS-Q4666",
+    "programmes": [
+      "B11",
+      "B3",
+      "B6"
+    ],
+    "question_numbers": [
+      4666
+    ],
+    "status": "disproved",
+    "exact_question_closed": true,
+    "label": "B3-ALL-TARGETS-Q4666: A non-log-concave offspring law admits nested conditioned trees",
+    "scope": "The offspring law mu=(1,2,3,5)/11, zero beyond three, has no internal zeros and fails log-concavity because 3^2<2*5. Nevertheless its entire conditioned Bienayme tree sequence admits a simultaneous nested Markov coupling preserving literal Ulam-Harris parents and left siblings. An all-size TN2 forest-array argument verifies the source composition-coupling hypotheses. Remaining/limits: This refutes the log-concavity necessity clause, while the support-necessity partial theorem remains valid. No novelty or external peer-review claim.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/stirling/Q4666-RESULT.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q3902",
+    "source_record_id": "B3-ALL-TARGETS-Q3902",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3902
+    ],
+    "status": "disproved",
+    "exact_question_closed": true,
+    "label": "B3-ALL-TARGETS-Q3902: Literature counterexample to reflexive boundary-polytope gamma positivity",
+    "scope": "Ferroni, arXiv:2607.02424v1, Corollary 2.2, gives the graph G(8,8,8,8,8): five internally disjoint paths of length eight between two vertices. Its reflexive symmetric edge polytope has dimension 36 and gamma_16=-9799680. As a one-dimensional simplicial complex it is exactly a homology boundary polytope in the saturated root lattice, refuting the frozen universal assertion. Remaining/limits: This is an attributed July 2026 literature closure, not a newly discovered counterexample. The standalone cohomology branch and the separate source Question 9.3 about subcomplex reflexivity are not settled by this example. Local checks reconstruct the published formula and gamma certificate.",
+    "evidence_labels": [
+      "primary-literature-theorem-and-certificate",
+      "exact-target-lattice-embedding-review",
+      "independent-formula-and-gamma-reconstruction",
+      "main-thread-source-and-scope-review"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/boundary-polytopes/Q3902-LITERATURE-CLOSURE.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": "attributed-primary-literature-closure"
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-REFLEXIVE-CROSSPOLYTOPES",
+    "source_record_id": "B3-ALL-TARGETS-REFLEXIVE-CROSSPOLYTOPES",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3902
+    ],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-REFLEXIVE-CROSSPOLYTOPES: Binary-code gamma formula for every reflexive crosspolytope",
+    "scope": "Pulling a reflexive centrally symmetric crosspolytope back to the unit l1 ball gives lattice Z^m+C/2 for an even binary linear code C. Its numerator is sum_(c in C) 2^wt(c)*t^(wt(c)/2)*(1+t)^(m-wt(c)), so gamma_j=4^j*#{c:wt(c)=2j}. This covers all reflexive homology polytopes with vanishing top homology, including torsion cases. Remaining/limits: This restricted family remains valid despite the literature counterexample to the full assertion. Whole spanning-forest numerators alone cannot assemble every boundary-polytope numerator. No novelty claim.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/boundary-polytopes/CROSSPOLYTOPES.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-HANKEL-TN2",
+    "source_record_id": "B3-ALL-TARGETS-HANKEL-TN2",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-HANKEL-TN2: Coefficientwise Hankel minors of order two for both Stirling families",
+    "scope": "For either shifted cycle or subset family, every integer r>=1 and arbitrary nonnegative i1<i2, j1<j2, the polynomial f_(i1+j1)f_(i2+j2)-f_(i1+j2)f_(i2+j1) has nonnegative coefficients. Zero indices and arbitrary gaps are included. Remaining/limits: This completes B3C-Q02. Higher-order Hankel minors and the other Stirling catalog targets remain unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/stirling/HANKEL-TN2.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-SHARP-REPRESENTATION",
+    "source_record_id": "B3-ALL-TARGETS-SHARP-REPRESENTATION",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-SHARP-REPRESENTATION: Sharp length for powers of a linear s-Eulerian polynomial",
+    "scope": "For every pair of positive integers d,u, the shortest positive integer vector s with E_s(x)=(1+u*x)^d has length exactly 2d-1. Nonunit blocks have simple roots, so each block has degree one; single unit separators give the attaining construction. Remaining/limits: This completes B3C-Q06. It does not classify all colored multiset Eulerian polynomials or all representing vectors.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/eulerian/SIMPLE-ROOTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-SIMPLE-NONUNIT-ROOTS",
+    "source_record_id": "B3-ALL-TARGETS-SIMPLE-NONUNIT-ROOTS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [],
+    "status": "proved",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-SIMPLE-NONUNIT-ROOTS: Simple negative roots in every nonunit s-Eulerian block",
+    "scope": "If every denominator in s is at least two, E_s has simple strictly negative roots. Consecutive prefix polynomials have no common root and strictly interlace wherever their published weak interlacing compares roots. Arbitrary denominator order and degree-preserving steps are included. Remaining/limits: This completes B3C-Q07. Unit separators can introduce repeated roots in a general vector; the full colored classification remains unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/eulerian/SIMPLE-ROOTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q1160-TN2",
+    "source_record_id": "B3-ALL-TARGETS-Q1160-TN2",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      1160
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q1160-TN2: All-size partial scope of the cycle Hankel conjecture",
+    "scope": "Every coefficientwise Hankel minor of order two is nonnegative, for all integer r>=1 and arbitrary row and column gaps, by the separate B3C-Q02 proof. Remaining/limits: The catalog assertion requires every order. Its existing partial ledger topic and earlier proofs remain unchanged.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/stirling/HANKEL-TN2.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q167-DEGREE-FIVE",
+    "source_record_id": "B3-ALL-TARGETS-Q167-DEGREE-FIVE",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      167
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q167-DEGREE-FIVE: Complete integer coefficient ordering in degree five",
+    "scope": "For products of five linear factors 1+r_i*x with positive integer r_i, exactly fourteen coefficient orders occur, including every ordering allowed by ties. Three reciprocal dominance implications prove exhaustion and exact integer tuples witness every order. Remaining/limits: Arbitrary degree remains unresolved. The earlier complete degrees one through four and their existing partial topic are preserved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/coefficient-orders/DEGREE-FIVE.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q1263-ENDPOINTS",
+    "source_record_id": "B3-ALL-TARGETS-Q1263-ENDPOINTS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      1263
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q1263-ENDPOINTS: Colored endpoint subsets and small gamma orbits",
+    "scope": "For permutations of N distinct symbols with a common color count r>=2, the last-color endpoint partition gives actual word subsets for both ordinary symmetric parts in every N. For N=1,2 and every r, explicit word orbits interpret both gamma vectors. Remaining/limits: The general colored-multiset gamma interpretation remains unresolved; repeated symbols invalidate the literal endpoint involution.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/eulerian/ENDPOINT-COLORS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q1366-LAYERS",
+    "source_record_id": "B3-ALL-TARGETS-Q1366-LAYERS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      1366
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q1366-LAYERS: All-size layered permutation interval rank inequalities",
+    "scope": "Classical pattern intervals with layered endpoints and the same layer count are products of chains and have log-concave rank rows. Layered two-layer tops with a one-layer bottom have positive arithmetically concave, hence log-concave, rank rows. Occurrence fibers are included rather than treating occurrences as distinct permutations. Remaining/limits: General intervals between arbitrary permutations remain unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/patterns/LAYERED-INTERVALS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q2212-BOUNDARY",
+    "source_record_id": "B3-ALL-TARGETS-Q2212-BOUNDARY",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      2212
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q2212-BOUNDARY: Atom log-concavity through twice the monoid multiplicity",
+    "scope": "For every numerical monoid H, let m be its least positive element and h=|H intersect [1,l]|. At every cutoff l<2m the nonunit atom counts are binom(h,k-1); at l=2m they are binom(h,k-1)-1_(k=3). Both rows are log-concave with no internal zeros and hence unimodal. Remaining/limits: Cutoffs greater than 2m remain unresolved. The exact screen at cutoff 18 covers that one cutoff. Source asymptotic quantifiers are kept separate from the stronger survey attribution.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/power-monoids/RESULTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q2400-PREFIX",
+    "source_record_id": "B3-ALL-TARGETS-Q2400-PREFIX",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      2400
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q2400-PREFIX: A fixed-density random graph log-concavity prefix",
+    "scope": "For every fixed d>0, G(n,d/n) has a log-concave independent-set count prefix through K=floor((n^2/(384*d^2))^(1/5))-1 with probability tending to one, under the explicit eventual size conditions. Exact second Bonferroni bounds prove the all-size criterion. Every fixed tree T is absent as an isolated component with probability O_(T,d)(1/n). Remaining/limits: The complete rank row remains unresolved; real-rootedness and all-weight claims are stronger properties and their failures do not refute it. The existing partial topic is preserved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/random-graphs/BONFERRONI-PREFIX.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q2508-RANKS",
+    "source_record_id": "B3-ALL-TARGETS-Q2508-RANKS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      2508
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q2508-RANKS: Exact Perazzo derivative ranks and quartic subfamilies",
+    "scope": "For every F=sum X_j p_j(U)+G(U), put W=span(p_j), J=Ann(W), r_i=dim(D/J)_i and B_i(a,b)=(ab)G on J_i by J_(d-i). Then h_F(i)=r_i+r_(d-i)+rank(B_i). An all-degree family has flat internal row e+5 for e=d-1>=3 and W=S_e(U,V)+span(Z^e). In the all-r>=3 quartic family consisting of all cubics in r variables plus Z^3 and G=Z^4+Z^2 Q, unimodality holds exactly when rank(Q)>=binom(r,3). Remaining/limits: The complete Perazzo unimodality classification remains unresolved. The correction depends on G modulo S_1 W; it cannot be discarded.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/perazzo/DERIVATIVE-RANKS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-PERAZZO-SOURCE-CORRECTIONS",
+    "source_record_id": "B3-ALL-TARGETS-PERAZZO-SOURCE-CORRECTIONS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      2508
+    ],
+    "status": "reviewed-auxiliary-counterexamples",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-PERAZZO-SOURCE-CORRECTIONS: Legal counterexamples to auxiliary published Perazzo claims",
+    "scope": "At d=4,m=3,n=4 the legal Perazzo example in the written proof has Hilbert row (1,8,8,8,1), contradicting the final source universal middle minimum 10 as printed. Its all-degree family also contradicts the fixed-presentation general-derivative independence assertion. Remaining/limits: These are auxiliary source corrections, not a solution of Q2508. No smaller deconed presentation is excluded. No external communication, novelty or peer-review claim.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/perazzo/DERIVATIVE-RANKS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q2751-FOUR",
+    "source_record_id": "B3-ALL-TARGETS-Q2751-FOUR",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      2751
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q2751-FOUR: Unimodality for all parameter-four q-Fibonomial rows",
+    "scope": "Every q-Fibonomial row in the source normalization is unimodal when min(m,n)<=4. The new all-m parameter-four argument uses exact residue-class differences and positive base expressions. Remaining/limits: The full conjecture at min(m,n)>=5 remains unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/fibonomials/N4-PROOF.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q2924-TWO-STRANDS",
+    "source_record_id": "B3-ALL-TARGETS-Q2924-TWO-STRANDS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      2924
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q2924-TWO-STRANDS: Two-strand ruling inequalities and the exact composition correction",
+    "scope": "For beta=sigma_1^m, write m=2d+e with e in {0,1}. The normalized ruling coefficients are binom(d+j+e,d-j), positive and log-concave for every m. The returning-walk polynomials satisfy F_(a+b)=F_a F_b+F_(a-1)F_(b-1) for all positive a,b, with the written parity correction after normalization. Remaining/limits: This derives a source-known subfamily and explains the composition obstruction. General positive braids remain unresolved; no novelty claim.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/knots/TWO-STRAND-RESULT.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q3437-LOW-DEGREE",
+    "source_record_id": "B3-ALL-TARGETS-Q3437-LOW-DEGREE",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3437
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q3437-LOW-DEGREE: All permitted parameters in rectangular degrees one and two",
+    "scope": "The rectangular finite free additive convolution preserves nonnegative real roots at degrees m<=2 for every alpha>-1, including zero and repeated input roots. In every m>=2 its normalized derivative is the convolution of the normalized input derivatives in degree m-1 with parameter alpha+1. Remaining/limits: The derivative identity does not control the required antiderivative signs; the all-degree question remains unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/finite-convolutions/RECTANGULAR-RESULTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q3568-WEAK-LAYERS",
+    "source_record_id": "B3-ALL-TARGETS-Q3568-WEAK-LAYERS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3568
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q3568-WEAK-LAYERS: Order-polynomial positivity for all weak orders of width two",
+    "scope": "Every ordinal sum of singleton or two-element antichain layers has nonnegative ordinary order-polynomial coefficients. Its exact factorization is a rising factorial times a residual polynomial whose roots lie on a vertical line with nonpositive real part. Empty and chain cases are included. Remaining/limits: General width-two posets with incomplete cross-layer comparisons remain unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/posets/WIDTH-TWO-WEAK-ORDERS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-CYCLE-PRODUCTS",
+    "source_record_id": "B3-ALL-TARGETS-CYCLE-PRODUCTS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3626,
+      3627
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-CYCLE-PRODUCTS: Boninger coefficient inequalities for arbitrary cycle connected sums",
+    "scope": "Arbitrary oriented connected sums of canonical positive directed-cycle Tait diagrams and their mirrors have M-convex Laurent support and satisfy every root-direction coefficient log-concavity inequality. The proof handles arbitrary sizes, numbers of factors, missing midpoints and cross-group directions. Remaining/limits: Mixed-sign prime links and both full catalog conjectures remain unresolved. Source multiplicativity and the broader known unmixed results are explicitly attributed.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/knots/CYCLE-PRODUCTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q3702-ENDPOINTS",
+    "source_record_id": "B3-ALL-TARGETS-Q3702-ENDPOINTS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3702
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q3702-ENDPOINTS: First two subsum-product inequalities and a central limit",
+    "scope": "For every n>=8, the first two nontrivial log-concavity inequalities of F_n and their reflected counterparts are strict. Its normalized coefficient law has variance asymptotic to 2*n^3/21 and converges after centering and standardization to the normal law. Remaining/limits: The finite permitted small endpoints are treated separately. A central limit does not determine exact interior curvature signs; the full conjecture remains unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q3703-ENDPOINTS",
+    "source_record_id": "B3-ALL-TARGETS-Q3703-ENDPOINTS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3703
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q3703-ENDPOINTS: Strict binary-partition sum boundary inequalities",
+    "scope": "For every n>=4, the first and final nontrivial log-concavity inequalities of H_n are strict. Exact mixture moments also prove that H_(2^s) is not ultra-log-concave for every s>=2. Remaining/limits: Ultra-log-concavity is stronger than the frozen ordinary log-concavity question. All interior inequalities remain unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q3846-TWO-COLUMNS",
+    "source_record_id": "B3-ALL-TARGETS-Q3846-TWO-COLUMNS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3846
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q3846-TWO-COLUMNS: Coefficientwise total positivity in the first two Eulerian columns",
+    "scope": "Every minor using only columns zero and one of the source four-parameter generalized Eulerian triangle has nonnegative coefficients in a,c,d,e, for arbitrary row gaps. The displayed formula proves this without polynomial division. Remaining/limits: Higher columns and arbitrary-order minors remain unresolved. The negative forced production entry is not a negative actual triangle minor.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/matrices/Q3846-ATTEMPTS.md#a5",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-PATH-ENDPOINTS",
+    "source_record_id": "B3-ALL-TARGETS-PATH-ENDPOINTS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      4331,
+      4332
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-PATH-ENDPOINTS: All-length upper inequalities for path-height rows",
+    "scope": "For d=ceil(n/2), A_n coefficients divided by binom(d,i) are log-concave at ceil((n+2)/4)<i<d; B_n has the same assertion at floor((n+2)/4)+1<i<d. The i=1 zero-boundary inequalities hold as well. For Motzkin and Riordan paths at every length, the final nontrivial ordinary log-concavity inequality holds. Remaining/limits: Arbitrary interior heights in all four families remain unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/paths/UPPER-TAIL.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q4443-ENDPOINTS",
+    "source_record_id": "B3-ALL-TARGETS-Q4443-ENDPOINTS",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      4443
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q4443-ENDPOINTS: Every horizontal-strip eigenvalue at endpoint ranks",
+    "scope": "For every horizontal strip and ambient size, E(1) is unimodal because its interval summands share an integer center. E(N) is a product of positive q-integers and is palindromic unimodal. Together with E(0)=1 this covers every rank when N<=2. Remaining/limits: General intermediate ranks 2<=k<N remain unresolved. The fresh bounded construction beyond source size 28 supplies no full proof.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/shuffle-eigenvalues/RESULTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q3892-DESCENDING",
+    "source_record_id": "B3-ALL-TARGETS-Q3892-DESCENDING",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3892
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q3892-DESCENDING: Every socle degree admits a descending Koszul half-row",
+    "scope": "For every d>=3, the flag join of q=d-1 discrete sets of common size s>=2q+1 gives a characteristic-zero Artinian Gorenstein Koszul algebra with h_i=binom(q,i)s^i+binom(q,i-1)s^(d-i) and h_1>...>h_floor(d/2). Remaining/limits: Other arbitrary permutations in every sufficiently large degree remain unresolved. The flag-join algebra family is source-known; the all-degree ordering inequality is proved in the local packet.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/koszul/Q3892-RESULTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-Q4665-INJECTIVE",
+    "source_record_id": "B3-ALL-TARGETS-Q4665-INJECTIVE",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      4665
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-Q4665-INJECTIVE: Schur midpoint positivity with injective output fibers",
+    "scope": "The full weighted Schur difference is Schur-positive whenever each summed midpoint-output fiber has total input weight at most its c(u)d(v) budget. In particular the frozen pairwise weight hypothesis suffices for injective midpoint support pairs, including either singleton input support. For all legal finite supports the difference has nonnegative values on every nonnegative alphabet. Remaining/limits: Colliding midpoint fibers need additional compensation. Nonnegative evaluations alone do not imply Schur positivity; the full question remains unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/schur-midpoints/Q4665-RESULTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-CIRCUIT-GAUGES",
+    "source_record_id": "B3-ALL-TARGETS-CIRCUIT-GAUGES",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      3678
+    ],
+    "status": "reviewed-method-results",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-CIRCUIT-GAUGES: Circuit-polytope lattice reductions and fractional carries",
+    "scope": "Rank-one root circuit polytopes have binomial-square Ehrhart numerators in every size. The cographic K_N-minus-one-edge family is nonreflexive for every N>=5. The exact free-sum Ehrhart correction counts pairs of nonintegral gauges with fractional parts summing to at most one. A represented uniform rank-two family has sign-circuit span and saturated lattice equal to R^N and Z^N despite its flow-kernel dimension N-2. Remaining/limits: The root family is known and rederived here. The new structural obstructions are not counterexamples to full h* log-concavity. The complete conjecture remains unresolved.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/oriented-matroids/Q3678-ATTEMPTS.md",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b3-all-targets:B3-ALL-TARGETS-STOP-REGISTER",
+    "source_record_id": "B3-ALL-TARGETS-STOP-REGISTER",
+    "programmes": [
+      "B3"
+    ],
+    "question_numbers": [
+      164,
+      167,
+      183,
+      1158,
+      1159,
+      1160,
+      1161,
+      1249,
+      1262,
+      1263,
+      1366,
+      1441,
+      1442,
+      1454,
+      2212,
+      2400,
+      2508,
+      2731,
+      2751,
+      2924,
+      3436,
+      3437,
+      3498,
+      3500,
+      3568,
+      3579,
+      3626,
+      3627,
+      3678,
+      3702,
+      3703,
+      3846,
+      3892,
+      4331,
+      4332,
+      4396,
+      4429,
+      4443,
+      4591,
+      4592,
+      4665
+    ],
+    "status": "reviewed-unsuccessful-routes",
+    "exact_question_closed": false,
+    "label": "B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions",
+    "scope": "45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues.",
+    "evidence_labels": [
+      "written-local-proof-or-analysis",
+      "main-thread-proof-count-and-scope-review",
+      "retained-agent-review-provenance-in-ROOT-REVIEW",
+      "exact-controls-at-their-declared-scopes"
+    ],
+    "proof": "solutions/b3-all-targets-2026-10-13/STATUS.json",
+    "review": "solutions/b3-all-targets-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R1-B2-NEW-Q4296-LOG-CODIMENSION",
+    "source_record_id": "B2-RETURN-R1-B2-NEW-Q4296-LOG-CODIMENSION",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R1-B2-NEW-Q4296-LOG-CODIMENSION: all-dimension theorem using established external PFR",
+    "scope": "Every admissible k-colour midpoint partition of F_3^n with remainder density at least 1/10 has an affine subspace in R of codimension O(k log(2k)). Remaining/limits: The exact extremal function and removal of the logarithmic factor are not determined. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R1-B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE",
+    "source_record_id": "B2-RETURN-R1-B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R1-B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE: auxiliary general lemma",
+    "scope": "If A is covered by M cosets of H, s <= dim(W/H), and M p^(-s)<1, then an affine codimension-s subspace avoiding A exists on which any nonnegative function has average at most its ambient average divided by 1-M p^(-s). Remaining/limits: No small-doubling or midpoint hypothesis is required for this standalone lemma. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R1-B2-NEW-Q4296-BLOCK-CONSTRUCTION",
+    "source_record_id": "B2-RETURN-R1-B2-NEW-Q4296-BLOCK-CONSTRUCTION",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R1-B2-NEW-Q4296-BLOCK-CONSTRUCTION: explicit companion construction",
+    "scope": "For n>=kb, the remainder with every one of k disjoint b-dimensional blocks nonzero admits k midpoint colours on its complement and has largest affine subspace dimension exactly n-k; density is (1-p^(-b))^k. Remaining/limits: The primary source already notes linear-loss constructions; no priority claim for necessity of linear loss. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R1-B2-NEW-Q4660-EXACT-1.40518",
+    "source_record_id": "B2-RETURN-R1-B2-NEW-Q4660-EXACT-1.40518",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R1-B2-NEW-Q4660-EXACT-1.40518: exact finite-law lower-bound certificate",
+    "scope": "The least universal entropy sum-difference constant is strictly greater than 70259/50000 = 1.40518. Remaining/limits: No proof of the sharp universal constant, no global optimizer, and no improvement to Q4659. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R2-Q4296-two-colour-cap",
+    "source_record_id": "B2-RETURN-R2-Q4296-two-colour-cap",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R2-Q4296-two-colour-cap: Q4296-two-colour-cap",
+    "scope": "For every n, line-free admissible two-colour remainders in F_3^n are exactly the empty set, a singleton, two points, or an affine parallelogram. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R2-Q4296-full-fibre",
+    "source_record_id": "B2-RETURN-R2-Q4296-full-fibre",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R2-Q4296-full-fibre: Q4296-full-fibre",
+    "scope": "Full fibres inherit admissibility for any k over odd prime fields. For two colours the number of complete parallel maximal flats is 1, 2, or 4, with parallelogram quotient structure for four. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R2-Q4296-initial-values",
+    "source_record_id": "B2-RETURN-R2-Q4296-initial-values",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R2-Q4296-initial-values: Q4296-initial-values",
+    "scope": "At density >=1/10, f(1,2)=f(2,2)=f(3,2)=0 and f(4,2)=1. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R2-Q4296-k-plus-two-obstruction",
+    "source_record_id": "B2-RETURN-R2-Q4296-k-plus-two-obstruction",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R2-Q4296-k-plus-two-obstruction: Q4296-k-plus-two-obstruction",
+    "scope": "For k>=2, n>=k ceil(log_3(10k))+2, there is an admissible density-1/10 partition with largest affine dimension exactly n-k-2. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R2-Q4660-support-boundary",
+    "source_record_id": "B2-RETURN-R2-Q4660-support-boundary",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R2-Q4660-support-boundary: Q4660-support-boundary",
+    "scope": "The epsilon log(1/epsilon) coefficient of the ratio under adding an atom is [2u_minus-1-rho(2u_plus-1)]/Delta_plus; for rho>1 only (A+A-A)\\A can give positive leading coefficients. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R2-Q4660-finite-AP-nonattainment",
+    "source_record_id": "B2-RETURN-R2-Q4660-finite-AP-nonattainment",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R2-Q4660-finite-AP-nonattainment: Q4660-finite-AP-nonattainment",
+    "scope": "A finite real law of ratio >1 cannot be globally extremal if it fully occupies an arithmetic progression, or if either support endpoint has probability >=1/2. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R2-Q4660-twelve-point-certificate",
+    "source_record_id": "B2-RETURN-R2-Q4660-twelve-point-certificate",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R2-Q4660-twelve-point-certificate: Q4660-twelve-point-certificate",
+    "scope": "The displayed twelve-point rational law has ratio 1.4051810329220149462009831947934829507300... and proves C_*>14051810329/10^10. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R3-B2-III-M1",
+    "source_record_id": "B2-RETURN-R3-B2-III-M1",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R3-B2-III-M1: Maximal-flat fibre rigidity",
+    "scope": "In an admissible two-colour partition of F_3^n, quotient in the direction of a maximum-dimensional affine subspace contained in R. The full remainder fibres form a cap of size 1,2,4; all but at most one nonfull fibre have a monochromatic affine coloured complement. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R3-B2-III-M2",
+    "source_record_id": "B2-RETURN-R3-B2-III-M2",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R3-B2-III-M2: Occupied-fibre inheritance",
+    "scope": "Under the hypotheses of M1, the quotient set of fibres meeting R inherits an admissible two-colouring. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R3-B2-III-M3",
+    "source_record_id": "B2-RETURN-R3-B2-III-M3",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R3-B2-III-M3: Sharp plane-free threshold in F_3^3",
+    "scope": "The maximum cardinality of a plane-free admissible two-colour remainder in F_3^3 is exactly 16. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R3-B2-III-M4",
+    "source_record_id": "B2-RETURN-R3-B2-III-M4",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4296
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R3-B2-III-M4: All-dimension plane-free bound",
+    "scope": "For n>=3, a plane-free admissible two-colour remainder in F_3^n has cardinality at most (5/2)*2^n-4. At density >=1/10, an affine plane is forced for n>=8. Remaining/limits: No sharpness claim beyond dimension 3; no improvement to general O(k log k) codimension. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R3-B2-III-E1",
+    "source_record_id": "B2-RETURN-R3-B2-III-E1",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R3-B2-III-E1: Tail exponent rigidity and ascent",
+    "scope": "For a law with full support on N_0 and -log p_n=c*n^beta+o(n^beta), its coordinate ratio-gradient G_n/(c*n^beta) tends to 1+rho-2*rho*min(1,2^(1-beta)). Stationarity at rho>1 therefore requires beta=log_2(4*rho/(1+rho)). Nonzero coefficient gives a strict finite-coordinate ascent direction. Remaining/limits: One-sided full support and stated regular tail required; no existence or sufficiency claim. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R3-B2-III-E2",
+    "source_record_id": "B2-RETURN-R3-B2-III-E2",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R3-B2-III-E2: Prescribed-tail supremum equality",
+    "scope": "For every fixed beta,c>0, the supremum of rho over full N_0 laws with -log p_n~c*n^beta equals the unrestricted finite-entropy discrete-real supremum C_*. Finite rational nonnegative-integer laws have the same supremum. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  },
+  {
+    "id": "b2-returns:B2-RETURN-R3-B2-III-E3",
+    "source_record_id": "B2-RETURN-R3-B2-III-E3",
+    "programmes": [
+      "B2"
+    ],
+    "question_numbers": [
+      4660
+    ],
+    "status": "partial",
+    "exact_question_closed": false,
+    "label": "B2-RETURN-R3-B2-III-E3: Gaussian-tail nonattainment",
+    "scope": "Every fixed one-sided full-support Gaussian-log-tail class (-log p_n~c*n^2) has supremum C_* but no maximizer. An attainer with any regular exponent beta must satisfy log_2(4*L/(1+L))<beta<=log_2(8/3), where L=1.4051810329. Remaining/limits: Does not rule out arbitrary irregular or sparse extremizers; numerical bounds unchanged. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. The upper bound two is unchanged; Q4659 is not settled.",
+    "evidence_labels": [
+      "submitted-written-proof",
+      "internal-intake-mathematical-review",
+      "replayed-exact-controls"
+    ],
+    "proof": "solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex",
+    "review": "solutions/b2-returned-rounds-2026-10-13/README.md",
+    "resolution_origin": null
+  }
+]

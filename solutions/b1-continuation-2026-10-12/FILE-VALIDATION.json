@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "catalog_records": 28601,
+  "catalog_members": 30,
+  "targets": 34,
+  "new_routes": 9,
+  "new_exact_catalog_closures": [
+    "Q2777"
+  ],
+  "new_partial_scopes": [
+    "Q2778",
+    "Q2978",
+    "Q2980"
+  ],
+  "prior_ledger_topics_preserved": 226,
+  "prior_ledger_decisions_preserved": 409,
+  "prior_compiled_results_preserved": 388,
+  "all_targets_terminal_under_rule": true,
+  "unresolved_questions_not_disproved": true,
+  "all_original_corpus_fields_preserved": true,
+  "local_links_checked": 91,
+  "retained_agent": "/root/b14_local_optima",
+  "public_publication": "none"
+}

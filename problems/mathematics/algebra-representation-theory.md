@@ -1,6 +1,6 @@
 # Algebra & Representation Theory
 
-424 problems: 407 open, 10 open, partial results, 3 solved here: proved, 4 solved here: disproved.
+438 problems: 417 open, 14 open, partial results, 3 solved here: proved, 4 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -158,7 +158,7 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q2117"></a>[Q2117](algebra-representation-theory-part-1.md#q2117) | Cubic monomial sum-freedom | Open |
 | <a id="q2201"></a>[Q2201](algebra-representation-theory-part-1.md#q2201) | Higher-dimensional Wilf inequality | Open |
 | <a id="q2202"></a>[Q2202](algebra-representation-theory-part-1.md#q2202) | Average torsion in cubic ray class groups | Open |
-| <a id="q2203"></a>[Q2203](algebra-representation-theory-part-1.md#q2203) | Uniform color bounds for linear equations | Open |
+| <a id="q2203"></a>[Q2203](algebra-representation-theory-part-1.md#q2203) | Uniform color bounds for linear equations | Open, partial results |
 | <a id="q2204"></a>[Q2204](algebra-representation-theory-part-1.md#q2204) | Pivotal structures on fusion categories | Open |
 | <a id="q2205"></a>[Q2205](algebra-representation-theory-part-1.md#q2205) | Categorical dimension divisibility | Open |
 | <a id="q2206"></a>[Q2206](algebra-representation-theory-part-1.md#q2206) | Fibonacci lower recurrence for semigroups | Open |
@@ -167,11 +167,11 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q2209"></a>[Q2209](algebra-representation-theory-part-1.md#q2209) | Arithmetic pseudo-Frobenius determinantal criterion | Open |
 | <a id="q2210"></a>[Q2210](algebra-representation-theory-part-1.md#q2210) | Realizing all finite factorization-length sets | Open, partial results |
 | <a id="q2211"></a>[Q2211](algebra-representation-theory-part-1.md#q2211) | Reconstructing finite semigroups from subsets | Open |
-| <a id="q2212"></a>[Q2212](algebra-representation-theory-part-1.md#q2212) | Unimodality of indecomposable subset counts | Open |
+| <a id="q2212"></a>[Q2212](algebra-representation-theory-part-1.md#q2212) | Unimodality of indecomposable subset counts | Open, partial results |
 | <a id="q2213"></a>[Q2213](algebra-representation-theory-part-1.md#q2213) | Prescribed product-one subsequence threshold | Open, partial results |
 | <a id="q2214"></a>[Q2214](algebra-representation-theory-part-1.md#q2214) | Linear images of multilinear matrix polynomials | Open |
 | <a id="q2215"></a>[Q2215](algebra-representation-theory-part-1.md#q2215) | Additive irreducibility near the squares | Open, partial results |
-| <a id="q2216"></a>[Q2216](algebra-representation-theory-part-1.md#q2216) | Uniform bipartite square-tuple bound | Open |
+| <a id="q2216"></a>[Q2216](algebra-representation-theory-part-1.md#q2216) | Uniform bipartite square-tuple bound | Open, partial results |
 | <a id="q2217"></a>[Q2217](algebra-representation-theory-part-1.md#q2217) | Failure of almost atomicity in rank one | Open, partial results |
 | <a id="q2301"></a>[Q2301](algebra-representation-theory-part-1.md#q2301) | Persistent simple self-extensions | Open |
 | <a id="q2302"></a>[Q2302](algebra-representation-theory-part-1.md#q2302) | Local splitting forces complex multiplication | Open |
@@ -259,19 +259,19 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q2908"></a>[Q2908](algebra-representation-theory-part-1.md#q2908) | Defect normalizers retain rationality level | Open |
 | <a id="q2909"></a>[Q2909](algebra-representation-theory-part-1.md#q2909) | Sylow restrictions generate the full p-cyclotomic field | Open |
 | <a id="q2910"></a>[Q2910](algebra-representation-theory-part-1.md#q2910) | Degree-monotone block correspondences | Open |
-| <a id="q2911"></a>[Q2911](algebra-representation-theory-part-1.md#q2911) | Normal Sylow subgroups from degree-square sums | Open |
-| <a id="q2912"></a>[Q2912](algebra-representation-theory-part-1.md#q2912) | Representation dimension of an idempotent corner | Open |
-| <a id="q2913"></a>[Q2913](algebra-representation-theory-part-1.md#q2913) | Rationality level under Lusztig induction | Open |
-| <a id="q2914"></a>[Q2914](algebra-representation-theory-part-1.md#q2914) | Recovering derived equivalence from mirrors | Open |
-| <a id="q2915"></a>[Q2915](algebra-representation-theory-part-1.md#q2915) | Stable Morita equivalence of mirrors | Open |
-| <a id="q2916"></a>[Q2916](algebra-representation-theory-part-1.md#q2916) | Hochschild cohomology algebras of matrix centralizers | Open |
-| <a id="q2917"></a>[Q2917](algebra-representation-theory-part-1.md#q2917) | Stable equivalences preserve the number of nonprojective simples | Open |
-| <a id="q2918"></a>[Q2918](algebra-representation-theory-part-1.md#q2918) | Signed Cartan determinants under stable Morita equivalence | Open |
-| <a id="q2929"></a>[Q2929](algebra-representation-theory-part-1.md#q2929) | Profinite invariance of rational solvable filtrations | Open |
-| <a id="q2933"></a>[Q2933](algebra-representation-theory-part-1.md#q2933) | An infinite group of transitivity degree four | Open |
-| <a id="q3001"></a>[Q3001](algebra-representation-theory-part-1.md#q3001) | Unique shortest-path weights | Open |
-| <a id="q3002"></a>[Q3002](algebra-representation-theory-part-1.md#q3002) | Exact affine diamond exception | Open |
-| <a id="q3003"></a>[Q3003](algebra-representation-theory-part-1.md#q3003) | Finitely generated finite-generation ideal | Open |
+| <a id="q2911"></a>[Q2911](algebra-representation-theory-part-2.md#q2911) | Normal Sylow subgroups from degree-square sums | Open |
+| <a id="q2912"></a>[Q2912](algebra-representation-theory-part-2.md#q2912) | Representation dimension of an idempotent corner | Open |
+| <a id="q2913"></a>[Q2913](algebra-representation-theory-part-2.md#q2913) | Rationality level under Lusztig induction | Open |
+| <a id="q2914"></a>[Q2914](algebra-representation-theory-part-2.md#q2914) | Recovering derived equivalence from mirrors | Open |
+| <a id="q2915"></a>[Q2915](algebra-representation-theory-part-2.md#q2915) | Stable Morita equivalence of mirrors | Open |
+| <a id="q2916"></a>[Q2916](algebra-representation-theory-part-2.md#q2916) | Hochschild cohomology algebras of matrix centralizers | Open |
+| <a id="q2917"></a>[Q2917](algebra-representation-theory-part-2.md#q2917) | Stable equivalences preserve the number of nonprojective simples | Open |
+| <a id="q2918"></a>[Q2918](algebra-representation-theory-part-2.md#q2918) | Signed Cartan determinants under stable Morita equivalence | Open |
+| <a id="q2929"></a>[Q2929](algebra-representation-theory-part-2.md#q2929) | Profinite invariance of rational solvable filtrations | Open |
+| <a id="q2933"></a>[Q2933](algebra-representation-theory-part-2.md#q2933) | An infinite group of transitivity degree four | Open |
+| <a id="q3001"></a>[Q3001](algebra-representation-theory-part-2.md#q3001) | Unique shortest-path weights | Open |
+| <a id="q3002"></a>[Q3002](algebra-representation-theory-part-2.md#q3002) | Exact affine diamond exception | Open |
+| <a id="q3003"></a>[Q3003](algebra-representation-theory-part-2.md#q3003) | Finitely generated finite-generation ideal | Open |
 | <a id="q3004"></a>[Q3004](algebra-representation-theory-part-2.md#q3004) | Invariant finite-generation ideal beyond finite radicals | Open |
 | <a id="q3005"></a>[Q3005](algebra-representation-theory-part-2.md#q3005) | Infinitely many power-cograph projective groups | Open |
 | <a id="q3006"></a>[Q3006](algebra-representation-theory-part-2.md#q3006) | Infinitely many power-cograph Suzuki groups | Open |
@@ -368,7 +368,7 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q3837"></a>[Q3837](algebra-representation-theory-part-2.md#q3837) | Automorphic growth of virtually abelian groups | Open |
 | <a id="q3838"></a>[Q3838](algebra-representation-theory-part-2.md#q3838) | Automorphic growth of Thompson’s F | Open |
 | <a id="q3889"></a>[Q3889](algebra-representation-theory-part-2.md#q3889) | A general Engel bound from one multilinear identity | Open |
-| <a id="q3892"></a>[Q3892](algebra-representation-theory-part-2.md#q3892) | Koszul Roller Coaster algebras | Open |
+| <a id="q3892"></a>[Q3892](algebra-representation-theory-part-2.md#q3892) | Koszul Roller Coaster algebras | Open, partial results |
 | <a id="q3893"></a>[Q3893](algebra-representation-theory-part-2.md#q3893) | Whiskering forces Lefschetz failure | Solved here: proved |
 | <a id="q3894"></a>[Q3894](algebra-representation-theory-part-2.md#q3894) | Strong Lefschetz for unexpected reductions | Open |
 | <a id="q3895"></a>[Q3895](algebra-representation-theory-part-2.md#q3895) | A shorter normality test | Open |
@@ -432,3 +432,17 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q4634"></a>[Q4634](algebra-representation-theory-part-2.md#q4634) | Derived depth beyond Cohen–Macaulay rings | Open |
 | <a id="q4679"></a>[Q4679](algebra-representation-theory-part-2.md#q4679) | Blocks of symmetric-group centralizer algebras | Open |
 | <a id="q4696"></a>[Q4696](algebra-representation-theory-part-2.md#q4696) | Determine LinDim_F(PSL_n(q),Ω) for every prime power q, integer n≥4, integer 1&lt;k&lt;n−1 and field… | Open |
+| <a id="q4703"></a>[Q4703](algebra-representation-theory-part-2.md#q4703) | Virtual finite classifying spaces | Open |
+| <a id="q4704"></a>[Q4704](algebra-representation-theory-part-2.md#q4704) | Finite subgroups of RAAG outer automorphism groups | Open |
+| <a id="q4708"></a>[Q4708](algebra-representation-theory-part-2.md#q4708) | Must every Hopf\*-ideal I⊆J_N for which A_N/I is the polynomial Hopf\*-algebra of a compact matrix… | Open |
+| <a id="q4720"></a>[Q4720](algebra-representation-theory-part-2.md#q4720) | Alternating double covers | Open |
+| <a id="q4721"></a>[Q4721](algebra-representation-theory-part-2.md#q4721) | Source infinitude | Open |
+| <a id="q4722"></a>[Q4722](algebra-representation-theory-part-2.md#q4722) | Derived length | Open |
+| <a id="q4724"></a>[Q4724](algebra-representation-theory-part-2.md#q4724) | For every integer a≥2, are there infinitely many N with τ\_N=a? | Open |
+| <a id="q4733"></a>[Q4733](algebra-representation-theory-part-2.md#q4733) | Quaternionic super Brauer group | Open |
+| <a id="q4738"></a>[Q4738](algebra-representation-theory-part-2.md#q4738) | Infinitude of higher weak-commutativity groups | Open |
+| <a id="q4757"></a>[Q4757](algebra-representation-theory-part-2.md#q4757) | The flag-dimension bound for general linear groups | Open |
+| <a id="q4759"></a>[Q4759](algebra-representation-theory-part-2.md#q4759) | Completely prime ideals | Open |
+| <a id="q4760"></a>[Q4760](algebra-representation-theory-part-2.md#q4760) | Degree-zero Noetherianity | Open |
+| <a id="q4773"></a>[Q4773](algebra-representation-theory-part-2.md#q4773) | Must every smooth C admit a single compact generator? | Open |
+| <a id="q4783"></a>[Q4783](algebra-representation-theory-part-2.md#q4783) | Let G be an almost simple connected complex algebraic group of type D_m (m≥4) or E₆. Define h(G)… | Open |

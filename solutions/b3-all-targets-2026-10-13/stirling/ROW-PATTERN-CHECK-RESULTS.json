@@ -1,0 +1,13 @@
+{
+  "schema": "b3-row-pattern-controls-v1",
+  "date": "2026-10-13",
+  "passed": true,
+  "counts": {
+    "actual_operator_witnesses": 2,
+    "strict_normalized_LC_witnesses": 2,
+    "actual_curvature_drops": 2,
+    "fixed_excess_formula_entries": 480
+  },
+  "scope": "Exact route witnesses and finite formula controls; asymptotics rest on written proof.",
+  "source_sha256": "2db4a5b0060d8c7955d778efd6c15c7953ff6ec87265ef352b1e81a8b9d503de"
+}

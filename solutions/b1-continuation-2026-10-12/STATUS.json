@@ -1,0 +1,1652 @@
+{
+  "programme": "B1",
+  "scope": "30 exact catalog questions and four broader programme targets; original 12 closed auxiliary classifications preserved",
+  "stopping_rule": "Each target solved or five consecutive substantive failed solve attempts. Partial results do not reset the full-target counter. No service/software errors counted.",
+  "retained_agent": "/root/b14_local_optima",
+  "targets": [
+    {
+      "target": "Q246",
+      "statement_id": "b4cba42238e08ad101bc",
+      "text": "Does some predicate R⊆ℕ make (ℤ,<,+,R) NIP but non-distal? NIP means every formula has finite VC-dimension; distal has its standard model-theoretic meaning.",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "A nonautomatic very sparse candidate",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q246",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "The repeated-root candidate R={n2^n}",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q246",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Merge two sparse geometries into one predicate",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q246",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Import a dense-pair non-distal witness",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q246",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Derive strong honest definitions from NIP alone",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q246",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/collections-02eb49c8fa1342dd.txt.gz",
+      "evidence": [
+        "model-theory/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q1375",
+      "statement_id": "3c545d79b70573f46278",
+      "text": "For each fixed k≥1, what is the exact decision complexity of BA_p sentences with k quantifier alternations?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Boolean-game reduction",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Online alternating automaton",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Representation lower bound as a decision lower bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Iterate exponential rulers",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Polynomial numerical game bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-8ab70c73fdf607cd.txt.gz",
+      "root_review_accepted": true,
+      "evidence": [
+        "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+        "foundations/ROOT-DEFINABILITY-CHECK.json"
+      ]
+    },
+    {
+      "target": "Q1376",
+      "statement_id": "7017180285bacc39c17f",
+      "text": "Given regular L⊆Σ*, is it decidable whether [L] is definable by an existential BA_p formula?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Bound the generator parameters",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Bounded affine growth tests",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Finite syntactic-monoid images",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Existentially encode a deterministic run",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Forbidden regular sublanguage basis",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-8ab70c73fdf607cd.txt.gz",
+      "root_review_accepted": true,
+      "evidence": [
+        "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+        "foundations/ROOT-DEFINABILITY-CHECK.json"
+      ]
+    },
+    {
+      "target": "Q1377",
+      "statement_id": "f8506c29d8d1507a5f50",
+      "text": "Is BA_k finitely axiomatizable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "finite valuation and order core",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "finite digit Boolean algebra",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "universal bounded-formula evaluator",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "incompleteness through arithmetic coding",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "elementary proof-search bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1377-ATTEMPTS.md#a5"
+        }
+      ],
+      "source": "texts/papers/collections-f70a421dfda29eee.txt.gz",
+      "evidence": [
+        "foundations/Q1377-ATTEMPTS.md",
+        "foundations/Q1377-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q1378",
+      "statement_id": "d1962d78132eb0c2aaac",
+      "text": "Does BA_k have an expansion by finitely many definable functions or predicates whose theory eliminates quantifiers?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "universal automata-recognition predicate",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "finite residues and quotient functions",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "existentially universal sparse K predicate",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "strict alternation hierarchy",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "aperiodicity under function substitution",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1378-ATTEMPTS.md#a5"
+        }
+      ],
+      "source": "texts/papers/collections-f70a421dfda29eee.txt.gz",
+      "evidence": [
+        "foundations/Q1378-ATTEMPTS.md",
+        "foundations/Q1378-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q1481",
+      "statement_id": "8d48b234d27dbcb91ed7",
+      "text": "Is it decidable, given finite automata for regular L₁,L₂⊆Σ*, whether [L₁] is existentially definable in (N,0,1,+,[L₂],≤)?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Promote the weakest nonperiodic predicate to existential universality",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Apply the absolute BA growth obstruction",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Pack a universal ternary predicate into one unary word",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Extend the positive language algebra by one atom",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Use self-embedding preservation",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-8ab70c73fdf607cd.txt.gz",
+      "root_review_accepted": true,
+      "evidence": [
+        "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+        "foundations/ROOT-DEFINABILITY-CHECK.json"
+      ]
+    },
+    {
+      "target": "Q1979",
+      "statement_id": "11f085365348dc8d4680",
+      "text": "For every definable S in every model of Presburger arithmetic, is π_S(t) asymptotic to a polynomial?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "divisible-hull transfer",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "quotient-and-fibre induction",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "dimension/rank arrangement lower bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "VC upper bounds force a pure power",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "standard-instance elementary transfer",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/Q1979-ATTEMPTS.md#a5"
+        }
+      ],
+      "source": "texts/papers/collections-5af6f28e9439e877.txt.gz",
+      "evidence": [
+        "foundations/Q1979-ATTEMPTS.md",
+        "foundations/Q1979-CHECK-RESULTS.json"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q2168",
+      "statement_id": "70b5ed041cc98b2932f1",
+      "text": "Does a Presburger group P with SC(P)=Σ4 exist?",
+      "status": "retained_solution",
+      "consecutive_failures": 0,
+      "attempts": [
+        {
+          "attempt": 1,
+          "outcome": "retained_proof_audited",
+          "evidence": "model-theory/ATTEMPTS.md"
+        }
+      ],
+      "source": "texts/papers/collections-46756f0769d2aff6.txt.gz",
+      "evidence": [
+        "model-theory/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2169",
+      "statement_id": "c2fc98c1e0a3bc2fd1d8",
+      "text": "For every nonzero countable divisible ordered abelian group V, is DgSp(V)=DgSp(V×Z), with lexicographic order and distinguished 1=(0,1)?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Enumerate the integer subgroup and form the quotient",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2169",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Replace one least-class anchor by finitely many anchors",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2169",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Use all positive elements as a computable anchor sequence",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2169",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Rationalize the computable group instead of quotienting",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2169",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Approximate the quotient by merging labels",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2169",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-46756f0769d2aff6.txt.gz",
+      "evidence": [
+        "model-theory/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2170",
+      "statement_id": "86f031cac9140549efc3",
+      "text": "Does every countable non-automorphically-trivial structure have the same degree spectrum as some Presburger group?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Encode an arbitrary graph by commutators of generators",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2170",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Encode edges in a named ordered Q-basis",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2170",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Use a single Archimedean cut as a universal code",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2170",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Separate spectra by upward closure",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2170",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Force a computable copy by Presburger quantifier elimination",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q2170",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-46756f0769d2aff6.txt.gz",
+      "evidence": [
+        "model-theory/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2777",
+      "statement_id": "672a90c2a14e9a88363f",
+      "text": "For every GP² sentence φ, is {|M|: M is finite and M⊨φ} semilinear?",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [
+        {
+          "attempt": 1,
+          "outcome": "solution",
+          "evidence": "gp2/Q2777-RESULT.md"
+        }
+      ],
+      "source": "texts/papers/collections-2f5eb9092358afd8.txt.gz",
+      "evidence": [
+        "gp2/Q2777-RESULT.md"
+      ]
+    },
+    {
+      "target": "Q2778",
+      "statement_id": "751e0d4f3c49d9c5e284",
+      "text": "Is finite satisfiability decidable for GP² sentences conjoined with global linear integer constraints among cardinalities of unary GP²-definable sets?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Internalize linear constraints by token copies and injections",
+          "outcome": "full_target_failure",
+          "evidence": "gp2/Q2778-ATTEMPTS.md",
+          "section": "Q2778",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Augment the pseudomodel linear system with exact vertex counts",
+          "outcome": "full_target_failure",
+          "evidence": "gp2/Q2778-ATTEMPTS.md",
+          "section": "Q2778",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Transfer the earlier GP²→C² offset/period reduction",
+          "outcome": "full_target_failure",
+          "evidence": "gp2/Q2778-ATTEMPTS.md",
+          "section": "Q2778",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Homogenize every affine constraint with a scale variable",
+          "outcome": "full_target_failure",
+          "evidence": "gp2/Q2778-ATTEMPTS.md",
+          "section": "Q2778",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Extend Q2777 by learning finitely many component-vector generators",
+          "outcome": "full_target_failure",
+          "evidence": "gp2/Q2778-ATTEMPTS.md",
+          "section": "Q2778",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-2f5eb9092358afd8.txt.gz",
+      "evidence": [
+        "gp2/Q2778-ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2978",
+      "statement_id": "d04eb071fa46d54cc0e6",
+      "text": "For every such a,b, is the ∃*∀* fragment of Th(Z;0,1,<,+,P_a,P_b) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Turn that observation into a decision by witness bounds",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2978",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Eliminate the universal block as complement intervals between\n   powers",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2978",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Use one synchronous base for both predicates",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2978",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Lift the existential Baker-inequality algorithm uniformly",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2978",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Reduce the known three-block undecidable fragment",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2978",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-9f4bae832e047770.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2979",
+      "statement_id": "3e229e6138dab1fba44e",
+      "text": "For every such a,b, is the existential theory of (N;0,1,<,+,x↦a^x,x↦b^x) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Flatten function terms into power predicates",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2979",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Build an automatic exponent graph",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2979",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Use logarithms to linearize the exponent equations",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2979",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Infer a negative decision from transcendental digit sampling",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2979",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Simulate multiplication via exponent addition",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2979",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-9f4bae832e047770.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2980",
+      "statement_id": "487f0ebd2e08956ba285",
+      "text": "Is Th(N;0,1,<,+,U) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Automatic recognition",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2980",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Apply a simple-root recurrence proof by limiting ratios",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2980",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Recover the index from consecutive U-elements",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2980",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Define multiplication from those gaps",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2980",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Sparse-set effective elimination",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2980",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-a31afab513f3c751.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2981",
+      "statement_id": "57fd55170bc3725ccdbc",
+      "text": "Is Th(N;0,1,<,+,P) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Finite automata",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2981",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Residue quantifier elimination",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2981",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Prime-tuples theorem as an oracle",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2981",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Finite search for all existential queries",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2981",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Undecidability through factorization",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2981",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-a31afab513f3c751.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2982",
+      "statement_id": "4583f6e6cfb4b22ad86c",
+      "text": "For every fixed integer r≥2, is Th(N;0,1,<,Q_r) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Transfer the additive undecidability construction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2982",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Decide every finite word using a power-free sieve",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2982",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Uniform recurrence of the characteristic word",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2982",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Finite local type implies global FO decision",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2982",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Add only successor and invoke an automatic presentation",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2982",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-a31afab513f3c751.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2990",
+      "statement_id": "53cc16701459118d7428",
+      "text": "For every fixed finite family F⊂Q[t] of integer-valued polynomials, is FO¹(Z;0,1,+,−,<,(≡_m)_{m≥2},(R_f)_{f∈F}) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "One-variable quantifier normalization",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2990",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Eliminate x from two positive image atoms",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2990",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Use polynomial dominance for a search bound",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2990",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Classify curves by genus",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2990",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Encode unrestricted Hilbert tenth undecidability",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2990",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-547ff4cb440d28aa.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2991",
+      "statement_id": "2e88f4521d58f909e796",
+      "text": "Is FO²(Z;0,1,+,−,<,(≡_m)_{m≥2},Z²) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Replace the square predicate by a square function",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2991",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Reuse variable names in a multiplication definition",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2991",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Apply the existential square-predicate undecidability proof",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2991",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Reduce each matrix to a planar algebraic curve",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2991",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Finite congruence types for square literals",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2991",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-547ff4cb440d28aa.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2992",
+      "statement_id": "0edace9d788331bda840",
+      "text": "Is SMT²(Z;0,1,+,−,Z³) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Reduce to independent one-variable cube tests",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2992",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Bound roots using positivity",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2992",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Decide by congruence obstruction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2992",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Exhaustive bounded root search",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2992",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Fiberwise elliptic methods",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2992",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-547ff4cb440d28aa.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q2993",
+      "statement_id": "7b65fd0d1e6650198be1",
+      "text": "Is the existential theory of (Z;<,+,P₂,P₃,P₅) decidable?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Repeated application of the two-base decision procedure",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2993",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Combine two predicates into one composite-base predicate",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2993",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Multidimensional Kronecker density",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2993",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Decide equality cases by S-unit equations",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2993",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Effective separation of all cancellation clusters",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ATTEMPTS.md",
+          "section": "Q2993",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-110da6a2f0bd83f3.txt.gz",
+      "evidence": [
+        "arithmetic/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3075",
+      "statement_id": "cb2ed947a2f4156da08e",
+      "text": "Is deciding whether an automatic graph has a finite regular colouring recursively enumerable complete?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Enumerate color certificates",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3075",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Reuse fixed-k hardness",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3075",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Encode reachability via color propagation along paths",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3075",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Bound the state size of a regular certificate",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3075",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Reduce colorability to bounded cliques",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3075",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/collections-b15e27ae19fb8a65.txt.gz",
+      "evidence": [
+        "graphs/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3076",
+      "statement_id": "ba1b643038c5962018c4",
+      "text": "Is deciding whether an automatic graph has any finite proper colouring Σ⁰₂-complete?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Compactness and finite restrictions",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3076",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Convert all proper colors into regular languages",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3076",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Lift fixed-palette hardness to a second quantifier",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3076",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Make machine-run components into expanding cliques",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3076",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Detect stabilization of finite-prefix chromatic numbers",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3076",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/collections-b15e27ae19fb8a65.txt.gz",
+      "evidence": [
+        "graphs/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3077",
+      "statement_id": "5a164518111d29c2fe47",
+      "text": "Is it decidable whether some m≥1 admits no edge-preserving map K_m→G for a given automatic directed graph G?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Test for an infinite clique",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3077",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Enumerate forbidden clique sizes",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3077",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Pump a clique tuple through the edge automaton",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3077",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Use a regular homogeneous-set witness",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3077",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Use finite coloring as the boundedness certificate",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3077",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/collections-b15e27ae19fb8a65.txt.gz",
+      "evidence": [
+        "graphs/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3079",
+      "statement_id": "2a3325afb092ab45c904",
+      "text": "For every 2-BVASS, source state q and fixed target configuration t, is {x∈N² : a run has all leaves (q,x) and root t} semilinear?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Reverse a forward 2-BVASS",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3079",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Prove the entire relation semilinear first",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3079",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Store the input as frozen extra counters",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3079",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Union the semilinear solutions for each tree shape",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3079",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Apply uniform cone acceleration backward",
+          "outcome": "full_target_failure",
+          "evidence": "graphs/ATTEMPTS.md",
+          "section": "Q3079",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-495c6745eb8e9b7e.txt.gz",
+      "evidence": [
+        "graphs/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3206",
+      "statement_id": "4a597cb2bda13a505090",
+      "text": "Is (A_n−κn)_{n≥1} always τ-automatic?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Retain one A per aligned interval",
+          "outcome": "full_target_failure",
+          "evidence": "anti-recurrence/ATTEMPTS.md",
+          "section": "Q3206",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Residue-only substitution",
+          "outcome": "full_target_failure",
+          "evidence": "anti-recurrence/ATTEMPTS.md",
+          "section": "Q3206",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Finite-kernel inference",
+          "outcome": "full_target_failure",
+          "evidence": "anti-recurrence/ATTEMPTS.md",
+          "section": "Q3206",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Bounded defects imply automaticity",
+          "outcome": "full_target_failure",
+          "evidence": "anti-recurrence/ATTEMPTS.md",
+          "section": "Q3206",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Enlarge the state by neighboring context",
+          "outcome": "full_target_failure",
+          "evidence": "anti-recurrence/ATTEMPTS.md",
+          "section": "Q3206",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-643f5569923aac95.txt.gz",
+      "evidence": [
+        "anti-recurrence/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3268",
+      "statement_id": "99431246db4b91f9b387",
+      "text": "If C admits a distal expansion, must M(C) admit one?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Transport the distal graph expansion through interpretation",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3268",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Name all elements or a basis to eliminate stability",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3268",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Add the full support relation on a named vector basis",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3268",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Add only a leading-support valuation",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3268",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Disprove expandability using infinite burden",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3268",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-afed6bfad0449779.txt.gz",
+      "evidence": [
+        "model-theory/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3482",
+      "statement_id": "c831b66a197f2e933d90",
+      "text": "Do a Turing degree d<0′ and a computable linear order exist that is d-computably categorical but not computably categorical?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Start with order type ω as a low-degree example",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3482",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Relativize the finite-successivity characterization",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3482",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Encode a chosen incomplete c.e. degree in finite blocks",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3482",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Transfer the Boolean-algebra theorem",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3482",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Priority construction against computable isomorphisms",
+          "outcome": "full_target_failure",
+          "evidence": "model-theory/ATTEMPTS.md",
+          "section": "Q3482",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/collections-1aafb256fe8ec272.txt.gz",
+      "evidence": [
+        "model-theory/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3668",
+      "statement_id": "faf43247dd09deebb9db",
+      "text": "Are cyclic arithmetic and Peano arithmetic exponentially separated in shortest proof size? Precisely, do ε>0 and arbitrarily large cyclic proofs π of sentences φ exist such that every PA proof of φ has size ≥2^{|π|^ε}? Use the ordinary sequent calculi with cut and symbol-count size. Cyclic arithmetic replaces induction by finite directed proof graphs over Robinson arithmetic; every infinite unfolded branch must admit, on some tail, a term trace respecting substitutions, nonincreasing at each step and strictly decreasing infinitely often through antecedent inequalities.",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Automaton determinization witness",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3668",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Unfolding shared diamonds",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3668",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Hard propositional family embedded in arithmetic",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3668",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Finite consistency instances",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3668",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Counting small cyclic proofs",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3668",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/collections-5b517b8c700cac7d.txt.gz",
+      "evidence": [
+        "proof-complexity/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "Q3824",
+      "statement_id": "35be2969f80ced473fbc",
+      "text": "Does a polynomial p bound the number of lines in some Cutting Planes refutation of every F by p(|F|), with |F| its CNF encoding length?",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Sum the vertex parity equations",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3824",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Balanced branching and merging",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3824",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Absorb the loss into the CNF length",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3824",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Turn depth lower bounds into a negative answer",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3824",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Leaf and separator elimination",
+          "outcome": "full_target_failure",
+          "evidence": "proof-complexity/ATTEMPTS.md",
+          "section": "Q3824",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "source": "texts/papers/collections-f62ec84ea0debfbf.txt.gz",
+      "evidence": [
+        "proof-complexity/ATTEMPTS.md"
+      ]
+    },
+    {
+      "target": "A-PROOF-LANE",
+      "text": "Build an executable all-width automatic-proof lane for addition modulo a power of two, XOR and fixed circuits; identify legal encodings and obstructions.",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [
+        {
+          "attempt": 1,
+          "outcome": "solution",
+          "evidence": "automatic-proofs/RESULT.md"
+        }
+      ],
+      "evidence": [
+        "automatic-proofs/RESULT.md"
+      ]
+    },
+    {
+      "target": "A-TAIL",
+      "text": "Describe the full distribution of absolute cyclic/Walsh overlaps and quantify its tail (inverse Q4.2).",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Independent angle model",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/DISTRIBUTION.md",
+          "section": "A-TAIL",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Flat block law",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/DISTRIBUTION.md",
+          "section": "A-TAIL",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Central limit theorem for log coefficients",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/DISTRIBUTION.md",
+          "section": "A-TAIL",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Moment matching",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/DISTRIBUTION.md",
+          "section": "A-TAIL",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Transfer pressure",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/DISTRIBUTION.md",
+          "section": "A-TAIL",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "evidence": [
+        "fourier/DISTRIBUTION.md"
+      ]
+    },
+    {
+      "target": "A-ONES",
+      "text": "Find the exact nonzero-frequency all-ones Walsh-column maximum as a function of width (inverse Q4.3).",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [
+        {
+          "attempt": 1,
+          "outcome": "solution",
+          "evidence": "fourier/ALL-ONES.md"
+        }
+      ],
+      "evidence": [
+        "fourier/ALL-ONES.md"
+      ]
+    },
+    {
+      "target": "A-ENTROPY",
+      "text": "Find the closed-form sharp quotiented entropy constants B_t and certify their minima (inverse Q25.6).",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Character extremizer",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/ENTROPY.md",
+          "section": "A-ENTROPY",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Extend the two-character formula",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/ENTROPY.md",
+          "section": "A-ENTROPY",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Saturate the coherence inequality",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/ENTROPY.md",
+          "section": "A-ENTROPY",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Induct on blocks",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/ENTROPY.md",
+          "section": "A-ENTROPY",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Numerical global certification",
+          "outcome": "full_target_failure",
+          "evidence": "fourier/ENTROPY.md",
+          "section": "A-ENTROPY",
+          "review": "ROOT-REVIEW.md"
+        }
+      ],
+      "evidence": [
+        "fourier/ENTROPY.md"
+      ]
+    }
+  ],
+  "overall_state": "complete_under_stopping_rule",
+  "counts": {
+    "active": 0,
+    "failure_limit": 30,
+    "retained_solution": 1,
+    "solved_locally": 3
+  },
+  "partial_results_do_not_reset_counters": true
+}

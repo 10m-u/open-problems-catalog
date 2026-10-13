@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "n2_identity_coefficient_controls": 44,
+  "crystal_witness": {
+    "missing_indices": [
+      2,
+      2
+    ],
+    "colors": [
+      1,
+      1
+    ],
+    "copies": [
+      1,
+      1
+    ],
+    "new_colors": [
+      1,
+      2
+    ],
+    "new_missing_indices": [
+      2,
+      1
+    ]
+  },
+  "actual_n3_row2_schur_coefficients": {
+    "(2,)": 3,
+    "(1, 1)": 2
+  },
+  "independent_decorated_tableaux_dimension": 24,
+  "degree_three_generator_vectors": [
+    [
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      6,
+      10,
+      4
+    ],
+    [
+      2,
+      6,
+      4
+    ],
+    [
+      8,
+      16,
+      8
+    ]
+  ],
+  "degree_three_actual_target_vector": [
+    2,
+    5,
+    4
+  ],
+  "stable_n2_row3_character": {
+    "(3,)": 1,
+    "(2, 1)": 0,
+    "(1, 1, 1)": -2
+  },
+  "pieri_input_column_kernel": [
+    0,
+    0,
+    -1,
+    1,
+    2,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "actual_degree_six_column": [
+    2310,
+    5400,
+    5949,
+    4491,
+    2597,
+    4879,
+    1565,
+    975,
+    1071,
+    204,
+    6
+  ],
+  "exact_forward_pieri_controls": 77,
+  "frozen_tableau_signed_fibres": [
+    0,
+    1,
+    1,
+    -1,
+    0,
+    1
+  ],
+  "scope": "Exact signed extraction and decorated monomial controls; not a general cancellation-free coefficient rule."
+}

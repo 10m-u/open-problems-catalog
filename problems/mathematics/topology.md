@@ -1,6 +1,6 @@
 # Topology
 
-320 problems: 320 open.
+323 problems: 321 open, 2 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -231,8 +231,8 @@ Parts: [1](topology-part-1.md) · [2](topology-part-2.md)
 | <a id="q3525"></a>[Q3525](topology-part-1.md#q3525) | Motion planning for hard squares | Open |
 | <a id="q3624"></a>[Q3624](topology-part-1.md#q3624) | Prime-part equipartitions on codimension-variable sections | Open |
 | <a id="q3625"></a>[Q3625](topology-part-1.md#q3625) | Even-rank unordered fibrewise configuration cohomology | Open |
-| <a id="q3626"></a>[Q3626](topology-part-1.md#q3626) | Alexander-refinement support exchange | Open |
-| <a id="q3627"></a>[Q3627](topology-part-1.md#q3627) | Alexander-refinement coefficient log-concavity | Open |
+| <a id="q3626"></a>[Q3626](topology-part-1.md#q3626) | Alexander-refinement support exchange | Open, partial results |
+| <a id="q3627"></a>[Q3627](topology-part-1.md#q3627) | Alexander-refinement coefficient log-concavity | Open, partial results |
 | <a id="q3628"></a>[Q3628](topology-part-1.md#q3628) | Positive ribbon minimality | Open |
 | <a id="q3629"></a>[Q3629](topology-part-1.md#q3629) | Positive concordance uniqueness | Open |
 | <a id="q3630"></a>[Q3630](topology-part-1.md#q3630) | Sharp dimensions for regular maps | Open |
@@ -275,9 +275,9 @@ Parts: [1](topology-part-1.md) · [2](topology-part-2.md)
 | <a id="q4043"></a>[Q4043](topology-part-1.md#q4043) | Is (2,2,4) smoothly 6-admissible? | Open |
 | <a id="q4049"></a>[Q4049](topology-part-1.md#q4049) | If K is shifted, or flag with chordal 1-skeleton, does… | Open |
 | <a id="q4050"></a>[Q4050](topology-part-1.md#q4050) | What is the smallest crossing number among nontrivial 3-knots, meaning those not ambiently… | Open |
-| <a id="q4062"></a>[Q4062](topology-part-1.md#q4062) | Is b_i(φ)=0 for every i≠n and every φ, with b_n extending to a finite seminorm on H¹(M;R), so… | Open |
-| <a id="q4065"></a>[Q4065](topology-part-1.md#q4065) | Characterize the ideal points x for which A extends tautologically: there exist g,h∈π₁(M) such… | Open |
-| <a id="q4072"></a>[Q4072](topology-part-1.md#q4072) | If the respective negative and positive components of two bi-contact structures are isotopic,… | Open |
+| <a id="q4062"></a>[Q4062](topology-part-2.md#q4062) | Is b_i(φ)=0 for every i≠n and every φ, with b_n extending to a finite seminorm on H¹(M;R), so… | Open |
+| <a id="q4065"></a>[Q4065](topology-part-2.md#q4065) | Characterize the ideal points x for which A extends tautologically: there exist g,h∈π₁(M) such… | Open |
+| <a id="q4072"></a>[Q4072](topology-part-2.md#q4072) | If the respective negative and positive components of two bi-contact structures are isotopic,… | Open |
 | <a id="q4073"></a>[Q4073](topology-part-2.md#q4073) | Does some bi-contact structure have ξ₋ tight and ξ₊ overtwisted? | Open |
 | <a id="q4174"></a>[Q4174](topology-part-2.md#q4174) | Does 2g_f(K)≤td(K) always hold? | Open |
 | <a id="q4175"></a>[Q4175](topology-part-2.md#q4175) | Does ceil(σ\_t(V_K)/2)≤td(K) always hold? | Open |
@@ -328,3 +328,6 @@ Parts: [1](topology-part-1.md) · [2](topology-part-2.md)
 | <a id="q4675"></a>[Q4675](topology-part-2.md#q4675) | Compactness versus finiteness for categorical spectra | Open |
 | <a id="q4693"></a>[Q4693](topology-part-2.md#q4693) | Weak topological rigidity of SL₂-quotients | Open |
 | <a id="q4697"></a>[Q4697](topology-part-2.md#q4697) | The undirected discrete homotopy hypothesis | Open |
+| <a id="q4715"></a>[Q4715](topology-part-2.md#q4715) | Torsion primes for complex commuting varieties | Open |
+| <a id="q4792"></a>[Q4792](topology-part-2.md#q4792) | For which S does T(S) admit a compatible metric invariant under MCG(S)=Homeo⁺(S)/isotopy, acting… | Open |
+| <a id="q4794"></a>[Q4794](topology-part-2.md#q4794) | Does every object of Mack(C_p) admit an eventually 4-periodic projective resolution, with its… | Open |

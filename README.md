@@ -1,21 +1,30 @@
 # Open problems from doctoral theses and recent papers
 
-A catalog of **4687 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
+A catalog of **4786 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
 papers. Each comes with its source, its exact location in that source, a dated literature check, and every result
 obtained on it. Problems already solved elsewhere are left out.
 
+The October 13 update includes Collection 48 (Q4701–4800) and the recent
+[B1](solutions/b1-continuation-2026-10-12/README.md),
+[B2](solutions/b2-continuation-2026-10-12/README.md),
+[B3](solutions/b3-all-targets-2026-10-13/README.md) and
+[B14](solutions/b14-second-round-2026-10-12/README.md) research packets, including
+failed attempts. The [three external B2 continuations](solutions/b2-returned-rounds-2026-10-13/README.md)
+add 18 scoped results while Q4296 and Q4660 remain partial. All 104 recent result
+records are indexed in [data/research-results.json](data/research-results.json).
+
 | | Count |
 |---|---:|
-| Problems in the catalog | 4687 |
-| Open | 4528 |
-| Open, with partial results here | 99 |
-| Solved here | 60 (43 proved, 17 disproved) |
-| Excluded as solved elsewhere | 13 |
+| Problems in the catalog | 4786 |
+| Open | 4587 |
+| Open, with partial results here | 134 |
+| Solved here | 65 (46 proved, 19 disproved) |
+| Excluded as solved elsewhere | 14 |
 | Automatically extracted thesis statements (unreviewed) | 10001 |
 
 ## Where to start
 
-- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q4700)
+- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q4800)
   and an anchor, for example `problems/mathematics/combinatorics-graph-theory.md#q123`.
 - **[Index by number](problems/INDEX.md)**: every problem, its subject and status, in blocks of 500.
 - **[Solutions](solutions/README.md)**: proofs, counterexamples, partial results, research reports, scripts and
@@ -57,7 +66,7 @@ mean an independently verified theorem. Reports of errors are welcome.
 
 ## What was excluded
 
-**13 numbered problems are excluded** ([list](problems/EXCLUDED.md)), for one of these reasons:
+**14 numbered problems are excluded** ([list](problems/EXCLUDED.md)), for one of these reasons:
 - the problem is resolved in the published literature;
 - a resolution is claimed in [openai/math](https://github.com/openai/math);
 - a recent preprint reports a closure;
@@ -74,4 +83,4 @@ the public domain under [CC0 1.0](LICENSE). The problem statements are quoted or
 cited theses and papers; their wording remains with those authors and is included for identification and
 reference. CC0 does not extend to it.
 
-Snapshot date: 2026-10-12.
+Snapshot date: 2026-10-13.

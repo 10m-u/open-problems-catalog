@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-12",
+  "input_archive": "B14-complete-handoff-2026-10-12.zip",
+  "input_archive_sha256": "8b1155feb74ec60f77e8c9b61a119a48fe8aeff06966edd33047766ce06bff50",
+  "original_programme": {
+    "filename": "B14 - Traveling Salesman Research Programme - 2026-10-12.md",
+    "bytes": 25001,
+    "sha256": "ec708a189c4891796b97e2141e869c1a4394149857dbc080edb844e432c932b2"
+  },
+  "verbatim_predecessor_copies": [
+    {
+      "archive_member": "solutions/b14-second-round-2026-10-12/generating-graph/RESULT.md",
+      "copied_to": "sources/PREDECESSOR-1TREE-OBSTRUCTION.md",
+      "bytes": 8362,
+      "sha256": "e77fd52eb6920febaa0690a8f156dc5c5bdc1c7024f5c5392969cf832dd2a277"
+    },
+    {
+      "archive_member": "solutions/b14-second-round-2026-10-12/initialization/RESULT.md",
+      "copied_to": "sources/PREDECESSOR-TREE-DESCENT.md",
+      "bytes": 12377,
+      "sha256": "88e4d732638b2e81e14109177fc73f1d62b57c107b533768fbcadc245f06589e"
+    },
+    {
+      "archive_member": "solutions/b14-second-round-2026-10-12/residual-search/RESULT.md",
+      "copied_to": "sources/PREDECESSOR-STATE-COMPRESSION.md",
+      "bytes": 4746,
+      "sha256": "b949e908eac7a36ebb72546904a527bef31eec29bca4c3e462cd26d41a53ca58"
+    }
+  ],
+  "note": "New proofs and code were created in this continuation. Original archive and programme were read, not modified. Copied predecessor notes retain their original relative links."
+}

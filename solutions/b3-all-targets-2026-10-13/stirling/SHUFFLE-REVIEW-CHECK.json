@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "all_horizontal_strips_through_n": 8,
+  "strips": 434,
+  "direct_tuple_polynomials": 1301,
+  "endpoint_controls": 734,
+  "selected_tuple_modes": [
+    [
+      4,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  "actual_lc_and_symmetry_obstruction": [
+    1,
+    2,
+    1,
+    1,
+    1
+  ],
+  "fresh_three_row_direct_tuple_strips": 20,
+  "fresh_three_row_direct_tuple_intermediate_polynomials": 32,
+  "checker_sha256": "7b36215f551edae903d102204da79080c6cf210a38401e0d9b4338e84f19fdf8",
+  "scope": "Independent direct tuples/deleted-column strip test versus root recursion. Bounded validation, not an additional solve attempt."
+}

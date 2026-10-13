@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "new_records": 18,
+  "new_exact_catalog_closures": 0,
+  "previous_compiled_records_preserved": 462,
+  "compiled_records": 480,
+  "previous_ledger_decisions_preserved": 439,
+  "previous_topics_preserved": 252,
+  "refined_partial_topics": [
+    "b2-continuation-q4296",
+    "b2-continuation-q4660"
+  ],
+  "full_prior_topic_versions_preserved": true,
+  "original_corpus_source_records_preserved": 28601,
+  "original_submission_hashes_preserved": true,
+  "prior_stopping_statuses_and_failed_attempts_unchanged": true
+}

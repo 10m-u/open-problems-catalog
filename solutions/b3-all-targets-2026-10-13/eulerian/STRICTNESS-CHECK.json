@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "nonunit_vectors_checked": 3905,
+  "exact_prefix_gcd_and_root_counts": 3905,
+  "literal_definition_controls": 155,
+  "weighted_summation_by_parts_identities": 3900,
+  "sharp_length_constructions": 49,
+  "unit_separator_repeated_root_control": true,
+  "scope": "Exact bounded controls of the written all-size proof; no full coloured Q1262 closure."
+}

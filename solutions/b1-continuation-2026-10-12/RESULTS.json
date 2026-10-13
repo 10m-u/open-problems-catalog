@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-12",
+  "records": [
+    {
+      "id": "B1-CONTINUATION-Q2777",
+      "title": "Finite total-size spectra of GP² are semilinear",
+      "status": "proved",
+      "relationship": "exact-catalog-result",
+      "targets": [
+        {
+          "q": 2777,
+          "stable_statement_id": "672a90c2a14e9a88363f"
+        }
+      ],
+      "exact_question_closed": true,
+      "statement": "For every GP² sentence in the local positive binary-guard syntax, finite models split into finitely many closed-subformula truth profiles. Each profile is closed under disjoint union, so its positive size set is additive and is a finite union of arithmetic progressions. This proves ordinary one-dimensional semilinearity, without an effective construction or a multivariate/global-cardinality conclusion. Independently reviewed internally; finite checks support the proof. No novelty or external-review claim.",
+      "remaining": "No effective spectrum representation or novelty claim.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/gp2/Q2777-RESULT.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "main-thread-proof-and-scope-review",
+        "independent-internal-review",
+        "exact-finite-semantic-controls"
+      ],
+      "ledger_topic": "b1-continuation-q2777"
+    },
+    {
+      "id": "B1-CONTINUATION-Q2778",
+      "title": "Decidable homogeneous globals; arbitrary affine globals unresolved",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2778,
+          "stable_statement_id": "751e0d4f3c49d9c5e284"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Finite satisfiability is decidable for GP² conjoined with homogeneous integer linear comparisons of unary definable cardinalities, and with one-sided L>=k for k>=0 (equivalently L<=k for k<=0). Relativized token ownership, injections, bijections and local surplus centers reduce these cases to ordinary GP². Fixed affine equalities and the full catalog question remain unresolved after five distinct failed routes. This is a restricted theorem, not decidability or undecidability of Q2778.",
+      "remaining": "The full target remains unresolved; five-failure limit reached.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/gp2/Q2778-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "main-thread-proof-and-scope-review",
+        "independent-internal-review",
+        "exact-finite-semantic-controls"
+      ],
+      "ledger_topic": "b1-continuation-q2778"
+    },
+    {
+      "id": "B1-CONTINUATION-Q2978",
+      "title": "Two-block two-power truth is computably enumerable",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2978,
+          "stable_statement_id": "d04eb071fa46d54cc0e6"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every fixed source-admissible pair of power bases, truth in the existential-universal predicate fragment is uniformly computably enumerable: enumerate outer integer tuples and decide the existential complement of each instantiated universal block with the two-base existential decision theorem. No effective outer-witness bound or terminating negative test is supplied. Full decidability remains unresolved.",
+      "remaining": "The full target remains unresolved; five-failure limit reached.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "main-thread-proof-and-scope-review"
+      ],
+      "ledger_topic": "b1-continuation-q2978"
+    },
+    {
+      "id": "B1-CONTINUATION-Q2980",
+      "title": "The predicate {n 2^n} is not binary automatic",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2980,
+          "stable_statement_id": "487f0ebd2e08956ba285"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Intersecting U={n 2^n} with powers of two gives exactly {2^(2^k+k):k>=0}. Its binary zero-run lengths have unbounded gaps and are not ultimately periodic, contradicting unary regularity. This obstructs a synchronous binary-automata method; it does not settle the first-order theory with U.",
+      "remaining": "The full target remains unresolved; five-failure limit reached.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "main-thread-proof-and-scope-review"
+      ],
+      "ledger_topic": "b1-continuation-q2980"
+    },
+    {
+      "id": "B1-CONTINUATION-ALL-ONES",
+      "title": "Exact all-ones Walsh column maximum",
+      "status": "proved",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For P=2^w, max over a!=0 of normalized |M[a,P-1]| equals the product over j=1..w of sin(pi[1/3+(-1)^(j-1)/(3*2^j)]), attained at a=(2^w+(-1)^(w-1))/3 and P-a. Its rate is K(sqrt(3)/2)^w(1+O(2^-w)) with finite positive K.",
+      "remaining": "No uniqueness or novelty claim. This settles the all-ones target only.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/fourier/ALL-ONES.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "direct-Fourier-and-dynamic-program-controls"
+      ]
+    },
+    {
+      "id": "B1-CONTINUATION-DISTRIBUTION",
+      "title": "Exact overlap law and fourth moment",
+      "status": "partial",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "The exact finite law is a zero atom plus explicit dyadic block mixtures of sine/cosine products. E|M|^4=(4/3)(3/8)^w; second/fourth-moment upper tail bounds and a Paley-Zygmund lower bound follow.",
+      "remaining": "A sharp large-width moving-threshold tail law is unresolved after five routes.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/fourier/DISTRIBUTION.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "all-entry-small-width-controls"
+      ]
+    },
+    {
+      "id": "B1-CONTINUATION-ENTROPY",
+      "title": "Quotiented entropy reduces to individual blocks",
+      "status": "partial",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "If b_m is the sharp entropy sum in block m, B_t(w)=min_{t<=m<w}b_m. Cross-block weights contribute 2H(lambda). Coherence lower bounds, character upper bounds and exact B_1=1 remain; saved complex-vector optimizations give candidate upper bounds for t=2..4.",
+      "remaining": "No monotonicity of b_m, global B_2 certificate or all-t closed form is asserted. Five full-ambition routes fail.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/fourier/ENTROPY.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "main-thread-review",
+        "independent-internal-review",
+        "uncertified-bounded-numerical-upper-bounds"
+      ]
+    },
+    {
+      "id": "B1-CONTINUATION-AUTOMATIC-LANE",
+      "title": "Executable all-width fixed-circuit proof lane",
+      "status": "proved",
+      "relationship": "reviewed-programme-local-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "A finite carry-state compiler decides equality at every positive word width for arbitrary fixed acyclic circuits of modular addition, XOR, AND, OR, NOT and zero. It emits complete transition certificates or counterexample words. Separate certificates prove the carry/AND criterion, low-bit identity and top-mask toggle.",
+      "remaining": "A focused circuit and identity lane, without a general FO compiler, Walnut replay or compiled proof-assistant formalization. Encoding impossibilities from the original return remain.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/automatic-proofs/RESULT.md",
+      "evidence_labels": [
+        "finite-state-construction",
+        "serialized-certificate-check",
+        "independent-internal-review",
+        "independent-integer-counterexample-check"
+      ]
+    },
+    {
+      "id": "B1-CONTINUATION-STOP-REGISTER",
+      "title": "Per-problem stopping record",
+      "status": "reviewed-unsuccessful-routes",
+      "relationship": "failed-route-evidence",
+      "targets": [
+        {
+          "q": 246,
+          "stable_statement_id": "b4cba42238e08ad101bc"
+        },
+        {
+          "q": 1375,
+          "stable_statement_id": "3c545d79b70573f46278"
+        },
+        {
+          "q": 1376,
+          "stable_statement_id": "7017180285bacc39c17f"
+        },
+        {
+          "q": 1377,
+          "stable_statement_id": "f8506c29d8d1507a5f50"
+        },
+        {
+          "q": 1378,
+          "stable_statement_id": "d1962d78132eb0c2aaac"
+        },
+        {
+          "q": 1481,
+          "stable_statement_id": "8d48b234d27dbcb91ed7"
+        },
+        {
+          "q": 1979,
+          "stable_statement_id": "11f085365348dc8d4680"
+        },
+        {
+          "q": 2169,
+          "stable_statement_id": "c2fc98c1e0a3bc2fd1d8"
+        },
+        {
+          "q": 2170,
+          "stable_statement_id": "86f031cac9140549efc3"
+        },
+        {
+          "q": 2778,
+          "stable_statement_id": "751e0d4f3c49d9c5e284"
+        },
+        {
+          "q": 2978,
+          "stable_statement_id": "d04eb071fa46d54cc0e6"
+        },
+        {
+          "q": 2979,
+          "stable_statement_id": "3e229e6138dab1fba44e"
+        },
+        {
+          "q": 2980,
+          "stable_statement_id": "487f0ebd2e08956ba285"
+        },
+        {
+          "q": 2981,
+          "stable_statement_id": "57fd55170bc3725ccdbc"
+        },
+        {
+          "q": 2982,
+          "stable_statement_id": "4583f6e6cfb4b22ad86c"
+        },
+        {
+          "q": 2990,
+          "stable_statement_id": "53cc16701459118d7428"
+        },
+        {
+          "q": 2991,
+          "stable_statement_id": "2e88f4521d58f909e796"
+        },
+        {
+          "q": 2992,
+          "stable_statement_id": "0edace9d788331bda840"
+        },
+        {
+          "q": 2993,
+          "stable_statement_id": "7b65fd0d1e6650198be1"
+        },
+        {
+          "q": 3075,
+          "stable_statement_id": "cb2ed947a2f4156da08e"
+        },
+        {
+          "q": 3076,
+          "stable_statement_id": "ba1b643038c5962018c4"
+        },
+        {
+          "q": 3077,
+          "stable_statement_id": "5a164518111d29c2fe47"
+        },
+        {
+          "q": 3079,
+          "stable_statement_id": "2a3325afb092ab45c904"
+        },
+        {
+          "q": 3206,
+          "stable_statement_id": "4a597cb2bda13a505090"
+        },
+        {
+          "q": 3268,
+          "stable_statement_id": "99431246db4b91f9b387"
+        },
+        {
+          "q": 3482,
+          "stable_statement_id": "c831b66a197f2e933d90"
+        },
+        {
+          "q": 3668,
+          "stable_statement_id": "faf43247dd09deebb9db"
+        },
+        {
+          "q": 3824,
+          "stable_statement_id": "35be2969f80ced473fbc"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved.",
+      "remaining": "A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing.",
+      "proof_location": "solutions/b1-continuation-2026-10-12/STATUS.json",
+      "evidence_labels": [
+        "written-constructions-and-missing-lemmas",
+        "main-thread-route-and-scope-review"
+      ]
+    }
+  ],
+  "review_policy": "Internal proof and scope reviews; no external peer-review or novelty claim"
+}

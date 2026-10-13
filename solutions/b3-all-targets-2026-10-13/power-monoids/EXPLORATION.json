@@ -1,0 +1,12 @@
+{
+  "status": "BOUNDED_COMPLETE_NO_UNIMODALITY_COUNTEREXAMPLE",
+  "l": 18,
+  "actual_truncated_monoids": 1655,
+  "nonunit_factor_pairs": 1048832,
+  "distinct_decomposable_sets": 54544,
+  "atom_sets_across_monoids": 1136236,
+  "unimodality_counterexample": null,
+  "stronger_log_concavity_obstruction": null,
+  "checker_sha256": "9ad20928d16321d01d05ecaeb58cabbc52ad03ace0d77efd3d7ebfaaa00b274c",
+  "scope": "Every truncated additive-closed subset through l=18; extension by all larger integers is a numerical monoid. No all-l conclusion."
+}

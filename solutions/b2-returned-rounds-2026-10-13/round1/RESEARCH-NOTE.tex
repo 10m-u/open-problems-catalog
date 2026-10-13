@@ -1,0 +1,607 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array,longtable}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Logarithmic codimension bounds for midpoint colourings},pdfauthor={B2 research continuation},pdfsubject={New proofs and exact entropy certificates},pdfkeywords={Q4296, Q4660, midpoint colourings, polynomial Freiman-Ruzsa, entropy}}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small B2 research continuation}
+\fancyhead[R]{\small 13 October 2026}
+\fancyfoot[C]{\thepage}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Fp}{\mathbb F_p}
+\newcommand{\Fthree}{\mathbb F_3}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\ind}{\mathbf 1}
+\newcommand{\codim}{\operatorname{codim}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\rhoW}[2]{\frac{|#1\cap #2|}{|#2|}}
+\title{\vspace{-12mm}\textbf{Logarithmic codimension bounds for midpoint colourings}\\[3pt]
+\large and certified improvements for the entropic sum--difference problem}
+\author{B2 continuation from the supplied research handoff}
+\date{13 October 2026}
+
+\begin{document}
+\maketitle
+\vspace{-6mm}
+\begin{abstract}
+For an admissible partition $\Fp^n=A_1\sqcup\cdots\sqcup A_k\sqcup R$, where
+$p$ is an odd prime and no pair in a single $A_i$ has midpoint in $R$, a
+positive-density remainder contains an affine subspace of codimension
+$O_p(k\log(2k))$. More generally, density at least $\alpha>0$ gives codimension
+$O_p(k(\log(2k)+\log(1/\alpha)))$. For $p=3$ and $\alpha=1/10$, this improves
+the $O(k^2)$ bound in the primary source underlying Q4296.
+The proof combines the established polynomial Freiman--Ruzsa covering theorem
+with a density-preserving quotient-avoidance lemma. An explicit block
+construction has largest affine subspace of dimension exactly $n-k$ while
+its remainder has density at least $9/10$, showing that the upper bound is
+within a logarithmic factor of the necessary dependence on $k$ in the stated
+ambient-dimension range. Separately, exact rational logarithm certificates
+for Q4660 give a finite integer law with entropy-increment ratio strictly
+larger than $1.40518$, improving the supplied handoff's witness near $1.39778$.
+Neither result determines the exact extremal function or the optimal
+universal entropy constant.
+\end{abstract}
+
+\section{Scope, baseline, and status}
+
+The input is \texttt{B2-complete-handoff-2026-10-13.zip}. This continuation
+concentrates on two targets, without changing the old archive or its stopped
+run's attempt counts. Q4296 has stable statement identifier
+\texttt{67d9a47fe0b199024fdb}; Q4660 has identifier
+\texttt{4e69214fdfaf0bc4e852}. Exact copies of those catalog records, input
+hashes, proof receipts, and the source bibliography accompany this note.
+
+For Q4296, the supplied continuation determines the one-colour case exactly:
+the minimum largest affine-subspace dimension is $n-1$. It gives a conflict
+graph formulation but does not establish the general logarithmic bound
+proved below. The source paper's Theorem 3 proves codimension $O(k^2)$
+for the density-$1/10$ problem over $\Fthree$ \cite{midpoint}.
+For Q4660, the supplied exact three-point witness has ratio between
+$1.39778460678578706484097027537185551$ and
+$1.39778460678578706484097027537185552$ \cite{handoff}.
+
+\textbf{Status.} The combinatorial conclusions below have complete written
+proofs using the established bounded-torsion polynomial Freiman--Ruzsa
+theorem \cite{pfr}. The entropy conclusions have exact rational certificates.
+Finite controls check elementary proof components, not all dimensions and
+not the external PFR theorem. There has been no external peer review or
+formal proof-assistant verification. These are advances relative to the
+supplied handoff and the checked primary statements; worldwide priority
+has not been established. The exact targets Q4296 and Q4660 remain open
+within this continuation.
+
+\section{An explicit covering-to-subspace transfer theorem}
+
+All logarithms in the combinatorial proof are natural unless their base is
+shown. An affine subspace is nonempty. Empty colour classes are allowed in
+intermediate restrictions; this only strengthens applicability to the
+original partition problem.
+
+Fix an odd prime $p$. Let $M_p(k)$ be any positive integer such that every
+nonempty set $A$ in a finite-dimensional $\Fp$-vector space with
+$|A+A|\leq k|A|$ is contained in at most $M_p(k)$ cosets of a subspace $H$
+with $|H|\leq |A|$. The established PFR theorem provides an absolute constant
+$C_0$ for which one may take
+\begin{equation}\label{eq:coverfunction}
+ M_p(k)=\left\lceil(2k)^{C_0p^3}\right\rceil.
+\end{equation}
+This is the covering form of Theorem 1.1 in \cite{pfr}, not a conjectural
+polynomial Bogolyubov statement.
+
+\begin{theorem}[Quantitative transfer]\label{thm:transfer}
+Let $k\geq1$, $0<\alpha\leq1$, and suppose
+\[
+ \Fp^n=A_1\sqcup\cdots\sqcup A_k\sqcup R,\qquad
+ |R|\geq\alpha p^n,
+\]
+with $(x+y)/2\notin R$ for every $x,y\in A_i$ and every $i$.
+Put
+\begin{align}
+ M&=M_p(k), &
+ s&=\left\lceil\log_p(2kM)\right\rceil,\label{eq:s}\\
+ \tau&=\frac{1}{4p^s}, &
+ T&=\left\lceil(2k+1)\log\frac{4p^s}{\alpha}\right\rceil.
+ \label{eq:tauT}
+\end{align}
+Then $R$ contains an affine subspace of codimension at most
+\[
+ \min\{n,T+ks\}.
+\]
+In particular, for each fixed odd prime $p$ the codimension is
+\begin{equation}\label{eq:mainasymptotic}
+ O_p\!\left(k\left[\log(2k)+\log(1/\alpha)\right]\right).
+\end{equation}
+Using the $p$-dependence in \eqref{eq:coverfunction}, an absolute implied
+constant gives the bound
+$O(k[p^3\log(2k)+\log(1/\alpha)])$.
+\end{theorem}
+
+\begin{corollary}[Q4296]\label{cor:q4296}
+There is an absolute constant $C$ such that every admissible partition in
+Q4296 has an affine subspace $V\subseteq R$ satisfying
+\[
+ \dim V\geq \max\{0,n-Ck\log(2k)\}.
+\]
+Thus the established quadratic codimension loss can be replaced by a
+logarithmic overhead over linear dependence on the number of colours.
+\end{corollary}
+
+The essential distinction is between covering a colour by polynomially
+many cosets and enclosing it in one affine span. The former can be avoided
+at low codimension while preserving the density of the other colours.
+The following lemma supplies that preservation.
+
+\subsection{Density-preserving avoidance in a quotient}
+
+\begin{lemma}[Weighted avoidance]\label{lem:avoidance}
+Let $W$ be an $\Fp$-vector space, $H\leq W$, and suppose that $A\subseteq W$
+is contained in at most $M$ cosets of $H$. Let
+$1\leq s\leq\dim(W/H)$ and $Mp^{-s}<1$. For every function
+$f:W\longrightarrow[0,\infty)$ there is an affine subspace $W'\subseteq W$
+of codimension $s$ such that
+\begin{equation}\label{eq:avoidance}
+ W'\cap A=\varnothing,\qquad
+ \E_{x\in W'}f(x)\leq
+ \frac{\E_{x\in W}f(x)}{1-Mp^{-s}}.
+\end{equation}
+The same assertion holds after translating the ambient space.
+\end{lemma}
+
+\begin{proof}
+Write $Q=W/H$, let $\pi:W\to Q$ be the quotient map, and choose a set
+$S\subseteq Q$ with $|S|\leq M$ such that $A\subseteq\pi^{-1}(S)$.
+Choose uniformly a codimension-$s$ affine subspace $U$ of $Q$.
+Every point of $Q$ belongs to $U$ with probability $p^{-s}$.
+Therefore the event $\mathcal G=\{U\cap S=\varnothing\}$ satisfies
+\[
+ \Prob(\mathcal G)\geq1-|S|p^{-s}\geq1-Mp^{-s}>0.
+\]
+Set $Z(U)=\E_{x\in\pi^{-1}(U)}f(x)$. All pullbacks have the same size,
+$|W|p^{-s}$, so uniform point inclusion gives
+\[
+ \E Z(U)=\E_{x\in W}f(x).
+\]
+Since $Z\geq0$,
+\[
+ \E[Z\mid\mathcal G]
+ =\frac{\E[Z\ind_{\mathcal G}]}{\Prob(\mathcal G)}
+ \leq\frac{\E_{x\in W}f(x)}{1-Mp^{-s}}.
+\]
+Some successful $U$ has at most this conditional mean. Its pullback is the
+required $W'$. In particular, the proof needs no independence between
+avoidance and the density of $f$.
+\end{proof}
+
+Taking $f$ to be the indicator of the union of all surviving colours, and
+choosing $Mp^{-s}\leq1/(2k)$, incurs only the density factor
+$(1-1/(2k))^{-1}$. This factor, rather than a fixed factor larger than one,
+is what can be iterated $k$ times without an exponentially small initial
+coloured density.
+
+\subsection{The density increment and its odds potential}
+
+\begin{lemma}[Hyperplane increment]\label{lem:increment}
+Suppose $A,R\subseteq\Fp^m$ have densities $\beta>0$ and $a>0$, and
+$(A+A)\cap(2R)=\varnothing$. Then some affine hyperplane has $R$-density
+at least $a(1+\beta/2)$.
+\end{lemma}
+
+\begin{proof}
+Use normalized Fourier coefficients. Orthogonality and the disjointness
+hypothesis imply
+\[
+ 0=a\beta^2+
+ \sum_{\chi\ne1}\widehat{\ind_A}(\chi)^2
+                  \overline{\widehat{\ind_{2R}}(\chi)}.
+\]
+Parseval gives
+$\sum_{\chi\ne1}|\widehat{\ind_A}(\chi)|^2=\beta(1-\beta)\leq\beta$.
+Consequently some nontrivial character has
+$|\widehat{\ind_{2R}}(\chi)|\geq a\beta$.
+Let $a_0,\ldots,a_{p-1}$ be the densities of $2R$ in the cosets of
+$\ker\chi$. Their mean is $a$. With $u_j=a_j-a$, one has
+$\sum_j u_j=0$, hence
+\[
+ |\widehat{\ind_{2R}}(\chi)|
+ \leq\frac1p\sum_j|u_j|
+ =\frac2p\sum_{u_j>0}u_j
+ \leq2\max_j u_j.
+\]
+Thus some coset has density at least $a+a\beta/2$.
+Applying multiplication by $2^{-1}$ gives an affine hyperplane with the
+same density for $R$.
+\end{proof}
+
+The $p=3$ increment is the elementary Fourier input of the primary source
+\cite{midpoint}; the formulation above covers every odd prime. The
+following potential makes the dependence on the starting density explicit.
+
+\begin{lemma}[Odds growth]\label{lem:odds}
+In an admissible partition with at most $k$ colours and remainder density
+$a\in(0,1)$, there is a hyperplane restriction whose new remainder density
+$a'$ either equals one or satisfies
+\begin{equation}\label{eq:odds}
+ \frac{a'}{1-a'}\geq
+ \left(1+\frac1{2k}\right)\frac{a}{1-a}.
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+The largest colour has density at least $(1-a)/k$. By
+Lemma~\ref{lem:increment},
+$a'\geq a(1+(1-a)/(2k))$. Since $x/(1-x)$ is increasing on $(0,1)$,
+\[
+ \frac{a'/(1-a')}{a/(1-a)}
+ \geq\frac{1+(1-a)/(2k)}{1-a/(2k)}
+ =1+\frac1{2k-a}\geq1+\frac1{2k}.
+\]
+A full hyperplane terminates the process instead.
+\end{proof}
+
+\subsection{Removing all colours at polynomially small density}
+
+\begin{lemma}[High-density clearance]\label{lem:clearance}
+With $M,s,\tau$ from \eqref{eq:s}--\eqref{eq:tauT}, let an admissible
+partition of an affine space $W$ have total coloured density at most
+$\tau$. Then $R\cap W$ contains an affine subspace of relative codimension
+at most $ks$.
+\end{lemma}
+
+\begin{proof}
+Translate $W$ to a vector space as needed. Suppose the current ambient
+space is $W_j$, its coloured union is $B_j$, and its coloured density is
+$\delta_j$. If $B_j$ is empty, stop. Otherwise choose a largest nonempty
+colour $A$ among the surviving labels. Admissibility gives
+\[
+ |A+A|\leq |B_j|\leq k|A|.
+\]
+The first inequality holds because doubling is a bijection on an
+odd-characteristic vector space and $A+A$ avoids twice the remainder.
+PFR covers $A$ by at most $M$ cosets of a subspace $H$ satisfying
+\[
+ |H|\leq|A|\leq\delta_j|W_j|.
+\]
+Apply Lemma~\ref{lem:avoidance} with $f=\ind_{B_j}$ and the fixed
+codimension $s$. It removes $A$ completely and yields
+\begin{equation}\label{eq:loss}
+ \delta_{j+1}\leq\frac{\delta_j}{1-Mp^{-s}}
+ \leq\frac{\delta_j}{1-1/(2k)}.
+\end{equation}
+
+For completeness, the required quotient dimension is available at every
+step; it is not an additional assumption. Inductively, after at most $k$
+steps,
+\[
+ \delta_j\leq\tau\left(1-\frac1{2k}\right)^{-j}\leq2\tau
+ =\frac1{2p^s}.
+\]
+The second inequality follows from Bernoulli's inequality
+$(1-1/(2k))^k\geq1/2$. Therefore
+$|H|/|W_j|\leq1/(2p^s)<p^{-s}$, so $\dim(W_j/H)>s$.
+In particular, any space too small for this restriction must already have
+no coloured points. This also makes the induction in \eqref{eq:loss}
+noncircular: the bound at step $j$ validates the next application.
+
+Each successful restriction removes at least one colour label. After at
+most $k$ restrictions no labels remain, and the total codimension cost is
+at most $ks$.
+\end{proof}
+
+\subsection{Completion of the transfer proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:transfer}]
+If $R$ is the entire ambient space, there is nothing to prove. Otherwise
+iterate Lemma~\ref{lem:odds} until the remainder has density at least
+$1-\tau$. Admissibility is inherited by affine restriction because a
+midpoint of points in an affine space remains in that space.
+The initial odds are at least $\alpha$. Also
+\[
+ \log\left(1+\frac1{2k}\right)\geq\frac1{2k+1}.
+\]
+If no earlier restriction is full, after $T$ steps the odds are at least
+\[
+ \alpha\exp\left(\frac{T}{2k+1}\right)\geq4p^s=\tau^{-1}.
+\]
+The coloured density is then at most $1/(1+\tau^{-1})<\tau$.
+If dimension reaches zero earlier, positive remainder density means the
+single point is already in $R$.
+
+Apply Lemma~\ref{lem:clearance} in the resulting affine space. The total
+cost is at most $T+ks$. This proves the explicit bound. Under
+\eqref{eq:coverfunction}, $\log M=O(p^3\log(2k))$, and substitution into
+\eqref{eq:s}--\eqref{eq:tauT} yields the stated asymptotic bounds.
+\end{proof}
+
+\begin{remark}[What changed in the proof mechanism]
+A constant density inflation at each of $k$ eliminations would require an
+exponentially small coloured density at the start of clearance. The
+weighted avoidance lemma instead sets each failure probability to at most
+$1/(2k)$, so the total inflation is at most two. PFR then requires only a
+polynomially small coloured density. Reaching that threshold takes
+$O_p(k\log k)$ hyperplane increments, and clearance also costs
+$O_p(k\log k)$. Merely replacing an old theorem by PFR without controlling
+these density losses would not establish the improvement.
+\end{remark}
+
+\section{A deterministic construction with exact linear loss}
+
+\begin{proposition}[Block-zero construction]\label{prop:block}
+Let $p$ be an odd prime, $k,b\geq1$, and $n\geq kb$. There is an admissible
+partition of $\Fp^n$ into $k$ colours and a remainder $R$ for which
+\[
+ \frac{|R|}{p^n}=(1-p^{-b})^k,
+ \qquad
+ \max\{\dim V:V\subseteq R\text{ affine}\}=n-k.
+\]
+In particular, taking $b=\lceil\log_p(10k)\rceil$ gives density at least
+$9/10$ and exact loss $k$ whenever $n\geq k\lceil\log_p(10k)\rceil$.
+\end{proposition}
+
+\begin{proof}
+Write a point as $(x^{(1)},\ldots,x^{(k)},y)$, with
+$x^{(i)}\in\Fp^b$ and $y\in\Fp^{n-kb}$. Put
+\[
+ R=\{x:x^{(i)}\ne0\text{ for every }i\},
+\]
+and colour every point outside $R$ by the index of its first zero block.
+If two points have colour $i$, their $i$th blocks are zero, as is that of
+their midpoint. The midpoint is therefore outside $R$, irrespective of
+its other blocks. This proves admissibility. Counting independent blocks
+gives the stated density.
+
+Let $V\subseteq R$ be affine. Its image under each block projection is an
+affine subspace $a_i+L_i\subseteq\Fp^b$ avoiding zero. Thus $a_i\notin L_i$,
+and some linear functional $\ell_i$ vanishes on $L_i$ and satisfies
+$\ell_i(a_i)=1$. The pullbacks of these $k$ functionals to the ambient
+space are linearly independent, because they are nonzero and have disjoint
+coordinate supports. Consequently $V$ satisfies $k$ independent affine
+linear equations and $\dim V\leq n-k$.
+
+Conversely, requiring the first coordinate in each block to equal one
+leaves an affine subspace of dimension $n-k$ wholly inside $R$.
+Finally, Bernoulli's inequality gives
+$(1-p^{-b})^k\geq1-kp^{-b}\geq9/10$ for the chosen $b$.
+\end{proof}
+
+This is an explicit companion to the lower-construction direction already
+noted in the primary source, not a claim to have discovered the necessity
+of linear loss for the first time. Together with
+Corollary~\ref{cor:q4296}, it leaves a factor $O(\log k)$ between necessary
+and sufficient codimension dependence, for the ambient dimensions covered
+by the construction. It does not determine the exact sharp function of
+$(n,k)$.
+
+\section{Certified entropy-ratio improvement for Q4660}
+
+Let $X'$ be an independent copy of a discrete real-valued random variable
+$X$ with finite Shannon entropy. Write
+\[
+ \Delta_+(X)=H(X+X')-H(X),\qquad
+ \Delta_-(X)=H(X-X')-H(X).
+\]
+Entropy may be measured in nats or bits; the ratio
+$\mathcal R(X)=\Delta_-(X)/\Delta_+(X)$ is unchanged. The known universal
+inequality is $\Delta_-(X)\leq2\Delta_+(X)$, while sharpness of two is the
+question recorded in Q4660 \cite{entropy}. Let $C_*$ denote the least
+universal constant.
+
+\begin{proposition}[Two exact finite witnesses]\label{prop:entropy}
+For the law on $\{0,1,2,3,4\}$ with probability vector
+\[
+ \frac1{10000}(8830,1009,143,16,2),
+\]
+one has
+\begin{align*}
+ 1.405025826013192214095918189356
+ &<\mathcal R(X)\\
+ &<1.405025826013192214095918189357.
+\end{align*}
+For the law on $\{0,1,\ldots,7\}$ with denominator $10^8$ and numerators
+\begin{align*}
+ &(88162304,\ 10154519,\ 1485728,\ 177393,\\[-2pt]
+ &\hspace{19mm}18242,\ 1665,\ 138,\ 11),
+\end{align*}
+one has
+\begin{align*}
+ 1.405180966075633572545128347101
+ &<\mathcal R(X)\\
+ &<1.405180966075633572545128347102.
+\end{align*}
+In particular,
+\begin{equation}\label{eq:Cbound}
+ \boxed{\quad C_*>\frac{70259}{50000}=1.40518.\quad}
+\end{equation}
+The supplied handoff's lower witness is strictly improved.
+\end{proposition}
+
+\begin{proof}[Exact certificate and its mathematical justification]
+For integer probability weights $w_i$ with total $D$, the output weights
+are obtained without rounding:
+\[
+ s_t=\sum_{i+j=t}w_iw_j,\qquad
+ d_t=\sum_{i-j=t}w_iw_j.
+\]
+Each output has total weight $D^2$. Entropy of any count vector $c$ with
+total $N$ is exactly
+\begin{equation}\label{eq:entropycounts}
+ H(c)=\log N-\frac1N\sum_{c_i>0}c_i\log c_i.
+\end{equation}
+All logarithms in the certificate are enclosed by rational bounds.
+For $1\leq r\leq2$, put $t=(r-1)/(r+1)\in[0,1/3]$. Then
+\begin{align}
+ L_J(r)&=2\sum_{j=0}^{J-1}\frac{t^{2j+1}}{2j+1},\\
+ 0\leq\log r-L_J(r)&\leq
+ \frac{2t^{2J+1}}{(2J+1)(1-t^2)}.\label{eq:logtail}
+\end{align}
+The upper bound follows by bounding every denominator in the positive
+tail below by $2J+1$ and summing the resulting geometric series.
+For a positive integer $m$, write $m=2^e r$ with $1\leq r<2$ and apply
+these bounds to $\log m=e\log2+\log r$.
+
+The supplied script \texttt{certify\_entropy.py} uses $J=90$, computes the
+series and tail with exact fractions, and rounds each logarithm interval
+outward to a grid of mesh $10^{-65}$. Substitution in
+\eqref{eq:entropycounts} and outward interval subtraction give positive
+lower bounds for both increments. If $L_\pm\leq\Delta_\pm\leq U_\pm$
+with $L_+>0$, then
+\[
+ \frac{L_-}{U_+}\leq\mathcal R(X)\leq\frac{U_-}{L_+}.
+\]
+The two resulting enclosing intervals lie strictly between the displayed
+endpoints. The script also verifies the positive rational lower bound
+\[
+ L_- -\frac{70259}{50000}U_+>0
+\]
+for the eight-point law, and the analogous inequality with $281/200$ for
+the five-point law. All weights, interval endpoints, and positive-gap
+receipts are retained in \texttt{ENTROPY-CERTIFICATE.json}.
+The displayed values are therefore exact enclosures, not optimizer output.
+\end{proof}
+
+\subsection{The witness survives arbitrarily large input entropy}
+
+\begin{corollary}\label{cor:radix}
+For every $h>0$ there is a positive-integer-valued $Y$ with $H(Y)>h$ and
+$\mathcal R(Y)>1.40518$.
+\end{corollary}
+
+\begin{proof}
+Let $Z$ have the eight-point law, let $Z_0,\ldots,Z_{m-1}$ be independent
+copies, and put
+\[
+ Y=1+\sum_{j=0}^{m-1}16^j Z_j.
+\]
+The digit encodings for the input and the sums are injective: input digits
+lie in $[0,7]$ and sum digits in $[0,14]$. Difference digits lie in
+$[-7,7]$ and also have a unique base-16 encoding. Indeed, a difference
+between two such encodings has digits in $[-14,14]$; a nonzero highest
+term cannot be cancelled by all the lower terms because
+$14\sum_{j<r}16^j<16^r$.
+
+Thus all relevant vector entropies are preserved by encoding. Coordinate
+independence gives
+\[
+ H(Y)=mH(Z),\qquad
+ \Delta_+(Y)=m\Delta_+(Z),\qquad
+ \Delta_-(Y)=m\Delta_-(Z).
+\]
+The ratio is unchanged, while $mH(Z)$ is arbitrarily large.
+\end{proof}
+
+This use of tensorization does not amplify a fixed ratio toward two.
+It shows that the improved obstruction persists at every entropy scale.
+It does not improve the universal upper constant or the separate
+sum--product target Q4659.
+
+\section{Verification, limitations, and the next mathematical obstacle}
+
+\subsection{Reproduction}
+
+Run the following from the extracted result directory with Python 3.10 or
+later. The certificate scripts use only the standard library.
+\begin{verbatim}
+python certify_entropy.py
+python check_midpoint_lemmas.py
+python check_block_construction.py
+\end{verbatim}
+
+The midpoint checker examines all $282339$ labelled partitions of
+$\Fthree^2$ using one, two, or three colour labels plus the remainder.
+Among them it checks the increment and odds inequalities for all $29706$
+admissible partitions with nonempty proper remainder. The quotient tests
+check all $285184$ allowed cover/test-set pairs in $\Fthree^2$, together
+with $6684$ nonnegative-weight controls. A further $9900$ rational odds
+checks and $100$ cumulative-loss checks pass. These are exact integer or
+fraction comparisons.
+
+The block-construction checker enumerates every affine subspace in each
+of eight finite cases. In dimensions three and four, the lists contain
+$184$ and $2452$ affine subspaces respectively. Every case attains exactly
+$n-k$ as predicted. None of these finite checks is offered as a substitute
+for the all-size block proof or Theorem~\ref{thm:transfer}.
+
+The entropy certificate itself is a finite exact proof for the displayed
+laws. The optional numerical exploration script only explains discovery;
+it is not needed for verification, and its local optimizations are not
+claims of global optimality.
+
+\subsection{Audit of the critical proof obligations}
+
+The general midpoint proof has four particularly important points.
+The small-doubling estimate uses the \emph{total} coloured union in the
+current affine space, not the size of the selected colour alone.
+The quotient dimension is justified from $|H|\leq|A|$ and the running
+density invariant before every avoidance step. Conditional averaging uses
+nonnegativity and uniform point inclusion, not an unjustified independence
+assumption. Finally, removal of a label is permanent under later nested
+restrictions, so there are at most $k$ clearance steps.
+
+The argument is an existence proof. It does not supply a new polynomial-time
+algorithm for finding the PFR covers, a numerical value of the absolute
+PFR exponent, or a sharp finite-$n$ codimension constant. Small ambient
+dimensions are covered by the nonempty-point stopping case.
+
+\subsection{Remaining gaps}
+
+The exact value of the Q4296 extremal function is not determined. The
+block construction supplies necessary linear loss, while the new theorem
+supplies sufficient $O(k\log k)$ loss. The remaining structural target is
+a clearance/density-increment mechanism with an amortized constant
+codimension cost per colour, or a construction proving that a
+superlinear loss is actually necessary. Improving constants inside the
+present PFR input alone does not remove the logarithm, because the
+quotient avoidance step still costs logarithmically in the number of
+covering cosets.
+
+For Q4660, the certified lower bound is not a universal upper bound and
+is not a proof that two is sharp. The local search over short arithmetic
+progressions leaves arbitrary supports and arbitrary probability laws
+untreated. The correct catalog disposition of both targets is therefore
+\emph{partial progress}, with the exact proofs and scopes above retained.
+
+\begingroup
+\small
+\begin{thebibliography}{9}
+\setlength{\itemsep}{2pt}
+\bibitem{midpoint}
+Tomasz Ko\'sciuszko,
+\emph{Arithmetic Progressions in Midpoint Colourings},
+arXiv:2610.11847v1, submitted 8 October 2026.
+Problem 4, Lemma 1, and Theorem 3.
+\url{https://arxiv.org/html/2610.11847v1}.
+
+\bibitem{pfr}
+W. T. Gowers, Ben Green, Freddie Manners, and Terence Tao,
+\emph{Marton's conjecture in abelian groups with bounded torsion},
+arXiv:2404.02244v2, 20 May 2024, Theorem 1.1.
+\url{https://arxiv.org/html/2404.02244v2}.
+
+\bibitem{entropy}
+Rupert Li,
+\emph{The Entropic Sum-Product Phenomenon},
+arXiv:2607.29042v1, submitted 31 July 2026, Section 8.
+\url{https://arxiv.org/html/2607.29042v1}.
+
+\bibitem{handoff}
+User-supplied \emph{B2 complete research handoff}, 13 October 2026.
+The catalog snapshot and relevant attempt and certificate files are
+identified by exact paths and hashes in the accompanying
+\texttt{PROVENANCE.json}.
+\end{thebibliography}
+\endgroup
+\end{document}

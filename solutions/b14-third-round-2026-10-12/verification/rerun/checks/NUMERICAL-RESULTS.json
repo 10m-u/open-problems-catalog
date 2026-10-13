@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "arithmetic": "mpmath, 80 decimal digits; no directed rounding",
+  "mpmath_version": "1.3.0",
+  "a_star": "0.61200318096248076056809030106621948590339464782971121958451851698",
+  "J_a_star": "0.81698921762737179967280258713453818509545681299312616078471203496",
+  "H": "0.98525436263102383952124549069571260008232705069128512297458020549",
+  "rho": "0.59758697855134505279185720272972086121440266433686921325917921232",
+  "tilted_variance": "0.25090421298361005352130208795380599667580106612549647891362540428",
+  "independent_integral_checks": 2,
+  "exponential_distribution_local_checks": 1200,
+  "finite_bounds": [
+    {
+      "n": 10,
+      "normalized_nth_root_lower": 0.3648407113561196,
+      "normalized_nth_root_upper": 1.3222286947079867,
+      "chosen_lower_delta": 0.426,
+      "chosen_upper_delta": 0.311,
+      "delta_candidates": 118
+    },
+    {
+      "n": 100,
+      "normalized_nth_root_lower": 0.5404591243609047,
+      "normalized_nth_root_upper": 1.1889363278971812,
+      "chosen_lower_delta": 0.226,
+      "chosen_upper_delta": 0.286,
+      "delta_candidates": 144
+    },
+    {
+      "n": 1000,
+      "normalized_nth_root_lower": 0.5883946867966361,
+      "normalized_nth_root_upper": 0.6945039112121391,
+      "chosen_lower_delta": 0.09557984283547383,
+      "chosen_upper_delta": 0.121,
+      "delta_candidates": 218
+    },
+    {
+      "n": 10000,
+      "normalized_nth_root_lower": 0.5963346968234039,
+      "normalized_nth_root_upper": 0.625901693394608,
+      "chosen_lower_delta": 0.036,
+      "chosen_upper_delta": 0.0424879596227841,
+      "delta_candidates": 218
+    },
+    {
+      "n": 100000,
+      "normalized_nth_root_lower": 0.5974288521627288,
+      "normalized_nth_root_upper": 0.6069353589561988,
+      "chosen_lower_delta": 0.012875796157736083,
+      "chosen_upper_delta": 0.014485270677453093,
+      "delta_candidates": 218
+    },
+    {
+      "n": 1000000,
+      "normalized_nth_root_lower": 0.5975676456650454,
+      "normalized_nth_root_upper": 0.6007356398935049,
+      "chosen_lower_delta": 0.004460306626619806,
+      "chosen_upper_delta": 0.005017844954947282,
+      "delta_candidates": 218
+    },
+    {
+      "n": 100000000,
+      "normalized_nth_root_lower": 0.597586717973746,
+      "normalized_nth_root_upper": 0.5979445025849809,
+      "chosen_lower_delta": 0.0005364915065723369,
+      "chosen_upper_delta": 0.0005794108270981238,
+      "delta_candidates": 218
+    }
+  ],
+  "scope": "Deterministic numerical evaluation of proved bounds, not estimates of the actual count; no simulation."
+}

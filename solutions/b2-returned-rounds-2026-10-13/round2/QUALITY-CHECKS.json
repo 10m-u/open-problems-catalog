@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "pdf_pages": 9,
+  "renderer": "pdftoppm",
+  "visual_review": "All-page contact sheet plus full-size entropy theorem/certificate page; no clipped text or missing glyphs observed.",
+  "latex_overfull_boxes": 0,
+  "text_rectangles_inside_pages": true,
+  "proof_receipts": [
+    "ENTROPY-CERTIFICATE.json",
+    "MIDPOINT-CHECKS.json",
+    "BOUNDARY-CHECKS.json"
+  ],
+  "all_python_files_syntax_checked": true
+}

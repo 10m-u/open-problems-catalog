@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "max_original_coordinate": 200,
+  "triples_checked": 1293699,
+  "two_minimal_shift_count": 5,
+  "two_minimal_shift_examples": [
+    [
+      7,
+      23,
+      161
+    ],
+    [
+      9,
+      49,
+      63
+    ],
+    [
+      10,
+      32,
+      80
+    ],
+    [
+      12,
+      24,
+      64
+    ],
+    [
+      16,
+      50,
+      80
+    ]
+  ],
+  "three_minimal_shift_witnesses": [],
+  "scope": "Complete box, not infinite families or unbounded nonexistence"
+}

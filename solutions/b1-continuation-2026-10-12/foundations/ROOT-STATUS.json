@@ -1,0 +1,160 @@
+{
+  "targets": [
+    {
+      "target": "Q1375",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "root_review_accepted": true,
+      "evidence": [
+        "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+        "foundations/ROOT-DEFINABILITY-CHECK.json"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Boolean-game reduction",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Online alternating automaton",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Representation lower bound as a decision lower bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Iterate exponential rulers",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Polynomial numerical game bound",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1375",
+          "review": "ROOT-REVIEW.md"
+        }
+      ]
+    },
+    {
+      "target": "Q1376",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "root_review_accepted": true,
+      "evidence": [
+        "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+        "foundations/ROOT-DEFINABILITY-CHECK.json"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Bound the generator parameters",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Bounded affine growth tests",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Finite syntactic-monoid images",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Existentially encode a deterministic run",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Forbidden regular sublanguage basis",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1376",
+          "review": "ROOT-REVIEW.md"
+        }
+      ]
+    },
+    {
+      "target": "Q1481",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "root_review_accepted": true,
+      "evidence": [
+        "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+        "foundations/ROOT-DEFINABILITY-CHECK.json"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Promote the weakest nonperiodic predicate to existential universality",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 2,
+          "route": "Apply the absolute BA growth obstruction",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 3,
+          "route": "Pack a universal ternary predicate into one unary word",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 4,
+          "route": "Extend the positive language algebra by one atom",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        },
+        {
+          "attempt": 5,
+          "route": "Use self-embedding preservation",
+          "outcome": "full_target_failure",
+          "evidence": "foundations/ROOT-DEFINABILITY-ATTEMPTS.md",
+          "section": "Q1481",
+          "review": "ROOT-REVIEW.md"
+        }
+      ]
+    }
+  ]
+}

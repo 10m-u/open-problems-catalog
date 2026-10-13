@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "direct_normalized_Fourier_sum_checks": 126,
+  "frequency_values_exhausted": 8178,
+  "all_widths": [
+    1,
+    12
+  ],
+  "rational_start_independent_DP_comparisons": 297,
+  "whole_continuation_branch_comparisons": 297,
+  "DP_states": 16361,
+  "maxima": [
+    {
+      "w": 1,
+      "attaining_frequency": 1,
+      "maximum": 1.0
+    },
+    {
+      "w": 2,
+      "attaining_frequency": 1,
+      "maximum": 0.7071067811865475
+    },
+    {
+      "w": 3,
+      "attaining_frequency": 3,
+      "maximum": 0.6532814824381882
+    },
+    {
+      "w": 4,
+      "attaining_frequency": 5,
+      "maximum": 0.5431837009273124
+    },
+    {
+      "w": 5,
+      "attaining_frequency": 11,
+      "maximum": 0.47904525629523403
+    },
+    {
+      "w": 6,
+      "attaining_frequency": 21,
+      "maximum": 0.41089082180933517
+    },
+    {
+      "w": 7,
+      "attaining_frequency": 43,
+      "maximum": 0.3575107588222701
+    },
+    {
+      "w": 8,
+      "attaining_frequency": 85,
+      "maximum": 0.30887959139387244
+    },
+    {
+      "w": 9,
+      "attaining_frequency": 171,
+      "maximum": 0.26781289003447833
+    },
+    {
+      "w": 10,
+      "attaining_frequency": 341,
+      "maximum": 0.23179570503191038
+    },
+    {
+      "w": 11,
+      "attaining_frequency": 683,
+      "maximum": 0.20080020449382793
+    },
+    {
+      "w": 12,
+      "attaining_frequency": 1365,
+      "maximum": 0.17387240385573322
+    }
+  ],
+  "scope": "Floating-point finite controls supplement exact all-size mathematical review."
+}

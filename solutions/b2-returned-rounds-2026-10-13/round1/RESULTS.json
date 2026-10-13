@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-13",
+  "status": "partial advances; no exact catalog question closed",
+  "records": [
+    {
+      "result_id": "B2-NEW-Q4296-LOG-CODIMENSION",
+      "question": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "type": "all-dimension theorem using established external PFR",
+      "statement": "Every admissible k-colour midpoint partition of F_3^n with remainder density at least 1/10 has an affine subspace in R of codimension O(k log(2k)).",
+      "extension": "Over each fixed odd prime p, density alpha>0 gives codimension O_p(k(log(2k)+log(1/alpha))).",
+      "explicit_bound": "M=M_p(k); s=ceil(log_p(2kM)); T=ceil((2k+1)ln(4p^s/alpha)); codimension <= min(n,T+ks).",
+      "source_comparison": "Theorem 3 of arXiv:2610.11847v1 gives O(k^2) at p=3 and alpha=1/10.",
+      "proof": "RESEARCH-NOTE.pdf, Theorem 2.1 and Corollary 2.2",
+      "remaining": "The exact extremal function and removal of the logarithmic factor are not determined."
+    },
+    {
+      "result_id": "B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE",
+      "question": "Q4296",
+      "type": "auxiliary general lemma",
+      "statement": "If A is covered by M cosets of H, s <= dim(W/H), and M p^(-s)<1, then an affine codimension-s subspace avoiding A exists on which any nonnegative function has average at most its ambient average divided by 1-M p^(-s).",
+      "proof": "RESEARCH-NOTE.pdf, Lemma 2.3",
+      "scope": "No small-doubling or midpoint hypothesis is required for this standalone lemma."
+    },
+    {
+      "result_id": "B2-NEW-Q4296-BLOCK-CONSTRUCTION",
+      "question": "Q4296",
+      "type": "explicit companion construction",
+      "statement": "For n>=kb, the remainder with every one of k disjoint b-dimensional blocks nonzero admits k midpoint colours on its complement and has largest affine subspace dimension exactly n-k; density is (1-p^(-b))^k.",
+      "high_density_choice": "b=ceil(log_p(10k)) gives density at least 9/10.",
+      "proof": "RESEARCH-NOTE.pdf, Proposition 3.1",
+      "priority_note": "The primary source already notes linear-loss constructions; no priority claim for necessity of linear loss."
+    },
+    {
+      "result_id": "B2-NEW-Q4660-EXACT-1.40518",
+      "question": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "type": "exact finite-law lower-bound certificate",
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "weights": [
+        88162304,
+        10154519,
+        1485728,
+        177393,
+        18242,
+        1665,
+        138,
+        11
+      ],
+      "denominator": 100000000,
+      "ratio_interval": [
+        "1.4051809660756335725451283471012647256861",
+        "1.4051809660756335725451283471012647256862"
+      ],
+      "consequence": "The least universal entropy sum-difference constant is strictly greater than 70259/50000 = 1.40518.",
+      "high_entropy_extension": "Independent digit copies encoded in base 16 preserve the ratio and have arbitrarily large entropy.",
+      "proof": "RESEARCH-NOTE.pdf, Proposition 4.1 and Corollary 4.2; ENTROPY-CERTIFICATE.json",
+      "remaining": "No proof of the sharp universal constant, no global optimizer, and no improvement to Q4659."
+    }
+  ],
+  "scope_notes": [
+    "No independent external review is claimed.",
+    "Finite midpoint controls do not replace the written all-size proof.",
+    "Neither the previous archive nor its attempt counters were modified."
+  ]
+}

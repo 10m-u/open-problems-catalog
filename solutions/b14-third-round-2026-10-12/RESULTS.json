@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-13",
+  "submitted_date": "2026-10-12",
+  "review_policy": "main-thread intake proof review and check replay; no external peer review",
+  "new_exact_catalog_closures": 0,
+  "records": [
+    {
+      "id": "B14-R3-COUNT-RATE",
+      "title": "Sharp exponential expected local-optimum count",
+      "status": "proved",
+      "relationship": "reviewed-strengthening-of-programme-result",
+      "targets": [
+        {
+          "q": 3818,
+          "stable_statement_id": "1ab793013b1b4b6d4773"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For fixed iid Uniform[0,1] complete-graph edge costs, tours modulo rotation/reversal, lim (E[M_n]/sqrt(n!))^(1/n) = rho = exp(-1/2) min_{a>=0} exp(a^2/2) integral_0^infinity exp(-y^2/2-a*y)dy, approximately 0.597586978551345. An exact rational certificate gives rho<3/5 and E[M_n]=O((3/5)^n sqrt(n!)).",
+      "remaining": "Q3818 was already proved locally; no new catalog closure. This is a matching exponential rate, not asymptotic equivalence, a bounded correction at rho, count concentration or a runtime result. Wider literature priority is not established.",
+      "evidence_labels": [
+        "submitted-written-proof",
+        "main-thread-intake-mathematical-review",
+        "reproduced-exact-checks"
+      ],
+      "proof_location": "solutions/b14-third-round-2026-10-12/submission/REPORT.md"
+    },
+    {
+      "id": "B14-R3-REGULAR-ENDPOINT",
+      "title": "Expected-count rate at a regular lower endpoint",
+      "status": "proved",
+      "relationship": "extension-beyond-catalog-model",
+      "targets": [
+        {
+          "q": 3818,
+          "stable_statement_id": "1ab793013b1b4b6d4773"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The same exponential rate holds for a fixed iid absolutely continuous edge-cost law supported above a finite lower endpoint, with finite positive limiting density there; no upper-tail moment assumption is required.",
+      "remaining": "Dependent shortest-path and Euclidean distances, endpoint atoms, zero/infinite endpoint density and size-dependent laws are outside the theorem. No novelty claim.",
+      "evidence_labels": [
+        "submitted-written-proof",
+        "main-thread-intake-mathematical-review",
+        "reproduced-exact-checks"
+      ],
+      "proof_location": "solutions/b14-third-round-2026-10-12/submission/REPORT.md"
+    },
+    {
+      "id": "B14-R3-REPLICATION",
+      "title": "Submitted bounded replication of the handoff",
+      "status": "reviewed-submitted-replication",
+      "relationship": "replication-of-existing-evidence",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "The return reports matching reruns of four finite predecessor checkers after verifying all 614 handoff payloads: count, forced-edge elimination, residual compression and gain pieces.",
+      "remaining": "This is submitted replication evidence, not a new P1/P2/P3 theorem or an all-size audit of the full handoff. New intake reruns cover the sharp-rate checks.",
+      "evidence_labels": [
+        "submitted-replication-receipts",
+        "predecessor-provenance-hash-check"
+      ],
+      "proof_location": "solutions/b14-third-round-2026-10-12/submission/replication/REPLICATION-RESULTS.json"
+    }
+  ]
+}

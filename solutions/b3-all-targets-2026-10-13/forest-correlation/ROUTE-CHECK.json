@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "cycle_base_identities": {
+    "triangle_shared_terminal": {
+      "4": 1,
+      "7": 1,
+      "12": 1,
+      "13": 1,
+      "15": 1
+    },
+    "four_cycle_adjacent_pairs": {
+      "31": 1,
+      "34": 1,
+      "39": 1,
+      "40": 1,
+      "42": 1,
+      "43": 1,
+      "58": 1,
+      "61": 1,
+      "66": 1,
+      "67": 1,
+      "69": 1
+    },
+    "four_cycle_alternating_pairs": {
+      "13": 1,
+      "14": 1,
+      "22": 1,
+      "23": 1,
+      "31": 1,
+      "34": 1,
+      "37": 1,
+      "38": 1,
+      "39": 1,
+      "40": 4,
+      "41": 1,
+      "42": 1,
+      "43": 1,
+      "46": 1,
+      "47": 1,
+      "49": 1,
+      "58": 1,
+      "61": 1,
+      "66": 1,
+      "67": 1,
+      "69": 1
+    }
+  },
+  "cycle_exponent_encoding": "base 3, edge i is the i to i+1 arc",
+  "whole_path_switch_obstruction": "actual acyclic pair; transfer creates a triangle",
+  "checker_sha256": "82aad95dcbb29d7a5d582b7437e04cb2a8e48c7349249d006971d3463c942b9b",
+  "scope": "Exact bases for all-size cycle/cactus proof plus three distinct route obstructions."
+}

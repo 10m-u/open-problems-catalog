@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "corpus_records": 28601,
+  "original_corpus_fields_unchanged": true,
+  "prior_ledger_topics_preserved": 225,
+  "prior_ledger_decisions_preserved": 408,
+  "prior_compiled_results_preserved": 380,
+  "new_routes": 8,
+  "new_exact_catalog_closures": 0,
+  "new_partial_question": 3817,
+  "remaining_catalog_questions_not_disproved": true,
+  "b14_catalog_members": 8,
+  "target_register_entries": 14,
+  "all_targets_terminal_under_user_rule": true,
+  "local_links_checked": 202,
+  "public_publication": "none in this continuation"
+}

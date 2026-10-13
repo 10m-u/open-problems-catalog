@@ -1,0 +1,309 @@
+{
+  "status": "passed",
+  "haar": [
+    {
+      "m": 105,
+      "offsets": [
+        0,
+        15,
+        21,
+        35
+      ],
+      "connected": true,
+      "pairs": [
+        {
+          "offsets": [
+            0,
+            15
+          ],
+          "gcd": 15,
+          "components": 15,
+          "cycle_length": 14
+        },
+        {
+          "offsets": [
+            0,
+            21
+          ],
+          "gcd": 21,
+          "components": 21,
+          "cycle_length": 10
+        },
+        {
+          "offsets": [
+            0,
+            35
+          ],
+          "gcd": 35,
+          "components": 35,
+          "cycle_length": 6
+        },
+        {
+          "offsets": [
+            15,
+            21
+          ],
+          "gcd": 3,
+          "components": 3,
+          "cycle_length": 70
+        },
+        {
+          "offsets": [
+            15,
+            35
+          ],
+          "gcd": 5,
+          "components": 5,
+          "cycle_length": 42
+        },
+        {
+          "offsets": [
+            21,
+            35
+          ],
+          "gcd": 7,
+          "components": 7,
+          "cycle_length": 30
+        }
+      ]
+    },
+    {
+      "m": 165,
+      "offsets": [
+        0,
+        15,
+        33,
+        55
+      ],
+      "connected": true,
+      "pairs": [
+        {
+          "offsets": [
+            0,
+            15
+          ],
+          "gcd": 15,
+          "components": 15,
+          "cycle_length": 22
+        },
+        {
+          "offsets": [
+            0,
+            33
+          ],
+          "gcd": 33,
+          "components": 33,
+          "cycle_length": 10
+        },
+        {
+          "offsets": [
+            0,
+            55
+          ],
+          "gcd": 55,
+          "components": 55,
+          "cycle_length": 6
+        },
+        {
+          "offsets": [
+            15,
+            33
+          ],
+          "gcd": 3,
+          "components": 3,
+          "cycle_length": 110
+        },
+        {
+          "offsets": [
+            15,
+            55
+          ],
+          "gcd": 5,
+          "components": 5,
+          "cycle_length": 66
+        },
+        {
+          "offsets": [
+            33,
+            55
+          ],
+          "gcd": 11,
+          "components": 11,
+          "cycle_length": 30
+        }
+      ]
+    },
+    {
+      "m": 231,
+      "offsets": [
+        0,
+        21,
+        33,
+        77
+      ],
+      "connected": true,
+      "pairs": [
+        {
+          "offsets": [
+            0,
+            21
+          ],
+          "gcd": 21,
+          "components": 21,
+          "cycle_length": 22
+        },
+        {
+          "offsets": [
+            0,
+            33
+          ],
+          "gcd": 33,
+          "components": 33,
+          "cycle_length": 14
+        },
+        {
+          "offsets": [
+            0,
+            77
+          ],
+          "gcd": 77,
+          "components": 77,
+          "cycle_length": 6
+        },
+        {
+          "offsets": [
+            21,
+            33
+          ],
+          "gcd": 3,
+          "components": 3,
+          "cycle_length": 154
+        },
+        {
+          "offsets": [
+            21,
+            77
+          ],
+          "gcd": 7,
+          "components": 7,
+          "cycle_length": 66
+        },
+        {
+          "offsets": [
+            33,
+            77
+          ],
+          "gcd": 11,
+          "components": 11,
+          "cycle_length": 42
+        }
+      ]
+    },
+    {
+      "m": 385,
+      "offsets": [
+        0,
+        35,
+        55,
+        77
+      ],
+      "connected": true,
+      "pairs": [
+        {
+          "offsets": [
+            0,
+            35
+          ],
+          "gcd": 35,
+          "components": 35,
+          "cycle_length": 22
+        },
+        {
+          "offsets": [
+            0,
+            55
+          ],
+          "gcd": 55,
+          "components": 55,
+          "cycle_length": 14
+        },
+        {
+          "offsets": [
+            0,
+            77
+          ],
+          "gcd": 77,
+          "components": 77,
+          "cycle_length": 10
+        },
+        {
+          "offsets": [
+            35,
+            55
+          ],
+          "gcd": 5,
+          "components": 5,
+          "cycle_length": 154
+        },
+        {
+          "offsets": [
+            35,
+            77
+          ],
+          "gcd": 7,
+          "components": 7,
+          "cycle_length": 110
+        },
+        {
+          "offsets": [
+            55,
+            77
+          ],
+          "gcd": 11,
+          "components": 11,
+          "cycle_length": 70
+        }
+      ]
+    }
+  ],
+  "clustering": {
+    "points": [
+      "-6",
+      "0",
+      "1/1000",
+      "1/500",
+      "3/1000",
+      "1/250",
+      "8/5"
+    ],
+    "initial_sse": "2251501/75000",
+    "initial_centroids": [
+      "-599/600",
+      "8/5"
+    ],
+    "transfer_deltas": {
+      "-6": "-342001/300000",
+      "0": "25199/300000",
+      "1/1000": "2399999/30000000",
+      "1/500": "285007/3750000",
+      "3/1000": "2160071/30000000",
+      "1/250": "510011/7500000"
+    },
+    "only_initial_improving_transfer": "-6",
+    "initial_inversions": 0,
+    "next_inversions": 5,
+    "next_centroids": [
+      "1/500",
+      "-11/5"
+    ],
+    "shortest_improving_path": [
+      "-6",
+      "8/5"
+    ],
+    "path_length": 2,
+    "final_sse": "159601/75000",
+    "all_nonempty_labeled_partitions": 126,
+    "strict_improvement_arcs": 434
+  },
+  "scope": "Obstructions to proposed proof routes; neither catalog question is refuted."
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "b3-q4666-two-step-tree-controls-v1",
+  "date": "2026-10-13",
+  "passed": true,
+  "offspring_numerators": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "offspring_denominator": 11,
+  "counts": {
+    "square_production_entries": 324,
+    "square_TN2_minors": 23409,
+    "independent_Lagrange_forest_entries": 325,
+    "forest_TN2_minors": 36100,
+    "ratio_controls": 120,
+    "composition_criterion_controls": 3280
+  },
+  "Cor2_9_failure": {
+    "shift": 1,
+    "n": 1,
+    "ratio": "11/3",
+    "upper": "7/2"
+  },
+  "scope": "Finite exact controls support the written all-size two-step proof; not an enumeration-based all-size inference.",
+  "checker_sha256": "12a238ceab29eede48bcfb73cdf61f91eff6ce8a8af63c76e784fcf163d73931",
+  "proof_sha256": "bc87d83d8452b204e39929f2398ae58d2584025b8985c87fa0ac6a24751dbe09"
+}

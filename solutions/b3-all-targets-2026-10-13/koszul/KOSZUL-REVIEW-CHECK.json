@@ -1,0 +1,188 @@
+{
+  "result": "PASS",
+  "independent_of": "check_koszul_routes.py",
+  "join_apolar_matrices": [
+    {
+      "q": 2,
+      "s": 1,
+      "literal_derivative_ranks": [
+        1,
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "q": 2,
+      "s": 2,
+      "literal_derivative_ranks": [
+        1,
+        8,
+        8,
+        1
+      ]
+    },
+    {
+      "q": 2,
+      "s": 3,
+      "literal_derivative_ranks": [
+        1,
+        15,
+        15,
+        1
+      ]
+    },
+    {
+      "q": 3,
+      "s": 1,
+      "literal_derivative_ranks": [
+        1,
+        4,
+        6,
+        4,
+        1
+      ]
+    },
+    {
+      "q": 3,
+      "s": 2,
+      "literal_derivative_ranks": [
+        1,
+        14,
+        24,
+        14,
+        1
+      ]
+    },
+    {
+      "q": 3,
+      "s": 3,
+      "literal_derivative_ranks": [
+        1,
+        36,
+        54,
+        36,
+        1
+      ]
+    },
+    {
+      "q": 4,
+      "s": 1,
+      "literal_derivative_ranks": [
+        1,
+        5,
+        10,
+        10,
+        5,
+        1
+      ]
+    },
+    {
+      "q": 4,
+      "s": 2,
+      "literal_derivative_ranks": [
+        1,
+        24,
+        56,
+        56,
+        24,
+        1
+      ]
+    },
+    {
+      "q": 4,
+      "s": 3,
+      "literal_derivative_ranks": [
+        1,
+        93,
+        162,
+        162,
+        93,
+        1
+      ]
+    }
+  ],
+  "CM_template_pair_maximizations": 5660,
+  "padding_rows": 50,
+  "order_bound_degrees": 89,
+  "reciprocal_polynomial_identity": true,
+  "connected_sum_apolar_matrices": [
+    {
+      "d": 3,
+      "literal_derivative_ranks": [
+        1,
+        6,
+        6,
+        1
+      ],
+      "quadratic_quotient_degree_d_dimension": 2
+    },
+    {
+      "d": 4,
+      "literal_derivative_ranks": [
+        1,
+        8,
+        12,
+        8,
+        1
+      ],
+      "quadratic_quotient_degree_d_dimension": 2
+    },
+    {
+      "d": 5,
+      "literal_derivative_ranks": [
+        1,
+        10,
+        20,
+        20,
+        10,
+        1
+      ],
+      "quadratic_quotient_degree_d_dimension": 2
+    },
+    {
+      "d": 6,
+      "literal_derivative_ranks": [
+        1,
+        12,
+        30,
+        40,
+        30,
+        12,
+        1
+      ],
+      "quadratic_quotient_degree_d_dimension": 2
+    },
+    {
+      "d": 7,
+      "literal_derivative_ranks": [
+        1,
+        14,
+        42,
+        70,
+        70,
+        42,
+        14,
+        1
+      ],
+      "quadratic_quotient_degree_d_dimension": 2
+    },
+    {
+      "d": 8,
+      "literal_derivative_ranks": [
+        1,
+        16,
+        56,
+        112,
+        140,
+        112,
+        56,
+        16,
+        1
+      ],
+      "quadratic_quotient_degree_d_dimension": 2
+    }
+  ],
+  "scope": "Exact finite controls supplement the reviewed all-size arguments.",
+  "checker_sha256": "34593a997b2e355f0de2eedef171e9e2a2a3c08e0d37515ee68c3c78b0e54dd9"
+}

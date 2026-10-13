@@ -1,0 +1,218 @@
+{
+  "status": "passed",
+  "arithmetic": "integer arithmetic and exact sets only",
+  "scope": "Finite controls; general theorems are proved in RESEARCH-NOTE.tex.",
+  "labelled_plane_partitions_examined": 19683,
+  "admissible_labelled_plane_partitions": 1371,
+  "three_dimensional_product_partitions": 35,
+  "maximal_direction_fibre_audits": 1159,
+  "occupied_quotient_audits": 1159,
+  "plane_free_projection_audits": 640,
+  "six_point_blocker_checks": 296010,
+  "five_point_affinely_spanning_sets": 75816,
+  "minimum_sumset_size_in_five_point_spanning_check": 12,
+  "four_point_classification_counts": {
+    "line_and_point": 2808,
+    "plane_cap": 2106,
+    "affine_basis": 12636
+  },
+  "cap_incidence_moment_values": {
+    "0": {
+      "n0": "39",
+      "n1": "0",
+      "n2": "0",
+      "n4": "0",
+      "feasible": true
+    },
+    "1": {
+      "n0": "26",
+      "n1": "13",
+      "n2": "0",
+      "n4": "0",
+      "feasible": true
+    },
+    "2": {
+      "n0": "17",
+      "n1": "18",
+      "n2": "4",
+      "n4": "0",
+      "feasible": true
+    },
+    "3": {
+      "n0": "45/4",
+      "n1": "17",
+      "n2": "21/2",
+      "n4": "1/4",
+      "feasible": false
+    },
+    "4": {
+      "n0": "8",
+      "n1": "12",
+      "n2": "18",
+      "n4": "1",
+      "feasible": true
+    },
+    "5": {
+      "n0": "13/2",
+      "n1": "5",
+      "n2": "25",
+      "n4": "5/2",
+      "feasible": false
+    },
+    "6": {
+      "n0": "6",
+      "n1": "-2",
+      "n2": "30",
+      "n4": "5",
+      "feasible": false
+    },
+    "7": {
+      "n0": "23/4",
+      "n1": "-7",
+      "n2": "63/2",
+      "n4": "35/4",
+      "feasible": false
+    },
+    "8": {
+      "n0": "5",
+      "n1": "-8",
+      "n2": "28",
+      "n4": "14",
+      "feasible": false
+    },
+    "9": {
+      "n0": "3",
+      "n1": "-3",
+      "n2": "18",
+      "n4": "21",
+      "feasible": false
+    },
+    "10": {
+      "n0": "-1",
+      "n1": "10",
+      "n2": "0",
+      "n4": "30",
+      "feasible": false
+    },
+    "11": {
+      "n0": "-31/4",
+      "n1": "33",
+      "n2": "-55/2",
+      "n4": "165/4",
+      "feasible": false
+    },
+    "12": {
+      "n0": "-18",
+      "n1": "68",
+      "n2": "-66",
+      "n4": "55",
+      "feasible": false
+    }
+  },
+  "sharp_three_space_construction": {
+    "R": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "size": 16,
+    "maximum_affine_dimension": 1
+  },
+  "plane_free_cardinality_upper_bounds": {
+    "3": 16,
+    "4": 36,
+    "5": 76,
+    "6": 156,
+    "7": 316,
+    "8": 636,
+    "9": 1276,
+    "10": 2556,
+    "11": 5116,
+    "12": 10236,
+    "13": 20476,
+    "14": 40956,
+    "15": 81916,
+    "16": 163836,
+    "17": 327676,
+    "18": 655356,
+    "19": 1310716,
+    "20": 2621436
+  }
+}

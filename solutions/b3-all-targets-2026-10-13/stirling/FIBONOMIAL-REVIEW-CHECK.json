@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "n4_base_cases": [
+    {
+      "m": 1,
+      "degree": 4,
+      "lower_half_differences": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "m": 2,
+      "degree": 11,
+      "lower_half_differences": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "m": 3,
+      "degree": 22,
+      "lower_half_differences": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "m": 4,
+      "degree": 40,
+      "lower_half_differences": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        6,
+        6,
+        6,
+        7,
+        7,
+        6,
+        7,
+        6,
+        5,
+        5,
+        4,
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "m": 5,
+      "degree": 69,
+      "lower_half_differences": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15,
+        15,
+        16,
+        17,
+        17,
+        17,
+        18,
+        17,
+        17,
+        17,
+        16,
+        15,
+        15,
+        13,
+        12,
+        11,
+        9,
+        8,
+        7,
+        5,
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "m": 6,
+      "degree": 116,
+      "lower_half_differences": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        16,
+        19,
+        20,
+        23,
+        25,
+        27,
+        29,
+        32,
+        33,
+        36,
+        37,
+        39,
+        40,
+        42,
+        42,
+        44,
+        44,
+        45,
+        45,
+        46,
+        45,
+        46,
+        45,
+        45,
+        44,
+        44,
+        42,
+        42,
+        40,
+        39,
+        37,
+        36,
+        33,
+        32,
+        29,
+        27,
+        25,
+        23,
+        20,
+        19,
+        16,
+        14,
+        12,
+        10,
+        7,
+        6,
+        3,
+        1
+      ]
+    }
+  ],
+  "base_difference_controls": 136,
+  "six_residue_errors": [
+    "0",
+    "7/12",
+    "1/3",
+    "1/4",
+    "1/3",
+    "7/12"
+  ],
+  "formal_numerator_terms": {
+    "(0, 0)": 1,
+    "(0, 1)": -1,
+    "(1, 0)": -1,
+    "(1, 3)": 1,
+    "(2, 1)": 1,
+    "(2, 4)": -1,
+    "(3, 3)": -1,
+    "(3, 4)": 1
+  },
+  "Hall_neighbors": {
+    "4": [
+      12,
+      16,
+      20
+    ],
+    "6": [
+      12,
+      18
+    ],
+    "8": [
+      16
+    ],
+    "9": [
+      18
+    ],
+    "10": [
+      20
+    ]
+  },
+  "synthetic_recursion_output": [
+    1,
+    1,
+    2,
+    10,
+    3,
+    11,
+    4,
+    11,
+    3,
+    10,
+    2,
+    1,
+    1
+  ],
+  "actual_NNEEN_forced_degree": 3,
+  "actual_NNEEN_optional_degree": 2,
+  "checker_sha256": "f23d5cad979fb8f8fc39c383d4999fc06b793abf81ae0c05709096736ea0583f",
+  "scope": "Independent arithmetic controls for the all-m n4 proof and named sufficient-route obstructions, not an all-n theorem."
+}

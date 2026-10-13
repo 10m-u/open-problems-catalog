@@ -1,0 +1,178 @@
+{
+  "updated": "2026-10-13",
+  "ownership": "retained agent; no root or canonical edits",
+  "targets": [
+    {
+      "target": "Q3626",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "ordinary primal-basis exchange lifted through tree statistics",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3626-ATTEMPTS.md#q3626-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "denormalized-Lorentzian normalized-Hessian certificate",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3626-ATTEMPTS.md#q3626-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "joint properties from marginal trapezoids and Alexander data",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3626-ATTEMPTS.md#q3626-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "scalar deletion/contraction and cross-branch closure",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3626-ATTEMPTS.md#q3626-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "multiplicative generation from special and mirror factors",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3626-ATTEMPTS.md#q3626-a5"
+        }
+      ],
+      "evidence": [
+        "knots/Q3626-ATTEMPTS.md",
+        "knots/BONINGER-CHECK.json",
+        "knots/CYCLE-PRODUCTS.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q3627",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "symmetric-difference injection on neighboring tree fibers",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3627-ATTEMPTS.md#q3627-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "denormalized-Lorentzian normalized-Hessian certificate",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3627-ATTEMPTS.md#q3627-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "joint properties from marginal trapezoids and Alexander data",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3627-ATTEMPTS.md#q3627-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "scalar deletion/contraction and cross-branch closure",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3627-ATTEMPTS.md#q3627-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "weak conditional-log-concavity product closure",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q3627-ATTEMPTS.md#q3627-a5"
+        }
+      ],
+      "evidence": [
+        "knots/Q3627-ATTEMPTS.md",
+        "knots/BONINGER-CHECK.json",
+        "knots/CYCLE-PRODUCTS.md"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q2731",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "uniform type-B exchange certificate",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2731-ATTEMPTS.md#q2731-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "joint reconstruction from two Alexander specializations",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2731-ATTEMPTS.md#q2731-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "all lattice-line inequalities imply full concave extension",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2731-ATTEMPTS.md#q2731-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "actual cubic skein termwise positive raw-power induction",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2731-ATTEMPTS.md#q2731-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "connected-sum closure of the conjectured coefficient class",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2731-ATTEMPTS.md#q2731-a5"
+        }
+      ],
+      "evidence": [
+        "knots/Q2731-ATTEMPTS.md",
+        "knots/LG-CONCAVITY-CHECK.json"
+      ],
+      "root_review_accepted": true
+    },
+    {
+      "target": "Q2924",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "actual longer multi-peak positive braid counter-construction",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2924-ATTEMPTS.md#q2924-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "uniform real-rootedness sufficient certificate",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2924-ATTEMPTS.md#q2924-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "statewise LC transfer with nonnegative cross terms",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2924-ATTEMPTS.md#q2924-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "one common-state suffix-exchange balancing injection",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2924-ATTEMPTS.md#q2924-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "universal nested-factor multiplicativity from one-peak pieces",
+          "outcome": "full_target_failure",
+          "evidence": "knots/Q2924-ATTEMPTS.md#q2924-a5"
+        }
+      ],
+      "evidence": [
+        "knots/Q2924-ATTEMPTS.md",
+        "knots/RULING-CHECK.json",
+        "knots/RULING-FAMILY-CHECK.json",
+        "knots/TWO-STRAND-RESULT.md"
+      ],
+      "root_review_accepted": true
+    }
+  ]
+}

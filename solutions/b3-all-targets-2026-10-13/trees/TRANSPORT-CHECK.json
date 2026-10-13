@@ -1,0 +1,456 @@
+{
+  "status": "PASS",
+  "tree_counts_verified_through_n": 9,
+  "all_literal_deletion_relations_verified_through_n": 8,
+  "controls": [
+    {
+      "weights": [
+        1,
+        1,
+        2
+      ],
+      "log_concave": false,
+      "pairs": [
+        {
+          "n": 1,
+          "Z_n": 1,
+          "Z_next": 1,
+          "left_trees": 1,
+          "right_trees": 1,
+          "flow": 1,
+          "required": 1,
+          "feasible": true
+        },
+        {
+          "n": 2,
+          "Z_n": 1,
+          "Z_next": 3,
+          "left_trees": 1,
+          "right_trees": 2,
+          "flow": 3,
+          "required": 3,
+          "feasible": true
+        },
+        {
+          "n": 3,
+          "Z_n": 3,
+          "Z_next": 7,
+          "left_trees": 2,
+          "right_trees": 4,
+          "flow": 19,
+          "required": 21,
+          "feasible": false
+        },
+        {
+          "n": 4,
+          "Z_n": 7,
+          "Z_next": 21,
+          "left_trees": 4,
+          "right_trees": 9,
+          "flow": 147,
+          "required": 147,
+          "feasible": true
+        },
+        {
+          "n": 5,
+          "Z_n": 21,
+          "Z_next": 61,
+          "left_trees": 9,
+          "right_trees": 21,
+          "flow": 1259,
+          "required": 1281,
+          "feasible": false
+        },
+        {
+          "n": 6,
+          "Z_n": 61,
+          "Z_next": 191,
+          "left_trees": 21,
+          "right_trees": 51,
+          "flow": 11651,
+          "required": 11651,
+          "feasible": true
+        },
+        {
+          "n": 7,
+          "Z_n": 191,
+          "Z_next": 603,
+          "left_trees": 51,
+          "right_trees": 127,
+          "flow": 115173,
+          "required": 115173,
+          "feasible": true
+        }
+      ],
+      "passes_all_tested": false
+    },
+    {
+      "weights": [
+        1,
+        2,
+        1
+      ],
+      "log_concave": true,
+      "pairs": [
+        {
+          "n": 1,
+          "Z_n": 1,
+          "Z_next": 2,
+          "left_trees": 1,
+          "right_trees": 1,
+          "flow": 2,
+          "required": 2,
+          "feasible": true
+        },
+        {
+          "n": 2,
+          "Z_n": 2,
+          "Z_next": 5,
+          "left_trees": 1,
+          "right_trees": 2,
+          "flow": 10,
+          "required": 10,
+          "feasible": true
+        },
+        {
+          "n": 3,
+          "Z_n": 5,
+          "Z_next": 14,
+          "left_trees": 2,
+          "right_trees": 4,
+          "flow": 70,
+          "required": 70,
+          "feasible": true
+        },
+        {
+          "n": 4,
+          "Z_n": 14,
+          "Z_next": 42,
+          "left_trees": 4,
+          "right_trees": 9,
+          "flow": 588,
+          "required": 588,
+          "feasible": true
+        },
+        {
+          "n": 5,
+          "Z_n": 42,
+          "Z_next": 132,
+          "left_trees": 9,
+          "right_trees": 21,
+          "flow": 5544,
+          "required": 5544,
+          "feasible": true
+        },
+        {
+          "n": 6,
+          "Z_n": 132,
+          "Z_next": 429,
+          "left_trees": 21,
+          "right_trees": 51,
+          "flow": 56628,
+          "required": 56628,
+          "feasible": true
+        },
+        {
+          "n": 7,
+          "Z_n": 429,
+          "Z_next": 1430,
+          "left_trees": 51,
+          "right_trees": 127,
+          "flow": 613470,
+          "required": 613470,
+          "feasible": true
+        }
+      ],
+      "passes_all_tested": true
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "log_concave": false,
+      "pairs": [
+        {
+          "n": 1,
+          "Z_n": 1,
+          "Z_next": 2,
+          "left_trees": 1,
+          "right_trees": 1,
+          "flow": 2,
+          "required": 2,
+          "feasible": true
+        },
+        {
+          "n": 2,
+          "Z_n": 2,
+          "Z_next": 7,
+          "left_trees": 1,
+          "right_trees": 2,
+          "flow": 14,
+          "required": 14,
+          "feasible": true
+        },
+        {
+          "n": 3,
+          "Z_n": 7,
+          "Z_next": 31,
+          "left_trees": 2,
+          "right_trees": 5,
+          "flow": 217,
+          "required": 217,
+          "feasible": true
+        },
+        {
+          "n": 4,
+          "Z_n": 31,
+          "Z_next": 146,
+          "left_trees": 5,
+          "right_trees": 13,
+          "flow": 4526,
+          "required": 4526,
+          "feasible": true
+        },
+        {
+          "n": 5,
+          "Z_n": 146,
+          "Z_next": 727,
+          "left_trees": 13,
+          "right_trees": 36,
+          "flow": 106142,
+          "required": 106142,
+          "feasible": true
+        },
+        {
+          "n": 6,
+          "Z_n": 727,
+          "Z_next": 3774,
+          "left_trees": 36,
+          "right_trees": 104,
+          "flow": 2743698,
+          "required": 2743698,
+          "feasible": true
+        },
+        {
+          "n": 7,
+          "Z_n": 3774,
+          "Z_next": 20169,
+          "left_trees": 104,
+          "right_trees": 309,
+          "flow": 76117806,
+          "required": 76117806,
+          "feasible": true
+        },
+        {
+          "n": 8,
+          "Z_n": 20169,
+          "Z_next": 110226,
+          "left_trees": 309,
+          "right_trees": 939,
+          "flow": 2223148194,
+          "required": 2223148194,
+          "feasible": true
+        },
+        {
+          "n": 9,
+          "Z_n": 110226,
+          "Z_next": 613244,
+          "left_trees": 939,
+          "right_trees": 2905,
+          "flow": 67595433144,
+          "required": 67595433144,
+          "feasible": true
+        },
+        {
+          "n": 10,
+          "Z_n": 613244,
+          "Z_next": 3461530,
+          "left_trees": 2905,
+          "right_trees": 9118,
+          "flow": 2122762503320,
+          "required": 2122762503320,
+          "feasible": true
+        },
+        {
+          "n": 11,
+          "Z_n": 3461530,
+          "Z_next": 19774625,
+          "left_trees": 9118,
+          "right_trees": 28964,
+          "flow": 68450457676250,
+          "required": 68450457676250,
+          "feasible": true
+        }
+      ],
+      "passes_all_tested": true
+    },
+    {
+      "weights": [
+        1,
+        1,
+        2,
+        4
+      ],
+      "log_concave": false,
+      "pairs": [
+        {
+          "n": 1,
+          "Z_n": 1,
+          "Z_next": 1,
+          "left_trees": 1,
+          "right_trees": 1,
+          "flow": 1,
+          "required": 1,
+          "feasible": true
+        },
+        {
+          "n": 2,
+          "Z_n": 1,
+          "Z_next": 3,
+          "left_trees": 1,
+          "right_trees": 2,
+          "flow": 3,
+          "required": 3,
+          "feasible": true
+        },
+        {
+          "n": 3,
+          "Z_n": 3,
+          "Z_next": 11,
+          "left_trees": 2,
+          "right_trees": 5,
+          "flow": 33,
+          "required": 33,
+          "feasible": true
+        },
+        {
+          "n": 4,
+          "Z_n": 11,
+          "Z_next": 37,
+          "left_trees": 5,
+          "right_trees": 13,
+          "flow": 391,
+          "required": 407,
+          "feasible": false
+        },
+        {
+          "n": 5,
+          "Z_n": 37,
+          "Z_next": 141,
+          "left_trees": 13,
+          "right_trees": 36,
+          "flow": 5217,
+          "required": 5217,
+          "feasible": true
+        },
+        {
+          "n": 6,
+          "Z_n": 141,
+          "Z_next": 559,
+          "left_trees": 36,
+          "right_trees": 104,
+          "flow": 78819,
+          "required": 78819,
+          "feasible": true
+        },
+        {
+          "n": 7,
+          "Z_n": 559,
+          "Z_next": 2255,
+          "left_trees": 104,
+          "right_trees": 309,
+          "flow": 1260545,
+          "required": 1260545,
+          "feasible": true
+        }
+      ],
+      "passes_all_tested": false
+    },
+    {
+      "weights": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "log_concave": false,
+      "pairs": [
+        {
+          "n": 1,
+          "Z_n": 1,
+          "Z_next": 1,
+          "left_trees": 1,
+          "right_trees": 1,
+          "flow": 1,
+          "required": 1,
+          "feasible": true
+        },
+        {
+          "n": 2,
+          "Z_n": 1,
+          "Z_next": 3,
+          "left_trees": 1,
+          "right_trees": 2,
+          "flow": 3,
+          "required": 3,
+          "feasible": true
+        },
+        {
+          "n": 3,
+          "Z_n": 3,
+          "Z_next": 9,
+          "left_trees": 2,
+          "right_trees": 5,
+          "flow": 27,
+          "required": 27,
+          "feasible": true
+        },
+        {
+          "n": 4,
+          "Z_n": 9,
+          "Z_next": 29,
+          "left_trees": 5,
+          "right_trees": 13,
+          "flow": 257,
+          "required": 261,
+          "feasible": false
+        },
+        {
+          "n": 5,
+          "Z_n": 29,
+          "Z_next": 101,
+          "left_trees": 13,
+          "right_trees": 36,
+          "flow": 2929,
+          "required": 2929,
+          "feasible": true
+        },
+        {
+          "n": 6,
+          "Z_n": 101,
+          "Z_next": 363,
+          "left_trees": 36,
+          "right_trees": 104,
+          "flow": 36663,
+          "required": 36663,
+          "feasible": true
+        },
+        {
+          "n": 7,
+          "Z_n": 363,
+          "Z_next": 1345,
+          "left_trees": 104,
+          "right_trees": 309,
+          "flow": 488235,
+          "required": 488235,
+          "feasible": true
+        }
+      ],
+      "passes_all_tested": false
+    }
+  ],
+  "scope": "Finite pairs n=1..11 for (1,2,3,5), n=1..7 for the controls. No infinite coupling is claimed for non-log-concave weights."
+}

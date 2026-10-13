@@ -1,0 +1,424 @@
+{
+  "status": "passed",
+  "attempt_controls": [
+    {
+      "attempt": 2,
+      "m": 1155,
+      "offsets": [
+        0,
+        385,
+        231,
+        165,
+        105
+      ],
+      "all_cubic_offset_subgraphs_disconnected": [
+        {
+          "offsets": [
+            0,
+            385,
+            231
+          ],
+          "components": 77
+        },
+        {
+          "offsets": [
+            0,
+            385,
+            165
+          ],
+          "components": 55
+        },
+        {
+          "offsets": [
+            0,
+            385,
+            105
+          ],
+          "components": 35
+        },
+        {
+          "offsets": [
+            0,
+            231,
+            165
+          ],
+          "components": 33
+        },
+        {
+          "offsets": [
+            0,
+            231,
+            105
+          ],
+          "components": 21
+        },
+        {
+          "offsets": [
+            0,
+            165,
+            105
+          ],
+          "components": 15
+        },
+        {
+          "offsets": [
+            385,
+            231,
+            165
+          ],
+          "components": 11
+        },
+        {
+          "offsets": [
+            385,
+            231,
+            105
+          ],
+          "components": 7
+        },
+        {
+          "offsets": [
+            385,
+            165,
+            105
+          ],
+          "components": 5
+        },
+        {
+          "offsets": [
+            231,
+            165,
+            105
+          ],
+          "components": 3
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "m": 1365,
+      "offsets": [
+        0,
+        455,
+        273,
+        195,
+        105
+      ],
+      "all_cubic_offset_subgraphs_disconnected": [
+        {
+          "offsets": [
+            0,
+            455,
+            273
+          ],
+          "components": 91
+        },
+        {
+          "offsets": [
+            0,
+            455,
+            195
+          ],
+          "components": 65
+        },
+        {
+          "offsets": [
+            0,
+            455,
+            105
+          ],
+          "components": 35
+        },
+        {
+          "offsets": [
+            0,
+            273,
+            195
+          ],
+          "components": 39
+        },
+        {
+          "offsets": [
+            0,
+            273,
+            105
+          ],
+          "components": 21
+        },
+        {
+          "offsets": [
+            0,
+            195,
+            105
+          ],
+          "components": 15
+        },
+        {
+          "offsets": [
+            455,
+            273,
+            195
+          ],
+          "components": 13
+        },
+        {
+          "offsets": [
+            455,
+            273,
+            105
+          ],
+          "components": 7
+        },
+        {
+          "offsets": [
+            455,
+            195,
+            105
+          ],
+          "components": 5
+        },
+        {
+          "offsets": [
+            273,
+            195,
+            105
+          ],
+          "components": 3
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "m": 2145,
+      "offsets": [
+        0,
+        715,
+        429,
+        195,
+        165
+      ],
+      "all_cubic_offset_subgraphs_disconnected": [
+        {
+          "offsets": [
+            0,
+            715,
+            429
+          ],
+          "components": 143
+        },
+        {
+          "offsets": [
+            0,
+            715,
+            195
+          ],
+          "components": 65
+        },
+        {
+          "offsets": [
+            0,
+            715,
+            165
+          ],
+          "components": 55
+        },
+        {
+          "offsets": [
+            0,
+            429,
+            195
+          ],
+          "components": 39
+        },
+        {
+          "offsets": [
+            0,
+            429,
+            165
+          ],
+          "components": 33
+        },
+        {
+          "offsets": [
+            0,
+            195,
+            165
+          ],
+          "components": 15
+        },
+        {
+          "offsets": [
+            715,
+            429,
+            195
+          ],
+          "components": 13
+        },
+        {
+          "offsets": [
+            715,
+            429,
+            165
+          ],
+          "components": 11
+        },
+        {
+          "offsets": [
+            715,
+            195,
+            165
+          ],
+          "components": 5
+        },
+        {
+          "offsets": [
+            429,
+            195,
+            165
+          ],
+          "components": 3
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "m": 24,
+      "offsets": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "initial_cycle_cover_components": 4,
+      "four_cycles": 0,
+      "hamilton_two_offset_witness": [
+        0,
+        1
+      ]
+    },
+    {
+      "attempt": 3,
+      "m": 48,
+      "offsets": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "initial_cycle_cover_components": 4,
+      "four_cycles": 0,
+      "hamilton_two_offset_witness": [
+        0,
+        1
+      ]
+    },
+    {
+      "attempt": 3,
+      "m": 72,
+      "offsets": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "initial_cycle_cover_components": 4,
+      "four_cycles": 0,
+      "hamilton_two_offset_witness": [
+        0,
+        1
+      ]
+    },
+    {
+      "attempt": 4,
+      "m": 15,
+      "quotient_modulus": 5,
+      "offsets": [
+        0,
+        3,
+        5
+      ],
+      "quotient_cycle_offsets": [
+        0,
+        3
+      ],
+      "lift_components": 3,
+      "lift_component_size": 10
+    },
+    {
+      "attempt": 4,
+      "m": 21,
+      "quotient_modulus": 7,
+      "offsets": [
+        0,
+        3,
+        7
+      ],
+      "quotient_cycle_offsets": [
+        0,
+        3
+      ],
+      "lift_components": 3,
+      "lift_component_size": 14
+    },
+    {
+      "attempt": 4,
+      "m": 35,
+      "quotient_modulus": 7,
+      "offsets": [
+        0,
+        5,
+        7
+      ],
+      "quotient_cycle_offsets": [
+        0,
+        5
+      ],
+      "lift_components": 5,
+      "lift_component_size": 14
+    },
+    {
+      "attempt": 4,
+      "m": 55,
+      "quotient_modulus": 11,
+      "offsets": [
+        0,
+        5,
+        11
+      ],
+      "quotient_cycle_offsets": [
+        0,
+        5
+      ],
+      "lift_components": 5,
+      "lift_component_size": 22
+    },
+    {
+      "attempt": 5,
+      "m": 5,
+      "offsets": [
+        0,
+        1,
+        2
+      ],
+      "nonclosing_hamilton_path": [
+        0,
+        5,
+        3,
+        8,
+        2,
+        7,
+        1,
+        6,
+        4,
+        9
+      ],
+      "dfs_calls": 21,
+      "all_simultaneous_shifts_remain_nonclosing": true,
+      "hamilton_cycle_offsets": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scope": "Proposed construction/lifting lemmas fail; Q1953 is not refuted."
+}

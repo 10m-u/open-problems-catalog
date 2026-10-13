@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "actual_random_samples_replayed": 144,
+  "all_five_vertex_graphs_literal_checked": 1024,
+  "deterministic_criterion_indices_checked": 651,
+  "claw_row": [
+    1,
+    4,
+    3,
+    1
+  ],
+  "claw_discriminant": -31,
+  "weighted_claw_failure": [
+    1,
+    13,
+    3,
+    1
+  ],
+  "actual_M_convex_exchange_failure": true,
+  "known_tree_top_coefficients": [
+    2979,
+    51,
+    1
+  ],
+  "known_tree_defect": -378,
+  "known_tree_formula_independently_matches_deletion": true,
+  "isolated_tree_joint_absent_edge_counts": [
+    {
+      "h": 4,
+      "n": 100,
+      "d": 2,
+      "positive_expectation": true
+    },
+    {
+      "h": 4,
+      "n": 100,
+      "d": 8,
+      "positive_expectation": true
+    },
+    {
+      "h": 4,
+      "n": 1000,
+      "d": 16,
+      "positive_expectation": true
+    },
+    {
+      "h": 26,
+      "n": 100,
+      "d": 2,
+      "positive_expectation": true
+    },
+    {
+      "h": 26,
+      "n": 100,
+      "d": 8,
+      "positive_expectation": true
+    },
+    {
+      "h": 26,
+      "n": 1000,
+      "d": 16,
+      "positive_expectation": true
+    }
+  ],
+  "scope": "Exact finite witnesses and algebraic controls; all-size prefix/probability proofs live in the accompanying documents.",
+  "checker_sha256": "0f4af9bdb3b1af2e53a6da678f3c4151b2123f2fba7dcc97c5aad51c22f19ea5"
+}

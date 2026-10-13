@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-13",
+  "submitted_date": "2026-10-12",
+  "review_policy": "main-thread intake proof review and check replay; no external peer review",
+  "new_exact_catalog_closures": 0,
+  "records": [
+    {
+      "id": "B14-R4-COMPLETION",
+      "title": "Minimum-repair structure and exact contracted solving",
+      "status": "proved",
+      "relationship": "reviewed-strengthening-of-programme-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "Even two-port module necklaces with no spanning port-to-port path, port-starting paths and costs B(2+repair_indicator)+s, 0<=s<=W, B>nW, have k/2 repairs in every optimum. Two alternating connector patterns characterize that face. Endpoint-separable repairs give an exact local-table formula; arbitrary secondary repairs have an exact subset DP on m=k/2 paired path units. Forced-edge completion bounds are safe.",
+      "remaining": "The module representation and primary gap are input promises. The optimized local-table complexity is O(n^2+kb^2 2^b+m^2b^3 2^m); the prototype enumerates local paths. No universal TSP runtime or practical benchmark improvement is established.",
+      "evidence_labels": [
+        "submitted-written-proof",
+        "main-thread-intake-mathematical-review",
+        "reproduced-exact-checks"
+      ],
+      "proof_location": "solutions/b14-fourth-round-2026-10-12/submission/proofs/COMPLETION-CERTIFICATES.md"
+    },
+    {
+      "id": "B14-R4-SEPARATION",
+      "title": "Completion separates from all rooted forced 1-tree bounds",
+      "status": "proved",
+      "relationship": "reviewed-strengthening-of-programme-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For every even k>=18, a strict four-cost integer metric on n=10k cities has a unique optimum T. All forced rooted 1-tree bounds at every root and real vertex potential are below OPT; completion bounds delete every non-T edge. The retained 180-city instance has OPT=66789 and retains 180 of 16110 edges.",
+      "remaining": "This is a constructed separating family, not a blinded benchmark or a comparison against all LP cuts, local elimination methods or complete solvers. Earlier fractional-witness ingredients remain attributed to the handoff.",
+      "evidence_labels": [
+        "submitted-written-proof",
+        "main-thread-intake-mathematical-review",
+        "reproduced-exact-checks"
+      ],
+      "proof_location": "solutions/b14-fourth-round-2026-10-12/submission/proofs/COMPLETION-CERTIFICATES.md"
+    },
+    {
+      "id": "B14-R4-BLOCK-DESCENT",
+      "title": "Deterministic quadratic 2-opt descent on bounded blocks",
+      "status": "proved",
+      "relationship": "reviewed-strengthening-of-programme-result",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "On positive weighted shortest-path metrics with all generating vertices as cities, all nonzero 2-opt block gains share a sign. Every strict descent has at most n sum_B D_B 2^(D_B-1) moves, D_B=binom(|B|,2). Maximum block size b gives n(n-1)b 2^(binom(b,2)-2); b=4 gives 64n(n-1), from any initializer/pivot.",
+      "remaining": "This is a move-count result with real-arithmetic scope, not nearest-neighbor quality, global optimality on cyclic blocks, bounded-treewidth generality or a 3-opt theorem. REVIEW.md corrects a repeated-label triangle witness without changing the result. General weight compression is established background.",
+      "evidence_labels": [
+        "submitted-written-proof",
+        "main-thread-intake-mathematical-review",
+        "reproduced-exact-checks"
+      ],
+      "proof_location": "solutions/b14-fourth-round-2026-10-12/submission/proofs/BLOCKWISE-DESCENT.md"
+    }
+  ]
+}

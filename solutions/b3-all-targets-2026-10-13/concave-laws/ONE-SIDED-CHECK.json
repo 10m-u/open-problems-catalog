@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "bernstein_coefficients": 221,
+  "independent_power_coefficient_reconstruction": 221,
+  "exact_exponential_bounds": 4,
+  "parameter_interval_inequalities": 5,
+  "two_sided_algebra_identities": 4,
+  "kernel_coefficient_controls": 78,
+  "checker_sha256": "09eb4bd85b6709d13f58a5761570754ec2509b31811c4bd7e961f59cb3134f94",
+  "certificate_sha256": "156a070bf0f80bd52e7fe685338b5e65c65d9686c7368d1d6557e2284984bdc1",
+  "scope": "Exact uniform controls used in ONE-SIDED.md; proof review still required."
+}

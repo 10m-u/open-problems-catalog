@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "column_rectification": {
+    "lambda_mu": {
+      "admissible_tableaux": 558,
+      "rectification_fibre": 20
+    },
+    "mu_lambda": {
+      "admissible_tableaux": 1156,
+      "rectification_fibre": 16
+    }
+  },
+  "row_control": {
+    "lambda_mu": {
+      "admissible_tableaux": 558,
+      "rectification_fibre": 16
+    },
+    "mu_lambda": {
+      "admissible_tableaux": 1156,
+      "rectification_fibre": 16
+    }
+  },
+  "fixed_box_fibre": [
+    {
+      "3": [
+        5,
+        6
+      ]
+    }
+  ],
+  "fixed_box_fibre_size": 1,
+  "required_power_two_divisor": 2,
+  "checker_sha256": "3876379e0afe40ee50b4f00f08954ec01b0184e71c43b2f626d9d94a18b32a5d",
+  "scope": "Independent literal bounded repair obstructions; RYY one-parameter objects are not a proved full OG rule."
+}

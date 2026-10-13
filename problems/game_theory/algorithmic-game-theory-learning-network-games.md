@@ -1,6 +1,6 @@
 # Algorithmic Game Theory, Learning & Network Games
 
-86 problems: 83 open, 3 solved here: disproved.
+88 problems: 85 open, 3 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -92,6 +92,8 @@
 | [Q4171](algorithmic-game-theory-learning-network-games.md#q4171) | In the preceding connected MMS model, what is the largest constant c that guarantees a c-MMS… | Open |
 | [Q4307](algorithmic-game-theory-learning-network-games.md#q4307) | Determine the computational complexity of finding a minimum-cardinality S⊆V for which G−S is… | Open |
 | [Q4637](algorithmic-game-theory-learning-network-games.md#q4637) | Suppose lim_{λ↓0}V_λ(h,·) exists pointwise on Δ(Ω) for every sufficiently small h. Must… | Open |
+| [Q4746](algorithmic-game-theory-learning-network-games.md#q4746) | Whenever a remaining position has a weight-one convex-hull vertex, is removing any such vertex… | Open |
+| [Q4747](algorithmic-game-theory-learning-network-games.md#q4747) | Determine γ=limsup_(p→∞) max{M(C)/p: \|C\| odd, r(C)=p}, where p ranges over positive integers and… | Open |
 
 <a id="q62"></a>
 
@@ -1517,4 +1519,38 @@ Suppose lim_{λ↓0}V_λ(h,·) exists pointwise on Δ(Ω) for every sufficiently
 **Source.** Ivan Novikov. *Zero-Sum Stochastic Games with Frequent Actions and Vanishing Discount Factors*. 2026. [primary source](https://ivan-novikov98.github.io/files/pdf/additional%20materials/defense/present-ihp.pdf) Location: Question6,p.25; model,pp.4–5,10,14.
 
 **Further links.** [1](https://arxiv.org/abs/2401.10572) · [2](https://arxiv.org/abs/2403.07467v3) · [3](https://arxiv.org/abs/2407.16282v2)
+
+
+<a id="q4746"></a>
+
+## Q4746. Whenever a remaining position has a weight-one convex-hull vertex, is removing any such vertex…
+
+**Status:** Open · **Kind:** conjecture (Conjecture 23) · **Collection** 48
+
+Whenever a remaining position has a weight-one convex-hull vertex, is removing any such vertex optimal for the player to move?
+
+**Context.** Setup: C is a finite planar point set with no three collinear, each point weighted 0 or 1. Alice moves first; players alternately remove a vertex of the remaining convex hull, each maximizing their total removed weight. Let r(C) count weight-one points and M(C) be Bob’s score under optimal play. Audited provenance and status: Subject: Combinatorial game theory and discrete geometry Massively Winning Configurations in the Convex Grabbing Game on the Plane; Dvořák–Nicholson, CCCG2021 pp89–96, Conjecture2/§6; current arXivv3 Conjecture23 p11/§6 p13. Pursuit of Truth and Beauty in Lean4: Formally Verified Theory of Grammars, Optimization, Matroids,2026; updated thesis p.iv explicitly excludes this paper. Formalization programmes screened. Checked12October2026: latest arXivv3 and conference final read; no matching resolution located. Known3/4≤γ≤1.
+
+**Source.** Martin Dvořák; Rachael Nicholson. *Massively Winning Configurations in the Convex Grabbing Game on the Plane*. 2026. [primary source](https://arxiv.org/abs/2106.11247) Location: Conjecture 23, p.11 (earlier conference Conjecture 2).
+
+**Literature check.** Status: Checked12October2026: latest arXivv3 and conference final read; no matching resolution located. Known3/4≤γ≤1.
+
+**Further links.** [1](https://research-explorer.ista.ac.at/record/21393) · [2](https://research-explorer.ista.ac.at/download/21393/21394/2026_Dvorak_Martin_Thesis.pdf) · [3](https://madvorak.github.io/2026_Dvorak_Martin_Thesis_improved.pdf) · [4](https://madvorak.github.io/) · [5](https://research-explorer.ista.ac.at/record/9592) · [6](https://research-explorer.ista.ac.at/download/9592/9616/Convex-Grabbing-Game_CCCG_proc_version.pdf) · [7](https://projects.cs.dal.ca/cccg2021/wordpress/wp-content/uploads/2021/08/CCCG2021.pdf)
+
+
+<a id="q4747"></a>
+
+## Q4747. Determine γ=limsup_(p→∞) max{M(C)/p: |C| odd, r(C)=p}, where p ranges over positive integers and…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Determine γ=limsup_(p→∞) max{M(C)/p: |C| odd, r(C)=p}, where p ranges over positive integers and C over all such weighted point sets.
+
+**Context.** Setup: C is a finite planar point set with no three collinear, each point weighted 0 or 1. Alice moves first; players alternately remove a vertex of the remaining convex hull, each maximizing their total removed weight. Let r(C) count weight-one points and M(C) be Bob’s score under optimal play. Audited provenance and status: Subject: Combinatorial game theory and discrete geometry Massively Winning Configurations in the Convex Grabbing Game on the Plane; Dvořák–Nicholson, CCCG2021 pp89–96, Conjecture2/§6; current arXivv3 Conjecture23 p11/§6 p13. Pursuit of Truth and Beauty in Lean4: Formally Verified Theory of Grammars, Optimization, Matroids,2026; updated thesis p.iv explicitly excludes this paper. Formalization programmes screened. Checked12October2026: latest arXivv3 and conference final read; no matching resolution located. Known3/4≤γ≤1.
+
+**Source.** Martin Dvořák; Rachael Nicholson. *Massively Winning Configurations in the Convex Grabbing Game on the Plane*. 2026. [primary source](https://arxiv.org/abs/2106.11247) Location: §6, p.13.
+
+**Literature check.** Status: Checked12October2026: latest arXivv3 and conference final read; no matching resolution located. Known3/4≤γ≤1.
+
+**Further links.** [1](https://research-explorer.ista.ac.at/record/21393) · [2](https://research-explorer.ista.ac.at/download/21393/21394/2026_Dvorak_Martin_Thesis.pdf) · [3](https://madvorak.github.io/2026_Dvorak_Martin_Thesis_improved.pdf) · [4](https://madvorak.github.io/) · [5](https://research-explorer.ista.ac.at/record/9592) · [6](https://research-explorer.ista.ac.at/download/9592/9616/Convex-Grabbing-Game_CCCG_proc_version.pdf) · [7](https://projects.cs.dal.ca/cccg2021/wordpress/wp-content/uploads/2021/08/CCCG2021.pdf)
 

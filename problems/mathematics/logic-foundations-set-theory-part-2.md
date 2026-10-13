@@ -2,6 +2,81 @@
 
 [Subject overview](logic-foundations-set-theory.md) · Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-theory-part-2.md)
 
+<a id="q2469"></a>
+
+## Q2469. Strength of inhomogeneous ring regularity
+
+**Status:** Open, partial results · **Kind:** open problem (Question 3) · **Collection** 25 · *provisional entry*
+
+What is the reverse-mathematical strength over RCA₀ of the assertion: for every commutative ring R, finite m×n matrix A over R and nonzero b∈R^m, if Ax=b has no constant solution, some finite coloring of R has no monochromatic solution?
+
+**Context.** Doctoral context for question 2469: Gabriela Laboska. PhD, University of Chicago, 2025. Advisors: Maryanthe Malliaris; Denis Hirschfeldt. Origin for question 2469: Leader–Russell 2020; effective questions Laboska 2025. Setup for question 2469: A monochromatic solution has all coordinates the same color; a constant solution has all coordinates equal. Rings and algebraic operations are countable coded structures.
+
+**Source.** Gabriela Laboska. *On the Effectiveness of Partition Regularity over Algebraic Structures*. 2026. [primary source](https://doi.org/10.1017/jsl.2025.10178) Location: Open Question 3, p. 5; §2.1.
+
+**Literature check.** Status for question 2469, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
+
+**Results.**
+
+- **Partial result**: WKL0 proves the retained ring-coloring assertion over RCA0, with at most [3(n-1)]^(n-1) colors for n>=2 and one color for n<=1. A finite-presentation construction avoids comprehension of the range sR; supplied finite integer matrices are diagonalized by an explicit primitive-recursive algorithm. Every PA degree relative to the input can compute a witnessing coloring. Restricted scope: Countable coded commutative rings, as required for the retained second-order arithmetic statement; no additional ring hypothesis. Only an upper bound on logical strength is proved. Remaining: No WKL0 reversal, lower bound on the optimal color count, or exact reverse-mathematical classification is proved. Recorded from the external B2 return  (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here. [Details](../../solutions/b2-2026-10-07/B2_Research_Report_2026-10-07.md).
+- **Related result** (B2-R5: auxiliary proof submission): Over RCA0, WKL0 implies the ring-coloring assertion, with q(n)=[3(n-1)]^(n-1) colors for n>=2. The finite feasibility lemma is proved by explicit integer-matrix diagonalization. Location: Part E. Restricted scope: Only the upper logical bound is proved. Full retained question(s) remain unresolved; consult intake checks and archive limits. [Report](../../solutions/b2-2026-10-07/README.md).
+- **Partial result** (B2-CONTINUATION-RCA0-SINGLE-DIFFERENCE: RCA0 three-color single-difference avoidance): For every coded countable abelian group and nonzero b, the translation graph of x-y=b has degree at most two. Greedy coloring in the enumeration gives a three-color avoidance proof in RCA0. Remaining/limits: This is a single-equation subcase. It does not classify the ring/matrix assertion or imply a two-color reversal. Prior partial mark retained. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/RAMSEY-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
+**Further links.** [1](https://knowledge.uchicago.edu/records/7rfhc-ymn78)
+
+
+<a id="q2470"></a>
+
+## Q2470. Maximal complexity of hyperfiniteness
+
+**Status:** Open · **Kind:** open problem (Question 3.2.3) · **Collection** 25 · *provisional entry*
+
+Is the set of Borel codes for hyperfinite CBERs on Baire space Σ¹₂-complete?
+
+**Context.** Doctoral context for questions 2470, 2471: Cecelia Higgins. PhD, University of California, Los Angeles, 2025. Advisors: Andrew Marks; Anton Bernshteyn. Origin for questions 2470, 2471: Dougherty–Jackson–Kechris 1994; Weiss 1984. Setup for questions 2470, 2471: A CBER is a countable Borel equivalence relation on a standard Borel space. It is hyperfinite if it is an increasing countable union of Borel equivalence relations with finite classes.
+
+**Source.** Cecelia Higgins. *Measurable Brooks’s Theorem for Directed Graphs and the Complexity of Finite Borel Asymptotic Dimension*. University of California, Los Angeles, 2025. Advisor(s): Andrew Marks; Anton Bernshteyn. [primary source](https://escholarship.org/uc/item/7w93q45v) Location: Question 3.2.3, p. 54.
+
+**Literature check.** Status for questions 2470, 2471, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
+
+**Further links.** [1](https://doi.org/10.1017/fms.2026.10180) · [2](https://arxiv.org/abs/2608.18439v2)
+
+
+<a id="q2471"></a>
+
+## Q2471. Hyperfiniteness of amenable actions
+
+**Status:** Open · **Kind:** open problem (Question 3.3.1) · **Collection** 25 · *provisional entry*
+
+For every Borel action of a countable amenable group on a standard Borel space, is its orbit equivalence relation hyperfinite?
+
+**Context.** Doctoral context for questions 2470, 2471: Cecelia Higgins. PhD, University of California, Los Angeles, 2025. Advisors: Andrew Marks; Anton Bernshteyn. Origin for questions 2470, 2471: Dougherty–Jackson–Kechris 1994; Weiss 1984. Setup for questions 2470, 2471: A CBER is a countable Borel equivalence relation on a standard Borel space. It is hyperfinite if it is an increasing countable union of Borel equivalence relations with finite classes.
+
+**Source.** Cecelia Higgins. *Measurable Brooks’s Theorem for Directed Graphs and the Complexity of Finite Borel Asymptotic Dimension*. University of California, Los Angeles, 2025. Advisor(s): Andrew Marks; Anton Bernshteyn. [primary source](https://escholarship.org/uc/item/7w93q45v) Location: Question 3.3.1, p. 55.
+
+**Literature check.** Status for questions 2470, 2471, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
+
+**Further links.** [1](https://doi.org/10.1017/fms.2026.10180) · [2](https://arxiv.org/abs/2608.18439v2)
+
+
+<a id="q2472"></a>
+
+## Q2472. Bounded-degree dimension complexity
+
+**Status:** Open · **Kind:** open problem (Question 6.1) · **Collection** 25 · *provisional entry*
+
+Is the set of codes for bounded-degree Borel graphs with finite Borel asymptotic dimension Σ¹₂-complete?
+
+**Context.** Doctoral context for question 2472: see question 2470. Origin for question 2472: Preprint 2024; Question 6.1. Setup for question 2472: For a Borel graph G, asdim_B(G)≤d means: for every integer r≥1 there is a Borel partition into d+1 sets whose components in the distance≤r graph have uniformly bounded G-diameter.
+
+**Source.** Jan Grebík; Cecelia Higgins. *Complexity of Finite Borel Asymptotic Dimension*. 2026. [primary source](https://doi.org/10.1017/fms.2026.10180) Location: Question 6.1, p. 15.
+
+**Literature check.** Status for question 2472, checked 7 October 2026: Checked 7 October 2026: question retained in the reviewed source; targeted searches found no matching resolution.
+
+**Further links.** [1](https://arxiv.org/abs/2411.08797v3) · [2](https://escholarship.org/uc/item/7w93q45v)
+
+
 <a id="q2473"></a>
 
 ## Q2473. Two colors on dihedral orbits
@@ -833,7 +908,7 @@ If O_v is parameter-free existentially definable in K, must O_{v♭} be paramete
 
 ## Q2777. One-dimensional spectra of GP²
 
-**Status:** Open · **Kind:** open problem · **Collection** 28
+**Status:** Solved here: proved · **Kind:** open problem · **Collection** 28
 
 For every GP² sentence φ, is {|M|: M is finite and M⊨φ} semilinear?
 
@@ -843,6 +918,11 @@ For every GP² sentence φ, is {|M|: M is finite and M⊨φ} semilinear?
 
 **Literature check.** Status for questions 2777, 2778, checked 7 October 2026: Explicitly open in the 2026 proceedings; no later resolution located through 7 October 2026.
 
+**Results.**
+
+- **Proved**: For every GP² sentence in the local positive binary-guard syntax, finite models split into finitely many closed-subformula truth profiles. Each profile is closed under disjoint union, so its positive size set is additive and is a finite union of arithmetic progressions. This proves ordinary one-dimensional semilinearity, without an effective construction or a multivariate/global-cardinality conclusion. Independently reviewed internally; finite checks support the proof. No novelty or external-review claim. [Details](../../solutions/b1-continuation-2026-10-12/gp2/Q2777-RESULT.md).
+- **Proved** (B1-CONTINUATION-Q2777: Finite total-size spectra of GP² are semilinear): For every GP² sentence in the local positive binary-guard syntax, finite models split into finitely many closed-subformula truth profiles. Each profile is closed under disjoint union, so its positive size set is additive and is a finite union of arithmetic progressions. This proves ordinary one-dimensional semilinearity, without an effective construction or a multivariate/global-cardinality conclusion. Independently reviewed internally; finite checks support the proof. No novelty or external-review claim. Remaining/limits: No effective spectrum representation or novelty claim. [Report](../../solutions/b1-continuation-2026-10-12/gp2/Q2777-RESULT.md).
+
 **Further links.** [1](https://arxiv.org/abs/2508.03574)
 
 
@@ -850,7 +930,7 @@ For every GP² sentence φ, is {|M|: M is finite and M⊨φ} semilinear?
 
 ## Q2778. Global cardinality constraints for GP²
 
-**Status:** Open · **Kind:** open problem · **Collection** 28
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 28
 
 Is finite satisfiability decidable for GP² sentences conjoined with global linear integer constraints among cardinalities of unary GP²-definable sets?
 
@@ -859,6 +939,12 @@ Is finite satisfiability decidable for GP² sentences conjoined with global line
 **Source.** Michael Benedikt; Chia-Hsuan Lu; Tony Tan. *Analysis of Logics with Arithmetic*. 2026. [primary source](https://doi.org/10.4230/LIPIcs.CSL.2026.27) Location: §6, paragraph after Theorem 38, p. 27:16.
 
 **Literature check.** Status for questions 2777, 2778, checked 7 October 2026: Explicitly open in the 2026 proceedings; no later resolution located through 7 October 2026.
+
+**Results.**
+
+- **Partial result**: Finite satisfiability is decidable for GP² conjoined with homogeneous integer linear comparisons of unary definable cardinalities, and with one-sided L>=k for k>=0 (equivalently L<=k for k<=0). Relativized token ownership, injections, bijections and local surplus centers reduce these cases to ordinary GP². Fixed affine equalities and the full catalog question remain unresolved after five distinct failed routes. This is a restricted theorem, not decidability or undecidability of Q2778. [Details](../../solutions/b1-continuation-2026-10-12/gp2/Q2778-ATTEMPTS.md).
+- **Partial result** (B1-CONTINUATION-Q2778: Decidable homogeneous globals; arbitrary affine globals unresolved): Finite satisfiability is decidable for GP² conjoined with homogeneous integer linear comparisons of unary definable cardinalities, and with one-sided L>=k for k>=0 (equivalently L<=k for k<=0). Relativized token ownership, injections, bijections and local surplus centers reduce these cases to ordinary GP². Fixed affine equalities and the full catalog question remain unresolved after five distinct failed routes. This is a restricted theorem, not decidability or undecidability of Q2778. Remaining/limits: The full target remains unresolved; five-failure limit reached. [Report](../../solutions/b1-continuation-2026-10-12/gp2/Q2778-ATTEMPTS.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2508.03574)
 
@@ -984,7 +1070,7 @@ For every φ and converse-closed V⊆Voc(φ), is there θ with Voc(θ)⊆V such 
 
 ## Q2978. Two quantifier blocks with two power predicates
 
-**Status:** Open · **Kind:** open problem · **Collection** 30
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 30
 
 For every such a,b, is the ∃\*∀\* fragment of Th(Z;0,1,<,+,P_a,P_b) decidable?
 
@@ -993,6 +1079,12 @@ For every such a,b, is the ∃\*∀\* fragment of Th(Z;0,1,<,+,P_a,P_b) decidabl
 **Source.** Toghrul Karimov; Florian Luca; Joris Nieuwveld; Joël Ouaknine; James Worrell. *On the Decidability of Presburger Arithmetic Expanded with Powers*. 2025. [primary source](https://arxiv.org/abs/2407.05191v2) Location: §3, p. 7, final paragraph.
 
 **Literature check.** Status for questions 2978, 2979, checked 7 October 2026: Current source checked; bounded later searches found no resolution.
+
+**Results.**
+
+- **Partial result**: For every fixed source-admissible pair of power bases, truth in the existential-universal predicate fragment is uniformly computably enumerable: enumerate outer integer tuples and decide the existential complement of each instantiated universal block with the two-base existential decision theorem. No effective outer-witness bound or terminating negative test is supplied. Full decidability remains unresolved. [Details](../../solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md).
+- **Partial result** (B1-CONTINUATION-Q2978: Two-block two-power truth is computably enumerable): For every fixed source-admissible pair of power bases, truth in the existential-universal predicate fragment is uniformly computably enumerable: enumerate outer integer tuples and decide the existential complement of each instantiated universal block with the two-base existential decision theorem. No effective outer-witness bound or terminating negative test is supplied. Full decidability remains unresolved. Remaining/limits: The full target remains unresolved; five-failure limit reached. [Report](../../solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://www.graduateschool-computerscience.de/doctoral-students/phd-defenses/phd-defenses-2024/)
 
@@ -1011,6 +1103,10 @@ For every such a,b, is the existential theory of (N;0,1,<,+,x↦a^x,x↦b^x) dec
 
 **Literature check.** Status for questions 2978, 2979, checked 7 October 2026: Current source checked; bounded later searches found no resolution.
 
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://www.graduateschool-computerscience.de/doctoral-students/phd-defenses/phd-defenses-2024/)
 
 
@@ -1018,7 +1114,7 @@ For every such a,b, is the existential theory of (N;0,1,<,+,x↦a^x,x↦b^x) dec
 
 ## Q2980. Repeated-root recurrence predicate
 
-**Status:** Open · **Kind:** open problem · **Collection** 30
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 30
 
 Is Th(N;0,1,<,+,U) decidable?
 
@@ -1027,6 +1123,12 @@ Is Th(N;0,1,<,+,U) decidable?
 **Source.** Toghrul Karimov; Joris Nieuwveld; Joël Ouaknine. *Rich Sequences and Decidability of Arithmetic Theories*. 2026. [primary source](https://arxiv.org/abs/2609.20415v1) Location: §1.4, p. 9.
 
 **Literature check.** Status for questions 2980, 2981, 2982, checked 7 October 2026: Explicitly open 17 September 2026; no later resolving claim found.
+
+**Results.**
+
+- **Partial result**: Intersecting U={n 2^n} with powers of two gives exactly {2^(2^k+k):k>=0}. Its binary zero-run lengths have unbounded gaps and are not ultimately periodic, contradicting unary regularity. This obstructs a synchronous binary-automata method; it does not settle the first-order theory with U. [Details](../../solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md).
+- **Partial result** (B1-CONTINUATION-Q2980: The predicate {n 2^n} is not binary automatic): Intersecting U={n 2^n} with powers of two gives exactly {2^(2^k+k):k>=0}. Its binary zero-run lengths have unbounded gaps and are not ultimately periodic, contradicting unary regularity. This obstructs a synchronous binary-automata method; it does not settle the first-order theory with U. Remaining/limits: The full target remains unresolved; five-failure limit reached. [Report](../../solutions/b1-continuation-2026-10-12/arithmetic/ATTEMPTS.md).
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://www.graduateschool-computerscience.de/doctoral-students/phd-defenses/phd-defenses-2024/)
 
@@ -1045,6 +1147,10 @@ Is Th(N;0,1,<,+,P) decidable?
 
 **Literature check.** Status for questions 2980, 2981, 2982, checked 7 October 2026: Explicitly open 17 September 2026; no later resolving claim found.
 
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://www.graduateschool-computerscience.de/doctoral-students/phd-defenses/phd-defenses-2024/)
 
 
@@ -1061,6 +1167,10 @@ For every fixed integer r≥2, is Th(N;0,1,<,Q_r) decidable?
 **Source.** Toghrul Karimov; Joris Nieuwveld; Joël Ouaknine. *Rich Sequences and Decidability of Arithmetic Theories*. 2026. [primary source](https://arxiv.org/abs/2609.20415v1) Location: §8.3, p. 37, final paragraph.
 
 **Literature check.** Status for questions 2980, 2981, 2982, checked 7 October 2026: Explicitly open 17 September 2026; no later resolving claim found.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://www.graduateschool-computerscience.de/doctoral-students/phd-defenses/phd-defenses-2024/)
 
@@ -1079,6 +1189,10 @@ For every fixed finite family F⊂Q[t] of integer-valued polynomials, is FO¹(Z;
 
 **Literature check.** Status for questions 2990, 2991, 2992, checked 7 October 2026: Open in the July 2026 published paper; no later resolution found.
 
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://people.mpi-sws.org/~jnieuwve/)
 
 
@@ -1095,6 +1209,10 @@ Is FO²(Z;0,1,+,−,<,(≡\_m)\_{m≥2},Z²) decidable?
 **Source.** Piotr Bacik; Joris Nieuwveld; Joël Ouaknine; Mihir Vahanwala; Madhavan Venkatesh; Emil Rugaard Wieser. *On Variable-Bounded Non-Linear Expansions of Presburger Arithmetic*. 2026. [primary source](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.7) Location: §1, p. 7:4; §5.1.
 
 **Literature check.** Status for questions 2990, 2991, 2992, checked 7 October 2026: Open in the July 2026 published paper; no later resolution found.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://people.mpi-sws.org/~jnieuwve/)
 
@@ -1113,6 +1231,10 @@ Is SMT²(Z;0,1,+,−,Z³) decidable?
 
 **Literature check.** Status for questions 2990, 2991, 2992, checked 7 October 2026: Open in the July 2026 published paper; no later resolution found.
 
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://people.mpi-sws.org/~jnieuwve/)
 
 
@@ -1129,6 +1251,10 @@ Is the existential theory of (Z;<,+,P₂,P₃,P₅) decidable?
 **Source.** Joris Nieuwveld. *On existential Büchi arithmetic in two coprime bases*. 2026. [primary source](https://arxiv.org/abs/2608.24410v1) Location: Conclusion, p.XX:15, paragraph beginning “One natural question”.
 
 **Literature check.** Status for question 2993, checked 7 October 2026: Explicitly open 25 August 2026; later bounded searches found no resolution.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://people.mpi-sws.org/~jnieuwve/)
 
@@ -1421,6 +1547,10 @@ If C admits a distal expansion, must M(C) admit one?
 **Source.** Blaise Boissonneau; Aris Papadopoulos; Pierre Touchard. *Mekler’s Construction and Murphy’s Law for 2-Nilpotent Groups*. 2026. [primary source](https://msp.org/pjm/2026/341-2/pjm-v341-n2-p02-p.pdf) Location: Question 4.29, p. 266.
 
 **Literature check.** Status for question 3268, checked 8 October 2026: Final article retains the question; no later resolution located.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2403.20270v2) · [2](https://doi.org/10.2140/pjm.2026.341.219) · [3](https://etheses.whiterose.ac.uk/id/eprint/35815/)
 
@@ -1819,6 +1949,10 @@ Do a Turing degree d<0′ and a computable linear order exist that is d-computab
 **Source.** Java Darleen Villano. *Computable Categoricity, and Topology in Reverse Mathematics*. University of Connecticut, 2025. Advisor(s): David Reed Solomon and Damir D. Dzhafarov; associate advisor Karen Lange. [primary source](https://javavillano.github.io/thesisfinal.pdf) Location: Question 2.4.14, p. 74.
 
 **Literature check.** Status checked 9 October 2026: The later Extensions §4.2 rules out the stronger requirement covering all d-computable copies. It does not resolve this computable-copy question; searches found no resolution.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q3493"></a>
@@ -3186,4 +3320,89 @@ Is it consistent with ZFC that such κ,U admit a projection P_U→Col(κ,κ⁺)?
 **Source.** Tom Benhamou, S. Thei and Ben-Zion Weltsch. *On the Intermediate Models of Strongly Compact Prikry Forcing*. 2026. [primary source](https://arxiv.org/abs/2605.09161v2) Location: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3.
 
 **Literature check.** Status: Origin: Benhamou–Thei–Weltsch, arXiv2605.09161v2, Question6.6 p38; setup §§2.1,2.3. Checked12October2026; no matching resolution located.
+
+
+<a id="q4717"></a>
+
+## Q4717. Are ZFC+“some such λ has λ-PSP for every lightface λ-Π¹₁ set” and ZFC+“a measurable cardinal…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Are ZFC+“some such λ has λ-PSP for every lightface λ-Π¹₁ set” and ZFC+“a measurable cardinal exists” equiconsistent?
+
+**Context.** Setup: For uncountable strong-limit λ with cf(λ)=ω, give 2^λ the bounded topology [s]={x:s⊆x}, s∈2^α, α<λ. A⊆2^λ is lightface λ-Π¹₁ if A={x:∀y∈2^λ (H_λ,∈,x,y)⊨φ}, with φ first-order and no other parameters; x,y are predicates. H_λ contains sets of hereditary size<λ. A has λ-PSP if |A|≤λ or A contains a closed-in-2^λ copy of 2^λ. Audited provenance and status: Subject: Set theory Doctoral title: Some Contributions to Generalised Descriptive Set Theory and to the Study of the Interplay between Modal Logic and Set Theory. Paper-origin: Barrera–Dimonte–Müller, 2504.15675v2, §5 pp18–19. July2026 retains sharpness; older thesis unread. Checked12October2026: no matching resolution located. Proposition2.8 quantifies over H_λ; preceding λ-only prose conflicts.
+
+**Source.** Fernando José Barrera Esteban; Vincenzo Dimonte; Sandra Müller. *The λ-PSP at λ-Π^1_1 sets*. 2026. [primary source](https://arxiv.org/abs/2504.15675v2) Location: Fernando José Barrera Esteban: Udine PhD2025; advisor Vincenzo Dimonte.
+
+**Literature check.** Status: Paper-origin: Barrera–Dimonte–Müller, 2504.15675v2, §5 pp18–19. July2026 retains sharpness; older thesis unread. Checked12October2026: no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2504.15675) · [2](https://arxiv.org/pdf/2504.15675v2) · [3](https://arxiv.org/pdf/2504.15675v1) · [4](https://dmif.uniud.it/en/teaching/phd-courses-old/smf/phd-students/fernando-barrera) · [5](https://arxiv.org/abs/2504.15675v1)
+
+
+<a id="q4723"></a>
+
+## Q4723. Over RCA₀, is this principle equivalent to ATR₀, the system of arithmetical transfinite recursion?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Over RCA₀, is this principle equivalent to ATR₀, the system of arithmetical transfinite recursion?
+
+**Context.** Gian Marco Osso: current Udine doctoral student, cycleXXXIX; supervisor Alberto Marcone. Setup: A Laver tree with empty stem is a nonempty prefix-closed T⊆ω^{<ω} such that every node has infinitely many immediate successors. Write [T]={x∈ω^ω:∀n x↾n∈T}. The open Laver partition principle states: every coded open U⊆ω^ω admits such T with [T]⊆U or [T]∩U=∅. Audited provenance and status: Subject: Computability theory Paper-origin: Marcone–Osso, Computable aspects of the Laver partition theorem, 2608.24716v1, pp1–3. August2026 leaves the reversal open; ATR₀ proves the principle. Checked12October2026: no matching resolution located. Doctoral research project: The Weihrauch lattice at high levels of reverse mathematical strength. No completed doctorate asserted.
+
+**Source.** Alberto Marcone; Gian Marco Osso. *Computable aspects of the Laver partition theorem*. 2026. [primary source](https://arxiv.org/abs/2608.24716v1) Location: Paper pp.1–3; open Laver partition principle and its reverse-mathematical reversal.
+
+**Literature check.** Status: Paper-origin: Marcone–Osso, Computable aspects of the Laver partition theorem, 2608.24716v1, pp1–3. August2026 leaves the reversal open; ATR₀ proves the principle. Checked12October2026: no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2608.24716) · [2](https://arxiv.org/pdf/2608.24716v1) · [3](https://dmif.uniud.it/it/didattica/dottorato/smf/dottorandi/gianmarco-osso) · [4](https://dmif.uniud.it/en/teaching/phd-courses/smf/phd-students/gianmarco-osso?set_language=en)
+
+
+<a id="q4742"></a>
+
+## Q4742. For every admissible α, is there an injective group homomorphism Aut(D_(αe))→Aut(D_α)?
+
+**Status:** Open · **Kind:** open problem (Question 8.1.10) · **Collection** 48
+
+For every admissible α, is there an injective group homomorphism Aut(D_(αe))→Aut(D_α)?
+
+**Context.** Setup: Let α≥ω be admissible: α is a limit ordinal and L_α satisfies Σ₁-collection. Fix a standard Σ₁-effective indexing (K_γ)\_(γ<α) of subsets of α belonging to L_α. For A,B⊆α, write A≤\_(αe)B if some Σ₁(L_α) relation W⊆α² satisfies ∀γ<α[K_γ⊆A ⇔ ∃δ<α((γ,δ)∈W ∧ K_δ⊆B)]. Definability allows L_α parameters. Put A⊕B={2·ξ:ξ∈A}∪{2·ξ+1:ξ∈B}, using ordinal arithmetic, and A≤\_αB iff A⊕(α∖A)≤\_(αe)B⊕(α∖B). Let D_(αe),D_α be the corresponding partial orders of mutual-reducibility classes. Aut denotes the order-automorphism group. Audited provenance and status: Subject: Higher computability theory Embedding Theorem for the automorphism group of the α-enumeration degrees, final thesis2019. Question8.1.10/Conjecture8.1.11 p155; definitions pp21,25,27,46,48,64. Checked12October2026: no full transfinite resolution located. The thesis proves embedding for regular cardinals under V=L. September2026 ordinary-Turing rigidity claim addresses only the α=ω case of the second target, not all regular cardinals.
+
+**Source.** Dávid Natingga. *Embedding Theorem for the automorphism group of the α-enumeration degrees*. University of Leeds, 2019. Advisor(s): Barry Cooper; Michael Rathjen. [primary source](https://etheses.whiterose.ac.uk/id/eprint/25517/) Location: Thesis Question 8.1.10, p.155.
+
+**Literature check.** Status: Checked12October2026: no full transfinite resolution located. The thesis proves embedding for regular cardinals under V=L. September2026 ordinary-Turing rigidity claim addresses only the α=ω case of the second target, not all regular cardinals.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/25517/1/Natingga_D_Mathematics_PhD_2019.pdf) · [2](https://arxiv.org/abs/1812.11308) · [3](https://arxiv.org/abs/1902.04424)
+
+
+<a id="q4743"></a>
+
+## Q4743. Assuming V=L, is Aut(D_(αe)) trivial for every infinite regular cardinal α?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 8.1.11) · **Collection** 48
+
+Assuming V=L, is Aut(D_(αe)) trivial for every infinite regular cardinal α?
+
+**Context.** Setup: Let α≥ω be admissible: α is a limit ordinal and L_α satisfies Σ₁-collection. Fix a standard Σ₁-effective indexing (K_γ)\_(γ<α) of subsets of α belonging to L_α. For A,B⊆α, write A≤\_(αe)B if some Σ₁(L_α) relation W⊆α² satisfies ∀γ<α[K_γ⊆A ⇔ ∃δ<α((γ,δ)∈W ∧ K_δ⊆B)]. Definability allows L_α parameters. Put A⊕B={2·ξ:ξ∈A}∪{2·ξ+1:ξ∈B}, using ordinal arithmetic, and A≤\_αB iff A⊕(α∖A)≤\_(αe)B⊕(α∖B). Let D_(αe),D_α be the corresponding partial orders of mutual-reducibility classes. Aut denotes the order-automorphism group. Audited provenance and status: Subject: Higher computability theory Embedding Theorem for the automorphism group of the α-enumeration degrees, final thesis2019. Question8.1.10/Conjecture8.1.11 p155; definitions pp21,25,27,46,48,64. Checked12October2026: no full transfinite resolution located. The thesis proves embedding for regular cardinals under V=L. September2026 ordinary-Turing rigidity claim addresses only the α=ω case of the second target, not all regular cardinals.
+
+**Source.** Dávid Natingga. *Embedding Theorem for the automorphism group of the α-enumeration degrees*. University of Leeds, 2019. Advisor(s): Barry Cooper; Michael Rathjen. [primary source](https://etheses.whiterose.ac.uk/id/eprint/25517/) Location: Thesis Conjecture 8.1.11, p.155.
+
+**Literature check.** Status: Checked12October2026: no full transfinite resolution located. The thesis proves embedding for regular cardinals under V=L. September2026 ordinary-Turing rigidity claim addresses only the α=ω case of the second target, not all regular cardinals.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/25517/1/Natingga_D_Mathematics_PhD_2019.pdf) · [2](https://arxiv.org/abs/1812.11308) · [3](https://arxiv.org/abs/1902.04424)
+
+
+<a id="q4745"></a>
+
+## Q4745. Is there an algorithm deciding, given K and a concept C₀, whether some minimal K-model I…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is there an algorithm deciding, given K and a concept C₀, whether some minimal K-model I satisfies C₀ᴵ≠∅?
+
+**Context.** Federica Di Stefano: TU Wien PhDJanuary2026; advisor Mantas Šimkus, co-advisor Magdalena Ortiz. Setup: Roles R are binary relation symbols or their converses. Concepts are Boolean combinations of ⊤, unary predicates, and ∃R.⊤. A finite DL-Liteᴴ\_Bool knowledge base K consists of inclusions C⊑D and R⊑S and assertions C(a),r(a,b). Interpretations have arbitrary nonempty domains and distinct interpretations of individual names. A K-model I is minimal if no K-model J with the same domain and individual interpretations shrinks every unary/binary predicate occurring in K, with at least one strict inclusion. Audited provenance and status: Subject: Description logic and decidability Non-monotonic Description Logics Based on Predicate Minimization: cover5November2025, repository2026. Conjecture §3.6 p118; definitions pp25–32,45–48. KR2025 final §6 p279 retains the broader minimal-model decidability direction. Checked12October2026: no matching resolution located; current author publication list inspected. Thesis is the explicit role-inclusion formulation.
+
+**Source.** Federica Di Stefano. *Non-monotonic Description Logics Based on Predicate Minimization*. TU Wien, 2026. Advisor(s): Mantas Šimkus; Magdalena Ortiz. [primary source](https://repositum.tuwien.at/handle/20.500.12708/227603) Location: Thesis §3.6 conjecture, p.118; definitions pp.25–32,45–48.
+
+**Literature check.** Status: Checked12October2026: no matching resolution located; current author publication list inspected. Thesis is the explicit role-inclusion formulation.
+
+**Further links.** [1](https://doi.org/10.34726/hss.2026.140693) · [2](https://federicadistefano.github.io/) · [3](https://arxiv.org/abs/2508.05350) · [4](https://proceedings.kr.org/2025/27/) · [5](https://proceedings.kr.org/2025/27/kr2025-0027-di-stefano-et-al.pdf) · [6](https://informatics.tuwien.ac.at/people/federica-stefano)
 

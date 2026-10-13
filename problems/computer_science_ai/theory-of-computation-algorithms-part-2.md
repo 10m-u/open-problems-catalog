@@ -2,6 +2,27 @@
 
 [Subject overview](theory-of-computation-algorithms.md) · Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computation-algorithms-part-2.md)
 
+<a id="q3079"></a>
+
+## Q3079. Semilinear diagonal predecessors
+
+**Status:** Open · **Kind:** open problem (Problem 25.8) · **Collection** 31
+
+For every 2-BVASS, source state q and fixed target configuration t, is {x∈N² : a run has all leaves (q,x) and root t} semilinear?
+
+**Context.** Origin for question 3079: Original doctoral-student problem page; no completed degree or unverified advisor is asserted. Setup for question 3079: A 2-BVASS has finite control and counters in N². Unary steps add fixed integer vectors without leaving N². A branching rule (p,q,r) combines children (p,x),(q,y) into (r,x+y). Runs are finite trees; every leaf carries the same source configuration. A set is semilinear if it is a finite union of b+Σ\_i Np_i.
+
+**Source.** Clotilde Bizière. *Semilinearity of 2-BVASS backward reachability set (Autobóz Problem 25.8)*. 2025. [primary source](https://automata.exchange/25.8-semilinearity-of-2-bvass-backward-reachability-set/) Location: Problem 25.8, final question and run definition.
+
+**Literature check.** Status for question 3079, checked 8 October 2026: July 2026 decidability claim concerns reachability, not semilinearity of this diagonal predecessor set.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
+**Further links.** [1](https://arxiv.org/abs/2607.09558)
+
+
 <a id="q3080"></a>
 
 ## Q3080. Three additive clocks
@@ -673,6 +694,10 @@ Are cyclic arithmetic and Peano arithmetic exponentially separated in shortest p
 
 **Literature check.** Status: The dissertation reaffirms Das’s question. Leigh–Wehr’s September 2026 publisher final, §6.4, gives translation upper bounds and does not settle separation. Current sources checked October 9, 2026.
 
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
 
 <a id="q3684"></a>
 
@@ -702,6 +727,10 @@ Does a polynomial p bound the number of lines in some Cutting Planes refutation 
 **Source.** Noah Fleming, Mika Göös, Russell Impagliazzo, Toniann Pitassi, Robert Robere, Li-Yang Tan and Avi Wigderson. *On the Power and Limitations of Branch and Cut*. 2026. [primary source](https://www.theoryofcomputing.org/articles/v022a002/) Location: Existing proof-complexity question restated in the doctoral-linked joint paper. Locator: final §6, p.30; definitions pp.3,10–11.
 
 **Literature check.** Status: Inspected June 2026 publisher final and thesis. No later resolution located, 10 October 2026.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://noahrfleming.github.io/papers/Thesis.pdf) · [2](https://www.cs.toronto.edu/~noahfleming/Vita.pdf)
 
@@ -2289,4 +2318,140 @@ What is the computational complexity of the same optimization problem when the g
 **Source.** Nathan Flaherty. *Graph Theoretic Concepts and Algorithms Motivated by Chemistry Applications*. University of Liverpool, 2026. Advisor(s): Paul Spirakis, Igor Potapov and Duncan Adamson. [primary source](https://livrepository.liverpool.ac.uk/3197680/1/201596770_Mar2026.pdf) Location: Thesis §7.1.2 p88 retains the path question from Adamson–Flaherty–Potapov–Spirakis, Collision-Free Robot Scheduling, §5.
 
 **Literature check.** Status: Checked12October2026; no matching resolution located.
+
+
+<a id="q4732"></a>
+
+## Q4732. Is ECL=CL?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is ECL=CL?
+
+**Context.** Marten Joran Folkertsma: Amsterdam doctoral thesis2026; promotores Harry Buhrman and Kareljan Schoutens. Setup: Machines are deterministic, have read-only input, write-only output, O(log n) initially-zero work bits and c(n)=n^{O(1)} read-write catalytic bits. They halt with the correct decision for every input x and every initial catalytic string τ. CL requires the final catalytic string τ′=τ. Define ECL by instead requiring, for every x, E_{τ uniform in {0,1}^{c(n)}}[d_H(τ,τ′)]≤C for some machine-dependent constant C, where d_H counts differing bits. No polynomial-time bound is imposed. Audited provenance and status: Subject: Computational complexity Thesis: Empowering Quantum Computation with: Measurements, Catalysts, and Guiding States, §5.3.3 pp93–94. Paper-origin: Folkertsma–Mertz–Speelman–Tupker, Algorithmica2026 §1.5.1, final20May2026. Related origin: Mertz2023 Problem21 also averages over inputs; the selected fixed-input question follows the later paper and thesis. Checked12October2026: KMS2605.09648 retains this collapse as unresolved; its Lemma47 proves it only under a circuit-hardness assumption.
+
+**Source.** Marten Joran Folkertsma. *Empowering Quantum Computation with: Measurements, Catalysts, and Guiding States*. University of Amsterdam, 2026. Advisor(s): Harry Buhrman; Kareljan Schoutens. [primary source](https://eprints.illc.uva.nl/id/eprint/2400/) Location: Thesis §5.3.3, pp.93–94; Algorithmica 2026 §1.5.1.
+
+**Literature check.** Status: Checked12October2026: KMS2605.09648 retains this collapse as unresolved; its Lemma47 proves it only under a circuit-hardness assumption.
+
+**Further links.** [1](https://eprints.illc.uva.nl/id/eprint/2400/1/DS-2026-02.text.pdf) · [2](https://www.cwi.nl/en/events/phd-defences/phd-defence-marten-folkertsma-algorithms-and-complexity/) · [3](https://link.springer.com/article/10.1007/s00453-026-01376-6) · [4](https://link.springer.com/content/pdf/10.1007/s00453-026-01376-6.pdf) · [5](https://arxiv.org/abs/2409.05046) · [6](https://drops.dagstuhl.de/doi/10.4230/LIPIcs.ITCS.2025.50)
+
+
+<a id="q4737"></a>
+
+## Q4737. Does every promise problem admitting such an adaptive verifier admit a nonadaptive verifier with…
+
+**Status:** Open · **Kind:** open problem (Problem 6.5.2) · **Collection** 48
+
+Does every promise problem admitting such an adaptive verifier admit a nonadaptive verifier with constant queries, completeness1 and soundness1/3?
+
+**Context.** Jordi Rudo Weggemans: Amsterdam PhD2025; promotor Harry Buhrman, copromotor Florian Speelman. Setup: Use the same fixed standard finite universal gate set throughout; the source leaves it unnamed. A quantum PCP verifier is a P-uniform polynomial-size quantum circuit with input x hardcoded, initially-zero polynomial workspace and one polynomial-qubit quantum proof. In q=O(1) stages it operates on workspace and previously-accessed proof qubits, then measures workspace to select the next new proof index. After a final such circuit, a computational-basis measurement determines acceptance. Nonadaptive verifiers select all proof indices before accessing the proof. Completeness1 means some proof is accepted certainly on every yes-instance; soundness1/3 means every proof is accepted with probability≤1/3 on every no-instance. Audited provenance and status: Subject: Quantum computational complexity Thesis: Quantum versus classical resources in computational complexity, OpenProblem6.5.2 p165; gate convention p33. Paper-origin: Buhrman–Helsen–Weggemans, Quantum9(2025)1791, §1.4 p9 and Definitions4–5 pp12–14. Checked12October2026: final and later thesis retain the perfect-completeness question; known adaptivity removal loses exact completeness. No matching resolution located.
+
+**Source.** Jordi Rudo Weggemans. *Quantum versus classical resources in computational complexity*. University of Amsterdam, 2026. Advisor(s): Harry Buhrman; Florian Speelman. [primary source](https://eprints.illc.uva.nl/id/eprint/2419/) Location: Thesis Open Problem 6.5.2, p.165; gate convention p.33; Quantum 9 (2025) 1791, §1.4 p.9 and Definitions 4–5 pp.12–14.
+
+**Literature check.** Status: Checked12October2026: final and later thesis retain the perfect-completeness question; known adaptivity removal loses exact completeness. No matching resolution located.
+
+**Further links.** [1](https://eprints.illc.uva.nl/id/eprint/2419/1/DS-2025-09.text.pdf) · [2](https://quantum-journal.org/papers/q-2025-07-11-1791/) · [3](https://quantum-journal.org/papers/q-2025-07-11-1791/pdf/) · [4](https://arxiv.org/abs/2403.04841)
+
+
+<a id="q4741"></a>
+
+## Q4741. Does some such T produce, up to isomorphism, every graph embeddable without crossings in the…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Does some such T produce, up to isomorphism, every graph embeddable without crossings in the torus from planar graphs?
+
+**Context.** Setup: Graphs are finite, simple and undirected. Fix finitely many unary predicates and a symmetric first-order formula φ(x,y) in the expanded graph language. For G, T(G) consists of all induced subgraphs of graphs on V(G) whose distinct vertices u,v are adjacent iff G⁺⊨φ(u,v), as G⁺ ranges over all interpretations of those predicates. The predicates and formula are independent of G. Audited provenance and status: Subject: Finite model theory and graph theory Thesis: Structural and Geometric Graph Theory and Algorithmic Metatheorems,2024. Successful defense8November2024/advisor verified in official indexed record; full thesis unread after JavaScript challenge. Paper route: Gajarský–Pilipczuk–Pokrývka2501.07558 p3; earlier explicit toroidal question follows Conjecture6 in Pilipczuk2501.04166 §6. Hliněný–Jedelský2506.08585v5 Problem11 p14, definitions pp6–7. Checked12October2026: September10 v5 carries DMTCS28:4#6, accepted4August2026; HTML supplies DOI10.46298/dmtcs.17710. Journal endpoint inaccessible; February conference-final abstract read, body unread. Copying is unnecessary for planar inputs. No matching resolution located.
+
+**Source.** Jakub Gajarský; Michał Pilipczuk; Filip Pokrývka. *3D-grids are not transducible from planar graphs*. 2025. [primary source](https://arxiv.org/abs/2501.07558) Location: Filip Pokrývka: Masaryk PhD2024; supervisor Petr Hliněný.
+
+**Literature check.** Status: Checked12October2026: September10 v5 carries DMTCS28:4#6, accepted4August2026; HTML supplies DOI10.46298/dmtcs.17710. Journal endpoint inaccessible; February conference-final abstract read, body unread. Copying is unnecessary for planar inputs. No matching resolution located.
+
+**Further links.** [1](https://is.muni.cz/th/figrc/) · [2](https://arxiv.org/abs/2501.04166) · [3](https://arxiv.org/abs/2506.08585) · [4](https://arxiv.org/html/2506.08585v5) · [5](https://dmtcs.episciences.org/17710) · [6](https://doi.org/10.46298/dmtcs.17710) · [7](https://link.springer.com/chapter/10.1007/978-3-032-17801-5_37) · [8](https://arxiv.org/abs/2506.08585v5)
+
+
+<a id="q4750"></a>
+
+## Q4750. Determine the computational complexity of deciding truth of Q.(φ₁∨φ₂) when each φᵢ is a…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Determine the computational complexity of deciding truth of Q.(φ₁∨φ₂) when each φᵢ is a conjunction of clauses containing at most two literals.
+
+**Context.** Mateusz Rychlicki: Leeds PhD2026; supervisors Sebastian Ordyniak and Haiko Müller. Setup: Q=Q₁x₁⋯Qₙxₙ quantifies every Boolean variable once, with arbitrary Qᵢ∈{∀,∃}; the input prefix and two matrices are explicit. Audited provenance and status: Subject: Computational complexity and graph algorithms Parameterized Complexity in Graph Theory, Logic and Machine Learning,2026; §6.1.2 p270, §6.3.3 pp275–276. QBF origin: Eriksson–Lagerkvist–Ordyniak–Osipov–Panolan–Rychlicki, Backdoors for Quantified Boolean Formulas, §8 p58; definitions §§2.1–2.2 pp16–18. Latest2604.15927v1 read. Checked12October2026: no matching resolution located. KR2026 pp294–304 concerns clause-covering backdoors, a different parameter. Current Osipov list checked. OpenReview manuscript challenged; thesis later reaffirms planar target. Da Lozzo–Frati–Rutter, SoCG2026 abstract: upward embeddings of partitioned digraphs; fixed page assignments and topological vertex orders differ. Abstract only.
+
+**Source.** Mateusz Rychlicki. *Parameterized Complexity in Graph Theory, Logic and Machine Learning*. University of Leeds, 2026. Advisor(s): Sebastian Ordyniak; Haiko Müller. [primary source](https://etheses.whiterose.ac.uk/id/eprint/39058/) Location: Thesis §6.1.2, p.270; Backdoors for Quantified Boolean Formulas, §8, p.58.
+
+**Literature check.** Status: Checked12October2026: no matching resolution located. KR2026 pp294–304 concerns clause-covering backdoors, a different parameter. Current Osipov list checked. OpenReview manuscript challenged; thesis later reaffirms planar target.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/39058/1/Rychlicki_MK_Computer_Science_PhD_2026.pdf) · [2](https://arxiv.org/abs/2604.15927) · [3](https://arxiv.org/abs/2605.12073) · [4](https://proceedings.kr.org/2026/28/kr2026-0028-eriksson-et-al.pdf) · [5](https://gosip.github.io/) · [6](https://arxiv.org/abs/2404.14087) · [7](https://openreview.net/pdf?id=7Kq4E0OQ0J) · [8](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.68) · [9](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2026.36)
+
+
+<a id="q4751"></a>
+
+## Q4751. Determine the computational complexity of deciding truth of Q.(φ₁∨φ₂) when each φᵢ is a finite…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Determine the computational complexity of deciding truth of Q.(φ₁∨φ₂) when each φᵢ is a finite system of linear equations over F₂.
+
+**Context.** Mateusz Rychlicki: Leeds PhD2026; supervisors Sebastian Ordyniak and Haiko Müller. Setup: Q=Q₁x₁⋯Qₙxₙ quantifies every Boolean variable once, with arbitrary Qᵢ∈{∀,∃}; the input prefix and two matrices are explicit. Audited provenance and status: Subject: Computational complexity and graph algorithms Parameterized Complexity in Graph Theory, Logic and Machine Learning,2026; §6.1.2 p270, §6.3.3 pp275–276. QBF origin: Eriksson–Lagerkvist–Ordyniak–Osipov–Panolan–Rychlicki, Backdoors for Quantified Boolean Formulas, §8 p58; definitions §§2.1–2.2 pp16–18. Latest2604.15927v1 read. Checked12October2026: no matching resolution located. KR2026 pp294–304 concerns clause-covering backdoors, a different parameter. Current Osipov list checked. OpenReview manuscript challenged; thesis later reaffirms planar target. Da Lozzo–Frati–Rutter, SoCG2026 abstract: upward embeddings of partitioned digraphs; fixed page assignments and topological vertex orders differ. Abstract only.
+
+**Source.** Mateusz Rychlicki. *Parameterized Complexity in Graph Theory, Logic and Machine Learning*. University of Leeds, 2026. Advisor(s): Sebastian Ordyniak; Haiko Müller. [primary source](https://etheses.whiterose.ac.uk/id/eprint/39058/) Location: Thesis §6.1.2, p.270; Backdoors for Quantified Boolean Formulas, §8, p.58.
+
+**Literature check.** Status: Checked12October2026: no matching resolution located. KR2026 pp294–304 concerns clause-covering backdoors, a different parameter. Current Osipov list checked. OpenReview manuscript challenged; thesis later reaffirms planar target.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/39058/1/Rychlicki_MK_Computer_Science_PhD_2026.pdf) · [2](https://arxiv.org/abs/2604.15927) · [3](https://arxiv.org/abs/2605.12073) · [4](https://proceedings.kr.org/2026/28/kr2026-0028-eriksson-et-al.pdf) · [5](https://gosip.github.io/) · [6](https://arxiv.org/abs/2404.14087) · [7](https://openreview.net/pdf?id=7Kq4E0OQ0J) · [8](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.68) · [9](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2026.36)
+
+
+<a id="q4752"></a>
+
+## Q4752. Can one decide in polynomial time whether a finite simple planar graph has a vertex ordering and…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Can one decide in polynomial time whether a finite simple planar graph has a vertex ordering and assignment of edges to three pages such that no same-page edges have alternating endpoints?
+
+**Context.** Mateusz Rychlicki: Leeds PhD2026; supervisors Sebastian Ordyniak and Haiko Müller. Setup: Q=Q₁x₁⋯Qₙxₙ quantifies every Boolean variable once, with arbitrary Qᵢ∈{∀,∃}; the input prefix and two matrices are explicit. Audited provenance and status: Subject: Computational complexity and graph algorithms Parameterized Complexity in Graph Theory, Logic and Machine Learning,2026; §6.1.2 p270, §6.3.3 pp275–276. QBF origin: Eriksson–Lagerkvist–Ordyniak–Osipov–Panolan–Rychlicki, Backdoors for Quantified Boolean Formulas, §8 p58; definitions §§2.1–2.2 pp16–18. Latest2604.15927v1 read. Checked12October2026: no matching resolution located. KR2026 pp294–304 concerns clause-covering backdoors, a different parameter. Current Osipov list checked. OpenReview manuscript challenged; thesis later reaffirms planar target. Da Lozzo–Frati–Rutter, SoCG2026 abstract: upward embeddings of partitioned digraphs; fixed page assignments and topological vertex orders differ. Abstract only.
+
+**Source.** Mateusz Rychlicki. *Parameterized Complexity in Graph Theory, Logic and Machine Learning*. University of Leeds, 2026. Advisor(s): Sebastian Ordyniak; Haiko Müller. [primary source](https://etheses.whiterose.ac.uk/id/eprint/39058/) Location: Thesis §6.3.3, pp.275–276.
+
+**Literature check.** Status: Checked12October2026: no matching resolution located. KR2026 pp294–304 concerns clause-covering backdoors, a different parameter. Current Osipov list checked. OpenReview manuscript challenged; thesis later reaffirms planar target.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/39058/1/Rychlicki_MK_Computer_Science_PhD_2026.pdf) · [2](https://arxiv.org/abs/2604.15927) · [3](https://arxiv.org/abs/2605.12073) · [4](https://proceedings.kr.org/2026/28/kr2026-0028-eriksson-et-al.pdf) · [5](https://gosip.github.io/) · [6](https://arxiv.org/abs/2404.14087) · [7](https://openreview.net/pdf?id=7Kq4E0OQ0J) · [8](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.68) · [9](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2026.36)
+
+
+<a id="q4756"></a>
+
+## Q4756. Is t≼u equivalent to LL(t)≤LL(u) for all t,u?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is t≼u equivalent to LL(t)≤LL(u) for all t,u?
+
+**Context.** Adrienne Lancelot: IPParis PhD2025; supervisor Beniamino Accattoli, co-supervisor Giulio Manzonetto; earlier co-supervisor Claudia Faggian. Setup: Use finite untyped λ-terms over countably infinite variables, modulo α-conversion. Color abstractions and applications black or white; β-substitution preserves colors. Weak-head reduction contracts along the left application spine, never under λ. Count only steps whose abstraction and application colors differ. Write v⇓ᵏ for termination with exactly k counted steps. Let t• color all constructors black. Set t≼u iff C[t•]⇓ᵏ implies C[u•]⇓ᵏ for every colored one-hole context C (capture allowed) and integer k≥0. Define LL(t) from weak-head normal forms: ⊥ upon divergence, λx.LL(s) for λx.s, and x(LL(s₁),…,LL(sₙ)) for xs₁⋯sₙ. Order trees coinductively: ⊥ least, otherwise matching labels/arity, componentwise. Audited provenance and status: Subject: Lambda calculus and program semantics Comparing functional programs, or how to put λ-terms back in order, final9December2025: p262; §§3.1–3.2,4.2,4.4. Checked12October2026: no matching resolution located. FoSSaCS2026 final proves head improvement, not weak-head exact-count preorder. HAL challenged. LMCS2026 final abstract concerns call-by-silly and call-by-value; abstract only.
+
+**Source.** Adrienne Lancelot. *Comparing functional programs, or how to put λ-terms back in order*. Institut Polytechnique de Paris, 2025. Advisor(s): Beniamino Accattoli; Giulio Manzonetto. [primary source](https://www.irif.fr/_media/users/lancelot/thesis-onesided_v09-12-2025.pdf) Location: Accattoli–Lancelot–Manzonetto–Vanoni, Interaction Equivalence, POPL2025 §10 p55:25; author-hosted journal PDF.
+
+**Literature check.** Status: Checked12October2026: no matching resolution located. FoSSaCS2026 final proves head improvement, not weak-head exact-count preorder. HAL challenged.
+
+**Further links.** [1](https://adrilancelot.github.io/) · [2](https://adrilancelot.github.io/publications) · [3](https://theses.hal.science/tel-05407883) · [4](https://arxiv.org/abs/2409.18709) · [5](https://doi.org/10.1145/3704891) · [6](https://www.irif.fr/_media/users/lancelot/popl25-preprint.pdf) · [7](https://arxiv.org/abs/2601.01638) · [8](https://link.springer.com/chapter/10.1007/978-3-032-22730-0_18) · [9](https://lmcs.episciences.org/18820)
+
+
+<a id="q4787"></a>
+
+## Q4787. Is there a constant δ>0 such that, for every sufficiently large n, some nonnegative integer…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is there a constant δ>0 such that, for every sufficiently large n, some nonnegative integer s≤(1−δ)n and map G:{0,1}ˢ→{0,1}ⁿ satisfy |Pr[f(G(U_s))=1]−Pr[f(U_n)=1]|≤2^(−0.4n) for every Boolean decision tree f querying single input bits with depth at most ⌊0.9n⌋? No efficient construction is required.
+
+**Context.** Let U_t be uniform on {0,1}ᵗ. Audited provenance and status: Subject: Pseudorandomness and computational complexity Zelin Lv; Chicago PhD2026. Advisors: Aaron Potechin, William Hoza. Joint-paper origin; retained in thesis. ECCC revision1 §8,p26. https://eccc.weizmann.ac.il/report/2025/003/ Conference final checked. https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2025.35 Scope inference: AC⁰ results do not resolve this question. Shared-chat final checked; linked attachment unread.
+
+**Source.** Zelin Lv. *Higher Moments of Random Determinants and Pseudorandomness for Structured Computation*. University of Chicago, 2026. Advisor(s): Aaron Potechin; William Hoza. [primary source](https://knowledge.uchicago.edu/records/65t7e-bqb56) Location: Thesis §14.9,p274/PDF288; Definitions12.1.3/12.3.1. https://knowledge.uchicago.edu/records/65t7e-bqb56
+
+**Literature check.** Status: Checked 2026-10-13; no matching resolution located.
+
+**Further links.** [1](https://eccc.weizmann.ac.il/report/2025/003/) · [2](https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2025.35) · [3](https://doi.org/10.1007/s00037-026-00296-9) · [4](https://chatgpt.com/share/6ac04082-3658-83ea-adbe-ff07405dc0c1)
 

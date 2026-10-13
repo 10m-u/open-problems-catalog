@@ -1,6 +1,6 @@
 # Analysis
 
-152 problems: 149 open, 3 open, partial results.
+159 problems: 156 open, 2 open, partial results, 1 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -30,7 +30,7 @@
 | [Q1439](analysis.md#q1439) | Halo differentiation without dilation invariance | Open |
 | [Q1441](analysis.md#q1441) | Uniform nearest-zero bound for TP interpolation | Open, partial results |
 | [Q1442](analysis.md#q1442) | Sharp outer zero radius for TP interpolation | Open, partial results |
-| [Q1443](analysis.md#q1443) | Dimension-free gaps between real TP roots | Open, partial results |
+| [Q1443](analysis.md#q1443) | Dimension-free gaps between real TP roots | Solved here: disproved |
 | [Q1449](analysis.md#q1449) | Triangular Hilbert transform at the symmetric exponents | Open |
 | [Q1450](analysis.md#q1450) | Twisted paraproduct bounds at output exponent at least two | Open |
 | [Q1539](analysis.md#q1539) | Square-root logarithmic weak directional bound | Open |
@@ -158,6 +158,13 @@
 | [Q4674](analysis.md#q4674) | For every s>s_E(p,q), is there C<∞ such that… | Open |
 | [Q4680](analysis.md#q4680) | Must every f∈ℱ satisfying \|f(x)−f(y)\|≤C\|x−y\| for some C<∞ and all x,y∈K be constant? | Open |
 | [Q4681](analysis.md#q4681) | Does D(Δ) contain a nonconstant f such that \|f(x)−f(y)\|≤C\|x−y\|^κ for some C<∞ and every x,y∈K? | Open |
+| [Q4716](analysis.md#q4716) | For every ordered pair of nonconstant harmonic functions h₁,h₂ and every… | Open |
+| [Q4768](analysis.md#q4768) | Must every zero of z^{\|m\|}Φ(z) belong to D? | Open |
+| [Q4772](analysis.md#q4772) | Is 5/3 the least universal c such that, for every nonspecial f and Borel sets A,B⊂[0,1] of… | Open |
+| [Q4781](analysis.md#q4781) | If N+1+2q^(N+2)=0 for some integer N≥2, must a=0? | Open |
+| [Q4784](analysis.md#q4784) | For each Δ>0, determine real entire functions F⁻≤f_{2k}≤F⁺ on R, of exponential type at most… | Open |
+| [Q4796](analysis.md#q4796) | Affine minorants from integral nonnegativity. For positive integers N,n, let F:R^{N×n}→R be… | Open |
+| [Q4800](analysis.md#q4800) | Two-weight boundedness of the Bergman projection. Let D={z∈C:\|z\|<1}, let dA=dxdy/π, and define… | Open |
 
 <a id="q283"></a>
 
@@ -357,6 +364,7 @@ For every nonnegative sequence a with entire A(z)=Σa_kz^k, does termwise multip
 **Results.**
 
 - **Investigated, unresolved** (B3: submitted unresolved): An exact degree-seven candidate passes 300 genuine PF-input tests, covering 293 distinct generating functions. An explicit example shows that replacing PF inputs by merely log-concave inputs invalidates a tempting stronger claim. Remaining/limits: The all-input, all-remainder preservation conjecture remains unresolved. The stronger-claim failure is not a counterexample to Q1249. [Report](../../solutions/b3-2026-10-06/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/html/2512.06468v1)
 
@@ -548,6 +556,7 @@ Is sup_(n≥1)r_n finite?
 **Results.**
 
 - **Partial result**: r_2=(1+sqrt(2))/2. The bounds r_n>=5/4 for every even n>=6 and r_n>=51/40 for every even n>=16 follow from exact Sturm-certified bases and product closure. Remaining: No upper bound independent of n is proved; the uniform-boundedness question remains unresolved. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/html/2608.03723v1) · [2](https://arxiv.org/abs/2607.06207)
 
@@ -572,6 +581,7 @@ Is R_n=n for every n≥1?
 - **Related result** (B3C-05: Uniform interpolation disk through degree five): For every integer 1<=n<=5 and every real parameter tuple (a_1,...,a_n) in [0,1]^n, all zeros of P(z)=sum_(j=0)^n e_(n-j)(a) binom(z,j) satisfy |z+1/2|<=n-1/2. Boundary zeros occur only at the all-zero and all-one parameter polynomials. Thus R_n=n for 1<=n<=5. Limits: Exact certificate proof uniformly covers parameters, but only degrees through five. Reported degrees six to eight are not recovered. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
 - **Related result** (B3C-06: All-degree equal-parameter interpolation disk): For every integer n>=1 and every real a in [0,1], all zeros of the polynomial with L(P)(u)=(u+a)^n satisfy |z+1/2|<=n-1/2, strictly for 0&lt;a<1. For n>=2, |z+1/2|^2 <= (n-1/2)^2-8a(1-a)(n-1). Limits: One-parameter family; arbitrary independent parameters in higher degrees remain open. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
 - **Counterexample (to a stronger or nearby claim)** (B3C-12: Arbitrary interpolation shift mixtures violate the disk): For n=4, P(z)=binom(z,4)+binom(z+4,4) has a root with |z+1/2|>7/2; 24P(w-1/2)=2w^4+43w^2+105/8. Limits: Outside the TP class: sampled numerator 1+t^4 is not real-rooted. Does not refute Q1442. [Report](../../solutions/b3-continuation-2026-10-07/README.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/html/2608.03723v1) · [2](https://arxiv.org/abs/2607.06207)
 
@@ -580,7 +590,7 @@ Is R_n=n for every n≥1?
 
 ## Q1443. Dimension-free gaps between real TP roots
 
-**Status:** Open, partial results · **Kind:** open problem (Problem 6.3) · **Collection** 15
+**Status:** Solved here: disproved · **Kind:** open problem (Problem 6.3) · **Collection** 15
 
 Does a universal 1≤d<2 exist such that every real-rooted P∈U_n, with zeros x₁≤⋯≤x_n counted with multiplicity, satisfies x_(j+1)−x_j≤d for every n≥2 and j&lt;n?
 
@@ -592,7 +602,10 @@ Does a universal 1≤d<2 exist such that every real-rooted P∈U_n, with zeros x
 
 **Results.**
 
-- **Partial result**: The polynomial (5z^2+5z-2)^12 belongs to U_24 by exact Sturm certification and has consecutive distinct real-root gap sqrt(13/5). Thus any universal gap bound is at least sqrt(13/5). Remaining: Does not disprove or prove existence of a bound below 2. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
+- **Disproved**: B3 all-target continuation (13 October 2026): The degree-36 polynomial (2z+1)^32(5z+2)^2(5z-12)^2 belongs to U_36, as certified by its sampled-value generating function, positive numerator coefficients and exact negative-root brackets. Its consecutive distinct roots -2/5 and 12/5 have gap 14/5. This refutes the frozen proposed universal bound 1<=d<2. Whether any finite dimension-free gap bound exists remains unresolved. The earlier lower-bound result and its evidence are preserved. No novelty or external peer-review claim. Internally reviewed at this scope; no novelty or external peer-review claim.
+
+Earlier partial result (preserved; the full target is now closed): The polynomial (5z^2+5z-2)^12 belongs to U_24 by exact Sturm certification and has consecutive distinct real-root gap sqrt(13/5). Thus any universal gap bound is at least sqrt(13/5). Remaining: Does not disprove or prove existence of a bound below 2. Recorded from the external B3 return  (backfilled 2026-10-08); initial argument review and bounded independent controls in the intake; not independently re-derived here. [Details](../../solutions/b3-2026-10-06/README.md).
+- **Disproved** (B3-ALL-TARGETS-Q1443: Degree-36 counterexample to the proposed root-gap bound): The degree-36 polynomial (2z+1)^32(5z+2)^2(5z-12)^2 belongs to U_36, as certified by its sampled-value generating function, positive numerator coefficients and exact negative-root brackets. Its consecutive distinct roots -2/5 and 12/5 have gap 14/5. This refutes the frozen proposed universal bound 1<=d<2. Remaining/limits: Whether any finite dimension-free gap bound exists remains unresolved. The earlier lower-bound result and its evidence are preserved. No novelty or external peer-review claim. [Report](../../solutions/b3-all-targets-2026-10-13/interpolation/Q1443-RESULT.md).
 
 **Further links.** [1](https://arxiv.org/html/2608.03723v1) · [2](https://arxiv.org/abs/2607.06207)
 
@@ -2692,4 +2705,119 @@ Does D(Δ) contain a nonconstant f such that |f(x)−f(y)|≤C|x−y|^κ for som
 **Context.** Let K be the standard planar Sierpiński carpet, obtained by repeatedly deleting the open central ninth from each surviving square. Equip K with Euclidean distance, m=ℋ^{log8/log3}|\_K, and its canonical Brownian Dirichlet form (E,ℱ). If F₁,…,F₈ are its eight standard ratio-1/3 similarities, define σ by E(f,f)=3^σΣ\_iE(f∘F_i,f∘F_i). Put κ=σ+log2/log3 and D(Δ)={f∈ℱ:∃g∈L²(m) ∀v∈ℱ, E(f,v)=−∫gv dm}. Audited provenance and status: Subject: Analysis on fractals / Dirichlet forms Doctoral discovery route: Roope Anttila, Assouad dimensions and local structure of fractal sets and measures (Oulu doctoral thesis,2025) Doctoral discovery route: supervisors Ville Suomala and Antti Käenmäki. Qiu’s current primary bibliography lists the inverse-regularity paper as a2026 preprint and links the inspected32-page file. Gao–Yang2407.20789v3, author-labelled final version, Theorem2.1/§9, proves exponent β−α estimates and cable-system regularity, not the carpet endpoint β−α+log2/log3. Equation9.1 defines the standard carpet consistently. The Gao–Yang publisher final was not retrieved; its author-labelled final version was read.
 
 **Source.** Hua Qiu and Yizhou Wang. *An inverse regularity theorem on the domain of the infinitesimal generator of Dirichlet forms*. 2026. [primary source](https://math.nju.edu.cn/DFS//file/2026/09/02/20260902201229539d4bgcl.pdf) Location: An inverse regularity theorem on the domain of the infinitesimal generator of Dirichlet forms (2026 author preprint), Conjecture1.4,p.5; definitions pp.7,19.
+
+
+<a id="q4716"></a>
+
+## Q4716. For every ordered pair of nonconstant harmonic functions h₁,h₂ and every…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every ordered pair of nonconstant harmonic functions h₁,h₂ and every log(35/3)/log9≤p&lt;log15/log9, is dν\_h₁/dν\_h₂∈Lᵖ(ν\_h₂)?
+
+**Context.** Let K be the unique nonempty compact set satisfying K=⋃ᵢ₌₀²Fᵢ(K), Fᵢ(x)=(x+qᵢ)/2, where q₀,q₁,q₂ form an equilateral triangle. For a finite word w, F_w denotes the corresponding composition. Define E(f)=limₙ(5/3)ⁿ∑|w|=n∑ᵢ<ⱼ(f(F_wqᵢ)−f(F_wqⱼ))² on continuous real functions, with finite-energy domain F and bilinear polarization E(f,g). A harmonic function minimizes E among functions with its boundary values on {q₀,q₁,q₂}. Its energy measure satisfies ∫φdμ\_h=E(h,φh)−E(h²,φ)/2 for φ∈F; put ν\_h=μ\_h/E(h). Audited provenance and status: Subject: Analysis on fractals Doctoral discovery route: Doctoral discovery route: Waldemar Schefer, Bielefeld University, PhD 2024; supervisor Michael Hinz. The selected integrability conjecture predates his thesis. Current status: Current arXiv v1, 24 July 2026: Conjecture 1.1 remains explicit. Theorem 4.3, p.11, covers smaller p; Corollary 5.2, p.15, covers only the specified denominator direction. The current primary paper and definition source were read. The apparent full-solution archive entry links only to this same partial-results paper; no separate proof or later version was identified.
+
+**Source.** Konstantinos Tsougkas. *Lᵖ-Integrability of Radon–Nikodym Densities Between Harmonic Energy Measures on the Sierpinski Gasket*. 2026. [primary source](https://arxiv.org/abs/2607.22784v1) Location: https://arxiv.org/abs/2607.22784v1, Conjecture1.1,p.2; Theorem4.3,p.11; definitions §§1.1–2.1.
+
+**Literature check.** Status: Bounded current checks found no matching resolution of the universal residual interval.
+
+
+<a id="q4768"></a>
+
+## Q4768. Must every zero of z^{|m|}Φ(z) belong to D?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Must every zero of z^{|m|}Φ(z) belong to D?
+
+**Context.** Audited provenance and status: Subject: Complex analysis and approximation theory Current status: Doctoral-origin conjecture, thesis p.47. The current arXiv version remains v1; no matching resolution was located through 13 October 2026. Dissertation provenance: Doctoral source: Marcus Vaktnäs, Multiple orthogonal polynomials on the real line and the unit circle, Uppsala University, 2026; principal supervisor Rostyslav Kozhan. Current status: Kozhan–Vaktnäs, arXiv:2603.21468v1, Theorem 5.2: normality is proved, but its proof leaves the inside-versus-outside alternative. Theorem 5.1 concerns a different index family. Current status: The PDF is dated 24 March 2026; the HTML displays 24 August 2026. Submission history lists only v1.
+
+**Source.** Marcus Vaktnäs. *Multiple orthogonal polynomials on the real line and the unit circle*. Uppsala University, 2026. Advisor(s): Rostyslav Kozhan. [primary source](https://uu.diva-portal.org/smash/get/diva2:2048073/FULLTEXT01.pdf) Location: doctoral thesis §6.7, p.47; notation (6.40)–(6.42), p.44; arXiv:2603.21468v1, Definition 2.3 and Theorem 5.2.
+
+**Literature check.** Status: Current status: Doctoral-origin conjecture, thesis p.47. The current arXiv version remains v1; no matching resolution was located through 13 October 2026.
+
+**Further links.** [1](https://arxiv.org/abs/2603.21468) · [2](https://www.uu.se/en/department/mathematics/events/archive/2026-05-22-dissertation-multiple-orthogonal-polynomials-on-the-real-line-and-the-unit-circle) · [3](https://arxiv.org/abs/2603.21468v1)
+
+
+<a id="q4772"></a>
+
+## Q4772. Is 5/3 the least universal c such that, for every nonspecial f and Borel sets A,B⊂[0,1] of…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is 5/3 the least universal c such that, for every nonspecial f and Borel sets A,B⊂[0,1] of positive Hausdorff dimensions, dim_H A+dim_H B>c forces f(A×B) to have positive Lebesgue measure?
+
+**Context.** Minh-Quy Pham: sharpness of a dimension threshold. Let Ω⊂R² be connected and open, containing [0,1]². Call a real-analytic f:Ω→R special if, on every connected component of {f_xf_y≠0}, it equals g(h(x)+k(y)) for univariate real-analytic g,h,k. Audited provenance and status: Subject: Harmonic analysis and geometric measure theory Doctoral source: Minh-Quy Pham, University of Rochester, 2026. Joint supervisors: Alex Iosevich and Allan Greenleaf. PDF heading: 5 March 2026. Demeter–O’Regan v3, Theorem 1.3, treats f(x,y)=x(x+y), s,t≤2/3, and Hausdorff dimension. Its publisher-deposited abstract describes a particular expander and an incidence estimate. Publisher final unread. This fixed-polynomial dimension result does not settle the universal positive-measure threshold. Liao–Pham–Shen v2, Theorem 1.5, concerns three-variable quadratic image-measure estimates. arXiv record: 3 March 2026; HTML heading: 24 August 2026.
+
+**Source.** Minh-Quy Pham. *Doctoral source on harmonic analysis and geometric measure theory*. University of Rochester, 2026. Advisor(s): Alex Iosevich; Allan Greenleaf. [primary source](https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=38581) Location: thesis §6, p. 93; Definition 4.1; Theorem 4.3(ii).
+
+**Literature check.** Status, 13 October 2026: the companion retains the question; no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/html/2601.01264v1) · [2](https://arxiv.org/html/2601.01264v3) · [3](https://doi.org/10.1112/blms.70504) · [4](https://api.crossref.org/works/10.1112/blms.70504) · [5](https://sites.google.com/view/willoregan) · [6](https://arxiv.org/html/2601.09582v2) · [7](https://arxiv.org/abs/2603.03567) · [8](https://arxiv.org/pdf/2603.03567v1) · [9](https://arxiv.org/abs/2601.01264) · [10](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.70504) · [11](https://arxiv.org/abs/2601.09582) · [12](https://arxiv.org/abs/2601.01264v1) · [13](https://arxiv.org/abs/2601.01264v3) · [14](https://arxiv.org/abs/2601.09582v2) · [15](https://arxiv.org/abs/2603.03567v1)
+
+
+<a id="q4781"></a>
+
+## Q4781. If N+1+2q^(N+2)=0 for some integer N≥2, must a=0?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+If N+1+2q^(N+2)=0 for some integer N≥2, must a=0?
+
+**Context.** Techheang Meng: resonance at a pole. Let a,b,q∈C, b≠0, |q|>1, and let y be meromorphic near 0, with a pole at 0, satisfying y′(z)+ay(z)+by(qz)²=0 as germs. Audited provenance and status: Subject: Field: complex analysis; functional-differential equations. Doctoral source: Techheang Meng, UCL PhD 2026, Applications of complex function theory to differential and functional equations. Supervisor: Rod Halburd (p.5). The difference-equation final’s §2 concerns y(z+1)=F(z,y(z)); it does not resolve the thesis’s equation (6.2). The Lotka–Volterra final remains unread; the thesis declaration assigns that published work to Chapter 3. The 2026 thesis is newer than both companion publications. Source locators: thesis part1 pp.8–11; https://arxiv.org/abs/2412.20304 ; https://doi.org/10.1016/j.physd.2025.134674 .
+
+**Source.** Techheang Meng. *Applications of complex function theory to differential and functional equations*. UCL, 2026. Advisor(s): Rod Halburd. [primary source](https://discovery.ucl.ac.uk/id/eprint/10221357/2/Thesis%20part2.pdf) Location: thesis §6.4, pp.191–193 and p.196.
+
+**Literature check.** Status: The thesis states this conjecture; checked 13 October 2026, with no matching later resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2412.20304) · [2](https://doi.org/10.1016/j.physd.2025.134674) · [3](https://discovery.ucl.ac.uk/id/eprint/10221357/1/Thesis%20part1.pdf) · [4](https://discovery.ucl.ac.uk/10221357/2/Thesis%20part2.pdf) · [5](https://discovery.ucl.ac.uk/id/eprint/10221357/) · [6](https://lxy.cumtb.edu.cn/info/1067/7876.htm) · [7](https://arxiv.org/abs/2502.03955) · [8](https://discovery.ucl.ac.uk/id/eprint/10220768/1/1-s2.0-S0022247X25011175-main.pdf) · [9](https://discovery.ucl.ac.uk/id/eprint/10220768/) · [10](https://www.sciencedirect.com/science/article/pii/S0167278925001538) · [11](https://api.crossref.org/works/10.1016%2Fj.physd.2025.134674)
+
+
+<a id="q4784"></a>
+
+## Q4784. For each Δ>0, determine real entire functions F⁻≤f_{2k}≤F⁺ on R, of exponential type at most…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For each Δ>0, determine real entire functions F⁻≤f_{2k}≤F⁺ on R, of exponential type at most 2πΔ, minimizing the respective errors ∫\_R(f_{2k}−F⁻)dx and ∫\_R(F⁺−f_{2k})dx.
+
+**Context.** f_{2k}(x)=(-1)^k x^{2k} arctan(1/x)+∑\_{ℓ=0}^{k-1} [(-1)^{k-ℓ+1}/(2ℓ+1)]x^{2k-2ℓ-1}−x/[(2k+1)(1+x²)]. Audited provenance and status: Subject: Field: Fourier analysis; approximation theory. Doctoral restatement: Tolibjon Ikromboy Ugli Ismoilov, SISSA PhD, 8 September 2026. Supervisor: Emanuel Carneiro. Thesis: Extremal Problems in Fourier Analysis and Applications to Number Theory. The companion journal final remains unread. The September thesis postdates the companion final preserved in June’s MPG record.
+
+**Source.** Tolibjon Ikromboy Ugli Ismoilov. *Extremal Problems in Fourier Analysis and Applications to Number Theory*. SISSA, 2026. Advisor(s): Emanuel Carneiro. [primary source](https://iris.sissa.it/handle/20.500.11767/152870) Location: thesis §6.1.3.2, p.139; Carneiro–Chirre §1.3.
+
+**Literature check.** Status: The thesis states this remains open; no matching resolution located by 13 October 2026.
+
+**Further links.** [1](https://iris.sissa.it/retrieve/eaea0d2a-c97f-4a72-8d82-fd13f2a2b50e/Extremal%20Problems%20in%20Fourier%20Analysisand%20Applications%20to%20Number%20Theory.pdf) · [2](https://doi.org/10.1112/blms.70388) · [3](https://arxiv.org/html/1702.04099v1) · [4](https://pure.mpg.de/rest/items/item_3708173_3) · [5](https://arxiv.org/abs/1702.04099v1)
+
+
+<a id="q4796"></a>
+
+## Q4796. Affine minorants from integral nonnegativity. For positive integers N,n, let F:R^{N×n}→R be…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Affine minorants from integral nonnegativity. For positive integers N,n, let F:R^{N×n}→R be continuous with |F(X)|≤C(1+|X|) for some C>0. Suppose F∞(X)=lim_{t→∞}F(tX)/t exists locally uniformly in X and ∫\_[0,1]^n F(Du(x))dx≥0 for every u∈C_c∞([0,1]^n;R^N). Define S={Y∈R^{N×n}:F∞(X)≥⟨X,Y⟩ for all X∈R^{N×n}} and W=(span S)⊥, using the Frobenius inner product. If W is spanned by the rank-one matrices it contains, must there be B∈R^{N×n} and c∈R such that F(X)≥⟨B,X⟩+c for all X∈R^{N×n}?
+
+**Context.** Audited provenance and status: Subject: calculus of variations. Wen Qi Zhang; ANU PhD thesis, February 2026. Adviser: Po-Lam Yung. Field: calculus of variations. Chapter4 reports joint work with Bernd Kirchheim and Jan Kristensen. The Stein–Weiss papers do not address affine minorants. Conjecture4.2.5,pp.56–57; Definitions4.2.1–4.2.2. 2412.09987v2,§1;2610.11048v1,§1. Adviser: Po-Lam Yung.
+
+**Source.** Wen Qi Zhang. *Doctoral source on affine minorants from integral nonnegativity*. Australian National University, 2026. Advisor(s): Po-Lam Yung. [primary source](https://openresearch-repository.anu.edu.au/bitstreams/1624c935-bc3c-499d-aaf5-8584cb0386ed/download) Location: Conjecture4.2.5,pp.56–57; Definitions4.2.1–4.2.2.
+
+**Literature check.** Status: Thesis-reported conjecture; checked 13 October 2026. No matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2412.09987) · [2](https://arxiv.org/html/2412.09987v2) · [3](https://arxiv.org/abs/2610.11048) · [4](https://arxiv.org/html/2610.11048v1) · [5](https://openresearch-repository.anu.edu.au/items/c8294dc8-8c75-49da-ad4a-4b1ce9071008) · [6](https://wen-zha.github.io/Wen-Zha/) · [7](https://arxiv.org/abs/2412.09987v2) · [8](https://arxiv.org/abs/2610.11048v1)
+
+
+<a id="q4800"></a>
+
+## Q4800. Two-weight boundedness of the Bergman projection. Let D={z∈C:|z|<1}, let dA=dxdy/π, and define…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Two-weight boundedness of the Bergman projection. Let D={z∈C:|z|<1}, let dA=dxdy/π, and define Pf(z)=∫\_D f(ζ)/(1−zζ̄)² dA(ζ). Characterize the pairs of nonnegative integrable weights u,v on D for which P extends boundedly from L²(D,u dA) to L²(D,v dA), where ‖f‖²\_{L²(D,w dA)}=∫\_D|f|²w dA. The initial domain consists of bounded measurable functions.
+
+**Context.** Audited provenance and status: Subject: complex analysis/operator theory. Doctoral source: Siyu Wang, University of Eastern Finland, 2026; primary supervisor Jouni Rättyä; secondary supervisor Janne Gröhn. Field: complex analysis/operator theory. The September theorem uses the same weighted space on both sides. The July result concerns radial weights and the same-space projection. Brocchi gives sufficient conditions; publisher abstract read, full final unread. The 2026 final concerns commutators. 2017 accepted manuscript read; publisher final unread.
+
+**Source.** Siyu Wang. *Doctoral source on Bergman kernels and fractional derivatives*. University of Eastern Finland, 2026. Advisor(s): Jouni Rättyä; Janne Gröhn. [primary source](https://erepo.uef.fi/bitstreams/7d5eeb2e-ac80-44b7-9ef8-016b9cfc7ebb/download) Location: Thesis p.19 and September 2026 Introduction retain this problem; checked 13 October 2026. Thesis pp.iii,vi,19; September §1,Theorem3; accepted manuscript §1.
+
+**Further links.** [1](https://arxiv.org/abs/2609.27713) · [2](https://arxiv.org/html/2609.27713v1) · [3](https://pure-oai.bham.ac.uk/ws/files/28559575/Aleman_et_al_Sarason_Conjecture_Bergman_Space_Accepted.pdf) · [4](https://arxiv.org/abs/2607.10742) · [5](https://arxiv.org/html/2607.10742v2) · [6](https://link.springer.com/article/10.1007/s13348-023-00420-w) · [7](https://link.springer.com/article/10.1007/s00041-025-10231-1) · [8](https://uef.cris.fi/en/publications/d6039656-d306-4f62-b4b4-eed17e40d6b7) · [9](http://urn.fi/URN:ISBN:978-952-61-5972-0) · [10](https://urn.fi/URN:ISBN:978-952-61-5972-0) · [11](https://erepo.uef.fi/handle/123456789/37376) · [12](https://www.uef.fi/en/article/doctoral-defence-of-siyu-wang-dsc-2152026-bergman-kernel-estimates-and-fractional-derivatives-with?vs_q=mathematics) · [13](https://arxiv.org/abs/2609.27713v1) · [14](https://arxiv.org/abs/2607.10742v2)
 

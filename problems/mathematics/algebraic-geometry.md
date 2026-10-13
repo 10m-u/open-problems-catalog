@@ -1,6 +1,6 @@
 # Algebraic Geometry
 
-73 problems: 73 open.
+85 problems: 83 open, 2 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -12,9 +12,9 @@
 | [Q1112](algebraic-geometry.md#q1112) | K-stability of every smooth Gushel–Mukai manifold | Open |
 | [Q1212](algebraic-geometry.md#q1212) | Uniform positive F-signature for characteristic-p reductions | Open |
 | [Q1417](algebraic-geometry.md#q1417) | Line-bundle cohomology on positive-characteristic complete flags | Open |
-| [Q2508](algebraic-geometry.md#q2508) | Unimodal Hilbert functions of Perazzo algebras | Open |
+| [Q2508](algebraic-geometry.md#q2508) | Unimodal Hilbert functions of Perazzo algebras | Open, partial results |
 | [Q2509](algebraic-geometry.md#q2509) | Weak Lefschetz Perazzo algebras | Open |
-| [Q2924](algebraic-geometry.md#q2924) | Log-concavity of positive-braid rulings | Open |
+| [Q2924](algebraic-geometry.md#q2924) | Log-concavity of positive-braid rulings | Open, partial results |
 | [Q3456](algebraic-geometry.md#q3456) | Does tropical duality localize to stars? | Open |
 | [Q3462](algebraic-geometry.md#q3462) | Minimal-weight compactifications of marked del Pezzo surfaces | Open |
 | [Q3528](algebraic-geometry.md#q3528) | A toric Zariski–Nagata equality | Open |
@@ -79,6 +79,18 @@
 | [Q4684](algebraic-geometry.md#q4684) | Curves meeting the Banach–Colmez space BC(1/2) | Open |
 | [Q4685](algebraic-geometry.md#q4685) | An explicit transcendental pseudo-effective threshold | Open |
 | [Q4690](algebraic-geometry.md#q4690) | Nonabelian fundamental groups of abeloids | Open |
+| [Q4701](algebraic-geometry.md#q4701) | Complete intersections contained in Veronese varieties | Open |
+| [Q4702](algebraic-geometry.md#q4702) | Dimension of a binary matrix-trace span | Open |
+| [Q4712](algebraic-geometry.md#q4712) | Minimal resolutions | Open |
+| [Q4713](algebraic-geometry.md#q4713) | Numerical comparison | Open |
+| [Q4714](algebraic-geometry.md#q4714) | Zariski locality | Open |
+| [Q4725](algebraic-geometry.md#q4725) | Relative valuative completeness | Open |
+| [Q4731](algebraic-geometry.md#q4731) | Characteristic-two horospherical classification | Open |
+| [Q4744](algebraic-geometry.md#q4744) | Rationality of Edixhoven jumps | Open |
+| [Q4778](algebraic-geometry.md#q4778) | For odd κ>1, must local monodromy around t=1 act nontrivially on compactly supported cohomology… | Open |
+| [Q4789](algebraic-geometry.md#q4789) | Is the largest possible ind(X) equal to (sₙ₋₁−1)(2sₙ₋₁−3)? | Open |
+| [Q4790](algebraic-geometry.md#q4790) | Is the largest possible ∑ᵢ₌₀²ⁿbᵢ(X) equal to 2∏ᵢ₌₀ⁿ(sᵢ−1)? | Open |
+| [Q4797](algebraic-geometry.md#q4797) | Is k[V] free over k[V]^G exactly when every irreducible component of π(V∖Vˢ) has codimension one… | Open |
 
 <a id="q208"></a>
 
@@ -185,7 +197,7 @@ Determine H^i(Fl_n, L_λ) as GL_n(k)-representations for arbitrary n≥4, integr
 
 ## Q2508. Unimodal Hilbert functions of Perazzo algebras
 
-**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 26
+**Status:** Open, partial results · **Kind:** open problem (Problem 1) · **Collection** 26
 
 Classify the forms F for which the Hilbert function i↦dim_K(A_F)\_i is unimodal.
 
@@ -194,6 +206,13 @@ Classify the forms F for which the Hilbert function i↦dim_K(A_F)\_i is unimoda
 **Source.** Emilia Mezzetti, Rosa M. Miró-Roig. *Perazzo n-folds and the weak Lefschetz property*. 2024. [primary source](https://doi.org/10.1007/s12215-024-01063-x) Location: Problem 1(i), §6, p. 22; Definition 2.2.
 
 **Literature check.** Status for questions 2508, 2509, checked 7 October 2026: The solved m=2 case is excluded; later full-Perazzo and Roller-Coaster results do not supply either general classification.
+
+**Results.**
+
+- **Partial result**: For every F=sum X_j p_j(U)+G(U), put W=span(p_j), J=Ann(W), r_i=dim(D/J)\_i and B_i(a,b)=(ab)G on J_i by J_(d-i). Then h_F(i)=r_i+r_(d-i)+rank(B_i). An all-degree family has flat internal row e+5 for e=d-1>=3 and W=S_e(U,V)+span(Z^e). In the all-r>=3 quartic family consisting of all cubics in r variables plus Z^3 and G=Z^4+Z^2 Q, unimodality holds exactly when rank(Q)>=binom(r,3). The complete Perazzo unimodality classification remains unresolved. The correction depends on G modulo S_1 W; it cannot be discarded. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/perazzo/DERIVATIVE-RANKS.md).
+- **Partial result** (B3-ALL-TARGETS-Q2508-RANKS: Exact Perazzo derivative ranks and quartic subfamilies): For every F=sum X_j p_j(U)+G(U), put W=span(p_j), J=Ann(W), r_i=dim(D/J)\_i and B_i(a,b)=(ab)G on J_i by J_(d-i). Then h_F(i)=r_i+r_(d-i)+rank(B_i). An all-degree family has flat internal row e+5 for e=d-1>=3 and W=S_e(U,V)+span(Z^e). In the all-r>=3 quartic family consisting of all cubics in r variables plus Z^3 and G=Z^4+Z^2 Q, unimodality holds exactly when rank(Q)>=binom(r,3). Remaining/limits: The complete Perazzo unimodality classification remains unresolved. The correction depends on G modulo S_1 W; it cannot be discarded. [Report](../../solutions/b3-all-targets-2026-10-13/perazzo/DERIVATIVE-RANKS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-PERAZZO-SOURCE-CORRECTIONS: Legal counterexamples to auxiliary published Perazzo claims): At d=4,m=3,n=4 the legal Perazzo example in the written proof has Hilbert row (1,8,8,8,1), contradicting the final source universal middle minimum 10 as printed. Its all-degree family also contradicts the fixed-presentation general-derivative independence assertion. Remaining/limits: These are auxiliary source corrections, not a solution of Q2508. No smaller deconed presentation is excluded. No external communication, novelty or peer-review claim. [Report](../../solutions/b3-all-targets-2026-10-13/perazzo/DERIVATIVE-RANKS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2405.14756) · [2](https://doi.org/10.1007/s10231-025-01555-2) · [3](https://doi.org/10.1016/j.jpaa.2026.108238)
 
@@ -219,7 +238,7 @@ Classify the forms F for which some ℓ∈(A_F)\_1 makes multiplication (A_F)\_i
 
 ## Q2924. Log-concavity of positive-braid rulings
 
-**Status:** Open · **Kind:** conjecture (Conjecture 2.3) · **Collection** 30
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 2.3) · **Collection** 30
 
 Must a_j²≥a_{j−1}a_{j+1} for 1≤j<δ, with no zero coefficient between two nonzero coefficients?
 
@@ -228,6 +247,12 @@ Must a_j²≥a_{j−1}a_{j+1} for 1≤j<δ, with no zero coefficient between two
 **Source.** Tao Su, Baiting Xie, Chenglong Yu. *Log-concavity from enumerative geometry of planar curve singularities*. 2026. [primary source](https://arxiv.org/pdf/2603.27888v2) Location: Conjecture 2.3, p. 4; scope warning, Remark 2.5, p. 5.
 
 **Literature check.** Status for question 2924, checked 7 October 2026: April 2026 v2 retains this positive-braid scope; arbitrary Legendrian links are expressly excluded. No later resolution found.
+
+**Results.**
+
+- **Partial result**: For beta=sigma_1^m, write m=2d+e with e in {0,1}. The normalized ruling coefficients are binom(d+j+e,d-j), positive and log-concave for every m. The returning-walk polynomials satisfy F_(a+b)=F_a F_b+F_(a-1)F_(b-1) for all positive a,b, with the written parity correction after normalization. This derives a source-known subfamily and explains the composition obstruction. General positive braids remain unresolved; no novelty claim. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/knots/TWO-STRAND-RESULT.md).
+- **Partial result** (B3-ALL-TARGETS-Q2924-TWO-STRANDS: Two-strand ruling inequalities and the exact composition correction): For beta=sigma_1^m, write m=2d+e with e in {0,1}. The normalized ruling coefficients are binom(d+j+e,d-j), positive and log-concave for every m. The returning-walk polynomials satisfy F_(a+b)=F_a F_b+F_(a-1)F_(b-1) for all positive a,b, with the written parity correction after normalization. Remaining/limits: This derives a source-known subfamily and explains the composition obstruction. General positive braids remain unresolved; no novelty claim. [Report](../../solutions/b3-all-targets-2026-10-13/knots/TWO-STRAND-RESULT.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 
 <a id="q3456"></a>
@@ -1268,4 +1293,190 @@ Let p be prime and C/Q_p a complete algebraically closed extension. Let A/C be a
 **Literature check.** Status: Current arXiv v3 and author list retain this question; no matching later resolution or journal final was located.
 
 **Further links.** [1](https://arxiv.org/abs/2512.09661)
+
+
+<a id="q4701"></a>
+
+## Q4701. Complete intersections contained in Veronese varieties
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Over ℂ, let n≥1, d≥2, N=binom(n+d,d)−1, and Vₙ,ᵈ⊂ℙᴺ be the image of ℙⁿ under all degree-d monomials. A reduced closed subvariety X⊂ℙᴺ is a complete intersection when its homogeneous ideal is generated by codim(X) homogeneous forms. Are the nonempty reduced complete intersections contained in Vₙ,ᵈ exactly single points and pairs of distinct points, together, when d=2, with plane conics C⊂Vₙ,₂ and reduced scheme-theoretic intersections C∩H, where H⊂ℙᴺ is a positive-degree hypersurface not containing C?
+
+**Context.** Audited provenance and status: Subject: Algebraic geometry
+
+**Source.** Stefano Canino. *Zero-dimensional schemes: curves, singularities and tensors*. Politecnico di Torino, 2024. Advisor(s): Enrico Carlini; Ada Boralevi. [primary source](https://iris.polito.it/handle/11583/2989630) Location: thesis Introduction, pp11–12; Conjecture5.4.2, p150; paper Introduction.
+
+**Literature check.** Status: Thesis and preprint inspected; the older 2023 publisher PDF remains unread. The thesis repeats the geometric classification. Direct thesis download later returned 403. No later matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1016/j.jalgebra.2023.01.025)
+
+
+<a id="q4702"></a>
+
+## Q4702. Dimension of a binary matrix-trace span
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Let A₀,A₁ be generic 2×2 matrices whose eight entries are algebraically independent variables over ℂ. For each integer d≥1, let W_d be the ℂ-linear span, in the polynomial ring on these entries, of Tr(Aᵢ₁⋯Aᵢ\_d) for all (i₁,…,i_d)∈{0,1}ᵈ. Is dim(W_d)=(d⁴−4d²+192d+192)/192 for even d and (d⁴−10d²+192d+201)/192 for odd d?
+
+**Context.** Audited provenance and status: Subject: Algebraic geometry / invariant theory Claudia De Lazzari, Trento PhD 2022; supervisor Alessandra Bernardi, co-supervisor Iacopo Carusotto. Thesis record was readable; direct retrieval returned403, and the dissertation was not inspected. December2023 notes retain this conjecture after the January2023 AAM final, which remains unread. Homogeneous-state formulas do not settle uniform states. Publisher final read through the web parser; direct PDF download returned406. The current author publication list identifies no newer matching solution of the selected uniform-state dimension conjecture.
+
+**Source.** Claudia De Lazzari; Harshit J. Motwani; Tim Seynnaeve. *Uniform matrix product states from an algebraic geometer's point of view*. 2022. [primary source](https://doi.org/10.3842/SIGMA.2022.099) Location: publisher final Observation3.1 and Conjecture3.8, pp7,9.
+
+
+<a id="q4712"></a>
+
+## Q4712. Minimal resolutions
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Characterize the resolutions f for which E_Y≅F_f.
+
+**Context.** Let Y be a reduced irreducible separated finite-type R-scheme of dimension d with a smooth real point. For a proper resolution f:X→Y, set F_f=Rf_\*F₂ on Y(R). In Dᵇ\_c(Y(R),F₂), its real geometric extension E_Y is the direct summand of F_f extending the constant sheaf on Yˢᵐ(R), with no proper direct summand doing so; its isomorphism class is resolution-independent. Define E_Yⁿᵘᵐ by minimizing instead among summands extending that constant sheaf whose projectors lie in the image of CH_d(X×\_Y X)→H_dᴮᴹ(X(R)×\_{Y(R)}X(R),F₂)≅End(F_f), the real cycle-class map. Audited provenance and status: Subject: Real algebraic geometry Christopher Hone: Sydney PhD2025; primary supervisor Geordie Williamson, auxiliary supervisor Oded Yacobi. Paper-origin questions extend the thesis construction. Full thesis and June2026 paper read; the earlier IMRN2025 final was not inspected. Numerical locality is proved; ordinary locality remains explicitly open.
+
+**Source.** Chris Hone. *Real algebraic varieties and their intersection cohomology*. 2026. [primary source](https://arxiv.org/abs/2606.09149) Location: Questions5.2–5.3.
+
+**Literature check.** Status: The current author list links both selected2026 preprints. Announced affine-Grassmannian and equivariant-K-theory projects do not claim either selected programme resolved.
+
+
+<a id="q4713"></a>
+
+## Q4713. Numerical comparison
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Does any such Y satisfy E_Y≇E_Yⁿᵘᵐ?
+
+**Context.** Let Y be a reduced irreducible separated finite-type R-scheme of dimension d with a smooth real point. For a proper resolution f:X→Y, set F_f=Rf_\*F₂ on Y(R). In Dᵇ\_c(Y(R),F₂), its real geometric extension E_Y is the direct summand of F_f extending the constant sheaf on Yˢᵐ(R), with no proper direct summand doing so; its isomorphism class is resolution-independent. Define E_Yⁿᵘᵐ by minimizing instead among summands extending that constant sheaf whose projectors lie in the image of CH_d(X×\_Y X)→H_dᴮᴹ(X(R)×\_{Y(R)}X(R),F₂)≅End(F_f), the real cycle-class map. Audited provenance and status: Subject: Real algebraic geometry Christopher Hone: Sydney PhD2025; primary supervisor Geordie Williamson, auxiliary supervisor Oded Yacobi. Paper-origin questions extend the thesis construction. Full thesis and June2026 paper read; the earlier IMRN2025 final was not inspected. Numerical locality is proved; ordinary locality remains explicitly open.
+
+**Source.** Chris Hone. *Real algebraic varieties and their intersection cohomology*. 2026. [primary source](https://arxiv.org/abs/2606.09149) Location: Questions5.2–5.3.
+
+**Literature check.** Status: The current author list links both selected2026 preprints. Announced affine-Grassmannian and equivariant-K-theory projects do not claim either selected programme resolved.
+
+
+<a id="q4714"></a>
+
+## Q4714. Zariski locality
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every nonempty Zariski-open U⊆Y, is E_Y|\_{U(R)}≅E_U?
+
+**Context.** Let Y be a reduced irreducible separated finite-type R-scheme of dimension d with a smooth real point. For a proper resolution f:X→Y, set F_f=Rf_\*F₂ on Y(R). In Dᵇ\_c(Y(R),F₂), its real geometric extension E_Y is the direct summand of F_f extending the constant sheaf on Yˢᵐ(R), with no proper direct summand doing so; its isomorphism class is resolution-independent. Define E_Yⁿᵘᵐ by minimizing instead among summands extending that constant sheaf whose projectors lie in the image of CH_d(X×\_Y X)→H_dᴮᴹ(X(R)×\_{Y(R)}X(R),F₂)≅End(F_f), the real cycle-class map. Audited provenance and status: Subject: Real algebraic geometry Christopher Hone: Sydney PhD2025; primary supervisor Geordie Williamson, auxiliary supervisor Oded Yacobi. Paper-origin questions extend the thesis construction. Full thesis and June2026 paper read; the earlier IMRN2025 final was not inspected. Numerical locality is proved; ordinary locality remains explicitly open.
+
+**Source.** Chris Hone. *Real algebraic varieties and their intersection cohomology*. 2026. [primary source](https://arxiv.org/abs/2606.09149) Location: Questions5.2–5.3.
+
+**Literature check.** Status: The current author list links both selected2026 preprints. Announced affine-Grassmannian and equivariant-K-theory projects do not claim either selected programme resolved.
+
+
+<a id="q4725"></a>
+
+## Q4725. Relative valuative completeness
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For X=Θ\_R and X=ST_R, must every morphism X→G_{g,n} whose restriction to X∖{0} factors through M^r_{g,n} itself factor through M^r_{g,n}? Equivalently, is this open immersion both Θ-complete and S-complete?
+
+**Context.** Over a field k of characteristic zero, fix integers g,n,r≥0. Let G_{g,n} parametrize proper connected reduced Gorenstein curves of arithmetic genus g, with n distinct smooth marked points pᵢ and ample ω\_C(∑pᵢ). Let M^r_{g,n}⊂G_{g,n} impose that every geometric singularity over an algebraically closed field K has completed local ring K[[x,y]]/(y²−x^(h+1)) for some 1≤h≤r. Families are flat and proper with these geometric fibers. For each discrete valuation k-algebra R with uniformizer π, put Θ\_R=[SpecR[t]/Gₘ], with t of weight1, and ST_R=[SpecR[x,y]/(xy−π)/Gₘ], with weights(1,−1). In either stack let 0 denote its unique closed point. Audited provenance and status: Subject: Algebraic geometry Davide Gori: Sapienza University of Rome PhD defended19January2026; advisor Filippo Viviani. Official thesis cover and introduction read through the web parser; direct local download returned403. Paper-origin target: March2026 manuscript Question1.5, reaffirmed in July Question1.2. Both texts read. This concerns a relative immersion, not completeness of either ambient stack. August2026 v1 read. Theorems1.2–1.5 concern semistability and singularity degenerations, not the relative two-dimensional valuative extension question. March2026 local-geometry paper classifies automorphisms, degenerations, and certain hyperelliptic open substacks; it does not answer the later relative immersion question. Current July13 v2 inspected. October6 v1 Theorem4.1 classifies genus-one proper-good-moduli substacks; §§2–4 supply no all-genus relative A-singularity completeness theorem or counterexample.
+
+**Source.** Davide Gori; Ludvig Modin; Michele Pernice. *Obstructions to the existence of good moduli spaces of A_r-stable curves*. 2026. [primary source](https://arxiv.org/abs/2607.12059v1) Location: Question1.2.
+
+**Further links.** [1](https://arxiv.org/abs/2607.12059)
+
+
+<a id="q4731"></a>
+
+## Q4731. Characteristic-two horospherical classification
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For arbitrary G as above, give a complete classification of these horospherical subgroup schemes H up to conjugacy by G(K).
+
+**Context.** Let K be an algebraically closed field of characteristic two and G a smooth connected reductive algebraic K-group. Fix a Borel subgroup B⊂G and its unipotent radical U. A closed finite-type subgroup scheme H⊂G is horospherical if it contains gUg⁻¹ for some g∈G(K). Neither smoothness nor connectedness is imposed on H. Audited provenance and status: Subject: Algebraic geometry Matilde Maccan: Rennes PhD June20,2024; supervisor Matthieu Romagny, co-supervisor Michel Brion. Paper-origin target. The earlier workshop programme addressed strongly horospherical subgroups in characteristic two; Remark1.4 explicitly asks for the full classification. Inspected author-labelled final v2: arXiv July18, internal dateline July21,2026; linked Canadian Mathematical Bulletin DOI. Publisher lists July9 online publication and 28-page First View; publisher PDF unread. Author-final length: 21 pages.
+
+**Source.** Matilde Maccan; Ronan Terpereau. *Horospherical subgroups in positive characteristic*. 2026. [primary source](https://arxiv.org/abs/2509.15003v2) Location: Remark1.4.
+
+**Further links.** [1](https://arxiv.org/abs/2509.15003)
+
+
+<a id="q4744"></a>
+
+## Q4744. Rationality of Edixhoven jumps
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is jᵢ(A) rational for every such A and every 1≤i≤g?
+
+**Context.** Let K be a Henselian discretely valued field with algebraically closed residue field, valuation ring R, and fixed separable closure. Let A/K be an abelian variety of dimension g≥1 and 𝒜/R its Néron model. For every finite tamely ramified extension L/K inside that closure, let R_L be its valuation ring, π\_L a uniformizer, and 𝒜\_L the Néron model of A×\_K L. Define integers c₁(L)≤⋯≤c_g(L) by coker(Lie(𝒜)⊗\_R R_L→Lie(𝒜\_L))≅⊕ᵢR_L/(π\_L^{cᵢ(L)}), using the canonical base-change morphism. The Edixhoven jumps are the existing limits jᵢ(A)=lim_{L/K tame}cᵢ(L)/[L:K], with extensions directed by inclusion. Audited provenance and status: Subject: Arithmetic geometry Michaël Maex: KU Leuven PhD 22 June 2026; supervisor Johannes Nicaise. Thesis title: Weight Functions on Berkovich Spaces. Old problems restated in the June thesis; not thesis-origin. Accepted 2025 manuscript read; publisher PDF unread. April Overkamp–Vanni results cover unirational groups and potentially totally multiplicative abelian varieties.
+
+**Source.** Michaël Maex. *Weight Functions on Berkovich Spaces*. KU Leuven, 2026. Advisor(s): Johannes Nicaise. [primary source](https://sites.google.com/view/michaelmaex/homepage) Location: §4.1.1, p134; definitions §§4.2.2–4.2.3.
+
+
+<a id="q4778"></a>
+
+## Q4778. For odd κ>1, must local monodromy around t=1 act nontrivially on compactly supported cohomology…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For odd κ>1, must local monodromy around t=1 act nontrivially on compactly supported cohomology H_c^κ(Z_t,Q) for nearby regular t?
+
+**Context.** Setup: Let γ=(γ₁,…,γ\_l) be a vector of nonzero integers with Σγ\_j=0, gcd(γ₁,…,γ\_l)=1 and Q_γ(T)=∏\_{γ\_j<0}(T^{−γ\_j}−1)/∏\_{γ\_j>0}(T^{γ\_j}−1)≠1. Put κ=l−3 and Γ=∏γ\_j^{γ\_j}. In the torus {[z₁:…:z_l]∈P^{l−1}(C):∏z_j≠0}, set Z_t={Σz_j=0,∏z_j^{γ\_j}=Γt} for t∈C\*. Audited provenance and status: Subject: Algebraic geometry Asem Abdelraouf; SISSA PhD, 2025; advisors Fernando Rodriguez Villegas and Nicolò Sibilla. Algebraic geometry. Later-paper formulation: arXiv:2602.14204v1 p.2, §3.1; Q_γ≠1 states its positive-rank scope. https://arxiv.org/abs/2602.14204v1 Also settled when ±γ has one negative entry (Theorem4.1). September2026 seminar retains the same partial scope. https://indico.ictp.it/event/11517/ Checked point-count and normal-function papers do not resolve the remaining monodromy question. https://arxiv.org/abs/2509.17624v1 https://arxiv.org/abs/2602.04128v1 Paper fallback.
+
+**Source.** Asem Abdelraouf; Giulia Gugiatti. *Geometric realisation of hypergeometric local systems*. 2026. [primary source](https://arxiv.org/abs/2602.14204v1) Location: Thesis expectation p.3, Remark1.34 p.24; setup Definitions1.25–1.27, pp.21–22. https://iris.sissa.it/handle/20.500.11767/146390 Thesis Definition1.25 also permits Q_γ=1; that case is excluded.
+
+**Literature check.** Status: Curves and even-dimensional fibres are settled; the odd-dimensional remainder is retained. No later resolution located.
+
+**Further links.** [1](https://indico.ictp.it/event/11517/) · [2](https://arxiv.org/abs/2509.17624v1) · [3](https://arxiv.org/abs/2602.04128v1) · [4](https://iris.sissa.it/handle/20.500.11767/146390)
+
+
+<a id="q4789"></a>
+
+## Q4789. Is the largest possible ind(X) equal to (sₙ₋₁−1)(2sₙ₋₁−3)?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.1.3) · **Collection** 48
+
+Is the largest possible ind(X) equal to (sₙ₋₁−1)(2sₙ₋₁−3)?
+
+**Context.** Let s₀=2 and sₖ₊₁=s₀⋯sₖ+1. For n≥1, consider smooth connected projective complex n-folds X with torsion canonical divisor K_X. Set ind(X)=min{m≥1:mK_X∼0} (m integral) and bᵢ(X)=dim_Q Hⁱ(X,ℚ). Audited provenance and status: Subject: Algebraic geometry Jas Singh; UCLA PhD2026. Advisor: Burt Totaro. Algebraic geometry. Thesis Conjectures2.1.3/2.1.5, pp31/33; second: Betti component only. https://escholarship.org/uc/item/2jm355sg Article-origin, retained in thesis; final Conjectures0.3/0.5. https://doi.org/10.1007/s00209-026-03984-y Attainment proved; index bound known for n≤3. Scope inference: the klt counterexample and uniform-index claim do not settle these sharp smooth bounds. ETW final checked. https://doi.org/10.14231/AG-2026-019 Masamura final unread; v3 checked. https://doi.org/10.1093/imrn/rnaf114 Fano-index theorem leaves comparison Conjecture4.2 open. https://arxiv.org/abs/2608.03434
+
+**Source.** Jas Singh. *Doctoral source on smooth varieties with torsion canonical divisor*. UCLA, 2026. Advisor(s): Burt Totaro. [primary source](https://escholarship.org/uc/item/2jm355sg) Location: Thesis Conjecture 2.1.3, p.31; final Conjecture 0.3.
+
+**Literature check.** Status: Checked 2026-10-13; no matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1007/s00209-026-03984-y) · [2](https://doi.org/10.14231/AG-2026-019) · [3](https://doi.org/10.1093/imrn/rnaf114) · [4](https://arxiv.org/abs/2608.03434) · [5](https://jihaoliu.org/notes/ET74.pdf) · [6](https://github.com/openai/math/blob/main/preprints/Uniform-indices-for-semi-log-canonical-log-Calabi-Yau-pairs-October-5-2026/uniform-slc-index.pdf)
+
+
+<a id="q4790"></a>
+
+## Q4790. Is the largest possible ∑ᵢ₌₀²ⁿbᵢ(X) equal to 2∏ᵢ₌₀ⁿ(sᵢ−1)?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.1.5) · **Collection** 48
+
+Is the largest possible ∑ᵢ₌₀²ⁿbᵢ(X) equal to 2∏ᵢ₌₀ⁿ(sᵢ−1)?
+
+**Context.** Let s₀=2 and sₖ₊₁=s₀⋯sₖ+1. For n≥1, consider smooth connected projective complex n-folds X with torsion canonical divisor K_X. Set ind(X)=min{m≥1:mK_X∼0} (m integral) and bᵢ(X)=dim_Q Hⁱ(X,ℚ). Audited provenance and status: Subject: Algebraic geometry Jas Singh; UCLA PhD2026. Advisor: Burt Totaro. Algebraic geometry. Thesis Conjectures2.1.3/2.1.5, pp31/33; second: Betti component only. https://escholarship.org/uc/item/2jm355sg Article-origin, retained in thesis; final Conjectures0.3/0.5. https://doi.org/10.1007/s00209-026-03984-y Attainment proved; index bound known for n≤3. Scope inference: the klt counterexample and uniform-index claim do not settle these sharp smooth bounds. ETW final checked. https://doi.org/10.14231/AG-2026-019 Masamura final unread; v3 checked. https://doi.org/10.1093/imrn/rnaf114 Fano-index theorem leaves comparison Conjecture4.2 open. https://arxiv.org/abs/2608.03434
+
+**Source.** Jas Singh. *Doctoral source on smooth varieties with torsion canonical divisor*. UCLA, 2026. Advisor(s): Burt Totaro. [primary source](https://escholarship.org/uc/item/2jm355sg) Location: Thesis Conjecture 2.1.5, p.33, Betti component; final Conjecture 0.5.
+
+**Literature check.** Status: Checked 2026-10-13; no matching resolution located.
+
+**Further links.** [1](https://doi.org/10.1007/s00209-026-03984-y) · [2](https://doi.org/10.14231/AG-2026-019) · [3](https://doi.org/10.1093/imrn/rnaf114) · [4](https://arxiv.org/abs/2608.03434) · [5](https://jihaoliu.org/notes/ET74.pdf) · [6](https://github.com/openai/math/blob/main/preprints/Uniform-indices-for-semi-log-canonical-log-Calabi-Yau-pairs-October-5-2026/uniform-slc-index.pdf)
+
+
+<a id="q4797"></a>
+
+## Q4797. Is k[V] free over k[V]^G exactly when every irreducible component of π(V∖Vˢ) has codimension one…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is k[V] free over k[V]^G exactly when every irreducible component of π(V∖Vˢ) has codimension one in Spec(k[V]^G)?
+
+**Context.** Let k be algebraically closed of characteristic zero and V a finite-dimensional irreducible rational representation of a connected reductive algebraic k-group G. Let Vˢ comprise points with closed G-orbit lying in no other orbit’s closure, and suppose Vˢ≠∅. Write π:V→Spec(k[V]^G). Audited provenance and status: Subject: Invariant theory Nicole Kitt, Waterloo PhD2025; advisor Matthew Satriano. Invariant theory. Thesis formulation of Edidin–Satriano–Whitehead’s question; earlier Q1.9 separates coprincipality and semisimple purity. Known for simple G and the thesis’s large-factor SLₙ×SLₘ case (Theorem4.8.1). Here factor dimensions are ≥n² and ≥m². Checked2026-10-13: no general resolution found. Older2024 final unread; 2025 thesis retains target.
+
+**Source.** Nicole Kitt. *Characterizing cofree representations of SLn × SLm*. University of Waterloo, 2025. Advisor(s): Matthew Satriano. [primary source](https://uwspace.uwaterloo.ca/items/984f23b6-be26-443a-9904-542febd18aee) Location: Thesis Conjecture3.5.1 p90; Definitions3.3.1 p83, 3.4.2 p88, 3.5.4 p92.
+
+**Literature check.** Status: Checked2026-10-13: no general resolution found. Older2024 final unread; 2025 thesis retains target.
+
+**Further links.** [1](https://arxiv.org/abs/1905.04845v4) · [2](https://doi.org/10.1016/j.aim.2024.109564)
 

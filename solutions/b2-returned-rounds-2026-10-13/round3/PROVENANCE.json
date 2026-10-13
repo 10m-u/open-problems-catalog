@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-13",
+  "inputs": [
+    {
+      "name": "B2-complete-handoff-2026-10-13.zip",
+      "bytes": 32439359,
+      "sha256": "951fd4245984b94ead7f24767c8af9867115609c847ddcb5b8df9ffa8c4dfa59"
+    },
+    {
+      "name": "B2-new-results-2026-10-13.zip",
+      "bytes": 354077,
+      "sha256": "32a9037640f01be74f75ccf04a66b2f4a9431ecedfb34e12d1f3abef7f44d008"
+    },
+    {
+      "name": "B2-further-results-2026-10-13.zip",
+      "bytes": 359901,
+      "sha256": "542f1c92e6cfc4fabb907cbfb3d8630b8144a5a584efcd5b740de2218947a6e9"
+    }
+  ],
+  "inherited_baseline_records": {
+    "file": "BASELINE-TARGETS.json",
+    "sha256": "155aea53fec10b94962bec340a405e546a43223422862d06c015ba477cc2cd6e",
+    "unchanged": true,
+    "role": "Original scoped catalog records, not the current result ledger"
+  },
+  "retained_source_correction": {
+    "target": "Q4660",
+    "statement_id": "4e69214fdfaf0bc4e852",
+    "catalog_label": "Conjecture 1.10",
+    "correct_source_location": "Section 8, sum-difference sharpness paragraph, arXiv:2607.29042v1",
+    "explanation": "Conjecture 1.10 concerns sum-product; the mathematical sum-difference target is distinct. No modification to original record."
+  },
+  "prior_entropy_certificate": {
+    "file": "baseline/ENTROPY-CERTIFICATE.json",
+    "sha256": "294fd7cd5c722e14650f58056f6187fcb388475ef1427e830cabe98028edb34c",
+    "unchanged": true,
+    "lower_bound": "C_* > 1.4051810329"
+  },
+  "new_result_record": "RESULTS.json",
+  "attempt_counters": "unchanged; no retroactive recategorization",
+  "other_targets": "Original handoff and other 79 targets unchanged",
+  "verification": {
+    "python": "3.13.5",
+    "midpoint": "passed",
+    "entropy_variation": "passed",
+    "general_proofs": "manuscript",
+    "proof_assistant": false,
+    "external_peer_review": false
+  },
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.11847v1",
+      "role": "Problem 4 and primary quadratic bound"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.29042v1",
+      "role": "Section 8 entropy target, upper bound 2, and Lemma 7.5 truncation"
+    },
+    {
+      "url": "https://ir.cwi.nl/pub/9858/9858D.pdf",
+      "role": "Classical hyperplane blocking number; primary PDF page visually checked"
+    },
+    {
+      "url": "https://doi.org/10.1016/0097-3165(77)90001-2",
+      "role": "Independent classical blocking theorem attribution"
+    }
+  ],
+  "priority": "Not established worldwide; scoped relative to supplied record",
+  "exploratory_search": {
+    "file": "exploratory/SPANNING-PLANE-FREE-4.json",
+    "outcome": "time limit with no primal solution",
+    "proof_status": "none"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "n": 180,
+  "k": 18,
+  "primary_minimum_repairs": 9,
+  "unique_optimum": 66789,
+  "cost_levels": [
+    362,
+    363,
+    543,
+    544
+  ],
+  "forbidden_local_path_dp_states": 165,
+  "flow_certificates": 179,
+  "integer_flow_entries": 29358,
+  "forced_fractional_witnesses": 16110,
+  "maximum_twice_witness_cost": 133017,
+  "minimum_twice_witness_cost": 130473,
+  "twice_unique_optimum": 133578,
+  "witness_results_sha256": "6119711667dd37d02ceaa0e4b198ffd3fa65d578e6cc8fd18f9c0fd5a7403935",
+  "universally_blind_forced_1tree_edges": 16110,
+  "completion_certifiably_deleted": 15930,
+  "retained_edges": 180,
+  "elapsed_seconds": 1.3568364120001206
+}

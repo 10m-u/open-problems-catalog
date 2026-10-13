@@ -1,0 +1,1528 @@
+{
+  "date": "2026-10-13",
+  "targets": [
+    {
+      "target": "Q164",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Rank real-rootedness",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#q164-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Lorentzian homogenization",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#q164-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Domination recurrence ULC induction",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#q164-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Nonlocal prefix midpoint multiplicities",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#q164-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Cycle cut-state recombination",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#q164-a5"
+        }
+      ],
+      "evidence": [
+        "intervals/ATTEMPTS.md",
+        "intervals/CHECK-RESULTS.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q1442",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Circular parameter polarization",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i01-polarization-over-the-parameter-disk"
+        },
+        {
+          "attempt": 2,
+          "route": "Previous-disk and numeric-Hurwitz append induction",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i04-induction-from-a-previous-disk-or-hurwitz-certificate"
+        },
+        {
+          "attempt": 3,
+          "route": "Weighted Newton-companion numerical radius",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i08-a-norm-bound-for-the-newton-companion-matrix"
+        },
+        {
+          "attempt": 4,
+          "route": "Full-support log-concave shift-law relaxation",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i09-weakening-the-shift-law-to-ordinary-log-concavity"
+        },
+        {
+          "attempt": 5,
+          "route": "Termwise Newton-basis Rouche majorant",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i10-a-termwise-rouché-estimate-in-the-newton-basis"
+        }
+      ],
+      "evidence": [
+        "interpolation/ATTEMPTS.md",
+        "interpolation/CHECK-RESULTS.json",
+        "interpolation/COMPLETION-CHECK.json"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/INTERPOLATION-REVIEW.md"
+    },
+    {
+      "target": "Q3702",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Direct coefficient-ratio inequalities",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3702-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Newton real-rootedness",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3702-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Added-factor n-induction",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3702-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Binary geometric Toeplitz factorization",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3702-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Central normal-limit shape transfer",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3702-a5"
+        }
+      ],
+      "evidence": [
+        "subsums/ATTEMPTS.md",
+        "subsums/BOUNDARIES.md",
+        "subsums/BOUNDARY-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q3703",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Binary partition boundary ratios",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3703-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Newton real-rootedness",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3703-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Termwise LC and synchronization",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3703-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Probabilistic mean/variance certificate",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3703-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Lorentzian ultra-log-concavity",
+          "outcome": "full_target_failure",
+          "evidence": "subsums/ATTEMPTS.md#q3703-a5"
+        }
+      ],
+      "evidence": [
+        "subsums/ATTEMPTS.md",
+        "subsums/BOUNDARIES.md",
+        "subsums/BOUNDARY-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q3846",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Nonnegative production matrix",
+          "outcome": "full_target_failure",
+          "evidence": "matrices/Q3846-ATTEMPTS.md#a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Common planar birth/stay network",
+          "outcome": "full_target_failure",
+          "evidence": "matrices/Q3846-ATTEMPTS.md#a2"
+        },
+        {
+          "attempt": 3,
+          "route": "TN-prefix recurrence extension",
+          "outcome": "full_target_failure",
+          "evidence": "matrices/Q3846-ATTEMPTS.md#a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Numerical-to-coefficient transfer",
+          "outcome": "full_target_failure",
+          "evidence": "matrices/Q3846-ATTEMPTS.md#a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Positive initial-minor elimination",
+          "outcome": "full_target_failure",
+          "evidence": "matrices/Q3846-ATTEMPTS.md#a5"
+        }
+      ],
+      "evidence": [
+        "matrices/Q3846-ATTEMPTS.md",
+        "matrices/FOUR-PARAMETER-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q4331",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Real-rooted grouped height polynomials",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4331-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Finer Dyck ultra-log-concavity",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4331-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Normalized first-return induction",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4331-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Ceiling spectral interlacing",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4331-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Reflection-formula normalized ratios",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4331-a5"
+        }
+      ],
+      "evidence": [
+        "paths/ATTEMPTS.md",
+        "paths/UPPER-TAIL.md",
+        "paths/HEIGHT-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q4332",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Negative real zeros",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4332-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Degree-normalized log-concavity",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4332-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Ordinary first-return induction",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4332-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Positive Jacobi ceiling differences",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4332-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Horizontal deletion and reinsertion",
+          "outcome": "full_target_failure",
+          "evidence": "paths/ATTEMPTS.md#q4332-a5"
+        }
+      ],
+      "evidence": [
+        "paths/ATTEMPTS.md",
+        "paths/UPPER-TAIL.md",
+        "paths/HEIGHT-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q4666",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Root-star necessity inequalities",
+          "outcome": "full_target_failure",
+          "evidence": "trees/ATTEMPTS.md#t01-support-and-root-star-inequalities"
+        },
+        {
+          "attempt": 2,
+          "route": "Corollary 2.9 normalizer certificate",
+          "outcome": "full_target_failure",
+          "evidence": "stirling/Q4666-RESULT.md#t02"
+        },
+        {
+          "attempt": 3,
+          "route": "Two-step forest TN2 and exact size-lag criterion",
+          "outcome": "full_target_solution",
+          "evidence": "stirling/Q4666-RESULT.md#t03"
+        }
+      ],
+      "evidence": [
+        "trees/ATTEMPTS.md",
+        "trees/TRANSPORT-CHECK.json",
+        "stirling/Q4666-RESULT.md",
+        "stirling/Q4666-CHECK.json"
+      ]
+    },
+    {
+      "target": "B3C-Q01",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Rank real-rootedness",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#b3c-q01-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Lorentzian support",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#b3c-q01-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Antipodal prefix averaging",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#b3c-q01-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "APP-preserving symmetric intersection",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#b3c-q01-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Cycle-lemma rotation averaging",
+          "outcome": "full_target_failure",
+          "evidence": "intervals/ATTEMPTS.md#b3c-q01-a5"
+        }
+      ],
+      "evidence": [
+        "intervals/ATTEMPTS.md",
+        "intervals/CHECK-RESULTS.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "B3C-Q04",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Positive vertex-pair Hurwitz expansion",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i02-pairwise-positive-vertex-expansion-of-hurwitz-minors"
+        },
+        {
+          "attempt": 2,
+          "route": "Previous-disk and numeric-Hurwitz append induction",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i04-induction-from-a-previous-disk-or-hurwitz-certificate"
+        },
+        {
+          "attempt": 3,
+          "route": "Coefficient Toeplitz sufficient certificate",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i05-a-toeplitz-certificate-for-the-coefficient-row"
+        },
+        {
+          "attempt": 4,
+          "route": "Log-concavity and first two Routh conditions",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i06-log-concavity-and-the-first-routh-conditions"
+        },
+        {
+          "attempt": 5,
+          "route": "Numeric stability to coefficientwise positivity",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i07-numerical-stability-to-coefficientwise-positivity"
+        }
+      ],
+      "evidence": [
+        "interpolation/ATTEMPTS.md",
+        "interpolation/CHECK-RESULTS.json",
+        "interpolation/COMPLETION-CHECK.json",
+        "interpolation/HURWITZ-CORNERS.md"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/INTERPOLATION-REVIEW.md"
+    },
+    {
+      "target": "B3C-Q05",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Circular parameter polarization",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i01-polarization-over-the-parameter-disk"
+        },
+        {
+          "attempt": 2,
+          "route": "Previous-disk and numeric-Hurwitz append induction",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i04-induction-from-a-previous-disk-or-hurwitz-certificate"
+        },
+        {
+          "attempt": 3,
+          "route": "Weighted Newton-companion numerical radius",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i08-a-norm-bound-for-the-newton-companion-matrix"
+        },
+        {
+          "attempt": 4,
+          "route": "Full-support log-concave shift-law relaxation",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i09-weakening-the-shift-law-to-ordinary-log-concavity"
+        },
+        {
+          "attempt": 5,
+          "route": "Termwise Newton-basis Rouche majorant",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#i10-a-termwise-rouché-estimate-in-the-newton-basis"
+        }
+      ],
+      "evidence": [
+        "interpolation/ATTEMPTS.md",
+        "interpolation/CHECK-RESULTS.json",
+        "interpolation/COMPLETION-CHECK.json"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/INTERPOLATION-REVIEW.md"
+    },
+    {
+      "target": "Q1443",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Augmented quadratic with exact all-negative numerator certificate",
+          "outcome": "full_target_solution",
+          "evidence": "interpolation/Q1443-RESULT.md#g01-construction-route-and-earlier-controls"
+        }
+      ],
+      "evidence": [
+        "interpolation/Q1443-RESULT.md",
+        "interpolation/Q1443-COUNTEREXAMPLE-CERTIFICATE.json",
+        "interpolation/Q1443-COUNTEREXAMPLE-CHECK.json",
+        "stirling/Q1443-REVIEW.md",
+        "stirling/Q1443-REVIEW-CHECK.json",
+        "ROOT-REVIEW.md#q1443-root-gap-counterexample"
+      ]
+    },
+    {
+      "target": "Q1441",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Powered quadratic unbounded-radius construction",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#q1441-n01-powered-quadratic-nearest-roots"
+        },
+        {
+          "attempt": 2,
+          "route": "Both-endpoint Viete uniform upper bound",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#q1441-n02-endpoint-product-and-viete-upper-bound"
+        },
+        {
+          "attempt": 3,
+          "route": "Parity-independent real-zero reduction",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#q1441-n03-reduce-to-a-uniformly-near-real-zero"
+        },
+        {
+          "attempt": 4,
+          "route": "Finite-difference odd-degree TP induction",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#q1441-n04-finite-difference-parity-induction"
+        },
+        {
+          "attempt": 5,
+          "route": "Bounded-degree TP generator factorization",
+          "outcome": "full_target_failure",
+          "evidence": "interpolation/ATTEMPTS.md#q1441-n05-finite-degree-generators-and-product-closure"
+        }
+      ],
+      "evidence": [
+        "interpolation/ATTEMPTS.md",
+        "interpolation/NEAREST-RESULTS.md",
+        "interpolation/NEAREST-CERTIFICATES.json",
+        "interpolation/NEAREST-CHECK.json",
+        "interpolation/NEAREST-ROUTE-CHECK.json"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/INTERPOLATION-REVIEW.md"
+    },
+    {
+      "target": "Q3436",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Centered spectral moments and degree induction",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3436-f01-centered-moments-and-degree-induction"
+        },
+        {
+          "attempt": 2,
+          "route": "Convex expectation of paired Hermitian spectra",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3436-f02-expectation-of-hermitian-characteristic-polynomials"
+        },
+        {
+          "attempt": 3,
+          "route": "Universal positive half-polynomial multiplier",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3436-f03-a-universal-positive-half-polynomial-multiplier"
+        },
+        {
+          "attempt": 4,
+          "route": "Automatic Hermite-factor quotient",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3436-f04-make-the-hermite-factor-hypothesis-automatic"
+        },
+        {
+          "attempt": 5,
+          "route": "Joint spectral-parameter stability",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3436-f05-joint-stability-in-the-spectral-parameters"
+        }
+      ],
+      "evidence": [
+        "finite-convolutions/ATTEMPTS.md",
+        "finite-convolutions/EXACT-CHECK.json",
+        "finite-convolutions/MOMENT-RESULTS.md"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/FINITE-CONVOLUTION-REVIEW.md"
+    },
+    {
+      "target": "Q3437",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Actual counterexample construction and low-degree proof",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3437-r01-construct-an-actual-counterexample-and-settle-low-degrees"
+        },
+        {
+          "attempt": 2,
+          "route": "Ordinary finite-additive diagonal transfer",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3437-r02-transfer-to-ordinary-finite-additive-convolution"
+        },
+        {
+          "attempt": 3,
+          "route": "Differentiation and Rolle induction",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3437-r03-differentiation-and-rolle-induction"
+        },
+        {
+          "attempt": 4,
+          "route": "Unrestricted real-root-preserving convolution operator",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3437-r04-an-unrestricted-real-root-preserving-operator-symbol"
+        },
+        {
+          "attempt": 5,
+          "route": "Positive mixtures of known parameter cases",
+          "outcome": "full_target_failure",
+          "evidence": "finite-convolutions/ATTEMPTS.md#q3437-r05-positive-mixtures-of-the-known-matrix-dimensions"
+        }
+      ],
+      "evidence": [
+        "finite-convolutions/ATTEMPTS.md",
+        "finite-convolutions/EXACT-CHECK.json",
+        "finite-convolutions/RECTANGULAR-RESULTS.md",
+        "finite-convolutions/RECTANGULAR-SCREEN.json"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/FINITE-CONVOLUTION-REVIEW.md"
+    },
+    {
+      "target": "Q167",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Reciprocal/unit-factor degree induction, continued through degree five",
+          "outcome": "full_target_failure",
+          "evidence": "coefficient-orders/ATTEMPTS.md#q167-o01-exhaustive-low-degree-order-classification",
+          "continuation_evidence": "coefficient-orders/ATTEMPTS.md#q167-o03-reciprocal-bounds-and-unit-factor-induction"
+        },
+        {
+          "attempt": 2,
+          "route": "Universal coefficient dominance plus unimodality criterion",
+          "outcome": "full_target_failure",
+          "evidence": "coefficient-orders/ATTEMPTS.md#q167-o02-coefficientwise-dominance-plus-unimodality-as-a-criterion"
+        },
+        {
+          "attempt": 3,
+          "route": "Induction retaining coefficient-order states",
+          "outcome": "full_target_failure",
+          "evidence": "coefficient-orders/ATTEMPTS.md#q167-o04-recurrence-on-coefficient-order-states"
+        },
+        {
+          "attempt": 4,
+          "route": "Real-root chambers and coordinate integer rounding",
+          "outcome": "full_target_failure",
+          "evidence": "coefficient-orders/ATTEMPTS.md#q167-o05-real-root-chambers-followed-by-local-integer-rounding"
+        },
+        {
+          "attempt": 5,
+          "route": "Endpoint sum/product extremal coefficient separation",
+          "outcome": "full_target_failure",
+          "evidence": "coefficient-orders/ATTEMPTS.md#q167-o06-extremal-coefficient-bounds-from-sum-and-product"
+        }
+      ],
+      "evidence": [
+        "coefficient-orders/LOW-DEGREES.md",
+        "coefficient-orders/ATTEMPTS.md",
+        "coefficient-orders/BOUNDED-ORDERS.json",
+        "coefficient-orders/CHECK.json",
+        "coefficient-orders/DEGREE-FIVE.md",
+        "coefficient-orders/ORDER-CHECK.json"
+      ],
+      "independent_audit_pending": false,
+      "count_correction": "O01 and O03 merged after retained-agent audit; O06 accepted as the distinct fifth route. Historical proposed labels preserved.",
+      "review_accepted": true,
+      "review_evidence": "stirling/Q167-O06-REVIEW.md"
+    },
+    {
+      "target": "Q183",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Actual skew-shape forbidden-pattern counterexample construction",
+          "outcome": "full_target_failure",
+          "evidence": "rooks/ATTEMPTS.md#q183-k01-an-actual-forbidden-pattern-counterexample-search"
+        },
+        {
+          "attempt": 2,
+          "route": "Uniform rook-basis stability",
+          "outcome": "full_target_failure",
+          "evidence": "rooks/ATTEMPTS.md#q183-k02-stability-of-the-uniform-rook-basis-polynomial"
+        },
+        {
+          "attempt": 3,
+          "route": "Claw-free conflict graph representation",
+          "outcome": "full_target_failure",
+          "evidence": "rooks/ATTEMPTS.md#q183-k03-use-a-claw-free-conflict-graph"
+        },
+        {
+          "attempt": 4,
+          "route": "Cell-deletion universal positive compatibility",
+          "outcome": "full_target_failure",
+          "evidence": "rooks/ATTEMPTS.md#q183-k04-cell-deletion-with-universal-positive-compatibility"
+        },
+        {
+          "attempt": 5,
+          "route": "Compatible-clique extremal bounds and degree induction",
+          "outcome": "full_target_failure",
+          "evidence": "rooks/ATTEMPTS.md#q183-k05-extremal-compatible-clique-bounds-and-degree-induction"
+        }
+      ],
+      "evidence": [
+        "rooks/ATTEMPTS.md",
+        "rooks/EXPLORATION.json",
+        "rooks/RANK-TWO.md"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/ROOK-REVIEW.md"
+    },
+    {
+      "target": "Q1249",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Actual all-tail/Edrei input counterexample construction",
+          "outcome": "full_target_failure",
+          "evidence": "hadamard/ATTEMPTS.md#q1249-h01-actual-all-tail-inputs-against-general-edrei-factors"
+        },
+        {
+          "attempt": 2,
+          "route": "Necessary quotient-to-Hutchinson bound upgrade",
+          "outcome": "full_target_failure",
+          "evidence": "hadamard/ATTEMPTS.md#q1249-h02-upgrade-the-necessary-quotient-bound-to-four"
+        },
+        {
+          "attempt": 3,
+          "route": "Entire-input approximation and shifted single-pole theorem",
+          "outcome": "full_target_failure",
+          "evidence": "hadamard/ATTEMPTS.md#q1249-h03-extend-entire-input-preservation-by-density"
+        },
+        {
+          "attempt": 4,
+          "route": "Positive cone of LP-I tails",
+          "outcome": "full_target_failure",
+          "evidence": "hadamard/ATTEMPTS.md#q1249-h04-a-positive-cone-generated-by-lp-i-tails"
+        },
+        {
+          "attempt": 5,
+          "route": "Taylor truncation of all-tail entire multipliers",
+          "outcome": "full_target_failure",
+          "evidence": "hadamard/ATTEMPTS.md#q1249-h05-finite-degree-proof-followed-by-taylor-truncation"
+        }
+      ],
+      "evidence": [
+        "hadamard/RESULTS.md",
+        "hadamard/ATTEMPTS.md",
+        "hadamard/SCREEN.json",
+        "hadamard/EXACT-CHECK.json"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/HADAMARD-REVIEW.md"
+    },
+    {
+      "target": "Q4082",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Mean-matched convex order, sharp one-sided certificates, Gamma first-moment bound and two-tail gluing",
+          "outcome": "solved",
+          "evidence": "concave-laws/FULL-PROOF.md"
+        }
+      ],
+      "evidence": [
+        "concave-laws/FULL-PROOF.md",
+        "concave-laws/MEAN-MATCHED-COMPARISON.md",
+        "concave-laws/ONE-SIDED.md",
+        "concave-laws/WIDE-TAIL.md",
+        "concave-laws/ONE-SIDED-CERTIFICATE.json",
+        "concave-laws/ONE-SIDED-CHECK.json",
+        "stirling/Q4082-REVIEW.md",
+        "stirling/Q4082-REVIEW-CHECK.json"
+      ],
+      "review_accepted": true,
+      "review_evidence": "stirling/Q4082-REVIEW.md"
+    },
+    {
+      "target": "Q4396",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "General actual forest-pair coefficient construction",
+          "outcome": "full_target_failure",
+          "evidence": "forest-correlation/ATTEMPTS.md#q4396-f01-actual-forest-pair-coefficients-on-general-small-graphs"
+        },
+        {
+          "attempt": 2,
+          "route": "FKG on forest configuration support",
+          "outcome": "full_target_failure",
+          "evidence": "forest-correlation/ATTEMPTS.md#q4396-f02-fkg-on-the-forest-configuration-support"
+        },
+        {
+          "attempt": 3,
+          "route": "Rooted determinant representation",
+          "outcome": "full_target_failure",
+          "evidence": "forest-correlation/ATTEMPTS.md#q4396-f03-matrix-tree-determinantal-representation"
+        },
+        {
+          "attempt": 4,
+          "route": "Whole-path transfer between forests",
+          "outcome": "full_target_failure",
+          "evidence": "forest-correlation/ATTEMPTS.md#q4396-f04-transfer-a-whole-connecting-path-between-the-two-forests"
+        },
+        {
+          "attempt": 5,
+          "route": "Graph-block factorization and all-size cactus theorem",
+          "outcome": "full_target_failure",
+          "evidence": "forest-correlation/ATTEMPTS.md#q4396-f05-factor-over-graph-blocks-and-reduce-cycles-by-complete-arcs"
+        }
+      ],
+      "evidence": [
+        "forest-correlation/RESULTS.md",
+        "forest-correlation/ATTEMPTS.md",
+        "forest-correlation/FOREST-CHECK.json",
+        "forest-correlation/ROUTE-CHECK.json"
+      ],
+      "independent_audit_pending": false,
+      "review_accepted": true,
+      "review_evidence": "stirling/FOREST-CORRELATION-REVIEW.md"
+    },
+    {
+      "target": "Q2212",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Actual numerical-monoid cutoff construction",
+          "outcome": "full_target_failure",
+          "evidence": "power-monoids/ATTEMPTS.md#q2212-u01-construct-an-actual-counterexample-across-numerical-monoid-cuts"
+        },
+        {
+          "attempt": 2,
+          "route": "Boolean upper-family inclusion matching",
+          "outcome": "full_target_failure",
+          "evidence": "power-monoids/ATTEMPTS.md#q2212-u02-a-boolean-upper-family-rank-matching"
+        },
+        {
+          "attempt": 3,
+          "route": "Real-rooted atomic rank enumerators",
+          "outcome": "full_target_failure",
+          "evidence": "power-monoids/ATTEMPTS.md#q2212-u03-real-rooted-atom-enumerators"
+        },
+        {
+          "attempt": 4,
+          "route": "Subtract factor-pair generating function",
+          "outcome": "full_target_failure",
+          "evidence": "power-monoids/ATTEMPTS.md#q2212-u04-subtract-a-factor-pair-generating-function"
+        },
+        {
+          "attempt": 5,
+          "route": "Cutoff induction retaining the previous rank row",
+          "outcome": "full_target_failure",
+          "evidence": "power-monoids/ATTEMPTS.md#q2212-u05-induct-on-the-cutoff-using-the-previous-rank-row"
+        }
+      ],
+      "evidence": [
+        "power-monoids/RESULTS.md",
+        "power-monoids/ATTEMPTS.md",
+        "power-monoids/EXPLORATION.json",
+        "power-monoids/ROUTE-CHECK.json"
+      ],
+      "review_accepted": true,
+      "independent_audit_pending": false,
+      "review_evidence": "stirling/POWER-MONOID-REVIEW.md"
+    },
+    {
+      "target": "Q4443",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Log-concavity certificate",
+          "outcome": "full_target_failure",
+          "evidence": "shuffle-eigenvalues/ATTEMPTS.md#q4443-v02-obtain-a-log-concavity-certificate"
+        },
+        {
+          "attempt": 2,
+          "route": "Common-mode selection summands",
+          "outcome": "full_target_failure",
+          "evidence": "shuffle-eigenvalues/ATTEMPTS.md#q4443-v03-give-all-selection-summands-a-common-mode"
+        },
+        {
+          "attempt": 3,
+          "route": "Universal unimodal-pair recurrence preservation",
+          "outcome": "full_target_failure",
+          "evidence": "shuffle-eigenvalues/ATTEMPTS.md#q4443-v04-make-the-eigenvalue-recursion-preserve-all-unimodal-pairs"
+        },
+        {
+          "attempt": 4,
+          "route": "Gaussian multiplicative factorization",
+          "outcome": "full_target_failure",
+          "evidence": "shuffle-eigenvalues/ATTEMPTS.md#q4443-v05-extend-the-one-row-gaussian-product-formula"
+        },
+        {
+          "attempt": 5,
+          "route": "Fresh actual three-row valley construction beyond source n28",
+          "outcome": "full_target_failure",
+          "evidence": "shuffle-eigenvalues/ATTEMPTS.md#q4443-v01-actual-horizontal-strip-counterexample-construction"
+        }
+      ],
+      "evidence": [
+        "shuffle-eigenvalues/RESULTS.md",
+        "shuffle-eigenvalues/ATTEMPTS.md",
+        "shuffle-eigenvalues/CHECK.json",
+        "shuffle-eigenvalues/LARGE-FAMILY-CHECK.json",
+        "stirling/SHUFFLE-REVIEW.md",
+        "stirling/SHUFFLE-REVIEW-CHECK.json"
+      ],
+      "review_accepted": true,
+      "independent_audit_pending": false,
+      "review_evidence": "stirling/SHUFFLE-REVIEW.md"
+    },
+    {
+      "target": "Q4591",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "unchanged ordinary LR objects with positive equivariant weights",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4591-ATTEMPTS.md#q4591-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "reconstruct independent parameters from one-parameter edge-tableau quotient",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4591-ATTEMPTS.md#q4591-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "raw fixed-point localization without lower-output subtraction",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4591-ATTEMPTS.md#q4591-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "column-rectification repair of specialized edge law",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4591-ATTEMPTS.md#q4591-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "fixed-box edge-forgetting orbit normalization",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4591-ATTEMPTS.md#q4591-a5"
+        }
+      ],
+      "evidence": [
+        "schubert/Q4591-ATTEMPTS.md",
+        "schubert/OG-RANK-TWO-CHECK.json",
+        "schubert/EDGE-RECTIFICATION-CHECK.json"
+      ],
+      "review_accepted": true,
+      "independent_audit_pending": false,
+      "review_evidence": "ROOT-REVIEW.md#og-and-lg-final"
+    },
+    {
+      "target": "Q4592",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "unchanged ordinary LR object lift",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4592-ATTEMPTS.md#q4592-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "cohomological rescaling of the full OG K rule",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4592-ATTEMPTS.md#q4592-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "ordinary complementary class in Euler triple pairing",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4592-ATTEMPTS.md#q4592-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "nonnegative assembly from special Pieri factors",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4592-ATTEMPTS.md#q4592-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "all ballot genomic Q objects as exact LG rule",
+          "outcome": "full_target_failure",
+          "evidence": "schubert/Q4592-ATTEMPTS.md#q4592-a5"
+        }
+      ],
+      "evidence": [
+        "schubert/Q4592-ATTEMPTS.md",
+        "schubert/LG-RANK-TWO-CHECK.json",
+        "schubert/LG-PIERI-CHECK.json",
+        "schubert/Q-GENOMIC-CHECK.json"
+      ],
+      "review_accepted": true,
+      "independent_audit_pending": false,
+      "review_evidence": "ROOT-REVIEW.md#og-and-lg-final"
+    },
+    {
+      "target": "Q2751",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Fresh asymmetric actual coefficient-valley construction",
+          "outcome": "full_target_failure",
+          "evidence": "fibonomials/ATTEMPTS.md#q2751-f01-construct-an-asymmetric-coefficient-valley-beyond-known-tests"
+        },
+        {
+          "attempt": 2,
+          "route": "Uniform lower-half vector-partition bounds; all-m n4 proved",
+          "outcome": "full_target_failure",
+          "evidence": "fibonomials/ATTEMPTS.md#q2751-f02-prove-all-lower-half-differences-by-vector-partition-bounds"
+        },
+        {
+          "attempt": 3,
+          "route": "Whole q-integer divisor matching",
+          "outcome": "full_target_failure",
+          "evidence": "fibonomials/ATTEMPTS.md#q2751-f03-match-whole-denominator-q-integers-to-separate-numerator-factors"
+        },
+        {
+          "attempt": 4,
+          "route": "Tiling recursion with predecessor numerical invariants",
+          "outcome": "full_target_failure",
+          "evidence": "fibonomials/ATTEMPTS.md#q2751-f04-induct-from-the-symmetryunimodality-and-numerical-invariants-of-predecessors"
+        },
+        {
+          "attempt": 5,
+          "route": "Fixed-path consecutive-weight chain decomposition",
+          "outcome": "full_target_failure",
+          "evidence": "fibonomials/ATTEMPTS.md#q2751-f05-lift-a-unimodal-chain-decomposition-separately-inside-every-fixed-path"
+        }
+      ],
+      "evidence": [
+        "fibonomials/N4-PROOF.md",
+        "fibonomials/ATTEMPTS.md",
+        "fibonomials/CHECK.json",
+        "fibonomials/ROUTE-CHECK.json"
+      ],
+      "review_accepted": true,
+      "independent_audit_pending": false,
+      "review_evidence": "stirling/FIBONOMIAL-REVIEW.md"
+    },
+    {
+      "target": "Q3498",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Actual root counter-construction at crown sizes n7..20",
+          "outcome": "full_target_failure",
+          "evidence": "posets/CROWN-ATTEMPTS.md#q3498-c01"
+        },
+        {
+          "attempt": 2,
+          "route": "Stronger order-polynomial root-location certificate",
+          "outcome": "full_target_failure",
+          "evidence": "posets/CROWN-ATTEMPTS.md#q3498-c02"
+        },
+        {
+          "attempt": 3,
+          "route": "Positive transfer spectrum alone",
+          "outcome": "full_target_failure",
+          "evidence": "posets/CROWN-ATTEMPTS.md#q3498-c03"
+        },
+        {
+          "attempt": 4,
+          "route": "Specified first-order reciprocal Eulerian operator",
+          "outcome": "full_target_failure",
+          "evidence": "posets/CROWN-ATTEMPTS.md#q3498-c04"
+        },
+        {
+          "attempt": 5,
+          "route": "Actual multivariate descent-top stability",
+          "outcome": "full_target_failure",
+          "evidence": "posets/CROWN-ATTEMPTS.md#q3498-c05"
+        }
+      ],
+      "evidence": [
+        "posets/CROWN-RESULTS.md",
+        "posets/CROWN-ATTEMPTS.md",
+        "posets/CROWN-EXPLORATION.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q3500",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Actual Boolean root counter-construction n0..5",
+          "outcome": "full_target_failure",
+          "evidence": "posets/BOOLEAN-ATTEMPTS.md#q3500-b01"
+        },
+        {
+          "attempt": 2,
+          "route": "Actual descent-top real stability",
+          "outcome": "full_target_failure",
+          "evidence": "posets/BOOLEAN-ATTEMPTS.md#q3500-b02"
+        },
+        {
+          "attempt": 3,
+          "route": "Stronger ordinary order-polynomial root input",
+          "outcome": "full_target_failure",
+          "evidence": "posets/BOOLEAN-ATTEMPTS.md#q3500-b03"
+        },
+        {
+          "attempt": 4,
+          "route": "Universal scalar doubling recurrence from input hstar",
+          "outcome": "full_target_failure",
+          "evidence": "posets/BOOLEAN-ATTEMPTS.md#q3500-b04"
+        },
+        {
+          "attempt": 5,
+          "route": "Gamma positivity and matched reciprocal log-concave data",
+          "outcome": "full_target_failure",
+          "evidence": "posets/BOOLEAN-ATTEMPTS.md#q3500-b05"
+        }
+      ],
+      "evidence": [
+        "posets/BOOLEAN-ATTEMPTS.md",
+        "posets/check_poset_routes.py",
+        "posets/POSET-ROUTES-CHECK.json",
+        "posets/BOOLEAN-RESULTS.md",
+        "posets/BOOLEAN-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q3568",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Fresh actual two-chain6x6 coefficient counter-construction",
+          "outcome": "full_target_failure",
+          "evidence": "posets/WIDTH-TWO-ATTEMPTS.md#q3568-w01"
+        },
+        {
+          "attempt": 2,
+          "route": "Weak-layer all-size proof generalized to arbitrary width2",
+          "outcome": "full_target_failure",
+          "evidence": "posets/WIDTH-TWO-ATTEMPTS.md#q3568-w02"
+        },
+        {
+          "attempt": 3,
+          "route": "Real-rooted descent data Eulerian-transform positivity",
+          "outcome": "full_target_failure",
+          "evidence": "posets/WIDTH-TWO-ATTEMPTS.md#q3568-w03"
+        },
+        {
+          "attempt": 4,
+          "route": "Two-chain encoding identified with its skew cell poset",
+          "outcome": "full_target_failure",
+          "evidence": "posets/WIDTH-TWO-ATTEMPTS.md#q3568-w04"
+        },
+        {
+          "attempt": 5,
+          "route": "Coefficientwise comparison completion and gluing",
+          "outcome": "full_target_failure",
+          "evidence": "posets/WIDTH-TWO-ATTEMPTS.md#q3568-w05"
+        }
+      ],
+      "evidence": [
+        "posets/WIDTH-TWO-ATTEMPTS.md",
+        "posets/check_poset_routes.py",
+        "posets/POSET-ROUTES-CHECK.json",
+        "posets/WIDTH-TWO-WEAK-ORDERS.md",
+        "posets/WEAK-ORDER-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q1262",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Scalar root and connected-quadratic criterion",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1262-ATTEMPTS.md#q1262-e02"
+        },
+        {
+          "attempt": 2,
+          "route": "Concatenate scaled-simplex denominator blocks",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1262-ATTEMPTS.md#q1262-e03"
+        },
+        {
+          "attempt": 3,
+          "route": "Heterogeneous scaling of known uniform vectors",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1262-ATTEMPTS.md#q1262-e04"
+        },
+        {
+          "attempt": 4,
+          "route": "Append denominator under multiplicity growth",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1262-ATTEMPTS.md#q1262-e05"
+        },
+        {
+          "attempt": 5,
+          "route": "Primitive-color ray equivalence under common dilation",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1262-ATTEMPTS.md#q1262-e06"
+        }
+      ],
+      "evidence": [
+        "eulerian/Q1262-ATTEMPTS.md",
+        "eulerian/COLORED-RESULTS.md",
+        "eulerian/COLORED-PROBE.json",
+        "eulerian/COLORED-ROUTES-CHECK.json",
+        "eulerian/DILATION-FAMILIES.md",
+        "eulerian/DILATION-CHECK.json",
+        "eulerian/DILATION-INDEPENDENT-REVIEW.md",
+        "eulerian/DILATION-REVIEW-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q1263",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Frozen-color classical Foata--Strehl orbit action",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1263-ATTEMPTS.md#q1263-g01"
+        },
+        {
+          "attempt": 2,
+          "route": "Endpoint-color subset partition and repeated-letter extension",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1263-ATTEMPTS.md#q1263-g02"
+        },
+        {
+          "attempt": 3,
+          "route": "Independent coloring of uncolored gamma trees",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1263-ATTEMPTS.md#q1263-g03"
+        },
+        {
+          "attempt": 4,
+          "route": "Integer choices from reciprocal root factors",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1263-ATTEMPTS.md#q1263-g04"
+        },
+        {
+          "attempt": 5,
+          "route": "Termwise positive gamma insertion operator",
+          "outcome": "full_target_failure",
+          "evidence": "eulerian/Q1263-ATTEMPTS.md#q1263-g05"
+        }
+      ],
+      "evidence": [
+        "eulerian/Q1263-ATTEMPTS.md",
+        "eulerian/COLORED-RESULTS.md",
+        "eulerian/COLORED-PROBE.json",
+        "eulerian/COLORED-ROUTES-CHECK.json",
+        "eulerian/ENDPOINT-COLORS.md",
+        "eulerian/COLORED-INDEPENDENT-REVIEW.md",
+        "eulerian/COLORED-REVIEW-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q1366",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Fresh longer actual interval valley construction",
+          "outcome": "full_target_failure",
+          "evidence": "patterns/Q1366-ATTEMPTS.md#q1366-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Containment-cover matching chain decomposition",
+          "outcome": "full_target_failure",
+          "evidence": "patterns/Q1366-ATTEMPTS.md#q1366-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Boolean rank quotient with common occurrence fibers",
+          "outcome": "full_target_failure",
+          "evidence": "patterns/Q1366-ATTEMPTS.md#q1366-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Coverage by one fixed bottom occurrence",
+          "outcome": "full_target_failure",
+          "evidence": "patterns/Q1366-ATTEMPTS.md#q1366-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Deletion induction and unimodal intersection gluing",
+          "outcome": "full_target_failure",
+          "evidence": "patterns/Q1366-ATTEMPTS.md#q1366-a5"
+        }
+      ],
+      "evidence": [
+        "patterns/Q1366-ATTEMPTS.md",
+        "patterns/LAYERED-INTERVALS.md",
+        "patterns/PATTERN-PROBE.json",
+        "patterns/PATTERN-ROUTES-CHECK.json",
+        "patterns/Q1366-INDEPENDENT-REVIEW.md",
+        "patterns/PATTERN-REVIEW-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q2400",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Second-order edge-overlap full-row bounds and n^(2/5) partial",
+          "outcome": "full_target_failure",
+          "evidence": "random-graphs/Q2400-ATTEMPTS.md#q2400-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Univariate real-rootedness with high probability",
+          "outcome": "full_target_failure",
+          "evidence": "random-graphs/Q2400-ATTEMPTS.md#q2400-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Multivariate M-convex/Lorentzian all-weight certificate",
+          "outcome": "full_target_failure",
+          "evidence": "random-graphs/Q2400-ATTEMPTS.md#q2400-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Actual complete random-model coefficient-row counter-construction",
+          "outcome": "full_target_failure",
+          "evidence": "random-graphs/Q2400-ATTEMPTS.md#q2400-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Log-concavity of every component with high probability",
+          "outcome": "full_target_failure",
+          "evidence": "random-graphs/Q2400-ATTEMPTS.md#q2400-a5"
+        }
+      ],
+      "evidence": [
+        "random-graphs/Q2400-ATTEMPTS.md",
+        "random-graphs/BONFERRONI-PREFIX.md",
+        "random-graphs/ISOLATED-TREES.md",
+        "random-graphs/GRAPH-PROBE.json",
+        "random-graphs/GRAPH-ROUTES-CHECK.json",
+        "random-graphs/Q2400-INDEPENDENT-REVIEW.md",
+        "random-graphs/GRAPH-REVIEW-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q2508",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Published universal catalecticant rank-extrema classification",
+          "outcome": "full_target_failure",
+          "evidence": "perazzo/Q2508-ATTEMPTS.md#q2508-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Fixed-presentation degree induction under general differentiation",
+          "outcome": "full_target_failure",
+          "evidence": "perazzo/Q2508-ATTEMPTS.md#q2508-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Remove G and classify W alone",
+          "outcome": "full_target_failure",
+          "evidence": "perazzo/Q2508-ATTEMPTS.md#q2508-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Real-rooted Hilbert polynomials as complete certificates",
+          "outcome": "full_target_failure",
+          "evidence": "perazzo/Q2508-ATTEMPTS.md#q2508-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Generic-stratum propagation by openness or closedness",
+          "outcome": "full_target_failure",
+          "evidence": "perazzo/Q2508-ATTEMPTS.md#q2508-a5"
+        }
+      ],
+      "evidence": [
+        "perazzo/Q2508-ATTEMPTS.md",
+        "perazzo/DERIVATIVE-RANKS.md",
+        "perazzo/PERAZZO-CHECK.json",
+        "perazzo/PERAZZO-INDEPENDENT-REVIEW.md",
+        "perazzo/PERAZZO-REVIEW-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q3892",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Transfer approximate-graph templates to CM/Koszul complexes",
+          "outcome": "full_target_failure",
+          "evidence": "koszul/Q3892-ATTEMPTS.md#q3892-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Arbitrary orderings in equal-size flag joins",
+          "outcome": "full_target_failure",
+          "evidence": "koszul/Q3892-ATTEMPTS.md#q3892-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Raise fixed nonunimodal seed degree by quadratic CI tensors",
+          "outcome": "full_target_failure",
+          "evidence": "koszul/Q3892-ATTEMPTS.md#q3892-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Numerical reciprocal positivity certifies Koszul realization",
+          "outcome": "full_target_failure",
+          "evidence": "koszul/Q3892-ATTEMPTS.md#q3892-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Connected-sum additive assembly of Koszul blocks",
+          "outcome": "full_target_failure",
+          "evidence": "koszul/Q3892-ATTEMPTS.md#q3892-a5"
+        }
+      ],
+      "evidence": [
+        "koszul/Q3892-ATTEMPTS.md",
+        "koszul/Q3892-RESULTS.md",
+        "koszul/KOSZUL-ROUTES-CHECK.json",
+        "koszul/Q3892-INDEPENDENT-REVIEW.md",
+        "koszul/KOSZUL-REVIEW-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    },
+    {
+      "target": "Q4665",
+      "status": "failure_limit_reached",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Sum pairwise midpoint inequalities through output-fiber budgets",
+          "outcome": "full_target_failure",
+          "evidence": "schur-midpoints/Q4665-ATTEMPTS.md#q4665-a1"
+        },
+        {
+          "attempt": 2,
+          "route": "Direct or relabeled meet/join ADS transfer",
+          "outcome": "full_target_failure",
+          "evidence": "schur-midpoints/Q4665-ATTEMPTS.md#q4665-a2"
+        },
+        {
+          "attempt": 3,
+          "route": "Scalar KL evaluations recover Schur signs",
+          "outcome": "full_target_failure",
+          "evidence": "schur-midpoints/Q4665-ATTEMPTS.md#q4665-a3"
+        },
+        {
+          "attempt": 4,
+          "route": "Uniform midpoint KL inside a fixed-output LR fiber",
+          "outcome": "full_target_failure",
+          "evidence": "schur-midpoints/Q4665-ATTEMPTS.md#q4665-a4"
+        },
+        {
+          "attempt": 5,
+          "route": "Fresh nonunit weighted exact Schur counter-construction",
+          "outcome": "full_target_failure",
+          "evidence": "schur-midpoints/Q4665-ATTEMPTS.md#q4665-a5"
+        }
+      ],
+      "evidence": [
+        "schur-midpoints/Q4665-RESULTS.md",
+        "schur-midpoints/Q4665-ATTEMPTS.md",
+        "schur-midpoints/SCHUR-ROUTES-CHECK.json",
+        "schur-midpoints/Q4665-INDEPENDENT-REVIEW.md",
+        "schur-midpoints/SCHUR-REVIEW-CHECK.json"
+      ],
+      "independent_audit_pending": false
+    }
+  ]
+}

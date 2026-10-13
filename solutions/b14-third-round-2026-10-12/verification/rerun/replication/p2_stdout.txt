@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "n": 7,
+      "saturated_vertices": 1,
+      "witnessed_full_partition_states": 2,
+      "witnessed_endpoint_states": 1,
+      "residual_edges": 11,
+      "full_partition_dp": {
+        "states": 55,
+        "transitions": 107,
+        "max_frontier": 7
+      },
+      "endpoint_dp": {
+        "states": 53,
+        "transitions": 103,
+        "max_frontier": 7
+      },
+      "subset_dp": {
+        "states": 61,
+        "transitions": 63
+      },
+      "optimum": 7
+    },
+    {
+      "n": 8,
+      "saturated_vertices": 2,
+      "witnessed_full_partition_states": 4,
+      "witnessed_endpoint_states": 1,
+      "residual_edges": 17,
+      "full_partition_dp": {
+        "states": 529,
+        "transitions": 1055,
+        "max_frontier": 8
+      },
+      "endpoint_dp": {
+        "states": 483,
+        "transitions": 963,
+        "max_frontier": 8
+      },
+      "subset_dp": {
+        "states": 210,
+        "transitions": 330
+      },
+      "optimum": 8
+    },
+    {
+      "n": 9,
+      "saturated_vertices": 3,
+      "witnessed_full_partition_states": 8,
+      "witnessed_endpoint_states": 1,
+      "residual_edges": 24,
+      "full_partition_dp": {
+        "states": 4954,
+        "transitions": 9905,
+        "max_frontier": 9
+      },
+      "endpoint_dp": {
+        "states": 3261,
+        "transitions": 6519,
+        "max_frontier": 9
+      },
+      "subset_dp": {
+        "states": 581,
+        "transitions": 1251
+      },
+      "optimum": 9
+    },
+    {
+      "n": 10,
+      "saturated_vertices": 4,
+      "witnessed_full_partition_states": 16,
+      "witnessed_endpoint_states": 1,
+      "residual_edges": 32,
+      "full_partition_dp": {
+        "states": 44860,
+        "transitions": 89717,
+        "max_frontier": 10
+      },
+      "endpoint_dp": {
+        "states": 18866,
+        "transitions": 37729,
+        "max_frontier": 10
+      },
+      "subset_dp": {
+        "states": 1446,
+        "transitions": 3948
+      },
+      "optimum": 10
+    },
+    {
+      "n": 11,
+      "saturated_vertices": 5,
+      "witnessed_full_partition_states": 32,
+      "witnessed_endpoint_states": 1,
+      "residual_edges": 41,
+      "full_partition_dp": {
+        "states": 398547,
+        "transitions": 797091,
+        "max_frontier": 11
+      },
+      "endpoint_dp": {
+        "states": 98203,
+        "transitions": 196403,
+        "max_frontier": 11
+      },
+      "subset_dp": {
+        "states": 3397,
+        "transitions": 11183
+      },
+      "optimum": 11
+    }
+  ],
+  "scope": "explicit exponential collapse of one realizable boundary class; no universal speed guarantee"
+}

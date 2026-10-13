@@ -4178,6 +4178,10 @@ Is deciding whether an automatic graph has a finite regular colouring recursivel
 
 **Literature check.** Status for questions 3075, 3076, 3077, checked 8 October 2026: Thesis and 2026 follow-on checked; no matching resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://arxiv.org/abs/2602.18238) · [2](https://www.morvan.xyz/phd/)
 
 
@@ -4194,6 +4198,10 @@ Is deciding whether an automatic graph has any finite proper colouring Σ⁰₂-
 **Source.** Rémi Morvan. *Homomorphism Problems in Graph Databases and Automatic Structures*. 2025. Advisor(s): Diego Figueira, Nathanaël Fijalkow. [primary source](https://arxiv.org/abs/2510.07422) Location: Conjecture VIII.6.8, p. 292.
 
 **Literature check.** Status for questions 3075, 3076, 3077, checked 8 October 2026: Thesis and 2026 follow-on checked; no matching resolution located.
+
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2602.18238) · [2](https://www.morvan.xyz/phd/)
 
@@ -4212,22 +4220,9 @@ Is it decidable whether some m≥1 admits no edge-preserving map K_m→G for a g
 
 **Literature check.** Status for questions 3075, 3076, 3077, checked 8 October 2026: Thesis and 2026 follow-on checked; no matching resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B1-CONTINUATION-STOP-REGISTER: Per-problem stopping record): Every registered target is locally solved, a retained audited solution, or stopped at its own five consecutive substantive full-target failures. Partial results do not reset counters; software, source and service errors are excluded. The original 30-question membership is preserved. Remaining/limits: A completed research run under the user's rule does not settle its unresolved mathematical questions. Same retained agent; private filing. [Report](../../solutions/b1-continuation-2026-10-12/STATUS.json).
+
 **Further links.** [1](https://arxiv.org/abs/2602.18238) · [2](https://www.morvan.xyz/phd/)
-
-
-<a id="q3079"></a>
-
-## Q3079. Semilinear diagonal predecessors
-
-**Status:** Open · **Kind:** open problem (Problem 25.8) · **Collection** 31
-
-For every 2-BVASS, source state q and fixed target configuration t, is {x∈N² : a run has all leaves (q,x) and root t} semilinear?
-
-**Context.** Origin for question 3079: Original doctoral-student problem page; no completed degree or unverified advisor is asserted. Setup for question 3079: A 2-BVASS has finite control and counters in N². Unary steps add fixed integer vectors without leaving N². A branching rule (p,q,r) combines children (p,x),(q,y) into (r,x+y). Runs are finite trees; every leaf carries the same source configuration. A set is semilinear if it is a finite union of b+Σ\_i Np_i.
-
-**Source.** Clotilde Bizière. *Semilinearity of 2-BVASS backward reachability set (Autobóz Problem 25.8)*. 2025. [primary source](https://automata.exchange/25.8-semilinearity-of-2-bvass-backward-reachability-set/) Location: Problem 25.8, final question and run definition.
-
-**Literature check.** Status for question 3079, checked 8 October 2026: July 2026 decidability claim concerns reachability, not semilinearity of this diagonal predecessor set.
-
-**Further links.** [1](https://arxiv.org/abs/2607.09558)
 

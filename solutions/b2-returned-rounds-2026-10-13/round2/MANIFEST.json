@@ -1,0 +1,165 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "BASELINE-TARGETS.json",
+      "bytes": 6687,
+      "sha256": "155aea53fec10b94962bec340a405e546a43223422862d06c015ba477cc2cd6e"
+    },
+    {
+      "path": "BOUNDARY-CHECKS.json",
+      "bytes": 26097,
+      "sha256": "0d1e246e09911b697fb279ca367f3d8669fb242ffbf38ba3a30c6a0d887555d5"
+    },
+    {
+      "path": "ENTROPY-CERTIFICATE.json",
+      "bytes": 7967,
+      "sha256": "294fd7cd5c722e14650f58056f6187fcb388475ef1427e830cabe98028edb34c"
+    },
+    {
+      "path": "MIDPOINT-CHECKS.json",
+      "bytes": 5636,
+      "sha256": "68a18adb9824f10ce2f869bfa9b1bd748d845f32b8eaf1d991bbdd4c7ab38407"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 1954,
+      "sha256": "bba2af5c02648dab901d5ca5a1c6e157ac2886c64670e0f26d2f32d0e7d7f28c"
+    },
+    {
+      "path": "QUALITY-CHECKS.json",
+      "bytes": 433,
+      "sha256": "7ffeaa9188f846120243720fce87cc416b4e6586f559e5ddb3ca0a60654dd46b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6099,
+      "sha256": "e6d8f04d3cf28dbb072ca0589c7abb6ef2789a5984e4e62d25634cc14f9984e2"
+    },
+    {
+      "path": "RESEARCH-NOTE.pdf",
+      "bytes": 309971,
+      "sha256": "d310f24658c31bc77d0cf4fb0cff753c666c41559ea1fdca45aaf9a651c55024"
+    },
+    {
+      "path": "RESEARCH-NOTE.tex",
+      "bytes": 29972,
+      "sha256": "bbf7137ad509ef86927e48b61f67d04da33768f24ba5d88843a33075834299c2"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 3269,
+      "sha256": "a0b32805ed78c51cc44b3dad42f3f49da7703feee9c2941514d3ea8efa62198f"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2750,
+      "sha256": "3a5f627a6adefc9dcdb52baa358d07ef0e2942b71dd196bfd4d253a75bd9bbc6"
+    },
+    {
+      "path": "SPANNING-SEARCH-3.json",
+      "bytes": 1183,
+      "sha256": "d4f33068091fd743386466079817c34801dcf21e6c7850e1d40f9c8f8ef4b5e3"
+    },
+    {
+      "path": "VERIFICATION.log",
+      "bytes": 1087,
+      "sha256": "24dd261466a48f51e627317ff28e3d476b79061c73a17a8f61c0d099409c98b4"
+    },
+    {
+      "path": "certify_entropy.py",
+      "bytes": 5737,
+      "sha256": "f62586bb75bb4b4c98b01a83179a1306138cb74ae368aaba58e270bc8dcc8790"
+    },
+    {
+      "path": "exploratory/CAP-MILP-3-3.json",
+      "bytes": 1563,
+      "sha256": "3dbbbd5730c26aafc72294da4b8739e20e07120a267cd488e7c59d397cda8275"
+    },
+    {
+      "path": "exploratory/CAP-SPANNING-MILP-4-3.json",
+      "bytes": 5081,
+      "sha256": "8e02f5cd702b9934f741c07dfa8ef2dea7b63dc5db345d3490659d9e33c7eced"
+    },
+    {
+      "path": "exploratory/CORRELATION-SEARCH.json",
+      "bytes": 11280,
+      "sha256": "b1bf62e87aa8f324c0b26186eb8420df05387396f1eb44573b4ecfe3c64dcfc1"
+    },
+    {
+      "path": "exploratory/OTHER-SUPPORT-SEARCH.json",
+      "bytes": 76,
+      "sha256": "805508931d9c0adf3a9899e94f2059524269c16925f9cc421b9317808c0aa3ad"
+    },
+    {
+      "path": "exploratory/README.md",
+      "bytes": 1152,
+      "sha256": "d7b3f1f8aa553a0ce699d9145134b027e401eac503651998eea7c2a3d050bed8"
+    },
+    {
+      "path": "exploratory/REFINED-ENTROPY-SEARCH.json",
+      "bytes": 4282,
+      "sha256": "01a79b30b55e6360358174e1330bd5b87e4d3d123762dbb2a60c22ef9fc7f667"
+    },
+    {
+      "path": "exploratory/TWO-COLOUR-CAP-SEARCH.json",
+      "bytes": 119,
+      "sha256": "55684cd6972ab7cef4abd3e7e53def1aae034635301e651af5969bd7675988c2"
+    },
+    {
+      "path": "exploratory/explore_caps.py",
+      "bytes": 1619,
+      "sha256": "6063fb05e50ab98bdf676c11c25c7d938f5968adbfa118bce55a291335d00873"
+    },
+    {
+      "path": "exploratory/explore_caps_spanning.py",
+      "bytes": 1714,
+      "sha256": "964ca292c62b11e6172bf7e7b2ebe5ef9cfdd69f208e7e0341453c55ac158a0f"
+    },
+    {
+      "path": "exploratory/explore_correlations.py",
+      "bytes": 2527,
+      "sha256": "285348be3fb09c495975457c915e3047d815660b9941292e13253c99b9f6718d"
+    },
+    {
+      "path": "exploratory/explore_other_supports.py",
+      "bytes": 1077,
+      "sha256": "e67abc95a72f30a1f92845a6aa87b13b1cf9bba4671583deec18e86ee1f1c0b2"
+    },
+    {
+      "path": "exploratory/explore_spanning.py",
+      "bytes": 1775,
+      "sha256": "67dab5b4d21e1dc2804265b2bed317b250f65497fc4db9ce625b5a96ce31d5d9"
+    },
+    {
+      "path": "exploratory/explore_two_colours.py",
+      "bytes": 1447,
+      "sha256": "7fa3ec29d33648ef885d9c204d137c927acec687619abc8e0425a6ee6c6af5c2"
+    },
+    {
+      "path": "exploratory/refine_entropy.py",
+      "bytes": 1119,
+      "sha256": "f8acf8d7566e01ba3b60a09737f402794e280c5df71cdf042d206231d0bef587"
+    },
+    {
+      "path": "exploratory/test_structure.py",
+      "bytes": 1156,
+      "sha256": "0762d45afbf2a138ab1910426bc99f8e28831389254e8e80db6745a807fc83c9"
+    },
+    {
+      "path": "verify_all.py",
+      "bytes": 622,
+      "sha256": "fb4d4c794f879886bda4b746cce139bd6d52643575e6494606194e687b082627"
+    },
+    {
+      "path": "verify_entropy_boundary.py",
+      "bytes": 7083,
+      "sha256": "eb8e43bb03ccc9544864ae5b2ba3ed483b8bb331c7ba786c8d77cc6cd79b795f"
+    },
+    {
+      "path": "verify_midpoint.py",
+      "bytes": 10242,
+      "sha256": "30bc2e2462528d082aee1c2f4ced25d148d7a4623a4b5dbfceda8582cd0c1f98"
+    }
+  ]
+}

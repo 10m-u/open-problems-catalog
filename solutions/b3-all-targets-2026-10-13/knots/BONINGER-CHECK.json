@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "cycle_controls": [
+    {
+      "n": 3,
+      "trees": 3,
+      "midpoint_pair_obstructions": 1
+    },
+    {
+      "n": 4,
+      "trees": 4,
+      "midpoint_pair_obstructions": 2
+    },
+    {
+      "n": 5,
+      "trees": 5,
+      "midpoint_pair_obstructions": 3
+    },
+    {
+      "n": 6,
+      "trees": 6,
+      "midpoint_pair_obstructions": 4
+    },
+    {
+      "n": 7,
+      "trees": 7,
+      "midpoint_pair_obstructions": 5
+    },
+    {
+      "n": 8,
+      "trees": 8,
+      "midpoint_pair_obstructions": 6
+    },
+    {
+      "n": 9,
+      "trees": 9,
+      "midpoint_pair_obstructions": 7
+    },
+    {
+      "n": 10,
+      "trees": 10,
+      "midpoint_pair_obstructions": 8
+    },
+    {
+      "n": 11,
+      "trees": 11,
+      "midpoint_pair_obstructions": 9
+    },
+    {
+      "n": 12,
+      "trees": 12,
+      "midpoint_pair_obstructions": 10
+    }
+  ],
+  "relaxed_matching_M_exchange_failure": {
+    "alpha": [
+      -1,
+      0,
+      1,
+      0
+    ],
+    "beta": [
+      0,
+      -1,
+      0,
+      1
+    ],
+    "i": 2,
+    "candidate_j": [
+      1,
+      4
+    ]
+  },
+  "actual_source_figure_eight_terms": 5,
+  "actual_source_810_terms": 23,
+  "actual_source_810_mass": 27,
+  "normalized_810_derivative": {
+    "0 0 0 2": "1/2",
+    "0 0 1 1": "1",
+    "0 0 2 0": "1/2",
+    "1 0 0 1": "1",
+    "1 0 1 0": "2"
+  },
+  "normalized_810_Hessian": [
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "Hessian_determinant": -1,
+  "Hessian_positive_eigenvalues": 2,
+  "relaxed_marginal_polynomial_terms": 10,
+  "relaxed_marginal_M_failure": {
+    "alpha": [
+      -2,
+      0,
+      0,
+      2
+    ],
+    "beta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "i": 4,
+    "candidate_j": [
+      1
+    ]
+  },
+  "relaxed_filled_slice_LC_values": [
+    4,
+    5,
+    5
+  ],
+  "relaxed_source_marginals": {
+    "-2": 13,
+    "0": 15,
+    "2": 13
+  },
+  "relaxed_unsigned_Alexander": {
+    "-4": 4,
+    "-2": 10,
+    "0": 13,
+    "2": 10,
+    "4": 4
+  },
+  "scalar_branch_union_M_failure": {
+    "alpha": [
+      -2,
+      0,
+      0,
+      0
+    ],
+    "beta": [
+      0,
+      -2,
+      0,
+      0
+    ],
+    "i": 2,
+    "candidate_j": [
+      1
+    ]
+  },
+  "scalar_branch_sum_LC_failure": {
+    "alpha": [
+      -1,
+      -1,
+      0,
+      0
+    ],
+    "i": 1,
+    "j": 2,
+    "center": 0,
+    "plus": 1,
+    "minus": 1
+  },
+  "weak_LC_product_inputs_support_size": 4,
+  "weak_LC_product_output_support_size": 9,
+  "weak_LC_product_failure_values": [
+    16,
+    17,
+    17
+  ],
+  "cycle_product_controls": 36,
+  "scope": "Exact named actual cycle family and attributed actual P41; relaxed matching is not a link counterexample.",
+  "checker_sha256": "2e1d9ac958484cd219d64e49b5a1120b86dcfb1303393f3b8a749e436a6d43db"
+}

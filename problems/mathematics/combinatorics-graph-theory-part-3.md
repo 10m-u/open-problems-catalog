@@ -1,6 +1,368 @@
-# Combinatorics & Graph Theory (part 3 of 3)
+# Combinatorics & Graph Theory (part 3 of 4)
 
-[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
+[Subject overview](combinatorics-graph-theory.md) · Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md) · [4](combinatorics-graph-theory-part-4.md)
+
+<a id="q3568"></a>
+
+## Q3568. Width-two order-polynomial positivity
+
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 7.1) · **Collection** 36
+
+Does every width-two finite poset P have Ω\_P(t) with nonnegative coefficients in the ordinary power basis?
+
+**Context.** Degree: Doctoral thesis; 2021 defence listed, award unverified. Advisors: Luca Moci. Source type: Later joint paper; doctoral genealogy verified Paper: Skew shapes, Ehrhart positivity, and beyond Authors: Luis Ferroni, Alejandro H. Morales, Greta Panova Origin: Authors’ conjecture, informed by Haimu Wang’s computations; not established as thesis-originated. Setup: For a finite poset P, Ω\_P(t) counts weakly order-preserving maps P→{1,…,t}. Its width is the maximum antichain size.
+
+**Source.** Luis Ferroni, Alejandro H. Morales, Greta Panova. *Skew shapes, Ehrhart positivity, and beyond*. 2026. [primary source](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.70204) Location: Final article §7.1, Conjecture 7.1; definitions §2.1.
+
+**Literature check.** Status: Final August 2026 article retains this conjecture. Funding-only correction; bounded recheck 2026-10-09 found no resolution.
+
+**Results.**
+
+- **Partial result**: Every ordinal sum of singleton or two-element antichain layers has nonnegative ordinary order-polynomial coefficients. Its exact factorization is a rising factorial times a residual polynomial whose roots lie on a vertical line with nonpositive real part. Empty and chain cases are included. General width-two posets with incomplete cross-layer comparisons remain unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/posets/WIDTH-TWO-WEAK-ORDERS.md).
+- **Partial result** (B3-ALL-TARGETS-Q3568-WEAK-LAYERS: Order-polynomial positivity for all weak orders of width two): Every ordinal sum of singleton or two-element antichain layers has nonnegative ordinary order-polynomial coefficients. Its exact factorization is a rising factorial times a residual polynomial whose roots lie on a vertical line with nonpositive real part. Empty and chain cases are included. Remaining/limits: General width-two posets with incomplete cross-layer comparisons remain unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/posets/WIDTH-TWO-WEAK-ORDERS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
+**Further links.** [1](https://phd.unibo.it/matematica/en/agenda/public-defense-of-the-doctoral-thesis-by-luis-rivetti-ferroni) · [2](https://arxiv.org/pdf/2503.16403v3)
+
+
+<a id="q3569"></a>
+
+## Q3569. Periodic zero-extension
+
+**Status:** Solved here: proved · **Kind:** conjecture (Conjecture 9.1) · **Collection** 36
+
+For p≥1, is [w∈L_U iff w0^p∈L_U for every w∈A\*] equivalent to having infinite words a_0,…,a_{p−1} with rep_U(U_{np+i}−1)=Pref_{np+i}(a_i) for all n≥0 and 0≤i&lt;p, necessarily satisfying σ^j(a_i)≤lex a_{i−j mod p} for every j≥0? Here σ deletes the first letter.
+
+**Context.** Degree: Docteur en Sciences Advisors: Émilie Charlier. Source type: Doctoral dissertation Origin: Thesis conjecture; Rigo’s context-free question. Setup: Let U=(U_n) be strictly increasing positive integers, U_0=1, with bounded successive ratios. Write rep_U for greedy representation over alphabet A, L_U=0\*rep_U(N), and Max_U={rep_U(U_n−1):n≥0}; Pref_k means length-k prefix.
+
+**Source.** Savinien Kreczman. *Linear numeration systems without a dominant root, alternate base numeration systems, and their links*. Université de Liège, 2026. Advisor(s): Émilie Charlier. [primary source](https://orbi.uliege.be/handle/2268/345086) Location: Conjecture 9.1, printed p.280; definitions pp.12–13.
+
+**Literature check.** Status: No resolution located by 2026-10-09.
+
+**Further links.** [1](https://orbi.uliege.be/bitstream/2268/345086/1/Kreczman_PhD_Thesis_JuryRemarks.pdf)
+
+**Result (2026-10-09).** For every p>=1, validity is preserved and reflected by appending p zeroes exactly when maximal greedy words are nested along residue classes modulo p. Their unique infinite limits satisfy every stated cross-residue lexicographic shift inequality. Full Conjecture 9.1 for positional U-systems; the separate alternate-base and noncanonical-shift conjectures are not resolved.
+
+[Proof](../../solutions/round-2026-10-09/discrete/Q3569-periodic-zero-extension.md) · [Internal review](../../solutions/round-2026-10-09/algebra/review-Q3569.md) · [Exact computational controls](../../solutions/round-2026-10-09/discrete/periodic-zero-checks.json). This is a research proposal with a separate internal AI review, not an externally peer-reviewed result.
+
+
+
+<a id="q3570"></a>
+
+## Q3570. Context-free Max_U
+
+**Status:** Open · **Kind:** open problem (Problem 8) · **Collection** 36
+
+Characterize linear-recurrence U whose minimal characteristic polynomial has unique maximal-modulus root β>1 and Max_U is context-free.
+
+**Context.** Degree: Docteur en Sciences Advisors: Émilie Charlier. Source type: Doctoral dissertation Origin: Thesis conjecture; Rigo’s context-free question. Setup: Let U=(U_n) be strictly increasing positive integers, U_0=1, with bounded successive ratios. Write rep_U for greedy representation over alphabet A, L_U=0\*rep_U(N), and Max_U={rep_U(U_n−1):n≥0}; Pref_k means length-k prefix.
+
+**Source.** Savinien Kreczman. *Linear numeration systems without a dominant root, alternate base numeration systems, and their links*. Université de Liège, 2026. Advisor(s): Émilie Charlier. [primary source](https://orbi.uliege.be/handle/2268/345086) Location: Problem 8, printed pp.288–290.
+
+**Literature check.** Status: No resolution located by 2026-10-09.
+
+**Further links.** [1](https://orbi.uliege.be/bitstream/2268/345086/1/Kreczman_PhD_Thesis_JuryRemarks.pdf)
+
+
+<a id="q3573"></a>
+
+## Q3573. Squared-outdegree extremum excluding the regular five-tournament
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.3) · **Collection** 36
+
+For every n≥1, does T_4(n) maximize Σ\_v d⁺(v)² among n-vertex digraphs containing no Reg_5 subdigraph?
+
+**Context.** Degree: PhD defence verified; award unverified. Advisors: Daniel Král, Richard Montgomery. Source type: Later paper; advisor’s doctoral-student list verifies genealogy Paper: L2 Turán Problems for Small Tournaments and Stability Origin: Author’s conjecture in arXiv:2609.05042v1, 4 September 2026; no thesis-origin claim. Setup: Digraphs are loopless, with at most one arc per ordered pair; opposite arcs are allowed. Reg_5 has vertex set Z/5Z and arcs i→i+1,i+2. T_4(n) has four balanced parts, both arcs between different parts, and no arcs within parts.
+
+**Source.** Daniel Iľkovič. *L2 Turán Problems for Small Tournaments and Stability*. 2026. [primary source](https://arxiv.org/abs/2609.05042) Location: Conjecture 3.3, printed p.4; definitions §2.
+
+**Literature check.** Status: Only v1 listed and no later resolution located in bounded 2026-10-09 check.
+
+**Further links.** [1](https://www.ucw.cz/~kral/cv-stud.html)
+
+
+<a id="q3574"></a>
+
+## Q3574. Cohen–Macaulay harmonic algebras of hypersimplices
+
+**Status:** Open · **Kind:** open problem · **Collection** 36
+
+Is H_{P_{ℓ,1,n}} Cohen–Macaulay for all integers 1≤ℓ≤n?
+
+**Context.** Degree: PhD defence verified; award unverified. Advisors: Brendon Rhoades. Source type: Later paper; May 2025 PhD defence verified Paper: Graded Ehrhart theory for hypersimplices Authors: Nathaniel Libman, Weston Miller Origin: First question specializes Reiner–Rhoades’s earlier conjecture; second is the authors’ computationally supported proposal. Setup: For finite Z⊂Q^n, let J_Z be generated by highest-degree parts of polynomials vanishing on Z, and V_Z={h∈Q[x_1,…,x_n]:f(∂)h=0 for all f∈J_Z}. Set H_P=⊕\_{r≥0}x_0^r V_{rP∩Z^n}, with ordinary multiplication. Let P_{ℓ,m,n}={x∈[0,m]^n:Σx_i=ℓ}.
+
+**Source.** Nathaniel Libman, Weston Miller. *Graded Ehrhart theory for hypersimplices*. 2026. [primary source](https://arxiv.org/abs/2608.27438) Location: §6, first bullet, printed pp.18–19; definitions §2.1.
+
+**Literature check.** Status: Inspected arXiv:2608.27438v1; bounded 2026-10-09 check found no later resolution.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~bprhoades/advising.html)
+
+
+<a id="q3575"></a>
+
+## Q3575. Degree-one generation for cube-slice harmonic algebras
+
+**Status:** Open · **Kind:** open problem · **Collection** 36
+
+For positive integers m,n and 1≤ℓ≤⌊mn/2⌋, is H_{P_{ℓ,m,n}} generated as a Q-algebra in x_0-degree one?
+
+**Context.** Degree: PhD defence verified; award unverified. Advisors: Brendon Rhoades. Source type: Later paper; May 2025 PhD defence verified Paper: Graded Ehrhart theory for hypersimplices Authors: Nathaniel Libman, Weston Miller Origin: First question specializes Reiner–Rhoades’s earlier conjecture; second is the authors’ computationally supported proposal. Setup: For finite Z⊂Q^n, let J_Z be generated by highest-degree parts of polynomials vanishing on Z, and V_Z={h∈Q[x_1,…,x_n]:f(∂)h=0 for all f∈J_Z}. Set H_P=⊕\_{r≥0}x_0^r V_{rP∩Z^n}, with ordinary multiplication. Let P_{ℓ,m,n}={x∈[0,m]^n:Σx_i=ℓ}.
+
+**Source.** Nathaniel Libman, Weston Miller. *Graded Ehrhart theory for hypersimplices*. 2026. [primary source](https://arxiv.org/abs/2608.27438) Location: §6, third bullet, printed p.19.
+
+**Literature check.** Status: Inspected arXiv:2608.27438v1; bounded 2026-10-09 check found no later resolution.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~bprhoades/advising.html)
+
+
+<a id="q3576"></a>
+
+## Q3576. Proximity under order, size and vertex-connectivity constraints
+
+**Status:** Open · **Kind:** open problem · **Collection** 36
+
+For admissible n,m,κ, determine the maximum π(G) among κ-connected G.
+
+**Context.** Degree: Philosophiae Doctor in Mathematics Advisors: Peter Dankelmann, Sonwabile Mafunda. Source type: Doctoral dissertation Origin: Formalizations of the dissertation’s unnumbered future directions. Setup: For a connected simple n-vertex graph G, n≥2, with at least m edges, set a_G(v)=(n−1)^{-1}Σ\_u d_G(u,v), remoteness ρ(G)=max_v a_G(v), and proximity π(G)=min_v a_G(v). Connectivity constraints are lower bounds.
+
+**Source.** Sufiyan Arif Mallu. *Bounds on proximity and remoteness in graphs and digraphs*. University of Johannesburg, 2025. Advisor(s): Peter Dankelmann, Sonwabile Mafunda. [primary source](https://ujcontent.uj.ac.za/esploro/outputs/doctoral/Bounds-on-proximity-and-remoteness-in/9960708807691) Location: Conclusion, p.136; proximity definition Chapter 1.
+
+**Literature check.** Status: Later digraph/outerplanar results do not resolve these cases; checked 2026-10-09.
+
+**Further links.** [1](https://www.uj.ac.za/members/mr-sufiyani-mallu/)
+
+
+<a id="q3577"></a>
+
+## Q3577. Contiguity of the random regular graph process
+
+**Status:** Open · **Kind:** open problem · **Collection** 36
+
+As n→∞ through nd even, are P_n and U_n mutually contiguous, meaning P_n(A_n)→0 iff U_n(A_n)→0 for every sequence of graph events A_n?
+
+**Context.** Degree: PhD in Mathematics Advisors: Lutz Warnke. Source type: Doctoral dissertation restating an earlier conjecture Origin: Wormald’s 1999 Conjecture 6.3, restated in the thesis and Molloy–Surya–Warnke paper. Setup: Fix d≥2. On labeled vertices [n], repeatedly add a uniformly chosen missing edge whose endpoints both have degree below d, stopping when none is available. Let P_n be the final graph’s law conditioned on d-regularity, and U_n the uniform simple d-regular graph law.
+
+**Source.** Erlang Surya. *Concentration and Sharp Thresholds in Random Graphs*. University of California San Diego, 2025. Advisor(s): Lutz Warnke. [primary source](https://escholarship.org/uc/item/7vt625fh) Location: Thesis Chapter 2, pp.4–5; final JCTB 176 (2026), Introduction.
+
+**Literature check.** Status: January 2026 journal introduction explicitly retains it; irregular-degree noncontiguity theorem excludes this case. Bounded check 2026-10-09.
+
+**Further links.** [1](https://mathweb.ucsd.edu/~lwarnke/PhD_Thesis_ErlangSurya.pdf) · [2](https://www.sciencedirect.com/science/article/pii/S0095895625000577)
+
+
+<a id="q3578"></a>
+
+## Q3578. Polynomial clique-degeneracy bounds forbidding broadleaved stars
+
+**Status:** Open · **Kind:** open problem (Problem 6) · **Collection** 36
+
+For every r≥3, ζ≥2 and r-broadleaved ζ-star H, is there k>0 such that degen_r(G)≤b(G)^k for every graph G with no induced H?
+
+**Context.** Degree: PhD in Combinatorics and Optimization Advisors: Sophie Spirkl, Rowan Yeats. Source type: Doctoral dissertation Origin: Problem in ongoing joint work with LaGrange, Rundström and Spirkl, incorporated in the dissertation. Setup: An r-broadleaved ζ-star replaces each leaf of K_{1,ζ} by a nonempty clique of size at most r−1, preserving adjacency to the center. Let d_r^F(v) count a largest vertex-disjoint family of (r−1)-cliques in N_F(v), degen_r(G)=max_{∅≠F⊆G} min_v d_r^F(v), and b(G)=max{t:K_{t,t}⊆G}, with b=0 for edgeless graphs.
+
+**Source.** Aristotelis Chaniotis. *Preserving and Generalizing χ-boundedness*. University of Waterloo, 2025. Advisor(s): Sophie Spirkl, Rowan Yeats. [primary source](https://uwspace.uwaterloo.ca/items/26df24d4-8ee7-4bab-9975-be038b27d919) Location: Problem 6, printed p.118; definitions pp.33–35.
+
+**Literature check.** Status: Source gives only an unspecified bounding function. No polynomial-bound resolution located by 2026-10-09.
+
+**Further links.** [1](https://uwspace.uwaterloo.ca/bitstreams/9a05e803-e0ed-4ee6-a495-2ff062ffb57b/download)
+
+
+<a id="q3579"></a>
+
+## Q3579. A general combinatorial rule for complementary-sum Chern plethysm
+
+**Status:** Open · **Kind:** open problem (Problem 26) · **Collection** 36
+
+Give a cancellation-free combinatorial interpretation of c_{λμ}(n) for arbitrary λ,μ,n in the stated range.
+
+**Context.** Degree: PhD defence verified; award unverified. Advisors: Brendon Rhoades. Source type: Earlier joint paper; doctoral genealogy verified Paper: Combinatorics and Representation Theory of Special Cases of Chern Plethysm Authors: Nathaniel Libman, Gidon Orelowitz Origin: Joint-paper open problem, not verified as thesis-originated. Setup: Let s_λ be the Schur polynomial in n variables. For partitions λ,μ with length at most n and |λ|=|μ|, define c_{λμ}(n)=[s_μ]s_λ(X−x_1,…,X−x_n), where X=x_1+⋯+x_n.
+
+**Source.** Nathaniel Libman, Gidon Orelowitz. *Combinatorics and Representation Theory of Special Cases of Chern Plethysm*. 2024. [primary source](https://www.combinatorics.org/ojs/index.php/eljc/article/view/v31i2p20) Location: Final §7, Problem 26, p.20; definitions pp.4–5. Preprint Problem 1 is renumbered.
+
+**Literature check.** Status: Final April 2024 article inspected; bounded 2026-10-09 author/topic checks found no general combinatorial rule.
+
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
+**Further links.** [1](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v31i2p20/pdf)
+
+
+<a id="q3580"></a>
+
+## Q3580. Rigid-graph realizations in even norms
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.1) · **Collection** 36
+
+For even p≥4 and d≥1, if G is rigid in ℓ\_p^d, is |D_G(P)|≥c_{G,p,d}|P|^{|V|−1} for every nonempty finite P⊂R^d, for some c_{G,p,d}>0?
+
+**Context.** Degree: PhD, awarded 13 May 2025 Advisors: Misha Rudnev. Source type: Joint paper after dissertation-first access attempt Paper: Generalised Erdős distance theory on graphs Authors: Sean Dewar, Nora Frankl, Samuel Mansfield, Anthony Nixon, Jonathan Passant, Audie Warren Origin: Authors’ May 2025 paper conjectures. Setup: Let D_G(P)={(‖p_u−p_v‖)\_{uv∈E}:p∈P^V} for G=(V,E). Generic ℓ\_p-rigidity means generic vertex placements have finitely many realizations with their edge lengths, modulo isometries.
+
+**Source.** Sean Dewar, Nora Frankl, Samuel Mansfield, Anthony Nixon, Jonathan Passant, Audie Warren. *Generalised Erdős distance theory on graphs*. 2025. [primary source](https://arxiv.org/abs/2505.06590) Location: Conjecture 6.1, p.39; metric and rigidity definitions §§1.2–1.3.
+
+**Literature check.** Status: Only v1; no resolution located by 2026-10-09.
+
+**Further links.** [1](https://research-information.bris.ac.uk/en/studentTheses/geometric-and-arithmetic-structure-in-finite-point-sets/)
+
+
+<a id="q3581"></a>
+
+## Q3581. Euclidean realization counts
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.6) · **Collection** 36
+
+For every fixed connected simple graph G with minimum degree at least two, does |D_G(P)|≥c_G|P|^{|V|−1} hold for all nonempty finite P⊂R² in the Euclidean norm, for some c_G>0?
+
+**Context.** Degree: PhD, awarded 13 May 2025 Advisors: Misha Rudnev. Source type: Joint paper after dissertation-first access attempt Paper: Generalised Erdős distance theory on graphs Authors: Sean Dewar, Nora Frankl, Samuel Mansfield, Anthony Nixon, Jonathan Passant, Audie Warren Origin: Authors’ May 2025 paper conjectures. Setup: Let D_G(P)={(‖p_u−p_v‖)\_{uv∈E}:p∈P^V} for G=(V,E). Generic ℓ\_p-rigidity means generic vertex placements have finitely many realizations with their edge lengths, modulo isometries.
+
+**Source.** Sean Dewar, Nora Frankl, Samuel Mansfield, Anthony Nixon, Jonathan Passant, Audie Warren. *Generalised Erdős distance theory on graphs*. 2025. [primary source](https://arxiv.org/abs/2505.06590) Location: Conjecture 6.6, p.41.
+
+**Literature check.** Status: Only v1; no resolution located by 2026-10-09.
+
+**Further links.** [1](https://research-information.bris.ac.uk/en/studentTheses/geometric-and-arithmetic-structure-in-finite-point-sets/)
+
+
+<a id="q3582"></a>
+
+## Q3582. Hamilton–Waterloo decompositions with one six-cycle factor and coprime other length
+
+**Status:** Open · **Kind:** open problem · **Collection** 36
+
+For which integers N≥3 and v≥1 with gcd(6,N)=1 and lcm(6,N)|v can K_v−I be edge-decomposed into one C_6-factor and (v−4)/2 C_N-factors?
+
+**Context.** Degree: PhD in Mathematical Sciences Advisors: Melissa S. Keranen. Source type: Doctoral dissertation and later accepted joint manuscript Paper: On the Hamilton-Waterloo Problem with a single factor of 6-cycles Authors: Zazil Santizo Huerta, Melissa S. Keranen Origin: Unresolved case identified in the dissertation and subsequent joint paper. Setup: A C_k-factor is a spanning disjoint union of k-cycles. For even v, write K_v−I for the complete graph with a perfect matching removed.
+
+**Source.** Zazil Santizo Huerta. *On Graph Decompositions and Designs: Exploring the Hamilton-Waterloo Problem with a Factor of 6-Cycles and Projective Planes of Order 16*. Michigan Technological University, 2024. Advisor(s): Melissa S. Keranen. [primary source](https://digitalcommons.mtu.edu/etdr/1740/) Location: Thesis conclusion p.124; accepted paper §7, p.31; definition §1.
+
+**Literature check.** Status: Watermarked accepted manuscript, matching AMC DOI 10.26493/1855-3974.3316.6d0, retains the gap; checked 2026-10-09. Final typeset file not inspected.
+
+**Further links.** [1](https://digitalcommons.mtu.edu/michigantech-p2/2231/)
+
+
+<a id="q3583"></a>
+
+## Q3583. Bounded-depth minor extensions of arbitrary matroids
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Collection** 36
+
+Is there a function f such that every finite nonempty matroid M is a minor of some matroid N with cdd(N)≤f(bd(M))?
+
+**Context.** Degree: PhD defence verified; award unverified. Advisors: Daniel Král. Source type: Joint paper; dissertation access attempted; advisor verifies May 2025 PhD defence Paper: Branch-depth is minor closure of contraction-deletion-depth Authors: Marcin Briański, Daniel Král, Kristýna Pekárková Origin: Joint-paper conjecture. Setup: For finite nonempty matroid M with ground set E, λ(X)=r(X)+r(E−X)−r(E). For |E|≥2, bd(M) minimizes k over trees with an internal vertex and leaves bijective to E, radius≤k, and λ(X)≤k for unions X of components after deleting an internal vertex; bd(singleton)=0. Define cdd(singleton)=1; for disconnected M take the maximum cdd of its components; otherwise cdd(M)=1+min_e min(cdd(M/e),cdd(M\e)).
+
+**Source.** Marcin Briański, Daniel Král, Kristýna Pekárková. *Branch-depth is minor closure of contraction-deletion-depth*. 2024. [primary source](https://arxiv.org/abs/2402.16215) Location: Conjecture 1, p.17; Conjecture 2 is equivalent and not counted separately.
+
+**Literature check.** Status: Reaffirmed in Measuring Depth of Matroids v3, p.36 (2026-10-02).
+
+**Further links.** [1](https://www.ucw.cz/~kral/cv-stud.html)
+
+
+<a id="q3620"></a>
+
+## Q3620. Parallel-hyperplane mass bisection
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.4) · **Collection** 37
+
+For all integers d,k≥1, can any d+k−1 absolutely continuous probability measures on R^d be simultaneously bisected by the chessboard coloring of at most k parallel hyperplanes?
+
+**Context.** Advisor(s): Pavle Blagojević. Origin: Older Soberón–Takahashi and Tverberg–Vrećica conjectures, restated in the thesis. Setup: For parallel affine hyperplanes, their chessboard coloring alternates black and white across consecutive slabs. A bisection gives each color half the measure. All partitions below have nonempty parts.
+
+**Source.** Nikola Sadovek. *Obstructions across geometry and topology*. Freie Universität Berlin, 2025. Advisor(s): Pavle Blagojević. [primary source](https://refubium.fu-berlin.de/bitstream/handle/fub188/51916/Sadovek%20-%20Doctoral%20dissertation.pdf?isAllowed=y&sequence=1) Location: Conjecture 2.4, printed p.18 (PDF p.30).
+
+**Literature check.** Status: Open in thesis; bisection is reaffirmed in June 2026 v3, Conjecture 1.5. No general resolution located, 2026-10-09.
+
+**Further links.** [1](https://arxiv.org/html/2404.14320v3) · [2](https://refubium.fu-berlin.de/handle/fub188/51916) · [3](https://www.mi.fu-berlin.de/fb/dates/disputationen/Sadovek_-Nikola---MI---Aushang.pdf)
+
+
+<a id="q3621"></a>
+
+## Q3621. Tverberg–Vrećica common affine transversal
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.6) · **Collection** 37
+
+Let 0≤k&lt;d and r_0,…,r_k≥1 be integers. Given A_i⊂R^d with |A_i|=(r_i−1)(d−k+1)+1, can each A_i be partitioned into r_i parts whose convex hulls all meet one common affine k-plane?
+
+**Context.** Advisor(s): Pavle Blagojević. Origin: Older Soberón–Takahashi and Tverberg–Vrećica conjectures, restated in the thesis. Setup: For parallel affine hyperplanes, their chessboard coloring alternates black and white across consecutive slabs. A bisection gives each color half the measure. All partitions below have nonempty parts.
+
+**Source.** Nikola Sadovek. *Obstructions across geometry and topology*. Freie Universität Berlin, 2025. Advisor(s): Pavle Blagojević. [primary source](https://refubium.fu-berlin.de/bitstream/handle/fub188/51916/Sadovek%20-%20Doctoral%20dissertation.pdf?isAllowed=y&sequence=1) Location: Conjecture 3.6, printed p.32 (PDF p.44).
+
+**Literature check.** Status: Open in thesis; bisection is reaffirmed in June 2026 v3, Conjecture 1.5. No general resolution located, 2026-10-09.
+
+**Further links.** [1](https://arxiv.org/html/2404.14320v3) · [2](https://refubium.fu-berlin.de/handle/fub188/51916) · [3](https://www.mi.fu-berlin.de/fb/dates/disputationen/Sadovek_-Nikola---MI---Aushang.pdf)
+
+
+<a id="q3669"></a>
+
+## Q3669. Double-star exclusions and domatic growth
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3) · **Collection** 37
+
+For every fixed s,t≥1, is the class with no induced S_{s,t} DOM-bounded?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite, nonempty and simple; δ is minimum degree. DOM(G) maximizes parts in a vertex partition each meeting every closed neighbourhood. DOM-bounded means DOM(G)≥f(δ(G)) for some unbounded f:Z_{≥0}→R_{>0}. S_{s,t} is an edge with s,t pendant leaves at its ends. Authors: Quentin Chuet, Selma Djelloul, Hoang La, François Pirot, Hossein Zaredehabadi. Remaining double-star conjecture; explicit problems.
+
+**Source.** Quentin Chuet, Selma Djelloul, Hoang La, François Pirot and Hossein Zaredehabadi. *A Domatic Analogue of χ-Bounded Graph Classes and the Gyárfás–Sumner Conjecture*. 2026. [primary source](https://arxiv.org/abs/2606.02030) Location: Conjecture 3, p.2; stars and P4 settled.
+
+**Literature check.** Status: v1, June 2026; no resolution found by 2026-10-09.
+
+
+<a id="q3670"></a>
+
+## Q3670. Linear domatic growth for unit disk graphs
+
+**Status:** Open · **Kind:** open problem (Problem 1) · **Collection** 37
+
+Does an absolute c>0 satisfy DOM(G)≥cδ(G) for every intersection graph G of equal-radius disks in the plane?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite, nonempty and simple; δ is minimum degree. DOM(G) maximizes parts in a vertex partition each meeting every closed neighbourhood. DOM-bounded means DOM(G)≥f(δ(G)) for some unbounded f:Z_{≥0}→R_{>0}. S_{s,t} is an edge with s,t pendant leaves at its ends. Authors: Quentin Chuet, Selma Djelloul, Hoang La, François Pirot, Hossein Zaredehabadi. Remaining double-star conjecture; explicit problems.
+
+**Source.** Quentin Chuet, Selma Djelloul, Hoang La, François Pirot and Hossein Zaredehabadi. *A Domatic Analogue of χ-Bounded Graph Classes and the Gyárfás–Sumner Conjecture*. 2026. [primary source](https://arxiv.org/abs/2606.02030) Location: Problem 1, p.19.
+
+**Literature check.** Status: v1, June 2026; no resolution found by 2026-10-09.
+
+
+<a id="q3671"></a>
+
+## Q3671. Fractional domatic spectrum
+
+**Status:** Open · **Kind:** open problem (Problem 3) · **Collection** 37
+
+Determine {FDOM(G):G is a nonempty finite simple graph}.
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. For nonempty finite simple G, δ is minimum degree and girth is shortest-cycle length. A dominating (p:q)-colouring assigns each vertex q colours from [p]={1,…,p}, with all p colours on each closed neighbourhood; p,q are positive integers. FDOM(G)=sup p/q over these colourings. Put F(g)=inf{FDOM(G):δ(G)=2,girth(G)≥g}; F_P(g) restricts this infimum to planar G. Authors: Quentin Chuet, Hugo Demaret, Hoang La, François Pirot. Explicit problems and conjecture.
+
+**Source.** Quentin Chuet, Hugo Demaret, Hoang La and François Pirot. *Fractional domatic number and minimum degree*. 2025. [primary source](https://arxiv.org/abs/2508.19617) Location: Problem 3, p.31.
+
+**Literature check.** Status: v1, 2025-08-27; no resolution found by 2026-10-09.
+
+
+<a id="q3672"></a>
+
+## Q3672. Sharp planar fractional domatic values
+
+**Status:** Open · **Kind:** conjecture (Conjecture 33) · **Collection** 37
+
+For integers k≥1 and g≥3 with 3k−1≤g≤3k+1, is F_P(g)=(3k+1)/(k+1)?
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. For nonempty finite simple G, δ is minimum degree and girth is shortest-cycle length. A dominating (p:q)-colouring assigns each vertex q colours from [p]={1,…,p}, with all p colours on each closed neighbourhood; p,q are positive integers. FDOM(G)=sup p/q over these colourings. Put F(g)=inf{FDOM(G):δ(G)=2,girth(G)≥g}; F_P(g) restricts this infimum to planar G. Authors: Quentin Chuet, Hugo Demaret, Hoang La, François Pirot. Explicit problems and conjecture.
+
+**Source.** Quentin Chuet, Hugo Demaret, Hoang La and François Pirot. *Fractional domatic number and minimum degree*. 2025. [primary source](https://arxiv.org/abs/2508.19617) Location: Conjecture 33, p.32.
+
+**Literature check.** Status: v1, 2025-08-27; no resolution found by 2026-10-09.
+
+
+<a id="q3673"></a>
+
+## Q3673. Forbidden subgraphs reducing frugal colouring growth
+
+**Status:** Open · **Kind:** open problem (Problem A) · **Collection** 37
+
+For fixed β≥1, classify the bipartite graphs H satisfying χβ(Δ,H)=o(Δ^{1+1/β}) as Δ→∞.
+
+**Context.** Doctoral connection: Variations on the graph colouring problem; Université Paris-Saclay, 2026; advisers Nathalie Aubrun, François Pirot. Graphs are finite and simple; β≥1 is integral. A β-frugal colouring is proper, with each colour used at most β times in each open neighbourhood. Let χβ(Δ,H) maximize the minimum such colour count over H-subgraph-free graphs of maximum degree at most Δ. Let χ\_{2,H}(Δ) maximize the minimum proper-colouring count avoiding bichromatic H, over all graphs of maximum degree at most Δ. Authors: Quentin Chuet. v3, 2026-10-04; Problem C has been solved.
+
+**Source.** Quentin Chuet. *Frugal colourings of graphs via sparse hypergraph colouring*. 2026. [primary source](https://arxiv.org/abs/2603.23379) Location: Problem A, p.3.
+
+**Literature check.** Status: Problems A–B; subsequently reaffirmed in arXiv:2609.39716.
+
 
 <a id="q3674"></a>
 
@@ -75,6 +437,11 @@ Does h_i\*²≥h_{i−1}\*h_{i+1}\* hold for every such P and 1≤i&lt;d?
 **Source.** Laura Escobar and Jodi McWhirter. *Oriented Matroid Circuit Polytopes*. 2025. [primary source](https://arxiv.org/abs/2501.00108) Location: Conjecture 3.11, p.14.
 
 **Literature check.** Status: v2, 2026-07-14; no later resolution located by 2026-10-09.
+
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-CIRCUIT-GAUGES: Circuit-polytope lattice reductions and fractional carries): Rank-one root circuit polytopes have binomial-square Ehrhart numerators in every size. The cographic K_N-minus-one-edge family is nonreflexive for every N>=5. The exact free-sum Ehrhart correction counts pairs of nonintegral gauges with fractional parts summing to at most one. A represented uniform rank-two family has sign-circuit span and saturated lattice equal to R^N and Z^N despite its flow-kernel dimension N-2. Remaining/limits: The root family is known and rederived here. The new structural obstructions are not counterexamples to full h\* log-concavity. The complete conjecture remains unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/oriented-matroids/Q3678-ATTEMPTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 
 <a id="q3679"></a>
@@ -154,7 +521,7 @@ For admissible n,m,δ, determine the maximum ρ(G) among G with minimum degree a
 
 ## Q3702. Ordinary subsum-denominator log-concavity
 
-**Status:** Open · **Kind:** conjecture (Conjecture 4) · **Collection** 38
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 4) · **Collection** 38
 
 For n≥1, n∉{3,5,6,7}, is ∏\_{i=1}^n(1+x^i)^{⌊log_2(n/i)⌋+1} log-concave?
 
@@ -164,12 +531,18 @@ For n≥1, n∉{3,5,6,7}, is ∏\_{i=1}^n(1+x^i)^{⌊log_2(n/i)⌋+1} log-concav
 
 **Literature check.** Status: Final explicitly retains both; n≥6 is the authors’ corrected range. No later resolution located, 9 October 2026.
 
+**Results.**
+
+- **Partial result**: For every n>=8, the first two nontrivial log-concavity inequalities of F_n and their reflected counterparts are strict. Its normalized coefficient law has variance asymptotic to 2\*n^3/21 and converges after centering and standardization to the normal law. The finite permitted small endpoints are treated separately. A central limit does not determine exact interior curvature signs; the full conjecture remains unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md).
+- **Partial result** (B3-ALL-TARGETS-Q3702-ENDPOINTS: First two subsum-product inequalities and a central limit): For every n>=8, the first two nontrivial log-concavity inequalities of F_n and their reflected counterparts are strict. Its normalized coefficient law has variance asymptotic to 2\*n^3/21 and converges after centering and standardization to the normal law. Remaining/limits: The finite permitted small endpoints are treated separately. A central limit does not determine exact interior curvature signs; the full conjecture remains unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 
 <a id="q3703"></a>
 
 ## Q3703. Binary subsum-numerator log-concavity
 
-**Status:** Open · **Kind:** conjecture (Conjecture 7) · **Collection** 38
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 7) · **Collection** 38
 
 Let B(n) be partitions of n into powers of 2, with multiplicities m_λ(2^i). For n≥6, is ∑\_{λ∈B(n)}∏\_{i=0}^{⌊log_2 n⌋}(1+x^{2^i})^{⌊n/2^i⌋−m_λ(2^i)} log-concave?
 
@@ -178,6 +551,12 @@ Let B(n) be partitions of n into powers of 2, with multiplicities m_λ(2^i). For
 **Source.** Ballantine, Beck, Feigon and Maurischat. *Reciprocals of subsum polynomials*. 2026. [primary source](https://doi.org/10.1007/s11139-026-01419-0) Location: Conjecture 7, PDF p.21; Section 4.
 
 **Literature check.** Status: Final explicitly retains both; n≥6 is the authors’ corrected range. No later resolution located, 9 October 2026.
+
+**Results.**
+
+- **Partial result**: For every n>=4, the first and final nontrivial log-concavity inequalities of H_n are strict. Exact mixture moments also prove that H_(2^s) is not ultra-log-concave for every s>=2. Ultra-log-concavity is stronger than the frozen ordinary log-concavity question. All interior inequalities remain unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md).
+- **Partial result** (B3-ALL-TARGETS-Q3703-ENDPOINTS: Strict binary-partition sum boundary inequalities): For every n>=4, the first and final nontrivial log-concavity inequalities of H_n are strict. Exact mixture moments also prove that H_(2^s) is not ultra-log-concave for every s>=2. Remaining/limits: Ultra-log-concavity is stronger than the frozen ordinary log-concavity question. All interior inequalities remain unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/subsums/BOUNDARIES.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 
 <a id="q3716"></a>
@@ -708,7 +1087,7 @@ Is m_{B_n}(1,3)=F_{3(n+1)}/2?
 
 ## Q3846. Does every finite minor of (T(n,k))\_{n,k≥0} have nonnegative coefficients in a,c,d,e?
 
-**Status:** Open · **Kind:** conjecture (Conjecture 1.3) · **Collection** 39
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 1.3) · **Collection** 39
 
 Does every finite minor of (T(n,k))\_{n,k≥0} have nonnegative coefficients in a,c,d,e?
 
@@ -717,6 +1096,12 @@ Does every finite minor of (T(n,k))\_{n,k≥0} have nonnegative coefficients in 
 **Source.** Xi Chen, Bishal Deb, Alexander Dyachenko, Tomack Gilmore and Alan D. Sokal. *Coefficientwise Total Positivity of Some Matrices Defined by Linear Recurrences*. 2021. [primary source](https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2021/30Chen.pdf) Location: Conjecture 1.3, p.3; publisher final dated 29 April 2021.
 
 **Literature check.** Status: No full resolution located through 10 October 2026. Mao’s August order-three result concerns numerical Eulerian triangles, not all coefficientwise minors here.
+
+**Results.**
+
+- **Partial result**: Every minor using only columns zero and one of the source four-parameter generalized Eulerian triangle has nonnegative coefficients in a,c,d,e, for arbitrary row gaps. The displayed formula proves this without polynomial division. Higher columns and arbitrary-order minors remain unresolved. The negative forced production entry is not a negative actual triangle minor. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/matrices/Q3846-ATTEMPTS.md#a5).
+- **Partial result** (B3-ALL-TARGETS-Q3846-TWO-COLUMNS: Coefficientwise total positivity in the first two Eulerian columns): Every minor using only columns zero and one of the source four-parameter generalized Eulerian triangle has nonnegative coefficients in a,c,d,e, for arbitrary row gaps. The displayed formula proves this without polynomial division. Remaining/limits: Higher columns and arbitrary-order minors remain unresolved. The negative forced production entry is not a negative actual triangle minor. [Report](../../solutions/b3-all-targets-2026-10-13/matrices/Q3846-ATTEMPTS.md#a5).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://curate.nd.edu/articles/thesis/28786115) · [2](https://arxiv.org/abs/2608.29224v1)
 
@@ -826,21 +1211,6 @@ Are there simple arrangements with arbitrarily many pseudolines whose arrangemen
 **Status:** Open · **Kind:** open problem · **Collection** 40
 
 If P_Δ is reflexive, must P_Γ be reflexive for every subcomplex Γ⊆Δ of the same dimension?
-
-**Context.** Paper origin: Torben Donzelmann, Thiago Holleben and Martina Juhnke, Symmetric (co)homology polytopes, arXiv:2602.17253v1, 19 February 2026, Questions 9.3–9.4, p.38. Setup: For a finite d-dimensional simplicial complex Δ, orient its faces and let A=∂\_d be its integral top boundary matrix. Define P_Δ=conv(±columns(A)) and P^Δ=conv(±columns(Aᵀ)). Each polytope P is considered in its real span with lattice L=span_R(P)∩Z^N. It is reflexive if its polar is a lattice polytope in the dual lattice L\*. For m=dim(P), define h\*\_P(t) by Σ\_{r≥0}|rP∩L|t^r=h\*\_P(t)/(1−t)^{m+1}.
-
-**Source.** Torben Donzelmann, Thiago Holleben and Martina Juhnke. *Symmetric (co)homology polytopes*. 2026. [primary source](https://arxiv.org/abs/2602.17253v1) Location: Questions 9.3–9.4, p.38.
-
-**Literature check.** Status: The authors’ current research page still lists this work as submitted. Known counterexamples concern a broader regular-matroid class; no matching boundary-polytope counterexample was found. No matching later resolution found through 10 October 2026.
-
-
-<a id="q3902"></a>
-
-## Q3902. For every reflexive P_Δ or P^Δ, does h\*\_P(t)=Σ\_{i=0}^{⌊m/2⌋}γ\_i t^i(1+t)^{m−2i} hold with all γ\_i≥0?
-
-**Status:** Open · **Kind:** open problem · **Collection** 40
-
-For every reflexive P_Δ or P^Δ, does h\*\_P(t)=Σ\_{i=0}^{⌊m/2⌋}γ\_i t^i(1+t)^{m−2i} hold with all γ\_i≥0?
 
 **Context.** Paper origin: Torben Donzelmann, Thiago Holleben and Martina Juhnke, Symmetric (co)homology polytopes, arXiv:2602.17253v1, 19 February 2026, Questions 9.3–9.4, p.38. Setup: For a finite d-dimensional simplicial complex Δ, orient its faces and let A=∂\_d be its integral top boundary matrix. Define P_Δ=conv(±columns(A)) and P^Δ=conv(±columns(Aᵀ)). Each polytope P is considered in its real span with lattice L=span_R(P)∩Z^N. It is reflexive if its polar is a lattice polytope in the dual lattice L\*. For m=dim(P), define h\*\_P(t) by Σ\_{r≥0}|rP∩L|t^r=h\*\_P(t)/(1−t)^{m+1}.
 
@@ -1941,12 +2311,16 @@ As a function of positive integers N,k for which admissible partitions of [N]={1
 
 **Literature check.** Status: Paper-origin. Current v1 gives bounds with a remaining gap for each extremal target; no matching later resolution located, 11 October 2026.
 
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+
 
 <a id="q4296"></a>
 
 ## Q4296. As a function of positive integers n,k for which admissible partitions of 𝔽₃ⁿ exist, determine…
 
-**Status:** Open · **Kind:** open problem (Problem 4) · **Collection** 43
+**Status:** Open, partial results · **Kind:** open problem (Problem 4) · **Collection** 43
 
 As a function of positive integers n,k for which admissible partitions of 𝔽₃ⁿ exist, determine the minimum, over those partitions, of the largest dimension of an affine subspace contained in R.
 
@@ -1955,6 +2329,23 @@ As a function of positive integers n,k for which admissible partitions of 𝔽�
 **Source.** Tomasz Kościuszko. *Arithmetic Progressions in Midpoint Colourings*. 2026. [primary source](https://arxiv.org/abs/2610.11847v1) Location: Problem 4, p.2.
 
 **Literature check.** Status: Paper-origin. Current v1 gives bounds with a remaining gap for each extremal target; no matching later resolution located, 11 October 2026.
+
+**Results.**
+
+- **Partial result**: For every positive n, the minimum largest affine-subspace dimension of R under the source admissibility condition with k=1 is n-1. A nonempty complement is midpoint-closed and affine; a hyperplane complement attains the bound. The general sharp function for k>=2 remains unresolved. Internally reviewed at this scope; no external peer-review claim. Five failed full-target routes leave the catalog question unresolved. Later results (13 October 2026): Later external rounds prove O_p(k(log(2k)+log(1/alpha))) codimension, weighted quotient avoidance, block constructions, the two-color line-free classification, exact initial values through dimension four, maximal-flat fibre rigidity and occupied-fibre inheritance, sharp plane-free size 16 in dimension three, and the bound (5/2)2^n-4 for plane-free remainders when n>=3. The full sharp function and logarithmic gap remain open. [Details](../../solutions/b2-continuation-2026-10-12/arithmetic/UNCOLOURED-ATTEMPTS.md).
+- **Partial result** (B2-CONTINUATION-ONE-COLOUR-DIMENSION: Exact one-colour finite-field remainder dimension): For every positive n, the minimum largest affine-subspace dimension of R under the source admissibility condition with k=1 is n-1. A nonempty complement is midpoint-closed and affine; a hyperplane complement attains the bound. Remaining/limits: The general sharp function for k>=2 remains unresolved. [Report](../../solutions/b2-continuation-2026-10-12/arithmetic/UNCOLOURED-ATTEMPTS.md).
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
+- **Partial result** (B2-RETURN-R1-B2-NEW-Q4296-LOG-CODIMENSION: all-dimension theorem using established external PFR): Every admissible k-colour midpoint partition of F_3^n with remainder density at least 1/10 has an affine subspace in R of codimension O(k log(2k)). Remaining/limits: The exact extremal function and removal of the logarithmic factor are not determined. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R1-B2-NEW-WEIGHTED-QUOTIENT-AVOIDANCE: auxiliary general lemma): If A is covered by M cosets of H, s <= dim(W/H), and M p^(-s)<1, then an affine codimension-s subspace avoiding A exists on which any nonnegative function has average at most its ambient average divided by 1-M p^(-s). Remaining/limits: No small-doubling or midpoint hypothesis is required for this standalone lemma. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R1-B2-NEW-Q4296-BLOCK-CONSTRUCTION: explicit companion construction): For n>=kb, the remainder with every one of k disjoint b-dimensional blocks nonzero admits k midpoint colours on its complement and has largest affine subspace dimension exactly n-k; density is (1-p^(-b))^k. Remaining/limits: The primary source already notes linear-loss constructions; no priority claim for necessity of linear loss. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round1/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R2-Q4296-two-colour-cap: Q4296-two-colour-cap): For every n, line-free admissible two-colour remainders in F_3^n are exactly the empty set, a singleton, two points, or an affine parallelogram. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R2-Q4296-full-fibre: Q4296-full-fibre): Full fibres inherit admissibility for any k over odd prime fields. For two colours the number of complete parallel maximal flats is 1, 2, or 4, with parallelogram quotient structure for four. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R2-Q4296-initial-values: Q4296-initial-values): At density >=1/10, f(1,2)=f(2,2)=f(3,2)=0 and f(4,2)=1. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R2-Q4296-k-plus-two-obstruction: Q4296-k-plus-two-obstruction): For k>=2, n>=k ceil(log_3(10k))+2, there is an admissible density-1/10 partition with largest affine dimension exactly n-k-2. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round2/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R3-B2-III-M1: Maximal-flat fibre rigidity): In an admissible two-colour partition of F_3^n, quotient in the direction of a maximum-dimensional affine subspace contained in R. The full remainder fibres form a cap of size 1,2,4; all but at most one nonfull fibre have a monochromatic affine coloured complement. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R3-B2-III-M2: Occupied-fibre inheritance): Under the hypotheses of M1, the quotient set of fibres meeting R inherits an admissible two-colouring. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R3-B2-III-M3: Sharp plane-free threshold in F_3^3): The maximum cardinality of a plane-free admissible two-colour remainder in F_3^3 is exactly 16. Remaining/limits: Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex).
+- **Partial result** (B2-RETURN-R3-B2-III-M4: All-dimension plane-free bound): For n>=3, a plane-free admissible two-colour remainder in F_3^n has cardinality at most (5/2)\*2^n-4. At density >=1/10, an affine plane is forced for n>=8. Remaining/limits: No sharpness claim beyond dimension 3; no improvement to general O(k log k) codimension. Full catalog target remains unresolved; internal review, no external peer review or worldwide-priority claim. [Report](../../solutions/b2-returned-rounds-2026-10-13/round3/RESEARCH-NOTE.tex).
 
 
 <a id="q4297"></a>
@@ -2045,6 +2436,10 @@ Is f_k(Γ)=Θ̃(n^(1/k)) as n→∞? Here Θ̃ permits multiplicative powers of 
 **Source.** Jihyo Chae and Hyunwoo Lee. *Random Cayley sum hypergraphs and k-fold sumsets*. 2026. [primary source](https://arxiv.org/abs/2610.08629v1) Location: Conjecture 5.1, p.20.
 
 **Literature check.** Status: Paper-origin. This is the source’s asymptotic conjecture. Current v1 proves the corresponding lower bound up to logarithms but leaves a larger upper bound; no matching later resolution located, 11 October 2026.
+
+**Results.**
+
+- **Investigated, unresolved** (B2-CONTINUATION-STOP-REGISTER: Every B2 target reaches its own stopping condition): All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing. Remaining/limits: The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive. [Report](../../solutions/b2-continuation-2026-10-12/STATUS.json).
 
 
 <a id="q4303"></a>
@@ -2309,7 +2704,7 @@ When the winning sets are all Hamilton cycles, determine the threshold bias q_H(
 
 ## Q4331. Do both polynomials have ultra-log-concave coefficients for every n≥1, meaning c_i/binom(d,i) is…
 
-**Status:** Open · **Kind:** conjecture (Conjecture 3.14) · **Collection** 44
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 3.14) · **Collection** 44
 
 Do both polynomials have ultra-log-concave coefficients for every n≥1, meaning c_i/binom(d,i) is log-concave, with d the polynomial’s degree? A Motzkin path of length l runs from (0,0) to (l,0), stays nonnegative, and uses (1,1),(1,0),(1,−1). Let M_l(t)=Σ\_P t^{1+maxheight(P)} over such paths, and R_l(t) the same sum restricted to paths with no horizontal step at height zero.
 
@@ -2319,12 +2714,18 @@ Do both polynomials have ultra-log-concave coefficients for every n≥1, meaning
 
 **Literature check.** Status checked 11 October 2026: both conjectures remain in v1; no matching resolution or newer final located.
 
+**Results.**
+
+- **Partial result**: For d=ceil(n/2), A_n coefficients divided by binom(d,i) are log-concave at ceil((n+2)/4)&lt;i&lt;d; B_n has the same assertion at floor((n+2)/4)+1&lt;i&lt;d. The i=1 zero-boundary inequalities hold as well. For Motzkin and Riordan paths at every length, the final nontrivial ordinary log-concavity inequality holds. Arbitrary interior heights in all four families remain unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/paths/UPPER-TAIL.md).
+- **Partial result** (B3-ALL-TARGETS-PATH-ENDPOINTS: All-length upper inequalities for path-height rows): For d=ceil(n/2), A_n coefficients divided by binom(d,i) are log-concave at ceil((n+2)/4)&lt;i&lt;d; B_n has the same assertion at floor((n+2)/4)+1&lt;i&lt;d. The i=1 zero-boundary inequalities hold as well. For Motzkin and Riordan paths at every length, the final nontrivial ordinary log-concavity inequality holds. Remaining/limits: Arbitrary interior heights in all four families remain unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/paths/UPPER-TAIL.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 
 <a id="q4332"></a>
 
 ## Q4332. For every l≥0, are the coefficients of both M_l and R_l log-concave, meaning c_i²≥c_{i−1}c_{i+1}?
 
-**Status:** Open · **Kind:** conjecture (Conjecture 6.8) · **Collection** 44
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 6.8) · **Collection** 44
 
 For every l≥0, are the coefficients of both M_l and R_l log-concave, meaning c_i²≥c_{i−1}c_{i+1}?
 
@@ -2333,6 +2734,12 @@ For every l≥0, are the coefficients of both M_l and R_l log-concave, meaning c
 **Source.** Per Alexandersson and Leonardo Saud Maia Leite. *Peaks and peak-nestings on unit interval graphs*. 2026. [primary source](https://arxiv.org/abs/2609.38084v1) Location: Conjecture 6.8, p.31.
 
 **Literature check.** Status checked 11 October 2026: both conjectures remain in v1; no matching resolution or newer final located.
+
+**Results.**
+
+- **Partial result**: For d=ceil(n/2), A_n coefficients divided by binom(d,i) are log-concave at ceil((n+2)/4)&lt;i&lt;d; B_n has the same assertion at floor((n+2)/4)+1&lt;i&lt;d. The i=1 zero-boundary inequalities hold as well. For Motzkin and Riordan paths at every length, the final nontrivial ordinary log-concavity inequality holds. Arbitrary interior heights in all four families remain unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/paths/UPPER-TAIL.md).
+- **Partial result** (B3-ALL-TARGETS-PATH-ENDPOINTS: All-length upper inequalities for path-height rows): For d=ceil(n/2), A_n coefficients divided by binom(d,i) are log-concave at ceil((n+2)/4)&lt;i&lt;d; B_n has the same assertion at floor((n+2)/4)+1&lt;i&lt;d. The i=1 zero-boundary inequalities hold as well. For Motzkin and Riordan paths at every length, the final nontrivial ordinary log-concavity inequality holds. Remaining/limits: Arbitrary interior heights in all four families remain unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/paths/UPPER-TAIL.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 
 <a id="q4333"></a>
@@ -2788,6 +3195,10 @@ For T=C^{(r)} with integer r≥6, or T=S^{(r)} with integer r≥7, does every in
 
 **Literature check.** Status checked 11 October 2026: current v1 expressly leaves this overlapping three-segment pattern conjectural. Earlier triangle-total-positivity and Hankel questions are different; no matching resolution was located.
 
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 
 <a id="q4430"></a>
 
@@ -2872,13 +3283,19 @@ Does some g:ℕ\_{≥1}→ℕ\_{≥1} ensure that every strongly g(k)-connected 
 
 ## Q4443. Unimodality of the shuffle eigenvalue polynomials
 
-**Status:** Open · **Kind:** open problem (Question 5.28) · **Collection** 45
+**Status:** Open, partial results · **Kind:** open problem (Question 5.28) · **Collection** 45
 
 Let λ/μ be a horizontal strip (at most one box per column), with |λ|=n and |μ|=j. Label its boxes j+1,…,n row-by-row, top-to-bottom and left-to-right. Let c_ℓ be the column index minus row index of box ℓ, and [a]\_q=(1−q^a)/(1−q). For 0≤k≤n−j, set E_{λ/μ}(k)=q^{nk−binom(k,2)} ∑\_{j<ℓ\_1<⋯<ℓ\_k≤n} ∏\_{m=1}^k q^{−ℓ\_m}[ℓ\_m+1−m+c_{ℓ\_m}]\_q. Must each polynomial have unimodal coefficients, meaning they weakly increase and then weakly decrease?
 
 **Source.** Sarah Brauner, Patricia Commins, Darij Grinberg and Franco Saliola. *The q-deformed random-to-random family in the Hecke algebra*. 2025. [primary source](https://arxiv.org/abs/2503.17580v3) Location: Question 5.28, p. 33; formula (5.8), p. 24, and definitions, pp. 18–22.
 
 **Literature check.** Status checked 11 October 2026: the current full paper retains the question; its 2026 conference abstract supplies no resolution. The single-row case is proved.
+
+**Results.**
+
+- **Partial result**: For every horizontal strip and ambient size, E(1) is unimodal because its interval summands share an integer center. E(N) is a product of positive q-integers and is palindromic unimodal. Together with E(0)=1 this covers every rank when N<=2. General intermediate ranks 2<=k&lt;N remain unresolved. The fresh bounded construction beyond source size 28 supplies no full proof. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/shuffle-eigenvalues/RESULTS.md).
+- **Partial result** (B3-ALL-TARGETS-Q4443-ENDPOINTS: Every horizontal-strip eigenvalue at endpoint ranks): For every horizontal strip and ambient size, E(1) is unimodal because its interval summands share an integer center. E(N) is a product of positive q-integers and is palindromic unimodal. Together with E(0)=1 this covers every rank when N<=2. Remaining/limits: General intermediate ranks 2<=k&lt;N remain unresolved. The fresh bounded construction beyond source size 28 supplies no full proof. [Report](../../solutions/b3-all-targets-2026-10-13/shuffle-eigenvalues/RESULTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2503.17580)
 
@@ -3125,6 +3542,10 @@ Find a positive combinatorial Littlewood–Richardson rule for O_{λμ}^ν in ξ
 
 **Source.** Santiago Estupiñán-Salamanca. *A New Shifted Littlewood–Richardson Rule and Related Developments*. University of Waterloo, 2026. Advisor(s): Oliver Pechenik. [primary source](https://uwspace.uwaterloo.ca/items/7a57b332-02ae-4b04-9f11-b98bbdb628c3) Location: Older Schubert-calculus problems restated on thesis p.43 and in Estupiñán-Salamanca–Pechenik, §1.
 
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 **Further links.** [1](https://arxiv.org/abs/2503.14609v2)
 
 
@@ -3139,6 +3560,10 @@ Find a cancellation-free combinatorial rule for (−1)^{|ν|−|λ|−|μ|}c_{λ
 **Context.** DL-S25 — Algebraic combinatorics Origin: Older Schubert-calculus problems restated on thesis p.43 and in Estupiñán-Salamanca–Pechenik, https://arxiv.org/abs/2503.14609v2, §1. Setup: Let Y=OG(n,2n+1) and Z=LG(n,2n) be complex varieties of maximal isotropic subspaces for nondegenerate symmetric and alternating forms, respectively. Schubert varieties Y_λ,Z_λ are indexed by strict partitions λ⊆(n,n−1,…,1), with codimension |λ|. Checked 12 October 2026: final thesis and latest joint preprint retain both problems; later searches found no general solution.
 
 **Source.** Santiago Estupiñán-Salamanca. *A New Shifted Littlewood–Richardson Rule and Related Developments*. University of Waterloo, 2026. Advisor(s): Oliver Pechenik. [primary source](https://uwspace.uwaterloo.ca/items/7a57b332-02ae-4b04-9f11-b98bbdb628c3) Location: Older Schubert-calculus problems restated on thesis p.43 and in Estupiñán-Salamanca–Pechenik, §1.
+
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://arxiv.org/abs/2503.14609v2)
 
@@ -3286,7 +3711,7 @@ For all integers 1≤a&lt;b, is p_A(n)=Θ(n^ρ), where ρ=log(a+b)/log((a+b)/2)?
 
 ## Q4665. Must (Σ\_λ c(λ)s_λ)(Σ\_λ d(λ)s_λ)−(Σ\_λ a(λ)s_λ)(Σ\_λ b(λ)s_λ), with all sums over P^ℓ, have…
 
-**Status:** Open · **Kind:** open problem · **Collection** 47
+**Status:** Open, partial results · **Kind:** open problem · **Collection** 47
 
 Must (Σ\_λ c(λ)s_λ)(Σ\_λ d(λ)s_λ)−(Σ\_λ a(λ)s_λ)(Σ\_λ b(λ)s_λ), with all sums over P^ℓ, have nonnegative coefficients in the Schur basis?
 
@@ -3295,6 +3720,12 @@ Must (Σ\_λ c(λ)s_λ)(Σ\_λ d(λ)s_λ)−(Σ\_λ a(λ)s_λ)(Σ\_λ b(λ)s_λ)
 **Source.** Chan, Hong Chen, Igor Pak and Soskin. *Correlation inequalities for Schur positivity*. 2026. [primary source](https://arxiv.org/abs/2606.06688v1) Location: Correlation inequalities for Schur positivity, arXiv2606.06688v1, Conjecture11.5, p34.
 
 **Literature check.** Status: Source: Correlation inequalities for Schur positivity, arXiv2606.06688v1, Conjecture11.5, p34. This is the four-function Schur-positive Klartag–Lehec conjecture. Checked 12 October2026; no matching resolution found.
+
+**Results.**
+
+- **Partial result**: The full weighted Schur difference is Schur-positive whenever each summed midpoint-output fiber has total input weight at most its c(u)d(v) budget. In particular the frozen pairwise weight hypothesis suffices for injective midpoint support pairs, including either singleton input support. For all legal finite supports the difference has nonnegative values on every nonnegative alphabet. Colliding midpoint fibers need additional compensation. Nonnegative evaluations alone do not imply Schur positivity; the full question remains unresolved. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/schur-midpoints/Q4665-RESULTS.md).
+- **Partial result** (B3-ALL-TARGETS-Q4665-INJECTIVE: Schur midpoint positivity with injective output fibers): The full weighted Schur difference is Schur-positive whenever each summed midpoint-output fiber has total input weight at most its c(u)d(v) budget. In particular the frozen pairwise weight hypothesis suffices for injective midpoint support pairs, including either singleton input support. For all legal finite supports the difference has nonnegative values on every nonnegative alphabet. Remaining/limits: Colliding midpoint fibers need additional compensation. Nonnegative evaluations alone do not imply Schur positivity; the full question remains unresolved. [Report](../../solutions/b3-all-targets-2026-10-13/schur-midpoints/Q4665-RESULTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 
 <a id="q4667"></a>
@@ -3393,4 +3824,123 @@ Does some integer n≥4 admit ∅≠D⊊Mₙ such that every triple of pairwise 
 **Literature check.** Status: Origin: Bamberg–Klawuhn, 2025 paper; thesis §6.6, pp150–151; July 2026 final §6(1),(3), p806. Checked 12 October 2026; no matching resolution located.
 
 **Further links.** [1](https://doi.org/10.1016/j.ffa.2026.102828)
+
+
+<a id="q4710"></a>
+
+## Q4710. Is K(Γ(r,n))≅(Z/nZ)^[r(n−2)−2]⊕Z/(2rn)Z for every r,n≥3?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is K(Γ(r,n))≅(Z/nZ)^[r(n−2)−2]⊕Z/(2rn)Z for every r,n≥3?
+
+**Context.** Setup: For integers r,n≥3, form Γ(r,n) from a cycle C_r by gluing one separate complete graph K_n along each cycle edge, identifying that edge and its endpoints. Different copies have no other identifications. Let L be its integer Laplacian and K(Γ)=ker(Σ:Z^V→Z)/LZ^V. Audited provenance and status: Subject: Algebraic graph theory Williams’s official supervision page confirms Tamimi’s PhD award on9August2022.
+
+**Source.** Baha Tamimi. *The Sandpile & Smith Groups of Certain Classes of Graphs*. University of Essex, 2022. Advisor(s): David Penman; Gerald Williams. [primary source](https://repository.essex.ac.uk/33230/) Location: Thesis-origin Conjecture4.4.2 p115; edge-tiling definition p11. Checked12October2026: no matching resolution located.
+
+**Literature check.** Status: Thesis-origin Conjecture4.4.2 p115; edge-tiling definition p11. Checked12October2026: no matching resolution located.
+
+**Further links.** [1](https://repository.essex.ac.uk/33230/1/baha_tamimi_phd_thesis_05_08_2022.pdf)
+
+
+<a id="q4739"></a>
+
+## Q4739. Characterize exactly the pairs of integers r,c≥0 for which a nonempty finite simple undirected…
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Collection** 48
+
+Characterize exactly the pairs of integers r,c≥0 for which a nonempty finite simple undirected graph exists in which every vertex has degree r and belongs to exactly c distinct triangles.
+
+**Context.** Artem Hak: Kyiv-Mohyla doctoral student since2024; supervisor Sergiy Kozerenko. Paper-origin target; no completed doctorate asserted. Audited provenance and status: Subject: Graph theory Hak–Kozerenko–Lohvynov–Yarosh, Regular K₃-regular graphs, 2602.23517v2, §5 Question1 p21; definitions pp3–4. Restates Caro–Lauri–Mifsud–Yuster–Zarb, Flip colouring of graphs, GraphsCombin.40(2024)106, §7 spectrum problem. Checked12October2026: current v2 and readable original journal-final retain the full parameter classification. Sheffield–Xi2507.14473v1 p2 gives partial bounds and an abelian-Cayley conjecture, not a general classification. No matching resolution located. Hak’s self-authored education entry identifies the ongoing doctorate and supervisor; doctoral dissertation title is not given. Adjacent graph-structure classifications remain unselected.
+
+**Source.** Artem Hak; Sergiy Kozerenko; Lohvynov; Yarosh. *Regular K₃-regular graphs*. 2026. [primary source](https://arxiv.org/abs/2602.23517v2) Location: §5, Question 1, p.21; definitions pp.3–4; original flip-colouring spectrum problem §7.
+
+**Literature check.** Status: Checked12October2026: current v2 and readable original journal-final retain the full parameter classification. Sheffield–Xi2507.14473v1 p2 gives partial bounds and an abelian-Cayley conjecture, not a general classification. No matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2602.23517) · [2](https://arxiv.org/pdf/2602.23517v2) · [3](https://link.springer.com/article/10.1007/s00373-024-02838-w) · [4](https://arxiv.org/abs/2312.08777) · [5](https://arxiv.org/abs/2507.14473) · [6](https://github.com/artikgak/artikgak)
+
+
+<a id="q4758"></a>
+
+## Q4758. For every integer n≥0, are the numbers of trees in T_n avoiding A and avoiding B equal?
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every integer n≥0, are the numbers of trees in T_n avoiding A and avoiding B equal?
+
+**Context.** Namrata: Warwick PhD2024; supervisor Torsten Mütze. Setup: Let T_n be the rooted ordered binary trees with n vertices, up to order-preserving isomorphism; vertices have optional left and right children. Pattern A occurs if distinct vertices r,a,b,c,d satisfy: a lies in r's left subtree, b in a's right subtree, c is r's right child, and d lies in c's right subtree. Pattern B uses the same conditions except that a must be r's left child and c may lie anywhere in r's right subtree. Avoidance means having no occurrence. Audited provenance and status: Subject: Enumerative combinatorics Hamiltonicity in flip graphs: Set Systems, Pattern Avoidance, and Hardness, June2024; §§4.2.1–4.2.2, Theorem54 p117, §4.9 p141. Gregor–Mütze–Namrata origin: EJC122(December2024)104020 §8.3; patterns (31245,0-1-)/(31245,1-0-). Publisher-indexed final passage read; direct403, full final unread. Checked12October2026: no matching resolution located. Latest2306.08420v4 and author PDF retain target. Burstein–Han–Kitaev–Zhang, EJC32(1)2025P1.7 §§1–4: classical permutation-pattern sets and Ferrers-board shape equivalence; no matching mixed binary-tree claim. https://www.combinatorics.org/ojs/index.php/eljc/article/download/v32i1p7/pdf/
+
+**Source.** Namrata. *Hamiltonicity in flip graphs: Set Systems, Pattern Avoidance, and Hardness*. University of Warwick, 2024. Advisor(s): Torsten Mütze. [primary source](https://wrap.warwick.ac.uk/id/eprint/190281/) Location: Thesis §§4.2.1–4.2.2, Theorem 54 p.117, §4.9 p.141; paper §8.3.
+
+**Literature check.** Status: Checked12October2026: no matching resolution located. Latest2306.08420v4 and author PDF retain target.
+
+**Further links.** [1](https://wrap.warwick.ac.uk/id/eprint/190281/1/WRAP_Theses_Namrata_2024.pdf) · [2](https://sites.google.com/view/nnamrata) · [3](https://sites.google.com/view/nnamrata/publications) · [4](https://arxiv.org/abs/2306.08420) · [5](https://tmuetze.de/papers/jump6.pdf) · [6](https://doi.org/10.1016/j.ejc.2024.104020) · [7](https://www.sciencedirect.com/science/article/pii/S0195669824001057) · [8](https://arxiv.org/abs/2212.03918) · [9](https://tmuetze.de/papers/kneser.pdf) · [10](https://doi.org/10.1016/j.aim.2025.110189) · [11](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v32i1p7/pdf/)
+
+
+<a id="q4764"></a>
+
+## Q4764. For every triangular λ, is A_λ a nonnegative-integer linear combination of two-variable Schur…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+For every triangular λ, is A_λ a nonnegative-integer linear combination of two-variable Schur polynomials s_(a,b)(q,t), a≥b≥0?
+
+**Context.** Setup: Here λ,μ are partitions; |ν| counts cells. For a cell c of a French Ferrers diagram ν, let a_ν(c),ℓ\_ν(c) count cells rightward and upward, and h_ν(c)=a_ν(c)+ℓ\_ν(c)+1. For nonempty λ put L=max_{c∈λ}ℓ\_λ(c)/h_λ(c), U=min_{c∈λ}(ℓ\_λ(c)+1)/h_λ(c). Call λ triangular when L&lt;U, and set v=(L+U)/2. For μ⊆λ let sim_λ(μ)=#{c∈μ:ℓ\_μ(c)/h_μ(c)&lt;v≤(ℓ\_μ(c)+1)/h_μ(c)}, including sim_λ(∅)=0. Define A_λ(q,t)=Σ\_{μ⊆λ}q^{|λ|−|μ|}t^{sim_λ(μ)}. Audited provenance and status: Subject: Algebraic combinatorics Doctoral topic: qt-symmetry in triangular partitions; Pons CV2023 p8. LeMogne–Pons, Deficit and (q,t)-symmetry in triangular partitions,2604.00245v1,31March2026: Conjecture1 p8, Definitions2.5–2.8 pp5–6. Earlier exact formulation: Bergeron–Mazin final Conjecture7.1 p17, ECA3:1(2023)S2R1, published9September2022. Current endpoint inequalities follow Remark2.9. Checked12October2026: current author list retains preprint; no matching resolution located. BHMPS final Conjecture7.1.1 concerns Schur expansion in X over N[q,t]; its identification with this q,t-Schur target is unverified. https://doi.org/10.1017/fmp.2023.4 https://arxiv.org/abs/2102.07931 https://www.cambridge.org/core/journals/forum-of-mathematics-pi/article/shuffle-theorem-for-paths-under-any-line/956194CE18D7DCFF1D1BC3BE3F69659D Known for partitions with at most two parts (Theorem4.10).
+
+**Source.** Loïc Le Mogne; Viviane Pons. *Deficit and (q,t)-symmetry in triangular partitions*. 2026. [primary source](https://arxiv.org/abs/2604.00245v1) Location: Loïc Le Mogne: Paris-Saclay doctoral student since2022; supervisors Nicolas Thiéry and Viviane Pons; degree award unverified.
+
+**Literature check.** Status: Checked12October2026: current author list retains preprint; no matching resolution located.
+
+**Further links.** [1](https://arxiv.org/abs/2604.00245) · [2](https://www.lri.fr/~pons/docs/cv_HDR_2023.pdf) · [3](https://www.lisn.upsaclay.fr/membres/le-mogne-loic/?lang=en) · [4](https://perso.lisn.upsaclay.fr/pons/docs/HDR.pdf) · [5](https://perso.lisn.upsaclay.fr/pons/en/pages/publications.html) · [6](https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2023/21.pdf) · [7](https://ecajournal.haifa.ac.il/Volume2023/ECA2023_S2A1.pdf) · [8](https://doi.org/10.54550/ECA2023V3S1R1) · [9](https://arxiv.org/abs/2203.15942) · [10](https://doi.org/10.1017/fmp.2023.4) · [11](https://arxiv.org/abs/2102.07931) · [12](https://www.cambridge.org/core/journals/forum-of-mathematics-pi/article/shuffle-theorem-for-paths-under-any-line/956194CE18D7DCFF1D1BC3BE3F69659D)
+
+
+<a id="q4766"></a>
+
+## Q4766. Characterize the partitions μ for which Σ\_{λ≤Iμ}p_λ has nonnegative coefficients in the Schur basis.
+
+**Status:** Open · **Kind:** open problem (Question 2.4.1) · **Collection** 48
+
+Characterize the partitions μ for which Σ\_{λ≤Iμ}p_λ has nonnegative coefficients in the Schur basis.
+
+**Context.** Setup: For partitions λ,μ of n, write λ≤Iμ when s_μ−s_λ has nonnegative monomial coefficients; s_λ is the Schur function. Put p_λ=∏ᵢ(Σⱼxⱼ^{λᵢ}). Audited provenance and status: Subject: Algebraic combinatorics David Kenepp: UC Davis PhD, 2025; advisor Anne Schilling. The Immersion Poset and a Crystal Analysis of Claw-Free Graphs: Question 2.4.1, p. 60; acknowledgment p. v. Earlier joint-paper origin: The immersion poset on partitions (2025), Question 4.1, p. 43. Checked 13 October 2026: both thesis copies and publisher final read; no matching later resolution located. Some lower intervals fail Schur positivity.
+
+**Source.** David Kenepp. *The Immersion Poset and a Crystal Analysis of Claw-Free Graphs*. UC Davis, 2025. Advisor(s): Anne Schilling. [primary source](https://escholarship.org/content/qt3z0225rf/qt3z0225rf_noSplash_c8d8ccaffb181143a753620a3b6a146e.pdf) Location: The Immersion Poset and a Crystal Analysis of Claw-Free Graphs: Question 2.4.1, p. 60; acknowledgment p. v.
+
+**Literature check.** Status: Checked 13 October 2026: both thesis copies and publisher final read; no matching later resolution located.
+
+**Further links.** [1](https://doi.org/10.1007/s10801-025-01380-z) · [2](https://d-nb.info/1368679838/34) · [3](https://math.ucdavis.edu/~anne/graduate_students.html)
+
+
+<a id="q4767"></a>
+
+## Q4767. Can every such graph also arise from a finite extremal semidistributive lattice?
+
+**Status:** Open · **Kind:** open problem (Question 3.102) · **Collection** 48
+
+Can every such graph also arise from a finite extremal semidistributive lattice?
+
+**Context.** Setup: In a finite semidistributive lattice L, label each cover x⋖y by min{j≤y:j≰x}. The canonical join graph has join-irreducibles as vertices, adjacent when labeling covers into a common element. Extremality means longest-chain length equals both join- and meet-irreducible counts. Audited provenance and status: Subject: Lattice theory / algebraic combinatorics Adrien Segovia: Étude des ordres et treillis, UQAM doctorate 2026; advisors Samuele Giraudo and Hugh Thomas. Doctoral-research question appearing in the earlier paper Extremality in semidistributive lattices. Checked 13 October 2026: later shellability and dimension papers read; no matching resolution located.
+
+**Source.** Adrien Segovia. *Étude des ordres et treillis*. UQAM, 2026. Advisor(s): Samuele Giraudo; Hugh Thomas. [primary source](https://archipel.uqam.ca/20179/1/D5119.pdf) Location: Thesis Question 3.102, p. 110; also arXiv:2511.18540v3 Question 5.4.
+
+**Literature check.** Status: Extremality papers checked; no matching resolution. https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2026/56.html https://arxiv.org/abs/2604.20947
+
+**Further links.** [1](https://archipel.uqam.ca/20179/) · [2](https://arxiv.org/abs/2511.18540) · [3](https://arxiv.org/abs/2608.14092) · [4](https://arxiv.org/abs/2609.07382) · [5](https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2026/56.html) · [6](https://arxiv.org/abs/2604.20947) · [7](https://arxiv.org/abs/2511.18540v3)
+
+
+<a id="q4769"></a>
+
+## Q4769. For all such S₁,…,Sₘ and positive integers y₁,…,yₘ, does the Ehrhart polynomial…
+
+**Status:** Open · **Kind:** open problem (Problem 5.4) · **Collection** 48
+
+For all such S₁,…,Sₘ and positive integers y₁,…,yₘ, does the Ehrhart polynomial |t(ΣᵢyᵢΔ⁰\_{Sᵢ})∩ℤⁿ| have strictly positive coefficients in every degree from zero through the polytope’s dimension?
+
+**Context.** Setup: Let e₁,…,eₙ be the standard basis of ℝⁿ, with e₋ᵢ=−eᵢ. For nonempty S⊆{±1,…,±n} containing no opposite pair, put Δ⁰\_S=conv({0}∪{eᵢ:i∈S}). Audited provenance and status: Subject: Polyhedral combinatorics Warut Thawinrak: UC Davis PhD, 2025; advisor Fu Liu. On the Faces and Ehrhart Polynomials of Polytopes, Problem 2.5.4, p. 33; definitions 2.2.2–2.2.4; acknowledgments p. vii. Checked 13 October 2026: latest paper retains question; no matching resolution located. Cross-polytope positivity (arXiv:2608.16037v1, Theorem 1.5, Remark 4.14) has different scope. v2: same scope (4.15). Negative linear coefficients exclude positive simplex sums; general-simplex counterexamples also differ.
+
+**Source.** Warut Thawinrak. *On the Faces and Ehrhart Polynomials of Polytopes*. UC Davis, 2026. Advisor(s): Fu Liu. [primary source](https://www.math.ucdavis.edu/~webfiles/dissertations/202503_Warut_Thawinrak_Dissertation.pdf) Location: Thesis question; later author paper arXiv:2512.01332v2, Problem 5.4.
+
+**Literature check.** Status: Checked 13 October 2026: latest paper retains question; no matching resolution located.
+
+**Further links.** [1](https://escholarship.org/uc/item/59t710m1) · [2](https://arxiv.org/abs/2512.01332) · [3](https://arxiv.org/abs/2608.16037) · [4](https://arxiv.org/abs/2512.01332v2) · [5](https://arxiv.org/abs/2608.16037v1)
 

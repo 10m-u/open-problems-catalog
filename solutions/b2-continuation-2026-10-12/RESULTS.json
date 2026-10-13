@@ -1,0 +1,948 @@
+{
+  "date": "2026-10-13",
+  "records": [
+    {
+      "id": "B2-CONTINUATION-INDICATOR-CONCENTRATION",
+      "title": "Uniform additive and multiplicative indicator concentration",
+      "status": "proved",
+      "relationship": "completed-broader-programme-target",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For every nonconstant centered indicator over a prime field, simultaneous additive and multiplicative basis concentration obeys the proved size/origin caps, including constant character and point-mass cases. For S subset F_p^*, approximate supports of sizes r,s with projection norm errors epsilon,eta satisfy rs >= (1-epsilon^2)(1-eta^2)(p-1)(p-|S|)^2/(p|S|^2). This completes A-TRANSFER.",
+      "remaining": "No Paley clique asymptotic, metric or original word-model classification follows. Origin point masses are explicit degeneracies. No novelty or external-review claim.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/paley/INDICATOR-CONCENTRATION.md",
+      "evidence_labels": [
+        "local-written-proof",
+        "main-thread-mathematical-review",
+        "exact-finite-energy-controls"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-FIXED-PRIME-DIGITS",
+      "title": "Fixed-prime good degrees are automatic",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 1613,
+          "stable_statement_id": "75f7fe19d171998305b3"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For each fixed prime p, rationally split integral polynomials with all coefficients nonzero modulo p have an effectively p-automatic set of degrees. Weighted-cycle analysis decides whether the nonzero base-p digit counts of degree+1 are bounded, and their maximum if bounded.",
+      "remaining": "No uniform all-prime cycle exclusion or c(p)=p-1 proof. Prior partial mark is retained.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-COORDINATE-FIBERS",
+      "title": "Unrestricted two-coordinate exclusion for a bounded third coordinate",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2316,
+          "stable_statement_id": "210ee10d0d0097b4ee16"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Exact signed-divisor and discriminant certificates exclude every integer solution of the source symmetric cubic with any coordinate of absolute value at most 5000; the other coordinates are unrestricted. Symmetry transfers the complete fiber exclusion.",
+      "remaining": "No bound on all coordinates or full integer nonexistence theorem. Prior partial mark preserved.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/diophantine/Q2316-FIBERS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-LINEAR-SMOOTHNESS",
+      "title": "Constructive smooth values for every linear polynomial",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3113,
+          "stable_statement_id": "d4e91e097d1d43c16ac5"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every f(n)=an+b with a nonzero integer and every epsilon>0, an explicit positive integer exponential subsequence has f(n) nonzero and supported on one fixed finite set of primes. Consequently infinitely many values are n^epsilon-smooth, including a<0 and b=0.",
+      "remaining": "Higher-degree polynomials remain unresolved. No originality claim.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/SMOOTHNESS-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ],
+      "ledger_topic": "b2-continuation-q3113"
+    },
+    {
+      "id": "B2-CONTINUATION-SQUARE-SUM-SEED",
+      "title": "Complete integer nonextension of a specified square-sum seed",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3208,
+          "stable_statement_id": "618f95b65d03d9be7157"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The specified four-by-four square-sum seed has no new integer neighbor on either side, with the new integer unrestricted. Opposite integer translations preserve this fact.",
+      "remaining": "This does not exclude all five-by-five square-sum sets or rational neighbors. Squared scaling preserves equations but need not preserve integer nonextension.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/diophantine/SQUARE-SUM-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ],
+      "ledger_topic": "b2-continuation-q3208"
+    },
+    {
+      "id": "B2-CONTINUATION-INTEGRAL-RESCALING",
+      "title": "Exact two-sided integral rescaling criterion",
+      "status": "partial",
+      "relationship": "exact-method-reduction",
+      "targets": [
+        {
+          "q": 1906,
+          "stable_statement_id": "ecfc3848aae38321043a"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "A positive rational two-sided product tuple admits a rational scale making both sides integral exactly when all cross-products are integral; the valuation intervals give a simultaneous scale. Source tuple splits were checked against this condition.",
+      "remaining": "Positivity/distinctness and the full requested tuple construction remain separate. This is a reduction, not a catalog existence proof.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/diophantine/TUPLE-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-ONE-COLOUR-DIMENSION",
+      "title": "Exact one-colour finite-field remainder dimension",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every positive n, the minimum largest affine-subspace dimension of R under the source admissibility condition with k=1 is n-1. A nonempty complement is midpoint-closed and affine; a hyperplane complement attains the bound.",
+      "remaining": "The general sharp function for k>=2 remains unresolved.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/UNCOLOURED-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ],
+      "ledger_topic": "b2-continuation-q4296"
+    },
+    {
+      "id": "B2-CONTINUATION-PARTITION-PARITY",
+      "title": "Conjugation-fixed partition parity product",
+      "status": "partial",
+      "relationship": "auxiliary-parity-identity",
+      "targets": [
+        {
+          "q": 4642,
+          "stable_statement_id": "d2cbd8e18d59a792b250"
+        },
+        {
+          "q": 4643,
+          "stable_statement_id": "5c6f359cd82d84143486"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Conjugation pairs nonfixed partitions. The integer-input partition count modulo two equals the coefficient of the locally finite product over positive integer parts and unordered positive nonintegral conjugate pairs, with pair weight its trace.",
+      "remaining": "Distinct-value divisibility and the all-field parity targets are unresolved. Unit orbits alone repeat one partition count.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/PARTITION-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-RELATIVE-DAVENPORT-DAG",
+      "title": "Exact finite subset-sum state algorithm",
+      "status": "partial",
+      "relationship": "exact-finite-state-reduction",
+      "targets": [
+        {
+          "q": 3116,
+          "stable_statement_id": "44fb1cc9d1cb2d6554f4"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For a finite abelian group and g nonzero, sequences avoiding g have an exact subset-sum DAG: every permitted appended term strictly increases the reachable-sum set. Longest paths determine the relative Davenport constant.",
+      "remaining": "The universal monotonicity target is not proved. This is a finite exact method.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-ENTROPY-LOWER",
+      "title": "Certified lower bound for the sum-difference entropy constant",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The rational law on {1,3,5} with probabilities (913,79,8)/1000 has (H(X-Xprime)-H(X))/(H(X+Xprime)-H(X)) strictly between 1.39778460678578706484097027537185551 and 1.39778460678578706484097027537185552. Exact rational logarithm bounds certify that the least universal constant exceeds 139/100.",
+      "remaining": "The exact universal constant, its equality to two, and global optimization are unresolved. This certifies an existing counted construction; no sixth attempt or novelty claim.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/ENTROPY-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ],
+      "ledger_topic": "b2-continuation-q4660"
+    },
+    {
+      "id": "B2-CONTINUATION-RAINBOW-PARITY",
+      "title": "Exact rainbow optimum with one monochromatic parity class",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 1860,
+          "stable_statement_id": "1bbd790f1e916985ec31"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "When all even integers have the same color, the maximum asymptotic normalized rainbow-Schur count is 9/22, with uniform discretization control for the odd coloring.",
+      "remaining": "No reduction of unrestricted colorings to this subclass. Prior return bound and mark retained.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/paley/colouring/PARITY-OPTIMUM.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-RAINBOW-PREFIX",
+      "title": "Exact optimum in the two-prefix palette family",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 1861,
+          "stable_statement_id": "17b96fc493616f6da52c"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The specified two-prefix three-color template has exact asymptotic optimum 3/7; the checked uniform parity refinements give at most 60/121.",
+      "remaining": "These are restricted templates, below the preserved return bound 50368/90905. No proof of convergence for all unrestricted maxima.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/paley/colouring/TWO-PREFIX.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-CUBE-LP",
+      "title": "Fractional obstruction to the first cube relaxation",
+      "status": "reviewed-method-obstruction",
+      "relationship": "relaxation-obstruction",
+      "targets": [
+        {
+          "q": 1959,
+          "stable_statement_id": "65d0b4c5a86887c26fd5"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The retained all-size fractional cube-hyperedge construction has density 17/24, showing that the specified linear relaxation cannot prove the desired sharp density.",
+      "remaining": "A fractional model obstruction, not an actual cube-free set counterexample.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/paley/cubes/Q1959-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-CUBE-AUXILIARY",
+      "title": "Counterexample to a diagonal-progression sufficient lemma",
+      "status": "reviewed-method-obstruction",
+      "relationship": "auxiliary-lemma-counterexample",
+      "targets": [
+        {
+          "q": 1960,
+          "stable_statement_id": "5bcb37e9988a37da8cc3"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The explicit retained set defeats the proposed auxiliary diagonal-progressions criterion while containing a genuine mixed cube.",
+      "remaining": "It refutes the auxiliary proof lemma, not Q1960 or a cube-free density bound.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/paley/cubes/Q1960-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-CUBE-DENSITY-BRANCH",
+      "title": "Five-eighths bound in the high-odd-density branch",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 1961,
+          "stable_statement_id": "dfe8135fbdbcd3117dc4"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The high-odd-density branch of the cube-free analysis proves the five-eighths density bound under its stated branch assumptions.",
+      "remaining": "The intermediate-density regime and the universal bound remain unresolved.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/paley/cubes/Q1961-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-FINITE-SUMMAND",
+      "title": "Finite-summand exclusion near the squares",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2215,
+          "stable_statement_id": "235fbd589621177ad36d"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "With the source o(sqrt(X)) cumulative square-perturbation error, a sumset decomposition cannot have a finite summand of size at least two; two fixed shifts give the counting bound and a necessary error scale Omega(X^(1/4)).",
+      "remaining": "Sparse infinite/infinite decompositions are not excluded. Original partial mark is retained.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-BIPARTITE-COVER",
+      "title": "Genus-five four-row cover and a two-row Pell boundary",
+      "status": "partial",
+      "relationship": "geometric-reduction-and-boundary",
+      "targets": [
+        {
+          "q": 2216,
+          "stable_statement_id": "df34eaaa5ab7e530f259"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Four distinct fixed square-sum rows produce the specified degree-sixteen genus-five cover. Two fixed rows allow unbounded Pell-based extensions with both signs permitted.",
+      "remaining": "Uniformity on the four-row cover is conditional; the unrestricted bipartite minimum problem is not reduced to a clique theorem.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/diophantine/BIPARTITE-SQUARE-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-RECIPROCAL-FACTORS",
+      "title": "Reciprocal factors in shifted cyclotomic families",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2414,
+          "stable_statement_id": "fbf539f5a7f03f1da075"
+        },
+        {
+          "q": 2415,
+          "stable_statement_id": "a06b211ca02e3eb359fa"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Reciprocal irreducible factors in the source product-plus-one family and unequal-degree sum family are cyclotomic. Exact finite factor controls retain their degree conditions.",
+      "remaining": "Irreducibility of the remaining noncyclotomic factor is not established. The original two partial marks and scopes remain unchanged.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/FACTOR-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-LEHMER-TWO",
+      "title": "Two-factor signed-distinct Lehmer exclusion",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 3314,
+          "stable_statement_id": "15f1b056cf4b03b990eb"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The signed distinct two-factor case reduces to the retained exact factor identity, which forces equality of the two parameters and violates distinctness.",
+      "remaining": "Larger factor counts and the full Lehmer-style equation remain unresolved.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/SEQUENCE-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-RADO-BOUNDARY",
+      "title": "Two-variable regularity threshold",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2203,
+          "stable_statement_id": "f44a7194398e19780ec5"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The minimal threshold is r(1)=1 vacuously and r(2)=2. A nonregular two-variable equation with opposite signs has unequal coefficient ratio; a nonzero prime valuation of that ratio gives a two-coloring by valuation bands with no monochromatic solution.",
+      "remaining": "No threshold proof for every number of variables. Same-sign coefficients have no positive solution.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/RAMSEY-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ],
+      "ledger_topic": "b2-continuation-q2203"
+    },
+    {
+      "id": "B2-CONTINUATION-RCA0-SINGLE-DIFFERENCE",
+      "title": "RCA0 three-color single-difference avoidance",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2469,
+          "stable_statement_id": "d4554ad68bb1d9e77596"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "For every coded countable abelian group and nonzero b, the translation graph of x-y=b has degree at most two. Greedy coloring in the enumeration gives a three-color avoidance proof in RCA0.",
+      "remaining": "This is a single-equation subcase. It does not classify the ring/matrix assertion or imply a two-color reversal. Prior partial mark retained.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/RAMSEY-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-ELASTICITY-INFINITY",
+      "title": "Known infinite elasticity in quadratic orders",
+      "status": "known-literature-subcase",
+      "relationship": "source-reviewed-existing-result",
+      "targets": [
+        {
+          "q": 2814,
+          "stable_statement_id": "ded2328888b954216a46"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The sourced split-prime-dividing-conductor criterion realizes infinite elasticity in the retained real-quadratic setup, using all powers of a suitable split prime.",
+      "remaining": "This is a prior literature subcase; the finite prescribed elasticities in all fields remain unresolved.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/NUMBER-THEORY-ATTEMPTS.md",
+      "evidence_labels": [
+        "primary-source-review",
+        "exact-finite-controls"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-SHIFTED-PRIME-MOMENTS",
+      "title": "Exact least-common-multiple identity for divisor moments",
+      "status": "partial",
+      "relationship": "exact-moment-identity",
+      "targets": [
+        {
+          "q": 2817,
+          "stable_statement_id": "8d3ae7c7fbc8f0646b77"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The kth shifted-prime divisor moment equals the exact sum over ordered prime tuples of floor(X/lcm(p1-1,...,pk-1)). Coincidences and gcd factors are retained.",
+      "remaining": "No asymptotic constant or uniform error after summing the floor terms is proved.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/NUMBER-THEORY-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-RECIPROCAL-MCD",
+      "title": "Atomic power monoid for all odd-prime reciprocal generators",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2217,
+          "stable_statement_id": "19c8d772d81df73beca8"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "In M generated by 1/p for every odd prime, a zero-integer-part element has only finitely many divisors by the canonical residue form. Subtracting the minimum integer part proves every finite set has an MCD. M is atomic, so the sourced atomic-MCD theorem makes its finitary power monoid atomic.",
+      "remaining": "This rules out one accumulating rank-one candidate, not all almost-atomic Puiseux monoids. Prior necessary-condition partial is preserved.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-S3-THRESHOLD",
+      "title": "Complete product-one threshold verification for S3",
+      "status": "partial",
+      "relationship": "restricted-catalog-result",
+      "targets": [
+        {
+          "q": 2213,
+          "stable_statement_id": "ca6484e601099abf0ee7"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "All possible ordering products of multiplicity vectors prove d(S3)=3 and E(S3)=9: all 126 length-four and 2002 length-nine multisets pass the respective tests, with exact length-three and length-eight lower witnesses.",
+      "remaining": "One finite group, already in known dihedral results; arbitrary groups remain open. The earlier universal lower-bound partial remains unchanged.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+      "evidence_labels": [
+        "complete-finite-enumeration",
+        "all-ordering-product-dynamic-program",
+        "main-thread-scope-review"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-TWO-LENGTH-SETS",
+      "title": "Known realization of every two-element length set",
+      "status": "known-literature-subcase",
+      "relationship": "source-reviewed-existing-result",
+      "targets": [
+        {
+          "q": 2210,
+          "stable_statement_id": "be959fff2c1da528a958"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The reviewed primary Theorem 1.1 realizes every {a,b}, 2<=a<b, by the length-family expression {2,b-a+2}+(a-2){1}. The new complete finite power-set enumeration covers all 4096 normalized sets through maximum twelve.",
+      "remaining": "The two-element theorem is sourced prior work. General finite length sets and a uniform witness-size bound remain open; the old partial/archive issue is retained.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+      "evidence_labels": [
+        "primary-source-review",
+        "complete-bounded-enumeration"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-COUNTABLE-CLASS-GROUPS",
+      "title": "Known half-factorial class groups for countable groups",
+      "status": "known-literature-subcase",
+      "relationship": "source-reviewed-existing-result",
+      "targets": [
+        {
+          "q": 2008,
+          "stable_statement_id": "36753dcad26060a463f6"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "The reviewed Geroldinger-Gobel theorem supplies half-factorial monoid-generating subsets for Warfield groups, including all countable groups, and the cited prime-class realization theorem yields corresponding Dedekind domains.",
+      "remaining": "This is known literature. Arbitrary abelian groups require compatible prime-class selection; unions, quotients and compact limits can lose the needed properties.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+      "evidence_labels": [
+        "primary-source-review",
+        "explicit-zero-sum-countercontrols"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-GRADED-BF-BOUNDARY",
+      "title": "Graded BF exclusion and a well-founded non-BF monoid",
+      "status": "reviewed-method-boundary",
+      "relationship": "hypothesis-and-construction-boundary",
+      "targets": [
+        {
+          "q": 2617,
+          "stable_statement_id": "ea8381859f5b4d5bae62"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "Connected N-graded domains are BF by additive degree; the filtered case with a domain leading ring has the same degree argument. An explicit infinite-rank cancellative monoid has ACCP and all lengths n>=2 for x, using a canonical integer budget and disjoint atom families.",
+      "remaining": "The graded result is known background. The illustrative monoid is not finitely generated; no ring ACCP or finite-presentation counterexample is claimed.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/arithmetic/MONOID-ATTEMPTS.md",
+      "evidence_labels": [
+        "local-written-analysis",
+        "main-thread-proof-and-scope-review",
+        "exact-or-bounded-controls-as-declared"
+      ]
+    },
+    {
+      "id": "B2-CONTINUATION-STOP-REGISTER",
+      "title": "Every B2 target reaches its own stopping condition",
+      "status": "reviewed-unsuccessful-routes",
+      "relationship": "failed-route-evidence",
+      "targets": [
+        {
+          "q": 49,
+          "stable_statement_id": "d0a8503718ca529daf5a"
+        },
+        {
+          "q": 1312,
+          "stable_statement_id": "7e21e2d207cc4fd014a3"
+        },
+        {
+          "q": 1509,
+          "stable_statement_id": "ffda628de2bac43d0ec3"
+        },
+        {
+          "q": 1510,
+          "stable_statement_id": "88eed316b86c7cab6b69"
+        },
+        {
+          "q": 1511,
+          "stable_statement_id": "0f88e5baee08af4d6f4f"
+        },
+        {
+          "q": 1608,
+          "stable_statement_id": "a2149a20f47eba9e27ee"
+        },
+        {
+          "q": 1609,
+          "stable_statement_id": "56c577fc2add1efcbecd"
+        },
+        {
+          "q": 1610,
+          "stable_statement_id": "746ff7ed37b5c6eff82f"
+        },
+        {
+          "q": 1611,
+          "stable_statement_id": "77f199e22acb02c0e966"
+        },
+        {
+          "q": 1612,
+          "stable_statement_id": "4211038b2f8f58510864"
+        },
+        {
+          "q": 1613,
+          "stable_statement_id": "75f7fe19d171998305b3"
+        },
+        {
+          "q": 1860,
+          "stable_statement_id": "1bbd790f1e916985ec31"
+        },
+        {
+          "q": 1861,
+          "stable_statement_id": "17b96fc493616f6da52c"
+        },
+        {
+          "q": 1903,
+          "stable_statement_id": "6f77af6017250e8f5f73"
+        },
+        {
+          "q": 1904,
+          "stable_statement_id": "ffe6233da22c4944b875"
+        },
+        {
+          "q": 1905,
+          "stable_statement_id": "993c5519c53ce33a2045"
+        },
+        {
+          "q": 1906,
+          "stable_statement_id": "ecfc3848aae38321043a"
+        },
+        {
+          "q": 1907,
+          "stable_statement_id": "ef826ba72180d89f7c12"
+        },
+        {
+          "q": 1908,
+          "stable_statement_id": "86bfeed53339e892c665"
+        },
+        {
+          "q": 1959,
+          "stable_statement_id": "65d0b4c5a86887c26fd5"
+        },
+        {
+          "q": 1960,
+          "stable_statement_id": "5bcb37e9988a37da8cc3"
+        },
+        {
+          "q": 1961,
+          "stable_statement_id": "dfe8135fbdbcd3117dc4"
+        },
+        {
+          "q": 2008,
+          "stable_statement_id": "36753dcad26060a463f6"
+        },
+        {
+          "q": 2010,
+          "stable_statement_id": "9413185b6a31098502e0"
+        },
+        {
+          "q": 2011,
+          "stable_statement_id": "910e657e85689a64c8c1"
+        },
+        {
+          "q": 2187,
+          "stable_statement_id": "6a0c75d8af9af7e1c137"
+        },
+        {
+          "q": 2188,
+          "stable_statement_id": "277f454289360bbd69ef"
+        },
+        {
+          "q": 2189,
+          "stable_statement_id": "b7cebb91447185f8bc65"
+        },
+        {
+          "q": 2190,
+          "stable_statement_id": "858e236a2a78c67c9b1f"
+        },
+        {
+          "q": 2191,
+          "stable_statement_id": "68bd7a5a8c3e1ff55f95"
+        },
+        {
+          "q": 2203,
+          "stable_statement_id": "f44a7194398e19780ec5"
+        },
+        {
+          "q": 2210,
+          "stable_statement_id": "be959fff2c1da528a958"
+        },
+        {
+          "q": 2213,
+          "stable_statement_id": "ca6484e601099abf0ee7"
+        },
+        {
+          "q": 2215,
+          "stable_statement_id": "235fbd589621177ad36d"
+        },
+        {
+          "q": 2216,
+          "stable_statement_id": "df34eaaa5ab7e530f259"
+        },
+        {
+          "q": 2217,
+          "stable_statement_id": "19c8d772d81df73beca8"
+        },
+        {
+          "q": 2306,
+          "stable_statement_id": "c8a9d6037b292fdf3b04"
+        },
+        {
+          "q": 2307,
+          "stable_statement_id": "388e074f811c33b3c869"
+        },
+        {
+          "q": 2308,
+          "stable_statement_id": "b97d79c1f4837f05055a"
+        },
+        {
+          "q": 2309,
+          "stable_statement_id": "c2919a57f718e86ebf52"
+        },
+        {
+          "q": 2314,
+          "stable_statement_id": "5a4ccc40e698f43e2bbe"
+        },
+        {
+          "q": 2315,
+          "stable_statement_id": "fe5ce4fae3105179737a"
+        },
+        {
+          "q": 2316,
+          "stable_statement_id": "210ee10d0d0097b4ee16"
+        },
+        {
+          "q": 2414,
+          "stable_statement_id": "fbf539f5a7f03f1da075"
+        },
+        {
+          "q": 2415,
+          "stable_statement_id": "a06b211ca02e3eb359fa"
+        },
+        {
+          "q": 2462,
+          "stable_statement_id": "ab65e680b82754944885"
+        },
+        {
+          "q": 2468,
+          "stable_statement_id": "3529c68ac8a3205e8a47"
+        },
+        {
+          "q": 2469,
+          "stable_statement_id": "d4554ad68bb1d9e77596"
+        },
+        {
+          "q": 2613,
+          "stable_statement_id": "73ce89497b6f083441d7"
+        },
+        {
+          "q": 2616,
+          "stable_statement_id": "5fef6376adb54a45a70d"
+        },
+        {
+          "q": 2617,
+          "stable_statement_id": "ea8381859f5b4d5bae62"
+        },
+        {
+          "q": 2814,
+          "stable_statement_id": "ded2328888b954216a46"
+        },
+        {
+          "q": 2815,
+          "stable_statement_id": "fb8323698dfdaa8cae8e"
+        },
+        {
+          "q": 2816,
+          "stable_statement_id": "dcba0818f29fb51a424a"
+        },
+        {
+          "q": 2817,
+          "stable_statement_id": "8d3ae7c7fbc8f0646b77"
+        },
+        {
+          "q": 2904,
+          "stable_statement_id": "db7c27389ed560efe75c"
+        },
+        {
+          "q": 2905,
+          "stable_statement_id": "e48b697269ddc9cac6f8"
+        },
+        {
+          "q": 2906,
+          "stable_statement_id": "02b7aa79313d958024b5"
+        },
+        {
+          "q": 2907,
+          "stable_statement_id": "5360b845c17ee015c3b8"
+        },
+        {
+          "q": 3107,
+          "stable_statement_id": "4728eb30d755432bfd2d"
+        },
+        {
+          "q": 3109,
+          "stable_statement_id": "9caefed07ef8b866eb31"
+        },
+        {
+          "q": 3110,
+          "stable_statement_id": "f1e522e5c3dd27b6ee71"
+        },
+        {
+          "q": 3113,
+          "stable_statement_id": "d4e91e097d1d43c16ac5"
+        },
+        {
+          "q": 3116,
+          "stable_statement_id": "44fb1cc9d1cb2d6554f4"
+        },
+        {
+          "q": 3117,
+          "stable_statement_id": "65aebfbae21aebc8cc1e"
+        },
+        {
+          "q": 3208,
+          "stable_statement_id": "618f95b65d03d9be7157"
+        },
+        {
+          "q": 3314,
+          "stable_statement_id": "15f1b056cf4b03b990eb"
+        },
+        {
+          "q": 3466,
+          "stable_statement_id": "b72dbb84c0e76fc00e5e"
+        },
+        {
+          "q": 3603,
+          "stable_statement_id": "d0258bd1b882d602a23a"
+        },
+        {
+          "q": 3715,
+          "stable_statement_id": "dd21caa8ea16f100bedc"
+        },
+        {
+          "q": 4190,
+          "stable_statement_id": "0bf3e285c0fb5fbe1438"
+        },
+        {
+          "q": 4196,
+          "stable_statement_id": "7e277ff5595621cf6166"
+        },
+        {
+          "q": 4295,
+          "stable_statement_id": "dae618965c0901e101c9"
+        },
+        {
+          "q": 4296,
+          "stable_statement_id": "67d9a47fe0b199024fdb"
+        },
+        {
+          "q": 4302,
+          "stable_statement_id": "251d08503e28c811bfdb"
+        },
+        {
+          "q": 4580,
+          "stable_statement_id": "ef4021281b27033a2ddc"
+        },
+        {
+          "q": 4585,
+          "stable_statement_id": "e639112c4f1115ab8cb0"
+        },
+        {
+          "q": 4642,
+          "stable_statement_id": "d2cbd8e18d59a792b250"
+        },
+        {
+          "q": 4643,
+          "stable_statement_id": "5c6f359cd82d84143486"
+        },
+        {
+          "q": 4659,
+          "stable_statement_id": "18764f1fa618ad06743b"
+        },
+        {
+          "q": 4660,
+          "stable_statement_id": "4e69214fdfaf0bc4e852"
+        }
+      ],
+      "exact_question_closed": false,
+      "statement": "All 81 catalog questions have five reviewed substantive failed full-target routes (405 total); A-TRANSFER is solved locally. Partial proofs do not reset counters. The same retained agent completed ten catalog packets and the broader proof; root completed the other 71 catalog questions and the final filing.",
+      "remaining": "The catalog questions remain unresolved. Source, shell and service failures are excluded; new finite checks do not recover the original missing archive.",
+      "proof_location": "solutions/b2-continuation-2026-10-12/STATUS.json",
+      "evidence_labels": [
+        "written-route-analyses",
+        "main-thread-count-and-scope-review",
+        "retained-agent-prior-reviews-with-provenance"
+      ]
+    }
+  ],
+  "new_partial_questions": [
+    2203,
+    3113,
+    3208,
+    4296,
+    4660
+  ],
+  "new_exact_catalog_closures": 0,
+  "review_policy": "Per-result internal proof and scope review; no novelty or external peer-review claim"
+}

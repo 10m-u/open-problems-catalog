@@ -1,6 +1,6 @@
 # Geometry & Differential Geometry
 
-296 problems: 293 open, 3 open, partial results.
+302 problems: 299 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -304,3 +304,9 @@ Parts: [1](geometry-differential-geometry-part-1.md) · [2](geometry-differentia
 | <a id="q4668"></a>[Q4668](geometry-differential-geometry-part-2.md#q4668) | Increasing homological finiteness by embedding | Open |
 | <a id="q4669"></a>[Q4669](geometry-differential-geometry-part-2.md#q4669) | Characterize both classes of functions on (0,1), {θ↦M_θ(F):∅≠F⊆ℝ^d} and {θ↦M̲\_θ(F):∅≠F⊆ℝ^d}. | Open |
 | <a id="q4677"></a>[Q4677](geometry-differential-geometry-part-2.md#q4677) | For every 1/2<λ<1, is there y∈ℝ satisfying dim_A L_y=dim_A Γ\_λ−1? | Open |
+| <a id="q4754"></a>[Q4754](geometry-differential-geometry-part-2.md#q4754) | Simple curves detect maximal flat length ratios | Open |
+| <a id="q4765"></a>[Q4765](geometry-differential-geometry-part-2.md#q4765) | Is every nonconstant, degree-zero homogeneous minimizing U, up to orthogonal changes of domain… | Open |
+| <a id="q4770"></a>[Q4770](geometry-differential-geometry-part-2.md#q4770) | Characterize the convex cones whose conical semigroups are (R,G)-finitely generated. | Open |
+| <a id="q4776"></a>[Q4776](geometry-differential-geometry-part-2.md#q4776) | Is h³(g) independent of g? | Open |
+| <a id="q4777"></a>[Q4777](geometry-differential-geometry-part-2.md#q4777) | Is sup{c>0: R_B(t)=O(e^(−c/t)) as t↓0}=L²/4 for both Dirichlet and Neumann boundary conditions? | Open |
+| <a id="q4782"></a>[Q4782](geometry-differential-geometry-part-2.md#q4782) | For every integer d≥1, does there exist v_d>0 such that, for every integer r≥1, some positive… | Open |

@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "partition_increment": {
+    "field": 3,
+    "dimension": 2,
+    "empty_colour_classes_allowed": true,
+    "records": [
+      {
+        "k": 1,
+        "all_labelled_partitions": 512,
+        "admissible_nonempty_R": 22,
+        "proper_R_increment_checks": 21
+      },
+      {
+        "k": 2,
+        "all_labelled_partitions": 19683,
+        "admissible_nonempty_R": 859,
+        "proper_R_increment_checks": 858
+      },
+      {
+        "k": 3,
+        "all_labelled_partitions": 262144,
+        "admissible_nonempty_R": 28828,
+        "proper_R_increment_checks": 28827
+      }
+    ],
+    "arithmetic": "integer inequalities only"
+  },
+  "quotient_avoidance": {
+    "field": 3,
+    "quotient_dimension": 2,
+    "records": [
+      {
+        "codimension": 1,
+        "affine_flats": 12,
+        "flat_size": 3,
+        "cover_sets": 46,
+        "all_cover_test_set_pairs": 23552,
+        "additional_nonnegative_weight_cases": 552
+      },
+      {
+        "codimension": 2,
+        "affine_flats": 9,
+        "flat_size": 1,
+        "cover_sets": 511,
+        "all_cover_test_set_pairs": 261632,
+        "additional_nonnegative_weight_cases": 6132
+      }
+    ],
+    "arithmetic": "integer inequalities only"
+  },
+  "scalar_bounds": {
+    "k_range": [
+      1,
+      100
+    ],
+    "alpha_grid": "1/100 through 99/100",
+    "odds_checks": 9900,
+    "cumulative_loss_checks": 100,
+    "arithmetic": "exact fractions"
+  },
+  "scope": "Finite controls of elementary lemmas only; all-dimension theorem is proved in the manuscript using cited PFR."
+}

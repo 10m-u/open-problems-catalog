@@ -1,0 +1,30 @@
+{
+  "question": "Q2778",
+  "status": "passed",
+  "completed_attempt_controls": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+  ],
+  "relativization_checks_with_adversarial_extra_nodes": 2640,
+  "weighted_overlapping_token_constructions": 336,
+  "positive_surplus_bound_checks": 884,
+  "independent_total_matching_maps_exhausted": 499,
+  "A2_simple_graph_false_positive_controls_exhausted": 1024,
+  "A2_scaled_simple_lift": "passed at (4,8)",
+  "A3_typed_offset_period_edge_sets_exhausted": 256,
+  "A3_original_models": 0,
+  "A3_relaxed_models": 6,
+  "A4_positive_even_scale_matching_families": 4,
+  "A4_primitive_class_vector": [
+    1,
+    1,
+    2
+  ],
+  "A5_exact_vector_realizations_checked": 119,
+  "A5_common_closed_profile_coordinates": 9,
+  "A5_boundary_indecomposable_split_checks": 435,
+  "scope": "Restricted reduction controls; does not decide full Q2778."
+}

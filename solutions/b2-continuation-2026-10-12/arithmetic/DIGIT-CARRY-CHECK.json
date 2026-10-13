@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "exact_coefficient_comparisons": 8264,
+  "bounded_admissible_degrees": {
+    "2": [
+      0,
+      1,
+      3
+    ],
+    "3": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "5": [
+      7,
+      19
+    ],
+    "7": []
+  },
+  "scope": "Tests finite carry transition against direct polynomial multiplication; not uniform digit boundedness"
+}

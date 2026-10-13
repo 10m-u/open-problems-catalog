@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "independent_product_expansions": 16,
+  "independent_binary_partition_expansions": 15,
+  "exact_regrouping_and_increment_controls": 32,
+  "powers_of_two_mixture_and_full_support_controls": [
+    4,
+    8,
+    16
+  ],
+  "same_moment_control_variance": "176/39",
+  "generic_convolution_and_actual_nonreal_controls": 4,
+  "same_normal_limit_controls": 15,
+  "reviewed_files_sha256": {
+    "subsums/ATTEMPTS.md": "1bf72794010a0de6bf0a18fffcb3ae7890519e9e4d02527e574f6177838e402a",
+    "subsums/BOUNDARIES.md": "fbf73ebd70b38e5467ae12a47c7bc8f8a550a93e92f194f6e473f1e44ed28816",
+    "subsums/check_boundaries.py": "505cbecc2700d8c20bfc9a6e56813881307e45384d44ec76da0ac8ab0cef0406",
+    "subsums/BOUNDARY-CHECK.json": "ba6a8e43946d901ae4eae739b1d1fe4dacae80ecaa9a9554b2739df77755a227"
+  },
+  "scope": "Finite independent controls support algebra and obstructions; all-size claims use the written proofs."
+}

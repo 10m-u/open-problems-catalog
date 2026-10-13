@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "ordinal": {
+    "integer_metrics": 112,
+    "four_label_sign_checks": 29414
+  },
+  "flow": {
+    "vertices": 180,
+    "flow_certificates": 179,
+    "signed_entries": 29358,
+    "all_subtour_cuts_certified": true
+  },
+  "unique": {
+    "optimum": 66789,
+    "local_dp_states": 5940,
+    "unique_optimum_certificate": true
+  },
+  "contracted": {
+    "optimum": 1330166,
+    "path_units": 9,
+    "certified_dp_entries": 147528,
+    "bellman_comparisons": 6200064,
+    "independent_local_dp_states": 5940,
+    "all_forced_fractional_analytic_upper": 1328768,
+    "primary_tour_lower": 1328769
+  },
+  "uses_third_party_libraries": false,
+  "elapsed_seconds": 0.8207098719999522
+}

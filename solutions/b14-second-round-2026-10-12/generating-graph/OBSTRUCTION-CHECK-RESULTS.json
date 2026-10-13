@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "local_cuts_exhausted": 1022,
+  "petersen_undirected_tours_enumerated": 181440,
+  "petersen_hamiltonian_tours": 0,
+  "necklaces": [
+    {
+      "k": 2,
+      "cities": 20,
+      "global_cut_numerator": 4,
+      "forced_edges_checked": 190,
+      "max_forced_primary_cost_numerator": 54,
+      "fractional_cost_scale": 2
+    },
+    {
+      "k": 3,
+      "cities": 30,
+      "global_cut_numerator": 4,
+      "forced_edges_checked": 24,
+      "max_forced_primary_cost_numerator": 74,
+      "fractional_cost_scale": 2
+    },
+    {
+      "k": 4,
+      "cities": 40,
+      "global_cut_numerator": 4,
+      "forced_edges_checked": 24,
+      "max_forced_primary_cost_numerator": 94,
+      "fractional_cost_scale": 2
+    },
+    {
+      "k": 8,
+      "cities": 80,
+      "global_cut_numerator": 4,
+      "forced_edges_checked": 24,
+      "max_forced_primary_cost_numerator": 174,
+      "fractional_cost_scale": 2
+    },
+    {
+      "k": 17,
+      "cities": 170,
+      "global_cut_numerator": 4,
+      "forced_edges_checked": 24,
+      "max_forced_primary_cost_numerator": 354,
+      "fractional_cost_scale": 2
+    },
+    {
+      "k": 20,
+      "cities": 200,
+      "global_cut_numerator": 4,
+      "forced_edges_checked": 24,
+      "max_forced_primary_cost_numerator": 414,
+      "fractional_cost_scale": 2
+    }
+  ],
+  "forced_witnesses_checked": 310,
+  "large_binary_perturbation": "verified symbolically in RESULT.md; not materialized",
+  "scope": "finite exact checks support the all-size proof; no exhaustive tour search on necklaces"
+}

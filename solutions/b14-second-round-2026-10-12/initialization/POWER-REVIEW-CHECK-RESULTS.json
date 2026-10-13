@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational/integer",
+  "strengthened_cycle_transfer_cuts": 20,
+  "arbitrary_degree_assignment_failures": 680,
+  "petersen_supported_constraint_rank": 15,
+  "petersen_proper_cuts": 1022,
+  "petersen_cheap_hamilton_cycles": 0,
+  "rotations": [
+    {
+      "start": 0,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    },
+    {
+      "start": 1,
+      "degree5_vertices": 2,
+      "degree_at_most4_vertices": 18
+    },
+    {
+      "start": 2,
+      "degree5_vertices": 2,
+      "degree_at_most4_vertices": 18
+    },
+    {
+      "start": 3,
+      "degree5_vertices": 2,
+      "degree_at_most4_vertices": 18
+    },
+    {
+      "start": 4,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    },
+    {
+      "start": 5,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    },
+    {
+      "start": 6,
+      "degree5_vertices": 4,
+      "degree_at_most4_vertices": 16
+    },
+    {
+      "start": 7,
+      "degree5_vertices": 4,
+      "degree_at_most4_vertices": 16
+    },
+    {
+      "start": 8,
+      "degree5_vertices": 4,
+      "degree_at_most4_vertices": 16
+    },
+    {
+      "start": 9,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    },
+    {
+      "start": 10,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    },
+    {
+      "start": 11,
+      "degree5_vertices": 2,
+      "degree_at_most4_vertices": 18
+    },
+    {
+      "start": 12,
+      "degree5_vertices": 2,
+      "degree_at_most4_vertices": 18
+    },
+    {
+      "start": 13,
+      "degree5_vertices": 2,
+      "degree_at_most4_vertices": 18
+    },
+    {
+      "start": 14,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    },
+    {
+      "start": 15,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    },
+    {
+      "start": 16,
+      "degree5_vertices": 4,
+      "degree_at_most4_vertices": 16
+    },
+    {
+      "start": 17,
+      "degree5_vertices": 4,
+      "degree_at_most4_vertices": 16
+    },
+    {
+      "start": 18,
+      "degree5_vertices": 4,
+      "degree_at_most4_vertices": 16
+    },
+    {
+      "start": 19,
+      "degree5_vertices": 3,
+      "degree_at_most4_vertices": 17
+    }
+  ],
+  "scope": "independent controls for theorem-transfer scope and fractional-vertex proof; no conjecture counterexample"
+}

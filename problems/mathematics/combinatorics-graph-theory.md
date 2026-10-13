@@ -1,10 +1,10 @@
 # Combinatorics & Graph Theory
 
-734 problems: 704 open, 16 open, partial results, 12 solved here: proved, 2 solved here: disproved.
+743 problems: 699 open, 30 open, partial results, 12 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
-Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md)
+Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theory-part-2.md) · [3](combinatorics-graph-theory-part-3.md) · [4](combinatorics-graph-theory-part-4.md)
 
 | Q | Title | Status |
 |---|---|---|
@@ -119,7 +119,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q1260"></a>[Q1260](combinatorics-graph-theory-part-1.md#q1260) | The four-sevenths clustering lower bound | Open |
 | <a id="q1261"></a>[Q1261](combinatorics-graph-theory-part-1.md#q1261) | Sharp large-color clustering exponent for graph products | Open |
 | <a id="q1262"></a>[Q1262](combinatorics-graph-theory-part-1.md#q1262) | Which colored multiset polynomials are s-Eulerian? | Open, partial results |
-| <a id="q1263"></a>[Q1263](combinatorics-graph-theory-part-1.md#q1263) | Interpret the two gamma vectors of colored multiset polynomials | Open |
+| <a id="q1263"></a>[Q1263](combinatorics-graph-theory-part-1.md#q1263) | Interpret the two gamma vectors of colored multiset polynomials | Open, partial results |
 | <a id="q1264"></a>[Q1264](combinatorics-graph-theory-part-1.md#q1264) | Optimal three-color clustering for planar graphs | Open |
 | <a id="q1265"></a>[Q1265](combinatorics-graph-theory-part-1.md#q1265) | Max-lex minimizes generated unions | Open |
 | <a id="q1266"></a>[Q1266](combinatorics-graph-theory-part-1.md#q1266) | Optimal duration of the transversal achievement game | Open |
@@ -140,7 +140,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q1363"></a>[Q1363](combinatorics-graph-theory-part-1.md#q1363) | Glue hereditary bounded-basis torsos | Open |
 | <a id="q1364"></a>[Q1364](combinatorics-graph-theory-part-1.md#q1364) | Count monotone-triple-avoiding kings | Open |
 | <a id="q1365"></a>[Q1365](combinatorics-graph-theory-part-1.md#q1365) | Count Baxter kings | Open |
-| <a id="q1366"></a>[Q1366](combinatorics-graph-theory-part-1.md#q1366) | Unimodality of pattern intervals | Open |
+| <a id="q1366"></a>[Q1366](combinatorics-graph-theory-part-1.md#q1366) | Unimodality of pattern intervals | Open, partial results |
 | <a id="q1367"></a>[Q1367](combinatorics-graph-theory-part-1.md#q1367) | A small non-differentially-algebraic class | Open |
 | <a id="q1451"></a>[Q1451](combinatorics-graph-theory-part-1.md#q1451) | Force a triangle from five dense parts | Open |
 | <a id="q1452"></a>[Q1452](combinatorics-graph-theory-part-1.md#q1452) | Exclude sparse minimal treewidth classes | Open |
@@ -216,7 +216,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q1857"></a>[Q1857](combinatorics-graph-theory-part-1.md#q1857) | Classify distance-biregular halves | Open |
 | <a id="q1858"></a>[Q1858](combinatorics-graph-theory-part-1.md#q1858) | Determine earliest transfer time | Open |
 | <a id="q1859"></a>[Q1859](combinatorics-graph-theory-part-1.md#q1859) | Exclude unbalanced near-polygon diameters | Open |
-| <a id="q1860"></a>[Q1860](combinatorics-graph-theory-part-1.md#q1860) | Settle the rainbow Schur density | Open |
+| <a id="q1860"></a>[Q1860](combinatorics-graph-theory-part-1.md#q1860) | Settle the rainbow Schur density | Open, partial results |
 | <a id="q1861"></a>[Q1861](combinatorics-graph-theory-part-1.md#q1861) | Find the four-colour Schur density | Open, partial results |
 | <a id="q1862"></a>[Q1862](combinatorics-graph-theory-part-1.md#q1862) | Sharpen hypergrid saturation growth | Open |
 | <a id="q1863"></a>[Q1863](combinatorics-graph-theory-part-1.md#q1863) | Prove hypergrid saturation monotonicity | Open |
@@ -233,22 +233,22 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q1956"></a>[Q1956](combinatorics-graph-theory-part-1.md#q1956) | Give each clique a uniquely coloured edge | Open |
 | <a id="q1957"></a>[Q1957](combinatorics-graph-theory-part-1.md#q1957) | Separate adaptable and separation choosability arbitrarily | Open |
 | <a id="q1958"></a>[Q1958](combinatorics-graph-theory-part-1.md#q1958) | Realize the missing planar colouring triple | Open |
-| <a id="q1959"></a>[Q1959](combinatorics-graph-theory-part-1.md#q1959) | Bound projective-cube-free integer sets | Open |
-| <a id="q1960"></a>[Q1960](combinatorics-graph-theory-part-1.md#q1960) | Bound projective-cube-free cyclic sets | Open |
-| <a id="q1961"></a>[Q1961](combinatorics-graph-theory-part-1.md#q1961) | Prove the five-eighths projective-cube bound | Open |
-| <a id="q1962"></a>[Q1962](combinatorics-graph-theory-part-1.md#q1962) | Force increasing subsequences with few zero entries | Open |
-| <a id="q1963"></a>[Q1963](combinatorics-graph-theory-part-1.md#q1963) | Find induced cycles on half the cubic vertices | Open |
-| <a id="q1964"></a>[Q1964](combinatorics-graph-theory-part-1.md#q1964) | Acyclically edge-colour with two extra colours | Open |
-| <a id="q1965"></a>[Q1965](combinatorics-graph-theory-part-1.md#q1965) | Classify maximum independent sets of folded cubes | Open |
-| <a id="q1966"></a>[Q1966](combinatorics-graph-theory-part-1.md#q1966) | Force chords in longest cycles | Open |
-| <a id="q1967"></a>[Q1967](combinatorics-graph-theory-part-1.md#q1967) | Partition twin-free graphs into locating-dominating sets | Open |
-| <a id="q2051"></a>[Q2051](combinatorics-graph-theory-part-1.md#q2051) | Odd five-colour all planar graphs | Open |
-| <a id="q2052"></a>[Q2052](combinatorics-graph-theory-part-1.md#q2052) | Find spines in finite-width posets | Open |
-| <a id="q2053"></a>[Q2053](combinatorics-graph-theory-part-1.md#q2053) | Avoid one-for-two matching improvements | Open |
-| <a id="q2054"></a>[Q2054](combinatorics-graph-theory-part-1.md#q2054) | Avoid two-for-one cover improvements | Open |
-| <a id="q2055"></a>[Q2055](combinatorics-graph-theory-part-1.md#q2055) | Sharpen longest-cycle intersections | Open |
-| <a id="q2056"></a>[Q2056](combinatorics-graph-theory-part-1.md#q2056) | Separate longest cycles efficiently | Open |
-| <a id="q2057"></a>[Q2057](combinatorics-graph-theory-part-1.md#q2057) | Intersect three longest paths | Open |
+| <a id="q1959"></a>[Q1959](combinatorics-graph-theory-part-2.md#q1959) | Bound projective-cube-free integer sets | Open |
+| <a id="q1960"></a>[Q1960](combinatorics-graph-theory-part-2.md#q1960) | Bound projective-cube-free cyclic sets | Open |
+| <a id="q1961"></a>[Q1961](combinatorics-graph-theory-part-2.md#q1961) | Prove the five-eighths projective-cube bound | Open, partial results |
+| <a id="q1962"></a>[Q1962](combinatorics-graph-theory-part-2.md#q1962) | Force increasing subsequences with few zero entries | Open |
+| <a id="q1963"></a>[Q1963](combinatorics-graph-theory-part-2.md#q1963) | Find induced cycles on half the cubic vertices | Open |
+| <a id="q1964"></a>[Q1964](combinatorics-graph-theory-part-2.md#q1964) | Acyclically edge-colour with two extra colours | Open |
+| <a id="q1965"></a>[Q1965](combinatorics-graph-theory-part-2.md#q1965) | Classify maximum independent sets of folded cubes | Open |
+| <a id="q1966"></a>[Q1966](combinatorics-graph-theory-part-2.md#q1966) | Force chords in longest cycles | Open |
+| <a id="q1967"></a>[Q1967](combinatorics-graph-theory-part-2.md#q1967) | Partition twin-free graphs into locating-dominating sets | Open |
+| <a id="q2051"></a>[Q2051](combinatorics-graph-theory-part-2.md#q2051) | Odd five-colour all planar graphs | Open |
+| <a id="q2052"></a>[Q2052](combinatorics-graph-theory-part-2.md#q2052) | Find spines in finite-width posets | Open |
+| <a id="q2053"></a>[Q2053](combinatorics-graph-theory-part-2.md#q2053) | Avoid one-for-two matching improvements | Open |
+| <a id="q2054"></a>[Q2054](combinatorics-graph-theory-part-2.md#q2054) | Avoid two-for-one cover improvements | Open |
+| <a id="q2055"></a>[Q2055](combinatorics-graph-theory-part-2.md#q2055) | Sharpen longest-cycle intersections | Open |
+| <a id="q2056"></a>[Q2056](combinatorics-graph-theory-part-2.md#q2056) | Separate longest cycles efficiently | Open |
+| <a id="q2057"></a>[Q2057](combinatorics-graph-theory-part-2.md#q2057) | Intersect three longest paths | Open |
 | <a id="q2058"></a>[Q2058](combinatorics-graph-theory-part-2.md#q2058) | Force dominating models at optimal density | Open |
 | <a id="q2059"></a>[Q2059](combinatorics-graph-theory-part-2.md#q2059) | Find high-girth high-dichromatic subdigraphs | Open |
 | <a id="q2060"></a>[Q2060](combinatorics-graph-theory-part-2.md#q2060) | Order edges to distinguish neighbours | Open |
@@ -363,7 +363,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q2663"></a>[Q2663](combinatorics-graph-theory-part-2.md#q2663) | Three-quarter oriented-cycle threshold | Open |
 | <a id="q2664"></a>[Q2664](combinatorics-graph-theory-part-2.md#q2664) | Balanced whirling of repeated surjections | Solved here: proved |
 | <a id="q2665"></a>[Q2665](combinatorics-graph-theory-part-2.md#q2665) | Asymptotic homomesy on a slab | Solved here: proved |
-| <a id="q2751"></a>[Q2751](combinatorics-graph-theory-part-2.md#q2751) | Unimodality of q-Fibonomials | Open |
+| <a id="q2751"></a>[Q2751](combinatorics-graph-theory-part-2.md#q2751) | Unimodality of q-Fibonomials | Open, partial results |
 | <a id="q2752"></a>[Q2752](combinatorics-graph-theory-part-2.md#q2752) | Rational q-FiboCatalan models | Open |
 | <a id="q2753"></a>[Q2753](combinatorics-graph-theory-part-2.md#q2753) | Bipartite K₂-hypohamiltonian graphs | Open |
 | <a id="q2754"></a>[Q2754](combinatorics-graph-theory-part-2.md#q2754) | High-girth K₂-hypohamiltonian graphs | Open |
@@ -510,27 +510,27 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q3498"></a>[Q3498](combinatorics-graph-theory-part-2.md#q3498) | Crown real-rootedness | Open |
 | <a id="q3499"></a>[Q3499](combinatorics-graph-theory-part-2.md#q3499) | Polygon-face Ehrhart positivity | Solved here: disproved |
 | <a id="q3500"></a>[Q3500](combinatorics-graph-theory-part-2.md#q3500) | Boolean real-rootedness | Open |
-| <a id="q3568"></a>[Q3568](combinatorics-graph-theory-part-2.md#q3568) | Width-two order-polynomial positivity | Open |
-| <a id="q3569"></a>[Q3569](combinatorics-graph-theory-part-2.md#q3569) | Periodic zero-extension | Solved here: proved |
-| <a id="q3570"></a>[Q3570](combinatorics-graph-theory-part-2.md#q3570) | Context-free Max_U | Open |
-| <a id="q3573"></a>[Q3573](combinatorics-graph-theory-part-2.md#q3573) | Squared-outdegree extremum excluding the regular five-tournament | Open |
-| <a id="q3574"></a>[Q3574](combinatorics-graph-theory-part-2.md#q3574) | Cohen–Macaulay harmonic algebras of hypersimplices | Open |
-| <a id="q3575"></a>[Q3575](combinatorics-graph-theory-part-2.md#q3575) | Degree-one generation for cube-slice harmonic algebras | Open |
-| <a id="q3576"></a>[Q3576](combinatorics-graph-theory-part-2.md#q3576) | Proximity under order, size and vertex-connectivity constraints | Open |
-| <a id="q3577"></a>[Q3577](combinatorics-graph-theory-part-2.md#q3577) | Contiguity of the random regular graph process | Open |
-| <a id="q3578"></a>[Q3578](combinatorics-graph-theory-part-2.md#q3578) | Polynomial clique-degeneracy bounds forbidding broadleaved stars | Open |
-| <a id="q3579"></a>[Q3579](combinatorics-graph-theory-part-2.md#q3579) | A general combinatorial rule for complementary-sum Chern plethysm | Open |
-| <a id="q3580"></a>[Q3580](combinatorics-graph-theory-part-2.md#q3580) | Rigid-graph realizations in even norms | Open |
-| <a id="q3581"></a>[Q3581](combinatorics-graph-theory-part-2.md#q3581) | Euclidean realization counts | Open |
-| <a id="q3582"></a>[Q3582](combinatorics-graph-theory-part-2.md#q3582) | Hamilton–Waterloo decompositions with one six-cycle factor and coprime other length | Open |
-| <a id="q3583"></a>[Q3583](combinatorics-graph-theory-part-2.md#q3583) | Bounded-depth minor extensions of arbitrary matroids | Open |
-| <a id="q3620"></a>[Q3620](combinatorics-graph-theory-part-2.md#q3620) | Parallel-hyperplane mass bisection | Open |
-| <a id="q3621"></a>[Q3621](combinatorics-graph-theory-part-2.md#q3621) | Tverberg–Vrećica common affine transversal | Open |
-| <a id="q3669"></a>[Q3669](combinatorics-graph-theory-part-2.md#q3669) | Double-star exclusions and domatic growth | Open |
-| <a id="q3670"></a>[Q3670](combinatorics-graph-theory-part-2.md#q3670) | Linear domatic growth for unit disk graphs | Open |
-| <a id="q3671"></a>[Q3671](combinatorics-graph-theory-part-2.md#q3671) | Fractional domatic spectrum | Open |
-| <a id="q3672"></a>[Q3672](combinatorics-graph-theory-part-2.md#q3672) | Sharp planar fractional domatic values | Open |
-| <a id="q3673"></a>[Q3673](combinatorics-graph-theory-part-2.md#q3673) | Forbidden subgraphs reducing frugal colouring growth | Open |
+| <a id="q3568"></a>[Q3568](combinatorics-graph-theory-part-3.md#q3568) | Width-two order-polynomial positivity | Open, partial results |
+| <a id="q3569"></a>[Q3569](combinatorics-graph-theory-part-3.md#q3569) | Periodic zero-extension | Solved here: proved |
+| <a id="q3570"></a>[Q3570](combinatorics-graph-theory-part-3.md#q3570) | Context-free Max_U | Open |
+| <a id="q3573"></a>[Q3573](combinatorics-graph-theory-part-3.md#q3573) | Squared-outdegree extremum excluding the regular five-tournament | Open |
+| <a id="q3574"></a>[Q3574](combinatorics-graph-theory-part-3.md#q3574) | Cohen–Macaulay harmonic algebras of hypersimplices | Open |
+| <a id="q3575"></a>[Q3575](combinatorics-graph-theory-part-3.md#q3575) | Degree-one generation for cube-slice harmonic algebras | Open |
+| <a id="q3576"></a>[Q3576](combinatorics-graph-theory-part-3.md#q3576) | Proximity under order, size and vertex-connectivity constraints | Open |
+| <a id="q3577"></a>[Q3577](combinatorics-graph-theory-part-3.md#q3577) | Contiguity of the random regular graph process | Open |
+| <a id="q3578"></a>[Q3578](combinatorics-graph-theory-part-3.md#q3578) | Polynomial clique-degeneracy bounds forbidding broadleaved stars | Open |
+| <a id="q3579"></a>[Q3579](combinatorics-graph-theory-part-3.md#q3579) | A general combinatorial rule for complementary-sum Chern plethysm | Open |
+| <a id="q3580"></a>[Q3580](combinatorics-graph-theory-part-3.md#q3580) | Rigid-graph realizations in even norms | Open |
+| <a id="q3581"></a>[Q3581](combinatorics-graph-theory-part-3.md#q3581) | Euclidean realization counts | Open |
+| <a id="q3582"></a>[Q3582](combinatorics-graph-theory-part-3.md#q3582) | Hamilton–Waterloo decompositions with one six-cycle factor and coprime other length | Open |
+| <a id="q3583"></a>[Q3583](combinatorics-graph-theory-part-3.md#q3583) | Bounded-depth minor extensions of arbitrary matroids | Open |
+| <a id="q3620"></a>[Q3620](combinatorics-graph-theory-part-3.md#q3620) | Parallel-hyperplane mass bisection | Open |
+| <a id="q3621"></a>[Q3621](combinatorics-graph-theory-part-3.md#q3621) | Tverberg–Vrećica common affine transversal | Open |
+| <a id="q3669"></a>[Q3669](combinatorics-graph-theory-part-3.md#q3669) | Double-star exclusions and domatic growth | Open |
+| <a id="q3670"></a>[Q3670](combinatorics-graph-theory-part-3.md#q3670) | Linear domatic growth for unit disk graphs | Open |
+| <a id="q3671"></a>[Q3671](combinatorics-graph-theory-part-3.md#q3671) | Fractional domatic spectrum | Open |
+| <a id="q3672"></a>[Q3672](combinatorics-graph-theory-part-3.md#q3672) | Sharp planar fractional domatic values | Open |
+| <a id="q3673"></a>[Q3673](combinatorics-graph-theory-part-3.md#q3673) | Forbidden subgraphs reducing frugal colouring growth | Open |
 | <a id="q3674"></a>[Q3674](combinatorics-graph-theory-part-3.md#q3674) | Sharp avoiding-colouring exponent | Open |
 | <a id="q3675"></a>[Q3675](combinatorics-graph-theory-part-3.md#q3675) | Maximum degree controls inversion diameter | Open |
 | <a id="q3676"></a>[Q3676](combinatorics-graph-theory-part-3.md#q3676) | Bounded subdivision penalty for inversions | Open |
@@ -541,8 +541,8 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q3681"></a>[Q3681](combinatorics-graph-theory-part-3.md#q3681) | Constant-degree bipartite expanders | Open |
 | <a id="q3682"></a>[Q3682](combinatorics-graph-theory-part-3.md#q3682) | Remoteness under higher edge-connectivity and size constraints | Open |
 | <a id="q3683"></a>[Q3683](combinatorics-graph-theory-part-3.md#q3683) | Remoteness with minimum degree and size prescribed | Open |
-| <a id="q3702"></a>[Q3702](combinatorics-graph-theory-part-3.md#q3702) | Ordinary subsum-denominator log-concavity | Open |
-| <a id="q3703"></a>[Q3703](combinatorics-graph-theory-part-3.md#q3703) | Binary subsum-numerator log-concavity | Open |
+| <a id="q3702"></a>[Q3702](combinatorics-graph-theory-part-3.md#q3702) | Ordinary subsum-denominator log-concavity | Open, partial results |
+| <a id="q3703"></a>[Q3703](combinatorics-graph-theory-part-3.md#q3703) | Binary subsum-numerator log-concavity | Open, partial results |
 | <a id="q3716"></a>[Q3716](combinatorics-graph-theory-part-3.md#q3716) | For all 0≤h,i,j≤D, is (E_h⊗E_i⊗E_j)Λ={0} equivalent to q^h_{ij}=0? | Open |
 | <a id="q3717"></a>[Q3717](combinatorics-graph-theory-part-3.md#q3717) | For every r∈{1,2,3}, are dim(F_rΛ)=dim(E₀^{(r)}Λ)=D+1? | Open |
 | <a id="q3768"></a>[Q3768](combinatorics-graph-theory-part-3.md#q3768) | Full-length Ramsey chains in complete graphs | Open |
@@ -573,7 +573,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q3843"></a>[Q3843](combinatorics-graph-theory-part-3.md#q3843) | Is m_{S_n}(1,3)=F_{3n}/2? | Open |
 | <a id="q3844"></a>[Q3844](combinatorics-graph-theory-part-3.md#q3844) | Is dim R_{B_n}^{(1,2)}=4^n n!? | Open |
 | <a id="q3845"></a>[Q3845](combinatorics-graph-theory-part-3.md#q3845) | Is m_{B_n}(1,3)=F_{3(n+1)}/2? | Open |
-| <a id="q3846"></a>[Q3846](combinatorics-graph-theory-part-3.md#q3846) | Does every finite minor of (T(n,k))\_{n,k≥0} have nonnegative coefficients in a,c,d,e? | Open |
+| <a id="q3846"></a>[Q3846](combinatorics-graph-theory-part-3.md#q3846) | Does every finite minor of (T(n,k))\_{n,k≥0} have nonnegative coefficients in a,c,d,e? | Open, partial results |
 | <a id="q3847"></a>[Q3847](combinatorics-graph-theory-part-3.md#q3847) | If the underlying graph is three-edge-connected, are there at most F_{n+2}+1 paths? | Open |
 | <a id="q3848"></a>[Q3848](combinatorics-graph-theory-part-3.md#q3848) | If the underlying graph is two-vertex-connected, are there at most 3^{n/2}+1 paths? | Open |
 | <a id="q3859"></a>[Q3859](combinatorics-graph-theory-part-3.md#q3859) | If η refines α by splitting its parts, must every α-accepted tableau of weight λ also be η-accepted? | Open |
@@ -581,7 +581,6 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q3899"></a>[Q3899](combinatorics-graph-theory-part-3.md#q3899) | In every simple arrangement of at least three pseudolines colored red and blue, both colors… | Open |
 | <a id="q3900"></a>[Q3900](combinatorics-graph-theory-part-3.md#q3900) | Are there simple arrangements with arbitrarily many pseudolines whose arrangement graph has odd… | Open |
 | <a id="q3901"></a>[Q3901](combinatorics-graph-theory-part-3.md#q3901) | If P_Δ is reflexive, must P_Γ be reflexive for every subcomplex Γ⊆Δ of the same dimension? | Open |
-| <a id="q3902"></a>[Q3902](combinatorics-graph-theory-part-3.md#q3902) | For every reflexive P_Δ or P^Δ, does h\*\_P(t)=Σ\_{i=0}^{⌊m/2⌋}γ\_i t^i(1+t)^{m−2i} hold with all γ\_i≥0? | Open |
 | <a id="q3905"></a>[Q3905](combinatorics-graph-theory-part-3.md#q3905) | Does a simple rotationally symmetric p-Venn diagram exist for every prime p? | Open |
 | <a id="q3906"></a>[Q3906](combinatorics-graph-theory-part-3.md#q3906) | For every integer n≥2, does an n-Venn diagram exist with exactly L_n crossings? | Open |
 | <a id="q3907"></a>[Q3907](combinatorics-graph-theory-part-3.md#q3907) | If every curve is an ordinary Euclidean circle and the arrangement has no digons, must it have… | Open |
@@ -651,7 +650,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q4293"></a>[Q4293](combinatorics-graph-theory-part-3.md#q4293) | Is there a universal C with χ\_ℓ(M₁,M₂)≤χ(M₁,M₂)+C for every pair? In particular, does C=1 work?… | Open |
 | <a id="q4294"></a>[Q4294](combinatorics-graph-theory-part-3.md#q4294) | If both M₁ and M₂ are strongly base-orderable, must χ\_ℓ(M₁,M₂)=χ(M₁,M₂)? | Open |
 | <a id="q4295"></a>[Q4295](combinatorics-graph-theory-part-3.md#q4295) | As a function of positive integers N,k for which admissible partitions of [N]={1,…,N} exist,… | Open |
-| <a id="q4296"></a>[Q4296](combinatorics-graph-theory-part-3.md#q4296) | As a function of positive integers n,k for which admissible partitions of 𝔽₃ⁿ exist, determine… | Open |
+| <a id="q4296"></a>[Q4296](combinatorics-graph-theory-part-3.md#q4296) | As a function of positive integers n,k for which admissible partitions of 𝔽₃ⁿ exist, determine… | Open, partial results |
 | <a id="q4297"></a>[Q4297](combinatorics-graph-theory-part-3.md#q4297) | If \|α\|=1 and α is algebraic but not an algebraic integer, must χ(Γ\_α)≤3? | Open |
 | <a id="q4298"></a>[Q4298](combinatorics-graph-theory-part-3.md#q4298) | For every \|α\|=1, must χ(Γ\_α)≤4? | Open |
 | <a id="q4299"></a>[Q4299](combinatorics-graph-theory-part-3.md#q4299) | For a unit-modulus root α of x⁶−x⁴−x³−x²+1, is χ\_c(Γ\_α)=7/2? | Open |
@@ -674,8 +673,8 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q4328"></a>[Q4328](combinatorics-graph-theory-part-3.md#q4328) | For all finite nonempty posets P,Q, does E(P)≅E(Q) imply P≅Q, where ≅ means order-isomorphism? | Open |
 | <a id="q4329"></a>[Q4329](combinatorics-graph-theory-part-3.md#q4329) | For a=1, winning sets all triangles, and q=⌈√(2n−2)−3/2⌉, are there winning Breaker strategies… | Open |
 | <a id="q4330"></a>[Q4330](combinatorics-graph-theory-part-3.md#q4330) | When the winning sets are all Hamilton cycles, determine the threshold bias q_H(n,a), the least… | Open |
-| <a id="q4331"></a>[Q4331](combinatorics-graph-theory-part-3.md#q4331) | Do both polynomials have ultra-log-concave coefficients for every n≥1, meaning c_i/binom(d,i) is… | Open |
-| <a id="q4332"></a>[Q4332](combinatorics-graph-theory-part-3.md#q4332) | For every l≥0, are the coefficients of both M_l and R_l log-concave, meaning c_i²≥c_{i−1}c_{i+1}? | Open |
+| <a id="q4331"></a>[Q4331](combinatorics-graph-theory-part-3.md#q4331) | Do both polynomials have ultra-log-concave coefficients for every n≥1, meaning c_i/binom(d,i) is… | Open, partial results |
+| <a id="q4332"></a>[Q4332](combinatorics-graph-theory-part-3.md#q4332) | For every l≥0, are the coefficients of both M_l and R_l log-concave, meaning c_i²≥c_{i−1}c_{i+1}? | Open, partial results |
 | <a id="q4333"></a>[Q4333](combinatorics-graph-theory-part-3.md#q4333) | Does every finite square-free word over A have a square-free extension? | Open |
 | <a id="q4348"></a>[Q4348](combinatorics-graph-theory-part-3.md#q4348) | Must G be plain? | Open |
 | <a id="q4363"></a>[Q4363](combinatorics-graph-theory-part-3.md#q4363) | Let I,J be the identity and all-ones matrices of size 40, and C=I_10⊗(J_4−I_4). Does a matrix A∈{0,1}^{40×40} exist with | Open |
@@ -709,7 +708,7 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q4432"></a>[Q4432](combinatorics-graph-theory-part-3.md#q4432) | If G has nullity two and H is arbitrary, does G≡\_{D_3}H imply G≅H? | Open |
 | <a id="q4433"></a>[Q4433](combinatorics-graph-theory-part-3.md#q4433) | Determine inf{c∈ℝ\_{>0}: for every integer ℓ≥1, every ⌈cℓ⌉-connected G admits V(G)=S⊔T with… | Open |
 | <a id="q4434"></a>[Q4434](combinatorics-graph-theory-part-3.md#q4434) | Does some g:ℕ\_{≥1}→ℕ\_{≥1} ensure that every strongly g(k)-connected D admits V(D)=A⊔B with… | Open |
-| <a id="q4443"></a>[Q4443](combinatorics-graph-theory-part-3.md#q4443) | Unimodality of the shuffle eigenvalue polynomials | Open |
+| <a id="q4443"></a>[Q4443](combinatorics-graph-theory-part-3.md#q4443) | Unimodality of the shuffle eigenvalue polynomials | Open, partial results |
 | <a id="q4511"></a>[Q4511](combinatorics-graph-theory-part-3.md#q4511) | For which (δ,k) is MP(n,δ,k)−c_{δ,k}n bounded, and for which is this difference eventually… | Open |
 | <a id="q4512"></a>[Q4512](combinatorics-graph-theory-part-3.md#q4512) | Is MP(n,3,k)≤MP(n,4,k)≤MP(n,5,k) whenever all three are defined? | Open |
 | <a id="q4513"></a>[Q4513](combinatorics-graph-theory-part-3.md#q4513) | Determine an asymptotic formula, for fixed integers d≥1,k≥0, for min_G sp(G,k) over n-vertex… | Open |
@@ -735,10 +734,20 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q4648"></a>[Q4648](combinatorics-graph-theory-part-3.md#q4648) | Removing triangle-freeness | Open |
 | <a id="q4656"></a>[Q4656](combinatorics-graph-theory-part-3.md#q4656) | If a+b is odd, does every x∈X_A contain every word of L_A? | Open |
 | <a id="q4657"></a>[Q4657](combinatorics-graph-theory-part-3.md#q4657) | For all integers 1≤a&lt;b, is p_A(n)=Θ(n^ρ), where ρ=log(a+b)/log((a+b)/2)? | Open |
-| <a id="q4665"></a>[Q4665](combinatorics-graph-theory-part-3.md#q4665) | Must (Σ\_λ c(λ)s_λ)(Σ\_λ d(λ)s_λ)−(Σ\_λ a(λ)s_λ)(Σ\_λ b(λ)s_λ), with all sums over P^ℓ, have… | Open |
+| <a id="q4665"></a>[Q4665](combinatorics-graph-theory-part-3.md#q4665) | Must (Σ\_λ c(λ)s_λ)(Σ\_λ d(λ)s_λ)−(Σ\_λ a(λ)s_λ)(Σ\_λ b(λ)s_λ), with all sums over P^ℓ, have… | Open, partial results |
 | <a id="q4667"></a>[Q4667](combinatorics-graph-theory-part-3.md#q4667) | For every integer r≥1, is F_{r,ω} independent of ω, as a formal series in T and p with… | Open |
 | <a id="q4676"></a>[Q4676](combinatorics-graph-theory-part-3.md#q4676) | Is there no nonplanar such G with n≥17, c(G)>binom(n−1,2), and ceil(√n)≤Δ(G)≤(n+1)/2? | Open |
 | <a id="q4678"></a>[Q4678](combinatorics-graph-theory-part-3.md#q4678) | Maximum 2-scattered subspaces in dimension four | Open |
 | <a id="q4682"></a>[Q4682](combinatorics-graph-theory-part-3.md#q4682) | Is the number of intervals [u,v] in P_{m,n}, including singleton intervals, always… | Open |
 | <a id="q4694"></a>[Q4694](combinatorics-graph-theory-part-3.md#q4694) | For infinitely many integers n≥4, does an (n−2,2)-factorisation exist that is not a… | Open |
 | <a id="q4695"></a>[Q4695](combinatorics-graph-theory-part-3.md#q4695) | Does some integer n≥4 admit ∅≠D⊊Mₙ such that every triple of pairwise disjoint edges belongs to… | Open |
+| <a id="q4710"></a>[Q4710](combinatorics-graph-theory-part-3.md#q4710) | Is K(Γ(r,n))≅(Z/nZ)^[r(n−2)−2]⊕Z/(2rn)Z for every r,n≥3? | Open |
+| <a id="q4739"></a>[Q4739](combinatorics-graph-theory-part-3.md#q4739) | Characterize exactly the pairs of integers r,c≥0 for which a nonempty finite simple undirected… | Open |
+| <a id="q4758"></a>[Q4758](combinatorics-graph-theory-part-3.md#q4758) | For every integer n≥0, are the numbers of trees in T_n avoiding A and avoiding B equal? | Open |
+| <a id="q4764"></a>[Q4764](combinatorics-graph-theory-part-3.md#q4764) | For every triangular λ, is A_λ a nonnegative-integer linear combination of two-variable Schur… | Open |
+| <a id="q4766"></a>[Q4766](combinatorics-graph-theory-part-3.md#q4766) | Characterize the partitions μ for which Σ\_{λ≤Iμ}p_λ has nonnegative coefficients in the Schur basis. | Open |
+| <a id="q4767"></a>[Q4767](combinatorics-graph-theory-part-3.md#q4767) | Can every such graph also arise from a finite extremal semidistributive lattice? | Open |
+| <a id="q4769"></a>[Q4769](combinatorics-graph-theory-part-3.md#q4769) | For all such S₁,…,Sₘ and positive integers y₁,…,yₘ, does the Ehrhart polynomial… | Open |
+| <a id="q4774"></a>[Q4774](combinatorics-graph-theory-part-4.md#q4774) | For each even d, are there finitely many equivalence classes of thin Δ with lattice width≥2? | Open |
+| <a id="q4775"></a>[Q4775](combinatorics-graph-theory-part-4.md#q4775) | Does every odd-dimensional thin Δ have lattice width1? | Open |
+| <a id="q4799"></a>[Q4799](combinatorics-graph-theory-part-4.md#q4799) | Is a_f(G)−a\*\_f(G) unbounded as G and f vary? | Open |

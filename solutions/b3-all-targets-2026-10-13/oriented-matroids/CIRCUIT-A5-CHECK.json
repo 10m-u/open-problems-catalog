@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "N_range": [
+    4,
+    20
+  ],
+  "all_N_basis_controls": [
+    {
+      "N": 4,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 2,
+      "signed_circuit_span_dimension": 4,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": 24
+    },
+    {
+      "N": 5,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 3,
+      "signed_circuit_span_dimension": 5,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": 150
+    },
+    {
+      "N": 6,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 4,
+      "signed_circuit_span_dimension": 6,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": 540
+    },
+    {
+      "N": 7,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 5,
+      "signed_circuit_span_dimension": 7,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 8,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 6,
+      "signed_circuit_span_dimension": 8,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 9,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 7,
+      "signed_circuit_span_dimension": 9,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 10,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 8,
+      "signed_circuit_span_dimension": 10,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 11,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 9,
+      "signed_circuit_span_dimension": 11,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 12,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 10,
+      "signed_circuit_span_dimension": 12,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 13,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 11,
+      "signed_circuit_span_dimension": 13,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 14,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 12,
+      "signed_circuit_span_dimension": 14,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 15,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 13,
+      "signed_circuit_span_dimension": 15,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 16,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 14,
+      "signed_circuit_span_dimension": 16,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 17,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 15,
+      "signed_circuit_span_dimension": 17,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 18,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 16,
+      "signed_circuit_span_dimension": 18,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 19,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 17,
+      "signed_circuit_span_dimension": 19,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    },
+    {
+      "N": 20,
+      "matrix_rank": 2,
+      "true_kernel_dimension": 18,
+      "signed_circuit_span_dimension": 20,
+      "unimodular_circuit_basis_determinant": 1,
+      "circuit_elimination_controls": null
+    }
+  ],
+  "N4_actual_polytope": "unimodular four-dimensional crosspolytope",
+  "N4_h_star": [
+    1,
+    4,
+    6,
+    4,
+    1
+  ],
+  "scope": "All-size dimension/lattice obstruction to flow-kernel identification; full LC unresolved.",
+  "checker_sha256": "9a660a008c86400310994f9f0f13bc5428072712c3fc28450c5d790729bc07f6"
+}

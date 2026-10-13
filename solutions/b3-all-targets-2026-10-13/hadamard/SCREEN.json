@@ -1,0 +1,14 @@
+{
+  "status": "BOUNDED_SCREEN_NO_COUNTEREXAMPLE",
+  "a_trials": 1800,
+  "numerically_accepted_all_tail_inputs": 387,
+  "degrees": {
+    "5": 130,
+    "7": 119,
+    "6": 138
+  },
+  "actual_edrei_input_tests": 30960,
+  "counterexample": null,
+  "checker_sha256": "604b6727476f2a8cdb29b21a2575c7f51febcb9bba97274202eb2f3bfb291014",
+  "scope": "Floating screening; any promoted counterexample passes exact all-tail/output root counts. No proof follows from a negative screen."
+}

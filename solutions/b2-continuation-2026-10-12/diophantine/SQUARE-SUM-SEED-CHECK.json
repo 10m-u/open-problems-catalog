@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "seed_A": [
+    324,
+    54756,
+    119716,
+    264196
+  ],
+  "seed_B": [
+    0,
+    79200,
+    227205,
+    1258560
+  ],
+  "all_possible_new_A": [
+    324,
+    54756,
+    119716,
+    264196
+  ],
+  "all_possible_new_B": [
+    0,
+    79200,
+    227205,
+    1258560
+  ],
+  "scope": "Complete unbounded one-element extensions of this fixed four-by-four seed"
+}

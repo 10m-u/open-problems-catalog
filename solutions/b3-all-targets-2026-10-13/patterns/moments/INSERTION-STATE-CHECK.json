@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "k_range": [
+    4,
+    6
+  ],
+  "forbidden_patterns": 864,
+  "literal_parent_transition_controls": 18048,
+  "actual_1324_witness": {
+    "beta": [
+      1,
+      3,
+      2,
+      4
+    ],
+    "first_parent": [
+      1,
+      2
+    ],
+    "first_children": [
+      [
+        3,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "first_labels": {
+      "4": 2,
+      "3": 1
+    },
+    "second_parent": [
+      2,
+      1
+    ],
+    "second_children": [
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        3
+      ]
+    ],
+    "second_labels": {
+      "4": 3
+    }
+  },
+  "scope": "Non-lumpability of a prescribed active-site label; not a moment-property counterexample.",
+  "checker_sha256": "96da0b9062590f65fd0c1637b53de2b78ac74547c170061314c2ff989d685627"
+}

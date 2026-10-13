@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "n_m_max": 30,
+  "polynomials_checked": 870,
+  "scope": "Bounded exact factorization, weaker than the primary published bound 500"
+}

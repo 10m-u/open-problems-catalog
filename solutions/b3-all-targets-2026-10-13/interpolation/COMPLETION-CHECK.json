@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "all_order_corner_determinants_checked": 638,
+  "corner_degrees": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "zero_leading_endpoint_expansions": 66,
+  "append_control_hurwitz_delta2": "-8275/1152",
+  "actual_toeplitz_minor": -1264,
+  "strict_LC_control_hurwitz": [
+    11,
+    2,
+    -216
+  ],
+  "numeric_stability_negative_coefficient_control": "4x^2-8x+6",
+  "uniform_LC_shift_law_exterior_signs": [
+    "36579375/64",
+    "-17680285/64"
+  ],
+  "exact_disk_and_rouche_controls": true,
+  "files_sha256": {
+    "ATTEMPTS.md": "0e3e7b044c454c0db6b4adb4303acd3d38dd09b564f15ff9f83a3e9dc12e75fb",
+    "HURWITZ-CORNERS.md": "695fa54542ea16719e8f82746ade57bf6660499b89da039a43bc487c31546fef",
+    "check_completions.py": "8ce765530de8d6e90c0bee36a28d5df26fd64681cccad9bc6867407364251cf3"
+  },
+  "scope": "Exact finite controls support written proof routes and obstructions. Only the separate corner theorem is asserted for all n/r; the three full targets remain unresolved."
+}

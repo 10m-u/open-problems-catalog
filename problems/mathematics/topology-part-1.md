@@ -2614,6 +2614,10 @@ For every alternating knot K, are all c(a)>0, does A=conv(A)∩Z², and does log
 
 **Literature check.** Status for question 2731, checked 7 October 2026: Verified for alternating knots through 19 crossings in the May 2026 paper; no general resolution located.
 
+**Results.**
+
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 **Further links.** [1](https://arxiv.org/abs/2605.30754v1)
 
 
@@ -3719,7 +3723,7 @@ For arbitrary even-rank E, determine H\*(F_p(E)/S_p) as an H\*(B)⊗H\*(BS_p)-mo
 
 ## Q3626. Alexander-refinement support exchange
 
-**Status:** Open · **Kind:** conjecture (Conjecture 1.6) · **Collection** 37
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 1.6) · **Collection** 37
 
 For α,β∈J and α\_i>β\_i, must some j with α\_j<β\_j satisfy α−e_i+e_j,β+e_i−e_j∈J, where e_i are standard basis vectors?
 
@@ -3729,6 +3733,12 @@ For α,β∈J and α\_i>β\_i, must some j with α\_j<β\_j satisfy α−e_i+e_j
 
 **Literature check.** Status: August 2026 v1 is current; no resolution located.
 
+**Results.**
+
+- **Partial result**: Arbitrary oriented connected sums of canonical positive directed-cycle Tait diagrams and their mirrors have M-convex Laurent support and satisfy every root-direction coefficient log-concavity inequality. The proof handles arbitrary sizes, numbers of factors, missing midpoints and cross-group directions. Mixed-sign prime links and both full catalog conjectures remain unresolved. Source multiplicativity and the broader known unmixed results are explicitly attributed. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/knots/CYCLE-PRODUCTS.md).
+- **Partial result** (B3-ALL-TARGETS-CYCLE-PRODUCTS: Boninger coefficient inequalities for arbitrary cycle connected sums): Arbitrary oriented connected sums of canonical positive directed-cycle Tait diagrams and their mirrors have M-convex Laurent support and satisfy every root-direction coefficient log-concavity inequality. The proof handles arbitrary sizes, numbers of factors, missing midpoints and cross-group directions. Remaining/limits: Mixed-sign prime links and both full catalog conjectures remain unresolved. Source multiplicativity and the broader known unmixed results are explicitly attributed. [Report](../../solutions/b3-all-targets-2026-10-13/knots/CYCLE-PRODUCTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
+
 **Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger)
 
 
@@ -3736,7 +3746,7 @@ For α,β∈J and α\_i>β\_i, must some j with α\_j<β\_j satisfy α−e_i+e_j
 
 ## Q3627. Alexander-refinement coefficient log-concavity
 
-**Status:** Open · **Kind:** conjecture (Conjecture 1.7) · **Collection** 37
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 1.7) · **Collection** 37
 
 Must c_α²≥c_(α+e_i−e_j)c_(α−e_i+e_j) for every α∈Z^4 and i,j∈{1,2,3,4}?
 
@@ -3745,6 +3755,12 @@ Must c_α²≥c_(α+e_i−e_j)c_(α−e_i+e_j) for every α∈Z^4 and i,j∈{1,2
 **Source.** Joe Boninger. *An Alexander Polynomial Refinement for Alternating Links, with Trapezoidal Properties*. 2026. [primary source](https://arxiv.org/pdf/2608.28484v1) Location: Conjecture 1.7, p.4.
 
 **Literature check.** Status: August 2026 v1 is current; no resolution located.
+
+**Results.**
+
+- **Partial result**: Arbitrary oriented connected sums of canonical positive directed-cycle Tait diagrams and their mirrors have M-convex Laurent support and satisfy every root-direction coefficient log-concavity inequality. The proof handles arbitrary sizes, numbers of factors, missing midpoints and cross-group directions. Mixed-sign prime links and both full catalog conjectures remain unresolved. Source multiplicativity and the broader known unmixed results are explicitly attributed. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/knots/CYCLE-PRODUCTS.md).
+- **Partial result** (B3-ALL-TARGETS-CYCLE-PRODUCTS: Boninger coefficient inequalities for arbitrary cycle connected sums): Arbitrary oriented connected sums of canonical positive directed-cycle Tait diagrams and their mirrors have M-convex Laurent support and satisfy every root-direction coefficient log-concavity inequality. The proof handles arbitrary sizes, numbers of factors, missing midpoints and cross-group directions. Remaining/limits: Mixed-sign prime links and both full catalog conjectures remain unresolved. Source multiplicativity and the broader known unmixed results are explicitly attributed. [Report](../../solutions/b3-all-targets-2026-10-13/knots/CYCLE-PRODUCTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://academicworks.cuny.edu/gc_etds/4803/) · [2](https://sites.google.com/view/joeboninger)
 
@@ -4427,55 +4443,4 @@ What is the smallest crossing number among nontrivial 3-knots, meaning those not
 **Source.** Román Aranda, Sarah Blackwell, Geunyoung Kim, Patrick Naylor and Puttipong Pongtanapaisan. *Bridge position of 3-manifolds embedded in the 5-sphere*. 2026. [primary source](https://arxiv.org/abs/2604.12182) Location: Question 5.4, p.22; paper-origin.
 
 **Literature check.** Status checked 10 October 2026: no resolution found. The source proves that crossingless diagrams represent unknotted embeddings.
-
-
-<a id="q4062"></a>
-
-## Q4062. Is b_i(φ)=0 for every i≠n and every φ, with b_n extending to a finite seminorm on H¹(M;R), so…
-
-**Status:** Open · **Kind:** conjecture (Conjecture 7.9) · **Collection** 41
-
-Is b_i(φ)=0 for every i≠n and every φ, with b_n extending to a finite seminorm on H¹(M;R), so χ⁽²⁾(M̃;φ)=Σ\_i(−1)^i b_i(φ)=(−1)^n b_n(φ)? A seminorm is nonnegative, absolutely homogeneous and subadditive.
-
-**Context.** Let M be a closed connected aspherical (2n+1)-manifold, n≥0, G=π₁(M), and M̃ its universal cover. For φ:G→Z, set Cφ=C_\*(M̃;Z)⊗Z Z[t,t⁻¹], with diagonal action g(c⊗p)=gc⊗t^{φ(g)}p. Write b_i(φ)=dim_{N(G)}H_i(N(G)⊗\_{ZG}Cφ), using group von Neumann algebra N(G) and its von Neumann dimension.
-
-**Source.** Jacopo G. Chen. *Computing the twisted L²-Euler characteristic*. 2025. [primary source](https://arxiv.org/abs/2310.07024v3) Location: Conjecture 7.9, p.41; reaffirmed as Conjecture 1.2, p.1, On a twisted Singer conjecture (2026).
-
-**Literature check.** Status checked 10 October 2026: no general resolution found; Chen proves the statement for closed congruence arithmetic hyperbolic manifolds of simplest type. The algebraic seminorm theorem assumes Atiyah’s conjecture.
-
-**Further links.** [1](https://arxiv.org/abs/2607.25615v1)
-
-
-<a id="q4065"></a>
-
-## Q4065. Characterize the ideal points x for which A extends tautologically: there exist g,h∈π₁(M) such…
-
-**Status:** Open · **Kind:** open problem (Question 3.4.1) · **Collection** 41
-
-Characterize the ideal points x for which A extends tautologically: there exist g,h∈π₁(M) such that span_{O_x}{I,ρ(g),ρ(h),ρ(gh)} is an Azumaya O_x-algebra with generic fiber A, meaning rank-four free with central-simple residue algebra.
-
-**Context.** Let M be a complete oriented finite-volume one-cusped hyperbolic 3-manifold. Let C be a canonical SL₂(ℂ)-character norm curve containing a lifted holonomy character, defined over its minimal number field k⊂ℂ. Let C̃ be its smooth projective model, K=k(C) its arithmetic function field, and ρ:π₁(M)→SL₂(F) the generic tautological representation over a representation-curve function field F extending K. Put A=span_Kρ(π₁M). An ideal point x lies over the projective boundary of C; O_x is its local ring.
-
-**Source.** Yi Wang. *Punctured JSJ tori and tautological extensions of Azumaya algebras*. University of Pennsylvania, 2024. Advisor(s): Ted Chinburg. [primary source](https://repository.upenn.edu/bitstreams/46d63ed3-11d0-4917-80d6-3f03fba8c2b6/download) Location: Question 3.4.1, p.28; paper-origin 2023, retained in AGT 26 (2026), Question 2.11, p.2055.
-
-**Literature check.** Status checked 10 October 2026: no complete characterization found. Later twice-punctured-torus detection supplies particular cases.
-
-**Further links.** [1](https://doi.org/10.2140/agt.2026.26.2049)
-
-
-<a id="q4072"></a>
-
-## Q4072. If the respective negative and positive components of two bi-contact structures are isotopic,…
-
-**Status:** Open · **Kind:** open problem · **Collection** 41
-
-If the respective negative and positive components of two bi-contact structures are isotopic, must the pairs be bi-contact homotopic?
-
-**Context.** On a closed connected oriented smooth three-manifold M, a bi-contact structure is an everywhere-transverse pair ξ₋=kerα₋, ξ₊=kerα₊ of C¹ plane fields, where α₋∧dα₋<0 and α₊∧dα₊>0. Two contact structures are isotopic if an ambient isotopy carries one to the other; bi-contact homotopy is a continuous path of such transverse pairs. A contact structure is overtwisted if an embedded disk is tangent to its planes along its boundary, and tight otherwise. Degree/advisor verification: https://math.gatech.edu/graduate-programs/dissertations https://etnyre.math.gatech.edu/professionalstuff/gradstudents.html
-
-**Source.** Surena Hozoori. *Contact Geometric Theory of Anosov Flows in Dimension Three and Related Topics*. Georgia Institute of Technology, 2022. Advisor(s): John Etnyre. [primary source](https://etnyre.math.gatech.edu/professionalstuff/HozooriThesis.pdf) Location: Questions2.5.4/2.5.6, p.47.
-
-**Literature check.** Status: Hozoori’s earlier paper-origin questions are retained in his dissertation and in the final 2024 article, Questions7.4/7.6, p.29. No matching resolution found, 10October2026. https://arxiv.org/abs/2009.02768v6
-
-**Further links.** [1](https://math.gatech.edu/graduate-programs/dissertations) · [2](https://etnyre.math.gatech.edu/professionalstuff/gradstudents.html) · [3](https://arxiv.org/abs/2009.02768v6)
 

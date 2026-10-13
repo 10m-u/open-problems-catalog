@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-12",
+  "review_policy": "internal mathematical review; no novelty claim",
+  "records": [
+    {
+      "id": "B14-Q3818",
+      "title": "Exponential improvement in the local-optimum count",
+      "status": "proved",
+      "relationship": "exact-catalog-question-proved",
+      "targets": [
+        {
+          "q": 3818,
+          "stable_statement_id": "1ab793013b1b4b6d4773"
+        }
+      ],
+      "ledger_topic": "b14-local-q3818",
+      "exact_question_closed": true,
+      "statement": "For independent uniform[0,1] costs on K_n, E[M_n] = O((6/7)^n sqrt(n!)), where undirected tours are identified up to rotation and reversal.",
+      "remaining": "Originality and external peer review are not established. No tour-quality, basin-size, descent-time, or efficient exact-solving conclusion follows.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks"
+      ],
+      "proof_location": "solutions/b14-first-round-2026-10-12/local-optima/RESULT.md"
+    },
+    {
+      "id": "B14-P1-BASELINE",
+      "title": "Exact forced-edge 1-tree certificates",
+      "status": "proved-and-implemented-baseline",
+      "relationship": "established-method-reproduced",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "Exact forced-edge rooted 1-tree lower bounds justify strict deletion L_e > U. An integer-arithmetic implementation and independent Kruskal checker agree on 147 packets; a separate exhaustive audit verifies 1,280 forced bounds.",
+      "remaining": "Known sensitivity mathematics; no novelty claim. The 48-instance metric experiment has sizes 8, 10, 12; no scalable solver benchmark.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks",
+        "reproducible-bounded-experiment"
+      ],
+      "proof_location": "solutions/b14-first-round-2026-10-12/elimination/RESULT.md"
+    },
+    {
+      "id": "B14-P1-TREE",
+      "title": "Complete residual graph on every tree metric",
+      "status": "proved",
+      "relationship": "obstruction-to-universal-residual-width-bound",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "For a nonnegative weighted tree on all n tour vertices, every metric edge belongs to some optimum of cost twice the total tree weight. Any elimination preserving all optimal tours must retain K_n, of treewidth n-1.",
+      "remaining": "Preserving one selected optimum and using the sparse generating tree remain possible. No general structural guarantee follows for other metric families.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review"
+      ],
+      "proof_location": "solutions/b14-first-round-2026-10-12/elimination/RESULT.md"
+    },
+    {
+      "id": "B14-P1-PETERSEN",
+      "title": "Complete residual density with a positive LP gap",
+      "status": "proved-by-finite-certificate",
+      "relationship": "finite-structural-obstruction",
+      "targets": [],
+      "exact_question_closed": false,
+      "statement": "The Petersen (1,2)-metric has optimum 11 and subtour-LP value 10; all 45 metric edges occur in optimal tours, so all-optima preservation retains K_10.",
+      "remaining": "Finite example with explicit tour witnesses and every proper cut checked; it supplies no asymptotic gap theorem.",
+      "evidence_labels": [
+        "local-written-proof",
+        "independent-internal-review",
+        "exact-finite-checks",
+        "exhaustive-tour-enumeration",
+        "all-cut-check"
+      ],
+      "proof_location": "solutions/b14-first-round-2026-10-12/elimination/RESULT.md"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "exhaustive_positive_integer_instances": 13104,
+  "leaves_per_side_checked": [
+    1,
+    2,
+    3
+  ],
+  "leaf_weights": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "bridge_weights": [
+    1,
+    2,
+    3
+  ],
+  "all_ties_use_vertex_order": true,
+  "maximum_crossings_in_exhaustive_small_set": 4,
+  "checks": [
+    "exact NN tree-cut cost identity",
+    "LC <= maximum_leaf_weight + 2L",
+    "occupied-bin deterministic lower bound"
+  ],
+  "occupied_bin_cases": [
+    {
+      "bins_each_side": 9,
+      "T": "2",
+      "bridge": "1/2",
+      "bridge_crossings": 4,
+      "weighted_charge": "2",
+      "proved_lower_bound": "1/3"
+    },
+    {
+      "bins_each_side": 9,
+      "T": "2",
+      "bridge": "3/4",
+      "bridge_crossings": 4,
+      "weighted_charge": "3",
+      "proved_lower_bound": "1/3"
+    },
+    {
+      "bins_each_side": 9,
+      "T": "2",
+      "bridge": "1",
+      "bridge_crossings": 4,
+      "weighted_charge": "4",
+      "proved_lower_bound": "1/3"
+    },
+    {
+      "bins_each_side": 17,
+      "T": "4",
+      "bridge": "1/2",
+      "bridge_crossings": 8,
+      "weighted_charge": "4",
+      "proved_lower_bound": "1"
+    },
+    {
+      "bins_each_side": 17,
+      "T": "4",
+      "bridge": "3/4",
+      "bridge_crossings": 6,
+      "weighted_charge": "9/2",
+      "proved_lower_bound": "1"
+    },
+    {
+      "bins_each_side": 17,
+      "T": "4",
+      "bridge": "1",
+      "bridge_crossings": 4,
+      "weighted_charge": "4",
+      "proved_lower_bound": "1"
+    },
+    {
+      "bins_each_side": 33,
+      "T": "8",
+      "bridge": "1/2",
+      "bridge_crossings": 14,
+      "weighted_charge": "7",
+      "proved_lower_bound": "7/3"
+    },
+    {
+      "bins_each_side": 33,
+      "T": "8",
+      "bridge": "3/4",
+      "bridge_crossings": 10,
+      "weighted_charge": "15/2",
+      "proved_lower_bound": "7/3"
+    },
+    {
+      "bins_each_side": 33,
+      "T": "8",
+      "bridge": "1",
+      "bridge_crossings": 8,
+      "weighted_charge": "8",
+      "proved_lower_bound": "7/3"
+    },
+    {
+      "bins_each_side": 65,
+      "T": "16",
+      "bridge": "1/2",
+      "bridge_crossings": 28,
+      "weighted_charge": "14",
+      "proved_lower_bound": "5"
+    },
+    {
+      "bins_each_side": 65,
+      "T": "16",
+      "bridge": "3/4",
+      "bridge_crossings": 20,
+      "weighted_charge": "15",
+      "proved_lower_bound": "5"
+    },
+    {
+      "bins_each_side": 65,
+      "T": "16",
+      "bridge": "1",
+      "bridge_crossings": 16,
+      "weighted_charge": "16",
+      "proved_lower_bound": "5"
+    }
+  ],
+  "asymptotic_probability_claim": "proved in accompanying note; no simulation"
+}

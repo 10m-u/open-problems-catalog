@@ -1,6 +1,6 @@
 # Functional Analysis & Operator Theory
 
-298 problems: 296 open, 1 open, partial results, 1 solved here: proved.
+317 problems: 315 open, 1 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -306,3 +306,22 @@ Parts: [1](functional-analysis-operator-theory-part-1.md) · [2](functional-anal
 | <a id="q4688"></a>[Q4688](functional-analysis-operator-theory-part-2.md#q4688) | Do some X and M∈SI₃(L(X)) satisfy I(M)³⊄M? | Open |
 | <a id="q4689"></a>[Q4689](functional-analysis-operator-theory-part-2.md#q4689) | For every n≥1 and 1≤p₁<⋯&lt;pₙ₊₁≤∞, put X=⊕ⱼ₌₁ⁿ⁺¹ℓ^{pⱼ} with max norm, interpreting ℓ^∞ as c₀. Does… | Open |
 | <a id="q4691"></a>[Q4691](functional-analysis-operator-theory-part-2.md#q4691) | Must there exist a Hilbert space H over the same field and an injective bounded linear… | Open |
+| <a id="q4709"></a>[Q4709](functional-analysis-operator-theory-part-2.md#q4709) | Determine the smallest N for which nonisomorphic G,H admit such a quantum isomorphism. | Open |
+| <a id="q4726"></a>[Q4726](functional-analysis-operator-theory-part-2.md#q4726) | Characterize the discrete amenable groups Γ for which JΓ,X∩C[Γ] is norm-dense in JΓ,X for every… | Open |
+| <a id="q4727"></a>[Q4727](functional-analysis-operator-theory-part-2.md#q4727) | Is every finite-index subfactor of M_U isomorphic to a tracial matrix ultraproduct? | Open |
+| <a id="q4728"></a>[Q4728](functional-analysis-operator-theory-part-2.md#q4728) | For every II₁ factor N and index-two subfactor N₀⊆N^U, are there index-two subfactors N_n⊆N with… | Open |
+| <a id="q4729"></a>[Q4729](functional-analysis-operator-theory-part-2.md#q4729) | For every II₁ factor M, does M₂(ℂ)⊗̄M embed into M^U? | Open |
+| <a id="q4730"></a>[Q4730](functional-analysis-operator-theory-part-2.md#q4730) | If A is separable and either (i) simple with stable rank one or (ii) of real rank zero, must… | Open |
+| <a id="q4734"></a>[Q4734](functional-analysis-operator-theory-part-2.md#q4734) | For every short exact sequence 0→I→E→D→0 of C\*-algebras, is dimnuc(E)=max{dimnuc(I),dimnuc(D)}?… | Open |
+| <a id="q4735"></a>[Q4735](functional-analysis-operator-theory-part-2.md#q4735) | Is there ε>0 such that, for every complex Hilbert space H and C\*-subalgebras A,B⊂B(H), if A is… | Open |
+| <a id="q4740"></a>[Q4740](functional-analysis-operator-theory-part-2.md#q4740) | Must a_n=‖(1−1⊗P_{nλ})P_{λ,nλ}‖ and b_n=‖f_{λ,nλ}((1−P_λ)⊗P_{nλ})‖ both tend to zero, and, when… | Open |
+| <a id="q4748"></a>[Q4748](functional-analysis-operator-theory-part-2.md#q4748) | If lim_{n→∞}Θ\_X(n)>0, must there exist C≥1 such that, for every m≥1, some real-linear T_m:ℝ^m→X… | Open |
+| <a id="q4749"></a>[Q4749](functional-analysis-operator-theory-part-2.md#q4749) | For each 1&lt;p<∞, determine the asymptotic order of Θ\_{S_p}(n) as n→∞, up to positive factors… | Open |
+| <a id="q4755"></a>[Q4755](functional-analysis-operator-theory-part-2.md#q4755) | Determine ϑ\_min(M_A,M_B,H)=inf_{‖Ψ‖=1}ϑ(Ψ) for these factors. | Open |
+| <a id="q4761"></a>[Q4761](functional-analysis-operator-theory-part-2.md#q4761) | Does there exist a separable real Banach lattice X for which X↓0 is non-Borel in X^ℕ with the… | Open |
+| <a id="q4763"></a>[Q4763](functional-analysis-operator-theory-part-2.md#q4763) | Determine both R_C(n,k,p) and R_C\*(n,k,p) for all integers n,k≥1 with (n,k)≠(1,1), and all 1&lt;p<∞… | Open |
+| <a id="q4779"></a>[Q4779](functional-analysis-operator-theory-part-2.md#q4779) | Is (A_v+K)∩(A_a+K) strictly larger than A_w+K? | Open |
+| <a id="q4780"></a>[Q4780](functional-analysis-operator-theory-part-2.md#q4780) | Do nonzero S,T∈A_n exist with ST=0? | Open |
+| <a id="q4785"></a>[Q4785](functional-analysis-operator-theory-part-2.md#q4785) | For every d≥3 and n≥1, is | Open |
+| <a id="q4795"></a>[Q4795](functional-analysis-operator-theory-part-2.md#q4795) | Biexactness versus strong (AO). Let M be a nonamenable II₁ factor with separable predual,… | Open |
+| <a id="q4798"></a>[Q4798](functional-analysis-operator-theory-part-2.md#q4798) | Fourier approximation above L² for higher-rank lattices. For each integer n≥3, set Γ=SL_n(Z),… | Open |

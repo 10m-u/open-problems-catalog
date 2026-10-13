@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "rook_enumeration": "row/column subsets with unique decreasing matching",
+  "source_convention_bases": 662,
+  "source_weighted_coefficients": [
+    1,
+    36,
+    225,
+    400,
+    0,
+    0,
+    0
+  ],
+  "dual_weighted_coefficients": [
+    0,
+    0,
+    0,
+    400,
+    225,
+    36,
+    1
+  ],
+  "ordinary_rook_coefficients": [
+    1,
+    27,
+    162,
+    282,
+    162,
+    27,
+    1
+  ],
+  "source_and_dual_cubic_discriminant": -602100,
+  "rank_two_3x3_board_controls": 448,
+  "degree_five_exact_order_witnesses": 14,
+  "checker_sha256": "87d9fc7af42e47ce23dd53c03e9d1656815a3899093b78af176cc2dfa8bdd05b",
+  "scope": "Exact independent controls; all-size rank-two and degree-five exhaustion reviewed in companion notes."
+}

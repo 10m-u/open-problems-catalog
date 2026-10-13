@@ -1,0 +1,821 @@
+{
+  "status": "passed",
+  "random_seed": 14549,
+  "n_range": [
+    3,
+    7
+  ],
+  "snapshots_checked": 100,
+  "forced_bounds_checked_against_exhaustive_trees": 1280,
+  "standalone_checker_calls": 100,
+  "snapshots_with_negative_transformed_edges": 69,
+  "snapshots_with_tied_transformed_weights": 69,
+  "checks": [
+    "all forced minimum 1-tree values agree with exhaustive Pruefer trees",
+    "all forced bounds are at most minimum cost of a forced-edge tour",
+    "strict deletion preserves every optimum tour",
+    "independent certificate checker accepts recomputed exact certificates"
+  ],
+  "cases": [
+    {
+      "n": 3,
+      "case": 0,
+      "root": 0,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 0,
+      "root": 1,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 0,
+      "root": 2,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 1,
+      "root": 0,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 1,
+      "root": 1,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 1,
+      "root": 2,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 2,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 2,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 2,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 3,
+      "root": 0,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 3,
+      "root": 1,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 3,
+      "case": 3,
+      "root": 2,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 0,
+      "root": 0,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 0,
+      "root": 1,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 0,
+      "root": 2,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 0,
+      "root": 3,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 1,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 4,
+      "case": 1,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 1,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 4,
+      "case": 1,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 2,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 2,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 2,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 2,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 3,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 3,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 3,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 4,
+      "case": 3,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 0,
+      "root": 0,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 0,
+      "root": 1,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 0,
+      "root": 2,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 0,
+      "root": 3,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 0,
+      "root": 4,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 1,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 2
+    },
+    {
+      "n": 5,
+      "case": 1,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 5,
+      "case": 1,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 5,
+      "case": 1,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 5,
+      "case": 1,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 5,
+      "case": 2,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 2,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 2,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 2,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 2,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 3,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 3,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 3,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 3,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 5,
+      "case": 3,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 0,
+      "root": 0,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 0,
+      "root": 1,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 0,
+      "root": 2,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 0,
+      "root": 3,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 0,
+      "root": 4,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 0,
+      "root": 5,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 1,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 1,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 1,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 2
+    },
+    {
+      "n": 6,
+      "case": 1,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 6,
+      "case": 1,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 6,
+      "case": 1,
+      "root": 5,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 2,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 2,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 2,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 2,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 2,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 2,
+      "root": 5,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 3,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 3,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 3,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 3,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 3,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 6,
+      "case": 3,
+      "root": 5,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 0,
+      "root": 0,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 0,
+      "root": 1,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 0,
+      "root": 2,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 0,
+      "root": 3,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 0,
+      "root": 4,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 0,
+      "root": 5,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 0,
+      "root": 6,
+      "negative_transformed_edges": false,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 1,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 7,
+      "case": 1,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 7,
+      "case": 1,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 7,
+      "case": 1,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 7,
+      "case": 1,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 1,
+      "root": 5,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 1
+    },
+    {
+      "n": 7,
+      "case": 1,
+      "root": 6,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 2,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 2,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 2,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 2,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 2,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 2,
+      "root": 5,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 2,
+      "root": 6,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": false,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 3,
+      "root": 0,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 3,
+      "root": 1,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 3,
+      "root": 2,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 3,
+      "root": 3,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 3,
+      "root": 4,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 3,
+      "root": 5,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    },
+    {
+      "n": 7,
+      "case": 3,
+      "root": 6,
+      "negative_transformed_edges": true,
+      "tied_transformed_edges": true,
+      "deleted_edges": 0
+    }
+  ]
+}

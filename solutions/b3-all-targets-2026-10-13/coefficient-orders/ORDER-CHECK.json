@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "degree_five_lemma_controls": 98280,
+  "exact_catalog_witnesses": 50,
+  "rounding_neighbors": 2,
+  "checker_sha256": "91840c5dee4fec71bccd088e747165b5c2febe5cc0bc2b0da7718f265fa19777",
+  "scope": "Exact controls; all-integer exhaustion is the analytic proof in DEGREE-FIVE.md."
+}

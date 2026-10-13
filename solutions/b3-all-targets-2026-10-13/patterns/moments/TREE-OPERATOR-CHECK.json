@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "actual_beta": [
+    1,
+    3,
+    2,
+    4
+  ],
+  "parent": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "children": [
+    [
+      5,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      5,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      5,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      4
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  "grandchild_counts": [
+    6,
+    3,
+    4,
+    5,
+    6
+  ],
+  "reciprocal_sum": "67/60",
+  "integer_test_vector": [
+    10,
+    20,
+    15,
+    12,
+    10
+  ],
+  "norm_creation_squared": 4020,
+  "norm_adjoint_squared": 4489,
+  "negative_full_operator_form": -469,
+  "root_level_identity_controls_through_n": 6,
+  "known_Catalan_control_not_new_attempt": {
+    "beta": [
+      1,
+      2,
+      3
+    ],
+    "parent": [
+      2,
+      1
+    ],
+    "grandchild_counts": [
+      4,
+      2,
+      3
+    ],
+    "reciprocal_sum": "13/12"
+  },
+  "scope": "Failure of a full-state normal-extension construction; not an actual avoidance Hankel minor.",
+  "checker_sha256": "fd45f1f226781f354c829289cc94bb12bd5d0b71687c77b998562592b79baea0"
+}

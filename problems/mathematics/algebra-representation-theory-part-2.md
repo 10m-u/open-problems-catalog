@@ -2,6 +2,227 @@
 
 [Subject overview](algebra-representation-theory.md) · Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representation-theory-part-2.md)
 
+<a id="q2911"></a>
+
+## Q2911. Normal Sylow subgroups from degree-square sums
+
+**Status:** Open · **Kind:** open problem · **Collection** 30
+
+Does G have a normal Sylow p-subgroup if and only if S_p(G)\_(p′)=|G|\_(p′)?
+
+**Context.** Origin for question 2911: Navarro’s 2004 proposed character-degree test, explicitly recalled here. Setup for question 2911: For a finite group G and prime p, put S_p(G)=Σ\_(χ∈Irr(G),p∤χ(1))χ(1)². For a positive integer n, n_(p′)=n/p^(v_p(n)).
+
+**Source.** Nguyen N. Hung, J. Miquel Martínez, Gabriel Navarro. *Sum of the squares of the p′-character degrees*. 2026. [primary source](https://msp.org/pjm/2026/342-2/pjm-v342-n2-p07-p.pdf) Location: Introduction, p. 353, final displayed condition.
+
+**Literature check.** Status for question 2911, checked 7 October 2026: The 2026 paper leaves the test open; no later proof or counterexample located.
+
+**Further links.** [1](https://arxiv.org/abs/2505.21267) · [2](https://sites.google.com/view/nguyen-ngoc-hung/publications)
+
+
+<a id="q2912"></a>
+
+## Q2912. Representation dimension of an idempotent corner
+
+**Status:** Open · **Kind:** open problem · **Collection** 30
+
+For every Artin algebra A and idempotent e∈A, must rep.dim(eAe)≤rep.dim(A)?
+
+**Context.** Origin for question 2912: Xi’s idempotent-corner conjecture. Setup for question 2912: For an Artin algebra A, rep.dim(A)=inf_M gl.dim End_A(M), where M ranges over finitely generated generator-cogenerators of A-mod.
+
+**Source.** Changchang Xi. *The relative Auslander–Reiten theory of modules (undated revised preprint)*. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/rart.pdf) Location: Closing conjecture after Theorem 7.2, author p. 25.
+
+**Literature check.** Status for question 2912, checked 7 October 2026: The source states the conjecture; later searches found no general resolution.
+
+**Further links.** [1](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [2](https://www.wemath.cn/~ccxi/Papers/EngshowArt.php?Artmode=3)
+
+
+<a id="q2913"></a>
+
+## Q2913. Rationality level under Lusztig induction
+
+**Status:** Open · **Kind:** conjecture (Conjecture C) · **Collection** 30
+
+For every prime p with p∤χ(1), does max{lev_p(ψ),lev_p(χ)}≥2 imply lev_p(χ)=lev_p(ψ)?
+
+**Context.** Origin for question 2913: Hung’s August 2026 extension from maximal tori to arbitrary Levi subgroups. Setup for question 2913: For a virtual character ξ, let c(ξ)=min{m:Q(ξ)⊆Q(ζ\_m)} and lev_p(ξ)=v_p(c(ξ)). Let G be a connected reductive algebraic group over an algebraic closure of F_r, F a Steinberg endomorphism, L an F-stable Levi subgroup of a parabolic P≤G, and ψ∈Irr(L^F). Write χ=R^G_(L≤P)(ψ) for Lusztig induction.
+
+**Source.** Nguyen N. Hung. *On the p-rationality of Deligne–Lusztig characters*. 2026. [primary source](https://arxiv.org/abs/2608.17871) Location: Conjecture C, pp. 3–4.
+
+**Literature check.** Status for question 2913, checked 7 October 2026: The defining-characteristic and certain solvable-Levi cases are proved; no general resolution located.
+
+**Further links.** [1](https://arxiv.org/html/2608.17871v1) · [2](https://sites.google.com/view/nguyen-ngoc-hung/publications)
+
+
+<a id="q2914"></a>
+
+## Q2914. Recovering derived equivalence from mirrors
+
+**Status:** Open · **Kind:** open problem · **Collection** 30
+
+If (R(A,e),e) and (R(B,f),f) are derived equivalent as pairs, must A and B be derived equivalent?
+
+**Context.** Origin for questions 2914, 2915: Authors’ concluding questions. Setup for questions 2914, 2915: A,B are finite-dimensional gendo-symmetric k-algebras: each is End_Λ(Λ⊕M) for symmetric Λ. Choose idempotents e,f with Ae,Bf faithful projective-injective. Put X=Ae⊗\_(eAe)eA and R(A,e)=A⊕X, with (a,x)(b,y)=(ab,ay+xb+xy), where (u⊗v)(u′⊗v′)=uvu′⊗v′; define R(B,f) similarly. Pairs (C,c),(D,d) are derived equivalent if a triangle equivalence D(C-Mod)→D(D-Mod) restricts to K^b(add Cc)→K^b(add Dd). Stable equivalence of Morita type means finite-dimensional bimodules, projective on both sides, whose tensor composites are the regular bimodules plus projective bimodules.
+
+**Source.** Hongxing Chen, Changchang Xi. *Derived equivalences for mirror-reflective algebras*. 2023. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/defmra.pdf) Location: Concluding question (1), author p. 15; Definition 2.3.
+
+**Literature check.** Status for questions 2914, 2915, checked 7 October 2026: The concluding questions remain unanswered in later searches.
+
+**Further links.** [1](https://arxiv.org/abs/2309.13964) · [2](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [3](https://pnp.mathematik.uni-stuttgart.de/iaz/iaz1/Oberseminar/abstracts/yipingchen26082025.html)
+
+
+<a id="q2915"></a>
+
+## Q2915. Stable Morita equivalence of mirrors
+
+**Status:** Open · **Kind:** open problem · **Collection** 30
+
+If A and B are stably equivalent of Morita type, must R(A,e) and R(B,f) be stably equivalent of Morita type?
+
+**Context.** Origin for questions 2914, 2915: Authors’ concluding questions. Setup for questions 2914, 2915: A,B are finite-dimensional gendo-symmetric k-algebras: each is End_Λ(Λ⊕M) for symmetric Λ. Choose idempotents e,f with Ae,Bf faithful projective-injective. Put X=Ae⊗\_(eAe)eA and R(A,e)=A⊕X, with (a,x)(b,y)=(ab,ay+xb+xy), where (u⊗v)(u′⊗v′)=uvu′⊗v′; define R(B,f) similarly. Pairs (C,c),(D,d) are derived equivalent if a triangle equivalence D(C-Mod)→D(D-Mod) restricts to K^b(add Cc)→K^b(add Dd). Stable equivalence of Morita type means finite-dimensional bimodules, projective on both sides, whose tensor composites are the regular bimodules plus projective bimodules.
+
+**Source.** Hongxing Chen, Changchang Xi. *Derived equivalences for mirror-reflective algebras*. 2023. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/defmra.pdf) Location: Concluding question (2), author p. 15.
+
+**Literature check.** Status for questions 2914, 2915, checked 7 October 2026: The concluding questions remain unanswered in later searches.
+
+**Further links.** [1](https://arxiv.org/abs/2309.13964) · [2](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [3](https://pnp.mathematik.uni-stuttgart.de/iaz/iaz1/Oberseminar/abstracts/yipingchen26082025.html)
+
+
+<a id="q2916"></a>
+
+## Q2916. Hochschild cohomology algebras of matrix centralizers
+
+**Status:** Open · **Kind:** open problem · **Collection** 30
+
+Determine the graded k-algebra HH\*(C(c)) for arbitrary fields k, integers n≥1 and matrices c∈M_n(k).
+
+**Context.** Origin for question 2916: Xi’s February 2026 problem-page question, not a dissertation-origin problem. Setup for question 2916: For a field k and c∈M_n(k), set C(c)={X∈M_n(k):Xc=cX}. Write HH\*(C(c))=Ext\*\_(C(c)⊗\_k C(c)^op)(C(c),C(c)), with its cup product.
+
+**Source.** Changchang Xi. *Open problems*. 2026. [primary source](https://www.wemath.cn/~ccxi/EngOpenProblem.php) Location: February 2026 entry, third bullet.
+
+**Literature check.** Status for question 2916, checked 7 October 2026: August–September 2026 work computes the center and HH₀, not the full cohomology algebra; no complete answer located.
+
+**Further links.** [1](https://arxiv.org/abs/2608.15460) · [2](https://arxiv.org/abs/2608.21922)
+
+
+<a id="q2917"></a>
+
+## Q2917. Stable equivalences preserve the number of nonprojective simples
+
+**Status:** Open · **Kind:** open problem · **Collection** 30
+
+Must stably equivalent Artin algebras have the same number of isomorphism classes of nonprojective simple modules?
+
+**Context.** Origin for question 2917: Auslander–Reiten’s conjecture on stable equivalences, restated by Xi–Zhang. Setup for question 2917: A,B are Artin algebras over a commutative Artin ring k. The stable category of A has finitely generated left A-modules and morphisms modulo maps factoring through projectives. Stable equivalence means a k-linear equivalence of these categories.
+
+**Source.** Changchang Xi, Jinbi Zhang. *New invariants of stable equivalences and Auslander–Reiten conjecture*. 2026. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/xz3online.pdf) Location: Introduction (ARC), p. 2; §2.1.
+
+**Literature check.** Status for question 2917, checked 7 October 2026: The 2026 article proves special classes only; later searches found no general answer.
+
+**Further links.** [1](https://doi.org/10.1007/s00208-026-03422-8) · [2](https://arxiv.org/abs/2207.10848) · [3](https://arxiv.org/abs/2511.19051)
+
+
+<a id="q2918"></a>
+
+## Q2918. Signed Cartan determinants under stable Morita equivalence
+
+**Status:** Open · **Kind:** open problem (Question 3) · **Collection** 30
+
+If A and B are stably equivalent of Morita type, must det(C_A)=det(C_B)?
+
+**Context.** Origin for question 2918: Xi’s Question 3. Setup for question 2918: A,B are Artin algebras over a commutative Artin ring k. C_A has entries [P_j:S_i], the composition multiplicities in projective covers P_j of the simple modules S_j; define C_B similarly. Stable Morita equivalence uses finitely generated bimodules projective on both sides whose tensor products are the regular bimodules plus projective bimodules.
+
+**Source.** Changchang Xi. *Stable equivalences of adjoint type*. 2008. [primary source](https://www.wemath.cn/~ccxi/Papers/Articles/staadj_FM.pdf) Location: Question 3, p. 95; standing conventions p. 82.
+
+**Literature check.** Status for question 2918, checked 7 October 2026: Only equality of absolute determinants is proved in Proposition 5.1; no later general sign-preservation result located.
+
+**Further links.** [1](https://doi.org/10.1515/FORUM.2008.004) · [2](https://www.wemath.cn/~ccxi/EngOpenProblem.php) · [3](https://arxiv.org/abs/2603.20643)
+
+
+<a id="q2929"></a>
+
+## Q2929. Profinite invariance of rational solvable filtrations
+
+**Status:** Open · **Kind:** open problem (Question 10.3) · **Collection** 30
+
+If finitely generated residually finite Γ,Λ have isomorphic profinite completions and Γ is RFRS, must Λ be RFRS?
+
+**Context.** Doctoral context for question 2929: Ismael Morales López. L2-invariants in abstract and profinite group theory. DPhil, University of Oxford, 2025; supervisors Dawid Kielak and Richard Wade. Origin for question 2929: Morales’s question on profinite invariance of RFRS. Setup for question 2929: Write Ĝ for the inverse limit of G’s finite quotients. A group is RFRS if G=G₀≥G₁≥⋯ are finite-index normal subgroups of G, ⋂Gᵢ=1, and ker(Gᵢ→H₁(Gᵢ;Q))⊂Gᵢ₊₁.
+
+**Source.** Ismael Morales. *On the profinite rigidity of free and surface groups*. 2024. [primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC11424743/) Location: Question 10.3, preprint p. 33.
+
+**Literature check.** Status for question 2929, checked 7 October 2026: The 2024 article explicitly poses this; later rigidity results impose extra hypotheses. No general resolution found.
+
+**Further links.** [1](https://arxiv.org/abs/2211.12390) · [2](https://sites.google.com/view/ismaelmorales/home) · [3](https://arxiv.org/abs/2312.12293) · [4](https://arxiv.org/abs/2608.07350) · [5](https://arxiv.org/abs/2603.16763) · [6](https://ora.ox.ac.uk/objects/uuid%3Acaa81b48-6ada-4b87-8703-51bb482a4aae)
+
+
+<a id="q2933"></a>
+
+## Q2933. An infinite group of transitivity degree four
+
+**Status:** Open · **Kind:** open problem · **Collection** 30
+
+Does an infinite group G with td(G)=4 exist?
+
+**Context.** Origin for question 2933: Previously open group-theoretic question explicitly recalled by Rybak. Setup for question 2933: The transitivity degree td(G) is the supremum of integers k for which G admits a faithful k-transitive permutation action. k-transitive means transitive on ordered k-tuples of distinct points.
+
+**Source.** Ekaterina Rybak. *Boundary dynamics, triple transitivity, and mixed identities in weakly hyperbolic groups*. 2026. [primary source](https://arxiv.org/pdf/2605.14159v3) Location: §1.3, paragraph before Corollary J, p. 7.
+
+**Literature check.** Status for question 2933, checked 7 October 2026: The current paper excludes certain weakly hyperbolic groups, not all infinite groups; no general resolution located.
+
+**Further links.** [1](https://sites.google.com/view/ekaterinarybak/home) · [2](https://arxiv.org/abs/2605.14159)
+
+
+<a id="q3001"></a>
+
+## Q3001. Unique shortest-path weights
+
+**Status:** Open · **Kind:** open problem · **Collection** 31
+
+For every u,v∈W, do all shortest directed paths from u to v have equal weight?
+
+**Context.** Origin for questions 3001, 3002: General affine extension of Postnikov’s finite-type theorem; the diamond exception is Dean’s conjecture. Setup for questions 3001, 3002: Let W be an affine Weyl group, Φ⁺ its positive real roots, ℓ its Coxeter length, and ρ the sum of fundamental weights. QBG(W) has vertices W and edges w→ws_α of weight 0 when ℓ(ws_α)=ℓ(w)+1, or weight α∨ when ℓ(ws_α)=ℓ(w)+1−⟨α∨,2ρ⟩. Path weight is the sum of edge weights.
+
+**Source.** Lewis Dean. *Affine quantum Bruhat graphs and double affine Demazure products*. University of Glasgow, 2026. Advisor(s): Dinakar Muthiah and Misha Feigin. [primary source](https://theses.gla.ac.uk/86179/2/2026DeanPhD.pdf) Location: §1.1.3, p. 4; §2.5.1, pp. 27–29.
+
+**Literature check.** Status for questions 3001, 3002, checked 8 October 2026: The 2026 thesis retains both targets; the final 2025 paper proves shortest-weight uniqueness only in affine A₁.
+
+**Further links.** [1](https://theses.gla.ac.uk/86179/) · [2](https://doi.org/10.1007/s00209-025-03832-5) · [3](https://arxiv.org/abs/2411.14170)
+
+
+<a id="q3002"></a>
+
+## Q3002. Exact affine diamond exception
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.5.7) · **Collection** 31
+
+For every two-edge path u→us_α→v with u≠v, is it the unique two-edge path from u to v exactly when its weight is nonzero and purely imaginary, with exactly two such paths otherwise?
+
+**Context.** Origin for questions 3001, 3002: General affine extension of Postnikov’s finite-type theorem; the diamond exception is Dean’s conjecture. Setup for questions 3001, 3002: Let W be an affine Weyl group, Φ⁺ its positive real roots, ℓ its Coxeter length, and ρ the sum of fundamental weights. QBG(W) has vertices W and edges w→ws_α of weight 0 when ℓ(ws_α)=ℓ(w)+1, or weight α∨ when ℓ(ws_α)=ℓ(w)+1−⟨α∨,2ρ⟩. Path weight is the sum of edge weights.
+
+**Source.** Lewis Dean. *Affine quantum Bruhat graphs and double affine Demazure products*. University of Glasgow, 2026. Advisor(s): Dinakar Muthiah and Misha Feigin. [primary source](https://theses.gla.ac.uk/86179/2/2026DeanPhD.pdf) Location: Conjecture 2.5.7, p. 29; Proposition 2.5.6.
+
+**Literature check.** Status for questions 3001, 3002, checked 8 October 2026: The 2026 thesis retains both targets; the final 2025 paper proves shortest-weight uniqueness only in affine A₁.
+
+**Further links.** [1](https://theses.gla.ac.uk/86179/) · [2](https://doi.org/10.1007/s00209-025-03832-5) · [3](https://arxiv.org/abs/2411.14170)
+
+
+<a id="q3003"></a>
+
+## Q3003. Finitely generated finite-generation ideal
+
+**Status:** Open · **Kind:** open problem (Question 6.3.4) · **Collection** 31
+
+Does there exist a non-finitely generated monomial K-subalgebra R⊂K[x₁,…,x_n], for some finite n, whose ideal f_R is finitely generated as an R-ideal?
+
+**Context.** Origin for questions 3003, 3004: Hart’s concluding questions, motivated by computations of non-finitely generated invariant rings. Setup for questions 3003, 3004: Let K be an algebraically closed field of characteristic zero. For a K-domain R, let f_R={0}∪{f∈R\\{0}:R[1/f] is finitely generated over K}; this is its finite-generation ideal. A monomial subalgebra is generated by monomials.
+
+**Source.** Simon Hart. *Hilbert’s fourteenth problem and finite generation ideals*. University of York, 2025. Advisor(s): Emilie Dufresne and Michael Bate. [primary source](https://etheses.whiterose.ac.uk/id/eprint/36388/1/Thesis__Final_SH_09_24.pdf) Location: Question 6.3.4, p. 127.
+
+**Literature check.** Status for questions 3003, 3004, checked 8 October 2026: Thesis full text retains these questions; its counterexample concerns general monomial algebras, not invariant rings.
+
+**Further links.** [1](https://etheses.whiterose.ac.uk/id/eprint/36388/) · [2](https://pure.york.ac.uk/portal/en/publications/hilberts-fourteenth-problem-and-finite-generation-ideals) · [3](https://doi.org/10.1080/00927872.2024.2404704)
+
+
 <a id="q3004"></a>
 
 ## Q3004. Invariant finite-generation ideal beyond finite radicals
@@ -1566,7 +1787,7 @@ For every integer k≥2, does the identity t_k=0 on A imply e_{3^(k−2)}(x,y)=0
 
 ## Q3892. Koszul Roller Coaster algebras
 
-**Status:** Open · **Kind:** conjecture (Conjecture 5.8) · **Collection** 39
+**Status:** Open, partial results · **Kind:** conjecture (Conjecture 5.8) · **Collection** 39
 
 Over a characteristic-zero field K, for all sufficiently large d and every permutation π of {1,…,⌊d/2⌋}, is there an Artinian Gorenstein Koszul K-algebra of socle degree d with h_{π(1)}<⋯&lt;h_{π(⌊d/2⌋)}?
 
@@ -1575,6 +1796,12 @@ Over a characteristic-zero field K, for all sufficiently large d and every permu
 **Source.** Thiago Holleben and Lisa Nicklasson. *Roller Coaster Gorenstein algebras and Koszul algebras failing the weak Lefschetz property*. 2026. [primary source](https://www.diva-portal.org/smash/get/diva2%3A2053155/FULLTEXT01.pdf) Location: Conjecture 5.8, printed p.18 (PDF p.19); thesis Question 7.3.1, p.163; characteristic-zero context: thesis p.118.
 
 **Literature check.** Status: Checked 10 October 2026: both retained in the final; no general resolution found.
+
+**Results.**
+
+- **Partial result**: For every d>=3, the flag join of q=d-1 discrete sets of common size s>=2q+1 gives a characteristic-zero Artinian Gorenstein Koszul algebra with h_i=binom(q,i)s^i+binom(q,i-1)s^(d-i) and h_1>...>h_floor(d/2). Other arbitrary permutations in every sufficiently large degree remain unresolved. The flag-join algebra family is source-known; the all-degree ordering inequality is proved in the local packet. Internally reviewed at this scope; no novelty or external peer-review claim. [Details](../../solutions/b3-all-targets-2026-10-13/koszul/Q3892-RESULTS.md).
+- **Partial result** (B3-ALL-TARGETS-Q3892-DESCENDING: Every socle degree admits a descending Koszul half-row): For every d>=3, the flag join of q=d-1 discrete sets of common size s>=2q+1 gives a characteristic-zero Artinian Gorenstein Koszul algebra with h_i=binom(q,i)s^i+binom(q,i-1)s^(d-i) and h_1>...>h_floor(d/2). Remaining/limits: Other arbitrary permutations in every sufficiently large degree remain unresolved. The flag-join algebra family is source-known; the all-degree ordering inequality is proved in the local packet. [Report](../../solutions/b3-all-targets-2026-10-13/koszul/Q3892-RESULTS.md).
+- **Investigated, unresolved** (B3-ALL-TARGETS-STOP-REGISTER: Reviewed B3 failed routes and per-target stopping decisions): 45 targets have each reached five consecutive substantive distinct full-target failures. STATUS.json records every accepted route, written analysis, evidence path and review provenance. Partial results do not reset counters. Rejected proposed attempts, source-range replays, service errors and shared mechanisms remain explicit rather than supplying extra counts. Remaining/limits: These questions remain mathematically unresolved. A failure-limit stop is an operational disposition, not a counterexample or proof. Missing historical archives remain separate evidence issues. [Report](../../solutions/b3-all-targets-2026-10-13/STATUS.json).
 
 **Further links.** [1](https://doi.org/10.1016/j.jpaa.2026.108238) · [2](https://hollebenthiago.github.io/phd/thesis.pdf) · [3](https://hollebenthiago.github.io/)
 
@@ -2597,4 +2824,216 @@ Determine LinDim_F(PSL_n(q),Ω) for every prime power q, integer n≥4, integer 
 **Source.** Devillers, Giudici, Hawtin, Lukas Klawuhn and Morgan. *Linear dimension of group actions*. 2025. [primary source](https://arxiv.org/abs/2512.16079v1) Location: Devillers–Giudici–Hawtin–Klawuhn–Morgan, Linear dimension of group actions, arXiv2512.16079v1, Problem10.3 p27; definition p1.
 
 **Literature check.** Status: Origin: Devillers–Giudici–Hawtin–Klawuhn–Morgan, Linear dimension of group actions, arXiv2512.16079v1, Problem10.3 p27; definition p1. Separate paper-origin target. Checked12October2026; no matching resolution located.
+
+
+<a id="q4703"></a>
+
+## Q4703. Virtual finite classifying spaces
+
+**Status:** Open · **Kind:** open problem (Question 9.2.2) · **Collection** 48
+
+For every such AΓ, does Out(AΓ) have a finite-index subgroup H admitting a finite CW complex K(H,1)?
+
+**Context.** For a finite simplicial graph Γ with integer edge labels mₛₜ≥2, let AΓ=⟨V(Γ) | Π(s,t,mₛₜ)=Π(t,s,mₛₜ), {s,t}∈E(Γ)⟩, where Π(s,t,m) is the alternating word of length m beginning with s. Write Out(A)=Aut(A)/Inn(A). Locators: thesis Question9.2.2, p215; §9.1 discussion, p213. Audited provenance and status: Subject: Geometric group theory Full accepted thesis read; defense July10,2026. The 2024 recorded talk, posted January2026, predates the thesis; its abstract does not claim the finite-conjugacy classification. October5 v5 treats cyclic splittings, big-chunk invariance and acylindrical hyperbolicity. Its main results and remaining directions do not settle either selected target.
+
+**Source.** Oli Jones. *Automorphisms of Artin groups*. TU Berlin, 2026. Advisor(s): Laura Ciobanu. [primary source](https://doi.org/10.14279/depositonce-26500) Location: Thesis Question 9.2.2, p.215.
+
+**Literature check.** Status: Bregman–Charney–Vogtmann’s August2025 final proves the untwisted-subgroup case and explicitly leaves full Out open. Jones’s current page lists the VF paper as forthcoming.
+
+**Literature check.** Status: Current author list retains the August2025 untwisted-subgroup article; no newer matching resolution was located.
+
+
+<a id="q4704"></a>
+
+## Q4704. Finite subgroups of RAAG outer automorphism groups
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+If every edge label equals 2, does Out(AΓ) have finitely many conjugacy classes of finite subgroups?
+
+**Context.** For a finite simplicial graph Γ with integer edge labels mₛₜ≥2, let AΓ=⟨V(Γ) | Π(s,t,mₛₜ)=Π(t,s,mₛₜ), {s,t}∈E(Γ)⟩, where Π(s,t,m) is the alternating word of length m beginning with s. Write Out(A)=Aut(A)/Inn(A). Locators: thesis Question9.2.2, p215; §9.1 discussion, p213. Audited provenance and status: Subject: Geometric group theory Full accepted thesis read; defense July10,2026. The 2024 recorded talk, posted January2026, predates the thesis; its abstract does not claim the finite-conjugacy classification. October5 v5 treats cyclic splittings, big-chunk invariance and acylindrical hyperbolicity. Its main results and remaining directions do not settle either selected target.
+
+**Source.** Oli Jones. *Automorphisms of Artin groups*. TU Berlin, 2026. Advisor(s): Laura Ciobanu. [primary source](https://doi.org/10.14279/depositonce-26500) Location: Thesis §9.1, p.213.
+
+**Literature check.** Status: Bregman–Charney–Vogtmann’s August2025 final proves the untwisted-subgroup case and explicitly leaves full Out open. Jones’s current page lists the VF paper as forthcoming.
+
+**Literature check.** Status: Current author list retains the August2025 untwisted-subgroup article; no newer matching resolution was located.
+
+
+<a id="q4708"></a>
+
+## Q4708. Must every Hopf\*-ideal I⊆J_N for which A_N/I is the polynomial Hopf\*-algebra of a compact matrix…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Must every Hopf\*-ideal I⊆J_N for which A_N/I is the polynomial Hopf\*-algebra of a compact matrix quantum group equal either0 or J_N, for every integer N≥6?
+
+**Context.** For N≥6 let A_N be the universal unital complex \*-algebra generated by projections u_ij, pairwise orthogonal within each row and column, with each row and column summing to1. Its Hopf structure is Δ(u_ij)=Σ\_k u_ik⊗u_kj, ε(u_ij)=δ\_ij and S(u_ij)=u_ji. Let J_N be the ideal generated by all commutators. A Hopf\*-ideal I is a two-sided \*-ideal with Δ(I)⊆I⊗A_N+A_N⊗I, ε(I)=0 and S(I)⊆I. Audited provenance and status: Subject: Quantum groups Doctoral discovery route: Doctoral discovery: Björn Schäfer, Saarland2026; supervisor Moritz Weber. Selected questions are paper-origin. Current status: J.P. McCarthy2603.21759v1, Conjecture1.2,p.1, retains quantum-permutation maximality; p.3 reports N≤5 settled. Submitted23March2026, title-page date18February. No journal reference or later version on arXiv. Current McCarthy v1 was read. The related Nature final’s exact Definition1 was readable in the primary indexed text; its direct page redirected to an inaccessible cookie-authorization endpoint.
+
+**Source.** J. P. McCarthy. *Maximality Levels of the classical permutation group in the quantum permutation group*. 2026. [primary source](https://arxiv.org/abs/2603.21759v1) Location: Conjecture1.2,p.1; definitions§2,pp.4–5.
+
+**Literature check.** Status: Author’s25March2026 post labels the work a preprint; current homepage has no later maximality announcement.
+
+**Literature check.** Status: Bounded current primary-source and full-history checks found no matching resolution.
+
+
+<a id="q4720"></a>
+
+## Q4720. Alternating double covers
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.7.2) · **Collection** 48
+
+For R=abab⁻² and Γ without a source, is G_Γ(R) isomorphic to C₇×SL₂(F₅) when n=3, and to 2·A_(n+2) when n≥4? Here C₇ is cyclic of order7, and 2·A_k denotes the non-split central double cover of the alternating group A_k.
+
+**Context.** Let Γ be an n-vertex tournament, n≥3: exactly one directed edge joins each pair of distinct vertices. For a word R(a,b), define G_Γ(R)=⟨x_v (v∈VΓ) | R(x_u,x_v)=1 for every edge u→v⟩. A source has all its incident edges outgoing; a sink has them all incoming. Audited provenance and status: Subject: Combinatorial group theory Mehmet Sefa Cihan: Essex PhD awarded8September2022; supervisor Gerald Williams. Thesis-origin questions. Complete thesis read. The three selected formulations remain outside the inspected later papers. The n=3 group need not be perfect. Published2024 final read: TheoremsA–B treat Johnson and Mennicke relators, distinct from both selected words. Published2024 final read. Its classification assumes triangle-free underlying graphs, excluding the selected tournaments. Published2025 final read. It assumes exactly one more arc than vertices; no tournament with n≥3 satisfies that equality. Its residual cases do not concern the selected targets.
+
+**Source.** Mehmet Sefa Cihan. *Digraph Groups and Related Groups*. University of Essex, 2022. Advisor(s): Gerald Williams. [primary source](https://repository.essex.ac.uk/33375/1/Dissertation.pdf) Location: Thesis Conjecture 6.7.2.
+
+
+<a id="q4721"></a>
+
+## Q4721. Source infinitude
+
+**Status:** Open · **Kind:** open problem (Question 6.7.3) · **Collection** 48
+
+For R=abab⁻² and Γ with a source, is G_Γ(R) infinite?
+
+**Context.** Let Γ be an n-vertex tournament, n≥3: exactly one directed edge joins each pair of distinct vertices. For a word R(a,b), define G_Γ(R)=⟨x_v (v∈VΓ) | R(x_u,x_v)=1 for every edge u→v⟩. A source has all its incident edges outgoing; a sink has them all incoming. Audited provenance and status: Subject: Combinatorial group theory Mehmet Sefa Cihan: Essex PhD awarded8September2022; supervisor Gerald Williams. Thesis-origin questions. Complete thesis read. The three selected formulations remain outside the inspected later papers. The n=3 group need not be perfect. Published2024 final read: TheoremsA–B treat Johnson and Mennicke relators, distinct from both selected words. Published2024 final read. Its classification assumes triangle-free underlying graphs, excluding the selected tournaments. Published2025 final read. It assumes exactly one more arc than vertices; no tournament with n≥3 satisfies that equality. Its residual cases do not concern the selected targets.
+
+**Source.** Mehmet Sefa Cihan. *Digraph Groups and Related Groups*. University of Essex, 2022. Advisor(s): Gerald Williams. [primary source](https://repository.essex.ac.uk/33375/1/Dissertation.pdf) Location: Thesis Question 6.7.3.
+
+
+<a id="q4722"></a>
+
+## Q4722. Derived length
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.8.2) · **Collection** 48
+
+For R=ab²a²b⁻² and Γ without a sink, does G_Γ(R) have derived length exactly2 or3? Derived length is the least ℓ with G^(ℓ)=1, where G^(0)=G and G^(i+1)=[G^(i),G^(i)].
+
+**Context.** Let Γ be an n-vertex tournament, n≥3: exactly one directed edge joins each pair of distinct vertices. For a word R(a,b), define G_Γ(R)=⟨x_v (v∈VΓ) | R(x_u,x_v)=1 for every edge u→v⟩. A source has all its incident edges outgoing; a sink has them all incoming. Audited provenance and status: Subject: Combinatorial group theory Mehmet Sefa Cihan: Essex PhD awarded8September2022; supervisor Gerald Williams. Thesis-origin questions. Complete thesis read. The three selected formulations remain outside the inspected later papers. The n=3 group need not be perfect. Published2024 final read: TheoremsA–B treat Johnson and Mennicke relators, distinct from both selected words. Published2024 final read. Its classification assumes triangle-free underlying graphs, excluding the selected tournaments. Published2025 final read. It assumes exactly one more arc than vertices; no tournament with n≥3 satisfies that equality. Its residual cases do not concern the selected targets.
+
+**Source.** Mehmet Sefa Cihan. *Digraph Groups and Related Groups*. University of Essex, 2022. Advisor(s): Gerald Williams. [primary source](https://repository.essex.ac.uk/33375/1/Dissertation.pdf) Location: Thesis Conjecture 6.8.2.
+
+
+<a id="q4724"></a>
+
+## Q4724. For every integer a≥2, are there infinitely many N with τ\_N=a?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2) · **Collection** 48
+
+For every integer a≥2, are there infinitely many N with τ\_N=a?
+
+**Context.** Martina Iannella: Udine PhD October2023; supervisor Alberto Marcone, co-supervisor Vincenzo Dimonte. Setup: For each integer N≥1, let ⋆\_N be the unique operation on {1,…,N} satisfying a⋆\_N1=a+1 for a&lt;N, N⋆\_N1=1, and a⋆\_N(b+1)=(a⋆\_Nb)⋆\_N(a⋆\_N1) for 1≤a≤N and 1≤b&lt;N. Put τ\_N=min{p∈{1,…,N}:1⋆\_Np=N}. Audited provenance and status: Subject: Universal algebra Paper-origin: Aguilera–Iannella, Non-dyadic Laver algebras, 2610.06106v1, Conjecture2 p10; definitions pp1–2,6. Checked12October2026: only October5 version located; no matching resolution. Doctoral title: From real-life to very strong axioms. Classification problems in Descriptive Set Theory & regularity properties in Generalized Descriptive Set Theory. Adjacent Conjecture1 is held: its literal limit τ\_N→∞ contradicts Conjecture2’s infinitely recurring fixed values. No limsup repair is inserted.
+
+**Source.** Juan P. Aguilera; Martina Iannella. *Non-dyadic Laver algebras*. 2026. [primary source](https://arxiv.org/abs/2610.06106v1) Location: Conjecture 2, p.10; definitions pp.1–2,6.
+
+**Literature check.** Status: Paper-origin: Aguilera–Iannella, Non-dyadic Laver algebras, 2610.06106v1, Conjecture2 p10; definitions pp1–2,6. Checked12October2026: only October5 version located; no matching resolution.
+
+**Further links.** [1](https://arxiv.org/abs/2610.06106) · [2](https://arxiv.org/pdf/2610.06106v1) · [3](https://martinaiannella.github.io/) · [4](https://www.ailalogica.it/wp-content/uploads/2025/05/MONTAGNA_PRIZE_2025-FINAL_REPORT.pdf)
+
+
+<a id="q4733"></a>
+
+## Q4733. Quaternionic super Brauer group
+
+**Status:** Open · **Kind:** open problem (Question 6.2) · **Collection** 48
+
+Determine the group Br(E).
+
+**Context.** Let E be the real symmetric monoidal category of finite-dimensional complex ℤ/2-graded vector spaces V with an even antilinear map J satisfying J²(v)=(−1)^i v for v∈V_i. Morphisms are even complex-linear maps commuting with J. Tensor product is the usual graded complex tensor product with J_{V⊗W}=J_V⊗J_W, and symmetry is the Koszul signed interchange. The tensor unit is ℂ in even degree with complex conjugation. For associative unital algebra objects in E, use Morita equivalence implemented by invertible bimodule objects in E. Their Morita classes form a monoid under tensor product; let Br(E) be its group of units. Thus a class [A] lies in Br(E) when some algebra object B makes A⊗B Morita-equivalent to the tensor unit. Audited provenance and status: Subject: Category theory Sean Sanford: Indiana PhD 2022; advisor Julia Plavnik. The older dissertation was not inspected; this is a paper restatement of an earlier public question. Earlier 2016 discussion proposes ℤ/4 but explicitly lacks a complete proof; its homotopy-fixed-point premise was unchecked. October 6 primary paper still poses Question 6.2.
+
+**Source.** Sean Sanford. *On the Mext groups of sVec_R and sVec_H*. 2026. [primary source](https://arxiv.org/abs/2609.20153v2) Location: Question 6.2, restating Johnson-Freyd’s 2016 question.
+
+**Further links.** [1](https://arxiv.org/abs/2609.20153)
+
+
+<a id="q4738"></a>
+
+## Q4738. Infinitude of higher weak-commutativity groups
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Is χₙ(H) infinite for every finite noncyclic group H and every integer n≥4?
+
+**Context.** For a group H and an integer n≥2, let H₁,…,Hₙ be labelled isomorphic copies of H, with hᵢ denoting the copy of h∈H in Hᵢ. Define χₙ(H) as the quotient of the free product H₁∗⋯∗Hₙ by the normal closure of all commutators [hᵢ,hⱼ], for h∈H and 1≤i&lt;j≤n. Here [x,y]=x⁻¹y⁻¹xy; no further relations between different copies are imposed. Audited provenance and status: Subject: Group theory Ricardo Nunes de Oliveira: Brasília PhD 2007; advisor Said Najati Sidki. The repository permits only partial thesis release; thesis mathematics was not inspected. This target is taken from the later paper. October 5 primary version states this expectation; it is not labelled a numbered conjecture. Checked12October2026: no later version or matching resolution was located.
+
+**Source.** Said N. Sidki; Noraí R. Rocco; Ricardo N. de Oliveira; Dmytro Savchuk (appendix). *On weak commutativity between n isomorphic groups, n ≥ 2*. 2026. [primary source](https://arxiv.org/abs/2610.07330v1) Location: Group theory. Sidki, Rocco and de Oliveira, with an appendix by Savchuk, arXiv:2610.07330v1 (2026), introductory expectation, p2.
+
+**Literature check.** Status: Checked12October2026: no later version or matching resolution was located.
+
+**Further links.** [1](https://arxiv.org/abs/2610.07330)
+
+
+<a id="q4757"></a>
+
+## Q4757. The flag-dimension bound for general linear groups
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Must GKdim(Π)≤[K:Q_p]n(n−1)/2 hold for every such Π?
+
+**Context.** Let p be prime, let K and L be finite extensions of Q_p, and let n≥2. Let Π be a nonzero continuous L-Banach representation of GL_n(K). For a compact open uniform pro-p subgroup H, put A=L⊗\_{O_L}O_L[[H]] and M=Hom_cont,L(Π,L). Assume Π is admissible, meaning M is finitely generated over A. Let Π^la denote its locally Q_p-analytic vectors. Assume Z(U(L⊗\_{Q_p}gl_n(K))) acts on Π^la through an L-algebra homomorphism to L. Define GKdim(Π)=dim_{Q_p}(H)−inf{i≥0:Ext_A^i(M,A)≠0}. Audited provenance and status: Subject: p-adic representation theory Reinier Sorgdrager: Amsterdam/Paris-Saclay doctorate, defended28September2026; supervisors Benjamin Schraen and Lenny Taelman, co-supervisor Arno Kret. This is the thesis’s explicitly singled-out general-linear-group restatement of the older bound problem, not a newly originated conjecture. The full September thesis retains the target; n=2 is proved for p>2, while n=3,4 are described only as expected computations. The April2023 author manuscript was inspected; the older2023 publisher final remains unread. The inspected2026 publisher final bounds smooth mod-p Jacquet–Langlands transfers; it predates the September thesis and gives no general Banach bound.
+
+**Source.** Reinier Sorgdrager. *Gelfand–Kirillov dimensions and the p-adic Langlands program*. University of Amsterdam / Paris-Saclay, 2026. Advisor(s): Benjamin Schraen; Lenny Taelman; Arno Kret. [primary source](https://www.dare.uva.nl/id/c42a0660-f0af-4c7e-b347-a8fe61e57f31) Location: §1.5, p39, restating the Dospinescu–Paškūnas–Schraen bound problem.
+
+
+<a id="q4759"></a>
+
+## Q4759. Completely prime ideals
+
+**Status:** Open · **Kind:** conjecture (Conjecture 4.3.4) · **Collection** 48
+
+Is A/P a domain for every proper two-sided prime ideal P of A? Here prime means IJ⊆P implies I⊆P or J⊆P for two-sided ideals I,J.
+
+**Context.** Let k be an uncountable algebraically closed field of characteristic zero. Let W=k[t]∂, where ∂=d/dt and [f∂,g∂]=(fg′−f′g)∂, and let A=U(W). Give A the Z-grading induced by deg(t^{i+1}∂)=i for i≥−1, and denote its degree-zero subring by A_0. Audited provenance and status: Subject: Lie and associative algebras Tuan Anh Pham: Edinburgh doctoral thesis2026; primary supervisor Susan J. Sierra, second advisor Alexander Shapiro. Both targets appear in the thesis; degree-zero Noetherianity restates Pham–Timmins2025, while October’s paper independently singles out the prime-ideal target. The inspected October1 paper retains the prime-ideal conjecture and proves only orbit-image cases; degree-zero Noetherianity remains explicitly conjectural in the September thesis. October’s citation points to an earlier primitive-only conjecture.
+
+**Source.** Tuan Anh Pham. *Two-sided ideals of the enveloping algebras of the Virasoro and related Lie algebras*. University of Edinburgh, 2026. Advisor(s): Susan J. Sierra; Alexander Shapiro. [primary source](https://doi.org/10.7488/era/7765) Location: Thesis Conjecture 4.3.4; October paper Conjecture 1.5.
+
+
+<a id="q4760"></a>
+
+## Q4760. Degree-zero Noetherianity
+
+**Status:** Open · **Kind:** conjecture (Conjecture 5.1.7) · **Collection** 48
+
+Is A_0 left and right Noetherian, meaning every ascending chain of left ideals and every ascending chain of right ideals stabilizes?
+
+**Context.** Let k be an uncountable algebraically closed field of characteristic zero. Let W=k[t]∂, where ∂=d/dt and [f∂,g∂]=(fg′−f′g)∂, and let A=U(W). Give A the Z-grading induced by deg(t^{i+1}∂)=i for i≥−1, and denote its degree-zero subring by A_0. Audited provenance and status: Subject: Lie and associative algebras Tuan Anh Pham: Edinburgh doctoral thesis2026; primary supervisor Susan J. Sierra, second advisor Alexander Shapiro. Both targets appear in the thesis; degree-zero Noetherianity restates Pham–Timmins2025, while October’s paper independently singles out the prime-ideal target. The inspected October1 paper retains the prime-ideal conjecture and proves only orbit-image cases; degree-zero Noetherianity remains explicitly conjectural in the September thesis. October’s citation points to an earlier primitive-only conjecture.
+
+**Source.** Tuan Anh Pham. *Two-sided ideals of the enveloping algebras of the Virasoro and related Lie algebras*. University of Edinburgh, 2026. Advisor(s): Susan J. Sierra; Alexander Shapiro. [primary source](https://doi.org/10.7488/era/7765) Location: Thesis Conjecture 5.1.7.
+
+
+<a id="q4773"></a>
+
+## Q4773. Must every smooth C admit a single compact generator?
+
+**Status:** Open · **Kind:** conjecture (Conjecture 0.2.8) · **Collection** 48
+
+Must every smooth C admit a single compact generator?
+
+**Context.** Setup: R is an E∞-ring spectrum and C a dualizable, presentable, stable R-linear ∞-category, with R-linear dual C∨. Smoothness means the coevaluation Mod_R→C⊗\_R C∨ admits a colimit-preserving R-linear right adjoint. A compact generator is a compact object whose stable, colimit-closed generated subcategory is C. Audited provenance and status: Subject: Higher category theory Matteo Montagnani, SISSA PhD (25 September 2026); advisors Nicolò Sibilla and Mauro Porta. Thesis: A Non-Commutative Approach to Rigid Analytic Geometry; Conjecture 0.2.8, p.12; Definition 0.2.5, p.11. Earlier-paper origin: Ramzi, arXiv:2410.21537v1, Conjecture 0.6; Montagnani’s arXiv:2605.21024v1 retains it as Conjecture 1.6 (p.8). Checked 13 October 2026: retained in thesis. Invertible/truncated-connective results and broader-base counterexamples do not settle it.
+
+**Source.** Matteo Montagnani. *A Non-Commutative Approach to Rigid Analytic Geometry*. SISSA, 2026. Advisor(s): Nicolò Sibilla; Mauro Porta. [primary source](https://iris.sissa.it/handle/20.500.11767/153671) Location: Conjecture 0.2.8, p.12; Definition 0.2.5, p.11.
+
+**Literature check.** Status: Related later primary papers checked; no matching resolution found.
+
+**Further links.** [1](https://arxiv.org/abs/2410.21537v1) · [2](https://arxiv.org/abs/2605.21024v1) · [3](https://arxiv.org/abs/2307.16337v2) · [4](https://arxiv.org/abs/2509.14231v1) · [5](https://arxiv.org/abs/2608.04898v1) · [6](https://arxiv.org/abs/2608.10681v1)
+
+
+<a id="q4783"></a>
+
+## Q4783. Let G be an almost simple connected complex algebraic group of type D_m (m≥4) or E₆. Define h(G)…
+
+**Status:** Open · **Kind:** open problem · **Collection** 48
+
+Let G be an almost simple connected complex algebraic group of type D_m (m≥4) or E₆. Define h(G) as the least positive integer h such that every finite family of parabolic subgroups of G shares a maximal torus whenever every subfamily of at most h members does. Determine h(G).
+
+**Context.** Audited provenance and status: Subject: Algebraic groups and discrete geometry Shaoyu Huang; Pittsburgh PhD2025; advisor Kiumars Kaveh. Restricted residual of thesis Problem3.1.34,p41 and earlier joint-paper Problem6.4,p827. Later-paper formulation: Definition4.1,p13; Corollaries4.5,p16–17 and6.2,p23. Known: h(D_m)∈{m+1,m+2}; h(E₆)∈{7,8}. Other complex almost-simple types are settled. The later definition explicitly restricts to finite families. Paper fallback; finite-family convention only.
+
+**Source.** Boris Tsvelikhovskiy. *Helly Numbers for Connected Reductive Groups and Splitting of Toric Principal Bundles*. 2026. [primary source](https://arxiv.org/abs/2610.11340v1) Location: Thesis/final say “any k”; canonical uses later Definition4.1’s “at most h”.
+
+**Literature check.** Status: No matching resolution located through October13,2026.
+
+**Further links.** [1](https://d-scholarship.pitt.edu/downloads/051978f8-d0c3-4934-9717-64b4194bb578?locale=en) · [2](https://doi.org/10.4171/DM/962)
 

@@ -1,0 +1,4738 @@
+{
+  "date": "2026-10-12",
+  "overall_state": "complete_under_stopping_rule",
+  "retained_agent": "/root/b14_local_optima",
+  "catalog_count": 81,
+  "broader_targets_pending_scope_reading": false,
+  "per_problem_failure_limit": 5,
+  "partial_results_do_not_reset_counters": true,
+  "targets": [
+    {
+      "target": "Q49",
+      "statement_id": "d0a8503718ca529daf5a",
+      "text": "Set F(n)=n(n−1)(n+2). Are there only finitely many integer triples n_(1),n_(2),n_(3)≥2 satisfying [F(n_(1))+F(n_(2))−F(n_(3))]^(2)=4F(n_(1))F(n_(2))?",
+      "source": "https://dspace.mit.edu/server/api/core/bitstreams/a56b7534-d015-4a7e-a1cb-4943a0805ce2/content",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q49-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/RESONANCE-ATTEMPTS.md#q49-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q49-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/RESONANCE-ATTEMPTS.md#q49-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q49-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/RESONANCE-ATTEMPTS.md#q49-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q49-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/RESONANCE-ATTEMPTS.md#q49-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q49-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/RESONANCE-ATTEMPTS.md#q49-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/RESONANCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Common-squarefree-kernel reduction and elementary effective inequalities b<4F(a)/9 and c<a+b for sorted resonances. Exact exhaustion with all three indices in [2,1000000] gives only sorted triples (5,5,8) and (10,10,16). The cited source already treats minimum index<=10000 with other indices unbounded; the new box is a different domain. Restricted scope: All three indices<=1000000 for the finite exhaustion. Remaining: No argument bounds the minimum index of every resonance; global finiteness is unresolved. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q49",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1312",
+      "statement_id": "7e21e2d207cc4fd014a3",
+      "text": "For every ε>0, does some C_ε>0 satisfy c<C_ε H(abc)^{1+ε} for all coprime positive integers a, b, c with a+b=c?",
+      "source": "https://export.arxiv.org/pdf/2607.07641v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1312-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1312-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1312-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1312-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1312-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1312-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1312-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1312-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1312-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1312-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ANALYTIC-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1509",
+      "statement_id": "ffda628de2bac43d0ec3",
+      "text": "For every separable f∈Z[x] of degree≥4 with no fixed prime-square divisor, is #{1≤n≤X:f(n) squarefree}∼X∏_{p prime}(1−ρ_f(p²)/p²)?",
+      "source": "https://www.imsc.res.in/xmlui/bitstream/handle/123456789/920/HBNI-TH-279-ArunabhaMukhopadhyay.pdf?isAllowed=y&sequence=1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1509-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1509-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1509-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1509-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1509-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1509-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1509-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1509-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1509-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1509-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ANALYTIC-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Correct Euler-product squarefree asymptotics transfer to finite products of pairwise coprime separable factors. Unconditional factor-degree≤3 class; conditional imported quartic theorem expands cutoff to4. Restricted scope: Constituent factor asymptotics required; irreducible factors of degree≥5 remain unresolved. Remaining: A product-transfer theorem is proved. Factor degrees<=3 are unconditional using classical input. Factor degrees<=4 are conditional on the unverified imported quartic theorem; irreducible factors of degree>=5 remain outside this consequence. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1509",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1510",
+      "statement_id": "88eed316b86c7cab6b69",
+      "text": "For every separable f∈Z[x] of degree≥4 with c_f>0, is N_f(X)∼c_f X/log X?",
+      "source": "https://people.math.harvard.edu/~hpasten/preprints/SqfPrimIJNT.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1510-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1510-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1510-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1510-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1510-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1510-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1510-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1510-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1510-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q1510-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ANALYTIC-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Prime-argument constituent asymptotics transfer to finite products. Integer-argument asymptotic does not supply this hypothesis. Explicit f=x(x+1)(x²+1) is integer-admissible but has only prime argument2 yielding a squarefree value. Restricted scope: Constituent asymptotics must hold at prime arguments; the explicit example has prime local constant0 and is not a counterexample to retained statement. Remaining: Constituent prime-argument asymptotics are still required. Integer-argument statements do not supply them; general higher irreducible degrees remain unresolved. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1510",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1511",
+      "statement_id": "0f88e5baee08af4d6f4f",
+      "text": "For every integer k>1, is (x,y,z)=(k−1,1,2) the only positive-integer solution of x²+(2k−1)^y=k^z?",
+      "source": "https://export.arxiv.org/pdf/2301.05431",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1511-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1511-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1511-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1511-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1511-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1511-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1511-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1511-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1511-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1511-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/POWER-EQUATION-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "No positive-integer solution exists when y is 3 or 5 and either z is even or k is a square. Repaired a false eventual-positivity threshold in source Lemma 2.3; verified all eight polynomial gap arguments and necessary small-base cases. Restricted scope: Proved subcase y in {3,5} and (z even or k a square); the full uniqueness conclusion is not asserted. Remaining: All other y, and y=3 or 5 with nonsquare k and odd z, remain outside the repaired partial theorem. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1511",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1608",
+      "statement_id": "a2149a20f47eba9e27ee",
+      "text": "Is (a^n+1)(b^n+1)=x² impossible for every n≥4?",
+      "source": "https://export.arxiv.org/pdf/2606.31223v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1608-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1608-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1608-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1608-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1608-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1608-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1608-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1608-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1608-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1608-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/POWER-EQUATION-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1609",
+      "statement_id": "56c577fc2add1efcbecd",
+      "text": "Are the only solutions of (a³+1)(b³+1)=x² the triples (1,23,156), (6,26, 1953), and (20,362,616077)?",
+      "source": "https://export.arxiv.org/pdf/2606.31223v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1609-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1609-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1609-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1609-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1609-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1609-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1609-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1609-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1609-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1609-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/POWER-EQUATION-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "The listed three triples are exactly all admissible solutions with b<=10000000. Restricted scope: Retained source setup 1<=a<b and positive x; additional finite bound b<=10000000. Remaining: All b>10000000 remain outside the exact search. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1609",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1610",
+      "statement_id": "746ff7ed37b5c6eff82f",
+      "text": "Is (a^n−1)(b^n−1)=x² impossible for every n≥5?",
+      "source": "https://export.arxiv.org/pdf/2606.31223v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1610-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1610-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1610-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1610-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1610-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1610-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1610-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1610-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1610-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1610-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/POWER-EQUATION-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1611",
+      "statement_id": "77f199e22acb02c0e966",
+      "text": "Are the only solutions of (a³−1)(b³−1)=x² the triples (2,4,21), (2,22,273), (3,313,28236), and (4,22,819)?",
+      "source": "https://export.arxiv.org/pdf/2606.31223v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1611-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1611-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1611-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1611-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1611-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1611-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1611-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1611-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1611-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POWER-EQUATION-ATTEMPTS.md#q1611-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/POWER-EQUATION-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "The listed four triples are exactly all admissible solutions with b<=10000000. Restricted scope: Retained source setup 1<a<b and positive x; additional finite bound b<=10000000. Remaining: All b>10000000 remain outside the exact search. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1611",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1612",
+      "statement_id": "4211038b2f8f58510864",
+      "text": "For every finite S, is there N(S) such that every S-polynomial f∈ℤ[x] splitting over ℚ has deg f≤N(S)?",
+      "source": "https://dea.lib.unideb.hu/server/api/core/bitstreams/b0c2409b-44fa-47f4-9edc-ed6df4b24ac8/content",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1612-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1612-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1612-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1612-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1612-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1612-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1612-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1612-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1612-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1612-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "The checked primary source gives degree≤3 whenever2,3 are both absent from S. Restricted scope: Restrict S to finite prime sets excluding2 and3; this is a known source theorem, not a new proof. Remaining: General finite S, especially those containing 2 or 3, remains unresolved. The reported degree<=3 subcase is a source result. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1612",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1613",
+      "statement_id": "75f7fe19d171998305b3",
+      "text": "For every prime p, does a constant c(p) bound the number of nonzero base-p digits of deg(f)+1 whenever f∈ℤ[x] splits over ℚ and no coefficient is divisible by p? Can c(p)=p−1 always be used?",
+      "source": "https://dea.lib.unideb.hu/server/api/core/bitstreams/b0c2409b-44fa-47f4-9edc-ed6df4b24ac8/content",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1613-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1613-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1613-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1613-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1613-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1613-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1613-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1613-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1613-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md#q1613-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/POLYNOMIAL-DIGIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Exact equivalence to split finite-field polynomials with all coefficients nonzero. If all roots reduce to the same nonzero class, deg(f)+1 has one nonzero digit; entire p=2 case follows. Primary-source comparison confirms reported p=3,5 cases. Restricted scope: One-root-class restriction for arbitrary primes; p=3,5 computations/proofs were not rerun locally. Remaining: General primes with more than one nonzero root residue class, and the proposed universal p-1 digit bound, are not proved. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1613",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1860",
+      "statement_id": "1bbd790f1e916985ec31",
+      "text": "Is lim_(n→∞) Λ_(n,3)=9/22?",
+      "source": "https://export.arxiv.org/pdf/2609.18474",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Full parity-class optimization plus unrestricted reduction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a1",
+          "id": "Q1860-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Cyclic rainbow-triangle certificate coefficient",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a2",
+          "id": "Q1860-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Consecutive-block scaling carry",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a3",
+          "id": "Q1860-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Class-size-only correlation bound",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a4",
+          "id": "Q1860-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Uniform one-step rainbow increment induction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1860-ATTEMPTS.md#a5",
+          "id": "Q1860-A5"
+        }
+      ],
+      "evidence": [
+        "paley/colouring/Q1860-ATTEMPTS.md",
+        "paley/colouring/COLOUR-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": null,
+      "owner": "/root/b14_local_optima",
+      "review": "ROOT-REVIEW.md#colouring"
+    },
+    {
+      "target": "Q1861",
+      "statement_id": "17b96fc493616f6da52c",
+      "text": "Determine liminf_(n→∞) Λ_(n,4) and limsup_(n→∞) Λ_(n,4), including whether they coincide.",
+      "source": "https://export.arxiv.org/pdf/2609.18474",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Universal consecutive-block convergence lift",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a1",
+          "id": "Q1861-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Prefix increment inequalities imply convergence",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a2",
+          "id": "Q1861-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Translated-copy Fekete assembly",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a3",
+          "id": "Q1861-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Two-prefix two-tail palette construction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a4",
+          "id": "Q1861-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Uniform random refinement of parity optimum",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/colouring/Q1861-ATTEMPTS.md#a5",
+          "id": "Q1861-A5"
+        }
+      ],
+      "evidence": [
+        "paley/colouring/Q1861-ATTEMPTS.md",
+        "paley/colouring/COLOUR-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Independently verified root-agent construction giving density50368/90905 by exact integer lattice counts at n=t·90905 for t=1,2,3,10,100; checked rectangle counting formula in2548 small cases. Proved liminf Lambda_(n,4)>=50368/90905 with an explicit nine-interval coloring. For all integers t>=1, R_(90905t)=2289351520t^2+25184t; an integer inclusion-exclusion identity certifies every scale. Restricted scope: No hypothesis restriction for the lower-bound theorem; only a one-sided conclusion from the retained determination problem is proved. Remaining: The exact liminf, limsup, and their equality remain unresolved; the cited upper bound 3/4 remains. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q1861",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root/b14_local_optima",
+      "review": "ROOT-REVIEW.md#colouring"
+    },
+    {
+      "target": "Q1903",
+      "statement_id": "6f77af6017250e8f5f73",
+      "text": "Does a rational Diophantine septuple exist?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1903-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1903-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1903-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1903-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1903-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1903-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1903-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1903-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1903-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1903-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/TUPLE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1904",
+      "statement_id": "ffe6233da22c4944b875",
+      "text": "Does a rational Diophantine sextuple with at least two integer elements exist?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1904-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1904-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1904-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1904-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1904-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1904-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1904-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1904-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1904-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1904-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/TUPLE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1905",
+      "statement_id": "993c5519c53ce33a2045",
+      "text": "Do four distinct nonzero rationals a₁,…,a₄ exist with a_i a_j+1 a rational square for every 1≤i,j≤4?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1905-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1905-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1905-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1905-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1905-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1905-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1905-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1905-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1905-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1905-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/TUPLE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1906",
+      "statement_id": "ecfc3848aae38321043a",
+      "text": "Do six distinct positive integers a₁,a₂,a₃,b₁,b₂,b₃ exist with a_i b_j+1 square for every i,j?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1906-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1906-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1906-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1906-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1906-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1906-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1906-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1906-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1906-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1906-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/TUPLE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1907",
+      "statement_id": "ef826ba72180d89f7c12",
+      "text": "Do distinct positive integers a₁,a₂,a₃ exist such that ∏_{i=1}³(a_i x+1) is square for at least six positive integers x?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1907-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1907-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1907-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1907-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1907-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1907-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1907-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1907-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1907-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1907-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/TUPLE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1908",
+      "statement_id": "86bfeed53339e892c665",
+      "text": "For every D(−1)-triple {a,b,c} and positive integer d with ad+1,bd+1,cd+1 squares, must (d+a+b−c)²=4(ab−1)(cd+1)?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q1908-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1908-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1908-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1908-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1908-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1908-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1908-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1908-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q1908-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q1908-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/TUPLE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q1959",
+      "statement_id": "65d0b4c5a86887c26fd5",
+      "text": "Is the maximum size of a 3-cube-free subset of {1,…,N} at most (2/3+o(1))N as N→∞?",
+      "source": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i1p16/pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Almost lossless modular embedding",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a1",
+          "id": "Q1959-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Smallest doubled-pair translation estimate",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a2",
+          "id": "Q1959-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Full basic cube-hyperedge LP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a3",
+          "id": "Q1959-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Density-only seven-form correlation factorization",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a4",
+          "id": "Q1959-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Upward order compression",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1959-ATTEMPTS.md#a5",
+          "id": "Q1959-A5"
+        }
+      ],
+      "evidence": [
+        "paley/cubes/Q1959-ATTEMPTS.md",
+        "paley/cubes/CUBE-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": null,
+      "owner": "/root/b14_local_optima",
+      "review": "ROOT-REVIEW.md#cubes"
+    },
+    {
+      "target": "Q1960",
+      "statement_id": "5bcb37e9988a37da8cc3",
+      "text": "For all integers d≥2 and N divisible by d, must every d-cube-free A⊆Z/NZ satisfy |A|≤(d−1)N/d?",
+      "source": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v33i1p16/pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Meng diagonal-progression sufficient theorem",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a1",
+          "id": "Q1960-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "CRT fiber preservation induction",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a2",
+          "id": "Q1960-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Dimension induction through translated links",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a3",
+          "id": "Q1960-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Density-only joint-form counting",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a4",
+          "id": "Q1960-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Maximum-cardinality quotient-fiber classification",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1960-ATTEMPTS.md#a5",
+          "id": "Q1960-A5"
+        }
+      ],
+      "evidence": [
+        "paley/cubes/Q1960-ATTEMPTS.md",
+        "paley/cubes/CUBE-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": null,
+      "owner": "/root/b14_local_optima",
+      "review": "ROOT-REVIEW.md#cubes"
+    },
+    {
+      "target": "Q1961",
+      "statement_id": "dfe8135fbdbcd3117dc4",
+      "text": "For every integer n≥3, must a projective-3-cube-free subset of Z/(2^n)Z have at most 5·2^(n−3) elements?",
+      "source": "https://export.arxiv.org/pdf/1810.01225",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Largest-layer deterministic compression",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a1",
+          "id": "Q1961-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Parity induction with intermediate density gap",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a2",
+          "id": "Q1961-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Lowering four-translate intersection threshold",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a3",
+          "id": "Q1961-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Unit-averaged linear cube marginal relaxation",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a4",
+          "id": "Q1961-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Pure diagonal weakening of source Conjecture5.2",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/cubes/Q1961-ATTEMPTS.md#a5",
+          "id": "Q1961-A5"
+        }
+      ],
+      "evidence": [
+        "paley/cubes/Q1961-ATTEMPTS.md",
+        "paley/cubes/CUBE-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": null,
+      "owner": "/root/b14_local_optima",
+      "review": "ROOT-REVIEW.md#cubes"
+    },
+    {
+      "target": "Q2008",
+      "statement_id": "36753dcad26060a463f6",
+      "text": "Is every abelian group isomorphic to the ideal class group of a half-factorial Dedekind domain?",
+      "source": "https://export.arxiv.org/pdf/2502.21020v3",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2008-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2008-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2008-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2008-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2008-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2008-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2008-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2008-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2008-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2008-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/MONOID-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2010",
+      "statement_id": "9413185b6a31098502e0",
+      "text": "For prime N≥29, if E/K has a K-rational point of order N and N∤c(E/K), must M(K)≥(N−1)/2?",
+      "source": "https://dinolorenzini.franklinresearch.uga.edu/sites/default/files/Lorenzini2024August1.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2010-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2010-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2010-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2010-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2010-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2010-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2010-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2010-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2010-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2010-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/TORSION-UNIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2011",
+      "statement_id": "910e657e85689a64c8c1",
+      "text": "Are there only finitely many Q-isomorphism classes of fields K with [K:Q]∈{6,7} and M(K)>7?",
+      "source": "https://dinolorenzini.franklinresearch.uga.edu/sites/default/files/Lorenzini2024August1.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2011-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2011-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2011-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2011-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2011-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2011-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2011-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2011-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2011-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2011-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/TORSION-UNIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "M(K)>7 forces no residue field of order≤7. Exact possible factorization types of2 are classified for degree6 and7; in degree7,2 must be unramified. Restricted scope: Necessary local restrictions only; no finiteness proof. Remaining: Necessary residue-degree restrictions do not establish finiteness of the field isomorphism classes. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2011",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2187",
+      "statement_id": "6a0c75d8af9af7e1c137",
+      "text": "Do absolute C,K>0 satisfy ω(G_p)≤C(log p)^K for every prime p≡1 mod 4?",
+      "source": "https://export.arxiv.org/pdf/2211.02713",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Collective fourth-moment bootstrap with individual Weil estimates",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a1",
+          "id": "Q2187-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Moving-degree localization to polylogarithmic scale",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a2",
+          "id": "Q2187-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Optimized full degree-four SOS certificate",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a3",
+          "id": "Q2187-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Size-only small-doubling precursor to sum-product",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a4",
+          "id": "Q2187-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Approximate multiplicative concentration from residue membership",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2187-ATTEMPTS.md#a5",
+          "id": "Q2187-A5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2187-ATTEMPTS.md",
+        "paley/ROUTE-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Global degree-two clique theta, even with entrywise nonnegativity, equals sqrt(p). All 29 eligible prime clique numbers p<=300 exactly certified. On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators. Restricted scope: Finite computations restrict p to all primes <=300 congruent to 1 modulo 4. Remaining: The original asymptotic quantifiers are not established. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2187",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "review": "ROOT-REVIEW.md#paley",
+      "owner": "/root/b14_local_optima"
+    },
+    {
+      "target": "Q2188",
+      "statement_id": "277f454289360bbd69ef",
+      "text": "Does some ε>0 satisfy SOS₄(G_p)=O(p^{1/2−ε}) as p→∞ through primes p≡1 mod 4?",
+      "source": "https://export.arxiv.org/pdf/2211.02713",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "One-local theta power-saving transfer",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a1",
+          "id": "Q2188-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Two-anchor conditional positivity from degree-four moments",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a2",
+          "id": "Q2188-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Affine averaging to identify full and FK optima",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a3",
+          "id": "Q2188-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Project constants away in graph-matrix analysis",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a4",
+          "id": "Q2188-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Simultaneous scalar Fourier diagonalization of orbit moments",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2188-ATTEMPTS.md#a5",
+          "id": "Q2188-A5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2188-ATTEMPTS.md",
+        "paley/ROUTE-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Proved SOS4(G_p)<=1+theta(complement(L_p)), where L_p is the one-local residue graph. Ordinary one-local rational Fourier duals give certified finite SOS4 upper bounds for every eligible p<=300. On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators. Restricted scope: Finite computations restrict p to all primes <=300 congruent to 1 modulo 4. Remaining: The original asymptotic quantifiers are not established. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2188",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "review": "ROOT-REVIEW.md#paley",
+      "owner": "/root/b14_local_optima"
+    },
+    {
+      "target": "Q2189",
+      "statement_id": "b7cebb91447185f8bc65",
+      "text": "Are there infinitely many such p with 1+τ₊(H_p)<⌊(1+√(2p−1))/2⌋?",
+      "source": "https://export.arxiv.org/pdf/1907.05971",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Adjacency-only Hoffman/Jacobi spectral magic dual",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a1",
+          "id": "Q2189-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Bounded Fourier-rank positive magic function",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a2",
+          "id": "Q2189-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Lift combinatorial Hanson-Petridis bound to theta LP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a3",
+          "id": "Q2189-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Integralize the cyclic theta LP before rounding",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a4",
+          "id": "Q2189-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Tensor-amplify a finite seed certificate",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2189-ATTEMPTS.md#a5",
+          "id": "Q2189-A5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2189-ATTEMPTS.md",
+        "paley/THETA-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Exactly p=61 and p=281 satisfy the strict inequality among eligible primes p<=300, with both directions certified. The two examples are already present numerically in the source and are not claimed new. On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators. Restricted scope: Finite computations restrict p to all primes <=300 congruent to 1 modulo 4. Remaining: The original asymptotic quantifiers are not established. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2189",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "review": "ROOT-REVIEW.md#paley",
+      "owner": "/root/b14_local_optima"
+    },
+    {
+      "target": "Q2190",
+      "statement_id": "858e236a2a78c67c9b1f",
+      "text": "Does there exist ε>0 such that θ(H_p)≤(1/√2−ε)√p for all sufficiently large primes p≡1 mod 4?",
+      "source": "https://export.arxiv.org/pdf/2303.16475",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Predicted edge plus scalar Hoffman ratio",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a1",
+          "id": "Q2190-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Inherited multiplicative circulant diagonalization",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a2",
+          "id": "Q2190-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Iterative degree-two theta pseudo-conditioning",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a3",
+          "id": "Q2190-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Elliptic degree regularization and corrected dual",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a4",
+          "id": "Q2190-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Projective S3 averaging to scalar LP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2190-ATTEMPTS.md#a5",
+          "id": "Q2190-A5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2190-ATTEMPTS.md",
+        "paley/TWO-LOCAL-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Rational theta dual upper bounds certified on all 29 eligible primes p<=300. After adding two and taking floors, 18/29 match the exact clique number and 21/29 improve the HP floor. On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators. Restricted scope: Finite computations restrict p to all primes <=300 congruent to 1 modulo 4. Remaining: The original asymptotic quantifiers are not established. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2190",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "review": "ROOT-REVIEW.md#paley",
+      "owner": "/root/b14_local_optima"
+    },
+    {
+      "target": "Q2191",
+      "statement_id": "68bd7a5a8c3e1ff55f95",
+      "text": "Do absolute C,α>0 and 0<δ<√2−1 exist such that (1−δ)||x||₂²≤||Φ_px||₂²≤(1+δ)||x||₂² for every x supported on at most Cp/(log p)^α coordinates and all sufficiently large such p?",
+      "source": "https://export.arxiv.org/pdf/1202.1234",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Exact conference powers after support compression",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a1",
+          "id": "Q2191-A1"
+        },
+        {
+          "attempt": 2,
+          "route": "Symmetry randomization to random-row sampling",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a2",
+          "id": "Q2191-A2"
+        },
+        {
+          "attempt": 3,
+          "route": "Algebraic norm quantification of full spark",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a3",
+          "id": "Q2191-A3"
+        },
+        {
+          "attempt": 4,
+          "route": "Individual uncertainty to flat joint phase cancellation",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a4",
+          "id": "Q2191-A4"
+        },
+        {
+          "attempt": 5,
+          "route": "Random-support fourth moment to worst-support RIP",
+          "outcome": "full_target_failure",
+          "root_review_accepted": true,
+          "evidence": "paley/Q2191-ATTEMPTS.md#a5",
+          "id": "Q2191-A5"
+        }
+      ],
+      "evidence": [
+        "paley/Q2191-ATTEMPTS.md",
+        "paley/RIP-CHECK-RESULTS.json"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Proved delta_k=(k-1)/sqrt(p) if and only if k<=omega(G_p)+1. For k>=omega+2, proved delta_k<=min(1,(k-4+sqrt(k^2+4k-12))/(2sqrt(p))). Fixed-delta Q2191 must be distinguished from polynomially decaying RIP and stronger quantitative profiles in Satake. On the mean-zero space, the completed multiplicative-character basis is flat relative to nontrivial additive characters; exact-support uncertainty is vacuous for nonconstant rational functions, including centered indicators. Restricted scope: The coherence-saturation and first-gap theorems hold for every eligible prime and finite support size. Computations restrict p<=300. No near-linear sparsity estimate is proved. Remaining: The original asymptotic quantifiers are not established. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2191",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "review": "ROOT-REVIEW.md#paley",
+      "owner": "/root/b14_local_optima"
+    },
+    {
+      "target": "Q2203",
+      "statement_id": "f44a7194398e19780ec5",
+      "text": "For every m≥1, does an integer r(m) exist such that every r(m)-regular E in m variables is regular?",
+      "source": "https://www.math.ucdavis.edu/~webfiles/dissertations/202303_Wesley_Jack_dissertation.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2203-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2203-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2203-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2203-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2203-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2203-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2203-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2203-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2203-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2203-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/RAMSEY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2210",
+      "statement_id": "be959fff2c1da528a958",
+      "text": "For every finite nonempty L⊆{2,3,…}, does some A∈P satisfy L(A)=L?",
+      "source": "https://export.arxiv.org/pdf/2508.10209v2",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2210-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2210-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2210-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2210-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2210-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2210-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2210-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2210-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2210-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2210-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/MONOID-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Every singleton length set{k} realized by a base-three Boolean cube. Exact exhaustive search of all65536 sets containing0 in[0,16] gives seven displayed length-set witnesses, independently checked. Restricted scope: Universal claim restricted to singleton L; bounded computation does not rule out witnesses beyond maximum16. Remaining: Arbitrary finite nonempty length sets remain unresolved; the exhaustive computation is restricted to sets in [0,16]. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2210",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2213",
+      "statement_id": "ca6484e601099abf0ee7",
+      "text": "Is E(G)=d(G)+|G| for every finite nonabelian group G?",
+      "source": "https://export.arxiv.org/pdf/2608.23319v2",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2213-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2213-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2213-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2213-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2213-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2213-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2213-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2213-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2213-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2213-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/MONOID-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Universal lower bound E(G)≥d(G)+|G| proved by adding |G|−1 identities to a product-one-free sequence. Restricted scope: Remaining universal direction is E(G)≤d(G)+|G|. This is a standard necessary bound. Remaining: The reverse inequality E(G)<=d(G)+|G| remains the substantive universal target. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2213",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2215",
+      "statement_id": "235fbd589621177ad36d",
+      "text": "If R⊆N satisfies |(R△Q)∩[1,X]|=o(√X) as X→∞, is it impossible to have R=A+B with A,B⊆N and |A|,|B|≥2?",
+      "source": "https://link.springer.com/content/pdf/10.1007/s00493-025-00193-9.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2215-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md#q2215-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2215-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md#q2215-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2215-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md#q2215-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2215-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md#q2215-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2215-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md#q2215-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/APPROXIMATE-SQUARE-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Any decomposition under the retained hypotheses has both summands infinite, A(X),B(X)=o(√X), liminf |(R\\Q)∩[1,X]|/X^(1/4)≥1, and the stronger bound E(X)≫_η X^(1/3−η) for every η>0. Thus irreducibility holds for perturbations O(X^(1/3−δ)) for any fixed δ>0. Restricted scope: The full o(√X) perturbation class remains unresolved. Remaining: The necessary error lower bound is X^(1/3-o(1)); it does not exclude every o(sqrt(X)) perturbation, nor every o(X^(1/3)) perturbation. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2215",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2216",
+      "statement_id": "df34eaaa5ab7e530f259",
+      "text": "Does an absolute C exist such that min(|A|,|B|)≤C for every ε∈{−1,1} and every pair with BD₂(ε)?",
+      "source": "https://link.springer.com/content/pdf/10.1007/s40993-026-00709-2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2216-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/BIPARTITE-SQUARE-ATTEMPTS.md#q2216-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2216-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/BIPARTITE-SQUARE-ATTEMPTS.md#q2216-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2216-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/BIPARTITE-SQUARE-ATTEMPTS.md#q2216-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2216-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/BIPARTITE-SQUARE-ATTEMPTS.md#q2216-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2216-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/BIPARTITE-SQUARE-ATTEMPTS.md#q2216-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/BIPARTITE-SQUARE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2217",
+      "statement_id": "19c8d772d81df73beca8",
+      "text": "Does a cancellative torsion-free commutative monoid M with rank-one Grothendieck group exist such that M is almost atomic but P_fin(M) is not?",
+      "source": "https://export.arxiv.org/pdf/2501.03407v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2217-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2217-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2217-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2217-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2217-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2217-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2217-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2217-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2217-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2217-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/MONOID-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Any counterexample must be a proper Puiseux monoid with positive elements accumulating at0. Groups and monoids with positive lower gap have atomic power monoids. Restricted scope: Necessary restriction; no rank-one counterexample or ascent theorem for accumulating Puiseux monoids. Remaining: The case of a proper nonnegative rational monoid with positive elements accumulating at zero remains unresolved. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2217",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2306",
+      "statement_id": "c8a9d6037b292fdf3b04",
+      "text": "Does some imaginary quadratic field K have a D(1)-quintuple in its ring of integers O_K?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2306-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q2306-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2306-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q2306-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2306-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q2306-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2306-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q2306-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2306-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/TUPLE-ATTEMPTS.md#q2306-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/TUPLE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2307",
+      "statement_id": "388e074f811c33b3c869",
+      "text": "Does an elliptic curve E/Q exist with E(Q)_tors≅C₂×C₈ and rank E(Q)=4?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2307-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2307-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2307-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2307-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2307-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2307-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2307-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2307-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2307-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2307-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/TORSION-UNIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2308",
+      "statement_id": "b97d79c1f4837f05055a",
+      "text": "Are there infinitely many elliptic curves E/Q with E(Q)_tors≅C₂×C₈ and rank E(Q)≥2?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2308-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2308-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2308-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2308-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2308-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2308-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2308-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2308-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2308-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2308-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/TORSION-UNIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2309",
+      "statement_id": "c2919a57f718e86ebf52",
+      "text": "Does a Diophantine triple {a,b,c} exist whose curve y²=(ax+1)(bx+1)(cx+1) has rational torsion group C₂×C₆?",
+      "source": "https://web.math.pmf.unizg.hr/~duje/pdf/open2.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2309-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2309-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2309-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2309-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2309-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2309-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2309-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2309-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2309-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q2309-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/TORSION-UNIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2314",
+      "statement_id": "5a4ccc40e698f43e2bbe",
+      "text": "Is {(x,y,z,t):xyz+t²+1=0} a finite union of polynomial families?",
+      "source": "https://export.arxiv.org/pdf/2404.08518v10",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2314-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2314-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2314-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2314-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2314-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2314-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2314-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2314-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2314-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2314-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/SMALL-EQUATIONS-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Constructed a Zariski-dense integer polynomial family with three parameters; gave an exact integer solution outside it and every sign/permutation copy. This is a limitation of that family, not a disproof of finite polynomial parametrization. Restricted scope: One explicit polynomial family and its sign/permutation copies are studied, not every possible finite union. Remaining: The displayed dense family and its symmetries are incomplete; a different finite union of polynomial families is neither constructed nor excluded. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2314",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2315",
+      "statement_id": "fe5ce4fae3105179737a",
+      "text": "Does x⁴+x³y−y⁴+y³z+z⁴=0 have a solution (x,y,z)≠(0,0,0)?",
+      "source": "https://export.arxiv.org/pdf/2404.08518v10",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2315-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2315-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2315-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2315-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2315-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2315-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2315-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2315-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2315-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2315-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/SMALL-EQUATIONS-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "The projective quartic is smooth of genus 3 over Q and has a real point and a primitive Z_p point for every prime p. Therefore no finite modulus supplies a primitive local obstruction. Global nonzero integer existence remains unresolved. Restricted scope: The proved solvability statement is over R and every Z_p, not over Z or Q. Remaining: Everywhere local solubility is proved; a nonzero rational/projective point, equivalently nonzero integer point, is not supplied. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2315",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2316",
+      "statement_id": "210ee10d0d0097b4ee16",
+      "text": "Does x³+x+y³+y+z³+z=xyz+1 have an integer solution?",
+      "source": "https://export.arxiv.org/pdf/2404.08518v10",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2316-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2316-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2316-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2316-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2316-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2316-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2316-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2316-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2316-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SMALL-EQUATIONS-ATTEMPTS.md#q2316-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/SMALL-EQUATIONS-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "Found exact rational point (-13/20,-79/20,21/5), proved Z_p-solubility for every prime, and ruled out any integer coordinate 0 or +/-1. Integer existence remains unresolved. Restricted scope: The explicit global point is rational; the proved integral solvability is over each Z_p separately. Remaining: The rational point and every-p-adic integral points do not supply an integer point. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2316",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2414",
+      "statement_id": "fbf539f5a7f03f1da075",
+      "text": "For every n,m>1, is the non-cyclotomic part of Φ_n(x)+Φ_m(x) either 2 or irreducible?",
+      "source": "https://export.arxiv.org/pdf/2610.05568v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2414-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2414-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2414-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2414-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2414-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2414-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2414-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2414-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2414-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2414-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/FACTOR-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "For n=2^r,m=2^s with r,s≥1, equal indices leave2 and unequal indices give an irreducible entire sum. Restricted scope: Both indices restricted to powers of2; numbering provisional. Remaining: Indices not both powers of two remain outside the proved subfamily. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2414",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2415",
+      "statement_id": "a06b211ca02e3eb359fa",
+      "text": "For every n,m>1, is the non-cyclotomic part of Φ_n(x)Φ_m(x)+1 irreducible?",
+      "source": "https://export.arxiv.org/pdf/2610.05568v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2415-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2415-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2415-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2415-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2415-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2415-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2415-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2415-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2415-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/FACTOR-ATTEMPTS.md#q2415-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/FACTOR-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "For n=m=2^r, r≥1, the polynomial is Eisenstein at2 and therefore irreducible. Restricted scope: Equal indices restricted to powers of2; numbering provisional. Remaining: Pairs other than equal powers of two remain outside the proved subfamily. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2415",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2462",
+      "statement_id": "ab65e680b82754944885",
+      "text": "If no nonempty subset of the coefficients sums to zero, determine lim_(ε↓0)d(L,ε).",
+      "source": "https://doi.org/10.1112/blms.70436",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2462-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2462-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2462-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2462-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2462-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2462-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2462-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2462-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2462-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2462-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/RAMSEY-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "For every fixed k>=3 and nonzero integer c, the equation c(x1+...+xk)=0 satisfies d(L,epsilon)=1/k for every fixed epsilon>0. The general epsilon-down-to-zero limit exists by monotonicity; its value for arbitrary nondegenerate coefficients remains unresolved. Restricted scope: All coefficients equal one fixed nonzero integer c for the evaluated density. Remaining: Arbitrary nondegenerate integer coefficient tuples are not evaluated. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2462",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2468",
+      "statement_id": "3529c68ac8a3205e8a47",
+      "text": "What is the exact value of δχ?",
+      "source": "https://export.arxiv.org/pdf/2603.05490",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2468-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2468-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2468-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2468-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2468-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2468-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2468-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2468-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2468-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2468-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/RAMSEY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2469",
+      "statement_id": "d4554ad68bb1d9e77596",
+      "text": "What is the reverse-mathematical strength over RCA₀ of the assertion: for every commutative ring R, finite m×n matrix A over R and nonzero b∈R^m, if Ax=b has no constant solution, some finite coloring of R has no monochromatic solution?",
+      "source": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2216F591FA017F11AE6C75395D7D63FD/S0022481225101783a.pdf/div-class-title-on-the-effectiveness-of-partition-regularity-over-algebraic-structures-div.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2469-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2469-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2469-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2469-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2469-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2469-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2469-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2469-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2469-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RAMSEY-ATTEMPTS.md#q2469-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/RAMSEY-ATTEMPTS.md"
+      ],
+      "prior_resolution": {
+        "status": "partial",
+        "checked_on": "2026-10-08",
+        "sources": [
+          {
+            "title": "B2 report",
+            "url": "../research/b2-initial-2026-10-07/B2_Research_Report_2026-10-07.md"
+          },
+          {
+            "title": "B2 return review",
+            "url": "../research/b2-initial-2026-10-07.md"
+          }
+        ],
+        "note": "WKL0 proves the retained ring-coloring assertion over RCA0, with at most [3(n-1)]^(n-1) colors for n>=2 and one color for n<=1. A finite-presentation construction avoids comprehension of the range sR; supplied finite integer matrices are diagonalized by an explicit primitive-recursive algorithm. Every PA degree relative to the input can compute a witnessing coloring. Restricted scope: Countable coded commutative rings, as required for the retained second-order arithmetic statement; no additional ring hypothesis. Only an upper bound on logical strength is proved. Remaining: No WKL0 reversal, lower bound on the optimal color count, or exact reverse-mathematical classification is proved. Recorded from the external B2 return as the user directed (backfilled 2026-10-08); selected exact checks in the intake; verification archive not uploaded; not independently re-derived here.",
+        "topic": "b2-return-q2469",
+        "scope": "statement",
+        "exclude_from_open_review": false
+      },
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2613",
+      "statement_id": "73ce89497b6f083441d7",
+      "text": "For every integer n>39, does the partition number p(n) fail to divide n!?",
+      "source": "https://export.arxiv.org/pdf/1401.0300v48",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "An exhaustive witness search",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q2613-a1",
+          "section": "Q2613",
+          "id": "Q2613-A1",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 2,
+          "route": "An asymptotic size contradiction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q2613-a2",
+          "section": "Q2613",
+          "id": "Q2613-A2",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 3,
+          "route": "A large prime factor obstruction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q2613-a3",
+          "section": "Q2613",
+          "id": "Q2613-A3",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 4,
+          "route": "Ramanujan residue classes as a valuation obstruction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q2613-a4",
+          "section": "Q2613",
+          "id": "Q2613-A4",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 5,
+          "route": "Induction through the pentagonal recurrence",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q2613-a5",
+          "section": "Q2613",
+          "id": "Q2613-A5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SEQUENCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2616",
+      "statement_id": "5fef6376adb54a45a70d",
+      "text": "For each i∈{0,1,2}, are there constants 0<c_i≤C_i<∞ with c_i log X≤|A_i∩[1,X]|≤C_i log X for all sufficiently large X?",
+      "source": "https://export.arxiv.org/pdf/2605.06697",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2616-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2616-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2616-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2616-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2616-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2616-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2616-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2616-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2616-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2616-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/NUMBER-THEORY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2617",
+      "statement_id": "ea8381859f5b4d5bae62",
+      "text": "Does a not-necessarily-commutative domain R exist, finitely presented as an algebra over a field, which satisfies ACCP but is not BF?",
+      "source": "https://doi.org/10.1016/j.jalgebra.2023.01.023",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2617-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2617-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2617-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2617-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2617-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2617-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2617-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2617-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2617-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/MONOID-ATTEMPTS.md#q2617-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/MONOID-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2814",
+      "statement_id": "ded2328888b954216a46",
+      "text": "For every real quadratic K of class number 1 with fundamental unit of norm −1, does each e∈E equal ρ(O_f) for infinitely many f≥1?",
+      "source": "https://www.pollack-math.net/maximallyelastic.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2814-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2814-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2814-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2814-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2814-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2814-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2814-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2814-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2814-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2814-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/NUMBER-THEORY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2815",
+      "statement_id": "fb8323698dfdaa8cae8e",
+      "text": "Does every such K admit δ>0 such that, for infinitely many m≥1, v_m has a rational prime divisor p inert in K with p>v_m^δ?",
+      "source": "https://www.pollack-math.net/AMS-UMI-elasticity.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2815-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2815-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2815-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2815-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2815-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2815-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2815-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2815-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2815-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2815-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/NUMBER-THEORY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2816",
+      "statement_id": "dcba0818f29fb51a424a",
+      "text": "Is limsup_(n→∞) [log ω*(n)·log log n/log n]=log 2?",
+      "source": "https://export.arxiv.org/pdf/2510.14167",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2816-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2816-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2816-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2816-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2816-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2816-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2816-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2816-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2816-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2816-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/NUMBER-THEORY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2817",
+      "statement_id": "8d3ae7c7fbc8f0646b77",
+      "text": "For every fixed integer k≥2, does a constant C_k>0 satisfy M_k(x)∼C_k(log x)^(2^k−k−1) as x→∞?",
+      "source": "https://export.arxiv.org/pdf/2510.14167",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2817-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2817-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2817-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2817-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2817-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2817-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2817-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2817-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2817-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/NUMBER-THEORY-ATTEMPTS.md#q2817-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/NUMBER-THEORY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2904",
+      "statement_id": "db7c27389ed560efe75c",
+      "text": "For every integer b≥6, are there infinitely many positive squarefree integers whose base-b digits all belong to {0,1}?",
+      "source": "https://export.arxiv.org/pdf/2504.08502",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2904-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2904-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2904-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2904-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2904-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2904-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2904-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2904-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2904-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2904-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ANALYTIC-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2905",
+      "statement_id": "e48b697269ddc9cac6f8",
+      "text": "Are there infinitely many integers n≥1 for which 2^n−1 is squarefree?",
+      "source": "https://export.arxiv.org/pdf/2504.08502",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2905-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2905-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2905-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2905-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2905-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2905-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2905-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2905-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2905-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2905-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ANALYTIC-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2906",
+      "statement_id": "02b7aa79313d958024b5",
+      "text": "If A⊆N has natural density zero, must {n≥1:s(n)∈A} also have natural density zero?",
+      "source": "https://export.arxiv.org/pdf/2607.18981",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2906-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2906-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2906-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2906-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2906-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2906-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2906-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2906-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2906-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2906-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ANALYTIC-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q2907",
+      "statement_id": "5360b845c17ee015c3b8",
+      "text": "Do distinct odd primes p₁,…,p₅ exist for which Φ_(p₁p₂p₃p₄p₅)(x) is flat?",
+      "source": "https://www.lolathompson.com/uploads/1/1/0/6/110629329/cyclotomic_survey_final.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q2907-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2907-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2907-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2907-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2907-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2907-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2907-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2907-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q2907-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ANALYTIC-ATTEMPTS.md#q2907-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ANALYTIC-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3107",
+      "statement_id": "4728eb30d755432bfd2d",
+      "text": "Are there infinitely many integer triples 1<a<b<c for which both (a,b,c) and (a+1,b+1,c+1) are 3-dependent?",
+      "source": "https://westcoastnumbertheory.org/wp-content/uploads/2025/12/problems-2024-w_cover.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3107-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3107-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3107-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3107-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3107-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3107-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3107-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3107-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3107-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3107-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SHIFT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3109",
+      "statement_id": "9caefed07ef8b866eb31",
+      "text": "Are there infinitely many integer triples 1<a<b<c with (a,b)≠(2,8) and (a,b,c)≠(2,2^x−2,2^{2x}−2^{x+1}) for every integer x≥3, such that (a+j,b+j,c+j) is dependent for j=0,1,2?",
+      "source": "https://jtnb.centre-mersenne.org/item/10.5802/jtnb.1359.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3109-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3109-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3109-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3109-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3109-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3109-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3109-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3109-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3109-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3109-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SHIFT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3110",
+      "statement_id": "f1e522e5c3dd27b6ee71",
+      "text": "Does any integer triple 1<a<b<c make (a+j,b+j,c+j) 3-dependent for every j=0,1,2?",
+      "source": "https://jtnb.centre-mersenne.org/item/10.5802/jtnb.1359.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3110-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3110-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3110-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3110-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3110-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3110-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3110-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3110-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3110-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SHIFT-ATTEMPTS.md#q3110-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SHIFT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3113",
+      "statement_id": "d4e91e097d1d43c16ac5",
+      "text": "For every nonconstant f∈ℤ[x] and every ε>0, are there infinitely many positive integers n with f(n)≠0 for which f(n) is n^ε-smooth?",
+      "source": "https://export.arxiv.org/pdf/2604.25566v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3113-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SMOOTHNESS-ATTEMPTS.md#q3113-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3113-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SMOOTHNESS-ATTEMPTS.md#q3113-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3113-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SMOOTHNESS-ATTEMPTS.md#q3113-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3113-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SMOOTHNESS-ATTEMPTS.md#q3113-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3113-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SMOOTHNESS-ATTEMPTS.md#q3113-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SMOOTHNESS-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3116",
+      "statement_id": "44fb1cc9d1cb2d6554f4",
+      "text": "For every H≤G and cosets α,β∈G/H with β∈⟨α⟩, must d_α(G)≥d_β(G)?",
+      "source": "https://export.arxiv.org/pdf/2605.17595v2",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3116-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3116-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3116-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3116-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3116-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3116-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3116-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3116-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3116-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3116-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3117",
+      "statement_id": "65aebfbae21aebc8cc1e",
+      "text": "For every number field K and orders R⊆T⊆𝒪_K, must ρ(R)≥ρ(T)≥ρ(𝒪_K)?",
+      "source": "https://export.arxiv.org/pdf/2605.17595v2",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3117-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3117-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3117-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3117-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3117-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3117-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3117-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3117-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3117-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3117-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3208",
+      "statement_id": "618f95b65d03d9be7157",
+      "text": "Do sets A,B⊂ℤ with |A|=|B|=5 exist such that a+b is a perfect square for every a∈A and b∈B?",
+      "source": "https://math.colgate.edu/~integers/aa66/aa66.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3208-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SQUARE-SUM-ATTEMPTS.md#q3208-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3208-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SQUARE-SUM-ATTEMPTS.md#q3208-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3208-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SQUARE-SUM-ATTEMPTS.md#q3208-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3208-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SQUARE-SUM-ATTEMPTS.md#q3208-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3208-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "diophantine/SQUARE-SUM-ATTEMPTS.md#q3208-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "diophantine/SQUARE-SUM-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3314",
+      "statement_id": "15f1b056cf4b03b990eb",
+      "text": "Do r≥2 pairwise distinct signed primes x₁,…,x_r and an integer k≥2 exist with k∏_{i=1}^r(x_i−1)=∏_{i=1}^r x_i−1?",
+      "source": "https://math.colgate.edu/~integers/aa33/aa33.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Repair the known repeated-prime witness",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3314-a1",
+          "section": "Q3314",
+          "id": "Q3314-A1",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 2,
+          "route": "Solve the two-factor construction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3314-a2",
+          "section": "Q3314",
+          "id": "Q3314-A2",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 3,
+          "route": "Append a prime to a known seed",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3314-a3",
+          "section": "Q3314",
+          "id": "Q3314-A3",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 4,
+          "route": "Exact signed-prime enumeration",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3314-a4",
+          "section": "Q3314",
+          "id": "Q3314-A4",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 5,
+          "route": "Import a positive Lehmer construction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3314-a5",
+          "section": "Q3314",
+          "id": "Q3314-A5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SEQUENCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3466",
+      "statement_id": "b72dbb84c0e76fc00e5e",
+      "text": "Does ρ(𝒪_{K_i})/ρ(N_{K_i}) tend to infinity as i→∞?",
+      "source": "https://export.arxiv.org/pdf/2510.10018v5",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3466-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3466-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3466-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3466-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3466-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3466-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3466-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3466-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3466-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md#q3466-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/RELATIVE-DAVENPORT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3603",
+      "statement_id": "d0258bd1b882d602a23a",
+      "text": "For every number field K, is there an effectively computable C_K such that max{log|n|,h(epsilon),h(delta)}<=C_K whenever n is a nonzero rational integer and epsilon,delta in O_K^* satisfy epsilon+delta=n, except when Q(epsilon) is real quadratic and delta is its nontrivial Galois conjugate? Here h is the absolute logarithmic Weil height.",
+      "source": "https://export.arxiv.org/pdf/2608.15903",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q3603-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q3603-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3603-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q3603-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3603-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q3603-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3603-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q3603-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q3603-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/TORSION-UNIT-ATTEMPTS.md#q3603-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/TORSION-UNIT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q3715",
+      "statement_id": "dd21caa8ea16f100bedc",
+      "text": "For C_n=binom(2n,n)/(n+1), does every integer n>255 with C_n odd satisfy C_n≡5 (mod 10)?",
+      "source": "https://yurkevi.ch/thesis.pdf",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "The carry reduction and direct exhaustion",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3715-a1",
+          "section": "Q3715",
+          "id": "Q3715-A1",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 2,
+          "route": "A finite modular cover of the exponents",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3715-a2",
+          "section": "Q3715",
+          "id": "Q3715-A2",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 3,
+          "route": "Density exclusion",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3715-a3",
+          "section": "Q3715",
+          "id": "Q3715-A3",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 4,
+          "route": "A synchronized automaton intersection",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3715-a4",
+          "section": "Q3715",
+          "id": "Q3715-A4",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 5,
+          "route": "A fixed-term logarithmic approximation proof",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q3715-a5",
+          "section": "Q3715",
+          "id": "Q3715-A5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SEQUENCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4190",
+      "statement_id": "0bf3e285c0fb5fbe1438",
+      "text": "Does every integer n admit integers u,v,w satisfying T(u)+T(v)+T(w)=n?",
+      "source": "https://researchportal.bath.ac.uk/en/studentTheses/integral-points-on-surfaces/",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Reduce to the triangular-number theorem",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4190-a1",
+          "section": "Q4190",
+          "id": "Q4190-A1",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 2,
+          "route": "Force the centered coordinates to sum to zero",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4190-a2",
+          "section": "Q4190",
+          "id": "Q4190-A2",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 3,
+          "route": "Promote local solubility to integral existence",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4190-a3",
+          "section": "Q4190",
+          "id": "Q4190-A3",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 4,
+          "route": "Apply a three-variable circle-method estimate",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4190-a4",
+          "section": "Q4190",
+          "id": "Q4190-A4",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 5,
+          "route": "Choose one near tetrahedral summand and fill the remainder",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4190-a5",
+          "section": "Q4190",
+          "id": "Q4190-A5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SEQUENCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4196",
+      "statement_id": "7e277ff5595621cf6166",
+      "text": "For every prime p₁≡1 mod 6, is there a finite sequence of pairwise distinct primes p₁,…,p_m, with m≥2, such that p_{i+1} divides g(p_i) for 1≤i<m and p₁ divides g(p_m)?",
+      "source": "https://export.arxiv.org/pdf/2610.10572v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "A finite forward-search construction",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4196-a1",
+          "section": "Q4196",
+          "id": "Q4196-A1",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 2,
+          "route": "A decreasing-factor recursion",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4196-a2",
+          "section": "Q4196",
+          "id": "Q4196-A2",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 3,
+          "route": "Construct an incoming edge by Dirichlet",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4196-a3",
+          "section": "Q4196",
+          "id": "Q4196-A3",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 4,
+          "route": "Close a finite prime-factor set",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4196-a4",
+          "section": "Q4196",
+          "id": "Q4196-A4",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 5,
+          "route": "Use repeated residue trials to force a return",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4196-a5",
+          "section": "Q4196",
+          "id": "Q4196-A5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SEQUENCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4295",
+      "statement_id": "dae618965c0901e101c9",
+      "text": "As a function of positive integers N,k for which admissible partitions of [N]={1,…,N} exist, determine the minimum, over those partitions, of the largest ℓ such that {a,a+d,…,a+(ℓ−1)d}⊆R for integers a and d>0.",
+      "source": "https://export.arxiv.org/pdf/2610.11847v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q4295-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4295-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4295-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4295-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4295-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4295-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4295-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4295-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4295-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4295-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/UNCOLOURED-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4296",
+      "statement_id": "67d9a47fe0b199024fdb",
+      "text": "As a function of positive integers n,k for which admissible partitions of 𝔽₃ⁿ exist, determine the minimum, over those partitions, of the largest dimension of an affine subspace contained in R.",
+      "source": "https://export.arxiv.org/pdf/2610.11847v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q4296-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4296-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4296-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4296-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4296-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4296-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4296-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4296-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4296-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/UNCOLOURED-ATTEMPTS.md#q4296-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/UNCOLOURED-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4302",
+      "statement_id": "251d08503e28c811bfdb",
+      "text": "Is f_k(Γ)=Θ̃(n^(1/k)) as n→∞? Here Θ̃ permits multiplicative powers of log n, with constants depending only on k.",
+      "source": "https://export.arxiv.org/pdf/2610.08629v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q4302-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SUMSET-ROOT-ATTEMPTS.md#q4302-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4302-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SUMSET-ROOT-ATTEMPTS.md#q4302-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4302-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SUMSET-ROOT-ATTEMPTS.md#q4302-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4302-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SUMSET-ROOT-ATTEMPTS.md#q4302-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4302-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SUMSET-ROOT-ATTEMPTS.md#q4302-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SUMSET-ROOT-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4580",
+      "statement_id": "ef4021281b27033a2ddc",
+      "text": "Is there a fixed ε>0 and an algorithm which, given any prime p in binary, computes w_p in O(p^{1/2−ε}) time?",
+      "source": "https://doi.org/10.1137/25M1803139",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Direct modular accumulation",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4580-a1",
+          "section": "Q4580",
+          "id": "Q4580-A1",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 2,
+          "route": "Optimize fixed-block baby-step/giant-step evaluation",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4580-a2",
+          "section": "Q4580",
+          "id": "Q4580-A2",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 3,
+          "route": "Work only over the field F_p",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4580-a3",
+          "section": "Q4580",
+          "id": "Q4580-A3",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 4,
+          "route": "Use a simultaneous remainder table",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4580-a4",
+          "section": "Q4580",
+          "id": "Q4580-A4",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 5,
+          "route": "Pair opposite residues recursively",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4580-a5",
+          "section": "Q4580",
+          "id": "Q4580-A5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SEQUENCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4585",
+      "statement_id": "e639112c4f1115ab8cb0",
+      "text": "Do positive integers N,S,r exist with gcd(N,S)=gcd(S,r)=1 and S³>N such that at least seven distinct positive divisors of N are congruent to r modulo S?",
+      "source": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1744036466436946&disposition=inline",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "route": "Augment a certified six-divisor seed greedily",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4585-a1",
+          "section": "Q4585",
+          "id": "Q4585-A1",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 2,
+          "route": "Scale and duplicate its divisor class",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4585-a2",
+          "section": "Q4585",
+          "id": "Q4585-A2",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 3,
+          "route": "Use seven arbitrary progression representatives",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4585-a3",
+          "section": "Q4585",
+          "id": "Q4585-A3",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 4,
+          "route": "Count complementary divisors in the same class",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4585-a4",
+          "section": "Q4585",
+          "id": "Q4585-A4",
+          "root_review_accepted": true
+        },
+        {
+          "attempt": 5,
+          "route": "Force a populous class by total divisor count",
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/SEQUENCE-ATTEMPTS.md#q4585-a5",
+          "section": "Q4585",
+          "id": "Q4585-A5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/SEQUENCE-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4642",
+      "statement_id": "d2cbd8e18d59a792b250",
+      "text": "For every such K and every integer m≥2, are infinitely many distinct values of p_K divisible by m?",
+      "source": "https://export.arxiv.org/pdf/2409.18080v3",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q4642-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4642-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4642-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4642-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4642-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4642-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4642-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4642-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4642-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4642-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/PARTITION-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4643",
+      "statement_id": "5c6f359cd82d84143486",
+      "text": "For every squarefree D≡1(mod4), are there infinitely many positive integers n with p_K(n) odd and infinitely many with p_K(n) even?",
+      "source": "https://export.arxiv.org/pdf/2310.09980v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q4643-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4643-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4643-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4643-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4643-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4643-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4643-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4643-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4643-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/PARTITION-ATTEMPTS.md#q4643-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/PARTITION-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4659",
+      "statement_id": "18764f1fa618ad06743b",
+      "text": "For every ε>0, does there exist h_ε<∞ such that every such X with H(X)≥h_ε satisfies 2H(X+X′)+H(XX′)≥(4−ε)H(X)?",
+      "source": "https://export.arxiv.org/pdf/2607.29042v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q4659-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4659-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4659-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4659-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4659-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4659-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4659-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4659-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4659-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4659-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ENTROPY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "Q4660",
+      "statement_id": "4e69214fdfaf0bc4e852",
+      "text": "Is 2 the least universal constant C such that H(X−X′)−H(X)≤C[H(X+X′)−H(X)] for every such X?",
+      "source": "https://export.arxiv.org/pdf/2607.29042v1",
+      "status": "failure_limit",
+      "consecutive_failures": 5,
+      "attempts": [
+        {
+          "id": "Q4660-A1",
+          "attempt": 1,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4660-a1",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4660-A2",
+          "attempt": 2,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4660-a2",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4660-A3",
+          "attempt": 3,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4660-a3",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4660-A4",
+          "attempt": 4,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4660-a4",
+          "root_review_accepted": true
+        },
+        {
+          "id": "Q4660-A5",
+          "attempt": 5,
+          "outcome": "full_target_failure",
+          "evidence": "arithmetic/ENTROPY-ATTEMPTS.md#q4660-a5",
+          "root_review_accepted": true
+        }
+      ],
+      "evidence": [
+        "arithmetic/ENTROPY-ATTEMPTS.md"
+      ],
+      "prior_resolution": null,
+      "owner": "/root",
+      "review": "ROOT-REVIEW.md#root-routes"
+    },
+    {
+      "target": "A-TRANSFER",
+      "text": "Establish a useful uniform quantitative transfer between addition and multiplication over prime fields, beyond a tool map or finite experiment: a nonvacuous simultaneous concentration theorem for centered indicators after explicit treatment of constant and point-mass degeneracies, with exact implications and boundaries for Paley targets.",
+      "status": "solved_locally",
+      "consecutive_failures": 0,
+      "attempts": [],
+      "evidence": [
+        "paley/INDICATOR-CONCENTRATION.md",
+        "paley/INDICATOR-CHECK-RESULTS.json"
+      ],
+      "review": "ROOT-REVIEW.md#transfer",
+      "owner": "/root/b14_local_optima"
+    }
+  ],
+  "broader_target_count": 1,
+  "counts": {
+    "failure_limit": 81,
+    "solved_locally": 1
+  },
+  "ownership_counts": {
+    "/root": 71,
+    "/root/b14_local_optima": 10
+  },
+  "completed_on": "2026-10-13",
+  "filing_validation": "FILE-VALIDATION.json"
+}

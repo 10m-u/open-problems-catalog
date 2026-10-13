@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "damaged_certificates_rejected": 8,
+  "controls": [
+    {
+      "control": "dp_wrong_value",
+      "rejected": true
+    },
+    {
+      "control": "dp_missing_state",
+      "rejected": true
+    },
+    {
+      "control": "dp_missing_root_case",
+      "rejected": true
+    },
+    {
+      "control": "flow_capacity_violation",
+      "rejected": true
+    },
+    {
+      "control": "flow_missing_target",
+      "rejected": true
+    },
+    {
+      "control": "metric_asymmetry",
+      "rejected": true
+    },
+    {
+      "control": "wrong_unique_optimum",
+      "rejected": true
+    },
+    {
+      "control": "wrong_nonseparable_optimum",
+      "rejected": true
+    }
+  ],
+  "originals_modified": false,
+  "elapsed_seconds": 0.5943980519998604
+}
