@@ -1,0 +1,686 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:eff6847c43853fa4d82b",
+  "source_review_notes": [
+    "One recommendation, nine technical scope holds, nine fragments/proved-reference exclusions. All19 original pool records individually accounted for.",
+    "Held thesis280 physical pages, printed=physical−12. The new260-page paper is a revised source and its page numbers are not used as thesis PDF locators.",
+    "Read held introduction23–30, definitions/local models71–78 and230–234, exact higher-dimensional proposals256–265, Appendix267–272 and K3 theorem192–193.",
+    "General all-dimensional Conjecture1.7 is not declared solved. Its K3 case already proved in thesis; unformalized higher-dimensional admissibility is recorded as a scope hold."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Evgeny Goncharov\" \"mirror\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Mirrors to Toric Degenerations\" Goncharov"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Goncharov\" \"cubimplices\" conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Conjecture 6.25\" \"toric\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Goncharov\" \"Conjecture A.3\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Goncharov\" \"Log-Smooth Resolutions\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Goncharov\" \"Conjecture 6.25\""
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/pdf/2608.07381v1",
+      "sections_read": "Introduction/setup and exact Conjectures1.7,5.40,6.21–6.28,A.3; latest theorem4.73 and low-dimensional proved scopes. Current vocabulary changes cubimplex to quplex without resolving the same conjecture."
+    },
+    {
+      "url": "https://www.hockeydefinator.com/research",
+      "sections_read": "Current works and in-preparation list; higher-dimensional extension work is not a public theorem closure."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/ka59cb9ab3986.pdf",
+    "sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+    "physical_pages": 280
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "a8249500a251fe87cd1e7c37ae7363022398c4eb3e02b1729fa2bd0c956cf887",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Gross–Siebert reconstruction of higher-dimensional projective-space Batyrev mirrors",
+      "text": "Let k be algebraically closed of characteristic0 and n≥4. Consider the Batyrev degeneration {t f_{n+1}(x₀,…,x_n)+∏_{i=0}^n x_i=0}⊂ℙⁿ×Spec k[[t]], where f_{n+1} is a general homogeneous polynomial of degree n+1, polarized by the anticanonical class. Use its Gross–Siebert dual intersection complex B=∂Conv(e₁,…,e_n,−e₁−⋯−e_n), with the induced integral affine structure. On each adapted slab use the normalized initial function 1+∑_{j=3}^n z^{(n+1)ē_j}, where ē₃,…,ē_n form the slab tangent-lattice basis, with the monodromy transition rules. Can the Gross–Siebert reconstruction algorithm be performed with natural compatible choices despite the failure of local rigidity, producing a toric degeneration mirror in ℙⁿ of the form {η(t)∑_{i=0}^n ϑ_i^{n+1}+∏_{i=0}^nϑ_i=0}, for some η(t)∈k[[t]], and a rational map to the dual Batyrev degeneration in the toric variety of the polar polytope, given by x_i↦ϑ_i in Cox coordinates?",
+      "subject": "Algebraic Geometry & Mirror Symmetry",
+      "citation": "ConjectureA.3, printed259/physical271; setup AppendixA printed255–257/physical267–269",
+      "locator": {
+        "printed_page": 259,
+        "pdf_page": 271,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "scope_review": "Retains the algorithmic existence and chosen initial functions, not merely the familiar Dwork-form hypersurface. The source does not assert uniqueness of reconstruction choices. n=3 is proved PropositionA.1 and is excluded from the open range. The polar is that of the anticanonical ℙⁿ reflexive polytope.",
+      "literature_finding": "Explicitly retained as ConjectureA.3 in theAugust7,2026 revised thesis. The current author page lists further higher-dimensional manuscripts in preparation, with no public claimed closure of this reconstruction problem.",
+      "status_grade": "A: exact conjecture retained in a2026 primary revised source; no openness certification from search absence",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog retrieval for author, toric degeneration, intrinsic mirror and canonical scattering returned no numbered semantic neighbours. No cross-batch geometry question concerns this fixed projective-space reconstruction.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "d719294a23d97f635d53",
+      "statement_ids": [
+        "d719294a23d97f635d53"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ],
+      "number": 4861,
+      "source_locator": {
+        "label": "Conjecture A.3",
+        "printed_page": 259,
+        "held_pdf_page": 271,
+        "original_extraction_page": 271
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "citation": "Conjecture 1.7; actual nearby section checked",
+      "locator": {
+        "printed_page": 11,
+        "pdf_page": 23,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Full all-dimensional Conjecture1.7 is not solved by the K3 Theorem4.73, but the admissible-resolution notion outside the specified local-model families remains a proposed definition (Remarks6.14). Hold the general statement rather than number a circular or weaker ad-hoc resolution condition. Special and minimal-log-CY definitions read; low-dimensional clauses already proved.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "7e4abb24c2571e751608",
+      "statement_ids": [
+        "7e4abb24c2571e751608"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 1; actual nearby section checked",
+      "locator": {
+        "printed_page": 13,
+        "pdf_page": 25,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Citation fragment with misparsed label “Conjecture1”; this is discussion of requiring an SNC central divisor in Conjecture1.7, not a new separately labelled question.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "5e8686e4050a115329c0",
+      "statement_ids": [
+        "5e8686e4050a115329c0"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 1; actual nearby section checked",
+      "locator": {
+        "printed_page": 14,
+        "pdf_page": 26,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Citation fragment announcing TheoremB/Theorem5.35. The correspondence in the K3 setup is a proved theorem in this thesis, not a new open Conjecture1.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "7b2adcee6b86dcd7c607",
+      "statement_ids": [
+        "7b2adcee6b86dcd7c607"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 1; actual nearby section checked",
+      "locator": {
+        "printed_page": 17,
+        "pdf_page": 29,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Introduction outline referring to the later Conjectures6.21/6.23/6.26/6.28, not a separate mathematical conjecture. Preserve references to the actual records.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "bc9c2c92349c05a44fc8",
+      "statement_ids": [
+        "bc9c2c92349c05a44fc8"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 1; actual nearby section checked",
+      "locator": {
+        "printed_page": 66,
+        "pdf_page": 78,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Remarks3.47(1) explains a proved base-change extension for K3 degenerations satisfying Corollary3.45; the extracted fragment is not an open conjecture.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "f67dc8ce1f85915b0279",
+      "statement_ids": [
+        "f67dc8ce1f85915b0279"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 1; actual nearby section checked",
+      "locator": {
+        "printed_page": 66,
+        "pdf_page": 78,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Remark3.47(2) sketches possible extensions to non-divisorial K3 degenerations; no definite class of admissible resolutions or precise conjecture is supplied. Do not promote the surrounding conditional prose.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "33df8a6d3f23ae3a9d3b",
+      "statement_ids": [
+        "33df8a6d3f23ae3a9d3b"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 1.7; actual nearby section checked",
+      "locator": {
+        "printed_page": 66,
+        "pdf_page": 78,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "A comment about why the special hypothesis is retained in higher dimensions, not the statement of a new conjecture.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "111c3f3c0aec3f09a7e3",
+      "statement_ids": [
+        "111c3f3c0aec3f09a7e3"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 1.7; actual nearby section checked",
+      "locator": {
+        "printed_page": 169,
+        "pdf_page": 181,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Remark4.64(1) announcing the stronger proved K3 comparison for toric, integral, homogeneous resolutions, not an unresolved target.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "cbd83001deac0c9b40b8",
+      "statement_ids": [
+        "cbd83001deac0c9b40b8"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 5.40; actual nearby section checked",
+      "locator": {
+        "printed_page": 215,
+        "pdf_page": 227,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Retained in August2026, but exact two base rings k_P^IMS and k_P^TD require the full projective closed-gluing/toric-locus construction of§5.5.3. Hold until those rings and the precise morphism are carried into a standalone setup; do not replace with correspondence over all gluing data, which Remark5.41 treats separately.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "334f97ea96e56f53d6e1",
+      "statement_ids": [
+        "334f97ea96e56f53d6e1"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 6.21; actual nearby section checked",
+      "locator": {
+        "printed_page": 245,
+        "pdf_page": 257,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Retained in August2026. Standard cubimplex means [0,1]^m×standardΔ_k up to integral affine equivalence (Definition6.20), but full target additionally specifies admissible monodromy local models and a respecting singular locus/tubular neighbourhood. Hold pending a portable exact monodromy/singular-locus specification; arbitrary polytopes with any simplex summand are not silently substituted.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "c9cc07ca3ce911d19257",
+      "statement_ids": [
+        "c9cc07ca3ce911d19257"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 6.23; actual nearby section checked",
+      "locator": {
+        "printed_page": 247,
+        "pdf_page": 259,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Retained in August2026. Full target quantifies over decorated punctured-log wall types and chosen resolution/monoid face K, asserting both support classification and polynomial infinite product. Hold pending exact standalone decorated-type, virtual-class and completion setup; a finite formal product identity alone is weaker.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "063b8dd36b6e368bb60a",
+      "statement_ids": [
+        "063b8dd36b6e368bb60a"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 6.24; actual nearby section checked",
+      "locator": {
+        "printed_page": 248,
+        "pdf_page": 260,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Retained in August2026. Exact local two-blowup configuration and wall type data read, but quantification over all decorated types/nonzero virtual counts needs the punctured-log setup. Hold rather than assert that the displayed binomial formal logarithm already proves the virtual counts.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "6be647faa51459c3c21c",
+      "statement_ids": [
+        "6be647faa51459c3c21c"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 6.25; actual nearby section checked",
+      "locator": {
+        "printed_page": 250,
+        "pdf_page": 262,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Retained in August2026. Source writes a∈ℕ although its a^−2 formula excludes0, and gives only compressed hypotheses for a sequence of intersecting hypersurface blowups. Hold until positive a and the boundary/centre admissibility and decorated-wall uniqueness are specified without silently restricting to the known disjoint-SNC cases.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "91e39cea65adf6551fef",
+      "statement_ids": [
+        "91e39cea65adf6551fef"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 6.26; actual nearby section checked",
+      "locator": {
+        "printed_page": 250,
+        "pdf_page": 262,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Retained in August2026. Exact finite-consistency conjecture requires the monoid P, face K, ideal J, moving maximal ideals m_l and Construction3.89 wall data. Hold pending a complete standalone specification; merely existence of some finite diagrams is not the target.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "5f12c468f375fb3b5d9f",
+      "statement_ids": [
+        "5f12c468f375fb3b5d9f"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 6; actual nearby section checked",
+      "locator": {
+        "printed_page": 250,
+        "pdf_page": 262,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Misparsed citation fragment discussing how to prove Conjecture6.26; not an additional target.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "9d78444e8a0704e637c1",
+      "statement_ids": [
+        "9d78444e8a0704e637c1"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 6.28; actual nearby section checked",
+      "locator": {
+        "printed_page": 252,
+        "pdf_page": 264,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Retained in August2026, conditional on three earlier conjectures. Hold until the universal monoid, exceptional splitting and projective gluing subring are specified. Do not promote an unconditional all-dimensional comparison by deleting antecedents.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "7d4e83cd6aafeba16bea",
+      "statement_ids": [
+        "7d4e83cd6aafeba16bea"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 6; actual nearby section checked",
+      "locator": {
+        "printed_page": 252,
+        "pdf_page": 264,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Misparsed continuation of Conjecture6.28, not a new conjecture. Same conditional scope retained in held full record.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "9f0e9cdf14359a94d074",
+      "statement_ids": [
+        "9f0e9cdf14359a94d074"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Conjecture 6; actual nearby section checked",
+      "locator": {
+        "printed_page": 253,
+        "pdf_page": 265,
+        "verified_from": "Actual held Cambridge PDF footer and physical page; body printed=physical−12."
+      },
+      "reason": "Misparsed continuation of Conjecture6.28(3) and a following proposed proof explanation, not a separate target.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.07381v1",
+        "https://www.hockeydefinator.com/research"
+      ],
+      "statement_id": "68a59beb38ea0b55defc",
+      "statement_ids": [
+        "68a59beb38ea0b55defc"
+      ],
+      "source_pdf_sha256": "57461ed8dac12b7c5228bd12f51cf9521b2ba719619dcac7fe6bba7ac34c920d",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Evgeny Goncharov\" \"mirror\"2026",
+        "\"Mirrors to Toric Degenerations\" Goncharov",
+        "\"Goncharov\" \"cubimplices\" conjecture",
+        "\"Conjecture 6.25\" \"toric\"",
+        "\"Goncharov\" \"Conjecture A.3\"",
+        "\"Goncharov\" \"Log-Smooth Resolutions\"2026",
+        "\"Gross-Siebert\" \"Batyrev\" reconstruction \"local rigidity\"2026",
+        "\"Goncharov\" \"Conjecture 6.25\""
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Evgeny Goncharov",
+      "cubimplex",
+      "toric degeneration",
+      "canonical scattering",
+      "intrinsic mirror"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

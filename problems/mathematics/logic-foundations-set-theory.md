@@ -1,6 +1,6 @@
 # Logic, Foundations & Set Theory
 
-451 problems: 437 open, 12 open, partial results, 2 solved here: proved.
+486 problems: 472 open, 12 open, partial results, 2 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -459,3 +459,38 @@ Parts: [1](logic-foundations-set-theory-part-1.md) · [2](logic-foundations-set-
 | <a id="q4742"></a>[Q4742](logic-foundations-set-theory-part-2.md#q4742) | For every admissible α, is there an injective group homomorphism Aut(D_(αe))→Aut(D_α)? | Open |
 | <a id="q4743"></a>[Q4743](logic-foundations-set-theory-part-2.md#q4743) | Assuming V=L, is Aut(D_(αe)) trivial for every infinite regular cardinal α? | Open |
 | <a id="q4745"></a>[Q4745](logic-foundations-set-theory-part-2.md#q4745) | Is there an algorithm deciding, given K and a concept C₀, whether some minimal K-model I… | Open |
+| <a id="q4805"></a>[Q4805](logic-foundations-set-theory-part-2.md#q4805) | Everywhere Borel matching from a connected toast | Open |
+| <a id="q4806"></a>[Q4806](logic-foundations-set-theory-part-2.md#q4806) | Generic optimal edge coloring of one-ended Borel graphs | Open |
+| <a id="q4807"></a>[Q4807](logic-foundations-set-theory-part-2.md#q4807) | Treeability of Archimedean orders on ℤ³ | Open |
+| <a id="q4808"></a>[Q4808](logic-foundations-set-theory-part-2.md#q4808) | Borel complexity of Archimedean orders over ℤ[1/n] | Open |
+| <a id="q4809"></a>[Q4809](logic-foundations-set-theory-part-2.md#q4809) | Borel reducibility between ranks of Archimedean orders | Open |
+| <a id="q4810"></a>[Q4810](logic-foundations-set-theory-part-2.md#q4810) | Amenability of ideal Bernoulli Voronoi tessellations | Open |
+| <a id="q4811"></a>[Q4811](logic-foundations-set-theory-part-2.md#q4811) | Indistinguishability of ideal Bernoulli Voronoi cells | Open |
+| <a id="q4815"></a>[Q4815](logic-foundations-set-theory-part-2.md#q4815) | Reducing Archimedean-order isomorphism to a rank-three linear action | Open |
+| <a id="q4816"></a>[Q4816](logic-foundations-set-theory-part-2.md#q4816) | Borel degree of isomorphism across all finitely generated Archimedean orders | Open |
+| <a id="q4817"></a>[Q4817](logic-foundations-set-theory-part-2.md#q4817) | Uniqueness of the low-intensity Bernoulli Voronoi limit | Open |
+| <a id="q4894"></a>[Q4894](logic-foundations-set-theory-part-2.md#q4894) | Regressive Martin dichotomy on arithmetic degrees | Open |
+| <a id="q4895"></a>[Q4895](logic-foundations-set-theory-part-2.md#q4895) | Order-preserving Martin dichotomy on hyperarithmetic degrees | Open |
+| <a id="q4896"></a>[Q4896](logic-foundations-set-theory-part-2.md#q4896) | ZF strength of the Borel measure-preserving Martin theorem | Open |
+| <a id="q4897"></a>[Q4897](logic-foundations-set-theory-part-2.md#q4897) | A nonprincipal ultrafilter strictly below Martin measure | Open |
+| <a id="q4898"></a>[Q4898](logic-foundations-set-theory-part-2.md#q4898) | A reasonable logic capturing polynomial time on unordered structures | Open |
+| <a id="q4899"></a>[Q4899](logic-foundations-set-theory-part-2.md#q4899) | Lebesgue and Baire ultrafilters below Martin measure | Open |
+| <a id="q4900"></a>[Q4900](logic-foundations-set-theory-part-2.md#q4900) | Rank-logic queries are definable in Choiceless Polynomial Time | Open |
+| <a id="q4910"></a>[Q4910](logic-foundations-set-theory-part-2.md#q4910) | Fixed-point counting with witnessed choice and interpretations captures Ptime | Open |
+| <a id="q4911"></a>[Q4911](logic-foundations-set-theory-part-2.md#q4911) | Rank-logic solvability for every fixed finite ring | Open |
+| <a id="q4913"></a>[Q4913](logic-foundations-set-theory-part-2.md#q4913) | Choiceless Polynomial Time captures all polynomial-time queries | Open |
+| <a id="q4964"></a>[Q4964](logic-foundations-set-theory-part-2.md#q4964) | Two minimal normal measures from local supercompactness | Open |
+| <a id="q4965"></a>[Q4965](logic-foundations-set-theory-part-2.md#q4965) | More than one normal measure on every strongly compact cardinal | Open |
+| <a id="q4966"></a>[Q4966](logic-foundations-set-theory-part-2.md#q4966) | Extendibility with unique minimal normal measures | Open |
+| <a id="q4967"></a>[Q4967](logic-foundations-set-theory-part-2.md#q4967) | Extendibility with a linear Mitchell order | Open |
+| <a id="q4968"></a>[Q4968](logic-foundations-set-theory-part-2.md#q4968) | The Ultrapower Axiom with an extendible cardinal | Open |
+| <a id="q4969"></a>[Q4969](logic-foundations-set-theory-part-2.md#q4969) | Coding the universe over HOD by a subset of the least supercompact | Open |
+| <a id="q4970"></a>[Q4970](logic-foundations-set-theory-part-2.md#q4970) | Pseudocompact ultrapowers and supercompactness of the embedding | Open |
+| <a id="q4971"></a>[Q4971](logic-foundations-set-theory-part-2.md#q4971) | Cofinality of a successor image forces its membership | Open |
+| <a id="q4972"></a>[Q4972](logic-foundations-set-theory-part-2.md#q4972) | Local strong compactness extends the club filter | Open |
+| <a id="q4973"></a>[Q4973](logic-foundations-set-theory-part-2.md#q4973) | Consistency of a weakly cardinal-preserving embedding of the universe | Open |
+| <a id="q4974"></a>[Q4974](logic-foundations-set-theory-part-2.md#q4974) | Local strong compactness at inaccessible cardinals under UA | Open |
+| <a id="q4975"></a>[Q4975](logic-foundations-set-theory-part-2.md#q4975) | Do pathological cardinals come from rank-into-rank embeddings? | Open |
+| <a id="q4976"></a>[Q4976](logic-foundations-set-theory-part-2.md#q4976) | The local UA inner-model hypothesis above an extendible cardinal | Open |
+| <a id="q4977"></a>[Q4977](logic-foundations-set-theory-part-2.md#q4977) | Pathology at a successor of a singular cardinal | Open |
+| <a id="q4978"></a>[Q4978](logic-foundations-set-theory-part-2.md#q4978) | Regular pathological cardinals compatible with UA | Open |

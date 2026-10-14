@@ -1,0 +1,530 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "rec:wolfram  catherine c|2024",
+  "source_review_notes": [
+    "Zero new recommendations: six exact numbered-duplicate records and eight scope/status holds. No target was force-filled.",
+    "HeldPDF274 physical pages, printed=physical. Open problems actual195–199, not extractor437–441. Read chain72–73, Gibbs/current65, boundary measures80–85, asymptotic flows85–88, final questions195–199.",
+    "An elementary periodicity and a frozen-boundary example are review obstructions, not new mathematical programme solves or source lookup failures.",
+    "Source questions2.9.12/13 absent from the specified pool are not opportunistically added.",
+    "Latest2026 primary counterpart examined. Multinomial high-multiplicity results are not inferred to solve fixed-multiplicity ordinary dimers."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Catherine Wolfram\" papers2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"three-dimensional dimers\" \"local moves\" connectivity2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"3D dimer\" \"mixing\"2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"dimers\" \"mean current\" \"unique\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Catherine C. Wolfram\" mathematics ETH"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"3D dimer\" \"loop shift\" mixing"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"3D dimers\" \"periodic weights\" phase"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://catwolfram.github.io/",
+      "sections_read": "Current2026 author works/identity: mathematics postdoc Yale, formerly ETH; not economist CatherineD.Wolfram. The dimer paper is accepted inAstérisque."
+    },
+    {
+      "url": "https://math.mit.edu/~wolframc/3ddimers.pdf",
+      "sections_read": "Primary searchable counterpart§9 exact problems; held thesis sections supply full definitions when PDF web fetch is unavailable."
+    },
+    {
+      "url": "https://arxiv.org/html/2304.08468v3",
+      "sections_read": "LatestMay7,2026v3 (HTML headerAugust24,2026); §9 questions and§3.3 algorithm; same unqualified boundary and chain statements retained."
+    },
+    {
+      "url": "https://arxiv.org/html/2506.12171v3",
+      "sections_read": "Introduction/currentFebruary20,2026v3: multiplicityN→∞ then graph-size limit is a different model, not a fixedN=1 question closure."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/k3bcda46e10d3.pdf",
+    "sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+    "physical_pages": 274
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "2c65422f6ef815eda09baa4ded99aa7b61aadf505bc41cbf3978a4666029a36a",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [],
+  "excluded": [
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 38,
+        "pdf_page": 38,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "719b6c265f589736df13",
+      "statement_ids": [
+        "719b6c265f589736df13"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "locator": {
+        "printed_page": 195,
+        "pdf_page": 195,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Exact first-batch Q4814 already includes uniform bounded cycle swaps and flips/trits stronger clause.",
+      "primary_urls": [
+        "https://catwolfram.github.io/",
+        "https://arxiv.org/abs/2304.08468",
+        "https://arxiv.org/html/2304.08468v3"
+      ],
+      "duplicate_of": [
+        "Q4814"
+      ],
+      "statement_id": "eda23b422b81a98aa002",
+      "statement_ids": [
+        "eda23b422b81a98aa002"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 196,
+        "pdf_page": 196,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "81b57490421fd4785f55",
+      "statement_ids": [
+        "81b57490421fd4785f55"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "locator": {
+        "printed_page": 196,
+        "pdf_page": 196,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Exact semantic duplicate of existing Q41; no new number.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "duplicate_of": [
+        "Q41"
+      ],
+      "statement_id": "a1a188dfb460a6e27ed9",
+      "statement_ids": [
+        "a1a188dfb460a6e27ed9"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold-scope",
+      "locator": {
+        "printed_page": 196,
+        "pdf_page": 196,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Literal extraction lacks an interior-current restriction; identical deterministic boundary matchings give no infinite paths. Hold for author-intended scope rather than adding a restriction without evidence.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "8ea58cc58687b72bebcc",
+      "statement_ids": [
+        "8ea58cc58687b72bebcc"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 196,
+        "pdf_page": 196,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "duplicate_of": [
+        "Q42"
+      ],
+      "statement_id": "47e1461bd78ace5bff45",
+      "statement_ids": [
+        "47e1461bd78ace5bff45"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "locator": {
+        "printed_page": 196,
+        "pdf_page": 196,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Exact semantic duplicate of existing Q42; no new number.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "duplicate_of": [
+        "Q42"
+      ],
+      "statement_id": "61f6f5c77161599dfc5f",
+      "statement_ids": [
+        "61f6f5c77161599dfc5f"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "locator": {
+        "printed_page": 196,
+        "pdf_page": 196,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Exact semantic duplicate of existing Q43; no new number.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "duplicate_of": [
+        "Q43"
+      ],
+      "statement_id": "de09dcb70d646ef7fb9b",
+      "statement_ids": [
+        "de09dcb70d646ef7fb9b"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "locator": {
+        "printed_page": 198,
+        "pdf_page": 198,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Exact semantic duplicate of existing Q44; no new number.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "duplicate_of": [
+        "Q44"
+      ],
+      "statement_id": "e15fc2c296704035a2ce",
+      "statement_ids": [
+        "e15fc2c296704035a2ce"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 198,
+        "pdf_page": 198,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "67e200a94edfdf11089c",
+      "statement_ids": [
+        "67e200a94edfdf11089c"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 198,
+        "pdf_page": 198,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "7bf1a4877b498ec48fac",
+      "statement_ids": [
+        "7bf1a4877b498ec48fac"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 198,
+        "pdf_page": 198,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "a35f79949955c416352d",
+      "statement_ids": [
+        "a35f79949955c416352d"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 199,
+        "pdf_page": 199,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "dbba699b382b54783ef2",
+      "statement_ids": [
+        "dbba699b382b54783ef2"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "printed_page": 199,
+        "pdf_page": 199,
+        "verified_from": "Actual held MIT PDF footer=physical; automatic text437 is actual195."
+      },
+      "citation": "Actual source open-problem section§2.9 or introduction",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ],
+      "statement_id": "b7429eaa202f14dd42e5",
+      "statement_ids": [
+        "b7429eaa202f14dd42e5"
+      ],
+      "source_pdf_sha256": "65eb31a866afe92250a9e5eb1234deb778b14e4eebb50a50a7adc82041d8e173",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Catherine Wolfram\" papers2026",
+        "\"three-dimensional dimers\" \"local moves\" connectivity2026",
+        "\"3D dimer\" \"mixing\"2025 2026",
+        "\"dimers\" \"mean current\" \"unique\"2026",
+        "\"Catherine C. Wolfram\" mathematics ETH",
+        "\"3D dimer\" \"loop shift\" mixing",
+        "\"3D dimers\" \"periodic weights\" phase",
+        "\"dimer\" \"infinitely many infinite paths\" Gibbs"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Wolfram",
+      "dimer",
+      "mean current",
+      "three.dimensional.*tiling"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

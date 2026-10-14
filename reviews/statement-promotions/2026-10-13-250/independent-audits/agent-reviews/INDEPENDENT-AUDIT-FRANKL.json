@@ -1,0 +1,56 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/frankl-2020.json",
+  "sha256": "fe2ae28d93af65826803af541b544e56e64412fea56aadab9f597206a27632f4",
+  "recommendation_count": 12,
+  "source_key": "Q113301809",
+  "physical_pages_read": [
+    14,
+    16,
+    23,
+    30,
+    40,
+    41,
+    42,
+    43,
+    55,
+    56,
+    57,
+    77,
+    78,
+    81,
+    82,
+    103,
+    107
+  ],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "verdict": "Twelve actual-source mathematical scopes pass; no exact target found in bounded live-numbered word/character and source-alias comparison.",
+  "findings": [
+    "Physical107explicitPettyconjecturegroundsabstractextraction. Allfinite-dimensionalREALnormedspaces,d+1distinctequilateralpoints,c>0;smallcodimensionpolyhedraltheoremisproperpartialcase.",
+    "HadwigerNelsonexactchromaticnumberofarbitraryunit-distancegraphofR²isnotmeasurablechromaticnumberorprovedlowerbound5. No knownbaselinecopyretrievedbyHadwiger/Nelson/equilateral/EuclideanRamsey/bouquetfamilies.",
+    "Physical16Ramseyclassificationusescongruentcopies,notarbitraryscaling;higherambientdimensionmaydependonS,k. Contemporaryspherical/subsoluble/one-point-extensionresultsarepartial,notfullclassification.",
+    "Physical40definesCTwithmaximumoverbothδlengthassignmentsandn-pointsets,anddistinctlabelledvertex-tuples. Positiveedge-lengthsareforcedbyinjectiveplacement. Integerpowersm,ℓnotrestrictednonnegative. T2,3has7vertices;T3,3has10;sourceprintedvaryingℓintheT3,3formulaisspecializedto3ascontextrequires.",
+    "Physical41unit-distancegraphrepresentationisinjective,edge-length1butnonedgesmayalsohaveunitdistance. Problem3.16Euclideantargetdistinctfromprovedsphericaldimensionbound.",
+    "Physical56smilingbouquetmeanssameisometrymovesthewholecirclecollectionandmarkedcommonpoint;source2023callsitbold. Coloursatleast2mustbeactuallyused,notmerelytwoelementcodomain. No proper-colouringhypothesisadded.",
+    "Physical57AMsimilarclassificationrequiresnoinfiniteone-sidedmonochromaticarithmeticprogression;bothmarkedpointandunmarkedconfigurationmovetogether. Integralconfigurationssolved,arbitraryrealconfigurationopen.",
+    "Physical77normalizesnear-distanceminimumt1≥1;distancesatdifferentunboundedscalesareallowed. ProductformulaallbutfinitelymanyPAIRS(k,d)globalexceptionquantifierisretained.",
+    "Physical81–82flatnessallowsapoint-dependentplaneateverypoint;almostflatallowsatmost2exceptionalpoints. Nk(d+1)meansambientd+1,flatdimensiond. RootProblem5.27standaloneusesexactindexing,despiteincidentalsourceearlierNk(d)=Mk(d)typo.",
+    "Physical103fixed-dlarge-kasksEXACTmaximum,notalreadyprovedΘ(k^d). Itdiffersfromfixed-klarge-dtheorem/globalfinite-exceptionproductformula.",
+    "2023publishedprimarybouquetConj1.1,AMProblem1.4,near-distanceConj1.11andProblem3.2retaincorrespondingtargets. New2025/2026authorpublicationsearchfoundnofullclosureinboundedscan."
+  ],
+  "duplicate_comparison": {
+    "retrieval": "agent-reviews/FRANKL-GLOBAL-RETRIEVAL.json",
+    "method": "All12seventopword/seventopcharacterlive-numberedneighbors,fullsource/author/titleURLmanifestaliasesandfamilytermscompared. No scorethresholdcertifiesuniqueness.",
+    "relationships": "FranklauthoraliasQ3580/Q3581GeneralisedErdosdistancegraphsasksdistinctdistance-vectorlowerboundsforrigid/min-degree2graphs;CTasksmaxnumberofidenticalprescribedlengthTREES,notdistinctvectors. Q24unit-distance-avoidingmeasurableupperdensityisnotχR²orarbitraryfinitecolourings. Q1453/Q2523equilateralnets/domerealizationsnotnormed-spaceequilateralpointlowerbound. Q3288distance-orderpermutationrandomwalknotnear-distancecardinality. Otherretrievednormedspaceprojection/colouring/graphRamseytargetsdifferent."
+  },
+  "primary_sources_independently_checked": [
+    "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+    "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+    "https://kupavskii.com/publications/"
+  ],
+  "limits": "Independentheld-sourcefullscopeandboundedglobalduplicate/statuscomparison;noglobalopennesscertificateorproofauditofeverypreprint.",
+  "original_receipt_sha256": "b72364aceb5c666271eec1c854bee4755fde2846c83e719664fd20b7d4e9c9d1"
+}

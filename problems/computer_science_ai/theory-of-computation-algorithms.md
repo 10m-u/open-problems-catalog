@@ -1,6 +1,6 @@
 # Theory of Computation & Algorithms
 
-404 problems: 397 open, 6 open, partial results, 1 solved here: proved.
+415 problems: 408 open, 6 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -412,3 +412,14 @@ Parts: [1](theory-of-computation-algorithms-part-1.md) · [2](theory-of-computat
 | <a id="q4752"></a>[Q4752](theory-of-computation-algorithms-part-2.md#q4752) | Can one decide in polynomial time whether a finite simple planar graph has a vertex ordering and… | Open |
 | <a id="q4756"></a>[Q4756](theory-of-computation-algorithms-part-2.md#q4756) | Is t≼u equivalent to LL(t)≤LL(u) for all t,u? | Open |
 | <a id="q4787"></a>[Q4787](theory-of-computation-algorithms-part-2.md#q4787) | Is there a constant δ>0 such that, for every sufficiently large n, some nonnegative integer… | Open |
+| <a id="q4901"></a>[Q4901](theory-of-computation-algorithms-part-2.md#q4901) | Bounded discrepancy forces bounded sign-rank | Open |
+| <a id="q4902"></a>[Q4902](theory-of-computation-algorithms-part-2.md#q4902) | Large monochromatic rectangles at constant randomized communication cost | Open |
+| <a id="q4903"></a>[Q4903](theory-of-computation-algorithms-part-2.md#q4903) | Large monochromatic rectangles at bounded gamma-two norm | Open |
+| <a id="q4904"></a>[Q4904](theory-of-computation-algorithms-part-2.md#q4904) | Constant randomized parity-tree size with superpolynomial deterministic size | Open |
+| <a id="q4905"></a>[Q4905](theory-of-computation-algorithms-part-2.md#q4905) | Constant randomized parity depth with superpolynomial Fourier norm | Open |
+| <a id="q4906"></a>[Q4906](theory-of-computation-algorithms-part-2.md#q4906) | Constant randomized communication outside polynomial equality-oracle communication | Open |
+| <a id="q4907"></a>[Q4907](theory-of-computation-algorithms-part-2.md#q4907) | Sign-rank closure under entrywise conjunction | Open |
+| <a id="q4908"></a>[Q4908](theory-of-computation-algorithms-part-2.md#q4908) | A large constant coset from bounded approximate Fourier norm | Open |
+| <a id="q4909"></a>[Q4909](theory-of-computation-algorithms-part-2.md#q4909) | Large monochromatic rectangles for constant-cost XOR lifts | Open |
+| <a id="q5001"></a>[Q5001](theory-of-computation-algorithms-part-2.md#q5001) | A strongly polynomial algorithm for general linear programming | Open |
+| <a id="q5002"></a>[Q5002](theory-of-computation-algorithms-part-2.md#q5002) | Integral conformal circuit decompositions with lcm denominator | Open |

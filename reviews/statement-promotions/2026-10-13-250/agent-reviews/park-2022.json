@@ -1,0 +1,551 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "rec:park  minjae|2022",
+  "source_review_notes": [
+    "All10 source candidates reviewed, but only one new exact recommendation. Two repeated source passages merged; seven ambiguous proposals retained unnumbered.",
+    "Held MIT PDF has235 physical pages and printed=physical page numbering. Exact pages59–75,79–83,221 read with definitions and nearby results.",
+    "No numerical rerun or no-search-hit treated as an openness certificate. No canonical edits."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Minjae Park\" math papers quantum gravity 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Conjecture 2.6.7\" \"Liouville\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"central charge\" \"determinant\" \"Park\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Minjae Park\" math homepage papers"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Brownian loops and the central charge\" \"conjecture\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"quantum-regularized\" \"sphere\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"quantum sphere\" \"number of squares\" convergence"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"quantum-regularized\" \"Conjecture\" LQG"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Liouville\" \"determinant\" \"higher genus\" Ang Park"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"quantum-regularized\" sphere convergence (arxiv.org)"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2005.11845v2",
+      "sections_read": "§6 definitions and Claim6.10, concrete area-measure convergence and §7 question list."
+    },
+    {
+      "url": "https://arxiv.org/html/2302.02358v1",
+      "sections_read": "Introduction Theorem1.4 and uniformity/precompactness hypotheses, Remarks1.5–1.8; this does not give a conditioned square-count limit."
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.06790",
+      "sections_read": "Current v4 September26,2025, abstract and publication; arbitrary lattice Wilson-loop sums, not the requested finite-volume LQG limit."
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.11832",
+      "sections_read": "Abstract and model: canonical supercritical disk coupled CLE4, different conditioning."
+    },
+    {
+      "url": "https://webhome.auburn.edu/~mip0024/",
+      "sections_read": "Current primary author identity; author publication identity confirmed with ORCID."
+    },
+    {
+      "url": "https://orcid.org/0000-0001-5967-7348",
+      "sections_read": "Author-maintained works list including2026 Wilson-loop paper; excludes unrelated Minjae Park namesakes."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/k76d3eb1a7462.pdf",
+    "sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+    "physical_pages": 235
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "b15dc15a77a4881d0b1a4a79a5bb675c2e603b4e54443156a841c60f12dba71a",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Square-count-conditioned quantum regularizations converge to the LQG sphere",
+      "citation": "Conjecture2.6.7; Definition2.6.5 and §§2.6.2–2.6.4",
+      "locator": {
+        "printed_page": 73,
+        "pdf_page": 73,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "statement_ids": [
+        "31e9c6061c4e204bb05b",
+        "7313cd1018ee142bbfb4",
+        "2b35102946509302718d"
+      ],
+      "subject": "Probability & Mathematical Physics",
+      "text": "Fix c<1, Q=√((25−c)/6), and γ∈(0,2) with Q=2/γ+γ/2. On the Riemann sphere choose a smooth background metric g₀ flat near U=[0,1]², and a Gaussian free field h with its additive constant normalized by ∫hK₀dVol_g₀=0, where K₀ is the curvature of g₀. For each dyadic square S⊂U let h_S be its spatial average and Z_h(S)=exp(h_S/Q)·side(S). Let P¹ be the terminal dyadic squares satisfying Z_h(S)≤1 and Z_h(S′)>1 for every strict dyadic ancestor S′⊃S. Put h_P=E[h | (h_S)_{S∈P¹}], interpreted for each realized finite partition as the Gaussian projection onto these averages. Conditional on #P¹=n, define g_n=exp(2(h_P/Q+C_n))g₀ with C_n=(1/4)log n−(3/4)log Vol_{exp(2h_P/Q)g₀}(sphere). As n→∞ through values with positive conditioning probability, does the law of this quantum surface converge to a γ-LQG sphere of some deterministic positive total volume, in the quantum-surface topology specified in the source (vague convergence of volume measures after its conformal cylinder normalization)?",
+      "scope_review": "Exact ε=1 and n→∞ order retained. This is convergence of quantum surfaces/area measures, not a claim of convergence of the Riemannian distance to the canonical LQG metric. Definitions2.6.1–2.6.5 and the explicit cylinder interpretation pp73–75 read in full. Feasible square counts are required, rather than conditioning on zero-probability integers. The reference in Question2.7.4 and split discussion record2b351… are merged, not numbered twice.",
+      "literature_finding": "The counterpart Brownian loops and central charge paper explicitly labels the same assertion Claim6.10 and says it is not formally proved. The 2024 non-smooth Polyakov–Alvarez paper gives uniform loop-mass asymptotics under bounded/precompact conformal-factor hypotheses, which does not establish this square-count-conditioned n→∞ sphere limit. Current author publication list includes those works and 2025/2026 Yang–Mills work, without a claimed closure of this exact limit. Targeted current primary retrieval found no exact closure; this is a bounded status assessment.",
+      "status_grade": "B: exact source conjecture and counterpart explicitly heuristic; current primary progress audited without an exact closure",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog retrieval found Q196 on transience of a whole-plane supercritical square-adjacency graph, Q37 on LQG geodesic removability, and Q2895–2897 on spectral questions; none is the finite square-count-conditioned subcritical sphere limit. No cross-batch equivalent found.",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "statement_id": "31e9c6061c4e204bb05b",
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ],
+      "number": 4891,
+      "source_locator": {
+        "label": "Conjecture 2.6.7",
+        "printed_page": 73,
+        "held_pdf_page": 73,
+        "original_extraction_page": 73
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "citation": "Conjecture 2.6",
+      "locator": {
+        "printed_page": 75,
+        "pdf_page": 75,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Split Conjecture2.6.7 discussion, not a new statement; merged into31e9c6061c4e204bb05b.",
+      "merged_into": "31e9c6061c4e204bb05b",
+      "statement_id": "2b35102946509302718d",
+      "statement_ids": [
+        "2b35102946509302718d"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 2.7.1",
+      "locator": {
+        "printed_page": 79,
+        "pdf_page": 79,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Hold model/topology choice: source allows arbitrary maps or p-angulations, does not fix rooting and discrete Laplacian zero-mode removal, and explicitly permits several distinct convergence senses. The pseudodeterminant/geometry setup must be selected from an exact source before numbering a standalone target. Known c=0 and tree-weighted special cases do not settle its general proposal.",
+      "statement_id": "91168f04aa2c29c08b10",
+      "statement_ids": [
+        "91168f04aa2c29c08b10"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 2.7.3",
+      "locator": {
+        "printed_page": 80,
+        "pdf_page": 80,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Hold renormalization and target-law ambiguity: regularized Liouville Brownian loop mass and the continuum weighting scheme are not fixed uniquely here. Do not substitute the already proved finite-dimensional quantum-regularization determinant identity.",
+      "statement_id": "e8fd09d10e70d73f720c",
+      "statement_ids": [
+        "e8fd09d10e70d73f720c"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "citation": "Question 2.7.4",
+      "locator": {
+        "printed_page": 80,
+        "pdf_page": 80,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Question2.7.4 literally asks to prove Conjecture2.6.7; merged into31e9c6061c4e204bb05b.",
+      "merged_into": "31e9c6061c4e204bb05b",
+      "statement_id": "7313cd1018ee142bbfb4",
+      "statement_ids": [
+        "7313cd1018ee142bbfb4"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 2.7.5",
+      "locator": {
+        "printed_page": 81,
+        "pdf_page": 81,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Hold status/scope pending a direct comparison with the 2024 uniform Polyakov–Alvarez theorem at fixed square count n. Exact adjusted-loop normalization, allowable c,c′ range, and cutoff notation must be fixed; no inferred closure or new open entry from the excerpt.",
+      "statement_id": "d7952e4e664bbc5a6bb8",
+      "statement_ids": [
+        "d7952e4e664bbc5a6bb8"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 2.7.6",
+      "locator": {
+        "printed_page": 81,
+        "pdf_page": 81,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Hold overly general quantification: discrete model, regularization, λ range, and κ(λ) map unspecified. The concrete λ-SAW conjecture cited in the discussion could be separately reviewed from Lawler’s actual definition, but is not replaced by an arbitrary curve-reweighting assertion.",
+      "statement_id": "3e1e3ff0dacd14652052",
+      "statement_ids": [
+        "3e1e3ff0dacd14652052"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 2.7.7",
+      "locator": {
+        "printed_page": 82,
+        "pdf_page": 82,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Hold CRT convergence until rescaling, topology, conditioning event and which of the two proposed models are fixed. The newer Ang–Gwynne supercritical disk/CLE4 theory treats a different nondegenerate model and cannot be claimed as a closure or as a refutation of the finite-volume-conditioned proposal.",
+      "statement_id": "2efc123235e48237a085",
+      "statement_ids": [
+        "2efc123235e48237a085"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 2.7.9",
+      "locator": {
+        "printed_page": 83,
+        "pdf_page": 83,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Hold higher-genus extension: the source explicitly leaves the prior on conformal moduli to be determined. A fixed-conformal-class Polyakov–Alvarez identity or the existing higher-genus Liouville construction is not the requested variable-moduli law-change statement.",
+      "statement_id": "10cca95b600250acc87f",
+      "statement_ids": [
+        "10cca95b600250acc87f"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 4.7.1",
+      "locator": {
+        "printed_page": 221,
+        "pdf_page": 221,
+        "verified_from": "Held MIT PDF footer and actual physical page, verified with pdftotext -layout."
+      },
+      "reason": "Hold undefined “similar random surface interpretation”: plane Wilson-loop expansion is explicit but the sphere/higher-genus replacement needs its surface family and Brownian-bridge/Driver–Sengupta weights specified. The 2026 paper is expressly about the plane, not authority for a new precisely scoped higher-genus question.",
+      "statement_id": "29c156b0ad0bbfb98ff6",
+      "statement_ids": [
+        "29c156b0ad0bbfb98ff6"
+      ],
+      "source_pdf_sha256": "889b1ccaab679dfd696c447638ddbd778f92b86915edcd72b08d7168ec08457f",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/html/2005.11845v2",
+        "https://arxiv.org/html/2302.02358v1",
+        "https://arxiv.org/abs/2307.06790",
+        "https://arxiv.org/abs/2308.11832",
+        "https://webhome.auburn.edu/~mip0024/",
+        "https://orcid.org/0000-0001-5967-7348"
+      ],
+      "search_topics": [
+        "\"Minjae Park\" math papers quantum gravity 2026",
+        "\"Conjecture 2.6.7\" \"Liouville\"",
+        "\"central charge\" \"determinant\" \"Park\" \"2026\"",
+        "\"Yang-Mills\" \"random surface\" Park Chatterjee 2025 2026",
+        "\"Minjae Park\" math homepage papers",
+        "\"Brownian loops and the central charge\" \"conjecture\"",
+        "\"quantum-regularized\" \"sphere\" 2025 2026",
+        "\"supercritical\" \"conditioned\" \"CRT\" Liouville 2026",
+        "\"quantum sphere\" \"number of squares\" convergence",
+        "\"quantum-regularized\" \"Conjecture\" LQG",
+        "\"Liouville\" \"finite volume\" \"continuum random tree\" 2026",
+        "\"Liouville\" \"determinant\" \"higher genus\" Ang Park",
+        "supercritical Liouville quantum gravity finite-volume CRT 2026 (arxiv.org)",
+        "\"quantum-regularized\" sphere convergence (arxiv.org)"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Minjae.?Park",
+      "Park.?Minjae",
+      "Liouville",
+      "Brownian.loop",
+      "central charge",
+      "quantum.sphere",
+      "planar.map",
+      "Yang.Mills"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

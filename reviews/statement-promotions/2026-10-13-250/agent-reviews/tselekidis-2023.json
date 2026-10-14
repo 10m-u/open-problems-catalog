@@ -1,0 +1,325 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:4b61f2314dec67388055",
+  "source_review_notes": [
+    "Actual physical9–12,53–55,74 read. The familiar label alone is insufficient: three labelled conjectures/questions are already proved in their own thesis."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/abs/2203.05746",
+      "sections_read": "Current primary abstract Artin conjecture, special cases and proved Coxeter bound"
+    },
+    {
+      "url": "https://arxiv.org/abs/2109.04387",
+      "sections_read": "Finite-asymptotic-dimension consequences restricted to extra-large/large-hyperbolic type"
+    },
+    {
+      "url": "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf",
+      "sections_read": "Published theorem proving one-relator bound"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/kd8fef9d61b3c.pdf",
+    "sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+    "physical_pages": 80
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "0692676a1dffae79d587480fd263042e7d66fef29cb255da8a2f60d082c3d2d7",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Finite asymptotic dimension for all Artin groups",
+      "text": "For a finite graph Γ whose edges have integer labels mₐᵦ≥2, let AΓ=⟨VΓ | alternating(a,b,mₐᵦ)=alternating(b,a,mₐᵦ) on every edge⟩. Give AΓ a word metric. Asdim X≤d means that for every R>0, X admits a uniformly bounded cover such that every R-ball meets at most d+1 sets. Does every AΓ have finite asymptotic dimension?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question1; definitions§3.1 printed55",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 12,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Every finitely generated Artin group; no finite-type, large-type or hyperbolic-type restriction. Distinct from the stronger clique bound.",
+      "literature_finding": "Tselekidis current arXiv2203.05746 gives special-case bounds and retains the general conjecture. Hagen–Martin–Sisto2109.04387 proves finite dimension for extra-large and large/hyperbolic type only. Fresh searches found no all-Artin closure.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "No exact target among4825 numbered questions; Q2472 concerns Borel graph code complexity. Incidental same-source occurrence merged.",
+      "statement_ids": [
+        "b57daeb93ffeb153b3eb",
+        "864f4d3e2a875b5faf8e"
+      ],
+      "statement_id": "b57daeb93ffeb153b3eb",
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ],
+      "number": 4933,
+      "source_locator": {
+        "label": "Question 1",
+        "printed_page": 12,
+        "held_pdf_page": 12,
+        "original_extraction_page": 12
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Artin asymptotic dimension bounded by clique number",
+      "text": "For a finite graph Γ whose edges have integer labels mₐᵦ≥2, let AΓ=⟨VΓ | alternating(a,b,mₐᵦ)=alternating(b,a,mₐᵦ) on every edge⟩. Give AΓ a word metric. Asdim X≤d means that for every R>0, X admits a uniformly bounded cover such that every R-ball meets at most d+1 sets. Writing Sim(Γ) for the number of vertices in a largest clique, must asdim AΓ≤Sim(Γ)?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture3.0.1; introductory Conjecture2 part1",
+      "locator": {
+        "pdf_page": 54,
+        "printed_page": 54,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Finite labeled graph; absent edges give no braid relation. The source proves clique-number2 and certain clique-number3 cases, not the universal bound.",
+      "literature_finding": "Current primary paper2203.05746 explicitly conjectures this bound. Its Coxeter corollary proves only the Coxeter branch. No universal Artin closure located.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "No exact numbered target; compare Q2472. Introductory joint extract is partly merged: its Artin clause is accepted; Coxeter clause is answered.",
+      "statement_ids": [
+        "22a48034e44f3911622b",
+        "a1c02732967f09f634de"
+      ],
+      "statement_id": "22a48034e44f3911622b",
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ],
+      "number": 4934,
+      "source_locator": {
+        "label": "Conjecture 3.0.1",
+        "printed_page": 54,
+        "held_pdf_page": 54,
+        "original_extraction_page": 54
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "solved-literature",
+      "reason": "Already proved in thesis Theorem0.2.2 immediately below the conjecture; published AGT2023 Theorem confirms every finitely generated one-relator group has asdim≤2.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 9,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "9877b22d8e9434ebd37f",
+      "statement_ids": [
+        "9877b22d8e9434ebd37f"
+      ],
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Multi-clause extract: Artin part merged into22a48034e44f3911622b; Coxeter part proved in Theorem3.0.5. Do not archive any additional unrepresented remainder.",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 12,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "a1c02732967f09f634de",
+      "statement_ids": [
+        "a1c02732967f09f634de"
+      ],
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Coxeter bound is explicitly proved by Theorem3.0.5 on next physical55; current paper abstract also states the corollary.",
+      "locator": {
+        "pdf_page": 54,
+        "printed_page": 54,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "b4d6c0442c5844ff4668",
+      "statement_ids": [
+        "b4d6c0442c5844ff4668"
+      ],
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Incidental all-Artin finiteness sentence merged into b57daeb93ffeb153b3eb.",
+      "locator": {
+        "pdf_page": 53,
+        "printed_page": 53,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "864f4d3e2a875b5faf8e",
+      "statement_ids": [
+        "864f4d3e2a875b5faf8e"
+      ],
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Question2 is answered yes by the connected-ball construction in the very next paragraph.",
+      "locator": {
+        "pdf_page": 74,
+        "printed_page": 74,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "7cf95e3cc1b034903499",
+      "statement_ids": [
+        "7cf95e3cc1b034903499"
+      ],
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Hold for scope: class of metric spaces, inherited/coarse separation conventions and existence of maximal components need fuller review; not accepted from the isolated sentence.",
+      "locator": {
+        "pdf_page": 74,
+        "printed_page": 74,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "ca216b53192c23db808c",
+      "statement_ids": [
+        "ca216b53192c23db808c"
+      ],
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "\"Correspond to subgroups\" gives no specified correspondence/equivalence target. Requires source clarification before a portable mathematical question.",
+      "locator": {
+        "pdf_page": 74,
+        "printed_page": 74,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "ef235032772907327bad",
+      "statement_ids": [
+        "ef235032772907327bad"
+      ],
+      "source_pdf_sha256": "11cd7eff4142d449aae685c9e3e6940b64c2a7b1a35419be2cdf958d5190d678",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/abs/2203.05746",
+        "https://arxiv.org/abs/2109.04387",
+        "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+      ],
+      "search_topics": [
+        "\"Panagiotis Tselekidis\" \"asymptotic dimension\" Artin Coxeter",
+        "\"Artin groups\" \"asymptotic dimension\" 2025 2026 conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "statement_id": "1431f62458bc3605877b",
+      "statement_ids": [
+        "1431f62458bc3605877b"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Tselekidis",
+      "asymptotic.dimension",
+      "Artin.*group",
+      "Coxeter.*group"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

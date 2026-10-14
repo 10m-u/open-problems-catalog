@@ -1,6 +1,6 @@
 # Functional Analysis & Operator Theory
 
-317 problems: 315 open, 1 open, partial results, 1 solved here: proved.
+319 problems: 317 open, 1 open, partial results, 1 solved here: proved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -325,3 +325,5 @@ Parts: [1](functional-analysis-operator-theory-part-1.md) · [2](functional-anal
 | <a id="q4785"></a>[Q4785](functional-analysis-operator-theory-part-2.md#q4785) | For every d≥3 and n≥1, is | Open |
 | <a id="q4795"></a>[Q4795](functional-analysis-operator-theory-part-2.md#q4795) | Biexactness versus strong (AO). Let M be a nonamenable II₁ factor with separable predual,… | Open |
 | <a id="q4798"></a>[Q4798](functional-analysis-operator-theory-part-2.md#q4798) | Fourier approximation above L² for higher-rank lattices. For each integer n≥3, set Γ=SL_n(Z),… | Open |
+| <a id="q5005"></a>[Q5005](functional-analysis-operator-theory-part-2.md#q5005) | Uniformly bounded affine actions on L-embedded spaces | Open |
+| <a id="q5008"></a>[Q5008](functional-analysis-operator-theory-part-2.md#q5008) | The Krein property under the weak topology | Open |

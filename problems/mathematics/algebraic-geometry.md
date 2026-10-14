@@ -1,6 +1,6 @@
 # Algebraic Geometry
 
-85 problems: 83 open, 2 open, partial results.
+94 problems: 92 open, 2 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -91,6 +91,15 @@
 | [Q4789](algebraic-geometry.md#q4789) | Is the largest possible ind(X) equal to (sₙ₋₁−1)(2sₙ₋₁−3)? | Open |
 | [Q4790](algebraic-geometry.md#q4790) | Is the largest possible ∑ᵢ₌₀²ⁿbᵢ(X) equal to 2∏ᵢ₌₀ⁿ(sᵢ−1)? | Open |
 | [Q4797](algebraic-geometry.md#q4797) | Is k[V] free over k[V]^G exactly when every irreducible component of π(V∖Vˢ) has codimension one… | Open |
+| [Q4849](algebraic-geometry.md#q4849) | Degree distortion under algebraic Cremona embeddings | Open |
+| [Q4861](algebraic-geometry.md#q4861) | Gross–Siebert reconstruction of higher-dimensional projective-space Batyrev mirrors | Open |
+| [Q4912](algebraic-geometry.md#q4912) | Intermediate degree growth for one birational map | Open |
+| [Q4935](algebraic-geometry.md#q4935) | Unbounded sublinear degree growth | Open |
+| [Q4936](algebraic-geometry.md#q4936) | Dimension-only bound on finite polynomial degree exponents | Open |
+| [Q4937](algebraic-geometry.md#q4937) | Simple subgroups of small complex projective linear groups | Open |
+| [Q4938](algebraic-geometry.md#q4938) | Proper infinite simple subgroups of PSL₂(ℚ) | Open |
+| [Q4939](algebraic-geometry.md#q4939) | Residual finiteness of finitely generated plane Cremona subgroups | Open |
+| [Q4940](algebraic-geometry.md#q4940) | Projective representations extending to Cremona homomorphisms | Open |
 
 <a id="q208"></a>
 
@@ -1480,3 +1489,147 @@ Is k[V] free over k[V]^G exactly when every irreducible component of π(V∖Vˢ)
 
 **Further links.** [1](https://arxiv.org/abs/1905.04845v4) · [2](https://doi.org/10.1016/j.aim.2024.109564)
 
+
+<a id="q4849"></a>
+
+## Q4849. Degree distortion under algebraic Cremona embeddings
+
+**Status:** Open · **Kind:** open problem (Question 2.2.1) · **Reviewed extraction** 2026-10-13-250
+
+Let Crₙ(ℂ)=Bir(ℙⁿ\_ℂ), with degree the common degree of homogeneous coordinate polynomials after canceling their common factor. Call Φ:Cr₂(ℂ)→Crₙ(ℂ) algebraic when its restriction to PGL₃(ℂ) is an algebraic family of birational maps. For every injective such homomorphism, is there C>0 depending only on Φ such that C⁻¹ deg(f)≤deg(Φ(f))≤C deg(f) for all f∈Cr₂(ℂ)?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical38 / printed29
+
+**Literature check.** Reviewed 2026-10-13: Author current works list includes later group-action and subgroup results; no universal distortion theorem located. Thesis establishes the dimension3 case, not every target dimension.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)
+
+<a id="q4861"></a>
+
+## Q4861. Gross–Siebert reconstruction of higher-dimensional projective-space Batyrev mirrors
+
+**Status:** Open · **Kind:** conjecture (Conjecture A.3) · **Reviewed extraction** 2026-10-13-250
+
+Let k be algebraically closed of characteristic0 and n≥4. Consider the Batyrev degeneration {t f_{n+1}(x₀,…,x_n)+∏\_{i=0}^n x_i=0}⊂ℙⁿ×Spec k[[t]], where f_{n+1} is a general homogeneous polynomial of degree n+1, polarized by the anticanonical class. Use its Gross–Siebert dual intersection complex B=∂Conv(e₁,…,e_n,−e₁−⋯−e_n), with the induced integral affine structure. On each adapted slab use the normalized initial function 1+∑\_{j=3}^n z^{(n+1)ē\_j}, where ē₃,…,ē\_n form the slab tangent-lattice basis, with the monodromy transition rules. Can the Gross–Siebert reconstruction algorithm be performed with natural compatible choices despite the failure of local rigidity, producing a toric degeneration mirror in ℙⁿ of the form {η(t)∑\_{i=0}^n ϑ\_i^{n+1}+∏\_{i=0}^nϑ\_i=0}, for some η(t)∈k[[t]], and a rational map to the dual Batyrev degeneration in the toric variety of the polar polytope, given by x_i↦ϑ\_i in Cox coordinates?
+
+**Source.** Evgeny Goncharov. *Mirrors to Toric Degenerations via Intrinsic Mirror Symmetry*. University of Cambridge, 2023. [primary source](https://www.repository.cam.ac.uk/bitstreams/c08d05fd-48db-415b-b32f-6a823ad30bb5/download) · [record](https://www.repository.cam.ac.uk/handle/1810/358793) Location: ConjectureA.3, printed259/physical271; setup AppendixA printed255–257/physical267–269
+
+**Literature check.** Reviewed 2026-10-13: Explicitly retained as ConjectureA.3 in theAugust7,2026 revised thesis. The current author page lists further higher-dimensional manuscripts in preparation, with no public claimed closure of this reconstruction problem.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/goncharov-2023.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/2608.07381v1) · [2](https://www.hockeydefinator.com/research)
+
+<a id="q4912"></a>
+
+## Q4912. Intermediate degree growth for one birational map
+
+**Status:** Open · **Kind:** open problem (Question 2.3.1) · **Reviewed extraction** 2026-10-13-250
+
+For a smooth projective d-dimensional variety X over a field k with ample divisor H, define deg_H(f)=(f\*H)·H^(d−1) for a birational self-map f. Does some such X,H,f have degree growth intermediate between polynomial and exponential? In particular, can deg_H(fⁿ)∼exp(√n) occur?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical39 / printed30
+
+**Literature check.** Reviewed 2026-10-13: Current primary2016 degree-growth paper states Question1. Later author work on constraints and regularization does not supply intermediate single-map construction; fresh exact-intermediate-growth searches located no closure.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)
+
+<a id="q4935"></a>
+
+## Q4935. Unbounded sublinear degree growth
+
+**Status:** Open · **Kind:** open problem (Question 2.3.2) · **Reviewed extraction** 2026-10-13-250
+
+For a smooth projective d-dimensional variety X over a field k with ample divisor H, define deg_H(f)=(f\*H)·H^(d−1) for a birational self-map f. Can deg_H(fⁿ) be unbounded yet grow sublinearly, for example deg_H(fⁿ)∼√n? Or must every unbounded sequence of degrees of iterates grow at least linearly?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical39 / printed30
+
+**Literature check.** Reviewed 2026-10-13: Primary2016 paperQuestion2 remains the exact target.2020 cube-complex constraints and2024 finite-group boundedness have different scope. No general linear lower bound or sublinear example located in fresh searches.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)
+
+<a id="q4936"></a>
+
+## Q4936. Dimension-only bound on finite polynomial degree exponents
+
+**Status:** Open · **Kind:** open problem (Question 2.3.5) · **Reviewed extraction** 2026-10-13-250
+
+For a smooth projective d-dimensional variety X over a field k with ample divisor H, define deg_H(f)=(f\*H)·H^(d−1) for a birational self-map f. Put d_pol(f)=limsup_{n→∞} log(deg_H(fⁿ))/log n. For each d, does there exist a finite constant C(d), independent of k,X,H,f, such that d_pol(f)&lt;C(d) whenever dimX=d and d_pol(f)<∞?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical41 / printed32
+
+**Literature check.** Reviewed 2026-10-13: Primary2016 degree-growth Question5 poses this bound. The dimension3 exponent4 example is lower-bound evidence, not a disproof of a dimension-only bound. Current author works and fresh dpol/degree-growth searches found no universal closure.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)
+
+<a id="q4937"></a>
+
+## Q4937. Simple subgroups of small complex projective linear groups
+
+**Status:** Open · **Kind:** open problem (Question 2.5.1) · **Reviewed extraction** 2026-10-13-250
+
+Classify the abstract simple subgroups of PGL₂(ℂ) and PGL₃(ℂ), allowing infinitely generated subgroups. Beyond finite simple subgroups and PSL₂(k) for subfields k⊆ℂ in the dimension2 case, which other simple groups occur?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical46 / printed37
+
+**Literature check.** Reviewed 2026-10-13: Urech2018/2020 simple-Cremona paper reduces its dimension2 birational problem to simple subgroups of PGL₃; this is not a classification of all abstract simple linear subgroups. Current author list and fresh PSL/simple-subgroup searches located no full answer.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)
+
+<a id="q4938"></a>
+
+## Q4938. Proper infinite simple subgroups of PSL₂(ℚ)
+
+**Status:** Open · **Kind:** open problem (Question 2.5.2) · **Reviewed extraction** 2026-10-13-250
+
+Classify the simple subgroups of PSL₂(ℚ)=SL₂(ℚ)/{±I}. In particular, does PSL₂(ℚ) contain a proper infinite simple subgroup?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical46 / printed37
+
+**Literature check.** Reviewed 2026-10-13: Exact primaryQuestion2.5.2 is retained in thesis; later simple-birational classification does not classify simple subgroups of PSL₂(ℚ). Fresh exactPSL₂(ℚ) search found no resolution.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)
+
+<a id="q4939"></a>
+
+## Q4939. Residual finiteness of finitely generated plane Cremona subgroups
+
+**Status:** Open · **Kind:** stated as open · **Reviewed extraction** 2026-10-13-250
+
+Does Cr₂(ℂ)=Bir(ℙ²\_ℂ) have the Malcev property: for every finitely generated subgroup Γ≤Cr₂(ℂ) and every nonidentity γ∈Γ, is there a homomorphism Γ→Q to a finite group Q in which γ has nonidentity image?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical46 / printed37
+
+**Literature check.** Reviewed 2026-10-13: Author current list and fresh Cremona/Malcev/residual-finiteness searches found no all-subgroup theorem or counterexample. Finite/simple subgroup and elliptic-boundedness results do not settle arbitraryΓ.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)
+
+<a id="q4940"></a>
+
+## Q4940. Projective representations extending to Cremona homomorphisms
+
+**Status:** Open · **Kind:** open problem (Question 8.0.1 (Section 3.3)) · **Reviewed extraction** 2026-10-13-250
+
+For each n, which complex Lie-group homomorphisms ρ:PGL₃(ℂ)→PGLₙ₊₁(ℂ) extend to a group homomorphism Φ:Cr₂(ℂ)→Crₙ(ℂ) whose restriction to the standard PGL₃ subgroup equals ρ?
+
+**Source.** Christian Urech. *Subgroups of Cremona groups*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01687404/document) · [record](https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4) Location: Urech thesis physical168 / printed159
+
+**Literature check.** Reviewed 2026-10-13: Source summaryQuestion8.0.1 remains distinct from classifying embeddings into dimension3. Current author papers list no full representation-extension classification; fresh author/group-homomorphism searches located no closure.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://christianurech.github.io/) · [2](https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf) · [3](https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf) · [4](https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf) · [5](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573)

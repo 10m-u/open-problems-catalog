@@ -1,0 +1,1619 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q140376732",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Actual held physical14–18,34,67,80–82,104,112,232,246,253–254,274,345–347,373,393,398–399,403,409,413 read. Original mathematical notation recovered from surrounding definitions.",
+    "Q80–84 source aliases were independently compared. The HOD successor-cardinal target is alreadyQ83. Determinacy and measurable-GCH targets have primary later closures.",
+    "Additional recommended questions remain subject to independent source, scope and global duplicate audit before filing."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ultrapower Axiom extendible Mitchell order linear consistency 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Goldberg cardinal preserving embeddings pathological pseudocompact 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Goldberg ultrapower axiom inaccessible level by level supercompact 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ultrapower Axiom measurable GCH failure"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Goldberg club compact question"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Goldberg 2.1.1 normal"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "ultrapower pseudocompact Goldberg"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+      "sections_read": "2021 author manuscript: normal-measure introduction; higher-supercompactness definitions; revised cardinal-preservation questions and final open-question discussion. Wording drift from the 2019 thesis is recorded."
+    },
+    {
+      "url": "https://math.berkeley.edu/~goldberg/",
+      "sections_read": "Current primary publication list and abstracts for determinacy UA, Magidor iteration, uniqueness of embeddings, cardinal-preserving embeddings and reflecting measures."
+    },
+    {
+      "url": "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+      "sections_read": "2021 primary introduction normal-measure multiplicity questions; source for the continued strongly-compact normal-measure question."
+    },
+    {
+      "url": "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+      "sections_read": "October2025 introduction, Theorem4.13, Corollary4.20 and Ketonen-linearity Theorem3.8: closure of determinacy target; no extendible consistency theorem."
+    },
+    {
+      "url": "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+      "sections_read": "December2024 abstract and introduction: UA with a unique measurable κ and 2^κ=κ^{++}, answering the measurable-GCH question."
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.06803",
+      "sections_read": "September2026 abstract: preserving UA over nonoverlapping extender models and HOD_X failure at a strong cardinal; not the least-supercompact case."
+    },
+    {
+      "url": "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+      "sections_read": "Abstract and introduction same ultrapowers on different cardinals; not silently transferred into a minimal-width result."
+    },
+    {
+      "url": "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf",
+      "sections_read": "Current primary abstract distinguishes agreement on ordinals from full uniqueness."
+    }
+  ],
+  "source_metadata": {
+    "title": "The Ultrapower Axiom",
+    "year": 2019,
+    "institution": "Harvard University"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/Q140376732.pdf",
+    "sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+    "physical_pages": 423
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "1a9b627ea24b11b90383de9d20e1465656cf2bfd23b00311f42994d65d2a2fa2",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Two minimal normal measures from local supercompactness",
+      "text": "Work in ZFC. A normal measure on κ is a nonprincipal κ-complete ultrafilter U on κ such that every regressive function on a member of U is constant on a member of U. For cardinals κ≤λ, κ is λ-supercompact if there is an elementary embedding j:V→M into a transitive inner model with critical point κ, j(κ)>λ and j[λ]∈M. It is supercompact if this holds for every λ≥κ. If κ is 2^κ-supercompact, must there be at least two distinct normal measures U on κ containing {α<κ:α is not a measurable cardinal}?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 2.1.1, printed p. 7 / held PDF p. 14.",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 7
+      },
+      "scope_review": "Exponent 2^κ, not twice κ. Concentration on nonmeasurable cardinals is required for both distinct measures; λ-supercompactness is Definition4.2.18, physical112.",
+      "literature_finding": "UA makes the normal-measure Mitchell order linear; consequently every measurable κ has exactly one normal measure concentrating on nonmeasurables (thesis§2.1 and Theorem2.3.11). Thus UA plus a2^κ-supercompact κ supplies a conditional negative instance. The checked results do not establish consistency of that UA/large-cardinal combination; no unconditional ZFC resolution was located.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "f597872e80f0e31b7ef4",
+      "statement_ids": [
+        "f597872e80f0e31b7ef4"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4964,
+      "source_locator": {
+        "label": "Question 2.1.1",
+        "printed_page": 7,
+        "held_pdf_page": 14,
+        "original_extraction_page": 14
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "More than one normal measure on every strongly compact cardinal",
+      "text": "Work in ZFC. A normal measure on κ is a nonprincipal κ-complete ultrafilter U on κ such that every regressive function on a member of U is constant on a member of U. Put P_κ(λ)={a⊂λ:|a|<κ}. A fine ultrafilter on this set contains {a:ξ∈a} for every ξ<λ. An uncountable cardinal κ is λ-strongly compact if P_κ(λ) carries a κ-complete fine ultrafilter; κ is strongly compact if this holds for every λ≥κ. Must every strongly compact cardinal κ carry at least two distinct normal measures?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 2.1.2, printed p. 7 / held PDF p. 14.",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 7
+      },
+      "scope_review": "No concentration restriction and no UA assumption. Distinct from the preceding locally-supercompact target.",
+      "literature_finding": "Gitik–Kaplan§4 construct a strongly compact least measurable carrying exactly one normal measure, starting from a supercompact with a unique nonmeasurable-concentrating measure. Corollary4.3 prepares2^κ=κ⁺; Theorems4.4/4.5 require no inaccessible aboveκ. They describe a negative answer from a supercompact plus UA. This is a conditional countermodel construction, without a known consistency proof of that initial UA/large-cardinal combination.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "5f0d51133f8712889a20",
+      "statement_ids": [
+        "5f0d51133f8712889a20"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4965,
+      "source_locator": {
+        "label": "Question 2.1.2",
+        "printed_page": 7,
+        "held_pdf_page": 14,
+        "original_extraction_page": 14
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Extendibility with unique minimal normal measures",
+      "text": "A normal measure on κ is a nonprincipal κ-complete ultrafilter U on κ such that every regressive function on a member of U is constant on a member of U. A cardinal δ is extendible if for every α>δ there are β and an elementary embedding e:V_α→V_β with critical point δ and e(δ)>α. Is ZFC consistent with an extendible cardinal and the assertion that every measurable cardinal κ carries exactly one normal measure containing {α<κ:α is not measurable}?",
+      "subject": "Logic & Foundations",
+      "citation": "Conjecture 2.1.3, printed p. 8 / held PDF p. 15.",
+      "locator": {
+        "pdf_page": 15,
+        "printed_page": 8
+      },
+      "scope_review": "A consistency question, without an invented relative-consistency lower bound. Exactly one measure concentrating on nonmeasurables, not exactly one normal measure altogether.",
+      "literature_finding": "The author’s2025 determinacy paper explicitly leaves canonical models at strong compactness and supercompactness unknown; its determinacy UA theorem does not construct a model with an extendible cardinal. No resolution of this consistency target was located in the bounded current-primary scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "23bc2a0b76d3a205a34c",
+      "statement_ids": [
+        "23bc2a0b76d3a205a34c"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4966,
+      "source_locator": {
+        "label": "Conjecture 2.1.3",
+        "printed_page": 8,
+        "held_pdf_page": 15,
+        "original_extraction_page": 15
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Extendibility with a linear Mitchell order",
+      "text": "A normal measure on κ is a nonprincipal κ-complete ultrafilter U on κ such that every regressive function on a member of U is constant on a member of U. A cardinal δ is extendible if for every α>δ there are β and an elementary embedding e:V_α→V_β with critical point δ and e(δ)>α. For normal measures set U◁W iff U belongs to the transitive ultrapower Ult(V,W). Is ZFC consistent with an extendible cardinal and the assertion that every two distinct normal measures are comparable under ◁?",
+      "subject": "Logic & Foundations",
+      "citation": "Conjecture 2.1.4, printed p. 8 / held PDF p. 15.",
+      "locator": {
+        "pdf_page": 15,
+        "printed_page": 8
+      },
+      "scope_review": "The normal-measure Mitchell order, not the generalized order on all countably complete ultrafilters. Source consistency is existential, without equiconsistency claim.",
+      "literature_finding": "The author’s2025 determinacy paper explicitly leaves canonical models at strong compactness and supercompactness unknown; its determinacy UA theorem does not construct a model with an extendible cardinal. No resolution of this consistency target was located in the bounded current-primary scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "1b12f96ef8f83faec40e",
+      "statement_ids": [
+        "1b12f96ef8f83faec40e"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4967,
+      "source_locator": {
+        "label": "Conjecture 2.1.4",
+        "printed_page": 8,
+        "held_pdf_page": 15,
+        "original_extraction_page": 15
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The Ultrapower Axiom with an extendible cardinal",
+      "text": "Work in ZFC. The Ultrapower Axiom (UA) says that any two well-founded ultrapower embeddings jᵢ:V→Mᵢ by countably complete ultrafilters admit internal ultrapower embeddings kᵢ:Mᵢ→N, using ultrafilters belonging to Mᵢ, with k₀∘j₀=k₁∘j₁. A cardinal δ is extendible if for every α>δ there are β and an elementary embedding e:V_α→V_β with critical point δ and e(δ)>α. Is ZFC+UA+“there exists an extendible cardinal” consistent?",
+      "subject": "Logic & Foundations",
+      "citation": "Conjecture 2.1.8, printed p. 11 / held PDF p. 18.",
+      "locator": {
+        "pdf_page": 18,
+        "printed_page": 11
+      },
+      "scope_review": "Actual Conjecture2.1.8 gives a precise consistency target. This does not merely ask for a vaguely canonical model, and is distinct from the weaker linear-Mitchell-order consistency assertion.",
+      "literature_finding": "The author’s2025 determinacy paper explicitly leaves canonical models at strong compactness and supercompactness unknown; its determinacy UA theorem does not construct a model with an extendible cardinal. No resolution of this consistency target was located in the bounded current-primary scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "7090112dab31e088b953",
+      "statement_ids": [
+        "7090112dab31e088b953"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4968,
+      "source_locator": {
+        "label": "Conjecture 2.1.8",
+        "printed_page": 11,
+        "held_pdf_page": 18,
+        "original_extraction_page": 18
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Coding the universe over HOD by a subset of the least supercompact",
+      "text": "Work in ZFC. The Ultrapower Axiom (UA) says that any two well-founded ultrapower embeddings jᵢ:V→Mᵢ by countably complete ultrafilters admit internal ultrapower embeddings kᵢ:Mᵢ→N, using ultrafilters belonging to Mᵢ, with k₀∘j₀=k₁∘j₁. For cardinals κ≤λ, κ is λ-supercompact if there is an elementary embedding j:V→M into a transitive inner model with critical point κ, j(κ)>λ and j[λ]∈M. It is supercompact if this holds for every λ≥κ. Assume UA and let κ be the least supercompact cardinal. Must there be X⊂κ such that V=HOD[X], the inner model obtained by adjoining X to the hereditarily ordinal-definable sets?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 6.2.9 (UA), printed p. 225 / held PDF p. 232.",
+      "locator": {
+        "pdf_page": 232,
+        "printed_page": 225
+      },
+      "scope_review": "Only the first bullet is promoted. The source proves coding by a subset of κ^{++}, not by κ. September2026 HOD failure at a strong cardinal has different hypotheses.",
+      "literature_finding": "Kaplan2609.06803 answers a related question at a strong cardinal. Its abstract does not supply a supercompact counterexample, and the exact least-supercompact coding question was not resolved in the primary sources checked.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "unpromoted_remainder": "The other source bullets ask whether V is a forcing extension HOD[G] using a forcing of size at most κ or a κ-cc Boolean algebra, and whether V=HOD_{Vκ}. These are not separately numbered or certified by this packet.",
+      "statement_id": "8d6210c3af3f04cad4d9",
+      "statement_ids": [
+        "8d6210c3af3f04cad4d9"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4969,
+      "source_locator": {
+        "label": "Question 6.2.9 (UA)",
+        "printed_page": 225,
+        "held_pdf_page": 232,
+        "original_extraction_page": 232
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Pseudocompact ultrapowers and supercompactness of the embedding",
+      "text": "Work in ZFC. Let λ be a cardinal and let j:V→M be a well-founded ultrapower embedding by a countably complete ultrafilter. Suppose for every cardinal μ≤λ there is A_μ∈M containing j[μ] with |A_μ|^M≤μ. Must j[λ]∈M?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 8.2.4 (ZFC), printed p. 340 / held PDF p. 347.",
+      "locator": {
+        "pdf_page": 347,
+        "printed_page": 340
+      },
+      "scope_review": "Definition8.2.1 physical345 and Definition7.2.5 physical254: λ-pseudocompact means μ-tight for EVERY μ≤λ; embedding λ-supercompact means j[λ]∈M (Definition4.2.16 physical112). No claim of the stronger global closure of M under arbitrary sequences.",
+      "literature_finding": "The held thesis leaves this exact localization open. Current primary results on global strong compactness, reflecting measures and UA do not state a resolution of these exact local hypotheses; no matching later theorem was located in the bounded dated scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "2c6cb3ba21d156de5eb0",
+      "statement_ids": [
+        "2c6cb3ba21d156de5eb0"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4970,
+      "source_locator": {
+        "label": "Question 8.2.4 (ZFC)",
+        "printed_page": 340,
+        "held_pdf_page": 347,
+        "original_extraction_page": 347
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Cofinality of a successor image forces its membership",
+      "text": "Work in ZFC. Suppose j:V→M is an elementary embedding into a transitive inner model with critical point κ and cf^M(sup j[κ⁺])=κ⁺, where κ⁺ is computed in V. Must j[κ⁺] belong to M?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 8.2.5, printed p. 340 / held PDF p. 347.",
+      "locator": {
+        "pdf_page": 347,
+        "printed_page": 340
+      },
+      "scope_review": "The cofinality is computed in M; the right-hand ordinal is V’s κ⁺. No UA assumption. Do not replace image membership by covering.",
+      "literature_finding": "The held thesis leaves this exact localization open. Current primary results on global strong compactness, reflecting measures and UA do not state a resolution of these exact local hypotheses; no matching later theorem was located in the bounded dated scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "3b668b4fab1aa9a0ef4d",
+      "statement_ids": [
+        "3b668b4fab1aa9a0ef4d"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4971,
+      "source_locator": {
+        "label": "Question 8.2.5",
+        "printed_page": 340,
+        "held_pdf_page": 347,
+        "original_extraction_page": 347
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Local strong compactness extends the club filter",
+      "text": "Work in ZFC. Put P_κ(λ)={a⊂λ:|a|<κ}. A fine ultrafilter on this set contains {a:ξ∈a} for every ξ<λ. An uncountable cardinal κ is λ-strongly compact if P_κ(λ) carries a κ-complete fine ultrafilter; κ is strongly compact if this holds for every λ≥κ. Let λ≥κ be regular. If κ is λ-strongly compact, must there be a κ-complete ultrafilter on P_κ(λ) containing every club subset? Here a club is unbounded under inclusion and closed under unions of increasing chains of nonzero length less than κ.",
+      "subject": "Logic & Foundations",
+      "citation": "Question 8.3.19 (ZFC), printed p. 366 / held PDF p. 373.",
+      "locator": {
+        "pdf_page": 373,
+        "printed_page": 366
+      },
+      "scope_review": "Definition8.3.18 physical373. Local λ-strong compactness, not global strong compactness or supercompactness. The club filter is on Pκ(λ), not on λ.",
+      "literature_finding": "The held thesis leaves this exact localization open. Current primary results on global strong compactness, reflecting measures and UA do not state a resolution of these exact local hypotheses; no matching later theorem was located in the bounded dated scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "bee64182ee2e8ac1b7e5",
+      "statement_ids": [
+        "bee64182ee2e8ac1b7e5"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4972,
+      "source_locator": {
+        "label": "Question 8.3.19 (ZFC)",
+        "printed_page": 366,
+        "held_pdf_page": 373,
+        "original_extraction_page": 373
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Consistency of a weakly cardinal-preserving embedding of the universe",
+      "text": "Is it consistent with ZFC that there is a nonidentity elementary embedding j:V→M into a transitive inner model such that j(κ) is a V-cardinal for every V-cardinal κ?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 8.4.7, printed p. 386 / held PDF p. 393.",
+      "locator": {
+        "pdf_page": 393,
+        "printed_page": 386
+      },
+      "scope_review": "Source Definition8.4.6 requires preservation of cardinal images, not that M computes every V-cardinal correctly. The2021 book reformulates Caicedo’s question using the stronger cardinal-correct target; the2019 weak version is retained here.",
+      "literature_finding": "UA and a proper class of strongly compact cardinals rule out such embeddings in checked primary work. Those additional-hypothesis obstructions do not settle the source’s unrestricted ZFC consistency target; no full ZFC closure was located.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "d3c723ad325bbf557389",
+      "statement_ids": [
+        "d3c723ad325bbf557389"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4973,
+      "source_locator": {
+        "label": "Question 8.4.7",
+        "printed_page": 386,
+        "held_pdf_page": 393,
+        "original_extraction_page": 393
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Local strong compactness at inaccessible cardinals under UA",
+      "text": "Work in ZFC. The Ultrapower Axiom (UA) says that any two well-founded ultrapower embeddings jᵢ:V→Mᵢ by countably complete ultrafilters admit internal ultrapower embeddings kᵢ:Mᵢ→N, using ultrafilters belonging to Mᵢ, with k₀∘j₀=k₁∘j₁. Put P_κ(λ)={a⊂λ:|a|<κ}. A fine ultrafilter on this set contains {a:ξ∈a} for every ξ<λ. An uncountable cardinal κ is λ-strongly compact if P_κ(λ) carries a κ-complete fine ultrafilter; κ is strongly compact if this holds for every λ≥κ. For cardinals κ≤λ, κ is λ-supercompact if there is an elementary embedding j:V→M into a transitive inner model with critical point κ, j(κ)>λ and j[λ]∈M. It is supercompact if this holds for every λ≥κ. Assume UA and let λ be inaccessible. Must the least λ-strongly compact cardinal κ≤λ be λ-supercompact? More generally, must every λ-strongly compact κ≤λ be λ-supercompact or a measurable limit of λ-supercompact cardinals below it?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 8.4.15 (UA), printed p. 392 / held PDF p. 399.",
+      "locator": {
+        "pdf_page": 399,
+        "printed_page": 392
+      },
+      "scope_review": "Both source clauses kept as one question. Global strongly-compact/supercompact equivalence and successor-level results do not answer this inaccessible localization.",
+      "literature_finding": "The held thesis leaves this exact localization open. Current primary results on global strong compactness, reflecting measures and UA do not state a resolution of these exact local hypotheses; no matching later theorem was located in the bounded dated scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "90192e6fe24d6517a23b",
+      "statement_ids": [
+        "90192e6fe24d6517a23b"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4974,
+      "source_locator": {
+        "label": "Question 8.4.15 (UA)",
+        "printed_page": 392,
+        "held_pdf_page": 399,
+        "original_extraction_page": 399
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Do pathological cardinals come from rank-into-rank embeddings?",
+      "text": "Work in ZFC. A cardinal λ is pathological in the source sense if there is an elementary embedding j:V→M into a transitive inner model such that j[μ]∈M for every cardinal μ<λ, some A∈M contains j[λ] and has M-cardinality at most λ, but j[λ]∉M. Must every pathological λ have cofinality ω? Must it satisfy I₂(λ), meaning that there is an elementary embedding i:V→N into a transitive inner model with critical point below λ, i(λ)=λ and V_λ⊂N?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 8.4.21, printed p. 396 / held PDF p. 403.",
+      "locator": {
+        "pdf_page": 403,
+        "printed_page": 396
+      },
+      "scope_review": "Definition8.4.20 and both source question clauses are retained. The source proves only regular-or-countable-cofinality dichotomy and that I₂ supplies pathology; neither converse is inferred.",
+      "literature_finding": "The held source defines this precise pathology and retains the question after its partial dichotomies. Current primary embedding/UA works checked did not resolve this exact target; no full closure was located in the bounded dated scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "741919eb99d2476863b6",
+      "statement_ids": [
+        "741919eb99d2476863b6"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4975,
+      "source_locator": {
+        "label": "Question 8.4.21",
+        "printed_page": 396,
+        "held_pdf_page": 403,
+        "original_extraction_page": 403
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The local UA inner-model hypothesis above an extendible cardinal",
+      "text": "Work in ZFC. A cardinal δ is extendible if for every α>δ there are β and an elementary embedding e:V_α→V_β with critical point δ and e(δ)>α. Work in ZFC. The Ultrapower Axiom (UA) says that any two well-founded ultrapower embeddings jᵢ:V→Mᵢ by countably complete ultrafilters admit internal ultrapower embeddings kᵢ:Mᵢ→N, using ultrafilters belonging to Mᵢ, with k₀∘j₀=k₁∘j₁. Must every extendible cardinal δ admit an inner model N satisfying UA with the δ-cover and δ-approximation properties? Here δ-cover means that for every ordinal θ and A⊂θ of V-size less than δ there is B∈N with A⊂B⊂θ and |B|^V<δ; δ-approximation means that any A⊂θ whose intersections with every B∈N of V-size less than δ belong to N must itself belong to N.",
+      "subject": "Logic & Foundations",
+      "citation": "Conjecture 8.4.32 (UA Conjecture), printed p. 402 / held PDF p. 409.",
+      "locator": {
+        "pdf_page": 409,
+        "printed_page": 402
+      },
+      "scope_review": "Definition8.4.31 physical409 and cover/approximation definitions physical274: the source uses V-small subsets, not an unannounced strengthening to N-small tests. UA is required inside N; it is not assumed in V.",
+      "literature_finding": "The current primary determinacy results establish UA in specified HOD models; they do not establish this δ-cover/approximation inner model for every extendible δ in an arbitrary ZFC universe. No exact resolution was located.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "e168a90f5fa4882ddf90",
+      "statement_ids": [
+        "e168a90f5fa4882ddf90"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4976,
+      "source_locator": {
+        "label": "Conjecture 8.4.32 (UA Conjecture)",
+        "printed_page": 402,
+        "held_pdf_page": 409,
+        "original_extraction_page": 409
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Pathology at a successor of a singular cardinal",
+      "text": "Work in ZFC. A cardinal λ is pathological in the source sense if there is an elementary embedding j:V→M into a transitive inner model such that j[μ]∈M for every cardinal μ<λ, some A∈M contains j[λ] and has M-cardinality at most λ, but j[λ]∉M. Can λ=μ⁺ be pathological when μ is a singular cardinal?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 8.4.38 (ZFC), printed p. 406 / held PDF p. 413.",
+      "locator": {
+        "pdf_page": 413,
+        "printed_page": 406
+      },
+      "scope_review": "Question8.4.38 is a ZFC possibility question. The source rules it out under UA and under suitable local-UA hypotheses; these additional assumptions are not silently imported.",
+      "literature_finding": "The held source defines this precise pathology and retains the question after its partial dichotomies. Current primary embedding/UA works checked did not resolve this exact target; no full closure was located in the bounded dated scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "e3e5c6a0e92f52e716bf",
+      "statement_ids": [
+        "e3e5c6a0e92f52e716bf"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4977,
+      "source_locator": {
+        "label": "Question 8.4.38 (ZFC)",
+        "printed_page": 406,
+        "held_pdf_page": 413,
+        "original_extraction_page": 413
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Regular pathological cardinals compatible with UA",
+      "text": "Work in ZFC. The Ultrapower Axiom (UA) says that any two well-founded ultrapower embeddings jᵢ:V→Mᵢ by countably complete ultrafilters admit internal ultrapower embeddings kᵢ:Mᵢ→N, using ultrafilters belonging to Mᵢ, with k₀∘j₀=k₁∘j₁. A cardinal λ is pathological in the source sense if there is an elementary embedding j:V→M into a transitive inner model such that j[μ]∈M for every cardinal μ<λ, some A∈M contains j[λ] and has M-cardinality at most λ, but j[λ]∉M. Is ZFC+UA consistent with the existence of a regular pathological cardinal λ?",
+      "subject": "Logic & Foundations",
+      "citation": "Conjecture 8.4.40, printed p. 406 / held PDF p. 413.",
+      "locator": {
+        "pdf_page": 413,
+        "printed_page": 406
+      },
+      "scope_review": "Regular λ and UA are essential. Same definition as the previous pathology questions, but a distinct consistency conjunction. No invented sharp consistency strength.",
+      "literature_finding": "The held source defines this precise pathology and retains the question after its partial dichotomies. Current primary embedding/UA works checked did not resolve this exact target; no full closure was located in the bounded dated scan.",
+      "status_grade": "B: source-explicit target and bounded dated primary-literature review; no universal openness certificate",
+      "duplicate_review": "Full numbered catalog compared by Goldberg author/section, source URLs and target vocabulary. Q80–84 already represent other exact targets; current recommendation has different complete hypotheses/conclusion.",
+      "duplicate_of": [],
+      "statement_id": "1e18958f4ee59e9abe31",
+      "statement_ids": [
+        "1e18958f4ee59e9abe31"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ],
+      "number": 4978,
+      "source_locator": {
+        "label": "Conjecture 8.4.40",
+        "printed_page": 406,
+        "held_pdf_page": 413,
+        "original_extraction_page": 413
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "f993308778f206ee9b9f",
+      "statement_ids": [
+        "f993308778f206ee9b9f"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "771c36955a3d1517242d",
+      "statement_ids": [
+        "771c36955a3d1517242d"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "b8eb084fdbb07ba35b4b",
+      "statement_ids": [
+        "b8eb084fdbb07ba35b4b"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "6ba330561eef5546ea7a",
+      "statement_ids": [
+        "6ba330561eef5546ea7a"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Truncated reference to Conjecture2.1.4 rather than a separate statement; no additional target invented.",
+      "statement_id": "4097c40c0414ee44f0d7",
+      "statement_ids": [
+        "4097c40c0414ee44f0d7"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "abd7c3ddbdbd55beb73f",
+      "statement_ids": [
+        "abd7c3ddbdbd55beb73f"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "28de95cb8e52300f761e",
+      "statement_ids": [
+        "28de95cb8e52300f761e"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "65a49313ae9a9adaf111",
+      "statement_ids": [
+        "65a49313ae9a9adaf111"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Goldberg October2025 UAFromAD explicitly cites this thesis question, establishes UA in L(R) under determinacy, and proves Ketonen comparability. The stated AD+V=L(R) case is covered by the primary determinacy-model corollary.",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf"
+      ],
+      "statement_id": "855b637fb5a5336edcaf",
+      "statement_ids": [
+        "855b637fb5a5336edcaf"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "b84e383df5b4bbec8f49",
+      "statement_ids": [
+        "b84e383df5b4bbec8f49"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        83
+      ],
+      "reason": "Exact UA/supercompact HOD successor-cardinal question already numbered Q83; same thesis label and complete assumptions.",
+      "statement_id": "e4bc83028cf0a18c5a82",
+      "statement_ids": [
+        "e4bc83028cf0a18c5a82"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "15e7ac159de4fb75d8b8",
+      "statement_ids": [
+        "15e7ac159de4fb75d8b8"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Ben Neria–Kaplan2412.05493 constructs UA with a measurable κ and 2^κ=κ^{++}; κ=δ is explicitly included in the source question, so this refutes the full universal assertion.",
+      "primary_urls": [
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf"
+      ],
+      "statement_id": "46a27752d112fb9ba4d1",
+      "statement_ids": [
+        "46a27752d112fb9ba4d1"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "9085f8992db5f4c0b984",
+      "statement_ids": [
+        "9085f8992db5f4c0b984"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "3940f53dbd8ecedd5e3f",
+      "statement_ids": [
+        "3940f53dbd8ecedd5e3f"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "fbdb2c64e56884cf4683",
+      "statement_ids": [
+        "fbdb2c64e56884cf4683"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "16ca16b5bbc47ae28378",
+      "statement_ids": [
+        "16ca16b5bbc47ae28378"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "9475fa61d36e34cea6ad",
+      "statement_ids": [
+        "9475fa61d36e34cea6ad"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "ca521ef5866f4ab8507f",
+      "statement_ids": [
+        "ca521ef5866f4ab8507f"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "4acde730e0a57dfdbe2e",
+      "statement_ids": [
+        "4acde730e0a57dfdbe2e"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "2328653172d47bf2ec40",
+      "statement_ids": [
+        "2328653172d47bf2ec40"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "d46a46ccff70ae1ec6dd",
+      "statement_ids": [
+        "d46a46ccff70ae1ec6dd"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "29104cf830c620707dab",
+      "statement_ids": [
+        "29104cf830c620707dab"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "0c60121fb9e2055342b3",
+      "statement_ids": [
+        "0c60121fb9e2055342b3"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for promotion: vague historical direction, incomplete context, or technical/source-version drift. In particular width is minimal generation width, and later same-target embeddings on different support cardinals are not assumed to settle it; the later rank-embedding question has extra UA/no-fixed-point hypotheses. Remains active.",
+      "statement_id": "d36f1b2c24f88458358c",
+      "statement_ids": [
+        "d36f1b2c24f88458358c"
+      ],
+      "source_pdf_sha256": "5eb461a309556928d91e5e6a4901de9b363d4ae20848bb18d551ea03a3238476",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://math.berkeley.edu/~goldberg/Papers/UABook.pdf",
+        "https://math.berkeley.edu/~goldberg/",
+        "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+        "https://math.huji.ac.il/~omerbn/KunenLike.pdf",
+        "https://arxiv.org/abs/2609.06803",
+        "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf",
+        "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
+      ],
+      "search_topics": [
+        "Goldberg normal ultrafilters strongly compact unique normal measure 2025 2026",
+        "Ultrapower Axiom extendible Mitchell order linear consistency 2026",
+        "Goldberg cardinal preserving embeddings pathological pseudocompact 2026",
+        "Goldberg ultrapower axiom inaccessible level by level supercompact 2026",
+        "Ultrapower Axiom measurable GCH failure",
+        "Goldberg club compact question",
+        "Goldberg 2.1.1 normal",
+        "ultrapower pseudocompact Goldberg"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4963,
+    "catalog_sha256": "183dc330827444569791e11d364e9f1be750e5d66ead11306226f0942aef1d13",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

@@ -1,6 +1,6 @@
 # Thesis statements: Analysis
 
-Discipline: Mathematics. 74 statements from 22 theses. [All subjects](../README.md)
+Discipline: Mathematics. 71 statements from 22 theses. [All subjects](../README.md)
 
 Automatically extracted, not reviewed: OCR noise and fragments are common, and a passage may describe a problem that is now solved. Always check the thesis page cited.
 
@@ -90,11 +90,8 @@ Automatically extracted, not reviewed: OCR noise and fragments are common, and a
 
 *Homotopically nontrivial area contracting maps* · [thesis](https://dspace.mit.edu/server/api/core/bitstreams/e459cb87-f940-4b01-a40c-74c77cf930c6/content) · [record](https://dspace.mit.edu/handle/1721.1/151595)
 
-- **Question 1** (p. 11): What is the smallest possible k-dilation in a given homotopy class of maps between closed Riemannian manifolds? In particular, when are there representatives with arbitrarily small k-dilation? Another way to think about this question, as stated by Guth in [11], is that the k-dilation measures the local geometry of a map, and we want to understand how the global topology of a map influences this local geometry. Question 1 is slightly
 - *stated as open* (p. 13): There are still many more open questions.
-- **Conjecture 1** (p. 14): Let F: Xm→Ynbe a map between closed and orientable Riemannian manifolds with m> nand k> m+1 2 . F\*(Hj(X, Z)) = 0 for all j>= k, and F\*(a) = 0 for any torsion class ain Hk−1(X, Z) if and only if for any ε> 0, Fis homotopic to a map Fεwith dilk(Fε) < ε. When Xor Yare nonorientable - we can make a similar conjecture by replacing Z-valued homology with homology with local coefficients, that likely reduces to the above conjecture after passing to the orientable double covers. These conditions on homology are all necessary, as we show in Chapter 5, and so Conjecture 1 is about showing that they are also sufficient. That the condition on torsion is necessary was proven by me only a couple months ago. In hindsight, it should be unsurprising in light of the universal coefficient theorem, since it implies that F\* vanishes on Hk(X, G) for any finitely generated abelian group G. Most of the work in this thesis represents progress towards Conjecture 1, which we state and discuss in the next section.
 - **Question 2** (p. 27): What can we say about the k-dilation of classes in π2n+1(CPn) ∼= Z? This isomorphism can be given using differential forms, which also gives some information about the k-dilation. Let ωbe a 2-form generating H2(CPn), with j≤n and f: S2n+1 →CPna map. Then f\*ωjis a closed and hence exact 2jform on S2n+1. It therefore has a primitive 2j−1 form αjwith dαj= f\*ωj. We can then define the Hopf invariant Hj(f) = ∫︁ S2n+1 αj∧f\*ωn−j+1 Because we can take αj= α1 ∧f\*ωj−1, all of the Hj(f) for j≤nare equal to some number H(f). It turns out that, after dividing by an appropriate normalization constant, H(f) is Z-valued and completely describes the homotopy class of f. In particular, by using a co-isoperimetric inequality for differential forms, we can bound ||αj||∞≲||f\*ωj||∞≲dil2j(f)
-- **Question 3** (p. 28): When nis even, are maps f: S2n+1 →CPnalways homotopic to maps with arbitrarily small (n+ 1)-dilation?
 - *stated as open* (p. 40): For most of the groups πLip(Hn), non-triviality is an open question.
 - *stated as open* (p. 49): There are several interesting open questions about relative results for k-dilation.
 - *stated as open* (p. 54): In the Remarks at this end of this Chapter, we will discuss a few weakenings of the assumptions in our theorems, open questions, and some miscellaneous thoughts on our main conjecture from the introduction.

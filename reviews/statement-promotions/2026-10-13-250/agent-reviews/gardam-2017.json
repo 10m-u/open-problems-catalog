@@ -1,0 +1,869 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102794206",
+  "source_review_notes": [
+    "Nine recommendations. Source physical pages differ from extracted page labels: printed=physical−14. Read physical26–29,34–35,51–52,57–63,99–104. Remaining unreviewed/uncertain old incidental candidates remain explicit active holds."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Gardam\" \"power subgroups\" \"laws\" 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"one-relator groups\" coherent 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"CAT(0)\" \"automatic\" \"open\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Epstein\" \"relation gap\" groups"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"four-relator\" \"Gardam\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://www.gilesgardam.com/",
+      "sections_read": "Author primary publications and thesis links"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1705.09348",
+      "sections_read": "§5 presentation and finite-core definitions, §6 Questions1–3"
+    },
+    {
+      "url": "https://arxiv.org/html/2501.18306v1",
+      "sections_read": "§2.8.3 word problem and recent geometric results"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.05976",
+      "sections_read": "Theorem-level coherence resolution abstract"
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+      "sections_read": "Epstein relation-gap example, normal generation distinguished from relation module"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.20110",
+      "sections_read": "Current survey scope and remaining hyperbolic rigidity challenge"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.05229",
+      "sections_read": "Current2026 special-manifold rigidity results"
+    },
+    {
+      "url": "https://arxiv.org/html/2505.20960v1",
+      "sections_read": "Torsion-growth conjecture versus torsion abundance"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q102794206.pdf",
+    "sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+    "physical_pages": 138
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "b2d0eefb94da870b14362262d39d4c920d284772156e05cdc14ff4172d079e53",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Three normal generators for Epstein’s relation subgroup",
+      "text": "Let F=F(a,b,c,d), and let R be the normal closure in F of [a,b], b², [c,d], d³. Can R be normally generated in F by three elements? Equivalently, can the marked presentation of (ℤ×ℤ/2)*(ℤ×ℤ/3) on a,b,c,d be replaced by three defining relators?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed21 (physical35)",
+      "locator": {
+        "pdf_page": 35,
+        "printed_page": 21,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "Marked generators fixed. A three-generator relation module is known; this is normal generation of the relation subgroup, not merely generation of R/[R,R].",
+      "literature_finding": "Held source and Harlander primary relation-gap lecture retain the Epstein example. Fresh Epstein/relation-gap searches found no proof that this R is normally3-generated or requires4.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_id": "301604d67677ab958efa",
+      "statement_ids": [
+        "301604d67677ab958efa"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4921,
+      "source_locator": {
+        "label": null,
+        "printed_page": 21,
+        "held_pdf_page": 35,
+        "original_extraction_page": 34
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Four-relator cores detecting commutativity from coprime powers",
+      "text": "For coprime positive integers m,n let F=F(a,b), F^(r)=⟨uʳ:u∈F⟩, and Qₘ,ₙ=⟨a,b | [u,v], u,v∈F^(m); [u,v], u,v∈F^(n)⟩. For which m,n does a four-relator subpresentation of Qₘ,ₙ already present ℤ² via the natural map on a,b? In particular, for which pairs is Δₘ,ₙ=⟨a,b | [aᵐ,bᵐ],[aⁿ,bⁿ],[(ab)ᵐ,(ba)ᵐ],[(ab)ⁿ,(ba)ⁿ]⟩ isomorphic to ℤ²?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed43 (physical57)",
+      "locator": {
+        "pdf_page": 57,
+        "printed_page": 43,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "Finite core is a literal finite subset of the specified relators whose normal closure equals the full relator normal closure; not any arbitrary presentation of an isomorphic group. Preserve both general core and specificΔ clauses.",
+      "literature_finding": "Primary2019 paper (arXiv1705.09348)§6 Questions1–2 retain both targets; the(2,3) example and bounded computations do not resolve all coprime pairs. Fresh four-relator/Gardam query found no later closure.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_id": "f61b9a456c9dbc4bb6db",
+      "statement_ids": [
+        "f61b9a456c9dbc4bb6db"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4922,
+      "source_locator": {
+        "label": "Question 2.45",
+        "printed_page": 43,
+        "held_pdf_page": 57,
+        "original_extraction_page": 61
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Minimum core size for nilpotency detected in power subgroups",
+      "text": "For c≥1 and coprime positive m,n, set k=c+1, F=F(x₁,…,xₖ), F^(r)=⟨uʳ:u∈F⟩, and ν_c(y₁,…,yₖ)=[[…[y₁,y₂],y₃],…,yₖ]. Let Q=⟨x₁,…,xₖ | ν_c(u₁,…,uₖ), uᵢ∈F^(m); ν_c(v₁,…,vₖ),vᵢ∈F^(n)⟩. Determine the minimum cardinality of a finite subset of these relators presenting the same marked group, as a function of c,m,n.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed44 (physical58)",
+      "locator": {
+        "pdf_page": 58,
+        "printed_page": 44,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "The infinite presentation has a finite core because it presents the free nilpotent group of classc. Size counts relators, with original generators fixed; do not replace finite core by arbitrary presentation deficiency.",
+      "literature_finding": "Question2 in current primary1705.09348§6 retains this exact complexity target; explicit8-relator abelian construction is a bound, not minimality. No later exact formula located.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_id": "b26e74a5322a707a47ff",
+      "statement_ids": [
+        "b26e74a5322a707a47ff"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4923,
+      "source_locator": {
+        "label": "Question 2.46",
+        "printed_page": 44,
+        "held_pdf_page": 58,
+        "original_extraction_page": 62
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Classify laws detectable in coprime power subgroups",
+      "text": "For a word w∈F(x₁,…,xₖ), say G satisfies w if w(g₁,…,gₖ)=1 for every k-tuple in G. Write G^(r)=⟨gʳ:g∈G⟩. Classify words w such that, for every group G and every pair of coprime positive integers m,n, G satisfies w whenever both G^(m) and G^(n) satisfy w.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed44 (physical58)",
+      "locator": {
+        "pdf_page": 58,
+        "printed_page": 44,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "All groups, not just finite groups; every coprime pair. Converse is automatic because laws pass to subgroups. Distinct from determining finite cores for a known detectable law.",
+      "literature_finding": "Author primary page and1705.09348§6 Question3 retain classification. Its nilpotent/locally-nilpotent results and metabelian counterexample are partial classification only. No full characterization found.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_id": "95d0e9c99b5c4b217fea",
+      "statement_ids": [
+        "95d0e9c99b5c4b217fea"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4924,
+      "source_locator": {
+        "label": "Question 2.47",
+        "printed_page": 44,
+        "held_pdf_page": 58,
+        "original_extraction_page": 62
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Automaticity of one-relator groups without unbalanced Baumslag–Solitar subgroups",
+      "text": "Let G have a finite presentation with one defining relator. Suppose G contains no subgroup isomorphic to BS(m,n)=⟨a,t | t⁻¹aᵐt=aⁿ⟩ with m,n nonzero integers and |m|≠|n|. Must G be automatic: admit a finite generating set and a regular language of representatives with a synchronous fellow-traveller bound for pairs representing elements differing by a generator?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed45 (physical59)",
+      "locator": {
+        "pdf_page": 59,
+        "printed_page": 45,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "Synchronous automaticity. Balanced BS(m,±m) are allowed. Source small census and non-CAT(0) constructions do not answer automaticity generally.",
+      "literature_finding": "Gardam primary author list retains census results; current one-relator survey covers geometric improvements but no universal automaticity theorem located. Fresh CAT/automatic searches find counterexamples to biautomaticity only, which do not refute this target.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_ids": [
+        "77f40f2adc2089610626",
+        "1d15d4928f6b2885d0ce"
+      ],
+      "statement_id": "77f40f2adc2089610626",
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4925,
+      "source_locator": {
+        "label": "Problem 3.1 ([MUW11, Problem 1.5])",
+        "printed_page": 45,
+        "held_pdf_page": 59,
+        "original_extraction_page": 63
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Polynomial-time word problem for every one-relator group",
+      "text": "For every fixed finite one-relator presentation G=⟨X | r⟩, does there exist a deterministic algorithm deciding whether an input word in X∪X⁻¹ is trivial in G in time polynomial in its length?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed46 (physical60)",
+      "locator": {
+        "pdf_page": 60,
+        "printed_page": 46,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "Presentation is fixed and the polynomial may depend on it; no uniform polynomial in relator-plus-word length is silently requested. Complexity concerns word problem, not Dehn function.",
+      "literature_finding": "2025 Linton–Nyberg-Brodda primary survey2501.18306§2.8.3 explicitly retains Question2.8.3. Known polynomial algorithms for Baumslag–Gersten groups do not settle all one-relator groups.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_id": "acdc01e12e7000ddc16d",
+      "statement_ids": [
+        "acdc01e12e7000ddc16d"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4926,
+      "source_locator": {
+        "label": null,
+        "printed_page": 46,
+        "held_pdf_page": 60,
+        "original_extraction_page": 64
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Profinite rigidity among finite-volume hyperbolic 3-manifolds",
+      "text": "Let M,N be connected complete finite-volume hyperbolic3-manifolds. If π₁(M) and π₁(N) have the same finite quotient groups up to isomorphism, must π₁(M)≅π₁(N), and hence must M,N be isometric?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed85 (physical99)",
+      "locator": {
+        "pdf_page": 99,
+        "printed_page": 85,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "Relative to finite-volume hyperbolic3-manifold groups; not absolute rigidity among all residually finite groups. The source census proves pairwise separation within a finite sample only.",
+      "literature_finding": "2025 primary survey2508.20110 still studies the hyperbolic rigidity problem.2026 version of Xu2412.05229 gives specified links/knots/surgeries, not every finite-volume manifold; no general closure found.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_ids": [
+        "7f1946a768227dcc2698",
+        "8271b7c9fccf6cbff776"
+      ],
+      "statement_id": "7f1946a768227dcc2698",
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4927,
+      "source_locator": {
+        "label": "Question 5.1",
+        "printed_page": 85,
+        "held_pdf_page": 99,
+        "original_extraction_page": 103
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Volume from maximal asymptotic homological torsion growth",
+      "text": "For a connected complete finite-volume hyperbolic3-manifold M, put G=π₁(M). Is limsup_{[G:K]→∞} log|Tor H₁(K;ℤ)|/[G:K]=Vol(M)/(6π), where K ranges over all finite-index subgroups of G?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed87 (physical101)",
+      "locator": {
+        "pdf_page": 101,
+        "printed_page": 87,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "All finite-index subgroups, with no imposed normality, nesting or exhaustion; this is the thesis limsup conjecture and differs from the stronger prescribed-tower approximation conjecture.",
+      "literature_finding": "2025 Ascari–Fruchter introduction retains exponential torsion-growth challenge; abundance of finite torsion summands is not rate control. Fresh volume/torsion review found no attainment of the asserted limsup for all hyperbolic3-manifolds. The known upper bound is recorded.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_id": "fbdf696cfff95f9476b3",
+      "statement_ids": [
+        "fbdf696cfff95f9476b3"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4928,
+      "source_locator": {
+        "label": "Conjecture 5.2",
+        "printed_page": 87,
+        "held_pdf_page": 101,
+        "original_extraction_page": 105
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Hyperbolic 3-manifolds from index-marked abelianizations of covers",
+      "text": "For a connected complete finite-volume hyperbolic3-manifold M define FIA(M)={([H₁(K;ℤ)],[π₁(M):K]):K≤π₁(M),[π₁(M):K]<∞}, where [H₁(K;ℤ)] is its abelian-group isomorphism class. If FIA(M)=FIA(N) for two such manifolds, must M,N be isometric?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Gardam thesis, printed88 (physical102)",
+      "locator": {
+        "pdf_page": 102,
+        "printed_page": 88,
+        "verified_from": "Held PDF footer, physical page; extraction pages inflated by4"
+      },
+      "scope_review": "FIA is a set, not a multiset and not the lattice of finite-index subgroups; repeated isomorphism classes with the same index count once. Source Seifert counterexample lies outside hyperbolic class.",
+      "literature_finding": "Gardam primaryQuestion5.1′ remains stronger than the unresolved full profinite-rigidity question; modern hyperbolic profinite literature proves special examples using stronger invariants. No general FIA rigidity closure located.",
+      "status_grade": "B: explicit primary-source question; bounded dated literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog retrieval by statement family/source and whole28701 corpus source siblings found no equivalent numbered target. Nearby Q1623/Q2328/Q2721/Q4058/Q4345/Q4346 have different full scopes; see retrieval evidence.",
+      "statement_id": "7d63154701fb32fb253c",
+      "statement_ids": [
+        "7d63154701fb32fb253c"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ],
+      "number": 4929,
+      "source_locator": {
+        "label": "Question 5",
+        "printed_page": 88,
+        "held_pdf_page": 102,
+        "original_extraction_page": 106
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "solved-literature",
+      "reason": "Answered: Jaikin-Zapirain–Linton2303.05976 proves coherence for all one-relator groups, corroborated by2026 ICM primary lecture.",
+      "locator": {
+        "pdf_page": 24,
+        "printed_page": 10,
+        "verified_from": "Actual physical PDF and footer"
+      },
+      "statement_id": "66cbaedb82656ffc4201",
+      "statement_ids": [
+        "66cbaedb82656ffc4201"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Refuted: same thesis explicitly states Magnus conjecture is false and gives six counterexamples in its small census.",
+      "locator": {
+        "pdf_page": 63,
+        "printed_page": 49,
+        "verified_from": "Actual physical PDF and footer"
+      },
+      "statement_id": "75b392baa9fe47e5f64f",
+      "statement_ids": [
+        "75b392baa9fe47e5f64f"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Exact free-group branch of existingQ2721; no new number.",
+      "locator": {
+        "pdf_page": 104,
+        "printed_page": 90,
+        "verified_from": "Actual physical PDF and footer"
+      },
+      "duplicate_of": [
+        "Q2721"
+      ],
+      "statement_id": "7206365ed09e009269dd",
+      "statement_ids": [
+        "7206365ed09e009269dd"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same automaticity target merged into77f40f2adc2089610626.",
+      "locator": {
+        "pdf_page": 61,
+        "printed_page": 47,
+        "verified_from": "Actual physical PDF and footer"
+      },
+      "statement_id": "1d15d4928f6b2885d0ce",
+      "statement_ids": [
+        "1d15d4928f6b2885d0ce"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Introductory mention ofQuestion5.1 merged into7f1946a768227dcc2698.",
+      "locator": {
+        "pdf_page": 99,
+        "printed_page": 85,
+        "verified_from": "Actual physical PDF and footer"
+      },
+      "statement_id": "8271b7c9fccf6cbff776",
+      "statement_ids": [
+        "8271b7c9fccf6cbff776"
+      ],
+      "source_pdf_sha256": "a30dac3fad923bdea03e502be03239a3d7d5eed9b41afdc4e119c45231e818fb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://www.gilesgardam.com/",
+        "https://arxiv.org/pdf/1705.09348",
+        "https://arxiv.org/html/2501.18306v1",
+        "https://arxiv.org/abs/2303.05976",
+        "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf",
+        "https://arxiv.org/abs/2508.20110",
+        "https://arxiv.org/abs/2412.05229",
+        "https://arxiv.org/html/2505.20960v1"
+      ],
+      "search_topics": [
+        "\"Gardam\" \"power subgroups\" \"laws\" 2025",
+        "\"one-relator groups\" coherent 2026",
+        "\"CAT(0)\" \"automatic\" \"open\" 2026",
+        "\"automatic groups\" \"conjugacy problem\" \"open\" 2025 2026",
+        "\"Epstein\" \"relation gap\" groups",
+        "\"four-relator\" \"Gardam\"",
+        "\"hyperbolic 3-manifolds\" \"profinite rigidity\" 2026 Liu conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "statement_id": "46b9e7ee26ba5eaf4daf",
+      "statement_ids": [
+        "46b9e7ee26ba5eaf4daf"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "2177f70c081c2f208354",
+      "statement_ids": [
+        "2177f70c081c2f208354"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "2110f80c1eb69228f5b4",
+      "statement_ids": [
+        "2110f80c1eb69228f5b4"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "01c812ca798a4e252e15",
+      "statement_ids": [
+        "01c812ca798a4e252e15"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "97934e2168814267fee1",
+      "statement_ids": [
+        "97934e2168814267fee1"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "d71d9cc924146a7b13bd",
+      "statement_ids": [
+        "d71d9cc924146a7b13bd"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "ccc8778dee4a2f00a2be",
+      "statement_ids": [
+        "ccc8778dee4a2f00a2be"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "2e57314ff3775af370c8",
+      "statement_ids": [
+        "2e57314ff3775af370c8"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "f1836d55289209bc26aa",
+      "statement_ids": [
+        "f1836d55289209bc26aa"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "eaf64ec53ece99146efd",
+      "statement_ids": [
+        "eaf64ec53ece99146efd"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "044735aff43ab47bcc25",
+      "statement_ids": [
+        "044735aff43ab47bcc25"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "165c549c9a6f4df2a6d7",
+      "statement_ids": [
+        "165c549c9a6f4df2a6d7"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "a1aa15827fae066af9df",
+      "statement_ids": [
+        "a1aa15827fae066af9df"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "06e7ed2d0c1589ef79b3",
+      "statement_ids": [
+        "06e7ed2d0c1589ef79b3"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "c962e91bccc43d7e752b",
+      "statement_ids": [
+        "c962e91bccc43d7e752b"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Gardam",
+      "power subgroup",
+      "finite core",
+      "relation gap",
+      "one.relator",
+      "hyperbolic 3.manifold",
+      "FIA\\(",
+      "homological torsion",
+      "Baumslag.Solitar"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

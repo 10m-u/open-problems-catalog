@@ -1,6 +1,6 @@
 # Combinatorics & Graph Theory
 
-743 problems: 699 open, 30 open, partial results, 12 solved here: proved, 2 solved here: disproved.
+795 problems: 751 open, 30 open, partial results, 12 solved here: proved, 2 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -751,3 +751,55 @@ Parts: [1](combinatorics-graph-theory-part-1.md) · [2](combinatorics-graph-theo
 | <a id="q4774"></a>[Q4774](combinatorics-graph-theory-part-4.md#q4774) | For each even d, are there finitely many equivalence classes of thin Δ with lattice width≥2? | Open |
 | <a id="q4775"></a>[Q4775](combinatorics-graph-theory-part-4.md#q4775) | Does every odd-dimensional thin Δ have lattice width1? | Open |
 | <a id="q4799"></a>[Q4799](combinatorics-graph-theory-part-4.md#q4799) | Is a_f(G)−a\*\_f(G) unbounded as G and f vary? | Open |
+| <a id="q4801"></a>[Q4801](combinatorics-graph-theory-part-4.md#q4801) | Three upward families: singleton-cell product bound | Open |
+| <a id="q4802"></a>[Q4802](combinatorics-graph-theory-part-4.md#q4802) | Minimum cube dimension for non-layered graphs of large girth | Open |
+| <a id="q4803"></a>[Q4803](combinatorics-graph-theory-part-4.md#q4803) | Almost maximum independent sets of toroidal queens | Open |
+| <a id="q4804"></a>[Q4804](combinatorics-graph-theory-part-4.md#q4804) | Greedy conference gossiping below full dissemination | Open |
+| <a id="q4955"></a>[Q4955](combinatorics-graph-theory-part-4.md#q4955) | Vanishing density of nonlinear graph codes avoiding K₄ differences | Open |
+| <a id="q4956"></a>[Q4956](combinatorics-graph-theory-part-4.md#q4956) | Subpolynomial odd-Ramsey colour counts outside even decomposability | Open |
+| <a id="q4957"></a>[Q4957](combinatorics-graph-theory-part-4.md#q4957) | Uniform finite obstructions to dense binary sumsets | Open |
+| <a id="q4958"></a>[Q4958](combinatorics-graph-theory-part-4.md#q4958) | Unbounded equality of cop number and independence number | Open |
+| <a id="q4959"></a>[Q4959](combinatorics-graph-theory-part-4.md#q4959) | The half-order game-domination bound at minimum degree two | Open |
+| <a id="q4960"></a>[Q4960](combinatorics-graph-theory-part-4.md#q4960) | Rall’s half-order bound for traceable graphs | Open |
+| <a id="q4961"></a>[Q4961](combinatorics-graph-theory-part-4.md#q4961) | Connected extremal graphs for the total-domination three-quarter bound | Open |
+| <a id="q4962"></a>[Q4962](combinatorics-graph-theory-part-4.md#q4962) | Optimal asymptotic total-domination game constant at minimum degree two | Open |
+| <a id="q4963"></a>[Q4963](combinatorics-graph-theory-part-4.md#q4963) | A universal additive constant above the half-order domination-game bound | Open |
+| <a id="q4979"></a>[Q4979](combinatorics-graph-theory-part-4.md#q4979) | Equilateral sets of size dimension plus one in every normed space | Open |
+| <a id="q4980"></a>[Q4980](combinatorics-graph-theory-part-4.md#q4980) | The chromatic number of the Euclidean plane | Open |
+| <a id="q4981"></a>[Q4981](combinatorics-graph-theory-part-4.md#q4981) | Classify finite Euclidean Ramsey sets | Open |
+| <a id="q4982"></a>[Q4982](combinatorics-graph-theory-part-4.md#q4982) | Tree-copy counts as powers of point count and unit-distance extremals | Open |
+| <a id="q4983"></a>[Q4983](combinatorics-graph-theory-part-4.md#q4983) | Prescribed-distance copies of a twice-subdivided three-arm star | Open |
+| <a id="q4984"></a>[Q4984](combinatorics-graph-theory-part-4.md#q4984) | Prescribed-distance copies of a three-edge-arm star | Open |
+| <a id="q4985"></a>[Q4985](combinatorics-graph-theory-part-4.md#q4985) | One complementary graph has half-order Euclidean dimension | Open |
+| <a id="q4986"></a>[Q4986](combinatorics-graph-theory-part-4.md#q4986) | Smiling congruent copies of every bouquet | Open |
+| <a id="q4987"></a>[Q4987](combinatorics-graph-theory-part-4.md#q4987) | Almost-monochromatic configurations in progression-free colourings | Open |
+| <a id="q4988"></a>[Q4988](combinatorics-graph-theory-part-4.md#q4988) | Product constructions maximize nearly k-distance sets except finitely often | Open |
+| <a id="q4989"></a>[Q4989](combinatorics-graph-theory-part-4.md#q4989) | Removing flatness losses from nearly k-distance extremals | Open |
+| <a id="q4990"></a>[Q4990](combinatorics-graph-theory-part-4.md#q4990) | Exact nearly k-distance extremals at fixed dimension and large k | Open |
+| <a id="q5012"></a>[Q5012](combinatorics-graph-theory-part-4.md#q5012) | Disconnected placements in a three-dimensional convex Kakeya body | Open |
+| <a id="q5013"></a>[Q5013](combinatorics-graph-theory-part-4.md#q5013) | Shapes with connected placements in every convex Kakeya body | Open |
+| <a id="q5014"></a>[Q5014](combinatorics-graph-theory-part-4.md#q5014) | Nearly linear exact shuffles for every fixed tuple size | Open |
+| <a id="q5015"></a>[Q5015](combinatorics-graph-theory-part-4.md#q5015) | The sharp order of exact all-pair shuffling | Open |
+| <a id="q5016"></a>[Q5016](combinatorics-graph-theory-part-4.md#q5016) | Sharp lengths of all-tuple reachability networks | Open |
+| <a id="q5017"></a>[Q5017](combinatorics-graph-theory-part-4.md#q5017) | Leading constants for clique bootstrap running times | Open |
+| <a id="q5018"></a>[Q5018](combinatorics-graph-theory-part-4.md#q5018) | Maximum running times of multi-edge clique infections | Open |
+| <a id="q5019"></a>[Q5019](combinatorics-graph-theory-part-4.md#q5019) | Copies of K6 with no rainbow K4 | Open |
+| <a id="q5020"></a>[Q5020](combinatorics-graph-theory-part-4.md#q5020) | Monochromatic initial sums with fixed endpoint coefficients | Open |
+| <a id="q5021"></a>[Q5021](combinatorics-graph-theory-part-4.md#q5021) | Preventing monochromatic word concatenations across bounded gaps | Open |
+| <a id="q5022"></a>[Q5022](combinatorics-graph-theory-part-4.md#q5022) | A structural characterization of weak cop-win graphs | Open |
+| <a id="q5023"></a>[Q5023](combinatorics-graph-theory-part-4.md#q5023) | Does finite-set evacuation imply local constructibility? | Open |
+| <a id="q5024"></a>[Q5024](combinatorics-graph-theory-part-4.md#q5024) | Arbitrarily delayed repeated returns in a weak cop-win graph | Open |
+| <a id="q5025"></a>[Q5025](combinatorics-graph-theory-part-4.md#q5025) | The union-closed conjecture for horizontal and vertical three-tiles | Open |
+| <a id="q5026"></a>[Q5026](combinatorics-graph-theory-part-4.md#q5026) | Deciding square-grid tilings by one polyomino | Open |
+| <a id="q5027"></a>[Q5027](combinatorics-graph-theory-part-4.md#q5027) | A single polyomino with no periodic tiling | Open |
+| <a id="q5028"></a>[Q5028](combinatorics-graph-theory-part-4.md#q5028) | A tile-cardinality bound on the required dimension | Open |
+| <a id="q5029"></a>[Q5029](combinatorics-graph-theory-part-4.md#q5029) | Bounded-remainder packing by an arbitrary finite poset | Open |
+| <a id="q5030"></a>[Q5030](combinatorics-graph-theory-part-4.md#q5030) | Forcing monochromatic lines from many long lines | Open |
+| <a id="q5031"></a>[Q5031](combinatorics-graph-theory-part-4.md#q5031) | Three colours with one four-point line | Open |
+| <a id="q5032"></a>[Q5032](combinatorics-graph-theory-part-4.md#q5032) | Fixed intersections just above twice the subset size | Open |
+| <a id="q5033"></a>[Q5033](combinatorics-graph-theory-part-4.md#q5033) | Fixed-intersection thresholds for an unbounded codomain | Open |
+| <a id="q5034"></a>[Q5034](combinatorics-graph-theory-part-4.md#q5034) | Fixed intersections under permutations of p-subsets | Open |
+| <a id="q5035"></a>[Q5035](combinatorics-graph-theory-part-4.md#q5035) | Exact minima and extremizers for edges lying in F-copies | Open |
+| <a id="q5042"></a>[Q5042](combinatorics-graph-theory-part-4.md#q5042) | Equation-free subset guarantee and circle extremal density | Open |
+| <a id="q5045"></a>[Q5045](combinatorics-graph-theory-part-4.md#q5045) | Leading constant for the multistage triangle game with stop | Open |
+| <a id="q5049"></a>[Q5049](combinatorics-graph-theory-part-4.md#q5049) | Cut-involution edge transitivity implies a graph norm | Open |

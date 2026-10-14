@@ -1,0 +1,832 @@
+{
+  "review_date": "2026-10-13",
+  "original_review_sha256": "58a235bf34cb11e53bcd86a6ea4ffbf46a14c5cf7d529229cc0dcbb130a817fa",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "statement_id": "2435f4e16ef89050fd7b",
+      "title": "Three upward families: singleton-cell product bound",
+      "text": "Let A, B, C be upward-closed subsets of the Boolean lattice 2^[n], each of the same uniform density α. Put a=μ(A∩Bᶜ∩Cᶜ), b=μ(Aᶜ∩B∩Cᶜ), and c=μ(Aᶜ∩Bᶜ∩C), where μ is uniform probability. Is ab+ac+bc≤16/243 for every n and every such triple?",
+      "citation": "Conjecture 1.1.8, printed p. 3 / PDF p. 11; definitions §1.1, PDF pp. 9–11.",
+      "subject": "Combinatorics & Graph Theory",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/handle/1810/405119"
+      ],
+      "literature_finding": "The December 2025 thesis states this conjecture separately from its proved counterexample to Kahn’s total-singleton-density question. Targeted searches found no later proof or counterexample to this product bound.",
+      "search_topics": [
+        "Kada Williams hypercube inequalities multivariate correlation conjecture 2026",
+        "Williams correlation 16 243 hypercube"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4801,
+      "source_locator": {
+        "label": "Conjecture 1.1.8",
+        "printed_page": 3,
+        "held_pdf_page": 11,
+        "original_extraction_page": 11
+      }
+    },
+    {
+      "statement_id": "b7e50216d322809f2018",
+      "title": "Minimum cube dimension for non-layered graphs of large girth",
+      "text": "For even g≥6, let N(g) be the least n such that the n-dimensional hypercube graph Q_n has a subgraph of girth exactly g that is not isomorphic to a subgraph of any edge layer of any hypercube. An edge layer consists of vertices of Hamming weights k−1 and k with all cube edges between them. Determine the asymptotic growth of N(g) as g→∞ through even integers.",
+      "citation": "Question 3.1.4, printed p. 22 / PDF p. 30; Definition 3.1.1, printed p. 21 / PDF p. 29.",
+      "subject": "Combinatorics & Graph Theory",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2404.18014",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v31i4p21/pdf/"
+      ],
+      "literature_finding": "The published paper proves existence and leaves the required dimension open; its construction has dimension of order g^g. The December 2025 thesis retains the growth-rate question. No subsequent determination located.",
+      "search_topics": [
+        "non-layered girth polynomial 2026",
+        "Layered subgraphs hypercube minimum dimension Williams"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4802,
+      "source_locator": {
+        "label": "Question 3.1.4",
+        "printed_page": 22,
+        "held_pdf_page": 30,
+        "original_extraction_page": 30
+      }
+    },
+    {
+      "statement_id": "9dcc057bdd0c4b146233",
+      "title": "Almost maximum independent sets of toroidal queens",
+      "text": "For each fixed integer d≥3, does there exist C_d such that, for all sufficiently large positive integers n, at least n^(d−1)−C_d n^(d−2) pairwise nonattacking queens can be placed on (ℤ/nℤ)^d? Distinct positions attack exactly when their difference equals λe for a nonzero e∈{−1,0,1}^d and a nonzero λ∈ℤ/nℤ. There is no restriction on the prime factors of n.",
+      "citation": "Conjecture 6.2.3, printed p. 49 / PDF p. 57; queen definition §6.1 and proof of Theorem 6.2.2. Later paper: Conjecture 2, arXiv:2404.18237v3.",
+      "subject": "Combinatorics & Graph Theory",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2404.18237v3",
+        "https://arxiv.org/html/2404.18237v3#S2"
+      ],
+      "literature_finding": "The June 24, 2026 revision explicitly retains the general conjecture and proves a restricted least-prime-factor case. Older v1/v2 abstracts claim the general bound; the revised statement and Theorem 3 supersede that claim. No later general resolution located.",
+      "search_topics": [
+        "Kada Williams Torus Queen Independence",
+        "toroidal queens n d independence conjecture 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4803,
+      "source_locator": {
+        "label": "Conjecture 6.2.3",
+        "printed_page": 49,
+        "held_pdf_page": 57,
+        "original_extraction_page": 57
+      }
+    },
+    {
+      "statement_id": "2e8e3011824998a050d6",
+      "title": "Greedy conference gossiping below full dissemination",
+      "text": "Initially each of n people knows a distinct gossip item. In a conference call exactly k people all learn the union of the items they currently know. The score is the sum, over people, of the number of items known. For fixed integers 3≤k≤n and 0≤m below the minimum number of k-person calls required for everyone to know all n items, does every greedy m-call sequence attain the largest possible final score? A greedy sequence chooses at each step a call maximizing the immediate score increase, with arbitrary choices among ties.",
+      "citation": "Question 7.3.1, printed p. 61 / PDF p. 69; September 22, 2026 journal version, Conjecture 3.2.",
+      "subject": "Combinatorics & Graph Theory",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://combinatorialpress.com/cn-articles/volume-238/greedy-gossiping/",
+        "https://arxiv.org/abs/2506.17804"
+      ],
+      "literature_finding": "The September 2026 publication still states the conference-call extension as conjectural. Pairwise calls and the forest range m(k−1)≤n−1 are proved. The question here retains the full conference-call ambition; no resolution of the remaining range located.",
+      "search_topics": [
+        "greedy gossiping conference calls",
+        "Kada Williams Gossip 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4804,
+      "source_locator": {
+        "label": "Question 7.3.1",
+        "printed_page": 61,
+        "held_pdf_page": 69,
+        "original_extraction_page": 69
+      }
+    },
+    {
+      "statement_id": "30cf9e17eb0a83754195",
+      "title": "Everywhere Borel matching from a connected toast",
+      "text": "Does every d-regular bipartite Borel graph, for finite d≥1, that admits a connected toast have a Borel perfect matching on its entire vertex set? A connected toast is a Borel family T of finite vertex sets with ∪_{K∈T}E(K)=E(G); for distinct K,L∈T, either B₁(K)∩L=∅, B₁(K)⊆L, or B₁(L)⊆K; and each induced graph on K minus the union of the proper T-subsets of K is connected. Here B₁(K) is the closed graph neighborhood (Definition 3.2.2).",
+      "citation": "Question 3.1.6, printed p. 19 / PDF p. 26; Definition 3.2.2, §3.2. Paper counterpart: Question 2 in arXiv:2210.14300.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2210.14300",
+        "https://antoinegpoulin.github.io/pdf/spantree.pdf",
+        "https://arxiv.org/abs/2509.15000"
+      ],
+      "literature_finding": "The thesis and published-author text retain the everywhere question. Measurable/generic matching results and the newer measurable spanning-tree theorem do not give an everywhere Borel perfect matching. No exact closure found.",
+      "search_topics": [
+        "connected toast perfect matching 2026",
+        "connected toast matching counterexample"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4805,
+      "source_locator": {
+        "label": "Question 3.1.6",
+        "printed_page": 19,
+        "held_pdf_page": 26,
+        "original_extraction_page": 26
+      }
+    },
+    {
+      "statement_id": "2dafb32ed848972d4548",
+      "title": "Generic optimal edge coloring of one-ended Borel graphs",
+      "text": "For a d-regular bipartite one-ended Borel graph G on a Polish space X, with finite d≥1, is there a G-invariant comeagre Borel set Y⊆X such that G restricted to Y has a Borel proper edge coloring using d colors? One-ended means that each connected component has exactly one end.",
+      "citation": "Question 3.1.7, printed p. 20 / PDF p. 27; “generically” convention in §3.1, PDF p. 25. Paper counterpart: Question 3 in arXiv:2210.14300.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2210.14300",
+        "https://antoinegpoulin.github.io/pdf/spantree.pdf"
+      ],
+      "literature_finding": "The author text retains the d-color question. Its generic perfect matching theorem and the d+1-color theorem are weaker. No later d-color theorem with precisely these hypotheses located.",
+      "search_topics": [
+        "Borel edge coloring one-ended d 2026",
+        "one-ended bipartite Baire edge coloring d colors"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4806,
+      "source_locator": {
+        "label": "Question 3.1.7",
+        "printed_page": 20,
+        "held_pdf_page": 27,
+        "original_extraction_page": 27
+      }
+    },
+    {
+      "statement_id": "3035f4f3a8c0e5600968",
+      "title": "Treeability of Archimedean orders on ℤ³",
+      "text": "Is the orbit equivalence relation E(GL₃(ℤ) acting on Ar(ℤ³)) treeable? Ar(A) is the standard Borel space of Archimedean translation-invariant total orders on the additive group A; GL₃(ℤ) acts on Ar(ℤ³) by transporting orders. Treeable means generated by a Borel acyclic graph.",
+      "citation": "Question 5.3.2, printed p. 97 / PDF p. 104; §5.2 definitions. Published paper counterpart: Question 3.2, arXiv:2403.11326.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2403.11326",
+        "https://antoinegpoulin.github.io/pdf/complexborel.pdf",
+        "https://doi.org/10.1090/proc/17239"
+      ],
+      "literature_finding": "The 2025 paper proves nonhyperfinite for rank≥3 and nontreeable for rank≥4; rank 3 treeability is still explicitly posed. The April 2026 thesis retains it, and no later answer located.",
+      "search_topics": [
+        "Archimedean treeable 3 2026",
+        "Antoine Poulin Archimedean orders 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4807,
+      "source_locator": {
+        "label": "Question 5.3.2",
+        "printed_page": 97,
+        "held_pdf_page": 104,
+        "original_extraction_page": 104
+      }
+    },
+    {
+      "statement_id": "bcd95a6bdf8ef3dc7944",
+      "title": "Borel complexity of Archimedean orders over ℤ[1/n]",
+      "text": "For integers n≥2, determine the Borel complexity of the isomorphism relation of Archimedean orders on the additive group ℤ[1/n]², equivalently the orbit equivalence relation of GL₂(ℤ[1/n]) acting on Ar(ℤ[1/n]²). Here ℤ[1/n]={a/n^j:a∈ℤ,j≥0}, and orders are identified when a group automorphism transports one to the other.",
+      "citation": "Question 5.3.4, printed p. 97 / PDF p. 104; published paper Question 3.4. The GL₂ notation is expanded as the automorphism group of the rank-two module, consistent with §5.2.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2403.11326",
+        "https://antoinegpoulin.github.io/pdf/complexborel.pdf",
+        "https://doi.org/10.1090/proc/17239"
+      ],
+      "literature_finding": "The paper and 2026 thesis retain the intermediate-ring complexity question, despite results for ℤ² and higher-rank ℤ groups. No subsequent classification of these relations located.",
+      "search_topics": [
+        "Archimedean orders Z[1/n] hyperfinite",
+        "Antoine Poulin Borel complexity intermediate rings 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4808,
+      "source_locator": {
+        "label": "Question 5.3.4",
+        "printed_page": 97,
+        "held_pdf_page": 104,
+        "original_extraction_page": 104
+      }
+    },
+    {
+      "statement_id": "6cf37b0d1166fa6e0bde",
+      "title": "Borel reducibility between ranks of Archimedean orders",
+      "text": "Let E_r be the orbit equivalence relation of GL_r(ℤ) on Ar(ℤ^r), the space of Archimedean orders on the additive group ℤ^r. Determine the Borel reducibility relations between these ranks: for sufficiently large integers n<m, can E_m≤_B E_n hold, and does E_n≤_B E_m always hold? A Borel reduction f must satisfy x E y if and only if f(x) F f(y).",
+      "citation": "Question 5.3.5, printed p. 97 / PDF p. 104; published paper Question 3.5. The source’s GL_r(ℤ^r) is its notation for the automorphism action on ℤ^r.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2403.11326",
+        "https://antoinegpoulin.github.io/pdf/complexborel.pdf"
+      ],
+      "literature_finding": "The source retains both directions as questions. Hyperfiniteness and treeability results alone do not settle the full reducibility pattern. No later answer located.",
+      "search_topics": [
+        "Archimedean orders Borel reducibility ranks 2026",
+        "Poulin Archimedean orders rigidity reduction"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4809,
+      "source_locator": {
+        "label": "Question 5.3.5",
+        "printed_page": 97,
+        "held_pdf_page": 104,
+        "original_extraction_page": 104
+      }
+    },
+    {
+      "statement_id": "4602719f3492986e7418",
+      "title": "Amenability of ideal Bernoulli Voronoi tessellations",
+      "text": "Fix a countable nonamenable group Γ, a left-invariant proper metric, and a fixed measurable equivariant rule assigning nearest-center ties. Independently retain each group element as a center with probability p and partition Γ into its Voronoi cells. An ideal Bernoulli Voronoi tessellation is any subsequential weak limit, as p↓0, of the resulting invariant random equivalence relations. Must every such limit be amenable as an invariant random equivalence relation (in the source’s Definition 3.7 sense)? The unresolved target includes nonexact groups; exact groups have an affirmative answer.",
+      "citation": "Question 6.6.2, printed p. 120 / PDF p. 127; construction §6.6, PDF pp. 126–127. March 27, 2026 accepted paper: §6, Question 1, arXiv:2502.11622v2; amenability Definition 3.7 there.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2502.11622v2",
+        "https://arxiv.org/html/2502.11622v2#S6"
+      ],
+      "literature_finding": "The March 2026 accepted version proves amenability for exact groups, produces nonamenable limits of other finite IREs on nonexact groups, and explicitly leaves this specific Voronoi question open. No later solution found.",
+      "search_topics": [
+        "ideal Bernoulli Voronoi amenable",
+        "ideal Bernoulli Voronoi nonexact groups 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4810,
+      "source_locator": {
+        "label": "Question 6.6.2",
+        "printed_page": 120,
+        "held_pdf_page": 127,
+        "original_extraction_page": 127
+      }
+    },
+    {
+      "statement_id": "57a40b10081f15103797",
+      "title": "Indistinguishability of ideal Bernoulli Voronoi cells",
+      "text": "Fix a countable nonamenable group Γ, a left-invariant proper metric, and a fixed measurable equivariant rule assigning nearest-center ties. Independently retain each group element as a center with probability p and partition Γ into its Voronoi cells. An ideal Bernoulli Voronoi tessellation is any subsequential weak limit, as p↓0, of the resulting invariant random equivalence relations. Must every such limit have indistinguishable cells? Indistinguishability means that every measurable Γ-equivariant cell selection rule is almost surely trivial (it selects all cells or no cells).",
+      "citation": "First question in Question 6.6.4, printed p. 120 / PDF p. 127; cell-selection definition immediately before it. March 27, 2026 accepted paper: §6, first question in Question 3, arXiv:2502.11622v2.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2502.11622v2",
+        "https://arxiv.org/html/2502.11622v2#S6",
+        "https://arxiv.org/abs/2408.10009"
+      ],
+      "literature_finding": "The accepted paper retains this discrete Bernoulli question. The cited indistinguishability theorem concerns ideal Poisson tessellations on symmetric spaces, not all discrete groups. No closure of the exact discrete target found.",
+      "search_topics": [
+        "ideal Bernoulli indistinguishability 2026",
+        "ideal Bernoulli Voronoi indistinguishable cells"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Only the first, Voronoi-specific question of source Question 6.6.4 is promoted; the broader second question remains unnumbered.",
+      "number": 4811,
+      "source_locator": {
+        "label": "Question 6.6.4",
+        "printed_page": 120,
+        "held_pdf_page": 127,
+        "original_extraction_page": 127
+      }
+    },
+    {
+      "statement_id": "018ad66a3132424af90f",
+      "title": "Does a convex belief-propagation image imply universal fields?",
+      "text": "For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏_{i=1}^d A_{c,τ_i}] and F_c(μ)=G_c(μ)/∑_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F. For a symmetric entrywise nonnegative interaction matrix A∈ℝ^(q×q) and integer d with F_prod=F_all, do there exist d fixed nonnegative external-field arrays λ^(i)∈ℝ^(d×q), independent of μ, such that F(μ)=F(⊗_{i=1}^d(λ^(i)⋆μ)_i) for every admissible μ? Here λ⋆μ(τ) is proportional to μ(τ)∏_j λ_{j,τ_j}, and (λ⋆μ)_i denotes its i-th marginal. The arrays must make these tilts and F well defined for the distributions to which the identity applies.",
+      "citation": "Question 3.9.17, printed p. 163 / PDF p. 163; definitions §3.8.1, Proposition 3.8.3, Definition 3.9.2. Later/current paper: Question 3, arXiv:2411.06541v2.",
+      "subject": "Probability & Stochastic Processes",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2411.06541v2",
+        "https://arxiv.org/html/2411.06541v2#S4"
+      ],
+      "literature_finding": "The February 2025 revision retains this conditional universal-fields question. The general reduction is disproved, but that disproof does not establish a counterexample under F_prod=F_all. No later answer located.",
+      "search_topics": [
+        "Counterexamples Weitz Style Reduction convex universal fields",
+        "Potts convexity universal fields"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4812,
+      "source_locator": {
+        "label": "Question 3.9.17",
+        "printed_page": 163,
+        "held_pdf_page": 163,
+        "original_extraction_page": 408
+      }
+    },
+    {
+      "statement_id": "088fb19120b77ab2a4b8",
+      "title": "Convex image of product measures for antiferromagnetic Potts",
+      "text": "Fix integers q≥3 and d≥2 and max{0,1−q/(d+1)}≤β≤1. For the antiferromagnetic Potts matrix A=11ᵀ−(1−β)I_q, is the image of product distributions on [q]^d under belief propagation F a convex subset of the probability simplex? For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏_{i=1}^d A_{c,τ_i}] and F_c(μ)=G_c(μ)/∑_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F.",
+      "citation": "Question 3.9.18, printed p. 163 / PDF p. 163; Definition 3.9.2 and §3.8.1. Current paper: Question 4, arXiv:2411.06541v2.",
+      "subject": "Probability & Stochastic Processes",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2411.06541v2",
+        "https://arxiv.org/html/2411.06541v2#S4"
+      ],
+      "literature_finding": "The current revision explicitly retains convexity as Question 4. Its large convex bulk theorem applies to distributions satisfying extra tail conditions and is not convexity of the entire product image. No later general resolution located.",
+      "search_topics": [
+        "Potts convexity universal fields",
+        "antiferromagnetic Potts belief propagation image convex 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4813,
+      "source_locator": {
+        "label": "Question 3.9.18",
+        "printed_page": 163,
+        "held_pdf_page": 163,
+        "original_extraction_page": 408
+      }
+    },
+    {
+      "statement_id": "eda23b422b81a98aa002",
+      "title": "Uniformly bounded cycle swaps connecting all 3D box tilings",
+      "text": "Does there exist a universal finite integer K such that, for every j×m×n rectangular grid box with positive integer side lengths and jmn even, any two perfect matchings can be connected by swaps on alternating cycles of length at most K? The grid joins nearest neighbors. An alternating-cycle swap exchanges matching and nonmatching edges along that cycle. The source also asks the stronger version using only flips and trits (the specified 4-edge square and 6-edge cube moves).",
+      "citation": "Problem 2.9.1, printed p. 195 / PDF p. 195; discussion PDF pp. 195–196. Current joint paper: Problem 9.0.1, arXiv:2304.08468v3.",
+      "subject": "Probability & Stochastic Processes",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2304.08468v3",
+        "https://arxiv.org/html/2304.08468v3#S9"
+      ],
+      "literature_finding": "The May 2026 revision retains both box-connectivity questions. HLT23 proves existence of at least one flip or trit, which is weaker than connecting every pair. Nonconnectivity for arbitrary simply connected regions does not settle rectangular boxes. No later box resolution found.",
+      "search_topics": [
+        "finite K trits box dimer",
+        "3D rectangular box domino tilings flips trits connected 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4814,
+      "source_locator": {
+        "label": "Problem 2.9.1",
+        "printed_page": 195,
+        "held_pdf_page": 195,
+        "original_extraction_page": 437
+      }
+    },
+    {
+      "statement_id": "55cc41087953a7dc26fa",
+      "title": "Reducing Archimedean-order isomorphism to a rank-three linear action",
+      "text": "For which integer ranks n≥2 does the orbit equivalence relation of GL_n(ℤ) acting on Ar(ℤ^n) Borel reduce to the orbit equivalence relation of GL₃(ℤ) acting by matrix multiplication on ℝ³? Ar(ℤ^n) is the standard Borel space of Archimedean translation-invariant total orders on ℤ^n. A Borel reduction f must satisfy x E y if and only if f(x) F f(y). The target is the action on ℝ³, not on Ar(ℤ³).",
+      "citation": "Question 5.3.1, printed p. 97 / PDF p. 104; paper counterpart Question 3.1, arXiv:2403.11326. The literal fixed rank-three target is retained from both sources.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2403.11326",
+        "https://antoinegpoulin.github.io/pdf/complexborel.pdf"
+      ],
+      "literature_finding": "The paper and April 2026 thesis retain this comparison question. It differs from the within-family rank comparison because its target is a linear action on vectors rather than transported orders. No later resolution found. The source leaves n as a parameter; the promoted classification question keeps n variable and asks which ranks admit a reduction.",
+      "search_topics": [
+        "Archimedean orders Borel reduction GL 2026",
+        "Poulin Archimedean linear action reduction"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4815,
+      "source_locator": {
+        "label": "Question 5.3.1",
+        "printed_page": 97,
+        "held_pdf_page": 104,
+        "original_extraction_page": 104
+      }
+    },
+    {
+      "statement_id": "40821c857dc6b4fd8b77",
+      "title": "Borel degree of isomorphism across all finitely generated Archimedean orders",
+      "text": "Determine the Borel complexity of the equivalence relation E on the disjoint union ⨆_{n≥2} Ar(ℤ^n) that identifies two Archimedean ordered groups exactly when they are isomorphic as ordered groups. Within a rank n, equivalence is the orbit relation of GL_n(ℤ) acting by transport of orders; distinct ranks are inequivalent. The classification target is the Borel reducibility degree of this countable union, including how it compares to the individual rank relations.",
+      "citation": "Question 5.3.3 and displayed disjoint union, printed p. 97 / PDF p. 104; paper counterpart Question 3.3, arXiv:2403.11326.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2403.11326",
+        "https://antoinegpoulin.github.io/pdf/complexborel.pdf"
+      ],
+      "literature_finding": "Both current source texts retain the all-ranks complexity question. Higher-rank nonhyperfinite/nontreeable results give lower bounds, not a classification of the Borel degree of the union. No later classification located.",
+      "search_topics": [
+        "Antoine Poulin Borel complexity Archimedean orders 2026",
+        "Archimedean orders Borel reducibility ranks"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4816,
+      "source_locator": {
+        "label": "Question 5.3.3",
+        "printed_page": 97,
+        "held_pdf_page": 104,
+        "original_extraction_page": 104
+      }
+    },
+    {
+      "statement_id": "6f8d145d9b3db37f83f7",
+      "title": "Uniqueness of the low-intensity Bernoulli Voronoi limit",
+      "text": "Fix a countable nonamenable group Γ, a left-invariant proper metric, and a fixed measurable equivariant rule assigning nearest-center ties. Independently retain each group element as a center with probability p and partition Γ into its Voronoi cells. An ideal Bernoulli Voronoi tessellation is any subsequential weak limit, as p↓0, of the resulting invariant random equivalence relations. Determine for which groups and fixed metric/tie-rule choices this weak limit is unique, meaning that all subsequences p_j↓0 with a weak limit yield the same distribution on equivalence relations. The metric and tie rule are held fixed when comparing subsequences.",
+      "citation": "Question 6.6.3, printed p. 120 / PDF p. 127; construction on PDF pp. 126–127. Accepted paper §6, Question 2, arXiv:2502.11622v2.",
+      "subject": "Logic & Foundations",
+      "decision": "accept",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent",
+      "primary_urls": [
+        "https://arxiv.org/abs/2502.11622v2",
+        "https://arxiv.org/html/2502.11622v2#S6"
+      ],
+      "literature_finding": "The March 2026 accepted version retains the generality-of-uniqueness question. The regular-tree result and continuous hyperbolic/symmetric-space Poisson results are known special cases and do not classify the discrete-group limits. No later general classification found.",
+      "search_topics": [
+        "ideal Bernoulli Voronoi unique",
+        "ideal Bernoulli Voronoi uniqueness group 2026"
+      ],
+      "status": "reviewed-open-no-resolution-found",
+      "scope_review": "Read source statement and its surrounding definitions/results; paraphrase keeps the stated target.",
+      "number": 4817,
+      "source_locator": {
+        "label": "Question 6.6.3",
+        "printed_page": 120,
+        "held_pdf_page": 127,
+        "original_extraction_page": 127
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "statement_id": "719b6c265f589736df13",
+      "author": "Wolfram, Catherine C.",
+      "label": "Open question",
+      "page": 62,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "81b57490421fd4785f55",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.2",
+      "page": 438,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "a1a188dfb460a6e27ed9",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.3",
+      "page": 438,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q41; no new number.",
+      "existing_question": 41,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "8ea58cc58687b72bebcc",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.4",
+      "page": 438,
+      "decision": "hold-scope",
+      "reason": "Literal extraction lacks an interior-current restriction; identical deterministic boundary matchings give no infinite paths. Hold for author-intended scope rather than adding a restriction without evidence.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "47e1461bd78ace5bff45",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.5",
+      "page": 438,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "61f6f5c77161599dfc5f",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.6",
+      "page": 438,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q42; no new number.",
+      "existing_question": 42,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "de09dcb70d646ef7fb9b",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.7",
+      "page": 438,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q43; no new number.",
+      "existing_question": 43,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "e15fc2c296704035a2ce",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.8",
+      "page": 440,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q44; no new number.",
+      "existing_question": 44,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "67e200a94edfdf11089c",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.9",
+      "page": 440,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "7bf1a4877b498ec48fac",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.10",
+      "page": 440,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "a35f79949955c416352d",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.11",
+      "page": 440,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "dbba699b382b54783ef2",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.14",
+      "page": 441,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "b7429eaa202f14dd42e5",
+      "author": "Wolfram, Catherine C.",
+      "label": "Problem 2.9.15",
+      "page": 441,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content"
+      ]
+    },
+    {
+      "statement_id": "856b8678bbdd42ecdd6a",
+      "author": "Chin, Byron",
+      "label": "Conjecture 4.1.6",
+      "page": 218,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/7d81108c-f89c-43b3-a8f7-075f0b6ea89e/content"
+      ]
+    },
+    {
+      "statement_id": "cd4156cfe0f9e5ec8321",
+      "author": "Chin, Byron",
+      "label": "Question 5.1",
+      "page": 329,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q45; no new number.",
+      "existing_question": 45,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/7d81108c-f89c-43b3-a8f7-075f0b6ea89e/content"
+      ]
+    },
+    {
+      "statement_id": "2a985786c2b5e5c75d46",
+      "author": "Chin, Byron",
+      "label": "Question 5.2",
+      "page": 329,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q46; no new number.",
+      "existing_question": 46,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/7d81108c-f89c-43b3-a8f7-075f0b6ea89e/content"
+      ]
+    },
+    {
+      "statement_id": "cd3d53a8e6ff311a4b2f",
+      "author": "Mani, Nitya",
+      "label": "Conjecture 2.3.7",
+      "page": 48,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q21; no new number.",
+      "existing_question": 21,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "0d75c31508924550541f",
+      "author": "Mani, Nitya",
+      "label": "Question 2.3.8",
+      "page": 49,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q22; no new number.",
+      "existing_question": 22,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "003492b5124fe020451b",
+      "author": "Mani, Nitya",
+      "label": "Conjecture 3.1",
+      "page": 360,
+      "decision": "extraction-noise",
+      "reason": "Broken cross-reference extracted as if it were a new conjecture; no independent question.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "f4e2ee2cf6a316a8806d",
+      "author": "Mani, Nitya",
+      "label": "Conjecture 3.7.1",
+      "page": 361,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "9f7e0e2323fe2f3bf4d8",
+      "author": "Mani, Nitya",
+      "label": "Question 3.8.4",
+      "page": 371,
+      "decision": "solved-in-source",
+      "reason": "The general Weitz-style reduction is refuted in the same chapter (Theorem 3.9.1) and arXiv:2411.06541, Theorem 1.3.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content",
+        "https://arxiv.org/abs/2411.06541v2"
+      ]
+    },
+    {
+      "statement_id": "476a2e571ba7198a7685",
+      "author": "Mani, Nitya",
+      "label": "Question 3.9.16",
+      "page": 408,
+      "decision": "hold-scope",
+      "reason": "Literal formulation permits the identically zero pseudometric, giving a vacuous affirmative answer. Hold pending a sourced nondegeneracy requirement; do not silently strengthen.",
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "79859543cba233f1ed1c",
+      "author": "Mani, Nitya",
+      "label": "Conjecture 4.2.2",
+      "page": 414,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q23; no new number.",
+      "existing_question": 23,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "9da4ccd12f9983bd6f04",
+      "author": "Mani, Nitya",
+      "label": "Conjecture 4.2.3",
+      "page": 415,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q1650; no new number.",
+      "existing_question": 1650,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "5ee262a6a1d3b63cd39d",
+      "author": "Mani, Nitya",
+      "label": "Question 4.3.18",
+      "page": 479,
+      "decision": "duplicate",
+      "reason": "Exact semantic duplicate of existing Q24; no new number.",
+      "existing_question": 24,
+      "primary_urls": [
+        "https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content"
+      ]
+    },
+    {
+      "statement_id": "0d9a8bef9ba5760b9491",
+      "author": "Antoine Poulin",
+      "label": "Question 3.1.5",
+      "page": 26,
+      "decision": "solved-literature",
+      "reason": "Bowen–Girão–Jardón-Sánchez, arXiv:2509.15000, Theorem 1.1 settles the measurable one-ended spanning-tree target.",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/b2a18854-3768-498d-be32-2c314563b3c8/content",
+        "https://arxiv.org/abs/2509.15000"
+      ]
+    },
+    {
+      "statement_id": "542c1cfcdc104cd4a592",
+      "author": "Kada Williams",
+      "label": "Conjecture 1.1",
+      "page": 13,
+      "decision": "extraction-noise",
+      "reason": "Broken cross-reference extracted as if it were a new conjecture; no independent question.",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/46870253-ce97-4c6f-84ff-e5c0bfbc4a04/download"
+      ]
+    },
+    {
+      "statement_id": "634452af952287600411",
+      "author": "Kada Williams",
+      "label": "Conjecture 1.5.2",
+      "page": 17,
+      "decision": "hold",
+      "reason": "Not promoted in this batch: source wording, precise independent target, or sufficient current-status evidence remains to be established.",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/46870253-ce97-4c6f-84ff-e5c0bfbc4a04/download"
+      ]
+    },
+    {
+      "statement_id": "02e88d49d5242944553d",
+      "author": "Kada Williams",
+      "label": "Question 5.1.2",
+      "page": 45,
+      "decision": "solved-in-source",
+      "reason": "Answered in this same thesis by Theorem 5.1.5, PDF p. 46: min(floor((m+n−2)/2),n−2).",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/46870253-ce97-4c6f-84ff-e5c0bfbc4a04/download"
+      ]
+    },
+    {
+      "statement_id": "667ec9cb804299e456ee",
+      "author": "Kada Williams",
+      "label": "Conjecture 6.2",
+      "page": 58,
+      "decision": "extraction-noise",
+      "reason": "Broken cross-reference extracted as if it were a new conjecture; no independent question.",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/46870253-ce97-4c6f-84ff-e5c0bfbc4a04/download"
+      ]
+    }
+  ],
+  "deduplication": {}
+}

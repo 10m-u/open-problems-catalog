@@ -1,0 +1,62 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "packets": [
+    {
+      "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/lutz-2021.json",
+      "sha256": "926a077ee5dcb0056a5dd79d43f64a847e6da2d3662795cae4ead9cbfddfb2aa",
+      "source_key": "Q140376726",
+      "recommendation_count": 7,
+      "physical_pages_read": [
+        21,
+        31,
+        97,
+        98,
+        99,
+        100,
+        138,
+        139,
+        140
+      ],
+      "verdict": "Source and formulation audit passes for the seven recommendations; dated literature evidence remains bounded.",
+      "findings": [
+        "The thesis explicitly says it usually works in ZF+AD (physical21); adding DC_R everywhere merely because the newer paper uses it would alter source scope.",
+        "Arithmetic regression and hyperarithmetic order preservation are distinct questions. Cone definitions and invariance requirements in the standalone texts match the corresponding degree structures.",
+        "Definition5.32 uses reducibility in both directions, not existence of a witnessing bijection. The text correctly preserves this weak Rudin–Keisler convention, which differs under AD from a usual ZFC characterization.",
+        "Strictly below, distinct equivalent, two specified Lebesgue/Baire ultrafilters, and maximality are different full targets. The Lebesgue/Baire subcase is explicitly related to strict-below, so these should carry relation links when integrated.",
+        "The theorem for measure-preserving functions uses stronger axioms; Question9.8 is specifically the ZF strength of the Borel case, and is not answered by merely citing that theorem."
+      ]
+    },
+    {
+      "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/cheung-2025.json",
+      "sha256": "d517e43cb6d7312ccb5b4cae81653b5cb43a829acfc7d6bb61d740f45dfe4f9a",
+      "source_key": "openai-supervised:df0ff696974d0e9aad5b",
+      "recommendation_count": 9,
+      "physical_pages_read": [
+        16,
+        20,
+        23,
+        26,
+        30,
+        35,
+        123,
+        124,
+        125
+      ],
+      "verdict": "Source and formulation audit passes for the nine recommendations; dated literature evidence remains bounded.",
+      "findings": [
+        "The input length n, rather than matrix side 2^n, is the variable in the source polylogarithmic communication-class convention (physical16). The equality-oracle separation text using polynomial in log n is correct.",
+        "Large monochromatic rectangle means both side cardinalities are bounded below by a constant fraction, not only large product area. The standalone general, gamma-two and XOR-lift questions preserve this.",
+        "Question6.1 asks size separation, while Question6.2 asks Fourier-norm separation. Constant randomized depth implies constant randomized size, and large Fourier norm lower-bounds deterministic size; these are related but not identical targets.",
+        "The entrywise-AND sign convention is min on ±1 entries. The gamma-two conjecture is for0/1 matrices; the standalone definition uses the actual Boolean matrix rather than silently changing to sign matrices.",
+        "Conjecture6.8 explicitly concerns a constant affine coset. The theorem requires affine connectivity of both set and complement; removing that hypothesis is still a distinct question.",
+        "The source states R(PL)=omega(1) in Conjecture6.4; root records a fresh primary April2026 closure rather than treating it as a new question. Question6.5 and unspecified-bound6.7 remain holds."
+      ]
+    }
+  ],
+  "limits": "This is an independent actual-source/scope audit and cross-packet comparison. It does not independently certify the nonexistence of later literature or verify proofs in every cited new preprint.",
+  "original_receipt_sha256": "57b391cf1c7bc3fb30c67d52364861b2ed6649f32734bea6ebe4c715aabab134"
+}

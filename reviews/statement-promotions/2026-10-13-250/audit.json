@@ -1,0 +1,259 @@
+{
+  "review_date": "2026-10-13",
+  "reviewer": "coordinating agent /root, resumed session",
+  "stage": "current-round final canonical audit complete;249 filed, user cutoff honored",
+  "cleared_packets": [
+    "agent-reviews/bhatia-2026.json",
+    "agent-reviews/bodart-2024.json",
+    "agent-reviews/douba-2022.json",
+    "agent-reviews/fisher-2025.json",
+    "agent-reviews/goncharov-2023.json",
+    "agent-reviews/gwynne-2018.json",
+    "agent-reviews/heuer-2019.json",
+    "agent-reviews/kudlinska-2024.json",
+    "agent-reviews/li-2020.json",
+    "agent-reviews/morales-2025.json",
+    "agent-reviews/park-2022.json",
+    "agent-reviews/servan-2026.json",
+    "agent-reviews/wolfram-2024.json",
+    "root-reviews/lutz-2021.json",
+    "root-reviews/cheung-2025.json",
+    "root-reviews/lichter-2023.json",
+    "agent-reviews/ascari-2023.json",
+    "agent-reviews/fruchter-2023.json",
+    "agent-reviews/gardam-2017.json",
+    "agent-reviews/huang-2025.json",
+    "agent-reviews/kogler-2025.json",
+    "agent-reviews/tselekidis-2023.json",
+    "agent-reviews/urech-2017.json",
+    "agent-reviews/llosa-isenrich-2017.json",
+    "agent-reviews/duminil-copin-2011.json",
+    "agent-reviews/winsor-2022.json",
+    "agent-reviews/matheau-raven-2020.json",
+    "agent-reviews/kumanduri-2023.json",
+    "root-reviews/versteegen-2024.json",
+    "root-reviews/goldberg-2019.json",
+    "root-reviews/frankl-2020.json",
+    "agent-reviews/prigge-2020.json",
+    "agent-reviews/martineau-2015.json",
+    "root-reviews/natura-2022.json",
+    "agent-reviews/gheysens-2017.json",
+    "agent-reviews/ghazouani-2017.json",
+    "root-reviews/janzer-2023.json",
+    "root-reviews/ivan-2023.json",
+    "root-reviews/gruslys-2018.json",
+    "agent-reviews/myropolska-2015.json",
+    "agent-reviews/eberhard-2016.json",
+    "root-reviews/sgueglia-2022.json",
+    "agent-reviews/jankiewicz-2018.json",
+    "root-reviews/joonkyung-lee-2017.json"
+  ],
+  "evidence": [
+    "Actual held PDF pages named by accepted records, including surrounding labelled questions, source-specific scope and printed headers, were independently read. Source definitions were additionally checked where the audit identified ambiguity.",
+    "Full-catalog/source-corpus retrieval is saved in SAVED-REVIEW-DUPLICATES.json; numbered neighbors were compared to the proposed targets rather than classified by similarity score.",
+    "Saved same-date primary query and reading logs are retained. The resumed review also checked the current primary Lutz, Fisher, Kastenholz, SLE and Goncharov sources; it does not claim a second exhaustive search for each packet.",
+    "The ongoing helper independently checked all16 Lutz/Cheung recommendations against the held sources, relevant definitions and exact field/input-length conventions; hashes and physical locators are in agent-reviews/INDEPENDENT-AUDIT-LUTZ-CHEUNG.json.",
+    "Independent all-packet duplicate recheck: INDEPENDENT-DUPLICATE-RECHECK.json compares 175 recommendations with all4800 baseline questions, lower-ranked text neighbors and source/manifest aliases. Ten exact duplicate mappings are enforced. This audit does not claim formal equivalence completeness.",
+    "Goldberg15 and Frankl12 independent fresh-hash source/scope/current-primary and global word/character/source-alias receipts pass after repairs. Coordinating agent independently read Prigge definitions/questions and Martineau source questions, full-Aut/unimodularity conventions and discrete-DDLA process; related numbered scopes differ.",
+    "Natura2 final fresh-hash independent receipt passes; polynomial-Hirsch candidate remains held againstQ1556, and efficient fixed-lcm recognition remains held for runtime-scope precision.",
+    "Coordinating agent independently read Gheysens held cover and physical43–45,112–120,127–130,132,145–148,162–163; six exact questions checked against source definitions and related Q1341/Q1343/Q3747/Q4075. Repaired the omitted unitarizability hypothesis before numbering. Independently checked current Bowen–Hoff–Ioana, Berendschot–Vaes, Gheysens–Monod Questions36–37 and nonlinear fixed-point sources; proper partial results do not close full targets. Source Problem8 is negatively answered by homogenizing its own bounded-orbit fixed-point-free affine Hilbert action, independently checked by both agents; full proof retained in packet.",
+    "Coordinating agent independently read Ghazouani physical1,24–25,76–77,82–83,125–127: three scopes match full Veech volume, the specified torus-leaf monodromy lattice classification, and finite-holonomy connected components. PU(1,n−1) dimension repair follows actual preceding definition; disconnected quotient leaves require componentwise holonomy. Q3467 is a broader unrelated lattice-existence target. September2026 primary2609.11482 retains unknown general discreteness; solved dilation cylinders and literal parabolic limit-set countercases are excluded with stable IDs retained.",
+    "Janzer8 final packet has an independent fresh-hash source/scope, full live word/character and manifest-source-alias audit. Verified physical/printed locators replace erroneous extraction offsets. Exact all-start shuffling and reachability remain distinct from approximate mixing and fixed-start networks;2026 upper-bound improvements are disclosed on bootstrap targets. Two unreviewed broader clauses remain active.",
+    "Ivan6 independently audited on a fresh hash: actual arbitrary-alphabet first-occurrence definitions, initial-sum endpoints/no gaps, weak-win/evacuation/construction distinctions and exact two-return quantifiers preserved. Full live text/source-alias comparison found no existing equivalent. Current October2026 UCC sub-half bound and September2026 single-orbit formalization are disclosed; the two-orbit torus target remains distinct. Old diamond and antichain saturation statements are excluded, without claiming conditional Proposition2.6 settles minimal/maximal incidence.",
+    "Gruslys10 final fresh-hash independent audit passes actual-source definitions and full live text/source-alias comparison. Grid D4 single-polyomino targets are distinct from the October2026 translational3D theorem; rank-two periodicity is explicit. Uniform Euclidean dimension, arbitrary induced-poset packing, complete maximal lines, three different fixed-intersection map/codomain classes and exact F-edge classification preserve scope. Two historical cube conjectures are refuted and arbitrary punctured intervals are solved; neither is promoted.",
+    "FINAL-ROOT-SCOPE-COMPARISONS.json",
+    "agent-reviews/INDEPENDENT-FINAL-CANONICAL-AUDIT.json"
+  ],
+  "overrides": {
+    "a897688564a0ba9c4239": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        2721
+      ],
+      "reason": "Morales: same absolute profinite rigidity of f.g. free and closed hyperbolic surface groups. Nonhyperbolic surface cases are known and do not add a new open target."
+    },
+    "08cde0b5460850eac8d0": {
+      "decision": "accept",
+      "scope_addendum": "Read physical138/Question5.1.1 and physical139/Remark5.1.4: the common genus is explicitly essential there. Question5.1.11 on physical145 calls itself a refinement of Question5.1.1, so its inherited fixed-genus scope is recovered from that setup; the isolated line omits it. Relative minimality is an explicit source-wide convention on physical147. This contextual repair is disclosed rather than presented as verbatim isolated wording."
+    },
+    "72365d51fb56a57fd59d": {
+      "replace_text_suffix": {
+        "old": "Here d is sutured-hierarchy depth: the minimum number of taut sutured decompositions needed to reach a product sutured manifold, with depth0 for a product.",
+        "new": "Here d is the sutured-hierarchy depth in Definition 2.1.19: the minimum n admitting a taut hierarchy (M₀,γ₀)→⋯→(M_{n+1},γ_{n+1}) from (M,γ) to a product sutured manifold, using the source's indexing convention."
+      },
+      "scope_addendum": "Independent check of physical PDF25/Definition2.1.19 recovers the source indexing; no off-by-one interpretation as a raw decomposition count."
+    },
+    "09c3c6cadbbcc0670ee2": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        1515
+      ],
+      "reason": "Fisher: a domain means exactly no nonzero factors with ab=0. All fields and torsion-free groups match."
+    },
+    "b85cb6904ea1d15ce87b": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        1370
+      ],
+      "reason": "Lutz: a distinct ultrafilter with reducibility both ways is exactly weak Rudin–Keisler equivalence to Martin measure."
+    },
+    "3c086c2a4bf875146b02": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        1371
+      ],
+      "reason": "Lutz: existence strictly above Martin measure and whether Martin measure is maximal ask opposite polarities of the same target."
+    },
+    "5ed041b0b54e5de139e8": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        1175
+      ],
+      "reason": "Lichter: same CPT+WSC versus CPT Boolean strictness, on all finite relational structures."
+    },
+    "00147b8846fda6b6e546": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        1174
+      ],
+      "reason": "Lichter: same bounded-colour canonization with supplied ordered colour partition and every fixed bound."
+    },
+    "e9752678f4ff7f1b4627": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        189
+      ],
+      "reason": "Kumanduri: same oriented closed manifolds, stable range, integral homology and torsion condition."
+    },
+    "00853bdb56d791852298": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        190
+      ],
+      "reason": "Kumanduri: exact boundary CP^n small-(n+1)-dilation target. Fixed compact metrics versus conventional metrics does not change zero infimum."
+    },
+    "7c7b42962c3bf0ef877d": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        1290
+      ],
+      "reason": "Matheau-Raven: same positive-alpha separation cutoff. Adding the known alpha=1 case is not a new open target."
+    },
+    "d750a48c7c5e5b5e3b6d": {
+      "decision": "reject_duplicate",
+      "duplicate_of": [
+        1291
+      ],
+      "reason": "Matheau-Raven: same source Conjecture 4.4.4 signed-shuffle cutoff. Expanding its displayed source bound and adding known alpha=0 does not create a distinct promoted source question."
+    },
+    "1fa3ea74bac9ba7edaec": {
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question0.2.13, printed p.34 / held PDF p.43.",
+      "source_label": "Question0.2.13"
+    },
+    "d1b0c81e074ab97f988f": {
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Unlabelled remark after Proposition0.2.11, printed p.32 / held PDF p.41.",
+      "source_label": "Unlabelled remark after Proposition0.2.11"
+    },
+    "6829e9280d38e714eac8": {
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question0.3.22, printed p.50 / held PDF p.59.",
+      "source_label": "Question0.3.22"
+    },
+    "69b69eaefb6242662972": {
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question0.3.26, printed p.51 / held PDF p.60.",
+      "source_label": "Question0.3.26"
+    },
+    "079a9889aaf4555f89a0": {
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question2.0.7, printed p.107 / held PDF p.182.",
+      "source_label": "Question2.0.7"
+    },
+    "afc1ebe2ef10b74a4025": {
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question3.5.5, printed p.159 / held PDF p.234.",
+      "source_label": "Question3.5.5"
+    },
+    "61b782c4f4960a652787": {
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question3.5.6, printed p.159 / held PDF p.234.",
+      "source_label": "Question3.5.6"
+    },
+    "5824b91fc0054f3c4184": {
+      "literature_finding": "Gaboriau–Lyons and Bowen–Hoff–Ioana provide measurable embeddings or free orbit relations after an extension. These results do not produce a measure-equivalent whole group containing a free subgroup. No resolution of the entire measure-equivalence-class avoidance question was located in the dated primary scan."
+    },
+    "bfed7ac1bb7a1daf1d92": {
+      "literature_finding": "The source proves compactness implies this fixed-point property, which implies precompactness; complete groups and groups measurable in their completion have positive results. The current primary scan found no extension covering every Hausdorff group, including incomplete groups."
+    },
+    "55692f47fe9f6d7453b9": {
+      "literature_finding": "The isometric theorem of Bader–Gelander–Monod and the nonexpansive norm-distal extension of Wiśnicki are partial results. Equivalent renorming need not preserve L-embeddedness. These results do not settle the source’s general uniformly bounded affine-action question."
+    },
+    "2589a9fa9d5d0604faa7": {
+      "literature_finding": "Published Questions 36–37 retain the locally compact closed-subgroup and discrete-free-subgroup targets. Subgroup stability is already known for discrete groups. A current discrete Dixmier closure lead does not establish the corresponding result for all locally compact groups; no such full result was located."
+    },
+    "c78059826d6d0e23c66b": {
+      "literature_finding": "Amenability together with property (T) implies compactness. Unitarizability implying amenability for all locally compact groups would answer this question, but was not established by the bounded primary scan. A discrete-group closure claim does not automatically cover the source’s continuous locally compact representations."
+    },
+    "31bac5edcd86f9af6a83": {
+      "literature_finding": "Krein’s theorem gives the property for the weak topology in quasi-complete spaces, so any counterexample here must be incomplete. The current primary scan found no result resolving the full comparison between the original and weak topologies."
+    },
+    "bfec18894ddadcf93d70": {
+      "subject": "Combinatorics & Graph Theory"
+    },
+    "13d74d5d18bfacdd3e7a": {
+      "decision": "solved-source-reduction",
+      "reason": "Both agents verified a counterexample to the literal arbitrary-system conjecture. For x+y=z and x+2y=4z the rational kernel is (-2t,3t,t), so no positive-integer solution exists and δ_F=1. Over every prime p>3, any B of density greater than 2/3 contains a solution by the intersection of B, (-2)^(-1)B and 3^(-1)B. Thus d_F(F_p)≤2/3 for all such primes, refuting the asserted equality. Both rows have mixed signs. The source states no common-positive-solution restriction; a repaired intended conjecture is not substituted. See root-reviews/EBERHARD-SYSTEM-COUNTERCASE.md."
+    }
+  },
+  "notes": [
+    "Fisher physical PDF23, Theorem2.3.13 and the next paragraph confirm universality as dominance of every division-ring rank function, equivalent to specialization. A maximal element is not automatically a greatest element; the saved status notes need this distinction, but the three definitions are valid.",
+    "Bodart's labels are truncated by the extractor: different Conjecture4 records are not merged just because their extracted labels agree. Source quantifiers and nearby definitions decide equivalence.",
+    "Fruchter and later new packets are not included in this saved-packet clearance.",
+    "2026-10-14 global audit corrected provisional duplicates Q4849→Q1515, Q4898→Q1370 and Q4900→Q1371. Their original candidate records and error history are retained. Independent Lichter receipt refreshed after compiler repair. Successor6-source clearance includes actual held source pages and saved full-catalog retrieval comparisons.",
+    "Two Lichter provisional source targets were additionally retracted as Q1175/Q1174 duplicates. Source scopes of the remaining successor packets were independently read; Prigge block-definition repair and Goldberg source audit remain pending.",
+    "Natura polynomial-Hirsch candidate remains held against Q1556 pending exact scope/equivalence clarification. LP and integral-decomposition recommendations await their final fresh-hash receipt.",
+    "Martineau cover independently verifies defence10December2014, despite2015 HAL deposit/packet filename. Canonical source year2014 is retained. Missing display taxonomy/citations in the preliminary packet are recovered from actual reviewed locators by coordinating overrides.",
+    "Q5023 display wording clarifies one common finite-set evacuation strategy. Both agents verified equivalence to separate finite-target strategies on arbitrary connected graphs using dynamically growing finite visited sets. No mathematical scope or number changes.",
+    "Q5003–5008 literature notes rewritten with normal spacing for public readability, preserving their bounded status findings and mathematical targets. Raw evidence packets remain unchanged.",
+    "Myropolska: six targets independently cleared after actual source definitions and current primary checks. Kofinas 2024 Remark 1(1), missed by the first main-theorem-only review, explicitly supplies a non-tame automorphism for all rank n>=4 centre-by-metabelian groups; this seventh proposal is solved-literature before numbering. The source rigid-level branch convention and unbounded finite-quotient class-count interpretation remain disclosed.",
+    "Eberhard three targets cleared after physical source/definition checks, full saved live-neighbor comparisons and current primary review. April2026 periodic-factor theorem explicitly leaves constancy unproved. Literal arbitrary-system density conjecture refuted by a jointly checked elementary countercase; no silently repaired positive-kernel hypothesis. solved-source disposition normalized to solved-in-source for proper archival.",
+    "Sgueglia explicit K3/bias1 clause independently cleared. Arbitrary-H one-edge obstruction and all other source targets remain disclosed holds; broader stop-game remainder stays active. User later directs stopping after the current source round whether or not250 is reached; no further source round is authorized by the target alone.",
+    "Jankiewicz three targets independently cleared after actual source definitions and primary scope/status checks. The virtual C-prime dimension row is held for the finite-relator standing-convention ambiguity. Closed biautomatic clause is documented but not retained as an active remainder; Coxeter and Artin cubulations specify cubical automorphisms and explicit braid commutation relations.",
+    "Joonkyung Lee one cut-group weak-norm sufficiency target cleared by independent actual-source and full-catalog audit, with connected graph domain and symmetric kernel convention explicit. Other source targets held; user current-round cutoff leaves249 accepted promotions. No further source round.",
+    "Final independent canonical audit covers every Q4801–Q5049, including first25, against the full baseline, cross-batch relationships and normalized source/coauthor aliases. Exact catalog hash bound, no blocking issues. Intake stops at249 by the later user cutoff; no further source selection."
+  ],
+  "retracted_provisional_numbers": {
+    "4849": {
+      "statement_id": "09c3c6cadbbcc0670ee2",
+      "duplicate_of": 1515,
+      "statement_ids": [
+        "5ed041b0b54e5de139e8"
+      ],
+      "duplicate_mappings": {
+        "5ed041b0b54e5de139e8": [
+          1175
+        ]
+      }
+    },
+    "4898": {
+      "statement_id": "b85cb6904ea1d15ce87b",
+      "duplicate_of": 1370
+    },
+    "4900": {
+      "statement_id": "3c086c2a4bf875146b02",
+      "duplicate_of": 1371
+    },
+    "4912": {
+      "statement_ids": [
+        "00147b8846fda6b6e546"
+      ],
+      "duplicate_mappings": {
+        "00147b8846fda6b6e546": [
+          1174
+        ]
+      }
+    }
+  }
+}

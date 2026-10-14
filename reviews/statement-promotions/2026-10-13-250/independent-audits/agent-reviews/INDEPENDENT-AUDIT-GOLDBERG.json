@@ -1,0 +1,60 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/goldberg-2019.json",
+  "sha256": "1a9b627ea24b11b90383de9d20e1465656cf2bfd23b00311f42994d65d2a2fa2",
+  "recommendation_count": 15,
+  "source_key": "Q140376732",
+  "physical_pages_read": [
+    14,
+    15,
+    18,
+    104,
+    112,
+    232,
+    254,
+    256,
+    274,
+    345,
+    347,
+    373,
+    393,
+    399,
+    403,
+    409,
+    413
+  ],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "verdict": "Fifteen actual-source mathematical scopes and bounded global duplicate comparison pass after uncountable-kappa definition repair.",
+  "required_repairs": [],
+  "findings": [
+    "Physical14 Question2.1.1 uses exponent2^κ and normal measures concentrating on nonmeasurables. Physical112 Definition4.2.18 supports exact image-membership supercompactness definition. UA makes the normal Mitchell order linear, hence unique normal measure concentrating on nonmeasurables; that is a conditional negative instance when UA is consistent with the stated local-supercompactness hypothesis. Do not describe this merely as literature retaining the conjecture.",
+    "Question2.1.2 is unrestricted strongly compact multiplicity. Gitik–Kaplan restrelm6-20 §4 Cor4.3 and Thm4.4/4.5 give conditional forcing countermodels from a supercompact with unique nonmeas-concentrating normal measure and no inaccessible above; preparation gives2^κ=κ⁺. They explicitly invoke single-supercompact+UA. This is not an unconditional consistency theorem for that starting theory, and not a theorem all strongly compact cardinals have one measure under UA.",
+    "Conjectures2.1.3/2.1.4/2.1.8 are consistency assertions with an extendible cardinal: unique nonmeas-concentrating measures, linear normal-measure Mitchell order, and UA respectively. Their different conjunctions are preserved; no relative-consistency equality invented.",
+    "Physical232 Question6.2.9 firstbullet asks subsetofκ coding, while source proves subsetofκ^{++} coding. Kaplan2609.06803 actualabstract concerns a strong cardinal and X∈Vκ; it does not settle least-supercompact target.",
+    "Pseudocompactness is μ-tight for every cardinal μ≤λ (Definitions7.2.5/8.2.1); tightcoverbound is M-cardinality≤μ. Question8.2.5 has M-cofinality of sup j[κ⁺] equalto Vκ⁺; image-membership, not arbitrary closure, is the target.",
+    "Local strong-compactness fine-ultrafilter formulation is justified by actual Theorem7.2.10 (physical256), with uncountable κ≤λ. Club-compactness at regularλ asks extensionofclubfilteronPκλ; fullglobalSC orsupercompactness is not inserted.",
+    "Physical393 Definition8.4.6 weakcardinalpreservation means j maps V-cardinals to V-cardinals. Later2021 cardinal-correct version and2024 embeddings INTO V have stronger/different hypotheses, so cannot close literal source target.",
+    "Physical399 local inaccessible-supercompactness question keeps UA and both least-cardinal/generalMenas-exception clauses together. Q84 isolatedFrechetclassification is related but not this localSCequivalence.",
+    "Pathology actualphysical403 Definition8.4.20 is <λ-supercompact and λ-tight but not λ-supercompact; fulltext image-membership/cover formulation is exact. I₂(λ) actualdefinition is critbelowλ,jλ=λ,Vλ⊂M. Source only proves regular-or-countablecf dichotomy; no converse is inserted.",
+    "Physical274 cover/approximation tests use V-small Pδθ∩N, not N-small sets. Source defines global property atallN-cardinals, equivalent toallordinals by intersecting/embedding into largerN-cardinal. Root allordinal definition is faithful.",
+    "Physical409 UAinner-modelHypothesis is not UAinV. Physical413 successorofsingularpathology is unrestrictedZFC; regularpathology conjunction addsUA. KnownUA/localUArestrictions are not silently imported into unrestrictedquestion.",
+    "Literal thesis Question3.6.17 physical104 is AD+V=L(R)⇒Ketonenlinear. UAFromAD2025 introduction Cor4.20 says ambientZFC, but actual§4.4 Cor4.20 physical19 says ZF+AD^{L(R)} and provesL(R)UA frominternalCabalAD→AD+orMartin–Steel/Woodin. Thus applyinsideV=L(R),thenCor3.6 givesKetonenlinearity. Terminalanswered disposition is supported withoutambientchoice."
+  ],
+  "duplicate_comparison": {
+    "retrieval": "agent-reviews/GOLDBERG-GLOBAL-RETRIEVAL.json",
+    "method": "All fifteen live-numbered seven-word/seven-character neighbors mathematically compared; manifestauthor/title/sourceURL aliases inspected completely. No threshold certifies equivalence.",
+    "relationships": "Same-thesis Q80 game-determinacy implication, Q81 generalizedMitchellirreducibles, Q82 mutualinternalultrafilters, Q83 HODsuccessor, Q84 isolatedFrechetclassification are distinctfromthese15. Other GoldbergaliasesQ3180–3183concernspecificHODcardinal/cofinalityproperties, notUAinner-modelapproximationorweakembeddingconsistency. Q3170 reversesembeddingdirectionintoV; Q3171globalHODcoverextensiondifferentlocalclubcompactness. Q4698normalidealconsistencydifferentnormalmeasuremultiplicity. ProvisionalLutzultrafilterdegreequestionsworkinZF+ADonTuringdegrees, notnormalmeasuresinZFC."
+  },
+  "primary_sources_independently_checked": [
+    "https://math.berkeley.edu/~goldberg/",
+    "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf",
+    "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf",
+    "https://math.berkeley.edu/~goldberg/Papers/OnCardinalPreservingEmbeddings.pdf",
+    "https://arxiv.org/abs/2609.06803"
+  ],
+  "limits": "Bounded actual-source scope, primary statement/status comparison and global retrieval/source-alias comparison. No proof audit of every newly published preprint, no universal equivalence or openness certificate.",
+  "original_receipt_sha256": "6e0ac9e7616a87ae364e202d664df4b641e3c76f5d62e4f00fee4b2154d0ac49"
+}

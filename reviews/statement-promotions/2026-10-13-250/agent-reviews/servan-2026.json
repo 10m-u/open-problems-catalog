@@ -1,0 +1,318 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:f04672875ed8fe947e28",
+  "source_review_notes": [
+    "Two recommendations, two exact numbered duplicates, two holds. HeldPDF242 physical pages; printed page=physical−12 inbody, while extracted page labels are inflated.",
+    "Read actual physical99–103,145–149,204–205 plus neighbouring theorems/definition. Genus and trivial-fibration conventions checked, not inferred from theorem prose.",
+    "The first section-finiteness question is deliberately held because product fibrations answer the literal existential version; no unrequested theorem search performed."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Carlos Serván\" Lefschetz2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lefschetz fibrations\" \"odd genus\" \"diffeomorphic\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lefschetz\" \"homotopically distinct\" \"sections\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lefschetz fibrations\" \"partial conjugations\" \"Serván\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Carlos Serván\" papers homepage"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lefschetz fibrations\" \"finite\" \"homotopically\" sections"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lefschetz fibrations\" \"partial conjugations\" \"infinitely\" -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lefschetz\" \"sections\" \"finite positive\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lefschetz\" \"finitely many isomorphism classes\""
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/pdf/2409.15265",
+      "sections_read": "Introduction Questions1.7/1.10 and §2 definition, source single-orbit nonclosure; current paper isv1, not imaginedv2/v3."
+    },
+    {
+      "url": "https://arxiv.org/html/2602.10051v1",
+      "sections_read": "§1.4 Questions1.11–1.14 and §1 partial-conjugation formula; §2 operation conventions and §7 monodromy family."
+    },
+    {
+      "url": "https://servancarlos.github.io/",
+      "sections_read": "Current complete mathematics works list, datedAugust20,2026; author identity separate from prior ecology doctorate."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/k7b7dfc14bb4c.pdf",
+    "sha256": "c83f007ac221b643dc6f510308acd2f7c6f5f4aebf12432c9725a0b7c7d549a7",
+    "physical_pages": 242
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "1bde5b7786c1295ca5aa69a9423dd02ec5bd0e16db70c16f4b95377721dd6e95",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Finite section-isomorphism orbits despite infinitely many homotopy classes",
+      "text": "A Lefschetz fibration here is a smooth map π:X⁴→S² from a closed connected oriented4-manifold, with connected surface fibres and finitely many orientation-compatible complex Morse singularities z₁²+z₂², distinct critical values and relatively minimal fibres. Does there exist such a fibration with infinitely many homotopy classes of smooth sections but only finitely many isomorphism classes of sections? Can the number of isomorphism classes be1? Sections s₁,s₂ are isomorphic if there are orientation-preserving diffeomorphisms Ψ:X→X and ψ:S²→S² with π∘Ψ=ψ∘π and Ψ∘s₁=s₂∘ψ. Homotopy here is homotopy of the section maps S²→X.",
+      "subject": "Topology & Symplectic Geometry",
+      "citation": "Question4.1.10, printed89; section-isomorphism definition printed88",
+      "locator": {
+        "printed_page": 89,
+        "pdf_page": 101,
+        "verified_from": "Held Chicago PDF footer and actual physical page. Extractor page123 is physical99, not physical123."
+      },
+      "scope_review": "Allows base diffeomorphisms, as the actual commuting diagram specifies; not only fibrewise automorphisms over the identity. The known constructed infinite section families in one orbit do not prove there are no further orbits. Both finite-orbit and single-orbit clauses retained.",
+      "literature_finding": "Current author primary page (updatedAugust20,2026) lists the2024 sections paper and2026 pencils paper. Counterpart Question1.10 retains the same question and expressly says the constructed single-orbit family does not answer it. No exact later closure located.",
+      "status_grade": "A: explicit current-author paper question, with nearby nonclosure explained",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog Lefschetz retrieval finds Q3033/3034 on numbers of inequivalent fibrations, Q2318 on singularity data versus total spaces, and Q4176/4177 on two-sections/aspherical spaces; none asks section orbits inside a fixed fibration.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2409.15265",
+        "https://servancarlos.github.io/"
+      ],
+      "statement_id": "9ba2a1bdb81c07c94346",
+      "statement_ids": [
+        "9ba2a1bdb81c07c94346"
+      ],
+      "source_pdf_sha256": "c83f007ac221b643dc6f510308acd2f7c6f5f4aebf12432c9725a0b7c7d549a7",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Carlos Serván\" Lefschetz2026",
+        "\"Lefschetz fibrations\" \"odd genus\" \"diffeomorphic\"",
+        "\"Lefschetz\" \"homotopically distinct\" \"sections\"",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"Serván\"",
+        "\"Carlos Serván\" papers homepage",
+        "\"Lefschetz fibrations\" \"finite\" \"homotopically\" sections",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"infinitely\" -site:researchgate.net",
+        "\"Lefschetz\" \"sections\" \"finite positive\"",
+        "\"Lefschetz\" \"finitely many isomorphism classes\""
+      ],
+      "number": 4892,
+      "source_locator": {
+        "label": "Question 4.1.10",
+        "printed_page": 89,
+        "held_pdf_page": 101,
+        "original_extraction_page": 125
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Infinite families outside partial-conjugation equivalence",
+      "text": "A Lefschetz fibration here is a smooth map π:X⁴→S² from a closed connected oriented4-manifold, with connected surface fibres and finitely many orientation-compatible complex Morse singularities z₁²+z₂², distinct critical values and relatively minimal fibres. Does there exist a fixed4-manifold X and an infinite family of Lefschetz fibrations X→S² of a common fibre genus such that no two are related by a finite sequence of partial conjugations and fibration equivalences? In monodromy terms, a partial conjugation replaces a contiguous subfactorization W₂ in W₁W₂=1 by its factorwise conjugate fW₂f⁻¹ when f commutes with the product W₂; usual Hurwitz moves and global conjugation encode fibration equivalence.",
+      "subject": "Topology & Symplectic Geometry",
+      "citation": "Question5.1.11, printed133; partial-conjugation setup printed129 and§5.2",
+      "locator": {
+        "printed_page": 133,
+        "pdf_page": 145,
+        "verified_from": "Held Chicago PDF footer and actual physical page. Extractor page123 is physical99, not physical123."
+      },
+      "scope_review": "The common-genus quantifier is taken from the surrounding explicit refinement of Question5.1.1 and fixed-genus discussion, not from the short isolated sentence alone; this scope clarification is disclosed. Full sequences, not a single conjugation, are required. Signature/Euler characteristic equality alone is not equivalence under the operation. Read physical138/Question5.1.1 and physical139/Remark5.1.4: the common genus is explicitly essential there. Question5.1.11 on physical145 calls itself a refinement of Question5.1.1, so its inherited fixed-genus scope is recovered from that setup; the isolated line omits it. Relative minimality is an explicit source-wide convention on physical147. This contextual repair is disclosed rather than presented as verbatim isolated wording.",
+      "literature_finding": "Explicitly retained as Question1.11 in theFebruary2026 paper. Its infinite ruled-surface examples are obtained by partial conjugation, so they do not answer this refined question. Current author list contains no claimed closure.",
+      "status_grade": "A: explicit2026 primary question, source-context common-genus clarification recorded",
+      "source_repairs": [
+        {
+          "issue": "Short Question5.1.11 omits fibre genus although introduced as refinement of fixed-genus Question5.1.1.",
+          "repair": "Require a common fibre genus, as the surrounding fixed-genus programme and source discussion indicate.",
+          "authority": "https://arxiv.org/html/2602.10051v1#S1.SS4"
+        }
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Q3033 asks existence in odd genus/genus2; Q3034 asks hyperelliptic infinite families. Those do not require inequivalence under sequences of partial conjugations. No exact full target duplicate found.",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.10051v1",
+        "https://servancarlos.github.io/"
+      ],
+      "statement_id": "08cde0b5460850eac8d0",
+      "statement_ids": [
+        "08cde0b5460850eac8d0"
+      ],
+      "source_pdf_sha256": "c83f007ac221b643dc6f510308acd2f7c6f5f4aebf12432c9725a0b7c7d549a7",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Carlos Serván\" Lefschetz2026",
+        "\"Lefschetz fibrations\" \"odd genus\" \"diffeomorphic\"",
+        "\"Lefschetz\" \"homotopically distinct\" \"sections\"",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"Serván\"",
+        "\"Carlos Serván\" papers homepage",
+        "\"Lefschetz fibrations\" \"finite\" \"homotopically\" sections",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"infinitely\" -site:researchgate.net",
+        "\"Lefschetz\" \"sections\" \"finite positive\"",
+        "\"Lefschetz\" \"finitely many isomorphism classes\""
+      ],
+      "number": 4893,
+      "source_locator": {
+        "label": "Question 5.1.11",
+        "printed_page": 133,
+        "held_pdf_page": 145,
+        "original_extraction_page": 169
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "citation": "Question4.1.7",
+      "locator": {
+        "printed_page": 87,
+        "pdf_page": 99,
+        "verified_from": "Held Chicago PDF footer and actual physical page. Extractor page123 is physical99, not physical123."
+      },
+      "reason": "Literal question omits nontriviality, although Definition4.2.1 permits zero critical points. The product Σ_g×S²→S² for g≥1 has exactly one homotopy class of smooth sections because π₂(Σ_g)=0. The intended nontrivial-fibration version may be open, but cannot silently be inserted from the label; effective-bound parameters are also unspecified. Current counterpart Question1.7 still has the same omission.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2409.15265"
+      ],
+      "statement_id": "9129b4b773018f038455",
+      "statement_ids": [
+        "9129b4b773018f038455"
+      ],
+      "source_pdf_sha256": "c83f007ac221b643dc6f510308acd2f7c6f5f4aebf12432c9725a0b7c7d549a7",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Carlos Serván\" Lefschetz2026",
+        "\"Lefschetz fibrations\" \"odd genus\" \"diffeomorphic\"",
+        "\"Lefschetz\" \"homotopically distinct\" \"sections\"",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"Serván\"",
+        "\"Carlos Serván\" papers homepage",
+        "\"Lefschetz fibrations\" \"finite\" \"homotopically\" sections",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"infinitely\" -site:researchgate.net",
+        "\"Lefschetz\" \"sections\" \"finite positive\"",
+        "\"Lefschetz\" \"finitely many isomorphism classes\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question5.1.12",
+      "locator": {
+        "printed_page": 133,
+        "pdf_page": 145,
+        "verified_from": "Held Chicago PDF footer and actual physical page. Extractor page123 is physical99, not physical123."
+      },
+      "reason": "Exact family Z_n is open in2026 counterpart, but a standalone specification needs the chain and bounding-pair relative positions of Figure5.6, not merely “a genus1 bounding pair” in an arbitrary position. The monodromy expression from Definition5.7.2 was read and preserved; hold until a portable exact diagram/combinatorial curve model is attached. No collapse into the unrelated main ruled-surface family X_n already proved diffeomorphic.",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.10051v1"
+      ],
+      "statement_id": "1f56042c6223769f211d",
+      "statement_ids": [
+        "1f56042c6223769f211d"
+      ],
+      "source_pdf_sha256": "c83f007ac221b643dc6f510308acd2f7c6f5f4aebf12432c9725a0b7c7d549a7",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Carlos Serván\" Lefschetz2026",
+        "\"Lefschetz fibrations\" \"odd genus\" \"diffeomorphic\"",
+        "\"Lefschetz\" \"homotopically distinct\" \"sections\"",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"Serván\"",
+        "\"Carlos Serván\" papers homepage",
+        "\"Lefschetz fibrations\" \"finite\" \"homotopically\" sections",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"infinitely\" -site:researchgate.net",
+        "\"Lefschetz\" \"sections\" \"finite positive\"",
+        "\"Lefschetz\" \"finitely many isomorphism classes\""
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "citation": "Question5.1.13",
+      "locator": {
+        "printed_page": 134,
+        "pdf_page": 146,
+        "verified_from": "Held Chicago PDF footer and actual physical page. Extractor page123 is physical99, not physical123."
+      },
+      "reason": "Exact already-numbered Q3033, including both fixed odd-genus and genus2 branches. Map original source extract without another number.",
+      "duplicate_of": [
+        "Q3033"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/html/2602.10051v1"
+      ],
+      "statement_id": "6b41f84e86d3995d4d58",
+      "statement_ids": [
+        "6b41f84e86d3995d4d58"
+      ],
+      "source_pdf_sha256": "c83f007ac221b643dc6f510308acd2f7c6f5f4aebf12432c9725a0b7c7d549a7",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Carlos Serván\" Lefschetz2026",
+        "\"Lefschetz fibrations\" \"odd genus\" \"diffeomorphic\"",
+        "\"Lefschetz\" \"homotopically distinct\" \"sections\"",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"Serván\"",
+        "\"Carlos Serván\" papers homepage",
+        "\"Lefschetz fibrations\" \"finite\" \"homotopically\" sections",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"infinitely\" -site:researchgate.net",
+        "\"Lefschetz\" \"sections\" \"finite positive\"",
+        "\"Lefschetz\" \"finitely many isomorphism classes\""
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "citation": "Question5.1.14",
+      "locator": {
+        "printed_page": 134,
+        "pdf_page": 146,
+        "verified_from": "Held Chicago PDF footer and actual physical page. Extractor page123 is physical99, not physical123."
+      },
+      "reason": "Exact already-numbered Q3034: infinitely many inequivalent hyperelliptic fibrations of a fixed genus with diffeomorphic total spaces.",
+      "duplicate_of": [
+        "Q3034"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/html/2602.10051v1"
+      ],
+      "statement_id": "5225f030f83a36d64cf0",
+      "statement_ids": [
+        "5225f030f83a36d64cf0"
+      ],
+      "source_pdf_sha256": "c83f007ac221b643dc6f510308acd2f7c6f5f4aebf12432c9725a0b7c7d549a7",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Carlos Serván\" Lefschetz2026",
+        "\"Lefschetz fibrations\" \"odd genus\" \"diffeomorphic\"",
+        "\"Lefschetz\" \"homotopically distinct\" \"sections\"",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"Serván\"",
+        "\"Carlos Serván\" papers homepage",
+        "\"Lefschetz fibrations\" \"finite\" \"homotopically\" sections",
+        "\"Lefschetz fibrations\" \"partial conjugations\" \"infinitely\" -site:researchgate.net",
+        "\"Lefschetz\" \"sections\" \"finite positive\"",
+        "\"Lefschetz\" \"finitely many isomorphism classes\""
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Carlos.*Serv.n",
+      "Lefschetz",
+      "homotopically distinct sections",
+      "partial conjugation"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

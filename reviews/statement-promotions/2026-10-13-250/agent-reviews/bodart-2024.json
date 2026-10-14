@@ -1,0 +1,1345 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q131611569",
+  "source_review_notes": [
+    "All23 candidates individually decided. Body printed pages equal physical PDF page minus1; automatic text page numbers are heavily inflated (e.g355→physical129).",
+    "Read complete target pages plus required Definitions2.1.1,2.4.8,5.1.1–5.1.6, Chapter6 input setup, Chapter7 rationality definitions, and nearby theorems.",
+    "Holds deliberately remain unnumbered, including possible elementary or convention-dependent statements. Accepted recommendations are bounded dated status assessments, not openness certificates.",
+    "The 11 recommendations are related but have different full obligations; classification problems are not collapsed into a single necessary-condition conjecture."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Bodart \"polynomial geodesic\" nilpotent conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Bodart \"horofunctions\" Cartan Tashiro"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Heisenberg \"rational subset\" decidable 2026 Shafrir"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "nilpotent \"reduced horoboundary\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"polynomial geodesic growth\" \"virtually\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Bodart\" \"Stoll\" conjecture metabelian"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"horoboundary\" \"countable\" \"virtually abelian\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"geodesic growth\" \"intermediate volume\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Bodart\" \"facets\" finite subgroup conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heisenberg\" \"bounded regular\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"nilpotent\" \"Oα\" horofunction"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"bounded regular language\" nilpotent Bodart Shafrir"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Membership problems in nilpotent groups\" arxiv"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Stoll metric\" \"metabelian\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"nilpotent\" \"more reduced\" boundary"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"horofunction\" \"5.D\" Bodart"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/pdf/2306.10381v3",
+      "sections_read": "v3 abstract/history; §5 pp23–24; §4.2 presentation; higher-step error discussion. December2025 correction not confused with a conjecture closure."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2407.11943",
+      "sections_read": "Introduction pp1–2, TheoremA/B/C and Conjecture1; Cartan/Engel conclusion pp25–26."
+    },
+    {
+      "url": "https://arxiv.org/html/2401.15504v6",
+      "sections_read": "Introduction, current ConjectureA, restricted Shafrir progress, §4 QuestionD; definitions and H3 bounded-language theorem."
+    },
+    {
+      "url": "https://arxiv.org/html/2210.07868v2",
+      "sections_read": "Introduction, Table1 and explicit NG versus ZG limitation; used only to hold the unqualified source questions."
+    },
+    {
+      "url": "https://sites.google.com/view/corentin-bodart/papers",
+      "sections_read": "Complete author papers list including 2026 projects and finite-Busemann result; the membership arXiv link is erroneous/reused, so title-based primary retrieval identified 2401.15504."
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.20495",
+      "sections_read": "Author abstract/title through author current list: finite Busemann boundary, not countable horoboundary."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q131611569.pdf",
+    "sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+    "physical_pages": 183
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "5b2c9af3e1b6101ed33fd1d4a1ff1981667b45c40daec3f2cc41120376a75aed",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Groups admitting polynomial geodesic growth",
+      "text": "Characterize finitely generated groups G for which some finite monoid-generating set S has polynomial geodesic growth: there are constants C,d such that the number of words w over S with |w|≤n and |w| equal to the S-word length of their product is at most C(1+n)^d for every n≥0. S need not be symmetric.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question1, Chapter4, printed53",
+      "locator": {
+        "printed_page": 53,
+        "pdf_page": 54,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "The thesis defines generating sets as monoid-generating in Definition2.1.1, printed21. Geodesic growth here is cumulative; multiplicities of symbols are not needed for this existential property. Theorem4.A and Corollary4.B characterize virtually class≤2 groups through the finite-action polytope condition, leaving the global characterization unproved. This target differs from the symmetric higher-step exclusion and the algorithmic finite-action classification.",
+      "literature_finding": "The current geodesic paper retains the higher-step symmetric question and the finite-action classification; no global characterization was found in the author current list or targeted current primary retrieval.",
+      "status_grade": "B: exact source open classification; current primary progress audited, no exact full closure located",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "9d31c30580ad661c30b4",
+      "statement_ids": [
+        "9d31c30580ad661c30b4"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4829,
+      "source_locator": {
+        "label": "Question 1",
+        "printed_page": 53,
+        "held_pdf_page": 54,
+        "original_extraction_page": 149
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Polynomial geodesic growth forces virtual class two",
+      "text": "Let G be a group with a finite symmetric generating set S. If the number of geodesic words over S of length at most n is bounded by a polynomial in n, must G have a finite-index nilpotent subgroup of nilpotency class at most2?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture4.A, printed70",
+      "locator": {
+        "printed_page": 70,
+        "pdf_page": 71,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "Symmetry is essential and explicitly requested. No nonsymmetric counterexample is substituted. Polynomial geodesic growth implies polynomial volume growth; the sought additional conclusion is class≤2, not virtual nilpotence alone.",
+      "literature_finding": "Still stated verbatim as ConjectureA in §5 of the December6,2025 v3 geodesic paper. Current author list through October2026 contains no claimed closure.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "725b1b15ef904e40851b",
+      "statement_ids": [
+        "725b1b15ef904e40851b"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4830,
+      "source_locator": {
+        "label": "Conjecture 4",
+        "printed_page": 70,
+        "held_pdf_page": 71,
+        "original_extraction_page": 206
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Polynomial geodesic growth of the asymmetric virtually Engel example",
+      "text": "Let vE be the group generated by a,t with t²=1; writing b=t⁻¹at and c=[a,[a,b]], impose [b,[a,b]]=c and require c to commute with a and b. Is its geodesic growth with respect to the finite monoid-generating set S={a,b,(ab)⁻¹,t} bounded above by a polynomial? Here geodesic growth counts words over S of length at most n that minimize S-word length for their product.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture4.B, printed70",
+      "locator": {
+        "printed_page": 70,
+        "pdf_page": 71,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "Presentation unpacked from Theorem4.C printed56 and current §4.2. This is the nonsymmetric set in Conjecture4.B, not the symmetric {a,a⁻¹,t} set whose growth is already intermediate.",
+      "literature_finding": "Still explicit ConjectureB in §5 of the current v3 geodesic paper.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "442b8b31f4870940d20e",
+      "statement_ids": [
+        "442b8b31f4870940d20e"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4831,
+      "source_locator": {
+        "label": "Conjecture 4",
+        "printed_page": 70,
+        "held_pdf_page": 71,
+        "original_extraction_page": 206
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Algorithmic finite-action facet classification",
+      "text": "Characterize the finite subgroups F≤GL_d(Z) for which there exists a finite centrally symmetric set A⊂Z^d such that P=conv({f(a):f∈F,a∈A}) is full-dimensional and each facet of P contains at most one point of A. In particular, is there an algorithm deciding this property when F is supplied as its finite list of integer matrices?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Problem4.C, printed71",
+      "locator": {
+        "printed_page": 71,
+        "pdf_page": 72,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "The facet condition counts points of the original A, not all of its F-orbit; confusing these would change the problem. Full dimension and symmetry are retained. The source requests both characterization and ideally an algorithm.",
+      "literature_finding": "Explicitly retained as ProblemC in current §5. No current full characterization found.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "fbbadbb8b0ca4c7de9c3",
+      "statement_ids": [
+        "fbbadbb8b0ca4c7de9c3"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4832,
+      "source_locator": {
+        "label": "Problem 4",
+        "printed_page": 71,
+        "held_pdf_page": 72,
+        "original_extraction_page": 209
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "One orbit suffices for the symmetric facet condition",
+      "text": "For every finite subgroup F≤GL_d(Z), are the following properties equivalent? (i) Some finite centrally symmetric A⊂Z^d makes conv(F·A) full-dimensional with each facet containing at most one point of A. (ii) Some a∈Z^d makes conv(F·{a,−a}) full-dimensional.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question4.D, printed71",
+      "locator": {
+        "printed_page": 71,
+        "pdf_page": 72,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "Both (ii′) and (iii′) are stated explicitly; the second always implies the first for an admissible pair, and the unknown necessity is not replaced by the nonsymmetric version. It is related to, but not identical with, classifying all F.",
+      "literature_finding": "Explicit current QuestionD; source expects a negative answer but does not exhibit a counterexample.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "402159de9d2e8e0f7219",
+      "statement_ids": [
+        "402159de9d2e8e0f7219"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4833,
+      "source_locator": {
+        "label": "Question 4",
+        "printed_page": 71,
+        "held_pdf_page": 72,
+        "original_extraction_page": 209
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Cube-root word-versus-Stoll error in metabelian nilpotent groups",
+      "text": "Let H be a finitely generated torsion-free metabelian nilpotent group and X a finite monoid-generating set. In its Mal’cev completion define ||h||_Stoll,X as the infimum of ∑μ_i over all products h=x_1^{μ_1}⋯x_k^{μ_k}, with x_i∈X and real μ_i>0. Is there a constant C depending only on H,X such that 0≤||h||_X−||h||_Stoll,X≤C(1+||h||_X)^{1/3} for every h∈H?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture4.E, printed71",
+      "locator": {
+        "printed_page": 71,
+        "pdf_page": 72,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "Full group class and nonweighted monoid-generator convention retained, using Definitions2.1.1 and2.4.8 (printed21,29). This is not the stronger O(1) Breuillard–LeDonne conjecture, already refuted, and not just the class3 case cited as known.",
+      "literature_finding": "Thesis explicitly proposes this weakening. Current v3 geodesic paper retains unresolved sharp higher-step bounds and disproves only O(1); author current list and exact metabelian/Stoll searches did not locate a full result for this cube-root statement.",
+      "status_grade": "B: source-level exact conjecture; audited later primary progress does not close the stated metabelian all-step bound",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "e984dc87d49789dd9029",
+      "statement_ids": [
+        "e984dc87d49789dd9029"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4834,
+      "source_locator": {
+        "label": "Conjecture 4",
+        "printed_page": 71,
+        "held_pdf_page": 72,
+        "original_extraction_page": 209
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Simultaneously intermediate volume and geodesic growth",
+      "text": "Does there exist a finitely generated group G and a finite monoid-generating set S for which both β(n)=#{g∈G:||g||_S≤n} and γ(n)=#{w∈S*:|w|≤n,|w|=||ev(w)||_S} have intermediate growth, meaning each is superpolynomial and subexponential?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question4.F (Grigorchuk Problem13), printed72",
+      "locator": {
+        "printed_page": 72,
+        "pdf_page": 73,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "The volume and geodesic functions use the same marked group. The known virtually nilpotent example has polynomial volume, so it does not answer this question. Intermediate means growth beyond every polynomial and below every exponential.",
+      "literature_finding": "Retained as QuestionE in current v3 paper §5; the author explicitly distinguishes it from the solved existence of intermediate geodesic growth.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "a22c02a171f284fe558e",
+      "statement_ids": [
+        "a22c02a171f284fe558e"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4835,
+      "source_locator": {
+        "label": "Question 4",
+        "printed_page": 72,
+        "held_pdf_page": 73,
+        "original_extraction_page": 210
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Countable word-metric horoboundaries characterize virtual abelianness",
+      "text": "For a finite symmetric generating set S, ∂(G,d_S) consists of pointwise limits, along sequences escaping finite sets, of h↦d_S(x,h)−d_S(x,e). For every finitely generated group G and every such S, is ∂(G,d_S) countable if and only if G is virtually abelian?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture5.A, printed101",
+      "locator": {
+        "printed_page": 101,
+        "pdf_page": 102,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "Whole boundary, not only Busemann points or the reduced boundary. The finite-boundary theorem is a different cardinality statement. Symmetry is the chapter5 word-metric convention (printed76).",
+      "literature_finding": "Retained as Conjecture1(a) in Bodart–Tashiro. November2025 finite-Busemann boundary theorem characterizes virtual cyclicity; it leaves countability versus virtual abelianness untouched.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2407.11943",
+        "https://arxiv.org/abs/2511.20495",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "d3cb6ea188117900d1e6",
+      "statement_ids": [
+        "d3cb6ea188117900d1e6"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4836,
+      "source_locator": {
+        "label": "Conjecture 5",
+        "printed_page": 101,
+        "held_pdf_page": 102,
+        "original_extraction_page": 289
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Finitely many Busemann orbits for class-two nilpotent groups",
+      "text": "For a finite symmetric generating set S, ∂(G,d_S) consists of pointwise limits, along sequences escaping finite sets, of h↦d_S(x,h)−d_S(x,e). If G is finitely generated nilpotent of class at most2, must the left-translation action on its Busemann points have finitely many orbits? A Busemann point here is a horofunction obtained as the limit along a geodesic ray; the action is (g·φ)(h)=φ(g⁻¹h)−φ(g⁻¹).",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture5.B, printed102",
+      "locator": {
+        "printed_page": 102,
+        "pdf_page": 103,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "Theorem5.A proves this only for torsion-free class2 groups with cyclic derived subgroup, including all discrete Heisenberg groups. Theorem5.B proves triviality only after quotienting by bounded functions and does not count unreduced Busemann orbits. Latest counterpart Conjecture1(b) even asks the virtually class2 extension; our target retains the exact thesis class2 scope.",
+      "literature_finding": "Current primary source still conjectures the general class2/virtual-class2 extension. The cyclic-derived theorem is not a closure of all class2 groups.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2407.11943",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "9283e69aa027f5b4065e",
+      "statement_ids": [
+        "9283e69aa027f5b4065e"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4837,
+      "source_locator": {
+        "label": "Conjecture 5",
+        "printed_page": 102,
+        "held_pdf_page": 103,
+        "original_extraction_page": 290
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Rational-subset membership in all higher Heisenberg groups",
+      "text": "For every m≥2, is rational-subset membership decidable in H_{2m+1}(Z)=⟨x_1,…,x_m,y_1,…,y_m,z | [x_i,y_i]=z, all other basic commutators are1⟩? The input is an element g and a finite-state automaton with group-element-labelled edges; decide whether g equals the product of labels along an accepted path. Group elements may be supplied as words in fixed generators.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture6.A, printed127",
+      "locator": {
+        "printed_page": 127,
+        "pdf_page": 128,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "The m=1 case is already proved, so only m≥2 is promoted. Submonoid membership and knapsack decidability, including Shafrir’s special-shaped rational sets, do not settle arbitrary accepted paths. Cyclic central derived subgroup retained.",
+      "literature_finding": "Explicit current ConjectureA in published 2025 Membership problems. Current manuscript notes Shafrir progress only for a restricted rational-set shape.",
+      "status_grade": "A: explicitly retained in current counterpart primary source",
+      "primary_urls": [
+        "https://arxiv.org/html/2401.15504v6",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "a6af642532c8ee19a4b3",
+      "statement_ids": [
+        "a6af642532c8ee19a4b3"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4838,
+      "source_locator": {
+        "label": "Conjecture 6",
+        "printed_page": 127,
+        "held_pdf_page": 128,
+        "original_extraction_page": 354
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Groups whose rational subsets have bounded regular representatives",
+      "text": "Characterize finitely generated groups G such that, for every rational subset R⊂G, there exists a bounded regular language L′ over a finite alphabet of elements of G with ev(L′)=R. Here rational means R=ev(L) for some regular L, and bounded means L′⊂w_1*⋯w_k* for finitely many fixed words w_i. In particular, determine this property for all class-two nilpotent groups with cyclic derived subgroup.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question6.C, printed128",
+      "locator": {
+        "printed_page": 128,
+        "pdf_page": 129,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "scope_review": "Exact thesis property is existential, without an added algorithm. The current paper’s QuestionD asks an effective strengthening; it is recorded as related, not merged as an identical quantifier. Virtually abelian groups and H3 are known positive, N3,2 negative, and virtually solvable/linear superpolynomial examples negative; none classifies all G or all higher Heisenberg groups.",
+      "literature_finding": "Published 2025 paper retains the stronger effective classification and the cyclic-derived family. No exact global existential classification found; original thesis remains explicit source of this weaker formulation.",
+      "status_grade": "B: exact original existential problem; later source explicitly retains the effective strengthening and related family, not an equivalence certificate",
+      "primary_urls": [
+        "https://arxiv.org/html/2401.15504v6",
+        "https://sites.google.com/view/corentin-bodart/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/name and family retrieval found no equivalent numbered target. Existing Q13/Q14 concern cogrowth differential algebraicity, and Q3040 concerns finite-dimensional normed-space horoboundaries; neither is this group-theoretic problem.",
+      "statement_id": "09c856d5d554e805c9c8",
+      "statement_ids": [
+        "09c856d5d554e805c9c8"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ],
+      "number": 4839,
+      "source_locator": {
+        "label": "Question 6",
+        "printed_page": 128,
+        "held_pdf_page": 129,
+        "original_extraction_page": 355
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture ([TY16])",
+      "locator": {
+        "printed_page": 13,
+        "pdf_page": 14,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Refuted by the continuum family of Busemann points for the discrete Cartan group in thesis Theorem5.C/5.5.6 and Bodart–Tashiro TheoremC. Merge repeated source extract5f9be1c5f8f48df9d65f; do not number a known false conjecture.",
+      "statement_ids": [
+        "a1614631a2f4db540672",
+        "5f9be1c5f8f48df9d65f"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/pdf/2407.11943"
+      ],
+      "statement_id": "a1614631a2f4db540672",
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture",
+      "locator": {
+        "printed_page": 13,
+        "pdf_page": 14,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Refuted by the nontrivial Cartan action in thesis Theorem5.C/5.5.6 and Bodart–Tashiro TheoremC. Merge repeated7df939cb1088b13ca62b.",
+      "statement_ids": [
+        "29d35fbe9e253bd97c4e",
+        "7df939cb1088b13ca62b"
+      ],
+      "primary_urls": [
+        "https://arxiv.org/pdf/2407.11943"
+      ],
+      "statement_id": "29d35fbe9e253bd97c4e",
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture ([LS10])",
+      "locator": {
+        "printed_page": 18,
+        "pdf_page": 19,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Affirmatively solved in the same thesis Theorem6.B and current published Membership problems Corollary2.3. Uniform RSMP is the required convention; the theorem explicitly confirms the Lohrey–Steinberg conjecture.",
+      "primary_urls": [
+        "https://arxiv.org/html/2401.15504v6"
+      ],
+      "statement_id": "329196fc8e27504cf27f",
+      "statement_ids": [
+        "329196fc8e27504cf27f"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 3",
+      "locator": {
+        "printed_page": 52,
+        "pdf_page": 53,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold advanced realization target: the passage requires the precise winding-number kernel K_V and Delta closure from unpublished §3.2. Current author sources do not provide an independently cleared status for this exact stronger integral realization. Do not replace it by the already proved existence of some polynomial-quotient examples.",
+      "statement_id": "2c879b122346043eacb5",
+      "statement_ids": [
+        "2c879b122346043eacb5"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://arxiv.org/pdf/2407.11943",
+        "https://arxiv.org/html/2401.15504v6",
+        "https://arxiv.org/html/2210.07868v2",
+        "https://sites.google.com/view/corentin-bodart/papers",
+        "https://arxiv.org/abs/2511.20495"
+      ],
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Question 2",
+      "locator": {
+        "printed_page": 53,
+        "pdf_page": 54,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Affirmatively solved by thesis Theorem4.C and the current geodesic paper Theorem4 (virtually Engel example with intermediate geodesic growth). This is not the joint intermediate-volume question4.F.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3"
+      ],
+      "statement_id": "2f1be0e8c9dc1f1ada8c",
+      "statement_ids": [
+        "2f1be0e8c9dc1f1ada8c"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 5",
+      "locator": {
+        "printed_page": 102,
+        "pdf_page": 103,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold quantitative Cartan statement pending a clean standalone transcription of the signed Theta expression, projective-direction normalization, and uniformity of its implicit constants. Do not promote a distorted radical/inner-product formula or conflate discrete and sub-Finsler parts.",
+      "statement_id": "6fd7882d7c0dcee06cc5",
+      "statement_ids": [
+        "6fd7882d7c0dcee06cc5"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://arxiv.org/pdf/2407.11943",
+        "https://arxiv.org/html/2401.15504v6",
+        "https://arxiv.org/html/2210.07868v2",
+        "https://sites.google.com/view/corentin-bodart/papers",
+        "https://arxiv.org/abs/2511.20495"
+      ],
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 5",
+      "locator": {
+        "printed_page": 102,
+        "pdf_page": 103,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold status rather than fill the batch: a fixed-translation sublinear conjugation bound in nilpotent word metrics may already yield this O_alpha quotient statement for all 1-Lipschitz horofunctions. Exact current status/novelty not independently cleared; source-level question alone insufficient.",
+      "possible_elementary_scope_issue": "Need check whether a uniform exponent<1 bounds |h⁻¹gh| for every fixed g, with constants allowed to depend on g. This is a source/status concern, not a filed proof or resolution.",
+      "statement_id": "556c61ad1fb49c9464fb",
+      "statement_ids": [
+        "556c61ad1fb49c9464fb"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://arxiv.org/pdf/2407.11943",
+        "https://arxiv.org/html/2401.15504v6",
+        "https://arxiv.org/html/2210.07868v2",
+        "https://sites.google.com/view/corentin-bodart/papers",
+        "https://arxiv.org/abs/2511.20495"
+      ],
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 5",
+      "locator": {
+        "printed_page": 103,
+        "pdf_page": 104,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold: literal first question includes finite nilpotent groups, whose horoboundary is empty, while intended geometric setup seems infinite. Its broader slow-growth/finite-index clause has additional hypotheses. No silent insertion of infinitude or replacement of uniform g,h error by a fixed-g error.",
+      "statement_id": "494cf0d12b9a0c5d9038",
+      "statement_ids": [
+        "494cf0d12b9a0c5d9038"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://arxiv.org/pdf/2407.11943",
+        "https://arxiv.org/html/2401.15504v6",
+        "https://arxiv.org/html/2210.07868v2",
+        "https://sites.google.com/view/corentin-bodart/papers",
+        "https://arxiv.org/abs/2511.20495"
+      ],
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 5",
+      "locator": {
+        "printed_page": 103,
+        "pdf_page": 104,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold weighted approximate-homomorphism status: need to clear existing sublinear/Hyers–Ulam stability results at this exact amenable-group, word-length, uniform-defect convention. A no-hit search and the classical bounded-quasimorphism fact do not certify this formulation remains open.",
+      "statement_id": "8e805d899f0c01180629",
+      "statement_ids": [
+        "8e805d899f0c01180629"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://arxiv.org/pdf/2407.11943",
+        "https://arxiv.org/html/2401.15504v6",
+        "https://arxiv.org/html/2210.07868v2",
+        "https://sites.google.com/view/corentin-bodart/papers",
+        "https://arxiv.org/abs/2511.20495"
+      ],
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Problem 6",
+      "locator": {
+        "printed_page": 127,
+        "pdf_page": 128,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold complexity target until the input encoding is fixed. Chapter6 permits both matrix entries and words; binary matrix/exponent input and explicit words have different polynomial-time obligations. Do not manufacture a P question by choosing unary/word input without source authority. Decidability itself is already known.",
+      "statement_id": "565e8f0af6dee41c7beb",
+      "statement_ids": [
+        "565e8f0af6dee41c7beb"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2306.10381v3",
+        "https://arxiv.org/pdf/2407.11943",
+        "https://arxiv.org/html/2401.15504v6",
+        "https://arxiv.org/html/2210.07868v2",
+        "https://sites.google.com/view/corentin-bodart/papers",
+        "https://arxiv.org/abs/2511.20495"
+      ],
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 1 ([GH97])",
+      "locator": {
+        "printed_page": 132,
+        "pdf_page": 133,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold original unqualified rationality. The thesis and published dead-end paper answer this only when interpreted as NG-rationality; the paper explicitly says its methods do not distinguish Z-rational from ZG-rational. Do not mark the unqualified/possibly ZG problem solved or invent a newly open NG question already answered.",
+      "primary_urls": [
+        "https://arxiv.org/html/2210.07868v2"
+      ],
+      "statement_id": "f75bb7133195dc6d77f5",
+      "statement_ids": [
+        "f75bb7133195dc6d77f5"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Conjecture 2 ([GN97])",
+      "locator": {
+        "printed_page": 132,
+        "pdf_page": 133,
+        "verified_from": "Held PDF pdftotext -layout with printed footer; actual physical pages, not inflated extractor page indices."
+      },
+      "reason": "Hold original rationality ring. NG and ZG formulations differ. Thesis proves the NG statement in class≤2 (Theorem7.3.6), but not all nilpotent classes; the exact unqualified original GN97 convention must be read before selecting one as a new number.",
+      "primary_urls": [
+        "https://arxiv.org/html/2210.07868v2"
+      ],
+      "statement_id": "2706135511c056d0ddb1",
+      "statement_ids": [
+        "2706135511c056d0ddb1"
+      ],
+      "source_pdf_sha256": "82a86d63aa1d9709d604cfd6b04b11bcbacc45b882f95fe740ca9b86a706a954",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Bodart \"polynomial geodesic\" nilpotent conjecture",
+        "Bodart \"horofunctions\" Cartan Tashiro",
+        "Heisenberg \"rational subset\" decidable 2026 Shafrir",
+        "nilpotent \"reduced horoboundary\" 2026",
+        "\"polynomial geodesic growth\" \"virtually\" \"2026\"",
+        "\"Bodart\" \"Stoll\" conjecture metabelian",
+        "\"horoboundary\" \"countable\" \"virtually abelian\"",
+        "\"Busemann\" \"2-step\" \"orbits\" nilpotent 2026",
+        "\"geodesic growth\" \"intermediate volume\"",
+        "\"nilpotent\" \"O\" \"Stoll\" \"metabelian\" \"conjecture\"",
+        "\"Bodart\" \"facets\" finite subgroup conjecture",
+        "\"Heisenberg\" \"bounded regular\" 2025 2026",
+        "\"nilpotent\" \"Stoll\" \"metabelian\" conjecture -site:researchgate.net",
+        "\"nilpotent\" \"Oα\" horofunction",
+        "\"Heisenberg\" \"rational subset membership\" 2026 site:arxiv.org",
+        "\"bounded regular language\" nilpotent Bodart Shafrir",
+        "\"Membership problems in nilpotent groups\" arxiv",
+        "\"Bodart\" \"torsionfree\" \"metabelian\" conjecture",
+        "\"Stoll metric\" \"metabelian\" \"2026\"",
+        "\"nilpotent\" \"more reduced\" boundary",
+        "\"horofunction\" \"5.D\" Bodart"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Bodart",
+      "Busemann",
+      "horobound",
+      "geodesic growth",
+      "Stoll",
+      "Heisenberg",
+      "Cartan.group",
+      "Engel.group",
+      "complete.growth",
+      "submonoid membership",
+      "rational subset membership"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

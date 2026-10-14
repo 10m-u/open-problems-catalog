@@ -1,0 +1,40 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/sgueglia-2022.json",
+  "sha256": "c85aacef0df77430837ee886bd91338155580b33c0debf0b8d0bd0f6d194ec5a",
+  "recommendation_count": 1,
+  "source_key": "Q131419412",
+  "physical_pages_read": [
+    27,
+    28,
+    29,
+    144,
+    145
+  ],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "verdict": "The explicit triangle, bias-one stop-game clause passes source scope, current-primary and full numbered/source-alias comparison in this bounded audit.",
+  "findings": [
+    "Physical 27–29 defines Maker-first turns and bias as up to b Breaker edges. Physical 145 and revised primary Section 8 define stopping immediately at the winning Maker turn, retaining both Maker and free edges and deleting only Breaker edges. A subsequent stage is a new game on the retained board, hence resets ownership. The root standalone preserves these rules and does not accidentally use the ordinary multistage rule that exhausts the board.",
+    "Physical 145 expressly singles out H=K3 and b=1. Restriction to that clause is licensed literally rather than inferred from a broad false generalization. The one-edge winning-set case would stop before any Breaker deletion and continue forever, so the arbitrary-H finite n^2 assertion cannot be promoted without a repair. The broader H,b remainder is properly retained separately.",
+    "Counting successful stages differs from a duration convention including the final failed stage by at most one and preserves the n^2 leading constant. The source Theta(n^2) observation does not establish existence or value of that constant.",
+    "The April 2023 revised primary retains Problem 8.4 with the exact triangle/bias-one clause. Dated searches identified no exact later constant or refutation; this is a bounded status assessment, not a universal openness certificate."
+  ],
+  "duplicate_comparison": {
+    "retrieval": "agent-reviews/SGUEGLIA-GLOBAL-RETRIEVAL.json",
+    "method": "All full seven-word/seven-character neighbors and source-author/title/URL aliases checked manually.",
+    "relationships": [
+      "Q4329 concerns one triangle game with growing bias q and subquadratic accumulated excess Breaker claims, rather than repeated unbiased stages with reset ownership and only Breaker-edge deletion. Its triangle predicate and n^2 scale alone do not duplicate this target.",
+      "Q4028 and Q4022 concern computational complexity of winner decision for explicitly encoded hypergraphs or a,b inputs. Q4027 is a Maker–Maker game, not Maker–Breaker duration. Q4016 is a Client game. Q4330 is a one-stage Hamilton bias threshold, and Q4401 is a Ramsey-to-Maker implication for fixed boards.",
+      "Q5017 concerns deterministic parallel hypergraph-bootstrap infection rounds, not alternating strategic edge claims. Q1256 is static transversal two-factor existence. No source alias or cross-promotion row has the same stop-game rules and full leading-constant target."
+    ]
+  },
+  "primary_sources_independently_checked": [
+    "https://arxiv.org/html/2202.04344v2",
+    "https://www.sciencedirect.com/science/article/pii/S0012365X23001644"
+  ],
+  "limits": "Bounded source/current-primary/global retrieval audit. No canonical writes.",
+  "original_receipt_sha256": "4ed424284bc132260ba5934ed6263bb1f891500cc08a8d6a9f350ea493282aec"
+}

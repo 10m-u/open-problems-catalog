@@ -1,0 +1,544 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q103180991",
+  "source_review_notes": [
+    "Fourrecommendations fromeightoriginals, withcupduplicate merged,NPconstructionclosures excluded, and literalvolumeformula refuted.",
+    "HeldPDFbodypage offset−12 independentlyverified;auto pages84/154–157 are inflated.",
+    "Heuerauthor webpage is stale (December2020), so current counter andwithdrawal searches were required. No absence-of-search certificate ofopenness."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Nicolaus Heuer\" papers2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Constructions in stable commutator length\" thesis open problems"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heuer\" \"bounded cohomology\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heuer\" \"cup product\"2026 free group"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heuer\" \"primitivity\" \"scl\" conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heuer Löh\" \"one-relator\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heuer\" \"Kielak\" \"quasi\" BNS"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heuer\" \"6.5.1\" norms"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Heuer\" \"6.3.1\" conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"bounded cohomology\" cup \"Kastenholz\" 2026 October"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"primitivity rank\" \"scl\" counterexample conjecture"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/pdf/2102.06394",
+      "sections_read": "Intro general open problem and exactTheoremA special classes."
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.22511",
+      "sections_read": "Currentv3 withdrawal date and fatal-gap comment."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.27476",
+      "sections_read": "September2026 intro, explicit missingH_b⁴ result and limits of the repaired approach."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2311.17733v4",
+      "sections_read": "May2026v4 Cor4.10 and conjectural identification withordinaryπ."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00222-024-01246-4",
+      "sections_read": "Conj1.7/CorD, distinction from refuted face-essential strengthening."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2604.21059v2",
+      "sections_read": "May2026v2TheoremsA/B and gap-fromzero scope."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1703.03752",
+      "sections_read": "Intro exactSⁿ/inf definition,§2.1–2.4 and§4.6 both-zero subspace."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2001.10230",
+      "sections_read": "TheoremA exactNP-completeness."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2210.10607",
+      "sections_read": "Introduction, definitions and mainthree criteria."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1911.02470",
+      "sections_read": "Exact Question1.2 intendedsign andQuestion1.3 followups."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.21465",
+      "sections_read": "Complete3-page claimed group-isomorphism/scl witness and resulting volume contradiction."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q103180991.pdf",
+    "sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+    "physical_pages": 146
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "af21d2143e0008a6377bd39e5aad180d012b58723cc34c60309da6a10dfcea4b",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Vanishing of all degree-two cup products in free-group bounded cohomology",
+      "text": "For every non-abelian free group F, is the cup product H_b²(F;ℝ)×H_b²(F;ℝ)→H_b⁴(F;ℝ), with trivial real coefficients, identically zero?",
+      "subject": "Geometric Group Theory & Bounded Cohomology",
+      "citation": "Questions1.2.1 and4.0.1",
+      "locator": {
+        "printed_page": 7,
+        "pdf_page": 19,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "scope_review": "All two-classes, not only Brooks/Rolli/decomposable quasimorphism classes. Exact two occurrences merged. Nonvanishing ofH_b⁴ would not itself establish a nonzero cup product.",
+      "literature_finding": "Amontova–Bucher proves cup vanishing for a specified quasimorphism class against arbitrary positive degrees and still states the general question. Kastenholz2503.22511 was withdrawn September21,2026 for a fatal error; replacement2609.27476 explicitly leaves higher free-group bounded cohomology unknown. Neither is a closure of this cup question.",
+      "status_grade": "B: exact original conjecture; current primary partial/withdrawal checks, bounded status assessment rather than certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog Heuer/commutator/primitivity/bounded-cohomology/cup/quasimorphism retrieval: Q1522 concerns rationality in closed surface groups and has different group/target; other commutator questions concern matrix/algebra operations. No exact numbered free-group target found. Corpus source siblings merged explicitly.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2102.06394",
+        "https://arxiv.org/abs/2503.22511",
+        "https://arxiv.org/pdf/2609.27476"
+      ],
+      "statement_ids": [
+        "034fe9047b950ec155ba",
+        "ee4d52729c438c2d7945"
+      ],
+      "statement_id": "034fe9047b950ec155ba",
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ],
+      "number": 4865,
+      "source_locator": {
+        "label": "Question 1.2.1",
+        "printed_page": 7,
+        "held_pdf_page": 19,
+        "original_extraction_page": 19
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Characterizing stable commutator length one-half in free groups",
+      "text": "Let F be a non-abelian free group and f∈[F,F] satisfy scl_F(f)=1/2, where cl_F(g) is the minimum number of commutators multiplying to g and scl_F(g)=lim_{n→∞}cl_F(gⁿ)/n. Must either cl_F(f)=1 or there exist t∈F with cl_F(ftft⁻¹)=1?",
+      "subject": "Geometric Group Theory & Bounded Cohomology",
+      "citation": "Conjecture6.3.1",
+      "locator": {
+        "printed_page": 125,
+        "pdf_page": 137,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "scope_review": "Keeps the product of two conjugate copies, not a single conjugate or a power f²; no second-gap conjecture is silently substituted. Existing length<20 experimental verification remains partial.",
+      "literature_finding": "Latest Chen–Heuer2026 orbifold paper concerns a uniform positive gap from zero (explicit1/36 generically), not this equality-case classification in free groups. Louder–Wilton only shows π(f)>2⇒scl(f)>1/2. Exact classification is not supplied by either result; bounded current searches found no full proof/counterexample.",
+      "status_grade": "B: exact original conjecture; current primary partial/withdrawal checks, bounded status assessment rather than certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog Heuer/commutator/primitivity/bounded-cohomology/cup/quasimorphism retrieval: Q1522 concerns rationality in closed surface groups and has different group/target; other commutator questions concern matrix/algebra operations. No exact numbered free-group target found. Corpus source siblings merged explicitly.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2604.21059v2",
+        "https://link.springer.com/article/10.1007/s00222-024-01246-4"
+      ],
+      "statement_id": "a75d4e2a5c014ddffa09",
+      "statement_ids": [
+        "a75d4e2a5c014ddffa09"
+      ],
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ],
+      "number": 4866,
+      "source_locator": {
+        "label": "Conjecture 6.3.1",
+        "printed_page": 125,
+        "held_pdf_page": 137,
+        "original_extraction_page": 154
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Primitivity-rank lower bound for stable commutator length",
+      "text": "For every non-abelian finitely generated free group F and nontrivial w∈[F,F], does 2 scl_F(w)≥π_F(w)−1 hold? Here scl_F(w)=lim_{n→∞}cl_F(wⁿ)/n, and π_F(w)=min{rank(K):K≤F,w∈K,and w is not part of a free basis ofK}, with the minimum∞ if no suchK exists.",
+      "subject": "Geometric Group Theory & Bounded Cohomology",
+      "citation": "Conjecture6.3.2",
+      "locator": {
+        "printed_page": 126,
+        "pdf_page": 138,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "scope_review": "Restores the denominator2 lost in automatic extraction. Uses the meaningful nontrivial commutator-subgroup scope explicitly restated as Heuer’s conjecture in Louder–Wilton2024; no claim about extending finite scl outside[F,F]. Stable primitivity rank is a distinct invariant.",
+      "literature_finding": "Louder–Wilton Conj1.7 is the exact target; its provedCorD is onlyπ>2⇒2scl>1. Puder–Shomroni May2026v4 Cor4.10 proves sπ≤2scl but invokes still-conjectural sπ=π−1 to reach Heuer’s bound. Their stable Fourier-coefficient sequel therefore does not settle ordinaryπ.",
+      "status_grade": "B: exact original conjecture; current primary partial/withdrawal checks, bounded status assessment rather than certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog Heuer/commutator/primitivity/bounded-cohomology/cup/quasimorphism retrieval: Q1522 concerns rationality in closed surface groups and has different group/target; other commutator questions concern matrix/algebra operations. No exact numbered free-group target found. Corpus source siblings merged explicitly.",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00222-024-01246-4",
+        "https://arxiv.org/pdf/2311.17733v4"
+      ],
+      "statement_id": "738720d36792e5d24297",
+      "statement_ids": [
+        "738720d36792e5d24297"
+      ],
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ],
+      "number": 4867,
+      "source_locator": {
+        "label": "Conjecture 6.3.2",
+        "printed_page": 126,
+        "held_pdf_page": 138,
+        "original_extraction_page": 155
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Equivalence of the Gromov and finite-vanishing seminorms on free-group bounded cohomology",
+      "text": "Fix a non-abelian finitely generated free group F. For every integer n≥3, is there C_n>0 such that C_n⁻¹‖α‖∞≤‖α‖∞,0≤C_n‖α‖∞ for every α∈H_bⁿ(F;ℝ)? Here ‖α‖∞ is the infimum of supremum norms of bounded cocycle representatives. In the homogeneous complex Cⁿ⁻¹(F)^F of invariant real functions on Fⁿ, set ‖α‖_S=inf{‖δφ‖∞:φ∈Cⁿ⁻¹(F)^F,[δφ]=α,and φ|_{Sⁿ}=0} for finiteS⊂F, and ‖α‖∞,0=sup_{S finite}‖α‖_S; an empty infimum is∞.",
+      "subject": "Geometric Group Theory & Bounded Cohomology",
+      "citation": "Conjecture6.5.1",
+      "locator": {
+        "printed_page": 127,
+        "pdf_page": 139,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "scope_review": "The source shorthand misses bothinf and the tuple-domain powerSⁿ; restored using its citedFFPS definition. ForfreeF,n≥3 every bounded class is exact since ordinaryHⁿ vanishes. These are extended seminorms, not assumed genuine positive norms. F is fixed; no unasserted uniformity over ranks.",
+      "literature_finding": "FFPS defines the second seminorm and proves it dominates the first. Its constructed continuum-dimensional zero subspace has both seminorms zero, so that theorem is not a counterexample to equivalence. Lemma2.4’s infinity result is degree2, deliberately excluded. No dated primary closure of the n≥3 free-group comparison was identified; recommend withB grade.",
+      "status_grade": "B: exact original conjecture; current primary partial/withdrawal checks, bounded status assessment rather than certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog Heuer/commutator/primitivity/bounded-cohomology/cup/quasimorphism retrieval: Q1522 concerns rationality in closed surface groups and has different group/target; other commutator questions concern matrix/algebra operations. No exact numbered free-group target found. Corpus source siblings merged explicitly.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1703.03752",
+        "https://arxiv.org/pdf/2609.27476"
+      ],
+      "statement_id": "cba9a3c94575423b2ae8",
+      "statement_ids": [
+        "cba9a3c94575423b2ae8"
+      ],
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ],
+      "number": 4868,
+      "source_locator": {
+        "label": "Conjecture 6.5.1",
+        "printed_page": 127,
+        "held_pdf_page": 139,
+        "original_extraction_page": 156
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        4865
+      ],
+      "citation": "Question4.0.1",
+      "locator": {
+        "printed_page": 55,
+        "pdf_page": 67,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "reason": "Exact second occurrence of Question1.2.1, not a second catalog entry.",
+      "statement_id": "ee4d52729c438c2d7945",
+      "statement_ids": [
+        "ee4d52729c438c2d7945"
+      ],
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2102.06394",
+        "https://arxiv.org/abs/2503.22511",
+        "https://arxiv.org/pdf/2609.27476",
+        "https://arxiv.org/pdf/2311.17733v4",
+        "https://link.springer.com/article/10.1007/s00222-024-01246-4",
+        "https://arxiv.org/pdf/2604.21059v2",
+        "https://arxiv.org/pdf/1703.03752",
+        "https://arxiv.org/pdf/2001.10230",
+        "https://arxiv.org/pdf/2210.10607",
+        "https://arxiv.org/pdf/1911.02470",
+        "https://arxiv.org/pdf/2608.21465"
+      ],
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture6.2.1",
+      "locator": {
+        "printed_page": 125,
+        "pdf_page": 137,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "reason": "Heuer2001.10230 TheoremA proves exact commutator-length decision problem NP-complete for every non-abelian free group; not a new open question.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2001.10230"
+      ],
+      "statement_id": "071da97214ae6621a282",
+      "statement_ids": [
+        "071da97214ae6621a282"
+      ],
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture6.4.1",
+      "locator": {
+        "printed_page": 126,
+        "pdf_page": 138,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "reason": "Held formula has wrong sign: (1/4)‖α_r‖₁−1/2=scl(r) is already false for r=[a,b], whose quotientZ² has zero fundamental-classnorm while scl=1/2. The intended counterpart‖G_r‖=4(scl(r)−1/2), posed in1911.02470, is also counterclaimed by Semidetnov2608.21465. Its group isomorphism and stated exact scl calculation are read, not represented as our independent scallop/Lean replay. Literal independent counter alone excludes promotion.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1911.02470",
+        "https://arxiv.org/pdf/2608.21465"
+      ],
+      "statement_id": "c3cb9c6df139b8e3796a",
+      "statement_ids": [
+        "c3cb9c6df139b8e3796a"
+      ],
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ]
+    },
+    {
+      "decision": "construction_closed_unfixed_remainder_hold",
+      "citation": "Question6.6.1",
+      "locator": {
+        "printed_page": 128,
+        "pdf_page": 140,
+        "verified_from": "Held 146-page OxfordPDF directly re-extracted; body footer = physical page minus12."
+      },
+      "reason": "Heuer–Kielak2210.10607, published2025, constructs the quasi-BNS invariant and proves openness, approximate finite generation of almostkernels, and a Sikorav-type Novikov criterion. The literal definition/existence question is fulfilled. Unspecified further “how much theory” is held rather than converted into a new exact residual.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2210.10607"
+      ],
+      "statement_id": "c132f858b73b81b61e6a",
+      "statement_ids": [
+        "c132f858b73b81b61e6a"
+      ],
+      "source_pdf_sha256": "edf68fedb4af706ba5b3d96c86619857137e7ee2dd622bfb5360f298365a0e39",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Nicolaus Heuer\" papers2026",
+        "\"Constructions in stable commutator length\" thesis open problems",
+        "\"Heuer\" \"bounded cohomology\" \"2026\"",
+        "\"Heuer\" \"cup product\"2026 free group",
+        "\"Heuer\" \"primitivity\" \"scl\" conjecture",
+        "\"scl\" \"cl\" \"1/2\" \"conjugate\" conjecture Heuer",
+        "\"Heuer Löh\" \"one-relator\" \"2026\"",
+        "\"Heuer\" \"Kielak\" \"quasi\" BNS",
+        "\"bounded cohomology\" \"norm\" \"infinity\" \"zero\" free groups2026",
+        "\"free groups\" \"cup product\" bounded cohomology2025 2026trivial",
+        "\"Heuer\" \"6.5.1\" norms",
+        "\"Heuer\" \"6.3.1\" conjecture",
+        "Franceschini Frigerio Pozzetti Sisto zero norm subspace bounded cohomology infinity zero",
+        "\"bounded cohomology\" \"norms\" \"equivalent\" \"Franceschini\"",
+        "\"scl\" \"1/2\" \"commutator\" Heuer Gardam counterexample",
+        "\"bounded cohomology\" cup \"Kastenholz\" 2026 October",
+        "\"primitivity rank\" \"scl\" counterexample conjecture"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Heuer",
+      "commutator",
+      "primitivity",
+      "bounded cohomology",
+      "quasimorphism",
+      "cup.product",
+      "BNS"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

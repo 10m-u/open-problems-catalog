@@ -1,0 +1,276 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "rec:kumanduri  luis|2023",
+  "source_review_notes": [
+    "One recommendation after explicit corrections: original Conjecture1 acceptance duplicated Q189 despite successful retrieval; boundary CP question duplicated Q190 under the collection/source alias. Other broad/noisy directions held. Actual physical11–15,23,27–28,67–68 read. Stale CV date explicitly recorded; no claim that it is a current complete bibliography."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Luis Kumanduri\" \"k-dilation\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"arbitrarily small\" \"dilation\" \"CP\" conjecture Kumanduri"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"k-dilation\" \"torsion\" homology conjecture 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kumanduri\" \"dilation\" conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kumanduri\" \"CP\" \"dilation\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kumanduri\" \"h-principle\" 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://math.mit.edu/research/graduate/thesis-defenses.html?year=2023",
+      "sections_read": "Author doctoral abstract, precise k=n/n−1 partial scope"
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.01456",
+      "sections_read": "Current primary abstract of relative Hopf-invariant nullhomotopy theorem"
+    },
+    {
+      "url": "https://math.mit.edu/~luisk/pdfs/cv.pdf",
+      "sections_read": "Primary author research list; stale2021 in-preparation entry not treated as a2026 theorem"
+    },
+    {
+      "url": "https://arxiv.org/abs/0709.1241",
+      "sections_read": "Guth sphere-specific small-k-dilation results"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/k7766e2d21643.pdf",
+    "sha256": "b079bb956f5a154209e9c4168eb89f426066327aa5655a0f723fa641a09d0acb",
+    "physical_pages": 72
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "e7f9916c27c9f6b8be0302feb841c1bf65c050368e8abce780c380a474b866b2",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Infimal k-dilation in a homotopy class",
+      "text": "For a smooth map F between Riemannian manifolds, dil_k(F)=sup_x‖ΛᵏdF_x‖, the maximum factor by which its differential expands k-dimensional volume. For closed Riemannian manifolds X,Y, integer k≥1 and a homotopy class α of maps X→Y, determine inf{dil_k(F):F is a smooth representative of α}. In particular, characterize when this infimum is zero.",
+      "subject": "Geometry & Quantitative Topology",
+      "citation": "Kumanduri thesis, printed/physical11",
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 11,
+        "verified_from": "Actual heldMITPDF physical page matches printed footer"
+      },
+      "scope_review": "Infimum, not necessarily attained minimum. Fixed metrics are part of the data; vanishing infimum is unchanged under equivalent compact metrics. No restriction to spheres or stable dimensional range.",
+      "literature_finding": "SourceQuestion1 is the broad minimization target. Primary2023 defense describes only particular stable-range and k=n,n−1 criteria. Current primary2021 Hopf-invariant paper resolves particular relative bounds, not all homotopy classes; no global classification located.",
+      "status_grade": "B: explicit thesis open question; fresh bounded primary-literature search",
+      "duplicate_of": [],
+      "duplicate_review": "All numbered dilation/Kumanduri retrieval and whole corpus k-dilation/homology-obstruction family comparison found no exact numbered target. General manifold criterion and boundaryCP question have different full scopes.",
+      "statement_id": "359ee464aba0073a11d9",
+      "statement_ids": [
+        "359ee464aba0073a11d9"
+      ],
+      "source_pdf_sha256": "b079bb956f5a154209e9c4168eb89f426066327aa5655a0f723fa641a09d0acb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://math.mit.edu/research/graduate/thesis-defenses.html?year=2023",
+        "https://arxiv.org/abs/2106.01456",
+        "https://math.mit.edu/~luisk/pdfs/cv.pdf",
+        "https://arxiv.org/abs/0709.1241"
+      ],
+      "search_topics": [
+        "\"Luis Kumanduri\" \"k-dilation\" 2025 2026",
+        "\"arbitrarily small\" \"dilation\" \"CP\" conjecture Kumanduri",
+        "\"k-dilation\" \"torsion\" homology conjecture 2025",
+        "\"Kumanduri\" \"dilation\" conjecture",
+        "\"Kumanduri\" \"CP\" \"dilation\"",
+        "\"Kumanduri\" \"h-principle\" 2026"
+      ],
+      "number": 4954,
+      "source_locator": {
+        "label": "Question 1",
+        "printed_page": 11,
+        "held_pdf_page": 11,
+        "original_extraction_page": 11
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        189
+      ],
+      "title": "Homological criterion for arbitrarily small k-dilation",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 14,
+        "label": "Conjecture 1"
+      },
+      "reason": "Kumanduri: same oriented closed manifolds, stable range, integral homology and torsion condition.",
+      "duplicate_review": "Full mathematical comparison with Q189, statement eef8208e19a2ce666bd5 under collection alias 332915a9a0cdffd5.",
+      "statement_id": "e9752678f4ff7f1b4627",
+      "statement_ids": [
+        "e9752678f4ff7f1b4627"
+      ],
+      "source_pdf_sha256": "b079bb956f5a154209e9c4168eb89f426066327aa5655a0f723fa641a09d0acb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://math.mit.edu/research/graduate/thesis-defenses.html?year=2023",
+        "https://arxiv.org/abs/2106.01456",
+        "https://math.mit.edu/~luisk/pdfs/cv.pdf",
+        "https://arxiv.org/abs/0709.1241"
+      ],
+      "search_topics": [
+        "\"Luis Kumanduri\" \"k-dilation\" 2025 2026",
+        "\"arbitrarily small\" \"dilation\" \"CP\" conjecture Kumanduri",
+        "\"k-dilation\" \"torsion\" homology conjecture 2025",
+        "\"Kumanduri\" \"dilation\" conjecture",
+        "\"Kumanduri\" \"CP\" \"dilation\"",
+        "\"Kumanduri\" \"h-principle\" 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        190
+      ],
+      "title": "Boundary k-dilation for maps from odd spheres to even-dimensional complex projective space",
+      "locator": {
+        "pdf_page": 28,
+        "printed_page": 28,
+        "label": "Question 3"
+      },
+      "reason": "Kumanduri: exact boundary CP^n small-(n+1)-dilation target. Fixed compact metrics versus conventional metrics does not change zero infimum.",
+      "duplicate_review": "Full mathematical comparison with Q190; direct held-source URL matches its collection record.",
+      "statement_id": "00853bdb56d791852298",
+      "statement_ids": [
+        "00853bdb56d791852298"
+      ],
+      "source_pdf_sha256": "b079bb956f5a154209e9c4168eb89f426066327aa5655a0f723fa641a09d0acb",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://math.mit.edu/research/graduate/thesis-defenses.html?year=2023",
+        "https://arxiv.org/abs/2106.01456",
+        "https://math.mit.edu/~luisk/pdfs/cv.pdf",
+        "https://arxiv.org/abs/0709.1241"
+      ],
+      "search_topics": [
+        "\"Luis Kumanduri\" \"k-dilation\" 2025 2026",
+        "\"arbitrarily small\" \"dilation\" \"CP\" conjecture Kumanduri",
+        "\"k-dilation\" \"torsion\" homology conjecture 2025",
+        "\"Kumanduri\" \"dilation\" conjecture",
+        "\"Kumanduri\" \"CP\" \"dilation\"",
+        "\"Kumanduri\" \"h-principle\" 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "statement_id": "04ee80372eec66fcdf0f",
+      "statement_ids": [
+        "04ee80372eec66fcdf0f"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "b9ebfb27d8cdcec64bfc",
+      "statement_ids": [
+        "b9ebfb27d8cdcec64bfc"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "2c88e4e4c20262f8ff3a",
+      "statement_ids": [
+        "2c88e4e4c20262f8ff3a"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "b491317cc1fc5eae4e37",
+      "statement_ids": [
+        "b491317cc1fc5eae4e37"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "fb44976f3b51fbfdaeb5",
+      "statement_ids": [
+        "fb44976f3b51fbfdaeb5"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "0d2e984b0936d5f4a62d",
+      "statement_ids": [
+        "0d2e984b0936d5f4a62d"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "5d53c1c1016444d3c200",
+      "statement_ids": [
+        "5d53c1c1016444d3c200"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "e37268f8086adb6f59de",
+      "statement_ids": [
+        "e37268f8086adb6f59de"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "4b577404b1be98d786d9",
+      "statement_ids": [
+        "4b577404b1be98d786d9"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4934,
+    "catalog_sha256": "b2e0902d657ff2d1412d0df1b0f23166228aebdf1b6a66c045de7ef0b6fa9c9f",
+    "corpus_count": 28701,
+    "corpus_sha256": "fba2e98f53e5ab3afdad43cb4b78ad0229f0f15f61818d11a62b3871bdb0b4c5",
+    "additional_regex_queries": [
+      "Kumanduri",
+      "k.dilation",
+      "small.*dilation",
+      "dilation.*homotop",
+      "torsion.*H.?k"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

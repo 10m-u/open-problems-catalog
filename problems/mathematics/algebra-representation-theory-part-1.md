@@ -1,6 +1,6 @@
-# Algebra & Representation Theory (part 1 of 2)
+# Algebra & Representation Theory (part 1 of 3)
 
-[Subject overview](algebra-representation-theory.md) · Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representation-theory-part-2.md)
+[Subject overview](algebra-representation-theory.md) · Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representation-theory-part-2.md) · [3](algebra-representation-theory-part-3.md)
 
 <a id="q1"></a>
 

@@ -1,0 +1,66 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/gruslys-2018.json",
+  "sha256": "e4f27d06bd0858369943903cef965377136cbbe02d95679f17992df83cad3cf6",
+  "recommendation_count": 10,
+  "source_key": "openai-supervised:f5d9b933ca7c1e42def7",
+  "physical_pages_read": [
+    1,
+    19,
+    20,
+    21,
+    22,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    78,
+    79,
+    129,
+    132,
+    133,
+    134,
+    135,
+    150,
+    151
+  ],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "verdict": "All ten scopes and full numbered/source-alias duplicate relationships pass in this bounded audit.",
+  "findings": [
+    "Physical21 explicitly distinguishes one polyomino with translations/rotations/reflections from known planar translation-only decidability and multiple-prototile undecidability. Root D4 signed permutation matrices and grid translations describe the square-cell model. Physical19–21 Euclidean copies allow isometries, not scaling. Source periodicity is full-rank lattice periodicity; the root two-independent-vector formulation preserves it.",
+    "Current8October2026primary2610.12392 is a connected single TRANSLATIONAL3D polycube undecidability theorem; its abstract expressly says dimension2 translational monotiling is decidable. Primary2508.10067 uses FIVE planar translational polyominoes. Neither answers the one planar polyomino D4-isometry question. Arbitrary-polygon Einstein-type monotiles do not become square-grid polyominoes automatically.",
+    "Physical44 cardinality conjecture uniformly bounds dimension for EVERY integer tile with≤t points. The previous theorem allows dependence on coordinate magnitude/whole tile. The proof constructs positive coordinate-permutation copies, but the conjecture follows the source general Euclidean-isometry copy convention; root does not unnecessarily restrict permitted copies. Source reflection can be simulated in one higher dimension.",
+    "Physical48 defines copies of posets as induced subposets, so the root iff-order formula is faithful. Physical64 bounded-remainder question has arbitrary finite P, not just minimum/maximum posets. Tomon2018primaryTheoremA solves only the minimum/maximum case and actual finalConjecture4 retains the general finite-poset target.",
+    "Physical73–74 defines a line as the full intersection of the point set with an affine line having≥2 points. Physical78–79 two strengthened questions require many EXACTLY-l lines/no larger lines, or at least one exactly-four line in a sufficiently large set with no five-point line. Root uses maximal point-set intersections and retains all color/length quantifiers. Known cubic-curve counterexamples have no four-point line and do not refute these strengthened predicates.",
+    "Physical134 fixes an intersection when distinct domain subsets preserve their intersection CARDINALITY. Physical135 conjecture uses nonconstant self maps and n>2p. Physical151 distinguishes nonconstant maps into N^(p) from BIJECTIONS of[r]^(p). Root retains three genuinely distinct codomain/map-class targets and r≥p≥2. Degenerate one-element-domain cases are included as parameters to classify rather than silently removed. Sufficiently-large-r theorems are partial.",
+    "Physical129 exact F-edge problem counts an edge if it belongs to at least one noninduced F-copy, rather than counting copies or multiplicities. Root specifies all fixed finite simple F with an edge, every n,e and extremal graphs. Trivial edgeless-F cases are not a separate unresolved target. The exact triangle theorem for large n and dense three-chromatic asymptotics do not solve general F,n,e.",
+    "Primary1710.07255 explicitly refutes both old arbitrary vertex-transitive power and hypercube edge-packing conjectures, so those source historical statements are properly excluded. The punctured-interval result is likewise a solved proper special tile case. No complete closure of the ten exact accepted predicates was found in current bounded primary queries."
+  ],
+  "duplicate_comparison": {
+    "retrieval": "agent-reviews/GRUSLYS-GLOBAL-RETRIEVAL.json",
+    "method": "Every live seven-word/seven-character catalog neighbor and source-author/title/URL alias relationship manually checked; no threshold certifies uniqueness.",
+    "relationships": [
+      "Q4215 concerns strong shift equivalence of nonnegative integer SQUARE MATRICES, not tile decidability; high lexical score is not an exact target. Q2326 concerns free cubical fundamental groups, not planar isometry tiling. Q1846–1847 ask Hilbert-space convex-body tilings; Q2932 group-action coherent monotiling andQ5025 torus-generated union-closed frequency differ.",
+      "Q3362 concerns relative poset dimension, andQ264–265 ask ordered-graph degree thresholds for almost-perfect graph packings. These do not ask induced finite-poset packings of the Boolean lattice with O_P(1) leftovers.",
+      "Q1751 is arbitrary-rank MATROID TWO-color Ramsey flats with bounded line size. The source targets arbitrary finite REAL-PLANAR configurations with3+ colors and quantitative numbers of maximum-size lines, or one four-point line. Q4981/Q4987 finite Euclidean Ramsey/similarity predicates andQ1264 planar graph monochromatic COMPONENT size differ.",
+      "Q1951 maximizes t-intersecting families of perfect matchings; Q2459/Q2461 concern intersecting hypergraphs/designs. Q259 is intersecting temperate families. No nearest intersection-family question quantifies maps preserving one pairwise intersection cardinality.",
+      "Q5019 counts six-clique copies under rainbow-four-clique exclusion, rather than edges contained in F-copies with a fixed edge budget. Q1665 is adjacency-spectral maximization with an excluded graph. Q4739 prescribes regular degree/triangle counts. No exact general F-edge minimization target found."
+    ]
+  },
+  "primary_sources_independently_checked": [
+    "https://arxiv.org/abs/2610.12392",
+    "https://arxiv.org/abs/2508.10067",
+    "https://arxiv.org/abs/1710.07255",
+    "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+    "https://arxiv.org/pdf/1311.7082",
+    "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf",
+    "https://jocg.org/index.php/jocg/article/download/2933/2627/7266"
+  ],
+  "limits": "Bounded actual-source/current-primary status and global retrieval audit; not universal equivalence/status certification. No canonical writes.",
+  "original_receipt_sha256": "77b9298720b362e81991c33e18fb61491b7f2fc62fe0ef672ef1630cef441dfe"
+}

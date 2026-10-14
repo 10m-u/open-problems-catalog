@@ -1,0 +1,644 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:58e695928b26072ccdfe",
+  "source_review_notes": [
+    "All10 candidates reviewed: seven recommendations (including two explicit source-scope repairs), two reported exact closures, one classification hold. Root must review repairs before numbering.",
+    "Held Oxford PDF printed page=physical−10 in body. Actual source passages pp147,157–161 and required definitions pp28–29,35–37,57,85,141,145–146 read.",
+    "No catalog source/name/family lexical matches found; manual distinction from earlier group-theory recommendations recorded.",
+    "Original sibling extracts were checked through the corpus; no separate automatic duplicates of these ten source-labelled targets found."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Monika Kudlinska\" papers 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"subgroup separable\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"splitting complexity\" conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"regular\" \"profinite\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"Z-regular\" profinite"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"TAP1\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kudlinska\" \"quasiconvex\" conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Hughes Kielak \"TAP\" \"twisted Alexander\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2606.31774v1",
+      "sections_read": "Introduction Corollaries1.5/1.7 and definition of splitting complexity; §8.2 primitive X_n and explicit Problem4. Full norm closure distinguished from the remaining orbit problem."
+    },
+    {
+      "url": "https://arxiv.org/html/2303.16834v3",
+      "sections_read": "Introduction questions1.1–1.3, definition of irreducibility, §4 regularity and rank1 theorem."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2206.11347",
+      "sections_read": "Current v2 PDF Definitions2.2–2.4,2.10,3.1 and LERF/TAP theorem."
+    },
+    {
+      "url": "https://arxiv.org/html/2607.04530v1",
+      "sections_read": "§4.2 Corollary4.3 and Remark4.4: regularity assumption explicit, so not a closure of existential Ẑ×-regularity."
+    },
+    {
+      "url": "https://arxiv.org/html/2211.05752v2",
+      "sections_read": "Introduction, polynomial-growth LERF characterization, non-separation mechanism via asymmetric BNS."
+    },
+    {
+      "url": "https://arxiv.org/html/2512.05293v1",
+      "sections_read": "Abstract/introduction characterization of stable and strongly quasiconvex subgroups; no full classification of distorted fibres claimed."
+    },
+    {
+      "url": "https://arxiv.org/html/2509.22346v2",
+      "sections_read": "Introduction TheoremA, current discussion of subgroup versus conjugacy separability."
+    },
+    {
+      "url": "https://sites.google.com/site/monkudlinska/papers",
+      "sections_read": "Full current publication/preprint list through2026; parent-author/doctoral source identity."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/kc55b6e9d97fd.pdf",
+    "sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+    "physical_pages": 186
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "8cbced4f831585811456afeef253ffaabfae1cda0cdd728fc19849b7290615b0",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Finiteness of fixed-rank free-fibre orbits",
+      "text": "A free-by-cyclic group here means G=F_r⋊_ΦZ with F_r nontrivial and of finite rank. Fix n≥1 and let X_n(G) be the epimorphisms χ:G→Z with kerχ isomorphic to the free group F_n. Characterize when the precomposition action of Out(G) on X_n(G) has finitely many orbits.",
+      "citation": "Question9.6.3, printed147; corrected primitive-character scope in2026 Problem4",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "printed_page": 147,
+        "pdf_page": 157,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "scope_review": "Important explicit repair: the thesis preceding Question9.6.3 says homomorphisms, but its finite-set claim cannot include nonprimitive multiples. The author’s June2026 paper §8.2 explicitly defines X_n using epimorphisms and restates this very question in Problem4. The recommendation is that author-clarified scope, not the false literal nonprimitive finiteness. It does not add the newer algorithm question as part of the original obligation.",
+      "literature_finding": "Current2026 Problem4 explicitly retains orbit finiteness after establishing computability of the set of primitive fixed-rank fibres. Thus BNS computability and full-dimensional-polytope finite cases do not close the general orbit question.",
+      "status_grade": "A: explicitly open inJune2026 author primary restatement, with scope repair disclosed",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.31774v1",
+        "https://sites.google.com/site/monkudlinska/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/family retrieval found no equivalent numbered question. Distinct from Fisher field/integral fibering and division-ring questions, and Morales profinite free/surface recognition and word-measure questions in this batch.",
+      "source_repairs": [
+        {
+          "issue": "Thesis X_n says all homomorphisms. Multiples preserve kernel but change image index, invariant under Out(G).",
+          "repair": "Use epimorphisms exactly as author2026 §8.2 Problem4.",
+          "authority": "https://arxiv.org/html/2606.31774v1#S8.SS2"
+        }
+      ],
+      "statement_id": "2b7348511e9c6ae781ba",
+      "statement_ids": [
+        "2b7348511e9c6ae781ba"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ],
+      "number": 4869,
+      "source_locator": {
+        "label": "Question 9.6.3",
+        "printed_page": 147,
+        "held_pdf_page": 157,
+        "original_extraction_page": 157
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Geometric three-manifold characterization of nonhyperbolic separable free-by-cyclic groups",
+      "text": "A free-by-cyclic group here means G=F_r⋊_ΦZ with F_r nontrivial and of finite rank. If G is not word-hyperbolic and is subgroup separable, must G be commensurable with the fundamental group of a geometric3-manifold? Subgroup separable means every finitely generated subgroup is closed in the profinite topology; commensurable means the two groups have isomorphic finite-index subgroups. Geometric refers to a manifold carrying one of Thurston’s eight geometries; no closedness assumption is added.",
+      "citation": "Question10.0.1, printed157",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "printed_page": 157,
+        "pdf_page": 167,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "scope_review": "Full nonhyperbolic class, not merely polynomial monodromy. The polynomial-growth case already reduces to virtual F_r×Z and is consistent with the geometric conclusion. Hyperbolic virtually-special cubulation does not imply this LERF property.",
+      "literature_finding": "Current subgroup-separability source proves the polynomial subcase; the2026 conjugacy-separability paper proves a different separation property, and does not state full LERF classification.",
+      "status_grade": "B: precise thesis question; current primary progress reviewed, no exact full closure found",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.05752v2",
+        "https://arxiv.org/html/2509.22346v2",
+        "https://sites.google.com/site/monkudlinska/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/family retrieval found no equivalent numbered question. Distinct from Fisher field/integral fibering and division-ring questions, and Morales profinite free/surface recognition and word-measure questions in this batch.",
+      "statement_id": "72df94c90ff8a451c71c",
+      "statement_ids": [
+        "72df94c90ff8a451c71c"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ],
+      "number": 4870,
+      "source_locator": {
+        "label": "Question 10.0.1",
+        "printed_page": 157,
+        "held_pdf_page": 167,
+        "original_extraction_page": 167
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Quasiconvexity or virtual fibre for hyperbolic free-by-cyclic subgroups",
+      "text": "A free-by-cyclic group here means G=F_r⋊_ΦZ with F_r nontrivial and of finite rank. If G is word-hyperbolic, is every finitely generated H≤G quasiconvex unless H is a virtual fibre or virtual semi-fibre of some free-by-cyclic subgroup G₀≤G containing H? A virtual fibre means that after passing to a finite-index G₁≤G₀, H∩G₁ is the kernel of a homomorphism G₁→Z; a virtual semi-fibre means that some such G₁ is a proper ascending HNN extension with base H∩G₁. Quasiconvex means geodesics between elements of H in a Cayley graph of G stay a uniformly bounded distance from H.",
+      "citation": "Conjecture10.0.2, printed158; virtual semi-fibre definition printed157",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "printed_page": 158,
+        "pdf_page": 168,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "scope_review": "The source’s semi-fibre definition is literal: proper ascending, not merely a finite-index free fibre. G₀ is permitted to be a subgroup, not automatically finite-index in general. The irreducible case has a separate finite-index reduction. Standard virtual-fibre commensurability is unpacked via finite-index intersections.",
+      "literature_finding": "Latest largest-acylindrical-action theorem characterizes stable/strongly quasiconvex subgroups through geometry, but does not classify all distorted subgroups as fibres/semi-fibres. No current full closure located.",
+      "status_grade": "B: precise thesis question; current primary progress reviewed, no exact full closure found",
+      "primary_urls": [
+        "https://arxiv.org/html/2512.05293v1",
+        "https://sites.google.com/site/monkudlinska/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/family retrieval found no equivalent numbered question. Distinct from Fisher field/integral fibering and division-ring questions, and Morales profinite free/surface recognition and word-measure questions in this batch.",
+      "statement_id": "764f9379e3158f2554f3",
+      "statement_ids": [
+        "764f9379e3158f2554f3"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ],
+      "number": 4871,
+      "source_locator": {
+        "label": "Conjecture 10.0.2",
+        "printed_page": 158,
+        "held_pdf_page": 168,
+        "original_extraction_page": 168
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Subgroup separability versus virtual BNS symmetry",
+      "text": "A free-by-cyclic group here means G=F_r⋊_ΦZ with F_r nontrivial and of finite rank. Write Σ¹(K) for the Bieri–Neumann–Strebel invariant: nonzero real character rays whose nonnegative-level subgraph of a Cayley graph is connected; symmetry means [χ]∈Σ¹(K) iff [−χ]∈Σ¹(K). For G word-hyperbolic with irreducible monodromy Φ, is G subgroup separable if and only if Σ¹(G₁) is symmetric for every finite-index subgroup G₁≤G? Irreducible means Φ preserves no nontrivial proper free-factor system of F_r.",
+      "citation": "Conjecture10.0.3, printed158",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "printed_page": 158,
+        "pdf_page": 168,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "scope_review": "Explicit typographical repair: thesis prints Σ(G) after quantifying every finite-index G₁; the preceding paragraph discusses asymmetric characters on G₁. The proposed exact standalone statement uses Σ(G₁), and records the repair for root review. The standard Cayley-graph BNS definition is used; it is not replaced by finite generation of the nonnegative monoid as a monoid (the thesis’s informal definition is inaccurate at arbitrary irrational characters).",
+      "literature_finding": "June2026 BNS-computation result supplies an algorithm for each group’s invariant, not a theorem equating the virtual symmetry condition with LERF. Current papers distinguish conjugacy and subgroup separability; no exact full closure located.",
+      "status_grade": "B: precise thesis question; current primary progress reviewed, no exact full closure found",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.31774v1",
+        "https://arxiv.org/html/2211.05752v2",
+        "https://arxiv.org/html/2509.22346v2",
+        "https://sites.google.com/site/monkudlinska/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/family retrieval found no equivalent numbered question. Distinct from Fisher field/integral fibering and division-ring questions, and Morales profinite free/surface recognition and word-measure questions in this batch.",
+      "source_repairs": [
+        {
+          "issue": "Σ(G) in a clause quantified over finite-index G₁.",
+          "repair": "Σ(G₁), as motivated by the immediately preceding character-on-G₁ paragraph.",
+          "authority": "Held thesis printed158, preceding paragraph and Conjecture10.0.3."
+        },
+        {
+          "issue": "Informal Definition5.0.3 uses monoid generation.",
+          "repair": "Standard Σ¹ defined by connected nonnegative Cayley subgraph, consistent with Hughes–Kielak Definitions2.2–2.4.",
+          "authority": "https://arxiv.org/pdf/2206.11347"
+        }
+      ],
+      "statement_id": "381eda723be6df89433b",
+      "statement_ids": [
+        "381eda723be6df89433b"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ],
+      "number": 4872,
+      "source_locator": {
+        "label": "Conjecture 10.0.3",
+        "printed_page": 158,
+        "held_pdf_page": 168,
+        "original_extraction_page": 168
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Existence of regular profinite identifications for free-by-cyclic groups",
+      "text": "A free-by-cyclic group here means G=F_r⋊_ΦZ with F_r nontrivial and of finite rank. If G and H have isomorphic profinite completions, must there exist a continuous isomorphism Θ:Ĝ→Ĥ whose map on completed free abelianizations is μ·Ξ̂ for some μ∈Ẑ× and integral isomorphism Ξ:G^fab→H^fab? Here K^fab is K^ab modulo its torsion subgroup.",
+      "citation": "Question10.0.5, printed159; Definition6.3.2 printed85",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "printed_page": 159,
+        "pdf_page": 169,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "scope_review": "Exact existential wording retained: the2025 paper’s Question1.1 asks whether every isomorphism is regular, a stronger formulation that is not merged as identical. First-Betti-number1 is known; general b₁ is the target.",
+      "literature_finding": "Hughes–Kudlinska2025 retains the stronger regularity question. HananyJuly2026 proves regularity for hyperbolic3-manifolds, while free-by-cyclic Corollary4.3 expressly assumes Ẑ×-regularity; it does not provide the missing isomorphism for all free-by-cyclic groups.",
+      "status_grade": "B: precise thesis question; current primary progress reviewed, no exact full closure found",
+      "primary_urls": [
+        "https://arxiv.org/html/2303.16834v3",
+        "https://arxiv.org/html/2607.04530v1",
+        "https://sites.google.com/site/monkudlinska/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/family retrieval found no equivalent numbered question. Distinct from Fisher field/integral fibering and division-ring questions, and Morales profinite free/surface recognition and word-measure questions in this batch.",
+      "statement_id": "254b401412ac8dca1ccc",
+      "statement_ids": [
+        "254b401412ac8dca1ccc"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ],
+      "number": 4873,
+      "source_locator": {
+        "label": "Question 10.0.5",
+        "printed_page": 159,
+        "held_pdf_page": 169,
+        "original_extraction_page": 169
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Twisted Alexander polynomials detect semifibering in free-by-cyclic groups",
+      "text": "A free-by-cyclic group here means G=F_r⋊_ΦZ with F_r nontrivial and of finite rank. Write Σ¹(K) for the Bieri–Neumann–Strebel invariant: nonzero real character rays whose nonnegative-level subgraph of a Cayley graph is connected; symmetry means [χ]∈Σ¹(K) iff [−χ]∈Σ¹(K). For each field F∈{Q,F_p:p prime}, does every such G have the following property for every nonzero χ:G→Z? Either [χ] or [−χ] lies in Σ¹(G) if and only if, for every epimorphism α:G→Q_f to a finite group, the modules H_i(G;F[Q_f][t,t⁻¹]) have rank0 over F[t,t⁻¹] for i=0,1. The coefficient action is g·(a⊗t^j)=α(g)a⊗t^{j+χ(g)}. Equivalently, all these twisted Alexander polynomials are nonzero; this property is G∈TAP₁(F).",
+      "citation": "Question10.0.6, printed159; Hughes–Kielak Definition3.1",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "printed_page": 159,
+        "pdf_page": 169,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "scope_review": "Semi-fibred means at least one of the two signs, not both or finite generation of kerχ. The defining implication is across all finite quotients and both dimensions0,1. Definitions2.2–2.4,2.10,3.1 of current Hughes–Kielak primary PDF read.",
+      "literature_finding": "Explicitly retained in Hughes–Kudlinska2025 Question1.2. The2025 TAP theorem covers finitely presented LERF groups/products of limit groups, not every free-by-cyclic group; BNS computability2026 does not imply detection by finite-quotient Alexander polynomials.",
+      "status_grade": "B: precise thesis question; current primary progress reviewed, no exact full closure found",
+      "primary_urls": [
+        "https://arxiv.org/html/2303.16834v3",
+        "https://arxiv.org/pdf/2206.11347",
+        "https://arxiv.org/html/2606.31774v1",
+        "https://sites.google.com/site/monkudlinska/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/family retrieval found no equivalent numbered question. Distinct from Fisher field/integral fibering and division-ring questions, and Morales profinite free/surface recognition and word-measure questions in this batch.",
+      "statement_id": "75299800dd342e600a0d",
+      "statement_ids": [
+        "75299800dd342e600a0d"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ],
+      "number": 4874,
+      "source_locator": {
+        "label": "Question 10.0.6",
+        "printed_page": 159,
+        "held_pdf_page": 169,
+        "original_extraction_page": 169
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Irreducible monodromy as a profinite invariant",
+      "text": "A free-by-cyclic group here means G=F_r⋊_ΦZ with F_r nontrivial and of finite rank. If Ĝ≅Ĥ for two free-by-cyclic groups and G admits irreducible monodromy, must H admit irreducible monodromy? Irreducible means no nontrivial proper free-factor system is invariant.",
+      "citation": "Question10.0.7(1), printed159; counterpart Question1.3",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "printed_page": 159,
+        "pdf_page": 169,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "scope_review": "Select only the exact irreducibility subquestion, explicitly restated in2025 Question1.3. Irreducibility is intrinsic across free-by-cyclic presentations by Mutanguha’s cited theorem. Full irreducibility, polynomial-growth degree, JSJ and marked-L²-polytope branches remain unpromoted remainders; no claim that they are solved or absent.",
+      "literature_finding": "The published2025 primary paper explicitly says hyperbolicity is detected but irreducibility is not yet shown and asks this exact question. Later2026 papers found concern conjugacy separation, norm and algorithmic BNS, not this finite-quotient recognition conclusion.",
+      "status_grade": "A: exact subquestion explicitly retained in2025 primary publication",
+      "primary_urls": [
+        "https://arxiv.org/html/2303.16834v3",
+        "https://arxiv.org/html/2606.31774v1",
+        "https://sites.google.com/site/monkudlinska/papers"
+      ],
+      "duplicate_of": [],
+      "duplicate_review": "Full 4825-question source/family retrieval found no equivalent numbered question. Distinct from Fisher field/integral fibering and division-ring questions, and Morales profinite free/surface recognition and word-measure questions in this batch.",
+      "unpromoted_remainders": [
+        "Full irreducibility beyond the selected irreducibility formulation.",
+        "Polynomial/exponential monodromy growth and polynomial degree.",
+        "Cyclic splitting and JSJ recognition.",
+        "BNS invariant and marked L²-polytope recognition."
+      ],
+      "statement_id": "0c84d0d6dd99818e86b5",
+      "statement_ids": [
+        "0c84d0d6dd99818e86b5"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ],
+      "number": 4875,
+      "source_locator": {
+        "label": "Question 10.0.7",
+        "printed_page": 159,
+        "held_pdf_page": 169,
+        "original_extraction_page": 169
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "citation": "Problem 10.0.4",
+      "locator": {
+        "printed_page": 158,
+        "pdf_page": 168,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "reason": "Hold what counts as classification. June2026 Corollary1.7 computes the full BNS invariant and therefore decides whether it is symmetric for an individual presented free-by-cyclic group. The source may intend a structural classification beyond this algorithm. Do not number an already fulfilled decision problem or invent an unstated stronger structural obligation.",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.31774v1"
+      ],
+      "statement_id": "a0dc3d0993072928744e",
+      "statement_ids": [
+        "a0dc3d0993072928744e"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture 10.0.10 (The splitting complexity conjecture)",
+      "locator": {
+        "printed_page": 160,
+        "pdf_page": 170,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "reason": "Reported full closure: Jaikin-Zapirain–Kudlinska–Sánchez-Peralta2026 Corollary1.5 attains b₁^(2)(kerχ) by a finitely generated edge group in an admissible dual splitting. For free-by-cyclic groups the associated subgroup has finite classifying space and −χ(B)=b₁^(2)(B); compare thesis Proposition9.4.3 and Remark10.0.9. The paper explicitly confirms Gardam–Kielak’s conjecture.",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.31774v1"
+      ],
+      "statement_id": "4ed3413558a31c9bb372",
+      "statement_ids": [
+        "4ed3413558a31c9bb372"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture 10.0.13 (Vanishing norm conjecture)",
+      "locator": {
+        "printed_page": 161,
+        "pdf_page": 171,
+        "verified_from": "Held Oxford PDF actual physical pages and printed footer. Body printed=physical−10."
+      },
+      "reason": "Reported closure as the zero-norm case of2026 Corollary1.5: choose admissible splitting with b₁^(2)(B)=0, hence χ(B)=0 for its nontrivial associated subgroup of the free-by-cyclic group. Source free-by-cyclic means finite-rank nontrivial free kernel, so G is one-ended and cannot split over the trivial group. No unresolved numbering.",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.31774v1"
+      ],
+      "statement_id": "12d6bfdb06f0ce16f68b",
+      "statement_ids": [
+        "12d6bfdb06f0ce16f68b"
+      ],
+      "source_pdf_sha256": "103a0884adf79a717bbccbe17b9047876123b0654e6ae83453c3acb1d400d680",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Monika Kudlinska\" papers 2026",
+        "\"free-by-cyclic\" \"subgroup separable\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" conjecture",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" 2026",
+        "\"free-by-cyclic\" \"splitting complexity\" Kielak Gardam2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"regular\" \"profinite\" Hughes Kudlinska2026 (arxiv.org)",
+        "\"free-by-cyclic\" \"TAP\"2026 (arxiv.org)",
+        "\"Kudlinska\" \"BNS\" \"symmetric\" (arxiv.org)",
+        "\"free-by-cyclic\" \"Z-regular\" profinite",
+        "\"free-by-cyclic\" \"TAP1\"",
+        "\"Kudlinska\" \"quasiconvex\" conjecture",
+        "Hughes Kielak \"TAP\" \"twisted Alexander\"",
+        "\"Regularity of profinite isomorphisms of hyperbolic3-manifolds\" (arxiv.org)",
+        "\"Kudlinska\" \"subgroup separability\" \"2026\" (arxiv.org)",
+        "\"free-by-cyclic\" \"quasiconvex\" \"semi-fibre\" (arxiv.org)"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Kudli",
+      "free.by.cyclic",
+      "BNS",
+      "splitting.complexity",
+      "TAP.?1",
+      "virtual.semi.fib",
+      "marked.L"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

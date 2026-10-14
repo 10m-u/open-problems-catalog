@@ -1,0 +1,909 @@
+{
+  "schema": "public-statement-promotion-reviews-v1",
+  "question_count": 249,
+  "question_range": [
+    4801,
+    5049
+  ],
+  "source_reviews": [
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ascari-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/ascari-2023.json",
+      "promoted_numbers": [
+        4914,
+        4915
+      ],
+      "original_review_sha256": "b1510620794d32b59e516976aaf0703f3dbfeec14e2937f93311f56c94e49892"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/bhatia-2026.json",
+      "promoted_numbers": [
+        4826,
+        4827,
+        4828
+      ],
+      "original_review_sha256": "9cea667490ab9f2b2c536dcf50a080dcdfdf26dcb1ebe7a560a9f9d68bbf737f"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/bodart-2024.json",
+      "promoted_numbers": [
+        4829,
+        4830,
+        4831,
+        4832,
+        4833,
+        4834,
+        4835,
+        4836,
+        4837,
+        4838,
+        4839
+      ],
+      "original_review_sha256": "5b2c9af3e1b6101ed33fd1d4a1ff1981667b45c40daec3f2cc41120376a75aed"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/douba-2022.json",
+      "promoted_numbers": [
+        4840,
+        4841,
+        4842,
+        4843,
+        4844,
+        4845,
+        4846,
+        4847
+      ],
+      "original_review_sha256": "494bd3c639277b1c9aa8e72d3408a5d394dd927517df4a01f8655a7343f583a4"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/duminil-copin-2011.json",
+      "promoted_numbers": [
+        4946,
+        4947,
+        4948,
+        4949
+      ],
+      "original_review_sha256": "d2841bd0c3bf57c452328115d515ee279da60496b3f79979bd089f7a8112b123"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/eberhard-2016.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/eberhard-2016.json",
+      "promoted_numbers": [
+        5042,
+        5043,
+        5044
+      ],
+      "original_review_sha256": "439dccddc38f7a3f52023247f25442b3c79b0131db3127b0cbc764d5a1a92016"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/fisher-2025.json",
+      "promoted_numbers": [
+        4848,
+        4850,
+        4851,
+        4852,
+        4853,
+        4854,
+        4855,
+        4856,
+        4857,
+        4858,
+        4859,
+        4860
+      ],
+      "original_review_sha256": "1e42d45d4cdc689c11d5eba238d8147a42d8ddbc7953c6b9346fe875bf23a8a4"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fruchter-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/fruchter-2023.json",
+      "promoted_numbers": [
+        4916,
+        4917,
+        4918,
+        4919,
+        4920
+      ],
+      "original_review_sha256": "b907a7a1ca25195dc4b4c1f4483e6244aae6a4187fc0d2eaf3379f8f3c054190"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/gardam-2017.json",
+      "promoted_numbers": [
+        4921,
+        4922,
+        4923,
+        4924,
+        4925,
+        4926,
+        4927,
+        4928,
+        4929
+      ],
+      "original_review_sha256": "b2d0eefb94da870b14362262d39d4c920d284772156e05cdc14ff4172d079e53"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/ghazouani-2017.json",
+      "promoted_numbers": [
+        5009,
+        5010,
+        5011
+      ],
+      "original_review_sha256": "c9cb8f141aec49b67eb691fd3855689f3c02a491f6654ad395e221ffcd8d774a"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/gheysens-2017.json",
+      "promoted_numbers": [
+        5003,
+        5004,
+        5005,
+        5006,
+        5007,
+        5008
+      ],
+      "original_review_sha256": "d5673a534ac410937ec2288757370006e719e51989ec52872851b38ce6aa0f15"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/goncharov-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/goncharov-2023.json",
+      "promoted_numbers": [
+        4861
+      ],
+      "original_review_sha256": "a8249500a251fe87cd1e7c37ae7363022398c4eb3e02b1729fa2bd0c956cf887"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/gwynne-2018.json",
+      "promoted_numbers": [
+        4862,
+        4863,
+        4864
+      ],
+      "original_review_sha256": "2359b7093c8355158f1acc3b1023ea7cde16b90cf14143abe51f84d9dcbaca83"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/heuer-2019.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/heuer-2019.json",
+      "promoted_numbers": [
+        4865,
+        4866,
+        4867,
+        4868
+      ],
+      "original_review_sha256": "af21d2143e0008a6377bd39e5aad180d012b58723cc34c60309da6a10dfcea4b"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/huang-2025.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/huang-2025.json",
+      "promoted_numbers": [
+        4930,
+        4931
+      ],
+      "original_review_sha256": "9bd04dd09f134e3844be0f83b4622b5dd4f6cc87bd50e0ed5d99eaf02443577b"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/jankiewicz-2018.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/jankiewicz-2018.json",
+      "promoted_numbers": [
+        5046,
+        5047,
+        5048
+      ],
+      "original_review_sha256": "639c6bca5cb8ad0366d794dfe50d7776b21ade66246847714677ade827e16672"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kogler-2025.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/kogler-2025.json",
+      "promoted_numbers": [
+        4932
+      ],
+      "original_review_sha256": "1afb2b9f91700b12aaad7b88b1f28d6f43d5965e8ebb70794485d16554a1f48c"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/kudlinska-2024.json",
+      "promoted_numbers": [
+        4869,
+        4870,
+        4871,
+        4872,
+        4873,
+        4874,
+        4875
+      ],
+      "original_review_sha256": "8cbced4f831585811456afeef253ffaabfae1cda0cdd728fc19849b7290615b0"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kumanduri-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/kumanduri-2023.json",
+      "promoted_numbers": [
+        4954
+      ],
+      "original_review_sha256": "e7f9916c27c9f6b8be0302feb841c1bf65c050368e8abce780c380a474b866b2"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/li-2020.json",
+      "promoted_numbers": [
+        4876,
+        4877,
+        4878,
+        4879,
+        4880
+      ],
+      "original_review_sha256": "5d509b0d61d2e1db1e5498fe457136e4b14c8203ba7d76ebf19da383aaf40ada"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/llosa-isenrich-2017.json",
+      "promoted_numbers": [
+        4941,
+        4942,
+        4943,
+        4944,
+        4945
+      ],
+      "original_review_sha256": "5249920ecef89239a3d7f26fd0df1ca88d9d662bc77fdb88fa07194c141334ef"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/martineau-2015.json",
+      "promoted_numbers": [
+        4994,
+        4995,
+        4996,
+        4997,
+        4998,
+        4999,
+        5000
+      ],
+      "original_review_sha256": "2301d2ca816a7c0444f35f70868bc75f67bbf62db50e70a67856b0d2f0ef5ab2"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/matheau-raven-2020.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/matheau-raven-2020.json",
+      "promoted_numbers": [
+        4953
+      ],
+      "original_review_sha256": "e955534a8bcb3443cdc79be72ec5a37a4c30bb07896967617cf6b60523fb626f"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/morales-2025.json",
+      "promoted_numbers": [
+        4881,
+        4882,
+        4883,
+        4884,
+        4885,
+        4886,
+        4887,
+        4888,
+        4889,
+        4890
+      ],
+      "original_review_sha256": "477d266f3e289148110cec1ff42dcff021eb634f617e2e1665bd63224362fc9a"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/myropolska-2015.json",
+      "promoted_numbers": [
+        5036,
+        5037,
+        5038,
+        5039,
+        5040,
+        5041
+      ],
+      "original_review_sha256": "3deb591cbb209e3bc375707ec825d910c2379d0da48914183fd1156105ac440d"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/park-2022.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/park-2022.json",
+      "promoted_numbers": [
+        4891
+      ],
+      "original_review_sha256": "b15dc15a77a4881d0b1a4a79a5bb675c2e603b4e54443156a841c60f12dba71a"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/prigge-2020.json",
+      "promoted_numbers": [
+        4991,
+        4992,
+        4993
+      ],
+      "original_review_sha256": "dd9ef1fcc62f79f4c76ae2e0bc93569e028b032c7fca29b9e0ef7114fdbb69f3"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/servan-2026.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/servan-2026.json",
+      "promoted_numbers": [
+        4892,
+        4893
+      ],
+      "original_review_sha256": "1bde5b7786c1295ca5aa69a9423dd02ec5bd0e16db70c16f4b95377721dd6e95"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/tselekidis-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/tselekidis-2023.json",
+      "promoted_numbers": [
+        4933,
+        4934
+      ],
+      "original_review_sha256": "0692676a1dffae79d587480fd263042e7d66fef29cb255da8a2f60d082c3d2d7"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/urech-2017.json",
+      "promoted_numbers": [
+        4849,
+        4912,
+        4935,
+        4936,
+        4937,
+        4938,
+        4939,
+        4940
+      ],
+      "original_review_sha256": "87bddd4765d603549b01b0a1aa01bd524ef19ba4409b83dac64c18a65db4a574"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/winsor-2022.json",
+      "promoted_numbers": [
+        4950,
+        4951,
+        4952
+      ],
+      "original_review_sha256": "d8d3651291768c05f140d7d894fe10268791a5e27a7c5b76a2bd5b95afdeb8fd"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/agent-reviews/wolfram-2024.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/agent-reviews/wolfram-2024.json",
+      "promoted_numbers": [],
+      "original_review_sha256": "2c65422f6ef815eda09baa4ded99aa7b61aadf505bc41cbf3978a4666029a36a"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/cheung-2025.json",
+      "promoted_numbers": [
+        4901,
+        4902,
+        4903,
+        4904,
+        4905,
+        4906,
+        4907,
+        4908,
+        4909
+      ],
+      "original_review_sha256": "d517e43cb6d7312ccb5b4cae81653b5cb43a829acfc7d6bb61d740f45dfe4f9a"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/frankl-2020.json",
+      "promoted_numbers": [
+        4979,
+        4980,
+        4981,
+        4982,
+        4983,
+        4984,
+        4985,
+        4986,
+        4987,
+        4988,
+        4989,
+        4990
+      ],
+      "original_review_sha256": "fe2ae28d93af65826803af541b544e56e64412fea56aadab9f597206a27632f4"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/goldberg-2019.json",
+      "promoted_numbers": [
+        4964,
+        4965,
+        4966,
+        4967,
+        4968,
+        4969,
+        4970,
+        4971,
+        4972,
+        4973,
+        4974,
+        4975,
+        4976,
+        4977,
+        4978
+      ],
+      "original_review_sha256": "1a9b627ea24b11b90383de9d20e1465656cf2bfd23b00311f42994d65d2a2fa2"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/gruslys-2018.json",
+      "promoted_numbers": [
+        5026,
+        5027,
+        5028,
+        5029,
+        5030,
+        5031,
+        5032,
+        5033,
+        5034,
+        5035
+      ],
+      "original_review_sha256": "e4f27d06bd0858369943903cef965377136cbbe02d95679f17992df83cad3cf6"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/ivan-2023.json",
+      "promoted_numbers": [
+        5020,
+        5021,
+        5022,
+        5023,
+        5024,
+        5025
+      ],
+      "original_review_sha256": "966b1eeddd8cf2e7433ed8c0f7c8dae2c826ebbf5078a0f734d7f0db5545c3c9"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/janzer-2023.json",
+      "promoted_numbers": [
+        5012,
+        5013,
+        5014,
+        5015,
+        5016,
+        5017,
+        5018,
+        5019
+      ],
+      "original_review_sha256": "9e3cdd7be8bc1c2a2167261f68975adb07ebd8a35478b9bd2fe3f55859890c19"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/joonkyung-lee-2017.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/joonkyung-lee-2017.json",
+      "promoted_numbers": [
+        5049
+      ],
+      "original_review_sha256": "80487089e0912d0b083319898048c70222790a367788e4317053e6da7f5ef567"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/lichter-2023.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/lichter-2023.json",
+      "promoted_numbers": [
+        4898,
+        4900,
+        4910,
+        4911,
+        4913
+      ],
+      "original_review_sha256": "ef73db2395f8d7abfdf268de80b2c3d8c9d006015ea473fff94244622ccc42f1"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/lutz-2021.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/lutz-2021.json",
+      "promoted_numbers": [
+        4894,
+        4895,
+        4896,
+        4897,
+        4899
+      ],
+      "original_review_sha256": "926a077ee5dcb0056a5dd79d43f64a847e6da2d3662795cae4ead9cbfddfb2aa"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/natura-2022.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/natura-2022.json",
+      "promoted_numbers": [
+        5001,
+        5002
+      ],
+      "original_review_sha256": "1e971f7651cad8fe0d9573fe9cb28cbf0471a54460de2d2e4c5df3de4c578437"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/sgueglia-2022.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/sgueglia-2022.json",
+      "promoted_numbers": [
+        5045
+      ],
+      "original_review_sha256": "c85aacef0df77430837ee886bd91338155580b33c0debf0b8d0bd0f6d194ec5a"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+      "original_path": "research/statement-promotions-250-2026-10-13/root-reviews/versteegen-2024.json",
+      "promoted_numbers": [
+        4955,
+        4956,
+        4957,
+        4958,
+        4959,
+        4960,
+        4961,
+        4962,
+        4963
+      ],
+      "original_review_sha256": "cfdd326506048be089d295db25ef20ba7f732366c0caea8c93650ad2622c0a75"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+      "original_path": "research/statement-promotions-2026-10-13/agent-geometry-review.json",
+      "promoted_numbers": [
+        4818,
+        4819,
+        4820,
+        4821,
+        4822,
+        4823,
+        4824,
+        4825
+      ],
+      "original_review_sha256": "9924c5961774e8008d2e570d1b9be0919bbb643c75d0dfd40d4279a61e75f2d1"
+    },
+    {
+      "path": "reviews/statement-promotions/2026-10-13/main-review.json",
+      "original_path": "research/statement-promotions-2026-10-13/main-review.json",
+      "promoted_numbers": [
+        4801,
+        4802,
+        4803,
+        4804,
+        4805,
+        4806,
+        4807,
+        4808,
+        4809,
+        4810,
+        4811,
+        4812,
+        4813,
+        4814,
+        4815,
+        4816,
+        4817
+      ],
+      "original_review_sha256": "58a235bf34cb11e53bcd86a6ea4ffbf46a14c5cf7d529229cc0dcbb130a817fa"
+    }
+  ],
+  "review_file_map": {
+    "research/statement-promotions-250-2026-10-13/README.md": "reviews/statement-promotions/README.md",
+    "research/statement-promotions-250-2026-10-13/ROOT-AUDIT.json": "reviews/statement-promotions/2026-10-13-250/audit.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/ascari-2023.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ascari-2023.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/bhatia-2026.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/bodart-2024.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/douba-2022.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/duminil-copin-2011.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/eberhard-2016.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/eberhard-2016.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/fisher-2025.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/fruchter-2023.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fruchter-2023.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/gardam-2017.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/ghazouani-2017.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/gheysens-2017.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/goncharov-2023.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/goncharov-2023.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/gwynne-2018.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/heuer-2019.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/heuer-2019.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/huang-2025.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/huang-2025.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/jankiewicz-2018.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/jankiewicz-2018.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/kogler-2025.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kogler-2025.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/kudlinska-2024.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/kumanduri-2023.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kumanduri-2023.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/li-2020.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/llosa-isenrich-2017.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/martineau-2015.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/matheau-raven-2020.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/matheau-raven-2020.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/morales-2025.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/myropolska-2015.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/park-2022.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/park-2022.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/prigge-2020.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/servan-2026.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/servan-2026.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/tselekidis-2023.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/tselekidis-2023.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/urech-2017.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/winsor-2022.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/wolfram-2024.json": "reviews/statement-promotions/2026-10-13-250/agent-reviews/wolfram-2024.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/cheung-2025.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/frankl-2020.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/goldberg-2019.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/gruslys-2018.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/ivan-2023.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/janzer-2023.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/joonkyung-lee-2017.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/joonkyung-lee-2017.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/lichter-2023.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/lichter-2023.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/lutz-2021.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/lutz-2021.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/natura-2022.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/natura-2022.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/sgueglia-2022.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/sgueglia-2022.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/versteegen-2024.json": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "research/statement-promotions-250-2026-10-13/FINAL-AUDIT.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/coordinating/FINAL-AUDIT.json",
+    "research/statement-promotions-250-2026-10-13/FINAL-ROOT-SCOPE-COMPARISONS.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/coordinating/FINAL-ROOT-SCOPE-COMPARISONS.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-FRANKL.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-FRANKL.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-GOLDBERG.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-GOLDBERG.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-GRUSLYS.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-GRUSLYS.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-IVAN.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-IVAN.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-JANZER.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-JANZER.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-JOONKYUNG-LEE.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-JOONKYUNG-LEE.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-LICHTER.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-LICHTER.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-LUTZ-CHEUNG.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-LUTZ-CHEUNG.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-NATURA.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-NATURA.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-SGUEGLIA.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-SGUEGLIA.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-AUDIT-VERSTEEGEN.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-AUDIT-VERSTEEGEN.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-DUPLICATE-RECHECK.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-DUPLICATE-RECHECK.json",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/INDEPENDENT-FINAL-CANONICAL-AUDIT.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/agent-reviews/INDEPENDENT-FINAL-CANONICAL-AUDIT.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/INDEPENDENT-EBERHARD.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/root-reviews/INDEPENDENT-EBERHARD.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/INDEPENDENT-GHAZOUANI.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/root-reviews/INDEPENDENT-GHAZOUANI.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/INDEPENDENT-GHEYSENS.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/root-reviews/INDEPENDENT-GHEYSENS.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/INDEPENDENT-JANKIEWICZ.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/root-reviews/INDEPENDENT-JANKIEWICZ.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/INDEPENDENT-MYROPOLSKA.json": "reviews/statement-promotions/2026-10-13-250/independent-audits/root-reviews/INDEPENDENT-MYROPOLSKA.json",
+    "research/statement-promotions-250-2026-10-13/root-reviews/EBERHARD-SYSTEM-COUNTERCASE.md": "reviews/statement-promotions/2026-10-13-250/source-scope-notes/EBERHARD-SYSTEM-COUNTERCASE.md",
+    "research/statement-promotions-250-2026-10-13/agent-reviews/GHEYSENS-SOURCE-REDUCTION.md": "reviews/statement-promotions/2026-10-13-250/source-scope-notes/GHEYSENS-SOURCE-REDUCTION.md",
+    "research/statement-promotions-2026-10-13/README.md": "reviews/statement-promotions/README.md",
+    "research/statement-promotions-2026-10-13/COMBINED-AUDIT.json": "reviews/statement-promotions/2026-10-13/audit.json",
+    "research/statement-promotions-2026-10-13/agent-geometry-review.json": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "research/statement-promotions-2026-10-13/main-review.json": "reviews/statement-promotions/2026-10-13/main-review.json"
+  },
+  "final_audit_files": [
+    "reviews/statement-promotions/2026-10-13-250/independent-audits/coordinating/FINAL-AUDIT.json"
+  ],
+  "question_review_files": {
+    "4914": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ascari-2023.json",
+    "4915": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ascari-2023.json",
+    "4826": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json",
+    "4827": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json",
+    "4828": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json",
+    "4829": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4830": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4831": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4832": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4833": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4834": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4835": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4836": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4837": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4838": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4839": "reviews/statement-promotions/2026-10-13-250/agent-reviews/bodart-2024.json",
+    "4840": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4841": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4842": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4843": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4844": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4845": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4846": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4847": "reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json",
+    "4946": "reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json",
+    "4947": "reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json",
+    "4948": "reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json",
+    "4949": "reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json",
+    "5042": "reviews/statement-promotions/2026-10-13-250/agent-reviews/eberhard-2016.json",
+    "5043": "reviews/statement-promotions/2026-10-13-250/agent-reviews/eberhard-2016.json",
+    "5044": "reviews/statement-promotions/2026-10-13-250/agent-reviews/eberhard-2016.json",
+    "4848": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4850": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4851": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4852": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4853": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4854": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4855": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4856": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4857": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4858": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4859": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4860": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fisher-2025.json",
+    "4916": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fruchter-2023.json",
+    "4917": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fruchter-2023.json",
+    "4918": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fruchter-2023.json",
+    "4919": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fruchter-2023.json",
+    "4920": "reviews/statement-promotions/2026-10-13-250/agent-reviews/fruchter-2023.json",
+    "4921": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4922": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4923": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4924": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4925": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4926": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4927": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4928": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "4929": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gardam-2017.json",
+    "5009": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json",
+    "5010": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json",
+    "5011": "reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json",
+    "5003": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+    "5004": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+    "5005": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+    "5006": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+    "5007": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+    "5008": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json",
+    "4861": "reviews/statement-promotions/2026-10-13-250/agent-reviews/goncharov-2023.json",
+    "4862": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json",
+    "4863": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json",
+    "4864": "reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json",
+    "4865": "reviews/statement-promotions/2026-10-13-250/agent-reviews/heuer-2019.json",
+    "4866": "reviews/statement-promotions/2026-10-13-250/agent-reviews/heuer-2019.json",
+    "4867": "reviews/statement-promotions/2026-10-13-250/agent-reviews/heuer-2019.json",
+    "4868": "reviews/statement-promotions/2026-10-13-250/agent-reviews/heuer-2019.json",
+    "4930": "reviews/statement-promotions/2026-10-13-250/agent-reviews/huang-2025.json",
+    "4931": "reviews/statement-promotions/2026-10-13-250/agent-reviews/huang-2025.json",
+    "5046": "reviews/statement-promotions/2026-10-13-250/agent-reviews/jankiewicz-2018.json",
+    "5047": "reviews/statement-promotions/2026-10-13-250/agent-reviews/jankiewicz-2018.json",
+    "5048": "reviews/statement-promotions/2026-10-13-250/agent-reviews/jankiewicz-2018.json",
+    "4932": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kogler-2025.json",
+    "4869": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "4870": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "4871": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "4872": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "4873": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "4874": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "4875": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kudlinska-2024.json",
+    "4954": "reviews/statement-promotions/2026-10-13-250/agent-reviews/kumanduri-2023.json",
+    "4876": "reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json",
+    "4877": "reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json",
+    "4878": "reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json",
+    "4879": "reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json",
+    "4880": "reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json",
+    "4941": "reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json",
+    "4942": "reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json",
+    "4943": "reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json",
+    "4944": "reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json",
+    "4945": "reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json",
+    "4994": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "4995": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "4996": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "4997": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "4998": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "4999": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "5000": "reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json",
+    "4953": "reviews/statement-promotions/2026-10-13-250/agent-reviews/matheau-raven-2020.json",
+    "4881": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4882": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4883": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4884": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4885": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4886": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4887": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4888": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4889": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "4890": "reviews/statement-promotions/2026-10-13-250/agent-reviews/morales-2025.json",
+    "5036": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+    "5037": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+    "5038": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+    "5039": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+    "5040": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+    "5041": "reviews/statement-promotions/2026-10-13-250/agent-reviews/myropolska-2015.json",
+    "4891": "reviews/statement-promotions/2026-10-13-250/agent-reviews/park-2022.json",
+    "4991": "reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json",
+    "4992": "reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json",
+    "4993": "reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json",
+    "4892": "reviews/statement-promotions/2026-10-13-250/agent-reviews/servan-2026.json",
+    "4893": "reviews/statement-promotions/2026-10-13-250/agent-reviews/servan-2026.json",
+    "4933": "reviews/statement-promotions/2026-10-13-250/agent-reviews/tselekidis-2023.json",
+    "4934": "reviews/statement-promotions/2026-10-13-250/agent-reviews/tselekidis-2023.json",
+    "4849": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4912": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4935": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4936": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4937": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4938": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4939": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4940": "reviews/statement-promotions/2026-10-13-250/agent-reviews/urech-2017.json",
+    "4950": "reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json",
+    "4951": "reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json",
+    "4952": "reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json",
+    "4901": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4902": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4903": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4904": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4905": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4906": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4907": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4908": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4909": "reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json",
+    "4979": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4980": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4981": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4982": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4983": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4984": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4985": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4986": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4987": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4988": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4989": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4990": "reviews/statement-promotions/2026-10-13-250/root-reviews/frankl-2020.json",
+    "4964": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4965": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4966": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4967": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4968": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4969": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4970": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4971": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4972": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4973": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4974": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4975": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4976": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4977": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "4978": "reviews/statement-promotions/2026-10-13-250/root-reviews/goldberg-2019.json",
+    "5026": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5027": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5028": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5029": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5030": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5031": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5032": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5033": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5034": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5035": "reviews/statement-promotions/2026-10-13-250/root-reviews/gruslys-2018.json",
+    "5020": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+    "5021": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+    "5022": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+    "5023": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+    "5024": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+    "5025": "reviews/statement-promotions/2026-10-13-250/root-reviews/ivan-2023.json",
+    "5012": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5013": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5014": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5015": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5016": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5017": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5018": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5019": "reviews/statement-promotions/2026-10-13-250/root-reviews/janzer-2023.json",
+    "5049": "reviews/statement-promotions/2026-10-13-250/root-reviews/joonkyung-lee-2017.json",
+    "4898": "reviews/statement-promotions/2026-10-13-250/root-reviews/lichter-2023.json",
+    "4900": "reviews/statement-promotions/2026-10-13-250/root-reviews/lichter-2023.json",
+    "4910": "reviews/statement-promotions/2026-10-13-250/root-reviews/lichter-2023.json",
+    "4911": "reviews/statement-promotions/2026-10-13-250/root-reviews/lichter-2023.json",
+    "4913": "reviews/statement-promotions/2026-10-13-250/root-reviews/lichter-2023.json",
+    "4894": "reviews/statement-promotions/2026-10-13-250/root-reviews/lutz-2021.json",
+    "4895": "reviews/statement-promotions/2026-10-13-250/root-reviews/lutz-2021.json",
+    "4896": "reviews/statement-promotions/2026-10-13-250/root-reviews/lutz-2021.json",
+    "4897": "reviews/statement-promotions/2026-10-13-250/root-reviews/lutz-2021.json",
+    "4899": "reviews/statement-promotions/2026-10-13-250/root-reviews/lutz-2021.json",
+    "5001": "reviews/statement-promotions/2026-10-13-250/root-reviews/natura-2022.json",
+    "5002": "reviews/statement-promotions/2026-10-13-250/root-reviews/natura-2022.json",
+    "5045": "reviews/statement-promotions/2026-10-13-250/root-reviews/sgueglia-2022.json",
+    "4955": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4956": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4957": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4958": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4959": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4960": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4961": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4962": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4963": "reviews/statement-promotions/2026-10-13-250/root-reviews/versteegen-2024.json",
+    "4818": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4819": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4820": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4821": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4822": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4823": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4824": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4825": "reviews/statement-promotions/2026-10-13/agent-geometry-review.json",
+    "4801": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4802": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4803": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4804": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4805": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4806": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4807": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4808": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4809": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4810": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4811": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4812": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4813": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4814": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4815": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4816": "reviews/statement-promotions/2026-10-13/main-review.json",
+    "4817": "reviews/statement-promotions/2026-10-13/main-review.json"
+  },
+  "status_standard": "Explicit source targets and bounded dated primary-literature assessment; not a universal certificate of openness."
+}

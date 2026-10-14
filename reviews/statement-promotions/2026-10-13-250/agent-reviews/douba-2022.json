@@ -1,0 +1,696 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:ce3e20233b1a0acaead8",
+  "source_review_notes": [
+    "Eight recommendations and one scope hold. Held source81 physical pages, printed=physical; automatic text pagination97/107 is not the held PDF locator.",
+    "Read actual61–71, source setup15–17, π-visible definitions27–33 and chapter3 theorem/proof46–49. The thesis Coxeter graph means noncommutation edges.",
+    "Recent integral free-product theorem was checked carefully: discrete real factors are required. No closure inferred for the compact rational orthogonal factor.",
+    "Current status grades are bounded source assessments, not proofs of openness or claims of exhaustive worldwide literature search."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Sami Douba\" papers2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Douba\" \"unipotents\" \"d > 1\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"virtually compact special\" \"undistorted\" \"GL\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"graph manifold\" \"type-N\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"virtually compact special\" \"undistorted\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Douba\" \"unipotent-free\" \"rational\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"type N\" \"VU\" \"Douba\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Coxeter\" \"unipotents\" Douba Weisman2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"undistorted\" \"GLn\" \"special\" Tsouvalas"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"VU\" \"type-N\" group -photovoltaïque"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"unipotent-free\" \"Q-linear\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"graph manifolds\" \"type-N\" Douba"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"SO5\" \"linear over\" Douba"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"rank-one lattices\" \"compact Lie group\" Douba"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"unipotent-free\" \"Q\" Douba Tsouvalas"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Douba\" \"Q-linearity\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"VU element\" linear group"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"type-N\" CAT(0) group Douba"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"right-angled Coxeter\" \"unipotent\" \"each\""
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://www.math.uni-bonn.de/people/douba/",
+      "sections_read": "Complete current works list, including July31 and October1,2026 papers; author identity/CV."
+    },
+    {
+      "url": "https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf",
+      "sections_read": "Introduction Theorems1.3/1.5, hyperbolic and fully nondegenerate Cartan hypotheses, further questions."
+    },
+    {
+      "url": "https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf",
+      "sections_read": "Full introduction, Theorem1.2 extension-ring conclusion, Corollary1.3, compact embedding discussion and rational/integral free-product distinctions."
+    },
+    {
+      "url": "https://arxiv.org/html/2407.09439v2",
+      "sections_read": "Exact Corollary1.10 discrete real factors and same coefficient-domain statement."
+    },
+    {
+      "url": "https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf",
+      "sections_read": "Introduction Theorem1.1, Corollaries1.2/1.4 and definitions of π-visible/translation length; no rational or universal-neutrality conclusion."
+    },
+    {
+      "url": "https://www.math.uni-bonn.de/people/douba/VirtuallyUnipotentCurves.pdf",
+      "sections_read": "Introduction definitionsVU and NIU, Theorem1.8, Corollary1.10; proof torus-element cases, not a type-N theorem."
+    },
+    {
+      "url": "https://www.math.uni-bonn.de/people/douba/ZariskiClosures.pdf",
+      "sections_read": "Introduction Theorems1.1/1.2: Zariski density, and hyperbolic Anosov subcase; these are not unipotent exclusion statements."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/k50750399380a.pdf",
+    "sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+    "physical_pages": 81
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "494bd3c639277b1c9aa8e72d3408a5d394dd927517df4a01f8655a7343f583a4",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Unipotents in all uniformly deformed right-angled Coxeter representations",
+      "text": "Let Σ be a finite connected simplicial graph with vertices1,…,n, n≥3. Define W=⟨s₁,…,s_n | s_i²=1, [s_i,s_j]=1 whenever i≠j are not adjacent in Σ⟩. For real d>1 let M_d have diagonal entries1, entry−d on edges of Σ, and0 elsewhere. Define σ_d(s_i)v=v−2(vᵀM_d e_i)e_i on ℝⁿ. Is σ_d(W) free of nonidentity unipotent matrices for every such Σ and every real d>1?",
+      "citation": "Question 4.0.1, printed/physical 61",
+      "locator": {
+        "printed_page": 61,
+        "pdf_page": 61,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "Uses the source noncommutation graph convention, not its complement. The real parameter is unrestricted; transcendental and selected algebraic cases are known.",
+      "literature_finding": "The2025 Anosov theorem covers hyperbolic subgroups and suitable Cartan matrices; the2026 Zariski-closure theorem addresses density rather than excluding unipotents for every uniform d. No full all-graph/all-d closure located.",
+      "status_grade": "B: exact thesis question, latest primary results checked with stated scope; no located closure is not a certificate of openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf",
+        "https://www.math.uni-bonn.de/people/douba/ZariskiClosures.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "6d9862310e70a9e821dc",
+      "statement_ids": [
+        "6d9862310e70a9e821dc"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4840,
+      "source_locator": {
+        "label": "Question 4.0.1",
+        "printed_page": 61,
+        "held_pdf_page": 61,
+        "original_extraction_page": 97
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Quasi-isometric orbit maps for all uniformly deformed Coxeter representations",
+      "text": "Let Σ be a finite connected simplicial graph with vertices1,…,n, n≥3. Define W=⟨s₁,…,s_n | s_i²=1, [s_i,s_j]=1 whenever i≠j are not adjacent in Σ⟩. For real d>1 let M_d have diagonal entries1, entry−d on edges of Σ, and0 elsewhere. Define σ_d(s_i)v=v−2(vᵀM_d e_i)e_i on ℝⁿ. For every d>1 and basepoint x₀ in X=GL_n(ℝ)/O(n), is w↦σ_d(w)x₀ a quasi-isometric embedding from W with its standard word metric into X with a GL_n(ℝ)-invariant symmetric-space metric?",
+      "citation": "Question 4.0.2, printed/physical 62",
+      "locator": {
+        "printed_page": 62,
+        "pdf_page": 62,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "Constants may depend on Σ,d and basepoint. This asks the full orbit map, stronger than merely excluding unipotents; known hyperbolic cases remain part of the scope.",
+      "literature_finding": "The2025 primary theorem supplies hyperbolic Anosov representations, not an all-nonhyperbolic/all-uniform-parameter orbit theorem. Latest2026 reflection paper gives Zariski-dense integral representations; no exact general orbit-map closure located.",
+      "status_grade": "B: exact thesis question, latest primary results checked with stated scope; no located closure is not a certificate of openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf",
+        "https://www.math.uni-bonn.de/people/douba/ZariskiClosures.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "488c87da0aae212d1916",
+      "statement_ids": [
+        "488c87da0aae212d1916"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4841,
+      "source_locator": {
+        "label": "Question 4.0.2",
+        "printed_page": 62,
+        "held_pdf_page": 62,
+        "original_extraction_page": 98
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Undistorted integral linear embeddings of virtually compact special groups",
+      "text": "Does every virtually compact special group G admit an injective homomorphism G→GL_N(ℤ), for some N≥2, whose image is undistorted? Equivalently, is this map a quasi-isometric embedding for word metrics from finite generating sets? Virtually compact special means that a finite-index subgroup of G is the fundamental group of a compact nonpositively curved special cube complex, admitting a local isometry into a Salvetti complex of a right-angled Artin group.",
+      "citation": "Question 4.0.3, printed/physical 63",
+      "locator": {
+        "printed_page": 63,
+        "pdf_page": 63,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "No hyperbolicity assumption is added. Compactness and the ambient integral group word metric are essential. Linear faithful representations alone do not imply undistortion.",
+      "literature_finding": "The2025 cubulated-hyperbolic Anosov result answers an important hyperbolic subcase. Its hypothesis does not cover all virtually compact special groups; no exact full closure located.",
+      "status_grade": "B: exact thesis question, latest primary results checked with stated scope; no located closure is not a certificate of openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "59b77c51a8fdc2853df2",
+      "statement_ids": [
+        "59b77c51a8fdc2853df2"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4842,
+      "source_locator": {
+        "label": "Question 4.0.3",
+        "printed_page": 63,
+        "held_pdf_page": 63,
+        "original_extraction_page": 99
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A cocompact rank-one lattice with no compact Lie-group embedding",
+      "text": "Does there exist an irreducible Riemannian symmetric space X of noncompact type and real rank1, and a cocompact lattice Γ≤Isom(X), such that Γ admits no injective homomorphism into any compact Lie group?",
+      "citation": "Question 4.0.4, printed/physical 63",
+      "locator": {
+        "printed_page": 63,
+        "pdf_page": 63,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "Cocompactness excludes the known nonuniform complex-hyperbolic examples. Abstract faithful compact embeddings are requested; no continuity condition is imposed on the discrete domain.",
+      "literature_finding": "TheJuly2026 Douba–Tsouvalas paper still reports no known linear hyperbolic group without a compact Lie-group embedding, a stronger encompassing existence problem. Its amalgamation theorems do not supply such a lattice. October2026 complex-hyperbolic geodesic work is separate.",
+      "status_grade": "A/B: latest2026 author paper explicitly retains the encompassing obstruction problem; exact lattice subquestion audited",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "d47fbe43937862508e7a",
+      "statement_ids": [
+        "d47fbe43937862508e7a"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4843,
+      "source_locator": {
+        "label": "Question 4.0.4",
+        "printed_page": 63,
+        "held_pdf_page": 63,
+        "original_extraction_page": 99
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Rational linear realizations of unipotent-free complex linear groups",
+      "text": "Let Γ≤SL_n(ℂ) be finitely generated and contain no nonidentity unipotent matrix. Must Γ admit a faithful finite-dimensional representation over ℚ? More strongly, must there be some m and an embedding Γ→SL_m(ℚ) whose image contains no nonidentity unipotent matrix?",
+      "citation": "Question 4.0.5, printed/physical 64",
+      "locator": {
+        "printed_page": 64,
+        "pdf_page": 64,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "Asks existence of another abstract representation, not rationality of the given coefficients. Both clauses retained. Nearby non-ℚ-linear examples contain unipotents and are not counterexamples.",
+      "literature_finding": "The2026 amalgam paper constructs representations over extension polynomial rings; it does not establish the required rational representations. The primary CAT(0)-action theorem is not a rational-linearity theorem. No exact closure located.",
+      "status_grade": "B: exact thesis question, latest primary results checked with stated scope; no located closure is not a certificate of openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf",
+        "https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "567475fd4e4f3f57cc6c",
+      "statement_ids": [
+        "567475fd4e4f3f57cc6c"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4844,
+      "source_locator": {
+        "label": "Question 4.0.5",
+        "printed_page": 64,
+        "held_pdf_page": 64,
+        "original_extraction_page": 100
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Rational linearity of SO₅(ℤ[1/5])*C₂",
+      "text": "For the positive-definite form q(x)=x₁²+⋯+x₅², let SO₅(ℤ[1/5])={A∈SL₅(ℤ[1/5]):AᵀA=I}. Does SO₅(ℤ[1/5])*C₂ admit a faithful finite-dimensional representation over ℚ? More strongly, does it embed in SL_m(ℚ), for some m, with no nonidentity unipotent matrix?",
+      "citation": "Question 4.0.9, printed/physical 66",
+      "locator": {
+        "printed_page": 66,
+        "pdf_page": 66,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "The source compact orthogonal form is fixed; replacing it by a split form changes the target. A special case of the preceding rational-realization question, not an equivalent duplicate.",
+      "literature_finding": "DGK Corollary1.10 requires discrete real matrix factors. The infinite compact factor SO₅(ℤ[1/5]) is not discrete in its displayed real realization, so that corollary does not answer this question. The2026 amalgam paper distinguishes integral free-product closure from smaller-domain issues. No exact rational closure located.",
+      "status_grade": "B: exact thesis question, latest primary results checked with stated scope; no located closure is not a certificate of openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://arxiv.org/html/2407.09439v2",
+        "https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "d8a40c20b836ca541b1d",
+      "statement_ids": [
+        "d8a40c20b836ca541b1d"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4845,
+      "source_locator": {
+        "label": "Question 4.0.9",
+        "printed_page": 66,
+        "held_pdf_page": 66,
+        "original_extraction_page": 102
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Type-N curves characterize nonpositive curvature of closed aspherical three-manifolds",
+      "text": "An element g of Γ is of type N if inf_{x∈X}d_X(x,gx)=0 for every isometric action of Γ on every complete π-visible CAT(0) space X. Here π-visible means that any two visual-boundary points at angular distance π are endpoints of a geodesic line. For every closed connected aspherical3-manifold M, does M admit a Riemannian metric of nonpositive sectional curvature if and only if π₁(M) contains no nonidentity type-N element? Equivalently, does every non-NPC graph manifold contain an essential closed curve whose group element is of type N?",
+      "citation": "Question 4.0.15, printed/physical 69",
+      "locator": {
+        "printed_page": 69,
+        "pdf_page": 69,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "Uses all complete π-visible CAT(0) actions, with angular boundary metric and no properness assumption. Essential means non-null-homotopic. No orientability restriction is silently introduced. The equivalent graph-manifold reduction is the source statement.",
+      "literature_finding": "The published VU-curve theorem supplies virtually unipotent elements for one-JSJ-torus manifolds; it does not prove universal neutrality. The CAT(0) action/compact embedding equivalence has different quantifiers and does not provide a type-N element. No exact type-N closure located.",
+      "status_grade": "B: exact thesis question, latest primary results checked with stated scope; no located closure is not a certificate of openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/VirtuallyUnipotentCurves.pdf",
+        "https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "f02cec891da8d28e9604",
+      "statement_ids": [
+        "f02cec891da8d28e9604"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4846,
+      "source_locator": {
+        "label": "Question 4.0.15",
+        "printed_page": 69,
+        "held_pdf_page": 69,
+        "original_extraction_page": 105
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Virtually unipotent elements that fail universal CAT(0) neutrality",
+      "text": "An element g is virtually unipotent (VU) in Γ if for every field F and every finite-dimensional representation ρ:Γ→GL_m(F), some positive power of ρ(g) is unipotent; the power may depend on ρ. An element g of Γ is of type N if inf_{x∈X}d_X(x,gx)=0 for every isometric action of Γ on every complete π-visible CAT(0) space X. Here π-visible means that any two visual-boundary points at angular distance π are endpoints of a geodesic line. Does there exist a finitely generated linear group Γ containing a VU element that is not of type N? Here linear means admitting a faithful finite-dimensional representation over some field.",
+      "citation": "Question 4.0.19, printed/physical 71",
+      "locator": {
+        "printed_page": 71,
+        "pdf_page": 71,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "subject": "Geometric Group Theory & Geometry",
+      "scope_review": "Burger–Mozes non-linear examples nearby do not meet the linearity hypothesis. Any witness must have infinite order, since finite-order elements are type N; no added field restriction.",
+      "literature_finding": "The VU and CAT(0) primary papers establish implications and examples under different hypotheses. Current author works include2026 reflection/amalgam results but no exact linear VU-versus-type-N separation located.",
+      "status_grade": "B: exact thesis question, latest primary results checked with stated scope; no located closure is not a certificate of openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog source/author and geometric family retrieval found Q1320 (Stein toroidal compactifications) and Q4693 (Jacobson–Morozov homotopy); neither asks this target. Other recommendations from this source are related implications/special cases, not equivalent statements. No exact source sibling requiring a second entry found.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/VirtuallyUnipotentCurves.pdf",
+        "https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf",
+        "https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf",
+        "https://www.math.uni-bonn.de/people/douba/"
+      ],
+      "statement_id": "42d1b768190fc6e03db7",
+      "statement_ids": [
+        "42d1b768190fc6e03db7"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ],
+      "number": 4847,
+      "source_locator": {
+        "label": "Question 4.0.19",
+        "printed_page": 71,
+        "held_pdf_page": 71,
+        "original_extraction_page": 107
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "citation": "Question4.0.14",
+      "locator": {
+        "printed_page": 69,
+        "pdf_page": 69,
+        "verified_from": "Actual held PDF physical page and printed footer; extractor page97 corresponds to physical61."
+      },
+      "reason": "The exact selected VU elements depend on the two JSJ gluing cases and chosen torus coordinates in the proof of Theorem3.0.7. That proof was read, but no portable standalone description of each selected element is included here. Replacing this target by existence of any type-N curve would silently collapse it into Question4.0.15. Preserve unnumbered pending an attached exact case-by-case model.",
+      "primary_urls": [
+        "https://www.math.uni-bonn.de/people/douba/VirtuallyUnipotentCurves.pdf"
+      ],
+      "statement_id": "bd28f2a32fd4c8235b82",
+      "statement_ids": [
+        "bd28f2a32fd4c8235b82"
+      ],
+      "source_pdf_sha256": "b39fc80cb84c70d71f5fedae3621edcdead7b5256324b34588aac22e7369b254",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Sami Douba\" papers2026",
+        "\"Douba\" \"unipotents\" \"d > 1\"",
+        "\"virtually compact special\" \"undistorted\" \"GL\"",
+        "\"graph manifold\" \"type-N\"",
+        "\"virtually compact special\" \"undistorted\"2026",
+        "\"Douba\" \"unipotent-free\" \"rational\"",
+        "\"unipotent\" \"Coxeter\" \"quasi-isometric\"2025 2026",
+        "\"type N\" \"VU\" \"Douba\"",
+        "\"Coxeter\" \"unipotents\" Douba Weisman2026",
+        "\"undistorted\" \"GLn\" \"special\" Tsouvalas",
+        "\"VU\" \"type-N\" group -photovoltaïque",
+        "\"unipotent-free\" \"Q-linear\"",
+        "\"graph manifolds\" \"type-N\" Douba",
+        "\"virtually compact special\" \"undistorted subgroup\" -site:researchgate.net",
+        "\"SO5\" \"linear over\" Douba",
+        "\"unipotents\" \"Tits\" \"right-angled\" -site:researchgate.net",
+        "\"Coxeter\" \"orbit map\" \"quasi-isometric\" \"2026\"",
+        "\"rank-one lattices\" \"compact Lie group\" Douba",
+        "\"unipotent-free\" \"Q\" Douba Tsouvalas",
+        "\"Douba\" \"Q-linearity\"2026",
+        "\"VU element\" linear group",
+        "\"type-N\" CAT(0) group Douba",
+        "\"right-angled Coxeter\" \"unipotent\" \"each\""
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Douba",
+      "unipotent",
+      "undistorted.*GL",
+      "type.N.*curve",
+      "graph.manifold.*NPC",
+      "compact Lie group"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

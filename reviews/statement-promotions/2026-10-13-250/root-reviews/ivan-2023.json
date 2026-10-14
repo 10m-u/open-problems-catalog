@@ -1,0 +1,606 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:deca568331e6ed6fe598",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Held physical1,34–36,44,51–55,69–70,91–93,97–98,111,117 read. Source definitions restore first-occurrence positions, nonempty words over arbitrary alphabets and finite induced local constructions.",
+    "Three distinct pursuit targets preserve capture/finite-visit/one-time-evacuation distinctions. Classification is the explicit labelled source task, not a false constructibility equivalence."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Maria Ivan diamond saturation exact number 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ivan Leader weak cop wins locally constructible 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ivan infinite words bounded gaps monochromatic concatenations"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ivan Ramsey initial segment coefficients one two endpoints"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "union closed translates three elements torus Ivan 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/abs/2604.06521",
+      "sections_read": "April7,2026 primary abstract states exact induced diamond saturation n+1, refuting the old Θ(√n) conjecture."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2010.09081",
+      "sections_read": "Definitions, Theorem1 and final Questions5–6 retain the initial-segment coefficients question and bounded first-occurrence-gap question. Proved no-gap factorization target is not counted."
+    },
+    {
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+      "sections_read": "Published constructible-graphs paper, graph rules/weak-win/local-constructibility definitions and concluding questions corresponding to thesis4.19–4.21."
+    },
+    {
+      "url": "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf",
+      "sections_read": "Primary Question3 retains two-dimensional translates-of-three-set target; one-dimensional theorem and R={0,1,2} special case explicitly distinguished."
+    },
+    {
+      "url": "https://arxiv.org/abs/2010.08795",
+      "sections_read": "Primary abstract proves cyclic translates of one fixed set. The two distinct horizontal/vertical orbit families on the torus are not that single-orbit theorem."
+    },
+    {
+      "url": "https://www.maths.cam.ac.uk/person/mri25/1000",
+      "sections_read": "Author publication list checked through2026 for current exact saturation and subsequent topic-specific work."
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.3233/COM-240016",
+      "sections_read": "2024/2025 primary abstract: computable multiple-cop strategies; no general graph-structural weak-cop classification or bounded repeated-return result stated."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02295",
+      "sections_read": "October1,2026 primary abstract improves universal abundance to0.3828852549667978, still below the half threshold. It does not settle the torus family."
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20876",
+      "sections_read": "September2026 formalization of the existing single cyclic-translate result; that theorem does not assert the union of horizontal and vertical translate orbits."
+    }
+  ],
+  "source_metadata": {
+    "author": "Maria-Romina Ivan",
+    "title": "Poset saturation and other combinatorial results",
+    "year": "2023",
+    "institution": "University of Cambridge"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/k7c207ca956b0.pdf",
+    "sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+    "physical_pages": 122
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "966b1eeddd8cf2e7433ed8c0f7c8dae2c826ebbf5078a0f734d7f0db5545c3c9",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Monochromatic initial sums with fixed endpoint coefficients",
+      "text": "For every finite colouring c:N_{>0}→{1,…,q}, does there exist a sequence (y_i)_(i≥1) of positive integers such that all sums Σ_(i=1)^k a_i y_i, for every k≥1 and all a_i∈{1,2} with a_1=a_k=1, have one common colour? Every sum uses the complete initial segment y_1,…,y_k; no zero coefficients or gaps are allowed.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 3.5, printed p. 57 / held PDF p. 69; definitions in the same chapter.",
+      "locator": {
+        "pdf_page": 69,
+        "printed_page": 57,
+        "label": "Question 3.5"
+      },
+      "source_label": "Question 3.5",
+      "scope_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness. No extra distinctness or increasing-order requirement on y_i is imposed. Both endpoint coefficients are1; allowing either to vary or allowing gaps yields other, known negative targets.",
+      "literature_finding": "The primary word/Ramsey paper retains Question5 with these precise endpoint/no-gap restrictions. Related Hindman–Leader–Strauss and Milliken–Taylor statements have different coefficient/index patterns. No exact answer was located in the dated scan.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2010.09081"
+      ],
+      "status_grade": "explicit-source-question-current-primary-scan",
+      "duplicate_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness.",
+      "statement_id": "479c2095b40aae59ed4d",
+      "statement_ids": [
+        "479c2095b40aae59ed4d"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ],
+      "number": 5020,
+      "source_locator": {
+        "label": "Question 3.5",
+        "printed_page": 57,
+        "held_pdf_page": 69,
+        "original_extraction_page": 69
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Preventing monochromatic word concatenations across bounded gaps",
+      "text": "Let X be any nonempty alphabet, finite or infinite, and let x=x_1x_2⋯ be an infinite word that is not eventually periodic. Let X* here denote its nonempty finite words. For a factor u of x, let A_x(u) be the first position where u occurs and B_x(u)=A_x(u)+|u|, the position just after that occurrence. Must there exist a finite colouring of X* for which no infinite sequence of factors (u_i) and finite integer C≥0 satisfy 0≤A_x(u_(i+1))−B_x(u_i)≤C for every i, while all concatenations u_(k_1)⋯u_(k_j), j≥1 and k_1<⋯<k_j, have one common colour?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 3.6, printed p. 58 / held PDF p. 70; definitions in the same chapter.",
+      "locator": {
+        "pdf_page": 70,
+        "printed_page": 58,
+        "label": "Question 3.6"
+      },
+      "source_label": "Question 3.6",
+      "scope_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness. The positions are first occurrences, not chosen occurrences. The colouring must defeat every finite C and every allowed sequence. Exact no-gap factorization is already proved; bounded gaps is the separate source target.",
+      "literature_finding": "The primary paper retains Question6. Its eventual-periodicity characterization settles C=0; shift-orbit-closure and sequential-colouring results do not settle bounded first-occurrence gaps. No full answer was located.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2010.09081"
+      ],
+      "status_grade": "explicit-source-question-current-primary-scan",
+      "duplicate_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness.",
+      "statement_id": "e68a67267e8947f83256",
+      "statement_ids": [
+        "e68a67267e8947f83256"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ],
+      "number": 5021,
+      "source_locator": {
+        "label": "Question 3.6",
+        "printed_page": 58,
+        "held_pdf_page": 70,
+        "original_extraction_page": 70
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A structural characterization of weak cop-win graphs",
+      "text": "On a connected undirected loopless graph, the cop chooses a starting vertex, then the robber chooses one. They alternate moves, cop first, each moving to an adjacent vertex or staying put; capture occurs when they meet. Call the graph weak cop-win if the cop has a strategy guaranteeing capture or that the robber visits every vertex only finitely often. Characterize the graphs with this weak cop-win property in terms of their graph structure, allowing infinite graphs without a local-finiteness restriction.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 4.19, printed p. 99 / held PDF p. 111; definitions in the same chapter.",
+      "locator": {
+        "pdf_page": 111,
+        "printed_page": 99,
+        "label": "Question 4.19"
+      },
+      "source_label": "Question 4.19",
+      "scope_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness. The source distinguishes capture, weak wins, and one-time evacuation of a finite set. Constructibility implies weak win, but its converse and local-constructibility sufficiency have source counterexamples; those disproved targets are not promoted.",
+      "literature_finding": "The source and published constructible-graphs paper retain the classification after their counterexamples. Later computability work studies strategies and multiple cops, rather than a full structural characterization. No general classification was located.",
+      "primary_urls": [
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016"
+      ],
+      "status_grade": "explicit-source-question-current-primary-scan",
+      "duplicate_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness.",
+      "statement_ids": [
+        "ba93af83101f4684ecea",
+        "588f162791c999bb1708"
+      ],
+      "statement_id": "ba93af83101f4684ecea",
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ],
+      "number": 5022,
+      "source_locator": {
+        "label": "Question 4.19",
+        "printed_page": 99,
+        "held_pdf_page": 111,
+        "original_extraction_page": 111
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Does finite-set evacuation imply local constructibility?",
+      "text": "On a connected undirected loopless graph, the cop chooses a starting vertex, then the robber chooses one. They alternate moves, cop first, each moving to an adjacent vertex or staying put; capture occurs when they meet. Call the graph weak cop-win if the cop has a strategy guaranteeing capture or that the robber visits every vertex only finitely often. Suppose the cop has one strategy ensuring that, against every robber play and for every finite vertex set V, the robber leaves V at some time or is captured, with later return allowed. Must the graph be locally constructible: for every finite vertex set V, does some finite U⊇V have a constructible induced graph G[U]? A finite graph is constructible if it admits an order v_1,…,v_s such that, for each i>1, some earlier v_j has N[v_i]⊆N[v_j] within the induced graph on v_1,…,v_i, where N[v] is the closed neighbourhood.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 4.20, printed p. 99 / held PDF p. 111; definitions in the same chapter.",
+      "locator": {
+        "pdf_page": 111,
+        "printed_page": 99,
+        "label": "Question 4.20"
+      },
+      "source_label": "Question 4.20",
+      "scope_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness. The known forward implication is stated and proved in physical97–98. This is the explicit unknown converse in the source question, not the stronger weak-win property. No countability or local-finiteness hypothesis is added. One common strategy is explicit. Separate finite-target strategies combine on any connected graph by maintaining the finite set of robber vertices visited so far and walking to each required cop start; every uncaptured stage adds a new visited vertex. No countability assumption or enumeration of all finite sets is needed.",
+      "literature_finding": "The source and published paper ask whether this weaker evacuation property characterizes local constructibility. Their locally constructible non-weak-win counterexample does not answer the converse. No full converse proof or counterexample was located.",
+      "primary_urls": [
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016"
+      ],
+      "status_grade": "explicit-source-question-current-primary-scan",
+      "duplicate_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness.",
+      "statement_id": "53dac5f50922491a447f",
+      "statement_ids": [
+        "53dac5f50922491a447f"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ],
+      "number": 5023,
+      "source_locator": {
+        "label": "Question 4.20",
+        "printed_page": 99,
+        "held_pdf_page": 111,
+        "original_extraction_page": 111
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Arbitrarily delayed repeated returns in a weak cop-win graph",
+      "text": "On a connected undirected loopless graph, the cop chooses a starting vertex, then the robber chooses one. They alternate moves, cop first, each moving to an adjacent vertex or staying put; capture occurs when they meet. Call the graph weak cop-win if the cop has a strategy guaranteeing capture or that the robber visits every vertex only finitely often. Does there exist a weak cop-win graph such that, for every cop starting vertex, the robber can choose a starting vertex v with this property: for every pair of positive integers m,n, the robber has a strategy against every cop play that avoids capture and either stays within some finite vertex set forever or visits v at a time t≥m and again at a time s≥t+n? The robber strategy may depend on m,n.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 4.21, printed p. 99 / held PDF p. 111; definitions in the same chapter.",
+      "locator": {
+        "pdf_page": 111,
+        "printed_page": 99,
+        "label": "Question 4.21"
+      },
+      "source_label": "Question 4.21",
+      "scope_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness. Quantifiers preserved: a single chosen starting v works for every delay pair; the strategy may vary. Two arbitrarily delayed returns are required, not infinitely many returns along one fixed play, which the weak winning strategy precludes.",
+      "literature_finding": "The source and published paper retain this precise recurrence question. Their two-ended weak-win example gives one arbitrarily delayed return, which is a proper weaker result. No exact two-return construction or impossibility result was located.",
+      "primary_urls": [
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016"
+      ],
+      "status_grade": "explicit-source-question-current-primary-scan",
+      "duplicate_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness.",
+      "statement_id": "9496d7b4627ce99fbb38",
+      "statement_ids": [
+        "9496d7b4627ce99fbb38"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ],
+      "number": 5024,
+      "source_locator": {
+        "label": "Question 4.21",
+        "printed_page": 99,
+        "held_pdf_page": 111,
+        "original_extraction_page": 111
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The union-closed conjecture for horizontal and vertical three-tiles",
+      "text": "For every n≥3 and every three-element R⊂Z/nZ, let F be the family of all unions of translates in (Z/nZ)² of R×{0} and {0}×R, including the empty union. Must some point belong to at least half the members of F? Equivalently, since F is invariant under all torus translations, is the average |S| over S∈F at least n²/2?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 5.3, printed p. 105 / held PDF p. 117; definitions in the same chapter.",
+      "locator": {
+        "pdf_page": 117,
+        "printed_page": 105,
+        "label": "Question 5.3"
+      },
+      "source_label": "Question 5.3",
+      "scope_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness. All n and all three-element R, not just prime n or an arithmetic progression. The family combines horizontal and vertical translates; the proven single-orbit cyclic-translates result does not answer it.",
+      "literature_finding": "Primary Question3 retains the torus target, alongside the R={0,1,2} case and one-dimensional theorem. October2026 improves universal abundance to0.3828852549667978, below1/2; September2026 formalizes the single cyclic-translate theorem. Neither settles both translate orbits for arbitrary R in the torus family.",
+      "primary_urls": [
+        "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf",
+        "https://arxiv.org/abs/2010.08795",
+        "https://arxiv.org/abs/2610.02295",
+        "https://arxiv.org/abs/2609.20876"
+      ],
+      "status_grade": "explicit-source-question-current-primary-scan",
+      "duplicate_review": "Actual held thesis questions and definitions read; full live numbered catalog family and source-author/title/URL alias comparisons found no equivalent. Current literature assessment is a bounded dated primary scan, not a universal guarantee of openness.",
+      "statement_ids": [
+        "9268baddfac6aa2367d1",
+        "2e0ff02a6fab768ebae9"
+      ],
+      "statement_id": "9268baddfac6aa2367d1",
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ],
+      "number": 5025,
+      "source_locator": {
+        "label": "Question 5.3",
+        "printed_page": 105,
+        "held_pdf_page": 117,
+        "original_extraction_page": 117
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "solved-literature",
+      "reason": "The broad diamond-saturation target is answered by April2026 exact n+1 theorem; retain the old source passage as a historical archive entry.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06521"
+      ],
+      "statement_id": "02af2e6dcf9e6a710846",
+      "statement_ids": [
+        "02af2e6dcf9e6a710846"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "April2026 exact induced diamond saturation n+1 contradicts Θ(√n) and its proposed bounded-length √n-chain construction.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06521"
+      ],
+      "statement_id": "0b5ccaa933565682462a",
+      "statement_ids": [
+        "0b5ccaa933565682462a"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Own Proposition2.6 answers only under an additional hypothesis. Exact minimum saturation n+1 does not classify all saturated families; do not infer a closure of the minimal/maximal incidence question.",
+      "statement_id": "9430b689f0cb33316c1f",
+      "statement_ids": [
+        "9430b689f0cb33316c1f"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06521",
+        "https://arxiv.org/pdf/2010.09081",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf",
+        "https://arxiv.org/abs/2010.08795",
+        "https://www.maths.cam.ac.uk/person/mri25/1000",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016",
+        "https://arxiv.org/abs/2610.02295",
+        "https://arxiv.org/abs/2609.20876"
+      ],
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Held physical44 explicitly reports all three antichain saturation conjectures proved by Bastide–Groenland–Jacob–Johnston; these historical statements are not open targets.",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/f145b6b3-ef5a-412e-b9c9-f8723aa14b33/download"
+      ],
+      "statement_id": "91909d5576f157a3bd48",
+      "statement_ids": [
+        "91909d5576f157a3bd48"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Held physical44 explicitly reports all three antichain saturation conjectures proved by Bastide–Groenland–Jacob–Johnston; these historical statements are not open targets.",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/f145b6b3-ef5a-412e-b9c9-f8723aa14b33/download"
+      ],
+      "statement_id": "43ceb0f60506def34f9a",
+      "statement_ids": [
+        "43ceb0f60506def34f9a"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Held physical44 explicitly reports all three antichain saturation conjectures proved by Bastide–Groenland–Jacob–Johnston; these historical statements are not open targets.",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/f145b6b3-ef5a-412e-b9c9-f8723aa14b33/download"
+      ],
+      "statement_id": "95e8a77bd0ad94088f2b",
+      "statement_ids": [
+        "95e8a77bd0ad94088f2b"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        5022
+      ],
+      "reason": "Repeated introduction to the same reviewed labelled source target; merged stable IDs, not a second question.",
+      "statement_id": "588f162791c999bb1708",
+      "statement_ids": [
+        "588f162791c999bb1708"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06521",
+        "https://arxiv.org/pdf/2010.09081",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf",
+        "https://arxiv.org/abs/2010.08795",
+        "https://www.maths.cam.ac.uk/person/mri25/1000",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016",
+        "https://arxiv.org/abs/2610.02295",
+        "https://arxiv.org/abs/2609.20876"
+      ],
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        5025
+      ],
+      "reason": "Repeated introduction to the same reviewed labelled source target; merged stable IDs, not a second question.",
+      "statement_id": "2e0ff02a6fab768ebae9",
+      "statement_ids": [
+        "2e0ff02a6fab768ebae9"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06521",
+        "https://arxiv.org/pdf/2010.09081",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf",
+        "https://arxiv.org/abs/2010.08795",
+        "https://www.maths.cam.ac.uk/person/mri25/1000",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016",
+        "https://arxiv.org/abs/2610.02295",
+        "https://arxiv.org/abs/2609.20876"
+      ],
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section heading and narration introducing colourings of pairs, with no independent target.",
+      "statement_id": "9ba347f874e7f510383d",
+      "statement_ids": [
+        "9ba347f874e7f510383d"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06521",
+        "https://arxiv.org/pdf/2010.09081",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf",
+        "https://arxiv.org/abs/2010.08795",
+        "https://www.maths.cam.ac.uk/person/mri25/1000",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016",
+        "https://arxiv.org/abs/2610.02295",
+        "https://arxiv.org/abs/2609.20876"
+      ],
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Broad sums-and-products prose combines rational/real settings and implicit injectivity/growth conventions. It requires an exact-scope and current-closure review; no new number assigned.",
+      "statement_id": "710f449e5e21569eec2f",
+      "statement_ids": [
+        "710f449e5e21569eec2f"
+      ],
+      "source_pdf_sha256": "d37741798c2e8589a57180916d141182ed1449446a426c7ad8e6b12932d62d43",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.06521",
+        "https://arxiv.org/pdf/2010.09081",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b221050e-872e-406e-b38e-b0c03a634b2f/content",
+        "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf",
+        "https://arxiv.org/abs/2010.08795",
+        "https://www.maths.cam.ac.uk/person/mri25/1000",
+        "https://journals.sagepub.com/doi/10.3233/COM-240016",
+        "https://arxiv.org/abs/2610.02295",
+        "https://arxiv.org/abs/2609.20876"
+      ],
+      "search_topics": [
+        "Maria Ivan diamond saturation exact number 2026",
+        "Ivan Leader weak cop wins locally constructible 2026",
+        "Ivan infinite words bounded gaps monochromatic concatenations",
+        "Ivan Ramsey initial segment coefficients one two endpoints",
+        "union closed translates three elements torus Ivan 2026"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5035,
+    "catalog_sha256": "67665f8f0f68e4ae0f75dd53b844770754d8c4fa3ae59ee11d5a62e85fbe67e6",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

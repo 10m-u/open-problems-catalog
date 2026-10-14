@@ -1,0 +1,488 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:ea8259aa52bb89535f02",
+  "source_metadata": {
+    "author": "Katarzyna Jankiewicz",
+    "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+    "year": "2018",
+    "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+    "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+    "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+  },
+  "source_review_notes": [
+    "Actual held cover, definitions and physical page locations verified; three recommendations require independent coordinator scope/status/dedup clearance; the virtual-dimension item is held after an independent finite-relator scope audit. CAT(0) automaticity is separated from its closed biautomatic clause because the source explicitly names both predicates. The Artin classification and braid special case remain one question. The C′(1/6) finite-relator convention, C(6), graph-manifold and hyperbolic CAT(0) records retain explicit source/status gates. No new source round follows this packet, per user steering."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Coxeter groups virtually cocompactly cubulated compact special 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Jankiewicz uniform virtual cubical dimension C prime one sixth groups"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Artin groups proper finite dimensional CAT(0) cube complex classification 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "braid groups proper cubulation versus cocompact cubulation"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "C(6) Munro Petyt cocompact cubulation 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "hyperbolic group without geometric CAT(0) action September 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+      "finding": "Actual cover verifies April 2018 McGill PhD, Katarzyna Jankiewicz, Cubical dimension and obstructions to actions on CAT(0) cube complexes. Definitions and statements were read at actual physical pages; automatic extraction pages 67/89 for later candidates do not match actual 64/86."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1907.03515",
+      "finding": "Leary–Minasyan (2021 final version), main theorem and closing Section 12: CAT(0) groups need not be biautomatic. The primary explicitly leaves automaticity of the counterexample family open. This closes the biautomatic clause of the old source sentence, not its separate automaticity clause."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+      "finding": "Shepherd–Valiunas 2025 characterizes CAT(0) and biautomatic higher-rank GBS groups. The biautomatic predicate is stricter than automaticity; this is not a closure of every CAT(0) group being automatic."
+    },
+    {
+      "url": "https://arxiv.org/html/2608.28348v1",
+      "finding": "Fioravanti, August 2026, introduction following Corollary C explicitly retains the question whether virtually special Coxeter groups can have compact special cube complexes. This supplies a current primary status lead for virtual cocompact cubulation rather than assuming virtual special means compact special."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1901.00930",
+      "finding": "Jankiewicz primary proves arbitrarily large ordinary cubical dimension for finitely presented C′(1/6) groups. The proof obstructs an action of the full group; it does not assert the same obstruction for every finite-index subgroup. Thus the source virtual-dimension bound is a genuinely different remaining target."
+    },
+    {
+      "url": "https://ems.press/content/serial-article-files/30097?nt=1",
+      "finding": "Haettel (2022), Theorem A, constructs proper finite-dimensional cubulations for tree defining graphs, bipartite graphs with all labels≥3, and triangle-free graphs without label 3. Corollary B gives groups properly cubulated but not virtually cocompactly cubulated. These are proper subfamilies of the requested complete Artin classification."
+    },
+    {
+      "url": "https://arxiv.org/abs/1509.08711",
+      "finding": "Haettel cocompact cubulation results and braid obstructions concern proper AND cocompact actions. They cannot automatically close the proper-action question. In particular nonvirtual cocompact cubulation of B_n, n≥4, is not a nonproper-cubulation theorem."
+    },
+    {
+      "url": "https://arxiv.org/html/2505.21029v1",
+      "finding": "Munro–Wise (2025), introduction, states that Munro–Petyt provide a C(6) group not cocompactly cubulated and retains hyperbolic C(6) cocompact cubulation. Strict C(6) geometric-wall core results do not give genuine wallspaces or all-C(6) proper cubulation. The held two-clause C(6) question is not promoted without a separate full remainder assessment."
+    },
+    {
+      "url": "https://arxiv.org/html/2407.09275v2",
+      "finding": "Munro–Petyt current primary provides coarse obstructions to cocompact cubulation, distinct from obstructions to arbitrary proper actions. The exact C(6) closure is corroborated explicitly in Munro–Wise introduction."
+    },
+    {
+      "url": "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf",
+      "finding": "September 2026 primary closure lead for the broad hyperbolic CAT(0) question. The raw primary PDF could not be parsed through the browser in this bounded review, so no theorem/proof verification is claimed and the candidate is held, not marked still open."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/kb0596ec544db.pdf",
+    "sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+    "physical_pages": 93
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "639c6bca5cb8ad0366d794dfe50d7776b21ade66246847714677ade827e16672",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Automaticity of CAT(0) groups",
+      "text": "An isometric action of a discrete group G on a metric space X is proper here if, for one (equivalently every) x∈X and each R<∞, the set {g∈G:d(x,gx)≤R} is finite. It is cocompact if some compact K⊂X satisfies GK=X. A CAT(0) group admits a proper cocompact isometric action on a CAT(0) geodesic metric space, meaning geodesic triangles are no thicker than their Euclidean comparison triangles. Does there exist a CAT(0) group that is not automatic? Automatic means that for some finite symmetric generating set S there is a regular language L⊂S* giving one representative for every group element, and a constant K, such that whenever u,v∈L represent g and gs with s∈S, their paths from the identity in the Cayley graph stay at distance at most K at every equal integer time, with a finished path held at its endpoint.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 17,
+        "printed_page": "16",
+        "label": "Unlabelled automaticity clause in Section 1.11.2"
+      },
+      "scope_review": "Actual physical 16–17 defines CAT(0) group and automatic regular combing. This promotes only the explicit nonautomatic clause of the source sentence. The nonbiautomatic clause is now solved by Leary–Minasyan and is not counted again. A regular language with unique representatives is consistent with the source section/combing convention and equivalent to the standard finite-to-one automatic structure after refinement.",
+      "literature_finding": "Leary–Minasyan construct nonbiautomatic CAT(0) groups but Section 12 leaves their automaticity open. Current 2025 higher-rank GBS work characterizes biautomaticity, not automaticity. No complete nonautomatic CAT(0) example or theorem that all are automatic was verified in the dated bounded primary scan.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Live full word/character neighbors, whole-corpus source siblings and source-author/title/URL manifest aliases are supplied and compared manually. No score threshold certifies uniqueness. Q3410 asks whether certain unbranched groups are CAT(0), not whether a CAT(0) group is automatic. Q2328 concerns extension of geometric actions from finite-index subgroups and Q4346 closure of the CAT(0) property under finitely generated subgroups. Q4846/Q4847 concern type-N elements. None concerns regular automatic combings.",
+      "statement_id": "1243449d4d24d9fe024a",
+      "statement_ids": [
+        "1243449d4d24d9fe024a"
+      ],
+      "source_pdf_sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+        "https://arxiv.org/pdf/1907.03515",
+        "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+        "https://arxiv.org/html/2608.28348v1",
+        "https://arxiv.org/pdf/1901.00930",
+        "https://ems.press/content/serial-article-files/30097?nt=1",
+        "https://arxiv.org/abs/1509.08711",
+        "https://arxiv.org/html/2505.21029v1",
+        "https://arxiv.org/html/2407.09275v2",
+        "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan",
+        "Coxeter groups virtually cocompactly cubulated compact special 2026",
+        "Jankiewicz uniform virtual cubical dimension C prime one sixth groups",
+        "Artin groups proper finite dimensional CAT(0) cube complex classification 2026",
+        "braid groups proper cubulation versus cocompact cubulation",
+        "C(6) Munro Petyt cocompact cubulation 2025",
+        "hyperbolic group without geometric CAT(0) action September 2026"
+      ],
+      "source_metadata": {
+        "author": "Katarzyna Jankiewicz",
+        "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+        "year": "2018",
+        "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+        "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+        "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+      },
+      "citation": "Unlabelled automaticity clause in Section 1.11.2, printed p. 16; physical PDF p. 17.",
+      "number": 5046,
+      "source_locator": {
+        "label": null,
+        "printed_page": "16",
+        "held_pdf_page": 17,
+        "original_extraction_page": 17
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Virtual cocompact cubulation of Coxeter groups",
+      "text": "A CAT(0) cube complex is a simply connected complex of Euclidean unit cubes glued along faces, with flag vertex links and the induced Euclidean path metric. An isometric action of a discrete group G on a metric space X is proper here if, for one (equivalently every) x∈X and each R<∞, the set {g∈G:d(x,gx)≤R} is finite. It is cocompact if some compact K⊂X satisfies GK=X. For every finite set S and symmetric matrix (m_st) with m_ss=1 and m_st∈{2,3,…,∞} for s≠t, let W=⟨S | s²=1 for s∈S, (st)^(m_st)=1 whenever s≠t and m_st<∞⟩. Does W have a finite-index subgroup H admitting a proper cocompact action by cubical automorphisms on a finite-dimensional CAT(0) cube complex?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 64,
+        "printed_page": "63",
+        "label": "Unlabelled Coxeter virtual-cubulation question"
+      },
+      "scope_review": "Actual physical 20–21 gives the finite-generator Coxeter presentation, known proper finite-dimensional Niblo–Reeves cubulation, and the distinction between virtual special and cocompact. Actual 64 asks virtual cocompact cubulation. The Chapter 6 finite-dimensional convention and its explicit action-by-cubical-automorphisms convention on physical 62 are retained. This does not demand a cocompact cubulation of W itself: the affine triangle example on physical 63 distinguishes that stronger property.",
+      "literature_finding": "Fioravanti arXiv:2608.28348v1, August 2026, explicitly retains compact special realization for virtually special Coxeter groups. Existing proper cubulation, virtual specialness and cocompact results for right-angled/hyperbolic subfamilies do not establish the full virtual cocompact target.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Live full word/character neighbors, whole-corpus source siblings and source-author/title/URL manifest aliases are supplied and compared manually. No score threshold certifies uniqueness. Q2328 starts with virtual geometric cubulation of an arbitrary group and asks for a geometric CAT(0) action; this starts with a Coxeter presentation and asks existence of the virtual geometric cubulation itself. Q2931 concerns mock reflection groups with a MEDIAN Cayley graph, a different defining class already cubulated cocompactly; not every Coxeter Cayley graph is median. Q4842 concerns undistorted linear representations after virtual compact specialness is given.",
+      "statement_id": "e33e4a7722f844cf7166",
+      "statement_ids": [
+        "e33e4a7722f844cf7166"
+      ],
+      "source_pdf_sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+        "https://arxiv.org/pdf/1907.03515",
+        "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+        "https://arxiv.org/html/2608.28348v1",
+        "https://arxiv.org/pdf/1901.00930",
+        "https://ems.press/content/serial-article-files/30097?nt=1",
+        "https://arxiv.org/abs/1509.08711",
+        "https://arxiv.org/html/2505.21029v1",
+        "https://arxiv.org/html/2407.09275v2",
+        "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan",
+        "Coxeter groups virtually cocompactly cubulated compact special 2026",
+        "Jankiewicz uniform virtual cubical dimension C prime one sixth groups",
+        "Artin groups proper finite dimensional CAT(0) cube complex classification 2026",
+        "braid groups proper cubulation versus cocompact cubulation",
+        "C(6) Munro Petyt cocompact cubulation 2025",
+        "hyperbolic group without geometric CAT(0) action September 2026"
+      ],
+      "source_metadata": {
+        "author": "Katarzyna Jankiewicz",
+        "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+        "year": "2018",
+        "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+        "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+        "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+      },
+      "citation": "Unlabelled Coxeter virtual-cubulation question, printed p. 63; physical PDF p. 64.",
+      "number": 5047,
+      "source_locator": {
+        "label": null,
+        "printed_page": "63",
+        "held_pdf_page": 64,
+        "original_extraction_page": 67
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Classification of properly cubulated Artin groups",
+      "text": "A CAT(0) cube complex is a simply connected complex of Euclidean unit cubes glued along faces, with flag vertex links and the induced Euclidean path metric. An isometric action of a discrete group G on a metric space X is proper here if, for one (equivalently every) x∈X and each R<∞, the set {g∈G:d(x,gx)≤R} is finite. It is cocompact if some compact K⊂X satisfies GK=X. For a finite simple graph Γ with edges labelled by integers m_st≥2, define A_Γ=⟨VΓ | alternating(s,t,m_st)=alternating(t,s,m_st) for each edge {s,t}⟩, where alternating(s,t,m) is the length-m word starting with s and alternating s,t. Classify the labelled graphs Γ for which A_Γ admits a proper action by cubical automorphisms on a finite-dimensional CAT(0) cube complex. In particular, determine this for every braid group B_n, n≥2, with generators σ_1,…,σ_(n−1), relations σ_iσ_(i+1)σ_i=σ_(i+1)σ_iσ_(i+1) and σ_iσ_j=σ_jσ_i for |i−j|≥2.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 86,
+        "printed_page": "85",
+        "label": "Question 6.6.6"
+      },
+      "scope_review": "Actual physical 62–64 defines finite Artin presentations and distinguishes proper cubulation from proper cocompact cubulation; physical 62 specifies cubical automorphisms and physical 67 makes every Chapter 6 CAT(0) cube complex finite-dimensional. The braid graph description supplies nonconsecutive commutations explicitly (rather than accidentally using a large-type path presentation). The source asks one classification question with an explicit braid special case; these are counted once. No local-finiteness or cocompactness assumption is added to the requested proper action.",
+      "literature_finding": "Haettel (2022) proves proper finite-dimensional cubulation for specific tree/bipartite/triangle-free defining families and gives groups that cannot be virtually cocompactly cubulated despite proper cubulation. Haettel cocompact classifications and B_n cocompact obstructions do not solve this proper-action classification. No full classification or all-braid proper-cubulation result was verified in the dated bounded primary scan.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Live full word/character neighbors, whole-corpus source siblings and source-author/title/URL manifest aliases are supplied and compared manually. No score threshold certifies uniqueness. Q4933 and Q4934 quantify the same Artin defining data but ask finite asymptotic dimension or the clique-number bound. Proper finite-dimensional cubulation implies finite asymptotic dimension, but these converse-free statements do not classify which Artin groups admit the action and are not equivalent full targets. Q2328 is geometric-action extension and Q4842 undistorted linear embedding of given virtually compact special groups.",
+      "statement_id": "7d147fb34f4a15a3c450",
+      "statement_ids": [
+        "7d147fb34f4a15a3c450"
+      ],
+      "source_pdf_sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+        "https://arxiv.org/pdf/1907.03515",
+        "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+        "https://arxiv.org/html/2608.28348v1",
+        "https://arxiv.org/pdf/1901.00930",
+        "https://ems.press/content/serial-article-files/30097?nt=1",
+        "https://arxiv.org/abs/1509.08711",
+        "https://arxiv.org/html/2505.21029v1",
+        "https://arxiv.org/html/2407.09275v2",
+        "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan",
+        "Coxeter groups virtually cocompactly cubulated compact special 2026",
+        "Jankiewicz uniform virtual cubical dimension C prime one sixth groups",
+        "Artin groups proper finite dimensional CAT(0) cube complex classification 2026",
+        "braid groups proper cubulation versus cocompact cubulation",
+        "C(6) Munro Petyt cocompact cubulation 2025",
+        "hyperbolic group without geometric CAT(0) action September 2026"
+      ],
+      "source_metadata": {
+        "author": "Katarzyna Jankiewicz",
+        "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+        "year": "2018",
+        "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+        "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+        "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+      },
+      "citation": "Question 6.6.6, printed p. 85; physical PDF p. 86.",
+      "number": 5048,
+      "source_locator": {
+        "label": "Question 6.6.6",
+        "printed_page": "85",
+        "held_pdf_page": 86,
+        "original_extraction_page": 89
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "title": "Uniform virtual cubical dimension of C′(1/6) groups",
+      "text": "A CAT(0) cube complex is a simply connected complex of Euclidean unit cubes glued along faces, with flag vertex links and the induced Euclidean path metric. An isometric action of a discrete group G on a metric space X is proper here if, for one (equivalently every) x∈X and each R<∞, the set {g∈G:d(x,gx)≤R} is finite. It is cocompact if some compact K⊂X satisfies GK=X. A classical C′(1/6) presentation has finitely many generators and cyclically reduced relators, symmetrized by cyclic conjugation and inversion, such that any common initial word w of two distinct symmetrized relators has |w|<|r|/6 for each relator r containing it. Let G range over groups admitting such a presentation. Its virtual cubical dimension is inf{dim X : some finite-index subgroup H≤G acts properly by isometries on the finite-dimensional CAT(0) cube complex X}, with inf ∅=∞. Is there one finite integer D such that every such G has virtual cubical dimension at most D?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 86,
+        "printed_page": "85",
+        "label": "Question 6.6.5"
+      },
+      "scope_review": "Actual physical 18 defines virtual dimension by existence of a proper action of a finite-index subgroup; cocompactness is not required. Actual 21–22 supplies classical presentation/piece terminology, and physical 34 distinguishes the full-group dimension lower bound. Source terminology is the usual classical C′ condition; symmetrization explicitly includes inversion so orientation choices do not change the class. The source defines S finite and R a set; no finite-relator condition is silently inserted into this universal question. Coordinator should retain a scope hold if it determines that a finite-presentation standing convention is required instead.",
+      "literature_finding": "The author primary lower-bound theorem concerns ordinary dimension of the full group and is not a proof of unbounded virtual dimension. No universal finite bound or unbounded-virtual-dimension construction was verified in the current bounded primary scan.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Live full word/character neighbors, whole-corpus source siblings and source-author/title/URL manifest aliases are supplied and compared manually. No score threshold certifies uniqueness. Q2328 concerns geometric-action extension, not a uniform dimension of proper actions. Q4852 concerns virtual free-by-cyclic versus special one-relator groups. Q4842 concerns linear embedding dimension/distortion, not cube dimension. Q1528 counts conjugacy classes of finite stabilizer subgroups in Euclidean actions. The Coxeter and Artin recommendations concern different defining classes and have no universal dimension-bound predicate.",
+      "reason": "Finite-relator scope gate, independently confirmed by coordinator. Actual physical 21 defines S finite and R a set, but physical 7, 22 and 34 speak of all C′(1/6) groups being cocompactly cubulated and finite-dimensional, which presumes the finitely presented setting. The final Question 6.6.5 does not explicitly say whether R must be finite. Neither silently allowing infinite R nor silently restricting to finite R is licensed until an explicit standing convention or primary question resolves the ambiguity. The provisional standalone is retained as a draft only; no number is recommended.",
+      "statement_id": "3c42215e756211a57370",
+      "statement_ids": [
+        "3c42215e756211a57370"
+      ],
+      "source_pdf_sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+        "https://arxiv.org/pdf/1907.03515",
+        "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+        "https://arxiv.org/html/2608.28348v1",
+        "https://arxiv.org/pdf/1901.00930",
+        "https://ems.press/content/serial-article-files/30097?nt=1",
+        "https://arxiv.org/abs/1509.08711",
+        "https://arxiv.org/html/2505.21029v1",
+        "https://arxiv.org/html/2407.09275v2",
+        "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan",
+        "Coxeter groups virtually cocompactly cubulated compact special 2026",
+        "Jankiewicz uniform virtual cubical dimension C prime one sixth groups",
+        "Artin groups proper finite dimensional CAT(0) cube complex classification 2026",
+        "braid groups proper cubulation versus cocompact cubulation",
+        "C(6) Munro Petyt cocompact cubulation 2025",
+        "hyperbolic group without geometric CAT(0) action September 2026"
+      ],
+      "source_metadata": {
+        "author": "Katarzyna Jankiewicz",
+        "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+        "year": "2018",
+        "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+        "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+        "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+      },
+      "citation": "Question 6.6.5, printed p. 85; physical PDF p. 86."
+    },
+    {
+      "decision": "hold",
+      "reason": "Status hold: a September 2026 OpenAI primary specifically claims a hyperbolic group with no geometric CAT(0) action. The primary PDF could not be parsed in this review; the scope and proof are not independently verified. Do not number the old universal question as still open or archive it as proved closed from a title alone.",
+      "locator": {
+        "pdf_page": 16,
+        "printed_page": "15",
+        "label": "Source gate"
+      },
+      "statement_id": "b2e17c1055212ff0c4a8",
+      "statement_ids": [
+        "b2e17c1055212ff0c4a8"
+      ],
+      "source_pdf_sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+        "https://arxiv.org/pdf/1907.03515",
+        "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+        "https://arxiv.org/html/2608.28348v1",
+        "https://arxiv.org/pdf/1901.00930",
+        "https://ems.press/content/serial-article-files/30097?nt=1",
+        "https://arxiv.org/abs/1509.08711",
+        "https://arxiv.org/html/2505.21029v1",
+        "https://arxiv.org/html/2407.09275v2",
+        "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan",
+        "Coxeter groups virtually cocompactly cubulated compact special 2026",
+        "Jankiewicz uniform virtual cubical dimension C prime one sixth groups",
+        "Artin groups proper finite dimensional CAT(0) cube complex classification 2026",
+        "braid groups proper cubulation versus cocompact cubulation",
+        "C(6) Munro Petyt cocompact cubulation 2025",
+        "hyperbolic group without geometric CAT(0) action September 2026"
+      ],
+      "source_metadata": {
+        "author": "Katarzyna Jankiewicz",
+        "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+        "year": "2018",
+        "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+        "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+        "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+      },
+      "citation": "Source gate, printed p. 15; physical PDF p. 16."
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status hold: the source compares graph-manifold virtual special cubulation with general cubulation but the full compactness/orientability/irreducibility and proper-action convention must be checked against Liu and later obstruction primaries. No manifold subclass or finite-dimensional restriction is silently supplied.",
+      "locator": {
+        "pdf_page": 64,
+        "printed_page": "63",
+        "label": "Source gate"
+      },
+      "statement_id": "c148d27e0e0ad1225620",
+      "statement_ids": [
+        "c148d27e0e0ad1225620"
+      ],
+      "source_pdf_sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+        "https://arxiv.org/pdf/1907.03515",
+        "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+        "https://arxiv.org/html/2608.28348v1",
+        "https://arxiv.org/pdf/1901.00930",
+        "https://ems.press/content/serial-article-files/30097?nt=1",
+        "https://arxiv.org/abs/1509.08711",
+        "https://arxiv.org/html/2505.21029v1",
+        "https://arxiv.org/html/2407.09275v2",
+        "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan",
+        "Coxeter groups virtually cocompactly cubulated compact special 2026",
+        "Jankiewicz uniform virtual cubical dimension C prime one sixth groups",
+        "Artin groups proper finite dimensional CAT(0) cube complex classification 2026",
+        "braid groups proper cubulation versus cocompact cubulation",
+        "C(6) Munro Petyt cocompact cubulation 2025",
+        "hyperbolic group without geometric CAT(0) action September 2026"
+      ],
+      "source_metadata": {
+        "author": "Katarzyna Jankiewicz",
+        "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+        "year": "2018",
+        "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+        "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+        "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+      },
+      "citation": "Source gate, printed p. 63; physical PDF p. 64."
+    },
+    {
+      "decision": "hold",
+      "reason": "Partial closure and remainder gate: Munro–Petyt refute the cocompact C(6) clause, as explicitly reported in current Munro–Wise introduction. That alone does not answer the weaker proper-action clause. The exact all-C(6) proper finite-dimensional remainder and source piece conventions have not been cleared in this bounded packet. Do not archive the entire two-clause record or promote a repaired hyperbolic/strict subclass.",
+      "locator": {
+        "pdf_page": 86,
+        "printed_page": "85",
+        "label": "Source gate"
+      },
+      "statement_id": "6dfc9b3ddc6ffbb64405",
+      "statement_ids": [
+        "6dfc9b3ddc6ffbb64405"
+      ],
+      "source_pdf_sha256": "708477be11d5e7886d45004f44fa50decb45e12a410d181448c913c46d188212",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content",
+        "https://arxiv.org/pdf/1907.03515",
+        "https://link.springer.com/article/10.1007/s10711-025-01037-y",
+        "https://arxiv.org/html/2608.28348v1",
+        "https://arxiv.org/pdf/1901.00930",
+        "https://ems.press/content/serial-article-files/30097?nt=1",
+        "https://arxiv.org/abs/1509.08711",
+        "https://arxiv.org/html/2505.21029v1",
+        "https://arxiv.org/html/2407.09275v2",
+        "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "CAT(0) group automatic versus biautomatic 2025 2026 Leary Minasyan",
+        "Coxeter groups virtually cocompactly cubulated compact special 2026",
+        "Jankiewicz uniform virtual cubical dimension C prime one sixth groups",
+        "Artin groups proper finite dimensional CAT(0) cube complex classification 2026",
+        "braid groups proper cubulation versus cocompact cubulation",
+        "C(6) Munro Petyt cocompact cubulation 2025",
+        "hyperbolic group without geometric CAT(0) action September 2026"
+      ],
+      "source_metadata": {
+        "author": "Katarzyna Jankiewicz",
+        "title": "Cubical dimension and obstructions to actions on CAT(0) cube complexes",
+        "year": "2018",
+        "thesis_key": "openai-supervised:ea8259aa52bb89535f02",
+        "record": "https://mcgill.scholaris.ca/handle/20.500.14905/136998",
+        "source": "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+      },
+      "citation": "Source gate, printed p. 85; physical PDF p. 86."
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5045,
+    "catalog_sha256": "be8ea7cc32eab2060719e0f3d0f40573fae0455ab390c0774130713a8d42ef3d",
+    "corpus_count": 28701,
+    "corpus_sha256": "c2745d2a9e01ac78ec90f1d239181d9df68e2a4291f0f73a53af8d26aa17960d",
+    "additional_regex_queries": [
+      "CAT",
+      "cubical dimension",
+      "cubulat",
+      "Coxeter",
+      "Artin",
+      "braid",
+      "small.cancellation",
+      "Jankiewicz",
+      "automatic"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

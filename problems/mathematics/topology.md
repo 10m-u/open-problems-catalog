@@ -1,6 +1,6 @@
 # Topology
 
-323 problems: 321 open, 2 open, partial results.
+338 problems: 336 open, 2 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -331,3 +331,18 @@ Parts: [1](topology-part-1.md) · [2](topology-part-2.md)
 | <a id="q4715"></a>[Q4715](topology-part-2.md#q4715) | Torsion primes for complex commuting varieties | Open |
 | <a id="q4792"></a>[Q4792](topology-part-2.md#q4792) | For which S does T(S) admit a compatible metric invariant under MCG(S)=Homeo⁺(S)/isotopy, acting… | Open |
 | <a id="q4794"></a>[Q4794](topology-part-2.md#q4794) | Does every object of Mack(C_p) admit an eventually 4-periodic projective resolution, with its… | Open |
+| <a id="q4818"></a>[Q4818](topology-part-2.md#q4818) | Slice-ribbon question for flat knots | Open |
+| <a id="q4819"></a>[Q4819](topology-part-2.md#q4819) | Realization of normalized flat arrow polynomials | Open |
+| <a id="q4820"></a>[Q4820](topology-part-2.md#q4820) | Commutativity of the long flat-knot concordance group | Open |
+| <a id="q4876"></a>[Q4876](topology-part-2.md#q4876) | A Pin(2)-equivariant sutured monopole Floer theory | Open |
+| <a id="q4877"></a>[Q4877](topology-part-2.md#q4877) | Remove the unit ambiguity in sutured monopole and instanton naturality | Open |
+| <a id="q4878"></a>[Q4878](topology-part-2.md#q4878) | Sutured Floer rank-depth bounds without vanishing second homology | Open |
+| <a id="q4879"></a>[Q4879](topology-part-2.md#q4879) | An analytic construction of the sutured instanton contact element | Open |
+| <a id="q4880"></a>[Q4880](topology-part-2.md#q4880) | The sutured trace cobordism induces the evaluation pairing | Open |
+| <a id="q4892"></a>[Q4892](topology-part-2.md#q4892) | Finite section-isomorphism orbits despite infinitely many homotopy classes | Open |
+| <a id="q4893"></a>[Q4893](topology-part-2.md#q4893) | Infinite families outside partial-conjugation equivalence | Open |
+| <a id="q4941"></a>[Q4941](topology-part-2.md#q4941) | Kähler subgroups of products of surface groups | Open |
+| <a id="q4942"></a>[Q4942](topology-part-2.md#q4942) | Kähler groups of nilpotency class greater than two | Open |
+| <a id="q4943"></a>[Q4943](topology-part-2.md#q4943) | A Kähler group of cohomological dimension three | Open |
+| <a id="q4944"></a>[Q4944](topology-part-2.md#q4944) | Relative homotopy for maps with fibre-isolated critical points | Open |
+| <a id="q4945"></a>[Q4945](topology-part-2.md#q4945) | Kähler kernels of epimorphisms from surface products to free abelian groups | Open |

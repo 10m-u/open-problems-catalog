@@ -1,0 +1,479 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q131419412",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Held physical pages 1,13–15,27–31,33–34,141–145 read. Only an explicitly singled-out clause is recommended; reported closures and notation/quantifier ambiguities remain held."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "clique factors randomly perturbed graphs critical minimum degree boundary threshold"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "multistage positional games stop duration triangle Barkey Clemens Hamann"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "multistage game with stop triangle"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "rainbow Hajnal-Szemerédi exact 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2202.04344v2",
+      "sections_read": "Full stop rules and Problem 8.4 in Section 8; triangle clause explicitly open, general one-edge degenerate case disclosed."
+    },
+    {
+      "url": "https://arxiv.org/html/2410.11003v2",
+      "sections_read": "Abstract and scope: all critical clique-factor points α≤1/2, with optimal extremal examples."
+    },
+    {
+      "url": "https://arxiv.org/html/2603.22081v1",
+      "sections_read": "Abstract and full-clique-factor completion scope; not a new still-open threshold target."
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.10219",
+      "sections_read": "Asymptotic rainbow Hajnal–Szemerédi bound already strictly below literal thesis rn/(r+1) for K_r."
+    },
+    {
+      "url": "https://calendars.illinois.edu/detail/7638/33542664",
+      "sections_read": "Primary January 27, 2026 author seminar abstract announces a full third-power threshold answer; paper theorem not verified, therefore holds retained."
+    }
+  ],
+  "source_metadata": {
+    "author": "Amedeo Sgueglia",
+    "title": "On some problems in extremal hypergraph theory",
+    "year": "2022",
+    "institution": "London School of Economics and Political Science",
+    "record": "https://researchonline.lse.ac.uk/id/eprint/135365/",
+    "source": "https://etheses.lse.ac.uk/4460/1/Sgueglia__On-some-problems-extremal-hypergraph-theory.pdf"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q131419412.pdf",
+    "sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+    "physical_pages": 153
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "c85aacef0df77430837ee886bd91338155580b33c0debf0b8d0bd0f6d194ec5a",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Leading constant for the multistage triangle game with stop",
+      "text": "Start with the board E(K_n) and winning sets the three-edge sets of triangles. In each stage Maker moves first, claiming one free edge per turn, and Breaker then claims at most one free edge. Stop the stage immediately when Maker has claimed a whole triangle, before the next Breaker turn. Remove only the edges claimed by Breaker in that stage; retain all Maker edges and all still free edges as the next board, and reset the ownership of retained edges for the next stage. Continue with triangles fully contained in the current board. If Maker cannot complete a triangle in a stage, the game terminates. Let τ_stop(n) be the maximum number of successful stages Maker can guarantee against every Breaker strategy. Determine whether τ_stop(n)/n² has a limit and, if it does, its value.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem 7.3.2, explicit H=K₃, b=1 clause; printed p. 137 / held PDF p. 145.",
+      "locator": {
+        "pdf_page": 145,
+        "printed_page": 137,
+        "label": "Problem 7.3.2, triangle clause"
+      },
+      "scope_review": "Actual held physical pages 27–31 and 144–145 and current paper Section 8 define the game. Only the explicitly singled-out triangle/unbiased clause is promoted. The broader arbitrary-H wording has a trivial one-edge obstruction: Maker wins immediately without a Breaker move, so the board never shrinks. No extra hypothesis is silently inserted. Resetting ownership follows the instruction that each stage is a new Maker–Breaker game. Counting successful stages rather than the final failed stage changes duration by at most one and leaves the requested n² constant unchanged.",
+      "literature_finding": "The 2023 revised primary retains Problem 8.4 and explicitly singles out H=K₃, b=1. Its Θ(n²) observation gives the scale, not the leading constant. No exact constant or refutation was located in the dated bounded primary scan.",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://www.sciencedirect.com/science/article/pii/S0012365X23001644"
+      ],
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Whole live catalog family search found no multistage positional-game target. Q1256 is a static transversal two-factor existence problem. Independent full word/character retrieval and scope review required before numbering.",
+      "unpromoted_remainder": "Other fixed graphs H and constant biases b in Problem 7.3.2 remain unreviewed. The one-edge case is degenerate and does not support a finite n² formula; no repaired general hypothesis is presumed.",
+      "statement_id": "86a5702c09cbbfdabc1c",
+      "statement_ids": [
+        "86a5702c09cbbfdabc1c"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ],
+      "number": 5045,
+      "source_locator": {
+        "label": "Problem 7.3.2",
+        "printed_page": 137,
+        "held_pdf_page": 145,
+        "original_extraction_page": 200
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "c9f13e04379fd7cc5255",
+      "statement_ids": [
+        "c9f13e04379fd7cc5255"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "7e82051d8d14985abded",
+      "statement_ids": [
+        "7e82051d8d14985abded"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "55e97f8aadbf8f82e8d1",
+      "statement_ids": [
+        "55e97f8aadbf8f82e8d1"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "37a49ef925d641e2e611",
+      "statement_ids": [
+        "37a49ef925d641e2e611"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "9251974cb6fd4dccce1f",
+      "statement_ids": [
+        "9251974cb6fd4dccce1f"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "6a4752ea745d91fec6e4",
+      "statement_ids": [
+        "6a4752ea745d91fec6e4"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "3e53ed0b51faebe55bcd",
+      "statement_ids": [
+        "3e53ed0b51faebe55bcd"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "3ba32c0f3aa216a4f76b",
+      "statement_ids": [
+        "3ba32c0f3aa216a4f76b"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "b8035e8b661c65e700e5",
+      "statement_ids": [
+        "b8035e8b661c65e700e5"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Araujo–Methuku–Raghavan announced a complete third-power perturbed-threshold solution in the primary January 27, 2026 seminar abstract. Exact α=1/4 theorem/source not yet inspected, so retain a reported-resolution hold and do not number.",
+      "primary_urls": [
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "statement_id": "11550caa80c508617738",
+      "statement_ids": [
+        "11550caa80c508617738"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "General third-power threshold is reported completely answered by the same 2026 primary seminar abstract. No surviving open clause is inferred without reading the full result.",
+      "primary_urls": [
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "statement_id": "53e60077bd9b1c24ae18",
+      "statement_ids": [
+        "53e60077bd9b1c24ae18"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Threshold at α=1/4 and an optimal extremal example are supplied by Antoniuk–Kamčev–Reiher 2410.11003; 2603.22081 completes all transition points. No unanswered full classification of extremal graphs is inferred from the historical phrase. Additional non-extremal passages stay unreviewed.",
+      "primary_urls": [
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1"
+      ],
+      "statement_id": "9ece353e6006321d7b0e",
+      "statement_ids": [
+        "9ece353e6006321d7b0e"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Literal δ≥rn/(r+1) rainbow K_r-factor statement is implied for sufficiently large r-divisible n by the already known (1−1/r+ε)n theorem, choosing ε<1/[r(r+1)]. The surrounding Hamilton-power discussion suggests an indexing mismatch. Do not replace K_r by K_(r+1), or invent an all-small-n target.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2105.10219"
+      ],
+      "statement_id": "bb587d0bee357fa3bc59",
+      "statement_ids": [
+        "bb587d0bee357fa3bc59"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared for numbering: broad introductory research framework, extraction fragment, or additional source target whose full status/scope remains unreviewed.",
+      "statement_id": "ba63450591007b992b22",
+      "statement_ids": [
+        "ba63450591007b992b22"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2",
+        "https://arxiv.org/html/2410.11003v2",
+        "https://arxiv.org/html/2603.22081v1",
+        "https://arxiv.org/abs/2105.10219",
+        "https://calendars.illinois.edu/detail/7638/33542664"
+      ],
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Asymptotically the same is undefined for the literal single fixed hypergraph and bias. A growing sequence and a nondegenerate logarithmic scale would need contextual verification. No new quantified sequence formulation is silently substituted.",
+      "primary_urls": [
+        "https://arxiv.org/html/2202.04344v2"
+      ],
+      "statement_id": "365c747a42adc13de977",
+      "statement_ids": [
+        "365c747a42adc13de977"
+      ],
+      "source_pdf_sha256": "60f19254e323a3241ed848b47c749bdf538dc4c1dc9ffea9aa280948b92ec167",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "clique factors randomly perturbed graphs critical minimum degree boundary threshold",
+        "multistage positional games stop duration triangle Barkey Clemens Hamann",
+        "multistage game with stop triangle",
+        "rainbow Hajnal-Szemerédi exact 2026",
+        "Araujo Methuku Raghavan third power Hamilton randomly perturbed graphs"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5041,
+    "catalog_sha256": "1fa7ac68b341c17631c8ea05fc3531ef4d48d61031802a6af8af8c9adbff5f66",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

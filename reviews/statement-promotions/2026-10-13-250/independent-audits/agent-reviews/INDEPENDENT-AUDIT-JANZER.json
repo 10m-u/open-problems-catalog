@@ -1,0 +1,60 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/janzer-2023.json",
+  "sha256": "9e3cdd7be8bc1c2a2167261f68975adb07ebd8a35478b9bd2fe3f55859890c19",
+  "source_key": "openai-supervised:d16de4f7e86ba412f085",
+  "recommendation_count": 8,
+  "physical_pages_read": [
+    1,
+    14,
+    15,
+    16,
+    39,
+    40,
+    65,
+    102,
+    103,
+    104,
+    105,
+    123,
+    124,
+    127,
+    128,
+    141
+  ],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "verdict": "All eight mathematical scopes and duplicate comparisons pass. Record April2026 bootstrap upper-bound progress as partial; no exact general closure was found.",
+  "findings": [
+    "Physical14 defines body as compact, without nonempty interior, and S-Kakeya by SO(d) rotations plus translations. The root corrections to the thesis swapped S/K descriptor match published Question5.1. Physical39–40 scopes exactly support the two distinct existence questions: dimension3 disconnected placements, and a new shape in some dimension≥3 that works in all admissible compact convex containers.",
+    "Physical127–128 defines strong shuffles with one common sequence for all starting tuples and exact uniform output, not approximate mixing. Sorted distinct initial tuples in the source are equivalent to all ordered distinct tuples by relabelling tuple coordinates. Physical141 retains both all-fixed-k nearly-linear growth and the sharper all-pair n log n assertion; neither is equivalent to the other.",
+    "Physical141 defines all-start reachability, already known Θ(n) for fixed k, and asks exact or asymptotic value. Root explicitly states exact or leading asymptotic order, so it does not promote the already proved Θ(n) result. Unrestricted swaps are retained; the source star-swap optimum is a proper restriction. Published2025 reachability primary uses one fixed starting tuple and does not settle all-start reachability.",
+    "Physical102–105 defines parallel rounds and stabilization over all initial hypergraphs, including those that never infect the complete host. Physical123–124 supports leading constants for all k>r≥2 and multi-infection growth for all triples1≤m≤binom(k,r). Known graph k=3,4 and hypergraph ordinary Θ(n^r) / special m=2 cases are disclosed partial results. Minimum initial infection size is another source target and remains an active remainder.",
+    "Current primary2604.22630 Theorem1.4 proves M_F(n)≤(π(F−e)+o(1))binom(n,r). This improves upper bounds and explicitly retains unsolved cases, rather than furnishing an exact general limit or all multi-infection growth classification. Primary2604.04607 concerns extensions of graphs into higher-uniformity hypergraphs, a proper subfamily; its constant-time results do not cover the arbitrary complete-hypergraph triples.",
+    "Physical65 explicitly singles out off-diagonal(6,4) as an order-of-magnitude question after the construction. Proper edge coloring and counting six-cliques subject to no rainbow four-clique are faithful. PublishedEJC29(2)(2022)P2.44 postscript separately retains this as the simplest open off-diagonal case; same-size rainbow-clique and clique-subdivision results differ."
+  ],
+  "duplicate_comparison": {
+    "retrieval": "agent-reviews/JANZER-GLOBAL-RETRIEVAL.json",
+    "method": "Every seven-word/seven-character live numbered neighbor and all source-author/title/URL manifest alias questions manually compared; retrieval is not a uniqueness certificate.",
+    "relationships": [
+      "Q3761–3762 concern computability/minimality of planar whole-line Kakeya sets. Q1730 allows arbitrarily short excursions of point paths outside arbitrary compact sets; neither asks rotations of copies inside convex bodies. Q4090 recursive interior skeletons and Q3624 equipartitions are different properties.",
+      "Q4953 asks total-variation cutoff for a prescribed repeated one-sided random walk on generalized symmetric groups. Janzer optimizes a finite exact sequence of independent prescribed lazy swaps, simultaneously for all starting tuples. Exact output uniformity is a different predicate from cutoff.",
+      "Q34 asks minimum number of initially infected VERTICES on a hypercube under a neighbour rule. Janzer infects hypergraph EDGES and maximizes parallel running time over all initial edge sets. Other retrieved clique counts, matching rainbow and asymptotic geometry targets differ.",
+      "Q2353–2355 force rainbow paths/trees, Q2362 maximizes rainbow triangles under a color budget, and Q2363 counts proper four-cliques in four-edge-colored graphs. None asks six-clique extremals under a rainbow-four-clique exclusion.",
+      "Author aliases include Oliver Janzer coauthored regular-subgraph/orientation/Hamiltonicity sources and Barnabás Janzer as a coauthor of the Leader problem collection. Their numbered questionsQ2260–2261,Q2456–2457,Q3425,Q3680–3681 are distinct full targets. No same-thesis exact numbered alias was found."
+    ]
+  },
+  "primary_sources_independently_checked": [
+    "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+    "https://arxiv.org/pdf/2210.13286",
+    "https://dmtcs.episciences.org/16803/pdf",
+    "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+    "https://arxiv.org/html/2604.22630v1",
+    "https://arxiv.org/html/2604.04607v1",
+    "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v29i2p44/pdf/"
+  ],
+  "limits": "Bounded actual-source and primary-literature review, with full global retrieval relationships. No universal duplicate/status certificate; no canonical mutations.",
+  "original_receipt_sha256": "6ee5a7dbfcc82da3db8185cdb8967a061ad4fed9031bdbd019f9507652870a33"
+}

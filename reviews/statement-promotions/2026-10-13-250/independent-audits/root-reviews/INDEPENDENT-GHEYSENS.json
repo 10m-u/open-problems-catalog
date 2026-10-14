@@ -1,0 +1,50 @@
+{
+  "review_date": "2026-10-13",
+  "packet": "agent-reviews/gheysens-2017.json",
+  "packet_sha256": "d5673a534ac410937ec2288757370006e719e51989ec52872851b38ce6aa0f15",
+  "accepted_count": 6,
+  "source_pages_read": [
+    1,
+    43,
+    44,
+    45,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    127,
+    128,
+    129,
+    130,
+    132,
+    145,
+    146,
+    147,
+    148,
+    162,
+    163
+  ],
+  "findings": [
+    "Source ME question concerns entire countable ME class, not measurable embedding or a subrelation.",
+    "Slight continuity means at least one continuous orbit, and individual affine maps are continuous.",
+    "L-embedded refers to original norm; subset-self-map fixed point results do not settle global affine group actions with a fixed point anywhere E.",
+    "Unitarizable is explicit in the Kazhdan compactness hypothesis; discrete Q1341 is a proper related scope.",
+    "Krein means compact closed convex hulls, not an indefinite inner-product structure.",
+    "Problem8 source-reduction exclusion checked independently: T_g(t,v)=(t,π_gv+t b_g), A={(1,b_g)}; 0 fixed but closed convex hull has t=1, precluding a fixed point.",
+    "Final packet re-read after exact publishedQuestions36/37 locators and full homogenization proof were added; accepted6 unchanged. No additional canonical number assigned for the source-reduction exclusion."
+  ],
+  "primary_sources": [
+    "https://numdam.org/item/10.24033/asens.2317.pdf",
+    "https://arxiv.org/abs/1509.01723",
+    "https://arxiv.org/abs/2212.11704",
+    "https://arxiv.org/pdf/1911.02072",
+    "https://link.springer.com/article/10.1007/s00208-020-01985-8"
+  ],
+  "blocking_issues": [],
+  "original_receipt_sha256": "7e5dd789edb5e3572b48345a06168cfb5cee62c09d4ef4d0adbb0db58d139354"
+}

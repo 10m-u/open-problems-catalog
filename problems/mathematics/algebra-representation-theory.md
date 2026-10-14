@@ -1,10 +1,10 @@
 # Algebra & Representation Theory
 
-438 problems: 417 open, 14 open, partial results, 3 solved here: proved, 4 solved here: disproved.
+515 problems: 494 open, 14 open, partial results, 3 solved here: proved, 4 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
-Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representation-theory-part-2.md)
+Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representation-theory-part-2.md) · [3](algebra-representation-theory-part-3.md)
 
 | Q | Title | Status |
 |---|---|---|
@@ -446,3 +446,80 @@ Parts: [1](algebra-representation-theory-part-1.md) · [2](algebra-representatio
 | <a id="q4760"></a>[Q4760](algebra-representation-theory-part-2.md#q4760) | Degree-zero Noetherianity | Open |
 | <a id="q4773"></a>[Q4773](algebra-representation-theory-part-2.md#q4773) | Must every smooth C admit a single compact generator? | Open |
 | <a id="q4783"></a>[Q4783](algebra-representation-theory-part-2.md#q4783) | Let G be an almost simple connected complex algebraic group of type D_m (m≥4) or E₆. Define h(G)… | Open |
+| <a id="q4829"></a>[Q4829](algebra-representation-theory-part-2.md#q4829) | Groups admitting polynomial geodesic growth | Open |
+| <a id="q4830"></a>[Q4830](algebra-representation-theory-part-2.md#q4830) | Polynomial geodesic growth forces virtual class two | Open |
+| <a id="q4831"></a>[Q4831](algebra-representation-theory-part-2.md#q4831) | Polynomial geodesic growth of the asymmetric virtually Engel example | Open |
+| <a id="q4832"></a>[Q4832](algebra-representation-theory-part-2.md#q4832) | Algorithmic finite-action facet classification | Open |
+| <a id="q4833"></a>[Q4833](algebra-representation-theory-part-2.md#q4833) | One orbit suffices for the symmetric facet condition | Open |
+| <a id="q4834"></a>[Q4834](algebra-representation-theory-part-2.md#q4834) | Cube-root word-versus-Stoll error in metabelian nilpotent groups | Open |
+| <a id="q4835"></a>[Q4835](algebra-representation-theory-part-2.md#q4835) | Simultaneously intermediate volume and geodesic growth | Open |
+| <a id="q4836"></a>[Q4836](algebra-representation-theory-part-2.md#q4836) | Countable word-metric horoboundaries characterize virtual abelianness | Open |
+| <a id="q4837"></a>[Q4837](algebra-representation-theory-part-2.md#q4837) | Finitely many Busemann orbits for class-two nilpotent groups | Open |
+| <a id="q4838"></a>[Q4838](algebra-representation-theory-part-2.md#q4838) | Rational-subset membership in all higher Heisenberg groups | Open |
+| <a id="q4839"></a>[Q4839](algebra-representation-theory-part-2.md#q4839) | Groups whose rational subsets have bounded regular representatives | Open |
+| <a id="q4848"></a>[Q4848](algebra-representation-theory-part-2.md#q4848) | Baumslag’s Parafree Conjecture | Open |
+| <a id="q4850"></a>[Q4850](algebra-representation-theory-part-2.md#q4850) | Embedding torsion-free group algebras into division rings | Open |
+| <a id="q4851"></a>[Q4851](algebra-representation-theory-part-2.md#q4851) | Integral virtual algebraic fibring from vanishing over every prime field | Open |
+| <a id="q4852"></a>[Q4852](algebra-representation-theory-part-2.md#q4852) | Virtual specialness versus virtual free-by-cyclic structure for one-relator groups | Open |
+| <a id="q4853"></a>[Q4853](algebra-representation-theory-part-2.md#q4853) | Coherence of finitely generated parafree groups | Open |
+| <a id="q4854"></a>[Q4854](algebra-representation-theory-part-2.md#q4854) | Group coherence versus coherence of its group algebra | Open |
+| <a id="q4855"></a>[Q4855](algebra-representation-theory-part-2.md#q4855) | Coherence of group algebras of 3-manifold groups | Open |
+| <a id="q4856"></a>[Q4856](algebra-representation-theory-part-2.md#q4856) | Separating rational and integral group-ring coherence | Open |
+| <a id="q4857"></a>[Q4857](algebra-representation-theory-part-2.md#q4857) | Integral coherence for free-by-cyclic and one-relator groups | Open |
+| <a id="q4858"></a>[Q4858](algebra-representation-theory-part-2.md#q4858) | Universal Hughes-free division rings for torsion-free one-relator groups | Open |
+| <a id="q4859"></a>[Q4859](algebra-representation-theory-part-2.md#q4859) | Universality of Hughes-free division rings for locally indicable 3-manifold groups | Open |
+| <a id="q4860"></a>[Q4860](algebra-representation-theory-part-2.md#q4860) | Universality for locally indicable virtually compact special groups | Open |
+| <a id="q4865"></a>[Q4865](algebra-representation-theory-part-2.md#q4865) | Vanishing of all degree-two cup products in free-group bounded cohomology | Open |
+| <a id="q4866"></a>[Q4866](algebra-representation-theory-part-2.md#q4866) | Characterizing stable commutator length one-half in free groups | Open |
+| <a id="q4867"></a>[Q4867](algebra-representation-theory-part-2.md#q4867) | Primitivity-rank lower bound for stable commutator length | Open |
+| <a id="q4868"></a>[Q4868](algebra-representation-theory-part-2.md#q4868) | Equivalence of the Gromov and finite-vanishing seminorms on free-group bounded cohomology | Open |
+| <a id="q4869"></a>[Q4869](algebra-representation-theory-part-2.md#q4869) | Finiteness of fixed-rank free-fibre orbits | Open |
+| <a id="q4870"></a>[Q4870](algebra-representation-theory-part-2.md#q4870) | Geometric three-manifold characterization of nonhyperbolic separable free-by-cyclic groups | Open |
+| <a id="q4871"></a>[Q4871](algebra-representation-theory-part-2.md#q4871) | Quasiconvexity or virtual fibre for hyperbolic free-by-cyclic subgroups | Open |
+| <a id="q4872"></a>[Q4872](algebra-representation-theory-part-2.md#q4872) | Subgroup separability versus virtual BNS symmetry | Open |
+| <a id="q4873"></a>[Q4873](algebra-representation-theory-part-2.md#q4873) | Existence of regular profinite identifications for free-by-cyclic groups | Open |
+| <a id="q4874"></a>[Q4874](algebra-representation-theory-part-2.md#q4874) | Twisted Alexander polynomials detect semifibering in free-by-cyclic groups | Open |
+| <a id="q4875"></a>[Q4875](algebra-representation-theory-part-2.md#q4875) | Irreducible monodromy as a profinite invariant | Open |
+| <a id="q4881"></a>[Q4881](algebra-representation-theory-part-2.md#q4881) | Division-ring homological independence of retracts in limit groups | Open |
+| <a id="q4882"></a>[Q4882](algebra-representation-theory-part-2.md#q4882) | Free-product closure for residually finite L²-Hall groups | Open |
+| <a id="q4883"></a>[Q4883](algebra-representation-theory-part-2.md#q4883) | Positive-characteristic failure of the L²-Hall property | Open |
+| <a id="q4884"></a>[Q4884](algebra-representation-theory-part-2.md#q4884) | Field independence of division-ring homological subgroup independence | Open |
+| <a id="q4885"></a>[Q4885](algebra-representation-theory-part-2.md#q4885) | The L²-Hall and strengthened Hanna Neumann properties for finite abelian hierarchies | Open |
+| <a id="q4886"></a>[Q4886](algebra-representation-theory-part-2.md#q4886) | Finite-group word measures determine the free-group automorphism orbit | Open |
+| <a id="q4887"></a>[Q4887](algebra-representation-theory-part-2.md#q4887) | Profinite rigidity of doubles among cyclic-edge graphs of free groups | Open |
+| <a id="q4888"></a>[Q4888](algebra-representation-theory-part-2.md#q4888) | Parafree Mel’nikov groups are free | Open |
+| <a id="q4889"></a>[Q4889](algebra-representation-theory-part-2.md#q4889) | Virtual nonzero second Betti number in one-relator groups | Open |
+| <a id="q4890"></a>[Q4890](algebra-representation-theory-part-2.md#q4890) | Virtual positive second homology of one-ended hyperbolic special groups | Open |
+| <a id="q4914"></a>[Q4914](algebra-representation-theory-part-2.md#q4914) | Compute exact distance in the free factor complex | Open |
+| <a id="q4915"></a>[Q4915](algebra-representation-theory-part-2.md#q4915) | Recognize the fixed subgroup of a single free-group automorphism | Open |
+| <a id="q4916"></a>[Q4916](algebra-representation-theory-part-2.md#q4916) | Generalized Tarski problem with the finite radical | Open |
+| <a id="q4917"></a>[Q4917](algebra-representation-theory-part-2.md#q4917) | A non-acylindrically hyperbolic group equivalent to its free product with ℤ | Open |
+| <a id="q4918"></a>[Q4918](algebra-representation-theory-part-2.md#q4918) | Elementary invariance of acylindrical hyperbolicity for finitely generated groups | Open |
+| <a id="q4919"></a>[Q4919](algebra-representation-theory-part-2.md#q4919) | Virtual cohomology spectra of limit groups and HGFC-groups | Open |
+| <a id="q4920"></a>[Q4920](algebra-representation-theory-part-2.md#q4920) | Rigidity from filtered second Betti spectra | Open |
+| <a id="q4921"></a>[Q4921](algebra-representation-theory-part-2.md#q4921) | Three normal generators for Epstein’s relation subgroup | Open |
+| <a id="q4922"></a>[Q4922](algebra-representation-theory-part-2.md#q4922) | Four-relator cores detecting commutativity from coprime powers | Open |
+| <a id="q4923"></a>[Q4923](algebra-representation-theory-part-2.md#q4923) | Minimum core size for nilpotency detected in power subgroups | Open |
+| <a id="q4924"></a>[Q4924](algebra-representation-theory-part-2.md#q4924) | Classify laws detectable in coprime power subgroups | Open |
+| <a id="q4925"></a>[Q4925](algebra-representation-theory-part-2.md#q4925) | Automaticity of one-relator groups without unbalanced Baumslag–Solitar subgroups | Open |
+| <a id="q4926"></a>[Q4926](algebra-representation-theory-part-2.md#q4926) | Polynomial-time word problem for every one-relator group | Open |
+| <a id="q4927"></a>[Q4927](algebra-representation-theory-part-2.md#q4927) | Profinite rigidity among finite-volume hyperbolic 3-manifolds | Open |
+| <a id="q4928"></a>[Q4928](algebra-representation-theory-part-2.md#q4928) | Volume from maximal asymptotic homological torsion growth | Open |
+| <a id="q4929"></a>[Q4929](algebra-representation-theory-part-2.md#q4929) | Hyperbolic 3-manifolds from index-marked abelianizations of covers | Open |
+| <a id="q4933"></a>[Q4933](algebra-representation-theory-part-2.md#q4933) | Finite asymptotic dimension for all Artin groups | Open |
+| <a id="q4934"></a>[Q4934](algebra-representation-theory-part-2.md#q4934) | Artin asymptotic dimension bounded by clique number | Open |
+| <a id="q4994"></a>[Q4994](algebra-representation-theory-part-2.md#q4994) | A locally finite transitive graph whose every automorphism fixes a vertex | Open |
+| <a id="q4995"></a>[Q4995](algebra-representation-theory-part-2.md#q4995) | Unimodular transitive graphs and Cayley geometry | Open |
+| <a id="q5003"></a>[Q5003](algebra-representation-theory-part-3.md#q5003) | Measure-equivalence classes avoiding free subgroups | Open |
+| <a id="q5004"></a>[Q5004](algebra-representation-theory-part-3.md#q5004) | Compactness from affine fixed points on Krein spaces | Open |
+| <a id="q5006"></a>[Q5006](algebra-representation-theory-part-3.md#q5006) | Closed subgroups of locally compact unitarizable groups | Open |
+| <a id="q5007"></a>[Q5007](algebra-representation-theory-part-3.md#q5007) | Kazhdan and unitarizable locally compact groups | Open |
+| <a id="q5036"></a>[Q5036](algebra-representation-theory-part-3.md#q5036) | Finite-group Nielsen connectivity with one extra generator | Open |
+| <a id="q5037"></a>[Q5037](algebra-representation-theory-part-3.md#q5037) | Nielsen connectivity of generating triples of the first Grigorchuk group | Open |
+| <a id="q5038"></a>[Q5038](algebra-representation-theory-part-3.md#q5038) | Finite-index maximal subgroups in branch groups | Open |
+| <a id="q5039"></a>[Q5039](algebra-representation-theory-part-3.md#q5039) | Growth of Nielsen-class counts in finite Gupta–Sidki quotients | Open |
+| <a id="q5040"></a>[Q5040](algebra-representation-theory-part-3.md#q5040) | Exponential growth with every maximal subgroup normal | Open |
+| <a id="q5041"></a>[Q5041](algebra-representation-theory-part-3.md#q5041) | Intermediate word growth of Gupta–Sidki groups | Open |
+| <a id="q5046"></a>[Q5046](algebra-representation-theory-part-3.md#q5046) | Automaticity of CAT(0) groups | Open |
+| <a id="q5047"></a>[Q5047](algebra-representation-theory-part-3.md#q5047) | Virtual cocompact cubulation of Coxeter groups | Open |
+| <a id="q5048"></a>[Q5048](algebra-representation-theory-part-3.md#q5048) | Classification of properly cubulated Artin groups | Open |

@@ -1,0 +1,1636 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q140376726",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Held cover establishes Results on Martin’s Conjecture, Berkeley, Spring 2021; original collection extract has null title/year and is preserved unchanged.",
+    "Actual held PDF has an eight-page offset. Read Chapter 9, Chapter 4 motivation, §§5.8–5.11 and degree/cone conventions. Remaining broad or higher-rank questions remain holds."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Martin\" \"2-uniformly\" invariant"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Turing degrees\" \"Rudin-Keisler\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Martin conjecture\" \"Borel\" \"measure preserving\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Lutz\" \"2-uniformly\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"locally countable\" \"height one\" \"Turing\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"regressive functions on the arithmetic\" Lutz 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"height one\" \"Turing\" site:arxiv.org"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2305.19646v3",
+      "sections": "§§3.1–3.2, 4.3 and actual §7 questions; determinacy/cone and weak-RK conventions."
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.05746",
+      "sections": "Published hyperarithmetic-regressive theorem scope and version record."
+    },
+    {
+      "url": "https://websites.umich.edu/~pglutz/",
+      "sections": "Current primary author publication list."
+    },
+    {
+      "url": "https://websites.umich.edu/~pglutz/questions.html",
+      "sections": "Current questions; Q1482–1483 already present, not new promotions."
+    },
+    {
+      "url": "https://math.berkeley.edu/~pglutz/jmm_slides.pdf",
+      "sections": "Primary indexed arithmetic-regressive open question; not a claim of full slide reading."
+    }
+  ],
+  "source_metadata": {
+    "author": "Patrick Lutz",
+    "title": "Results on Martin’s Conjecture",
+    "year": "2021",
+    "institution": "University of California, Berkeley"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/collections-387f3c53c60c3800.pdf",
+    "sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+    "physical_pages": 146
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "926a077ee5dcb0056a5dd79d43f64a847e6da2d3662795cae4ead9cbfddfb2aa",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Regressive Martin dichotomy on arithmetic degrees",
+      "text": "In ZF+AD, let f:2^ω→2^ω respect arithmetic equivalence and satisfy f(x)≤_A x for every x. Here y≤_A x means y is Turing reducible to some finite iterate of the Turing jump of x. Must there be an arithmetic cone on which either f(x)≡_A a for one fixed real a, or f(x)≡_A x? An arithmetic cone is {x:b≤_A x} for some b.",
+      "subject": "Logic & Foundations",
+      "citation": "Question 9.5, printed p. 131 / held PDF p. 139; definitions and conventions in Chapters 1, 4–6.",
+      "locator": {
+        "printed_page": 131,
+        "pdf_page": 139,
+        "verified_from": "held PDF layout conversion and printed page headers"
+      },
+      "scope_review": "Read Chapter 4’s comparison with arithmetic degrees and Question 9.5. The settled hyperarithmetic case must not be promoted; arithmetic regressiveness is the essential restriction because general arithmetic Martin conjectures have counterexamples.",
+      "duplicate_review": "Catalog-wide name, source-URL and mathematical-family retrieval found Q1368 and Q1369 (different questions), and Q1482–1483 (randomness and pointed-tree questions). None is this target. Source questions with different quantifiers are not treated as equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The 2025 published hyperarithmetic-regressive result settles a different reducibility. The author’s arithmetic question also remains explicit in his primary slides. Current author work and exact arithmetic-regressive retrieval supplied no full resolution.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "2a0cb2bb92fffa2434d9",
+      "statement_ids": [
+        "2a0cb2bb92fffa2434d9"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ],
+      "number": 4894,
+      "source_locator": {
+        "label": "Question 9.5",
+        "printed_page": 131,
+        "held_pdf_page": 139,
+        "original_extraction_page": 139
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Order-preserving Martin dichotomy on hyperarithmetic degrees",
+      "text": "Under ZF+AD, if f:2^ω→2^ω satisfies x≤_H y⇒f(x)≤_H f(y), must some hyperarithmetic cone satisfy either f(x)≡_H a for one real a, or x≤_H f(x)? Here ≤_H is hyperarithmetic reducibility and a hyperarithmetic cone is {x:b≤_H x} for some b.",
+      "subject": "Logic & Foundations",
+      "citation": "Question 9.6, printed p. 131 / held PDF p. 139; definitions and conventions in Chapters 1, 4–6.",
+      "locator": {
+        "printed_page": 131,
+        "pdf_page": 139,
+        "verified_from": "held PDF layout conversion and printed page headers"
+      },
+      "scope_review": "The order and cones are hyperarithmetic throughout. No regressiveness or Borel restriction is inserted. Compare source Chapter 6 and successor paper Question 1; the successor’s standing determinacy conventions must remain explicit in its citation.",
+      "duplicate_review": "Catalog-wide name, source-URL and mathematical-family retrieval found Q1368 and Q1369 (different questions), and Q1482–1483 (randomness and pointed-tree questions). None is this target. Source questions with different quantifiers are not treated as equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "Lutz–Siskind’s latest accessible version explicitly retains this as Question 1. Its theorem for order-preserving Turing functions and the separate hyperarithmetic regressive theorem do not settle it; no later full resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "09ac05ccdae08439c149",
+      "statement_ids": [
+        "09ac05ccdae08439c149"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ],
+      "number": 4895,
+      "source_locator": {
+        "label": "Question 9.6",
+        "printed_page": 131,
+        "held_pdf_page": 139,
+        "original_extraction_page": 139
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "ZF strength of the Borel measure-preserving Martin theorem",
+      "text": "Does ZF prove that every Borel Turing-invariant f:2^ω→2^ω satisfying (∀a)(∃b)(∀x≥_T b) f(x)≥_T a also satisfies (∃c)(∀x≥_T c) f(x)≥_T x? Turing invariance means x≡_T y⇒f(x)≡_T f(y).",
+      "subject": "Logic & Foundations",
+      "citation": "Question 9.8, printed p. 131 / held PDF p. 139; definitions and conventions in Chapters 1, 4–6.",
+      "locator": {
+        "printed_page": 131,
+        "pdf_page": 139,
+        "verified_from": "held PDF layout conversion and printed page headers"
+      },
+      "scope_review": "Read source §§5.3–5.4 and successor §§3.1–3.2, 4.3. Measure preservation concerns cofinal cones, not preservation of Lebesgue measure. This asks theorem provability in ZF, so AD must not be added to the requested conclusion.",
+      "duplicate_review": "Catalog-wide name, source-URL and mathematical-family retrieval found Q1368 and Q1369 (different questions), and Q1482–1483 (randomness and pointed-tree questions). None is this target. Source questions with different quantifiers are not treated as equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "Lutz–Siskind’s successor paper retains this as Question 2. Its ZF proof for Borel order-preserving functions has an additional hypothesis and is not a resolution for all Borel measure-preserving functions.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "6fb3e113dae8b8c03973",
+      "statement_ids": [
+        "6fb3e113dae8b8c03973"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ],
+      "number": 4896,
+      "source_locator": {
+        "label": "Question 9.8",
+        "printed_page": 131,
+        "held_pdf_page": 139,
+        "original_extraction_page": 139
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A nonprincipal ultrafilter strictly below Martin measure",
+      "text": "Work in ZF+AD. Let D be the Turing degrees and U_M their cone ultrafilter. For ultrafilters U,V on D, U≤_RK V means U=F_*(V) for some F:D→D, where A∈F_*(V) iff F⁻¹(A)∈V. Equivalence means reducibility both ways; it does not require a bijection. Does some nonprincipal ultrafilter U on D satisfy U≤_RK U_M but U_M≰_RK U?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 9.9, printed p. 131 / held PDF p. 139; definitions and conventions in Chapters 1, 4–6.",
+      "locator": {
+        "printed_page": 131,
+        "pdf_page": 139,
+        "verified_from": "held PDF layout conversion and printed page headers"
+      },
+      "scope_review": "Read Definition 5.32 and Theorem 5.35. Nonprincipality is explicit: principal ultrafilters are already below U_M. The conjunction with the separate equal-degree question is not mistaken for this single assertion.",
+      "duplicate_review": "Catalog-wide name, source-URL and mathematical-family retrieval found Q1368 and Q1369 (different questions), and Q1482–1483 (randomness and pointed-tree questions). None is this target. Source questions with different quantifiers are not treated as equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The current Lutz–Siskind Question 3 retains the strict-below target. Its equivalence with one component of Martin’s conjecture gives a route, not a proof. No primary resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "d6a73a05cb9492666257",
+      "statement_ids": [
+        "d6a73a05cb9492666257"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ],
+      "number": 4897,
+      "source_locator": {
+        "label": "Question 9.9",
+        "printed_page": 131,
+        "held_pdf_page": 139,
+        "original_extraction_page": 139
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Lebesgue and Baire ultrafilters below Martin measure",
+      "text": "Work in ZF+AD. Let D be the Turing degrees and U_M their cone ultrafilter. For ultrafilters U,V on D, U≤_RK V means U=F_*(V) for some F:D→D, where A∈F_*(V) iff F⁻¹(A)∈V. Equivalence means reducibility both ways; it does not require a bijection. Let U_L consist of subsets A⊂D whose inverse image under x↦deg_T(x) has fair-coin measure one, and let U_B consist of those whose inverse image is comeager. Do U_L≤_RK U_M and U_B≤_RK U_M hold?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 9.13, printed p. 132 / held PDF p. 140; definitions and conventions in Chapters 1, 4–6.",
+      "locator": {
+        "printed_page": 132,
+        "pdf_page": 140,
+        "verified_from": "held PDF layout conversion and printed page headers"
+      },
+      "scope_review": "Read §§5.10–5.11. AD supplies measurability and the Baire property for saturated sets. The two named filters are retained as a combined source question; the known reverse nonreductions are not an answer.",
+      "duplicate_review": "Catalog-wide name, source-URL and mathematical-family retrieval found Q1368 and Q1369 (different questions), and Q1482–1483 (randomness and pointed-tree questions). None is this target. Source questions with different quantifiers are not treated as equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "Successor Question 5 still asks both comparisons. The proved results that U_M is not below U_L or U_B are the reverse direction and leave the proposed comparisons open.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "26410d143df22fee2e98",
+      "statement_ids": [
+        "26410d143df22fee2e98"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ],
+      "number": 4899,
+      "source_locator": {
+        "label": "Question 9.13",
+        "printed_page": 132,
+        "held_pdf_page": 140,
+        "original_extraction_page": 140
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "title": "Distinct ultrafilters weakly equivalent to Martin measure",
+      "text": "Work in ZF+AD. Let D be the Turing degrees and U_M their cone ultrafilter. For ultrafilters U,V on D, U≤_RK V means U=F_*(V) for some F:D→D, where A∈F_*(V) iff F⁻¹(A)∈V. Equivalence means reducibility both ways; it does not require a bijection. Does some ultrafilter U≠U_M on D satisfy both U≤_RK U_M and U_M≤_RK U?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 9.11, printed p. 132 / held PDF p. 140; definitions and conventions in Chapters 1, 4–6.",
+      "locator": {
+        "printed_page": 132,
+        "pdf_page": 140,
+        "verified_from": "held PDF layout conversion and printed page headers"
+      },
+      "scope_review": "Thesis §5.8 explicitly uses mutual reducibility instead of bijective equivalence, which need not agree under AD. This definition is preserved; a bijection-based reformulation would change the question.",
+      "duplicate_review": "Catalog-wide name, source-URL and mathematical-family retrieval found Q1368 and Q1369 (different questions), and Q1482–1483 (randomness and pointed-tree questions). None is this target. Source questions with different quantifiers are not treated as equivalent.",
+      "duplicate_of": [
+        1370
+      ],
+      "literature_finding": "The current successor retains this as Question 4, calling the relation weak Rudin–Keisler equivalence. No full resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "b85cb6904ea1d15ce87b",
+      "statement_ids": [
+        "b85cb6904ea1d15ce87b"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ],
+      "reason": "Lutz: a distinct ultrafilter with reducibility both ways is exactly weak Rudin–Keisler equivalence to Martin measure."
+    },
+    {
+      "decision": "duplicate",
+      "title": "Rudin–Keisler maximality of Martin measure on Turing degrees",
+      "text": "Work in ZF+AD. Let D be the Turing degrees and U_M their cone ultrafilter. For ultrafilters U,V on D, U≤_RK V means U=F_*(V) for some F:D→D, where A∈F_*(V) iff F⁻¹(A)∈V. Equivalence means reducibility both ways; it does not require a bijection. Is U_M maximal in this preorder on ultrafilters on D: must U_M≤_RK U imply U≤_RK U_M for every ultrafilter U on D?",
+      "subject": "Logic & Foundations",
+      "citation": "Question 9.14, printed p. 132 / held PDF p. 140; definitions and conventions in Chapters 1, 4–6.",
+      "locator": {
+        "printed_page": 132,
+        "pdf_page": 140,
+        "verified_from": "held PDF layout conversion and printed page headers"
+      },
+      "scope_review": "The ground set remains D for both ultrafilters. Do not allow arbitrary larger ground sets, or silently replace maximality in a preorder with equality of ultrafilters.",
+      "duplicate_review": "Catalog-wide name, source-URL and mathematical-family retrieval found Q1368 and Q1369 (different questions), and Q1482–1483 (randomness and pointed-tree questions). None is this target. Source questions with different quantifiers are not treated as equivalent.",
+      "duplicate_of": [
+        1371
+      ],
+      "literature_finding": "Successor Question 6 asks the equivalent existence of an ultrafilter strictly above Martin measure. Minimality questions and reverse comparisons with Lebesgue/Baire measures do not give maximality; no full resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "3c086c2a4bf875146b02",
+      "statement_ids": [
+        "3c086c2a4bf875146b02"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ],
+      "reason": "Lutz: existence strictly above Martin measure and whether Martin measure is maximal ask opposite polarities of the same target."
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "1292334d4e728b543184",
+      "statement_ids": [
+        "1292334d4e728b543184"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "580f7dc4a4f948ceae12",
+      "statement_ids": [
+        "580f7dc4a4f948ceae12"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "ddef87c6c3d37400e4a3",
+      "statement_ids": [
+        "ddef87c6c3d37400e4a3"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "a210e6b04cc7a8189301",
+      "statement_ids": [
+        "a210e6b04cc7a8189301"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "55011d8acbb9ecdbede7",
+      "statement_ids": [
+        "55011d8acbb9ecdbede7"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "002b78898427f3a02558",
+      "statement_ids": [
+        "002b78898427f3a02558"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "ce514db18eac4f419898",
+      "statement_ids": [
+        "ce514db18eac4f419898"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "5d1771d30ce3e9025b83",
+      "statement_ids": [
+        "5d1771d30ce3e9025b83"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "2f87946d514dd00182b5",
+      "statement_ids": [
+        "2f87946d514dd00182b5"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "3287d187bfa4293e756f",
+      "statement_ids": [
+        "3287d187bfa4293e756f"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "bd9fcc8a9f8b5404acf4",
+      "statement_ids": [
+        "bd9fcc8a9f8b5404acf4"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "3d004bd8688ae8c99cf3",
+      "statement_ids": [
+        "3d004bd8688ae8c99cf3"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "92c23a3ef782b7fce208",
+      "statement_ids": [
+        "92c23a3ef782b7fce208"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "c06c5601992fc3ff76ca",
+      "statement_ids": [
+        "c06c5601992fc3ff76ca"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "b2dfb687dec97d611236",
+      "statement_ids": [
+        "b2dfb687dec97d611236"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "740b786e42c42353cb35",
+      "statement_ids": [
+        "740b786e42c42353cb35"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "9bf8e914b76c11de9f37",
+      "statement_ids": [
+        "9bf8e914b76c11de9f37"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "e1ca4b41c25e7d17e5a1",
+      "statement_ids": [
+        "e1ca4b41c25e7d17e5a1"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "6e311c54db7b49ce7df1",
+      "statement_ids": [
+        "6e311c54db7b49ce7df1"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        1368
+      ],
+      "reason": "Question 9.1 repeats Q1368.",
+      "statement_id": "76f7c8820284ecd39c1a",
+      "statement_ids": [
+        "76f7c8820284ecd39c1a"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "866253806b3f789c667f",
+      "statement_ids": [
+        "866253806b3f789c667f"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "3e8f5a7e762e5582d83f",
+      "statement_ids": [
+        "3e8f5a7e762e5582d83f"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "f20cee07d9c814bf0cfd",
+      "statement_ids": [
+        "f20cee07d9c814bf0cfd"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "e7fe5751eb62909ec717",
+      "statement_ids": [
+        "e7fe5751eb62909ec717"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "0e3d48a52705c9d9f631",
+      "statement_ids": [
+        "0e3d48a52705c9d9f631"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "65f5698ce987f27a458a",
+      "statement_ids": [
+        "65f5698ce987f27a458a"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        1369
+      ],
+      "reason": "Question 9.16 repeats Q1369.",
+      "statement_id": "03136a3a067781dfd497",
+      "statement_ids": [
+        "03136a3a067781dfd497"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "82aaeb2eefec2caab7a5",
+      "statement_ids": [
+        "82aaeb2eefec2caab7a5"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "0df637cd5ef56ed3790e",
+      "statement_ids": [
+        "0df637cd5ef56ed3790e"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "b0fa8dd54f34de139520",
+      "statement_ids": [
+        "b0fa8dd54f34de139520"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "fdabc7e4a65d47432a3d",
+      "statement_ids": [
+        "fdabc7e4a65d47432a3d"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "c77e01fbcac945261f75",
+      "statement_ids": [
+        "c77e01fbcac945261f75"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "c2013654fa08a4cacee6",
+      "statement_ids": [
+        "c2013654fa08a4cacee6"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "91ea2e943eabe49f3dfd",
+      "statement_ids": [
+        "91ea2e943eabe49f3dfd"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not cleared by this bounded review; introductory conjecture references and later variants require their own exact scope/status reading.",
+      "statement_id": "b6dc2947b289f4662281",
+      "statement_ids": [
+        "b6dc2947b289f4662281"
+      ],
+      "source_pdf_sha256": "6ef1d3ddb48b1633018efb0cc11ac34f696f0ff28be0ad84fcdc4197ac99a4e5",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/html/2305.19646v3",
+        "https://arxiv.org/abs/2306.05746",
+        "https://websites.umich.edu/~pglutz/",
+        "https://websites.umich.edu/~pglutz/questions.html",
+        "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+      ],
+      "search_topics": [
+        "\"Lutz\" \"Martin\" \"arithmetic\" regressive 2026",
+        "\"Martin\" \"2-uniformly\" invariant",
+        "\"Turing degrees\" \"Rudin-Keisler\" 2026",
+        "\"Martin conjecture\" \"Borel\" \"measure preserving\"",
+        "\"hyperarithmetic\" \"order preserving\" \"Martin\" 2026",
+        "\"Lutz\" \"2-uniformly\"",
+        "\"locally countable\" \"height one\" \"Turing\"",
+        "\"Martin\" \"regressive\" \"arithmetic degrees\" -site:researchgate.net -site:portal.mardi4nfdi.de",
+        "\"height one\" \"Turing reducibility\" -site:researchgate.net -site:mathdb.com",
+        "\"Martin measure\" \"maximal\" \"Rudin\" -site:researchgate.net",
+        "\"regressive functions on the arithmetic\" Lutz 2025 2026",
+        "\"Martin measure\" \"Rudin-Keisler\" site:arxiv.org 2026",
+        "\"height one\" \"Turing\" site:arxiv.org"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

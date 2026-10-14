@@ -1,0 +1,48 @@
+{
+  "review_date": "2026-10-13",
+  "packet": "agent-reviews/eberhard-2016.json",
+  "packet_sha256": "918d61708dcdb033fa0648c931e2217f8f27d856f068f99b44e9f22686b744fe",
+  "source_pages_read": [
+    1,
+    6,
+    7,
+    8,
+    24,
+    28,
+    29,
+    30,
+    31,
+    47,
+    75,
+    76,
+    77,
+    78,
+    79,
+    84,
+    115,
+    116,
+    159
+  ],
+  "accepted_count": 3,
+  "primary_sources_read": [
+    "https://arxiv.org/pdf/2604.28116",
+    "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+    "https://arxiv.org/abs/2201.09402",
+    "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+    "https://arxiv.org/abs/2003.01798",
+    "https://arxiv.org/abs/2205.15191"
+  ],
+  "source_scope_findings": [
+    "δ_E is the worst finite-positive-integer guarantee; mixed-sign coefficients and repeated-variable solutions retained.",
+    "Invariant-set probabilities take n→∞ at fixed k first; constant leading term and adjacent-k monotonicity are two explicitly labelled targets.",
+    "Periodic leading factor constancy remains undecided by 2026 theorem/Remark1.",
+    "Arbitrary-system literal target has verified mixed-sign countercase, preserved separately."
+  ],
+  "duplicate_comparisons": [
+    "All saved word/character live catalog neighbors read; Q1959/Q1961 fixed cube configurations differ from arbitrary equation guarantee.",
+    "Q4657 word-complexity exponent, Q3429 random factorization, and Q3790 spanning-tree maximum do not concern p(k).",
+    "Source author/title/URL aliases return no earlier question section; different limiting predicates remain distinct."
+  ],
+  "blocking_issues": [],
+  "original_receipt_sha256": "ae22596ff93fa821ffee46d6778ed662cb976a9511caf930cda88272bb1c2160"
+}

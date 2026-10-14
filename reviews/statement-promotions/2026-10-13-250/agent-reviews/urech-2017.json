@@ -1,0 +1,1178 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102985890",
+  "source_review_notes": [
+    "Eight recommendations from repeated42-candidate source. Physical38–41,45–46,54–56,94–98,168–169 read; arbitrary-field degree definition and source algebraic-homomorphism definition recovered. Exact older assertions are held when later results affect scope."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"birational\" \"intermediate growth\" degree 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"polynomial\" \"dpol\" \"Urech\" 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"PSL2(Q)\" \"simple\" subgroup Urech"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://christianurech.github.io/",
+      "sections_read": "Current publications and links to homomorphisms/degree-growth/simple-groups/elliptic-groups papers"
+    },
+    {
+      "url": "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+      "sections_read": "Question1–5 and degree/exponent definitions"
+    },
+    {
+      "url": "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+      "sections_read": "Introduction and main classification reduced to PGL₃ subgroups"
+    },
+    {
+      "url": "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+      "sections_read": "Main finite-generated elliptic subgroup boundedness theorem"
+    },
+    {
+      "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573",
+      "sections_read": "Birational transcendental-dynamical-degree theorem, distinguished from degree-asymptotic question"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q102985890.pdf",
+    "sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+    "physical_pages": 180
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "87bddd4765d603549b01b0a1aa01bd524ef19ba4409b83dac64c18a65db4a574",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Degree distortion under algebraic Cremona embeddings",
+      "text": "Let Crₙ(ℂ)=Bir(ℙⁿ_ℂ), with degree the common degree of homogeneous coordinate polynomials after canceling their common factor. Call Φ:Cr₂(ℂ)→Crₙ(ℂ) algebraic when its restriction to PGL₃(ℂ) is an algebraic family of birational maps. For every injective such homomorphism, is there C>0 depending only on Φ such that C⁻¹ deg(f)≤deg(Φ(f))≤C deg(f) for all f∈Cr₂(ℂ)?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical38 / printed29",
+      "locator": {
+        "pdf_page": 38,
+        "printed_page": 29,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "Source algebraic means restriction to PGL₃ is a morphism; it does not assume topological continuity on the whole Cremona group. Uniform C independent of f.",
+      "literature_finding": "Author current works list includes later group-action and subgroup results; no universal distortion theorem located. Thesis establishes the dimension3 case, not every target dimension.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "6e90668cfc2b38370092",
+        "381bc0e2f4b4bd8dd745",
+        "a817829cbc2d2be8307e"
+      ],
+      "statement_id": "6e90668cfc2b38370092",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4849,
+      "source_locator": {
+        "label": "Question 2.2.1",
+        "printed_page": 29,
+        "held_pdf_page": 38,
+        "original_extraction_page": 38
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Intermediate degree growth for one birational map",
+      "text": "For a smooth projective d-dimensional variety X over a field k with ample divisor H, define deg_H(f)=(f*H)·H^(d−1) for a birational self-map f. Does some such X,H,f have degree growth intermediate between polynomial and exponential? In particular, can deg_H(fⁿ)∼exp(√n) occur?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical39 / printed30",
+      "locator": {
+        "pdf_page": 39,
+        "printed_page": 30,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "One fixed birational self-map, not a finitely generated group maximum-degree sequence. The displayed exp√n clause is retained as the source example; no claim that it exhausts intermediate growth.",
+      "literature_finding": "Current primary2016 degree-growth paper states Question1. Later author work on constraints and regularization does not supply intermediate single-map construction; fresh exact-intermediate-growth searches located no closure.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "62ccbf5996e121732bc7",
+        "88fe931a54b962894aef"
+      ],
+      "statement_id": "62ccbf5996e121732bc7",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4912,
+      "source_locator": {
+        "label": "Question 2.3.1",
+        "printed_page": 30,
+        "held_pdf_page": 39,
+        "original_extraction_page": 39
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Unbounded sublinear degree growth",
+      "text": "For a smooth projective d-dimensional variety X over a field k with ample divisor H, define deg_H(f)=(f*H)·H^(d−1) for a birational self-map f. Can deg_H(fⁿ) be unbounded yet grow sublinearly, for example deg_H(fⁿ)∼√n? Or must every unbounded sequence of degrees of iterates grow at least linearly?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical39 / printed30",
+      "locator": {
+        "pdf_page": 39,
+        "printed_page": 30,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "Arbitrary field/projective variety as in source; polynomial-automorphism lower bounds in fixed dimension do not settle this general rational-map question. Retains source counterexample-versus-lower-bound alternatives.",
+      "literature_finding": "Primary2016 paperQuestion2 remains the exact target.2020 cube-complex constraints and2024 finite-group boundedness have different scope. No general linear lower bound or sublinear example located in fresh searches.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "d310d5b53e8d2e33a99d",
+        "8c0986cd4606134476bd"
+      ],
+      "statement_id": "d310d5b53e8d2e33a99d",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4935,
+      "source_locator": {
+        "label": "Question 2.3.2",
+        "printed_page": 30,
+        "held_pdf_page": 39,
+        "original_extraction_page": 39
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Dimension-only bound on finite polynomial degree exponents",
+      "text": "For a smooth projective d-dimensional variety X over a field k with ample divisor H, define deg_H(f)=(f*H)·H^(d−1) for a birational self-map f. Put d_pol(f)=limsup_{n→∞} log(deg_H(fⁿ))/log n. For each d, does there exist a finite constant C(d), independent of k,X,H,f, such that d_pol(f)<C(d) whenever dimX=d and d_pol(f)<∞?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical41 / printed32",
+      "locator": {
+        "pdf_page": 41,
+        "printed_page": 32,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "Finite limsup exponent is the source definition, not an assumed exact polynomial asymptotic. All smooth projective varieties and fields; strict inequality as stated.",
+      "literature_finding": "Primary2016 degree-growth Question5 poses this bound. The dimension3 exponent4 example is lower-bound evidence, not a disproof of a dimension-only bound. Current author works and fresh dpol/degree-growth searches found no universal closure.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "06bb34f78f03e6e99897",
+        "a28f17b741e386ef0e5b",
+        "c6a6c4cdb8da92d76ae1"
+      ],
+      "statement_id": "06bb34f78f03e6e99897",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4936,
+      "source_locator": {
+        "label": "Question 2.3.5",
+        "printed_page": 32,
+        "held_pdf_page": 41,
+        "original_extraction_page": 41
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Simple subgroups of small complex projective linear groups",
+      "text": "Classify the abstract simple subgroups of PGL₂(ℂ) and PGL₃(ℂ), allowing infinitely generated subgroups. Beyond finite simple subgroups and PSL₂(k) for subfields k⊆ℂ in the dimension2 case, which other simple groups occur?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical46 / printed37",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": 37,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "Abstract simple subgroups, not merely closed algebraic subgroups or finite subgroups. No finite-generation assumption: finitely generated simple linear groups are finite.",
+      "literature_finding": "Urech2018/2020 simple-Cremona paper reduces its dimension2 birational problem to simple subgroups of PGL₃; this is not a classification of all abstract simple linear subgroups. Current author list and fresh PSL/simple-subgroup searches located no full answer.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "074e2c9e064f11ad797e",
+        "a30c11903c9dd34fab10",
+        "d3923c16f76e7023b841",
+        "9361d8db3f65f0ccf279"
+      ],
+      "statement_id": "074e2c9e064f11ad797e",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4937,
+      "source_locator": {
+        "label": "Question 2.5.1",
+        "printed_page": 37,
+        "held_pdf_page": 46,
+        "original_extraction_page": 46
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Proper infinite simple subgroups of PSL₂(ℚ)",
+      "text": "Classify the simple subgroups of PSL₂(ℚ)=SL₂(ℚ)/{±I}. In particular, does PSL₂(ℚ) contain a proper infinite simple subgroup?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical46 / printed37",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": 37,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "PSL rather than SL is essential. Subgroups may be infinitely generated; known finite-generation residual-finiteness theorem alone does not exclude them.",
+      "literature_finding": "Exact primaryQuestion2.5.2 is retained in thesis; later simple-birational classification does not classify simple subgroups of PSL₂(ℚ). Fresh exactPSL₂(ℚ) search found no resolution.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "5fd3eb6e89c2c42ea683",
+        "5c24474b3ead4dad23fe"
+      ],
+      "statement_id": "5fd3eb6e89c2c42ea683",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4938,
+      "source_locator": {
+        "label": "Question 2.5.2",
+        "printed_page": 37,
+        "held_pdf_page": 46,
+        "original_extraction_page": 46
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Residual finiteness of finitely generated plane Cremona subgroups",
+      "text": "Does Cr₂(ℂ)=Bir(ℙ²_ℂ) have the Malcev property: for every finitely generated subgroup Γ≤Cr₂(ℂ) and every nonidentity γ∈Γ, is there a homomorphism Γ→Q to a finite group Q in which γ has nonidentity image?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical46 / printed37",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": 37,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "Residual finiteness of every finitely generated subgroup; not residual finiteness of the entire Cremona group. Source proves only that its finitely generated simple subgroups are finite.",
+      "literature_finding": "Author current list and fresh Cremona/Malcev/residual-finiteness searches found no all-subgroup theorem or counterexample. Finite/simple subgroup and elliptic-boundedness results do not settle arbitraryΓ.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "34f714b5d95623e72c63"
+      ],
+      "statement_id": "34f714b5d95623e72c63",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4939,
+      "source_locator": {
+        "label": null,
+        "printed_page": 37,
+        "held_pdf_page": 46,
+        "original_extraction_page": 46
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Projective representations extending to Cremona homomorphisms",
+      "text": "For each n, which complex Lie-group homomorphisms ρ:PGL₃(ℂ)→PGLₙ₊₁(ℂ) extend to a group homomorphism Φ:Cr₂(ℂ)→Crₙ(ℂ) whose restriction to the standard PGL₃ subgroup equals ρ?",
+      "subject": "Algebraic Geometry & Birational Dynamics",
+      "citation": "Urech thesis physical168 / printed159",
+      "locator": {
+        "pdf_page": 168,
+        "printed_page": 159,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "scope_review": "Extension homomorphism need not be injective; target representation dimension is n+1 while target Cremona dimension is n. Exact extension, not only projective equivalence.",
+      "literature_finding": "Source summaryQuestion8.0.1 remains distinct from classifying embeddings into dimension3. Current author papers list no full representation-extension classification; fresh author/group-homomorphism searches located no closure.",
+      "status_grade": "B: primary question and bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825 numbered-catalog Cremona/degree-growth/PSL/simple-subgroup family retrieval found no equivalent target; whole28701 corpus source siblings compared, repeated French/English/introduction/chapter/summary occurrences merged.",
+      "statement_ids": [
+        "3925a3da09dc299d7bba"
+      ],
+      "statement_id": "3925a3da09dc299d7bba",
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ],
+      "number": 4940,
+      "source_locator": {
+        "label": "Question 8.0.1 (Section 3.3)",
+        "printed_page": 159,
+        "held_pdf_page": 168,
+        "original_extraction_page": 168
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into6e90668cfc2b38370092.",
+      "locator": {
+        "pdf_page": 38,
+        "printed_page": 29,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "381bc0e2f4b4bd8dd745",
+      "statement_ids": [
+        "381bc0e2f4b4bd8dd745"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into6e90668cfc2b38370092.",
+      "locator": {
+        "pdf_page": 38,
+        "printed_page": 29,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "a817829cbc2d2be8307e",
+      "statement_ids": [
+        "a817829cbc2d2be8307e"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into62ccbf5996e121732bc7.",
+      "locator": {
+        "pdf_page": 39,
+        "printed_page": 30,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "88fe931a54b962894aef",
+      "statement_ids": [
+        "88fe931a54b962894aef"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged intod310d5b53e8d2e33a99d.",
+      "locator": {
+        "pdf_page": 39,
+        "printed_page": 30,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "8c0986cd4606134476bd",
+      "statement_ids": [
+        "8c0986cd4606134476bd"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into06bb34f78f03e6e99897.",
+      "locator": {
+        "pdf_page": 41,
+        "printed_page": 32,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "a28f17b741e386ef0e5b",
+      "statement_ids": [
+        "a28f17b741e386ef0e5b"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into06bb34f78f03e6e99897.",
+      "locator": {
+        "pdf_page": 41,
+        "printed_page": 32,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "c6a6c4cdb8da92d76ae1",
+      "statement_ids": [
+        "c6a6c4cdb8da92d76ae1"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into074e2c9e064f11ad797e.",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": 37,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "a30c11903c9dd34fab10",
+      "statement_ids": [
+        "a30c11903c9dd34fab10"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into074e2c9e064f11ad797e.",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": 37,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "d3923c16f76e7023b841",
+      "statement_ids": [
+        "d3923c16f76e7023b841"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into074e2c9e064f11ad797e.",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": 37,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "9361d8db3f65f0ccf279",
+      "statement_ids": [
+        "9361d8db3f65f0ccf279"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same mathematical target merged into5fd3eb6e89c2c42ea683.",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": 37,
+        "verified_from": "Held PDF actual physical page and footer"
+      },
+      "statement_id": "5c24474b3ead4dad23fe",
+      "statement_ids": [
+        "5c24474b3ead4dad23fe"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Lonjou–Przytycki–Urech2024 JEP theorem proves every finitely generated subgroup consisting of algebraic/elliptic elements has bounded degree.",
+      "locator": {
+        "pdf_page": 130,
+        "printed_page": 121,
+        "verified_from": "Held thesis physical page"
+      },
+      "statement_id": "0310c7fa2156b09f60fe",
+      "statement_ids": [
+        "0310c7fa2156b09f60fe"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Polynomial growth statement omits whether bounded growth is excluded. Translations on simple abelian varieties obstruct a literal bounded-growth interpretation. Do not silently add an unbounded-growth hypothesis.",
+      "locator": {
+        "pdf_page": 40,
+        "printed_page": 31,
+        "verified_from": "Actual question wording physical40"
+      },
+      "statement_id": "9f37b658d7cab0ee3ef4",
+      "statement_ids": [
+        "9f37b658d7cab0ee3ef4"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Polynomial growth statement omits whether bounded growth is excluded. Translations on simple abelian varieties obstruct a literal bounded-growth interpretation. Do not silently add an unbounded-growth hypothesis.",
+      "locator": {
+        "pdf_page": 40,
+        "printed_page": 31,
+        "verified_from": "Actual question wording physical40"
+      },
+      "statement_id": "a8cd8673e53a786ed7f6",
+      "statement_ids": [
+        "a8cd8673e53a786ed7f6"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Polynomial growth statement omits whether bounded growth is excluded. Translations on simple abelian varieties obstruct a literal bounded-growth interpretation. Do not silently add an unbounded-growth hypothesis.",
+      "locator": {
+        "pdf_page": 40,
+        "printed_page": 31,
+        "verified_from": "Actual question wording physical40"
+      },
+      "statement_id": "834a1c921fc19b4b49ac",
+      "statement_ids": [
+        "834a1c921fc19b4b49ac"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Bell–Diller–Jonsson–Krieger2024 birational maps have transcendental dynamical degree; compare exact deg(fⁿ)∼λⁿ asymptotic scope before deciding refutation. Cannot promote obsolete algebraicity claim.",
+      "locator": {
+        "pdf_page": 39,
+        "printed_page": 30,
+        "verified_from": "Held question actual page"
+      },
+      "statement_id": "74453eed132bc0bea079",
+      "statement_ids": [
+        "74453eed132bc0bea079"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Bell–Diller–Jonsson–Krieger2024 birational maps have transcendental dynamical degree; compare exact deg(fⁿ)∼λⁿ asymptotic scope before deciding refutation. Cannot promote obsolete algebraicity claim.",
+      "locator": {
+        "pdf_page": 39,
+        "printed_page": 30,
+        "verified_from": "Held question actual page"
+      },
+      "statement_id": "2a5a41d976a811e3d824",
+      "statement_ids": [
+        "2a5a41d976a811e3d824"
+      ],
+      "source_pdf_sha256": "a8f7ecc77529d481590ce2e1a4ae7d2f61af09e2b616df6168f7d0e13498a422",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://christianurech.github.io/",
+        "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf",
+        "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf",
+        "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/plms.12573"
+      ],
+      "search_topics": [
+        "\"Urech\" \"birational\" \"growth\" intermediate 2025 2026",
+        "\"birational transformations\" \"polynomial growth\" \"fibration\" 2025",
+        "\"Cremona\" \"simple subgroups\" \"PSL2\" 2025 2026",
+        "\"Cremona\" \"elliptic\" \"bounded\" \"Lonjou\"",
+        "\"birational\" \"intermediate growth\" degree 2026",
+        "\"polynomial\" \"dpol\" \"Urech\" 2025",
+        "\"PSL2(Q)\" \"simple\" subgroup Urech",
+        "\"Cremona\" \"Malcev\" \"residually finite\" 2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "statement_id": "bf410cc00ff6947b47d4",
+      "statement_ids": [
+        "bf410cc00ff6947b47d4"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "3f571642f15cb6dbc60e",
+      "statement_ids": [
+        "3f571642f15cb6dbc60e"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "98a360a4f973f9abd12d",
+      "statement_ids": [
+        "98a360a4f973f9abd12d"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "408369c7a673ffe804ec",
+      "statement_ids": [
+        "408369c7a673ffe804ec"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "50ef02d093ef2ef3bec2",
+      "statement_ids": [
+        "50ef02d093ef2ef3bec2"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "6b9bae05f475d9aca9c4",
+      "statement_ids": [
+        "6b9bae05f475d9aca9c4"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "67b92dddca0439be19f5",
+      "statement_ids": [
+        "67b92dddca0439be19f5"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "82e80fc486a8bf325f52",
+      "statement_ids": [
+        "82e80fc486a8bf325f52"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "0fe0f28527e2e88a7d15",
+      "statement_ids": [
+        "0fe0f28527e2e88a7d15"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "fd59d1979d5a37943225",
+      "statement_ids": [
+        "fd59d1979d5a37943225"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "38fbedf6673879c7cbe3",
+      "statement_ids": [
+        "38fbedf6673879c7cbe3"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "d311de4b59a7b79654e3",
+      "statement_ids": [
+        "d311de4b59a7b79654e3"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "21fa5736e3b5600e7c5a",
+      "statement_ids": [
+        "21fa5736e3b5600e7c5a"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "a37c5cc4f402688ad979",
+      "statement_ids": [
+        "a37c5cc4f402688ad979"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "a4979179f32ead25949f",
+      "statement_ids": [
+        "a4979179f32ead25949f"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "d385fdfd1b50e488af93",
+      "statement_ids": [
+        "d385fdfd1b50e488af93"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "1d0a49d3f1c998988e08",
+      "statement_ids": [
+        "1d0a49d3f1c998988e08"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "45e856ab69dcaf0f1684",
+      "statement_ids": [
+        "45e856ab69dcaf0f1684"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Urech",
+      "Cremona",
+      "degree.growth",
+      "dynamical.degree",
+      "PSL.?2.?Q",
+      "simple.subgroup",
+      "Malcev"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}
