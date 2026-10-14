@@ -1,0 +1,496 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102956705",
+  "source_review_notes": [
+    "Three recommendations: one original graph-distance clause isolated, one full SLE range despite known partials, and the internal-distance threshold. Five excluded/held records.",
+    "HeldMITPDF470 pages; printed=physical. Read49,353–355,360–365 and454–455 plus counterpart graph/adjoining formula and fresh sources.",
+    "The general universality remainder of6.1.2 is explicitly preserved unpromoted; diffusion clause is recorded as solved. No new catalog number assigned.",
+    "Newest directed distances, Brownian graph removability and Liouville metric construction are not confused with these targets."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Ewain Gwynne\" papers2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Gwynne\" \"Conjecture 1.6.2\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Gwynne\" \"On the metric structure\" open problems"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "SLE conformal removability kappa4 8 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Ewain Gwynne\" homepage"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"strong coupling\" \"hamburger-cheeseburger\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "SLE conformal removability Miller Schoug2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"SLE\" \"removable\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Gwynne\" \"strong coupling\" \"inventory\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Gessel walk\" \"Ising\" bijection planar maps"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://math.uchicago.edu/~ewain/",
+      "sections_read": "Complete current author works, including September2026 directed-distance results."
+    },
+    {
+      "url": "https://arxiv.org/html/2302.10857v2",
+      "sections_read": "LatestMay5,2026v2 Theorem1.1, setK, explicit remaining connectivity parameter problem."
+    },
+    {
+      "url": "https://arxiv.org/abs/2209.10532",
+      "sections_read": "Exactκ=4 removability result, a partial of full source range."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1910.04946",
+      "sections_read": "Theorem1.1 actualGHPU limit, all three triangulation types."
+    },
+    {
+      "url": "https://arxiv.org/abs/2003.10320",
+      "sections_read": "Parametrized quenched random-walk limit, not graph metric convergence."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1606.01214",
+      "sections_read": "Conjectures1.2/1.13 and graph definition(1.3); segment-restricted diameter exponent."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1910.04713",
+      "sections_read": "Metric existence versus graph convergence;§5.2 distance dimension/ambient comparisons, notχ threshold."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1711.00723",
+      "sections_read": "Question4.1/4.2 counterpart and iid strong-coupling scope."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/Q102956705.pdf",
+    "sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+    "physical_pages": 470
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "2359b7093c8355158f1acc3b1023ea7cde16b90cf14143abe51f84d9dcbaca83",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Conformal removability throughout the non-space-filling SLE range",
+      "text": "For every κ∈[4,8), is the range of chordal SLE_κ almost surely conformally removable? In the standard upper-half-plane realization from0 to∞, this means that every homeomorphism of the Riemann sphere that is conformal off the trace (including its endpoints) is a Möbius transformation.",
+      "subject": "Probability & Random Geometry",
+      "citation": "Problem1.3.4, printed/physical49",
+      "locator": {
+        "printed_page": 49,
+        "pdf_page": 49,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "scope_review": "Keeps the full parameter range, with provedκ=4 and known nonempty subinterval disclosed. Conformal removability is different from recovering an LQG metric by geodesic gluing. No conclusion aboutκ≥8.",
+      "literature_finding": "Kavvadias–Miller–Schoug provesκ=4. ItsMay2026v2 non-simple theorem assumesκ belongs to the setK with connected complementary-component adjacency graph; the paper explicitly says determiningK remains open. This is not a theorem for everyκ∈(4,8). No later full-range result located.",
+      "status_grade": "B: exact residual source scope, current primary partial results distinguished; not certified openness from absence",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog author/LQG/SLE retrieval found Q37 (LQG geodesic metric removability), Q2497 (SLE visit ordering), Q2895–2897 (Liouville spectral asymptotics), and first-batch LQG questions. None asserts this conformal-removability/graph-metric/exponent target.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2209.10532",
+        "https://arxiv.org/html/2302.10857v2",
+        "https://math.uchicago.edu/~ewain/"
+      ],
+      "statement_id": "2950144e2ff8f15d1fbe",
+      "statement_ids": [
+        "2950144e2ff8f15d1fbe"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ],
+      "number": 4862,
+      "source_locator": {
+        "label": "Problem 1.3.4",
+        "printed_page": 49,
+        "held_pdf_page": 49,
+        "original_extraction_page": 49
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Graph-distance scaling limits of mated-CRT maps",
+      "text": "For γ∈(0,2), let (L,R) be a two-sided Brownian motion with unit coordinate variances and correlation−cos(πγ²/4). For ε>0 define G^ε on εℤ: for x<y add an edge if max(inf_{[x−ε,x]}L,inf_{[y−ε,y]}L)≤inf_{[x,y−ε]}L, or if the same inequality holds for R. Do there exist deterministic normalizing constants a_ε>0 such that the rooted graph metric spaces (G^ε,a_ε d_graph,0), in the peanosphere coupling, converge in probability in the local pointed Gromov–Hausdorff topology to the γ-LQG quantum-cone metric space rooted at its marked point as ε→0?",
+      "subject": "Probability & Random Geometry",
+      "citation": "Conjecture6.1.2, first metric clause, printed/physical361",
+      "locator": {
+        "printed_page": 361,
+        "pdf_page": 361,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "scope_review": "Promotes only the exact first graph-metric clause. For the infinite whole-plane graph, local pointedGH spells out the noncompact convention. Distances are ambient graph distances, not distances restricted to the segment(0,1], which have a different exponent. Known continuum metric existence is not graph-distance convergence.",
+      "literature_finding": "The intrinsicγ-LQG metric has now been constructed, but the mating-of-trees survey distinguishes this from convergence of graph distances. Berestycki–Gwynne proves parametrized random-walk convergence, settling the diffusion clause, not graph-metric convergence. The author current2026 list includes directed-distance results, a different metric problem.",
+      "status_grade": "B: exact residual source scope, current primary partial results distinguished; not certified openness from absence",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog author/LQG/SLE retrieval found Q37 (LQG geodesic metric removability), Q2497 (SLE visit ordering), Q2895–2897 (Liouville spectral asymptotics), and first-batch LQG questions. None asserts this conformal-removability/graph-metric/exponent target.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1606.01214",
+        "https://arxiv.org/pdf/1910.04713",
+        "https://arxiv.org/abs/1905.00383",
+        "https://arxiv.org/abs/2003.10320",
+        "https://math.uchicago.edu/~ewain/"
+      ],
+      "promoted_clause": "First clause: appropriately normalized graph distances of mated-CRT structure graphs converge toγ-LQG metric.",
+      "unpromoted_remainder": {
+        "clauses": [
+          "Universality over any planar-map model having the same peanosphere limit; the admissible model class needs more precise hypotheses."
+        ],
+        "already_closed_clauses": [
+          "Parametrized mated-CRT random-walk convergence to Liouville Brownian motion,2003.10320."
+        ]
+      },
+      "statement_id": "46a0c72ba17c5b98cac5",
+      "statement_ids": [
+        "46a0c72ba17c5b98cac5"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ],
+      "number": 4863,
+      "source_locator": {
+        "label": "Conjecture 6.1.2",
+        "printed_page": 361,
+        "held_pdf_page": 361,
+        "original_extraction_page": 361
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Internal mated-CRT diameter exponent agrees with reciprocal LQG dimension",
+      "text": "For γ∈(0,2), let (L,R) be a two-sided Brownian motion with unit coordinate variances and correlation−cos(πγ²/4). For ε>0 define G^ε on εℤ: for x<y add an edge if max(inf_{[x−ε,x]}L,inf_{[y−ε,y]}L)≤inf_{[x,y−ε]}L, or if the same inequality holds for R. Let χ(γ)=lim_{ε↓0}log E[diam(G^ε|(0,1])]/log ε⁻¹, where the diameter uses distances in the induced subgraph onεℤ∩(0,1]; this limit is known to exist. Let d_γ be the almost-sure Hausdorff dimension of theγ-LQG metric. Is there some γ_*∈(√2,√(8/3)] such that χ(γ)=1/d_γ for every0<γ≤γ_*?",
+      "subject": "Probability & Random Geometry",
+      "citation": "Conjecture6.1.13, printed/physical364",
+      "locator": {
+        "printed_page": 364,
+        "pdf_page": 364,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "scope_review": "Preserves the strict lower boundγ_*>√2 and the quantifier for every smallerγ, not onlyγ→0. Uses the actual known metric dimension, not the conjectural Watabiki formula. Internal and ambient graph distances are not interchanged.",
+      "literature_finding": "Counterpart Conjecture1.13 retains this threshold statement. Later LQG metric existence and metric-dimension comparisons give meaning to d_γ and ambient graph-distance exponents, but do not identify the segment-restrictedχ throughout the proposed range. Current directed-distance work is not an identified closure.",
+      "status_grade": "B: exact residual source scope, current primary partial results distinguished; not certified openness from absence",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog author/LQG/SLE retrieval found Q37 (LQG geodesic metric removability), Q2497 (SLE visit ordering), Q2895–2897 (Liouville spectral asymptotics), and first-batch LQG questions. None asserts this conformal-removability/graph-metric/exponent target.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1606.01214",
+        "https://arxiv.org/pdf/1910.04713",
+        "https://arxiv.org/abs/1905.00383",
+        "https://math.uchicago.edu/~ewain/"
+      ],
+      "statement_id": "a1ef7698b56e51ad70a7",
+      "statement_ids": [
+        "a1ef7698b56e51ad70a7"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ],
+      "number": 4864,
+      "source_locator": {
+        "label": "Conjecture 6.1.13",
+        "printed_page": 364,
+        "held_pdf_page": 364,
+        "original_extraction_page": 364
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "citation": "Problem1.3.3",
+      "locator": {
+        "printed_page": 49,
+        "pdf_page": 49,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "reason": "Broad scaling-limit questions forLERW/UST/Ising interfaces on uniform maps do not specify conditioning, map family, topology or parametrization. Many subsequent individual convergence theorems exist; no fabricated universal interface target.",
+      "primary_urls": [
+        "https://math.uchicago.edu/~ewain/",
+        "https://arxiv.org/pdf/1910.04713"
+      ],
+      "statement_id": "bc693a14a76f4980bae4",
+      "statement_ids": [
+        "bc693a14a76f4980bae4"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Conjecture5.8.2",
+      "locator": {
+        "printed_page": 353,
+        "pdf_page": 353,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "reason": "Albenque–Holden–Sun, EJP2020, Theorem1.1 provesGHPU convergence of all typesI/II/III simple-boundary Boltzmann triangulations to the Brownian disk, including area/boundary parametrization. Degree-weighted and counting measures differ by the standard constant/vanishing boundary correction; the missing underlying convergence premise is supplied.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1910.04946"
+      ],
+      "statement_id": "eec93eb1dabf39e4775e",
+      "statement_ids": [
+        "eec93eb1dabf39e4775e"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "citation": "Misparsed Conjecture5.8 continuation",
+      "locator": {
+        "printed_page": 354,
+        "pdf_page": 354,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "reason": "This is the concluding conditional clause of Theorem5.8.3, not a second conjecture. Its underlying triangulation convergence premise has since been proved by1910.04946.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1910.04946"
+      ],
+      "statement_id": "6e47e1069be8fc6d30e8",
+      "statement_ids": [
+        "6e47e1069be8fc6d30e8"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question7.4.1",
+      "locator": {
+        "printed_page": 455,
+        "pdf_page": 455,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "reason": "A KMT analogue is proposed for two non-Markovian inventory encodings. The exact approximation rate/tail and whether coupling is finite-horizon or one infinite coupling are not fixed by the short question. The source iid comparison uses polylogarithmic errors, but assigning a universal O(log n), all-polynomial-tail contract would silently strengthen this broad analogue. Hold until a precise rate and complete generalized-inventory model are attached.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1711.00723",
+        "https://math.uchicago.edu/~ewain/"
+      ],
+      "statement_id": "b0477abc242d4a1a1f24",
+      "statement_ids": [
+        "b0477abc242d4a1a1f24"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question7.4.2",
+      "locator": {
+        "printed_page": 455,
+        "pdf_page": 455,
+        "verified_from": "Actual heldMIT470-page PDF footer and physical page coincide."
+      },
+      "reason": "Other models with iid mating-of-trees encodings is an open-ended classification programme; “a variant of Ising” does not fix the map ensemble and weighting. Gessel walk is only a proposed candidate, not a theorem specifying a unique decorated-map distribution.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1711.00723",
+        "https://arxiv.org/pdf/1910.04713",
+        "https://math.uchicago.edu/~ewain/"
+      ],
+      "statement_id": "8bab9f4b18fdc26cf3ee",
+      "statement_ids": [
+        "8bab9f4b18fdc26cf3ee"
+      ],
+      "source_pdf_sha256": "18dd650e9f6513d091e542365e87fafeddaab4000d1fac3b792b7c6fac15c823",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Ewain Gwynne\" papers2026",
+        "\"Gwynne\" \"Conjecture 1.6.2\"",
+        "\"Gwynne\" \"On the metric structure\" open problems",
+        "SLE conformal removability kappa4 8 2026",
+        "\"Ewain Gwynne\" homepage",
+        "\"Brownian disk\" \"triangulations\" \"simple boundary\" convergence",
+        "\"strong coupling\" \"hamburger-cheeseburger\"2026",
+        "SLE conformal removability Miller Schoug2026",
+        "\"SLE\" \"removable\" \"2026\"",
+        "\"Gwynne\" \"mated-CRT\" \"Liouville Brownian motion\"2026",
+        "\"Gwynne\" \"strong coupling\" \"inventory\"",
+        "\"Conformal removability\" SLE \"2026\" Miller -site:researchgate.net",
+        "\"distance exponent\" \"mated-CRT\" \"chi\" \"2026\"",
+        "\"hamburger-cheeseburger\" \"strong coupling\" Brownian logarithmic",
+        "\"Gessel walk\" \"Ising\" bijection planar maps"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Gwynne",
+      "Liouville",
+      "LQG",
+      "SLE",
+      "Brownian disk",
+      "mated.CRT"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

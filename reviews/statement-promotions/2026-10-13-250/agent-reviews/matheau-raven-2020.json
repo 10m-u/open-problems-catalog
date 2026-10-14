@@ -1,0 +1,409 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q135087481",
+  "source_review_notes": [
+    "No silent repair of Conjecture 3.6.22. Corpusal sibling prose merged only when exact mathematical target is established; generic abstract joining several targets remains available."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Matheau Raven biased one sided transposition shuffles cutoff 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"one-sided transposition\" \"separation\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"one-sided transposition\" \"separation\" \"2025\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2211.10462v2",
+      "sections": "Introduction and Theorem 6.9: unbiased cutoff, closed branching conjecture, remaining biased targets; beware swapped spectral labels."
+    },
+    {
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+      "sections": "Theorem 17 and §4: power-bias total variation on symmetric group, not positive-bias separation."
+    },
+    {
+      "url": "https://arxiv.org/pdf/math/0006118",
+      "sections": "§3.7 probability Q (mutually inverse colours), Theorems 3.7.4/3.7.6 and r=2 paired-flips comparison; different from same-colour updates for r>2."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/collections-bdf8fbc8ec502e63.pdf",
+    "sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+    "physical_pages": 154
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "e955534a8bcb3443cdc79be72ec5a37a4c30bb07896967617cf6b60523fb626f",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Power-biased one-sided transposition cutoff on generalized symmetric groups",
+      "text": "For each fixed integer r≥1, let G_{r,n}=(Z/r)^n⋊S_n and start at the identity. Write ξ_j for adding one unit of colour at position j. At each step independently choose j with probability j^α/N_α(n), i uniformly from {1,…,j}, and k uniformly from Z/r. For i<j multiply by ξ_i^k ξ_j^k(ij); for i=j multiply by ξ_j^k, so the coincident position is coloured once. For a fixed real α, put N_α(n)=Σ_{j=1}^n j^α and t_{n,α}=N_α(n)/n^α when α≤1, and t_{n,α}=N_α(n)/N_{α−1}(n) when α≥1 (the formulas agree at α=1). Let μ_{n,t} be the law after t steps and π_{r,n} the uniform law; define d_n^{TV}(t)=½Σ_{σ∈G_{r,n}}|μ_{n,t}(σ)−π_{r,n}(σ)|. For a distance d_n(t) from the uniform distribution, cutoff at a_n means that for each ε∈(0,1), d_n(⌊(1−ε)a_n⌋)→1 and d_n(⌈(1+ε)a_n⌉)→0 as n→∞. For every fixed r≥1 and fixed α∈R, does this shuffle have total variation cutoff at a_n=t_{n,α}log n?",
+      "locator": {
+        "pdf_page": 150,
+        "printed_page": 138,
+        "label": "Conjecture 4.5.8"
+      },
+      "citation": "Conjecture 4.5.8, held PDF p. 150, printed p. 138; process physical 149–151.",
+      "subject": "Probability & Statistics",
+      "scope_review": "Read held PDF definitions 3.6.1, 4.4.1 and 4.5.1, source time convention in Theorem 3.6.6, and the full statements and adjacent proofs of Conjectures 3.7.9, 4.4.4, 4.5.8. α is fixed independently of n, and the weight function is position-only. The shuffle starts at the identity; uniform is stationary. The positive-α separation target differs from total variation. The hyperoctahedral and all-fixed-r total variation questions are related as special case/generalization, not equivalent full scopes. The source uses the same colour k at both distinct positions, and one update for coincident positions as its Thm 4.5.9 proof states. Do not replace k at the second position by −k; that would agree for r=2 but give a different chain for r>2. r is fixed, not allowed to grow with n.",
+      "duplicate_review": "No numbered full target found. The r=1 power-bias theorem and r=2 α≤0 theorem are known; r=2 all-α limsup bound is a related recommendation, not identical to this full all-r ratio-cutoff target.",
+      "literature_finding": "Deng–Tan February 2024 proves unbiased fixed-r cutoff and explicitly leaves power-biased cutoff conjectural; its introduction has swapped labels for the two spectral conjectures, so exact source labels control this packet. No exact later resolution was found in current primary retrieval.",
+      "status_grade": "explicit_source_conjecture_with_current_partial_result_comparison",
+      "statement_id": "85e9e86496244cbfcde0",
+      "statement_ids": [
+        "85e9e86496244cbfcde0"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ],
+      "number": 4953,
+      "source_locator": {
+        "label": "Conjecture 4.5.8",
+        "printed_page": 138,
+        "held_pdf_page": 150,
+        "original_extraction_page": 150
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "statement_ids": [
+        "7c7b42962c3bf0ef877d",
+        "329517f3aa47354c902f"
+      ],
+      "duplicate_of": [
+        1290
+      ],
+      "locator": {
+        "pdf_page": 115,
+        "printed_page": 103,
+        "label": "Conjecture 3.7.9"
+      },
+      "reason": "Matheau-Raven: same positive-alpha separation cutoff. Adding the known alpha=1 case is not a new open target.",
+      "statement_id": "7c7b42962c3bf0ef877d",
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "statement_ids": [
+        "d750a48c7c5e5b5e3b6d",
+        "fbb770feb674150db896"
+      ],
+      "duplicate_of": [
+        1291
+      ],
+      "locator": {
+        "pdf_page": 143,
+        "printed_page": 131,
+        "label": "Conjecture 4.4.4"
+      },
+      "reason": "Matheau-Raven: same source Conjecture 4.4.4 signed-shuffle cutoff. Expanding its displayed source bound and adding known alpha=0 does not create a distinct promoted source question.",
+      "statement_id": "d750a48c7c5e5b5e3b6d",
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "pdf_page": 108,
+        "printed_page": 96
+      },
+      "reason": "Monotonicity alone allows very irregular weights, such as exponential decay, for which the claimed log n scale needs checking. A matching lower bound is not proved by the source. Do not promote as currently open without auditing possible elementary counterexamples or required regularity.",
+      "statement_id": "7bd6c78f1fd5823e6db4",
+      "statement_ids": [
+        "7bd6c78f1fd5823e6db4"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "pdf_page": 109,
+        "printed_page": 97
+      },
+      "reason": "Actual held PDF says decreasing in the conjecture while its entire preceding discussion says increasing, and adds a factor n absent from the nearby target time. Literal w(j)=j gives an n-too-large scale. Do not silently correct both author-level inconsistencies into a new question.",
+      "statement_id": "3681fc0c7807ff2f19ca",
+      "statement_ids": [
+        "3681fc0c7807ff2f19ca"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "pdf_page": 133,
+        "printed_page": 121
+      },
+      "reason": "Schoolfield 2000 paired flips has the exact r=2 process and continuous-time upper cutoff at (n/2)log n. Need a complete discrete/continuous comparison and the source displayed liminf convention before deciding terminal status; likely old closure, not a new question.",
+      "statement_id": "86184264b2c0581e9632",
+      "statement_ids": [
+        "86184264b2c0581e9632"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "pdf_page": 150,
+        "printed_page": 138
+      },
+      "reason": "The method requirement “described by lifting eigenvectors” lacks a specified admissible class of lifts/formula. A spectral computation can be stated precisely after reconstructing the operator identities, but this bounded pass does not supply that reconstruction. Schoolfield’s inverse-paired process also differs from source same-colour process for r>2.",
+      "statement_id": "878fdbc818868e68e752",
+      "statement_ids": [
+        "878fdbc818868e68e752"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "pdf_page": 150,
+        "printed_page": 138
+      },
+      "reason": "The qualitative lifting-eigenvector claim needs the full operator class/recursive identities to define a falsifiable target; retain until that scope is reconstructed.",
+      "statement_id": "ee0c671421feccd276b4",
+      "statement_ids": [
+        "ee0c671421feccd276b4"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "locator": {
+        "pdf_page": 150,
+        "printed_page": 138
+      },
+      "reason": "Schoolfield inverse-paired updates give old closure for r=2 but differ for r>2 from same-colour source process. Need exact process and discrete/continuous closure comparison before promotion.",
+      "statement_id": "f2e6f24bc07dd75b0d1d",
+      "statement_ids": [
+        "f2e6f24bc07dd75b0d1d"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2",
+        "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf",
+        "https://arxiv.org/pdf/math/0006118"
+      ],
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "locator": {
+        "pdf_page": 149,
+        "printed_page": 137,
+        "label": "Conjecture 4.5.4"
+      },
+      "reason": "Deng–Tan 2024, Theorem 1.2 and §6.1.3 Theorem 6.9 prove the branching rules. The smaller G_{r,n} inclusion follows by summing the G_{r,1} character factor; not promoted as open.",
+      "primary_urls": [
+        "https://arxiv.org/html/2211.10462v2"
+      ],
+      "statement_id": "47df1e23f7f8b813581e",
+      "statement_ids": [
+        "47df1e23f7f8b813581e"
+      ],
+      "source_pdf_sha256": "c8b3fc7d6f3e6d215b33bcd6d0dc7982f4aefae70c54a64a3b972e42ceecb3ca",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "search_topics": [
+        "Matheau Raven biased one sided transposition shuffles cutoff 2026",
+        "one sided transposition shuffle weight monotonic cutoff wreath product separation distance conjecture",
+        "\"one-sided transposition\" \"separation\" \"2026\"",
+        "\"one-sided transposition\" \"separation\" \"2025\"",
+        "\"random transposition\" \"generalized symmetric\" cutoff Schoolfield",
+        "\"biased\" \"one-sided\" \"hyperoctahedral\" cutoff 2026 2025",
+        "\"one-sided transposition\" \"generalized\" \"biased\" site:arxiv.org 2025 2026",
+        "\"one-sided transposition\" \"separation distance\" site:arxiv.org"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4934,
+    "catalog_sha256": "b2e0902d657ff2d1412d0df1b0f23166228aebdf1b6a66c045de7ef0b6fa9c9f",
+    "corpus_count": 28701,
+    "corpus_sha256": "fba2e98f53e5ab3afdad43cb4b78ad0229f0f15f61818d11a62b3871bdb0b4c5",
+    "additional_regex_queries": [
+      "one.sided transposition",
+      "\\bOST(?:n|_)",
+      "generalised symmetric",
+      "generalized symmetric",
+      "Matheau.Raven",
+      "hyperoctahedral.{0,45}shuffle"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

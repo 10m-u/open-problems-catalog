@@ -1,0 +1,875 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102436048",
+  "source_metadata": {
+    "author": "Aglaia Myropolska",
+    "title": "On AutFn action on group presentations",
+    "year": "2015",
+    "thesis_key": "Q102436048",
+    "record": "https://archive-ouverte.unige.ch/unige:73187",
+    "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+  },
+  "source_review_notes": [
+    "All actual source definitions and explicit question contexts were read. The literal rigid-stabilizer branch condition is recorded without an added transitivity assumption. The centre-by-metabelian item is excluded after the coordinator found an exact negative answer in Kofinas Remark 1(1). Quotient count growth is explicitly unbounded rather than strict stepwise increase. Source repetitions merge. Subject/citation/source metadata and live global neighbors included. Recommendations still require coordinator audit before numbering."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Nielsen graph first Grigorchuk connected triples2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Gupta Sidki finite quotients number Nielsen classes unbounded"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Gupta Sidki word growth intermediate2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "MN all maximal subgroups normal exponential growth"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "maximal subgroups torsion branch groups2026classification"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "free centre by metabelian groups all automorphisms tame rank4"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Wiegold finite groups rank plus one Nielsen connectivity2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://archive-ouverte.unige.ch/unige:73187",
+      "finding": "Actual held cover/title and 2015 year verified. Nielsen moves/rank/source tree actions at physical 14–16,26–31; question contexts at physical 16,19,33,35,51,56,80–81."
+    },
+    {
+      "url": "https://ems.press/content/serial-article-files/29713?nt=1",
+      "finding": "Myropolska–Nagnibeda primary describes Nielsen graphs and transitivity/nonamenability. Source statements in this packet distinguish rank Nielsen classes from Andrews–Curtis classes, abstract group automorphisms, and graph expansion."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1509.08090",
+      "finding": "Myropolska primary structural characterizations of MN and examples; [G,G]≤Φ(G), all finite quotients nilpotent, and solvable/linear cases do not construct an exponential-growth group in the full MN class."
+    },
+    {
+      "url": "https://arxiv.org/html/2410.06783v1",
+      "finding": "Current 2026 published GGD primary provides criteria for certain constant spinal torsion groups to have only finite-index maximal subgroups, and examples outside that class. This is proper partial classification, not all finitely generated branch groups. Torsion does not alone characterize the class."
+    },
+    {
+      "url": "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+      "finding": "Current 2026 primary derived-series/Frattini structure of GGS groups. It mentions a family containing some intermediate-growth examples, not proof that the specific Gupta–Sidki recursion below has intermediate word growth for all odd primes."
+    },
+    {
+      "url": "https://lup.lub.lu.se/student-papers/record/9250187",
+      "finding": "2026 primary thesis abstract read: generalizes infinite Nielsen classes of torsion GGS generating pairs and counts Andrews–Curtis classes for nonconstant defining vectors. Those results differ from first Grigorchuk generating triples and the finite-level Gupta–Sidki Nielsen-class count sequence."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+      "finding": "Kofinas (2024), Remark 1(1), explicitly identifies the exact centre-by-metabelian group G_(n,1)=F_n/[F_n″,F_n] and states that its extra automorphism is non-tame for every n≥4, citing reference [5], Bryant–Gupta–Levin–Mochizuki (1990). This negatively answers the source tameness question. The k≥2 main theorem concerns another family and is not needed for this closure."
+    },
+    {
+      "url": "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+      "finding": "2025/2026 primary small-Ree Wiegold result is a proper finite simple-family result. It does not prove connectivity for every finite G and n≥d(G)+1. Wiegold normal-rank/perfect-group results have a different predicate."
+    },
+    {
+      "url": "https://arxiv.org/abs/2009.05134",
+      "finding": "Nitsche primary proves property(T) for Aut(F4); higher ranks were already proved by Kaluba–Nowak–Ozawa/Kielak. Historical source property(T) question is solved and excluded; no new Nielsen target is invented from that historical sentence."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q102436048.pdf",
+    "sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+    "physical_pages": 96
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "3deb591cbb209e3bc375707ec825d910c2379d0da48914183fd1156105ac440d",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Finite-group Nielsen connectivity with one extra generator",
+      "text": "For a group G and n≥d(G), where d(G) is the minimum size of a generating set, let N_n(G) have vertices all ordered generating n-tuples. Join tuples related by inversion of an entry or by replacing g_i with g_i g_j^{±1} or g_j^{±1}g_i for i≠j. Its connected components are Nielsen-equivalence classes, equivalently the orbits of precomposition by Aut(F_n) on epimorphisms F_n→G. For every finite group G and every integer n≥d(G)+1, is N_n(G) connected?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 16,
+        "printed_page": "3",
+        "label": "Unlabelled stronger Wiegold question"
+      },
+      "scope_review": "Actual physical 14–16 fixes ordered tuples and elementary left/right Nielsen moves. Rank means minimum generating cardinality; no simple/solvable restriction. Standard tuple permutations are generated by source moves, so adding them would not change connectivity.",
+      "literature_finding": "Current small-Ree/simple-group Wiegold progress is a proper subfamily. No all-finite-group rank-plus-one answer found in dated primary scan; normal-generation Wiegold problem is different.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live word/character neighbors, source-author/title/URL manifest aliases and whole-corpus source siblings manually compared; no exact full target found. Source repetitions merged without separate numbering; scores are retrieval only. Q1411 concerns the finite generating graph on individual nonisolated elements, not Nielsen moves on ordered generating tuples. Q1303 concerns placement of minimal generators among maximal subgroups. Q2321 and Q4869 concern different free-group automorphism predicates.",
+      "statement_id": "8a4d5404a9b23dc133d3",
+      "statement_ids": [
+        "8a4d5404a9b23dc133d3"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled stronger Wiegold question, printed p. 3; physical PDF p. 16.",
+      "number": 5036,
+      "source_locator": {
+        "label": null,
+        "printed_page": "3",
+        "held_pdf_page": 16,
+        "original_extraction_page": 16
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Nielsen connectivity of generating triples of the first Grigorchuk group",
+      "text": "For a group G and n≥d(G), where d(G) is the minimum size of a generating set, let N_n(G) have vertices all ordered generating n-tuples. Join tuples related by inversion of an entry or by replacing g_i with g_i g_j^{±1} or g_j^{±1}g_i for i≠j. Its connected components are Nielsen-equivalence classes, equivalently the orbits of precomposition by Aut(F_n) on epimorphisms F_n→G. Let Γ=⟨a,b,c,d⟩ act on the rooted binary tree {0,1}*, with a swapping the two first subtrees and acting trivially below them, b=(a,c), c=(a,d), d=(1,b). Here (u,v) fixes the first letter and acts by u or v on the corresponding subtree, and 1 is the identity. Is N₃(Γ) connected?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 19,
+        "printed_page": "6",
+        "label": "Unlabelled first-Grigorchuk question; repeated Chapter 6"
+      },
+      "scope_review": "Actual physical 30 recursive generators and physical 19/62/80 rank-3 question read. Source Andrews–Curtis generating triples are already connected, but those permit independent group conjugations beyond Nielsen moves; no equivalence is assumed.",
+      "literature_finding": "Current2026 GGS primary studies generating pairs and Andrews–Curtis classes, not this rank-3 Nielsen question for Γ. No exact triple-connectivity answer found.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live word/character neighbors, source-author/title/URL manifest aliases and whole-corpus source siblings manually compared; no exact full target found. Source repetitions merged without separate numbering; scores are retrieval only. Q2829 concerns the same first Grigorchuk group but asks for its Dehn spectrum, not connectivity of generating triples. Q2711 concerns regular-language images. Q4994 concerns automorphisms of a transitive graph, and Q4921 concerns normal generation of a relation.",
+      "statement_ids": [
+        "fa6d7710bab79743f0b2",
+        "de5fd2f1bb5162b0bc51",
+        "df2072cbc93a3448089f"
+      ],
+      "statement_id": "fa6d7710bab79743f0b2",
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled first-Grigorchuk question; repeated Chapter 6, printed p. 6; physical PDF p. 19.",
+      "number": 5037,
+      "source_locator": {
+        "label": null,
+        "printed_page": "6",
+        "held_pdf_page": 19,
+        "original_extraction_page": 19
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Finite-index maximal subgroups in branch groups",
+      "text": "For d≥2 let T_d be the rooted tree of all finite words in {1,…,d}, with an edge from w to wi. A subgroup G≤Aut(T_d) acts faithfully. For a vertex v let rist_G(v) consist of automorphisms that fix every vertex outside the subtree beginning with v; let rist_G(m) be the subgroup generated by rist_G(v) for all length-m vertices. Characterize the finitely generated groups G in the source branch class [G:rist_G(m)]<∞ for every m≥0 for which every maximal proper subgroup of G has finite index. A maximal proper subgroup M<G means there is no subgroup strictly between M and G. The characterization should cover arbitrary such G and d, not only a particular spinal recursion.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 33,
+        "printed_page": "20",
+        "label": "Unlabelled maximal-subgroup classification; repeated physical 35"
+      },
+      "scope_review": "Actual physical 26–27 source branch definition is explicitly the finite-index rigid-level condition on a regular rooted tree; it does not separately state level transitivity. Standalone uses exactly that condition rather than silently adding standard level-transitivity/self-similarity/periodicity assumptions. If coordinator requires the conventional transitive branch class instead, this is a scope hold until contextual convention is verified.",
+      "literature_finding": "2026 GGD criteria treat specific spinal groups and provide torsion groups both inside and outside MF. They do not classify every finitely generated source branch group.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live word/character neighbors, source-author/title/URL manifest aliases and whole-corpus source siblings manually compared; no exact full target found. Source repetitions merged without separate numbering; scores are retrieval only. Q1303 concerns generators contained in maximal subgroups rather than classification of groups whose every maximal subgroup has finite index. Q4839 concerns rational subsets, Q4870 free-by-cyclic separability, and Q4830 geodesic growth. No matched source alias supplies the present classification.",
+      "statement_ids": [
+        "fb73e7a9bab2d8d267be",
+        "ba414c10ecee53d4eb90"
+      ],
+      "statement_id": "fb73e7a9bab2d8d267be",
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled maximal-subgroup classification; repeated physical 35, printed p. 20; physical PDF p. 33.",
+      "number": 5038,
+      "source_locator": {
+        "label": null,
+        "printed_page": "20",
+        "held_pdf_page": 33,
+        "original_extraction_page": 33
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Growth of Nielsen-class counts in finite Gupta–Sidki quotients",
+      "text": "For a group G and n≥d(G), where d(G) is the minimum size of a generating set, let N_n(G) have vertices all ordered generating n-tuples. Join tuples related by inversion of an entry or by replacing g_i with g_i g_j^{±1} or g_j^{±1}g_i for i≠j. Its connected components are Nielsen-equivalence classes, equivalently the orbits of precomposition by Aut(F_n) on epimorphisms F_n→G. For an odd prime p let G_p=⟨x,y⟩≤Aut(T_p), where T_p is the rooted tree {1,…,p}*. Let x cyclically permute the first letters 1,…,p and act trivially below them, and let y fix first letters with sections (x,x⁻¹,1,…,1,y). For p=3 this list is (x,x⁻¹,y). Let St_{G_p}(m) be the subgroup fixing every word of length m. For m≥1 put H_m=G₃/St_{G₃}(m+3), and let c_m be the number of connected components of N₂(H_m). Does c_m→∞ as m→∞?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 51,
+        "printed_page": "38",
+        "label": "Unlabelled finite-quotient Nielsen count question"
+      },
+      "scope_review": "Actual physical 51 defines H_m with level m+3 and asks whether the number grows with m. The following sentence says a positive answer would imply infinitely many classes in G₃; unbounded growth is the disclosed interpretation, not strict increase at every successive level or merely c_m>1 (already proved). Finite quotient generating pairs lift through these p-group quotients, so the induced class maps are surjective and c_m is nondecreasing.",
+      "literature_finding": "Own-source proves nontransitivity for every level and infinitely many classes in the infinite group, but its proof explicitly does not rely on finite quotient unboundedness. Current2026 GGS generating-pair result does not give this finite-level sequence; no exact unbounded-count answer found.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live word/character neighbors, source-author/title/URL manifest aliases and whole-corpus source siblings manually compared; no exact full target found. Source repetitions merged without separate numbering; scores are retrieval only. Q2721 concerns absolute profinite rigidity of free and surface groups; it does not count Nielsen classes in Gupta–Sidki quotients. Q4040 concerns relatively free group growth and Q3778 connected graph partitions. The source infinite-group result and finite nontransitivity result are weaker and do not answer unbounded quotient counts.",
+      "statement_id": "9f2cbe882f974ead133e",
+      "statement_ids": [
+        "9f2cbe882f974ead133e"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled finite-quotient Nielsen count question, printed p. 38; physical PDF p. 51.",
+      "number": 5039,
+      "source_locator": {
+        "label": null,
+        "printed_page": "38",
+        "held_pdf_page": 51,
+        "original_extraction_page": 51
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Exponential growth with every maximal subgroup normal",
+      "text": "For a finite symmetric generating set S of a group G let b_{G,S}(r) be the number of group elements expressible as a product of at most r members of S. Exponential growth means lim_{r→∞}b_{G,S}(r)^{1/r}>1; intermediate growth means b_{G,S}(r)/r^k→∞ for every k≥1 while lim_{r→∞}b_{G,S}(r)^{1/r}=1. These growth types are independent of the finite generating set. Does there exist a finitely generated group G of exponential growth for which every maximal proper subgroup M<G is normal in G? Here maximal means no subgroup lies strictly between M and G; all maximal subgroups are quantified, including those of infinite index.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 81,
+        "printed_page": "68",
+        "label": "Unlabelled exponential-growth question in class MN discussion"
+      },
+      "scope_review": "Actual physical 81 broad class MN paragraph contains this precise existence question. It does not require G to be branch, periodic, linear, residually finite or to have finitely generated commutator subgroup; the latter condition appears only in a preceding direct-product observation.",
+      "literature_finding": "2015 MN structural paper and current 2026 maximal-subgroup criteria do not supply a verified exponential-growth MN example in this bounded scan. Exponential residual-finiteness/geodesic growth differs from word-volume growth.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live word/character neighbors, source-author/title/URL manifest aliases and whole-corpus source siblings manually compared; no exact full target found. Source repetitions merged without separate numbering; scores are retrieval only. Q4829, Q4830 and Q4835 concern geodesic-word growth, while this asks exponential growth in numbers of group elements. Q14 concerns virtually nilpotent cogrowth and Q4054 intermediate girth; neither includes the maximal-normal-subgroup condition.",
+      "statement_id": "a50ce78eaba5f8fcaaee",
+      "statement_ids": [
+        "a50ce78eaba5f8fcaaee"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled exponential-growth question in class MN discussion, printed p. 68; physical PDF p. 81.",
+      "number": 5040,
+      "source_locator": {
+        "label": null,
+        "printed_page": "68",
+        "held_pdf_page": 81,
+        "original_extraction_page": 81
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Intermediate word growth of Gupta–Sidki groups",
+      "text": "For an odd prime p let G_p=⟨x,y⟩≤Aut(T_p), where T_p is the rooted tree {1,…,p}*. Let x cyclically permute the first letters 1,…,p and act trivially below them, and let y fix first letters with sections (x,x⁻¹,1,…,1,y). For p=3 this list is (x,x⁻¹,y). Let St_{G_p}(m) be the subgroup fixing every word of length m. For a finite symmetric generating set S of a group G let b_{G,S}(r) be the number of group elements expressible as a product of at most r members of S. Exponential growth means lim_{r→∞}b_{G,S}(r)^{1/r}>1; intermediate growth means b_{G,S}(r)/r^k→∞ for every k≥1 while lim_{r→∞}b_{G,S}(r)^{1/r}=1. These growth types are independent of the finite generating set. For every odd prime p, does G_p have intermediate word growth?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 81,
+        "printed_page": "68",
+        "label": "Unlabelled Gupta–Sidki growth question"
+      },
+      "scope_review": "Actual physical 31 fixes the original regular-p-tree Gupta–Sidki recursion, and physical 81 asks whether its growth is intermediate. Retain every odd prime; do not replace it by the constant-vector Fabrykowski–Gupta group or a variable-degree growing GGS group. It concerns numbers of group elements, not geodesic words, subgroup indices, or period/residual-finiteness functions.",
+      "literature_finding": "Current 2026 derived-series and growing-treeGGS primaries have different predicates/recursions. No full original regular-tree Gupta–Sidki word-growth proof or refutation found in dated bounded primary scan.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live word/character neighbors, source-author/title/URL manifest aliases and whole-corpus source siblings manually compared; no exact full target found. Source repetitions merged without separate numbering; scores are retrieval only. Q2712 uses α_G for the number of Aut(G)-orbits meeting a word ball, as verified in its parent manifest context; it is not word-volume growth. Q3837 uses the same automorphic growth invariant. Q4835 asks for existence with both intermediate volume and geodesic growth, not the specified Gupta–Sidki recursion for every odd prime.",
+      "statement_id": "4d13c5e6932914906c39",
+      "statement_ids": [
+        "4d13c5e6932914906c39"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled Gupta–Sidki growth question, printed p. 68; physical PDF p. 81.",
+      "number": 5041,
+      "source_locator": {
+        "label": null,
+        "printed_page": "68",
+        "held_pdf_page": 81,
+        "original_extraction_page": 81
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "merged_into": "fa6d7710bab79743f0b2",
+      "reason": "Same source question repeated; stable identifier retained under the one full recommendation.",
+      "locator": {
+        "pdf_page": 19,
+        "printed_page": "6",
+        "label": "Unlabelled first-Grigorchuk question; repeated Chapter 6"
+      },
+      "statement_id": "de5fd2f1bb5162b0bc51",
+      "statement_ids": [
+        "de5fd2f1bb5162b0bc51"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled first-Grigorchuk question; repeated Chapter 6, printed p. 6; physical PDF p. 19."
+    },
+    {
+      "decision": "duplicate",
+      "merged_into": "fa6d7710bab79743f0b2",
+      "reason": "Same source question repeated; stable identifier retained under the one full recommendation.",
+      "locator": {
+        "pdf_page": 19,
+        "printed_page": "6",
+        "label": "Unlabelled first-Grigorchuk question; repeated Chapter 6"
+      },
+      "statement_id": "df2072cbc93a3448089f",
+      "statement_ids": [
+        "df2072cbc93a3448089f"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled first-Grigorchuk question; repeated Chapter 6, printed p. 6; physical PDF p. 19."
+    },
+    {
+      "decision": "duplicate",
+      "merged_into": "fb73e7a9bab2d8d267be",
+      "reason": "Same source question repeated; stable identifier retained under the one full recommendation.",
+      "locator": {
+        "pdf_page": 33,
+        "printed_page": "20",
+        "label": "Unlabelled maximal-subgroup classification; repeated physical 35"
+      },
+      "statement_id": "ba414c10ecee53d4eb90",
+      "statement_ids": [
+        "ba414c10ecee53d4eb90"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Unlabelled maximal-subgroup classification; repeated physical 35, printed p. 20; physical PDF p. 33."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Refuted by current primary literature. Kofinas (2024), Remark 1(1), identifies G_(n,1)=F_n/[F_n″,F_n] and states that for every n≥4 its automorphism group is generated by tame automorphisms and one additional automorphism which is non-tame by Bryant–Gupta–Levin–Mochizuki (1990), reference [5]. Thus the literal centre-by-metabelian tameness question is answered negatively. The earlier recommendation checked the k≥2 main theorem but missed this exact k=1 remark; it is withdrawn before numbering. Actual source p.43 was visually inspected: its displayed γ₂ notation is inconsistent with the named centre-by-metabelian variety and its preceding metabelian quotient. The target variety is confirmed explicitly in the current primary.",
+      "locator": {
+        "pdf_page": 56,
+        "printed_page": "43",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "c24ac0933fa3da628279",
+      "statement_ids": [
+        "c24ac0933fa3da628279"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Bounded source disposition, printed p. 43; physical PDF p. 56."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Historical Aut(F_n) property(T) problem for n≥4 is solved: primary Nitsche arXiv:2009.05134 proves n=4; primary higher-rank work already covers n≥5. No still-open rank-3 Nielsen/nonamenability target is invented from this historical sentence.",
+      "locator": {
+        "pdf_page": 23,
+        "printed_page": "10",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "c0549655ba29222febcd",
+      "statement_ids": [
+        "c0549655ba29222febcd"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Bounded source disposition, printed p. 10; physical PDF p. 23."
+    },
+    {
+      "decision": "hold",
+      "reason": "Historical famous Andrews–Curtis conjecture reference lacks a standalone target in this stable fragment; source separately has labelled conjecture identifiers outside this pool. Do not promote explanatory prose independently or manufacture a new stable identifier.",
+      "locator": {
+        "pdf_page": 21,
+        "printed_page": "8",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "23c869334232b3a9e57d",
+      "statement_ids": [
+        "23c869334232b3a9e57d"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Bounded source disposition, printed p. 8; physical PDF p. 21."
+    },
+    {
+      "decision": "hold",
+      "reason": "Table of contents, chapter introduction, or bibliography phrase; no mathematical target in this stable record.",
+      "locator": {
+        "pdf_page": 13,
+        "printed_page": "0",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "85cac2b5fce7d6194cdf",
+      "statement_ids": [
+        "85cac2b5fce7d6194cdf"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Bounded source disposition, printed p. 0; physical PDF p. 13."
+    },
+    {
+      "decision": "hold",
+      "reason": "Table of contents, chapter introduction, or bibliography phrase; no mathematical target in this stable record.",
+      "locator": {
+        "pdf_page": 80,
+        "printed_page": "67",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "ec4c097e6bc66da62116",
+      "statement_ids": [
+        "ec4c097e6bc66da62116"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Bounded source disposition, printed p. 67; physical PDF p. 80."
+    },
+    {
+      "decision": "hold",
+      "reason": "Table of contents, chapter introduction, or bibliography phrase; no mathematical target in this stable record.",
+      "locator": {
+        "pdf_page": 92,
+        "printed_page": "79",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "021458b50ad23bb91b94",
+      "statement_ids": [
+        "021458b50ad23bb91b94"
+      ],
+      "source_pdf_sha256": "115fab94cc470e62c1c4461b2227e1ec7044c4c643eb7161ab3878c017922db5",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://archive-ouverte.unige.ch/unige:73187",
+        "https://ems.press/content/serial-article-files/29713?nt=1",
+        "https://arxiv.org/pdf/1509.08090",
+        "https://arxiv.org/html/2410.06783v1",
+        "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf",
+        "https://lup.lub.lu.se/student-papers/record/9250187",
+        "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+        "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf",
+        "https://arxiv.org/abs/2009.05134"
+      ],
+      "search_topics": [
+        "Nielsen graph first Grigorchuk connected triples2025 2026",
+        "Gupta Sidki finite quotients number Nielsen classes unbounded",
+        "Gupta Sidki word growth intermediate2026",
+        "MN all maximal subgroups normal exponential growth",
+        "maximal subgroups torsion branch groups2026classification",
+        "free centre by metabelian groups all automorphisms tame rank4",
+        "Wiegold finite groups rank plus one Nielsen connectivity2026"
+      ],
+      "source_metadata": {
+        "author": "Aglaia Myropolska",
+        "title": "On AutFn action on group presentations",
+        "year": "2015",
+        "thesis_key": "Q102436048",
+        "record": "https://archive-ouverte.unige.ch/unige:73187",
+        "source": "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+      },
+      "citation": "Bounded source disposition, printed p. 79; physical PDF p. 92."
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5035,
+    "catalog_sha256": "02c1b0d1ceb7918991951be6d1daeecb8e2d7cc88113283947b836c44573f03d",
+    "corpus_count": 28701,
+    "corpus_sha256": "da15063b35ea16a004b1a98c30d16b01a2e7280bb9433eff4106d704d53de147",
+    "additional_regex_queries": [
+      "Nielsen",
+      "Gupta",
+      "Grigorchuk",
+      "Wiegold",
+      "maximal subgroup",
+      "tame automorphism",
+      "metabelian",
+      "word growth",
+      "exponential.*normal"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

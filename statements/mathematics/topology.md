@@ -1,6 +1,6 @@
 # Thesis statements: Topology
 
-Discipline: Mathematics. 247 statements from 49 theses. [All subjects](../README.md)
+Discipline: Mathematics. 244 statements from 49 theses. [All subjects](../README.md)
 
 Automatically extracted, not reviewed: OCR noise and fragments are common, and a passage may describe a problem that is now solved. Always check the thesis page cited.
 
@@ -465,9 +465,6 @@ Automatically extracted, not reviewed: OCR noise and fragments are common, and a
 
 - *stated as open* (p. 9): Our results suggest that a version of Ratner’s theorems for unipotent flows may hold in this setting, and we raise some open questions along these lines.
 - *stated as open* (p. 12): Here, we raise some open questions that suggest a possible classification, in the spirit of Ratner’s theorems for unipotent flows on homogeneous spaces [Rat].
-- **Question 1.6** (p. 13): Is L always a properly immersed real-analytic suborbifold of Ω1Mg(κ)?
-- **Question 1.7** (p. 13): If Per(ω) is dense in C and L̸ = L, is it the case that L = SL(2, R) · L?
-- **Question 1.8** (p. 13): What are the closed SL(2, R)-invariant subsets of Ω1Mg(κ) that are saturated for A(κ)? Here, a subset of ΩMg(κ) is saturated for A(κ) if it is a union of leaves of A(κ). Even in the stratum ΩM2(1, 1), Question 1.8 is surprisingly subtle. In [Cal] and [McM1], it was discovered that loci of eigenforms for real multiplication provide examples of closed SL(2, R)- invariant subsets of ΩM2(1, 1) that are saturated for A(1, 1), and in [McM3], it is shown that these loci of eigenforms also arise as closures of leaves of A(1, 1).
 
 ## Yusheng Luo (2019)
 

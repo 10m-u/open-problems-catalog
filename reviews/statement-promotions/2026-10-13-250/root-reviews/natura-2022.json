@@ -1,0 +1,491 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q131419393",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Cover verifies2022 LSE PhD; printed=physical−1. Actual physical12,20,22,28,38,53,59,109 read.",
+    "Circuit diameter has a2026 closure, while the extracted diameter question here is explicitly vertex-edge. Historical rescaling/crossover questions are solved by the thesis itself."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Natura lcm circuit imbalance conformal circuit decomposition conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "strongly polynomial linear programming algorithm2026 Natura"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "polynomial diameter bound polyhedra circuit diameter2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "lcm-circuit2 recognition"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "conformal circuit decomposition integral conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Natura decomposition conjecture"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://bentonatura.com/",
+      "sections_read": "Current selected works,2022 doctoral identity and2026 circuit-diameter paper link/abstract."
+    },
+    {
+      "url": "https://arxiv.org/html/2602.06958v1",
+      "sections_read": "February2026 abstract and§1.2: polynomial CIRCUIT diameter, with explicit explanation that known-target navigation does not yield a strongly polynomial LP algorithm; distinct from vertex-edge diameter."
+    },
+    {
+      "url": "https://bentonatura.com/assets/pdf/thesis.pdf",
+      "sections_read": "Primary indexed decomposition conjecture and measure definitions; actual held2022 thesis definitions and physical pages independently read."
+    },
+    {
+      "url": "https://arxiv.org/abs/2111.07913",
+      "sections_read": "Primary circuit-imbalance diameter bounds and encoding-length dependence; not an unconditional vertex-edge diameter bound."
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.05699",
+      "sections_read": "February2026 primary abstract: straight-line/circuit complexity and two-variables-per-inequality special case."
+    }
+  ],
+  "source_metadata": {
+    "title": "Exact Linear Programming: Circuits, Curvature, and Diameter",
+    "year": 2022,
+    "institution": "London School of Economics and Political Science"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q131419393.pdf",
+    "sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+    "physical_pages": 256
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "1e971f7651cad8fe0d9573fe9cb28cbf0471a54460de2d2e4c5df3de4c578437",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "A strongly polynomial algorithm for general linear programming",
+      "text": "Does there exist an algorithm that, given A∈ℝ^{m×n}, b∈ℝᵐ and c∈ℝⁿ, solves min{cᵀx:Ax=b,x≥0}, or reports infeasibility or an unbounded objective, with a number of basic real-arithmetic operations and comparisons bounded by a polynomial in m,n independent of the coefficients? Use the source computational model, permitting +,−,×,÷, comparisons and square roots; for rational input the implementation must also use space polynomial in the input encoding length.",
+      "subject": "Theory of Computation",
+      "source_label": "Source discussion",
+      "citation": "Source discussion, printed p.11/held PDF p.12.",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 11
+      },
+      "scope_review": "Physical12 footnote and physical20 computational model read. Preserve the source real-arithmetic/PSPACE conventions; neither coefficient-bit-length polynomial time alone nor a bound on iterations without iteration cost suffices.",
+      "literature_finding": "Natura’s February2026 primary paper explicitly says its strongly polynomial circuit walk between GIVEN vertices does not supply a strongly polynomial LP algorithm. The unrestricted algorithmic target remains unresolved in the bounded current-primary scan.",
+      "status_grade": "B: explicit source question and bounded dated primary-literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full catalog title/text/source/manifest-author retrieval for linear programming, Hirsch diameter, Graver and circuit decompositions found no exact numbered equivalent. Other computational-circuit questions are unrelated.",
+      "statement_id": "753e4cd07e742ab5f859",
+      "statement_ids": [
+        "753e4cd07e742ab5f859"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ],
+      "number": 5001,
+      "source_locator": {
+        "label": "Source discussion",
+        "printed_page": 11,
+        "held_pdf_page": 12,
+        "original_extraction_page": 12,
+        "original_extraction_label": null
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Integral conformal circuit decompositions with lcm denominator",
+      "text": "Let W⊂ℝⁿ be a rational linear subspace. An elementary vector is a nonzero g∈W whose support contains no proper support of another nonzero vector in W. For each elementary support choose its primitive integer representative g, with gcd of its nonzero coordinates1, and let κ̇_W be the least common multiple of the absolute values of all their nonzero coordinates (κ̇_W=1 for the trivial cases). For every z∈W∩ℤⁿ, must there be h≤n elementary vectors g¹,…,gʰ with z=Σ_i gⁱ, κ̇_W gⁱ∈ℤⁿ, and z_jgⁱ_j>0 whenever gⁱ_j≠0? For z=0 the empty decomposition is allowed.",
+      "subject": "Theory of Computation",
+      "source_label": "Conjecture 3.7.1.1",
+      "citation": "Conjecture 3.7.1.1, printed p.52/held PDF p.53.",
+      "locator": {
+        "pdf_page": 53,
+        "printed_page": 52
+      },
+      "scope_review": "Physical20 conformality and physical22 Definition3.1.1 establish the lcm measure, not max or fractional imbalance. Integer vectors summing to z require coordinate denominator dividingκ̇_W; existing real conformal decompositions and anchored/prime-power cases are only partial results.",
+      "literature_finding": "The held source’s general conjecture follows its special-case propositions and is still present in the current primary thesis copy. The2026 circuit-diameter theorem imposes no corresponding integer-denominator conclusion; no full resolution of this integral decomposition target was located.",
+      "status_grade": "B: explicit source question and bounded dated primary-literature review",
+      "duplicate_of": [],
+      "duplicate_review": "Full catalog title/text/source/manifest-author retrieval for linear programming, Hirsch diameter, Graver and circuit decompositions found no exact numbered equivalent. Other computational-circuit questions are unrelated.",
+      "statement_id": "e4403c5553dec09be62b",
+      "statement_ids": [
+        "e4403c5553dec09be62b"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ],
+      "number": 5002,
+      "source_locator": {
+        "label": "Conjecture 3.7.1.1",
+        "printed_page": 52,
+        "held_pdf_page": 53,
+        "original_extraction_page": 119
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "solved-in-source",
+      "reason": "The source explicitly says it resolves the historical question affirmatively; physical59 Chapter4 contributions resolves the near-optimal rescaling and cross-over-analysis questions as well. Not a remaining open target.",
+      "statement_id": "6e491b3102935177cc1c",
+      "statement_ids": [
+        "6e491b3102935177cc1c"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The source explicitly says it resolves the historical question affirmatively; physical59 Chapter4 contributions resolves the near-optimal rescaling and cross-over-analysis questions as well. Not a remaining open target.",
+      "statement_id": "a683ad23c4b1ba0ef834",
+      "statement_ids": [
+        "a683ad23c4b1ba0ef834"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Literal decidability is immediate by enumerating finitely many rational circuits. The source intends efficient recognition/Seymour-style decomposition, but does not state the runtime/representation target in this paragraph; no silent new complexity conjecture is supplied.",
+      "statement_id": "aa94515c9a768f19493e",
+      "statement_ids": [
+        "aa94515c9a768f19493e"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Q1556 already asks polynomial vertex-edge diameter for bounded polytopes. The source calls the standard polynomial Hirsch conjecture while discussing polyhedra; separately promoting an unbounded-pointed extension needs a precise distinct-source scope or bounded/unbounded reduction. This duplicate/scope ambiguity is retained as a hold rather than counted.",
+      "related_questions": [
+        1556
+      ],
+      "statement_id": "26d1c40bf886e95ace98",
+      "statement_ids": [
+        "26d1c40bf886e95ace98"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The source explicitly says it resolves the historical question affirmatively; physical59 Chapter4 contributions resolves the near-optimal rescaling and cross-over-analysis questions as well. Not a remaining open target.",
+      "statement_id": "2292a43c6b5e39ff651c",
+      "statement_ids": [
+        "2292a43c6b5e39ff651c"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The source explicitly says it resolves the historical question affirmatively; physical59 Chapter4 contributions resolves the near-optimal rescaling and cross-over-analysis questions as well. Not a remaining open target.",
+      "statement_id": "06fff773979059203d6d",
+      "statement_ids": [
+        "06fff773979059203d6d"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The source explicitly says it resolves the historical question affirmatively; physical59 Chapter4 contributions resolves the near-optimal rescaling and cross-over-analysis questions as well. Not a remaining open target.",
+      "statement_id": "8fd474970223d864c098",
+      "statement_ids": [
+        "8fd474970223d864c098"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incidental background/reference or a further optimization question not cleared with complete algorithmic specifications. Remains active.",
+      "statement_id": "acafc67c5a15e13f2f2b",
+      "statement_ids": [
+        "acafc67c5a15e13f2f2b"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incidental background/reference or a further optimization question not cleared with complete algorithmic specifications. Remains active.",
+      "statement_id": "530d59d09434d0b9e07d",
+      "statement_ids": [
+        "530d59d09434d0b9e07d"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incidental background/reference or a further optimization question not cleared with complete algorithmic specifications. Remains active.",
+      "statement_id": "f5a5d76ec2cca05d050a",
+      "statement_ids": [
+        "f5a5d76ec2cca05d050a"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incidental background/reference or a further optimization question not cleared with complete algorithmic specifications. Remains active.",
+      "statement_id": "1a38dbda08d1218da8fb",
+      "statement_ids": [
+        "1a38dbda08d1218da8fb"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incidental background/reference or a further optimization question not cleared with complete algorithmic specifications. Remains active.",
+      "statement_id": "f87273a6bb2af5143069",
+      "statement_ids": [
+        "f87273a6bb2af5143069"
+      ],
+      "source_pdf_sha256": "6e94bcb7c2b5b20823d3b62260c6d0d3c838743112201da73c501f07bb60f567",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://bentonatura.com/",
+        "https://arxiv.org/html/2602.06958v1",
+        "https://bentonatura.com/assets/pdf/thesis.pdf",
+        "https://arxiv.org/abs/2111.07913",
+        "https://arxiv.org/abs/2602.05699"
+      ],
+      "search_topics": [
+        "Natura lcm circuit imbalance conformal circuit decomposition conjecture",
+        "strongly polynomial linear programming algorithm2026 Natura",
+        "polynomial diameter bound polyhedra circuit diameter2026",
+        "lcm-circuit2 recognition",
+        "conformal circuit decomposition integral conjecture",
+        "Natura decomposition conjecture"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4963,
+    "catalog_sha256": "183dc330827444569791e11d364e9f1be750e5d66ead11306226f0942aef1d13",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

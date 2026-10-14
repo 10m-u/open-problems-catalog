@@ -891,3 +891,249 @@ Does every object of Mack(C_p) admit an eventually 4-periodic projective resolut
 
 **Further links.** [1](https://ecommons.cornell.edu/server/api/core/bitstreams/21a73f51-5b9d-4ee1-800c-3d77e296dfb2/content) · [2](https://krizigor.github.io/pushforward202506.pdf) · [3](https://arxiv.org/abs/2511.14325v2) · [4](https://arxiv.org/abs/2510.25763v1) · [5](https://arxiv.org/abs/2608.11376v1) · [6](https://arxiv.org/abs/1503.03955)
 
+
+<a id="q4818"></a>
+
+## Q4818. Slice-ribbon question for flat knots
+
+**Status:** Open · **Kind:** open problem (Problem 2.35) · **Reviewed extraction** 2026-10-13
+
+Is every oriented flat knot that is slice also ribbon? Slice means it bounds a properly immersed disk in a compact oriented 3-manifold whose boundary is the supporting oriented surface, equivalently it admits a connected genus-zero slice movie. Ribbon here means a slice movie with flat Reidemeister moves, saddles and deaths and no births, as in Chen’s Definition 2.34; it does not mean Turaev’s stronger symmetric-Gauss-diagram condition.
+
+**Context.** An oriented flat knot is a stable homotopy class of a generically immersed oriented circle in an oriented surface, equivalently a diagram with flat and virtual crossings modulo their Reidemeister moves and detours. A long flat knot is the corresponding oriented 1-tangle; its connected sum is concatenation.
+
+**Source.** Jie Chen. *Flat knots and invariants*. McMaster University, 2023. [primary source](https://math.mcmaster.ca/~boden/students/Chen-PhD.pdf) · [record](https://math.mcmaster.ca/~boden/students/Chen-PhD.pdf) Location: Problem 2.35, printed p. 23 / PDF p. 32. Definitions: Definitions 2.31–2.34, printed pp.20–22 / PDF pp.29–31.
+
+**Literature check.** Reviewed 2026-10-13: Reaffirmed as Problem 5.3 in the current FlatKnotInfo author paper.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13/agent-geometry-review.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2410.00216v1)
+
+<a id="q4819"></a>
+
+## Q4819. Realization of normalized flat arrow polynomials
+
+**Status:** Open · **Kind:** open problem (Problem 4.20) · **Reviewed extraction** 2026-10-13
+
+Which finite polynomials f∈Z[K₁,K₂,…] occur as the normalized flat arrow polynomial Ā(α) of an oriented flat knot α? For an n-crossing diagram D of α, Ā(α)=(−1)^nΣ\_S(−2)^{|S|−1}∏\_i K_{j_i}: S runs through its oriented/disoriented smoothing states, |S| is the number of state components, and the i-th component has 2j_i cusps after the flat-arrow cusp reductions (K₀=1).
+
+**Context.** An oriented flat knot is a stable homotopy class of a generically immersed oriented circle in an oriented surface, equivalently a diagram with flat and virtual crossings modulo their Reidemeister moves and detours. A long flat knot is the corresponding oriented 1-tangle; its connected sum is concatenation.
+
+**Source.** Jie Chen. *Flat knots and invariants*. McMaster University, 2023. [primary source](https://math.mcmaster.ca/~boden/students/Chen-PhD.pdf) · [record](https://math.mcmaster.ca/~boden/students/Chen-PhD.pdf) Location: Problem 4.20, printed p. 59 / PDF p. 68. Definitions: Definition 4.1, Figure 4.1 and Proposition 4.2, printed pp.47–49 / PDF pp.56–58.
+
+**Literature check.** Reviewed 2026-10-13: Reaffirmed as Problem 6.15 in the current FlatKnotInfo author paper.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13/agent-geometry-review.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2410.00216v1)
+
+<a id="q4820"></a>
+
+## Q4820. Commutativity of the long flat-knot concordance group
+
+**Status:** Open · **Kind:** open problem (Problem 6.15) · **Reviewed extraction** 2026-10-13
+
+Is the concordance group FC of oriented long flat knots abelian? Its multiplication is concatenation α#β. A long flat knot is slice when its closure is slice, and α is concordant to β when the closure of (−α\*)#β is slice, where − reverses the interval orientation and \* reverses the supporting surface orientation. Equivalently, are α#β and β#α concordant for every pair of oriented long flat knots?
+
+**Context.** An oriented flat knot is a stable homotopy class of a generically immersed oriented circle in an oriented surface, equivalently a diagram with flat and virtual crossings modulo their Reidemeister moves and detours. A long flat knot is the corresponding oriented 1-tangle; its connected sum is concatenation.
+
+**Source.** Jie Chen. *Flat knots and invariants*. McMaster University, 2023. [primary source](https://math.mcmaster.ca/~boden/students/Chen-PhD.pdf) · [record](https://math.mcmaster.ca/~boden/students/Chen-PhD.pdf) Location: Problem 6.15, printed p. 79 / PDF p. 88. Definitions: Definitions 6.3,6.9,6.11,6.12, printed pp.75–78 / PDF pp.84–87.
+
+**Literature check.** Reviewed 2026-10-13: The thesis states the question; the current author paper §5.3 still identifies commutativity of the long-flat-knot concordance group as a problem. No located later resolution in targeted searches.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13/agent-geometry-review.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2410.00216v1)
+
+<a id="q4876"></a>
+
+## Q4876. A Pin(2)-equivariant sutured monopole Floer theory
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Reviewed extraction** 2026-10-13-250
+
+A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Can one construct a Pin(2)-equivariant version of sutured monopole Floer homology, with isomorphism type independent of the auxiliary closure data, in the sense of a sutured analogue of Lin’s Pin(2)-monopole Floer theory?
+
+**Source.** Zhenkun Li. *Contributions to sutured monopole and sutured instanton Floer homology theories*. Massachusetts Institute of Technology, 2020. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/b83ff1c9-a816-40fe-b63e-67483f2dcba1/content) · [record](https://dspace.mit.edu/handle/1721.1/126928) Location: Question 1, printed/physical30
+
+**Literature check.** Reviewed 2026-10-13: Current author works were inspected. The2025 Pandit equivalence theorem concerns closed rational homology spheres with self-conjugate Spinᶜ structure and does not produce a sutured invariant. No exact sutured construction located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://zhenkun-li.com/%E6%88%90%E6%9E%9C/) · [2](https://arxiv.org/abs/2503.03063) · [3](https://arxiv.org/pdf/1305.4156)
+
+<a id="q4877"></a>
+
+## Q4877. Remove the unit ambiguity in sutured monopole and instanton naturality
+
+**Status:** Open · **Kind:** open problem (Question 4) · **Reviewed extraction** 2026-10-13-250
+
+A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Can the naturality identifications for sutured monopole and sutured instanton Floer homology be defined canonically as actual linear maps, rather than only up to multiplication by a unit of the coefficient ring, compatibly with identity maps and composition? In the monopole theory use the Novikov coefficients of the closure construction; in the instanton theory useℂ. The question concerns the closure-independent theory, not an arbitrary basis chosen in each closure.
+
+**Source.** Zhenkun Li. *Contributions to sutured monopole and sutured instanton Floer homology theories*. Massachusetts Institute of Technology, 2020. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/b83ff1c9-a816-40fe-b63e-67483f2dcba1/content) · [record](https://dspace.mit.edu/handle/1721.1/126928) Location: Question 4, printed/physical46
+
+**Literature check.** Reviewed 2026-10-13: Baldwin–Sivek naturality and Li cobordism maps are projective. Li–Ye surgery formula§2.3 fixes selected scalars to prove formula diagrams, while still stating general bypass relations up to scalars. This does not supply canonical nonprojective naturality for all sutured manifolds.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1305.4156) · [2](https://arxiv.org/pdf/1810.13071) · [3](https://arxiv.org/pdf/2206.10077) · [4](https://zhenkun-li.com/%E6%88%90%E6%9E%9C/)
+
+<a id="q4878"></a>
+
+## Q4878. Sutured Floer rank-depth bounds without vanishing second homology
+
+**Status:** Open · **Kind:** open problem (Question 8) · **Reviewed extraction** 2026-10-13-250
+
+A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Suppose (M,γ) is taut: M is irreducible and R₊,R₋ are incompressible and Thurston-norm minimizing. For G=M (sutured monopole Floer homology with Novikov-field coefficients) or G=I (sutured instanton homology overℂ), and every integer k≥0, does rank SHG(M,γ)<2^{k+1} imply d(M,γ)≤2k without assuming H₂(M;ℤ)=0? Here d is the sutured-hierarchy depth in Definition 2.1.19: the minimum n admitting a taut hierarchy (M₀,γ₀)→⋯→(M_{n+1},γ\_{n+1}) from (M,γ) to a product sutured manifold, using the source's indexing convention.
+
+**Source.** Zhenkun Li. *Contributions to sutured monopole and sutured instanton Floer homology theories*. Massachusetts Institute of Technology, 2020. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/b83ff1c9-a816-40fe-b63e-67483f2dcba1/content) · [record](https://dspace.mit.edu/handle/1721.1/126928) Location: Question 8, printed/physical60
+
+**Literature check.** Reviewed 2026-10-13: Ghosh–Li’s final decomposition theorem still assumes H₂(M)=0. Li’s foliation-depth theorem also retains that hypothesis and proves a different exponential bound. No exact hypothesis-free hierarchy extension located in later author work.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1910.10842) · [2](https://arxiv.org/pdf/2003.02891) · [3](https://zhenkun-li.com/%E6%88%90%E6%9E%9C/)
+
+<a id="q4879"></a>
+
+## Q4879. An analytic construction of the sutured instanton contact element
+
+**Status:** Open · **Kind:** open problem (Question 11) · **Reviewed extraction** 2026-10-13-250
+
+A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Let ξ be a positive contact structure on M with convex boundary and dividing setγ. Is there a direct analytic gauge-theoretic construction of the contact class in SHI(−M,−γ) that agrees, up to its natural nonzero complex scalar ambiguity, with the Baldwin–Sivek class obtained by composing contact-handle maps from the standard contact3-ball?
+
+**Source.** Zhenkun Li. *Contributions to sutured monopole and sutured instanton Floer homology theories*. Massachusetts Institute of Technology, 2020. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/b83ff1c9-a816-40fe-b63e-67483f2dcba1/content) · [record](https://dspace.mit.edu/handle/1721.1/126928) Location: Question 11, printed/physical71
+
+**Literature check.** Reviewed 2026-10-13: Baldwin–Sivek constructs the instanton class topologically through handles; Li’s gluing paper explicitly asks for its analytic correspondence. Later contact vanishing/large surgery theorems use that class and do not provide the requested direct analytic construction. No exact new construction located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1405.3278) · [2](https://arxiv.org/pdf/1810.13071) · [3](https://arxiv.org/pdf/2107.11005) · [4](https://zhenkun-li.com/%E6%88%90%E6%9E%9C/)
+
+<a id="q4880"></a>
+
+## Q4880. The sutured trace cobordism induces the evaluation pairing
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.7.6) · **Reviewed extraction** 2026-10-13-250
+
+A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Let 𝒲=(M×[0,1],∂M×[0,1],[ξ₀]) be the sutured trace cobordism from (M,γ)⊔(−M,−γ) to the empty sutured manifold, where ξ₀ is the invariant product contact structure having dividing setγ. For sutured monopole or instanton homology, is SHG(𝒲) equal, up to the natural unit ambiguity, to tr∘i? Here i is the Künneth map to SHG(M,γ)⊗SHG(−M,−γ), and tr(a⊗b)=b(a) uses the canonical duality pairing.
+
+**Source.** Zhenkun Li. *Contributions to sutured monopole and sutured instanton Floer homology theories*. Massachusetts Institute of Technology, 2020. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/b83ff1c9-a816-40fe-b63e-67483f2dcba1/content) · [record](https://dspace.mit.edu/handle/1721.1/126928) Location: Conjecture 3.7.6, printed/physical152
+
+**Literature check.** Reviewed 2026-10-13: Counterpart Conjecture5.13 of Li’s gluing/cobordism paper retains the trace identity after proving duality of reversed cobordisms. Those duality statements alone do not identify the trace map. No exact later general trace proof located; source chronology is recorded as older primary evidence.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/li-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1810.13071) · [2](https://zhenkun-li.com/%E6%88%90%E6%9E%9C/)
+
+<a id="q4892"></a>
+
+## Q4892. Finite section-isomorphism orbits despite infinitely many homotopy classes
+
+**Status:** Open · **Kind:** open problem (Question 4.1.10) · **Reviewed extraction** 2026-10-13-250
+
+A Lefschetz fibration here is a smooth map π:X⁴→S² from a closed connected oriented4-manifold, with connected surface fibres and finitely many orientation-compatible complex Morse singularities z₁²+z₂², distinct critical values and relatively minimal fibres. Does there exist such a fibration with infinitely many homotopy classes of smooth sections but only finitely many isomorphism classes of sections? Can the number of isomorphism classes be1? Sections s₁,s₂ are isomorphic if there are orientation-preserving diffeomorphisms Ψ:X→X and ψ:S²→S² with π∘Ψ=ψ∘π and Ψ∘s₁=s₂∘ψ. Homotopy here is homotopy of the section maps S²→X.
+
+**Source.** Carlos Andres Marcelo Serván. *Lefschetz fibrations and Teichmüller theory*. University of Chicago, 2026. [primary source](https://knowledge.uchicago.edu/records/hgrq1-kk262/files/main.pdf) · [record](https://knowledge.uchicago.edu/doi/10.6082/uchicago.16951) Location: Question4.1.10, printed89; section-isomorphism definition printed88
+
+**Literature check.** Reviewed 2026-10-13: Current author primary page (updatedAugust20,2026) lists the2024 sections paper and2026 pencils paper. Counterpart Question1.10 retains the same question and expressly says the constructed single-orbit family does not answer it. No exact later closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/servan-2026.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/2409.15265) · [2](https://servancarlos.github.io/)
+
+<a id="q4893"></a>
+
+## Q4893. Infinite families outside partial-conjugation equivalence
+
+**Status:** Open · **Kind:** open problem (Question 5.1.11) · **Reviewed extraction** 2026-10-13-250
+
+A Lefschetz fibration here is a smooth map π:X⁴→S² from a closed connected oriented4-manifold, with connected surface fibres and finitely many orientation-compatible complex Morse singularities z₁²+z₂², distinct critical values and relatively minimal fibres. Does there exist a fixed4-manifold X and an infinite family of Lefschetz fibrations X→S² of a common fibre genus such that no two are related by a finite sequence of partial conjugations and fibration equivalences? In monodromy terms, a partial conjugation replaces a contiguous subfactorization W₂ in W₁W₂=1 by its factorwise conjugate fW₂f⁻¹ when f commutes with the product W₂; usual Hurwitz moves and global conjugation encode fibration equivalence.
+
+**Source.** Carlos Andres Marcelo Serván. *Lefschetz fibrations and Teichmüller theory*. University of Chicago, 2026. [primary source](https://knowledge.uchicago.edu/records/hgrq1-kk262/files/main.pdf) · [record](https://knowledge.uchicago.edu/doi/10.6082/uchicago.16951) Location: Question5.1.11, printed133; partial-conjugation setup printed129 and§5.2
+
+**Literature check.** Reviewed 2026-10-13: Explicitly retained as Question1.11 in theFebruary2026 paper. Its infinite ruled-surface examples are obtained by partial conjugation, so they do not answer this refined question. Current author list contains no claimed closure.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/servan-2026.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2602.10051v1) · [2](https://servancarlos.github.io/)
+
+<a id="q4941"></a>
+
+## Q4941. Kähler subgroups of products of surface groups
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Reviewed extraction** 2026-10-13-250
+
+A Kähler group is the fundamental group of a compact connected Kähler manifold. For r≥1 and closed connected orientable surfaces S_gᵢ of genus gᵢ≥2, characterize subgroups H≤π₁(S_g₁)×⋯×π₁(S_gᵣ) which are Kähler groups.
+
+**Source.** Claudio Llosa Isenrich. *Kähler groups and Geometric Group Theory*. University of Oxford, 2017. [primary source](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae/files/m252dfb5ac91a3fcb66c2138082de9f7d) · [record](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae) Location: Llosa Isenrich thesis, physical35 / printed24
+
+**Literature check.** Reviewed 2026-10-13: 2024 author AGT paper gives a full three-factor classification up to finite index and coabelian maps toℤ³, while its introduction still poses the broader classification.2025 complex-Morse work supplies constructions, not the universal classification.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2602.22493v1) · [2](https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf) · [3](https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf) · [4](https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf) · [5](https://www.sciencedirect.com/science/article/pii/S0021869316304720)
+
+<a id="q4942"></a>
+
+## Q4942. Kähler groups of nilpotency class greater than two
+
+**Status:** Open · **Kind:** stated as open · **Reviewed extraction** 2026-10-13-250
+
+A Kähler group is the fundamental group of a compact connected Kähler manifold. Does there exist a nilpotent Kähler group G of nilpotency class c>2? Here γ₁(G)=G and γᵢ₊₁(G)=[G,γᵢ(G)], and class c means γ\_c(G)≠1 and γ\_c₊₁(G)=1.
+
+**Source.** Claudio Llosa Isenrich. *Kähler groups and Geometric Group Theory*. University of Oxford, 2017. [primary source](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae/files/m252dfb5ac91a3fcb66c2138082de9f7d) · [record](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae) Location: Llosa Isenrich thesis, physical32 / printed21
+
+**Literature check.** Reviewed 2026-10-13: February2026 primary2602.22493 Remark4.7 explicitly reports that class2 examples are known and higher-class examples are not. Its bounds for metabelian quotients do not construct such a group.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2602.22493v1) · [2](https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf) · [3](https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf) · [4](https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf) · [5](https://www.sciencedirect.com/science/article/pii/S0021869316304720)
+
+<a id="q4943"></a>
+
+## Q4943. A Kähler group of cohomological dimension three
+
+**Status:** Open · **Kind:** stated as open · **Reviewed extraction** 2026-10-13-250
+
+A Kähler group is the fundamental group of a compact connected Kähler manifold. Does there exist a Kähler group G with integral cohomological dimension cd_ℤ(G)=3, where cd_ℤ(G)=sup{i:Hⁱ(G;M)≠0 for some ℤ[G]-module M}?
+
+**Source.** Claudio Llosa Isenrich. *Kähler groups and Geometric Group Theory*. University of Oxford, 2017. [primary source](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae/files/m252dfb5ac91a3fcb66c2138082de9f7d) · [record](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae) Location: Llosa Isenrich thesis, physical36 / printed25
+
+**Literature check.** Reviewed 2026-10-13: Source explicitly leaves dimension3 existence open. Fresh exact cohomological-dimension-three Kähler queries found no construction or all-group obstruction;3-manifold and PD₃ restrictions have narrower hypotheses.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2602.22493v1) · [2](https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf) · [3](https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf) · [4](https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf) · [5](https://www.sciencedirect.com/science/article/pii/S0021869316304720)
+
+<a id="q4944"></a>
+
+## Q4944. Relative homotopy for maps with fibre-isolated critical points
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.1.2) · **Reviewed extraction** 2026-10-13-250
+
+Let X be a compact connected complex manifold, Y a positive-dimensional complex torus or a closed Riemann surface of positive genus, and h:X→Y a surjective holomorphic map with connected generic smooth fibre H. Suppose Crit(h)∩h⁻¹(y) is discrete for every y∈Y. Pull h back along the universal cover Ỹ→Y to obtain X̂→Ỹ and identify H with a generic fibre in X̂. Must πᵢ(X̂,H)=0 for every i≤dim_ℂH? If dim_ℂH≥2, must h_\*:π₁X→π₁Y be surjective with kernel isomorphic to π₁H?
+
+**Source.** Claudio Llosa Isenrich. *Kähler groups and Geometric Group Theory*. University of Oxford, 2017. [primary source](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae/files/m252dfb5ac91a3fcb66c2138082de9f7d) · [record](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae) Location: Llosa Isenrich thesis, physical103 / printed92
+
+**Literature check.** Reviewed 2026-10-13: Fresh exact source-conjecture and higher-dimensional-torus searches located the2020 restricted higher-dimensional extension with extra factorization conditions, and2025 constructions for elliptic targets or finite maps. Neither gives the full unrestricted Conjecture6.1.2; no closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2602.22493v1) · [2](https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf) · [3](https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf) · [4](https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf) · [5](https://www.sciencedirect.com/science/article/pii/S0021869316304720)
+
+<a id="q4945"></a>
+
+## Q4945. Kähler kernels of epimorphisms from surface products to free abelian groups
+
+**Status:** Open · **Kind:** open problem (Question 4) · **Reviewed extraction** 2026-10-13-250
+
+A Kähler group is the fundamental group of a compact connected Kähler manifold. For r≥1, gᵢ≥2, k≥0 and an epimorphism φ:π₁(S_g₁)×⋯×π₁(S_gᵣ)→ℤᵏ, characterize exactly when kerφ is a Kähler group.
+
+**Source.** Claudio Llosa Isenrich. *Kähler groups and Geometric Group Theory*. University of Oxford, 2017. [primary source](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae/files/m252dfb5ac91a3fcb66c2138082de9f7d) · [record](https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae) Location: Llosa Isenrich thesis, physical130 / printed119
+
+**Literature check.** Reviewed 2026-10-13: 2024 AGT§6 explicitly completes classification for maps toℤ³ and quotes2020 exclusion for all odd ranks. General even-rank kernel classification remains outside those theorems; fresh classification search found no full result.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/llosa-isenrich-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2602.22493v1) · [2](https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf) · [3](https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf) · [4](https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf) · [5](https://www.sciencedirect.com/science/article/pii/S0021869316304720)

@@ -1,0 +1,1050 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q113301809",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Held PDF cover verifies2020 LSE PhD. Arabic page=physical−1; old extraction pages are inflated. Actual physical12–16,40,54–57,68–69,77–83,103,107 read.",
+    "Nonfaithful graph embedding, source sphere radius, point-dependent versus global flatness, and fixed/general parameter scopes were read explicitly. Problem3.15 is held for component scope and Question4.22 for inherited-domain precision.",
+    "All recommendations await independent source/scope/status/global-duplicate clearance."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Nora Frankl smiling bouquet conjecture 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Frankl unit-distance graphs spherical dimension maximum degree 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "trees prescribed distances plane site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Frankl unit-distance trees T_{2,3}"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Petty equilateral sets conjecture2025 2026 site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Hadwiger–Nelson2026 site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Almost sharp bounds discrete chains trees2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+      "sections_read": "2023 published Conjecture1.1 and Problem1.4, definitions of bold/smiling bouquets, AM/AP-free colourings, lattice-like and integral special cases; full questions retained."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+      "sections_read": "2023 published Conjecture1.11, near-distance/product definitions and fixed-k large-d theorems; unrestricted equalities and fixed-d large-k regime not resolved."
+    },
+    {
+      "url": "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+      "sections_read": "Primary graph-dimension and radius1/√2 conventions; main Euclidean/spherical Ramsey bounds and remaining questions."
+    },
+    {
+      "url": "https://arxiv.org/abs/1912.00224",
+      "sections_read": "Primary discrete-chain abstract and tree generalization in the held thesis; path bounds distinguished from all prescribed-length trees. HTMLv3 fetch failed, not claimed as a read."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+      "sections_read": "2024 publication: paths and cycles on the sphere,3-regular patterns in3-space; different from planar prescribed-length trees."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+      "sections_read": "2021 published equilateral lower bounds for restricted small-codimension families, not every real normed space."
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36220",
+      "sections_read": "September2026 primary abstract: typical norms have chromatic number2d; Euclidean case distinguished, not resolved."
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.11736",
+      "sections_read": "August2026 primary abstract: one-point extension of Euclidean Ramsey sets, not classification of all Ramsey sets."
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.15677",
+      "sections_read": "October2025 primary abstract: nearly all known Ramsey sets subsoluble and spherical Ramsey conjecture still unresolved."
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.09673",
+      "sections_read": "November2025 primary abstract: particular three-dimensional Petty space, not universal normed-space lower bound."
+    }
+  ],
+  "source_metadata": {
+    "title": "On some problems in combinatorial geometry",
+    "year": 2020,
+    "institution": "London School of Economics and Political Science"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q113301809.pdf",
+    "sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+    "physical_pages": 123
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "fe2ae28d93af65826803af541b544e56e64412fea56aadab9f597206a27632f4",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Equilateral sets of size dimension plus one in every normed space",
+      "text": "For every integer d≥1 and every d-dimensional real normed space (X,‖·‖), must there be distinct x₀,…,x_d∈X and a number c>0 with ‖x_i−x_j‖=c whenever i≠j?",
+      "source_label": "Petty conjecture, introductory discussion",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Petty conjecture, introductory discussion, printed p.106 / held PDF p.107; nearby definitions read.",
+      "locator": {
+        "pdf_page": 107,
+        "printed_page": 106
+      },
+      "scope_review": "The abstract’s incidental formulation is grounded in the explicit Petty conjecture physical107, rather than mistaken for the small-codimension theorem proved by the thesis. All real norms, not just ℓ_p or polyhedral norms.",
+      "literature_finding": "The published small-codimension theorem proves restricted families. The2025 primary paper on the three-dimensional Petty space concerns one norm; the bounded dated scan found no universal lower-bound resolution.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "562a682bc2fe64137f69"
+      ],
+      "statement_id": "562a682bc2fe64137f69",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4979,
+      "source_locator": {
+        "label": "Petty conjecture, introductory discussion",
+        "printed_page": 106,
+        "held_pdf_page": 107,
+        "original_extraction_page": 4,
+        "original_extraction_label": null
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The chromatic number of the Euclidean plane",
+      "text": "Determine the least integer q for which there is a colouring c:ℝ²→{1,…,q} with c(x)≠c(y) whenever ‖x−y‖₂=1. The colouring is arbitrary; no measurability condition is imposed.",
+      "source_label": "Introductory Hadwiger–Nelson discussion",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Introductory Hadwiger–Nelson discussion, printed p.13 / held PDF p.14; nearby definitions read.",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 13
+      },
+      "scope_review": "Exact Euclidean chromatic number, not a request to reproach the already-proved lower bound5 or to find a simpler5-chromatic finite graph.",
+      "literature_finding": "The September2026 Alon–Bucić–Davies typical-norm theorem explicitly distinguishes its new2d result from the Euclidean problem. The full Euclidean value was not resolved in the current primary scan.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "9afd437181d06bc02a49"
+      ],
+      "statement_id": "9afd437181d06bc02a49",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4980,
+      "source_locator": {
+        "label": "Introductory Hadwiger–Nelson discussion",
+        "printed_page": 13,
+        "held_pdf_page": 14,
+        "original_extraction_page": 14,
+        "original_extraction_label": null
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Classify finite Euclidean Ramsey sets",
+      "text": "Characterize the finite sets S⊂ℝᵈ, allowing any d≥1, such that for every integer k≥1 there is an integer D≥d for which every colouring of ℝᴰ with at most k colours has a monochromatic isometric copy of S.",
+      "source_label": "Introductory Euclidean Ramsey discussion",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Introductory Euclidean Ramsey discussion, printed p.15 / held PDF p.16; nearby definitions read.",
+      "locator": {
+        "pdf_page": 16,
+        "printed_page": 15
+      },
+      "scope_review": "Congruent/isometric copies, not similar copies with freely scaled distances. D may depend on S and k. The extracted label “Problem1” is a truncated reference; this numbered target comes from the explicit adjacent Ramsey discussion.",
+      "literature_finding": "The2025 Behague primary abstract retains the spherical Ramsey conjecture, and Mirabi’s August2026 one-point-extension theorem supplies a construction operation, not an all-set characterization. No full classification was located.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "83fa2fda7f6812386306"
+      ],
+      "statement_id": "83fa2fda7f6812386306",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4981,
+      "source_locator": {
+        "label": "Introductory Euclidean Ramsey discussion",
+        "printed_page": 15,
+        "held_pdf_page": 16,
+        "original_extraction_page": 16,
+        "original_extraction_label": "Problem 1"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Tree-copy counts as powers of point count and unit-distance extremals",
+      "text": "For a fixed finite tree T, let C_T(n) be the maximum, over n-point sets P⊂ℝ² and assignments of a positive length δ_e to each edge e of T, of the number of injective maps f:V(T)→P with ‖f(u)−f(v)‖₂=δ_{uv} on every edge. Let u₂(n) be the maximum number of unordered unit-distance pairs in an n-point planar set. For every fixed tree T, do there exist integers m,ℓ∈ℤ such that C_T(n)=Θ_T(n^m u₂(n)^ℓ) as n→∞?",
+      "source_label": "Conjecture2.12",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture2.12, printed p.39 / held PDF p.40; nearby definitions read.",
+      "locator": {
+        "pdf_page": 40,
+        "printed_page": 39
+      },
+      "scope_review": "The source says integers, without an imposed nonnegativity restriction. Both point set and fixed edge-length assignment are maximized; the ordered injective-copy convention changes at most a T-dependent factor. All finite trees, not paths only.",
+      "literature_finding": "The source asks this planar prescribed-length tree question after its path results. The current Frankl–Woodruff publication treats spherical paths/cycles and3-dimensional3-regular patterns; the bounded exact-tree scan found no theorem resolving this planar target.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "9c1dfb4d19d39f5b67c3"
+      ],
+      "statement_id": "9c1dfb4d19d39f5b67c3",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4982,
+      "source_locator": {
+        "label": "Conjecture2.12",
+        "printed_page": 39,
+        "held_pdf_page": 40,
+        "original_extraction_page": 48,
+        "original_extraction_label": "Conjecture 2.12"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Prescribed-distance copies of a twice-subdivided three-arm star",
+      "text": "For a fixed finite tree T, let C_T(n) be the maximum, over n-point sets P⊂ℝ² and assignments of a positive length δ_e to each edge e of T, of the number of injective maps f:V(T)→P with ‖f(u)−f(v)‖₂=δ_{uv} on every edge. Let u₂(n) be the maximum number of unordered unit-distance pairs in an n-point planar set. Let T_{2,3} consist of three paths of two edges sharing just their initial vertex. Is C_{T_{2,3}}(n)=Θ(n³)?",
+      "source_label": "Problem2.13",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem2.13, printed p.39 / held PDF p.40; nearby definitions read.",
+      "locator": {
+        "pdf_page": 40,
+        "printed_page": 39
+      },
+      "scope_review": "Seven vertices and six edges; fixing the centre proves only the lower bound. This asks the matching upper bound, a specific unresolved target beyond the existence of some power representation.",
+      "literature_finding": "The source asks this planar prescribed-length tree question after its path results. The current Frankl–Woodruff publication treats spherical paths/cycles and3-dimensional3-regular patterns; the bounded exact-tree scan found no theorem resolving this planar target.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "36f9d713f70276b9b045"
+      ],
+      "statement_id": "36f9d713f70276b9b045",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4983,
+      "source_locator": {
+        "label": "Problem2.13",
+        "printed_page": 39,
+        "held_pdf_page": 40,
+        "original_extraction_page": 48,
+        "original_extraction_label": "Problem 2.13"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Prescribed-distance copies of a three-edge-arm star",
+      "text": "For a fixed finite tree T, let C_T(n) be the maximum, over n-point sets P⊂ℝ² and assignments of a positive length δ_e to each edge e of T, of the number of injective maps f:V(T)→P with ‖f(u)−f(v)‖₂=δ_{uv} on every edge. Let u₂(n) be the maximum number of unordered unit-distance pairs in an n-point planar set. Let T_{3,3} consist of three paths of three edges sharing just their initial vertex. Is C_{T_{3,3}}(n)=Θ(max{n⁴,u₂(n)³})?",
+      "source_label": "Problem2.14",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem2.14, printed p.39 / held PDF p.40; nearby definitions read.",
+      "locator": {
+        "pdf_page": 40,
+        "printed_page": 39
+      },
+      "scope_review": "The displayed source ℓ specializes toℓ=3 for this named ten-vertex tree; n^{ℓ+1} becomes n⁴ and u₂(n)^ℓ becomes u₂(n)³. Do not promote an unspecified varying-ℓ conjecture.",
+      "literature_finding": "The source asks this planar prescribed-length tree question after its path results. The current Frankl–Woodruff publication treats spherical paths/cycles and3-dimensional3-regular patterns; the bounded exact-tree scan found no theorem resolving this planar target.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "9aba4902286685aec751"
+      ],
+      "statement_id": "9aba4902286685aec751",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4984,
+      "source_locator": {
+        "label": "Problem2.14",
+        "printed_page": 39,
+        "held_pdf_page": 40,
+        "original_extraction_page": 48,
+        "original_extraction_label": "Problem 2.14"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "One complementary graph has half-order Euclidean dimension",
+      "text": "For every integer d≥1 and every finite simple graph G on2d+1 vertices, must either G or its complement admit an injective placement of its vertices in ℝᵈ with every edge having Euclidean length1? Nonedges may also have length1.",
+      "source_label": "Problem3.16",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem3.16, printed p.54 / held PDF p.55; nearby definitions read.",
+      "locator": {
+        "pdf_page": 55,
+        "printed_page": 54
+      },
+      "scope_review": "Nonfaithful Euclidean realization with injective vertex placement. The source’s corresponding spherical problem is proved; that theorem does not settle this Euclidean one.",
+      "literature_finding": "The primary graph-embedding paper gives the adjacent upper/lower bounds. Newer annulus/rigid-pattern results retrieved concern other notions, and no exact half-order Euclidean-dimension closure was located.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "4d0d6ba3c99fd99b2e3c"
+      ],
+      "statement_id": "4d0d6ba3c99fd99b2e3c",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4985,
+      "source_locator": {
+        "label": "Problem3.16",
+        "printed_page": 54,
+        "held_pdf_page": 55,
+        "original_extraction_page": 63,
+        "original_extraction_label": "Problem 3.16"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Smiling congruent copies of every bouquet",
+      "text": "Let C₁,…,C_n be unit circles in ℝ² sharing a specified point O. For every finite colouring c of ℝ² using at least two colours, must there be a Euclidean isometry f, points p_i∈f(C_i), and a colour a such that c(p_i)=a for every i but c(f(O))≠a?",
+      "source_label": "Conjecture4.1",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture4.1, printed p.55 / held PDF p.56; nearby definitions read.",
+      "locator": {
+        "pdf_page": 56,
+        "printed_page": 55
+      },
+      "scope_review": "The same isometry moves the full bouquet and its specified common point; no scaling and no proper-colouring assumption. The source’s smiling notion is called bold in the2023 published version.",
+      "literature_finding": "Published2023 Conjecture1.1 retains exactly the unrestricted bouquet question, while its lattice-like theorem requires proper colouring. The current bounded bouquet scan found no general closure.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "157bee6fae2129bddc33",
+        "fa939525d35add1a5357"
+      ],
+      "statement_id": "157bee6fae2129bddc33",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4986,
+      "source_locator": {
+        "label": "Conjecture4.1",
+        "printed_page": 55,
+        "held_pdf_page": 56,
+        "original_extraction_page": 64,
+        "original_extraction_label": "Conjecture 4.1"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Almost-monochromatic configurations in progression-free colourings",
+      "text": "For each integer d≥1, characterize pairs (S,s₀) with finite S⊂ℝᵈ, |S|≥3 and s₀∈S, such that every finite colouring c:ℝᵈ→A containing no monochromatic infinite arithmetic progression {x+nv:n∈ℕ} with v≠0 has a similar copy f(S) on which f(S∖{s₀}) is monochromatic but f(s₀) has a different colour. A similarity f is an isometry composed with multiplication by a nonzero scalar.",
+      "source_label": "Problem4.4",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem4.4, printed p.56 / held PDF p.57; nearby definitions read.",
+      "locator": {
+        "pdf_page": 57,
+        "printed_page": 56
+      },
+      "scope_review": "Infinite one-sided progressions, not avoidance of finite3-term progressions. Similarities can include reflection; finite S and its marked point move together. Integral configurations are the proved subclass.",
+      "literature_finding": "Published2023 Problem1.4 retains this full classification after proving the integral case. The contemporary general Euclidean-Ramsey extension results have a different congruence target; no full AM classification was located.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "45b0b7e3480015fe197c",
+        "f6c826edfc8345a15dca"
+      ],
+      "statement_id": "45b0b7e3480015fe197c",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4987,
+      "source_locator": {
+        "label": "Problem4.4",
+        "printed_page": 56,
+        "held_pdf_page": 57,
+        "original_extraction_page": 65,
+        "original_extraction_label": "Problem 4.4"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Product constructions maximize nearly k-distance sets except finitely often",
+      "text": "For integers k,d≥1, let m_k(d) be the maximum cardinality of a finite subset of ℝᵈ with at most k distinct distances between its points. A finite set is ε-nearly k-distance if its pairwise distances lie in ⋃_{i=1}^k[t_i,t_i+ε] for some 1≤t₁≤⋯≤t_k. Let M_k(d)=lim_{ε↓0} max{|S|:S⊂ℝᵈ is ε-nearly k-distance}. Define M′_k(d)=max{∏_{i=1}^s m_{k_i}(d_i):s≥1, k_i≥1, d_i≥0, Σ_i k_i=k, Σ_i d_i=d}, using m_j(0)=1. Is M_k(d)=M′_k(d) for all but finitely many integer pairs (k,d) with k,d≥1?",
+      "source_label": "Conjecture5.3",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture5.3, printed p.77 / held PDF p.78; nearby definitions read.",
+      "locator": {
+        "pdf_page": 78,
+        "printed_page": 77
+      },
+      "scope_review": "Distances at arbitrarily different scales are allowed. The number of exceptional parameter PAIRS is finite globally, not merely finite for each fixed k. Zero-dimensional factors use the source convention.",
+      "literature_finding": "Published2023 Conjecture1.11 retains this equality together with a further flat-set equality. Its fixed-k large-d theorem and small-k theorems do not settle globally finite exceptions; no later full closure was located.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "ac6463627559f63898ad"
+      ],
+      "statement_id": "ac6463627559f63898ad",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4988,
+      "source_locator": {
+        "label": "Conjecture5.3",
+        "printed_page": 77,
+        "held_pdf_page": 78,
+        "original_extraction_page": 86,
+        "original_extraction_label": "Conjecture 5.3"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Removing flatness losses from nearly k-distance extremals",
+      "text": "For integers k,d≥1, let m_k(d) be the maximum cardinality of a finite subset of ℝᵈ with at most k distinct distances between its points. A finite set is ε-nearly k-distance if its pairwise distances lie in ⋃_{i=1}^k[t_i,t_i+ε] for some 1≤t₁≤⋯≤t_k. Let M_k(d)=lim_{ε↓0} max{|S|:S⊂ℝᵈ is ε-nearly k-distance}. For S⊂ℝ^{d+1}, call S (d,α)-flat at p∈S if some d-dimensional linear subspace makes angle at most α with every nonzero vector p−q for q∈S. Let N_k(d+1) be the largest N such that for every ε,α>0 there is an ε-nearly k-distance set S⊂ℝ^{d+1} of size N flat at every p∈S. Define A_k(d+1,d) in the same way, allowing at most two exceptional p. For every k,d≥1, is A_k(d+1,d)=N_k(d+1)=M_k(d)?",
+      "source_label": "Problem5.27",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem5.27, printed p.102 / held PDF p.103; nearby definitions read.",
+      "locator": {
+        "pdf_page": 103,
+        "printed_page": 102
+      },
+      "scope_review": "Source physical81–82 defines point-dependent flat planes, with at most TWO exceptional points only for A. Global flatness is not substituted. Source dimension d+1 is ambient, d is flat dimension; equality has no finite-exception qualification.",
+      "literature_finding": "The published successor still conjectures N_k(d+1)=M_k(d), while proving restricted small-k/large-d regimes. The source’s stronger almost-flat equality was not resolved in the checked primary literature.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "b4df0b4fa6db241ab96f"
+      ],
+      "statement_id": "b4df0b4fa6db241ab96f",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4989,
+      "source_locator": {
+        "label": "Problem5.27",
+        "printed_page": 102,
+        "held_pdf_page": 103,
+        "original_extraction_page": 127,
+        "original_extraction_label": "Problem 5.27"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Exact nearly k-distance extremals at fixed dimension and large k",
+      "text": "For integers k,d≥1, let m_k(d) be the maximum cardinality of a finite subset of ℝᵈ with at most k distinct distances between its points. A finite set is ε-nearly k-distance if its pairwise distances lie in ⋃_{i=1}^k[t_i,t_i+ε] for some 1≤t₁≤⋯≤t_k. Let M_k(d)=lim_{ε↓0} max{|S|:S⊂ℝᵈ is ε-nearly k-distance}. For every fixed integer d≥1, determine the exact value of M_k(d) for all sufficiently large integers k, with the threshold allowed to depend on d.",
+      "source_label": "Problem5.28",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem5.28, printed p.102 / held PDF p.103; nearby definitions read.",
+      "locator": {
+        "pdf_page": 103,
+        "printed_page": 102
+      },
+      "scope_review": "Exact cardinality, not the Θ(k^d) order already proved by Theorem5.6. Fixing d and increasing k is the opposite regime from the fixed-k large-d theorem.",
+      "literature_finding": "The source and published successor provide the order of growth and particular regimes, but not the requested exact fixed-d large-k values. No complete later formula was located in the bounded current-primary scan.",
+      "status_grade": "B: explicitly posed source target and bounded current-primary scan; no universal openness certificate",
+      "duplicate_review": "Full numbered-catalog author/source/section aliases and family retrieval were compared. No exact existing target was identified; source-specific repeated passages are merged, and related prescribed/general cases retain their full quantifiers.",
+      "duplicate_of": [],
+      "statement_ids": [
+        "8851c8ba6a97addaf229"
+      ],
+      "statement_id": "8851c8ba6a97addaf229",
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ],
+      "number": 4990,
+      "source_locator": {
+        "label": "Problem5.28",
+        "printed_page": 102,
+        "held_pdf_page": 103,
+        "original_extraction_page": 127,
+        "original_extraction_label": "Problem 5.28"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "reason": "Incomplete reference, source-context ambiguity or incidental passage not cleared as a separate open target. Remains active.",
+      "statement_id": "8cd91e47bd709a249013",
+      "statement_ids": [
+        "8cd91e47bd709a249013"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same bouquet conjecture repeated in the introduction; merged with the Chapter4 source passage.",
+      "statement_id": "fa939525d35add1a5357",
+      "statement_ids": [
+        "fa939525d35add1a5357"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same Problem4.4 target repeated as Problem1.12 in the introduction; merged into one question.",
+      "statement_id": "f6c826edfc8345a15dca",
+      "statement_ids": [
+        "f6c826edfc8345a15dca"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incomplete reference, source-context ambiguity or incidental passage not cleared as a separate open target. Remains active.",
+      "statement_id": "596f829dcbd90f0d029a",
+      "statement_ids": [
+        "596f829dcbd90f0d029a"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Problem3.15 says “exceptK_{d+1}” without an explicit connectedness/component qualification. A disconnected graph containing a K_{d+1} component cannot have the source spherical realization, so its intended scope needs confirmation rather than silent strengthening. Remains active.",
+      "statement_id": "f65d967b1f0e68a26140",
+      "statement_ids": [
+        "f65d967b1f0e68a26140"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incomplete reference, source-context ambiguity or incidental passage not cleared as a separate open target. Remains active.",
+      "statement_id": "a5863e7aa3dde4e8bd46",
+      "statement_ids": [
+        "a5863e7aa3dde4e8bd46"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incomplete reference, source-context ambiguity or incidental passage not cleared as a separate open target. Remains active.",
+      "statement_id": "a36caadd0453f4e386c2",
+      "statement_ids": [
+        "a36caadd0453f4e386c2"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Incomplete reference, source-context ambiguity or incidental passage not cleared as a separate open target. Remains active.",
+      "statement_id": "03ed51dd3af5b06aeeef",
+      "statement_ids": [
+        "03ed51dd3af5b06aeeef"
+      ],
+      "source_pdf_sha256": "2c074d592ce39ba56f0e332d6d11e5d840e1538b119514f18f996c2f9555dc99",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-023-00526-9",
+        "https://link.springer.com/article/10.1007/s00454-023-00489-x",
+        "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf",
+        "https://arxiv.org/abs/1912.00224",
+        "https://link.springer.com/article/10.1007/s00454-023-00503-2",
+        "https://link.springer.com/article/10.1007/s00454-020-00272-2",
+        "https://arxiv.org/abs/2609.36220",
+        "https://arxiv.org/abs/2608.11736",
+        "https://arxiv.org/abs/2510.15677",
+        "https://arxiv.org/abs/2511.09673"
+      ],
+      "search_topics": [
+        "Nora Frankl smiling bouquet conjecture 2026",
+        "Frankl unit-distance graphs spherical dimension maximum degree 2025",
+        "Nearly k-distance sets Frankl Kupavskii conjecture 2025 2026",
+        "trees prescribed distances plane site:arxiv.org",
+        "Frankl unit-distance trees T_{2,3}",
+        "Petty equilateral sets conjecture2025 2026 site:arxiv.org",
+        "Hadwiger–Nelson2026 site:arxiv.org",
+        "Euclidean Ramsey sets spherical conjecture2026 site:arxiv.org",
+        "Almost sharp bounds discrete chains trees2026"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4963,
+    "catalog_sha256": "183dc330827444569791e11d364e9f1be750e5d66ead11306226f0942aef1d13",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

@@ -449,3 +449,291 @@ For every integer d≥1, does there exist v_d>0 such that, for every integer r�
 
 **Further links.** [1](https://dspace.mit.edu/entities/publication/4679800c-86c2-4144-95b5-48be71ec4592) · [2](https://travisadillon.com/math) · [3](https://arxiv.org/abs/2607.10496v1) · [4](https://arxiv.org/abs/2607.29403v1) · [5](https://arxiv.org/abs/2608.06437v2) · [6](https://doi.org/10.5070/C66165693) · [7](https://doi.org/10.1007/s00493-026-00219-w)
 
+
+<a id="q4840"></a>
+
+## Q4840. Unipotents in all uniformly deformed right-angled Coxeter representations
+
+**Status:** Open · **Kind:** open problem (Question 4.0.1) · **Reviewed extraction** 2026-10-13-250
+
+Let Σ be a finite connected simplicial graph with vertices1,…,n, n≥3. Define W=⟨s₁,…,s_n | s_i²=1, [s_i,s_j]=1 whenever i≠j are not adjacent in Σ⟩. For real d>1 let M_d have diagonal entries1, entry−d on edges of Σ, and0 elsewhere. Define σ\_d(s_i)v=v−2(vᵀM_d e_i)e_i on ℝⁿ. Is σ\_d(W) free of nonidentity unipotent matrices for every such Σ and every real d>1?
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.1, printed/physical 61
+
+**Literature check.** Reviewed 2026-10-13: The2025 Anosov theorem covers hyperbolic subgroups and suitable Cartan matrices; the2026 Zariski-closure theorem addresses density rather than excluding unipotents for every uniform d. No full all-graph/all-d closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf) · [2](https://www.math.uni-bonn.de/people/douba/ZariskiClosures.pdf) · [3](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4841"></a>
+
+## Q4841. Quasi-isometric orbit maps for all uniformly deformed Coxeter representations
+
+**Status:** Open · **Kind:** open problem (Question 4.0.2) · **Reviewed extraction** 2026-10-13-250
+
+Let Σ be a finite connected simplicial graph with vertices1,…,n, n≥3. Define W=⟨s₁,…,s_n | s_i²=1, [s_i,s_j]=1 whenever i≠j are not adjacent in Σ⟩. For real d>1 let M_d have diagonal entries1, entry−d on edges of Σ, and0 elsewhere. Define σ\_d(s_i)v=v−2(vᵀM_d e_i)e_i on ℝⁿ. For every d>1 and basepoint x₀ in X=GL_n(ℝ)/O(n), is w↦σ\_d(w)x₀ a quasi-isometric embedding from W with its standard word metric into X with a GL_n(ℝ)-invariant symmetric-space metric?
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.2, printed/physical 62
+
+**Literature check.** Reviewed 2026-10-13: The2025 primary theorem supplies hyperbolic Anosov representations, not an all-nonhyperbolic/all-uniform-parameter orbit theorem. Latest2026 reflection paper gives Zariski-dense integral representations; no exact general orbit-map closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf) · [2](https://www.math.uni-bonn.de/people/douba/ZariskiClosures.pdf) · [3](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4842"></a>
+
+## Q4842. Undistorted integral linear embeddings of virtually compact special groups
+
+**Status:** Open · **Kind:** open problem (Question 4.0.3) · **Reviewed extraction** 2026-10-13-250
+
+Does every virtually compact special group G admit an injective homomorphism G→GL_N(ℤ), for some N≥2, whose image is undistorted? Equivalently, is this map a quasi-isometric embedding for word metrics from finite generating sets? Virtually compact special means that a finite-index subgroup of G is the fundamental group of a compact nonpositively curved special cube complex, admitting a local isometry into a Salvetti complex of a right-angled Artin group.
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.3, printed/physical 63
+
+**Literature check.** Reviewed 2026-10-13: The2025 cubulated-hyperbolic Anosov result answers an important hyperbolic subcase. Its hypothesis does not cover all virtually compact special groups; no exact full closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf) · [2](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4843"></a>
+
+## Q4843. A cocompact rank-one lattice with no compact Lie-group embedding
+
+**Status:** Open · **Kind:** open problem (Question 4.0.4) · **Reviewed extraction** 2026-10-13-250
+
+Does there exist an irreducible Riemannian symmetric space X of noncompact type and real rank1, and a cocompact lattice Γ≤Isom(X), such that Γ admits no injective homomorphism into any compact Lie group?
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.4, printed/physical 63
+
+**Literature check.** Reviewed 2026-10-13: TheJuly2026 Douba–Tsouvalas paper still reports no known linear hyperbolic group without a compact Lie-group embedding, a stronger encompassing existence problem. Its amalgamation theorems do not supply such a lattice. October2026 complex-hyperbolic geodesic work is separate.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf) · [2](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4844"></a>
+
+## Q4844. Rational linear realizations of unipotent-free complex linear groups
+
+**Status:** Open · **Kind:** open problem (Question 4.0.5) · **Reviewed extraction** 2026-10-13-250
+
+Let Γ≤SL_n(ℂ) be finitely generated and contain no nonidentity unipotent matrix. Must Γ admit a faithful finite-dimensional representation over ℚ? More strongly, must there be some m and an embedding Γ→SL_m(ℚ) whose image contains no nonidentity unipotent matrix?
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.5, printed/physical 64
+
+**Literature check.** Reviewed 2026-10-13: The2026 amalgam paper constructs representations over extension polynomial rings; it does not establish the required rational representations. The primary CAT(0)-action theorem is not a rational-linearity theorem. No exact closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf) · [2](https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf) · [3](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4845"></a>
+
+## Q4845. Rational linearity of SO₅(ℤ[1/5])\*C₂
+
+**Status:** Open · **Kind:** open problem (Question 4.0.9) · **Reviewed extraction** 2026-10-13-250
+
+For the positive-definite form q(x)=x₁²+⋯+x₅², let SO₅(ℤ[1/5])={A∈SL₅(ℤ[1/5]):AᵀA=I}. Does SO₅(ℤ[1/5])\*C₂ admit a faithful finite-dimensional representation over ℚ? More strongly, does it embed in SL_m(ℚ), for some m, with no nonidentity unipotent matrix?
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.9, printed/physical 66
+
+**Literature check.** Reviewed 2026-10-13: DGK Corollary1.10 requires discrete real matrix factors. The infinite compact factor SO₅(ℤ[1/5]) is not discrete in its displayed real realization, so that corollary does not answer this question. The2026 amalgam paper distinguishes integral free-product closure from smaller-domain issues. No exact rational closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2407.09439v2) · [2](https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf) · [3](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4846"></a>
+
+## Q4846. Type-N curves characterize nonpositive curvature of closed aspherical three-manifolds
+
+**Status:** Open · **Kind:** open problem (Question 4.0.15) · **Reviewed extraction** 2026-10-13-250
+
+An element g of Γ is of type N if inf_{x∈X}d_X(x,gx)=0 for every isometric action of Γ on every complete π-visible CAT(0) space X. Here π-visible means that any two visual-boundary points at angular distance π are endpoints of a geodesic line. For every closed connected aspherical3-manifold M, does M admit a Riemannian metric of nonpositive sectional curvature if and only if π₁(M) contains no nonidentity type-N element? Equivalently, does every non-NPC graph manifold contain an essential closed curve whose group element is of type N?
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.15, printed/physical 69
+
+**Literature check.** Reviewed 2026-10-13: The published VU-curve theorem supplies virtually unipotent elements for one-JSJ-torus manifolds; it does not prove universal neutrality. The CAT(0) action/compact embedding equivalence has different quantifiers and does not provide a type-N element. No exact type-N closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.math.uni-bonn.de/people/douba/VirtuallyUnipotentCurves.pdf) · [2](https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf) · [3](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4847"></a>
+
+## Q4847. Virtually unipotent elements that fail universal CAT(0) neutrality
+
+**Status:** Open · **Kind:** open problem (Question 4.0.19) · **Reviewed extraction** 2026-10-13-250
+
+An element g is virtually unipotent (VU) in Γ if for every field F and every finite-dimensional representation ρ:Γ→GL_m(F), some positive power of ρ(g) is unipotent; the power may depend on ρ. An element g of Γ is of type N if inf_{x∈X}d_X(x,gx)=0 for every isometric action of Γ on every complete π-visible CAT(0) space X. Here π-visible means that any two visual-boundary points at angular distance π are endpoints of a geodesic line. Does there exist a finitely generated linear group Γ containing a VU element that is not of type N? Here linear means admitting a faithful finite-dimensional representation over some field.
+
+**Source.** Sami Douba. *Unipotents and graph manifold groups*. McGill University, 2022. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/127013) Location: Question 4.0.19, printed/physical 71
+
+**Literature check.** Reviewed 2026-10-13: The VU and CAT(0) primary papers establish implications and examples under different hypotheses. Current author works include2026 reflection/amalgam results but no exact linear VU-versus-type-N separation located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/douba-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.math.uni-bonn.de/people/douba/VirtuallyUnipotentCurves.pdf) · [2](https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf) · [3](https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf) · [4](https://www.math.uni-bonn.de/people/douba/)
+
+<a id="q4950"></a>
+
+## Q4950. Real-analytic structure of absolute-period leaf closures
+
+**Status:** Open · **Kind:** open problem (Question 1.6) · **Reviewed extraction** 2026-10-13-250
+
+For g≥2 and a partition κ of 2g−2 into positive zero multiplicities, let Ω₁M_g(κ) be the area-one stratum of pairs (X,ω), where X is a closed genus-g Riemann surface and ω is a nonzero holomorphic one-form with zero multiplicities κ. Let A(κ) be the absolute period foliation: in local marked period coordinates its leaves keep all integrals of ω over closed integral cycles fixed. Let Per(ω)={∫\_cω:c∈H₁(X;Z)}⊂C. For every leaf L of A(κ) in Ω₁M_g(κ), is its closure L̄ a properly immersed real-analytic suborbifold of Ω₁M_g(κ)?
+
+**Source.** Winsor, Karl Glen. *Dynamics and topology of absolute period foliations of strata of holomorphic 1-forms*. Harvard University Graduate School of Arts and Sciences, 2022. [primary source](https://dash.harvard.edu/server/api/core/bitstreams/eae2bb34-cfd0-49c5-8724-4606eade1f5d/content) · [record](https://dash.harvard.edu/handle/1/37372047) Location: Question 1.6, held PDF physical p. 13, printed p. 5; definitions physical pp. 9–10, printed pp. 1–2.
+
+**Literature check.** Reviewed 2026-10-13: June 2026 Winsor, Theorem 1.1 and introduction, gives a leaf-closure result outside an exceptional algebraic subset and explicitly describes further work as incomplete. This is relevant progress, not a theorem for all leaves in all strata. The 2022/2023 saturated-orbit paper classifies the full Hodge-bundle foliation, which allows zero collisions and differs from the stratum foliation here. No exact full closure was located in the dated primary scan.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2606.01587v1) · [2](https://arxiv.org/html/2210.08795v2) · [3](https://arxiv.org/abs/2207.04628)
+
+<a id="q4951"></a>
+
+## Q4951. Nonclosed absolute-period leaves with dense periods
+
+**Status:** Open · **Kind:** open problem (Question 1.7) · **Reviewed extraction** 2026-10-13-250
+
+For g≥2 and a partition κ of 2g−2 into positive zero multiplicities, let Ω₁M_g(κ) be the area-one stratum of pairs (X,ω), where X is a closed genus-g Riemann surface and ω is a nonzero holomorphic one-form with zero multiplicities κ. Let A(κ) be the absolute period foliation: in local marked period coordinates its leaves keep all integrals of ω over closed integral cycles fixed. Let Per(ω)={∫\_cω:c∈H₁(X;Z)}⊂C. Let L be the leaf through (X,ω) and take its closure L̄ in Ω₁M_g(κ). If Per(ω) is dense in C and L̄≠L, must L̄=SL(2,R)·L?
+
+**Source.** Winsor, Karl Glen. *Dynamics and topology of absolute period foliations of strata of holomorphic 1-forms*. Harvard University Graduate School of Arts and Sciences, 2022. [primary source](https://dash.harvard.edu/server/api/core/bitstreams/eae2bb34-cfd0-49c5-8724-4606eade1f5d/content) · [record](https://dash.harvard.edu/handle/1/37372047) Location: Question 1.7, held PDF physical p. 13, printed p. 5; definitions physical pp. 9–10, printed pp. 1–2.
+
+**Literature check.** Reviewed 2026-10-13: June 2026 Winsor, Theorem 1.1 and introduction, gives a leaf-closure result outside an exceptional algebraic subset and explicitly describes further work as incomplete. This is relevant progress, not a theorem for all leaves in all strata. The 2022/2023 saturated-orbit paper classifies the full Hodge-bundle foliation, which allows zero collisions and differs from the stratum foliation here. No exact full closure was located in the dated primary scan.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2606.01587v1) · [2](https://arxiv.org/html/2210.08795v2) · [3](https://arxiv.org/abs/2207.04628)
+
+<a id="q4952"></a>
+
+## Q4952. Closed invariant sets saturated for the absolute period foliation
+
+**Status:** Open · **Kind:** open problem (Question 1.8) · **Reviewed extraction** 2026-10-13-250
+
+For g≥2 and a partition κ of 2g−2 into positive zero multiplicities, let Ω₁M_g(κ) be the area-one stratum of pairs (X,ω), where X is a closed genus-g Riemann surface and ω is a nonzero holomorphic one-form with zero multiplicities κ. Let A(κ) be the absolute period foliation: in local marked period coordinates its leaves keep all integrals of ω over closed integral cycles fixed. Let Per(ω)={∫\_cω:c∈H₁(X;Z)}⊂C. Classify the closed SL(2,R)-invariant subsets S of Ω₁M_g(κ) that are saturated for A(κ), meaning that S is a union of complete leaves of this foliation.
+
+**Source.** Winsor, Karl Glen. *Dynamics and topology of absolute period foliations of strata of holomorphic 1-forms*. Harvard University Graduate School of Arts and Sciences, 2022. [primary source](https://dash.harvard.edu/server/api/core/bitstreams/eae2bb34-cfd0-49c5-8724-4606eade1f5d/content) · [record](https://dash.harvard.edu/handle/1/37372047) Location: Question 1.8, held PDF physical p. 13, printed p. 5; definitions physical pp. 9–10, printed pp. 1–2.
+
+**Literature check.** Reviewed 2026-10-13: June 2026 Winsor, Theorem 1.1 and introduction, gives a leaf-closure result outside an exceptional algebraic subset and explicitly describes further work as incomplete. This is relevant progress, not a theorem for all leaves in all strata. The 2022/2023 saturated-orbit paper classifies the full Hodge-bundle foliation, which allows zero collisions and differs from the stratum foliation here. No exact full closure was located in the dated primary scan.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/winsor-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2606.01587v1) · [2](https://arxiv.org/html/2210.08795v2) · [3](https://arxiv.org/abs/2207.04628)
+
+<a id="q4954"></a>
+
+## Q4954. Infimal k-dilation in a homotopy class
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Reviewed extraction** 2026-10-13-250
+
+For a smooth map F between Riemannian manifolds, dil_k(F)=sup_x‖ΛᵏdF_x‖, the maximum factor by which its differential expands k-dimensional volume. For closed Riemannian manifolds X,Y, integer k≥1 and a homotopy class α of maps X→Y, determine inf{dil_k(F):F is a smooth representative of α}. In particular, characterize when this infimum is zero.
+
+**Source.** Kumanduri, Luis. *Homotopically nontrivial area contracting maps*. Massachusetts Institute of Technology, 2023. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/e459cb87-f940-4b01-a40c-74c77cf930c6/content) · [record](https://dspace.mit.edu/handle/1721.1/151595) Location: Kumanduri thesis, printed/physical11
+
+**Literature check.** Reviewed 2026-10-13: SourceQuestion1 is the broad minimization target. Primary2023 defense describes only particular stable-range and k=n,n−1 criteria. Current primary2021 Hopf-invariant paper resolves particular relative bounds, not all homotopy classes; no global classification located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/kumanduri-2023.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://math.mit.edu/research/graduate/thesis-defenses.html?year=2023) · [2](https://arxiv.org/abs/2106.01456) · [3](https://math.mit.edu/~luisk/pdfs/cv.pdf) · [4](https://arxiv.org/abs/0709.1241)
+
+<a id="q4991"></a>
+
+## Q4991. Homeomorphism invariance of smooth-manifold tautological rings
+
+**Status:** Open · **Kind:** open problem (Question 5.3.9) · **Reviewed extraction** 2026-10-13-250
+
+For a closed oriented smooth d-manifold M, let π:E→BDiff⁺(M) be the universal oriented smooth M-bundle and T_πE its vertical tangent bundle. With rational coefficients, define R\*(M)⊂H\*(BDiff⁺(M);Q) as the subring generated by all generalized Miller–Morita–Mumford classes κ\_c=π\_!c(T_πE), for c∈H\*(BSO(d);Q), where π\_! is integration along the oriented fibre. If closed oriented smooth manifolds M₁ and M₂ are orientation-preservingly homeomorphic, do the same rational polynomial relations among the labelled generators κ\_c hold in R\*(M₁) and R\*(M₂)? Equivalently, must the assignment κ\_c(M₁)↦κ\_c(M₂) induce an isomorphism of their tautological rings?
+
+**Source.** Nils Prigge. *On tautological classes of fibre bundles and self-embedding calculus*. University of Cambridge, 2020. [primary source](https://www.repository.cam.ac.uk/bitstreams/ab7e50bd-aee4-40e6-bfcb-d7fea02cf517/download) · [record](https://www.repository.cam.ac.uk/handle/1810/317892) Location: Question 5.3.9, held PDF physical p. 96, printed p. 82; Definition 1.2.1 physical p. 18.
+
+**Literature check.** Reviewed 2026-10-13: Current primary Prigge 2025 fake-quaternionic paper and 2026 Euler-ring paper compute restricted examples and invariants of fibrations, without identifying all smooth tautological relations across homeomorphic fibres. Source already records the known component/stable-range results. No full-scope current closure located in the dated primary scan.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://link.springer.com/article/10.1007/s00029-024-00993-9) · [2](https://arxiv.org/pdf/1905.02676) · [3](https://arxiv.org/pdf/2205.01755v3) · [4](https://arxiv.org/abs/2101.07885)
+
+<a id="q4992"></a>
+
+## Q4992. Positive tautological dimension without any connected Lie symmetry
+
+**Status:** Open · **Kind:** open problem (Question 5.3.10) · **Reviewed extraction** 2026-10-13-250
+
+For a closed oriented smooth d-manifold M, let π:E→BDiff⁺(M) be the universal oriented smooth M-bundle and T_πE its vertical tangent bundle. With rational coefficients, define R\*(M)⊂H\*(BDiff⁺(M);Q) as the subring generated by all generalized Miller–Morita–Mumford classes κ\_c=π\_!c(T_πE), for c∈H\*(BSO(d);Q), where π\_! is integration along the oriented fibre. Does there exist M for which the Krull dimension of R\*(M) is positive, while the underlying topological manifold admits no smooth effective action by any nontrivial compact connected Lie group for any choice of smooth structure? For the graded rational ring, Krull dimension is understood after killing its nilradical, equivalently using its commutative even part.
+
+**Source.** Nils Prigge. *On tautological classes of fibre bundles and self-embedding calculus*. University of Cambridge, 2020. [primary source](https://www.repository.cam.ac.uk/bitstreams/ab7e50bd-aee4-40e6-bfcb-d7fea02cf517/download) · [record](https://www.repository.cam.ac.uk/handle/1810/317892) Location: Question 5.3.10, held PDF physical p. 96, printed p. 82; Definition 1.2.1 physical p. 18.
+
+**Literature check.** Reviewed 2026-10-13: Prigge 2025 gives vanishing for almost all fake quaternionic spaces and uses nontrivial connected compact Lie actions to obtain lower bounds in exceptions. This does not produce the required manifold with no action for any smoothing. The current bounded primary scan located no example or impossibility theorem for this full existential conjunction.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://link.springer.com/article/10.1007/s00029-024-00993-9) · [2](https://arxiv.org/pdf/1905.02676) · [3](https://arxiv.org/pdf/2205.01755v3) · [4](https://arxiv.org/abs/2101.07885)
+
+<a id="q4993"></a>
+
+## Q4993. Euler-class kernels for smooth block bundles and smooth fibre bundles
+
+**Status:** Open · **Kind:** open problem (Question 5.3.13) · **Reviewed extraction** 2026-10-13-250
+
+For a closed oriented smooth d-manifold M, let π:E→BhAut⁺(M) be the universal oriented fibration with fibre M, where hAut⁺(M) is the monoid of orientation-preserving homotopy self-equivalences. Define its fibrewise Euler class e_fw=Δ\*Δ\_!(1) using the fibrewise diagonal Δ:E→E×\_B E and its Poincaré-duality Umkehr map. Let E\*(M)⊂H\*(BhAut⁺(M);Q) be the subring generated by κ\_i=π\_!(e_fw^{i+1}) for i≥0. Smooth block diffeomorphisms are diffeomorphisms of M×Δ^k mapping M×σ to itself for every face σ; they need not commute with projection to Δ^k. Their classifying space is BDiff̃⁺(M). The natural maps BDiff⁺(M)→BDiff̃⁺(M)→BhAut⁺(M) induce maps from E\*(M) to their rational cohomology rings. Determine the kernel K_block(M) of E\*(M)→H\*(BDiff̃⁺(M);Q), and determine how it compares with K_smooth(M)=ker[E\*(M)→H\*(BDiff⁺(M);Q)] (so K_block(M)⊂K_smooth(M)).
+
+**Source.** Nils Prigge. *On tautological classes of fibre bundles and self-embedding calculus*. University of Cambridge, 2020. [primary source](https://www.repository.cam.ac.uk/bitstreams/ab7e50bd-aee4-40e6-bfcb-d7fea02cf517/download) · [record](https://www.repository.cam.ac.uk/handle/1810/317892) Location: Question 5.3.13, held PDF physical p. 98, printed p. 84; Euler ring Definition 1.2.4 physical p. 20, block definition physical p. 15.
+
+**Literature check.** Reviewed 2026-10-13: Prigge’s April 2026 primary Euler-ring paper computes E\*(M) for several rational homotopy types. Those source-ring computations do not determine its two restriction kernels for arbitrary smooth M. Current primary retrieval found no all-manifold kernel classification.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/prigge-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://link.springer.com/article/10.1007/s00029-024-00993-9) · [2](https://arxiv.org/pdf/1905.02676) · [3](https://arxiv.org/pdf/2205.01755v3) · [4](https://arxiv.org/abs/2101.07885)
+
+<a id="q5009"></a>
+
+## Q5009. Finiteness of Veech volume
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Reviewed extraction** 2026-10-13-250
+
+Let M_{g,n} be the moduli orbifold of genus-g compact Riemann surfaces with n ordered, distinct marked points. For θ=(θ₁,…,θ\_n) with θ\_i>0 and Σ\_i(2π−θ\_i)=2π(2−2g), identify M_{g,n} with flat Euclidean cone metrics of those angles, up to homothety, by choosing their conformal classes. The Veech foliation fixes the rotational holonomy character ρ:π₁(Σ minus the marked points)→U(1), where a small positive loop δ\_i has ρ(δ\_i)=exp(iθ\_i). Assume 2g−2+n>0 and no θ\_i is in 2πℤ. Define Ω\_θ by pairing the transverse symplectic volume on the holonomy-character torus (the form induced by the intersection pairing on H¹(Σ;ℝ)) with each leaf’s invariant volume from the projectivized Hermitian area form. Concretely, local leaf coordinates are complex edge vectors of a polygonal flat-surface model satisfying the fixed rotational gluing equations and polygon closure; total signed triangle area is a Hermitian form A, and the coordinates are projectivized on A>0. Its projective unitary homogeneous structure supplies the leaf volume, while holonomy coordinates supply the transverse volume. Is ∫\_{M_{g,n}} Ω\_θ finite for every such g,n,θ?
+
+**Source.** Selim Ghazouani. *Structures affines complexes sur les surfaces de Riemann*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01661290/document) · [record](https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb) Location: Conjecture1; repeated Conjecture4 at physical83, printed p. 21; physical PDF p. 24.
+
+**Literature check.** Reviewed 2026-10-13: 2016/2019 primary only establishes special genus-one cases. Dated current primary scan found no all-genus / arbitrary admissible-angle resolution; this is a bounded status assessment.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/1604.01812) · [2](https://arxiv.org/abs/1605.02356) · [3](https://arxiv.org/html/2609.11482v1) · [4](https://arxiv.org/html/1701.02332v4) · [5](https://arxiv.org/abs/2110.06061) · [6](https://arxiv.org/html/2503.05496v1)
+
+<a id="q5010"></a>
+
+## Q5010. Lattice holonomy of flat-torus isoholonomic leaves
+
+**Status:** Open · **Kind:** open problem (Question 3) · **Reviewed extraction** 2026-10-13-250
+
+Fix n≥2 and rational angles θ\_i∈2πℚ with Σ\_iθ\_i=2πn, 2π<θ₁<4π, and 0<θ\_i<2π for i>1. Let T_{1,n} parametrize marked conformal tori with n ordered points and their associated area-one flat cone metrics of angles θ. Let hol:T_{1,n}→Hom(π₁(Σ\_{1,n}),U(1)) assign rotational holonomy, with hol(δ\_i)=exp(iθ\_i). For ρ in its image, let F_[ρ] be the image of hol⁻¹(ρ) in M_{1,n}=T_{1,n}/PMod_{1,n}, where PMod consists of mapping classes fixing each marked point. F_[ρ] may be disconnected. Each connected component C inherits a complex hyperbolic structure of dimension n−1 from the projectivized Hermitian area form in polygon-period coordinates. Classify the pairs (θ,ρ) and components C for which the image of the resulting holonomy representation π₁^orb(C)→PU(1,n−1) is discrete and has finite covolume. In particular, does any such component have nonarithmetic lattice holonomy?
+
+**Source.** Selim Ghazouani. *Structures affines complexes sur les surfaces de Riemann*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01661290/document) · [record](https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb) Location: Question3, printed p. 22; physical PDF p. 25.
+
+**Literature check.** Reviewed 2026-10-13: 2026 primary2609.11482 expressly retains the unknown general discreteness criterion; its sixteen arithmetic commensurability classifications are partial and do not answer this full lattice/nonarithmetic question.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/1604.01812) · [2](https://arxiv.org/abs/1605.02356) · [3](https://arxiv.org/html/2609.11482v1) · [4](https://arxiv.org/html/1701.02332v4) · [5](https://arxiv.org/abs/2110.06061) · [6](https://arxiv.org/html/2503.05496v1)
+
+<a id="q5011"></a>
+
+## Q5011. Connected components of finite-holonomy flat-torus leaves
+
+**Status:** Open · **Kind:** stated as open · **Reviewed extraction** 2026-10-13-250
+
+Fix n≥2 and rational angles θ\_i∈2πℚ with Σ\_iθ\_i=2πn, 2π<θ₁<4π, and 0<θ\_i<2π for i>1. Let T_{1,n} parametrize marked conformal tori with n ordered points and their associated area-one flat cone metrics of angles θ. Let hol:T_{1,n}→Hom(π₁(Σ\_{1,n}),U(1)) assign rotational holonomy, with hol(δ\_i)=exp(iθ\_i). For ρ in its image, let F_[ρ] be the image of hol⁻¹(ρ) in M_{1,n}=T_{1,n}/PMod_{1,n}, where PMod consists of mapping classes fixing each marked point. F_[ρ] may be disconnected. Under the additional assumption that Im(ρ) is finite, determine all connected components of F_[ρ] for arbitrary n,θ,ρ in this range. Equivalently, determine its set π₀(F_[ρ]) in terms of these data.
+
+**Source.** Selim Ghazouani. *Structures affines complexes sur les surfaces de Riemann*. Agence Bibliographique de l'Enseignement Supérieur, 2017. [primary source](https://theses.hal.science/tel-01661290/document) · [record](https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb) Location: Unlabelled connected-components question, Section2.2.8 context, printed p. 124; physical PDF p. 127.
+
+**Literature check.** Reviewed 2026-10-13: Primary1605.02356 computes cases n=2 and exhibits nonconnectedness; general n remains outside those computations. Current2026 monodromy-commensurability result classifies known arithmetic examples, not every finite-character leaf component.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/ghazouani-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/1604.01812) · [2](https://arxiv.org/abs/1605.02356) · [3](https://arxiv.org/html/2609.11482v1) · [4](https://arxiv.org/html/1701.02332v4) · [5](https://arxiv.org/abs/2110.06061) · [6](https://arxiv.org/html/2503.05496v1)

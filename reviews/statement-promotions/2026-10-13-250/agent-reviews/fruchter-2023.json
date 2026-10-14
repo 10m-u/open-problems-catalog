@@ -1,0 +1,385 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:845250ff21ca8321fdb1",
+  "source_review_notes": [
+    "Five recommendations; three holds. Physical12–13,38,66–75,149–150,199–200 checked. Coefficient/scope uncertainties are recorded, not silently resolved."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Fruchter\" \"acylindrical\" \"elementary\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Fruchter limit groups virtual homology 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Fruchter\" \"TFab\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"virtual cohomology spectrum\""
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+      "sections_read": "Theorem1.1, generalized Tarski problem and Questions10.2–10.3"
+    },
+    {
+      "url": "https://arxiv.org/html/2209.14925v3",
+      "sections_read": "§5.3 Questions5.5/5.8 and definitions of spectra"
+    },
+    {
+      "url": "https://arxiv.org/html/2505.20960v1",
+      "sections_read": "TheoremA and profinite-rigidity applications; restricted HGFC class"
+    },
+    {
+      "url": "https://webusers.imj-prg.fr/~simon.andre/anglais.html",
+      "sections_read": "Current primary coauthor publications listing"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/k16a610bd54c4.pdf",
+    "sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+    "physical_pages": 210
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "b907a7a1ca25195dc4b4c1f4483e6244aae6a4187fc0d2eaf3379f8f3c054190",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Generalized Tarski problem with the finite radical",
+      "text": "A group is acylindrically hyperbolic if it admits a non-elementary acylindrical isometric action on a Gromov-hyperbolic space; acylindrical means that for each ε>0 there are R,N such that at most N elements move each of any two points distance≥R by≤ε. For every such G, write E(G) for its maximal finite normal subgroup and G*=⟨G,t | [t,e]=1 for all e∈E(G)⟩=G*ₑ₍G₎(E(G)×ℤ). Are G and G* elementarily equivalent? More strongly, is the canonical inclusion G→G* an elementary embedding?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Generalised Tarski Problem physical12–13; introductory open sentence",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 3,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Includes non-finitely generated acylindrically hyperbolic groups and nontrivial finite radical. Read physical13 for the explicit stronger elementary-embedding second clause. Same ∀∃-theory is the proved result, not the question.",
+      "literature_finding": "André–Fruchter published paper jlms.12526 retains generalized Tarski problem and explains that its theorem proves only ∃∀∃ embedding. Fresh2026 queries and author work list found no full elementary-theory closure.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "No numbered elementary-equivalence/acylindrical target. Separate from existence of a non-acylindrical G equivalent to G*ℤ. Corpus-source siblings reviewed.",
+      "statement_id": "4a9ccde1a86aceb0c4c4",
+      "statement_ids": [
+        "4a9ccde1a86aceb0c4c4"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ],
+      "number": 4916,
+      "source_locator": {
+        "label": null,
+        "printed_page": 3,
+        "held_pdf_page": 12,
+        "original_extraction_page": 12
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A non-acylindrically hyperbolic group equivalent to its free product with ℤ",
+      "text": "A group is acylindrically hyperbolic if it admits a non-elementary acylindrical isometric action on a Gromov-hyperbolic space; acylindrical means that for each ε>0 there are R,N such that at most N elements move each of any two points distance≥R by≤ε. Does there exist a finitely generated G that is not acylindrically hyperbolic but is elementarily equivalent to G*ℤ? Does such a G at least exist with the same ∀∃-theory as G*ℤ (the same sentences ∀x∃y ψ(x,y) with quantifier-free ψ)?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "QuestionIII.8.2",
+      "locator": {
+        "pdf_page": 150,
+        "printed_page": 141,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Preserve both full-elementary and weaker ∀∃ alternatives. No conclusion from merely sharing positive theory. Finite generation is essential.",
+      "literature_finding": "Published Question10.2 retains exactly these alternatives. Its conditional connection to preservation is not a counterexample. No exact later closure located in fresh searches.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "No numbered equivalent target; distinguish accepted preservation question and generalized Tarski problem.",
+      "statement_id": "bb889cfe1a45fc0ef2ab",
+      "statement_ids": [
+        "bb889cfe1a45fc0ef2ab"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ],
+      "number": 4917,
+      "source_locator": {
+        "label": "Question III.8.2",
+        "printed_page": 141,
+        "held_pdf_page": 150,
+        "original_extraction_page": 150
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Elementary invariance of acylindrical hyperbolicity for finitely generated groups",
+      "text": "A group is acylindrically hyperbolic if it admits a non-elementary acylindrical isometric action on a Gromov-hyperbolic space; acylindrical means that for each ε>0 there are R,N such that at most N elements move each of any two points distance≥R by≤ε. If finitely generated groups G,H satisfy exactly the same first-order sentences in the language of groups and G is acylindrically hyperbolic, must H be acylindrically hyperbolic?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "QuestionIII.8.3",
+      "locator": {
+        "pdf_page": 150,
+        "printed_page": 141,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Finite generation on both groups; the source countable-ultrapower counterexample without finite generation does not refute this scope.",
+      "literature_finding": "Published Question10.3 explicitly retains the finite-generation version. Hyperbolicity/cubulability invariance and the special splitting proposition do not settle acylindrical hyperbolicity. No later general closure located.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "No numbered acylindrical/elementary question. Distinct from the existential G versus G*ℤ target; source gives conditional implications, not equivalence unconditionally.",
+      "statement_id": "8442bf251180c2e7d271",
+      "statement_ids": [
+        "8442bf251180c2e7d271"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ],
+      "number": 4918,
+      "source_locator": {
+        "label": "Question III.8.3",
+        "printed_page": 141,
+        "held_pdf_page": 150,
+        "original_extraction_page": 150
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Virtual cohomology spectra of limit groups and HGFC-groups",
+      "text": "A limit group is a finitely generated fully residually free group: every finite subset is mapped injectively by some homomorphism to a free group. An HGFC-group is a word-hyperbolic group which is the fundamental group of a finite graph of finitely generated free groups with infinite cyclic edge groups. For a given such G, field k and integer i≥0, determine Spectrumᵏᵢ(G)={dimₖ Hⁱ(H;k):H≤G and [G:H]<∞}. In particular, which integers occur, rather than merely whether this set is bounded?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "QuestionV.4.9; DefinitionV.4.8",
+      "locator": {
+        "pdf_page": 200,
+        "printed_page": 191,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Actual set of cohomology dimensions, not normalized spectrum nor supremum. Field k retained as parameter. Finite-index subgroups need not be normal.",
+      "literature_finding": "Current paper2209.14925v3 Question5.8(1) retains this target after proving virtual Betti boundedness classification.2025 torsion-abundance paper does not calculate these spectra. Fresh exact-spectrum query located no closure.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "No numbered spectrum question. Saved Morales packet has L²/profinite questions, but none defines this unnormalized full set of finite-index Betti dimensions.",
+      "statement_id": "d036e9c8a49663cc0e3e",
+      "statement_ids": [
+        "d036e9c8a49663cc0e3e"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ],
+      "number": 4919,
+      "source_locator": {
+        "label": "Question V.4.9",
+        "printed_page": 191,
+        "held_pdf_page": 200,
+        "original_extraction_page": 200
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Rigidity from filtered second Betti spectra",
+      "text": "A limit group is a finitely generated fully residually free group: every finite subset is mapped injectively by some homomorphism to a free group. An HGFC-group is a word-hyperbolic group which is the fundamental group of a finite graph of finitely generated free groups with infinite cyclic edge groups. For each field k let FSpectrum²ₖ(G)={dimₖ H²(H;k)/[G:H]:H≤G and [G:H]<∞}. Which groups G in the union of the limit-group and HGFC classes are characterized up to isomorphism within that union by this invariant? That is, for which G does equality FSpectrum²ₖ(G)=FSpectrum²ₖ(H) force H≅G for every H in these classes?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "QuestionV.4.10 and preceding filtered-spectrum definition",
+      "locator": {
+        "pdf_page": 200,
+        "printed_page": 191,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "The field is a parameter from the definition. Characterized means isomorphism in the specified classes, not absolute profinite rigidity among all groups. No incidence/depth labels beyond the actual ratios are added.",
+      "literature_finding": "Current primary Question5.8(2) retains filtered-spectrum classification. The2025 free-product profinite-rigidity theorem uses all finite quotients, a stronger invariant, and does not answer this question. No full closure located.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "No numbered filtered-spectrum question. Distinct from unnormalized-spectrum calculation; neither equality follows from its supremum.",
+      "statement_id": "287544ffdbdd1176f049",
+      "statement_ids": [
+        "287544ffdbdd1176f049"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ],
+      "number": 4920,
+      "source_locator": {
+        "label": "Question V.4.10",
+        "printed_page": 191,
+        "held_pdf_page": 200,
+        "original_extraction_page": 200
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "reason": "2025 Ascari–Fruchter TheoremA settles the hyperbolic graph-of-free-groups branch by abundant torsion. The full non-hyperbolic limit-group TFab target requires reconciliation with that paper and later work before promotion.",
+      "locator": {
+        "pdf_page": 199,
+        "printed_page": 190,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "12156fd4c7ac393ee87f",
+      "statement_ids": [
+        "12156fd4c7ac393ee87f"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Source leaves coefficient field implicit in \"finite virtual second Betti number\"; currentQuestion5.5 still omits it. Hold until rational/all-field meaning is confirmed, rather than inserting a quantifier.",
+      "locator": {
+        "pdf_page": 199,
+        "printed_page": 190,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "ffec88d5bd7a186b9de6",
+      "statement_ids": [
+        "ffec88d5bd7a186b9de6"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Broad \"which algebraic, first-order properties\" direction does not specify a definite completeness/classification criterion. Keep active as a direction, do not force a numbered theorem target.",
+      "locator": {
+        "pdf_page": 149,
+        "printed_page": 140,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "ce0f1d8542bb79c3ba99",
+      "statement_ids": [
+        "ce0f1d8542bb79c3ba99"
+      ],
+      "source_pdf_sha256": "921849b5bdc6c02e3bf48b62dda8372555add35cbfa1c53743d02aeafb1d6394",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.12526",
+        "https://arxiv.org/html/2209.14925v3",
+        "https://arxiv.org/html/2505.20960v1",
+        "https://webusers.imj-prg.fr/~simon.andre/anglais.html"
+      ],
+      "search_topics": [
+        "\"Fruchter\" \"acylindrical\" \"elementary\" 2026",
+        "\"acylindrical hyperbolicity\" \"elementary equivalence\" \"open\" 2025",
+        "Fruchter limit groups virtual homology 2025 2026",
+        "\"Fruchter\" \"TFab\"",
+        "\"virtual cohomology spectrum\""
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Fruchter",
+      "acylindrical",
+      "elementar.*equiv",
+      "virtual.*spectrum",
+      "TFab",
+      "limit.group",
+      "HGFC"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

@@ -1,0 +1,1503 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102428530",
+  "source_review_notes": [
+    "ActualheldPDFreadatlistedphysicalpages; extractionsegments249notphysicalpage: DDLAquestionsarephysical234printed159. FrenchEnglishaliasesmerge. Modernpercolationclosuresexplicitlyretainedoranswered; no inventedstatementIDs. Globalword+charneighborsandmanifestsourcealiasesarepartofpacket and requiremanualclearance."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Martineau rotarily transitive Question4.1 2025 locally finite"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "unimodular quasi-isometric to a Cayley graph 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "percolation uniqueness threshold one-ended locality 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "connective constant locality conjecture 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Directed Diffusion Limited Aggregation ends cone 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ising critical temperature locality abelian Cayley graphs 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://gradmath.org/2025/martineau/",
+      "finding": "Published 2025 author article; subgroup rotational action construction, and full-Aut construction without local finiteness. Published version previously read Question4.1 retains connected locally finite full-Aut target; arXiv counterpart checked below."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1605.06054",
+      "finding": "Actual definitions in §1.2 distinguish rotarily (some subgroup) from strongly rotarily (full Aut); Theorem1.2 solves subgroup version. §4 Question4.1 retains nice infinite strongly rotarily transitive graph. Same author/source family as published2025."
+    },
+    {
+      "url": "https://math.bme.hu/~gabor/PGG.pdf",
+      "finding": "Author lecture notes actual Question16.4 explicitly retain unimodular transitive quasi-isometric-to-Cayley target; dated by contents rather than unreliable search index dates."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+      "finding": "2025 primary result for unimodular totally disconnected groups whose Cayley–Abels graphs are quasi-isometric to trees; tree case does not resolve arbitrary graph target."
+    },
+    {
+      "url": "https://ems.press/content/serial-article-files/51184",
+      "finding": "2025 Hutchcroft–Tointon primary full text: phase transition results close pc=1 ends classification and uniform accumulation question. §1 Theorem1.8/Cor1.9 uniqueness result requires internal isoperimetric dimension >6+2sqrt7, not arbitrary one end."
+    },
+    {
+      "url": "https://arxiv.org/html/2511.01851v1",
+      "finding": "Martineau–Panagiotis polynomial-growth Bernoulli percolation locality/analyticity/sharpness; does not give general nonamenable uniqueness-threshold locality. Ising only in reference title."
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.12283",
+      "finding": "Hutchcroft–Pan subgroup relativization concerns behavior at pu for specified groups, not arbitrary one-end equivalence or local continuity of pu."
+    },
+    {
+      "url": "https://arxiv.org/abs/1412.0150",
+      "finding": "Grimmett–Li locality theorem expressly assumes unimodular graph height function and uniform quantitative bounds, so not all infinite transitive graphs. Compare actual accepted primary repository text https://doi.org/10.1016/j.disc.2018.08.013."
+    },
+    {
+      "url": "https://alea.impa.br/articles/v14/14-15.pdf",
+      "finding": "Primary DDLA definitions §2 seed{0}, downward walks; §5 Questions5.5–5.6 identical to thesis3.5.5–3.5.6. Cluster is a subset of Z², not an attachment tree."
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+      "finding": "April2026 Cooper–Frieze results concern large finite layered graphs with source/sink and stopping at source; unique connecting path there is not infinite quadrant DDLA end distribution or cone containment."
+    },
+    {
+      "url": "https://arxiv.org/html/1803.09686v2",
+      "finding": "Martineau–Severo Thm2.1, Lemmas7.2/7.3 close exact thesis classical-cover question: strong covers lift trees disjointly, noninjective quasi-transitive endpoints imply tame fibres, and pc(G1)≤pc(G2)<1. No equivariance assumption needed."
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.10983",
+      "finding": "Easo–Hutchcroft full infinite-graph locality closure assumes pc(Gn)≠1. ThesisQ2.0.1 omits that condition and is literally false by finite approximants; corrected intended locality answered. Nilpotent extension answered under exact Theorem2.0.4 assumptions."
+    },
+    {
+      "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf",
+      "finding": "Current primary repository closure lead for full bond nonuniqueness; browser PDF inaccessible. Do not label conjecture open or terminally solved without primary proof/statement audit; retained hold. Associated criticality manuscript similarly a current closure lead."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q102428530.pdf",
+    "sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+    "physical_pages": 244
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "2301d2ca816a7c0444f35f70868bc75f67bbf62db50e70a67856b0d2f0ef5ab2",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "A locally finite transitive graph whose every automorphism fixes a vertex",
+      "text": "Does there exist a connected, locally finite, simple graph G with at least two vertices such that Aut(G) acts transitively on V(G) and every automorphism of G fixes at least one vertex? The fixed vertex may depend on the automorphism.",
+      "locator": {
+        "pdf_page": 43,
+        "printed_page": "34",
+        "label": "Question0.2.13"
+      },
+      "scope_review": "Graph conventions phys16 require connected/local finite; rotatoirement transitive GRAPH means full Aut, unlike some-group action in nextQ. Finite nontrivial case is impossible by Burnside, so this is the infinite case.",
+      "literature_finding": "Current published2025 source and arXiv§4 retain strongly rotarily nice graph as openQ4.1; subgroup-action theorem does not answer full-Aut target.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, full source/author/title manifest alias comparison and corpus siblings are inspected. No exact target found; individual nearest relationships recorded after generation. French/English repeated formulations merge rather than add questions. NearestQ1867isfullAutofaspecificincidencegraphisomorphictoaprescribedgroup;Q1356periodiccolouringnotfixedvertex. All14word/charneighborscompared, noneequivalent.",
+      "statement_ids": [
+        "1fa3ea74bac9ba7edaec",
+        "367570a15f6a3757b167"
+      ],
+      "statement_id": "1fa3ea74bac9ba7edaec",
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ],
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question0.2.13, printed p.34 / held PDF p.43.",
+      "source_label": "Question0.2.13",
+      "number": 4994,
+      "source_locator": {
+        "label": "Question0.2.13",
+        "printed_page": "34",
+        "held_pdf_page": 43,
+        "original_extraction_page": 43,
+        "original_extraction_label": "Question 0.2.13"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Unimodular transitive graphs and Cayley geometry",
+      "text": "Is every connected, locally finite, vertex-transitive simple graph G quasi-isometric to a Cayley graph of a finitely generated group? Assume G is unimodular: for every Aut(G)-invariant f:V(G)×V(G)→[0,∞] and every o∈V(G), the sums ∑_v f(o,v) and ∑_v f(v,o) agree. A quasi-isometry is a map that distorts distances by uniform multiplicative and additive constants and whose image lies within a uniform distance of every vertex of the target.",
+      "locator": {
+        "pdf_page": 41,
+        "printed_page": "32",
+        "label": "Unlabelled remark after Proposition0.2.11"
+      },
+      "scope_review": "Exact source unimodularity is full-Aut mass transport phys38–39; finite graphs qualify and are quasi-isometric to a finite Cayley graph. Known nonunimodular Diestel-Leader counterexamples cannot refute restricted target.",
+      "literature_finding": "Primary current-accessible lecture notes explicitly askQ16.4; 2025 rational-cohomological/tree result covers only tree geometry.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, full source/author/title manifest alias comparison and corpus siblings are inspected. No exact target found; individual nearest relationships recorded after generation. French/English repeated formulations merge rather than add questions. NearestQ3124almostplanarQIplanar, Q1618AHQIinvariance andQ1300even-subgraphpercolationare different mathematicalproperties. Q1866isgraphisomorphism/Cayleyincidenceclassification, notallunimodularcoarsegeometry.",
+      "statement_id": "d1b0c81e074ab97f988f",
+      "statement_ids": [
+        "d1b0c81e074ab97f988f"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ],
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Unlabelled remark after Proposition0.2.11, printed p.32 / held PDF p.41.",
+      "source_label": "Unlabelled remark after Proposition0.2.11",
+      "number": 4995,
+      "source_locator": {
+        "label": "Unlabelled remark after Proposition0.2.11",
+        "printed_page": "32",
+        "held_pdf_page": 41,
+        "original_extraction_page": 110,
+        "original_extraction_label": null
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "One end and the percolation uniqueness threshold",
+      "text": "For every infinite, connected, locally finite, vertex-transitive simple graph G, is p_u(G)<1 equivalent to G having exactly one end? Here Bernoulli bond percolation independently retains each edge with probability p, and p_u(G)=inf{p∈[0,1]: there is almost surely exactly one infinite open cluster}. Two rays define the same end when, after deleting any finite set of vertices, their tails lie in the same connected component.",
+      "locator": {
+        "pdf_page": 59,
+        "printed_page": "50",
+        "label": "Question0.3.22"
+      },
+      "scope_review": "Source is ALL transitive graphs, not just finitely presented Cayley graphs. Multi-ended⇒pu=1 known, finitely presented one-ended positive known. Finitegraphs have0ends andpu=1underdefault so excluding them removes no unresolved case.",
+      "literature_finding": "2025 internal-isoperimetric-dimension uniqueness result has an extra strong hypothesis; 2024/2026 subgroup/propertyTw results also special. No full primary closure identified.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, full source/author/title manifest alias comparison and corpus siblings are inspected. No exact target found; individual nearest relationships recorded after generation. French/English repeated formulations merge rather than add questions. Q2996asksnonuniquenessinspecificrandomcausalmap, Q3687specificcontinuumuniqueness, Q3693/3789hyperbolicPoissonintensitydifferentiability/monotonicity; notoneendequivalenceforarbitrarytransitivegraphs.",
+      "statement_ids": [
+        "6829e9280d38e714eac8",
+        "454cff00831c9fc7d08f"
+      ],
+      "statement_id": "6829e9280d38e714eac8",
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ],
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question0.3.22, printed p.50 / held PDF p.59.",
+      "source_label": "Question0.3.22",
+      "number": 4996,
+      "source_locator": {
+        "label": "Question0.3.22",
+        "printed_page": "50",
+        "held_pdf_page": 59,
+        "original_extraction_page": 59,
+        "original_extraction_label": "Question 0.3.22 (Benjamini et Schramm)"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Local continuity of percolation uniqueness thresholds",
+      "text": "For every ε>0, is the Bernoulli bond percolation uniqueness threshold p_u continuous on {G: G is an infinite, connected, locally finite, vertex-transitive simple graph and p_u(G)<1−ε}? Explicitly, if G_n and G belong to this set and, for every radius r, their rooted radius-r balls are eventually isomorphic, must p_u(G_n)→p_u(G)? Here p_u(H)=inf{p∈[0,1]: p-bond percolation on H almost surely has exactly one infinite cluster}.",
+      "locator": {
+        "pdf_page": 60,
+        "printed_page": "51",
+        "label": "Question0.3.26"
+      },
+      "scope_review": "Exact restricted domain includes limit as well as sequence, same strict uniform gap1−ε. Does not silently change to allgraphs or just Cayley graphs. Root choice immaterial transitivity.",
+      "literature_finding": "2023pc locality is about existence, not uniqueness. 2025polynomialgrowth work covers amenableclasspu=pc, a proper subclass; no arbitrarytransitive full closure found.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, full source/author/title manifest alias comparison and corpus siblings are inspected. No exact target found; individual nearest relationships recorded after generation. French/English repeated formulations merge rather than add questions. Q3693/Q3789varyPoissonintensityonfixedhyperbolicambientspace; herevarydiscretetransitivegraphsinthelocaltopology. Q2996differentpropertyinrandomcausalmap.",
+      "statement_ids": [
+        "69b69eaefb6242662972",
+        "e171f91096e678f4c128"
+      ],
+      "statement_id": "69b69eaefb6242662972",
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ],
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question0.3.26, printed p.51 / held PDF p.60.",
+      "source_label": "Question0.3.26",
+      "number": 4997,
+      "source_locator": {
+        "label": "Question0.3.26",
+        "printed_page": "51",
+        "held_pdf_page": 60,
+        "original_extraction_page": 60,
+        "original_extraction_label": "Question 0.3.26"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Locality of self-avoiding-walk connective constants",
+      "text": "Let G_n and G be infinite, connected, locally finite, vertex-transitive simple graphs such that, for every r, the rooted radius-r ball of G_n is eventually isomorphic to that of G. Must μ(G_n)→μ(G), where μ(H)=lim_{m→∞} c_m(H)^{1/m} and c_m(H) counts length-m self-avoiding walks from any fixed vertex of H?",
+      "locator": {
+        "pdf_page": 182,
+        "printed_page": "107",
+        "label": "Question2.0.7"
+      },
+      "scope_review": "Full infinite transitive class in source; no height function or uniform height-span assumption inserted. Definitions on same actualpage specifycn andsubmultiplicative limit.",
+      "literature_finding": "Grimmett–Li primary locality theorem is conditional on uniformly controlled unimodular graph height functions; 2025/2026 searches identified this partial theorem but no full arbitrary-class resolution.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, full source/author/title manifest alias comparison and corpus siblings are inspected. No exact target found; individual nearest relationships recorded after generation. French/English repeated formulations merge rather than add questions. Q1486fixesSAWcountasymptoticexponent,A;Q1991randompercolationclusterlimitexistence, notlocalcontinuityfortransitivegraphs. Allretrievedrelationshipscompared.",
+      "statement_id": "079a9889aaf4555f89a0",
+      "statement_ids": [
+        "079a9889aaf4555f89a0"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ],
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question2.0.7, printed p.107 / held PDF p.182.",
+      "source_label": "Question2.0.7",
+      "number": 4998,
+      "source_locator": {
+        "label": "Question2.0.7",
+        "printed_page": "107",
+        "held_pdf_page": 182,
+        "original_extraction_page": 182,
+        "original_extraction_label": "Question 2.0.7"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Cone confinement of directed diffusion-limited aggregation",
+      "text": "Start C_0={(0,0)}⊂Z_{≥0}². Given C_n, choose k>max{x+y:(x,y)∈C_n}, choose a uniform site of L_k={(x,y)∈Z_{≥0}²:x+y=k}, and run a walk that independently steps (−1,0) or (0,−1), each with probability1/2. Restart independently from L_k if the walk leaves the quadrant without hitting C_n. When it first hits C_n at timeτ, set C_{n+1}=C_n∪{W_{τ−1}}. The transition law is independent of k. Put C_∞=∪_n C_n. For which b>0 is C_∞ almost surely contained in C_b={(x,y)∈R²: |x+y|≥b|y−x|} up to finitely many sites?",
+      "locator": {
+        "pdf_page": 234,
+        "printed_page": "159",
+        "label": "Question3.5.5"
+      },
+      "scope_review": "Actualmodelphys213–215 usesstandard singleorigin finitegrowth, notinfinitehorizontalinitialcondition. SourceCb=r−π/4{(u,v):|v|≥b|u|}; exact coordinate conversion is |x+y|≥b|y−x|. No change to scaling/shape theorem.",
+      "literature_finding": "Primary2017paper§5 posesidenticalQ5.5; April2026finite-source/sink layeredDLA different process and does not answer coneconfinement.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, full source/author/title manifest alias comparison and corpus siblings are inspected. No exact target found; individual nearest relationships recorded after generation. French/English repeated formulations merge rather than add questions. Q197/Q198concernDLAattachmenttreeoninfinitespanning-tree-weightedrandomplanarmap(source1901.06860), notdirectedharmonicgrowthonquadrantZ²withallambientedges. Q1194even-percolation/currentclusterone-endednessdifferentlaw; Q1992independentedgeorientationsdifferentlaw. Fullword/charneighborsandmanualDLAfamilyretrievalcompared.",
+      "statement_id": "afc1ebe2ef10b74a4025",
+      "statement_ids": [
+        "afc1ebe2ef10b74a4025"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ],
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question3.5.5, printed p.159 / held PDF p.234.",
+      "source_label": "Question3.5.5",
+      "number": 4999,
+      "source_locator": {
+        "label": "Question3.5.5",
+        "printed_page": "159",
+        "held_pdf_page": 234,
+        "original_extraction_page": 249,
+        "original_extraction_label": "Question 3.5.5"
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Ends of the infinite directed diffusion-limited aggregation cluster",
+      "text": "Start C_0={(0,0)}⊂Z_{≥0}². Given C_n, choose k>max{x+y:(x,y)∈C_n}, choose a uniform site of L_k={(x,y)∈Z_{≥0}²:x+y=k}, and run a walk that independently steps (−1,0) or (0,−1), each with probability1/2. Restart independently from L_k if the walk leaves the quadrant without hitting C_n. When it first hits C_n at timeτ, set C_{n+1}=C_n∪{W_{τ−1}}. The transition law is independent of k. Put C_∞=∪_n C_n. What is the probability distribution of the number of ends of the infinite cluster, viewed as the nearest-neighbor subgraph of Z² induced by C_∞? Two infinite simple rays define the same end if their tails lie in the same component after every finite vertex deletion.",
+      "locator": {
+        "pdf_page": 234,
+        "printed_page": "159",
+        "label": "Question3.5.6"
+      },
+      "scope_review": "SourceclusterisgrowingsubsetZ²; useambientnearest-neighborgraph, nottreeofattachmentchoices. Enddistributionasksfullrandomlaw, notpresumedalmost-sureconstant. Same standardseedorigin as precedingprocess.",
+      "literature_finding": "Primary2017paper§5posesidenticalQ5.6;2026layeredDLAuniqueconnectingpath atfinite stoppingtime is not infinite planar cluster end theorem.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, full source/author/title manifest alias comparison and corpus siblings are inspected. No exact target found; individual nearest relationships recorded after generation. French/English repeated formulations merge rather than add questions. Q197/Q198concernDLAattachmenttreeoninfinitespanning-tree-weightedrandomplanarmap(source1901.06860), notdirectedharmonicgrowthonquadrantZ²withallambientedges. Q1194even-percolation/currentclusterone-endednessdifferentlaw; Q1992independentedgeorientationsdifferentlaw. Fullword/charneighborsandmanualDLAfamilyretrievalcompared.",
+      "statement_id": "61b782c4f4960a652787",
+      "statement_ids": [
+        "61b782c4f4960a652787"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ],
+      "subject": "Probability & Stochastic Processes",
+      "citation": "Question3.5.6, printed p.159 / held PDF p.234.",
+      "source_label": "Question3.5.6",
+      "number": 5000,
+      "source_locator": {
+        "label": "Question3.5.6",
+        "printed_page": "159",
+        "held_pdf_page": 234,
+        "original_extraction_page": 249,
+        "original_extraction_label": "Question 3.5.6"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "reason": "Same target repeated in French/English; stable identifier preserved in accepted question provenance.",
+      "merged_into": "1fa3ea74bac9ba7edaec",
+      "locator": {
+        "pdf_page": 43,
+        "label": "Question0.2.13"
+      },
+      "statement_id": "367570a15f6a3757b167",
+      "statement_ids": [
+        "367570a15f6a3757b167"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same target repeated in French/English; stable identifier preserved in accepted question provenance.",
+      "merged_into": "6829e9280d38e714eac8",
+      "locator": {
+        "pdf_page": 59,
+        "label": "Question0.3.22"
+      },
+      "statement_id": "454cff00831c9fc7d08f",
+      "statement_ids": [
+        "454cff00831c9fc7d08f"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same target repeated in French/English; stable identifier preserved in accepted question provenance.",
+      "merged_into": "69b69eaefb6242662972",
+      "locator": {
+        "pdf_page": 60,
+        "label": "Question0.3.26"
+      },
+      "statement_id": "e171f91096e678f4c128",
+      "statement_ids": [
+        "e171f91096e678f4c128"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Subgroup-action version is answered positively by Martineau2016/2025 construction; source GRAPH/full-Aut question remains separate. Theorem1.2 in arXiv, publishedTheorem1.4.",
+      "locator": {
+        "pdf_page": 43,
+        "label": "Bounded source disposition"
+      },
+      "statement_ids": [
+        "631c1a7f291f4c4e8b38",
+        "0ce5fd0ecb78ebc88324"
+      ],
+      "statement_id": "631c1a7f291f4c4e8b38",
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "English repeated subgroup-action question answered with Frenchsource; retains IDs.",
+      "locator": {
+        "pdf_page": 43,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "0ce5fd0ecb78ebc88324",
+      "statement_ids": [
+        "0ce5fd0ecb78ebc88324"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Exact classical-cover target answered by Martineau–Severo2018/2019 Theorem2.1: sourceclassicalcover⇒strongcover⇒disjointtree-liftingLemma7.3; bothtransitive⇒tamefibresLemma7.2; pcG1≤pcG2<1. No unverified tame-fibre restriction remains.",
+      "locator": {
+        "pdf_page": 50,
+        "label": "Bounded source disposition"
+      },
+      "statement_ids": [
+        "a293ff5704134bd6c1e7",
+        "9fbfb2099c6f80e434a6"
+      ],
+      "statement_id": "a293ff5704134bd6c1e7",
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "English repeated classical-cover question answered with Frenchsource; retainsIDs.",
+      "locator": {
+        "pdf_page": 50,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "9fbfb2099c6f80e434a6",
+      "statement_ids": [
+        "9fbfb2099c6f80e434a6"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Modern phase-transition theorem covers all transitivegraphs of superlinear growth; Cayleygraphs with0endsarefinite,2endslinear. Hutchcroft–Tointon2025 currentprimary supports exactclassification.",
+      "locator": {
+        "pdf_page": 56,
+        "label": "Bounded source disposition"
+      },
+      "statement_ids": [
+        "4176d57d01d03b075896",
+        "7e8c9764e880ac63e6ca"
+      ],
+      "statement_id": "4176d57d01d03b075896",
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "English repeated ends/existence-threshold conjecture answered.",
+      "locator": {
+        "pdf_page": 56,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "7e8c9764e880ac63e6ca",
+      "statement_ids": [
+        "7e8c9764e880ac63e6ca"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Source asks1accumulation amongalltransitivegraphs; current uniform degree-dependent bound closesfixeddegreeonly. Need actualglobaldegree-independent theorem, so no terminaldecision.",
+      "locator": {
+        "pdf_page": 54,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "b50834b4f4f167a8813d",
+      "statement_ids": [
+        "b50834b4f4f167a8813d"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "LiteralQ2.0.1omitsnontrivialthresholdassumption and is false usingfinitequotientsapproachingZ². Intended Schrammlocality versionwithpcGn<1 solvedEaso–Hutchcroft2023; do notsilentlyrepairthequestion.",
+      "locator": {
+        "pdf_page": 179,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "ead6d04c50d5ef37b67c",
+      "statement_ids": [
+        "ead6d04c50d5ef37b67c"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "ExactTheorem2.0.4nilpotentextensionwithpcGn<1 is a specialcaseof fullinfinitegraphlocalityEaso–Hutchcroft2023; source assumptionsphys181.",
+      "locator": {
+        "pdf_page": 182,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "3c942174152adec592a1",
+      "statement_ids": [
+        "3c942174152adec592a1"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Current September2026OpenAImath repository primary closurelead for fullbondcriticality; needaccessibleactualstatement/proofaudit. No safeopenoransweredcertificate in thisboundedreview.",
+      "locator": {
+        "pdf_page": 49,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "e96d82091114eb42db9e",
+      "statement_ids": [
+        "e96d82091114eb42db9e"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Current September2026OpenAImath repository primary closurelead for fullbondcriticality; needaccessibleactualstatement/proofaudit. No safeopenoransweredcertificate in thisboundedreview.",
+      "locator": {
+        "pdf_page": 49,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "2bf4dbb2356f5e8ad46d",
+      "statement_ids": [
+        "2bf4dbb2356f5e8ad46d"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Current September2026OpenAImath repository primary closurelead for fullbondcriticality; needaccessibleactualstatement/proofaudit. No safeopenoransweredcertificate in thisboundedreview.",
+      "locator": {
+        "pdf_page": 49,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "0ed5154afb5184bf16f0",
+      "statement_ids": [
+        "0ed5154afb5184bf16f0"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Current September2026OpenAImath repository primary closurelead for fullbondcriticality; needaccessibleactualstatement/proofaudit. No safeopenoransweredcertificate in thisboundedreview.",
+      "locator": {
+        "pdf_page": 49,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "ca5d782df2c86cf6f606",
+      "statement_ids": [
+        "ca5d782df2c86cf6f606"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Current September2026primary closurelead for fullbondnonuniqueness; ifverifiedclosesnonamenabilityequivalenceandbilipschitzinvariance. BrowserPDFinaccessible; retainedpendingprimaryaudit.",
+      "locator": {
+        "pdf_page": 58,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "273ddc0cb480e8bda75a",
+      "statement_ids": [
+        "273ddc0cb480e8bda75a"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Current September2026primary closurelead for fullbondnonuniqueness; ifverifiedclosesnonamenabilityequivalenceandbilipschitzinvariance. BrowserPDFinaccessible; retainedpendingprimaryaudit.",
+      "locator": {
+        "pdf_page": 58,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "48bda3527ca296acd0b3",
+      "statement_ids": [
+        "48bda3527ca296acd0b3"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Current September2026primary closurelead for fullbondnonuniqueness; ifverifiedclosesnonamenabilityequivalenceandbilipschitzinvariance. BrowserPDFinaccessible; retainedpendingprimaryaudit.",
+      "locator": {
+        "pdf_page": 58,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "bf3b090d54be45ecd306",
+      "statement_ids": [
+        "bf3b090d54be45ecd306"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Needscurrent primary Isingtemperaturelocality review plusprecise zero-fieldnearest-neighbor unitcoupling/criticalGibbs convention; no silent promotion of vague theoremreference.",
+      "locator": {
+        "pdf_page": 182,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "97119e6850f996c2402b",
+      "statement_ids": [
+        "97119e6850f996c2402b"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Extractedcrossreference/table/prose fragment lacksindependentlyreviewed standalone target; no numberedquestion created.",
+      "locator": {
+        "pdf_page": 60,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "0140afb0092ba5b07ad4",
+      "statement_ids": [
+        "0140afb0092ba5b07ad4"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Extractedcrossreference/table/prose fragment lacksindependentlyreviewed standalone target; no numberedquestion created.",
+      "locator": {
+        "pdf_page": 60,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "9a235d50a164ce439f1e",
+      "statement_ids": [
+        "9a235d50a164ce439f1e"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Extractedcrossreference/table/prose fragment lacksindependentlyreviewed standalone target; no numberedquestion created.",
+      "locator": {
+        "pdf_page": 60,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "8523b2732e6401cc4edc",
+      "statement_ids": [
+        "8523b2732e6401cc4edc"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Extractedcrossreference/table/prose fragment lacksindependentlyreviewed standalone target; no numberedquestion created.",
+      "locator": {
+        "pdf_page": 60,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "69f9a7e71f45c2c15d49",
+      "statement_ids": [
+        "69f9a7e71f45c2c15d49"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Extractedcrossreference/table/prose fragment lacksindependentlyreviewed standalone target; no numberedquestion created.",
+      "locator": {
+        "pdf_page": 60,
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "abb0376cbdf626d19102",
+      "statement_ids": [
+        "abb0376cbdf626d19102"
+      ],
+      "source_pdf_sha256": "954f5be1728bb19a76ce075fd2b0d6e54694d64aebd17aec3a6f596ef629079b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://gradmath.org/2025/martineau/",
+        "https://arxiv.org/pdf/1605.06054",
+        "https://math.bme.hu/~gabor/PGG.pdf",
+        "https://link.springer.com/article/10.1007/s00208-025-03116-7",
+        "https://ems.press/content/serial-article-files/51184",
+        "https://arxiv.org/html/2511.01851v1",
+        "https://arxiv.org/abs/2409.12283",
+        "https://arxiv.org/abs/1412.0150",
+        "https://alea.impa.br/articles/v14/14-15.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10",
+        "https://arxiv.org/html/1803.09686v2",
+        "https://arxiv.org/abs/2310.10983",
+        "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+      ],
+      "search_topics": [
+        "Martineau rotarily transitive Question4.1 2025 locally finite",
+        "unimodular quasi-isometric to a Cayley graph 2025 2026",
+        "percolation uniqueness threshold one-ended locality 2026",
+        "connective constant locality conjecture 2025 2026",
+        "Directed Diffusion Limited Aggregation ends cone 2026",
+        "Ising critical temperature locality abelian Cayley graphs 2026",
+        "Martineau Severo strict monotonicity covering tame fibres lemma7.2"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4963,
+    "catalog_sha256": "183dc330827444569791e11d364e9f1be750e5d66ead11306226f0942aef1d13",
+    "corpus_count": 28701,
+    "corpus_sha256": "73afd2c7fab324ef42d4d290164951dc1848dd5a31ba8afa097d09b9691cf73b",
+    "additional_regex_queries": [
+      "rotar",
+      "rotat.*transit",
+      "unimodular",
+      "Cayley.*quasi",
+      "uniqueness threshold",
+      "p_u",
+      "pu\\(",
+      "DDLA",
+      "diffusion.limited",
+      "connective constant",
+      "self.avoiding",
+      "critical temperature.*Ising"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

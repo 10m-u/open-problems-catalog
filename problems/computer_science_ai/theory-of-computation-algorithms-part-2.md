@@ -2455,3 +2455,179 @@ Is there a constant δ>0 such that, for every sufficiently large n, some nonnega
 
 **Further links.** [1](https://eccc.weizmann.ac.il/report/2025/003/) · [2](https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2025.35) · [3](https://doi.org/10.1007/s00037-026-00296-9) · [4](https://chatgpt.com/share/6ac04082-3658-83ea-adbe-ff07405dc0c1)
 
+
+<a id="q4901"></a>
+
+## Q4901. Bounded discrepancy forces bounded sign-rank
+
+**Status:** Open · **Kind:** open problem (Question 1) · **Reviewed extraction** 2026-10-13-250
+
+For every δ>0, is there an integer d(δ) such that every finite sign matrix A with disc(A)≥δ has sign-rank at most d(δ)? Sign-rank is the minimum rank of a real matrix with sign pattern A. Define disc(A)=min_μ max_{S,T}|∑\_{(x,y)∈S×T}μ(x,y)A_xy|, where μ ranges over probability distributions on the entries and S×T over rectangles.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Question 1.1; uniform bounded-cost interpretation from §1.1.3; printed p. 17 / PDF p. 30.
+
+**Literature check.** Reviewed 2026-10-13: The 2025 k-Hamming-distance paper resolves that particular family but retains the general constant-cost bounded-error versus unbounded-error separation conjecture. The 2026 hierarchy distinguishes bounded discrepancy from bounded sign-rank. No full bound or separating family was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4902"></a>
+
+## Q4902. Large monochromatic rectangles at constant randomized communication cost
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Reviewed extraction** 2026-10-13-250
+
+For every fixed C, does some c(C)>0 have the following property for every N? Any N×N Boolean matrix F computable with at most C bits of public-coin two-party communication and worst-case error at most 1/3 contains a monochromatic rectangle S×T with |S|,|T|≥c(C)N.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Conjecture 1.3; printed p. 22 / PDF p. 35.
+
+**Literature check.** Reviewed 2026-10-13: The source states Conjecture 1.3. Wang–Wu’s September 2026 construction has polylogarithmic rather than constant randomized cost, so its small-rectangle separation does not answer this constant-cost target. No full resolution was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4903"></a>
+
+## Q4903. Large monochromatic rectangles at bounded gamma-two norm
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1) · **Reviewed extraction** 2026-10-13-250
+
+For every M≥1, does some c(M)>0 have the following property? Every N×N Boolean matrix F with γ₂(F)≤M has a monochromatic rectangle S×T with |S|,|T|≥c(M)N. Here γ₂(F)=inf max_x||u_x||₂ max_y||v_y||₂ over finite-dimensional real factorizations F_xy=⟨u_x,v_y⟩.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Conjecture 1.4 and Definition 2.7; printed p. 22 / PDF p. 35.
+
+**Literature check.** Reviewed 2026-10-13: The source states the exact-norm Conjecture 1.4. Current approximate-norm and randomized-cost hierarchy results concern a different condition; the recent polylogarithmic-cost counterexample does not supply a bounded exact γ₂ example. No exact resolution was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4904"></a>
+
+## Q4904. Constant randomized parity-tree size with superpolynomial deterministic size
+
+**Status:** Open · **Kind:** open problem (Question 6) · **Reviewed extraction** 2026-10-13-250
+
+A parity decision tree asks the parity of any subset of input coordinates at each internal node. PDTsize is its minimum number of leaves; RPDTsize is the minimum worst-case number of leaves in a distribution of such trees computing the function with pointwise error at most 1/3. Is there a family f_n:F₂^n→{0,1} with RPDTsize(f_n)=O(1) but PDTsize(f_n)=2^{Ω(n)}? If exponential separation is unavailable, can PDTsize(f_n) grow faster than every fixed power of n?
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Question 6.1; printed p. 110 / PDF p. 123.
+
+**Literature check.** Reviewed 2026-10-13: The source’s separation has logarithmic randomized depth and polynomial randomized size, not constant randomized size. The 2025 randomized PDT lifting theorem supplies lower bounds for composed functions without giving this constant-size versus superpolynomial-size family. No exact closure was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4905"></a>
+
+## Q4905. Constant randomized parity depth with superpolynomial Fourier norm
+
+**Status:** Open · **Kind:** open problem (Question 6) · **Reviewed extraction** 2026-10-13-250
+
+Does a family f_n:F₂^n→{0,1} exist with bounded-error randomized parity decision-tree depth O(1) while ||f_n||\_A grows faster than every fixed power of n? Here each query is a coordinate-subset parity, error is at most 1/3 on every input, and ||f||\_A=∑\_{a∈F₂^n}|2^{-n}∑\_x f(x)(−1)^{a·x}|.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Question 6.2; printed p. 110 / PDF p. 123.
+
+**Literature check.** Reviewed 2026-10-13: The source proves an exponential Fourier norm at randomized depth O(log n), leaving the constant-depth question explicit. Current parity lifting work does not remove that logarithmic depth. No exact constant-depth construction or universal polynomial bound was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4906"></a>
+
+## Q4906. Constant randomized communication outside polynomial equality-oracle communication
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6) · **Reviewed extraction** 2026-10-13-250
+
+Is there a family F_n:{0,1}^n×{0,1}^n→{0,1} with public-coin bounded-error communication cost O(1), but whose deterministic communication cost with access to an equality oracle is not bounded by any polynomial in log n? An oracle call compares two arbitrary strings, one computed locally by each party, at unit cost; ordinary communicated bits also count. Error is at most 1/3 on each input.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Conjecture 6.3; PEQ uses polylogarithmic cost, unlike PEQ₀; printed p. 110 / PDF p. 123.
+
+**Literature check.** Reviewed 2026-10-13: The source retains the stronger constant-cost Conjecture 6.3. The established separation BPP outside equality-oracle communication and Wang–Wu’s September 2026 separation have superconstant cost, so do not settle this target. No exact constant-cost family was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4907"></a>
+
+## Q4907. Sign-rank closure under entrywise conjunction
+
+**Status:** Open · **Kind:** open problem (Question 6) · **Reviewed extraction** 2026-10-13-250
+
+Does some function η:N→N satisfy rank_±(A∧B)≤η(d) whenever finite sign matrices A,B on the same row and column sets each have sign-rank at most d? Here (A∧B)\_xy=min(A_xy,B_xy), and rank_± is the minimum rank of a real matrix with the prescribed sign pattern.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Question 6.6; printed p. 111 / PDF p. 124.
+
+**Literature check.** Reviewed 2026-10-13: The source explicitly asks this in Question 6.6; the 2025 k-Hamming-distance paper retains the general closure issue despite solving particular Boolean reductions. Exact conjunction and current sign-rank searches located no full closure theorem or fixed-rank counterexample.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4908"></a>
+
+## Q4908. A large constant coset from bounded approximate Fourier norm
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6) · **Reviewed extraction** 2026-10-13-250
+
+Fix M>0 and 0<ε<1/2. Is there an integer ℓ(M,ε) such that, for every n and A⊂F₂^n, if inf_{g:||g−1_A||\_∞≤ε}∑\_a|ĝ(a)|≤M, then some affine coset V+b of codimension at most ℓ(M,ε) makes 1_A constant? Fourier coefficients use the normalization ĝ(a)=2^{-n}∑\_x g(x)(−1)^{a·x}.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Conjecture 6.8; printed p. 112 / PDF p. 125.
+
+**Literature check.** Reviewed 2026-10-13: The source retains Conjecture 6.8 after proving a version with affine-connectivity hypotheses. The primary approximate-spectral-norm paper distinguishes those additional hypotheses. Current exact-norm coset decision-tree improvements do not give the unrestricted approximate-norm conclusion; no closure was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q4909"></a>
+
+## Q4909. Large monochromatic rectangles for constant-cost XOR lifts
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6) · **Reviewed extraction** 2026-10-13-250
+
+For every C, does some c(C)>0 satisfy the following for every n and Boolean f:F₂^n→{0,1}? If F(x,y)=f(x+y) has public-coin communication cost at most C with pointwise error at most 1/3, then F has a monochromatic rectangle S×T with |S|,|T|≥c(C)2^n.
+
+**Source.** Ben Cheung. *Separation and Structural Results for Randomized Communication Models and Their Implications*. McGill University, 2025. [primary source](https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content) · [record](https://mcgill.scholaris.ca/handle/20.500.14905/128278) Location: Source label recovered on held PDF: Conjecture 6.9; related narrower source question than Conjecture 1.3; printed p. 112 / PDF p. 125.
+
+**Literature check.** Reviewed 2026-10-13: The source states this specific XOR-lift case as Conjecture 6.9. Its conditional structure theorem and later general polylogarithmic-cost rectangle separation do not settle the constant-cost XOR case. No full resolution was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/cheung-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2506.12022) · [2](https://eccc.weizmann.ac.il/report/2026/049/) · [3](https://eccc.weizmann.ac.il/report/2026/190/) · [4](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55) · [5](https://eccc.weizmann.ac.il/report/2022/041/download) · [6](https://www.sciencedirect.com/science/article/pii/S0890540126000143)
+
+<a id="q5001"></a>
+
+## Q5001. A strongly polynomial algorithm for general linear programming
+
+**Status:** Open · **Kind:** stated as open (Source discussion) · **Reviewed extraction** 2026-10-13-250
+
+Does there exist an algorithm that, given A∈ℝ^{m×n}, b∈ℝᵐ and c∈ℝⁿ, solves min{cᵀx:Ax=b,x≥0}, or reports infeasibility or an unbounded objective, with a number of basic real-arithmetic operations and comparisons bounded by a polynomial in m,n independent of the coefficients? Use the source computational model, permitting +,−,×,÷, comparisons and square roots; for rational input the implementation must also use space polynomial in the input encoding length.
+
+**Source.** Bento Natura. *Exact Linear Programming: Circuits, Curvature, and Diameter*. London School of Economics and Political Science, 2022. [primary source](https://researchonline.lse.ac.uk/id/eprint/135352/1/Natura_Exact-linear-programming-circuits.pdf) · [record](https://researchonline.lse.ac.uk/id/eprint/135352/) Location: Source discussion, printed p.11/held PDF p.12.
+
+**Literature check.** Reviewed 2026-10-13: Natura’s February2026 primary paper explicitly says its strongly polynomial circuit walk between GIVEN vertices does not supply a strongly polynomial LP algorithm. The unrestricted algorithmic target remains unresolved in the bounded current-primary scan.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/natura-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://bentonatura.com/) · [2](https://arxiv.org/html/2602.06958v1) · [3](https://bentonatura.com/assets/pdf/thesis.pdf) · [4](https://arxiv.org/abs/2111.07913) · [5](https://arxiv.org/abs/2602.05699)
+
+<a id="q5002"></a>
+
+## Q5002. Integral conformal circuit decompositions with lcm denominator
+
+**Status:** Open · **Kind:** conjecture (Conjecture 3.7.1.1) · **Reviewed extraction** 2026-10-13-250
+
+Let W⊂ℝⁿ be a rational linear subspace. An elementary vector is a nonzero g∈W whose support contains no proper support of another nonzero vector in W. For each elementary support choose its primitive integer representative g, with gcd of its nonzero coordinates1, and let κ̇\_W be the least common multiple of the absolute values of all their nonzero coordinates (κ̇\_W=1 for the trivial cases). For every z∈W∩ℤⁿ, must there be h≤n elementary vectors g¹,…,gʰ with z=Σ\_i gⁱ, κ̇\_W gⁱ∈ℤⁿ, and z_jgⁱ\_j>0 whenever gⁱ\_j≠0? For z=0 the empty decomposition is allowed.
+
+**Source.** Bento Natura. *Exact Linear Programming: Circuits, Curvature, and Diameter*. London School of Economics and Political Science, 2022. [primary source](https://researchonline.lse.ac.uk/id/eprint/135352/1/Natura_Exact-linear-programming-circuits.pdf) · [record](https://researchonline.lse.ac.uk/id/eprint/135352/) Location: Conjecture 3.7.1.1, printed p.52/held PDF p.53.
+
+**Literature check.** Reviewed 2026-10-13: The held source’s general conjecture follows its special-case propositions and is still present in the current primary thesis copy. The2026 circuit-diameter theorem imposes no corresponding integer-denominator conclusion; no full resolution of this integral decomposition target was located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/root-reviews/natura-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://bentonatura.com/) · [2](https://arxiv.org/html/2602.06958v1) · [3](https://bentonatura.com/assets/pdf/thesis.pdf) · [4](https://arxiv.org/abs/2111.07913) · [5](https://arxiv.org/abs/2602.05699)

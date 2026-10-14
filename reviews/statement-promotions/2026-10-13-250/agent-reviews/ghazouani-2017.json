@@ -1,0 +1,774 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102867154",
+  "source_metadata": {
+    "author": "Selim Ghazouani",
+    "title": "Structures affines complexes sur les surfaces de Riemann",
+    "year": "2017",
+    "thesis_key": "Q102867154",
+    "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+    "source": "https://theses.hal.science/tel-01661290/document"
+  },
+  "source_review_notes": [
+    "Actual cover author/title/year independently read. Every accepted target has explicit definitions from held PDF, corrected physical locators, global catalog/corpus/source-alias comparison and dated primary literature review. General classification and connected-components targets are distinct full predicates. Terminal statements preserve literal source scope; unrepaired and classical-obstruction leads remain active holds."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ghazouani Pirio connected components finite holonomy leaves 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Ghazouani Pirio monodromy lattice discreteness 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Disco surface parabolic limit set minimal periodic"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "dilation surfaces cylinder conjecture solved"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://theses.hal.science/tel-01661290/document",
+      "finding": "Actual held cover verifies Selim Ghazouani, Structures affines complexes sur les surfaces de Riemann, Université Paris Sciences et Lettres, 2017. Actual physical pages, not drifting extraction segments, were read for the foliation, area forms, angle restrictions and three accepted targets."
+    },
+    {
+      "url": "https://arxiv.org/abs/1604.01812",
+      "finding": "Ghazouani–Pirio primary: leaves of M_1,n have complex hyperbolic dimension n−1 and holonomy in PU(1,n−1). Finite-holonomy leaves have finite-volume cone-manifold completions; the displayed arithmetic examples do not classify all holonomy lattices. This explicitly confirms repair of thesis introduction PU(1,n) indexing."
+    },
+    {
+      "url": "https://arxiv.org/abs/1605.02356",
+      "finding": "Primary analytic treatment computes genus-one two-marked-point leaves and volume finiteness in special cases. Distinct connected components occur even for n=2; it does not classify every finite-holonomy leaf for all n or prove all-genus volume finiteness."
+    },
+    {
+      "url": "https://arxiv.org/html/2609.11482v1",
+      "finding": "Yu–Zhong, submitted 10 September 2026: introduction explicitly states that a general discreteness criterion for arbitrary Ghazouani–Pirio monodromy groups remains unknown. Its theorem classifies commensurability relations of the sixteen known arithmetic examples, not all lattices or all connected components."
+    },
+    {
+      "url": "https://arxiv.org/html/1701.02332v4",
+      "finding": "Published primary Theorem 4 distinguishes H = limit set minus parabolic fixed points from the full limit set. Directions in the complement within the limit set are totally periodic; hence the literal thesis Conjectures 3/5 saying every parameter in the full limit set is minimal are false. The still conjectural nonparabolic refinement is not silently substituted."
+    },
+    {
+      "url": "https://arxiv.org/abs/2110.06061",
+      "finding": "Boulanger–Ghazouani–Tahar, published Geometry & Topology29(2025): closed-geodesic directions on every dilation surface are dense; this answers the existence-of-cylinder conjecture. Source p.27 explicitly identifies a closed geodesic with membership in a cylinder."
+    },
+    {
+      "url": "https://arxiv.org/html/2503.05496v1",
+      "finding": "Bande primary Theorem2.1 recalls Calabi: a generic closed ordinary 1-form is intrinsically harmonic iff locally harmonic and transitive. Saddle zeros alone do not state the global transitivity condition. Twisted Question7 / equivalent foliation Question6 held at the trivial-holonomy countercase and scope gates rather than declared open."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q102867154.pdf",
+    "sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+    "physical_pages": 198
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "c9cb8f141aec49b67eb691fd3855689f3c02a491f6654ad395e221ffcd8d774a",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Finiteness of Veech volume",
+      "text": "Let M_{g,n} be the moduli orbifold of genus-g compact Riemann surfaces with n ordered, distinct marked points. For θ=(θ₁,…,θ_n) with θ_i>0 and Σ_i(2π−θ_i)=2π(2−2g), identify M_{g,n} with flat Euclidean cone metrics of those angles, up to homothety, by choosing their conformal classes. The Veech foliation fixes the rotational holonomy character ρ:π₁(Σ minus the marked points)→U(1), where a small positive loop δ_i has ρ(δ_i)=exp(iθ_i). Assume 2g−2+n>0 and no θ_i is in 2πℤ. Define Ω_θ by pairing the transverse symplectic volume on the holonomy-character torus (the form induced by the intersection pairing on H¹(Σ;ℝ)) with each leaf’s invariant volume from the projectivized Hermitian area form. Concretely, local leaf coordinates are complex edge vectors of a polygonal flat-surface model satisfying the fixed rotational gluing equations and polygon closure; total signed triangle area is a Hermitian form A, and the coordinates are projectivized on A>0. Its projective unitary homogeneous structure supplies the leaf volume, while holonomy coordinates supply the transverse volume. Is ∫_{M_{g,n}} Ω_θ finite for every such g,n,θ?",
+      "subject": "Differential Geometry & Geometric Analysis",
+      "locator": {
+        "pdf_page": 24,
+        "printed_page": "21",
+        "label": "Conjecture1; repeated Conjecture4 at physical83"
+      },
+      "scope_review": "Actual physical76–83 defines holonomy, pure mapping-class quotient, projective Hermitian area and transverse symplectic volume. Gauss–Bonnet and nonintegral cone angles are retained. No replacement by the integer-angle Masur–Veech measure; no restriction to genus-one hyperbolic leaves. A fixed positive normalization of invariant volume does not change finiteness.",
+      "literature_finding": "2016/2019 primary only establishes special genus-one cases. Dated current primary scan found no all-genus / arbitrary admissible-angle resolution; this is a bounded status assessment.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared. No exact full target found; repeated source identifiers merge. Scores are retrieval only.",
+      "statement_ids": [
+        "02c53f42ff22342c67c9",
+        "adee9d7553da36d7801d"
+      ],
+      "statement_id": "02c53f42ff22342c67c9",
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Conjecture1; repeated Conjecture4 at physical83, printed p. 21; physical PDF p. 24.",
+      "number": 5009,
+      "source_locator": {
+        "label": "Conjecture 1",
+        "printed_page": "21",
+        "held_pdf_page": 24,
+        "original_extraction_page": 24
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Lattice holonomy of flat-torus isoholonomic leaves",
+      "text": "Fix n≥2 and rational angles θ_i∈2πℚ with Σ_iθ_i=2πn, 2π<θ₁<4π, and 0<θ_i<2π for i>1. Let T_{1,n} parametrize marked conformal tori with n ordered points and their associated area-one flat cone metrics of angles θ. Let hol:T_{1,n}→Hom(π₁(Σ_{1,n}),U(1)) assign rotational holonomy, with hol(δ_i)=exp(iθ_i). For ρ in its image, let F_[ρ] be the image of hol⁻¹(ρ) in M_{1,n}=T_{1,n}/PMod_{1,n}, where PMod consists of mapping classes fixing each marked point. F_[ρ] may be disconnected. Each connected component C inherits a complex hyperbolic structure of dimension n−1 from the projectivized Hermitian area form in polygon-period coordinates. Classify the pairs (θ,ρ) and components C for which the image of the resulting holonomy representation π₁^orb(C)→PU(1,n−1) is discrete and has finite covolume. In particular, does any such component have nonarithmetic lattice holonomy?",
+      "subject": "Differential Geometry & Geometric Analysis",
+      "locator": {
+        "pdf_page": 25,
+        "printed_page": "22",
+        "label": "Question3"
+      },
+      "scope_review": "Actual physical24 fixes the rational-angle hyperbolic regime and complex dimension n−1; physical76–77 defines quotient by pure mapping classes and allows disconnected leaves. Thesis introduction writes PU(1,n), an indexing error explicitly repaired to PU(1,n−1) using its preceding dimension statement and primary1604.01812. No finite-image restriction is invented for this general classification question; ρ is realizable. Orbifold π₁ accommodates source quotient stabilizers.",
+      "literature_finding": "2026 primary2609.11482 expressly retains the unknown general discreteness criterion; its sixteen arithmetic commensurability classifications are partial and do not answer this full lattice/nonarithmetic question.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared. No exact full target found; repeated source identifiers merge. Scores are retrieval only.",
+      "statement_id": "82c74f0c49a30105c73b",
+      "statement_ids": [
+        "82c74f0c49a30105c73b"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Question3, printed p. 22; physical PDF p. 25.",
+      "number": 5010,
+      "source_locator": {
+        "label": "Question 3",
+        "printed_page": "22",
+        "held_pdf_page": 25,
+        "original_extraction_page": 25
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Connected components of finite-holonomy flat-torus leaves",
+      "text": "Fix n≥2 and rational angles θ_i∈2πℚ with Σ_iθ_i=2πn, 2π<θ₁<4π, and 0<θ_i<2π for i>1. Let T_{1,n} parametrize marked conformal tori with n ordered points and their associated area-one flat cone metrics of angles θ. Let hol:T_{1,n}→Hom(π₁(Σ_{1,n}),U(1)) assign rotational holonomy, with hol(δ_i)=exp(iθ_i). For ρ in its image, let F_[ρ] be the image of hol⁻¹(ρ) in M_{1,n}=T_{1,n}/PMod_{1,n}, where PMod consists of mapping classes fixing each marked point. F_[ρ] may be disconnected. Under the additional assumption that Im(ρ) is finite, determine all connected components of F_[ρ] for arbitrary n,θ,ρ in this range. Equivalently, determine its set π₀(F_[ρ]) in terms of these data.",
+      "subject": "Differential Geometry & Geometric Analysis",
+      "locator": {
+        "pdf_page": 127,
+        "printed_page": "124",
+        "label": "Unlabelled connected-components question, Section2.2.8 context"
+      },
+      "scope_review": "Actual physical127 discusses F_θ(M) before explicitly fixing finite Imρ; physical125–127 finite-holonomy algebraic-leaf context and physical77 warns that a named leaf can be disconnected. Retain full n and rational hyperbolic angle range; θ,ρ notation avoids an undefined M. This asks topological components, not lattice discreteness or commensurability.",
+      "literature_finding": "Primary1605.02356 computes cases n=2 and exhibits nonconnectedness; general n remains outside those computations. Current2026 monodromy-commensurability result classifies known arithmetic examples, not every finite-character leaf component.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared. No exact full target found; repeated source identifiers merge. Scores are retrieval only.",
+      "statement_id": "cee666a5a3d58e4a9b7a",
+      "statement_ids": [
+        "cee666a5a3d58e4a9b7a"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Unlabelled connected-components question, Section2.2.8 context, printed p. 124; physical PDF p. 127.",
+      "number": 5011,
+      "source_locator": {
+        "label": null,
+        "printed_page": "124",
+        "held_pdf_page": 127,
+        "original_extraction_page": 149
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "merged_into": "02c53f42ff22342c67c9",
+      "reason": "The same full volume conjecture is repeated; one recommendation with both stable identifiers.",
+      "locator": {
+        "pdf_page": 83,
+        "printed_page": "80",
+        "label": "Conjecture4"
+      },
+      "statement_id": "adee9d7553da36d7801d",
+      "statement_ids": [
+        "adee9d7553da36d7801d"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Conjecture4, printed p. 80; physical PDF p. 83."
+    },
+    {
+      "decision": "hold",
+      "reason": "Nonabelian representations are classified by this thesis Theorem24 at physical65 (strictly affine all, Euclidean iff positive volume). Extracted Q1 quantifies all representations; abelian branches / fixed branching profile were not independently cleared, so retain a scope hold rather than promote the already solved nonabelian part or claim full terminal closure.",
+      "locator": {
+        "pdf_page": 17,
+        "printed_page": "14",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "6c5600e8ee2353322ca1",
+      "statement_ids": [
+        "6c5600e8ee2353322ca1"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 14; physical PDF p. 17."
+    },
+    {
+      "decision": "hold",
+      "reason": "Request for properties of a mapping-class action has no single mathematical predicate; this thesis proves several such properties itself. No precise new target is supplied.",
+      "locator": {
+        "pdf_page": 18,
+        "printed_page": "15",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "7fcc5e19c1e7783cd5a6",
+      "statement_ids": [
+        "7fcc5e19c1e7783cd5a6"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 15; physical PDF p. 18."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Solved by Boulanger–Ghazouani–Tahar, arXiv2110.06061v3, published GT29(2025): directions of closed geodesics are dense on every dilation surface. Actual thesis physical30 says a closed geodesic is equivalent to membership in a cylinder. Thus in particular every source dilation surface has a cylinder.",
+      "locator": {
+        "pdf_page": 30,
+        "printed_page": "27",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "81a3095a2db173105f5f",
+      "statement_ids": [
+        "81a3095a2db173105f5f"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 27; physical PDF p. 30."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Literal all-full-limit-set minimality is false: current primary1701.02332v4 Theorem4 identifies totally periodic foliations at parabolic fixed points in ΛΓ. Thesis actual physical163 defines the full limit set and physical153 Conjecture5 quantifies all of it. Nonparabolic H refinement remains distinct and is not silently substituted.",
+      "locator": {
+        "pdf_page": 33,
+        "printed_page": "30",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "0b07c7da7dd8d6477e57",
+      "statement_ids": [
+        "0b07c7da7dd8d6477e57"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 30; physical PDF p. 33."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Same literal false all-limit-set target as Conjecture3; Theorem4 of1701.02332v4 gives totally periodic parabolic directions. Full ΛΓ definition physical163 has no exclusion of these points.",
+      "locator": {
+        "pdf_page": 153,
+        "printed_page": "150",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "095d6788fff7dcd3aadc",
+      "statement_ids": [
+        "095d6788fff7dcd3aadc"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 150; physical PDF p. 153."
+    },
+    {
+      "decision": "hold",
+      "reason": "Actual physical71 says a reasonable topology on the moduli of branched affine structures still needs defining. Branch partition/marking conventions for continuous same-holonomy deformation were not independently fixed. Do not add an unverified deformation category or specialize to translation surfaces.",
+      "locator": {
+        "pdf_page": 71,
+        "printed_page": "68",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "e3bba6df6fdec62168eb",
+      "statement_ids": [
+        "e3bba6df6fdec62168eb"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 68; physical PDF p. 71."
+    },
+    {
+      "decision": "hold",
+      "reason": "Question5 depends on an admissible θ fixed in surrounding context; its existence scope is not unambiguously a universal angle statement. Nearby physical132–133 already constructs some n=3 arithmetic examples. Do not promote mere existence as open, silently quantify every θ, or count a subcase already included in the general lattice classification.",
+      "locator": {
+        "pdf_page": 131,
+        "printed_page": "128",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "6527953e474c443ea784",
+      "statement_ids": [
+        "6527953e474c443ea784"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 128; physical PDF p. 131."
+    },
+    {
+      "decision": "hold",
+      "reason": "Equivalent to Question7 in source physical138, which uses flat-closed twisted forms coming from developing functions. For trivial character Calabi requires global transitivity as well as local saddle-type harmonicity. It has not been established that the source hypotheses imply that condition; retain scope/status hold without adding it.",
+      "locator": {
+        "pdf_page": 138,
+        "printed_page": "135",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "cf65ede671c4bfae76ed",
+      "statement_ids": [
+        "cf65ede671c4bfae76ed"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 135; physical PDF p. 138."
+    },
+    {
+      "decision": "hold",
+      "reason": "Source identifies this with Question6. Closedness is implicit in integration with the flat connection; saddle zeros alone do not include Calabi transitivity in the ordinary-character subcase. Hold exact universal target pending classical countercase check, not a new unrestricted harmonic-form question.",
+      "locator": {
+        "pdf_page": 138,
+        "printed_page": "135",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "ad116ed850855c845c27",
+      "statement_ids": [
+        "ad116ed850855c845c27"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 135; physical PDF p. 138."
+    },
+    {
+      "decision": "hold",
+      "reason": "Acknowledgments, no mathematical target.",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": "1",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "54217c207cae622a6377",
+      "statement_ids": [
+        "54217c207cae622a6377"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 1; physical PDF p. 4."
+    },
+    {
+      "decision": "hold",
+      "reason": "Introduction to a list of questions; no independent target beyond the labelled items.",
+      "locator": {
+        "pdf_page": 149,
+        "printed_page": "146",
+        "label": "Bounded source disposition"
+      },
+      "statement_id": "b12aeaf91b4c8141041f",
+      "statement_ids": [
+        "b12aeaf91b4c8141041f"
+      ],
+      "source_pdf_sha256": "fb6ec3be4696ab8c7aaeed3bc0ced2493af793136bb7b1d689fade5743f6c968",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://theses.hal.science/tel-01661290/document",
+        "https://arxiv.org/abs/1604.01812",
+        "https://arxiv.org/abs/1605.02356",
+        "https://arxiv.org/html/2609.11482v1",
+        "https://arxiv.org/html/1701.02332v4",
+        "https://arxiv.org/abs/2110.06061",
+        "https://arxiv.org/html/2503.05496v1"
+      ],
+      "search_topics": [
+        "Ghazouani Pirio Veech volume conjecture finite 2025 2026 general",
+        "Ghazouani Pirio connected components finite holonomy leaves 2025 2026",
+        "Ghazouani Pirio monodromy lattice discreteness 2026",
+        "Disco surface parabolic limit set minimal periodic",
+        "dilation surfaces cylinder conjecture solved",
+        "Calabi closed one forms saddle zeros intrinsically harmonic transitivity"
+      ],
+      "source_metadata": {
+        "author": "Selim Ghazouani",
+        "title": "Structures affines complexes sur les surfaces de Riemann",
+        "year": "2017",
+        "thesis_key": "Q102867154",
+        "record": "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb",
+        "source": "https://theses.hal.science/tel-01661290/document"
+      },
+      "citation": "Bounded source disposition, printed p. 146; physical PDF p. 149."
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5008,
+    "catalog_sha256": "e3eac5c37b0d6ae808db01ac534e3be0ca383c462948c10485728d80a7be4c1a",
+    "corpus_count": 28701,
+    "corpus_sha256": "6cf47c0fc46fa5a1fb3546b1a74457f935219d23cbe6bb5befc471c519570688",
+    "additional_regex_queries": [
+      "Veech",
+      "Ghazouani",
+      "isoholonom",
+      "flat tor",
+      "dilation surface",
+      "complex hyperbolic.*lattice",
+      "Pirio",
+      "Hermitian.*area"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

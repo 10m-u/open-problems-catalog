@@ -1,0 +1,261 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "rec:winsor  karl glen|2022",
+  "source_review_notes": [
+    "Held source physical pages equal PDF indices; printed Arabic pages are eight smaller. All three full source questions remain distinct despite generic 2026 progress."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Karl Winsor absolute period foliation leaf closures 2026 2025"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "absolute period foliation real analytic leaf closure Ratner dense periods SL2 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Karl Winsor publications saturated orbit closures Hodge bundle leaf absolute period 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"absolute period foliation\" \"closure\" 2025 2026 site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Saturated orbit closures in the Hodge bundle\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"absolute period\" \"leaf closures\" \"2026\" Winsor classification"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2606.01587v1",
+      "sections": "Introduction, Theorem 1.1 and Remark 1.2: June 2026 exceptional-locus restrictions and all-components limitations."
+    },
+    {
+      "url": "https://arxiv.org/html/2210.08795v2",
+      "sections": "Introduction: full Hodge-bundle leaves and principal-stratum transfer, not arbitrary fixed-stratum leaves."
+    },
+    {
+      "url": "https://arxiv.org/abs/2207.04628",
+      "sections": "Dense real Rel flow examples do not classify every closure."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/k601e16fd5045.pdf",
+    "sha256": "2d6dc953cd93f37b4183c30fbb331dca5479b9a21a8a16f3273f6e4bac7cd36b",
+    "physical_pages": 74
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "d8d3651291768c05f140d7d894fe10268791a5e27a7c5b76a2bd5b95afdeb8fd",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Real-analytic structure of absolute-period leaf closures",
+      "text": "For g≥2 and a partition κ of 2g−2 into positive zero multiplicities, let Ω₁M_g(κ) be the area-one stratum of pairs (X,ω), where X is a closed genus-g Riemann surface and ω is a nonzero holomorphic one-form with zero multiplicities κ. Let A(κ) be the absolute period foliation: in local marked period coordinates its leaves keep all integrals of ω over closed integral cycles fixed. Let Per(ω)={∫_cω:c∈H₁(X;Z)}⊂C. For every leaf L of A(κ) in Ω₁M_g(κ), is its closure L̄ a properly immersed real-analytic suborbifold of Ω₁M_g(κ)?",
+      "subject": "Geometry & Topology",
+      "citation": "Question 1.6, held PDF physical p. 13, printed p. 5; definitions physical pp. 9–10, printed pp. 1–2.",
+      "locator": {
+        "pdf_page": 13,
+        "printed_page": 5,
+        "label": "Question 1.6"
+      },
+      "scope_review": "Read held PDF physical 9–14 (printed 1–6), including the assumptions of Theorems 1.1–1.5 and Questions 1.6–1.8. The questions concern every stratum and every leaf, without the connected-stratum and algebraically generic hypotheses of the preceding theorems. Closures are in the fixed area-one stratum, not in the entire Hodge bundle or in its compactification. SL(2,R) acts by postcomposing translation charts. No restriction to strata with at least two zeros is silently added; one-zero leaves are points and give elementary special cases.",
+      "duplicate_review": "Full numbered catalog and corpus retrieval for absolute period/isoperiodic/leaf-closure/saturation terminology found no numbered equivalent or other extracted full-scope target. The three questions are related but differ: regularity of an individual closure, a specified orbit-saturation equality, and classification of all invariant saturated closed sets. Introductory generic open-question mentions carry no extra mathematical target.",
+      "literature_finding": "June 2026 Winsor, Theorem 1.1 and introduction, gives a leaf-closure result outside an exceptional algebraic subset and explicitly describes further work as incomplete. This is relevant progress, not a theorem for all leaves in all strata. The 2022/2023 saturated-orbit paper classifies the full Hodge-bundle foliation, which allows zero collisions and differs from the stratum foliation here. No exact full closure was located in the dated primary scan.",
+      "status_grade": "explicit_source_question_with_current_partial_result_comparison",
+      "statement_id": "da1d1dec4c10fa0e8663",
+      "statement_ids": [
+        "da1d1dec4c10fa0e8663"
+      ],
+      "source_pdf_sha256": "2d6dc953cd93f37b4183c30fbb331dca5479b9a21a8a16f3273f6e4bac7cd36b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.01587v1",
+        "https://arxiv.org/html/2210.08795v2",
+        "https://arxiv.org/abs/2207.04628"
+      ],
+      "search_topics": [
+        "Karl Winsor absolute period foliation leaf closures 2026 2025",
+        "absolute period foliation real analytic leaf closure Ratner dense periods SL2 2025 2026",
+        "Karl Winsor publications saturated orbit closures Hodge bundle leaf absolute period 2026",
+        "\"absolute period foliation\" \"closure\" 2025 2026 site:arxiv.org",
+        "\"Saturated orbit closures in the Hodge bundle\"",
+        "\"absolute period\" \"leaf closures\" \"2026\" Winsor classification"
+      ],
+      "number": 4950,
+      "source_locator": {
+        "label": "Question 1.6",
+        "printed_page": 5,
+        "held_pdf_page": 13,
+        "original_extraction_page": 13
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Nonclosed absolute-period leaves with dense periods",
+      "text": "For g≥2 and a partition κ of 2g−2 into positive zero multiplicities, let Ω₁M_g(κ) be the area-one stratum of pairs (X,ω), where X is a closed genus-g Riemann surface and ω is a nonzero holomorphic one-form with zero multiplicities κ. Let A(κ) be the absolute period foliation: in local marked period coordinates its leaves keep all integrals of ω over closed integral cycles fixed. Let Per(ω)={∫_cω:c∈H₁(X;Z)}⊂C. Let L be the leaf through (X,ω) and take its closure L̄ in Ω₁M_g(κ). If Per(ω) is dense in C and L̄≠L, must L̄=SL(2,R)·L?",
+      "subject": "Geometry & Topology",
+      "citation": "Question 1.7, held PDF physical p. 13, printed p. 5; definitions physical pp. 9–10, printed pp. 1–2.",
+      "locator": {
+        "pdf_page": 13,
+        "printed_page": 5,
+        "label": "Question 1.7"
+      },
+      "scope_review": "Read held PDF physical 9–14 (printed 1–6), including the assumptions of Theorems 1.1–1.5 and Questions 1.6–1.8. The questions concern every stratum and every leaf, without the connected-stratum and algebraically generic hypotheses of the preceding theorems. Closures are in the fixed area-one stratum, not in the entire Hodge bundle or in its compactification. SL(2,R) acts by postcomposing translation charts. No restriction to strata with at least two zeros is silently added; one-zero leaves are points and give elementary special cases.",
+      "duplicate_review": "Full numbered catalog and corpus retrieval for absolute period/isoperiodic/leaf-closure/saturation terminology found no numbered equivalent or other extracted full-scope target. The three questions are related but differ: regularity of an individual closure, a specified orbit-saturation equality, and classification of all invariant saturated closed sets. Introductory generic open-question mentions carry no extra mathematical target.",
+      "literature_finding": "June 2026 Winsor, Theorem 1.1 and introduction, gives a leaf-closure result outside an exceptional algebraic subset and explicitly describes further work as incomplete. This is relevant progress, not a theorem for all leaves in all strata. The 2022/2023 saturated-orbit paper classifies the full Hodge-bundle foliation, which allows zero collisions and differs from the stratum foliation here. No exact full closure was located in the dated primary scan.",
+      "status_grade": "explicit_source_question_with_current_partial_result_comparison",
+      "statement_id": "8ee6db6926e4682ff9fb",
+      "statement_ids": [
+        "8ee6db6926e4682ff9fb"
+      ],
+      "source_pdf_sha256": "2d6dc953cd93f37b4183c30fbb331dca5479b9a21a8a16f3273f6e4bac7cd36b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.01587v1",
+        "https://arxiv.org/html/2210.08795v2",
+        "https://arxiv.org/abs/2207.04628"
+      ],
+      "search_topics": [
+        "Karl Winsor absolute period foliation leaf closures 2026 2025",
+        "absolute period foliation real analytic leaf closure Ratner dense periods SL2 2025 2026",
+        "Karl Winsor publications saturated orbit closures Hodge bundle leaf absolute period 2026",
+        "\"absolute period foliation\" \"closure\" 2025 2026 site:arxiv.org",
+        "\"Saturated orbit closures in the Hodge bundle\"",
+        "\"absolute period\" \"leaf closures\" \"2026\" Winsor classification"
+      ],
+      "number": 4951,
+      "source_locator": {
+        "label": "Question 1.7",
+        "printed_page": 5,
+        "held_pdf_page": 13,
+        "original_extraction_page": 13
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Closed invariant sets saturated for the absolute period foliation",
+      "text": "For g≥2 and a partition κ of 2g−2 into positive zero multiplicities, let Ω₁M_g(κ) be the area-one stratum of pairs (X,ω), where X is a closed genus-g Riemann surface and ω is a nonzero holomorphic one-form with zero multiplicities κ. Let A(κ) be the absolute period foliation: in local marked period coordinates its leaves keep all integrals of ω over closed integral cycles fixed. Let Per(ω)={∫_cω:c∈H₁(X;Z)}⊂C. Classify the closed SL(2,R)-invariant subsets S of Ω₁M_g(κ) that are saturated for A(κ), meaning that S is a union of complete leaves of this foliation.",
+      "subject": "Geometry & Topology",
+      "citation": "Question 1.8, held PDF physical p. 13, printed p. 5; definitions physical pp. 9–10, printed pp. 1–2.",
+      "locator": {
+        "pdf_page": 13,
+        "printed_page": 5,
+        "label": "Question 1.8"
+      },
+      "scope_review": "Read held PDF physical 9–14 (printed 1–6), including the assumptions of Theorems 1.1–1.5 and Questions 1.6–1.8. The questions concern every stratum and every leaf, without the connected-stratum and algebraically generic hypotheses of the preceding theorems. Closures are in the fixed area-one stratum, not in the entire Hodge bundle or in its compactification. SL(2,R) acts by postcomposing translation charts. No restriction to strata with at least two zeros is silently added; one-zero leaves are points and give elementary special cases.",
+      "duplicate_review": "Full numbered catalog and corpus retrieval for absolute period/isoperiodic/leaf-closure/saturation terminology found no numbered equivalent or other extracted full-scope target. The three questions are related but differ: regularity of an individual closure, a specified orbit-saturation equality, and classification of all invariant saturated closed sets. Introductory generic open-question mentions carry no extra mathematical target.",
+      "literature_finding": "June 2026 Winsor, Theorem 1.1 and introduction, gives a leaf-closure result outside an exceptional algebraic subset and explicitly describes further work as incomplete. This is relevant progress, not a theorem for all leaves in all strata. The 2022/2023 saturated-orbit paper classifies the full Hodge-bundle foliation, which allows zero collisions and differs from the stratum foliation here. No exact full closure was located in the dated primary scan.",
+      "status_grade": "explicit_source_question_with_current_partial_result_comparison",
+      "statement_id": "e873951ef2565822f01e",
+      "statement_ids": [
+        "e873951ef2565822f01e"
+      ],
+      "source_pdf_sha256": "2d6dc953cd93f37b4183c30fbb331dca5479b9a21a8a16f3273f6e4bac7cd36b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.01587v1",
+        "https://arxiv.org/html/2210.08795v2",
+        "https://arxiv.org/abs/2207.04628"
+      ],
+      "search_topics": [
+        "Karl Winsor absolute period foliation leaf closures 2026 2025",
+        "absolute period foliation real analytic leaf closure Ratner dense periods SL2 2025 2026",
+        "Karl Winsor publications saturated orbit closures Hodge bundle leaf absolute period 2026",
+        "\"absolute period foliation\" \"closure\" 2025 2026 site:arxiv.org",
+        "\"Saturated orbit closures in the Hodge bundle\"",
+        "\"absolute period\" \"leaf closures\" \"2026\" Winsor classification"
+      ],
+      "number": 4952,
+      "source_locator": {
+        "label": "Question 1.8",
+        "printed_page": 5,
+        "held_pdf_page": 13,
+        "original_extraction_page": 13
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "not-a-question",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 1
+      },
+      "reason": "Introductory announcement of later open questions, with no separate mathematical target; Questions 1.6–1.8 are reviewed individually.",
+      "statement_id": "8633390dcd5f01b899ea",
+      "statement_ids": [
+        "8633390dcd5f01b899ea"
+      ],
+      "source_pdf_sha256": "2d6dc953cd93f37b4183c30fbb331dca5479b9a21a8a16f3273f6e4bac7cd36b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.01587v1",
+        "https://arxiv.org/html/2210.08795v2",
+        "https://arxiv.org/abs/2207.04628"
+      ],
+      "search_topics": [
+        "Karl Winsor absolute period foliation leaf closures 2026 2025",
+        "absolute period foliation real analytic leaf closure Ratner dense periods SL2 2025 2026",
+        "Karl Winsor publications saturated orbit closures Hodge bundle leaf absolute period 2026",
+        "\"absolute period foliation\" \"closure\" 2025 2026 site:arxiv.org",
+        "\"Saturated orbit closures in the Hodge bundle\"",
+        "\"absolute period\" \"leaf closures\" \"2026\" Winsor classification"
+      ]
+    },
+    {
+      "decision": "not-a-question",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 4
+      },
+      "reason": "Introductory announcement of later open questions, with no separate mathematical target; Questions 1.6–1.8 are reviewed individually.",
+      "statement_id": "6ba810ccce8bbdf025db",
+      "statement_ids": [
+        "6ba810ccce8bbdf025db"
+      ],
+      "source_pdf_sha256": "2d6dc953cd93f37b4183c30fbb331dca5479b9a21a8a16f3273f6e4bac7cd36b",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2606.01587v1",
+        "https://arxiv.org/html/2210.08795v2",
+        "https://arxiv.org/abs/2207.04628"
+      ],
+      "search_topics": [
+        "Karl Winsor absolute period foliation leaf closures 2026 2025",
+        "absolute period foliation real analytic leaf closure Ratner dense periods SL2 2025 2026",
+        "Karl Winsor publications saturated orbit closures Hodge bundle leaf absolute period 2026",
+        "\"absolute period foliation\" \"closure\" 2025 2026 site:arxiv.org",
+        "\"Saturated orbit closures in the Hodge bundle\"",
+        "\"absolute period\" \"leaf closures\" \"2026\" Winsor classification"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4909,
+    "catalog_sha256": "fdad41f1147a73de524b1f130429ce3ea88d48ce1808be0ff4a0c14367be959d",
+    "corpus_count": 28701,
+    "corpus_sha256": "57119852d06f51cda83860655c1177e39dabb110b8eba62611b63c51fa3ef54f",
+    "additional_regex_queries": [
+      "absolute period",
+      "isoperiodic",
+      "Winsor",
+      "leaf closures",
+      "saturated.{0,35}SL\\(2"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

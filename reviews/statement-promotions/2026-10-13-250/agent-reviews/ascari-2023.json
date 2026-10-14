@@ -1,0 +1,281 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:122d890c0927807a64b0",
+  "source_review_notes": [
+    "Two source-grounded recommendations; all seven extracted candidates reviewed. Physical pages9,60,76–80 read."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Dario Ascari\" \"free factor\" \"distance\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"free factor complex\" \"computable distance\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://ems.press/content/serial-article-files/42594",
+      "sections_read": "Abstract, introduction and free factor complex definition/results"
+    },
+    {
+      "url": "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+      "sections_read": "Introduction recognition question and distinctions from fixed subgroup computation"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0306380",
+      "sections_read": "Structural-description abstract, distinguished from algorithmic recognition"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/kbb180d7fa633.pdf",
+    "sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+    "physical_pages": 155
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "b1510620794d32b59e516976aaf0703f3dbfeec14e2937f93311f56c94e49892",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Compute exact distance in the free factor complex",
+      "text": "For n≥3, let FFₙ have vertices the conjugacy classes [H] of nontrivial proper free factors H≤Fₙ, and an edge when representatives of two classes are comparable by inclusion. Is there an algorithm which, given finite generators for two free factors, returns their combinatorial distance in the 1-skeleton of FFₙ?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question 3; Definition 3.3.1 printed71 (physical76)",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 4,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Restrict n≥3 because the stated inclusion graph is disconnected for n=2; this is the domain in which the source connectivity assertion applies. Exact graph distance, not a coarse approximation. The distance-four special case already proved is not treated as a full answer.",
+      "literature_finding": "The published 2024 paper still provides algorithms only for distances1,2,3 and4 with a codimension-one factor. Fresh exact-distance searches located no full closure.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "Whole catalog retrieval for free factor, distance, Ascari finds no same question; same-source incidental extracts are merged.",
+      "statement_ids": [
+        "9186929f38a69ef5c704",
+        "3373dc9c4b2d8dfab6c5",
+        "92271285c6aa23dda887",
+        "b602400f9370488e7f9e"
+      ],
+      "statement_id": "9186929f38a69ef5c704",
+      "source_pdf_sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/42594",
+        "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+        "https://arxiv.org/abs/math/0306380"
+      ],
+      "search_topics": [
+        "\"Dario Ascari\" \"free factor\" \"distance\" 2026",
+        "\"free factor complex\" \"computable distance\" 2025 2026",
+        "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+      ],
+      "number": 4914,
+      "source_locator": {
+        "label": "Question 3",
+        "printed_page": 4,
+        "held_pdf_page": 9,
+        "original_extraction_page": 9
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Recognize the fixed subgroup of a single free-group automorphism",
+      "text": "Is there an algorithm which, given n≥2 and a finite list of words generating H≤Fₙ, decides whether H=Fix(φ)={w∈Fₙ:φ(w)=w} for some single automorphism φ∈Aut(Fₙ)?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question4; §3.4 printed75",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 4,
+        "verified_from": "Actual held PDF, pdftotext -layout physical page and printed footer"
+      },
+      "scope_review": "Single automorphism is essential; algorithms for fixed subgroups of families, or computing Fix(φ) from φ, are distinct. All finite ranks, not merely rank3.",
+      "literature_finding": "Carvalho 2023 primary introduction explicitly retains recognition for a single automorphism as undecided (Question8.6). Martino–Ventura structural description2003 is not claimed to be an effective recognition procedure. No later full algorithm located.",
+      "status_grade": "B: explicit primary-source question retained; bounded fresh primary-literature review, not certified open",
+      "duplicate_of": [],
+      "duplicate_review": "Whole catalog fixed subgroup/automorphism/Ascari retrieval finds no exact target. Two incidental source extracts merged.",
+      "statement_ids": [
+        "425daa2504b6937cb2e5",
+        "5879dfd7bfe10db47c8f",
+        "2e0ed05c51c8862e4053"
+      ],
+      "statement_id": "425daa2504b6937cb2e5",
+      "source_pdf_sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/42594",
+        "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+        "https://arxiv.org/abs/math/0306380"
+      ],
+      "search_topics": [
+        "\"Dario Ascari\" \"free factor\" \"distance\" 2026",
+        "\"free factor complex\" \"computable distance\" 2025 2026",
+        "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+      ],
+      "number": 4915,
+      "source_locator": {
+        "label": "Question 4",
+        "printed_page": 4,
+        "held_pdf_page": 9,
+        "original_extraction_page": 9
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "reason": "Same exact distance question merged into9186929f38a69ef5c704.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 4,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "3373dc9c4b2d8dfab6c5",
+      "statement_ids": [
+        "3373dc9c4b2d8dfab6c5"
+      ],
+      "source_pdf_sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/42594",
+        "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+        "https://arxiv.org/abs/math/0306380"
+      ],
+      "search_topics": [
+        "\"Dario Ascari\" \"free factor\" \"distance\" 2026",
+        "\"free factor complex\" \"computable distance\" 2025 2026",
+        "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same exact distance question merged into9186929f38a69ef5c704.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 4,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "92271285c6aa23dda887",
+      "statement_ids": [
+        "92271285c6aa23dda887"
+      ],
+      "source_pdf_sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/42594",
+        "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+        "https://arxiv.org/abs/math/0306380"
+      ],
+      "search_topics": [
+        "\"Dario Ascari\" \"free factor\" \"distance\" 2026",
+        "\"free factor complex\" \"computable distance\" 2025 2026",
+        "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same exact distance question merged into9186929f38a69ef5c704.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 4,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "b602400f9370488e7f9e",
+      "statement_ids": [
+        "b602400f9370488e7f9e"
+      ],
+      "source_pdf_sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/42594",
+        "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+        "https://arxiv.org/abs/math/0306380"
+      ],
+      "search_topics": [
+        "\"Dario Ascari\" \"free factor\" \"distance\" 2026",
+        "\"free factor complex\" \"computable distance\" 2025 2026",
+        "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same single-automorphism recognition question merged into425daa2504b6937cb2e5.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 4,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "5879dfd7bfe10db47c8f",
+      "statement_ids": [
+        "5879dfd7bfe10db47c8f"
+      ],
+      "source_pdf_sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/42594",
+        "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+        "https://arxiv.org/abs/math/0306380"
+      ],
+      "search_topics": [
+        "\"Dario Ascari\" \"free factor\" \"distance\" 2026",
+        "\"free factor complex\" \"computable distance\" 2025 2026",
+        "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same single-automorphism recognition question merged into425daa2504b6937cb2e5.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 4,
+        "verified_from": "Held physical PDF page and footer"
+      },
+      "statement_id": "2e0ed05c51c8862e4053",
+      "statement_ids": [
+        "2e0ed05c51c8862e4053"
+      ],
+      "source_pdf_sha256": "01da1975adf9439dc4a53e22c93a5fe218db215470f50797d53d7cd29bd37e9f",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/42594",
+        "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf",
+        "https://arxiv.org/abs/math/0306380"
+      ],
+      "search_topics": [
+        "\"Dario Ascari\" \"free factor\" \"distance\" 2026",
+        "\"free factor complex\" \"computable distance\" 2025 2026",
+        "\"fixed subgroup\" \"some automorphism\" algorithm free groups"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Ascari",
+      "free.factor",
+      "fixed.subgroup",
+      "Fix\\(",
+      "automorphism.*recogn"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

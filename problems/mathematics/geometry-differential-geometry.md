@@ -1,6 +1,6 @@
 # Geometry & Differential Geometry
 
-302 problems: 299 open, 3 open, partial results.
+320 problems: 317 open, 3 open, partial results.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -310,3 +310,21 @@ Parts: [1](geometry-differential-geometry-part-1.md) · [2](geometry-differentia
 | <a id="q4776"></a>[Q4776](geometry-differential-geometry-part-2.md#q4776) | Is h³(g) independent of g? | Open |
 | <a id="q4777"></a>[Q4777](geometry-differential-geometry-part-2.md#q4777) | Is sup{c>0: R_B(t)=O(e^(−c/t)) as t↓0}=L²/4 for both Dirichlet and Neumann boundary conditions? | Open |
 | <a id="q4782"></a>[Q4782](geometry-differential-geometry-part-2.md#q4782) | For every integer d≥1, does there exist v_d>0 such that, for every integer r≥1, some positive… | Open |
+| <a id="q4840"></a>[Q4840](geometry-differential-geometry-part-2.md#q4840) | Unipotents in all uniformly deformed right-angled Coxeter representations | Open |
+| <a id="q4841"></a>[Q4841](geometry-differential-geometry-part-2.md#q4841) | Quasi-isometric orbit maps for all uniformly deformed Coxeter representations | Open |
+| <a id="q4842"></a>[Q4842](geometry-differential-geometry-part-2.md#q4842) | Undistorted integral linear embeddings of virtually compact special groups | Open |
+| <a id="q4843"></a>[Q4843](geometry-differential-geometry-part-2.md#q4843) | A cocompact rank-one lattice with no compact Lie-group embedding | Open |
+| <a id="q4844"></a>[Q4844](geometry-differential-geometry-part-2.md#q4844) | Rational linear realizations of unipotent-free complex linear groups | Open |
+| <a id="q4845"></a>[Q4845](geometry-differential-geometry-part-2.md#q4845) | Rational linearity of SO₅(ℤ[1/5])\*C₂ | Open |
+| <a id="q4846"></a>[Q4846](geometry-differential-geometry-part-2.md#q4846) | Type-N curves characterize nonpositive curvature of closed aspherical three-manifolds | Open |
+| <a id="q4847"></a>[Q4847](geometry-differential-geometry-part-2.md#q4847) | Virtually unipotent elements that fail universal CAT(0) neutrality | Open |
+| <a id="q4950"></a>[Q4950](geometry-differential-geometry-part-2.md#q4950) | Real-analytic structure of absolute-period leaf closures | Open |
+| <a id="q4951"></a>[Q4951](geometry-differential-geometry-part-2.md#q4951) | Nonclosed absolute-period leaves with dense periods | Open |
+| <a id="q4952"></a>[Q4952](geometry-differential-geometry-part-2.md#q4952) | Closed invariant sets saturated for the absolute period foliation | Open |
+| <a id="q4954"></a>[Q4954](geometry-differential-geometry-part-2.md#q4954) | Infimal k-dilation in a homotopy class | Open |
+| <a id="q4991"></a>[Q4991](geometry-differential-geometry-part-2.md#q4991) | Homeomorphism invariance of smooth-manifold tautological rings | Open |
+| <a id="q4992"></a>[Q4992](geometry-differential-geometry-part-2.md#q4992) | Positive tautological dimension without any connected Lie symmetry | Open |
+| <a id="q4993"></a>[Q4993](geometry-differential-geometry-part-2.md#q4993) | Euler-class kernels for smooth block bundles and smooth fibre bundles | Open |
+| <a id="q5009"></a>[Q5009](geometry-differential-geometry-part-2.md#q5009) | Finiteness of Veech volume | Open |
+| <a id="q5010"></a>[Q5010](geometry-differential-geometry-part-2.md#q5010) | Lattice holonomy of flat-torus isoholonomic leaves | Open |
+| <a id="q5011"></a>[Q5011](geometry-differential-geometry-part-2.md#q5011) | Connected components of finite-holonomy flat-torus leaves | Open |

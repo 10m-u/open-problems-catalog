@@ -1,0 +1,1058 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q103051632",
+  "source_metadata": {
+    "author": "Sean Eberhard",
+    "title": "Some combinatorial problems in group theory",
+    "year": "2016",
+    "thesis_key": "Q103051632",
+    "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+    "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+  },
+  "source_review_notes": [
+    "Actual held cover and definitions verified. Three explicit source recommendations; the two permutation questions have distinct labels and predicates. Many historical questions are solved inside the thesis or by newer primaries. The arbitrary-system transfer statement has an explicit elementary countercase, held for coordinator verification instead of quietly imposing an admissibility hypothesis. Off-pool source repetitions are preserved in corpus sibling evidence, without invented identifiers."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Eberhard Conjecture 1.7.3 systems finite fields positive integer density"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Green Sawhney proportion permutations fixing k-set constant periodic 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "limiting fixed k-set probability monotonically decreasing 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Joseph third conjecture commuting probabilities closed Browning"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Eberhard nilpotency degree large three-step nilpotent section"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "largest product-free alternating group logarithms extremizers"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+      "finding": "Held thesis cover verifies Sean Eberhard, Some combinatorial problems in group theory, Oxford DPhil, Hilary 2016. Actual source pages and definitions were read; physical pages equal printed pages plus five after the front matter."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1401.6390",
+      "finding": "Primary generalization proves the k-sum-free constant 1/(k+1) using multiplicative Følner sequences. It does not establish the arbitrary mixed-sign integer-coefficient equation transfer conjecture."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1212.3681",
+      "finding": "Candela–Sisask Theorems 1.3 and 1.5 prove prime-modulus convergence for finite-complexity systems of forms, with explicit pairwise linear-independence assumptions. This is not a theorem equating the worst finite-positive-integer subset guarantee δ_F with the finite-field extremal density. The source thesis states a broader conjecture, whose literal scope has an elementary counterexample recorded separately."
+    },
+    {
+      "url": "https://arxiv.org/a/eberhard_s_1.html",
+      "finding": "Current author primary publication list checked through 2026 records the original sum-free and permutation papers and later group results. No full arbitrary-equation δ_E=d_E(T) resolution was identified in this bounded scan; absence of a publication title is not a certificate of openness."
+    },
+    {
+      "url": "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+      "finding": "Author primary Problem 87, physical 41, retains both decreasing p(k) and a constant-factor asymptotic. This is a source-specific current lead, read together with the newer April 2026 paper rather than treating the list alone as current status."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2604.28116",
+      "finding": "Green–Sawhney, April 2026, Theorem 1.1 proves p(k)=(f({log_2 k})+o(1))k^(-δ)(log k)^(-3/2), with smooth positive periodic f. Remark (1), physical 3, explicitly says nonconstancy of f is presumed but unproved. Corollary 1.2 gives a constant asymptotic only along powers of two. This neither proves nor refutes the source all-k constant conjecture. The paper does not resolve exact monotonicity at every integer k."
+    },
+    {
+      "url": "https://arxiv.org/abs/2201.09402",
+      "finding": "Browning, v4 February 2023, proves the set of finite-group commuting probabilities together with zero is closed, resolving Joseph J3. The other two Joseph conjectures are already theorems in the held thesis."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+      "finding": "Eberhard–Shumyatsky (2023/2024), Theorem 1.1, gives for d_2(G)≥ε a subgroup H with ε-bounded index and ε-bounded |γ_4(H)|. Taking K=γ_4(H) gives the exact large class-at-most-three section asked about in the thesis, with both index and kernel size bounded in ε. The paper also refutes the stronger bounded-index class-three subgroup statement; that distinction is retained."
+    },
+    {
+      "url": "https://arxiv.org/abs/2003.01798",
+      "finding": "Eberhard–Manners–Mrazović obtain the complete-mapping asymptotic for all finite groups satisfying Hall–Paige, using the circle-method approach. This includes even elementary abelian groups beyond the original odd-order case."
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.15191",
+      "finding": "Keevash–Lifshitz–Minzer solve the maximum product-free subset problem in A_n for large n, identify all extremizers and prove stability. Thus the source logarithm-removal and extremizer passage is closed, not a new recommendation."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q103051632.pdf",
+    "sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+    "physical_pages": 162
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "439dccddc38f7a3f52023247f25442b3c79b0131db3127b0cbc764d5a1a92016",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Equation-free subset guarantee and circle extremal density",
+      "text": "Let E be an equation a_1x_1+⋯+a_rx_r=0 with integer coefficients, at least one positive and at least one negative. A subset B of an abelian group is E-free if no tuple (x_1,…,x_r)∈B^r satisfies E; repetitions are allowed. Put δ_E=inf_{∅≠A⊂N finite} max_{B⊂A, B E-free}|B|/|A|, where N={1,2,…}. For the circle group T=R/Z with normalized Haar measure μ put d_E(T)=sup{μ(S): S⊂T is measurable and E-free}, where E is interpreted in T. Is δ_E=d_E(T) for every such E?",
+      "subject": "Combinatorics & Graph Theory",
+      "locator": {
+        "pdf_page": 29,
+        "printed_page": "24",
+        "label": "Conjecture 1.7.1"
+      },
+      "scope_review": "Definitions of δ_E, the positive-integer ground set and unrestricted repeated-variable solutions are on physical 8 and 24. Physical 29 explicitly imposes both coefficient signs and defines d_E for compact abelian groups. The target quantifies all such fixed equations, not just x_1+⋯+x_k=y_1+⋯+y_l. Translation-invariant equations with diagonal solutions are included and trivially give zero; no distinctness convention is added.",
+      "literature_finding": "The source proves special sum-free and k-sum-free cases. The current primary author list, original Følner paper and prime-modulus convergence paper supply partial results with different or narrower quantifiers. No full arbitrary-equation δ_E=d_E(T) resolution was verified in the dated bounded scan.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character retrieval, whole-corpus source siblings and author/title/URL manifest aliases are supplied; mathematical comparisons are recorded below. No threshold certifies uniqueness. Q1959 and Q1961 concern projective cube-free extremal subsets, not all mixed-sign linear equations and their worst-subset guarantee. Q5020 is a Ramsey colouring assertion for initial-segment sums. Q5003 concerns measured groups rather than equation-free sets in the circle. No manifest source-author/title/URL alias matches this thesis.",
+      "statement_id": "bfec18894ddadcf93d70",
+      "statement_ids": [
+        "bfec18894ddadcf93d70"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Conjecture 1.7.1, printed p. 24; physical PDF p. 29.",
+      "number": 5042,
+      "source_locator": {
+        "label": "Conjecture 1.7.1",
+        "printed_page": "24",
+        "held_pdf_page": 29,
+        "original_extraction_page": 29
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A constant leading term for limiting invariant-set probabilities",
+      "text": "For n≥k≥1 let i(n,k) be the probability that a uniformly random permutation π∈S_n preserves some k-element subset of {1,…,n} setwise. Let p(k)=lim_{n→∞}i(n,k). Equivalently, for independent X_j∼Poisson(1/j), p(k)=P(∃ integers 0≤a_j≤X_j, j=1,…,k, with ∑_{j=1}^k ja_j=k). With δ=1−(1+log log 2)/log 2, where log is natural, is there a constant C>0 such that p(k)∼C k^(−δ)(log k)^(−3/2) as k→∞ through all positive integers?",
+      "subject": "Probability & Stochastic Processes",
+      "locator": {
+        "pdf_page": 79,
+        "printed_page": "74",
+        "label": "Question 3.1.6"
+      },
+      "scope_review": "Actual physical 75–79 define invariant sets, cycle-sum representations and the fixed-k n→∞ limit. The order is first n→∞ with k fixed and then k→∞. This asks one constant for all integer k, not just two-sided order estimates or a subsequence.",
+      "literature_finding": "Green–Sawhney arXiv:2604.28116 proves the sharper periodic-factor asymptotic. Its physical 3 Remark (1) expressly leaves nonconstancy of that factor unproved, so the literal constant assertion is still undecided; Corollary 1.2 resolves powers of two only. This substantial 2026 partial result is disclosed rather than treating the old order estimate as current.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character retrieval, whole-corpus source siblings and author/title/URL manifest aliases are supplied; mathematical comparisons are recorded below. No threshold certifies uniqueness. Q4657 is a word-complexity power-law question with a different p_A invariant. Q3429 concerns uniformly random cube factorizations, Q2816 arithmetic maximal-order growth, and Q4810/Q4817 Voronoi partitions. None asks for limiting invariant-k-set probabilities. The source separate monotonicity item has different full quantifiers and predicate.",
+      "statement_id": "69375b8159dcbe3390b7",
+      "statement_ids": [
+        "69375b8159dcbe3390b7"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Question 3.1.6, printed p. 74; physical PDF p. 79.",
+      "number": 5043,
+      "source_locator": {
+        "label": "Question 3.1.6",
+        "printed_page": "74",
+        "held_pdf_page": 79,
+        "original_extraction_page": 79
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Monotonicity of limiting invariant-set probabilities",
+      "text": "For n≥k≥1 let i(n,k) be the probability that a uniformly random permutation π∈S_n preserves some k-element subset of {1,…,n} setwise. Let p(k)=lim_{n→∞}i(n,k). Equivalently, for independent X_j∼Poisson(1/j), p(k)=P(∃ integers 0≤a_j≤X_j, j=1,…,k, with ∑_{j=1}^k ja_j=k). Is p(k+1)≤p(k) for every integer k≥1?",
+      "subject": "Probability & Stochastic Processes",
+      "locator": {
+        "pdf_page": 79,
+        "printed_page": "74",
+        "label": "Question 3.1.7"
+      },
+      "scope_review": "Actual physical 79 separately asks monotonic decrease. Standalone spells out the usual nonincreasing predicate for every k, using the same fixed-k limit, rather than requiring i(n,k) to decrease for every finite n. It is a separate explicitly labelled source question from the constant leading-term asymptotic.",
+      "literature_finding": "Current primary Green Problem 87 retains this exact monotonicity target. The April 2026 periodic-factor asymptotic describes the leading term but its error term does not decide all adjacent-integer inequalities, and no complete monotonicity proof or counterexample was verified in the bounded primary scan.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character retrieval, whole-corpus source siblings and author/title/URL manifest aliases are supplied; mathematical comparisons are recorded below. No threshold certifies uniqueness. Q3790 is monotonicity of maximal spanning-tree counts, Q2997 monotonicity of a covering volume, and Q620 a random-subset concentration inequality. Q4810/Q4811/Q4817 concern Voronoi equivalence relations. No full target agrees with the exact adjacent-integer p(k) inequalities.",
+      "statement_id": "35bd70e0aa09d7d374bb",
+      "statement_ids": [
+        "35bd70e0aa09d7d374bb"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Question 3.1.7, printed p. 74; physical PDF p. 79.",
+      "number": 5044,
+      "source_locator": {
+        "label": "Question 3.1.7",
+        "printed_page": "74",
+        "held_pdf_page": 79,
+        "original_extraction_page": 79
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "solved-source-reduction",
+      "reason": "Both agents verified a counterexample to the literal arbitrary-system conjecture. For x+y=z and x+2y=4z the rational kernel is (-2t,3t,t), so no positive-integer solution exists and δ_F=1. Over every prime p>3, any B of density greater than 2/3 contains a solution by the intersection of B, (-2)^(-1)B and 3^(-1)B. Thus d_F(F_p)≤2/3 for all such primes, refuting the asserted equality. Both rows have mixed signs. The source states no common-positive-solution restriction; a repaired intended conjecture is not substituted. See root-reviews/EBERHARD-SYSTEM-COUNTERCASE.md.",
+      "locator": {
+        "pdf_page": 31,
+        "printed_page": "26",
+        "label": "Source disposition"
+      },
+      "statement_id": "13d74d5d18bfacdd3e7a",
+      "statement_ids": [
+        "13d74d5d18bfacdd3e7a"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 26; physical PDF p. 31."
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "Answered in the source by Proposition 1.6.2 on physical 27–28: β=1/3. Historical question is not open.",
+      "locator": {
+        "pdf_page": 27,
+        "printed_page": "22",
+        "label": "Source disposition"
+      },
+      "statement_id": "23edccce8275f3d1b513",
+      "statement_ids": [
+        "23edccce8275f3d1b513"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 22; physical PDF p. 27."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "All three Joseph conjectures are solved. J1/J2 are source Theorem 2.1.2, physical 47. J3 is closed by Browning arXiv:2201.09402v4: the commuting-probability set together with zero is closed.",
+      "locator": {
+        "pdf_page": 46,
+        "printed_page": "41",
+        "label": "Source disposition"
+      },
+      "statement_id": "9288609789c07b5945a0",
+      "statement_ids": [
+        "9288609789c07b5945a0"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 41; physical PDF p. 46."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Equivalent ultrafinite formulation of Joseph J3, closed by Browning arXiv:2201.09402v4. Do not count this historical restatement separately.",
+      "locator": {
+        "pdf_page": 66,
+        "printed_page": "61",
+        "label": "Source disposition"
+      },
+      "statement_id": "e31ad0ea4d10f680437c",
+      "statement_ids": [
+        "e31ad0ea4d10f680437c"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 61; physical PDF p. 66."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Solved by Eberhard–Shumyatsky Theorem 1.1 (2023/2024). The source large section H/K requires both [G:H] and |K| bounded in ε, as defined physical 46. For d_2(G)≥ε the primary gives bounded-index H with bounded |γ_4(H)|; K=γ_4(H) is normal in H and H/K has class at most three. This answers the exact section question, even though a bounded-index class-three subgroup is false.",
+      "locator": {
+        "pdf_page": 66,
+        "printed_page": "61",
+        "label": "Source disposition"
+      },
+      "statement_id": "4cbbfa2a4bbe770ae50a",
+      "statement_ids": [
+        "4cbbfa2a4bbe770ae50a"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 61; physical PDF p. 66."
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "Own-source closed: Chapter 3 physical 75 states and proves that four independent random permutations invariably generate S_n with probability bounded away from zero. Historical source Question 3.1.8 is answered by its later theorem.",
+      "locator": {
+        "pdf_page": 80,
+        "printed_page": "75",
+        "label": "Source disposition"
+      },
+      "statement_id": "1ef056fded067917302f",
+      "statement_ids": [
+        "1ef056fded067917302f"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 75; physical PDF p. 80."
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "Own-source explicitly records that Raouj and Stef (1999) already proved the stated integer-divisor conjecture, physical 84. Not open.",
+      "locator": {
+        "pdf_page": 84,
+        "printed_page": "79",
+        "label": "Source disposition"
+      },
+      "statement_id": "f00769b88d0c5fd7647f",
+      "statement_ids": [
+        "f00769b88d0c5fd7647f"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 79; physical PDF p. 84."
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "Own-source Theorem 4.1.2 and chapter introduction, physical 114–117, give an asymptotic stronger than the displayed exponential lower/upper conjecture. Not open.",
+      "locator": {
+        "pdf_page": 115,
+        "printed_page": "110",
+        "label": "Source disposition"
+      },
+      "statement_id": "336abbdfc6a971fe234e",
+      "statement_ids": [
+        "336abbdfc6a971fe234e"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 110; physical PDF p. 115."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "The even-order method extension is answered by Eberhard–Manners–Mrazović arXiv:2003.01798: the same circle-method approach yields the complete-mapping asymptotic for arbitrary finite Hall–Paige groups, including growing elementary abelian 2-groups.",
+      "locator": {
+        "pdf_page": 117,
+        "printed_page": "112",
+        "label": "Source disposition"
+      },
+      "statement_id": "12930e187c606201a421",
+      "statement_ids": [
+        "12930e187c606201a421"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 112; physical PDF p. 117."
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Exact logarithm-removal, maximum size and extremizer/stability passage is closed by Keevash–Lifshitz–Minzer arXiv:2205.15191, published 2024. Source physical 159 explicitly specializes the logarithm question to largest product-free subsets of A_n.",
+      "locator": {
+        "pdf_page": 159,
+        "printed_page": "154",
+        "label": "Source disposition"
+      },
+      "statement_id": "8f18c368897973ad9036",
+      "statement_ids": [
+        "8f18c368897973ad9036"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 154; physical PDF p. 159."
+    },
+    {
+      "decision": "hold",
+      "reason": "The source asks quantitative closeness for random partition-sum vectors with a_i≈n/k, but does not specify a metric, parameter regime or requested sharp bound, and its own Fourier estimates already answer many regimes. The claimed support H with sum zero also relies on the chapter odd-order convention. Do not manufacture a total-variation or all-regime target.",
+      "locator": {
+        "pdf_page": 123,
+        "printed_page": "118",
+        "label": "Source disposition"
+      },
+      "statement_id": "8fa0d4384ca38f4b7630",
+      "statement_ids": [
+        "8fa0d4384ca38f4b7630"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 118; physical PDF p. 123."
+    },
+    {
+      "decision": "hold",
+      "reason": "The source suggests one-sided product mixing between density scales p^(-1/2) and p^(-1/3) for SL_2(p), but a precise uniform quantifier and one-sided error target need the complete comparison convention and later primaries. Retain as a status/scope hold in this bounded packet.",
+      "locator": {
+        "pdf_page": 159,
+        "printed_page": "154",
+        "label": "Source disposition"
+      },
+      "statement_id": "e20ad6290d979bc5be3f",
+      "statement_ids": [
+        "e20ad6290d979bc5be3f"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 154; physical PDF p. 159."
+    },
+    {
+      "decision": "hold",
+      "reason": "Heading, truncated conjecture reference or proof-method fragment; no independent complete mathematical target in this stable record.",
+      "locator": {
+        "pdf_page": 28,
+        "printed_page": "23",
+        "label": "Source disposition"
+      },
+      "statement_id": "fd3fe27e0df02a20c484",
+      "statement_ids": [
+        "fd3fe27e0df02a20c484"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 23; physical PDF p. 28."
+    },
+    {
+      "decision": "hold",
+      "reason": "Heading, truncated conjecture reference or proof-method fragment; no independent complete mathematical target in this stable record.",
+      "locator": {
+        "pdf_page": 29,
+        "printed_page": "24",
+        "label": "Source disposition"
+      },
+      "statement_id": "806731c8e34cb166e6ef",
+      "statement_ids": [
+        "806731c8e34cb166e6ef"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 24; physical PDF p. 29."
+    },
+    {
+      "decision": "hold",
+      "reason": "Heading, truncated conjecture reference or proof-method fragment; no independent complete mathematical target in this stable record.",
+      "locator": {
+        "pdf_page": 79,
+        "printed_page": "74",
+        "label": "Source disposition"
+      },
+      "statement_id": "a7b652c8fe08c5c1c668",
+      "statement_ids": [
+        "a7b652c8fe08c5c1c668"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 74; physical PDF p. 79."
+    },
+    {
+      "decision": "hold",
+      "reason": "Heading, truncated conjecture reference or proof-method fragment; no independent complete mathematical target in this stable record.",
+      "locator": {
+        "pdf_page": 133,
+        "printed_page": "128",
+        "label": "Source disposition"
+      },
+      "statement_id": "7f50743257b4cfab5e12",
+      "statement_ids": [
+        "7f50743257b4cfab5e12"
+      ],
+      "source_pdf_sha256": "ab7f7bff4ec343a2f0edf846caf514a7a53f05657bda730436d99a63ddf8819a",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf",
+        "https://arxiv.org/pdf/1401.6390",
+        "https://arxiv.org/pdf/1212.3681",
+        "https://arxiv.org/a/eberhard_s_1.html",
+        "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "https://arxiv.org/pdf/2604.28116",
+        "https://arxiv.org/abs/2201.09402",
+        "https://link.springer.com/article/10.1007/s00208-023-02567-0",
+        "https://arxiv.org/abs/2003.01798",
+        "https://arxiv.org/abs/2205.15191"
+      ],
+      "search_topics": [
+        "Eberhard Conjecture 1.7.1 delta E circle solution-free general equation",
+        "Eberhard Conjecture 1.7.3 systems finite fields positive integer density",
+        "Eberhard solution-free subsets arbitrary mixed-sign integer equation transference 2026",
+        "Green Sawhney proportion permutations fixing k-set constant periodic 2026",
+        "limiting fixed k-set probability monotonically decreasing 2026",
+        "Joseph third conjecture commuting probabilities closed Browning",
+        "Eberhard nilpotency degree large three-step nilpotent section",
+        "largest product-free alternating group logarithms extremizers"
+      ],
+      "source_metadata": {
+        "author": "Sean Eberhard",
+        "title": "Some combinatorial problems in group theory",
+        "year": "2016",
+        "thesis_key": "Q103051632",
+        "record": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857",
+        "source": "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+      },
+      "citation": "Source disposition, printed p. 128; physical PDF p. 133."
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5045,
+    "catalog_sha256": "be8ea7cc32eab2060719e0f3d0f40573fae0455ab390c0774130713a8d42ef3d",
+    "corpus_count": 28701,
+    "corpus_sha256": "c2745d2a9e01ac78ec90f1d239181d9df68e2a4291f0f73a53af8d26aa17960d",
+    "additional_regex_queries": [
+      "invariant set",
+      "permutation.*k.set",
+      "preserves some set",
+      "solution.free",
+      "sum.free",
+      "Eberhard",
+      "Joseph",
+      "commuting probabilit",
+      "nilpoten.*section",
+      "product.free",
+      "Poisson"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

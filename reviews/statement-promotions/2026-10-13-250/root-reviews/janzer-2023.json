@@ -1,0 +1,734 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:d16de4f7e86ba412f085",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Held physical1,14–16,34,39–40,42–43,50–51,65,101–105,122–125,127–128,140–141,154 and Chapter12 conclusion checked. Physical/printed offset is8, not the extraction record offsets.",
+    "Two partial promotions retain unreviewed broader source clauses in the active candidate view. Current searches are bounded; related exact/approximate, single-start/all-start and exponent/leading-constant scopes are kept distinct."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Janzer convex bodies Kakeya rotations questions 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Partial shuffles by lazy swaps strong shuffles 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Janzer lazy transpositions all ordered tuples reachability"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "maximum running time hypergraph bootstrap percolation leading constant 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "rainbow cliques K6 K4 Janzer 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+      "sections_read": "Published 2024/volume2025, Definitions and Questions5.1–5.2 retain both thesis rotation targets. General d≥4 counterexamples and stronger continuous-selection counterexamples do not settle these two questions."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2210.13286",
+      "sections_read": "Definitions of strong shuffles and final Questions4.2–4.4; exact single starting pair result is different from uniformity or reachability for all starting tuples."
+    },
+    {
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+      "sections_read": "Published 2023 abstract; O(n log²n) for all pairs and exact2n−3 for one fixed starting pair are disclosed, not a resolution of all-pair sharpness."
+    },
+    {
+      "url": "https://dmtcs.episciences.org/16803/pdf",
+      "sections_read": "Published2025/v3October23,2025, definitions and concluding problems: t-reachability uses the fixed starting tuple, not all starting tuples. Its single-pair2n−3 uniformity conjecture is explicitly marked solved by Janzer et al."
+    },
+    {
+      "url": "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+      "sections_read": "Published2024 definitions and final Problems11–12 retain leading constants and arbitrary multi-infection classification. Θ(n^r) is proved for ordinary complete-hypergraph processes, not the requested constants or full multi-infection family."
+    },
+    {
+      "url": "https://arxiv.org/abs/2208.13489",
+      "sections_read": "Abstract: independent Θ(n^r) result for K_(r+1)^r and prefactor dependence in r. These estimates do not give an exact fixed-r leading constant."
+    },
+    {
+      "url": "https://arxiv.org/abs/2003.02754",
+      "sections_read": "Abstract and source chapter5: generalized clique construction; same-rainbow-Kr exponent result does not determine off-diagonal K6/rainbow-K4 order."
+    },
+    {
+      "url": "https://arxiv.org/html/2604.22630v2",
+      "sections_read": "August31,2026 version2: general running-time upper bound using Turán density π(F−e), and a nontrivial clique upper constant. Bounds do not give matching general leading constants or arbitrary multi-infection classification."
+    }
+  ],
+  "source_metadata": {
+    "author": "Barnabás Janzer",
+    "title": "Extremal results for graphs and hypergraphs and other combinatorial problems",
+    "year": "2023",
+    "institution": "University of Cambridge"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/kfa2123751ba5.pdf",
+    "sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+    "physical_pages": 180
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "9e3cdd7be8bc1c2a2167261f68975adb07ebd8a35478b9bd2fe3f55859890c19",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Disconnected placements in a three-dimensional convex Kakeya body",
+      "text": "A compact convex set K⊂R^d is S-Kakeya if, for every ρ∈SO(d), some w∈R^d satisfies ρS+w⊂K. Two placements (ρ₀,w₀),(ρ₁,w₁) connect within K if continuous paths ρ:[0,1]→SO(d), w:[0,1]→R^d join them and satisfy ρ(t)S+w(t)⊂K throughout. Do there exist nonempty compact convex S,K⊂R³ such that K is S-Kakeya and two placements of S in K cannot connect within K?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 2.5.1, printed p. 31 / held PDF p. 39; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 39,
+        "printed_page": 31,
+        "label": "Question 2.5.1"
+      },
+      "source_label": "Question 2.5.1",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. The original thesis question swaps the S/K descriptor; its definitions and the published Question5.1 unambiguously require K to contain every orientation of S. Compact body does not require nonempty interior in this source.",
+      "literature_finding": "The published 2024 paper retains this question as Question5.1; its counterexample needs d≥4. No later exact three-dimensional resolution was located in the dated primary scan.",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "statement_id": "ba7c40de61aae8f08a7f",
+      "statement_ids": [
+        "ba7c40de61aae8f08a7f"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5012,
+      "source_locator": {
+        "label": "Question 2.5.1",
+        "printed_page": 31,
+        "held_pdf_page": 39,
+        "original_extraction_page": 71
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Shapes with connected placements in every convex Kakeya body",
+      "text": "A compact convex set K⊂R^d is S-Kakeya if, for every ρ∈SO(d), some w∈R^d satisfies ρS+w⊂K. Two placements (ρ₀,w₀),(ρ₁,w₁) connect within K if continuous paths ρ:[0,1]→SO(d), w:[0,1]→R^d join them and satisfy ρ(t)S+w(t)⊂K throughout. Does there exist d≥3 and a nonempty compact convex S⊂R^d, neither a segment nor a closed Euclidean ball, such that any two placements of S connect within every compact convex S-Kakeya set K?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 2.5.2, printed p. 32 / held PDF p. 40; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 40,
+        "printed_page": 32,
+        "label": "Question 2.5.2"
+      },
+      "source_label": "Question 2.5.2",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. Existence of a shape and ambient dimension, with all admissible K quantified; not universal validity for arbitrary convex shapes. No full-dimensional restriction is introduced.",
+      "literature_finding": "The published 2024 paper retains this question as Question5.2. Segments and balls are known positive cases; arbitrary shapes have higher-dimensional counterexamples. No exact new-shape answer was located in the bounded scan.",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "statement_id": "240fcac224c9b10295d2",
+      "statement_ids": [
+        "240fcac224c9b10295d2"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5013,
+      "source_locator": {
+        "label": "Question 2.5.2",
+        "printed_page": 32,
+        "held_pdf_page": 40,
+        "original_extraction_page": 72
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Nearly linear exact shuffles for every fixed tuple size",
+      "text": "A lazy transposition on [n] independently applies a specified swap (a,b) with a specified probability p∈[0,1], and otherwise does nothing. Let U_k^all(n) be the minimum length of one sequence of independent lazy transpositions whose product sends every ordered tuple of k distinct starting elements to the uniform distribution on all (n)_k=n(n−1)⋯(n−k+1) ordered distinct tuples. For every fixed positive integer k and every ε>0, is U_k^all(n)=O_(k,ε)(n^(1+ε)) as n→∞?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 9.4.2, printed p. 133 / held PDF p. 141; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 141,
+        "printed_page": 133,
+        "label": "Question 9.4.2"
+      },
+      "source_label": "Question 9.4.2",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. One common sequence works for all starting tuples. Exact marginal uniformity is required; approximate mixing and a sequence tailored to one tuple are different targets.",
+      "literature_finding": "The primary shuffle paper retains the full fixed-k question. The known k=1 Θ(n log n) and k=2 O(n log²n) bounds answer only small-k cases. The 2025 reachability paper concerns positive-probability destinations from a fixed starting tuple. No full exact fixed-k result was located.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "statement_id": "55f31dd120300d162e9a",
+      "statement_ids": [
+        "55f31dd120300d162e9a"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5014,
+      "source_locator": {
+        "label": "Question 9.4.2",
+        "printed_page": 133,
+        "held_pdf_page": 141,
+        "original_extraction_page": 181
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The sharp order of exact all-pair shuffling",
+      "text": "A lazy transposition on [n] independently applies a specified swap (a,b) with a specified probability p∈[0,1], and otherwise does nothing. Let U_k^all(n) be the minimum length of one sequence of independent lazy transpositions whose product sends every ordered tuple of k distinct starting elements to the uniform distribution on all (n)_k=n(n−1)⋯(n−k+1) ordered distinct tuples. Is U_2^all(n)=Θ(n log n) as n→∞?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 9.4.3, printed p. 133 / held PDF p. 141; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 141,
+        "printed_page": 133,
+        "label": "Question 9.4.3"
+      },
+      "source_label": "Question 9.4.3",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. This sharp logarithmic factor is not settled by the broader nearly-linear exponent question. The exact2n−3 theorem uniformizes one fixed starting pair, not every starting pair simultaneously.",
+      "literature_finding": "The primary paper retains this sharper question, with Ω(n log n) and O(n log²n) bounds. Current dated primary retrieval found no matching Θ(n log n) all-pair result.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "statement_id": "d1697cf18eada6b2fffa",
+      "statement_ids": [
+        "d1697cf18eada6b2fffa"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5015,
+      "source_locator": {
+        "label": "Question 9.4.3",
+        "printed_page": 133,
+        "held_pdf_page": 141,
+        "original_extraction_page": 181
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Sharp lengths of all-tuple reachability networks",
+      "text": "For fixed k≥1, let R_k^all(n) be the minimum length of one sequence of independent lazy transpositions on [n] whose product sends every ordered tuple of k distinct starting elements to every ordered tuple of k distinct destinations with positive probability. A lazy transposition independently applies a specified swap with a specified probability in [0,1], otherwise doing nothing. Determine R_k^all(n) exactly or to leading asymptotic order as n→∞, with no restriction that swaps share a common endpoint.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 9.4.4, printed p. 133 / held PDF p. 141; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 141,
+        "printed_page": 133,
+        "label": "Question 9.4.4"
+      },
+      "source_label": "Question 9.4.4",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. The already known Θ(n) order is insufficient; the source asks exact values or sharper asymptotics. Keep all starting tuples and unrestricted swaps. The k=1 gossiping-dons solution is a known case, not a separate promotion.",
+      "literature_finding": "Thesis Question9.4.4 and primary Question4.4 ask this exact/leading-order target. The 2025 fixed-start t-reachability results do not determine the simultaneous all-start quantity. No complete fixed-k classification was located.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "statement_id": "131f4523384cb364408c",
+      "statement_ids": [
+        "131f4523384cb364408c"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5016,
+      "source_locator": {
+        "label": "Question 9.4.4",
+        "printed_page": 133,
+        "held_pdf_page": 141,
+        "original_extraction_page": 181
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Leading constants for clique bootstrap running times",
+      "text": "Fix integers k>r≥2. On vertex set [n], start with any set of infected r-element edges. In each parallel round infect every edge belonging to a copy of the complete r-uniform hypergraph K_k^(r) that is missing at most one edge; retain previous infections. Let M_k^r(n) be the maximum, over all initial infections, of the number of rounds until no further edge is infected. For each fixed k>r≥2, does lim_(n→∞) M_k^r(n)/n^r exist, and if so what is its value?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem 8.4.1, printed p. 115 / held PDF p. 123; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 123,
+        "printed_page": 115,
+        "label": "Problem 8.4.1"
+      },
+      "source_label": "Problem 8.4.1",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. Maximum over all initial infections, whether or not they eventually infect the whole host; simultaneous round count, not sequential edge-addition count. Retain known r=2 small-k cases within the general classification.",
+      "literature_finding": "Published2024 Problem11 retains this question. A 2026 primary paper improves upper constants through Turán density π(F−e), including a nontrivial clique upper bound; this is partial progress, without matching general constants or a full limit classification. No exact general limit was located.",
+      "primary_urls": [
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "statement_id": "bbeafad39d78ae546511",
+      "statement_ids": [
+        "bbeafad39d78ae546511"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5017,
+      "source_locator": {
+        "label": "Problem 8.4.1",
+        "printed_page": 115,
+        "held_pdf_page": 123,
+        "original_extraction_page": 163
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Maximum running times of multi-edge clique infections",
+      "text": "For fixed integers k>r≥2 and 1≤m≤binom(k,r), start with any infected r-element edges on [n]. In each parallel round, for every k-vertex set currently missing at most m of its r-element edges, infect all those missing edges. Let M_(K_k^(r),m)(n) be the maximum number of rounds until stabilization over all initial infections. Determine its asymptotic growth as n→∞ for every fixed triple (k,r,m).",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem 8.4.2, printed p. 116 / held PDF p. 124; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 124,
+        "printed_page": 116,
+        "label": "Problem 8.4.2"
+      },
+      "source_label": "Problem 8.4.2",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. All edges of an m-completable copy are infected together. This asks the arbitrary-m growth classification, distinct from the m=1 leading-constant target. Own-source solved cases are disclosed.",
+      "literature_finding": "Published2024 Problem12 retains the general classification. It solves (k,r,m)=(4,3,2) exactly and (5,3,2) up to Θ(n³), alongside ordinary m=1 orders. The 2026 Turán-density upper-bound theorem adds ordinary-process partial progress; a matching classification for every multi-infection triple was not located.",
+      "primary_urls": [
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "unpromoted_remainder": "The source additionally proposes studying the minimum initial infection size needed to infect the complete host for general (H,m); that separate extremal target remains unreviewed.",
+      "statement_id": "843de59eaa2c4ea41f5a",
+      "statement_ids": [
+        "843de59eaa2c4ea41f5a"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5018,
+      "source_locator": {
+        "label": "Problem 8.4.2",
+        "printed_page": 116,
+        "held_pdf_page": 124,
+        "original_extraction_page": 164
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Copies of K6 with no rainbow K4",
+      "text": "Let ex(n,K₆,rainbow-K₄) be the maximum number of six-vertex cliques in an n-vertex finite simple graph with a proper edge-colouring containing no rainbow K₄. Proper means incident edges have different colours, and rainbow means all six edges of the K₄ have distinct colours. Determine the asymptotic order of ex(n,K₆,rainbow-K₄) as n→∞.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Source discussion §5.5.1, printed p. 57 / held PDF p. 65; definitions in the same source chapter.",
+      "locator": {
+        "pdf_page": 65,
+        "printed_page": 57,
+        "label": "Source discussion §5.5.1"
+      },
+      "source_label": "Source discussion §5.5.1",
+      "scope_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence. The source explicitly asks this concrete off-diagonal case immediately after its construction. General same-clique exponent results do not answer it; count cliques regardless of their own colour patterns.",
+      "literature_finding": "The source discussion retains the (6,4) case after proving its construction. Current primary clique/rainbow scans found no matching order; the same-rainbow-Kr result in the primary abstract is a different target.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2003.02754"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source definitions and surrounding results read. Full live catalog family searches, source-author/title/URL aliases and manual comparisons found no equivalent numbered target. Source extraction page numbers differ from actual PDF physical locators; verified printed/physical locations below take precedence.",
+      "unpromoted_remainder": "The source also asks for the order for other admissible clique pairs s<r<r_s; these broader cases are not promoted by the reviewed (6,4) question.",
+      "statement_id": "912e30551fdf90705a58",
+      "statement_ids": [
+        "912e30551fdf90705a58"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ],
+      "number": 5019,
+      "source_locator": {
+        "label": "Source discussion §5.5.1",
+        "printed_page": 57,
+        "held_pdf_page": 65,
+        "original_extraction_page": 105,
+        "original_extraction_label": null
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "extraction-noise",
+      "reason": "Chapter outline or general announcement of open questions; it states no independent mathematical target.",
+      "statement_id": "59a9cf9635d1acdf86c0",
+      "statement_ids": [
+        "59a9cf9635d1acdf86c0"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Chapter outline or general announcement of open questions; it states no independent mathematical target.",
+      "statement_id": "672d13424d0b6b54ab87",
+      "statement_ids": [
+        "672d13424d0b6b54ab87"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Chapter outline or general announcement of open questions; it states no independent mathematical target.",
+      "statement_id": "b9fc802c3c4a59ba704d",
+      "statement_ids": [
+        "b9fc802c3c4a59ba704d"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Chapter outline or general announcement of open questions; it states no independent mathematical target.",
+      "statement_id": "7916e08710b30093f685",
+      "statement_ids": [
+        "7916e08710b30093f685"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The broad passage or historical question requires a separate precise-target/current-status review; own-source progress is not automatically a remaining new open target. Retain active rather than infer an unreviewed sharpening.",
+      "statement_id": "5444de3032c0b857055b",
+      "statement_ids": [
+        "5444de3032c0b857055b"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The broad passage or historical question requires a separate precise-target/current-status review; own-source progress is not automatically a remaining new open target. Retain active rather than infer an unreviewed sharpening.",
+      "statement_id": "ea606d5b6558bf07ec39",
+      "statement_ids": [
+        "ea606d5b6558bf07ec39"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The broad passage or historical question requires a separate precise-target/current-status review; own-source progress is not automatically a remaining new open target. Retain active rather than infer an unreviewed sharpening.",
+      "statement_id": "71a657152372e91933f8",
+      "statement_ids": [
+        "71a657152372e91933f8"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The broad passage or historical question requires a separate precise-target/current-status review; own-source progress is not automatically a remaining new open target. Retain active rather than infer an unreviewed sharpening.",
+      "statement_id": "bbef5150b133667b6504",
+      "statement_ids": [
+        "bbef5150b133667b6504"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The broad passage or historical question requires a separate precise-target/current-status review; own-source progress is not automatically a remaining new open target. Retain active rather than infer an unreviewed sharpening.",
+      "statement_id": "454be9e59be3e78f37da",
+      "statement_ids": [
+        "454be9e59be3e78f37da"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The broad passage or historical question requires a separate precise-target/current-status review; own-source progress is not automatically a remaining new open target. Retain active rather than infer an unreviewed sharpening.",
+      "statement_id": "4ec7b32591a8efb9d22e",
+      "statement_ids": [
+        "4ec7b32591a8efb9d22e"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s00454-024-00639-9",
+        "https://arxiv.org/pdf/2210.13286",
+        "https://epubs.siam.org/doi/pdf/10.1137/22M1530677?download=true",
+        "https://dmtcs.episciences.org/16803/pdf",
+        "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf",
+        "https://arxiv.org/abs/2208.13489",
+        "https://arxiv.org/abs/2003.02754",
+        "https://arxiv.org/html/2604.22630v2"
+      ],
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "The source explicitly answers Question12.1.2 in Chapter12, by its balanced-order extremal construction; this is not an unresolved target.",
+      "primary_urls": [
+        "https://www.repository.cam.ac.uk/bitstreams/8d9c782b-f6e1-4de5-9505-54ac2d6a7627/download"
+      ],
+      "statement_id": "f94b8ce9edc85ef3ff48",
+      "statement_ids": [
+        "f94b8ce9edc85ef3ff48"
+      ],
+      "source_pdf_sha256": "59ac5d116cbbb636bb9127b1adea8ad68151bc6042be936162c2ed9c943f4f3f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "Janzer convex bodies Kakeya rotations questions 2025 2026",
+        "Partial shuffles by lazy swaps strong shuffles 2025 2026",
+        "Janzer lazy transpositions all ordered tuples reachability",
+        "maximum running time hypergraph bootstrap percolation leading constant 2026",
+        "rainbow cliques K6 K4 Janzer 2026"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5008,
+    "catalog_sha256": "e3eac5c37b0d6ae808db01ac534e3be0ca383c462948c10485728d80a7be4c1a",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

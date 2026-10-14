@@ -1,6 +1,6 @@
 # Thesis statements: Geometry & Differential Geometry
 
-Discipline: Mathematics. 379 statements from 92 theses. [All subjects](../README.md)
+Discipline: Mathematics. 369 statements from 92 theses. [All subjects](../README.md)
 
 Automatically extracted, not reviewed: OCR noise and fragments are common, and a passage may describe a problem that is now solved. Always check the thesis page cited.
 
@@ -375,20 +375,13 @@ Automatically extracted, not reviewed: OCR noise and fragments are common, and a
 
 *Contributions to sutured monopole and sutured instanton Floer homology theories* · [thesis](https://dspace.mit.edu/server/api/core/bitstreams/b83ff1c9-a816-40fe-b63e-67483f2dcba1/content) · [record](https://dspace.mit.edu/handle/1721.1/126928)
 
-- **Question 1** (p. 30): Is there a Pin(2) version of sutured monopole Floer homology? For Pin(2)-monopole Floer homology, see Lin [60].
 - **Question 2** (p. 34): How can we see the action μpΣq and its eigenvalues on the level of the representation variety of the fundamental groups? Similar to Corollary 7.6 in Kronheimer and Mrowka [53], we can make the following definition.
 - **Question 3** (p. 39): For a balanced sutured manifold pM, γq, how can SHIpM, γq be related to the representations of the fundamental groups of M?
-- **Question 4** (p. 46): Can we resolve the ambiguity of multiplication by a unit in the naturality of sutured monopole and instanton Floer homologies?
 - **Question 5** (p. 46): For a fixed balanced sutured manifold pM, γq, is there a canonical closure pY, Rq associated to pM, γq?
 - **Question 7** (p. 58): Can we describe jGexplicitly?
-- **Question 8** (p. 60): Can we drop the condition that H2pMq “ 0 in the hypothesis of Theorem 2.6.29?
 - **Question 9** (p. 61): Can sutured monopole or instanton Floer homology be used to bound the minimal depth of all possible taut foliations on a balanced sutured manifold? See also Question 9.14 in Juhász [39] and Conjecture 7.24 in Kronheimer and Mrowka [53]. The canonical decomposition in Proposition 2.6.26also helps us to study the Thurston norm on M.
 - **Question 10** (p. 62): What can we say about a general balanced sutured manifold?
-- **Question 11** (p. 71): Is there an analytical definition of the contact element in instanton theory?
 - **Question 12** (p. 78): For what sutured handle handle body pH, γq, can we compute SHGpH, γq?
-- **Question 13** (p. 80): Can we find a knot Kso that π1pS3 3pKqq does not admits any irreducible SUp2q representations? Monopole and instanton Floer homology theories can be applied to the study of knots and links. The first construction of knot homology was introduced by Floer in [22] in instanton theory. In [53], Kronheimer and Mrowka used sutured monopole and instanton Floer homologies to construct knot homologies that are counterparts to the hat version of knot Floer homology in Heegaard Floer theory. To present their construction, let LĂ S3 be a link, S3pLq “ S3zNpLq be the link complement, and Γμbe the suture on BS3pLq which consists of a pair of meridians on each boundary components of S3pLq. Then, define KHGpS3, Lq “ SHGpS3pLq, Γμq. From the discussion in Section 2.4, we know that there is a projective transitive system associated to the pair pS3, Lq, which gives rise to a canonical module KHGpS3, Lq. For a knot KĂ S3, Theorem 2.6.18 implies that there is a Z grading on KHGpS3, Kq, induced by a Seifert surface of K. We write KHGpS3, K, iq and call this grading an Alexander grading. This grading has some basic properties.
-- **Question 14** (p. 82): For a fibred knot KĂ S3, is it true that KHGpS3, K, iq ‰ 0 for all isuch that |i| “ gpKq ́ 1? For links, the Floer homology KHGpS3, Lq satisfies an oriented skein relation. The instanton case was proved by Kronheimer and Mrowka in [51], and the monopole case is proved in Proposition 4.8.1. The oriented skein relation further implies the following, which was proved by Kronheimer and Mrowka in the monopole settings in [53] and in the instanton settings in [51].
-- **Question 15** (p. 82): Does KHGpS3, Lq categorifies the multi-variable Alexander polynomial?
 - **Question 17** (p. 83): Does KHGsatisfy a suitable version of un-oriented skein relation? It has been known that an unoriented skein relation as in Theorem 2.8.14 can result in a spectral sequence relating the Khovanov homology with the targeting
 - **Question 18** (p. 86): Can we use the instanton Floer homology for sutured manifold with tangles to construct some new invariants for contact structures and transverse knots? Using tools from sutured manifold theory, and an idea originates from Etnyre, Vela-Vick, and Zarev in [19], the author constructed a minus version of knot Floer homology in monopole and instanton theories, in correspondence to the minus version of knot Floer homology in Heegaard Floer homology introduced by Ozsváth and Szabó.
 - **Question 19** (p. 88): How is τGrelated to the τinvariant defined in Heegaard Floer theory?
@@ -396,10 +389,7 @@ Automatically extracted, not reviewed: OCR noise and fragments are common, and a
 - **Question 21** (p. 88): How is τIrelated to the s7 invariant defined by Kronheimer and Mrowka in [49]? Recently, in [12], Daemi and Scaduto made use of the unique reducible flat connection in a suitable representation arising from the fundamental group of the knot complements, and used an equivariant method to constructed four different flavors of instanton knot Floer homology, which they denote by ˆI ̊, ˇI ̊, ̄I ̊, and ̃I ̊, associated to a knot Kinside an integral rational homology sphere Y. They are also closely related to some versions of singular instanton Floer homology with special choices of local coefficients constructed by Kronheimer and Mrowka [47, 54]. The following questions might be interesting.
 - **Question 22** (p. 89): How could ˆI ̊ and KHI ́ be related to each other?
 - **Question 23** (p. 89): How could the instanton knot Floer homologies introduced above (I6, ˆI ̊, ̄I ̊, KHI ́, etc.) be related to the instanton Floer homology of closed 3-manifolds (say, the framed version studied by Scaduto in [81] or the equivariant versions constructed by Miller in [64])? In particular, can we prove a surgery-type formula as done in Heegaard Floer theory by Ozsváth and Szabó in [74] and subsequent papers?
-- **Question 25** (p. 141): Does ξbeing overtiwsted implies that Φξ“ 0?
 - *proposed (author conjectures or asks)* (p. 151): Let Rbe the coefficient ring, then we ask the following question.
-- **Question 26** (p. 152): How to describe the cobordism map SHGpWq : SHGpM\ p ́Mq, γY γq Ñ R? Note from Künneth formula, there is a map i: SHGpM\ p ́Mq, γY γq Ñ SHGpM, γq b SHGp ́M, γq. Also there is a canonical map tr: SHGpM, γq b SHGp ́M, γq Ñ R defined as trpab bq “ bpaq, since SHGp ́M, γq is the dual of SHGpM, γq. We make the following conjecture.
-- **Conjecture 3.7.6** (p. 152): With the above settings, we have SHGpWq “ tr ̋i. (3.14)
 - **Question 27** (p. 195): What can we say about the by-pass maps associated to non-adjacent by-pass attachments?
 - **Question 28** (p. 199): What is the exact value of |π0pTightpV, γ2n pq, ́pqqq|?
 

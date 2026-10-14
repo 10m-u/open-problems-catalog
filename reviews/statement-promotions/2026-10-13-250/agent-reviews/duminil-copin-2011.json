@@ -1,0 +1,656 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q15461028",
+  "source_review_notes": [
+    "Four recommendations. Actual physical276–277,288–291,335–346 read; definitions of loop/path measures and branch parameters recovered. q=4 has a very recent partial literature lead. Many qualitative future directions remain holds. LabelledQuestions17.27/17.28 are present in actualPDF but absent from the canonical extract store, so no new stable IDs were invented and those were not counted as promotions."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"random-cluster\" \"conformal invariance\" 2026 conjecture"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2508.20917v1",
+      "sections_read": "CurrentAugust2026 revision introduction, loop-model definition, phase-region theorem and convergence nonclosure"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.08507v1",
+      "sections_read": "October2026 mainCLE4 statement and relation to earlierFK special cases"
+    },
+    {
+      "url": "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+      "sections_read": "Primary criticalSAW path weights and missing full observable convergence"
+    },
+    {
+      "url": "https://arxiv.org/abs/1006.5073",
+      "sections_read": "Provedq≥1 self-dual critical-point theorem"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q15461028.pdf",
+    "sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+    "physical_pages": 361
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "d2841bd0c3bf57c452328115d515ee279da60496b3f79979bd089f7a8112b123",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Critical loop O(n) interfaces converge to their predicted SLE",
+      "text": "Let (Ωδ,aδ,bδ) be finite honeycomb-lattice domains of mesh δ approximating a marked simply connected planar domain (Ω,a,b), with a≠b. A configuration consists of one self-avoiding path from aδ to bδ and disjoint closed loops, with weight x^{number of occupied edges}n^{number of loops}, normalized to a probability; for n=0 only the path remains. For each n∈[0,2), at x=x_c(n)=(2+√(2−n))^(−1/2), does the path converge in law, as δ→0, to chordal SLE_κ from a to b in Ω, where κ=4π/(2π−arccos(−n/2))? Curves are considered modulo increasing reparametrization.",
+      "subject": "Probability & Planar Lattice Models",
+      "citation": "Duminil-Copin thesis, physical342 / printed327",
+      "locator": {
+        "pdf_page": 342,
+        "printed_page": 327,
+        "verified_from": "Actual heldPDF and printed footer"
+      },
+      "scope_review": "Forced single interface and finite-volume loop weights are defined in§17.3.1; this is the dilute critical branch, including the SAW n=0 case. Read source definition rather than merely the formula forκ.",
+      "literature_finding": "2026 primary2508.20917 still describes generic loopO(n) interface/CLE convergence as conjectured and confirms only phase-diagram portions. Known critical Ising n=1 is a proper subcase; no alln convergence theorem located.",
+      "status_grade": "B: primary conjecture with fresh partial-status assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered lattice-interface/SLE/self-avoiding-walk retrieval and whole corpus related-source comparison found no numbered equivalent. Gwynne conformal-removability and area/exponent questions have different targets. Related extracted SAW mentions in Xin Sun/Ang sources are recorded as corpus neighbours, not silently counted again.",
+      "statement_ids": [
+        "1bd777ae91840914f9e1"
+      ],
+      "statement_id": "1bd777ae91840914f9e1",
+      "source_pdf_sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2508.20917v1",
+        "https://arxiv.org/html/2610.08507v1",
+        "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+        "https://arxiv.org/abs/1006.5073"
+      ],
+      "search_topics": [
+        "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture",
+        "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026",
+        "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026",
+        "\"random-cluster\" \"conformal invariance\" 2026 conjecture",
+        "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+      ],
+      "number": 4946,
+      "source_locator": {
+        "label": "Conjecture 17.20",
+        "printed_page": 327,
+        "held_pdf_page": 342,
+        "original_extraction_page": 342
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Dense loop O(n) interfaces across the entire supercritical fugacity range",
+      "text": "Let (Ωδ,aδ,bδ) be finite honeycomb-lattice domains of mesh δ approximating a marked simply connected planar domain (Ω,a,b), with a≠b. A configuration consists of one self-avoiding path from aδ to bδ and disjoint closed loops, with weight x^{number of occupied edges}n^{number of loops}, normalized to a probability; for n=0 only the path remains. For every n∈[0,2) and every fixed x>x_c(n)=(2+√(2−n))^(−1/2), does the interface converge in law as δ→0 to chordal SLE_κ from a to b in Ω, with κ=4π/arccos(−n/2)?",
+      "subject": "Probability & Planar Lattice Models",
+      "citation": "Duminil-Copin thesis, physical343 / printed328",
+      "locator": {
+        "pdf_page": 343,
+        "printed_page": 328,
+        "verified_from": "Actual heldPDF and printed footer"
+      },
+      "scope_review": "Dense branch has a different κ and requires every x above critical, not only the integrable second critical point. Source boundary forcing retained; named similarities to UST/site-percolation do not prove this loop-model target.",
+      "literature_finding": "Current2026 loop-model primary2508.20917 proves macroscopic loops in a parameter region, which is weaker than convergence. It notes n=x=1 Bernoulli-site case known. No proof across the full(n,x) region located.",
+      "status_grade": "B: primary conjecture with fresh partial-status assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered lattice-interface/SLE/self-avoiding-walk retrieval and whole corpus related-source comparison found no numbered equivalent. Gwynne conformal-removability and area/exponent questions have different targets. Related extracted SAW mentions in Xin Sun/Ang sources are recorded as corpus neighbours, not silently counted again.",
+      "statement_ids": [
+        "2b6ed56e7397b02fa510"
+      ],
+      "statement_id": "2b6ed56e7397b02fa510",
+      "source_pdf_sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2508.20917v1",
+        "https://arxiv.org/html/2610.08507v1",
+        "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+        "https://arxiv.org/abs/1006.5073"
+      ],
+      "search_topics": [
+        "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture",
+        "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026",
+        "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026",
+        "\"random-cluster\" \"conformal invariance\" 2026 conjecture",
+        "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+      ],
+      "number": 4947,
+      "source_locator": {
+        "label": "Conjecture 17.22",
+        "printed_page": 328,
+        "held_pdf_page": 343,
+        "original_extraction_page": 343
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Critical square-lattice FK interfaces converge to SLE for all cluster weights",
+      "text": "For q∈(0,4], put p=√q/(1+√q). On square-lattice domains Ωδ of meshδ approximating a marked simply connected domain(Ω,a,b), sample edge sets ω with probability proportional to p^{|ω|}(1−p)^{|E\\ω|}q^{k(ω)}, wiring the boundary arc from aδ to bδ and leaving the complementary arc free. Let γδ be the medial-lattice exploration path separating the wired primal cluster from the dual cluster adjoining the free arc. Does γδ converge in law, modulo reparametrization, to chordal SLE_κ from a to b, with κ=4π/arccos(−√q/2)?",
+      "subject": "Probability & Planar Lattice Models",
+      "citation": "Duminil-Copin thesis, physical340 / printed325",
+      "locator": {
+        "pdf_page": 340,
+        "printed_page": 325,
+        "verified_from": "Actual heldPDF and printed footer"
+      },
+      "scope_review": "Positiveq FK probability convention; source q=0 branch is the separately defined limiting UST, already proved. Main universal positiveq target remains. Bond percolation on the square lattice atq=1 must not be replaced by triangular site percolation.",
+      "literature_finding": "October6,2026 primary2610.08507 claims CLE₄ convergence for four-state FK/Potts loops; its exact Dobrushin-exploration implications require scope review, so record as fresh partial lead. q=2 FK-Ising convergence is proved. The full positiveq family is not closed by these cases.",
+      "status_grade": "B: primary conjecture with fresh partial-status assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered lattice-interface/SLE/self-avoiding-walk retrieval and whole corpus related-source comparison found no numbered equivalent. Gwynne conformal-removability and area/exponent questions have different targets. Related extracted SAW mentions in Xin Sun/Ang sources are recorded as corpus neighbours, not silently counted again.",
+      "statement_ids": [
+        "fa76458db2bc22e43677"
+      ],
+      "statement_id": "fa76458db2bc22e43677",
+      "source_pdf_sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2508.20917v1",
+        "https://arxiv.org/html/2610.08507v1",
+        "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+        "https://arxiv.org/abs/1006.5073"
+      ],
+      "search_topics": [
+        "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture",
+        "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026",
+        "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026",
+        "\"random-cluster\" \"conformal invariance\" 2026 conjecture",
+        "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+      ],
+      "number": 4948,
+      "source_locator": {
+        "label": "Conjecture 17.16",
+        "printed_page": 325,
+        "held_pdf_page": 340,
+        "original_extraction_page": 340
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Critical self-avoiding parafermionic observable limit",
+      "text": "Let(Ωδ,aδ) be honeycomb-lattice domains of meshδ approximating a simply connected proper domainΩ with distinct marked boundary points a,b, and assume the boundary is smooth nearb. For a mid-edge zδ approaching z∈Ω define Fδ(zδ)=Σ_{γ:aδ→zδ}x_c^{|γ|}exp(−5iW(γ)/8), summing self-avoiding paths confined toΩδ, with x_c=(2+√2)^(−1/2) and W the total winding from the initial to the terminal edge direction. If φ:Ω→ℍ sends a to∞ and b to0, must Fδ(zδ)/Fδ(bδ)→(φ′(z)/φ′(b))^(5/8), with a consistently chosen branch?",
+      "subject": "Probability & Planar Lattice Models",
+      "citation": "Duminil-Copin thesis, physical290 / printed275",
+      "locator": {
+        "pdf_page": 290,
+        "printed_page": 275,
+        "verified_from": "Actual heldPDF and printed footer"
+      },
+      "scope_review": "Explicit winding-weighted path sum, not an arbitrary holomorphic observable. Source normalizes at a smooth boundary pointb, where the boundary derivative is defined. This is distinct from path convergence, though proposed as a route to it.",
+      "literature_finding": "Primary author SAW slides identify full observable convergence as the missing point;2026 loop-model paper still treats generic interface convergence as open. No proof of this normalized SAW observable limit found.",
+      "status_grade": "B: primary conjecture with fresh partial-status assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered lattice-interface/SLE/self-avoiding-walk retrieval and whole corpus related-source comparison found no numbered equivalent. Gwynne conformal-removability and area/exponent questions have different targets. Related extracted SAW mentions in Xin Sun/Ang sources are recorded as corpus neighbours, not silently counted again.",
+      "statement_ids": [
+        "a310dad72e8778f68657"
+      ],
+      "statement_id": "a310dad72e8778f68657",
+      "source_pdf_sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2508.20917v1",
+        "https://arxiv.org/html/2610.08507v1",
+        "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+        "https://arxiv.org/abs/1006.5073"
+      ],
+      "search_topics": [
+        "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture",
+        "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026",
+        "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026",
+        "\"random-cluster\" \"conformal invariance\" 2026 conjecture",
+        "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+      ],
+      "number": 4949,
+      "source_locator": {
+        "label": "Conjecture 14.8",
+        "printed_page": 275,
+        "held_pdf_page": 290,
+        "original_extraction_page": 290
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "solved-literature",
+      "reason": "Self-dual square-lattice critical point for everyq≥1 is proved by Beffara–Duminil-Copin1006.5073 and in thesisChapter4; not an open target.",
+      "locator": {
+        "pdf_page": 79,
+        "printed_page": 64,
+        "verified_from": "Source conjecture and surrounding in-source closure"
+      },
+      "statement_id": "5d8c102cad719a86f972",
+      "statement_ids": [
+        "5d8c102cad719a86f972"
+      ],
+      "source_pdf_sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2508.20917v1",
+        "https://arxiv.org/html/2610.08507v1",
+        "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+        "https://arxiv.org/abs/1006.5073"
+      ],
+      "search_topics": [
+        "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture",
+        "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026",
+        "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026",
+        "\"random-cluster\" \"conformal invariance\" 2026 conjecture",
+        "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Uniform boundary-condition RSW is affected by later planarFK scaling-relation theorems; exact source rectangular-boundary conventions need comparison before terminal closure or promotion.",
+      "locator": {
+        "pdf_page": 337,
+        "printed_page": 322,
+        "verified_from": "ActualConjecture17.11"
+      },
+      "statement_id": "46038e60107f0cc456f4",
+      "statement_ids": [
+        "46038e60107f0cc456f4"
+      ],
+      "source_pdf_sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2508.20917v1",
+        "https://arxiv.org/html/2610.08507v1",
+        "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+        "https://arxiv.org/abs/1006.5073"
+      ],
+      "search_topics": [
+        "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture",
+        "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026",
+        "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026",
+        "\"random-cluster\" \"conformal invariance\" 2026 conjecture",
+        "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The general SAW convergence statement uses \"largest finite domain\" approximating arbitrary properΩ, which is not literally defined for unboundedΩ. It is the n=0 subcase of the accepted forced-interface target for admissible finite-domain approximations; retain as a scope hold until a declared source repair is approved, rather than silently restrictΩ.",
+      "locator": {
+        "pdf_page": 290,
+        "printed_page": 275,
+        "verified_from": "ActualConjecture14.7 and preceding approximation definition"
+      },
+      "statement_id": "55234ccff090bc208a93",
+      "statement_ids": [
+        "55234ccff090bc208a93"
+      ],
+      "source_pdf_sha256": "103905d4ed9dadec7e0170437a244fd33eef57602b51c2c1cabc33098db5c648",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2508.20917v1",
+        "https://arxiv.org/html/2610.08507v1",
+        "https://www.unige.ch/~smirnov/slides/slides-saw.pdf",
+        "https://arxiv.org/abs/1006.5073"
+      ],
+      "search_topics": [
+        "\"Duminil-Copin\" \"O(n)\" \"critical\" 2026 conjecture",
+        "\"self-avoiding walk\" \"SLE(8/3)\" \"conjecture\" 2025 2026",
+        "\"loop O(n)\" \"dense\" \"SLE\" \"scaling limit\" 2025 2026",
+        "\"random-cluster\" \"conformal invariance\" 2026 conjecture",
+        "\"loop O(n)\" \"SLE\" \"conjecture\" 2026 -site:researchgate.net"
+      ]
+    },
+    {
+      "decision": "hold",
+      "statement_id": "1314fb5833f48e49e4c1",
+      "statement_ids": [
+        "1314fb5833f48e49e4c1"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "c417f0aee87b6ca74809",
+      "statement_ids": [
+        "c417f0aee87b6ca74809"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "79548b05b1cf759f4e7b",
+      "statement_ids": [
+        "79548b05b1cf759f4e7b"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "a03e85d4d3541607afcc",
+      "statement_ids": [
+        "a03e85d4d3541607afcc"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "991ee436617aeb964979",
+      "statement_ids": [
+        "991ee436617aeb964979"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "09ed4499d68c3b59e389",
+      "statement_ids": [
+        "09ed4499d68c3b59e389"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "9fcd64f3ba6df4a9b58c",
+      "statement_ids": [
+        "9fcd64f3ba6df4a9b58c"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "36b5a1719492c04b6d21",
+      "statement_ids": [
+        "36b5a1719492c04b6d21"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "5481959929b6ac867f26",
+      "statement_ids": [
+        "5481959929b6ac867f26"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "961beabcf6b25baeec09",
+      "statement_ids": [
+        "961beabcf6b25baeec09"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "1c12c7410fb65ffad576",
+      "statement_ids": [
+        "1c12c7410fb65ffad576"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "8ef35ab7f1b6aa67ca45",
+      "statement_ids": [
+        "8ef35ab7f1b6aa67ca45"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "3b04ecc085c8444f82a7",
+      "statement_ids": [
+        "3b04ecc085c8444f82a7"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "76ac9b8663d56f4bd278",
+      "statement_ids": [
+        "76ac9b8663d56f4bd278"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "82750dea661531f3e301",
+      "statement_ids": [
+        "82750dea661531f3e301"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "b15c6b371f9e8a182662",
+      "statement_ids": [
+        "b15c6b371f9e8a182662"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "6496055eb7a62a1d9de1",
+      "statement_ids": [
+        "6496055eb7a62a1d9de1"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "c8a861a8492f7c2e276e",
+      "statement_ids": [
+        "c8a861a8492f7c2e276e"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "82d0794822b5e26aacf5",
+      "statement_ids": [
+        "82d0794822b5e26aacf5"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "0bbc9d8e94727df2226e",
+      "statement_ids": [
+        "0bbc9d8e94727df2226e"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "f4f76c6721304a43e916",
+      "statement_ids": [
+        "f4f76c6721304a43e916"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "583ae93416c8e81afcd2",
+      "statement_ids": [
+        "583ae93416c8e81afcd2"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "d329192f75c5eb9466ba",
+      "statement_ids": [
+        "d329192f75c5eb9466ba"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "226ff4f9f7fcb05d1e9b",
+      "statement_ids": [
+        "226ff4f9f7fcb05d1e9b"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "8eb1f3e87ed73e02f43f",
+      "statement_ids": [
+        "8eb1f3e87ed73e02f43f"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "1fd7082c29c228d36ef7",
+      "statement_ids": [
+        "1fd7082c29c228d36ef7"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "72c54396b59d0eeb1958",
+      "statement_ids": [
+        "72c54396b59d0eeb1958"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "e9ae1c659a5576a9466e",
+      "statement_ids": [
+        "e9ae1c659a5576a9466e"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "385501d9cc12a5056b7d",
+      "statement_ids": [
+        "385501d9cc12a5056b7d"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "a7db7569865f276457ce",
+      "statement_ids": [
+        "a7db7569865f276457ce"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "83d34e43d7230ec99245",
+      "statement_ids": [
+        "83d34e43d7230ec99245"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "15efbd5ecddaaad1977b",
+      "statement_ids": [
+        "15efbd5ecddaaad1977b"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "dda1993aa2220ae8019b",
+      "statement_ids": [
+        "dda1993aa2220ae8019b"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "ff3d9de62ef06ebb2bf1",
+      "statement_ids": [
+        "ff3d9de62ef06ebb2bf1"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "a1a2630e3b63a6002296",
+      "statement_ids": [
+        "a1a2630e3b63a6002296"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4909,
+    "catalog_sha256": "7de3fb1679348f531e663fda1308acac90584aadea45db073451bf754296a5b4",
+    "corpus_count": 28701,
+    "corpus_sha256": "57119852d06f51cda83860655c1177e39dabb110b8eba62611b63c51fa3ef54f",
+    "additional_regex_queries": [
+      "Duminil.Copin",
+      "self.avoiding",
+      "SLE.?8/3",
+      "loop O\\(n\\)",
+      "random.cluster.*interface",
+      "parafermionic",
+      "Nienhuis"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

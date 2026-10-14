@@ -1,0 +1,1145 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:df0ff696974d0e9aad5b",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Source’s extractor truncates labels (Question 6 versus 6.1 etc.) and inflates pages 465–467; actual held PDF is printed110–112/PDF123–125.",
+    "Author publishes as Tsun-Ming Cheung; held thesis name Ben Cheung and original identity remain. No paper or thesis text is replaced."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Ben Cheung\" communication complexity 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"constant\" \"sign-rank\" \"discrepancy\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"BPP\" \"monochromatic rectangle\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sign-rank\" \"conjunction\" 2026 constant"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"parity decision tree\" \"size\" \"randomized\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"approximate algebra norm\" \"coset\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"BPP0\" \"PEQ\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/abs/2506.12022",
+      "sections": "General constant-cost conjecture and specific k-Hamming family resolution."
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/049/",
+      "sections": "Primary abstract: Θ(log n) Point–Line closure, April 7 2026."
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/190/",
+      "sections": "Primary abstract: superconstant randomized cost; not a constant-cost rectangle counterexample."
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+      "sections": "Randomized parity-tree-size lifting theorem; scope does not answer constant-size separation."
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2022/041/download",
+      "sections": "Approximate spectral norm theorem’s affine-connectivity restriction."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0890540126000143",
+      "sections": "March 2026 constant-communication hierarchy; exact versus approximate γ₂ classes."
+    }
+  ],
+  "source_metadata": {
+    "author": "Ben Cheung",
+    "title": "Separation and Structural Results for Randomized Communication Models and Their Implications",
+    "year": "2025",
+    "institution": "McGill University"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/k661ec6a1095b.pdf",
+    "sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+    "physical_pages": 138
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "d517e43cb6d7312ccb5b4cae81653b5cb43a829acfc7d6bb61d740f45dfe4f9a",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Bounded discrepancy forces bounded sign-rank",
+      "text": "For every δ>0, is there an integer d(δ) such that every finite sign matrix A with disc(A)≥δ has sign-rank at most d(δ)? Sign-rank is the minimum rank of a real matrix with sign pattern A. Define disc(A)=min_μ max_{S,T}|∑_{(x,y)∈S×T}μ(x,y)A_xy|, where μ ranges over probability distributions on the entries and S×T over rectangles.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Question 1.1; uniform bounded-cost interpretation from §1.1.3; printed p. 17 / PDF p. 30.",
+      "locator": {
+        "printed_page": 17,
+        "pdf_page": 30,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The 2025 k-Hamming-distance paper resolves that particular family but retains the general constant-cost bounded-error versus unbounded-error separation conjecture. The 2026 hierarchy distinguishes bounded discrepancy from bounded sign-rank. No full bound or separating family was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "43374aff795c35486c8b",
+      "statement_ids": [
+        "43374aff795c35486c8b"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4901,
+      "source_locator": {
+        "label": "Question 1",
+        "printed_page": 17,
+        "held_pdf_page": 30,
+        "original_extraction_page": 30
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Large monochromatic rectangles at constant randomized communication cost",
+      "text": "For every fixed C, does some c(C)>0 have the following property for every N? Any N×N Boolean matrix F computable with at most C bits of public-coin two-party communication and worst-case error at most 1/3 contains a monochromatic rectangle S×T with |S|,|T|≥c(C)N.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Conjecture 1.3; printed p. 22 / PDF p. 35.",
+      "locator": {
+        "printed_page": 22,
+        "pdf_page": 35,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source states Conjecture 1.3. Wang–Wu’s September 2026 construction has polylogarithmic rather than constant randomized cost, so its small-rectangle separation does not answer this constant-cost target. No full resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "913f11a20c3f46537fe4",
+      "statement_ids": [
+        "913f11a20c3f46537fe4"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4902,
+      "source_locator": {
+        "label": "Conjecture 1",
+        "printed_page": 22,
+        "held_pdf_page": 35,
+        "original_extraction_page": 35
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Large monochromatic rectangles at bounded gamma-two norm",
+      "text": "For every M≥1, does some c(M)>0 have the following property? Every N×N Boolean matrix F with γ₂(F)≤M has a monochromatic rectangle S×T with |S|,|T|≥c(M)N. Here γ₂(F)=inf max_x||u_x||₂ max_y||v_y||₂ over finite-dimensional real factorizations F_xy=⟨u_x,v_y⟩.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Conjecture 1.4 and Definition 2.7; printed p. 22 / PDF p. 35.",
+      "locator": {
+        "printed_page": 22,
+        "pdf_page": 35,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source states the exact-norm Conjecture 1.4. Current approximate-norm and randomized-cost hierarchy results concern a different condition; the recent polylogarithmic-cost counterexample does not supply a bounded exact γ₂ example. No exact resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "143d5b274e69b79507b2",
+      "statement_ids": [
+        "143d5b274e69b79507b2"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4903,
+      "source_locator": {
+        "label": "Conjecture 1",
+        "printed_page": 22,
+        "held_pdf_page": 35,
+        "original_extraction_page": 35
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Constant randomized parity-tree size with superpolynomial deterministic size",
+      "text": "A parity decision tree asks the parity of any subset of input coordinates at each internal node. PDTsize is its minimum number of leaves; RPDTsize is the minimum worst-case number of leaves in a distribution of such trees computing the function with pointwise error at most 1/3. Is there a family f_n:F₂^n→{0,1} with RPDTsize(f_n)=O(1) but PDTsize(f_n)=2^{Ω(n)}? If exponential separation is unavailable, can PDTsize(f_n) grow faster than every fixed power of n?",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Question 6.1; printed p. 110 / PDF p. 123.",
+      "locator": {
+        "printed_page": 110,
+        "pdf_page": 123,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source’s separation has logarithmic randomized depth and polynomial randomized size, not constant randomized size. The 2025 randomized PDT lifting theorem supplies lower bounds for composed functions without giving this constant-size versus superpolynomial-size family. No exact closure was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "aa3dc59d51a83236d046",
+      "statement_ids": [
+        "aa3dc59d51a83236d046"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4904,
+      "source_locator": {
+        "label": "Question 6",
+        "printed_page": 110,
+        "held_pdf_page": 123,
+        "original_extraction_page": 465
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Constant randomized parity depth with superpolynomial Fourier norm",
+      "text": "Does a family f_n:F₂^n→{0,1} exist with bounded-error randomized parity decision-tree depth O(1) while ||f_n||_A grows faster than every fixed power of n? Here each query is a coordinate-subset parity, error is at most 1/3 on every input, and ||f||_A=∑_{a∈F₂^n}|2^{-n}∑_x f(x)(−1)^{a·x}|.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Question 6.2; printed p. 110 / PDF p. 123.",
+      "locator": {
+        "printed_page": 110,
+        "pdf_page": 123,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source proves an exponential Fourier norm at randomized depth O(log n), leaving the constant-depth question explicit. Current parity lifting work does not remove that logarithmic depth. No exact constant-depth construction or universal polynomial bound was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "f3c60e8a10d0c14d9b79",
+      "statement_ids": [
+        "f3c60e8a10d0c14d9b79"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4905,
+      "source_locator": {
+        "label": "Question 6",
+        "printed_page": 110,
+        "held_pdf_page": 123,
+        "original_extraction_page": 465
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Constant randomized communication outside polynomial equality-oracle communication",
+      "text": "Is there a family F_n:{0,1}^n×{0,1}^n→{0,1} with public-coin bounded-error communication cost O(1), but whose deterministic communication cost with access to an equality oracle is not bounded by any polynomial in log n? An oracle call compares two arbitrary strings, one computed locally by each party, at unit cost; ordinary communicated bits also count. Error is at most 1/3 on each input.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Conjecture 6.3; PEQ uses polylogarithmic cost, unlike PEQ₀; printed p. 110 / PDF p. 123.",
+      "locator": {
+        "printed_page": 110,
+        "pdf_page": 123,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source retains the stronger constant-cost Conjecture 6.3. The established separation BPP outside equality-oracle communication and Wang–Wu’s September 2026 separation have superconstant cost, so do not settle this target. No exact constant-cost family was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "87f95fd4f01a336cab3b",
+      "statement_ids": [
+        "87f95fd4f01a336cab3b"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4906,
+      "source_locator": {
+        "label": "Conjecture 6",
+        "printed_page": 110,
+        "held_pdf_page": 123,
+        "original_extraction_page": 465
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Sign-rank closure under entrywise conjunction",
+      "text": "Does some function η:N→N satisfy rank_±(A∧B)≤η(d) whenever finite sign matrices A,B on the same row and column sets each have sign-rank at most d? Here (A∧B)_xy=min(A_xy,B_xy), and rank_± is the minimum rank of a real matrix with the prescribed sign pattern.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Question 6.6; printed p. 111 / PDF p. 124.",
+      "locator": {
+        "printed_page": 111,
+        "pdf_page": 124,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source explicitly asks this in Question 6.6; the 2025 k-Hamming-distance paper retains the general closure issue despite solving particular Boolean reductions. Exact conjunction and current sign-rank searches located no full closure theorem or fixed-rank counterexample.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "96cb71183fb39223de86",
+      "statement_ids": [
+        "96cb71183fb39223de86"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4907,
+      "source_locator": {
+        "label": "Question 6",
+        "printed_page": 111,
+        "held_pdf_page": 124,
+        "original_extraction_page": 466
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A large constant coset from bounded approximate Fourier norm",
+      "text": "Fix M>0 and 0<ε<1/2. Is there an integer ℓ(M,ε) such that, for every n and A⊂F₂^n, if inf_{g:||g−1_A||_∞≤ε}∑_a|ĝ(a)|≤M, then some affine coset V+b of codimension at most ℓ(M,ε) makes 1_A constant? Fourier coefficients use the normalization ĝ(a)=2^{-n}∑_x g(x)(−1)^{a·x}.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Conjecture 6.8; printed p. 112 / PDF p. 125.",
+      "locator": {
+        "printed_page": 112,
+        "pdf_page": 125,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source retains Conjecture 6.8 after proving a version with affine-connectivity hypotheses. The primary approximate-spectral-norm paper distinguishes those additional hypotheses. Current exact-norm coset decision-tree improvements do not give the unrestricted approximate-norm conclusion; no closure was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "7148b740ab895b9b7af2",
+      "statement_ids": [
+        "7148b740ab895b9b7af2"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4908,
+      "source_locator": {
+        "label": "Conjecture 6",
+        "printed_page": 112,
+        "held_pdf_page": 125,
+        "original_extraction_page": 467
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Large monochromatic rectangles for constant-cost XOR lifts",
+      "text": "For every C, does some c(C)>0 satisfy the following for every n and Boolean f:F₂^n→{0,1}? If F(x,y)=f(x+y) has public-coin communication cost at most C with pointwise error at most 1/3, then F has a monochromatic rectangle S×T with |S|,|T|≥c(C)2^n.",
+      "subject": "Theory of Computation",
+      "citation": "Source label recovered on held PDF: Conjecture 6.9; related narrower source question than Conjecture 1.3; printed p. 112 / PDF p. 125.",
+      "locator": {
+        "printed_page": 112,
+        "pdf_page": 125,
+        "verified_from": "physical held PDF conversion, printed footers"
+      },
+      "scope_review": "Read the actual source question, Chapters 1–2 definitions and Chapter 6 scope. Randomized protocols have worst-case error at most 1/3; constants are uniform across the family. Catalog-wide retrieval for source identity, sign-rank, RPDT, approximate algebra norm and monochromatic rectangles found no numbered equivalent.",
+      "duplicate_review": "No numbered source or mathematical equivalent located in the full 4825-question catalog; final cross-batch audit required.",
+      "duplicate_of": [],
+      "literature_finding": "The source states this specific XOR-lift case as Conjecture 6.9. Its conditional structure theorem and later general polylogarithmic-cost rectangle separation do not settle the constant-cost XOR case. No full resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "statement_id": "c5eee0dab6e23754dcb0",
+      "statement_ids": [
+        "c5eee0dab6e23754dcb0"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ],
+      "number": 4909,
+      "source_locator": {
+        "label": "Conjecture 6",
+        "printed_page": 112,
+        "held_pdf_page": 125,
+        "original_extraction_page": 467
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "6d2fa6c02e2c334b1231",
+      "statement_ids": [
+        "6d2fa6c02e2c334b1231"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "c107149a1852c7da4236",
+      "statement_ids": [
+        "c107149a1852c7da4236"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "428066e18415f7504bde",
+      "statement_ids": [
+        "428066e18415f7504bde"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "449cb40c427610dff7b6",
+      "statement_ids": [
+        "449cb40c427610dff7b6"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The source explicitly answers the constant-sign-rank versus trivial-discrepancy target affirmatively by Theorem 4.2; not a remaining open problem.",
+      "statement_id": "b73f3a7970c3154a513c",
+      "statement_ids": [
+        "b73f3a7970c3154a513c"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The source explicitly answers the constant-sign-rank versus trivial-discrepancy target affirmatively by Theorem 4.2; not a remaining open problem.",
+      "statement_id": "6bb23904341120327b77",
+      "statement_ids": [
+        "6bb23904341120327b77"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "ce66f3387e8acfd1f13c",
+      "statement_ids": [
+        "ce66f3387e8acfd1f13c"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "9aa44bdeae5d7bce8707",
+      "statement_ids": [
+        "9aa44bdeae5d7bce8707"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "dfb40aa8cca9a0c1eacc",
+      "statement_ids": [
+        "dfb40aa8cca9a0c1eacc"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "efcb20b736d20a1a323c",
+      "statement_ids": [
+        "efcb20b736d20a1a323c"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "45ad7c64d6247ba01561",
+      "statement_ids": [
+        "45ad7c64d6247ba01561"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "Question 3.17 is the older randomized parity depth versus logarithmic algebra-norm question answered negatively by this thesis’s Theorem 3.1: depth O(log n), log norm Ω(n).",
+      "statement_id": "c4ed94f4f6ed8a5b4382",
+      "statement_ids": [
+        "c4ed94f4f6ed8a5b4382"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "ebd3309849af0221800c",
+      "statement_ids": [
+        "ebd3309849af0221800c"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "5417fd150bf763732bca",
+      "statement_ids": [
+        "5417fd150bf763732bca"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "00043de1d554ccd7d765",
+      "statement_ids": [
+        "00043de1d554ccd7d765"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Point–Line randomized communication is Θ(log n), resolving Conjecture 6.4: ECCC TR26-049, April 7 2026. This is an actual primary reported closure, not merely no matching ledger entry.",
+      "primary_urls": [
+        "https://eccc.weizmann.ac.il/report/2026/049/"
+      ],
+      "statement_id": "92fddc2ccdae63a882ba",
+      "statement_ids": [
+        "92fddc2ccdae63a882ba"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Question 6.5’s existential tilde-Theta(N^-1/6) wording needs clarification against the already proved upper-bound construction and invariance of discrepancy/sign-rank under duplicate rows/columns. Do not substitute a universal optimal lower bound for the printed existential statement.",
+      "statement_id": "4de3a7165047f7bb4b32",
+      "statement_ids": [
+        "4de3a7165047f7bb4b32"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "d13dd6254e40f812ae44",
+      "statement_ids": [
+        "d13dd6254e40f812ae44"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Question 6.7 asks for an unspecified improved bound on a particular AND incidence construction. A target exponent cannot be invented; hold until the intended quantitative scope is clarified.",
+      "statement_id": "314b835d086632204077",
+      "statement_ids": [
+        "314b835d086632204077"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not an independently cleared additional target; references, summaries and incomplete requests remain available for review.",
+      "statement_id": "88c13ee5e73f6526f32a",
+      "statement_ids": [
+        "88c13ee5e73f6526f32a"
+      ],
+      "source_pdf_sha256": "87797a0b80005f346bec48d11210ebc99be31f18fe676a5099786ea237ed5d9f",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2506.12022",
+        "https://eccc.weizmann.ac.il/report/2026/049/",
+        "https://eccc.weizmann.ac.il/report/2026/190/",
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55",
+        "https://eccc.weizmann.ac.il/report/2022/041/download",
+        "https://www.sciencedirect.com/science/article/pii/S0890540126000143"
+      ],
+      "search_topics": [
+        "\"Ben Cheung\" communication complexity 2026",
+        "\"constant\" \"sign-rank\" \"discrepancy\" 2026",
+        "\"BPP\" \"monochromatic rectangle\" 2026",
+        "\"sign-rank\" \"conjunction\" 2026 constant",
+        "\"parity decision tree\" \"size\" \"randomized\" 2026",
+        "\"approximate algebra norm\" \"coset\" 2026",
+        "\"BPP0\" \"PEQ\" 2026",
+        "\"Cheung\" \"Hatami\" \"parity\" \"spectral\" 2026",
+        "\"Bounded-error\" \"unbounded-error\" \"constant\" communication 2026"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

@@ -1,0 +1,780 @@
+{
+  "schema": "statement-promotion-combined-audit-v1",
+  "checked_on": "2026-10-13",
+  "reviewer": "same retained agent /root/b14_local_optima",
+  "accepted_count": 25,
+  "blocking_issues": [],
+  "exact_duplicates_found": [],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "inputs": [
+    {
+      "path": "projects/thesis-catalog/research/statement-promotions-2026-10-13/main-review.json",
+      "sha256": "58a235bf34cb11e53bcd86a6ea4ffbf46a14c5cf7d529229cc0dcbb130a817fa"
+    },
+    {
+      "path": "projects/thesis-catalog/research/statement-promotions-2026-10-13/agent-geometry-review.json",
+      "sha256": "9924c5961774e8008d2e570d1b9be0919bbb643c75d0dfd40d4279a61e75f2d1"
+    },
+    {
+      "path": "projects/thesis-catalog/research/statement-promotions-2026-10-13/DUPLICATE-CANDIDATES.json",
+      "sha256": "f98c0831ba93fbf33c4dd466b4f0cfa8a908fc609f087a6f04cb3ac400299e0a"
+    }
+  ],
+  "catalog_checked": {
+    "path": "projects/thesis-catalog/data/doctoral-question-collections/questions.json",
+    "sha256": "32b48c1577f99f3ccc77b29ff0931c28f32b7fe6f32aa58abed0a524cda29152",
+    "numbered_count": 4800,
+    "candidate_ids_already_numbered": [],
+    "all_nearest_numbered_records_compared": true,
+    "extra_family_regex_retrieval": {
+      "cube": [
+        31,
+        32,
+        33,
+        341,
+        951,
+        1457,
+        2386,
+        2889,
+        3325,
+        3633,
+        4036,
+        4248,
+        4524,
+        4525
+      ],
+      "queen": [
+        1320,
+        1401,
+        1402,
+        1403,
+        1457,
+        3064,
+        3634,
+        3730,
+        4242,
+        4243
+      ],
+      "gossip": [],
+      "borel": [
+        129,
+        130,
+        198,
+        205,
+        1190,
+        1191,
+        1194,
+        1299,
+        2023,
+        2043,
+        2119,
+        2470,
+        2471,
+        2482,
+        3383,
+        4172,
+        4251,
+        4257
+      ],
+      "voronoi": [
+        3788,
+        3789
+      ],
+      "bp": [
+        371,
+        375,
+        536
+      ],
+      "tiling": [
+        1038,
+        3226
+      ]
+    },
+    "retrieval_limit": "Lexical retrieval over the entire catalog plus manual semantic comparison of retrieved neighbors and all proposed batch pairs; this is not a universal mathematical certificate excluding unknown differently phrased equivalences."
+  },
+  "repairs_completed": [
+    {
+      "statement_id": "2e8e3011824998a050d6",
+      "issue_and_fix": "Existence of an optimal greedy sequence was weaker than the successor conjecture covering every greedy sequence. The regenerated text now explicitly allows arbitrary tie choices and asks that every such sequence be optimal.",
+      "verified_in_regenerated_input": true,
+      "corrected_text": "Initially each of n people knows a distinct gossip item. In a conference call exactly k people all learn the union of the items they currently know. The score is the sum, over people, of the number of items known. For fixed integers 3≤k≤n and 0≤m below the minimum number of k-person calls required for everyone to know all n items, does every greedy m-call sequence attain the largest possible final score? A greedy sequence chooses at each step a call maximizing the immediate score increase, with arbitrary choices among ties."
+    },
+    {
+      "statement_id": "018ad66a3132424af90f",
+      "issue_and_fix": "The interaction-matrix definition must explicitly require symmetry and entrywise nonnegativity. The regenerated text includes both properties.",
+      "verified_in_regenerated_input": true,
+      "corrected_text": "For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏_{i=1}^d A_{c,τ_i}] and F_c(μ)=G_c(μ)/∑_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F. For a symmetric entrywise nonnegative interaction matrix A∈ℝ^(q×q) and integer d with F_prod=F_all, do there exist d fixed nonnegative external-field arrays λ^(i)∈ℝ^(d×q), independent of μ, such that F(μ)=F(⊗_{i=1}^d(λ^(i)⋆μ)_i) for every admissible μ? Here λ⋆μ(τ) is proportional to μ(τ)∏_j λ_{j,τ_j}, and (λ⋆μ)_i denotes its i-th marginal. The arrays must make these tilts and F well defined for the distributions to which the identity applies."
+    },
+    {
+      "statement_id": "3035f4f3a8c0e5600968",
+      "issue_and_fix": "The generic GL_r(A) phrase was ill-typed after defining Ar(A) for an additive group. The regenerated text now says GL₃(ℤ) acts on Ar(ℤ³) by transport of orders.",
+      "verified_in_regenerated_input": true,
+      "corrected_text": "Is the orbit equivalence relation E(GL₃(ℤ) acting on Ar(ℤ³)) treeable? Ar(A) is the standard Borel space of Archimedean translation-invariant total orders on the additive group A; GL₃(ℤ) acts on Ar(ℤ³) by transporting orders. Treeable means generated by a Borel acyclic graph."
+    }
+  ],
+  "independent_source_checks": [
+    {
+      "path": "projects/thesis-catalog/pdf/openai-math/kf0468ce92158.pdf",
+      "pdf_pages": [
+        102,
+        103,
+        104,
+        105,
+        126,
+        127,
+        28
+      ],
+      "sections": "Dominated comparison results, exact five Archimedean questions, Voronoi construction and three questions, connected-toast definition."
+    },
+    {
+      "path": "projects/thesis-catalog/pdf/openai-math/ka2e248d6bbf5.pdf",
+      "pdf_pages": [
+        11,
+        29,
+        30,
+        56,
+        57,
+        68,
+        69
+      ],
+      "sections": "Boolean singleton partition, cube-layer definition and exact-girth question, toroidal line-move definition, conference-gossip question."
+    },
+    {
+      "path": "projects/thesis-catalog/pdf/ka1c2faa6061b.pdf",
+      "pdf_pages": [
+        139,
+        141,
+        148,
+        163
+      ],
+      "sections": "Universal-fields identity and actual conditional/convexity questions."
+    },
+    {
+      "path": "projects/thesis-catalog/pdf/k3bcda46e10d3.pdf",
+      "pdf_pages": [
+        195,
+        196
+      ],
+      "sections": "Cycle swap definition, exact rectangular-box connectivity problem and stronger flip/trit question."
+    }
+  ],
+  "primary_source_passages_checked": [
+    "https://arxiv.org/html/2403.11326",
+    "https://arxiv.org/html/2502.11622v2",
+    "https://arxiv.org/html/2210.14300",
+    "https://arxiv.org/html/2411.06541v2",
+    "https://combinatorialpress.com/cn-articles/volume-238/greedy-gossiping/",
+    "https://arxiv.org/html/2404.18237v3",
+    "https://arxiv.org/html/2304.08468v3#S9"
+  ],
+  "geometry_source_and_status_review": "agent-geometry-review.json and agent-geometry-review.md, whose eight held source labels/locators and original/merged statement IDs were verified in AGENT-GEOMETRY-CHECK.json; the coordinating agent independently read those source pages and current counterparts before this combined clearance.",
+  "cross_batch_distinctions": [
+    {
+      "group": "Archimedean orders",
+      "statement_ids": [
+        "3035f4f3a8c0e5600968",
+        "bcd95a6bdf8ef3dc7944",
+        "6cf37b0d1166fa6e0bde",
+        "55cc41087953a7dc26fa",
+        "40821c857dc6b4fd8b77"
+      ],
+      "finding": "Related source questions, but distinct complete targets: rank-three treeability, rank-two localized module action, inter-rank comparison, comparison to a fixed vector action, and the degree of the source’s all-ranks ordered-group union."
+    },
+    {
+      "group": "Ideal Bernoulli Voronoi",
+      "statement_ids": [
+        "4602719f3492986e7418",
+        "57a40b10081f15103797",
+        "6f8d145d9b3db37f83f7"
+      ],
+      "finding": "Amenability, cell indistinguishability and uniqueness of the limiting law ask for different properties. Keep the metric and boundary refinement fixed, including the law of any auxiliary tie randomization. Do not promote the second general FIRE-limit question inside Question 6.6.4 as part of this entry."
+    },
+    {
+      "group": "Belief propagation",
+      "statement_ids": [
+        "018ad66a3132424af90f",
+        "088fb19120b77ab2a4b8"
+      ],
+      "finding": "The first asks a universal-field implication for arbitrary interaction matrices under image equality; the second asks that equality/convexity for a specified Potts family. Neither is the general reduction already refuted by the source."
+    },
+    {
+      "group": "Magnetic and general thermostat Green rigidity",
+      "statement_ids": [
+        "88176d58f467b45cc0d3",
+        "04e58f564122bc357125"
+      ],
+      "finding": "The magnetic question is a special case of one implication in the general equivalence. Different complete quantifiers and assertions justify retaining both labelled questions, with this relation disclosed; no mathematical independence claim."
+    },
+    {
+      "group": "Borel matching and coloring",
+      "statement_ids": [
+        "30cf9e17eb0a83754195",
+        "2dafb32ed848972d4548"
+      ],
+      "finding": "Everywhere matching with a connected-toast hypothesis and generic optimal edge coloring with a one-ended hypothesis are distinct full assertions. Matching and all color classes also impose different obligations."
+    },
+    {
+      "group": "Flat knots",
+      "statement_ids": [
+        "d8764a449871479c4188",
+        "713c5745eb8303fe7d40",
+        "5c348ce4adc4b7af5bb0"
+      ],
+      "finding": "Movie ribbonness of slice closed knots, realization of an arrow-polynomial image and commutativity of a long-knot concordance group differ from each other and from existing Q121–123 Jones–Krushkal questions."
+    }
+  ],
+  "status_scope": "Accepts carry the bounded, dated primary-source status evidence in their originating reviews. This audit does not convert lack of a search hit into certified openness. It clears the corrected 25 for parent intake; it does not assign numbers, certify novelty or publish anything.",
+  "records": [
+    {
+      "statement_id": "2435f4e16ef89050fd7b",
+      "title": "Three upward families: singleton-cell product bound",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2784,
+        2386,
+        2536,
+        4228,
+        1152,
+        2287,
+        4389,
+        2181
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "The singleton-cell product at equal densities is not Q2386’s third-order intersection inequality, nor Q2784’s percolation conditional-continuity question. The actual atom partition in the held PDF gives denominator 243, missing from the automatic snippet.",
+      "source_label": "Conjecture 1.1.8",
+      "standalone_text_reviewed": "Let A, B, C be upward-closed subsets of the Boolean lattice 2^[n], each of the same uniform density α. Put a=μ(A∩Bᶜ∩Cᶜ), b=μ(Aᶜ∩B∩Cᶜ), and c=μ(Aᶜ∩Bᶜ∩C), where μ is uniform probability. Is ab+ac+bc≤16/243 for every n and every such triple?"
+    },
+    {
+      "statement_id": "b7e50216d322809f2018",
+      "title": "Minimum cube dimension for non-layered graphs of large girth",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        3827,
+        3923,
+        3362,
+        3371,
+        3209,
+        3991,
+        3187,
+        2564
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Minimum hypercube embedding dimension for non-layered graphs of exactly prescribed girth is distinct from Q31–33 saturation, and from the unrelated generic asymptotic-growth retrievals. The held definition allows embedding in any cube edge layer; the asymptotic variable is even girth.",
+      "source_label": "Question 3.1.4",
+      "standalone_text_reviewed": "For even g≥6, let N(g) be the least n such that the n-dimensional hypercube graph Q_n has a subgraph of girth exactly g that is not isomorphic to a subgraph of any edge layer of any hypercube. An edge layer consists of vertices of Hamming weights k−1 and k with all cube edges between them. Determine the asymptotic growth of N(g) as g→∞ through even integers."
+    },
+    {
+      "statement_id": "9dcc057bdd0c4b146233",
+      "title": "Almost maximum independent sets of toroidal queens",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2867,
+        2190,
+        1956,
+        2958,
+        3311,
+        3327,
+        3690,
+        3478
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "This asks for an almost maximum independent set of toroidal line-move queens with no prime-factor restriction. Q4242–4243 concern Snort/almost-opposability on finite two-dimensional queen graphs; Q3064 concerns word representation of toroidal grids. The June 2026 v3 still explicitly states Conjecture 2 and only proves a restricted arithmetic case.",
+      "source_label": "Conjecture 6.2.3",
+      "standalone_text_reviewed": "For each fixed integer d≥3, does there exist C_d such that, for all sufficiently large positive integers n, at least n^(d−1)−C_d n^(d−2) pairwise nonattacking queens can be placed on (ℤ/nℤ)^d? Distinct positions attack exactly when their difference equals λe for a nonzero e∈{−1,0,1}^d and a nonzero λ∈ℤ/nℤ. There is no restriction on the prime factors of n."
+    },
+    {
+      "statement_id": "2e8e3011824998a050d6",
+      "title": "Greedy conference gossiping below full dissemination",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2766,
+        2862,
+        4389,
+        1394,
+        1187,
+        4513,
+        964,
+        1499
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "No gossip/conference-call question occurs in the numbered catalog. Pairwise gossiping and the forest-range result are known subcases. The repaired text retains every greedy tie choice, rather than merely existence of one globally optimal greedy sequence.",
+      "source_label": "Question 7.3.1",
+      "standalone_text_reviewed": "Initially each of n people knows a distinct gossip item. In a conference call exactly k people all learn the union of the items they currently know. The score is the sum, over people, of the number of items known. For fixed integers 3≤k≤n and 0≤m below the minimum number of k-person calls required for everyone to know all n items, does every greedy m-call sequence attain the largest possible final score? A greedy sequence chooses at each step a call maximizing the immediate score increase, with arbitrary choices among ties."
+    },
+    {
+      "statement_id": "30cf9e17eb0a83754195",
+      "title": "Everywhere Borel matching from a connected toast",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        4524,
+        4575,
+        3783,
+        3047,
+        2776,
+        939,
+        164,
+        1152
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "An everywhere Borel perfect matching under a connected-toast hypothesis is different from finite matching algorithms and generic/measurable results. Its neighboring proposed one-ended edge-coloring problem has a different hypothesis and a comeagre-set conclusion. The held Definition 3.2.2 matches the expanded toast conditions.",
+      "source_label": "Question 3.1.6",
+      "standalone_text_reviewed": "Does every d-regular bipartite Borel graph, for finite d≥1, that admits a connected toast have a Borel perfect matching on its entire vertex set? A connected toast is a Borel family T of finite vertex sets with ∪_{K∈T}E(K)=E(G); for distinct K,L∈T, either B₁(K)∩L=∅, B₁(K)⊆L, or B₁(L)⊆K; and each induced graph on K minus the union of the proper T-subsets of K is connected. Here B₁(K) is the closed graph neighborhood (Definition 3.2.2)."
+    },
+    {
+      "statement_id": "2dafb32ed848972d4548",
+      "title": "Generic optimal edge coloring of one-ended Borel graphs",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        3383,
+        2640,
+        4253,
+        2221,
+        1898,
+        4620,
+        4252,
+        4013
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Q3383 asks for d+1 colors in arbitrary bounded-degree Borel graphs, whereas this target asks for d colors in regular bipartite one-ended graphs. Q4253 uses measure and an independent maximum-degree vertex set, not the one-ended/comeagre hypotheses. These are different complete assertions.",
+      "source_label": "Question 3.1.7",
+      "standalone_text_reviewed": "For a d-regular bipartite one-ended Borel graph G on a Polish space X, with finite d≥1, is there a G-invariant comeagre Borel set Y⊆X such that G restricted to Y has a Borel proper edge coloring using d colors? One-ended means that each connected component has exactly one end."
+    },
+    {
+      "statement_id": "3035f4f3a8c0e5600968",
+      "title": "Treeability of Archimedean orders on ℤ³",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2471,
+        2474,
+        4367,
+        1590,
+        4620,
+        1591,
+        1179,
+        2368
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Treeability of the single rank-three Archimedean-order orbit relation is not hyperfiniteness of amenable actions (Q2471), universality of transformation isomorphism (Q4367), or compact graphability (Q4620). The GL₃ action definition has been repaired; no ill-typed GL_r(A) notation remains.",
+      "source_label": "Question 5.3.2",
+      "standalone_text_reviewed": "Is the orbit equivalence relation E(GL₃(ℤ) acting on Ar(ℤ³)) treeable? Ar(A) is the standard Borel space of Archimedean translation-invariant total orders on the additive group A; GL₃(ℤ) acts on Ar(ℤ³) by transporting orders. Treeable means generated by a Borel acyclic graph."
+    },
+    {
+      "statement_id": "bcd95a6bdf8ef3dc7944",
+      "title": "Borel complexity of Archimedean orders over ℤ[1/n]",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2471,
+        4367,
+        2368,
+        2766,
+        2022,
+        3384,
+        2474,
+        1817
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "The rank-two module ℤ[1/n]² has a different automorphism group from ℤ², ℤ³ or the all-finite-ranks disjoint union. Even though the order spaces have identifications, those do not identify their acting groups or isomorphism relations. Additive automorphisms of this uniquely n-divisible group commute with multiplication by 1/n, so the expanded GL₂(ℤ[1/n]) notation is sound.",
+      "source_label": "Question 5.3.4",
+      "standalone_text_reviewed": "For integers n≥2, determine the Borel complexity of the isomorphism relation of Archimedean orders on the additive group ℤ[1/n]², equivalently the orbit equivalence relation of GL₂(ℤ[1/n]) acting on Ar(ℤ[1/n]²). Here ℤ[1/n]={a/n^j:a∈ℤ,j≥0}, and orders are identified when a group automorphism transports one to the other."
+    },
+    {
+      "statement_id": "6cf37b0d1166fa6e0bde",
+      "title": "Borel reducibility between ranks of Archimedean orders",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2166,
+        2167,
+        2408,
+        2012,
+        3311,
+        3327,
+        3690,
+        2471
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "This is an inter-rank Borel reduction comparison, in both directions specified by the source. It is not the fixed rank-three vector-action comparison, single-rank treeability, or the classification of the degree of the entire disjoint union. Generic graph-coloring and rank algebra retrievals are lexical false neighbors.",
+      "source_label": "Question 5.3.5",
+      "standalone_text_reviewed": "Let E_r be the orbit equivalence relation of GL_r(ℤ) on Ar(ℤ^r), the space of Archimedean orders on the additive group ℤ^r. Determine the Borel reducibility relations between these ranks: for sufficiently large integers n<m, can E_m≤_B E_n hold, and does E_n≤_B E_m always hold? A Borel reduction f must satisfy x E y if and only if f(x) F f(y)."
+    },
+    {
+      "statement_id": "4602719f3492986e7418",
+      "title": "Amenability of ideal Bernoulli Voronoi tessellations",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2248,
+        3983,
+        3279,
+        2471,
+        3825,
+        1987,
+        3290,
+        4085
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Amenability of each low-intensity Bernoulli Voronoi limit is distinct from its uniqueness and from indistinguishability of its cells. Q3279 asks for computable presentations/actions; Q2471 is the Borel hyperfiniteness question for amenable acting groups. The general FIRE limit counterexample is not a counterexample to the special Voronoi construction.",
+      "source_label": "Question 6.6.2",
+      "standalone_text_reviewed": "Fix a countable nonamenable group Γ, a left-invariant proper metric, and a fixed measurable equivariant rule assigning nearest-center ties. Independently retain each group element as a center with probability p and partition Γ into its Voronoi cells. An ideal Bernoulli Voronoi tessellation is any subsequential weak limit, as p↓0, of the resulting invariant random equivalence relations. Must every such limit be amenable as an invariant random equivalence relation (in the source’s Definition 3.7 sense)? The unresolved target includes nonexact groups; exact groups have an affirmative answer."
+    },
+    {
+      "statement_id": "57a40b10081f15103797",
+      "title": "Indistinguishability of ideal Bernoulli Voronoi cells",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2248,
+        1888,
+        2895,
+        3441,
+        3983,
+        4650,
+        3296,
+        3974
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Cell indistinguishability is different from amenability and convergence/uniqueness of the limit law. Q3788–3789 concern percolation critical exponents and uniqueness thresholds, not cell selection in an ideal Bernoulli partition. Only the first of the source’s two questions is promoted; general criteria for FIRE-limit indistinguishability remain outside this record.",
+      "source_label": "Question 6.6.4",
+      "standalone_text_reviewed": "Fix a countable nonamenable group Γ, a left-invariant proper metric, and a fixed measurable equivariant rule assigning nearest-center ties. Independently retain each group element as a center with probability p and partition Γ into its Voronoi cells. An ideal Bernoulli Voronoi tessellation is any subsequential weak limit, as p↓0, of the resulting invariant random equivalence relations. Must every such limit have indistinguishable cells? Indistinguishability means that every measurable Γ-equivariant cell selection rule is almost surely trivial (it selects all cells or no cells)."
+    },
+    {
+      "statement_id": "018ad66a3132424af90f",
+      "title": "Does a convex belief-propagation image imply universal fields?",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        730,
+        3741,
+        4000,
+        1293,
+        1472,
+        1691,
+        1813,
+        2899
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "The implication from equality of the two belief-propagation images to fixed universal tilting fields is distinct from convexity for one family of Potts matrices. Q371 is an extremal free-energy question for spin systems, and Q730 concerns aggregation of coupling distributions. Symmetry and nonnegativity have been made explicit. The unrestricted reduction counterexample does not have the image-equality hypothesis.",
+      "source_label": "Question 3.9.17",
+      "standalone_text_reviewed": "For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏_{i=1}^d A_{c,τ_i}] and F_c(μ)=G_c(μ)/∑_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F. For a symmetric entrywise nonnegative interaction matrix A∈ℝ^(q×q) and integer d with F_prod=F_all, do there exist d fixed nonnegative external-field arrays λ^(i)∈ℝ^(d×q), independent of μ, such that F(μ)=F(⊗_{i=1}^d(λ^(i)⋆μ)_i) for every admissible μ? Here λ⋆μ(τ) is proportional to μ(τ)∏_j λ_{j,τ_j}, and (λ⋆μ)_i denotes its i-th marginal. The arrays must make these tilts and F well defined for the distributions to which the identity applies."
+    },
+    {
+      "statement_id": "088fb19120b77ab2a4b8",
+      "title": "Convex image of product measures for antiferromagnetic Potts",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        3309,
+        2766,
+        4228,
+        1455,
+        919,
+        1093,
+        69,
+        2761
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Convexity of the entire product image for antiferromagnetic Potts in the specified parameter range differs from the conditional universal-fields question. A convex-bulk theorem with additional tail conditions does not identify the full image. It also differs from Q371’s asymptotic free-energy optimization.",
+      "source_label": "Question 3.9.18",
+      "standalone_text_reviewed": "Fix integers q≥3 and d≥2 and max{0,1−q/(d+1)}≤β≤1. For the antiferromagnetic Potts matrix A=11ᵀ−(1−β)I_q, is the image of product distributions on [q]^d under belief propagation F a convex subset of the probability simplex? For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏_{i=1}^d A_{c,τ_i}] and F_c(μ)=G_c(μ)/∑_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F."
+    },
+    {
+      "statement_id": "eda23b422b81a98aa002",
+      "title": "Uniformly bounded cycle swaps connecting all 3D box tilings",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        3585,
+        3594,
+        1162,
+        3065,
+        2560,
+        4109,
+        1158,
+        1159
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Uniform bounded-length alternating-cycle connectivity of all rectangular 3D boxes differs from Q3065’s ordered matching realizability/switch relation, from finite matching packing, and from Q41’s infinite-volume Gibbs uniqueness. The source’s stronger flip/trit subquestion is identified as stronger; arbitrary simply connected regions are outside the box target.",
+      "source_label": "Problem 2.9.1",
+      "standalone_text_reviewed": "Does there exist a universal finite integer K such that, for every j×m×n rectangular grid box with positive integer side lengths and jmn even, any two perfect matchings can be connected by swaps on alternating cycles of length at most K? The grid joins nearest neighbors. An alternating-cycle swap exchanges matching and nonmatching edges along that cycle. The source also asks the stronger version using only flips and trits (the specified 4-edge square and 6-edge cube moves)."
+    },
+    {
+      "statement_id": "55cc41087953a7dc26fa",
+      "title": "Reducing Archimedean-order isomorphism to a rank-three linear action",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2471,
+        2166,
+        2167,
+        2474,
+        4367,
+        2408,
+        3384,
+        1590
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Both held Question 5.3.1 and current paper Question 3.1 literally have the fixed target E(GL₃(ℤ) acting on ℝ³). Keeping n as the source-rank parameter and asking which n admit a reduction is a faithful precise parameterized reading. Do not change that target to GL_n(ℤ) on ℝⁿ, to the GL_n(ℝ) phrase in the preceding discussion, or to orders Ar(ℤ³).",
+      "source_label": "Question 5.3.1",
+      "standalone_text_reviewed": "For which integer ranks n≥2 does the orbit equivalence relation of GL_n(ℤ) acting on Ar(ℤ^n) Borel reduce to the orbit equivalence relation of GL₃(ℤ) acting by matrix multiplication on ℝ³? Ar(ℤ^n) is the standard Borel space of Archimedean translation-invariant total orders on ℤ^n. A Borel reduction f must satisfy x E y if and only if f(x) F f(y). The target is the action on ℝ³, not on Ar(ℤ³)."
+    },
+    {
+      "statement_id": "40821c857dc6b4fd8b77",
+      "title": "Borel degree of isomorphism across all finitely generated Archimedean orders",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2471,
+        4066,
+        2368,
+        3384,
+        2410,
+        2411,
+        2474,
+        2022
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "The source’s displayed disjoint union of Ar(ℤⁿ), n≥2, fixes ordered-group isomorphism as the equivalence relation. Bare finitely generated Archimedean-orderable groups would be classified by rank and would not be this question. Different ranks are inequivalent; within each rank the automorphism action transports orders. Its union degree is not identical to the pairwise rank comparison or a single-rank treeability question.",
+      "source_label": "Question 5.3.3",
+      "standalone_text_reviewed": "Determine the Borel complexity of the equivalence relation E on the disjoint union ⨆_{n≥2} Ar(ℤ^n) that identifies two Archimedean ordered groups exactly when they are isomorphic as ordered groups. Within a rank n, equivalence is the orbit relation of GL_n(ℤ) acting by transport of orders; distinct ranks are inequivalent. The classification target is the Borel reducibility degree of this countable union, including how it compares to the individual rank relations."
+    },
+    {
+      "statement_id": "6f8d145d9b3db37f83f7",
+      "title": "Uniqueness of the low-intensity Bernoulli Voronoi limit",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2248,
+        3983,
+        3825,
+        1987,
+        1288,
+        1915,
+        4228,
+        1817
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "The held construction and current §6 fix the metric and boundary refinement before considering BVT_p. The text correctly compares subsequences p↓0 for that fixed construction and asks uniqueness of the distribution on equivalence relations. It does not assert invariance under changing the metric or tie rule, and it does not confuse uniqueness with cell indistinguishability or amenability.",
+      "source_label": "Question 6.6.3",
+      "standalone_text_reviewed": "Fix a countable nonamenable group Γ, a left-invariant proper metric, and a fixed measurable equivariant rule assigning nearest-center ties. Independently retain each group element as a center with probability p and partition Γ into its Voronoi cells. An ideal Bernoulli Voronoi tessellation is any subsequential weak limit, as p↓0, of the resulting invariant random equivalence relations. Determine for which groups and fixed metric/tie-rule choices this weak limit is unique, meaning that all subsequences p_j↓0 with a weak limit yield the same distribution on equivalence relations. The metric and tie rule are held fixed when comparing subsequences."
+    },
+    {
+      "statement_id": "d8764a449871479c4188",
+      "title": "Slice-ribbon question for flat knots",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        1727,
+        121,
+        2923,
+        4565,
+        2432,
+        4357,
+        4437,
+        2427
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "The flat-knot slice-ribbon question is distinct from Q121’s almost-classical Jones–Krushkal evaluation, and from classical knots/slice disks in fixed smooth 4-manifolds. The source’s strong-ribbon counterexample does not settle Chen’s movie-ribbon question. A corpus lead-in to the same question was already merged.",
+      "source_label": "Problem 2.35",
+      "standalone_text_reviewed": "Is every oriented flat knot that is slice also ribbon? Slice means it bounds a properly immersed disk in a compact oriented 3-manifold whose boundary is the supporting oriented surface, equivalently it admits a connected genus-zero slice movie. Ribbon here means a slice movie with flat Reidemeister moves, saddles and deaths and no births, as in Chen’s Definition 2.34; it does not mean Turaev’s stronger symmetric-Gauss-diagram condition."
+    },
+    {
+      "statement_id": "713c5745eb8303fe7d40",
+      "title": "Realization of normalized flat arrow polynomials",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2690,
+        4360,
+        168,
+        3056,
+        121,
+        349,
+        122,
+        2980
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "This realizes the normalized flat arrow invariant in the multivariate K_i ring. Q122 asks categorification, and Q123 realizes the different Jones–Krushkal invariants. Sharing the flat-knot domain does not identify the invariant or requested image. The one-component and normalization clauses are retained.",
+      "source_label": "Problem 4.20",
+      "standalone_text_reviewed": "Which finite polynomials f∈Z[K₁,K₂,…] occur as the normalized flat arrow polynomial Ā(α) of an oriented flat knot α? For an n-crossing diagram D of α, Ā(α)=(−1)^nΣ_S(−2)^{|S|−1}∏_i K_{j_i}: S runs through its oriented/disoriented smoothing states, |S| is the number of state components, and the i-th component has 2j_i cusps after the flat-arrow cusp reductions (K₀=1)."
+    },
+    {
+      "statement_id": "5c348ce4adc4b7af5bb0",
+      "title": "Commutativity of the long flat-knot concordance group",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        121,
+        4360,
+        3629,
+        3210,
+        4564,
+        122,
+        1334,
+        2427
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Commutativity of the long-flat-knot concordance group is not a sliceness, classical concordance, or polynomial-realization question. Long knots and concatenation are essential. The source’s repeated summary occurrence is merged, not counted as a second proposed entry.",
+      "source_label": "Problem 6.15",
+      "standalone_text_reviewed": "Is the concordance group FC of oriented long flat knots abelian? Its multiplication is concatenation α#β. A long flat knot is slice when its closure is slice, and α is concordant to β when the closure of (−α*)#β is slice, where − reverses the interval orientation and * reverses the supporting surface orientation. Equivalently, are α#β and β#α concordant for every pair of oriented long flat knots?"
+    },
+    {
+      "statement_id": "8a4b00b0d33e590c2b95",
+      "title": "Large-coupling entropy-production ratio for harmonic Gaussian thermostats",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2921,
+        2923,
+        1522,
+        1123,
+        4200,
+        3964,
+        4437,
+        3730
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "This concerns the large-parameter ratio of phase-space entropy production and SRB metric entropy for a specified harmonic Gaussian family. The geometry/negative-curvature surface neighbors do not contain that quantitative target. Its bounded current-status evidence remains explicitly weaker than the questions reaffirmed in successor papers.",
+      "source_label": "Question 2.3.11",
+      "standalone_text_reviewed": "Let (M,g) be a closed connected oriented surface of genus at least two with strictly negative Gaussian curvature, and let θ be a fixed nonzero harmonic real 1-form. Put λ(x,v)=θ_x(v), and let φ_t^τ be the Anosov flow generated by F_τ=X+τλV on SM for τ>0. For its unique SRB probability measure μ_τ, define e_τ=−∫_{SM}V(τλ)dμ_τ and h_τ=h_{μ_τ}(φ_1^τ), the metric entropy of the time-one map. Is e_τ/h_τ→+∞ as τ→+∞?"
+    },
+    {
+      "statement_id": "1cdb6787430f5054e56d",
+      "title": "Conjugate points in projectively Anosov thermostats",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        3036,
+        1825,
+        4640,
+        4048,
+        2320,
+        2540,
+        4476,
+        1152
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "Existence of conjugate points in a dominated thermostat is not Q3036’s topological orbit equivalence of homotopic general Anosov flows. The universal D⊆B sibling is the same assertion in negated existence form and was merged. The genus restriction in the separate non-Anosov thermostat question prevents identifying the two full targets.",
+      "source_label": "Question 5.1.14",
+      "standalone_text_reviewed": "Do there exist a smooth closed connected oriented Riemannian surface (M,g) and λ∈C∞(SM,R) such that the thermostat flow F=X+λV is projectively Anosov (its normal derivative has a dominated splitting into two invariant line bundles) but has a conjugate point, meaning that some thermostat exponential map exp_x^λ(tv)=πφ_t(x,v) is singular at a nonzero tangent vector?"
+    },
+    {
+      "statement_id": "1c09853a968a5bc66504",
+      "title": "Non-Anosov projectively Anosov thermostats in genus at least two",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2921,
+        1522,
+        3036,
+        2923,
+        4640,
+        4048,
+        1152,
+        2430
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "This asks for a non-Anosov dominated thermostat in genus at least two. It is not Q3036, and torus examples do not satisfy its genus hypothesis. Conjugate-point existence and Green curvature rigidity are different complete targets, even though some solution routes might relate them.",
+      "source_label": "Question 5.1.16",
+      "standalone_text_reviewed": "Do there exist a smooth closed connected oriented Riemannian surface (M,g) of genus at least two and λ∈C∞(SM,R) for which the thermostat flow F=X+λV is projectively Anosov (its normal derivative has a dominated splitting into two invariant line bundles), but is not Anosov (it has no uniformly contracting and expanding strong stable/unstable splitting)?"
+    },
+    {
+      "statement_id": "88176d58f467b45cc0d3",
+      "title": "Curvature rigidity from everywhere-collapsed magnetic Green bundles",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2994,
+        1716,
+        1215,
+        2092,
+        3287,
+        1152,
+        1226,
+        3812
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "No numbered Green-bundle rigidity duplicate was located. This is the magnetic specialization of one direction of Question 5.1.18, not the same complete statement. Equality is everywhere, with neither a curvature-sign nor a no-focal-points assumption. The source’s cotangent-line convention is retained.",
+      "source_label": "Question 5.1.17",
+      "standalone_text_reviewed": "Let (M,g) be a smooth closed connected oriented Riemannian surface, λ∈C∞(SM,R) satisfy Vλ=0, and φ_t be the magnetic thermostat flow F=X+λV without conjugate points. Put H=[V,X] and κ₀=K_g∘π−Hλ+λ². Must κ₀ vanish identically if its cotangent stable and unstable Green lines G_s*(v) and G_u*(v) agree for every v∈SM? Here G_s*(v)=lim_{t→∞}(d_vφ_t)^*Rβ(φ_t(v)) and G_u*(v)=lim_{t→∞}(d_vφ_{−t})^*Rβ(φ_{−t}(v)), with β dual to H in (X,H,V)."
+    },
+    {
+      "statement_id": "04e58f564122bc357125",
+      "title": "Everywhere Green-bundle collapse and damped thermostat curvature",
+      "decision": "accept",
+      "number_assignment": null,
+      "exact_numbered_duplicates": [],
+      "cross_batch_exact_duplicates": [],
+      "checked_numbered_neighbors": [
+        2994,
+        1716,
+        1215,
+        2092,
+        3287,
+        1825,
+        1998,
+        1152
+      ],
+      "corpus_same_source_label_or_text": [],
+      "distinction_and_scope": "This equivalence for arbitrary smooth thermostats and damped curvature is stronger in scope than the separate one-way magnetic rigidity question. The no-conjugate-points clause spells out the domain of Green lines. A sign-restricted almost-everywhere theorem does not imply the everywhere target; neither question is Q3036.",
+      "source_label": "Question 5.1.18",
+      "standalone_text_reviewed": "For a smooth thermostat F=X+λV on the unit tangent bundle of a closed connected oriented Riemannian surface, put H=[V,X] and κ̃=K_g∘π−Hλ+λ²+F(Vλ)/2−(Vλ)²/4. Is κ̃≡0 equivalent to the thermostat having no conjugate points and G_s*(v)=G_u*(v) for every v∈SM? The cotangent Green lines are G_s*(v)=lim_{t→∞}(d_vφ_t)^*Rβ(φ_t(v)) and G_u*(v)=lim_{t→∞}(d_vφ_{−t})^*Rβ(φ_{−t}(v)), where β is dual to H in (X,H,V)."
+    }
+  ]
+}

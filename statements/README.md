@@ -37,22 +37,22 @@ Conjectures, open problems and "remains open" sentences extracted automatically 
 | Linguistics | [Syntax](linguistics/syntax.md) | 157 | 60 |
 | Mathematics | [Algebra & Representation Theory](mathematics/algebra-representation-theory.md) | 290 | 68 |
 | Mathematics | [Algebraic Geometry](mathematics/algebraic-geometry.md) | 76 | 22 |
-| Mathematics | [Analysis](mathematics/analysis.md) | 74 | 22 |
-| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 546 | 71 |
+| Mathematics | [Analysis](mathematics/analysis.md) | 71 | 22 |
+| Mathematics | [Combinatorics & Graph Theory](mathematics/combinatorics-graph-theory.md) | 537 | 71 |
 | Mathematics | [Differential Equations & Dynamical Systems](mathematics/differential-equations-dynamical-systems.md) | 39 | 9 |
 | Mathematics | [Functional Analysis & Operator Theory](mathematics/functional-analysis-operator-theory.md) | 2 | 2 |
-| Mathematics | [Geometry & Differential Geometry](mathematics/geometry-differential-geometry.md) | 379 | 92 |
+| Mathematics | [Geometry & Differential Geometry](mathematics/geometry-differential-geometry.md) | 369 | 92 |
 | Mathematics | [Linear Algebra & Matrix Theory](mathematics/linear-algebra-matrix-theory.md) | 1 | 1 |
-| Mathematics | [Logic, Foundations & Set Theory](mathematics/logic-foundations-set-theory.md) | 132 | 12 |
+| Mathematics | [Logic, Foundations & Set Theory](mathematics/logic-foundations-set-theory.md) | 114 | 12 |
 | Mathematics | [Mathematical Biology & Epidemic Modeling](mathematics/mathematical-biology-epidemic-modeling.md) | 104 | 35 |
 | Mathematics | [Mathematical Physics](mathematics/mathematical-physics.md) | 176 | 31 |
 | Mathematics | [Mathematical Statistics](mathematics/mathematical-statistics.md) | 65 | 24 |
-| Mathematics | [Named researchers in OpenAI math](mathematics/named-researchers-in-openai-math-part-1.md) (parts [1](mathematics/named-researchers-in-openai-math-part-1.md), [2](mathematics/named-researchers-in-openai-math-part-2.md), [3](mathematics/named-researchers-in-openai-math-part-3.md), [4](mathematics/named-researchers-in-openai-math-part-4.md), [5](mathematics/named-researchers-in-openai-math-part-5.md)) | 4078 | 579 |
+| Mathematics | [Named researchers in OpenAI math](mathematics/named-researchers-in-openai-math-part-1.md) (parts [1](mathematics/named-researchers-in-openai-math-part-1.md), [2](mathematics/named-researchers-in-openai-math-part-2.md), [3](mathematics/named-researchers-in-openai-math-part-3.md), [4](mathematics/named-researchers-in-openai-math-part-4.md)) | 3703 | 578 |
 | Mathematics | [Number Theory](mathematics/number-theory.md) | 309 | 64 |
 | Mathematics | [Numerical Analysis & Scientific Computing](mathematics/numerical-analysis-scientific-computing.md) | 104 | 34 |
 | Mathematics | [Optimization & Operations Research](mathematics/optimization-operations-research.md) | 199 | 52 |
-| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 328 | 34 |
-| Mathematics | [Topology](mathematics/topology.md) | 247 | 49 |
+| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 301 | 34 |
+| Mathematics | [Topology](mathematics/topology.md) | 244 | 49 |
 | Operations Research & Decision Sciences | [Queueing, Scheduling & Simulation](operations-research-decision-sciences/queueing-scheduling-simulation.md) | 178 | 17 |
 | Statistics & Data Science | [Bayesian Inference](statistics-data-science/bayesian-inference.md) | 52 | 28 |
 | Statistics & Data Science | [Computational Statistics: Resampling, EM, Mixtures & MCMC](statistics-data-science/computational-statistics-resampling-em-mixtures-mcmc.md) | 25 | 10 |

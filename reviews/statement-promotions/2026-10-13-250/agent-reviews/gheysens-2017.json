@@ -1,0 +1,806 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102744007",
+  "source_metadata": {
+    "author": "Maxime Gheysens",
+    "title": "Representing groups against all odds",
+    "year": "2017",
+    "thesis_key": "Q102744007",
+    "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+    "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+  },
+  "source_review_notes": [
+    "Readactualheldsourcecontexts/definitionsatphysicalpageslisted. Problemsnotreviewableasstandaloneheldexplicitly. No newIDinventedformissingProblem6. Homogenizationmathematicalobstructionpersistedforcoordinatorcheck. Exactsubject,citationandbibliographicmetadatarequiredfornewacceptances."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Gheysens Krein slightly continuous affine compactness"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "L-embedded uniformly bounded affine fixed point 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "unitarizable Kazhdan locally compact 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "unitarizable closed subgroups locally compact 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "nonamenable measure equivalence class torsion free subgroup"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Krein locally convex weak topology counterexample"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Gheysens Monod Dixmier 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+      "finding": "Primaryheld2017thesisactualdefinitionsandProblem1/2/3/11/12/13read; fullsourcefingerprintinpacket."
+    },
+    {
+      "url": "https://numdam.org/item/10.24033/asens.2317.pdf",
+      "finding": "Gheysens–Monod 2017 published primary Theorem A characterizes amenability via affine Hilbert fixed points with a bounded orbit. Question 36, printed p.152 / physical PDF p.24, asks passage of unitarizability to closed subgroups. Question 37, printed p.153 / physical PDF p.25, asks the discrete noncommutative free-subgroup obstruction. Both exact questions were read independently by the successor and coordinator; small-cap extraction obscures a literal text search."
+    },
+    {
+      "url": "https://sites.google.com/view/monod/problems",
+      "finding": "Primaryauthorproblempageexplicitlyupdatedearly2026; warningstateslaterdevelopmentsdiscussedseparately. Its DixmieropenstatementpredatesSeptember2026closureclaimsandcannotalonecertifycurrentstatus."
+    },
+    {
+      "url": "https://arxiv.org/abs/1509.01723",
+      "finding": "Bowen–Hoff–IoanaprimariesprovefreeF2subrelationONLYAFTERBernoulliextensionofnonamenableergodicpmprelation. Sourceunqualifiedextractedrelationproseheldatpmp/nonsingularscopegate; notsilentlyrestricted."
+    },
+    {
+      "url": "https://arxiv.org/abs/0711.1643",
+      "finding": "Gaboriau–LyonsoriginalBernoulliactionmeasurablesubgroupresultdoesnotidentifyameasure-equivalentgroupcontainingF2. Tychomorphism/measurableembeddingisnotgroupmeasure-equivalenceofwholecoupling."
+    },
+    {
+      "url": "https://arxiv.org/abs/1903.12123",
+      "finding": "2020Wiśnickinonexpansive,norm-distalfixedpointtheoremextendsisometricL-embeddedcase, notarbitraryuniformlyboundedaffineaction. Nonexpansivityisadditionalgeometricassumption."
+    },
+    {
+      "url": "https://www.monod.site/research",
+      "finding": "CurrentprimaryresearchoverviewL1isometricderivationtheorem,topologicalgroupwork; notfulluniformlyboundedLembeddedorKreintopologyclosure."
+    },
+    {
+      "url": "https://github.com/openai/math",
+      "finding": "CurrentSeptember2026primaryrepositoryDixmierall-discreteclosureleadlocatedthroughsearch; noindependentproofaudit. GenericDixmierfullLCtargetheldfornewclaimscope+baselineQ1341comparison, nottreatedasclosedallLC."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q102744007.pdf",
+    "sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+    "physical_pages": 209
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "d5673a534ac410937ec2288757370006e719e51989ec52872851b38ce6aa0f15",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Measure-equivalence classes avoiding free subgroups",
+      "text": "Does there exist a countable discrete nonamenable group Γ such that no countable group measure-equivalent to Γ contains a subgroup isomorphic to the nonabelian free group F₂? More strongly, can Γ be chosen torsion so that every countable group measure-equivalent to Γ is torsion? Two countable groups are measure-equivalent if they admit commuting, essentially free, measure-preserving actions on a nonzero standard σ-finite measure space, each action having a measurable fundamental domain of finite positive measure. A group is torsion if every element has finite order; nonamenable means it has no left-invariant mean on bounded functions.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 45,
+        "printed_page": "33",
+        "label": "Problem1"
+      },
+      "scope_review": "SourceexplicitdiscreteMEscopephys43–45andChapter2 coupling. Strongtorsionclausekeptinsameproblem,notcountedseparately. NochangeMEtoone-sidedmeasureembeddingororbit-subrelation.",
+      "literature_finding": "Gaboriau–Lyons and Bowen–Hoff–Ioana provide measurable embeddings or free orbit relations after an extension. These results do not produce a measure-equivalent whole group containing a free subgroup. No resolution of the entire measure-equivalence-class avoidance question was located in the dated primary scan.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared; noexacttargetfound. RepeatedsourceIDsmerge. Retrieval scores are not uniqueness certificates. Q2471asksBorelamenableorbithyperfiniteness,Q4810/11/17idealBernoulliVoronoicells,Q2323finitelypresentedinfiniterorsionexistence,Q3241paradoxicaltowersimplyF2. None asksentireMEclassavoidingF2ortorsion-onlyMEclass.",
+      "statement_id": "5824b91fc0054f3c4184",
+      "statement_ids": [
+        "5824b91fc0054f3c4184"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Problem1, printed p. 33; physical PDF p. 45.",
+      "number": 5003,
+      "source_locator": {
+        "label": "Problem 1",
+        "printed_page": "33",
+        "held_pdf_page": 45,
+        "original_extraction_page": 47
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Compactness from affine fixed points on Krein spaces",
+      "text": "Let G be a Hausdorff topological group. Suppose every action of G by continuous affine automorphisms on any Hausdorff locally convex space E has a common fixed point whenever E has the Krein property and at least one orbit map g↦g·x is continuous. Must G be compact? The Krein property means that the closed convex hull of every compact subset of E is compact. No joint continuity of the action is required.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 117,
+        "printed_page": "105",
+        "label": "Problem2"
+      },
+      "scope_review": "Actualdefinitionofslightlycontinuousphys115meansATLEASTONEcontinuousorbitmap,notallorbits/jointcontinuity. Actionmaps individuallycontinuousaffineasprovedaveragingphys116. Hausdorffstandingassumption/sourceproofexplicit. NotKreinindefiniteinnerproductspace.",
+      "literature_finding": "The source proves compactness implies this fixed-point property, which implies precompactness; complete groups and groups measurable in their completion have positive results. The current primary scan found no extension covering every Hausdorff group, including incomplete groups.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared; noexacttargetfound. RepeatedsourceIDsmerge. Retrieval scores are not uniqueness certificates. Q4475sourceFIL2602619Tisfactorizationpropertiesoftopologicalalgebra,notthisaffinecompactnesscriterion;Q4075weak-topologyκFréchetUrysohnsubgroupsdifferentproperty. Noexactcounterpartinallneighbors.",
+      "statement_id": "bfed7ac1bb7a1daf1d92",
+      "statement_ids": [
+        "bfed7ac1bb7a1daf1d92"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Problem2, printed p. 105; physical PDF p. 117.",
+      "number": 5004,
+      "source_locator": {
+        "label": "Problem 2",
+        "printed_page": "105",
+        "held_pdf_page": 117,
+        "original_extraction_page": 129
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Uniformly bounded affine actions on L-embedded spaces",
+      "text": "Let E be an L-embedded Banach space: under its canonical inclusion in E^{**}, there is a closed subspace E_s with E^{**}=E⊕E_s and ‖x+y‖=‖x‖+‖y‖ for x∈E and y∈E_s. Let an abstract group G act on E by continuous affine automorphisms α_g(x)=π_gx+b_g, with sup_{g∈G}‖π_g‖<∞. If α_g(A)=A for every g and some bounded nonempty A⊂E, must there be x∈E fixed by every α_g?",
+      "subject": "Functional Analysis & Operator Algebras",
+      "locator": {
+        "pdf_page": 120,
+        "printed_page": "108",
+        "label": "Problem3"
+      },
+      "scope_review": "Actualsourcephys112definesLembeddedasℓ1summandinbidualandwarnsitneednotpersistunderequivalentrenorming. Uniformboundonlinearpart,notcocycle. Groupabstract,noinventedamenabilityorcontinuityongrouptopology. FixedpointneednotbelongconvA.",
+      "literature_finding": "The isometric theorem of Bader–Gelander–Monod and the nonexpansive norm-distal extension of Wiśnicki are partial results. Equivalent renorming need not preserve L-embeddedness. These results do not settle the source’s general uniformly bounded affine-action question.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared; noexacttargetfound. RepeatedsourceIDsmerge. Retrieval scores are not uniqueness certificates. Q3747reflexiveBanachnonexpansivesinglemaponboundedconvexsetdiffersfromuniformlyboundedGROUPactiononL-embeddedspace. ReflexiveuniformlyboundedgroupcasealreadyansweredRyllNardzewski;cannotreplaceclasses/operators.",
+      "statement_id": "55692f47fe9f6d7453b9",
+      "statement_ids": [
+        "55692f47fe9f6d7453b9"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Problem3, printed p. 108; physical PDF p. 120.",
+      "number": 5005,
+      "source_locator": {
+        "label": "Problem 3",
+        "printed_page": "108",
+        "held_pdf_page": 120,
+        "original_extraction_page": 133
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Closed subgroups of locally compact unitarizable groups",
+      "text": "Call a Hausdorff topological group G unitarizable if every strongly continuous representation π:G→GL(H) on a complex Hilbert space with sup_g‖π(g)‖<∞ admits a bounded invertible S such that S⁻¹π(g)S is unitary for every g. If G is locally compact and unitarizable, must every closed subgroup of G, with its induced topology, be unitarizable? In particular, must G contain no subgroup isomorphic to F₂ that is discrete in the induced topology?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 146,
+        "printed_page": "134",
+        "label": "Problem11"
+      },
+      "scope_review": "ActualDefinition6.1.2phys132usescontinuousrepresentations; strong/orbitalcontinuityequivalentjointforuniformbound. ClosedsubgroupandDISCRETEnonabelianfreehypessential. SourceknownopencasecannotberestrictedthediscretegroupmodelofQ1341. Preliminaryfreeabsenceclausekeptonequestionwithstrongclosed-subgroupassertion.",
+      "literature_finding": "Published Questions 36–37 retain the locally compact closed-subgroup and discrete-free-subgroup targets. Subgroup stability is already known for discrete groups. A current discrete Dixmier closure lead does not establish the corresponding result for all locally compact groups; no such full result was located.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared; noexacttargetfound. RepeatedsourceIDsmerge. Retrieval scores are not uniqueness certificates. Q1341DixmieramenabilityonDISCRETEgroupsdoesnotaskclosedsubgroupstabilityorarbitraryLCKazhdancompactness. Q1343KadisonsimilarityforallCstarhomomorphismsdifferentfullscope; Q2045strongdiscreteF2embeddingintoU(R)doesnotrequireambientLCunitarizability.",
+      "statement_id": "2589a9fa9d5d0604faa7",
+      "statement_ids": [
+        "2589a9fa9d5d0604faa7"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Problem11, printed p. 134; physical PDF p. 146.",
+      "number": 5006,
+      "source_locator": {
+        "label": "Problem 11",
+        "printed_page": "134",
+        "held_pdf_page": 146,
+        "original_extraction_page": 160
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Kazhdan and unitarizable locally compact groups",
+      "text": "Call a Hausdorff topological group G unitarizable if every strongly continuous representation π:G→GL(H) on a complex Hilbert space with sup_g‖π(g)‖<∞ admits a bounded invertible S such that S⁻¹π(g)S is unitary for every g. If G is locally compact, unitarizable and has Kazhdan property (T), must it be compact? Property (T) means that every strongly continuous unitary representation π on a Hilbert space having almost invariant unit vectors has a nonzero invariant vector; almost invariance means that for every compact K⊂G and ε>0 there is a unit vector v with sup_{g∈K}‖π(g)v−v‖<ε.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "locator": {
+        "pdf_page": 148,
+        "printed_page": "136",
+        "label": "Problem12"
+      },
+      "scope_review": "Actualsourceallloccompact,noσcompactsecondcountableadded. Kazhdanusescompact-testsets;unboundedrepresentationnotquantified. Non-LCPolishcounterexamplesinsourcedonotrefuteLCtarget.",
+      "literature_finding": "Amenability together with property (T) implies compactness. Unitarizability implying amenability for all locally compact groups would answer this question, but was not established by the bounded primary scan. A discrete-group closure claim does not automatically cover the source’s continuous locally compact representations.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared; noexacttargetfound. RepeatedsourceIDsmerge. Retrieval scores are not uniqueness certificates. Q1341DixmieramenabilityonDISCRETEgroupsdoesnotaskclosedsubgroupstabilityorarbitraryLCKazhdancompactness. Q1343KadisonsimilarityforallCstarhomomorphismsdifferentfullscope; Q2045strongdiscreteF2embeddingintoU(R)doesnotrequireambientLCunitarizability.",
+      "statement_id": "c78059826d6d0e23c66b",
+      "statement_ids": [
+        "c78059826d6d0e23c66b"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Problem12, printed p. 136; physical PDF p. 148.",
+      "number": 5007,
+      "source_locator": {
+        "label": "Problem 12",
+        "printed_page": "136",
+        "held_pdf_page": 148,
+        "original_extraction_page": 162
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The Krein property under the weak topology",
+      "text": "Does there exist a Hausdorff locally convex space E such that the closed convex hull of every compact subset of E is compact in its original topology, but the same property fails for the weak topology σ(E,E′), where E′ is the continuous dual of the original topology?",
+      "subject": "Functional Analysis & Operator Algebras",
+      "locator": {
+        "pdf_page": 163,
+        "printed_page": "151",
+        "label": "Problem13"
+      },
+      "scope_review": "ActualDefinitionB.3.1phys162Kreincompactconvexhull; LemmaB.3.5phys163weaktostrong implicationknown, reversequestionexact. Closedconvexhullscoincideforcompatibleduality; compactnessmaydiffer. No completenessorbarrelledassumptioninvented.",
+      "literature_finding": "Krein’s theorem gives the property for the weak topology in quasi-complete spaces, so any counterexample here must be incomplete. The current primary scan found no result resolving the full comparison between the original and weak topologies.",
+      "status_grade": "bounded-current-primary-review",
+      "duplicate_review": "Full live numbered word/character neighbors, family terms, source author/title/URL manifest aliases and corpus siblings manually compared; noexacttargetfound. RepeatedsourceIDsmerge. Retrieval scores are not uniqueness certificates. Q4075weak-topologylocallyfinite-dimensionalsubgroups,Q3945κFréchetUrysohnproperty,Q3851Asplundsubspaces,Q1347weakfree-spacehomeomorphismsare differentproperties. Entireword/charneighborlistcompared.",
+      "statement_ids": [
+        "31bac5edcd86f9af6a83",
+        "d12ee431987a4a81ffc2"
+      ],
+      "statement_id": "31bac5edcd86f9af6a83",
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Problem13, printed p. 151; physical PDF p. 163.",
+      "number": 5008,
+      "source_locator": {
+        "label": "Problem 13",
+        "printed_page": "151",
+        "held_pdf_page": 163,
+        "original_extraction_page": 177
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "reason": "Repeatedprose/labelreferstosamefullquestion;identifierpreserved.",
+      "merged_into": "31bac5edcd86f9af6a83",
+      "locator": {
+        "pdf_page": 163,
+        "label": "Problem13"
+      },
+      "statement_id": "d12ee431987a4a81ffc2",
+      "statement_ids": [
+        "d12ee431987a4a81ffc2"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Problem13, printed p. not independently labelled; physical PDF p. 163."
+    },
+    {
+      "decision": "hold",
+      "reason": "Actualphys67unlabelledrelationprosehasimplicitpmpvsnonsingularscopefromcross-sectionconstruction;GL/BHIreferencepmpandBernoulliextensions. Fullmeasured-relationamenabilitydefinitionnotindependentlyread; do notsilentlypromotepmponlyrestriction.",
+      "locator": {
+        "pdf_page": 67,
+        "printed_page": "55",
+        "label": "Bounded sourcedisposition"
+      },
+      "statement_id": "6f8ead59a437f94fecba",
+      "statement_ids": [
+        "6f8ead59a437f94fecba"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Bounded sourcedisposition, printed p. 55; physical PDF p. 67."
+    },
+    {
+      "decision": "solved-source-reduction",
+      "reason": "Closed by source reduction, independently checked by coordinator: take the nonamenable countable group affine Hilbert action π_gv+b_g with a bounded orbit and no fixed point from source Theorem5.2.21. Translate its bounded orbit to start at0, so {b_g} is bounded. On ℝ⊕H let T_g(t,v)=(t,π_gv+t b_g). Each T_g is a bounded invertible linear operator, T_gT_h=T_gh, and0 is fixed. A={(1,b_g)} is nonempty, bounded and invariant. Its closed convex hull is contained in {t=1}; any fixed point there would solve π_gv+b_g=v for every g, contrary to the original action. Taking the image of the group in GL(ℝ⊕H) gives the literal group-of-transformations formulation.",
+      "locator": {
+        "pdf_page": 130,
+        "printed_page": "118",
+        "label": "Bounded sourcedisposition"
+      },
+      "statement_id": "5fcdf9fb9b2aa325605f",
+      "statement_ids": [
+        "5fcdf9fb9b2aa325605f"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Bounded sourcedisposition, printed p. 118; physical PDF p. 130."
+    },
+    {
+      "decision": "hold",
+      "reason": "GenericDixmierprosebaselineQ1341discretetargetoverlappluscurrentSeptember2026primaryall-discreteclosurelead;fullLCgeneralizationneedsexactnewclaim/scopeaudit. Retainactivehold,donotcallcurrentdiscretetargetopenorfullLCclosed.",
+      "locator": {
+        "pdf_page": 134,
+        "printed_page": "122",
+        "label": "Bounded sourcedisposition"
+      },
+      "statement_id": "7456b39421268693806c",
+      "statement_ids": [
+        "7456b39421268693806c"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Bounded sourcedisposition, printed p. 122; physical PDF p. 134."
+    },
+    {
+      "decision": "hold",
+      "reason": "Chapter-summarytextnotmathematicaltarget.",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": "2",
+        "label": "Bounded sourcedisposition"
+      },
+      "statement_id": "30704a238bd852081111",
+      "statement_ids": [
+        "30704a238bd852081111"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Bounded sourcedisposition, printed p. 2; physical PDF p. 14."
+    },
+    {
+      "decision": "hold",
+      "reason": "Requestforanelementarydirectproofwithoutspecifiedformalcriterion; noindependentnumberedmathematicalpredicate.",
+      "locator": {
+        "pdf_page": 129,
+        "printed_page": "117",
+        "label": "Bounded sourcedisposition"
+      },
+      "statement_id": "e9068042fd3537614e50",
+      "statement_ids": [
+        "e9068042fd3537614e50"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Bounded sourcedisposition, printed p. 117; physical PDF p. 129."
+    },
+    {
+      "decision": "hold",
+      "reason": "Semigroupanaloguehasunspecifiedcontinuity/amenability/affine-invertibility/boundedorbitconventions; do notinventfullscope. NearbyProblem6compactorbitprecisetargetisabsentfrompoolstableIDs.",
+      "locator": {
+        "pdf_page": 129,
+        "printed_page": "117",
+        "label": "Bounded sourcedisposition"
+      },
+      "statement_id": "53099e87e232d98f0963",
+      "statement_ids": [
+        "53099e87e232d98f0963"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Bounded sourcedisposition, printed p. 117; physical PDF p. 129."
+    },
+    {
+      "decision": "hold",
+      "reason": "Usefulcompactcohomologytheoryrequestqualitativewithoutfixedtheorem; retainedhold.",
+      "locator": {
+        "pdf_page": 130,
+        "printed_page": "118",
+        "label": "Bounded sourcedisposition"
+      },
+      "statement_id": "3f79fd3192ddcf4c59ad",
+      "statement_ids": [
+        "3f79fd3192ddcf4c59ad"
+      ],
+      "source_pdf_sha256": "7fbc55db583f0b588950429457414eeff582100fa21ae2c00444419c845c8589",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf",
+        "https://numdam.org/item/10.24033/asens.2317.pdf",
+        "https://sites.google.com/view/monod/problems",
+        "https://arxiv.org/abs/1509.01723",
+        "https://arxiv.org/abs/0711.1643",
+        "https://arxiv.org/abs/1903.12123",
+        "https://www.monod.site/research",
+        "https://github.com/openai/math"
+      ],
+      "search_topics": [
+        "Gheysens Krein slightly continuous affine compactness",
+        "L-embedded uniformly bounded affine fixed point 2025 2026",
+        "unitarizable Kazhdan locally compact 2025 2026",
+        "unitarizable closed subgroups locally compact 2025 2026",
+        "nonamenable measure equivalence class torsion free subgroup",
+        "Krein locally convex weak topology counterexample",
+        "Gheysens Monod Dixmier 2026"
+      ],
+      "source_metadata": {
+        "author": "Maxime Gheysens",
+        "title": "Representing groups against all odds",
+        "year": "2017",
+        "thesis_key": "Q102744007",
+        "record": "https://infoscience.epfl.ch/handle/20.500.14299/139743",
+        "source": "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+      },
+      "citation": "Bounded sourcedisposition, printed p. 118; physical PDF p. 130."
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5008,
+    "catalog_sha256": "e3eac5c37b0d6ae808db01ac534e3be0ca383c462948c10485728d80a7be4c1a",
+    "corpus_count": 28701,
+    "corpus_sha256": "6cf47c0fc46fa5a1fb3546b1a74457f935219d23cbe6bb5befc471c519570688",
+    "additional_regex_queries": [
+      "unitari",
+      "Krein",
+      "L.embedded",
+      "measure.equiv",
+      "nonamenable.*equivalence",
+      "Hilbert.*affine",
+      "affine.*Hilbert",
+      "fixed.point.*Hilbert"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

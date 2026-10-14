@@ -711,3 +711,35 @@ Fourier approximation above L² for higher-rank lattices. For each integer n≥3
 
 **Further links.** [1](https://epubs.siam.org/doi/10.1137/25M1803371) · [2](https://arxiv.org/abs/2510.17732) · [3](https://arxiv.org/html/2510.17732v2) · [4](https://www.icmat.es/miembros/parcet/parcet_ICMAT/Papers_files/ICMProceedings.pdf) · [5](https://www.icmat.es/Thesis/2024/Tesis_Eduardo_Tablate.pdf) · [6](https://www.icmat.es/news/interviews/22-07-25-en/) · [7](https://arxiv.org/abs/2607.14824) · [8](https://arxiv.org/html/2607.14824v1) · [9](https://arxiv.org/html/2607.14824v3) · [10](https://www.sciencedirect.com/science/article/abs/pii/S0022247X2600627X) · [11](https://math.univ-lyon1.fr/~delasalle/) · [12](https://www.math.ucsd.edu/seminar/kakeya-conjecture-and-high-rank-lattice-von-neumann-algebras) · [13](https://sites.google.com/view/josecondealonso/short-cv) · [14](https://arxiv.org/abs/2607.14824v1) · [15](https://arxiv.org/abs/2607.14824v3)
 
+
+<a id="q5005"></a>
+
+## Q5005. Uniformly bounded affine actions on L-embedded spaces
+
+**Status:** Open · **Kind:** open problem (Problem 3) · **Reviewed extraction** 2026-10-13-250
+
+Let E be an L-embedded Banach space: under its canonical inclusion in E^{\*\*}, there is a closed subspace E_s with E^{\*\*}=E⊕E_s and ‖x+y‖=‖x‖+‖y‖ for x∈E and y∈E_s. Let an abstract group G act on E by continuous affine automorphisms α\_g(x)=π\_gx+b_g, with sup_{g∈G}‖π\_g‖<∞. If α\_g(A)=A for every g and some bounded nonempty A⊂E, must there be x∈E fixed by every α\_g?
+
+**Source.** Maxime Gheysens. *Representing groups against all odds*. Lausanne, EPFL, 2017. [primary source](https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content) · [record](https://infoscience.epfl.ch/handle/20.500.14299/139743) Location: Problem3, printed p. 108; physical PDF p. 120.
+
+**Literature check.** Reviewed 2026-10-13: The isometric theorem of Bader–Gelander–Monod and the nonexpansive norm-distal extension of Wiśnicki are partial results. Equivalent renorming need not preserve L-embeddedness. These results do not settle the source’s general uniformly bounded affine-action question.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf) · [2](https://numdam.org/item/10.24033/asens.2317.pdf) · [3](https://sites.google.com/view/monod/problems) · [4](https://arxiv.org/abs/1509.01723) · [5](https://arxiv.org/abs/0711.1643) · [6](https://arxiv.org/abs/1903.12123) · [7](https://www.monod.site/research) · [8](https://github.com/openai/math)
+
+<a id="q5008"></a>
+
+## Q5008. The Krein property under the weak topology
+
+**Status:** Open · **Kind:** open problem (Problem 13) · **Reviewed extraction** 2026-10-13-250
+
+Does there exist a Hausdorff locally convex space E such that the closed convex hull of every compact subset of E is compact in its original topology, but the same property fails for the weak topology σ(E,E′), where E′ is the continuous dual of the original topology?
+
+**Source.** Maxime Gheysens. *Representing groups against all odds*. Lausanne, EPFL, 2017. [primary source](https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content) · [record](https://infoscience.epfl.ch/handle/20.500.14299/139743) Location: Problem13, printed p. 151; physical PDF p. 163.
+
+**Literature check.** Reviewed 2026-10-13: Krein’s theorem gives the property for the weak topology in quasi-complete spaces, so any counterexample here must be incomplete. The current primary scan found no result resolving the full comparison between the original and weak topologies.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/gheysens-2017.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf) · [2](https://numdam.org/item/10.24033/asens.2317.pdf) · [3](https://sites.google.com/view/monod/problems) · [4](https://arxiv.org/abs/1509.01723) · [5](https://arxiv.org/abs/0711.1643) · [6](https://arxiv.org/abs/1903.12123) · [7](https://www.monod.site/research) · [8](https://github.com/openai/math)

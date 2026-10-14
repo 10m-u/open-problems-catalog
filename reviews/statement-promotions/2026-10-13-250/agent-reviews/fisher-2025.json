@@ -1,0 +1,880 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:6a2d663882b1a5b9d75a",
+  "source_review_notes": [
+    "Held PDF printed pages are physical pages minus six in the body. Read introduction pp.7–9; Appendix B pp.83–86; exact finiteness/RFRS/division-ring definitions and constructions pp.12,15–22,64,67–69,72–73.",
+    "Conjecture B.2.1 is split by the extractor into label B.2 plus leading 1.; its correct source label is preserved in the citation. Question B.11 cites the general Theorem 5.3.8, while Hughes-free existence is specifically Theorem 5.3.7.",
+    "General group/ring coherence questions and their geometric restrictions remain distinct full targets, with implications disclosed. Ordinary parafree homology is promoted once; the stronger and finite-presentability clauses are preserved as unpromoted remainders."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Samuel Fisher\" \"coherence\" \"2026\" group"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Hughes-free\" \"universal\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"group algebra\" \"coherent\" \"3-manifold\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"parafree\" \"coherent\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"parafree\" \"coherent\" site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"parafree conjecture\" 2026 homology"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"coherent\" \"Z[G]\" \"free-by-cyclic\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Hughes-free\" \"universal\" \"2026\" group"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Fisher\" \"Fp-Singer\" conjecture"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://sampfisher.github.io/",
+      "sections": "Current author publication list, including Coherent RFRS groups and 2026 publications."
+    },
+    {
+      "url": "https://arxiv.org/html/2603.16763",
+      "sections": "Theorem 1.2, Corollaries 1.6/4.1, coherence definitions, parafree application and general-scope caveats."
+    },
+    {
+      "url": "https://arxiv.org/html/2506.14666",
+      "sections": "Introduction and field-uniform fibring argument; coefficient and Poincaré-duality scope."
+    },
+    {
+      "url": "https://ems.press/content/serial-article-files/52395",
+      "sections": "Introduction, Conjectures 1.1/1.2, Theorem 1.3, Remark 7.5, Lemma 7.6 and Question 7.13."
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20570",
+      "sections": "Actual associative-algebra counterexample scope, not a group counterexample."
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19595",
+      "sections": "Homology assumptions in the September parafree result."
+    },
+    {
+      "url": "https://matematicas.uam.es/~andrei.jaikin/preprints/coherencegroupalgebra.pdf",
+      "sections": "Primary-source indexed passage on the integral-coefficient limitation; full web open failed, so no claim of reading the entire paper."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/k1a8331b0473f.pdf",
+    "sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+    "physical_pages": 102
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "1e42d45d4cdc689c11d5eba238d8147a42d8ddbc7953c6b9346fe875bf23a8a4",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Baumslag’s Parafree Conjecture",
+      "text": "Let G be a finitely generated residually nilpotent group such that, for a free group F, G/γ_n(G)≅F/γ_n(F) for every n≥1, where γ_1(G)=G and γ_{n+1}(G)=[G,γ_n(G)]. Must H_2(G;Z)=0?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "§1.2.1, unnumbered Baumslag Parafree Conjecture, printed p.8 / PDF p.14; repeated before Corollary 4.3.15, printed p.57 / PDF p.63.",
+      "locator": {
+        "printed_page": 8,
+        "pdf_page": 14,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "Read both parafree definitions and the finiteness caveat. Only the ordinary homology conjecture is recommended here; the stronger cohomological-dimension and finite-presentability clauses of the same automatic record remain unpromoted. Conjecture B.4 is the separate coherence assertion.",
+      "literature_finding": "The March 2026 Coherent RFRS paper still calls this the Parafree Conjecture and proves a dimension-two equivalence, not the unrestricted statement. August 2026 counterexamples concern associative algebras, not groups; September 2026 Lie-algebra results assume homology vanishing.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicitly_retained_with_new_nearby_results_checked",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2603.16763",
+        "https://arxiv.org/abs/2608.20570",
+        "https://arxiv.org/abs/2609.19595"
+      ],
+      "unpromoted_remainders": [
+        "Strong Parafree Conjecture cd_Z(G)≤2",
+        "Finite presentability of finitely generated parafree groups; separate coherence question is reviewed as B.4"
+      ],
+      "statement_id": "6a05f56572811406e5b4",
+      "statement_ids": [
+        "6a05f56572811406e5b4"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4848,
+      "source_locator": {
+        "label": "Conjecture",
+        "printed_page": 8,
+        "held_pdf_page": 14,
+        "original_extraction_page": 14
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Embedding torsion-free group algebras into division rings",
+      "text": "For every torsion-free group G and field k, does there exist an injective unital ring homomorphism k[G]→D into a division ring D?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture 1.3.2, printed p.9 / PDF p.15; published counterpart Conjecture 1.1, J. Comb. Algebra 10 (2026).",
+      "locator": {
+        "printed_page": 9,
+        "pdf_page": 15,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "This is stronger than the domain conclusion, but not a restatement of it: a noncommutative domain need not embed in a division ring. No local indicability, residual amenability, or special-cube-complex hypothesis is added.",
+      "literature_finding": "Retained in published Conjecture 1.1. Proved embeddings for particular geometric classes do not resolve arbitrary torsion-free G.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicitly_retained",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/52395"
+      ],
+      "statement_id": "d141c29d1e2bb679809d",
+      "statement_ids": [
+        "d141c29d1e2bb679809d"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4850,
+      "source_locator": {
+        "label": "Conjecture 1.3.2",
+        "printed_page": 9,
+        "held_pdf_page": 15,
+        "original_extraction_page": 15
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Integral virtual algebraic fibring from vanishing over every prime field",
+      "text": "Fix n≥0 and a residually finite rationally solvable (RFRS) group G of type FP_{n+1}(Z). Is the existence of a finite-index subgroup H≤G with an epimorphism H→Z whose kernel is of type FP_n(Z) equivalent to b_i^{(2)}(G;F_p)=0 for every prime p and every 0≤i≤n? Here FP_j(R) means that the trivial R[G]-module has a projective resolution finitely generated through degree j. For an RFRS group, b_i^{(2)}(G;F_p)=dim_{D_p}H_i(G;D_p), with D_p the unique Hughes-free division ring generated by F_p[G].",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture B.1, printed p.83 / PDF p.89; Definitions 2.2.1–2.2.2 and 2.5.1, printed pp.12,20 / PDF pp.18,26.",
+      "locator": {
+        "printed_page": 83,
+        "pdf_page": 89,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "Read the integral finiteness requirements, all-prime quantifier and the warning that FP_2 over all fields need not imply FP_2(Z). Both directions, all RFRS groups and the integral coefficient ring are kept.",
+      "literature_finding": "The later Poincaré-duality virtual-fibring theorem treats a special class and field finiteness; it does not prove this general integral FP_n criterion. Current author work and exact-theme searches locate no full resolution.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "explicit_thesis_question_current_primary_scan_no_exact_resolution_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2506.14666",
+        "https://sampfisher.github.io/"
+      ],
+      "statement_id": "68305c97c9172d0c11c0",
+      "statement_ids": [
+        "68305c97c9172d0c11c0"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4851,
+      "source_locator": {
+        "label": "Conjecture B.1",
+        "printed_page": 83,
+        "held_pdf_page": 89,
+        "original_extraction_page": 89
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Virtual specialness versus virtual free-by-cyclic structure for one-relator groups",
+      "text": "Is a one-relator group G virtually free-by-cyclic if and only if it is virtually special? Here one-relator means a finite presentation with a single defining relator; virtually free-by-cyclic means that some finite-index H≤G fits into 1→F→H→Z→1 with F free, not assumed finitely generated. Virtually special means that a finite-index subgroup is the fundamental group of a special nonpositively curved cube complex in the sense of Haglund–Wise.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Actual Conjecture B.2.1, printed p.85 / PDF p.91. The automatic label Conjecture B.2 followed by 1. is an extraction split.",
+      "locator": {
+        "printed_page": 85,
+        "pdf_page": 91,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "The source says virtually special, not a newly imposed compactness requirement. The possibly infinitely generated free kernel is essential, as emphasized in the introduction. Known hyperbolic/cubulated and torsion cases do not identify the full converse for arbitrary one-relator groups.",
+      "literature_finding": "The current RFRS coherence theorem gives a structural equivalence under an RFRS hypothesis and the cited cubulated hyperbolic result is a restricted case. No full one-relator equivalence was located in the current primary author work.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "explicit_thesis_question_current_primary_scan_no_exact_resolution_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2603.16763",
+        "https://sampfisher.github.io/"
+      ],
+      "statement_id": "768feb283f0678499b57",
+      "statement_ids": [
+        "768feb283f0678499b57"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4852,
+      "source_locator": {
+        "label": "Conjecture B.2",
+        "printed_page": 85,
+        "held_pdf_page": 91,
+        "original_extraction_page": 91
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Coherence of finitely generated parafree groups",
+      "text": "Is every finitely generated parafree group coherent, meaning that each of its finitely generated subgroups is finitely presented? Parafree means residually nilpotent with the same lower-central-series quotients as a free group.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture B.4, printed p.85 / PDF p.91; parafree definition printed p.8 / PDF p.14.",
+      "locator": {
+        "printed_page": 85,
+        "pdf_page": 91,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "No cohomological-dimension bound is imposed. The March 2026 theorem relates this assertion to homology vanishing in dimension two; the ordinary Parafree Conjecture and this coherence conjecture have different full scopes.",
+      "literature_finding": "Current Coherent RFRS §1 and its parafree application retain the general conjectural relation and solve only the dimension-two comparison, not coherence for all finitely generated parafree groups.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicitly_retained",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2603.16763"
+      ],
+      "statement_id": "13899e2c8224d97b9f86",
+      "statement_ids": [
+        "13899e2c8224d97b9f86"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4853,
+      "source_locator": {
+        "label": "Conjecture B.4",
+        "printed_page": 85,
+        "held_pdf_page": 91,
+        "original_extraction_page": 91
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Group coherence versus coherence of its group algebra",
+      "text": "For every group G and field k, is G coherent if and only if k[G] is coherent? A group is coherent if every finitely generated subgroup is finitely presented; a ring is coherent if every finitely generated one-sided ideal is finitely presented as a module (for group algebras, left and right coherence are equivalent).",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question B.5, printed p.85 / PDF p.91.",
+      "locator": {
+        "printed_page": 85,
+        "pdf_page": 91,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "Use finitely generated ideals, as the appendix explicitly says; a misleading earlier sentence omits that qualifier. No finiteness, residual, characteristic or dimension hypothesis on G is silently added. Both implications are retained.",
+      "literature_finding": "The March 2026 paper explicitly calls the general equivalence open and proves it for two-dimensional virtually RFRS groups. Its Corollary 4.1 does not settle arbitrary G.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicitly_retained",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2603.16763"
+      ],
+      "statement_id": "ed3dc9bc69e7f9782d24",
+      "statement_ids": [
+        "ed3dc9bc69e7f9782d24"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4854,
+      "source_locator": {
+        "label": "Question B.5",
+        "printed_page": 85,
+        "held_pdf_page": 91,
+        "original_extraction_page": 91
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Coherence of group algebras of 3-manifold groups",
+      "text": "For every connected 3-manifold M and every field k, is k[π_1(M)] coherent, meaning that every finitely generated one-sided ideal is finitely presented as a module?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture B.6, printed p.85 / PDF p.91.",
+      "locator": {
+        "printed_page": 85,
+        "pdf_page": 91,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "The source does not restrict to aspherical closed manifolds, characteristic zero or torsion-free fundamental groups. Scott coherence of the group itself and embeddings in division rings are weaker conclusions than ring coherence.",
+      "literature_finding": "The held thesis asks this full question. Current geometric embedding and two-dimensional coherence results are not a theorem for all 3-manifold group algebras. Exact-theme and author-publication checks locate no full resolution.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "explicit_thesis_question_current_primary_scan_no_exact_resolution_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/52395",
+        "https://arxiv.org/html/2603.16763",
+        "https://sampfisher.github.io/"
+      ],
+      "statement_id": "cea1703f8a65e97542aa",
+      "statement_ids": [
+        "cea1703f8a65e97542aa"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4855,
+      "source_locator": {
+        "label": "Conjecture B.6",
+        "printed_page": 85,
+        "held_pdf_page": 91,
+        "original_extraction_page": 91
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Separating rational and integral group-ring coherence",
+      "text": "Does there exist a group G for which Q[G] is coherent but Z[G] is not coherent? Ring coherence means that all finitely generated one-sided ideals are finitely presented modules.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question B.7, printed p.85 / PDF p.91.",
+      "locator": {
+        "printed_page": 85,
+        "pdf_page": 91,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "This asks an actual same-group coefficient separation, not failure of group coherence or the contrast between FP_2 over fields and over Z. No finitely generated witness restriction is invented.",
+      "literature_finding": "The explicit thesis question remains outside the current field-based coherence and embedding results. Targeted current coefficient/coherence searches located no exact witness or impossibility theorem.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "explicit_thesis_question_current_primary_scan_no_exact_resolution_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2603.16763",
+        "https://matematicas.uam.es/~andrei.jaikin/preprints/coherencegroupalgebra.pdf",
+        "https://sampfisher.github.io/"
+      ],
+      "statement_id": "f9510dd93968c08d2af2",
+      "statement_ids": [
+        "f9510dd93968c08d2af2"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4856,
+      "source_locator": {
+        "label": "Question B.7",
+        "printed_page": 85,
+        "held_pdf_page": 91,
+        "original_extraction_page": 91
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Integral coherence for free-by-cyclic and one-relator groups",
+      "text": "Is Z[G] coherent whenever G is free-by-cyclic or is a one-relator group? Free-by-cyclic means 1→F→G→Z→1 with F a free group; a one-relator group has a finite presentation with one relator. Coherent means that every finitely generated one-sided ideal is finitely presented as a Z[G]-module.",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture B.8, printed p.85 / PDF p.91.",
+      "locator": {
+        "printed_page": 85,
+        "pdf_page": 91,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "Preserve the integer group ring and both named families; do not replace Z with Q or add a torsion-free condition to the one-relator branch. The source does not impose finite rank on the free kernel.",
+      "literature_finding": "Current field-coherence theorems do not imply this integral assertion; Jaikin-Zapirain’s source explicitly distinguishes its field argument from integral one-relator group rings. No exact full theorem was located.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "explicit_thesis_question_current_primary_scan_no_exact_resolution_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://matematicas.uam.es/~andrei.jaikin/preprints/coherencegroupalgebra.pdf",
+        "https://arxiv.org/html/2603.16763",
+        "https://sampfisher.github.io/"
+      ],
+      "statement_id": "0c69992e1edb030d24bf",
+      "statement_ids": [
+        "0c69992e1edb030d24bf"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4857,
+      "source_locator": {
+        "label": "Conjecture B.8",
+        "printed_page": 85,
+        "held_pdf_page": 91,
+        "original_extraction_page": 91
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Universal Hughes-free division rings for torsion-free one-relator groups",
+      "text": "For every torsion-free one-relator group G and every field k, does k[G] admit an epic embedding into a division ring D which is both Hughes-free and universal? Hughes-free means that D is generated by k[G] and, for every N◁H≤G with H finitely generated and H/N≅Z, distinct powers of a lift of a generator of H/N are left-linearly independent over the division closure of k[N] in D. A k[G]-division ring is epic if the image of k[G] generates it as a division ring; it is universal if its matrix-rank function dominates that of every epic k[G]-division ring (equivalently it admits a specialization to each, in the sense of a homomorphism from a suitable local subring).",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture B.10, printed p.86 / PDF p.92; Definitions 2.3.8 and 2.3.12–2.3.14, printed pp.15–17 / PDF pp.21–23.",
+      "locator": {
+        "printed_page": 86,
+        "pdf_page": 92,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "Ordinary division-ring embedding is already known in this family and is not the question. Both Hughes-freeness and universality, in every field characteristic, are retained.",
+      "literature_finding": "Published Question 7.13 leaves general positive-characteristic Hughes-freeness unresolved; Remark 7.5 distinguishes rank maximality from universality. Neither the known characteristic-zero construction nor special-group results give the full assertion.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_unresolved_stronger_properties_checked",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/52395"
+      ],
+      "statement_id": "94eabafbd36306488910",
+      "statement_ids": [
+        "94eabafbd36306488910"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4858,
+      "source_locator": {
+        "label": "Conjecture B.10",
+        "printed_page": 86,
+        "held_pdf_page": 92,
+        "original_extraction_page": 92
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Universality of Hughes-free division rings for locally indicable 3-manifold groups",
+      "text": "Let G=π_1(M) be the locally indicable fundamental group of a connected 3-manifold and let k be a field. Must its Hughes-free division ring D_{k[G]} be universal as an epic k[G]-division ring? Locally indicable means that every nontrivial finitely generated subgroup surjects onto Z. Hughes-free means that D is generated by k[G] and, for every N◁H≤G with H finitely generated and H/N≅Z, distinct powers of a lift of a generator of H/N are left-linearly independent over the division closure of k[N] in D. A k[G]-division ring is epic if the image of k[G] generates it as a division ring; it is universal if its matrix-rank function dominates that of every epic k[G]-division ring (equivalently it admits a specialization to each, in the sense of a homomorphism from a suitable local subring).",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question B.11, printed p.86 / PDF p.92; Hughes-free existence Theorem 5.3.7, printed pp.72–73 / PDF pp.78–79, within the cited Theorem 5.3.8.",
+      "locator": {
+        "printed_page": 86,
+        "pdf_page": 92,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "Existence and uniqueness of the Hughes-free ring make this equivalent to the source’s constructed-embedding question. The source citation points to the general theorem while the actual locally indicable construction is in Theorem 5.3.7; retain both locators. The field is arbitrary.",
+      "literature_finding": "The geometric construction establishes Hughes-freeness. The published rank-maximality remark does not establish universality; current exact property searches locate no full universality theorem.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "explicit_thesis_question_current_primary_scan_no_exact_resolution_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/52395",
+        "https://sampfisher.github.io/"
+      ],
+      "statement_id": "d74e92c39e030d4f89e8",
+      "statement_ids": [
+        "d74e92c39e030d4f89e8"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4859,
+      "source_locator": {
+        "label": "Question B.11",
+        "printed_page": 86,
+        "held_pdf_page": 92,
+        "original_extraction_page": 92
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Universality for locally indicable virtually compact special groups",
+      "text": "Let G be a locally indicable virtually compact special group and k any field. Is the unique Hughes-free epic division ring generated by k[G] universal? Virtually compact special means that a finite-index subgroup is the fundamental group of a compact special nonpositively curved cube complex. Hughes-free means that D is generated by k[G] and, for every N◁H≤G with H finitely generated and H/N≅Z, distinct powers of a lift of a generator of H/N are left-linearly independent over the division closure of k[N] in D. A k[G]-division ring is epic if the image of k[G] generates it as a division ring; it is universal if its matrix-rank function dominates that of every epic k[G]-division ring (equivalently it admits a specialization to each, in the sense of a homomorphism from a suitable local subring).",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Question B.12, printed p.86 / PDF p.92; Theorem 5.2.4 and Corollary 5.2.6, printed pp.67–69 / PDF pp.73–75.",
+      "locator": {
+        "printed_page": 86,
+        "pdf_page": 92,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "Keep local indicability and compact specialness. Ordinary embedding and Hughes-freeness are already proved and are not promoted as new open obligations. Uniqueness makes the constructed-embedding formulation independent of arbitrary choice.",
+      "literature_finding": "The current published construction gives the Hughes-free ring, while its maximal-rank discussion explicitly cautions that maximal is weaker than universal. No exact general universality resolution was found.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "explicit_thesis_question_current_primary_scan_no_exact_resolution_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/52395",
+        "https://sampfisher.github.io/"
+      ],
+      "statement_id": "a1ba4f4a78788ee39b4d",
+      "statement_ids": [
+        "a1ba4f4a78788ee39b4d"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "number": 4860,
+      "source_locator": {
+        "label": "Question B.12",
+        "printed_page": 86,
+        "held_pdf_page": 92,
+        "original_extraction_page": 92
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "title": "Kaplansky’s Zero Divisor Conjecture",
+      "text": "For every torsion-free group G and every field k, is the group algebra k[G] a domain: must ab≠0 for every nonzero a,b∈k[G]?",
+      "subject": "Group Theory & Geometric Group Theory",
+      "citation": "Conjecture 1.3.1, printed p.9 / PDF p.15.",
+      "locator": {
+        "printed_page": 9,
+        "pdf_page": 15,
+        "verified_from": "held physical PDF and its printed footer"
+      },
+      "scope_review": "All torsion-free groups and all field characteristics are retained. The unit conjecture, particular 3-manifold groups and the stronger division-ring embedding conjecture are different targets.",
+      "literature_finding": "The current Fisher–Sánchez-Peralta publication still identifies the general zero-divisor conjecture as open, while resolving 3-manifold groups. Unit-conjecture counterexamples do not supply zero divisors.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicitly_retained",
+      "duplicate_of": [
+        1515
+      ],
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/52395"
+      ],
+      "statement_id": "09c3c6cadbbcc0670ee2",
+      "statement_ids": [
+        "09c3c6cadbbcc0670ee2"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ],
+      "reason": "Fisher: a domain means exactly no nonzero factors with ab=0. All fields and torsion-free groups match."
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        2428
+      ],
+      "reason": "Exact full equivalence is already Q2428. The March 2026 RFRS theorem is a restricted theorem with a virtual nonpositive-immersion caveat, not an unrestricted closure or a new question.",
+      "locator": {
+        "printed_page": 7,
+        "pdf_page": 13
+      },
+      "statement_id": "114302e3550d5062124e",
+      "statement_ids": [
+        "114302e3550d5062124e"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://sampfisher.github.io/",
+        "https://arxiv.org/html/2603.16763",
+        "https://arxiv.org/html/2506.14666",
+        "https://ems.press/content/serial-article-files/52395",
+        "https://arxiv.org/abs/2608.20570",
+        "https://arxiv.org/abs/2609.19595",
+        "https://matematicas.uam.es/~andrei.jaikin/preprints/coherencegroupalgebra.pdf"
+      ],
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The thesis’s positive-characteristic L² invariants require a Hughes-free embedding for a locally indicable finite-index subgroup, but the candidate quantifies arbitrary lattices in SO(n,1). That defining scope has not been cleared for arbitrary higher-dimensional lattices. Do not silently restrict to simple-type/cubulated lattices or substitute ordinary mod-p homology growth.",
+      "locator": {
+        "printed_page": 84,
+        "pdf_page": 90
+      },
+      "statement_id": "8cfc93ad20e1e52e6bbc",
+      "statement_ids": [
+        "8cfc93ad20e1e52e6bbc"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://sampfisher.github.io/",
+        "https://arxiv.org/html/2603.16763",
+        "https://arxiv.org/html/2506.14666",
+        "https://ems.press/content/serial-article-files/52395",
+        "https://arxiv.org/abs/2608.20570",
+        "https://arxiv.org/abs/2609.19595",
+        "https://matematicas.uam.es/~andrei.jaikin/preprints/coherencegroupalgebra.pdf"
+      ],
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Resolved by Coherent RFRS groups (March 2026), Theorem 1.2 and Corollary 4.1. For RFRS G with cd_Q≤2, vanishing b₂^(2) gives homological coherence over Q; each finitely generated subgroup is then coherent by Corollary 4.1, hence FP₂(Z). Conversely, homological coherence over Z implies that over Q, and Theorem 1.2 gives vanishing. The finitely generated condition in Corollary 4.1 is applied separately to each subgroup, so the deduction covers the source’s general G.",
+      "primary_urls": [
+        "https://arxiv.org/html/2603.16763"
+      ],
+      "locator": {
+        "printed_page": 84,
+        "pdf_page": 90
+      },
+      "statement_id": "35ceb69c0d12b2ad90b5",
+      "statement_ids": [
+        "35ceb69c0d12b2ad90b5"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The question refers to the particular embedding produced by a graph-of-rings/Cohn construction. The source theorem only asserts an embedding, while a canonical universal division-ring choice and its epic closure need to be stated to make the three Linnell/Hughes-free/universal obligations standalone. The current published Lemma 7.6 identifies the construction if Hughes-free existence for the whole group is already assumed; it does not resolve the full combination question. Held for a precise construction-choice review, rather than fabricating the ring D.",
+      "locator": {
+        "printed_page": 86,
+        "pdf_page": 92
+      },
+      "primary_urls": [
+        "https://ems.press/content/serial-article-files/52395"
+      ],
+      "statement_id": "07e357bdfec2ce0b00ea",
+      "statement_ids": [
+        "07e357bdfec2ce0b00ea"
+      ],
+      "source_pdf_sha256": "58ba87145629ec8aa2ec5f693580c5bf333ece524db083609139063735df9f0e",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Samuel Fisher\" \"coherence\" \"2026\" group",
+        "\"Hughes-free\" \"universal\" 2026",
+        "\"group algebra\" \"coherent\" \"3-manifold\" 2026",
+        "\"parafree\" \"coherent\" 2026",
+        "\"coherence\" \"3-manifold\" \"group algebras\" site:arxiv.org",
+        "\"parafree\" \"coherent\" site:arxiv.org",
+        "\"one-relator\" \"integral\" \"coherent\" site:arxiv.org",
+        "\"parafree conjecture\" 2026 homology",
+        "\"coherent\" \"Z[G]\" \"free-by-cyclic\"",
+        "\"Hughes-free\" \"universal\" \"2026\" group",
+        "\"Fisher\" \"Fp-Singer\" conjecture"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "parafree",
+      "RFRS",
+      "Hughes",
+      "zero.?divisor",
+      "group.?algebra",
+      "coherent.{0,30}group",
+      "group.{0,30}coherent",
+      "one.relator",
+      "free.by.cyclic"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

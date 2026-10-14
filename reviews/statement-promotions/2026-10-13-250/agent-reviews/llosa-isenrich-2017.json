@@ -1,0 +1,572 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q102794219",
+  "source_review_notes": [
+    "Five recommendations. Physical32,35–36,43,103–104,130,145,172–173 read. The fibrewise meaning of isolated singularities is included explicitly. Odd-rank question is terminal answered."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Kähler groups\" \"nilpotency class\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kähler groups\" \"cohomological dimension three\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kähler subgroups\" \"direct products\" \"classification\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Llosa\" \"Conjecture 6.1.2\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/html/2602.22493v1",
+      "sections_read": "Remark4.7 and nearby metabelian nilpotency bounds"
+    },
+    {
+      "url": "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+      "sections_read": "Introduction full three-factor classification,§6 odd-rank obstruction and low-rank kernel classification"
+    },
+    {
+      "url": "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+      "sections_read": "Restricted higher-torus map theorem and full odd-rank kernel obstruction"
+    },
+    {
+      "url": "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+      "sections_read": "§3 two construction methods; elliptic isolated-singularity versus finite higher-dimensional map"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021869316304720",
+      "sections_read": "Constructive explicit finite-presentation abstract"
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q102794219.pdf",
+    "sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+    "physical_pages": 206
+  },
+  "status_standard": "Dated bounded primary-source assessment; no-search-hit is not a certificate of openness. Holds remain active.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "5249920ecef89239a3d7f26fd0df1ca88d9d662bc77fdb88fa07194c141334ef",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Kähler subgroups of products of surface groups",
+      "text": "A Kähler group is the fundamental group of a compact connected Kähler manifold. For r≥1 and closed connected orientable surfaces S_gᵢ of genus gᵢ≥2, characterize subgroups H≤π₁(S_g₁)×⋯×π₁(S_gᵣ) which are Kähler groups.",
+      "subject": "Topology & Kähler Groups",
+      "citation": "Llosa Isenrich thesis, physical35 / printed24",
+      "locator": {
+        "pdf_page": 35,
+        "printed_page": 24,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "scope_review": "All subgroups, not merely finite-index, full subdirect or coabelian ones. Being Kähler forces finite presentability, so finitely generated versus finitely presented restrictions cannot be substituted.",
+      "literature_finding": "2024 author AGT paper gives a full three-factor classification up to finite index and coabelian maps toℤ³, while its introduction still poses the broader classification.2025 complex-Morse work supplies constructions, not the universal classification.",
+      "status_grade": "B: explicit primary-source question; bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered Kähler-group retrieval has no equivalent target. Whole corpus Kähler-family retrieval outside this thesis has no same target; repeated introduction/chapter candidates merged.",
+      "statement_ids": [
+        "43ba2d7be4dab05cab20",
+        "45b2bf0ee174440dda78"
+      ],
+      "statement_id": "43ba2d7be4dab05cab20",
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ],
+      "number": 4941,
+      "source_locator": {
+        "label": "Question 1",
+        "printed_page": 24,
+        "held_pdf_page": 35,
+        "original_extraction_page": 35
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Kähler groups of nilpotency class greater than two",
+      "text": "A Kähler group is the fundamental group of a compact connected Kähler manifold. Does there exist a nilpotent Kähler group G of nilpotency class c>2? Here γ₁(G)=G and γᵢ₊₁(G)=[G,γᵢ(G)], and class c means γ_c(G)≠1 and γ_c₊₁(G)=1.",
+      "subject": "Topology & Kähler Groups",
+      "citation": "Llosa Isenrich thesis, physical32 / printed21",
+      "locator": {
+        "pdf_page": 32,
+        "printed_page": 21,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "scope_review": "A genuinely nilpotent group, not a nilpotent quotient of a Kähler group. No torsion-free hypothesis or fixed manifold dimension is added.",
+      "literature_finding": "February2026 primary2602.22493 Remark4.7 explicitly reports that class2 examples are known and higher-class examples are not. Its bounds for metabelian quotients do not construct such a group.",
+      "status_grade": "B: explicit primary-source question; bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered Kähler-group retrieval has no equivalent target. Whole corpus Kähler-family retrieval outside this thesis has no same target; repeated introduction/chapter candidates merged.",
+      "statement_ids": [
+        "252cfeb6b7d2b4475069"
+      ],
+      "statement_id": "252cfeb6b7d2b4475069",
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ],
+      "number": 4942,
+      "source_locator": {
+        "label": null,
+        "printed_page": 21,
+        "held_pdf_page": 32,
+        "original_extraction_page": 32
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A Kähler group of cohomological dimension three",
+      "text": "A Kähler group is the fundamental group of a compact connected Kähler manifold. Does there exist a Kähler group G with integral cohomological dimension cd_ℤ(G)=3, where cd_ℤ(G)=sup{i:Hⁱ(G;M)≠0 for some ℤ[G]-module M}?",
+      "subject": "Topology & Kähler Groups",
+      "citation": "Llosa Isenrich thesis, physical36 / printed25",
+      "locator": {
+        "pdf_page": 36,
+        "printed_page": 25,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "scope_review": "Integral group cohomological dimension, not real dimension of the manifold or rational cohomological dimension. Existence target only; does not inherit the nearby overly broad low-dimensional commensurability question.",
+      "literature_finding": "Source explicitly leaves dimension3 existence open. Fresh exact cohomological-dimension-three Kähler queries found no construction or all-group obstruction;3-manifold and PD₃ restrictions have narrower hypotheses.",
+      "status_grade": "B: explicit primary-source question; bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered Kähler-group retrieval has no equivalent target. Whole corpus Kähler-family retrieval outside this thesis has no same target; repeated introduction/chapter candidates merged.",
+      "statement_ids": [
+        "e811f26dea1778683d09"
+      ],
+      "statement_id": "e811f26dea1778683d09",
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ],
+      "number": 4943,
+      "source_locator": {
+        "label": null,
+        "printed_page": 25,
+        "held_pdf_page": 36,
+        "original_extraction_page": 36
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Relative homotopy for maps with fibre-isolated critical points",
+      "text": "Let X be a compact connected complex manifold, Y a positive-dimensional complex torus or a closed Riemann surface of positive genus, and h:X→Y a surjective holomorphic map with connected generic smooth fibre H. Suppose Crit(h)∩h⁻¹(y) is discrete for every y∈Y. Pull h back along the universal cover Ỹ→Y to obtain X̂→Ỹ and identify H with a generic fibre in X̂. Must πᵢ(X̂,H)=0 for every i≤dim_ℂH? If dim_ℂH≥2, must h_*:π₁X→π₁Y be surjective with kernel isomorphic to π₁H?",
+      "subject": "Topology & Kähler Groups",
+      "citation": "Llosa Isenrich thesis, physical103 / printed92",
+      "locator": {
+        "pdf_page": 103,
+        "printed_page": 92,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "scope_review": "Source isolated singularities means discrete critical points in each fibre (physical173), not a globally discrete critical locus. X need not be Kähler; preserve both homotopy and fundamental-group clauses.",
+      "literature_finding": "Fresh exact source-conjecture and higher-dimensional-torus searches located the2020 restricted higher-dimensional extension with extra factorization conditions, and2025 constructions for elliptic targets or finite maps. Neither gives the full unrestricted Conjecture6.1.2; no closure located.",
+      "status_grade": "B: explicit primary-source question; bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered Kähler-group retrieval has no equivalent target. Whole corpus Kähler-family retrieval outside this thesis has no same target; repeated introduction/chapter candidates merged.",
+      "statement_ids": [
+        "7bc7fcf0ddfa51c4f3d2",
+        "6afa63b11d5381366544",
+        "aa8f9e322b0c78422866"
+      ],
+      "statement_id": "7bc7fcf0ddfa51c4f3d2",
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ],
+      "number": 4944,
+      "source_locator": {
+        "label": "Conjecture 6.1.2",
+        "printed_page": 92,
+        "held_pdf_page": 103,
+        "original_extraction_page": 103
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Kähler kernels of epimorphisms from surface products to free abelian groups",
+      "text": "A Kähler group is the fundamental group of a compact connected Kähler manifold. For r≥1, gᵢ≥2, k≥0 and an epimorphism φ:π₁(S_g₁)×⋯×π₁(S_gᵣ)→ℤᵏ, characterize exactly when kerφ is a Kähler group.",
+      "subject": "Topology & Kähler Groups",
+      "citation": "Llosa Isenrich thesis, physical130 / printed119",
+      "locator": {
+        "pdf_page": 130,
+        "printed_page": 119,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "scope_review": "This is the coabelian specialization of the general subgroup-classification target, with φ specified as part of the data.2020 excludes every odd-rank epimorphism and2024 handles low rank; these are recorded as partial closures.",
+      "literature_finding": "2024 AGT§6 explicitly completes classification for maps toℤ³ and quotes2020 exclusion for all odd ranks. General even-rank kernel classification remains outside those theorems; fresh classification search found no full result.",
+      "status_grade": "B: explicit primary-source question; bounded fresh literature assessment",
+      "duplicate_of": [],
+      "duplicate_review": "Full numbered Kähler-group retrieval has no equivalent target. Whole corpus Kähler-family retrieval outside this thesis has no same target; repeated introduction/chapter candidates merged.",
+      "statement_ids": [
+        "64e8998d1a52da8857b9"
+      ],
+      "statement_id": "64e8998d1a52da8857b9",
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ],
+      "number": 4945,
+      "source_locator": {
+        "label": "Question 4",
+        "printed_page": 119,
+        "held_pdf_page": 130,
+        "original_extraction_page": 130
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "reason": "Same source target merged into43ba2d7be4dab05cab20.",
+      "locator": {
+        "pdf_page": 35,
+        "printed_page": 24,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "statement_id": "45b2bf0ee174440dda78",
+      "statement_ids": [
+        "45b2bf0ee174440dda78"
+      ],
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same source target merged into7bc7fcf0ddfa51c4f3d2.",
+      "locator": {
+        "pdf_page": 103,
+        "printed_page": 92,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "statement_id": "6afa63b11d5381366544",
+      "statement_ids": [
+        "6afa63b11d5381366544"
+      ],
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "reason": "Same source target merged into7bc7fcf0ddfa51c4f3d2.",
+      "locator": {
+        "pdf_page": 103,
+        "printed_page": 92,
+        "verified_from": "Actual physical PDF and printed footer"
+      },
+      "statement_id": "aa8f9e322b0c78422866",
+      "statement_ids": [
+        "aa8f9e322b0c78422866"
+      ],
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "2020 Llosa Isenrich Corollary1.6 proves that kernel of every epimorphism from a product of closed hyperbolic surface groups toℤ^(2k+1) is not Kähler; quoted as2024AGT Theorem6.3.",
+      "locator": {
+        "pdf_page": 145,
+        "printed_page": 134,
+        "verified_from": "Held actual question paragraph"
+      },
+      "statement_id": "d181b325b358f503c42c",
+      "statement_ids": [
+        "d181b325b358f503c42c"
+      ],
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Existence of explicit finite presentations for DPS examples is answered constructively in thesisChapter5 and author2017 primarypaper. A complete classification version is not the literal existence target.",
+      "locator": {
+        "pdf_page": 43,
+        "printed_page": 32,
+        "verified_from": "HeldQuestion3 and source thesisChapter5"
+      },
+      "statement_id": "5eceacd413357cbf41fd",
+      "statement_ids": [
+        "5eceacd413357cbf41fd"
+      ],
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Existence of explicit finite presentations for DPS examples is answered constructively in thesisChapter5 and author2017 primarypaper. A complete classification version is not the literal existence target.",
+      "locator": {
+        "pdf_page": 43,
+        "printed_page": 32,
+        "verified_from": "HeldQuestion3 and source thesisChapter5"
+      },
+      "statement_id": "843c9683305d23a18bfe",
+      "statement_ids": [
+        "843c9683305d23a18bfe"
+      ],
+      "source_pdf_sha256": "691d89c19a466878139a89c73dae1abab24ea738301f8ebe3aea7652b0950327",
+      "review_date": "2026-10-13",
+      "reviewer": "successor retained reviewer /root/b14_local_optima; earlier session unavailable",
+      "primary_urls": [
+        "https://arxiv.org/html/2602.22493v1",
+        "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf",
+        "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf",
+        "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0021869316304720"
+      ],
+      "search_topics": [
+        "\"Kähler groups\" \"nilpotency class\" 2025 2026",
+        "\"Kähler groups\" \"cohomological dimension three\"",
+        "\"Llosa Isenrich\" \"Conjecture\" \"isolated singularities\"",
+        "\"Kähler subgroups\" \"direct products\" \"classification\" 2026",
+        "\"cohomological dimension three\" \"Kähler\" -site:researchgate.net",
+        "\"Llosa\" \"Conjecture 6.1.2\"",
+        "\"Kähler subgroups\" \"direct products\" \"open\" rank"
+      ]
+    },
+    {
+      "decision": "hold",
+      "statement_id": "ed3bbd38ea69d8730fcf",
+      "statement_ids": [
+        "ed3bbd38ea69d8730fcf"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "a1f671df11b9a17a76e5",
+      "statement_ids": [
+        "a1f671df11b9a17a76e5"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "db659d413ab336b06a76",
+      "statement_ids": [
+        "db659d413ab336b06a76"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "fab5d24f1fa0a3446a94",
+      "statement_ids": [
+        "fab5d24f1fa0a3446a94"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "2d2d0256b9970d6ab73b",
+      "statement_ids": [
+        "2d2d0256b9970d6ab73b"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    },
+    {
+      "decision": "hold",
+      "statement_id": "d581e12c6f78d5286341",
+      "statement_ids": [
+        "d581e12c6f78d5286341"
+      ],
+      "reason": "Not independently reviewed in this bounded packet; remains active.",
+      "review_date": "2026-10-13"
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Llosa Isenrich",
+      "K.hler.*group",
+      "group.*K.hler",
+      "isolated singularit",
+      "surface.group.*kernel"
+    ],
+    "method": "Full numbered catalog family/source/identifier retrieval and whole-corpus source sibling comparison, manually compared in each decision. No universal equivalence certificate."
+  }
+}

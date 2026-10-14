@@ -1,0 +1,1582 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "rec:li  zhenkun ph  d massachusetts institute of technology|2020",
+  "source_review_notes": [
+    "Five recommendations,21 excluded/held records, including one exact trace passage merger. Current author work contains several actual closures; none counted as another open entry.",
+    "HeldMITPDF267 pages, printed=physical. Read question pages and nearby definitions/theorems19–30,34–46,56–62,71–89,140–152,195–199.",
+    "Question14 is both already-proved in intended nontrivial scope and false with the literal unknot; Question13 is now solved in its intended scope.",
+    "Depth notation ambiguity repaired using final primary product-depth0 convention; hierarchy and foliation depths remain explicitly distinct.",
+    "Broad “how related” questions remain unnumbered if known partial relationships make the residual target ambiguous."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Zhenkun Li\" publications2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured monopole\" \"Pin(2)\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Zhenkun Li\" \"irreducible\" \"3-surgery\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"instanton\" \"tau\" \"s sharp\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Zhenkun Li\" Floer homepage"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured\" \"Pin(2)\" \"Floer\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured instanton\" \"trace\" cobordism duality"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"instanton knot\" \"fibered\" \"next-to-top\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured\" \"depth\" \"Li\" \"Ye\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured instanton\" \"multivariable Alexander\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"instanton\" \"overtwisted\" \"gluing map\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured monopole\" \"naturality\" \"unit\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"instanton\" \"contact invariant\" \"analytic\"2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"τI\" \"s sharp\" instanton"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Pin(2)\" \"sutured\" invariant"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured instanton\" \"analytic definition\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured monopole\" \"remove\" \"ambiguity\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"tau\" \"s^sharp\" \"instanton\" relation"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured manifold\" \"H_2\" \"depth\" \"2025\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured manifold\" \"second homology\" \"depth\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured instanton\" \"canonical\" \"closure\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Pin(2)\" \"sutured\" \"2026\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured instanton\" \"analytical\" contact invariant"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured\" \"trace\" \"Li\" \"Conjecture\""
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Pin(2)\" \"sutured monopole Floer\"2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/",
+      "sections_read": "Current mathematical author works; identity matchesMIT2020/Stanford and2025AMSS, not civil-engineering namesakes."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1305.4156",
+      "sections_read": "Projectively transitive closure systems, scalar conventions and exact identity/composition statements."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1810.13071",
+      "sections_read": "Introduction analytic-contact question, Conjecture5.13 trace map, reversal-duality theorem and instanton extension."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1910.10842",
+      "sections_read": "Depth theoremH₂=0 and product-depth0 convention; later general grading construction."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2003.02891",
+      "sections_read": "Theorem1.5 gives foliation-depth2^{k+6}, stillH₂=0; different from hierarchy-depth2k."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1910.01758v4",
+      "sections_read": "Theorems1.2/1.6 identifyτ_G withτ_G^sharp andτ_M withτ_H; several instanton subcases only."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2101.05169v4",
+      "sections_read": "Main graded-Euler-characteristic theorem and multi-variable link Alexander corollary."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2206.10077",
+      "sections_read": "Integral surgery theorem plus scalar§2.3/bypass diagrams; canonical global unit removal not claimed."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2107.11005",
+      "sections_read": "Proposition4.14 with whole-space gluing vanishing, not only subspace of contact elements."
+    },
+    {
+      "url": "https://arxiv.org/abs/2110.02874",
+      "sections_read": "Exact3-surgery theorem for every nontrivial knot;GT2024 bibliographic evidence."
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.03063",
+      "sections_read": "2025 closed-rational-homology-spherePin(2) equivalence assumptions, not a sutured construction."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/kc1e74da0ced5.pdf",
+    "sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+    "physical_pages": 267
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "5d509b0d61d2e1db1e5498fe457136e4b14c8203ba7d76ebf19da383aaf40ada",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "A Pin(2)-equivariant sutured monopole Floer theory",
+      "text": "A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Can one construct a Pin(2)-equivariant version of sutured monopole Floer homology, with isomorphism type independent of the auxiliary closure data, in the sense of a sutured analogue of Lin’s Pin(2)-monopole Floer theory?",
+      "subject": "Geometric Topology & Floer Homology",
+      "citation": "Question 1, printed/physical30",
+      "locator": {
+        "printed_page": 30,
+        "pdf_page": 30,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "scope_review": "A construction question, not a claim that the usual top Spinᶜ summand is already Pin(2)-invariant. Invariance under closure choices is the surrounding definition of a sutured theory; no particular coefficient ring or new numerical invariant is imposed.",
+      "literature_finding": "Current author works were inspected. The2025 Pandit equivalence theorem concerns closed rational homology spheres with self-conjugate Spinᶜ structure and does not produce a sutured invariant. No exact sutured construction located.",
+      "status_grade": "B: exact source question and relevant primary theorems audited; bounded current literature review, not certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog retrieval for Li author aliases, sutured, instanton and Pin(2) finds Q2630 (contact nonvanishing for incompressible strongly quasipositive surfaces) and unrelated Q1653 via incidental text. Neither is this target. Original same-source extracts are merged when exact.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/",
+        "https://arxiv.org/abs/2503.03063",
+        "https://arxiv.org/pdf/1305.4156"
+      ],
+      "statement_id": "6da4f7d2f532d369e14c",
+      "statement_ids": [
+        "6da4f7d2f532d369e14c"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ],
+      "number": 4876,
+      "source_locator": {
+        "label": "Question 1",
+        "printed_page": 30,
+        "held_pdf_page": 30,
+        "original_extraction_page": 30
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Remove the unit ambiguity in sutured monopole and instanton naturality",
+      "text": "A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Can the naturality identifications for sutured monopole and sutured instanton Floer homology be defined canonically as actual linear maps, rather than only up to multiplication by a unit of the coefficient ring, compatibly with identity maps and composition? In the monopole theory use the Novikov coefficients of the closure construction; in the instanton theory useℂ. The question concerns the closure-independent theory, not an arbitrary basis chosen in each closure.",
+      "subject": "Geometric Topology & Floer Homology",
+      "citation": "Question 4, printed/physical46",
+      "locator": {
+        "printed_page": 46,
+        "pdf_page": 46,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "scope_review": "Retains both theories and removal of scalar/unit ambiguity. Existing projectively transitive systems and noncanonical simultaneous scalar choices for a selected diagram are weaker.",
+      "literature_finding": "Baldwin–Sivek naturality and Li cobordism maps are projective. Li–Ye surgery formula§2.3 fixes selected scalars to prove formula diagrams, while still stating general bypass relations up to scalars. This does not supply canonical nonprojective naturality for all sutured manifolds.",
+      "status_grade": "B: exact source question and relevant primary theorems audited; bounded current literature review, not certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog retrieval for Li author aliases, sutured, instanton and Pin(2) finds Q2630 (contact nonvanishing for incompressible strongly quasipositive surfaces) and unrelated Q1653 via incidental text. Neither is this target. Original same-source extracts are merged when exact.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1305.4156",
+        "https://arxiv.org/pdf/1810.13071",
+        "https://arxiv.org/pdf/2206.10077",
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "2731979dd33bce03153a",
+      "statement_ids": [
+        "2731979dd33bce03153a"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ],
+      "number": 4877,
+      "source_locator": {
+        "label": "Question 4",
+        "printed_page": 46,
+        "held_pdf_page": 46,
+        "original_extraction_page": 46
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Sutured Floer rank-depth bounds without vanishing second homology",
+      "text": "A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Suppose (M,γ) is taut: M is irreducible and R₊,R₋ are incompressible and Thurston-norm minimizing. For G=M (sutured monopole Floer homology with Novikov-field coefficients) or G=I (sutured instanton homology overℂ), and every integer k≥0, does rank SHG(M,γ)<2^{k+1} imply d(M,γ)≤2k without assuming H₂(M;ℤ)=0? Here d is the sutured-hierarchy depth in Definition 2.1.19: the minimum n admitting a taut hierarchy (M₀,γ₀)→⋯→(M_{n+1},γ_{n+1}) from (M,γ) to a product sutured manifold, using the source's indexing convention.",
+      "subject": "Geometric Topology & Floer Homology",
+      "citation": "Question 8, printed/physical60",
+      "locator": {
+        "printed_page": 60,
+        "pdf_page": 60,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "scope_review": "The source formula is2k, not2^k or the later foliation bound2^{k+6}. Hierarchy depth and minimum depth of a taut foliation are different quantities. The indexing typo in the displayed hierarchy is resolved by the explicit product-depth0 convention of the counterpart. Independent check of physical PDF25/Definition2.1.19 recovers the source indexing; no off-by-one interpretation as a raw decomposition count.",
+      "literature_finding": "Ghosh–Li’s final decomposition theorem still assumes H₂(M)=0. Li’s foliation-depth theorem also retains that hypothesis and proves a different exponential bound. No exact hypothesis-free hierarchy extension located in later author work.",
+      "status_grade": "B: exact source question and relevant primary theorems audited; bounded current literature review, not certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog retrieval for Li author aliases, sutured, instanton and Pin(2) finds Q2630 (contact nonvanishing for incompressible strongly quasipositive surfaces) and unrelated Q1653 via incidental text. Neither is this target. Original same-source extracts are merged when exact.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1910.10842",
+        "https://arxiv.org/pdf/2003.02891",
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "72365d51fb56a57fd59d",
+      "statement_ids": [
+        "72365d51fb56a57fd59d"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ],
+      "number": 4878,
+      "source_locator": {
+        "label": "Question 8",
+        "printed_page": 60,
+        "held_pdf_page": 60,
+        "original_extraction_page": 60
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "An analytic construction of the sutured instanton contact element",
+      "text": "A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Let ξ be a positive contact structure on M with convex boundary and dividing setγ. Is there a direct analytic gauge-theoretic construction of the contact class in SHI(−M,−γ) that agrees, up to its natural nonzero complex scalar ambiguity, with the Baldwin–Sivek class obtained by composing contact-handle maps from the standard contact3-ball?",
+      "subject": "Geometric Topology & Floer Homology",
+      "citation": "Question 11, printed/physical71",
+      "locator": {
+        "printed_page": 71,
+        "pdf_page": 71,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "scope_review": "Requests an analytic description of the existing contact class, not just an invariant with the same vanishing pattern. The source explicitly contrasts the available monopole analytic contact construction and the instanton handle construction.",
+      "literature_finding": "Baldwin–Sivek constructs the instanton class topologically through handles; Li’s gluing paper explicitly asks for its analytic correspondence. Later contact vanishing/large surgery theorems use that class and do not provide the requested direct analytic construction. No exact new construction located.",
+      "status_grade": "B: exact source question and relevant primary theorems audited; bounded current literature review, not certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog retrieval for Li author aliases, sutured, instanton and Pin(2) finds Q2630 (contact nonvanishing for incompressible strongly quasipositive surfaces) and unrelated Q1653 via incidental text. Neither is this target. Original same-source extracts are merged when exact.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1405.3278",
+        "https://arxiv.org/pdf/1810.13071",
+        "https://arxiv.org/pdf/2107.11005",
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "0ad622492a733e3c690f",
+      "statement_ids": [
+        "0ad622492a733e3c690f"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ],
+      "number": 4879,
+      "source_locator": {
+        "label": "Question 11",
+        "printed_page": 71,
+        "held_pdf_page": 71,
+        "original_extraction_page": 71
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The sutured trace cobordism induces the evaluation pairing",
+      "text": "A balanced sutured manifold (M,γ) consists of a compact oriented3-manifold with no closed components and oriented sutures γ⊂∂M whose annular neighbourhood separates ∂M into R₊ and R₋, with no closed components of R₊∪R₋ and χ(R₊)=χ(R₋). Let 𝒲=(M×[0,1],∂M×[0,1],[ξ₀]) be the sutured trace cobordism from (M,γ)⊔(−M,−γ) to the empty sutured manifold, where ξ₀ is the invariant product contact structure having dividing setγ. For sutured monopole or instanton homology, is SHG(𝒲) equal, up to the natural unit ambiguity, to tr∘i? Here i is the Künneth map to SHG(M,γ)⊗SHG(−M,−γ), and tr(a⊗b)=b(a) uses the canonical duality pairing.",
+      "subject": "Geometric Topology & Floer Homology",
+      "citation": "Conjecture 3.7.6, printed/physical152",
+      "locator": {
+        "printed_page": 152,
+        "pdf_page": 152,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "scope_review": "Restores the negative suture on the oppositely oriented incoming factor from the preceding source paragraph. All current maps are projective, so literal normalization-independent equality is not asserted. Question26 is the same trace-map question and is merged.",
+      "literature_finding": "Counterpart Conjecture5.13 of Li’s gluing/cobordism paper retains the trace identity after proving duality of reversed cobordisms. Those duality statements alone do not identify the trace map. No exact later general trace proof located; source chronology is recorded as older primary evidence.",
+      "status_grade": "B: exact source question and relevant primary theorems audited; bounded current literature review, not certified openness",
+      "duplicate_of": [],
+      "duplicate_review": "Full4825-catalog retrieval for Li author aliases, sutured, instanton and Pin(2) finds Q2630 (contact nonvanishing for incompressible strongly quasipositive surfaces) and unrelated Q1653 via incidental text. Neither is this target. Original same-source extracts are merged when exact.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1810.13071",
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_ids": [
+        "1b6de0079280a9c03bde",
+        "a6fe30423d8aa9830678"
+      ],
+      "statement_id": "1b6de0079280a9c03bde",
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ],
+      "number": 4880,
+      "source_locator": {
+        "label": "Conjecture 3.7.6",
+        "printed_page": 152,
+        "held_pdf_page": 152,
+        "original_extraction_page": 152
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "citation": "Question 2",
+      "locator": {
+        "printed_page": 34,
+        "pdf_page": 34,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Representation-variety interpretation of μ(Σ) eigenvalues is a broad mechanism question with no specified representation-space operator or correspondence; hold until an exact proposed relationship is available.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "6866efeafec973d6efa6",
+      "statement_ids": [
+        "6866efeafec973d6efa6"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 3",
+      "locator": {
+        "printed_page": 39,
+        "pdf_page": 39,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "General relationship of SHI to representations already has many detection/rank results, but no exact requested equation/construction is fixed. Do not invent a full representation-variety categorification claim.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "a63521482490968b13f1",
+      "statement_ids": [
+        "a63521482490968b13f1"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 5",
+      "locator": {
+        "printed_page": 46,
+        "pdf_page": 46,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Canonical closure is not specified up to which category/equivalence or required functoriality. The nearby closure-dependent theory is already independent up to projective isomorphism; hold the stronger intended geometric choice.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "28ad3cdcb9b723875637",
+      "statement_ids": [
+        "28ad3cdcb9b723875637"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 7",
+      "locator": {
+        "printed_page": 58,
+        "pdf_page": 58,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "General j_G grading-shift formula is precise only after normalizations and nonzero-homology conventions are fixed. Later comparison/Euler results and many special shift computations were read, but exact status of an all-surface explicit formula is not established; hold.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "348726ea547ab197becc",
+      "statement_ids": [
+        "348726ea547ab197becc"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 9",
+      "locator": {
+        "printed_page": 61,
+        "pdf_page": 61,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Li’s2020 preprint/finalMRL theorem gives Floer-dimension bounds for minimal taut-foliation depth when H₂=0. The source broad “can be used to bound” clause has thus been answered in its established scope; a hypothesis-free stronger target is not literally stated here. Preserve any possible stronger remainder unnumbered.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2003.02891"
+      ],
+      "statement_id": "ea3eb8ea5f9d8562659e",
+      "statement_ids": [
+        "ea3eb8ea5f9d8562659e"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 10",
+      "locator": {
+        "printed_page": 62,
+        "pdf_page": 62,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "What can be said about a general balanced sutured manifold is an unspecified extension programme following a torus-boundary norm theorem, not a standalone claim.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "97b4e19560849c6b50aa",
+      "statement_ids": [
+        "97b4e19560849c6b50aa"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 12",
+      "locator": {
+        "printed_page": 78,
+        "pdf_page": 78,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Which handlebodies can be computed is an open-ended computational programme; subsequent Heegaard-diagram and surgery techniques cover many cases. No precise family/complexity contract singled out by the question.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "54bd0fb5d6e406dcc38c",
+      "statement_ids": [
+        "54bd0fb5d6e406dcc38c"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Question 13",
+      "locator": {
+        "printed_page": 80,
+        "pdf_page": 80,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Intended nontrivial-knot3-surgery question closed negatively by Baldwin–Li–Sivek–Ye, GT2024, Theorem1.1. The literal sentence also omits nontriviality, in which case the unknot gives a lens space immediately; no new open target under either reading.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2110.02874"
+      ],
+      "statement_id": "3a4f0caa0407175e278a",
+      "statement_ids": [
+        "3a4f0caa0407175e278a"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Question 14",
+      "locator": {
+        "printed_page": 82,
+        "pdf_page": 82,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "For nontrivial fibred knots this is already Proposition2.8.9 immediately above in the held thesis, with symmetry for ±(g−1). The literal statement includes the unknot, for which the requested degree is outside genus support and is false. No promotion.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "f883d8f6c6421b0e77b6",
+      "statement_ids": [
+        "f883d8f6c6421b0e77b6"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Question 15",
+      "locator": {
+        "printed_page": 82,
+        "pdf_page": 82,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Multi-variable graded Euler characteristic in instanton theory is established by Li–Ye2101.05169, Theorem1.2 and link corollary; monopole comparison supplies the corresponding theory. No new question merely from older automatic label.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2101.05169v4"
+      ],
+      "statement_id": "f092c8dedd31aa65e3a9",
+      "statement_ids": [
+        "f092c8dedd31aa65e3a9"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 17",
+      "locator": {
+        "printed_page": 83,
+        "pdf_page": 83,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "“Suitable version” of unoriented skein relation leaves correction factors, framings and grading unspecified. Instanton hat theory is already isomorphic to I♮, whose exact triangle is stated immediately above. A remaining monopole-specific exact triangle must be formulated before promotion.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "c7bf50bffce41820d360",
+      "statement_ids": [
+        "c7bf50bffce41820d360"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 18",
+      "locator": {
+        "printed_page": 86,
+        "pdf_page": 86,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "New contact/transverse invariants from sutured tangles are a programme with no required construction/effectiveness claim; do not count any unnamed new invariant as a precise target.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "e806e0585a3b73153d1a",
+      "statement_ids": [
+        "e806e0585a3b73153d1a"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 19",
+      "locator": {
+        "printed_page": 88,
+        "pdf_page": 88,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "The monopole branch is closed by Ghosh–Li–Wong Theorem1.6 τ_M=τ_H. Instanton branch has equality on several classes and equality with Baldwin–Sivek τ_I^sharp; the broad “how related” text does not itself specify universal equality, so retain possible stronger residual unnumbered.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1910.01758v4"
+      ],
+      "statement_id": "3d89c0cd5df3d6bcfa5b",
+      "statement_ids": [
+        "3d89c0cd5df3d6bcfa5b"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 20",
+      "locator": {
+        "printed_page": 88,
+        "pdf_page": 88,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "“Possibly related” τ_I to representations lacks a specified equation, bounds or moduli-space invariant. Later surgical descriptions give relationships already; hold exact residual scope.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "8e8a46195b9c90feb515",
+      "statement_ids": [
+        "8e8a46195b9c90feb515"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 21",
+      "locator": {
+        "printed_page": 88,
+        "pdf_page": 88,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Broad relation to Kronheimer–Mrowka s^sharp needs normalization and an exact asserted formula/bound. The new Daemi–Scaduto special-cycle invariants are distinct from Li’s τ_I; no substitution of their formulas for a full answer, and no invented open equality.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "2d6306bbf21aba4cdc2a",
+      "statement_ids": [
+        "2d6306bbf21aba4cdc2a"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 22",
+      "locator": {
+        "printed_page": 89,
+        "pdf_page": 89,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Relationship of equivariant singular Ĩ/Î flavours and KHI− is not an exact map/isomorphism statement. Recent special-cycle theories supply different comparisons; a full proposed correspondence needs a definite target.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "6234bd21a4884b26cc5c",
+      "statement_ids": [
+        "6234bd21a4884b26cc5c"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 23",
+      "locator": {
+        "printed_page": 89,
+        "pdf_page": 89,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "The explicit surgery-formula branch is answered by Li–Ye2206.10077 and companion rational surgery results. The opening relationship across all flavours is broader and unspecific; hold that residual rather than declare every instanton flavour comparison solved.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2206.10077"
+      ],
+      "statement_id": "ac6684ee6d2b2db8e3a5",
+      "statement_ids": [
+        "ac6684ee6d2b2db8e3a5"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "citation": "Question 25",
+      "locator": {
+        "printed_page": 141,
+        "pdf_page": 141,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Overtwisted instanton contact classes vanish; Li–Ye2107.11005 Proposition4.14 proves vanishing of the whole gluing map whenever the complementary contact element vanishes. Thus the stated overtwisted gluing-map implication is closed, not just vanishing on contact generators.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/2107.11005"
+      ],
+      "statement_id": "5a3a12508a7024d28fa9",
+      "statement_ids": [
+        "5a3a12508a7024d28fa9"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "citation": "Question 26",
+      "locator": {
+        "printed_page": 152,
+        "pdf_page": 152,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Exact duplicate source passage of Conjecture3.7.6; merged into that recommendation with no second number.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "a6fe30423d8aa9830678",
+      "statement_ids": [
+        "a6fe30423d8aa9830678"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 27",
+      "locator": {
+        "printed_page": 195,
+        "pdf_page": 195,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Non-adjacent bypass maps question leaves desired map relations unspecified. The surrounding adjacent maps and later bypass surgery identities do not select a new standalone non-adjacent theorem.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "f47d3687187e214d3607",
+      "statement_ids": [
+        "f47d3687187e214d3607"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "citation": "Question 28",
+      "locator": {
+        "printed_page": 199,
+        "pdf_page": 199,
+        "verified_from": "Actual held267-page MIT PDF footer and physical page coincide."
+      },
+      "reason": "Exact general solid-torus count requires a settled convention for boundary characteristic foliation/isotopy and whether a closed formula versus known classification algorithms is requested. Existing Honda and later matrix presentations address classification, but the precise remaining formula status is not secured; hold.",
+      "primary_urls": [
+        "https://zhenkun-li.com/%E6%88%90%E6%9E%9C/"
+      ],
+      "statement_id": "68636e0beecba7a7891c",
+      "statement_ids": [
+        "68636e0beecba7a7891c"
+      ],
+      "source_pdf_sha256": "c9ac40bd27d30bd1573d1360ee9fc97a1d9911ef93b1afa359a3d1663603e0d9",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "\"Zhenkun Li\" publications2026",
+        "\"sutured monopole\" \"Pin(2)\"",
+        "\"Zhenkun Li\" \"irreducible\" \"3-surgery\"",
+        "\"instanton\" \"tau\" \"s sharp\"2026",
+        "\"Zhenkun Li\" Floer homepage",
+        "\"sutured\" \"Pin(2)\" \"Floer\"",
+        "\"sutured instanton\" \"trace\" cobordism duality",
+        "\"instanton knot\" \"fibered\" \"next-to-top\"",
+        "\"sutured monopole\" \"Pin(2)\" -site:researchgate.net",
+        "\"sutured\" \"depth\" \"Li\" \"Ye\"",
+        "\"sutured instanton\" \"multivariable Alexander\"",
+        "\"instanton\" \"overtwisted\" \"gluing map\"",
+        "\"sutured monopole\" \"naturality\" \"unit\"2026",
+        "\"instanton\" \"contact invariant\" \"analytic\"2026",
+        "\"τI\" \"s sharp\" instanton",
+        "\"tight contact structures\" \"solid torus\" \"many\" dividing curves count",
+        "\"Pin(2)\" \"sutured\" invariant",
+        "\"sutured instanton\" \"analytic definition\"",
+        "\"sutured monopole\" \"remove\" \"ambiguity\"",
+        "\"tau\" \"s^sharp\" \"instanton\" relation",
+        "\"sutured manifold\" \"H_2\" \"depth\" \"2025\"",
+        "\"sutured manifold\" \"second homology\" \"depth\"",
+        "\"sutured instanton\" \"canonical\" \"closure\" \"2026\"",
+        "\"Pin(2)\" \"sutured\" \"2026\"",
+        "\"sutured instanton\" \"analytical\" contact invariant",
+        "\"sutured\" \"trace\" \"Li\" \"Conjecture\"",
+        "\"Pin(2)\" \"sutured monopole Floer\"2025 2026",
+        "\"sutured monopole\" \"scalar\" \"naturality\"2025 2026"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Zhenkun",
+      "sutured",
+      "instanton",
+      "Pin.2.",
+      "tight.*solid tor"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

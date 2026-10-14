@@ -1,6 +1,6 @@
 # Open problems from doctoral theses and recent papers
 
-A catalog of **4786 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
+A catalog of **5035 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
 papers. Each comes with its source, its exact location in that source, a dated literature check, and every result
 obtained on it. Problems already solved elsewhere are left out.
 
@@ -13,23 +13,26 @@ failed attempts. The [three external B2 continuations](solutions/b2-returned-rou
 add 18 scoped results while Q4296 and Q4660 remain partial. All 104 recent result
 records are indexed in [data/research-results.json](data/research-results.json).
 
+The 249 reviewed extraction promotions (Q4801–Q5049) preserve their original statement IDs. Each records its source reading, scope and dated primary-literature review. Extracts already mapped to these or existing questions are not repeated as raw candidates. [The candidate archive](data/archived-statements.jsonl.gz) preserves their original text, IDs, provenance and final dispositions. [Source reviews and audits](reviews/statement-promotions/README.md) accompany the promotions. Unresolved remainders remain in the active candidate view.
+
+
 | | Count |
 |---|---:|
-| Problems in the catalog | 4786 |
-| Open | 4587 |
+| Problems in the catalog | 5035 |
+| Open | 4836 |
 | Open, with partial results here | 134 |
 | Solved here | 65 (46 proved, 19 disproved) |
 | Excluded as solved elsewhere | 14 |
-| Automatically extracted thesis statements (unreviewed) | 10001 |
+| Automatically extracted thesis statements (unreviewed) | 9556 |
 
 ## Where to start
 
-- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q4800)
+- **[Problems by subject](problems/README.md)**: one page per subject. Each problem has a stable number (Q1–Q5049)
   and an anchor, for example `problems/mathematics/combinatorics-graph-theory.md#q123`.
 - **[Index by number](problems/INDEX.md)**: every problem, its subject and status, in blocks of 500.
 - **[Solutions](solutions/README.md)**: proofs, counterexamples, partial results, research reports, scripts and
   certificates, grouped by research round. Each problem page links to the results on it.
-- **[Thesis statements](statements/README.md)**: 10001 further conjectures and open-problem sentences extracted
+- **[Thesis statements](statements/README.md)**: 9556 further conjectures and open-problem sentences extracted
   automatically from theses. These are raw candidates, not curated problems.
 - **[Sources](sources/README.md)**: every cited document with a link. [`tools/fetch_sources.py`](tools/README.md)
   downloads them for local use.
@@ -72,7 +75,7 @@ mean an independently verified theorem. Reports of errors are welcome.
 - a recent preprint reports a closure;
 - a corrected edition of the source answered it.
 
-The same rule removed 30 of the automatically extracted thesis statements.
+The same rule removed 149 of the automatically extracted thesis statements.
 
 **Source texts are not included.** Most are under copyright. Links are given instead.
 

@@ -1,0 +1,98 @@
+{
+  "schema": "statement-promotion-independent-duplicate-recheck-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "retrieval_sha256": "fce399c972fdf9a51efc6bc87f96aa0f4ab207215e73b662960400d2858fe6ca",
+  "baseline_count": 4800,
+  "live_catalog_count_at_retrieval": 4909,
+  "reviewed_record_count": 175,
+  "known_duplicate_corrections": [
+    {
+      "statement_id": "09c3c6cadbbcc0670ee2",
+      "duplicate_of": [
+        1515
+      ],
+      "reason": "Fisher: a domain means exactly no nonzero factors with ab=0. All fields and torsion-free groups match."
+    },
+    {
+      "statement_id": "a897688564a0ba9c4239",
+      "duplicate_of": [
+        2721
+      ],
+      "reason": "Morales: same absolute profinite rigidity of f.g. free and closed hyperbolic surface groups. Nonhyperbolic surface cases are known and do not add a new open target."
+    },
+    {
+      "statement_id": "b85cb6904ea1d15ce87b",
+      "duplicate_of": [
+        1370
+      ],
+      "reason": "Lutz: a distinct ultrafilter with reducibility both ways is exactly weak Rudin–Keisler equivalence to Martin measure."
+    },
+    {
+      "statement_id": "3c086c2a4bf875146b02",
+      "duplicate_of": [
+        1371
+      ],
+      "reason": "Lutz: existence strictly above Martin measure and whether Martin measure is maximal ask opposite polarities of the same target."
+    },
+    {
+      "statement_id": "5ed041b0b54e5de139e8",
+      "duplicate_of": [
+        1175
+      ],
+      "reason": "Lichter: same CPT+WSC versus CPT Boolean strictness, on all finite relational structures."
+    },
+    {
+      "statement_id": "00147b8846fda6b6e546",
+      "duplicate_of": [
+        1174
+      ],
+      "reason": "Lichter: same bounded-colour canonization with supplied ordered colour partition and every fixed bound."
+    },
+    {
+      "statement_id": "e9752678f4ff7f1b4627",
+      "duplicate_of": [
+        189
+      ],
+      "reason": "Kumanduri: same oriented closed manifolds, stable range, integral homology and torsion condition."
+    },
+    {
+      "statement_id": "00853bdb56d791852298",
+      "duplicate_of": [
+        190
+      ],
+      "reason": "Kumanduri: exact boundary CP^n small-(n+1)-dilation target. Fixed compact metrics versus conventional metrics does not change zero infimum."
+    },
+    {
+      "statement_id": "7c7b42962c3bf0ef877d",
+      "duplicate_of": [
+        1290
+      ],
+      "reason": "Matheau-Raven: same positive-alpha separation cutoff. Adding the known alpha=1 case is not a new open target."
+    },
+    {
+      "statement_id": "d750a48c7c5e5b5e3b6d",
+      "duplicate_of": [
+        1291
+      ],
+      "reason": "Matheau-Raven: same source Conjecture 4.4.4 signed-shuffle cutoff. Expanding its displayed source bound and adding known alpha=0 does not create a distinct promoted source question."
+    }
+  ],
+  "specific_scope_comparisons": [
+    "Bhatia A_G is a random pair-network stratum in C^2, not the S3 intersection with a fixed deterministic geodesic in Q40 or the four deterministic-point intersection question Q38. Constant-probability finite LPP paths through the origin differs from Q39 complete exceptional bi-infinite-time existence and dimension.",
+    "Huang optimal energy for arbitrary polynomial-time algorithms differs from Q47 Max-Cut; arbitrary TV samplers at all temperatures differs from Q48 a specified annealing algorithm under a specified temperature condition.",
+    "Fruchter elementary invariance of acylindrical hyperbolicity differs from Q1618 quasi-isometry invariance and Q2327 passage to automorphism groups.",
+    "Fisher division-ring embedding is stronger than the no-zero-divisor target Q1515; group and ring coherence are different from Q2428 the geometric-dimension-two equivalence involving nonpositive immersions.",
+    "Kogler all-dimensional dimension formula differs from Q3857 absolute continuity. Gardam volume torsion-growth equality differs from shortest-geodesic volume Q1330; FIA cover abelianization rigidity differs from length-spectrum commensurability Q2123.",
+    "Matheau-Raven fixed-r generalized symmetric-group cutoff includes Q1291 as r=2 special case; the source same-colour increments for r>2 are a distinct larger process family. One-sided shuffle power-bias separation and TV metrics are not interchangeable.",
+    "Lutz arithmetic/hyperarithmetic dichotomies differ from Q1368 a local uniformly Turing-invariant continuity/jump target, Q1369 partial-order embedding, and Q1483 pointed-perfect restriction. Nonprincipal strict-below and two specified Lebesgue/Baire ultrafilters differ from Q1370 equivalence and Q1371 maximality.",
+    "Versteegen subpolynomial odd-Ramsey colour number differs from Q1551 interval-colouring thickness and Q1956 unique-colour clique Ramsey number; their n^{o(1)} forms alone are not an equivalence.",
+    "First25 Q4806 asks d colours for d-regular bipartite one-ended Borel graphs, whereas Q3383 asks d+1 for all bounded-degree Borel graphs. Flat arrow-polynomial realization differs from the flat Jones/enhanced Jones realization Q123.",
+    "Within accepted packets, source-declared specific/general variants retain separate full quantifiers. Cross-source shared vocabulary was screened; no further exact duplicate was identified. This does not certify absence of arbitrarily differently phrased equivalents."
+  ],
+  "verdict": "Kumanduri two and Matheau-Raven two successor acceptances corrected to duplicates. Root should override Fisher one, Morales one, Lutz two and Lichter two as listed. No additional exact baseline duplicate identified after this bounded all-packet recheck.",
+  "failure_analysis": "The initial helper searched whole JSON only by hand-picked family terms and same-source IDs. It did not force parent manifest/source aliases into the comparison. Q189 was retrieved but manually missed; Q190, Q1290/1291 and other compressed/formula-heavy questions need source identities and lower-ranked retrieval neighbors. Future helper packets now persist manifest author/title/source aliases. Scores remain retrieval aids, not disposition rules.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_receipt_sha256": "090a78ca09a372626a5ead4bc1d6b025b196dd46dab581b128c08141a3ad5a15"
+}

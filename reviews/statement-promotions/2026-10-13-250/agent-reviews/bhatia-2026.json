@@ -1,0 +1,503 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "rec:bhatia  manan|2026",
+  "source_review_notes": [
+    "Read held PDF pp.159,161,163–164,325–332,336–338,352–354. MIT thesis printed and physical PDF pages coincide. Pool source-identity filter misses the collection alias already supplying Q37–40. Q38’s exact unnumbered singleton-intersection problem was also read and is not re-promoted.",
+    "No new mathematical theorem, closure or numerical experiment is claimed. Three recommendations preserve the exact obligations, not just their proved confluence/finite-scale subcases."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Manan Bhatia geodesic networks Liouville strong confluence 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "metric removability geodesics Liouville quantum gravity Bhatia 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"metric removability\" \"vertical line\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"geodesic networks\" \"Liouville\" 2026 dimension"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Bhatia\" \"log n\" exceptional times 2026 exponential"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Manan Bhatia\" \"metric removability\" website"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://mananbhatia1701.github.io/manan/",
+      "sections": "Current author publication list including September 2026 and August 2026 work."
+    },
+    {
+      "url": "https://arxiv.org/html/2404.02862v1",
+      "sections": "Vertical-line question and metric-gluing definitions."
+    },
+    {
+      "url": "https://arxiv.org/html/2512.09219v2",
+      "sections": "§6.2, Problem 52; corresponding held thesis star/network setup."
+    },
+    {
+      "url": "https://arxiv.org/html/2504.12293",
+      "sections": "Theorem 3 and §5 Question 18; FPP/exponential model conventions."
+    },
+    {
+      "url": "https://arxiv.org/html/2609.35103",
+      "sections": "Introduction and passage-time discussion; Brownian scope and current exponential companion bound."
+    },
+    {
+      "url": "https://arxiv.org/html/2608.22693",
+      "sections": "Introductory geodesic and field conventions; uniformity scope."
+    }
+  ],
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/kc388f5c4c32a.pdf",
+    "sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+    "physical_pages": 466
+  },
+  "status_standard": "Dated bounded primary-source assessment. No search hit does not certify openness. Holds remain unnumbered.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "9cea667490ab9f2b2c536dcf50a080dcdfdf26dcb1ebe7a560a9f9d68bbf737f",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Metric removability of a deterministic vertical line in the directed landscape",
+      "text": "Let L be the directed landscape and ξ(r)=0 for 0≤r≤1. For deterministic p=(x,s), q=(y,t) with 0<s<t<1, let L^g_ξ(p;q) be the supremum of L-lengths of continuous directed paths from p to q that intersect the vertical curve {(0,r):0≤r≤1} at only finitely many times. Equivalently, this is the metric gluing of the restricted landscapes on the two sides of ξ, using Definition 5.9. Is L^g_ξ(p;q)=L(p;q) almost surely for every such deterministic pair p,q?",
+      "citation": "Question 5.1, printed/PDF p.161; formal metric-gluing Definitions 5.7–5.10, printed/PDF pp.163–164.",
+      "subject": "Probability & Stochastic Processes",
+      "locator": {
+        "printed_page": 161,
+        "pdf_page": 161,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "scope_review": "Read informal Question 5.1 and formal Definitions 5.7–5.10. The quantifier is each deterministic endpoint pair, as in Definition 5.10; do not silently strengthen it to simultaneous arbitrary random endpoints. Finite-intersection gluing, rather than a single path wholly confined to one side, is the source notion.",
+      "literature_finding": "The associated paper retains the vertical-line question; its interface-removability theorem and geodesic non-removability theorem concern different curves. The current author publication list and fresh exact-topic retrieval locate no resolution of the vertical line.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicit_question_no_exact_later_closure_located",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2404.02862v1",
+        "https://mananbhatia1701.github.io/manan/"
+      ],
+      "statement_id": "a33ec3e2d13e6e976366",
+      "statement_ids": [
+        "a33ec3e2d13e6e976366"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ],
+      "number": 4826,
+      "source_locator": {
+        "label": "Question 5.1",
+        "printed_page": 161,
+        "held_pdf_page": 161,
+        "original_extraction_page": 161
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Hausdorff dimensions of LQG geodesic-network strata",
+      "text": "Fix γ∈(0,2), a whole-plane Gaussian free field h, and its γ-Liouville quantum gravity metric D_h. Let S_k be the set of points from which k nonconstant D_h-geodesics emanate pairwise disjoint except at their common starting point. For a fixed geodesic-network graph G with its two endpoints distinguished, let A_G consist of distinct pairs (z,w)∈C² for which the union of all D_h-geodesics from z to w has network topology G. Determine the almost sure Hausdorff dimension of A_G in the product metric D_h×D_h in terms of the star dimensions {dim_{D_h}S_k}_{k≥1}, including establishing the required determinism of those star dimensions.",
+      "citation": "Problem 7.49, printed/PDF p.331; star and network definitions, printed/PDF pp.326,329–331. Current paper Problem 52, arXiv:2512.09219v2.",
+      "subject": "Probability & Stochastic Processes",
+      "locator": {
+        "printed_page": 331,
+        "pdf_page": 331,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "scope_review": "Read the network decomposition, star definition and footnote 11 requiring determinism. G encodes all geodesics between the endpoints, not a chosen single path. This asks dimensions of general network strata; Q40 concerns star points lying on one fixed geodesic, and Q38 excludes singleton intersections for four fixed endpoints.",
+      "literature_finding": "The August 2026 revision retains this as Problem 52. Strong confluence proves structural prerequisites, and known dense/typical-point network classifications do not give dimensions of all exceptional network strata. Fresh primary author work on dimension lower bounds and uniformity along geodesics does not supply this full classification.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicitly_retained",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2608.22693",
+        "https://arxiv.org/abs/2010.11260",
+        "https://mananbhatia1701.github.io/manan/"
+      ],
+      "statement_id": "535afbef52468d6ec4cf",
+      "statement_ids": [
+        "535afbef52468d6ec4cf"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ],
+      "number": 4827,
+      "source_locator": {
+        "label": "Problem 7.49",
+        "printed_page": 331,
+        "held_pdf_page": 331,
+        "original_extraction_page": 331
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Constant-probability long geodesics through the origin in dynamical exponential LPP",
+      "text": "Give every vertex of Z² an independent Exp(1) weight and refresh each weight independently at rate one. At time t, let Γ_p^{q,t} be the up-right maximum-weight path between coordinatewise ordered vertices p≤q. Fix θ∈(−1,1) and ε>0, and set ℓ_{n,ε}^θ={p∈Z²:p_1+p_2=n, |p_1−p_2−θn|≤ε|n|}. Is there c=c(θ,ε)>0 such that for every sufficiently large integer n, P[there exist t∈[0,1], p∈ℓ_{−n,ε}^θ and q∈ℓ_{n,ε}^θ with p≤q and 0∈Γ_p^{q,t}]≥c?",
+      "citation": "Question 8.17, printed/PDF p.352; Theorem 8.3 and segment notation, printed/PDF p.338. Associated exponential-LPP paper Question 18.",
+      "subject": "Probability & Stochastic Processes",
+      "locator": {
+        "printed_page": 352,
+        "pdf_page": 352,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "scope_review": "Read Theorem 8.3 and the dynamical model. θ and ε are fixed; the desired bound is uniform in large n. Q39 asks actual bigeodesic existence and exceptional-set dimension, not this finite-scale constant-probability estimate.",
+      "literature_finding": "The current exponential-LPP paper explicitly asks this constant-probability upgrade. The September 2026 Brownian trace paper still describes the exponential companion bound as c/log n and treats a different Brownian model; its zero-dimensionality result does not resolve this target.",
+      "status": "reviewed-open-no-resolution-found",
+      "status_grade": "current_primary_explicitly_retained_with_September_followup_checked",
+      "duplicate_of": [],
+      "primary_urls": [
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://mananbhatia1701.github.io/manan/"
+      ],
+      "statement_id": "c10d717532f0394a17c7",
+      "statement_ids": [
+        "c10d717532f0394a17c7"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ],
+      "number": 4828,
+      "source_locator": {
+        "label": "Question 8.17",
+        "printed_page": 352,
+        "held_pdf_page": 352,
+        "original_extraction_page": 352
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "extraction-noise",
+      "reason": "The label Question 5 was cut from a prose reference to Question 5.1. The extracted text describes proved interface removability and Theorem 5.4, not a new question.",
+      "locator": {
+        "printed_page": 161,
+        "pdf_page": 161,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "ecba3c91df65d2c5a991",
+      "statement_ids": [
+        "ecba3c91df65d2c5a991"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        37
+      ],
+      "reason": "Exact Question 5.56 is already Q37, under collection:4c5439d8947ebd95; same held PDF/source URL. Conformal removability is a different proved property and is not used to declare the metric question solved.",
+      "locator": {
+        "printed_page": 198,
+        "pdf_page": 198,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "7509a16c58685260f3f6",
+      "statement_ids": [
+        "7509a16c58685260f3f6"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "This is a prose citation to Dauvergne Conjecture 1.6, not a thesis Conjecture 1. Its full network diagrams and formulas are absent from the extracted passage. Problem 7.49 is separately recommended; do not number the incomplete cited conjecture as an additional exact question without its full primary setup.",
+      "locator": {
+        "printed_page": 329,
+        "pdf_page": 329,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "5b8d90003ef590181563",
+      "statement_ids": [
+        "5b8d90003ef590181563"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        40
+      ],
+      "reason": "Exact Problem 7.50 is already Q40. It concerns star points on a fixed geodesic, distinct from the proposed general network-stratum dimensions. Same thesis PDF/source alias.",
+      "locator": {
+        "printed_page": 332,
+        "pdf_page": 332,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "0065d14e8534b20a6ecc",
+      "statement_ids": [
+        "0065d14e8534b20a6ecc"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The passage does not fix the FPP edge-weight law or its precise admissibility class and assumes unresolved absence of static bigeodesics. Promoting an arbitrarily chosen Exp(1) special case would narrow this source question. Hold until the distribution quantifiers and meaning of exceptional times are cleared.",
+      "locator": {
+        "printed_page": 336,
+        "pdf_page": 336,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "1ef0178d4cf5d3bded8f",
+      "statement_ids": [
+        "1ef0178d4cf5d3bded8f"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        39
+      ],
+      "reason": "Exact dynamical exponential-LPP exceptional-times question is already Q39. The September Brownian theorem has different noise and dynamics and does not justify a new exponential entry or a closure.",
+      "locator": {
+        "printed_page": 337,
+        "pdf_page": 337,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "105bd25835bb4e72bf03",
+      "statement_ids": [
+        "105bd25835bb4e72bf03"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The requested natural local-time measure and its time-sampling/Palm convention are not specified, and the asserted prerequisite existence is still conditional. No precise measure criterion or mixture weights should be invented during intake.",
+      "locator": {
+        "printed_page": 353,
+        "pdf_page": 353,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "9ad9f3670e935b0f64be",
+      "statement_ids": [
+        "9ad9f3670e935b0f64be"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The source leaves natural dynamics on LQG and the discrete planar-map alternatives unspecified. The newly constructed September directed-landscape dynamics does not specify LQG/UIPQ/UIPT dynamics. Hold rather than invent a process and silently change the target.",
+      "locator": {
+        "printed_page": 354,
+        "pdf_page": 354,
+        "verified_from": "held physical PDF via pdftotext -layout; printed page read"
+      },
+      "statement_id": "d231931cc5d660a2bb48",
+      "statement_ids": [
+        "d231931cc5d660a2bb48"
+      ],
+      "source_pdf_sha256": "c06510987fda3114167853e7907b6da5601fc0b0f0247f76b062a9a757f88dbe",
+      "review_date": "2026-10-13",
+      "reviewer": "same retained agent /root/b14_local_optima",
+      "primary_urls": [
+        "https://mananbhatia1701.github.io/manan/",
+        "https://arxiv.org/html/2404.02862v1",
+        "https://arxiv.org/html/2512.09219v2",
+        "https://arxiv.org/html/2504.12293",
+        "https://arxiv.org/html/2609.35103",
+        "https://arxiv.org/html/2608.22693"
+      ],
+      "search_topics": [
+        "Manan Bhatia 2026 dynamical exponential last passage percolation exceptional times bigeodesics",
+        "Manan Bhatia geodesic networks Liouville strong confluence 2026",
+        "metric removability geodesics Liouville quantum gravity Bhatia 2026",
+        "\"metric removability\" \"vertical line\" 2026",
+        "\"geodesic networks\" \"Liouville\" 2026 dimension",
+        "\"Bhatia\" \"log n\" exceptional times 2026 exponential",
+        "\"Manan Bhatia\" \"metric removability\" website"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4825,
+    "catalog_sha256": "cd3776d118dfa5173f8e40f3110edf00b172412830f7179f50718a4302b55f4d",
+    "corpus_count": 28701,
+    "corpus_sha256": "9c20857a54e62a4e52e12360a562634e8c966fa8911516170bb6d30653390e5b",
+    "additional_regex_queries": [
+      "Bhatia",
+      "directed.?landscape",
+      "bigeodes",
+      "geodesic.{0,12}(network|star)",
+      "metric.{0,8}remov",
+      "Liouville",
+      "gluing.{0,30}line"
+    ],
+    "method": "Full-catalog source/identifier and family retrieval, with manual mathematical comparisons in the individual decisions; original corpus siblings are merged where exact. Not a universal certificate against differently phrased unknown equivalents."
+  }
+}

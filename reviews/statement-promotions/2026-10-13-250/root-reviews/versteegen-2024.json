@@ -1,0 +1,1435 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q130446950",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Held cover: Games, Graphs, and Groups, University of Cambridge, April2024. Physical PDF209 pages; old extraction segment numbers up to692 are preserved as provenance only.",
+    "The 3/5 and 3/4 conjectures and the weaker minimum-degree bound are already source theorems. Recent Janzer–Yip evidence removes two more stale questions."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"even decomposition\" \"graph codes\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Rall\" \"Hamiltonian\" \"domination game\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Versteegen\" \"cop\" \"independence\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"total domination game\" \"extremal\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Versteegen\" \"domination\" 2025 2026 minimum degree"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"graph codes\" \"K4\" 2026 Alon"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"even decomposition\" \"exp\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"cop number\" \"independence number\" equal arbitrary"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"total domination game\" \"2/3\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"graph codes\" \"K4\" density 2026 site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"1/2-conjecture\" \"domination\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"even decomposition\" graph probability 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"The probability that a random graph is even-decomposable\" arxiv"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"graph codes\" \"nonlinear\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"3/4\" \"total domination game\" \"connected\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"sumset\" \"obstruction\" \"Versteegen\""
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+      "sections": "Definitions and final questions; linear versus nonlinear scope."
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.11152",
+      "sections": "Exact exponential-n² and order-of-magnitude threshold closures."
+    },
+    {
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+      "sections": "Published primary counterpart and exact closure scope."
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.14321",
+      "sections": "Cop/independence-three counterexample scope, not an unbounded equality family."
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.05202",
+      "sections": "Actual (10n+1)/17 minimum-degree-two theorem."
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.02668",
+      "sections": "Rall half-order target and restricted graph families."
+    },
+    {
+      "url": "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+      "sections": "Published final questions on connected extremals and asymptotic total-domination constant; primary indexed passages."
+    },
+    {
+      "url": "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf",
+      "sections": "Primary2026 odd-Ramsey specific-family scope; indexed introduction."
+    }
+  ],
+  "source_metadata": {
+    "author": "Leo Versteegen",
+    "title": "Games, Graphs, and Groups",
+    "year": "2024",
+    "institution": "University of Cambridge"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/Q130446950.pdf",
+    "sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+    "physical_pages": 209
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "cfdd326506048be089d295db25ef20ba7f732366c0caea8c93650ad2622c0a75",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Vanishing density of nonlinear graph codes avoiding K₄ differences",
+      "text": "Let d_{K₄}(n) be 2^{-binom(n,2)} times the largest size of a family C of labelled simple graphs on [n] such that, for distinct G,H∈C, their edge symmetric difference is never a copy of K₄ with all other vertices isolated. Does d_{K₄}(n)→0 as n→∞?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 5.1, printed p. 75 / held PDF p. 83; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 83,
+        "printed_page": 75,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. The forbidden difference is exactly K₄ plus isolated vertices, not merely a graph containing a K₄ subgraph.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The 2025 linear-graph-code paper gives vanishing bounds for linear subspaces, not arbitrary nonlinear families. Later even-decomposition and odd-Ramsey papers concern linear constructions and colouring bounds; no full nonlinear-density resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "92048664e8839858bce2",
+      "statement_ids": [
+        "92048664e8839858bce2"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4955,
+      "source_locator": {
+        "label": "Question 5.1",
+        "printed_page": 75,
+        "held_pdf_page": 83,
+        "original_extraction_page": 565
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Subpolynomial odd-Ramsey colour counts outside even decomposability",
+      "text": "Fix a finite graph H with a positive even number of edges. An even decomposition is V(H)=V₀⊃⋯⊃V_m=∅ with V_{i−1}∖V_i independent and with an even number of edges between V_{i−1}∖V_i and V_i at each step. Suppose H has no even decomposition. Let r_H(n) be the least number of colours in an edge-colouring of K_n in which every embedded copy of H has some colour occurring an odd number of times on its edges. Must r_H(n)=n^{o(1)} as n→∞?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture 5.15, printed p. 88 / held PDF p. 96; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 96,
+        "printed_page": 88,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. The source chapter assumes even edge count. Without that hypothesis every colouring has an odd colour count, changing the intended class. Induced-copy restrictions are not inserted.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The published counterpart retains the general conjecture beyond clique cases. Current 2026 odd-Ramsey results concern specific complete bipartite or clique graphs and do not provide the theorem for every non-even-decomposable H. No general closure was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "05e921d1d5acd3bad082",
+      "statement_ids": [
+        "05e921d1d5acd3bad082"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4956,
+      "source_locator": {
+        "label": "Conjecture 5.15",
+        "printed_page": 88,
+        "held_pdf_page": 96,
+        "original_extraction_page": 578
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Uniform finite obstructions to dense binary sumsets",
+      "text": "For every ε>0, is there k(ε) such that for every n and A⊂F₂^n with |A|≥ε2^n, B=F₂^n∖(A+A) can be partitioned into S₁,…,S_k with sets X₁,…,X_k⊂F₂^n such that |{x∈X_i:x·y=0}|<ε|X_i| for every i and every y∈S_i? Here x·y is the standard F₂ dot product.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 5.22, printed p. 94 / held PDF p. 102; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 102,
+        "printed_page": 94,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. Preserve the strict inequality and use the same ε for density and obstruction. Sets X_i are allowed to depend on A,n; k depends only on ε.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The source explicitly poses this finite-obstruction question. Current approximate-Fourier/coset questions and graph-code papers do not imply it for arbitrary dense A; exact obstruction and sumset retrieval located no full resolution.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "f8f0e6fdc6de4e8d5563",
+      "statement_ids": [
+        "f8f0e6fdc6de4e8d5563"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4957,
+      "source_locator": {
+        "label": "Question 5.22",
+        "printed_page": 94,
+        "held_pdf_page": 102,
+        "original_extraction_page": 592
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Unbounded equality of cop number and independence number",
+      "text": "For every positive integer k, does some finite connected simple graph G satisfy c(G)=α(G)≥k? Here α(G) is its maximum independent-set size. In the standard perfect-information Cops and Robbers game, cops choose starting vertices, the robber then chooses a vertex, and turns alternate; each player can stay or traverse one edge, all cops move together, and capture occurs when a cop and robber occupy the same vertex. c(G) is the least number of cops with a winning strategy.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 6.9, printed p. 105 / held PDF p. 113; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 113,
+        "printed_page": 105,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. The source asks unbounded equality, not merely the existence of one equality example or simultaneous equality with domination number.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The primary 2025 clique-cover/cops paper adds a counterexample at independence number three to an earlier strict-inequality conjecture. It does not give equality at arbitrarily large independence number. The held question already knows examples through three; no unbounded family was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "0efb9f1189f93ed9b531",
+      "statement_ids": [
+        "0efb9f1189f93ed9b531"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4958,
+      "source_locator": {
+        "label": "Question 6.9",
+        "printed_page": 105,
+        "held_pdf_page": 113,
+        "original_extraction_page": 603
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "The half-order game-domination bound at minimum degree two",
+      "text": "In the domination game on a finite simple graph, Dominator and Staller alternately select a vertex whose closed neighbourhood contains a previously undominated vertex. Play ends when all vertices are dominated; Dominator minimizes and Staller maximizes the number of moves. Let γ_g(G) be that number under optimal play when Dominator starts. Does every graph G on n vertices with minimum degree at least two satisfy γ_g(G)≤ceil(n/2)?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture 8.2, printed p. 156 / held PDF p. 164; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 164,
+        "printed_page": 156,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. Minimum degree is at least two, not exactly two; Dominator starts. The source itself proves the weaker constant-below-three-fifths target, which is excluded.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The source and primary Portier–Versteegen theorem give (10n+1)/17, leaving the half-order bound. Fresh current minimum-degree and domination-game retrieval located restricted results but no full minimum-degree-two closure.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "87f877d0b0b95b96b61b",
+      "statement_ids": [
+        "87f877d0b0b95b96b61b"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4959,
+      "source_locator": {
+        "label": "Conjecture 8.2",
+        "printed_page": 156,
+        "held_pdf_page": 164,
+        "original_extraction_page": 654
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Rall’s half-order bound for traceable graphs",
+      "text": "In the domination game on a finite simple graph, Dominator and Staller alternately select a vertex whose closed neighbourhood contains a previously undominated vertex. Play ends when all vertices are dominated; Dominator minimizes and Staller maximizes the number of moves. Let γ_g(G) be that number under optimal play when Dominator starts. If G has a Hamiltonian path and n vertices, must γ_g(G)≤ceil(n/2)?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture 8.25, printed p. 167 / held PDF p. 175; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 175,
+        "printed_page": 167,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. A Hamiltonian path is a path visiting every vertex once. No Hamiltonian cycle or minimum-degree-two condition is added.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "Current primary Rall and diameter-two studies retain the traceable-graph conjecture or support proper subcases. The source minimum-degree bound does not cover all graphs with Hamiltonian paths; no complete traceable-graph resolution was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "7451f8d873d0e36cfd93",
+      "statement_ids": [
+        "7451f8d873d0e36cfd93"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4960,
+      "source_locator": {
+        "label": "Conjecture 8.25",
+        "printed_page": 167,
+        "held_pdf_page": 175,
+        "original_extraction_page": 665
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Connected extremal graphs for the total-domination three-quarter bound",
+      "text": "In the total domination game on a finite simple graph, Dominator and Staller alternately select a vertex whose open neighbourhood contains a previously undominated vertex. Selecting a vertex does not itself dominate that vertex. Play ends when every vertex has a selected neighbour; Dominator minimizes and Staller maximizes the number of moves. Let γ_tg(G) be this number under optimal play when Dominator starts. Classify all finite connected simple graphs G with n≥3 vertices satisfying γ_tg(G)=3n/4.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Problem 9.19, printed p. 190 / held PDF p. 198; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 198,
+        "printed_page": 190,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. Connected graphs of order at least three meet the no-isolated-vertex/no-isolated-edge source assumptions; a nonconnected extremal family is not a classification of connected cases.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The 2025 published three-quarter theorem retains the connected extremal classification, with its known twelve-vertex tree example. Proving the universal upper bound does not classify equality cases; no later full classification was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "fb1587bb49bf7b3d60dd",
+      "statement_ids": [
+        "fb1587bb49bf7b3d60dd"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4961,
+      "source_locator": {
+        "label": "Problem 9.19",
+        "printed_page": 190,
+        "held_pdf_page": 198,
+        "original_extraction_page": 688
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Optimal asymptotic total-domination game constant at minimum degree two",
+      "text": "In the total domination game on a finite simple graph, Dominator and Staller alternately select a vertex whose open neighbourhood contains a previously undominated vertex. Selecting a vertex does not itself dominate that vertex. Play ends when every vertex has a selected neighbour; Dominator minimizes and Staller maximizes the number of moves. Let γ_tg(G) be this number under optimal play when Dominator starts. Determine inf{c>0: there is N such that γ_tg(G)≤c|V(G)| for every graph G with minimum degree at least two and |V(G)|≥N}. In particular, is this infimum 2/3?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 9.20, printed p. 190 / held PDF p. 198; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 198,
+        "printed_page": 190,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. All graphs, including disconnected graphs, are quantified. The question concerns an infimum and eventual order, not attainment of a uniform finite-n bound at the infimum.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The published successor retains the optimal-constant question, allowing an additive one and explaining its asymptotic equivalence. Disjoint triangles force the lower bound 2/3; the known five-sevenths upper bound does not identify the infimum. No exact full result was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "5153bef59e262e66f1a0",
+      "statement_ids": [
+        "5153bef59e262e66f1a0"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4962,
+      "source_locator": {
+        "label": "Question 9.20",
+        "printed_page": 190,
+        "held_pdf_page": 198,
+        "original_extraction_page": 688
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A universal additive constant above the half-order domination-game bound",
+      "text": "In the domination game on a finite simple graph, Dominator and Staller alternately select a vertex whose closed neighbourhood contains a previously undominated vertex. Play ends when all vertices are dominated; Dominator minimizes and Staller maximizes the number of moves. Let γ_g(G) be that number under optimal play when Dominator starts. Does some universal constant C satisfy γ_g(G)≤|V(G)|/2+C for every graph G with minimum degree at least two?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture 9.21, printed p. 190 / held PDF p. 198; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 198,
+        "printed_page": 190,
+        "verified_from": "held physical PDF with printed footers"
+      },
+      "scope_review": "Read actual held questions and their definitions. Full-catalog family retrieval found only different cop targets Q2963–2964 (string graphs and fully active planar cops), with no graph-code, even-decomposition or game-domination equivalent. Ordinary and total domination games, cops-and-robbers, and strategic jumping games have different rules. Related to the exact half-order target, but the complete source scopes differ. C is independent of graph and order.",
+      "duplicate_review": "Source/name/family retrieval and explicit semantic comparison found no numbered equivalent.",
+      "duplicate_of": [],
+      "literature_finding": "The source explicitly distinguishes this relaxed conjecture from the exact half-order bound. The current (10n+1)/17 theorem leaves a linear rather than constant gap; no full additive-constant result was located.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "e988d3d1dfe41e294a90",
+      "statement_ids": [
+        "e988d3d1dfe41e294a90"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ],
+      "number": 4963,
+      "source_locator": {
+        "label": "Conjecture 9.21",
+        "printed_page": 190,
+        "held_pdf_page": 198,
+        "original_extraction_page": 688
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "e718f6e47e66e835d016",
+      "statement_ids": [
+        "e718f6e47e66e835d016"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The held source explicitly proves the stated target or explains the already known existence result; do not promote an introductory historical question as still open.",
+      "statement_id": "42917bbb8d5b772a202f",
+      "statement_ids": [
+        "42917bbb8d5b772a202f"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "0fe71c585707c5ef8089",
+      "statement_ids": [
+        "0fe71c585707c5ef8089"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "432fe2a20ce233792178",
+      "statement_ids": [
+        "432fe2a20ce233792178"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "d9445c618a20315bac35",
+      "statement_ids": [
+        "d9445c618a20315bac35"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Janzer–Yip, arXiv2409.11152 (published2025), explicitly resolves the exponential n² probability conjecture and answers the dense-regime threshold question at the order-of-magnitude scope. Fine-window refinements would be new questions, not these source targets.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content"
+      ],
+      "statement_id": "3b9e68f71225c0a4521e",
+      "statement_ids": [
+        "3b9e68f71225c0a4521e"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Janzer–Yip, arXiv2409.11152 (published2025), explicitly resolves the exponential n² probability conjecture and answers the dense-regime threshold question at the order-of-magnitude scope. Fine-window refinements would be new questions, not these source targets.",
+      "primary_urls": [
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content"
+      ],
+      "statement_id": "5708d9daaf069efc8a6d",
+      "statement_ids": [
+        "5708d9daaf069efc8a6d"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "The parenthetical “(asymptotically) equal” requires deciding exact equality versus ratio-one or exponent equivalence. No chosen quantitative interpretation is inserted for counting purposes.",
+      "statement_id": "e5ae6a83f8526ff4e717",
+      "statement_ids": [
+        "e5ae6a83f8526ff4e717"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "ec586730d48ecd299a3d",
+      "statement_ids": [
+        "ec586730d48ecd299a3d"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "03065cd23f65f73b8e52",
+      "statement_ids": [
+        "03065cd23f65f73b8e52"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "bb126f2003908d17ac15",
+      "statement_ids": [
+        "bb126f2003908d17ac15"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The held source explicitly proves the stated target or explains the already known existence result; do not promote an introductory historical question as still open.",
+      "statement_id": "d7305df69dd0412e845d",
+      "statement_ids": [
+        "d7305df69dd0412e845d"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The held source explicitly proves the stated target or explains the already known existence result; do not promote an introductory historical question as still open.",
+      "statement_id": "e95c529347da08c67950",
+      "statement_ids": [
+        "e95c529347da08c67950"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "b68eecd0852feb7f7b06",
+      "statement_ids": [
+        "b68eecd0852feb7f7b06"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "067c7381043269bd7b0f",
+      "statement_ids": [
+        "067c7381043269bd7b0f"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The held source explicitly proves the stated target or explains the already known existence result; do not promote an introductory historical question as still open.",
+      "statement_id": "aff889a9f0d130cdb072",
+      "statement_ids": [
+        "aff889a9f0d130cdb072"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "af76c82c3c2e1856ee00",
+      "statement_ids": [
+        "af76c82c3c2e1856ee00"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The held source explicitly proves the stated target or explains the already known existence result; do not promote an introductory historical question as still open.",
+      "statement_id": "ae9da695218f33ecb36c",
+      "statement_ids": [
+        "ae9da695218f33ecb36c"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The held source explicitly proves the stated target or explains the already known existence result; do not promote an introductory historical question as still open.",
+      "statement_id": "eab44014a47a2578471e",
+      "statement_ids": [
+        "eab44014a47a2578471e"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Not independently cleared in this bounded pass; technical classifications, summaries and imprecise formulations remain available.",
+      "statement_id": "da4b2dbb27dc3d4813da",
+      "statement_ids": [
+        "da4b2dbb27dc3d4813da"
+      ],
+      "source_pdf_sha256": "7b8de98713ac9211bf9826455c158c877d28f6058a729df6ebe3a867d328c45b",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/rsa.21263",
+        "https://arxiv.org/abs/2409.11152",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fbcbff-df10-4497-9424-255eebb24e46/content",
+        "https://arxiv.org/abs/2507.14321",
+        "https://arxiv.org/abs/2301.05202",
+        "https://arxiv.org/abs/2006.02668",
+        "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf",
+        "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+      ],
+      "search_topics": [
+        "\"even decomposition\" \"graph codes\" 2025 2026",
+        "\"Rall\" \"Hamiltonian\" \"domination game\" 2026",
+        "\"Versteegen\" \"cop\" \"independence\" 2026",
+        "\"total domination game\" \"extremal\" 2026",
+        "\"Versteegen\" \"domination\" 2025 2026 minimum degree",
+        "\"graph codes\" \"K4\" 2026 Alon",
+        "\"even decomposition\" \"exp\" 2026",
+        "\"cop number\" \"independence number\" equal arbitrary",
+        "\"total domination game\" \"2/3\" 2026",
+        "\"graph codes\" \"K4\" density 2026 site:arxiv.org",
+        "\"1/2-conjecture\" \"domination\" 2026",
+        "\"even decomposition\" graph probability 2026",
+        "\"The probability that a random graph is even-decomposable\" arxiv",
+        "\"graph codes\" \"nonlinear\" 2026",
+        "\"3/4\" \"total domination game\" \"connected\" 2025 2026",
+        "\"sumset\" \"obstruction\" \"Versteegen\""
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4934,
+    "catalog_sha256": "b2e0902d657ff2d1412d0df1b0f23166228aebdf1b6a66c045de7ef0b6fa9c9f",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

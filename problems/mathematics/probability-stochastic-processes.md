@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-566 problems: 523 open, 21 open, partial results, 16 solved here: proved, 6 solved here: disproved.
+591 problems: 548 open, 21 open, partial results, 16 solved here: proved, 6 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -574,3 +574,28 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q4719"></a>[Q4719](probability-stochastic-processes-part-3.md#q4719) | For every H,H\*∈(0,1), does LWᴴ\*(Bᴴ) exist Wᴴ-almost surely and equal [1+2(H\*−H)]/H if H&lt;H\*, and… | Open |
 | <a id="q4736"></a>[Q4736](probability-stochastic-processes-part-3.md#q4736) | Must Y have the law of Φ(X), for an i.i.d. field X over a standard Borel alphabet and measurable… | Open |
 | <a id="q4753"></a>[Q4753](probability-stochastic-processes-part-3.md#q4753) | For every ε∈(0,1), does τ\_n(ε)/n→0 in probability over the initial matching and subsequent… | Open |
+| <a id="q4812"></a>[Q4812](probability-stochastic-processes-part-3.md#q4812) | Does a convex belief-propagation image imply universal fields? | Open |
+| <a id="q4813"></a>[Q4813](probability-stochastic-processes-part-3.md#q4813) | Convex image of product measures for antiferromagnetic Potts | Open |
+| <a id="q4814"></a>[Q4814](probability-stochastic-processes-part-3.md#q4814) | Uniformly bounded cycle swaps connecting all 3D box tilings | Open |
+| <a id="q4826"></a>[Q4826](probability-stochastic-processes-part-3.md#q4826) | Metric removability of a deterministic vertical line in the directed landscape | Open |
+| <a id="q4827"></a>[Q4827](probability-stochastic-processes-part-3.md#q4827) | Hausdorff dimensions of LQG geodesic-network strata | Open |
+| <a id="q4828"></a>[Q4828](probability-stochastic-processes-part-3.md#q4828) | Constant-probability long geodesics through the origin in dynamical exponential LPP | Open |
+| <a id="q4862"></a>[Q4862](probability-stochastic-processes-part-3.md#q4862) | Conformal removability throughout the non-space-filling SLE range | Open |
+| <a id="q4863"></a>[Q4863](probability-stochastic-processes-part-3.md#q4863) | Graph-distance scaling limits of mated-CRT maps | Open |
+| <a id="q4864"></a>[Q4864](probability-stochastic-processes-part-3.md#q4864) | Internal mated-CRT diameter exponent agrees with reciprocal LQG dimension | Open |
+| <a id="q4891"></a>[Q4891](probability-stochastic-processes-part-3.md#q4891) | Square-count-conditioned quantum regularizations converge to the LQG sphere | Open |
+| <a id="q4930"></a>[Q4930](probability-stochastic-processes-part-3.md#q4930) | Optimal energy attained by polynomial-time spin-glass algorithms | Open |
+| <a id="q4931"></a>[Q4931](probability-stochastic-processes-part-3.md#q4931) | Temperatures permitting efficient total-variation sampling of spherical spin glasses | Open |
+| <a id="q4932"></a>[Q4932](probability-stochastic-processes-part-3.md#q4932) | Generalized exact-overlaps formula in arbitrary dimension | Open |
+| <a id="q4946"></a>[Q4946](probability-stochastic-processes-part-3.md#q4946) | Critical loop O(n) interfaces converge to their predicted SLE | Open |
+| <a id="q4947"></a>[Q4947](probability-stochastic-processes-part-3.md#q4947) | Dense loop O(n) interfaces across the entire supercritical fugacity range | Open |
+| <a id="q4948"></a>[Q4948](probability-stochastic-processes-part-3.md#q4948) | Critical square-lattice FK interfaces converge to SLE for all cluster weights | Open |
+| <a id="q4949"></a>[Q4949](probability-stochastic-processes-part-3.md#q4949) | Critical self-avoiding parafermionic observable limit | Open |
+| <a id="q4953"></a>[Q4953](probability-stochastic-processes-part-3.md#q4953) | Power-biased one-sided transposition cutoff on generalized symmetric groups | Open |
+| <a id="q4996"></a>[Q4996](probability-stochastic-processes-part-3.md#q4996) | One end and the percolation uniqueness threshold | Open |
+| <a id="q4997"></a>[Q4997](probability-stochastic-processes-part-3.md#q4997) | Local continuity of percolation uniqueness thresholds | Open |
+| <a id="q4998"></a>[Q4998](probability-stochastic-processes-part-3.md#q4998) | Locality of self-avoiding-walk connective constants | Open |
+| <a id="q4999"></a>[Q4999](probability-stochastic-processes-part-3.md#q4999) | Cone confinement of directed diffusion-limited aggregation | Open |
+| <a id="q5000"></a>[Q5000](probability-stochastic-processes-part-3.md#q5000) | Ends of the infinite directed diffusion-limited aggregation cluster | Open |
+| <a id="q5043"></a>[Q5043](probability-stochastic-processes-part-3.md#q5043) | A constant leading term for limiting invariant-set probabilities | Open |
+| <a id="q5044"></a>[Q5044](probability-stochastic-processes-part-3.md#q5044) | Monotonicity of limiting invariant-set probabilities | Open |

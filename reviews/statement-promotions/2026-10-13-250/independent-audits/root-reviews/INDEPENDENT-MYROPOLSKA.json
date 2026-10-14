@@ -1,0 +1,64 @@
+{
+  "review_date": "2026-10-13",
+  "packet": "agent-reviews/myropolska-2015.json",
+  "packet_sha256": "3deb591cbb209e3bc375707ec825d910c2379d0da48914183fd1156105ac440d",
+  "source_pages_read": [
+    1,
+    14,
+    15,
+    16,
+    19,
+    26,
+    27,
+    30,
+    31,
+    33,
+    35,
+    51,
+    56,
+    62,
+    80,
+    81
+  ],
+  "accepted_count": 6,
+  "source_scope_findings": [
+    "Ordered generating tuples and actual left/right elementary Nielsen moves, rather than generating-vertex graphs or Andrews-Curtis graphs.",
+    "Literal source branch condition retains finite-index rigid level stabilizers without inventing transitivity.",
+    "Finite quotient class counts concern divergence, not merely known disconnectedness.",
+    "Original Gupta-Sidki recursion uses the fixed regular p-ary tree; growing-tree GGS and residual-finiteness growth are different targets."
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00009-024-02614-3",
+      "finding": "Remark 1(1) explicitly refutes the proposed tame-only target, with reference [5]."
+    },
+    {
+      "url": "https://arxiv.org/html/2410.06783v1",
+      "finding": "Criteria for specified spinal groups, not a classification of the entire source branch class."
+    },
+    {
+      "url": "https://arxiv.org/html/1509.08090v1",
+      "finding": "Full structural MN results, with no verified finitely generated exponential-growth example."
+    },
+    {
+      "url": "https://lup.lub.lu.se/student-papers/record/9250187",
+      "finding": "2026 generating-pair and Andrews-Curtis results do not settle Grigorchuk triples or finite-level Nielsen counts."
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.06479",
+      "finding": "Small Ree finite simple family, not every finite group with rank plus one generators."
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00927872.2025.2525388",
+      "finding": "Growing-degree tree groups differ from the original regular-tree Gupta-Sidki group."
+    }
+  ],
+  "duplicate_comparisons": [
+    "Q1411 is connectivity of the generating-vertex graph; generating tuples and Nielsen edges differ.",
+    "Q1303 asks for placement of a minimum generating set in a maximal subgroup, not MF classification.",
+    "Q2712 concerns automorphic growth; Q2829 Dehn spectrum and Q2711 regular representatives differ.",
+    "All saved whole-catalog neighbor texts and source-alias retrieval read; no identical full target identified."
+  ],
+  "blocking_issues": [],
+  "original_receipt_sha256": "c5b6b10ba5b9310f9914260623557f5bbdbc45583336d5d1b881c83fd920d6d2"
+}

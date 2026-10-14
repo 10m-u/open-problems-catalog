@@ -1,0 +1,1127 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "Q130808823",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Held cover establishes Darmstadt2023. Automatic text segment numbers up to764 are not physical pages; verified PDF contains333 pages.",
+    "Unrestricted CFI and numeric arity variants are held for their specific encoding/scope; no stronger target inferred from fragmentary excerpts."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "\"Moritz Lichter\" \"canonization\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Moritz Lichter\" \"2026\" CPT"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Choiceless\" \"canonization\" \"bounded color\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"rank logic\" \"finite rings\" 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"rank logic\" \"Z4\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"rank logic\" \"CPT\" 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/abs/2205.14003",
+      "sections": "Primary CPT+WSC transfer result; no claim of strictness."
+    },
+    {
+      "url": "https://arxiv.org/abs/2010.12182",
+      "sections": "Bounded dihedral colour canonization scope."
+    },
+    {
+      "url": "https://arxiv.org/abs/2104.12999",
+      "sections": "Rank logic separation from CPT/Ptime, and direction of inclusion."
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.07869",
+      "sections": "Interpretations and nested witnessed choice; source-answered introductory unknown."
+    },
+    {
+      "url": "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf",
+      "sections": "Formal Gurevich compiler conditions and CPT-with-counting definition."
+    }
+  ],
+  "source_metadata": {
+    "author": "Moritz Lichter",
+    "title": "Continuing the Quest for a Logic Capturing Polynomial Time – Potential, Limitations, and Interplay of Current Approaches",
+    "year": "2023",
+    "institution": "Technische Universität Darmstadt"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/collections-d429cea90a0ac09c.pdf",
+    "sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+    "physical_pages": 333
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "ef73db2395f8d7abfdf268de80b2c3d8c9d006015ea473fff94244622ccc42f1",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "A reasonable logic capturing polynomial time on unordered structures",
+      "text": "Capturing Ptime means defining exactly the polynomial-time decidable isomorphism-invariant Boolean properties of finite relational structures, with no input order provided. Does there exist a logic with a decidable set of sentences and an effective compiler translating each sentence φ into an evaluation algorithm and a polynomial bounding its running time, such that every such Ptime property is defined by some sentence?",
+      "subject": "Logic & Foundations",
+      "citation": "Discussion/open question, held PDF p. 15, printed p. 3; precise operators and encodings in Chapters 2, 5–7.",
+      "locator": {
+        "pdf_page": 15,
+        "printed_page": 3,
+        "verified_from": "held PDF layout conversion and printed headers"
+      },
+      "scope_review": "Read actual source introduction, conclusion and indicated chapter discussion. Catalog-wide retrieval of choiceless computation, rank logic, canonization, capturing polynomial time and witnessed choice found no existing numbered equivalent. These are Boolean-query questions: the known restriction on computing arbitrary output functions is not a separation of Boolean expressiveness. Decidable syntax and an effective compiler are essential; merely indexing an arbitrary noncomputable enumeration of Ptime properties is not an answer.",
+      "duplicate_review": "Full-catalog family/source comparison found no numbered target; final cross-batch check remains required.",
+      "duplicate_of": [],
+      "literature_finding": "The held source and Grädel–Grohe primary survey leave the general Gurevich question open. Fresh retrieval of current choiceless and witnessed-choice work found restricted classes and separations of specific candidate logics, with no construction or nonexistence theorem for the full target.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "c0f03fa8ddac7e97f876",
+      "statement_ids": [
+        "c0f03fa8ddac7e97f876"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ],
+      "number": 4898,
+      "source_locator": {
+        "label": null,
+        "printed_page": 3,
+        "held_pdf_page": 15,
+        "original_extraction_page": 15
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Rank-logic queries are definable in Choiceless Polynomial Time",
+      "text": "Rank logic is inflationary fixed-point logic with counting and the uniform finite-field rank operator of Chapter 7, whose prime characteristic can be specified numerically in the formula. CPT is the source’s Choiceless Polynomial Time logic with counting, using hereditarily finite sets over the input atoms with polynomial bounds on running time and the number of active sets, and no arbitrary choice of an atom. Is every rank-logic-definable Boolean property of finite relational structures definable in CPT?",
+      "subject": "Logic & Foundations",
+      "citation": "Discussion/open question, held PDF p. 22, printed p. 10; precise operators and encodings in Chapters 2, 5–7.",
+      "locator": {
+        "pdf_page": 22,
+        "printed_page": 10,
+        "verified_from": "held PDF layout conversion and printed headers"
+      },
+      "scope_review": "Read actual source introduction, conclusion and indicated chapter discussion. Catalog-wide retrieval of choiceless computation, rank logic, canonization, capturing polynomial time and witnessed choice found no existing numbered equivalent. These are Boolean-query questions: the known restriction on computing arbitrary output functions is not a separation of Boolean expressiveness. Retain the uniform rank operator rather than substituting a fixed finite list of prime-field operators.",
+      "duplicate_review": "Full-catalog family/source comparison found no numbered target; final cross-batch check remains required.",
+      "duplicate_of": [],
+      "literature_finding": "The source proves that CPT is not contained in rank logic, which is the reverse inclusion. Its diagram leaves rank logic contained in CPT unresolved. Current primary rank/CPT retrieval yielded no exact proof or counterexample for this direction.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "9ff69d7eb99bc8b87603",
+      "statement_ids": [
+        "9ff69d7eb99bc8b87603"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ],
+      "number": 4900,
+      "source_locator": {
+        "label": null,
+        "printed_page": 10,
+        "held_pdf_page": 22,
+        "original_extraction_page": 22
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Fixed-point counting with witnessed choice and interpretations captures Ptime",
+      "text": "Capturing Ptime means defining exactly the polynomial-time decidable isomorphism-invariant Boolean properties of finite relational structures, with no input order provided. Does IFPC+WSC+I capture Ptime? IFPC is inflationary fixed-point logic with counting; WSC permits choices from definable orbits certified by definable automorphisms; I permits evaluation of a subformula in the relational structure defined by an interpretation. Use the iterated operator closure of Chapter 6.",
+      "subject": "Logic & Foundations",
+      "citation": "Discussion/open question, held PDF p. 239, printed p. 227; precise operators and encodings in Chapters 2, 5–7.",
+      "locator": {
+        "pdf_page": 239,
+        "printed_page": 227,
+        "verified_from": "held PDF layout conversion and printed headers"
+      },
+      "scope_review": "Read actual source introduction, conclusion and indicated chapter discussion. Catalog-wide retrieval of choiceless computation, rank logic, canonization, capturing polynomial time and witnessed choice found no existing numbered equivalent. These are Boolean-query questions: the known restriction on computing arbitrary output functions is not a separation of Boolean expressiveness. The unrestricted iterated extension is asked, not a fixed bounded nesting fragment already separated in the source.",
+      "duplicate_review": "Full-catalog family/source comparison found no numbered target; final cross-batch check remains required.",
+      "duplicate_of": [],
+      "literature_finding": "The primary witnessed-choice/interpretation paper and the held source prove that interpretations strictly extend IFPC+WSC and a two-level nesting separation. They do not settle the full iterated logic versus Ptime; fresh exact-theme retrieval located no full resolution.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "ce1cc817906cf0717d6a",
+      "statement_ids": [
+        "ce1cc817906cf0717d6a"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ],
+      "number": 4910,
+      "source_locator": {
+        "label": null,
+        "printed_page": 227,
+        "held_pdf_page": 239,
+        "original_extraction_page": 581
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Rank-logic solvability for every fixed finite ring",
+      "text": "Rank logic is inflationary fixed-point logic with counting and the uniform finite-field rank operator of Chapter 7, whose prime characteristic can be specified numerically in the formula. For every fixed finite ring R, is there a rank-logic sentence deciding solvability of Ax=b over R for finite linear systems? Rows and columns are unordered index sets and coefficient labels are relations for elements of R; the finite ring and its operations are fixed in the problem, rather than supplied as variable-size input.",
+      "subject": "Logic & Foundations",
+      "citation": "Discussion/open question, held PDF p. 242, printed p. 230; precise operators and encodings in Chapters 2, 5–7.",
+      "locator": {
+        "pdf_page": 242,
+        "printed_page": 230,
+        "verified_from": "held PDF layout conversion and printed headers"
+      },
+      "scope_review": "Read actual source introduction, conclusion and indicated chapter discussion. Catalog-wide retrieval of choiceless computation, rank logic, canonization, capturing polynomial time and witnessed choice found no existing numbered equivalent. These are Boolean-query questions: the known restriction on computing arbitrary output functions is not a separation of Boolean expressiveness. One sentence may depend on the fixed ring. Do not confuse this with the uniform variable-ring impossibility or the settled field case.",
+      "duplicate_review": "Full-catalog family/source comparison found no numbered target; final cross-batch check remains required.",
+      "duplicate_of": [],
+      "literature_finding": "The source answers the variable-ring input problem negatively and explicitly leaves fixed rings open. The primary rank-separation paper and subsequent source discussion do not settle all fixed rings, including nonfield rings; fresh ring/rank retrieval found no general closure.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "410a0178ef1326616901",
+      "statement_ids": [
+        "410a0178ef1326616901"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ],
+      "number": 4911,
+      "source_locator": {
+        "label": null,
+        "printed_page": 230,
+        "held_pdf_page": 242,
+        "original_extraction_page": 584
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Choiceless Polynomial Time captures all polynomial-time queries",
+      "text": "CPT is the source’s Choiceless Polynomial Time logic with counting, using hereditarily finite sets over the input atoms with polynomial bounds on running time and the number of active sets, and no arbitrary choice of an atom. Capturing Ptime means defining exactly the polynomial-time decidable isomorphism-invariant Boolean properties of finite relational structures, with no input order provided. Does CPT capture Ptime on all finite relational structures?",
+      "subject": "Logic & Foundations",
+      "citation": "Discussion/open question, held PDF p. 306, printed p. 294; precise operators and encodings in Chapters 2, 5–7.",
+      "locator": {
+        "pdf_page": 306,
+        "printed_page": 294,
+        "verified_from": "held PDF layout conversion and printed headers"
+      },
+      "scope_review": "Read actual source introduction, conclusion and indicated chapter discussion. Catalog-wide retrieval of choiceless computation, rank logic, canonization, capturing polynomial time and witnessed choice found no existing numbered equivalent. These are Boolean-query questions: the known restriction on computing arbitrary output functions is not a separation of Boolean expressiveness. CPT’s failure to compute some functions, discussed in the introduction, does not answer whether all Boolean queries are definable.",
+      "duplicate_review": "Full-catalog family/source comparison found no numbered target; final cross-batch check remains required.",
+      "duplicate_of": [],
+      "literature_finding": "The source explicitly leaves CPT versus Ptime open. The primary witnessed-choice paper improves another logic, and canonization for bounded dihedral colours treats a proper restricted class. Fresh primary retrieval supplied no full Boolean-query closure or separating predicate.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "33de18a47800abd1fae5",
+      "statement_ids": [
+        "33de18a47800abd1fae5"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ],
+      "number": 4913,
+      "source_locator": {
+        "label": null,
+        "printed_page": 294,
+        "held_pdf_page": 306,
+        "original_extraction_page": 760
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "title": "Witnessed symmetric choice strictly increases CPT expressiveness",
+      "text": "CPT is the source’s Choiceless Polynomial Time logic with counting, using hereditarily finite sets over the input atoms with polynomial bounds on running time and the number of active sets, and no arbitrary choice of an atom. Let CPT+WSC extend CPT by choices from definable automorphism orbits certified by definable witnessing automorphisms, as in Chapter 5. Is there a Boolean property of finite relational structures definable in CPT+WSC but not in CPT?",
+      "subject": "Logic & Foundations",
+      "citation": "Discussion/open question, held PDF p. 306, printed p. 294; precise operators and encodings in Chapters 2, 5–7.",
+      "locator": {
+        "pdf_page": 306,
+        "printed_page": 294,
+        "verified_from": "held PDF layout conversion and printed headers"
+      },
+      "scope_review": "Read actual source introduction, conclusion and indicated chapter discussion. Catalog-wide retrieval of choiceless computation, rank logic, canonization, capturing polynomial time and witnessed choice found no existing numbered equivalent. These are Boolean-query questions: the known restriction on computing arbitrary output functions is not a separation of Boolean expressiveness. An exponential increase in selectable objects is not by itself a separation of Boolean queries; require a predicate outside CPT.",
+      "duplicate_review": "Full-catalog family/source comparison found no numbered target; final cross-batch check remains required.",
+      "duplicate_of": [
+        1175
+      ],
+      "literature_finding": "The primary CPT+WSC paper supplies definable-isomorphism-to-canonization transfer but no strict separation from CPT. The source explicitly asks strictness, and current exact-theme primary retrieval located no later separation or equivalence.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "5ed041b0b54e5de139e8",
+      "statement_ids": [
+        "5ed041b0b54e5de139e8"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ],
+      "reason": "Lichter: same CPT+WSC versus CPT Boolean strictness, on all finite relational structures."
+    },
+    {
+      "decision": "duplicate",
+      "title": "CPT canonization for all bounded colour-class structures",
+      "text": "CPT is the source’s Choiceless Polynomial Time logic with counting, using hereditarily finite sets over the input atoms with polynomial bounds on running time and the number of active sets, and no arbitrary choice of an atom. For every fixed bound k and finite relational vocabulary, does CPT define canonization of all source-coloured structures whose colour classes have size at most k? A canonization is an ordered copy isomorphic to the input, identical for isomorphic inputs. Colours and their class ordering are supplied in the source’s encoding; no order within a colour class or restriction on its automorphism group is assumed.",
+      "subject": "Logic & Foundations",
+      "citation": "Discussion/open question, held PDF p. 305, printed p. 293; precise operators and encodings in Chapters 2, 5–7.",
+      "locator": {
+        "pdf_page": 305,
+        "printed_page": 293,
+        "verified_from": "held PDF layout conversion and printed headers"
+      },
+      "scope_review": "Read actual source introduction, conclusion and indicated chapter discussion. Catalog-wide retrieval of choiceless computation, rank logic, canonization, capturing polynomial time and witnessed choice found no existing numbered equivalent. These are Boolean-query questions: the known restriction on computing arbitrary output functions is not a separation of Boolean expressiveness. This asks definable canonization, not just existence of a polynomial-time isomorphism algorithm. Check the source colour encoding before importing a different uncoloured variant.",
+      "duplicate_review": "Full-catalog family/source comparison found no numbered target; final cross-batch check remains required.",
+      "duplicate_of": [
+        1174
+      ],
+      "literature_finding": "The primary Lichter–Schweitzer theorem canonizes bounded dihedral colour classes, extending the earlier abelian case. The source leaves arbitrary bounded colour classes open. Fresh current primary retrieval yielded no theorem covering all local automorphism groups.",
+      "status_grade": "source_explicit_question_and_bounded_current_primary_scan",
+      "statement_id": "00147b8846fda6b6e546",
+      "statement_ids": [
+        "00147b8846fda6b6e546"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ],
+      "reason": "Lichter: same bounded-colour canonization with supplied ordered colour partition and every fixed bound."
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "0df0eb33c19f25a1e489",
+      "statement_ids": [
+        "0df0eb33c19f25a1e489"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "77bb4fe20f0f7f79a236",
+      "statement_ids": [
+        "77bb4fe20f0f7f79a236"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "4c34f00375c9c0119792",
+      "statement_ids": [
+        "4c34f00375c9c0119792"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "0539857179a479f03eaa",
+      "statement_ids": [
+        "0539857179a479f03eaa"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "c0e8e8df5eb5a6525bc6",
+      "statement_ids": [
+        "c0e8e8df5eb5a6525bc6"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "fb790fb78fac848da04f",
+      "statement_ids": [
+        "fb790fb78fac848da04f"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "c2ad89d79be5d4f8abb5",
+      "statement_ids": [
+        "c2ad89d79be5d4f8abb5"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "0a5906230bf141ea29d9",
+      "statement_ids": [
+        "0a5906230bf141ea29d9"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "363d2cc24fef0da753ea",
+      "statement_ids": [
+        "363d2cc24fef0da753ea"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "125c798e961adea4f5d3",
+      "statement_ids": [
+        "125c798e961adea4f5d3"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "The introduction asks whether interpretations increase IFPC+WSC expressiveness; Chapter6 discussion, held PDF239, explicitly proves they do. Do not promote the introductory historical unknown.",
+      "statement_id": "04bdd160b8ac87857caf",
+      "statement_ids": [
+        "04bdd160b8ac87857caf"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "5676780874ba15f20692",
+      "statement_ids": [
+        "5676780874ba15f20692"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "1680a729d451a73ed1d0",
+      "statement_ids": [
+        "1680a729d451a73ed1d0"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "3a149dc67e1569c3e903",
+      "statement_ids": [
+        "3a149dc67e1569c3e903"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "1e2309fddc36eb74e2b4",
+      "statement_ids": [
+        "1e2309fddc36eb74e2b4"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "cc9b2f834e5e1f20969a",
+      "statement_ids": [
+        "cc9b2f834e5e1f20969a"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "eef07d0f102199bc8b26",
+      "statement_ids": [
+        "eef07d0f102199bc8b26"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "solved-in-source",
+      "reason": "Variable-ring solvability in rank logic is answered negatively by the source, held PDF242; the remaining fixed-ring question is separately reviewed.",
+      "statement_id": "cab41b551e74eeeb1a8b",
+      "statement_ids": [
+        "cab41b551e74eeeb1a8b"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "26a29298a8c28f20657d",
+      "statement_ids": [
+        "26a29298a8c28f20657d"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "44b4b876c7a819d6c318",
+      "statement_ids": [
+        "44b4b876c7a819d6c318"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "33298e1f9b3e22801515",
+      "statement_ids": [
+        "33298e1f9b3e22801515"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "2c34fb79ca752043e8d6",
+      "statement_ids": [
+        "2c34fb79ca752043e8d6"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "210cc84338c984f3c4c3",
+      "statement_ids": [
+        "210cc84338c984f3c4c3"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Scope/status not separately cleared in this bounded pass; source references and technical variants remain available.",
+      "statement_id": "4030ae52eeb35ab7ea1c",
+      "statement_ids": [
+        "4030ae52eeb35ab7ea1c"
+      ],
+      "source_pdf_sha256": "ce7297560d076f752d1dc5856e207634e2ad2623bc2667ec8f3d3df90360be98",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/abs/2205.14003",
+        "https://arxiv.org/abs/2010.12182",
+        "https://arxiv.org/abs/2104.12999",
+        "https://arxiv.org/abs/2210.07869",
+        "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+      ],
+      "search_topics": [
+        "\"Moritz Lichter\" \"canonization\" 2026",
+        "\"Moritz Lichter\" \"2026\" CPT",
+        "\"Choiceless\" \"canonization\" \"bounded color\" 2026",
+        "\"rank logic\" \"finite rings\" 2026",
+        "\"Moritz Lichter\" \"Choiceless\" 2026 site:arxiv.org",
+        "\"rank logic\" \"Z4\" 2025 2026",
+        "\"rank logic\" \"CPT\" 2025 2026",
+        "\"Choiceless Polynomial Time\" \"2026\" captures site:arxiv.org",
+        "\"witnessed symmetric choice\" 2025 2026 site:arxiv.org"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 4909,
+    "catalog_sha256": "fdad41f1147a73de524b1f130429ce3ea88d48ce1808be0ff4a0c14367be959d",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

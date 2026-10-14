@@ -1,0 +1,1135 @@
+{
+  "schema": "statement-promotion-source-review-v1",
+  "review_date": "2026-10-13",
+  "source_key": "openai-supervised:f5d9b933ca7c1e42def7",
+  "unreviewed_statement_ids": [],
+  "source_review_notes": [
+    "Actual held physical1,19–23,44–45,48–49,64,71–72,74–79,128–129,134–136,149–151 read. Printed page offset12 verified.",
+    "Three intersection targets have different map classes/codomains. The exact general F-edge classification is counted once; historical narrower passages stay active pending clause mapping.",
+    "General vertex-transitive and hypercube edge-packing conjectures are refuted, and arbitrary punctured-interval dimension bound is solved. The remaining cardinality conjecture is a different uniformity target."
+  ],
+  "query_log": [
+    {
+      "date": "2026-10-13",
+      "query": "single polyomino decidability rotations reflections 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "aperiodic polyomino 2025 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Gruslys cardinality tile dimension bound"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "almost tiling Boolean lattice arbitrary finite poset constant 2026"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Gruslys fixed intersection property nonconstant bijection"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "Gruslys monochromatic maximal lines four points"
+    },
+    {
+      "date": "2026-10-13",
+      "query": "minimum F-edges Gruslys Letzter 2026"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/pdf/1505.03697",
+      "sections_read": "Published arbitrary-tiles source: Euclidean isometric copies, proved finite-d existence and final cardinality-bound conjecture. Source positive coordinate-permutation construction does not restrict the conjecture to such copies."
+    },
+    {
+      "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+      "sections_read": "2021 punctured-interval theorem and retained cardinality-bound conjecture; arbitrary puncture is answered in dimension3."
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+      "sections_read": "2025 primary: one/two polygon isometry problems remain open; periodic means two translational symmetries. Three-polygon undecidability does not answer one connected square-grid polyomino."
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.10067",
+      "sections_read": "2025 primary proves five-polyomino translation-only undecidability. Neither a single piece nor rotations/reflections target is resolved."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.12392",
+      "sections_read": "October8,2026 primary proves connected translational monotiling undecidable in3D, while2D translational monotiling is decidable. The target here is2D with rotations/reflections, not its already solved translation-only variant."
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+      "sections_read": "2018 primary proves bounded-remainder tiling when P has a minimum and maximum; Conjecture4 retains arbitrary finite P."
+    },
+    {
+      "url": "https://arxiv.org/abs/1710.07255",
+      "sections_read": "Primary abstract explicitly refutes general vertex-transitive power conjecture with odd non-prime-power tori, and refutes arbitrary hypercube edge-packing conjecture. Both historical source statements excluded."
+    },
+    {
+      "url": "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+      "sections_read": "Published geometric Hales–Jewett counterexample, maximal-line definition and concluding questions corresponding to thesis5.5–5.6. Counterexamples with no4-point line do not settle the strengthened questions."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1311.7082",
+      "sections_read": "Fixed-intersection definition, nonconstant maps versus bijections, sufficiently-large-n positive theorem and concluding questions. Same-source repeated conjecture merged."
+    },
+    {
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf",
+      "sections_read": "Primary definitions and final Problems55–57: F-edges counted once when contained in an F-copy, rather than number of F-copies. Exact triangle theorem for large n and dense3-chromatic asymptotics are partial cases of the full classification."
+    }
+  ],
+  "source_metadata": {
+    "author": "Vytautas Gruslys",
+    "title": "Tilings and other combinatorial results",
+    "year": "2018",
+    "institution": "University of Cambridge"
+  },
+  "source_fingerprint": {
+    "pdf": "projects/thesis-catalog/pdf/openai-math/k1ac46ef001ae.pdf",
+    "sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+    "physical_pages": 156
+  },
+  "status_standard": "Bounded dated review of actual primary sources. No resolution located is not universal certification.",
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "original_review_sha256": "e4f27d06bd0858369943903cef965377136cbbe02d95679f17992df83cad3cf6",
+  "export_note": "This view applies the coordinating audit and final question text. Large retrieval snapshots are omitted; original candidate text is preserved in data/archived-statements.jsonl.gz. The original review hash identifies the privately retained complete evidence record.",
+  "accepted": [
+    {
+      "decision": "accept",
+      "title": "Deciding square-grid tilings by one polyomino",
+      "text": "A polyomino is a finite nonempty subset P⊂Z² connected by unit horizontal/vertical steps. A permitted copy is z+RP, with z∈Z² and R a signed permutation matrix, so rotations and reflections of the square grid are allowed. A tiling is a partition of Z² into such copies. Is there an algorithm that, given P, always halts and decides whether a tiling exists?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Source discussion §2.1, printed p. 9 / held PDF p. 21; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 21,
+        "printed_page": 9,
+        "label": "Source discussion §2.1"
+      },
+      "source_label": "Source discussion §2.1",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. One connected prototile; unrestricted square-grid rotations/reflections, not translation-only copies. The source explicitly separates the known translation-only algorithm.",
+      "literature_finding": "Recent primary undecidability results concern multiple planar tiles or a translational polycube in3D. The 2025 primary retains one/two-prototile isometry questions; no exact single-polyomino algorithm or undecidability result was located in the bounded scan.",
+      "primary_urls": [
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "826f4e5b3a0a49fe5a61",
+        "7a3a7af369b1775a68dd"
+      ],
+      "statement_id": "826f4e5b3a0a49fe5a61",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5026,
+      "source_locator": {
+        "label": "Source discussion §2.1",
+        "printed_page": 9,
+        "held_pdf_page": 21,
+        "original_extraction_page": 21,
+        "original_extraction_label": null
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A single polyomino with no periodic tiling",
+      "text": "A polyomino is a finite nonempty subset P⊂Z² connected by unit horizontal/vertical steps. A permitted copy is z+RP, with z∈Z² and R a signed permutation matrix, so rotations and reflections of the square grid are allowed. A tiling is a partition of Z² into such copies. Does some P admit a tiling but no tiling invariant under two linearly independent translation vectors in Z²?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Source discussion §2.1, printed p. 9 / held PDF p. 21; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 21,
+        "printed_page": 9,
+        "label": "Source discussion §2.1"
+      },
+      "source_label": "Source discussion §2.1",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. Periodic means a rank-two translation lattice, as in the contemporary tiling primary. This concerns a single connected square-grid piece, not an arbitrary polygon or a finite tileset.",
+      "literature_finding": "The recent arbitrary-polygon aperiodic monotile and3D translational tile do not provide a square-grid polyomino. Current single/polyomino primary searches found no matching construction or impossibility theorem; this remains a bounded status assessment.",
+      "primary_urls": [
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "d8a271cb68dd43914a0f"
+      ],
+      "statement_id": "d8a271cb68dd43914a0f",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5027,
+      "source_locator": {
+        "label": "Source discussion §2.1",
+        "printed_page": 9,
+        "held_pdf_page": 21,
+        "original_extraction_page": 21,
+        "original_extraction_label": null
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "A tile-cardinality bound on the required dimension",
+      "text": "For every positive integer t, does there exist an integer d=d(t)≥1 such that every finite nonempty T⊂Z with |T|≤t tiles Z^d, meaning Z^d can be partitioned into subsets Euclidean-isometric to T embedded in R^d? Copies may be translated, rotated and reflected; no scaling is allowed.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture 2.21, printed p. 32 / held PDF p. 44; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 44,
+        "printed_page": 32,
+        "label": "Conjecture 2.21"
+      },
+      "source_label": "Conjecture 2.21",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. Dimension is uniform over cardinality-bounded tiles, independent of their gaps or diameter. Keep Euclidean finite-set isometries, not the stronger axis-only construction rule.",
+      "literature_finding": "The arbitrary-tiles theorem gives a dimension depending on the whole tile, not just its cardinality. The 2021 punctured-interval primary still states this cardinality conjecture. No full cardinality-only bound was located.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "515d7105a6ac11b2a5c2"
+      ],
+      "statement_id": "515d7105a6ac11b2a5c2",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5028,
+      "source_locator": {
+        "label": "Conjecture 2.21",
+        "printed_page": 32,
+        "held_pdf_page": 44,
+        "original_extraction_page": 44
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Bounded-remainder packing by an arbitrary finite poset",
+      "text": "For every finite nonempty poset P, is there a constant c(P) such that for every n≥1 the Boolean lattice (2^[n],⊆) contains pairwise disjoint induced copies of P covering at least 2^n−c(P) elements? An induced copy is an injective map φ:P→2^[n] satisfying x≤_P y if and only if φ(x)⊆φ(y).",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 3.17, printed p. 52 / held PDF p. 64; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 64,
+        "printed_page": 52,
+        "label": "Question 3.17"
+      },
+      "source_label": "Question 3.17",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. No minimum/maximum or power-of-two size assumption on P. Disjoint means the copies share no elements of the lattice; preserve induced order, not weak embeddings.",
+      "literature_finding": "Tomon’s 2018 primary proves the target for posets having a minimum and maximum, and retains arbitrary P as Conjecture4. Later bounded queries found no unrestricted finite-poset result.",
+      "primary_urls": [
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "3ec952884c36da59ad09"
+      ],
+      "statement_id": "3ec952884c36da59ad09",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5029,
+      "source_locator": {
+        "label": "Question 3.17",
+        "printed_page": 52,
+        "held_pdf_page": 64,
+        "original_extraction_page": 64
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Forcing monochromatic lines from many long lines",
+      "text": "For a finite point set S⊂R², a line means S∩ℓ for an affine line ℓ containing at least two points of S; all points of S on ℓ are included. Such a line is monochromatic if all its points have one colour. For every fixed k≥3 and l≥4, does some m=m(k,l) exist such that, whenever S determines at least m distinct lines each containing exactly l points and no line containing more than l points, every k-colouring of S has a monochromatic line?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 5.5, printed p. 66 / held PDF p. 78; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 78,
+        "printed_page": 66,
+        "label": "Question 5.5"
+      },
+      "source_label": "Question 5.5",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. The monochromatic line need not have l points. Count complete maximal lines of the finite point set, not arbitrary collinear subsets. All k/l pairs remain quantified.",
+      "literature_finding": "The published primary retains this strengthened question after its cubic-curve counterexample to the original geometric Hales–Jewett claim. The original no4-point-line counterexample and two-colour results do not answer it. No exact closure was located.",
+      "primary_urls": [
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "a95eaf70c0a9092cfa80"
+      ],
+      "statement_id": "a95eaf70c0a9092cfa80",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5030,
+      "source_locator": {
+        "label": "Question 5.5",
+        "printed_page": 66,
+        "held_pdf_page": 78,
+        "original_extraction_page": 78
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Three colours with one four-point line",
+      "text": "For a finite point set S⊂R², a line means S∩ℓ for an affine line ℓ containing at least two points of S; all points of S on ℓ are included. Such a line is monochromatic if all its points have one colour. Does there exist N such that every finite S⊂R² with |S|≥N, at least one line containing exactly four points, and no line containing five or more points has a monochromatic line under every three-colouring?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 5.6, printed p. 67 / held PDF p. 79; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 79,
+        "printed_page": 67,
+        "label": "Question 5.6"
+      },
+      "source_label": "Question 5.6",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. One4-point line plus total set size, not many4-point lines. A positive many-lines answer alone does not give this stronger special-colour target.",
+      "literature_finding": "The primary concluding question retains precisely the one4-point-line three-colour version. No later exact result was located in the bounded scan.",
+      "primary_urls": [
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "dd503a087a08f347a0b9"
+      ],
+      "statement_id": "dd503a087a08f347a0b9",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5031,
+      "source_locator": {
+        "label": "Question 5.6",
+        "printed_page": 67,
+        "held_pdf_page": 79,
+        "original_extraction_page": 79
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Fixed intersections just above twice the subset size",
+      "text": "Write [r]^(p) for all p-element subsets of {1,…,r}. A function f fixes an intersection if some distinct A,B in its domain satisfy |f(A)∩f(B)|=|A∩B|. For all positive integers n,p with n>2p, must every nonconstant f:[n]^(p)→[n]^(p) fix an intersection?",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Conjecture 7.11, printed p. 123 / held PDF p. 135; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 135,
+        "printed_page": 123,
+        "label": "Conjecture 7.11"
+      },
+      "source_label": "Conjecture 7.11",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. Equality of cardinalities, not equality of intersection sets. Nonconstant does not mean bijective or injective. The n=2p countercase is excluded by the explicit inequality.",
+      "literature_finding": "The source and primary prove the property when n is sufficiently large depending on p, but retain n>2p. No full sharp-threshold answer was located.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1311.7082"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "550954ee5dc270fd8ed5",
+        "65bf3b29374340f96dee"
+      ],
+      "statement_id": "550954ee5dc270fd8ed5",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5032,
+      "source_locator": {
+        "label": "Conjecture 7.11",
+        "printed_page": 123,
+        "held_pdf_page": 135,
+        "original_extraction_page": 135
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Fixed-intersection thresholds for an unbounded codomain",
+      "text": "Write [r]^(p) for all p-element subsets of {1,…,r}. A function f fixes an intersection if some distinct A,B in its domain satisfy |f(A)∩f(B)|=|A∩B|. Determine all integer pairs r≥p≥2 for which every nonconstant f:[r]^(p)→N^(p) fixes an intersection, where N^(p) is the family of p-element subsets of the positive integers.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 7.30, printed p. 139 / held PDF p. 151; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 151,
+        "printed_page": 139,
+        "label": "Question 7.30"
+      },
+      "source_label": "Question 7.30",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. Unbounded codomain differs from same-ground-set maps. The source explicitly gives (r,p)=(11,5) as a negative example in this codomain, so it cannot replace the sharp same-ground-set conjecture.",
+      "literature_finding": "The primary retains the pair classification; sufficiently-large-r positive results and the source(11,5) counterexample are proper partial cases. No complete classification was located.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1311.7082"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "6c06fef1f6de5d7b7c4d"
+      ],
+      "statement_id": "6c06fef1f6de5d7b7c4d",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5033,
+      "source_locator": {
+        "label": "Question 7.30",
+        "printed_page": 139,
+        "held_pdf_page": 151,
+        "original_extraction_page": 151
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Fixed intersections under permutations of p-subsets",
+      "text": "Write [r]^(p) for all p-element subsets of {1,…,r}. A function f fixes an intersection if some distinct A,B in its domain satisfy |f(A)∩f(B)|=|A∩B|. Determine all integer pairs r≥p≥2 for which every bijection f:[r]^(p)→[r]^(p) fixes an intersection.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 7.31, printed p. 139 / held PDF p. 151; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 151,
+        "printed_page": 139,
+        "label": "Question 7.31"
+      },
+      "source_label": "Question 7.31",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. A permutation of p-subsets, not a permutation of the ground set. This classification allows r≤2p and restricts maps to bijections, unlike the preceding two questions.",
+      "literature_finding": "The source and primary retain this classification, with a simple sufficiently-large-r=Ω(p²) positive bound. No complete pair classification was located.",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1311.7082"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "5cc0a393f8fadd9657f5"
+      ],
+      "statement_id": "5cc0a393f8fadd9657f5",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5034,
+      "source_locator": {
+        "label": "Question 7.31",
+        "printed_page": 139,
+        "held_pdf_page": 151,
+        "original_extraction_page": 151
+      }
+    },
+    {
+      "decision": "accept",
+      "title": "Exact minima and extremizers for edges lying in F-copies",
+      "text": "For every fixed finite simple graph F with an edge, every n≥1 and every integer 0≤e≤binom(n,2), determine the minimum, over n-vertex finite simple graphs G with exactly e edges, of the number of edges of G belonging to at least one subgraph isomorphic to F; characterize all graphs attaining the minimum. Count each such edge once, irrespective of the number of F-copies containing it, and do not require F-copies to be induced.",
+      "subject": "Combinatorics & Graph Theory",
+      "citation": "Question 6.57, printed p. 117 / held PDF p. 129; definitions in the relevant chapter.",
+      "locator": {
+        "pdf_page": 129,
+        "printed_page": 117,
+        "label": "Question 6.57"
+      },
+      "source_label": "Question 6.57",
+      "scope_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness. The exact full graph/finite-parameter classification is broader than clique/odd-cycle subcases and dense asymptotic estimates. No minimum over number of copies or over missing saturating edges is substituted.",
+      "literature_finding": "The primary final Problem57 retains this full classification. Exact triangle results for sufficiently large n and dense asymptotic3-chromatic results are known partial cases. No unrestricted exact F/n/e classification was located.",
+      "primary_urls": [
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "status_grade": "explicit-source-target-current-primary-scan",
+      "duplicate_review": "Actual held source questions, surrounding definitions/results and dated primary papers read. Full live catalog family and author/title/URL alias searches found no equivalent; an independent source/global audit remains required before numbering. Retrieval scores never certify uniqueness.",
+      "statement_ids": [
+        "e2d13a13b851e9a8ab2a"
+      ],
+      "statement_id": "e2d13a13b851e9a8ab2a",
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ],
+      "number": 5035,
+      "source_locator": {
+        "label": "Question 6.57",
+        "printed_page": 117,
+        "held_pdf_page": 129,
+        "original_extraction_page": 129
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        5026
+      ],
+      "reason": "Repeated introductory statement of the same single-polyomino decision problem.",
+      "statement_id": "7a3a7af369b1775a68dd",
+      "statement_ids": [
+        "7a3a7af369b1775a68dd"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "duplicate",
+      "duplicate_of": [
+        5032
+      ],
+      "reason": "Repeated final statement of Conjecture7.11; one target with both source IDs.",
+      "statement_id": "65bf3b29374340f96dee",
+      "statement_ids": [
+        "65bf3b29374340f96dee"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Related clique/odd-cycle or small-n subcase is subsumed by the broader reviewed F-edge classification, but this passage has additional historical/solved clauses. Keep original active for a separate precise clause mapping; do not count another promotion.",
+      "statement_id": "629903a1c9be0d8adedf",
+      "statement_ids": [
+        "629903a1c9be0d8adedf"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Related clique/odd-cycle or small-n subcase is subsumed by the broader reviewed F-edge classification, but this passage has additional historical/solved clauses. Keep original active for a separate precise clause mapping; do not count another promotion.",
+      "statement_id": "67ecacd36ba881533b4b",
+      "statement_ids": [
+        "67ecacd36ba881533b4b"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Related clique/odd-cycle or small-n subcase is subsumed by the broader reviewed F-edge classification, but this passage has additional historical/solved clauses. Keep original active for a separate precise clause mapping; do not count another promotion.",
+      "statement_id": "b7f77fb998094feea72d",
+      "statement_ids": [
+        "b7f77fb998094feea72d"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Bonamy–Morrison–Scott primary1710.07255 explicitly provides a counterexample to this historical general conjecture: odd non-prime-power vertex-transitive tori, respectively a cube subgraph with no perfect edge packing.",
+      "primary_urls": [
+        "https://arxiv.org/abs/1710.07255"
+      ],
+      "statement_id": "6bbb470e9a03130fd78b",
+      "statement_ids": [
+        "6bbb470e9a03130fd78b"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Bonamy–Morrison–Scott primary1710.07255 explicitly provides a counterexample to this historical general conjecture: odd non-prime-power vertex-transitive tori, respectively a cube subgraph with no perfect edge packing.",
+      "primary_urls": [
+        "https://arxiv.org/abs/1710.07255"
+      ],
+      "statement_id": "810a2efd57b97e6a7e27",
+      "statement_ids": [
+        "810a2efd57b97e6a7e27"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "solved-literature",
+      "reason": "Cambie2021 proves arbitrary punctured intervals tile Z³, settling the source’s uniform-dimension question for an interval with any single point removed.",
+      "primary_urls": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085"
+      ],
+      "statement_id": "5aa21d91105c230af798",
+      "statement_ids": [
+        "5aa21d91105c230af798"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "A truncated label reference/commentary about the geometric Hales–Jewett claim already refuted by the same source; not a new complete open statement.",
+      "statement_id": "a98a3f7b2c5002a73795",
+      "statement_ids": [
+        "a98a3f7b2c5002a73795"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "hold",
+      "reason": "Orientation implication depends on full Question7.5 degree and colouring conventions, which are not cleared in this packet. Retain source rather than invent a standalone reduction target.",
+      "statement_id": "dd55d2f7d50aabe263ce",
+      "statement_ids": [
+        "dd55d2f7d50aabe263ce"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "8a024563558a3d1fd908",
+      "statement_ids": [
+        "8a024563558a3d1fd908"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "b02d3928884f33b9a50c",
+      "statement_ids": [
+        "b02d3928884f33b9a50c"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "27eef6ec38e49f13de2e",
+      "statement_ids": [
+        "27eef6ec38e49f13de2e"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "3536cf8531b4fa1bf238",
+      "statement_ids": [
+        "3536cf8531b4fa1bf238"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "f1b7bb5355d0051a464d",
+      "statement_ids": [
+        "f1b7bb5355d0051a464d"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "21e9768840e65e889bb5",
+      "statement_ids": [
+        "21e9768840e65e889bb5"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "7a94caf2ec33473f4801",
+      "statement_ids": [
+        "7a94caf2ec33473f4801"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "0435ddadb45f21bc6af2",
+      "statement_ids": [
+        "0435ddadb45f21bc6af2"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    },
+    {
+      "decision": "extraction-noise",
+      "reason": "Section outline or general concluding-remarks header; no independent mathematical statement is present in the extracted passage.",
+      "statement_id": "518a63591bdb1b07a2b7",
+      "statement_ids": [
+        "518a63591bdb1b07a2b7"
+      ],
+      "source_pdf_sha256": "3e349e4e7fd5b9c506994bd55fc572373cb501532ebf9a7d29f264777c1458c2",
+      "review_date": "2026-10-13",
+      "reviewer": "coordinating agent /root, resumed session",
+      "primary_urls": [
+        "https://arxiv.org/pdf/1505.03697",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112%2Fmtk.12085",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html",
+        "https://arxiv.org/abs/2508.10067",
+        "https://arxiv.org/abs/2610.12392",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/",
+        "https://arxiv.org/abs/1710.07255",
+        "https://jocg.org/index.php/jocg/article/download/2933/2627/7266",
+        "https://arxiv.org/pdf/1311.7082",
+        "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+      ],
+      "search_topics": [
+        "single polyomino decidability rotations reflections 2026",
+        "aperiodic polyomino 2025 2026",
+        "Gruslys cardinality tile dimension bound",
+        "almost tiling Boolean lattice arbitrary finite poset constant 2026",
+        "Gruslys fixed intersection property nonconstant bijection",
+        "Gruslys monochromatic maximal lines four points",
+        "minimum F-edges Gruslys Letzter 2026"
+      ]
+    }
+  ],
+  "deduplication": {
+    "catalog_count": 5025,
+    "catalog_sha256": "7d59f8ab82521e549b73f508d40dd1231ffccb9188b91e8293abad30e5fb1f41",
+    "corpus_count": 28701,
+    "method": "Catalog-wide retrieval followed by explicit source and mathematical comparison; see decision notes and duplicate audit."
+  }
+}

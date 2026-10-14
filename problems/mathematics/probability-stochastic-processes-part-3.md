@@ -897,3 +897,403 @@ For every ε∈(0,1), does τ\_n(ε)/n→0 in probability over the initial match
 
 **Literature check.** Status: Exact-title, source-identity and target searches found no matching later resolution or erratum. This is a bounded search observation, not proof of absence.
 
+
+<a id="q4812"></a>
+
+## Q4812. Does a convex belief-propagation image imply universal fields?
+
+**Status:** Open · **Kind:** open problem (Question 3.9.17) · **Reviewed extraction** 2026-10-13
+
+For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏\_{i=1}^d A_{c,τ\_i}] and F_c(μ)=G_c(μ)/∑\_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F. For a symmetric entrywise nonnegative interaction matrix A∈ℝ^(q×q) and integer d with F_prod=F_all, do there exist d fixed nonnegative external-field arrays λ^(i)∈ℝ^(d×q), independent of μ, such that F(μ)=F(⊗\_{i=1}^d(λ^(i)⋆μ)\_i) for every admissible μ? Here λ⋆μ(τ) is proportional to μ(τ)∏\_j λ\_{j,τ\_j}, and (λ⋆μ)\_i denotes its i-th marginal. The arrays must make these tilts and F well defined for the distributions to which the identity applies.
+
+**Source.** Nitya Mani. *A probabilistic perspective on graph coloring*. Massachusetts Institute of Technology, 2025. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content) · [record](https://dspace.mit.edu/handle/1721.1/159909) Location: Question 3.9.17, printed p. 163 / PDF p. 163; definitions §3.8.1, Proposition 3.8.3, Definition 3.9.2. Later/current paper: Question 3, arXiv:2411.06541v2.
+
+**Literature check.** Reviewed 2026-10-13: The February 2025 revision retains this conditional universal-fields question. The general reduction is disproved, but that disproof does not establish a counterexample under F_prod=F_all. No later answer located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13/main-review.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2411.06541v2) · [2](https://arxiv.org/html/2411.06541v2#S4)
+
+<a id="q4813"></a>
+
+## Q4813. Convex image of product measures for antiferromagnetic Potts
+
+**Status:** Open · **Kind:** open problem (Question 3.9.18) · **Reviewed extraction** 2026-10-13
+
+Fix integers q≥3 and d≥2 and max{0,1−q/(d+1)}≤β≤1. For the antiferromagnetic Potts matrix A=11ᵀ−(1−β)I_q, is the image of product distributions on [q]^d under belief propagation F a convex subset of the probability simplex? For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏\_{i=1}^d A_{c,τ\_i}] and F_c(μ)=G_c(μ)/∑\_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F.
+
+**Source.** Nitya Mani. *A probabilistic perspective on graph coloring*. Massachusetts Institute of Technology, 2025. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content) · [record](https://dspace.mit.edu/handle/1721.1/159909) Location: Question 3.9.18, printed p. 163 / PDF p. 163; Definition 3.9.2 and §3.8.1. Current paper: Question 4, arXiv:2411.06541v2.
+
+**Literature check.** Reviewed 2026-10-13: The current revision explicitly retains convexity as Question 4. Its large convex bulk theorem applies to distributions satisfying extra tail conditions and is not convexity of the entire product image. No later general resolution located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13/main-review.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2411.06541v2) · [2](https://arxiv.org/html/2411.06541v2#S4)
+
+<a id="q4814"></a>
+
+## Q4814. Uniformly bounded cycle swaps connecting all 3D box tilings
+
+**Status:** Open · **Kind:** open problem (Problem 2.9.1) · **Reviewed extraction** 2026-10-13
+
+Does there exist a universal finite integer K such that, for every j×m×n rectangular grid box with positive integer side lengths and jmn even, any two perfect matchings can be connected by swaps on alternating cycles of length at most K? The grid joins nearest neighbors. An alternating-cycle swap exchanges matching and nonmatching edges along that cycle. The source also asks the stronger version using only flips and trits (the specified 4-edge square and 6-edge cube moves).
+
+**Source.** Catherine C. Wolfram. *Random geometry in two and three dimensions*. Massachusetts Institute of Technology, 2024. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/5e3b8d92-6a0f-4201-aee2-1a658af765dc/content) · [record](https://dspace.mit.edu/handle/1721.1/155328) Location: Problem 2.9.1, printed p. 195 / PDF p. 195; discussion PDF pp. 195–196. Current joint paper: Problem 9.0.1, arXiv:2304.08468v3.
+
+**Literature check.** Reviewed 2026-10-13: The May 2026 revision retains both box-connectivity questions. HLT23 proves existence of at least one flip or trit, which is weaker than connecting every pair. Nonconnectivity for arbitrary simply connected regions does not settle rectangular boxes. No later box resolution found.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13/main-review.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2304.08468v3) · [2](https://arxiv.org/html/2304.08468v3#S9)
+
+<a id="q4826"></a>
+
+## Q4826. Metric removability of a deterministic vertical line in the directed landscape
+
+**Status:** Open · **Kind:** open problem (Question 5.1) · **Reviewed extraction** 2026-10-13-250
+
+Let L be the directed landscape and ξ(r)=0 for 0≤r≤1. For deterministic p=(x,s), q=(y,t) with 0&lt;s&lt;t<1, let L^g_ξ(p;q) be the supremum of L-lengths of continuous directed paths from p to q that intersect the vertical curve {(0,r):0≤r≤1} at only finitely many times. Equivalently, this is the metric gluing of the restricted landscapes on the two sides of ξ, using Definition 5.9. Is L^g_ξ(p;q)=L(p;q) almost surely for every such deterministic pair p,q?
+
+**Source.** Manan Bhatia. *Two Flavours of Random Geometry: Geodesics in the Directed Landscape and Liouville Quantum Gravity*. Massachusetts Institute of Technology, 2026. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/97b14590-0ca1-4281-adbc-d5eb924836dd/content) · [record](https://dspace.mit.edu/handle/1721.1/174598) Location: Question 5.1, printed/PDF p.161; formal metric-gluing Definitions 5.7–5.10, printed/PDF pp.163–164.
+
+**Literature check.** Reviewed 2026-10-13: The associated paper retains the vertical-line question; its interface-removability theorem and geodesic non-removability theorem concern different curves. The current author publication list and fresh exact-topic retrieval locate no resolution of the vertical line.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2404.02862v1) · [2](https://mananbhatia1701.github.io/manan/)
+
+<a id="q4827"></a>
+
+## Q4827. Hausdorff dimensions of LQG geodesic-network strata
+
+**Status:** Open · **Kind:** open problem (Problem 7.49) · **Reviewed extraction** 2026-10-13-250
+
+Fix γ∈(0,2), a whole-plane Gaussian free field h, and its γ-Liouville quantum gravity metric D_h. Let S_k be the set of points from which k nonconstant D_h-geodesics emanate pairwise disjoint except at their common starting point. For a fixed geodesic-network graph G with its two endpoints distinguished, let A_G consist of distinct pairs (z,w)∈C² for which the union of all D_h-geodesics from z to w has network topology G. Determine the almost sure Hausdorff dimension of A_G in the product metric D_h×D_h in terms of the star dimensions {dim_{D_h}S_k}\_{k≥1}, including establishing the required determinism of those star dimensions.
+
+**Source.** Manan Bhatia. *Two Flavours of Random Geometry: Geodesics in the Directed Landscape and Liouville Quantum Gravity*. Massachusetts Institute of Technology, 2026. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/97b14590-0ca1-4281-adbc-d5eb924836dd/content) · [record](https://dspace.mit.edu/handle/1721.1/174598) Location: Problem 7.49, printed/PDF p.331; star and network definitions, printed/PDF pp.326,329–331. Current paper Problem 52, arXiv:2512.09219v2.
+
+**Literature check.** Reviewed 2026-10-13: The August 2026 revision retains this as Problem 52. Strong confluence proves structural prerequisites, and known dense/typical-point network classifications do not give dimensions of all exceptional network strata. Fresh primary author work on dimension lower bounds and uniformity along geodesics does not supply this full classification.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2512.09219v2) · [2](https://arxiv.org/html/2608.22693) · [3](https://arxiv.org/abs/2010.11260) · [4](https://mananbhatia1701.github.io/manan/)
+
+<a id="q4828"></a>
+
+## Q4828. Constant-probability long geodesics through the origin in dynamical exponential LPP
+
+**Status:** Open · **Kind:** open problem (Question 8.17) · **Reviewed extraction** 2026-10-13-250
+
+Give every vertex of Z² an independent Exp(1) weight and refresh each weight independently at rate one. At time t, let Γ\_p^{q,t} be the up-right maximum-weight path between coordinatewise ordered vertices p≤q. Fix θ∈(−1,1) and ε>0, and set ℓ\_{n,ε}^θ={p∈Z²:p_1+p_2=n, |p_1−p_2−θn|≤ε|n|}. Is there c=c(θ,ε)>0 such that for every sufficiently large integer n, P[there exist t∈[0,1], p∈ℓ\_{−n,ε}^θ and q∈ℓ\_{n,ε}^θ with p≤q and 0∈Γ\_p^{q,t}]≥c?
+
+**Source.** Manan Bhatia. *Two Flavours of Random Geometry: Geodesics in the Directed Landscape and Liouville Quantum Gravity*. Massachusetts Institute of Technology, 2026. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/97b14590-0ca1-4281-adbc-d5eb924836dd/content) · [record](https://dspace.mit.edu/handle/1721.1/174598) Location: Question 8.17, printed/PDF p.352; Theorem 8.3 and segment notation, printed/PDF p.338. Associated exponential-LPP paper Question 18.
+
+**Literature check.** Reviewed 2026-10-13: The current exponential-LPP paper explicitly asks this constant-probability upgrade. The September 2026 Brownian trace paper still describes the exponential companion bound as c/log n and treats a different Brownian model; its zero-dimensionality result does not resolve this target.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/bhatia-2026.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2504.12293) · [2](https://arxiv.org/html/2609.35103) · [3](https://mananbhatia1701.github.io/manan/)
+
+<a id="q4862"></a>
+
+## Q4862. Conformal removability throughout the non-space-filling SLE range
+
+**Status:** Open · **Kind:** open problem (Problem 1.3.4) · **Reviewed extraction** 2026-10-13-250
+
+For every κ∈[4,8), is the range of chordal SLE_κ almost surely conformally removable? In the standard upper-half-plane realization from0 to∞, this means that every homeomorphism of the Riemann sphere that is conformal off the trace (including its endpoints) is a Möbius transformation.
+
+**Source.** Ewain Gwynne. *On the metric structure of random planar maps and SLE-decorated Liouville quantum gravity*. Massachusetts Institute of Technology, 2018. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/a9942c43-14a0-4ec3-8039-40c1803b6770/content) · [record](https://dspace.mit.edu/handle/1721.1/117871) Location: Problem1.3.4, printed/physical49
+
+**Literature check.** Reviewed 2026-10-13: Kavvadias–Miller–Schoug provesκ=4. ItsMay2026v2 non-simple theorem assumesκ belongs to the setK with connected complementary-component adjacency graph; the paper explicitly says determiningK remains open. This is not a theorem for everyκ∈(4,8). No later full-range result located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/abs/2209.10532) · [2](https://arxiv.org/html/2302.10857v2) · [3](https://math.uchicago.edu/~ewain/)
+
+<a id="q4863"></a>
+
+## Q4863. Graph-distance scaling limits of mated-CRT maps
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.1.2) · **Reviewed extraction** 2026-10-13-250
+
+For γ∈(0,2), let (L,R) be a two-sided Brownian motion with unit coordinate variances and correlation−cos(πγ²/4). For ε>0 define G^ε on εℤ: for x&lt;y add an edge if max(inf_{[x−ε,x]}L,inf_{[y−ε,y]}L)≤inf_{[x,y−ε]}L, or if the same inequality holds for R. Do there exist deterministic normalizing constants a_ε>0 such that the rooted graph metric spaces (G^ε,a_ε d_graph,0), in the peanosphere coupling, converge in probability in the local pointed Gromov–Hausdorff topology to the γ-LQG quantum-cone metric space rooted at its marked point as ε→0?
+
+**Source.** Ewain Gwynne. *On the metric structure of random planar maps and SLE-decorated Liouville quantum gravity*. Massachusetts Institute of Technology, 2018. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/a9942c43-14a0-4ec3-8039-40c1803b6770/content) · [record](https://dspace.mit.edu/handle/1721.1/117871) Location: Conjecture6.1.2, first metric clause, printed/physical361
+
+**Literature check.** Reviewed 2026-10-13: The intrinsicγ-LQG metric has now been constructed, but the mating-of-trees survey distinguishes this from convergence of graph distances. Berestycki–Gwynne proves parametrized random-walk convergence, settling the diffusion clause, not graph-metric convergence. The author current2026 list includes directed-distance results, a different metric problem.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1606.01214) · [2](https://arxiv.org/pdf/1910.04713) · [3](https://arxiv.org/abs/1905.00383) · [4](https://arxiv.org/abs/2003.10320) · [5](https://math.uchicago.edu/~ewain/)
+
+<a id="q4864"></a>
+
+## Q4864. Internal mated-CRT diameter exponent agrees with reciprocal LQG dimension
+
+**Status:** Open · **Kind:** conjecture (Conjecture 6.1.13) · **Reviewed extraction** 2026-10-13-250
+
+For γ∈(0,2), let (L,R) be a two-sided Brownian motion with unit coordinate variances and correlation−cos(πγ²/4). For ε>0 define G^ε on εℤ: for x&lt;y add an edge if max(inf_{[x−ε,x]}L,inf_{[y−ε,y]}L)≤inf_{[x,y−ε]}L, or if the same inequality holds for R. Let χ(γ)=lim_{ε↓0}log E[diam(G^ε|(0,1])]/log ε⁻¹, where the diameter uses distances in the induced subgraph onεℤ∩(0,1]; this limit is known to exist. Let d_γ be the almost-sure Hausdorff dimension of theγ-LQG metric. Is there some γ\_\*∈(√2,√(8/3)] such that χ(γ)=1/d_γ for every0<γ≤γ\_\*?
+
+**Source.** Ewain Gwynne. *On the metric structure of random planar maps and SLE-decorated Liouville quantum gravity*. Massachusetts Institute of Technology, 2018. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/a9942c43-14a0-4ec3-8039-40c1803b6770/content) · [record](https://dspace.mit.edu/handle/1721.1/117871) Location: Conjecture6.1.13, printed/physical364
+
+**Literature check.** Reviewed 2026-10-13: Counterpart Conjecture1.13 retains this threshold statement. Later LQG metric existence and metric-dimension comparisons give meaning to d_γ and ambient graph-distance exponents, but do not identify the segment-restrictedχ throughout the proposed range. Current directed-distance work is not an identified closure.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/gwynne-2018.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1606.01214) · [2](https://arxiv.org/pdf/1910.04713) · [3](https://arxiv.org/abs/1905.00383) · [4](https://math.uchicago.edu/~ewain/)
+
+<a id="q4891"></a>
+
+## Q4891. Square-count-conditioned quantum regularizations converge to the LQG sphere
+
+**Status:** Open · **Kind:** conjecture (Conjecture 2.6.7) · **Reviewed extraction** 2026-10-13-250
+
+Fix c<1, Q=√((25−c)/6), and γ∈(0,2) with Q=2/γ+γ/2. On the Riemann sphere choose a smooth background metric g₀ flat near U=[0,1]², and a Gaussian free field h with its additive constant normalized by ∫hK₀dVol_g₀=0, where K₀ is the curvature of g₀. For each dyadic square S⊂U let h_S be its spatial average and Z_h(S)=exp(h_S/Q)·side(S). Let P¹ be the terminal dyadic squares satisfying Z_h(S)≤1 and Z_h(S′)>1 for every strict dyadic ancestor S′⊃S. Put h_P=E[h | (h_S)\_{S∈P¹}], interpreted for each realized finite partition as the Gaussian projection onto these averages. Conditional on #P¹=n, define g_n=exp(2(h_P/Q+C_n))g₀ with C_n=(1/4)log n−(3/4)log Vol_{exp(2h_P/Q)g₀}(sphere). As n→∞ through values with positive conditioning probability, does the law of this quantum surface converge to a γ-LQG sphere of some deterministic positive total volume, in the quantum-surface topology specified in the source (vague convergence of volume measures after its conformal cylinder normalization)?
+
+**Source.** Minjae Park. *Random surface interpretations of two-dimensional Liouville quantum gravity and Yang-Mills theory*. Massachusetts Institute of Technology, 2022. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/8c79f319-0eb1-4b55-9ba4-b2bd04c54f0f/content) · [record](https://dspace.mit.edu/handle/1721.1/145024) Location: Conjecture2.6.7; Definition2.6.5 and §§2.6.2–2.6.4
+
+**Literature check.** Reviewed 2026-10-13: The counterpart Brownian loops and central charge paper explicitly labels the same assertion Claim6.10 and says it is not formally proved. The 2024 non-smooth Polyakov–Alvarez paper gives uniform loop-mass asymptotics under bounded/precompact conformal-factor hypotheses, which does not establish this square-count-conditioned n→∞ sphere limit. Current author publication list includes those works and 2025/2026 Yang–Mills work, without a claimed closure of this exact limit. Targeted current primary retrieval found no exact closure; this is a bounded status assessment.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/park-2022.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2005.11845v2) · [2](https://arxiv.org/html/2302.02358v1) · [3](https://webhome.auburn.edu/~mip0024/) · [4](https://orcid.org/0000-0001-5967-7348)
+
+<a id="q4930"></a>
+
+## Q4930. Optimal energy attained by polynomial-time spin-glass algorithms
+
+**Status:** Open · **Kind:** open problem (Problem 1.2.1) · **Reviewed extraction** 2026-10-13-250
+
+Fix P and γ₁,…,γ\_P≥0. For independent standard Gaussian coefficients g^{(p)}\_{i₁,…,i_p}, set H_N(σ)=Σ\_{p=1}^P γ\_p N^{−(p−1)/2}Σ\_{i₁,…,i_p=1}^N g^{(p)}\_{i₁,…,i_p}σ\_{i₁}⋯σ\_{i_p}. Separately for Σ\_N={±1}^N and S_N={σ∈ℝ^N:‖σ‖²=N}, determine the supremal E such that a polynomial-time randomized algorithm A, given the disorder coefficients defining H_N, outputs σ\_alg in the chosen domain with P(H_N(σ\_alg)/N≥E−ε)→1 for every fixed ε>0 as N→∞.
+
+**Source.** Huang, Brice. *Statistical and Algorithmic Thresholds in Spin Glasses*. Massachusetts Institute of Technology, 2025. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/6aabbc9a-661d-4f61-8389-c91f797c7d20/content) · [record](https://dspace.mit.edu/handle/1721.1/164047) Location: Huang thesis Problem1.2.1, physical17/printed16
+
+**Literature check.** Reviewed 2026-10-13: Primary2303.12172 characterizes maximum energy for suitably Lipschitz algorithms, while2308.09672 provides matching efficient algorithms. Current author2026 works do not claim optimality among every polynomial-time algorithm; no unrestricted threshold closure located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/huang-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.bricehuang.com/research.html) · [2](https://arxiv.org/abs/2303.12172) · [3](https://arxiv.org/abs/2308.09672) · [4](https://arxiv.org/abs/2404.15651) · [5](https://arxiv.org/html/2411.09075v2) · [6](https://arxiv.org/abs/2609.32710) · [7](https://github.com/yspennstate/ising-perceptron-capacity/blob/main/paper/main.tex)
+
+<a id="q4931"></a>
+
+## Q4931. Temperatures permitting efficient total-variation sampling of spherical spin glasses
+
+**Status:** Open · **Kind:** open problem (Problem 1.2.6) · **Reviewed extraction** 2026-10-13-250
+
+Fix P and γ₁,…,γ\_P≥0. For independent standard Gaussian coefficients g^{(p)}\_{i₁,…,i_p}, set H_N(σ)=Σ\_{p=1}^P γ\_p N^{−(p−1)/2}Σ\_{i₁,…,i_p=1}^N g^{(p)}\_{i₁,…,i_p}σ\_{i₁}⋯σ\_{i_p}. Let m_N be uniform probability on S_N={‖σ‖²=N}, and let μ\_{N,β}(dσ)=Z_{N,β}^{−1}exp(βH_N(σ))m_N(dσ), with fixed β≥0. For which β does there exist a polynomial-time randomized algorithm, given H_N and β, whose conditional output law ν\_{N,β} satisfies TV(ν\_{N,β},μ\_{N,β})→0 in probability over the Gaussian disorder as N→∞?
+
+**Source.** Huang, Brice. *Statistical and Algorithmic Thresholds in Spin Glasses*. Massachusetts Institute of Technology, 2025. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/6aabbc9a-661d-4f61-8389-c91f797c7d20/content) · [record](https://dspace.mit.edu/handle/1721.1/164047) Location: Huang thesis Problem1.2.6, physical20/printed19
+
+**Literature check.** Reviewed 2026-10-13: Primary2404.15651 gives total-variation sampling under ξ″(s)<(1−s)⁻², while2411.09075 gives simulated annealing to that threshold. They leave a gap to the shattering prediction.2026 high-temperature Ising parallel-sampling theorem is a different domain and restricted regime. No complete spherical-temperature characterization located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/huang-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://www.bricehuang.com/research.html) · [2](https://arxiv.org/abs/2303.12172) · [3](https://arxiv.org/abs/2308.09672) · [4](https://arxiv.org/abs/2404.15651) · [5](https://arxiv.org/html/2411.09075v2) · [6](https://arxiv.org/abs/2609.32710) · [7](https://github.com/yspennstate/ising-perceptron-capacity/blob/main/paper/main.tex)
+
+<a id="q4932"></a>
+
+## Q4932. Generalized exact-overlaps formula in arbitrary dimension
+
+**Status:** Open · **Kind:** conjecture (Conjecture 1.4.1) · **Reviewed extraction** 2026-10-13-250
+
+Let d≥1 and μ=Σᵢpᵢδ\_gᵢ be a finitely supported probability on similarities gᵢ(x)=ρᵢUᵢx+bᵢ of ℝᵈ, with 0<ρᵢ<1 and orthogonal Uᵢ. Assume the group generated by the Uᵢ has no invariant linear subspaces except0 andℝᵈ, and the gᵢ have no common fixed point. Let ν=Σᵢpᵢ(gᵢ)\_\*ν be the unique stationary probability, χ=Σᵢpᵢlogρᵢ, and h=lim_{n→∞}H(μ^{\*n})/n, where H is Shannon entropy using natural logarithms and coincident products are combined. Must dimν=min{d,h/|χ|}? Here dimν is the almost-sure limit logν(B_r(x))/log r as r↓0.
+
+**Source.** Constantin Kogler. *Topics in random walks on Lie groups*. University of Oxford, 2025. [primary source](https://ora.ox.ac.uk/objects/uuid:258f6527-8424-4c22-8c79-da215bfdaf9e/files/dp2676w40n) · [record](https://ora.ox.ac.uk/objects/uuid:258f6527-8424-4c22-8c79-da215bfdaf9e) Location: Conjecture1.4.1, printed12/physical19; definitions physical17–18
+
+**Literature check.** Reviewed 2026-10-13: Kittle–Kogler2610.10511v1, submitted7October2026, states and proves the generalized exact-overlaps formula in dimensionone. The all-dimensional conjecture is not thereby closed; held thesis gives higher-dimensional exponential-separation special case. Fresh primary searches found no unrestricted higher-dimensional theorem.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/kogler-2025.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2610.10511v1) · [2](https://constantinkogler.com/) · [3](https://constantinkogler.com/Files/Kogler_Thesis.pdf)
+
+<a id="q4946"></a>
+
+## Q4946. Critical loop O(n) interfaces converge to their predicted SLE
+
+**Status:** Open · **Kind:** conjecture (Conjecture 17.20) · **Reviewed extraction** 2026-10-13-250
+
+Let (Ωδ,aδ,bδ) be finite honeycomb-lattice domains of mesh δ approximating a marked simply connected planar domain (Ω,a,b), with a≠b. A configuration consists of one self-avoiding path from aδ to bδ and disjoint closed loops, with weight x^{number of occupied edges}n^{number of loops}, normalized to a probability; for n=0 only the path remains. For each n∈[0,2), at x=x_c(n)=(2+√(2−n))^(−1/2), does the path converge in law, as δ→0, to chordal SLE_κ from a to b in Ω, where κ=4π/(2π−arccos(−n/2))? Curves are considered modulo increasing reparametrization.
+
+**Source.** Hugo Duminil-Copin. *Phase transition in random-cluster and O(n)-models*. Université de Genève, 2011. [primary source](https://access.archive-ouverte.unige.ch/access/metadata/75b33610-c4c3-43b9-b3b1-0616ec439c2d/download) · [record](https://archive-ouverte.unige.ch/unige:18929) Location: Duminil-Copin thesis, physical342 / printed327
+
+**Literature check.** Reviewed 2026-10-13: 2026 primary2508.20917 still describes generic loopO(n) interface/CLE convergence as conjectured and confirms only phase-diagram portions. Known critical Ising n=1 is a proper subcase; no alln convergence theorem located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2508.20917v1) · [2](https://arxiv.org/html/2610.08507v1) · [3](https://www.unige.ch/~smirnov/slides/slides-saw.pdf) · [4](https://arxiv.org/abs/1006.5073)
+
+<a id="q4947"></a>
+
+## Q4947. Dense loop O(n) interfaces across the entire supercritical fugacity range
+
+**Status:** Open · **Kind:** conjecture (Conjecture 17.22) · **Reviewed extraction** 2026-10-13-250
+
+Let (Ωδ,aδ,bδ) be finite honeycomb-lattice domains of mesh δ approximating a marked simply connected planar domain (Ω,a,b), with a≠b. A configuration consists of one self-avoiding path from aδ to bδ and disjoint closed loops, with weight x^{number of occupied edges}n^{number of loops}, normalized to a probability; for n=0 only the path remains. For every n∈[0,2) and every fixed x>x_c(n)=(2+√(2−n))^(−1/2), does the interface converge in law as δ→0 to chordal SLE_κ from a to b in Ω, with κ=4π/arccos(−n/2)?
+
+**Source.** Hugo Duminil-Copin. *Phase transition in random-cluster and O(n)-models*. Université de Genève, 2011. [primary source](https://access.archive-ouverte.unige.ch/access/metadata/75b33610-c4c3-43b9-b3b1-0616ec439c2d/download) · [record](https://archive-ouverte.unige.ch/unige:18929) Location: Duminil-Copin thesis, physical343 / printed328
+
+**Literature check.** Reviewed 2026-10-13: Current2026 loop-model primary2508.20917 proves macroscopic loops in a parameter region, which is weaker than convergence. It notes n=x=1 Bernoulli-site case known. No proof across the full(n,x) region located.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2508.20917v1) · [2](https://arxiv.org/html/2610.08507v1) · [3](https://www.unige.ch/~smirnov/slides/slides-saw.pdf) · [4](https://arxiv.org/abs/1006.5073)
+
+<a id="q4948"></a>
+
+## Q4948. Critical square-lattice FK interfaces converge to SLE for all cluster weights
+
+**Status:** Open · **Kind:** conjecture (Conjecture 17.16) · **Reviewed extraction** 2026-10-13-250
+
+For q∈(0,4], put p=√q/(1+√q). On square-lattice domains Ωδ of meshδ approximating a marked simply connected domain(Ω,a,b), sample edge sets ω with probability proportional to p^{|ω|}(1−p)^{|E\ω|}q^{k(ω)}, wiring the boundary arc from aδ to bδ and leaving the complementary arc free. Let γδ be the medial-lattice exploration path separating the wired primal cluster from the dual cluster adjoining the free arc. Does γδ converge in law, modulo reparametrization, to chordal SLE_κ from a to b, with κ=4π/arccos(−√q/2)?
+
+**Source.** Hugo Duminil-Copin. *Phase transition in random-cluster and O(n)-models*. Université de Genève, 2011. [primary source](https://access.archive-ouverte.unige.ch/access/metadata/75b33610-c4c3-43b9-b3b1-0616ec439c2d/download) · [record](https://archive-ouverte.unige.ch/unige:18929) Location: Duminil-Copin thesis, physical340 / printed325
+
+**Literature check.** Reviewed 2026-10-13: October6,2026 primary2610.08507 claims CLE₄ convergence for four-state FK/Potts loops; its exact Dobrushin-exploration implications require scope review, so record as fresh partial lead. q=2 FK-Ising convergence is proved. The full positiveq family is not closed by these cases.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2508.20917v1) · [2](https://arxiv.org/html/2610.08507v1) · [3](https://www.unige.ch/~smirnov/slides/slides-saw.pdf) · [4](https://arxiv.org/abs/1006.5073)
+
+<a id="q4949"></a>
+
+## Q4949. Critical self-avoiding parafermionic observable limit
+
+**Status:** Open · **Kind:** conjecture (Conjecture 14.8) · **Reviewed extraction** 2026-10-13-250
+
+Let(Ωδ,aδ) be honeycomb-lattice domains of meshδ approximating a simply connected proper domainΩ with distinct marked boundary points a,b, and assume the boundary is smooth nearb. For a mid-edge zδ approaching z∈Ω define Fδ(zδ)=Σ\_{γ:aδ→zδ}x_c^{|γ|}exp(−5iW(γ)/8), summing self-avoiding paths confined toΩδ, with x_c=(2+√2)^(−1/2) and W the total winding from the initial to the terminal edge direction. If φ:Ω→ℍ sends a to∞ and b to0, must Fδ(zδ)/Fδ(bδ)→(φ′(z)/φ′(b))^(5/8), with a consistently chosen branch?
+
+**Source.** Hugo Duminil-Copin. *Phase transition in random-cluster and O(n)-models*. Université de Genève, 2011. [primary source](https://access.archive-ouverte.unige.ch/access/metadata/75b33610-c4c3-43b9-b3b1-0616ec439c2d/download) · [record](https://archive-ouverte.unige.ch/unige:18929) Location: Duminil-Copin thesis, physical290 / printed275
+
+**Literature check.** Reviewed 2026-10-13: Primary author SAW slides identify full observable convergence as the missing point;2026 loop-model paper still treats generic interface convergence as open. No proof of this normalized SAW observable limit found.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/duminil-copin-2011.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2508.20917v1) · [2](https://arxiv.org/html/2610.08507v1) · [3](https://www.unige.ch/~smirnov/slides/slides-saw.pdf) · [4](https://arxiv.org/abs/1006.5073)
+
+<a id="q4953"></a>
+
+## Q4953. Power-biased one-sided transposition cutoff on generalized symmetric groups
+
+**Status:** Open · **Kind:** conjecture (Conjecture 4.5.8) · **Reviewed extraction** 2026-10-13-250
+
+For each fixed integer r≥1, let G_{r,n}=(Z/r)^n⋊S_n and start at the identity. Write ξ\_j for adding one unit of colour at position j. At each step independently choose j with probability j^α/N_α(n), i uniformly from {1,…,j}, and k uniformly from Z/r. For i&lt;j multiply by ξ\_i^k ξ\_j^k(ij); for i=j multiply by ξ\_j^k, so the coincident position is coloured once. For a fixed real α, put N_α(n)=Σ\_{j=1}^n j^α and t_{n,α}=N_α(n)/n^α when α≤1, and t_{n,α}=N_α(n)/N_{α−1}(n) when α≥1 (the formulas agree at α=1). Let μ\_{n,t} be the law after t steps and π\_{r,n} the uniform law; define d_n^{TV}(t)=½Σ\_{σ∈G_{r,n}}|μ\_{n,t}(σ)−π\_{r,n}(σ)|. For a distance d_n(t) from the uniform distribution, cutoff at a_n means that for each ε∈(0,1), d_n(⌊(1−ε)a_n⌋)→1 and d_n(⌈(1+ε)a_n⌉)→0 as n→∞. For every fixed r≥1 and fixed α∈R, does this shuffle have total variation cutoff at a_n=t_{n,α}log n?
+
+**Source.** Oliver Matheau-Raven. *Random walks on the symmetric group: cutoff for one-sided transposition shuffles*. 2020. [primary source](https://etheses.whiterose.ac.uk/id/eprint/28076/1/OMatheauRavenThesis.pdf) · [record](https://etheses.whiterose.ac.uk/id/eprint/28076/1/OMatheauRavenThesis.pdf) Location: Conjecture 4.5.8, held PDF p. 150, printed p. 138; process physical 149–151.
+
+**Literature check.** Reviewed 2026-10-13: Deng–Tan February 2024 proves unbiased fixed-r cutoff and explicitly leaves power-biased cutoff conjectural; its introduction has swapped labels for the two spectral conjectures, so exact source labels control this packet. No exact later resolution was found in current primary retrieval.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/matheau-raven-2020.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/html/2211.10462v2) · [2](https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf) · [3](https://arxiv.org/pdf/math/0006118)
+
+<a id="q4996"></a>
+
+## Q4996. One end and the percolation uniqueness threshold
+
+**Status:** Open · **Kind:** open problem (Question0.3.22) · **Reviewed extraction** 2026-10-13-250
+
+For every infinite, connected, locally finite, vertex-transitive simple graph G, is p_u(G)<1 equivalent to G having exactly one end? Here Bernoulli bond percolation independently retains each edge with probability p, and p_u(G)=inf{p∈[0,1]: there is almost surely exactly one infinite open cluster}. Two rays define the same end when, after deleting any finite set of vertices, their tails lie in the same connected component.
+
+**Source.** Sébastien Martineau. *Percolation sur les groupes et modèles dirigés*. Agence Bibliographique de l'Enseignement Supérieur, 2014. [primary source](https://theses.hal.science/tel-01127079/document) · [record](https://doi.org/10.70675/0d9bae56z3585z495bzaa0cz148706f40749) Location: Question0.3.22, printed p.50 / held PDF p.59.
+
+**Literature check.** Reviewed 2026-10-13: 2025 internal-isoperimetric-dimension uniqueness result has an extra strong hypothesis; 2024/2026 subgroup/propertyTw results also special. No full primary closure identified.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://gradmath.org/2025/martineau/) · [2](https://arxiv.org/pdf/1605.06054) · [3](https://math.bme.hu/~gabor/PGG.pdf) · [4](https://link.springer.com/article/10.1007/s00208-025-03116-7) · [5](https://ems.press/content/serial-article-files/51184) · [6](https://arxiv.org/html/2511.01851v1) · [7](https://arxiv.org/abs/2409.12283) · [8](https://arxiv.org/abs/1412.0150) · [9](https://alea.impa.br/articles/v14/14-15.pdf) · [10](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10) · [11](https://arxiv.org/html/1803.09686v2) · [12](https://arxiv.org/abs/2310.10983) · [13](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf)
+
+<a id="q4997"></a>
+
+## Q4997. Local continuity of percolation uniqueness thresholds
+
+**Status:** Open · **Kind:** open problem (Question0.3.26) · **Reviewed extraction** 2026-10-13-250
+
+For every ε>0, is the Bernoulli bond percolation uniqueness threshold p_u continuous on {G: G is an infinite, connected, locally finite, vertex-transitive simple graph and p_u(G)<1−ε}? Explicitly, if G_n and G belong to this set and, for every radius r, their rooted radius-r balls are eventually isomorphic, must p_u(G_n)→p_u(G)? Here p_u(H)=inf{p∈[0,1]: p-bond percolation on H almost surely has exactly one infinite cluster}.
+
+**Source.** Sébastien Martineau. *Percolation sur les groupes et modèles dirigés*. Agence Bibliographique de l'Enseignement Supérieur, 2014. [primary source](https://theses.hal.science/tel-01127079/document) · [record](https://doi.org/10.70675/0d9bae56z3585z495bzaa0cz148706f40749) Location: Question0.3.26, printed p.51 / held PDF p.60.
+
+**Literature check.** Reviewed 2026-10-13: 2023pc locality is about existence, not uniqueness. 2025polynomialgrowth work covers amenableclasspu=pc, a proper subclass; no arbitrarytransitive full closure found.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://gradmath.org/2025/martineau/) · [2](https://arxiv.org/pdf/1605.06054) · [3](https://math.bme.hu/~gabor/PGG.pdf) · [4](https://link.springer.com/article/10.1007/s00208-025-03116-7) · [5](https://ems.press/content/serial-article-files/51184) · [6](https://arxiv.org/html/2511.01851v1) · [7](https://arxiv.org/abs/2409.12283) · [8](https://arxiv.org/abs/1412.0150) · [9](https://alea.impa.br/articles/v14/14-15.pdf) · [10](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10) · [11](https://arxiv.org/html/1803.09686v2) · [12](https://arxiv.org/abs/2310.10983) · [13](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf)
+
+<a id="q4998"></a>
+
+## Q4998. Locality of self-avoiding-walk connective constants
+
+**Status:** Open · **Kind:** open problem (Question2.0.7) · **Reviewed extraction** 2026-10-13-250
+
+Let G_n and G be infinite, connected, locally finite, vertex-transitive simple graphs such that, for every r, the rooted radius-r ball of G_n is eventually isomorphic to that of G. Must μ(G_n)→μ(G), where μ(H)=lim_{m→∞} c_m(H)^{1/m} and c_m(H) counts length-m self-avoiding walks from any fixed vertex of H?
+
+**Source.** Sébastien Martineau. *Percolation sur les groupes et modèles dirigés*. Agence Bibliographique de l'Enseignement Supérieur, 2014. [primary source](https://theses.hal.science/tel-01127079/document) · [record](https://doi.org/10.70675/0d9bae56z3585z495bzaa0cz148706f40749) Location: Question2.0.7, printed p.107 / held PDF p.182.
+
+**Literature check.** Reviewed 2026-10-13: Grimmett–Li primary locality theorem is conditional on uniformly controlled unimodular graph height functions; 2025/2026 searches identified this partial theorem but no full arbitrary-class resolution.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://gradmath.org/2025/martineau/) · [2](https://arxiv.org/pdf/1605.06054) · [3](https://math.bme.hu/~gabor/PGG.pdf) · [4](https://link.springer.com/article/10.1007/s00208-025-03116-7) · [5](https://ems.press/content/serial-article-files/51184) · [6](https://arxiv.org/html/2511.01851v1) · [7](https://arxiv.org/abs/2409.12283) · [8](https://arxiv.org/abs/1412.0150) · [9](https://alea.impa.br/articles/v14/14-15.pdf) · [10](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10) · [11](https://arxiv.org/html/1803.09686v2) · [12](https://arxiv.org/abs/2310.10983) · [13](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf)
+
+<a id="q4999"></a>
+
+## Q4999. Cone confinement of directed diffusion-limited aggregation
+
+**Status:** Open · **Kind:** open problem (Question3.5.5) · **Reviewed extraction** 2026-10-13-250
+
+Start C_0={(0,0)}⊂Z_{≥0}². Given C_n, choose k>max{x+y:(x,y)∈C_n}, choose a uniform site of L_k={(x,y)∈Z_{≥0}²:x+y=k}, and run a walk that independently steps (−1,0) or (0,−1), each with probability1/2. Restart independently from L_k if the walk leaves the quadrant without hitting C_n. When it first hits C_n at timeτ, set C_{n+1}=C_n∪{W_{τ−1}}. The transition law is independent of k. Put C_∞=∪\_n C_n. For which b>0 is C_∞ almost surely contained in C_b={(x,y)∈R²: |x+y|≥b|y−x|} up to finitely many sites?
+
+**Source.** Sébastien Martineau. *Percolation sur les groupes et modèles dirigés*. Agence Bibliographique de l'Enseignement Supérieur, 2014. [primary source](https://theses.hal.science/tel-01127079/document) · [record](https://doi.org/10.70675/0d9bae56z3585z495bzaa0cz148706f40749) Location: Question3.5.5, printed p.159 / held PDF p.234.
+
+**Literature check.** Reviewed 2026-10-13: Primary2017paper§5 posesidenticalQ5.5; April2026finite-source/sink layeredDLA different process and does not answer coneconfinement.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://gradmath.org/2025/martineau/) · [2](https://arxiv.org/pdf/1605.06054) · [3](https://math.bme.hu/~gabor/PGG.pdf) · [4](https://link.springer.com/article/10.1007/s00208-025-03116-7) · [5](https://ems.press/content/serial-article-files/51184) · [6](https://arxiv.org/html/2511.01851v1) · [7](https://arxiv.org/abs/2409.12283) · [8](https://arxiv.org/abs/1412.0150) · [9](https://alea.impa.br/articles/v14/14-15.pdf) · [10](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10) · [11](https://arxiv.org/html/1803.09686v2) · [12](https://arxiv.org/abs/2310.10983) · [13](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf)
+
+<a id="q5000"></a>
+
+## Q5000. Ends of the infinite directed diffusion-limited aggregation cluster
+
+**Status:** Open · **Kind:** open problem (Question3.5.6) · **Reviewed extraction** 2026-10-13-250
+
+Start C_0={(0,0)}⊂Z_{≥0}². Given C_n, choose k>max{x+y:(x,y)∈C_n}, choose a uniform site of L_k={(x,y)∈Z_{≥0}²:x+y=k}, and run a walk that independently steps (−1,0) or (0,−1), each with probability1/2. Restart independently from L_k if the walk leaves the quadrant without hitting C_n. When it first hits C_n at timeτ, set C_{n+1}=C_n∪{W_{τ−1}}. The transition law is independent of k. Put C_∞=∪\_n C_n. What is the probability distribution of the number of ends of the infinite cluster, viewed as the nearest-neighbor subgraph of Z² induced by C_∞? Two infinite simple rays define the same end if their tails lie in the same component after every finite vertex deletion.
+
+**Source.** Sébastien Martineau. *Percolation sur les groupes et modèles dirigés*. Agence Bibliographique de l'Enseignement Supérieur, 2014. [primary source](https://theses.hal.science/tel-01127079/document) · [record](https://doi.org/10.70675/0d9bae56z3585z495bzaa0cz148706f40749) Location: Question3.5.6, printed p.159 / held PDF p.234.
+
+**Literature check.** Reviewed 2026-10-13: Primary2017paper§5posesidenticalQ5.6;2026layeredDLAuniqueconnectingpath atfinite stoppingtime is not infinite planar cluster end theorem.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/martineau-2015.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://gradmath.org/2025/martineau/) · [2](https://arxiv.org/pdf/1605.06054) · [3](https://math.bme.hu/~gabor/PGG.pdf) · [4](https://link.springer.com/article/10.1007/s00208-025-03116-7) · [5](https://ems.press/content/serial-article-files/51184) · [6](https://arxiv.org/html/2511.01851v1) · [7](https://arxiv.org/abs/2409.12283) · [8](https://arxiv.org/abs/1412.0150) · [9](https://alea.impa.br/articles/v14/14-15.pdf) · [10](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/diffusion-limited-aggregation-in-the-layers-model/3A58EFC965F0DE2D46E3384F87FBCB10) · [11](https://arxiv.org/html/1803.09686v2) · [12](https://arxiv.org/abs/2310.10983) · [13](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf)
+
+<a id="q5043"></a>
+
+## Q5043. A constant leading term for limiting invariant-set probabilities
+
+**Status:** Open · **Kind:** open problem (Question 3.1.6) · **Reviewed extraction** 2026-10-13-250
+
+For n≥k≥1 let i(n,k) be the probability that a uniformly random permutation π∈S_n preserves some k-element subset of {1,…,n} setwise. Let p(k)=lim_{n→∞}i(n,k). Equivalently, for independent X_j∼Poisson(1/j), p(k)=P(∃ integers 0≤a_j≤X_j, j=1,…,k, with ∑\_{j=1}^k ja_j=k). With δ=1−(1+log log 2)/log 2, where log is natural, is there a constant C>0 such that p(k)∼C k^(−δ)(log k)^(−3/2) as k→∞ through all positive integers?
+
+**Source.** Sean Eberhard. *Some combinatorial problems in group theory*. University of Oxford, 2016. [primary source](https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf) · [record](https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857) Location: Question 3.1.6, printed p. 74; physical PDF p. 79.
+
+**Literature check.** Reviewed 2026-10-13: Green–Sawhney arXiv:2604.28116 proves the sharper periodic-factor asymptotic. Its physical 3 Remark (1) expressly leaves nonconstancy of that factor unproved, so the literal constant assertion is still undecided; Corollary 1.2 resolves powers of two only. This substantial 2026 partial result is disclosed rather than treating the old order estimate as current.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/eberhard-2016.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1401.6390) · [2](https://arxiv.org/pdf/1212.3681) · [3](https://arxiv.org/a/eberhard_s_1.html) · [4](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf) · [5](https://arxiv.org/pdf/2604.28116) · [6](https://arxiv.org/abs/2201.09402) · [7](https://link.springer.com/article/10.1007/s00208-023-02567-0) · [8](https://arxiv.org/abs/2003.01798) · [9](https://arxiv.org/abs/2205.15191)
+
+<a id="q5044"></a>
+
+## Q5044. Monotonicity of limiting invariant-set probabilities
+
+**Status:** Open · **Kind:** open problem (Question 3.1.7) · **Reviewed extraction** 2026-10-13-250
+
+For n≥k≥1 let i(n,k) be the probability that a uniformly random permutation π∈S_n preserves some k-element subset of {1,…,n} setwise. Let p(k)=lim_{n→∞}i(n,k). Equivalently, for independent X_j∼Poisson(1/j), p(k)=P(∃ integers 0≤a_j≤X_j, j=1,…,k, with ∑\_{j=1}^k ja_j=k). Is p(k+1)≤p(k) for every integer k≥1?
+
+**Source.** Sean Eberhard. *Some combinatorial problems in group theory*. University of Oxford, 2016. [primary source](https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf) · [record](https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857) Location: Question 3.1.7, printed p. 74; physical PDF p. 79.
+
+**Literature check.** Reviewed 2026-10-13: Current primary Green Problem 87 retains this exact monotonicity target. The April 2026 periodic-factor asymptotic describes the leading term but its error term does not decide all adjacent-integer inequalities, and no complete monotonicity proof or counterexample was verified in the bounded primary scan.
+
+**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13-250/agent-reviews/eberhard-2016.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
+
+**Further links.** [1](https://arxiv.org/pdf/1401.6390) · [2](https://arxiv.org/pdf/1212.3681) · [3](https://arxiv.org/a/eberhard_s_1.html) · [4](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf) · [5](https://arxiv.org/pdf/2604.28116) · [6](https://arxiv.org/abs/2201.09402) · [7](https://link.springer.com/article/10.1007/s00208-023-02567-0) · [8](https://arxiv.org/abs/2003.01798) · [9](https://arxiv.org/abs/2205.15191)

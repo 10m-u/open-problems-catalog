@@ -1,0 +1,36 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/versteegen-2024.json",
+  "sha256": "cfdd326506048be089d295db25ef20ba7f732366c0caea8c93650ad2622c0a75",
+  "recommendation_count": 9,
+  "source_key": "Q130446950",
+  "physical_pages_read": [
+    83,
+    84,
+    85,
+    96,
+    102,
+    113,
+    164,
+    175,
+    198
+  ],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "verdict": "Nine mathematical scopes pass after root repaired both total-domination questions to state self-contained game rules. No exact duplicate found in the all-packet baseline/manifest recheck.",
+  "findings": [
+    "Nonlinear graph-code density d_K4 excludes symmetric differences consisting of a K4 with all remaining vertices isolated, not all differences containing K4. Distinct codewords are the relevant nonzero difference condition.",
+    "Physical 84–85 gives the odd-Ramsey quantity and independent-set/even-cross-edge decomposition. The conjecture for graphs without an even decomposition is different from interval-colouring thickness Q1551 and unique-colour Ramsey Q1956.",
+    "Question 5.22 has k depending only on epsilon, uniformly over n and every dense A. The strict dot-product inequality for all y in each piece is retained; it is not just existence of a large codimension subspace in A+A.",
+    "Question 6.9 asks arbitrarily large equality of c(G) and alpha(G), not equality for every prescribed exact k and not equality also with domination number gamma(G).",
+    "Conjecture 8.2 has min degree at least two; Hamiltonian-path Conjecture 8.25 is a different larger class permitting endpoint leaves. Both ask the ceiling n/2 bound.",
+    "Problem 9.19 concerns connected total-domination extremizers at 3n/4. Question 9.20 concerns the asymptotic best coefficient for all min-degree-two graphs, including disconnected unions of triangles. The source C7 union example distinguishes component games from additive copies.",
+    "Conjecture 9.21 permits a universal additive constant and therefore is a separate weaker target than the ceiling n/2 bound. No equivalence by disjoint-union amplification is asserted.",
+    "Root repaired fb1587bb49bf7b3d60dd and 5153bef59e262e66f1a0: each now defines Dominator/Staller optimal alternating play with open neighbourhoods and Dominator starting, eliminating reliance on another question."
+  ],
+  "duplicate_audit": "agent-reviews/INDEPENDENT-DUPLICATE-RECHECK.json",
+  "limits": "Independent held-source scope and bounded baseline/source-alias duplicate comparison. Current-literature assessment rests on root’s logged primary scan; this receipt is not an independent proof audit of every new preprint.",
+  "original_receipt_sha256": "2fe08525679a18467e9097f0f3aed4f1cb1a788bc3de89505cfdc0b4e917147f"
+}

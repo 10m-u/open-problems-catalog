@@ -1,0 +1,40 @@
+{
+  "schema": "statement-promotion-independent-audit-v1",
+  "review_date": "2026-10-13",
+  "reviewer": "successor retained reviewer /root/b14_local_optima",
+  "packet": "projects/thesis-catalog/research/statement-promotions-250-2026-10-13/root-reviews/natura-2022.json",
+  "sha256": "1e971f7651cad8fe0d9573fe9cb28cbf0471a54460de2d2e4c5df3de4c578437",
+  "recommendation_count": 2,
+  "source_key": "Q131419393",
+  "physical_pages_read": [
+    12,
+    20,
+    22,
+    38,
+    53
+  ],
+  "canonical_writes": false,
+  "number_assignment_performed": false,
+  "verdict": "Two scopes pass. Polynomial Hirsch candidate remains duplicate/source-scope gate hold against Q1556; no exact equivalence is asserted without a bounded/unbounded reduction.",
+  "hold_statement_ids": [
+    "26d1c40bf886e95ace98"
+  ],
+  "findings": [
+    "Physical12footnoteandphysical20modelallowreal+−×÷,comparison,squarerootandrequirePSPACEforrationalinputbitmodel. FullLPalgorithmoperationboundindependentofcoefficientsisfaithful;iterationboundalonewouldnotbeenough.",
+    "2026primaryNatura2602.06958actual§1.2explicitlydistinguishesknown-targetcircuitnavigationfromfindinganoptimum;polycircuitdiameterdoesnotcloseLPalgorithmorvertex-edgegeometry.",
+    "Physical20conformalstrictcoordinate-signconventionandsupport-minimalelementaryvectorsarecorrect. Physical22lcmmeasuretakesallnonzeroentriesofprimitiveintegerrepresentatives,notmaximumfractionalimbalance. Physical53Conj3.7.1.1requiresdenominatorsdivideκdot,atsummostn,notthatallsummandsbeintegerorprimitive. Zeroemptydecompositionisvalid.",
+    "GlobalneighborQ1556alreadyasksboundedpolytopepolynomialvertex-edgediameter. Rootnewtextbroadensitunboundedpointedpolyhedra;sourcephysical38callsstandardpolynomialHirschafterboundedpolytopeHirschstatement. Thisboundedscanhasnotindependentlyestablishedthatbroaderformisaseparatenewtargetorthatbounded/unboundedversionsareequivalent. Holdatduplicate/source-scopegatependingexactprimaryreductionorcleardistinct-sourceformulation."
+  ],
+  "duplicate_comparison": {
+    "retrieval": "agent-reviews/NATURA-GLOBAL-RETRIEVAL.json",
+    "method": "All3topsevenword/sevencharliveneighborsandsourcealiasescompared. LP/integraldecompositionnoexacttarget;diameterholdasabove.",
+    "relationships": "Q2787fixed-subdeterminantINTEGERLPbitsizecomplexityisnotgeneralrealstrong-polynomialLP. Q543weightedminimumcutcomparison-oraclemodeldifferentalgorithmproblem. Q1557monotoneedgediameterboundedsubdeterminantdifferentstrongerpathproperty. Otherretrievedcircuit/distance/representationsquestionsdistinctfromrationalconformaldecomposition."
+  },
+  "primary_sources_independently_checked": [
+    "https://arxiv.org/html/2602.06958v1",
+    "https://arxiv.org/pdf/1307.5900",
+    "https://www.math.unipd.it/~disumma/tu-diameter.pdf"
+  ],
+  "limits": "Boundedactual-sourcereviewandglobalretrieval;notuniversalduplicate/statuscertificate. No canonicalmutations.",
+  "original_receipt_sha256": "93b73619135b74f0ca5c72c698e74cdad8e6f8b94920e4da0e06adaa7b0a4dfe"
+}

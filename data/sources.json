@@ -2970,6 +2970,27 @@
   ]
  },
  {
+  "document_id": "4966296691b935c9",
+  "role": "dissertation",
+  "author": "Antoine Poulin",
+  "title": "A walk through the measurable arboretum",
+  "urls": [
+   "https://mcgill.scholaris.ca/server/api/core/bitstreams/b2a18854-3768-498d-be32-2c314563b3c8/content"
+  ],
+  "questions": [
+   4805,
+   4806,
+   4807,
+   4808,
+   4809,
+   4810,
+   4811,
+   4815,
+   4816,
+   4817
+  ]
+ },
+ {
   "document_id": "3e00c3514b8e6da6",
   "role": "dissertation",
   "author": "Antoine Tinguely",
@@ -5058,7 +5079,9 @@
    47,
    48,
    371,
-   373
+   373,
+   4930,
+   4931
   ]
  },
  {
@@ -5573,7 +5596,8 @@
    41,
    42,
    43,
-   44
+   44,
+   4814
   ]
  },
  {
@@ -11949,7 +11973,22 @@
    81,
    82,
    83,
-   84
+   84,
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
   ]
  },
  {
@@ -16210,6 +16249,22 @@
   ]
  },
  {
+  "document_id": "42c5eabc9618a137",
+  "role": "dissertation",
+  "author": "Javier Echevarría Cuesta",
+  "title": "Rigidity results for thermostats",
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/ba50b25e-4e90-412a-915b-ceb7093a0721/download"
+  ],
+  "questions": [
+   4821,
+   4822,
+   4823,
+   4824,
+   4825
+  ]
+ },
+ {
   "document_id": "3bce600167b3c185",
   "role": "research-paper",
   "author": "Javier Gómez-Serrano; Michael Levitin; Daniel Platt; Iosif Polterovich",
@@ -16894,7 +16949,10 @@
   "questions": [
    121,
    122,
-   123
+   123,
+   4818,
+   4819,
+   4820
   ]
  },
  {
@@ -19094,6 +19152,21 @@
   "questions": [
    3880,
    3881
+  ]
+ },
+ {
+  "document_id": "eba34a3505b34729",
+  "role": "dissertation",
+  "author": "Kada Williams",
+  "title": "Hypercube Inequalities and Other Combinatorial Results",
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/46870253-ce97-4c6f-84ff-e5c0bfbc4a04/download"
+  ],
+  "questions": [
+   4801,
+   4802,
+   4803,
+   4804
   ]
  },
  {
@@ -21596,7 +21669,8 @@
   ],
   "questions": [
    189,
-   190
+   190,
+   4954
   ]
  },
  {
@@ -22094,7 +22168,10 @@
    40,
    367,
    368,
-   369
+   369,
+   4826,
+   4827,
+   4828
   ]
  },
  {
@@ -25265,7 +25342,12 @@
   ],
   "questions": [
    1174,
-   1175
+   1175,
+   4898,
+   4900,
+   4910,
+   4911,
+   4913
   ]
  },
  {
@@ -26431,7 +26513,9 @@
    21,
    22,
    23,
-   24
+   24,
+   4812,
+   4813
   ]
  },
  {
@@ -27300,7 +27384,8 @@
    "https://arxiv.org/html/2404.02862v1#S7"
   ],
   "questions": [
-   37
+   37,
+   4826
   ]
  },
  {
@@ -27337,7 +27422,8 @@
   ],
   "questions": [
    38,
-   40
+   40,
+   4827
   ]
  },
  {
@@ -27349,7 +27435,8 @@
    "https://arxiv.org/abs/2504.12293"
   ],
   "questions": [
-   39
+   39,
+   4828
   ]
  },
  {
@@ -27361,7 +27448,8 @@
    "https://arxiv.org/abs/2609.35103"
   ],
   "questions": [
-   39
+   39,
+   4828
   ]
  },
  {
@@ -27376,7 +27464,8 @@
    41,
    42,
    43,
-   44
+   44,
+   4814
   ]
  },
  {
@@ -27402,7 +27491,9 @@
   ],
   "questions": [
    47,
-   48
+   48,
+   4930,
+   4931
   ]
  },
  {
@@ -27773,7 +27864,22 @@
    81,
    82,
    83,
-   84
+   84,
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
   ]
  },
  {
@@ -27809,7 +27915,22 @@
    "https://math.berkeley.edu/~goldberg/Papers/UniquenessOfElementaryEmbeddings.pdf"
   ],
   "questions": [
-   83
+   83,
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
   ]
  },
  {
@@ -28346,7 +28467,10 @@
   "questions": [
    121,
    122,
-   123
+   123,
+   4818,
+   4819,
+   4820
   ]
  },
  {
@@ -29445,7 +29569,8 @@
    "https://arxiv.org/abs/2106.01456"
   ],
   "questions": [
-   189
+   189,
+   4954
   ]
  },
  {
@@ -40163,7 +40288,12 @@
    "https://arxiv.org/abs/2205.14003"
   ],
   "questions": [
-   1175
+   1175,
+   4898,
+   4900,
+   4910,
+   4911,
+   4913
   ]
  },
  {
@@ -41114,7 +41244,8 @@
   ],
   "questions": [
    1290,
-   1291
+   1291,
+   4953
   ]
  },
  {
@@ -43502,7 +43633,9 @@
   ],
   "questions": [
    1556,
-   1557
+   1557,
+   5001,
+   5002
   ]
  },
  {
@@ -53156,7 +53289,12 @@
   "questions": [
    2721,
    2722,
-   2929
+   2929,
+   4886,
+   4887,
+   4888,
+   4889,
+   4890
   ]
  },
  {
@@ -53181,7 +53319,16 @@
    "https://arxiv.org/abs/2501.18306"
   ],
   "questions": [
-   2722
+   2722,
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
   ]
  },
  {
@@ -65106,6 +65253,3615 @@
   ]
  },
  {
+  "document_id": "684f1fdddc554ae8",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2404.18014"
+  ],
+  "questions": [
+   4802
+  ]
+ },
+ {
+  "document_id": "fdce55076a33414a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v31i4p21/pdf/"
+  ],
+  "questions": [
+   4802
+  ]
+ },
+ {
+  "document_id": "73d40b5bf78a03cc",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2404.18237v3",
+   "https://arxiv.org/html/2404.18237v3#S2"
+  ],
+  "questions": [
+   4803
+  ]
+ },
+ {
+  "document_id": "76ba6dc0c7b04677",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2506.17804"
+  ],
+  "questions": [
+   4804
+  ]
+ },
+ {
+  "document_id": "0d9eca1f52e34eaf",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2210.14300"
+  ],
+  "questions": [
+   4805,
+   4806
+  ]
+ },
+ {
+  "document_id": "f957eba24eed12df",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://antoinegpoulin.github.io/pdf/spantree.pdf"
+  ],
+  "questions": [
+   4805,
+   4806
+  ]
+ },
+ {
+  "document_id": "4a6a051e42a37c62",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2509.15000"
+  ],
+  "questions": [
+   4805
+  ]
+ },
+ {
+  "document_id": "aee67dd6e34d8dde",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2403.11326"
+  ],
+  "questions": [
+   4807,
+   4808,
+   4809,
+   4815,
+   4816
+  ]
+ },
+ {
+  "document_id": "b32f9c6970d8eb0e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://antoinegpoulin.github.io/pdf/complexborel.pdf"
+  ],
+  "questions": [
+   4807,
+   4808,
+   4809,
+   4815,
+   4816
+  ]
+ },
+ {
+  "document_id": "0b99afad8d2ab780",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.1090/proc/17239"
+  ],
+  "questions": [
+   4807,
+   4808
+  ]
+ },
+ {
+  "document_id": "6c0013eec004eb1d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2502.11622v2",
+   "https://arxiv.org/html/2502.11622v2#S6"
+  ],
+  "questions": [
+   4810,
+   4811,
+   4817
+  ]
+ },
+ {
+  "document_id": "1a2e5bdbcd0c84b0",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2408.10009"
+  ],
+  "questions": [
+   4811
+  ]
+ },
+ {
+  "document_id": "6be17fa5148f7f89",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2411.06541v2",
+   "https://arxiv.org/html/2411.06541v2#S4"
+  ],
+  "questions": [
+   4812,
+   4813
+  ]
+ },
+ {
+  "document_id": "44e0600bd775807c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2501.01923v2"
+  ],
+  "questions": [
+   4822,
+   4823,
+   4824,
+   4825
+  ]
+ },
+ {
+  "document_id": "f1e356021db7d705",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2504.17153v2"
+  ],
+  "questions": [
+   4822,
+   4823
+  ]
+ },
+ {
+  "document_id": "b434bf2d6fc38cc7",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2606.18434v2"
+  ],
+  "questions": [
+   4824
+  ]
+ },
+ {
+  "document_id": "c5e2aee358e759d4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2608.22693"
+  ],
+  "questions": [
+   4827
+  ]
+ },
+ {
+  "document_id": "b92455b31fee4978",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2010.11260"
+  ],
+  "questions": [
+   4827
+  ]
+ },
+ {
+  "document_id": "a24ea79e666444a5",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://access.archive-ouverte.unige.ch/access/metadata/0a2c7af3-5c4e-4ce9-8447-7c622895253d/download"
+  ],
+  "questions": [
+   4829,
+   4830,
+   4831,
+   4832,
+   4833,
+   4834,
+   4835,
+   4836,
+   4837,
+   4838,
+   4839
+  ]
+ },
+ {
+  "document_id": "6070dcb3fc35e655",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2306.10381v3"
+  ],
+  "questions": [
+   4829,
+   4830,
+   4831,
+   4832,
+   4833,
+   4834,
+   4835
+  ]
+ },
+ {
+  "document_id": "376e7a3257cf6253",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2407.11943"
+  ],
+  "questions": [
+   4836,
+   4837
+  ]
+ },
+ {
+  "document_id": "05a246f3247b3f9f",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2511.20495"
+  ],
+  "questions": [
+   4836
+  ]
+ },
+ {
+  "document_id": "2ead4e69e5037ed7",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2401.15504v6"
+  ],
+  "questions": [
+   4838,
+   4839
+  ]
+ },
+ {
+  "document_id": "c800b165d39d37be",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://mcgill.scholaris.ca/server/api/core/bitstreams/15022eb7-2858-4356-ace3-d5e0095541de/content"
+  ],
+  "questions": [
+   4840,
+   4841,
+   4842,
+   4843,
+   4844,
+   4845,
+   4846,
+   4847
+  ]
+ },
+ {
+  "document_id": "196e2d405700252a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.math.uni-bonn.de/people/douba/SpecialAnosovRepresentations.pdf"
+  ],
+  "questions": [
+   4840,
+   4841,
+   4842
+  ]
+ },
+ {
+  "document_id": "61c0a04a45dbc33d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.math.uni-bonn.de/people/douba/ZariskiClosures.pdf"
+  ],
+  "questions": [
+   4840,
+   4841
+  ]
+ },
+ {
+  "document_id": "e274a0d6ecd41131",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.math.uni-bonn.de/people/douba/LinearityOfAmalgams.pdf"
+  ],
+  "questions": [
+   4843,
+   4844,
+   4845,
+   4847
+  ]
+ },
+ {
+  "document_id": "e3d0a63340868804",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.math.uni-bonn.de/people/douba/ProperCAT0Actions.pdf"
+  ],
+  "questions": [
+   4844,
+   4846,
+   4847
+  ]
+ },
+ {
+  "document_id": "63e21d3ea51035ce",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2407.09439v2"
+  ],
+  "questions": [
+   4845
+  ]
+ },
+ {
+  "document_id": "1b31ac0f4997969e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.math.uni-bonn.de/people/douba/VirtuallyUnipotentCurves.pdf"
+  ],
+  "questions": [
+   4846,
+   4847
+  ]
+ },
+ {
+  "document_id": "74ef45a3e57a8923",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:a95972ee-b2e7-49e9-bed9-bca1332c0373/files/dd791sg858"
+  ],
+  "questions": [
+   4848,
+   4850,
+   4851,
+   4852,
+   4853,
+   4854,
+   4855,
+   4856,
+   4857,
+   4858,
+   4859,
+   4860
+  ]
+ },
+ {
+  "document_id": "6d44ded9bca93f3c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2608.20570"
+  ],
+  "questions": [
+   4848
+  ]
+ },
+ {
+  "document_id": "627e9c64a30bcef9",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2609.19595"
+  ],
+  "questions": [
+   4848,
+   4888
+  ]
+ },
+ {
+  "document_id": "b63af362e2ca0768",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://theses.hal.science/tel-01687404/document"
+  ],
+  "questions": [
+   4849,
+   4912,
+   4935,
+   4936,
+   4937,
+   4938,
+   4939,
+   4940
+  ]
+ },
+ {
+  "document_id": "ee71607e9748a92b",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.70675/8ae32a03z67e6z4203zb952z62596a5006e4"
+  ],
+  "questions": [
+   4849,
+   4912,
+   4935,
+   4936,
+   4937,
+   4938,
+   4939,
+   4940
+  ]
+ },
+ {
+  "document_id": "a4c37ce795c339d2",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://deserti.perso.math.cnrs.fr/biblio/Urech_remarksonthedegreegrowthofbirationaltransformations.pdf"
+  ],
+  "questions": [
+   4849,
+   4912,
+   4935,
+   4936,
+   4937,
+   4938,
+   4939,
+   4940
+  ]
+ },
+ {
+  "document_id": "17682adf2ae6b063",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://perso.univ-rennes1.fr/serge.cantat/Documents/Urech-simple.pdf"
+  ],
+  "questions": [
+   4849,
+   4912,
+   4935,
+   4936,
+   4937,
+   4938,
+   4939,
+   4940
+  ]
+ },
+ {
+  "document_id": "df8721fb0eaa5c22",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://jep.centre-mersenne.org/item/10.5802/jep.271.pdf"
+  ],
+  "questions": [
+   4849,
+   4912,
+   4935,
+   4936,
+   4937,
+   4938,
+   4939,
+   4940
+  ]
+ },
+ {
+  "document_id": "97032b8e44d8d563",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2506.14666"
+  ],
+  "questions": [
+   4851
+  ]
+ },
+ {
+  "document_id": "14c7336c8461a673",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://matematicas.uam.es/~andrei.jaikin/preprints/coherencegroupalgebra.pdf"
+  ],
+  "questions": [
+   4856,
+   4857
+  ]
+ },
+ {
+  "document_id": "a7a7dc6dc0c2a12d",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/c08d05fd-48db-415b-b32f-6a823ad30bb5/download"
+  ],
+  "questions": [
+   4861
+  ]
+ },
+ {
+  "document_id": "b14e9ca5288a2633",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2608.07381v1"
+  ],
+  "questions": [
+   4861
+  ]
+ },
+ {
+  "document_id": "15710fa1c924f624",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://dspace.mit.edu/server/api/core/bitstreams/a9942c43-14a0-4ec3-8039-40c1803b6770/content"
+  ],
+  "questions": [
+   4862,
+   4863,
+   4864
+  ]
+ },
+ {
+  "document_id": "387f26e71c900890",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2209.10532"
+  ],
+  "questions": [
+   4862
+  ]
+ },
+ {
+  "document_id": "649a0a33cfed440e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2302.10857v2"
+  ],
+  "questions": [
+   4862
+  ]
+ },
+ {
+  "document_id": "ec58f4bad9fa4fa8",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1606.01214"
+  ],
+  "questions": [
+   4863,
+   4864
+  ]
+ },
+ {
+  "document_id": "4474474a3b1ac689",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1910.04713"
+  ],
+  "questions": [
+   4863,
+   4864
+  ]
+ },
+ {
+  "document_id": "8a27680e8db1388c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1905.00383"
+  ],
+  "questions": [
+   4863,
+   4864
+  ]
+ },
+ {
+  "document_id": "a67bdcde5b8dcdd4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2003.10320"
+  ],
+  "questions": [
+   4863
+  ]
+ },
+ {
+  "document_id": "509e5d893fd595d3",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:0b46aef4-bdc7-4216-8ae3-e69db490c81c/files/mfc92d40b03b548491654af1a9d162570"
+  ],
+  "questions": [
+   4865,
+   4866,
+   4867,
+   4868
+  ]
+ },
+ {
+  "document_id": "d9cb1b0d93f46d16",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2102.06394"
+  ],
+  "questions": [
+   4865
+  ]
+ },
+ {
+  "document_id": "8f399cec4f0e8092",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2503.22511"
+  ],
+  "questions": [
+   4865
+  ]
+ },
+ {
+  "document_id": "aa6b3d670ba5a9d4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2609.27476"
+  ],
+  "questions": [
+   4865,
+   4868
+  ]
+ },
+ {
+  "document_id": "e1f2b641eb4844b3",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2604.21059v2"
+  ],
+  "questions": [
+   4866
+  ]
+ },
+ {
+  "document_id": "8556316496bc206e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2311.17733v4"
+  ],
+  "questions": [
+   4867
+  ]
+ },
+ {
+  "document_id": "4b3f7bcbd0f23cbc",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1703.03752"
+  ],
+  "questions": [
+   4868
+  ]
+ },
+ {
+  "document_id": "0dfb7b355453fc9a",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:2b52aee9-f134-4e46-b11c-bf5a242aeec9/files/dp2676w30c"
+  ],
+  "questions": [
+   4869,
+   4870,
+   4871,
+   4872,
+   4873,
+   4874,
+   4875
+  ]
+ },
+ {
+  "document_id": "6bceb309b82956e2",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2606.31774v1"
+  ],
+  "questions": [
+   4869,
+   4872,
+   4874,
+   4875
+  ]
+ },
+ {
+  "document_id": "ba8595dd66970bca",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2211.05752v2"
+  ],
+  "questions": [
+   4870,
+   4872
+  ]
+ },
+ {
+  "document_id": "4a7e39405992599f",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2509.22346v2"
+  ],
+  "questions": [
+   4870,
+   4872
+  ]
+ },
+ {
+  "document_id": "f0eeb25e5f29033f",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2512.05293v1"
+  ],
+  "questions": [
+   4871
+  ]
+ },
+ {
+  "document_id": "f85cff0b7a9dbc02",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2303.16834v3"
+  ],
+  "questions": [
+   4873,
+   4874,
+   4875
+  ]
+ },
+ {
+  "document_id": "81409126d6818eb0",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2607.04530v1"
+  ],
+  "questions": [
+   4873
+  ]
+ },
+ {
+  "document_id": "b41c15c4289fed69",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2206.11347"
+  ],
+  "questions": [
+   4874
+  ]
+ },
+ {
+  "document_id": "f3b06ff40a0d1318",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://dspace.mit.edu/server/api/core/bitstreams/b83ff1c9-a816-40fe-b63e-67483f2dcba1/content"
+  ],
+  "questions": [
+   4876,
+   4877,
+   4878,
+   4879,
+   4880
+  ]
+ },
+ {
+  "document_id": "16c824826d09ace9",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2503.03063"
+  ],
+  "questions": [
+   4876
+  ]
+ },
+ {
+  "document_id": "fe47be616aeaae1a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1305.4156"
+  ],
+  "questions": [
+   4876,
+   4877
+  ]
+ },
+ {
+  "document_id": "9892a4529c9863fb",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1810.13071"
+  ],
+  "questions": [
+   4877,
+   4879,
+   4880
+  ]
+ },
+ {
+  "document_id": "6cf25ff9d518311b",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2206.10077"
+  ],
+  "questions": [
+   4877
+  ]
+ },
+ {
+  "document_id": "e235844a4ded70ec",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1910.10842"
+  ],
+  "questions": [
+   4878
+  ]
+ },
+ {
+  "document_id": "135838eeea12f3e6",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2003.02891"
+  ],
+  "questions": [
+   4878
+  ]
+ },
+ {
+  "document_id": "871710701043bc46",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1405.3278"
+  ],
+  "questions": [
+   4879
+  ]
+ },
+ {
+  "document_id": "947d50564fec09ed",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2107.11005"
+  ],
+  "questions": [
+   4879
+  ]
+ },
+ {
+  "document_id": "196442f3b78e7940",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:caa81b48-6ada-4b87-8703-51bb482a4aae/files/dk0698831p"
+  ],
+  "questions": [
+   4881,
+   4882,
+   4883,
+   4884,
+   4885,
+   4886,
+   4887,
+   4888,
+   4889,
+   4890
+  ]
+ },
+ {
+  "document_id": "3537f233d6e6c716",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D48EF6DC3997F72EDAE8DFBFFB1D407C/S0010437X25007444a.pdf/the-hanna-neumann-conjecture-for-graphs-of-free-groups-with-cyclic-edge-groups.pdf"
+  ],
+  "questions": [
+   4881,
+   4882,
+   4883,
+   4884,
+   4885
+  ]
+ },
+ {
+  "document_id": "07337e22c083ee43",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AABCA00E7D74BE96CB547BC4FF76D000/S0010437X22007709a.pdf/the-hanna-neumann-conjecture-for-surface-groups.pdf"
+  ],
+  "questions": [
+   4881
+  ]
+ },
+ {
+  "document_id": "5bc9daf079c97377",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2602.12815"
+  ],
+  "questions": [
+   4886
+  ]
+ },
+ {
+  "document_id": "2682ab1130920f6e",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://dspace.mit.edu/server/api/core/bitstreams/8c79f319-0eb1-4b55-9ba4-b2bd04c54f0f/content"
+  ],
+  "questions": [
+   4891
+  ]
+ },
+ {
+  "document_id": "6ea73c337f692759",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2005.11845v2"
+  ],
+  "questions": [
+   4891
+  ]
+ },
+ {
+  "document_id": "8dec8a3c188e388f",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2302.02358v1"
+  ],
+  "questions": [
+   4891
+  ]
+ },
+ {
+  "document_id": "c441df4af7b15f94",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://knowledge.uchicago.edu/records/hgrq1-kk262/files/main.pdf"
+  ],
+  "questions": [
+   4892,
+   4893
+  ]
+ },
+ {
+  "document_id": "49c68041e49526bf",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2409.15265"
+  ],
+  "questions": [
+   4892
+  ]
+ },
+ {
+  "document_id": "49b9a6578e81ba25",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2306.05746"
+  ],
+  "questions": [
+   4894,
+   4895,
+   4896,
+   4897,
+   4899
+  ]
+ },
+ {
+  "document_id": "1327bc34b0136576",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://math.berkeley.edu/~pglutz/jmm_slides.pdf"
+  ],
+  "questions": [
+   4894,
+   4895,
+   4896,
+   4897,
+   4899
+  ]
+ },
+ {
+  "document_id": "40f5cc021903308e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2010.12182"
+  ],
+  "questions": [
+   4898,
+   4900,
+   4910,
+   4911,
+   4913
+  ]
+ },
+ {
+  "document_id": "2d101273c25f59ba",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2104.12999"
+  ],
+  "questions": [
+   4898,
+   4900,
+   4910,
+   4911,
+   4913
+  ]
+ },
+ {
+  "document_id": "b1f245d46548983a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2210.07869"
+  ],
+  "questions": [
+   4898,
+   4900,
+   4910,
+   4911,
+   4913
+  ]
+ },
+ {
+  "document_id": "e6562a760d0de60b",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://logic.rwth-aachen.de/pub/graedel/cptYuri.pdf"
+  ],
+  "questions": [
+   4898,
+   4900,
+   4910,
+   4911,
+   4913
+  ]
+ },
+ {
+  "document_id": "b385ff7988d8c7cb",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://mcgill.scholaris.ca/server/api/core/bitstreams/1952223b-1afe-441e-b05a-6057c5f65c4d/content"
+  ],
+  "questions": [
+   4901,
+   4902,
+   4903,
+   4904,
+   4905,
+   4906,
+   4907,
+   4908,
+   4909
+  ]
+ },
+ {
+  "document_id": "57b9288476cf5c3d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2506.12022"
+  ],
+  "questions": [
+   4901,
+   4902,
+   4903,
+   4904,
+   4905,
+   4906,
+   4907,
+   4908,
+   4909
+  ]
+ },
+ {
+  "document_id": "a4c31a6155fe48f2",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://eccc.weizmann.ac.il/report/2026/049/"
+  ],
+  "questions": [
+   4901,
+   4902,
+   4903,
+   4904,
+   4905,
+   4906,
+   4907,
+   4908,
+   4909
+  ]
+ },
+ {
+  "document_id": "ca98c9a8494bef39",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://eccc.weizmann.ac.il/report/2026/190/"
+  ],
+  "questions": [
+   4901,
+   4902,
+   4903,
+   4904,
+   4905,
+   4906,
+   4907,
+   4908,
+   4909
+  ]
+ },
+ {
+  "document_id": "e8bed885f49dbb53",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2025.55"
+  ],
+  "questions": [
+   4901,
+   4902,
+   4903,
+   4904,
+   4905,
+   4906,
+   4907,
+   4908,
+   4909
+  ]
+ },
+ {
+  "document_id": "469ec906b2a3c85d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://eccc.weizmann.ac.il/report/2022/041/download"
+  ],
+  "questions": [
+   4901,
+   4902,
+   4903,
+   4904,
+   4905,
+   4906,
+   4907,
+   4908,
+   4909
+  ]
+ },
+ {
+  "document_id": "311f4afcb92aa323",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:8b614a9f-978e-4d53-b420-e1b928a7dc03/files/d8w32r626t"
+  ],
+  "questions": [
+   4914,
+   4915
+  ]
+ },
+ {
+  "document_id": "fe8108c6abe85476",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.cmup.pt/sites/default/files/2024-09/2306.12533v1.pdf"
+  ],
+  "questions": [
+   4914,
+   4915
+  ]
+ },
+ {
+  "document_id": "4b6c8100ae8858b8",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/math/0306380"
+  ],
+  "questions": [
+   4914,
+   4915
+  ]
+ },
+ {
+  "document_id": "f48b04bdd8081d38",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:f4668eab-9f91-4a0e-88d5-d31dc134ca51/files/d3n203z80f"
+  ],
+  "questions": [
+   4916,
+   4917,
+   4918,
+   4919,
+   4920
+  ]
+ },
+ {
+  "document_id": "5e6ddaca155eb67a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2209.14925v3"
+  ],
+  "questions": [
+   4916,
+   4917,
+   4918,
+   4919,
+   4920
+  ]
+ },
+ {
+  "document_id": "78683f310c4be37d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2505.20960v1"
+  ],
+  "questions": [
+   4916,
+   4917,
+   4918,
+   4919,
+   4920,
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
+  ]
+ },
+ {
+  "document_id": "42306386d74fd83e",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:0c8a7009-7e04-4f66-911b-298ad87061fb/files/m4392ba4e8cd5c325080c1cfdf63b2719"
+  ],
+  "questions": [
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
+  ]
+ },
+ {
+  "document_id": "2d03a1193ee73765",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1705.09348"
+  ],
+  "questions": [
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
+  ]
+ },
+ {
+  "document_id": "24c7846c2b9efdd4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2303.05976"
+  ],
+  "questions": [
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
+  ]
+ },
+ {
+  "document_id": "a20abef4f2ce3202",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://mathshistory.st-andrews.ac.uk/Groups/2013/slides/harlander.pdf"
+  ],
+  "questions": [
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
+  ]
+ },
+ {
+  "document_id": "29fd181fd8d193a8",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2508.20110"
+  ],
+  "questions": [
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
+  ]
+ },
+ {
+  "document_id": "1f1ea76f3780e666",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2412.05229"
+  ],
+  "questions": [
+   4921,
+   4922,
+   4923,
+   4924,
+   4925,
+   4926,
+   4927,
+   4928,
+   4929
+  ]
+ },
+ {
+  "document_id": "29e5ca61e05feca2",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2303.12172"
+  ],
+  "questions": [
+   4930,
+   4931
+  ]
+ },
+ {
+  "document_id": "8bd61ac67d4a6e84",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2308.09672"
+  ],
+  "questions": [
+   4930,
+   4931
+  ]
+ },
+ {
+  "document_id": "d3e1757a9c227602",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2404.15651"
+  ],
+  "questions": [
+   4930,
+   4931
+  ]
+ },
+ {
+  "document_id": "bcac0379d353c947",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2609.32710"
+  ],
+  "questions": [
+   4930,
+   4931
+  ]
+ },
+ {
+  "document_id": "bc2fe203c4faa618",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:258f6527-8424-4c22-8c79-da215bfdaf9e/files/dp2676w40n"
+  ],
+  "questions": [
+   4932
+  ]
+ },
+ {
+  "document_id": "539656e684dfddea",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2610.10511v1"
+  ],
+  "questions": [
+   4932
+  ]
+ },
+ {
+  "document_id": "4de6e799157d07bc",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://constantinkogler.com/Files/Kogler_Thesis.pdf"
+  ],
+  "questions": [
+   4932
+  ]
+ },
+ {
+  "document_id": "5cc5712eed9de8ed",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:d4e43aa9-50b2-4c98-a66a-b6ff285280b1/files/d4q77fr93f"
+  ],
+  "questions": [
+   4933,
+   4934
+  ]
+ },
+ {
+  "document_id": "ba71d301ade4cd71",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2203.05746"
+  ],
+  "questions": [
+   4933,
+   4934
+  ]
+ },
+ {
+  "document_id": "1f3a1ef2f78ab677",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2109.04387"
+  ],
+  "questions": [
+   4933,
+   4934
+  ]
+ },
+ {
+  "document_id": "3b7d7516d742fe36",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://msp.org/agt/2023/23-8/agt-v23-n8-p05-s.pdf"
+  ],
+  "questions": [
+   4933,
+   4934
+  ]
+ },
+ {
+  "document_id": "a2215546ab826935",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:4a7ab097-4de5-4b72-8fd6-41ff8861ffae/files/m252dfb5ac91a3fcb66c2138082de9f7d"
+  ],
+  "questions": [
+   4941,
+   4942,
+   4943,
+   4944,
+   4945
+  ]
+ },
+ {
+  "document_id": "42259b8197219fe5",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2602.22493v1"
+  ],
+  "questions": [
+   4941,
+   4942,
+   4943,
+   4944,
+   4945
+  ]
+ },
+ {
+  "document_id": "ff325a4f335e89f4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://msp.org/agt/2024/24-3/agt-v24-n3-p05-p.pdf"
+  ],
+  "questions": [
+   4941,
+   4942,
+   4943,
+   4944,
+   4945
+  ]
+ },
+ {
+  "document_id": "cb94e2c44a5a3ec6",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://msp.org/gt/2020/24-2/gt-v24-n2-p06-p.pdf"
+  ],
+  "questions": [
+   4941,
+   4942,
+   4943,
+   4944,
+   4945
+  ]
+ },
+ {
+  "document_id": "1d48ace0ef1da911",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www-fourier.univ-grenoble-alpes.fr/~py/Documents/Articles/J-Topology-2025-Llosa-Isenrich-Py.pdf"
+  ],
+  "questions": [
+   4941,
+   4942,
+   4943,
+   4944,
+   4945
+  ]
+ },
+ {
+  "document_id": "3a9710fc110c78bb",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://access.archive-ouverte.unige.ch/access/metadata/75b33610-c4c3-43b9-b3b1-0616ec439c2d/download"
+  ],
+  "questions": [
+   4946,
+   4947,
+   4948,
+   4949
+  ]
+ },
+ {
+  "document_id": "99e66e3d6982a8ff",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2508.20917v1"
+  ],
+  "questions": [
+   4946,
+   4947,
+   4948,
+   4949
+  ]
+ },
+ {
+  "document_id": "c791868be7db6aa0",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2610.08507v1"
+  ],
+  "questions": [
+   4946,
+   4947,
+   4948,
+   4949
+  ]
+ },
+ {
+  "document_id": "b7544495c247304c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.unige.ch/~smirnov/slides/slides-saw.pdf"
+  ],
+  "questions": [
+   4946,
+   4947,
+   4948,
+   4949
+  ]
+ },
+ {
+  "document_id": "b0d9bcaf35e9a99e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1006.5073"
+  ],
+  "questions": [
+   4946,
+   4947,
+   4948,
+   4949
+  ]
+ },
+ {
+  "document_id": "29edad3e94b25646",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://dash.harvard.edu/server/api/core/bitstreams/eae2bb34-cfd0-49c5-8724-4606eade1f5d/content"
+  ],
+  "questions": [
+   4950,
+   4951,
+   4952
+  ]
+ },
+ {
+  "document_id": "5a96890b7cf95c1c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2606.01587v1"
+  ],
+  "questions": [
+   4950,
+   4951,
+   4952
+  ]
+ },
+ {
+  "document_id": "d4e3a143f7c991e7",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2210.08795v2"
+  ],
+  "questions": [
+   4950,
+   4951,
+   4952
+  ]
+ },
+ {
+  "document_id": "451389f06309abc6",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2207.04628"
+  ],
+  "questions": [
+   4950,
+   4951,
+   4952
+  ]
+ },
+ {
+  "document_id": "7627d8273e8d62bd",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://eprints.whiterose.ac.uk/id/eprint/166940/1/One_SidedTranspositionsV2.pdf"
+  ],
+  "questions": [
+   4953
+  ]
+ },
+ {
+  "document_id": "432bdbcba47f92bc",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/math/0006118"
+  ],
+  "questions": [
+   4953
+  ]
+ },
+ {
+  "document_id": "2a4d208fe98989b7",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://math.mit.edu/~luisk/pdfs/cv.pdf"
+  ],
+  "questions": [
+   4954
+  ]
+ },
+ {
+  "document_id": "6dfdd07996ce6c30",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/0709.1241"
+  ],
+  "questions": [
+   4954
+  ]
+ },
+ {
+  "document_id": "dacce4825890ce5a",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/00692ee0-e6c9-41c5-9410-79354acbce71/download"
+  ],
+  "questions": [
+   4955,
+   4956,
+   4957,
+   4958,
+   4959,
+   4960,
+   4961,
+   4962,
+   4963
+  ]
+ },
+ {
+  "document_id": "0dcef6cf7b5118fc",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2409.11152"
+  ],
+  "questions": [
+   4955,
+   4956,
+   4957,
+   4958,
+   4959,
+   4960,
+   4961,
+   4962,
+   4963
+  ]
+ },
+ {
+  "document_id": "87432d054b120d32",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2507.14321"
+  ],
+  "questions": [
+   4955,
+   4956,
+   4957,
+   4958,
+   4959,
+   4960,
+   4961,
+   4962,
+   4963
+  ]
+ },
+ {
+  "document_id": "671be4f7bb21151c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2301.05202"
+  ],
+  "questions": [
+   4955,
+   4956,
+   4957,
+   4958,
+   4959,
+   4960,
+   4961,
+   4962,
+   4963
+  ]
+ },
+ {
+  "document_id": "d8eab031d10d0ca0",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2006.02668"
+  ],
+  "questions": [
+   4955,
+   4956,
+   4957,
+   4958,
+   4959,
+   4960,
+   4961,
+   4962,
+   4963
+  ]
+ },
+ {
+  "document_id": "7a33127e4f370bec",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://kam.mff.cuni.cz/~spring/media/papers/6/34ConjectureForDominationGame.pdf"
+  ],
+  "questions": [
+   4955,
+   4956,
+   4957,
+   4958,
+   4959,
+   4960,
+   4961,
+   4962,
+   4963
+  ]
+ },
+ {
+  "document_id": "38e8b986a58106ce",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://research-explorer.ista.ac.at/download/20482/20954/2026_EuropJourCombinatorics_Boyadzhiyska.pdf"
+  ],
+  "questions": [
+   4955,
+   4956,
+   4957,
+   4958,
+   4959,
+   4960,
+   4961,
+   4962,
+   4963
+  ]
+ },
+ {
+  "document_id": "9dfa98df318c1973",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://eyalkpl.github.io/website/papers/restrelm6-20.pdf"
+  ],
+  "questions": [
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
+  ]
+ },
+ {
+  "document_id": "52e424daf8ff7422",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://math.berkeley.edu/~goldberg/Papers/UAFromAD.pdf"
+  ],
+  "questions": [
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
+  ]
+ },
+ {
+  "document_id": "cd81fab941e19bb7",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://math.huji.ac.il/~omerbn/KunenLike.pdf"
+  ],
+  "questions": [
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
+  ]
+ },
+ {
+  "document_id": "e0e27627cb79a9d5",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2609.06803"
+  ],
+  "questions": [
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
+  ]
+ },
+ {
+  "document_id": "3e6d8ddb1516236c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://math.berkeley.edu/~goldberg/Papers/ApplicationsMagidorIteration.pdf"
+  ],
+  "questions": [
+   4964,
+   4965,
+   4966,
+   4967,
+   4968,
+   4969,
+   4970,
+   4971,
+   4972,
+   4973,
+   4974,
+   4975,
+   4976,
+   4977,
+   4978
+  ]
+ },
+ {
+  "document_id": "5ad2b2ec446c80a8",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://researchonline.lse.ac.uk/id/eprint/135101/1/Frankl_On-some-problems-combinatorial-geometry.pdf"
+  ],
+  "questions": [
+   4979,
+   4980,
+   4981,
+   4982,
+   4983,
+   4984,
+   4985,
+   4986,
+   4987,
+   4988,
+   4989,
+   4990
+  ]
+ },
+ {
+  "document_id": "25b1c70966512413",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://eprints.lse.ac.uk/101727/1/Embedding_graphs_in_Euclidean_space.pdf"
+  ],
+  "questions": [
+   4979,
+   4980,
+   4981,
+   4982,
+   4983,
+   4984,
+   4985,
+   4986,
+   4987,
+   4988,
+   4989,
+   4990
+  ]
+ },
+ {
+  "document_id": "95a6468ae4bb6895",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1912.00224"
+  ],
+  "questions": [
+   4979,
+   4980,
+   4981,
+   4982,
+   4983,
+   4984,
+   4985,
+   4986,
+   4987,
+   4988,
+   4989,
+   4990
+  ]
+ },
+ {
+  "document_id": "58412164a2d94679",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2609.36220"
+  ],
+  "questions": [
+   4979,
+   4980,
+   4981,
+   4982,
+   4983,
+   4984,
+   4985,
+   4986,
+   4987,
+   4988,
+   4989,
+   4990
+  ]
+ },
+ {
+  "document_id": "39fc0343465278fc",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2608.11736"
+  ],
+  "questions": [
+   4979,
+   4980,
+   4981,
+   4982,
+   4983,
+   4984,
+   4985,
+   4986,
+   4987,
+   4988,
+   4989,
+   4990
+  ]
+ },
+ {
+  "document_id": "273e7a36a988472c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2510.15677"
+  ],
+  "questions": [
+   4979,
+   4980,
+   4981,
+   4982,
+   4983,
+   4984,
+   4985,
+   4986,
+   4987,
+   4988,
+   4989,
+   4990
+  ]
+ },
+ {
+  "document_id": "23ea9c042e803c43",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2511.09673"
+  ],
+  "questions": [
+   4979,
+   4980,
+   4981,
+   4982,
+   4983,
+   4984,
+   4985,
+   4986,
+   4987,
+   4988,
+   4989,
+   4990
+  ]
+ },
+ {
+  "document_id": "6ae6ad39e9ebe310",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/ab7e50bd-aee4-40e6-bfcb-d7fea02cf517/download"
+  ],
+  "questions": [
+   4991,
+   4992,
+   4993
+  ]
+ },
+ {
+  "document_id": "026be0343d2c94b1",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1905.02676"
+  ],
+  "questions": [
+   4991,
+   4992,
+   4993
+  ]
+ },
+ {
+  "document_id": "1139533e3b504ec5",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2205.01755v3"
+  ],
+  "questions": [
+   4991,
+   4992,
+   4993
+  ]
+ },
+ {
+  "document_id": "0e096b5aa82f82bd",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2101.07885"
+  ],
+  "questions": [
+   4991,
+   4992,
+   4993
+  ]
+ },
+ {
+  "document_id": "973492ca09faec17",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://theses.hal.science/tel-01127079/document"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "a56277851f931e64",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.70675/0d9bae56z3585z495bzaa0cz148706f40749"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "c9a4ffb5124c46af",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1605.06054"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "6b72d14d51be3645",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://math.bme.hu/~gabor/PGG.pdf"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "95ba8c24ddaea255",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2511.01851v1"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "15888a36b481674e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2409.12283"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "8afdac5512d78168",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1412.0150"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "a1d372e95cf8388c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://alea.impa.br/articles/v14/14-15.pdf"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "942a4ae289923b6b",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/1803.09686v2"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "8114d73ee020011e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2310.10983"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "2a9db690359a2db8",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026/paper.pdf"
+  ],
+  "questions": [
+   4994,
+   4995,
+   4996,
+   4997,
+   4998,
+   4999,
+   5000
+  ]
+ },
+ {
+  "document_id": "a2471172e2efc4ec",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://researchonline.lse.ac.uk/id/eprint/135352/1/Natura_Exact-linear-programming-circuits.pdf"
+  ],
+  "questions": [
+   5001,
+   5002
+  ]
+ },
+ {
+  "document_id": "cb614654444397f1",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://bentonatura.com/assets/pdf/thesis.pdf"
+  ],
+  "questions": [
+   5001,
+   5002
+  ]
+ },
+ {
+  "document_id": "a2b6f077aad42436",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2111.07913"
+  ],
+  "questions": [
+   5001,
+   5002
+  ]
+ },
+ {
+  "document_id": "d63b1befa251aa80",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2602.05699"
+  ],
+  "questions": [
+   5001,
+   5002
+  ]
+ },
+ {
+  "document_id": "cba2fb1f5260fbf9",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://infoscience.epfl.ch/server/api/core/bitstreams/6cbdac52-36ab-428d-8133-fb116acc4769/content"
+  ],
+  "questions": [
+   5003,
+   5004,
+   5005,
+   5006,
+   5007,
+   5008
+  ]
+ },
+ {
+  "document_id": "7388f2137004468d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://egg.epfl.ch/~gheysens/articles/gheysens_thesis_version_finale.pdf"
+  ],
+  "questions": [
+   5003,
+   5004,
+   5005,
+   5006,
+   5007,
+   5008
+  ]
+ },
+ {
+  "document_id": "0015e4f6e5efe7d0",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://numdam.org/item/10.24033/asens.2317.pdf"
+  ],
+  "questions": [
+   5003,
+   5004,
+   5005,
+   5006,
+   5007,
+   5008
+  ]
+ },
+ {
+  "document_id": "7441f4d390a02167",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1509.01723"
+  ],
+  "questions": [
+   5003,
+   5004,
+   5005,
+   5006,
+   5007,
+   5008
+  ]
+ },
+ {
+  "document_id": "726e5ff5cead29e4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/0711.1643"
+  ],
+  "questions": [
+   5003,
+   5004,
+   5005,
+   5006,
+   5007,
+   5008
+  ]
+ },
+ {
+  "document_id": "e2a796024cd3ff4d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1903.12123"
+  ],
+  "questions": [
+   5003,
+   5004,
+   5005,
+   5006,
+   5007,
+   5008
+  ]
+ },
+ {
+  "document_id": "3f3e68ee92b39606",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://theses.hal.science/tel-01661290/document"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "bdc36f567e82858e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://doi.org/10.70675/a30ef089z38ffz44dbz894az4064e06964cb"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "d7cdf105c5792f88",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1604.01812"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "2c4a629c0f5f002b",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1605.02356"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "dfd823759c31df43",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2609.11482v1"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "3baa481dae40cb1f",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/1701.02332v4"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "2e9075133e6be2d1",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2110.06061"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "cc58a4f6654cf559",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2503.05496v1"
+  ],
+  "questions": [
+   5009,
+   5010,
+   5011
+  ]
+ },
+ {
+  "document_id": "0721e427ff6138e2",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/8d9c782b-f6e1-4de5-9505-54ac2d6a7627/download"
+  ],
+  "questions": [
+   5012,
+   5013,
+   5014,
+   5015,
+   5016,
+   5017,
+   5018,
+   5019
+  ]
+ },
+ {
+  "document_id": "0514d48880168073",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2210.13286"
+  ],
+  "questions": [
+   5014,
+   5015,
+   5016
+  ]
+ },
+ {
+  "document_id": "5fd70aec17147cb9",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://eprints.lse.ac.uk/120360/1/1_s2.0_S0195669823001002_main.pdf"
+  ],
+  "questions": [
+   5017,
+   5018
+  ]
+ },
+ {
+  "document_id": "768f40bd8ce6f743",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2208.13489"
+  ],
+  "questions": [
+   5017,
+   5018
+  ]
+ },
+ {
+  "document_id": "368876b93370013a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2604.22630v2"
+  ],
+  "questions": [
+   5017,
+   5018
+  ]
+ },
+ {
+  "document_id": "85d9d709d89f2e9a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2003.02754"
+  ],
+  "questions": [
+   5019
+  ]
+ },
+ {
+  "document_id": "fe4e3df14141cd5c",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/f145b6b3-ef5a-412e-b9c9-f8723aa14b33/download"
+  ],
+  "questions": [
+   5020,
+   5021,
+   5022,
+   5023,
+   5024,
+   5025
+  ]
+ },
+ {
+  "document_id": "5cda6b32f0352009",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2010.09081"
+  ],
+  "questions": [
+   5020,
+   5021
+  ]
+ },
+ {
+  "document_id": "b850d55c0996ddb3",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://research-information.bris.ac.uk/ws/portalfiles/portal/353082521/UCC_3_.pdf"
+  ],
+  "questions": [
+   5025
+  ]
+ },
+ {
+  "document_id": "bdc7bf4cb6da67f2",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2010.08795"
+  ],
+  "questions": [
+   5025
+  ]
+ },
+ {
+  "document_id": "12867dfb951f5bb1",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2610.02295"
+  ],
+  "questions": [
+   5025
+  ]
+ },
+ {
+  "document_id": "f8cdee667510c3b3",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2609.20876"
+  ],
+  "questions": [
+   5025
+  ]
+ },
+ {
+  "document_id": "b7f05f494af0ccfb",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.repository.cam.ac.uk/bitstreams/dbf27713-bf8e-4c3c-be50-28310cfbcbd8/download"
+  ],
+  "questions": [
+   5026,
+   5027,
+   5028,
+   5029,
+   5030,
+   5031,
+   5032,
+   5033,
+   5034,
+   5035
+  ]
+ },
+ {
+  "document_id": "e2fb0f58721efaba",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.39/LIPIcs.SoCG.2025.39.html"
+  ],
+  "questions": [
+   5026,
+   5027
+  ]
+ },
+ {
+  "document_id": "8bc07fdc0471cf11",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2508.10067"
+  ],
+  "questions": [
+   5026,
+   5027
+  ]
+ },
+ {
+  "document_id": "5b47fc026b3321e3",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2610.12392"
+  ],
+  "questions": [
+   5026,
+   5027
+  ]
+ },
+ {
+  "document_id": "b8a6b2a76fbeebc1",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1505.03697"
+  ],
+  "questions": [
+   5028
+  ]
+ },
+ {
+  "document_id": "c07899440629ff41",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i1p38/pdf/"
+  ],
+  "questions": [
+   5029
+  ]
+ },
+ {
+  "document_id": "07c7c9689d5845c6",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://jocg.org/index.php/jocg/article/download/2933/2627/7266"
+  ],
+  "questions": [
+   5030,
+   5031
+  ]
+ },
+ {
+  "document_id": "d6b4d3d0040689eb",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1311.7082"
+  ],
+  "questions": [
+   5032,
+   5033,
+   5034
+  ]
+ },
+ {
+  "document_id": "eb09be17638b7d9e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://discovery.ucl.ac.uk/id/eprint/10107276/1/triangle-corrected.pdf"
+  ],
+  "questions": [
+   5035
+  ]
+ },
+ {
+  "document_id": "172f0f805ca5c15a",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://access.archive-ouverte.unige.ch/access/metadata/a7f686f1-9db9-4410-bd9b-9b432bc9447b/download"
+  ],
+  "questions": [
+   5036,
+   5037,
+   5038,
+   5039,
+   5040,
+   5041
+  ]
+ },
+ {
+  "document_id": "e851c5d26ef4a6d9",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1509.08090"
+  ],
+  "questions": [
+   5036,
+   5037,
+   5038,
+   5039,
+   5040,
+   5041
+  ]
+ },
+ {
+  "document_id": "6541d8e8a202c7ec",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2410.06783v1"
+  ],
+  "questions": [
+   5036,
+   5037,
+   5038,
+   5039,
+   5040,
+   5041
+  ]
+ },
+ {
+  "document_id": "fa14f113e97aa19d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://msp.org/pjm/2026/343-1/pjm-v343-n1-p06-p.pdf"
+  ],
+  "questions": [
+   5036,
+   5037,
+   5038,
+   5039,
+   5040,
+   5041
+  ]
+ },
+ {
+  "document_id": "885ef845c1bd1c91",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://cage.ugent.be/~hvm/artikels/Ree-submit.pdf"
+  ],
+  "questions": [
+   5036,
+   5037,
+   5038,
+   5039,
+   5040,
+   5041
+  ]
+ },
+ {
+  "document_id": "944a16fff02e86a9",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2009.05134"
+  ],
+  "questions": [
+   5036,
+   5037,
+   5038,
+   5039,
+   5040,
+   5041
+  ]
+ },
+ {
+  "document_id": "988414b04d0aae15",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:b92af6aa-df2a-4634-882d-236d8f828857/files/m319cd33bf409a03bc95a499695769acf"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "4fea9c6f659947a4",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1401.6390"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "0ef2dd2bd454b149",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1212.3681"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "6ffbd934d5cb2e35",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/a/eberhard_s_1.html"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "0022a72e56f38010",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "47a75da9b8523e6a",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/2604.28116"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "7421cf5f90560459",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2201.09402"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "73a4d40c99609be7",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2003.01798"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "dedce204d211182e",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/2205.15191"
+  ],
+  "questions": [
+   5042,
+   5043,
+   5044
+  ]
+ },
+ {
+  "document_id": "d1cae9ac91e3ba6b",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://researchonline.lse.ac.uk/id/eprint/135365/1/Sgueglia_On-some-problems-extremal-hypergraph-theory.pdf"
+  ],
+  "questions": [
+   5045
+  ]
+ },
+ {
+  "document_id": "4e2f7200b1a43bf7",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2202.04344v2"
+  ],
+  "questions": [
+   5045
+  ]
+ },
+ {
+  "document_id": "74d1bbd9d772006a",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://mcgill.scholaris.ca/server/api/core/bitstreams/0145dbf0-b91b-4d5f-a338-5a20e57df291/content"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "56b974813ce89c9d",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1907.03515"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "b425fbe6477d5bc9",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2608.28348v1"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "0815de89dde89da2",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/pdf/1901.00930"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "9294ff8469ed36dc",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1509.08711"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "a785432a52b73931",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2505.21029v1"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "15064b6415b76b71",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2407.09275v2"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "99e2af301fd98288",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://github.com/openai/math/blob/main/preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf"
+  ],
+  "questions": [
+   5046,
+   5047,
+   5048
+  ]
+ },
+ {
+  "document_id": "cf0ead6b8b189cc8",
+  "role": "dissertation",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://ora.ox.ac.uk/objects/uuid:5666a58e-77ae-4709-a41e-587cf176840a/files/mae4adeee4071a7ed1861b93e08a87e9d"
+  ],
+  "questions": [
+   5049
+  ]
+ },
+ {
+  "document_id": "c13723607480546b",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/html/2408.14257v1"
+  ],
+  "questions": [
+   5049
+  ]
+ },
+ {
+  "document_id": "2dfba5f96d11905c",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://www.its.caltech.edu/~dconlon/norming.pdf"
+  ],
+  "questions": [
+   5049
+  ]
+ },
+ {
+  "document_id": "7d95c253fa2b3b11",
+  "role": "research-paper",
+  "author": null,
+  "title": null,
+  "urls": [
+   "https://arxiv.org/abs/1611.05784"
+  ],
+  "questions": [
+   5049
+  ]
+ },
+ {
   "document_id": "6301a6f5b519463b",
   "role": "dissertation",
   "author": "Nouf Abdulrahman Alqahtani",
@@ -65385,7 +69141,8 @@
   ],
   "questions": [
    1290,
-   1291
+   1291,
+   4953
   ]
  },
  {
@@ -65973,7 +69730,12 @@
    1368,
    1369,
    1370,
-   1371
+   1371,
+   4894,
+   4895,
+   4896,
+   4897,
+   4899
   ]
  },
  {
@@ -65986,7 +69748,12 @@
   ],
   "questions": [
    1370,
-   1371
+   1371,
+   4894,
+   4895,
+   4896,
+   4897,
+   4899
   ]
  },
  {
@@ -69249,7 +73016,16 @@
   "questions": [
    2428,
    2721,
-   2929
+   2929,
+   4848,
+   4852,
+   4853,
+   4854,
+   4855,
+   4856,
+   4857,
+   4889,
+   4890
   ]
  },
  {
@@ -70094,7 +73870,8 @@
   ],
   "questions": [
    3033,
-   3034
+   3034,
+   4893
   ]
  },
  {
