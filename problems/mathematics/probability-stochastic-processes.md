@@ -1,6 +1,6 @@
 # Probability & Stochastic Processes
 
-591 problems: 548 open, 21 open, partial results, 16 solved here: proved, 6 solved here: disproved.
+590 problems: 547 open, 21 open, partial results, 16 solved here: proved, 6 solved here: disproved.
 
 [All subjects](../README.md) · [Index by number](../INDEX.md)
 
@@ -575,7 +575,6 @@ Parts: [1](probability-stochastic-processes-part-1.md) · [2](probability-stocha
 | <a id="q4736"></a>[Q4736](probability-stochastic-processes-part-3.md#q4736) | Must Y have the law of Φ(X), for an i.i.d. field X over a standard Borel alphabet and measurable… | Open |
 | <a id="q4753"></a>[Q4753](probability-stochastic-processes-part-3.md#q4753) | For every ε∈(0,1), does τ\_n(ε)/n→0 in probability over the initial matching and subsequent… | Open |
 | <a id="q4812"></a>[Q4812](probability-stochastic-processes-part-3.md#q4812) | Does a convex belief-propagation image imply universal fields? | Open |
-| <a id="q4813"></a>[Q4813](probability-stochastic-processes-part-3.md#q4813) | Convex image of product measures for antiferromagnetic Potts | Open |
 | <a id="q4814"></a>[Q4814](probability-stochastic-processes-part-3.md#q4814) | Uniformly bounded cycle swaps connecting all 3D box tilings | Open |
 | <a id="q4826"></a>[Q4826](probability-stochastic-processes-part-3.md#q4826) | Metric removability of a deterministic vertical line in the directed landscape | Open |
 | <a id="q4827"></a>[Q4827](probability-stochastic-processes-part-3.md#q4827) | Hausdorff dimensions of LQG geodesic-network strata | Open |

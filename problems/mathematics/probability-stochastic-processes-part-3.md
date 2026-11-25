@@ -918,17 +918,11 @@ For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏
 
 ## Q4813. Convex image of product measures for antiferromagnetic Potts
 
-**Status:** Open · **Kind:** open problem (Question 3.9.18) · **Reviewed extraction** 2026-10-13
+**Status:** Disproved in an external research note · 2026-11-25 · [External resolutions](../EXCLUDED.md#q4813)
 
-Fix integers q≥3 and d≥2 and max{0,1−q/(d+1)}≤β≤1. For the antiferromagnetic Potts matrix A=11ᵀ−(1−β)I_q, is the image of product distributions on [q]^d under belief propagation F a convex subset of the probability simplex? For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏\_{i=1}^d A_{c,τ\_i}] and F_c(μ)=G_c(μ)/∑\_b G_b(μ), wherever the denominator is positive. Let F_prod be the image of product distributions and F_all the image of all distributions under F.
+Kuikui Liu, Nitya Mani and Francisco Pernice posed [Question 4](https://arxiv.org/pdf/2411.06541v2#page=12). Mani also posed [Question 3.9.18, p. 163](https://dspace.mit.edu/handle/1721.1/159909). For q = 4, d = 2 and β = 1/2, the attainable outputs (1,1,2,2)/6 and (3,3,2,4)/12 have an unattainable midpoint. More generally, the product image is nonconvex whenever d ≥ 2, q ≥ d + 2 and 0 ≤ β < 1. This resolves the universal convexity question. The proof uses the extremal-coordinate method of Lemma 2.2 and Remark 3 and identifies its equality case for the standard antiferromagnetic interaction.
 
-**Source.** Nitya Mani. *A probabilistic perspective on graph coloring*. Massachusetts Institute of Technology, 2025. [primary source](https://dspace.mit.edu/server/api/core/bitstreams/e66d55e0-26d8-4b82-8d6f-0c5fd49e5aa6/content) · [record](https://dspace.mit.edu/handle/1721.1/159909) Location: Question 3.9.18, printed p. 163 / PDF p. 163; Definition 3.9.2 and §3.8.1. Current paper: Question 4, arXiv:2411.06541v2.
-
-**Literature check.** Reviewed 2026-10-13: The current revision explicitly retains convexity as Question 4. Its large convex bulk theorem applies to distributions satisfying extra tail conditions and is not convexity of the entire product image. No later general resolution located.
-
-**Review evidence.** [Source and scope review](../../reviews/statement-promotions/2026-10-13/main-review.json) · [Promotion review index](../../reviews/statement-promotions/README.md).
-
-**Further links.** [1](https://arxiv.org/abs/2411.06541v2) · [2](https://arxiv.org/html/2411.06541v2#S4)
+[Kazeshima's two-page note (PDF)](https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/output/pdf/paper.pdf) · [Lean theorem](https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/PottsBPGeneral.lean) · [Kernel replay](https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/results/kernel-replay.log)
 
 <a id="q4814"></a>
 

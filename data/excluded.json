@@ -166,5 +166,17 @@
   "statement_ids": [
    "ede55ed8ecc1ee3fb171"
   ]
+ },
+ {
+  "number": 4813,
+  "title": "Convex image of product measures for antiferromagnetic Potts",
+  "solved_elsewhere": {
+   "how": "disproved in an external research note",
+   "what": "Kazeshima (2026-11-25), four-colour counterexample and Lean-checked nonconvexity for d ≥ 2, q ≥ d + 2 and 0 ≤ β < 1; answers Liu–Mani–Pernice Question 4 and Mani's thesis Question 3.9.18",
+   "url": "https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/output/pdf/paper.pdf"
+  },
+  "statement_ids": [
+   "088fb19120b77ab2a4b8"
+  ]
  }
 ]
