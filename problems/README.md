@@ -32,7 +32,7 @@
 | Mathematics | [Number Theory](mathematics/number-theory.md) | 157 | 140 | 17 | 0 |
 | Mathematics | [Numerical Analysis & Scientific Computing](mathematics/numerical-analysis-scientific-computing.md) | 1 | 1 | 0 | 0 |
 | Mathematics | [Optimization & Operations Research](mathematics/optimization-operations-research.md) | 116 | 105 | 5 | 6 |
-| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 591 | 548 | 21 | 22 |
+| Mathematics | [Probability & Stochastic Processes](mathematics/probability-stochastic-processes.md) | 590 | 547 | 21 | 22 |
 | Mathematics | [Queueing, Scheduling & Simulation](mathematics/queueing-scheduling-simulation.md) | 2 | 2 | 0 | 0 |
 | Mathematics | [Topology](mathematics/topology.md) | 338 | 336 | 2 | 0 |
 | Operations research | [Queueing, Scheduling & Simulation](operations_research/queueing-scheduling-simulation.md) | 6 | 6 | 0 | 0 |

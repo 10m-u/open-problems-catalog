@@ -1,6 +1,6 @@
 # Open problems from doctoral theses and recent papers
 
-A catalog of **5035 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
+A catalog of **5034 open mathematical problems**: conjectures and questions left open in doctoral theses and recent
 papers. Each comes with its source, its exact location in that source, a dated literature check, and every result
 obtained on it. Problems already solved elsewhere are left out.
 
@@ -18,11 +18,11 @@ The 249 reviewed extraction promotions (Q4801–Q5049) preserve their original s
 
 | | Count |
 |---|---:|
-| Problems in the catalog | 5035 |
-| Open | 4836 |
+| Problems in the catalog | 5034 |
+| Open | 4835 |
 | Open, with partial results here | 134 |
 | Solved here | 65 (46 proved, 19 disproved) |
-| Excluded as solved elsewhere | 14 |
+| Excluded as solved elsewhere | 15 |
 | Automatically extracted thesis statements (unreviewed) | 9556 |
 
 ## Where to start
@@ -69,7 +69,7 @@ mean an independently verified theorem. Reports of errors are welcome.
 
 ## What was excluded
 
-**14 numbered problems are excluded** ([list](problems/EXCLUDED.md)), for one of these reasons:
+**15 numbered problems are excluded** ([list](problems/EXCLUDED.md)), for one of these reasons:
 - the problem is resolved in the published literature;
 - a resolution is claimed in [openai/math](https://github.com/openai/math);
 - a recent preprint reports a closure;
@@ -86,4 +86,4 @@ the public domain under [CC0 1.0](LICENSE). The problem statements are quoted or
 cited theses and papers; their wording remains with those authors and is included for identification and
 reference. CC0 does not extend to it.
 
-Snapshot date: 2026-10-13.
+Snapshot date: 2026-10-13. A later status update records the external resolution of [Q4813](problems/EXCLUDED.md#q4813) on 2026-11-25.

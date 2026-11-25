@@ -166,5 +166,17 @@
   "statement_ids": [
    "ede55ed8ecc1ee3fb171"
   ]
+ },
+ {
+  "number": 4813,
+  "title": "Convex image of product measures for antiferromagnetic Potts",
+  "solved_elsewhere": {
+   "how": "disproved in an external research manuscript",
+   "what": "Kazeshima (2026-11-25), complete Lean-verified classification. For integers q ≥ 2 and d ≥ 1, and 0 ≤ β ≤ 1, the product BP image on inputs with positive normalizer is nonconvex exactly when q ≥ 4, d ≥ 2, and either 0 < β < 1 or both β = 0 and d ≤ q − 2. It is convex in every remaining case. At β = 0 and d ≥ q − 1 the image equals the entire probability simplex. Answers Liu–Mani–Pernice Question 4 and Mani's thesis Question 3.9.18.",
+   "url": "https://github.com/Kazeshima/solved-problems/blob/1055f67b311c13b8942266e8e4d9ee9a602f0437/problems/potts-bp-nonconvexity/classification/paper.pdf"
+  },
+  "statement_ids": [
+   "088fb19120b77ab2a4b8"
+  ]
  }
 ]
