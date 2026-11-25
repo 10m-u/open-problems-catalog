@@ -918,11 +918,15 @@ For an interaction matrix A and a distribution μ on [q]^d, set G_c(μ)=E_μ[∏
 
 ## Q4813. Convex image of product measures for antiferromagnetic Potts
 
-**Status:** Disproved in an external research note · 2026-11-25 · [External resolutions](../EXCLUDED.md#q4813)
+**Status:** Disproved in an external research manuscript · 2026-11-25 · [External resolutions](../EXCLUDED.md#q4813)
 
-Kuikui Liu, Nitya Mani and Francisco Pernice posed [Question 4](https://arxiv.org/pdf/2411.06541v2#page=12). Mani also posed [Question 3.9.18, p. 163](https://dspace.mit.edu/handle/1721.1/159909). For q = 4, d = 2 and β = 1/2, the attainable outputs (1,1,2,2)/6 and (3,3,2,4)/12 have an unattainable midpoint. More generally, the product image is nonconvex whenever d ≥ 2, q ≥ d + 2 and 0 ≤ β < 1. This resolves the universal convexity question. The proof uses the extremal-coordinate method of Lemma 2.2 and Remark 3 and identifies its equality case for the standard antiferromagnetic interaction.
+Kuikui Liu, Nitya Mani and Francisco Pernice posed [Question 4](https://arxiv.org/pdf/2411.06541v2#page=12). Nitya Mani also posed [Question 3.9.18, p. 163](https://dspace.mit.edu/handle/1721.1/159909). At q = 4, d = 2 and β = 1/2, the attainable outputs (1,1,2,2)/6 and (3,3,2,4)/12 have an unattainable midpoint.
 
-[Kazeshima's two-page note (PDF)](https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/output/pdf/paper.pdf) · [Lean theorem](https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/PottsBPGeneral.lean) · [Kernel replay](https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/results/kernel-replay.log)
+**Complete classification.** For integers q ≥ 2 and d ≥ 1, and 0 ≤ β ≤ 1, the product BP image on inputs with positive normalizer is nonconvex exactly when q ≥ 4, d ≥ 2, and either 0 < β < 1 or both β = 0 and d ≤ q − 2. It is convex in every remaining case. At β = 0 and d ≥ q − 1 the image equals the entire probability simplex. Intersecting these cases with the original question's parameter interval max(0, 1 − q/(d + 1)) ≤ β ≤ 1 gives its answer for every allowed triple. The proof credits the extremal-coordinate method in Lemma 2.2 and Remark 3 of the original paper.
+
+**Verification.** Lean 4.19.0 and Mathlib v4.19.0 check the theorem directly for the finite-expectation BP map. The Linux CI run checked 60 axiom reports and replayed 24 targets covering all 57 new named theorems and lemmas. The kernel rechecked 13,036 declarations above Lean Init. The final theorem uses only propositional extensionality, classical choice and quotient soundness.
+
+[Complete paper (PDF)](https://github.com/Kazeshima/solved-problems/blob/1055f67b311c13b8942266e8e4d9ee9a602f0437/problems/potts-bp-nonconvexity/classification/paper.pdf) · [LaTeX](https://github.com/Kazeshima/solved-problems/blob/1055f67b311c13b8942266e8e4d9ee9a602f0437/problems/potts-bp-nonconvexity/classification/paper.tex) · [Lean classification](https://github.com/Kazeshima/solved-problems/blob/1055f67b311c13b8942266e8e4d9ee9a602f0437/problems/potts-bp-nonconvexity/PottsClassification.lean#L98) · [Clean kernel replay](https://github.com/Kazeshima/solved-problems/blob/1055f67b311c13b8942266e8e4d9ee9a602f0437/problems/potts-bp-nonconvexity/classification/results/clean/classification-replay.log) · [Linux CI](https://github.com/Kazeshima/solved-problems/actions/runs/45708333941) · [Original two-page note (PDF)](https://github.com/Kazeshima/solved-problems/blob/22864a3858ae02109d70c5743de1ec145113cc0b/problems/potts-bp-nonconvexity/output/pdf/paper.pdf)
 
 <a id="q4814"></a>
 
